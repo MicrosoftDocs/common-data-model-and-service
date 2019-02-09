@@ -145,7 +145,7 @@ applicationCommon/Goal
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -184,7 +184,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -232,7 +232,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -271,7 +271,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -319,7 +319,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -367,7 +367,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -415,7 +415,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -454,7 +454,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -489,7 +489,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -528,7 +528,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -573,7 +573,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -618,7 +618,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -666,7 +666,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -711,7 +711,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -749,7 +749,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -787,7 +787,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -824,7 +824,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#goalId name="goalId">goalId</a>
 
 Unique identifier of the goal.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -863,7 +863,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Shows whether the goal is open, completed, or canceled. Completed and canceled goals are read-only and can't be edited.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -903,7 +903,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -927,7 +927,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Select the goal's status.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -970,7 +970,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -994,7 +994,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 ### <a href=#title name="title">title</a>
 
 Type a title or name that describes the goal.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -1034,7 +1034,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#fiscalPeriod name="fiscalPeriod">fiscalPeriod</a>
 
 Select the fiscal period for the goal.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -1074,7 +1074,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#fiscalPeriod_display name="fiscalPeriod_display">fiscalPeriod_display</a>
 
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -1098,7 +1098,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 ### <a href=#fiscalYear name="fiscalYear">fiscalYear</a>
 
 Select the fiscal year for the goal that's being tracked.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -1138,7 +1138,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#fiscalYear_display name="fiscalYear_display">fiscalYear_display</a>
 
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -1162,7 +1162,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 ### <a href=#goalStartDate name="goalStartDate">goalStartDate</a>
 
 Enter the date and time when the period for tracking the goal begins.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -1200,7 +1200,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#goalEndDate name="goalEndDate">goalEndDate</a>
 
 Enter the date when the goal ends.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -1238,7 +1238,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#goalOwnerIdType name="goalOwnerIdType">goalOwnerIdType</a>
 
 The name of the entity linked by goalOwnerId  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -1271,7 +1271,7 @@ Marks an attribute that contains the entity name or 'class' for the situation wh
 ### <a href=#goalOwnerId name="goalOwnerId">goalOwnerId</a>
 
 Choose the user or team responsible for meeting the goal.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -1316,7 +1316,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#parentGoalId name="parentGoalId">parentGoalId</a>
 
 Choose a parent goal if the current goal is a child goal. This sets up a parent-child relationship for reporting and analytics.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -1361,7 +1361,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Choose the local currency for the record to make sure budgets are reported in the correct currency.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -1406,7 +1406,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -1446,7 +1446,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#metricId name="metricId">metricId</a>
 
 Choose the metric for the goal. This metric determines how the goal is tracked.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -1491,7 +1491,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#treeId name="treeId">treeId</a>
 
 Unique identifier of the goal tree.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -1529,7 +1529,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#depth name="depth">depth</a>
 
 Depth of the goal in the tree.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -1567,7 +1567,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#stretchTargetMoney name="stretchTargetMoney">stretchTargetMoney</a>
 
 Select stretch target (money) of the goal to define a higher or difficult level of goal than the usual ones.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -1608,7 +1608,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#stretchTargetMoneyBase name="stretchTargetMoneyBase">stretchTargetMoneyBase</a>
 
 Shows the stretch target (money) in base currency to indicate a higher or difficult level of goal than the usual ones.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -1652,7 +1652,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#stretchTargetDecimal name="stretchTargetDecimal">stretchTargetDecimal</a>
 
 Select a stretch target (decimal) of the goal to define a higher or difficult level of goal than the usual ones.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -1692,7 +1692,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#stretchTargetInteger name="stretchTargetInteger">stretchTargetInteger</a>
 
 Select the stretch target (integer) of the goal to define a higher or difficult level of goal than the usual ones.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -1730,7 +1730,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#targetMoney name="targetMoney">targetMoney</a>
 
 Select a goal target (money) to track a monetary amount such as revenue from a product.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -1771,7 +1771,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#targetMoneyBase name="targetMoneyBase">targetMoneyBase</a>
 
 Shows the goal target of the money type in base currency.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -1815,7 +1815,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#targetDecimal name="targetDecimal">targetDecimal</a>
 
 Select a goal target of the decimal type to use for tracking data that include partial numbers, such as pounds sold of a product sold by weight.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -1855,7 +1855,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#targetInteger name="targetInteger">targetInteger</a>
 
 Select a goal target of the integer type to use for tracking anything countable in whole numbers, such as units sold.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -1893,7 +1893,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#actualMoney name="actualMoney">actualMoney</a>
 
 Shows the actual value (Money type) achieved towards the target as of the last rolled-up date. This field appears when the metric type of the goal is Amount and the amount data type is Money.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -1934,7 +1934,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#actualMoneyBase name="actualMoneyBase">actualMoneyBase</a>
 
 Shows the actual value (money type) in base currency to track goal results against the target.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -1978,7 +1978,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#customRollupFieldMoney name="customRollupFieldMoney">customRollupFieldMoney</a>
 
 Indicates a placeholder rollup field for a money value to track a third category of results other than actuals and in-progress results.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -2019,7 +2019,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#customRollupFieldMoneyBase name="customRollupFieldMoneyBase">customRollupFieldMoneyBase</a>
 
 Indicates a placeholder rollup field for a money value in base currency to track a third category of results other than actuals and in-progress results.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -2063,7 +2063,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#inProgressMoney name="inProgressMoney">inProgressMoney</a>
 
 Shows the in-progress value (money) against the target. This value could contribute to a goal, but is not counted yet as actual.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -2104,7 +2104,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#inProgressMoneyBase name="inProgressMoneyBase">inProgressMoneyBase</a>
 
 Shows the in-progress value (money) in base currency to track goal results against the target.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -2148,7 +2148,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#actualDecimal name="actualDecimal">actualDecimal</a>
 
 Shows the actual value (Decimal type) achieved towards the target as of the last rolled-up date. This field appears when the metric type of the goal is Amount and the amount data type is Decimal.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -2188,7 +2188,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#customRollupFieldDecimal name="customRollupFieldDecimal">customRollupFieldDecimal</a>
 
 Indicates a placeholder rollup field for a decimal value to track a third category of results other than actuals and in-progress results.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -2228,7 +2228,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#inProgressDecimal name="inProgressDecimal">inProgressDecimal</a>
 
 Shows the in-progress value (decimal) against the target. This value could contribute to a goal, but is not counted yet as actual.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -2268,7 +2268,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#actualInteger name="actualInteger">actualInteger</a>
 
 Shows the actual value (integer) achieved towards the target as of the last rolled-up date. This field appears when the metric type of the goal is Amount or Count and the amount data type is Integer.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -2306,7 +2306,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#customRollupFieldInteger name="customRollupFieldInteger">customRollupFieldInteger</a>
 
 Indicates a placeholder rollup field for an integer value to track a third category of results other than actuals and in-progress results.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -2344,7 +2344,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#inProgressInteger name="inProgressInteger">inProgressInteger</a>
 
 Shows the in-progress value (integer) against the target. This value could contribute to a goal, but is not counted yet as actual.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -2382,7 +2382,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#percentage name="percentage">percentage</a>
 
 Shows the percentage achieved against the target goal.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -2422,7 +2422,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#isFiscalPeriodGoal name="isFiscalPeriodGoal">isFiscalPeriodGoal</a>
 
 Select whether the goal period is a fiscal period or custom period.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -2457,7 +2457,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#considerOnlyGoalOwnersRecords name="considerOnlyGoalOwnersRecords">considerOnlyGoalOwnersRecords</a>
 
 Select whether only the goal owner's records, or all records, should be rolled up for goal results.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -2489,7 +2489,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#lastRolledupDate name="lastRolledupDate">lastRolledupDate</a>
 
 Shows the date and time when the goal was last rolled up. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -2527,7 +2527,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#targetString name="targetString">targetString</a>
 
 Target value of the goal.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -2567,7 +2567,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#stretchTargetString name="stretchTargetString">stretchTargetString</a>
 
 Stretch target value for all data types.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -2607,7 +2607,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#actualString name="actualString">actualString</a>
 
 Actual Value of the goal.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -2647,7 +2647,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#customRollupFieldString name="customRollupFieldString">customRollupFieldString</a>
 
 Placeholder rollup field for the goal.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -2687,7 +2687,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#inProgressString name="inProgressString">inProgressString</a>
 
 In-progress value of the goal.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -2727,7 +2727,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#amountDataType name="amountDataType">amountDataType</a>
 
 Data type of the amount.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -2767,7 +2767,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#amountDataType_display name="amountDataType_display">amountDataType_display</a>
 
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -2791,7 +2791,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 ### <a href=#isAmount name="isAmount">isAmount</a>
 
 Indicates whether the metric type is Count or Amount.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -2826,7 +2826,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#rollupQueryActualIntegerId name="rollupQueryActualIntegerId">rollupQueryActualIntegerId</a>
 
 Choose the query that will be used to calculate the actual data for the goal (integer).  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -2868,7 +2868,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#rollUpQueryActualMoneyId name="rollUpQueryActualMoneyId">rollUpQueryActualMoneyId</a>
 
 Choose the query that will be used to calculate the actual data for the goal (money).  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -2910,7 +2910,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#rollUpQueryActualDecimalId name="rollUpQueryActualDecimalId">rollUpQueryActualDecimalId</a>
 
 Choose the query that will be used to calculate the actual data for the goal (decimal).  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -2952,7 +2952,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#rollUpQueryCustomIntegerId name="rollUpQueryCustomIntegerId">rollUpQueryCustomIntegerId</a>
 
 Choose the query that will be used to calculate data for the custom rollup field (integer).  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -2994,7 +2994,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#rollUpQueryCustomMoneyId name="rollUpQueryCustomMoneyId">rollUpQueryCustomMoneyId</a>
 
 Choose the query that will be used to calculate data for the custom rollup field (money).  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -3036,7 +3036,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#rollUpQueryCustomDecimalId name="rollUpQueryCustomDecimalId">rollUpQueryCustomDecimalId</a>
 
 Choose the query that will be used to calculate data for the custom rollup field (decimal).  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -3078,7 +3078,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#rollUpQueryInprogressIntegerId name="rollUpQueryInprogressIntegerId">rollUpQueryInprogressIntegerId</a>
 
 Choose the query that will be used to calculate data for the in-progress rollup field (integer).  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -3120,7 +3120,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#rollUpQueryInprogressMoneyId name="rollUpQueryInprogressMoneyId">rollUpQueryInprogressMoneyId</a>
 
 Choose the query that will be used to calculate data for the in-progress rollup field (money).  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -3162,7 +3162,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#rollUpQueryInprogressDecimalId name="rollUpQueryInprogressDecimalId">rollUpQueryInprogressDecimalId</a>
 
 Choose the query that will be used to calculate data for the in-progress rollup field (decimal).  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -3204,7 +3204,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#rollupOnlyFromChildGoals name="rollupOnlyFromChildGoals">rollupOnlyFromChildGoals</a>
 
 Select whether the data should be rolled up only from the child goals.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -3236,7 +3236,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#goalWithErrorId name="goalWithErrorId">goalWithErrorId</a>
 
 Unique identifier of the goal that caused an error in the rollup of the goal hierarchy.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -3281,7 +3281,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#rollupErrorCode name="rollupErrorCode">rollupErrorCode</a>
 
 Error code associated with rollup.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -3319,7 +3319,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#computedTargetAsOfTodayPercentageAchieved name="computedTargetAsOfTodayPercentageAchieved">computedTargetAsOfTodayPercentageAchieved</a>
 
 Shows the expected value for percentage achieved against the target goal as of the current date.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -3359,7 +3359,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#computedTargetAsOfTodayMoney name="computedTargetAsOfTodayMoney">computedTargetAsOfTodayMoney</a>
 
 Shows the expected amount for actual value (money type) against the target goal as of the current date.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -3400,7 +3400,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#computedTargetAsOfTodayMoneyBase name="computedTargetAsOfTodayMoneyBase">computedTargetAsOfTodayMoneyBase</a>
 
 Shows the expected amount in base currency for actual value (money type) against the target goal as of the current date.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -3444,7 +3444,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#computedTargetAsOfTodayDecimal name="computedTargetAsOfTodayDecimal">computedTargetAsOfTodayDecimal</a>
 
 Shows the expected amount for actual value (decimal type) against the target goal.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -3484,7 +3484,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#computedTargetAsOfTodayInteger name="computedTargetAsOfTodayInteger">computedTargetAsOfTodayInteger</a>
 
 Shows the expected amount for actual value (integer type) against the target goal as of the current date.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -3522,7 +3522,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#isOverride name="isOverride">isOverride</a>
 
 Indicates whether the values of system rollup fields can be updated.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -3557,7 +3557,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isOverridden name="isOverridden">isOverridden</a>
 
 Select whether the system rollup fields are updated. If set to Yes, the next system rollup will not update the values of the rollup fields with the system calculated values.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 
@@ -3592,7 +3592,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#entityImageId name="entityImageId">entityImageId</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/Goal.cdm.json/Goal  
+First included in: <a href="Goal.md" target="_blank">applicationCommon/Goal</a>  
 
 #### Properties
 

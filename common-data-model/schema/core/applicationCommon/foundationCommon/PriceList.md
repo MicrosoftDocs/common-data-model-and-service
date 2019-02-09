@@ -86,7 +86,7 @@ foundationCommon/PriceList
 ### <a href=#priceLevelId name="priceLevelId">priceLevelId</a>
 
 Unique identifier of the price list.  
-First included in: /core/applicationCommon/foundationCommon/PriceList.cdm.json/PriceList  
+First included in: <a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>  
 
 #### Properties
 
@@ -125,7 +125,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/PriceList.cdm.json/PriceList  
+First included in: <a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>  
 
 #### Properties
 
@@ -164,7 +164,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Unique identifier of the user who created the price list.  
-First included in: /core/applicationCommon/foundationCommon/PriceList.cdm.json/PriceList  
+First included in: <a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>  
 
 #### Properties
 
@@ -209,7 +209,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: /core/applicationCommon/foundationCommon/PriceList.cdm.json/PriceList  
+First included in: <a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>  
 
 #### Properties
 
@@ -248,7 +248,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Unique identifier of the user who last modified the price list.  
-First included in: /core/applicationCommon/foundationCommon/PriceList.cdm.json/PriceList  
+First included in: <a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>  
 
 #### Properties
 
@@ -293,7 +293,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Unique identifier of the delegate user who created the pricelevel.  
-First included in: /core/applicationCommon/foundationCommon/PriceList.cdm.json/PriceList  
+First included in: <a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>  
 
 #### Properties
 
@@ -338,7 +338,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Unique identifier of the delegate user who last modified the pricelevel.  
-First included in: /core/applicationCommon/foundationCommon/PriceList.cdm.json/PriceList  
+First included in: <a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>  
 
 #### Properties
 
@@ -383,7 +383,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#organizationId name="organizationId">organizationId</a>
 
 Unique identifier for the organization  
-First included in: /core/applicationCommon/foundationCommon/PriceList.cdm.json/PriceList  
+First included in: <a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>  
 
 #### Properties
 
@@ -425,7 +425,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: /core/applicationCommon/foundationCommon/PriceList.cdm.json/PriceList  
+First included in: <a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>  
 
 #### Properties
 
@@ -461,7 +461,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: /core/applicationCommon/foundationCommon/PriceList.cdm.json/PriceList  
+First included in: <a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>  
 
 #### Properties
 
@@ -499,7 +499,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: /core/applicationCommon/foundationCommon/PriceList.cdm.json/PriceList  
+First included in: <a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>  
 
 #### Properties
 
@@ -538,7 +538,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/foundationCommon/PriceList.cdm.json/PriceList  
+First included in: <a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>  
 
 #### Properties
 
@@ -576,7 +576,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/PriceList.cdm.json/PriceList  
+First included in: <a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>  
 
 #### Properties
 
@@ -614,7 +614,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#name name="name">name</a>
 
 Name of the price list.  
-First included in: /core/applicationCommon/foundationCommon/PriceList.cdm.json/PriceList  
+First included in: <a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>  
 
 #### Properties
 
@@ -652,7 +652,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#beginDate name="beginDate">beginDate</a>
 
 Date on which the price list becomes effective.  
-First included in: /core/applicationCommon/foundationCommon/PriceList.cdm.json/PriceList  
+First included in: <a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>  
 
 #### Properties
 
@@ -690,7 +690,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#description name="description">description</a>
 
 Description of the price list.  
-First included in: /core/applicationCommon/foundationCommon/PriceList.cdm.json/PriceList  
+First included in: <a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>  
 
 #### Properties
 
@@ -730,7 +730,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#endDate name="endDate">endDate</a>
 
 Date that is the last day the price list is valid.  
-First included in: /core/applicationCommon/foundationCommon/PriceList.cdm.json/PriceList  
+First included in: <a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>  
 
 #### Properties
 
@@ -768,7 +768,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#freightTermsCode name="freightTermsCode">freightTermsCode</a>
 
 Freight terms for the price list.  
-First included in: /core/applicationCommon/foundationCommon/PriceList.cdm.json/PriceList  
+First included in: <a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>  
 
 #### Properties
 
@@ -808,7 +808,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#freightTermsCode_display name="freightTermsCode_display">freightTermsCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/PriceList.cdm.json/PriceList  
+First included in: <a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>  
 
 #### Properties
 
@@ -832,7 +832,7 @@ First included in: /core/applicationCommon/foundationCommon/PriceList.cdm.json/P
 ### <a href=#paymentMethodCode name="paymentMethodCode">paymentMethodCode</a>
 
 Payment terms to use with the price list.  
-First included in: /core/applicationCommon/foundationCommon/PriceList.cdm.json/PriceList  
+First included in: <a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>  
 
 #### Properties
 
@@ -872,7 +872,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#paymentMethodCode_display name="paymentMethodCode_display">paymentMethodCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/PriceList.cdm.json/PriceList  
+First included in: <a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>  
 
 #### Properties
 
@@ -896,7 +896,7 @@ First included in: /core/applicationCommon/foundationCommon/PriceList.cdm.json/P
 ### <a href=#shippingMethodCode name="shippingMethodCode">shippingMethodCode</a>
 
 Method of shipment for products in the price list.  
-First included in: /core/applicationCommon/foundationCommon/PriceList.cdm.json/PriceList  
+First included in: <a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>  
 
 #### Properties
 
@@ -936,7 +936,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#shippingMethodCode_display name="shippingMethodCode_display">shippingMethodCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/PriceList.cdm.json/PriceList  
+First included in: <a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>  
 
 #### Properties
 
@@ -960,7 +960,7 @@ First included in: /core/applicationCommon/foundationCommon/PriceList.cdm.json/P
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Status of the price list.  
-First included in: /core/applicationCommon/foundationCommon/PriceList.cdm.json/PriceList  
+First included in: <a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>  
 
 #### Properties
 
@@ -1000,7 +1000,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/PriceList.cdm.json/PriceList  
+First included in: <a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>  
 
 #### Properties
 
@@ -1024,7 +1024,7 @@ First included in: /core/applicationCommon/foundationCommon/PriceList.cdm.json/P
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Reason for the status of the price list.  
-First included in: /core/applicationCommon/foundationCommon/PriceList.cdm.json/PriceList  
+First included in: <a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>  
 
 #### Properties
 
@@ -1067,7 +1067,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/PriceList.cdm.json/PriceList  
+First included in: <a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>  
 
 #### Properties
 
@@ -1091,7 +1091,7 @@ First included in: /core/applicationCommon/foundationCommon/PriceList.cdm.json/P
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.  
-First included in: /core/applicationCommon/foundationCommon/PriceList.cdm.json/PriceList  
+First included in: <a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>  
 
 #### Properties
 
@@ -1131,7 +1131,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Unique identifier of the currency associated with the price level.  
-First included in: /core/applicationCommon/foundationCommon/PriceList.cdm.json/PriceList  
+First included in: <a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>  
 
 #### Properties
 

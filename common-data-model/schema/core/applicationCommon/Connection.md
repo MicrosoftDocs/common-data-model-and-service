@@ -96,7 +96,7 @@ applicationCommon/Connection
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: /core/applicationCommon/Connection.cdm.json/Connection  
+First included in: <a href="Connection.md" target="_blank">applicationCommon/Connection</a>  
 
 #### Properties
 
@@ -141,7 +141,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user who owns the connection.  
-First included in: /core/applicationCommon/Connection.cdm.json/Connection  
+First included in: <a href="Connection.md" target="_blank">applicationCommon/Connection</a>  
 
 #### Properties
 
@@ -183,7 +183,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Reason for the status of the connection.  
-First included in: /core/applicationCommon/Connection.cdm.json/Connection  
+First included in: <a href="Connection.md" target="_blank">applicationCommon/Connection</a>  
 
 #### Properties
 
@@ -226,7 +226,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: /core/applicationCommon/Connection.cdm.json/Connection  
+First included in: <a href="Connection.md" target="_blank">applicationCommon/Connection</a>  
 
 #### Properties
 
@@ -250,7 +250,7 @@ First included in: /core/applicationCommon/Connection.cdm.json/Connection
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: /core/applicationCommon/Connection.cdm.json/Connection  
+First included in: <a href="Connection.md" target="_blank">applicationCommon/Connection</a>  
 
 #### Properties
 
@@ -288,7 +288,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#connectionId name="connectionId">connectionId</a>
 
 Unique identifier of the connection.  
-First included in: /core/applicationCommon/Connection.cdm.json/Connection  
+First included in: <a href="Connection.md" target="_blank">applicationCommon/Connection</a>  
 
 #### Properties
 
@@ -327,7 +327,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version number of the connection.  
-First included in: /core/applicationCommon/Connection.cdm.json/Connection  
+First included in: <a href="Connection.md" target="_blank">applicationCommon/Connection</a>  
 
 #### Properties
 
@@ -363,7 +363,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#effectiveStart name="effectiveStart">effectiveStart</a>
 
 Enter the start date of the connection.  
-First included in: /core/applicationCommon/Connection.cdm.json/Connection  
+First included in: <a href="Connection.md" target="_blank">applicationCommon/Connection</a>  
 
 #### Properties
 
@@ -401,7 +401,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isMaster name="isMaster">isMaster</a>
 
 Indicates that this is the master record.  
-First included in: /core/applicationCommon/Connection.cdm.json/Connection  
+First included in: <a href="Connection.md" target="_blank">applicationCommon/Connection</a>  
 
 #### Properties
 
@@ -433,7 +433,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: /core/applicationCommon/Connection.cdm.json/Connection  
+First included in: <a href="Connection.md" target="_blank">applicationCommon/Connection</a>  
 
 #### Properties
 
@@ -472,7 +472,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: /core/applicationCommon/Connection.cdm.json/Connection  
+First included in: <a href="Connection.md" target="_blank">applicationCommon/Connection</a>  
 
 #### Properties
 
@@ -517,7 +517,7 @@ contains a User or Team ID
 ### <a href=#relatedConnectionId name="relatedConnectionId">relatedConnectionId</a>
 
 Unique identifier for the reciprocal connection record.  
-First included in: /core/applicationCommon/Connection.cdm.json/Connection  
+First included in: <a href="Connection.md" target="_blank">applicationCommon/Connection</a>  
 
 #### Properties
 
@@ -562,7 +562,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#description name="description">description</a>
 
 Type additional information to describe the connection, such as the length or quality of the relationship.  
-First included in: /core/applicationCommon/Connection.cdm.json/Connection  
+First included in: <a href="Connection.md" target="_blank">applicationCommon/Connection</a>  
 
 #### Properties
 
@@ -602,7 +602,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Shows the business unit that the record owner belongs to.  
-First included in: /core/applicationCommon/Connection.cdm.json/Connection  
+First included in: <a href="Connection.md" target="_blank">applicationCommon/Connection</a>  
 
 #### Properties
 
@@ -647,7 +647,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: /core/applicationCommon/Connection.cdm.json/Connection  
+First included in: <a href="Connection.md" target="_blank">applicationCommon/Connection</a>  
 
 #### Properties
 
@@ -686,7 +686,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#record2IdObjectTypeCode name="record2IdObjectTypeCode">record2IdObjectTypeCode</a>
 
 The name of the entity linked by record2Id  
-First included in: /core/applicationCommon/Connection.cdm.json/Connection  
+First included in: <a href="Connection.md" target="_blank">applicationCommon/Connection</a>  
 
 #### Properties
 
@@ -719,7 +719,7 @@ Marks an attribute that contains the entity name or 'class' for the situation wh
 ### <a href=#record2Id name="record2Id">record2Id</a>
 
 Unique identifier of the target record.  
-First included in: /core/applicationCommon/Connection.cdm.json/Connection  
+First included in: <a href="Connection.md" target="_blank">applicationCommon/Connection</a>  
 
 #### Properties
 
@@ -764,7 +764,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: /core/applicationCommon/Connection.cdm.json/Connection  
+First included in: <a href="Connection.md" target="_blank">applicationCommon/Connection</a>  
 
 #### Properties
 
@@ -809,7 +809,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#record2RoleId name="record2RoleId">record2RoleId</a>
 
 Choose the secondary party's role or relationship with the primary party.  
-First included in: /core/applicationCommon/Connection.cdm.json/Connection  
+First included in: <a href="Connection.md" target="_blank">applicationCommon/Connection</a>  
 
 #### Properties
 
@@ -854,7 +854,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#effectiveEnd name="effectiveEnd">effectiveEnd</a>
 
 Enter the end date of the connection.  
-First included in: /core/applicationCommon/Connection.cdm.json/Connection  
+First included in: <a href="Connection.md" target="_blank">applicationCommon/Connection</a>  
 
 #### Properties
 
@@ -892,7 +892,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#record1RoleId name="record1RoleId">record1RoleId</a>
 
 Choose the primary party's role or relationship with the second party.  
-First included in: /core/applicationCommon/Connection.cdm.json/Connection  
+First included in: <a href="Connection.md" target="_blank">applicationCommon/Connection</a>  
 
 #### Properties
 
@@ -937,7 +937,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.  
-First included in: /core/applicationCommon/Connection.cdm.json/Connection  
+First included in: <a href="Connection.md" target="_blank">applicationCommon/Connection</a>  
 
 #### Properties
 
@@ -976,7 +976,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.  
-First included in: /core/applicationCommon/Connection.cdm.json/Connection  
+First included in: <a href="Connection.md" target="_blank">applicationCommon/Connection</a>  
 
 #### Properties
 
@@ -1015,7 +1015,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#record1IdObjectTypeCode name="record1IdObjectTypeCode">record1IdObjectTypeCode</a>
 
 The name of the entity linked by record1Id  
-First included in: /core/applicationCommon/Connection.cdm.json/Connection  
+First included in: <a href="Connection.md" target="_blank">applicationCommon/Connection</a>  
 
 #### Properties
 
@@ -1048,7 +1048,7 @@ Marks an attribute that contains the entity name or 'class' for the situation wh
 ### <a href=#record1Id name="record1Id">record1Id</a>
 
 Unique identifier of the source record.  
-First included in: /core/applicationCommon/Connection.cdm.json/Connection  
+First included in: <a href="Connection.md" target="_blank">applicationCommon/Connection</a>  
 
 #### Properties
 
@@ -1093,7 +1093,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Shows whether the connection is active or inactive. Inactive connections are read-only and can't be edited unless they are reactivated.  
-First included in: /core/applicationCommon/Connection.cdm.json/Connection  
+First included in: <a href="Connection.md" target="_blank">applicationCommon/Connection</a>  
 
 #### Properties
 
@@ -1133,7 +1133,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: /core/applicationCommon/Connection.cdm.json/Connection  
+First included in: <a href="Connection.md" target="_blank">applicationCommon/Connection</a>  
 
 #### Properties
 
@@ -1157,7 +1157,7 @@ First included in: /core/applicationCommon/Connection.cdm.json/Connection
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: /core/applicationCommon/Connection.cdm.json/Connection  
+First included in: <a href="Connection.md" target="_blank">applicationCommon/Connection</a>  
 
 #### Properties
 
@@ -1202,7 +1202,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: /core/applicationCommon/Connection.cdm.json/Connection  
+First included in: <a href="Connection.md" target="_blank">applicationCommon/Connection</a>  
 
 #### Properties
 
@@ -1247,7 +1247,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier of the team who owns the connection.  
-First included in: /core/applicationCommon/Connection.cdm.json/Connection  
+First included in: <a href="Connection.md" target="_blank">applicationCommon/Connection</a>  
 
 #### Properties
 
@@ -1289,7 +1289,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Choose the local currency for the record to make sure budgets are reported in the correct currency.  
-First included in: /core/applicationCommon/Connection.cdm.json/Connection  
+First included in: <a href="Connection.md" target="_blank">applicationCommon/Connection</a>  
 
 #### Properties
 
@@ -1334,7 +1334,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.  
-First included in: /core/applicationCommon/Connection.cdm.json/Connection  
+First included in: <a href="Connection.md" target="_blank">applicationCommon/Connection</a>  
 
 #### Properties
 
@@ -1374,7 +1374,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#record2ObjectTypeCode name="record2ObjectTypeCode">record2ObjectTypeCode</a>
 
 Shows the record type of the target record.  
-First included in: /core/applicationCommon/Connection.cdm.json/Connection  
+First included in: <a href="Connection.md" target="_blank">applicationCommon/Connection</a>  
 
 #### Properties
 
@@ -1414,7 +1414,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#record2ObjectTypeCode_display name="record2ObjectTypeCode_display">record2ObjectTypeCode_display</a>
 
-First included in: /core/applicationCommon/Connection.cdm.json/Connection  
+First included in: <a href="Connection.md" target="_blank">applicationCommon/Connection</a>  
 
 #### Properties
 
@@ -1438,7 +1438,7 @@ First included in: /core/applicationCommon/Connection.cdm.json/Connection
 ### <a href=#record1ObjectTypeCode name="record1ObjectTypeCode">record1ObjectTypeCode</a>
 
 Shows the record type of the source record.  
-First included in: /core/applicationCommon/Connection.cdm.json/Connection  
+First included in: <a href="Connection.md" target="_blank">applicationCommon/Connection</a>  
 
 #### Properties
 
@@ -1478,7 +1478,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#record1ObjectTypeCode_display name="record1ObjectTypeCode_display">record1ObjectTypeCode_display</a>
 
-First included in: /core/applicationCommon/Connection.cdm.json/Connection  
+First included in: <a href="Connection.md" target="_blank">applicationCommon/Connection</a>  
 
 #### Properties
 
@@ -1502,7 +1502,7 @@ First included in: /core/applicationCommon/Connection.cdm.json/Connection
 ### <a href=#name name="name">name</a>
 
 Name of the connection.  
-First included in: /core/applicationCommon/Connection.cdm.json/Connection  
+First included in: <a href="Connection.md" target="_blank">applicationCommon/Connection</a>  
 
 #### Properties
 
@@ -1543,7 +1543,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#entityImageId name="entityImageId">entityImageId</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/Connection.cdm.json/Connection  
+First included in: <a href="Connection.md" target="_blank">applicationCommon/Connection</a>  
 
 #### Properties
 

@@ -59,7 +59,7 @@ crmCommon/ContactLeads
 ### <a href=#contactLeadId name="contactLeadId">contactLeadId</a>
 
 Unique identifier of the leads for the contact.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/ContactLeads.cdm.json/ContactLeads  
+First included in: <a href="ContactLeads.md" target="_blank">crmCommon/ContactLeads</a>  
 
 #### Properties
 
@@ -95,7 +95,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/ContactLeads.cdm.json/ContactLeads  
+First included in: <a href="ContactLeads.md" target="_blank">crmCommon/ContactLeads</a>  
 
 #### Properties
 
@@ -131,7 +131,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/ContactLeads.cdm.json/ContactLeads  
+First included in: <a href="ContactLeads.md" target="_blank">crmCommon/ContactLeads</a>  
 
 #### Properties
 
@@ -169,7 +169,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/ContactLeads.cdm.json/ContactLeads  
+First included in: <a href="ContactLeads.md" target="_blank">crmCommon/ContactLeads</a>  
 
 #### Properties
 
@@ -208,7 +208,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/ContactLeads.cdm.json/ContactLeads  
+First included in: <a href="ContactLeads.md" target="_blank">crmCommon/ContactLeads</a>  
 
 #### Properties
 
@@ -246,7 +246,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/ContactLeads.cdm.json/ContactLeads  
+First included in: <a href="ContactLeads.md" target="_blank">crmCommon/ContactLeads</a>  
 
 #### Properties
 
@@ -284,7 +284,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#name name="name">name</a>
 
 name  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/ContactLeads.cdm.json/ContactLeads  
+First included in: <a href="ContactLeads.md" target="_blank">crmCommon/ContactLeads</a>  
 
 #### Properties
 
@@ -324,7 +324,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#contactId name="contactId">contactId</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/ContactLeads.cdm.json/ContactLeads  
+First included in: <a href="ContactLeads.md" target="_blank">crmCommon/ContactLeads</a>  
 
 #### Properties
 
@@ -355,7 +355,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 
 ### <a href=#leadId name="leadId">leadId</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/ContactLeads.cdm.json/ContactLeads  
+First included in: <a href="ContactLeads.md" target="_blank">crmCommon/ContactLeads</a>  
 
 #### Properties
 

@@ -79,7 +79,7 @@ service/FacilityEquipment
 ### <a href=#equipmentId name="equipmentId">equipmentId</a>
 
 Unique identifier of the facility/equipment.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/FacilityEquipment.cdm.json/FacilityEquipment  
+First included in: <a href="FacilityEquipment.md" target="_blank">service/FacilityEquipment</a>  
 
 #### Properties
 
@@ -118,7 +118,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/FacilityEquipment.cdm.json/FacilityEquipment  
+First included in: <a href="FacilityEquipment.md" target="_blank">service/FacilityEquipment</a>  
 
 #### Properties
 
@@ -157,7 +157,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Unique identifier of the user who created the facility/equipment entry.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/FacilityEquipment.cdm.json/FacilityEquipment  
+First included in: <a href="FacilityEquipment.md" target="_blank">service/FacilityEquipment</a>  
 
 #### Properties
 
@@ -202,7 +202,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/FacilityEquipment.cdm.json/FacilityEquipment  
+First included in: <a href="FacilityEquipment.md" target="_blank">service/FacilityEquipment</a>  
 
 #### Properties
 
@@ -241,7 +241,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Unique identifier of the user who last modified the facility/equipment.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/FacilityEquipment.cdm.json/FacilityEquipment  
+First included in: <a href="FacilityEquipment.md" target="_blank">service/FacilityEquipment</a>  
 
 #### Properties
 
@@ -286,7 +286,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Unique identifier of the delegate user who created the equipment.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/FacilityEquipment.cdm.json/FacilityEquipment  
+First included in: <a href="FacilityEquipment.md" target="_blank">service/FacilityEquipment</a>  
 
 #### Properties
 
@@ -331,7 +331,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Unique identifier of the delegate user who last modified the equipment.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/FacilityEquipment.cdm.json/FacilityEquipment  
+First included in: <a href="FacilityEquipment.md" target="_blank">service/FacilityEquipment</a>  
 
 #### Properties
 
@@ -376,7 +376,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#businessUnitId name="businessUnitId">businessUnitId</a>
 
 Business Unit Id  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/FacilityEquipment.cdm.json/FacilityEquipment  
+First included in: <a href="FacilityEquipment.md" target="_blank">service/FacilityEquipment</a>  
 
 #### Properties
 
@@ -418,7 +418,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/FacilityEquipment.cdm.json/FacilityEquipment  
+First included in: <a href="FacilityEquipment.md" target="_blank">service/FacilityEquipment</a>  
 
 #### Properties
 
@@ -454,7 +454,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/FacilityEquipment.cdm.json/FacilityEquipment  
+First included in: <a href="FacilityEquipment.md" target="_blank">service/FacilityEquipment</a>  
 
 #### Properties
 
@@ -492,7 +492,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/FacilityEquipment.cdm.json/FacilityEquipment  
+First included in: <a href="FacilityEquipment.md" target="_blank">service/FacilityEquipment</a>  
 
 #### Properties
 
@@ -531,7 +531,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/FacilityEquipment.cdm.json/FacilityEquipment  
+First included in: <a href="FacilityEquipment.md" target="_blank">service/FacilityEquipment</a>  
 
 #### Properties
 
@@ -569,7 +569,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/FacilityEquipment.cdm.json/FacilityEquipment  
+First included in: <a href="FacilityEquipment.md" target="_blank">service/FacilityEquipment</a>  
 
 #### Properties
 
@@ -607,7 +607,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#name name="name">name</a>
 
 Name of the facility/equipment.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/FacilityEquipment.cdm.json/FacilityEquipment  
+First included in: <a href="FacilityEquipment.md" target="_blank">service/FacilityEquipment</a>  
 
 #### Properties
 
@@ -645,7 +645,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#calendarId name="calendarId">calendarId</a>
 
 Fiscal calendar associated with the facility/equipment.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/FacilityEquipment.cdm.json/FacilityEquipment  
+First included in: <a href="FacilityEquipment.md" target="_blank">service/FacilityEquipment</a>  
 
 #### Properties
 
@@ -684,7 +684,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#description name="description">description</a>
 
 Description of the facility/equipment.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/FacilityEquipment.cdm.json/FacilityEquipment  
+First included in: <a href="FacilityEquipment.md" target="_blank">service/FacilityEquipment</a>  
 
 #### Properties
 
@@ -724,7 +724,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#displayInServiceViews name="displayInServiceViews">displayInServiceViews</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/FacilityEquipment.cdm.json/FacilityEquipment  
+First included in: <a href="FacilityEquipment.md" target="_blank">service/FacilityEquipment</a>  
 
 #### Properties
 
@@ -759,7 +759,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#emailAddress name="emailAddress">emailAddress</a>
 
 Email address of person to contact about the use of the facility/equipment.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/FacilityEquipment.cdm.json/FacilityEquipment  
+First included in: <a href="FacilityEquipment.md" target="_blank">service/FacilityEquipment</a>  
 
 #### Properties
 
@@ -800,7 +800,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#isDisabled name="isDisabled">isDisabled</a>
 
 Whether the facility/equipment is disabled or operational.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/FacilityEquipment.cdm.json/FacilityEquipment  
+First included in: <a href="FacilityEquipment.md" target="_blank">service/FacilityEquipment</a>  
 
 #### Properties
 
@@ -835,7 +835,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#organizationId name="organizationId">organizationId</a>
 
 Unique identifier of the parent business unit.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/FacilityEquipment.cdm.json/FacilityEquipment  
+First included in: <a href="FacilityEquipment.md" target="_blank">service/FacilityEquipment</a>  
 
 #### Properties
 
@@ -877,7 +877,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#siteId name="siteId">siteId</a>
 
 Site where the facility/equipment is located.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/FacilityEquipment.cdm.json/FacilityEquipment  
+First included in: <a href="FacilityEquipment.md" target="_blank">service/FacilityEquipment</a>  
 
 #### Properties
 
@@ -922,7 +922,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#skills name="skills">skills</a>
 
 Skills needed to operate the facility/equipment.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/FacilityEquipment.cdm.json/FacilityEquipment  
+First included in: <a href="FacilityEquipment.md" target="_blank">service/FacilityEquipment</a>  
 
 #### Properties
 
@@ -962,7 +962,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#timeZoneCode name="timeZoneCode">timeZoneCode</a>
 
 Local time zone where the facility/equipment is located.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/FacilityEquipment.cdm.json/FacilityEquipment  
+First included in: <a href="FacilityEquipment.md" target="_blank">service/FacilityEquipment</a>  
 
 #### Properties
 
@@ -1000,7 +1000,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Exchange rate for the currency associated with the equipment with respect to the base currency.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/FacilityEquipment.cdm.json/FacilityEquipment  
+First included in: <a href="FacilityEquipment.md" target="_blank">service/FacilityEquipment</a>  
 
 #### Properties
 
@@ -1040,7 +1040,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Unique identifier of the currency associated with the equipment.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/FacilityEquipment.cdm.json/FacilityEquipment  
+First included in: <a href="FacilityEquipment.md" target="_blank">service/FacilityEquipment</a>  
 
 #### Properties
 

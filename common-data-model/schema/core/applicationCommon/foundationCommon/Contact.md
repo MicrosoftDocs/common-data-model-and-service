@@ -279,7 +279,7 @@ foundationCommon/Contact
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -318,7 +318,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -366,7 +366,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -405,7 +405,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -453,7 +453,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -501,7 +501,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -549,7 +549,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -588,7 +588,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -622,7 +622,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -651,7 +651,7 @@ contains a User or Team ID
 
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -687,7 +687,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -732,7 +732,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -780,7 +780,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -825,7 +825,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -863,7 +863,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -901,7 +901,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -938,7 +938,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#contactId name="contactId">contactId</a>
 
 Unique identifier of the contact.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -977,7 +977,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#customerSizeCode name="customerSizeCode">customerSizeCode</a>
 
 Select the size of the contact's company for segmentation and reporting purposes.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -1017,7 +1017,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#customerSizeCode_display name="customerSizeCode_display">customerSizeCode_display</a>
 
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -1041,7 +1041,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 ### <a href=#customerTypeCode name="customerTypeCode">customerTypeCode</a>
 
 Select the category that best describes the relationship between the contact and your organization.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -1081,7 +1081,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#customerTypeCode_display name="customerTypeCode_display">customerTypeCode_display</a>
 
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -1105,7 +1105,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 ### <a href=#preferredContactMethodCode name="preferredContactMethodCode">preferredContactMethodCode</a>
 
 Select the preferred method of contact.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -1145,7 +1145,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#preferredContactMethodCode_display name="preferredContactMethodCode_display">preferredContactMethodCode_display</a>
 
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -1169,7 +1169,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 ### <a href=#leadSourceCode name="leadSourceCode">leadSourceCode</a>
 
 Select the primary marketing source that directed the contact to your organization.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -1209,7 +1209,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#leadSourceCode_display name="leadSourceCode_display">leadSourceCode_display</a>
 
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -1233,7 +1233,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 ### <a href=#paymentTermsCode name="paymentTermsCode">paymentTermsCode</a>
 
 Select the payment terms to indicate when the customer needs to pay the total amount.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -1273,7 +1273,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#paymentTermsCode_display name="paymentTermsCode_display">paymentTermsCode_display</a>
 
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -1297,7 +1297,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 ### <a href=#shippingMethodCode name="shippingMethodCode">shippingMethodCode</a>
 
 Select a shipping method for deliveries sent to this address.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -1337,7 +1337,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#shippingMethodCode_display name="shippingMethodCode_display">shippingMethodCode_display</a>
 
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -1361,7 +1361,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 ### <a href=#accountId name="accountId">accountId</a>
 
 Unique identifier of the account with which the contact is associated.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -1403,7 +1403,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#participatesInWorkflow name="participatesInWorkflow">participatesInWorkflow</a>
 
 Shows whether the contact participates in workflow rules.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -1438,7 +1438,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isBackofficeCustomer name="isBackofficeCustomer">isBackofficeCustomer</a>
 
 Select whether the contact exists in a separate accounting or other system, such as Microsoft Dynamics GP or another ERP database, for use in integration processes.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -1473,7 +1473,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#salutation name="salutation">salutation</a>
 
 Type the salutation of the contact to make sure the contact is addressed correctly in sales calls, email messages, and marketing campaigns.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -1513,7 +1513,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#jobTitle name="jobTitle">jobTitle</a>
 
 Type the job title of the contact to make sure the contact is addressed correctly in sales calls, email, and marketing campaigns.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -1553,7 +1553,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#firstName name="firstName">firstName</a>
 
 Type the contact's first name to make sure the contact is addressed correctly in sales calls, email, and marketing campaigns.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -1594,7 +1594,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#department name="department">department</a>
 
 Type the department or business unit where the contact works in the parent company or business.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -1634,7 +1634,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#nickName name="nickName">nickName</a>
 
 Type the contact's nickname.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -1675,7 +1675,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#middleName name="middleName">middleName</a>
 
 Type the contact's middle name or initial to make sure the contact is addressed correctly.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -1716,7 +1716,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#lastName name="lastName">lastName</a>
 
 Type the contact's last name to make sure the contact is addressed correctly in sales calls, email, and marketing campaigns.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -1757,7 +1757,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#suffix name="suffix">suffix</a>
 
 Type the suffix used in the contact's name, such as Jr. or Sr. to make sure the contact is addressed correctly in sales calls, email, and marketing campaigns.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -1797,7 +1797,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#yomiFirstName name="yomiFirstName">yomiFirstName</a>
 
 Type the phonetic spelling of the contact's first name, if the name is specified in Japanese, to make sure the name is pronounced correctly in phone calls with the contact.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -1839,7 +1839,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#fullName name="fullName">fullName</a>
 
 Combines and shows the contact's first and last names so that the full name can be displayed in views and reports.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -1880,7 +1880,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#yomiMiddleName name="yomiMiddleName">yomiMiddleName</a>
 
 Type the phonetic spelling of the contact's middle name, if the name is specified in Japanese, to make sure the name is pronounced correctly in phone calls with the contact.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -1922,7 +1922,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#yomiLastName name="yomiLastName">yomiLastName</a>
 
 Type the phonetic spelling of the contact's last name, if the name is specified in Japanese, to make sure the name is pronounced correctly in phone calls with the contact.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -1964,7 +1964,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#anniversary name="anniversary">anniversary</a>
 
 Enter the date of the contact's wedding or service anniversary for use in customer gift programs or other communications.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -2002,7 +2002,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#birthDate name="birthDate">birthDate</a>
 
 Enter the contact's birthday for use in customer gift programs or other communications.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -2040,7 +2040,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#governmentId name="governmentId">governmentId</a>
 
 Type the passport number or other government ID for the contact for use in documents or reports.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -2081,7 +2081,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#yomiFullName name="yomiFullName">yomiFullName</a>
 
 Shows the combined Yomi first and last names of the contact so that the full phonetic name can be displayed in views and reports.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -2123,7 +2123,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#description name="description">description</a>
 
 Type additional information to describe the contact, such as an excerpt from the company's website.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -2163,7 +2163,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#employeeId name="employeeId">employeeId</a>
 
 Type the employee ID or number for the contact for reference in orders, service cases, or other communications with the contact's organization.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -2203,7 +2203,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#genderCode name="genderCode">genderCode</a>
 
 Select the contact's gender to make sure the contact is addressed correctly in sales calls, email, and marketing campaigns.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -2243,7 +2243,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#genderCode_display name="genderCode_display">genderCode_display</a>
 
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -2267,7 +2267,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 ### <a href=#annualIncome name="annualIncome">annualIncome</a>
 
 Type the contact's annual income for use in profiling and financial analysis.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -2308,7 +2308,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#hasChildrenCode name="hasChildrenCode">hasChildrenCode</a>
 
 Select whether the contact has any children for reference in follow-up phone calls and other communications.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -2348,7 +2348,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#hasChildrenCode_display name="hasChildrenCode_display">hasChildrenCode_display</a>
 
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -2372,7 +2372,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 ### <a href=#educationCode name="educationCode">educationCode</a>
 
 Select the contact's highest level of education for use in segmentation and analysis.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -2412,7 +2412,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#educationCode_display name="educationCode_display">educationCode_display</a>
 
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -2436,7 +2436,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 ### <a href=#webSiteUrl name="webSiteUrl">webSiteUrl</a>
 
 Type the contact's professional or personal website or blog URL.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -2477,7 +2477,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#familyStatusCode name="familyStatusCode">familyStatusCode</a>
 
 Select the marital status of the contact for reference in follow-up phone calls and other communications.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -2517,7 +2517,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#familyStatusCode_display name="familyStatusCode_display">familyStatusCode_display</a>
 
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -2541,7 +2541,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 ### <a href=#ftpSiteUrl name="ftpSiteUrl">ftpSiteUrl</a>
 
 Type the URL for the contact's FTP site to enable users to access data and share documents.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -2582,7 +2582,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#EMailAddress1 name="EMailAddress1">EMailAddress1</a>
 
 Type the primary email address for the contact.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -2623,7 +2623,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#spousesName name="spousesName">spousesName</a>
 
 Type the name of the contact's spouse or partner for reference during calls, events, or other communications with the contact.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -2664,7 +2664,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#assistantName name="assistantName">assistantName</a>
 
 Type the name of the contact's assistant.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -2705,7 +2705,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#EMailAddress2 name="EMailAddress2">EMailAddress2</a>
 
 Type the secondary email address for the contact.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -2746,7 +2746,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#assistantPhone name="assistantPhone">assistantPhone</a>
 
 Type the phone number for the contact's assistant.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -2787,7 +2787,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#EMailAddress3 name="EMailAddress3">EMailAddress3</a>
 
 Type an alternate email address for the contact.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -2828,7 +2828,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#doNotPhone name="doNotPhone">doNotPhone</a>
 
 Select whether the contact accepts phone calls. If Do Not Allow is selected, the contact will be excluded from any phone call activities distributed in marketing campaigns.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -2863,7 +2863,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#managerName name="managerName">managerName</a>
 
 Type the name of the contact's manager for use in escalating issues or other follow-up communications with the contact.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -2904,7 +2904,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#managerPhone name="managerPhone">managerPhone</a>
 
 Type the phone number for the contact's manager.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -2945,7 +2945,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#doNotFax name="doNotFax">doNotFax</a>
 
 Select whether the contact allows faxes. If Do Not Allow is selected, the contact will be excluded from any fax activities distributed in marketing campaigns.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -2980,7 +2980,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#doNotEMail name="doNotEMail">doNotEMail</a>
 
 Select whether the contact allows direct email sent from Microsoft Dynamics 365. If Do Not Allow is selected, Microsoft Dynamics 365 will not send the email.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -3015,7 +3015,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#doNotPostalMail name="doNotPostalMail">doNotPostalMail</a>
 
 Select whether the contact allows direct mail. If Do Not Allow is selected, the contact will be excluded from letter activities distributed in marketing campaigns.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -3050,7 +3050,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#doNotBulkEMail name="doNotBulkEMail">doNotBulkEMail</a>
 
 Select whether the contact accepts bulk email sent through marketing campaigns or quick campaigns. If Do Not Allow is selected, the contact can be added to marketing lists, but will be excluded from the email.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -3085,7 +3085,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#doNotBulkPostalMail name="doNotBulkPostalMail">doNotBulkPostalMail</a>
 
 Select whether the contact accepts bulk postal mail sent through marketing campaigns or quick campaigns. If Do Not Allow is selected, the contact can be added to marketing lists, but will be excluded from the letters.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -3120,7 +3120,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#accountRoleCode name="accountRoleCode">accountRoleCode</a>
 
 Select the contact's role within the company or sales process, such as decision maker, employee, or influencer.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -3160,7 +3160,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#accountRoleCode_display name="accountRoleCode_display">accountRoleCode_display</a>
 
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -3184,7 +3184,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 ### <a href=#territoryCode name="territoryCode">territoryCode</a>
 
 Select a region or territory for the contact for use in segmentation and analysis.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -3224,7 +3224,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#territoryCode_display name="territoryCode_display">territoryCode_display</a>
 
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -3248,7 +3248,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 ### <a href=#creditLimit name="creditLimit">creditLimit</a>
 
 Type the credit limit of the contact for reference when you address invoice and accounting issues with the customer.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -3289,7 +3289,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#creditOnHold name="creditOnHold">creditOnHold</a>
 
 Select whether the contact is on a credit hold, for reference when addressing invoice and accounting issues.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -3324,7 +3324,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#numberOfChildren name="numberOfChildren">numberOfChildren</a>
 
 Type the number of children the contact has for reference in follow-up phone calls and other communications.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -3362,7 +3362,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#childrensNames name="childrensNames">childrensNames</a>
 
 Type the names of the contact's children for reference in communications and client programs.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -3403,7 +3403,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#mobilePhone name="mobilePhone">mobilePhone</a>
 
 Type the mobile phone number for the contact.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -3444,7 +3444,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#pager name="pager">pager</a>
 
 Type the pager number for the contact.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -3484,7 +3484,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#telephone1 name="telephone1">telephone1</a>
 
 Type the main phone number for this contact.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -3525,7 +3525,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#telephone2 name="telephone2">telephone2</a>
 
 Type a second phone number for this contact.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -3566,7 +3566,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#telephone3 name="telephone3">telephone3</a>
 
 Type a third phone number for this contact.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -3607,7 +3607,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#fax name="fax">fax</a>
 
 Type the fax number for the contact.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -3647,7 +3647,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#aging30 name="aging30">aging30</a>
 
 For system use only.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -3688,7 +3688,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Shows whether the contact is active or inactive. Inactive contacts are read-only and can't be edited unless they are reactivated.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -3728,7 +3728,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -3752,7 +3752,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 ### <a href=#aging60 name="aging60">aging60</a>
 
 For system use only.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -3793,7 +3793,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Select the contact's status.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -3836,7 +3836,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -3860,7 +3860,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 ### <a href=#aging90 name="aging90">aging90</a>
 
 For system use only.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -3901,7 +3901,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#parentContactId name="parentContactId">parentContactId</a>
 
 Unique identifier of the parent contact.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -3943,7 +3943,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#address1AddressId name="address1AddressId">address1AddressId</a>
 
 Unique identifier for address n.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -3982,7 +3982,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#address1AddressTypeCode name="address1AddressTypeCode">address1AddressTypeCode</a>
 
 Select the address type, such as primary or billing.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -4022,7 +4022,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#address1AddressTypeCode_display name="address1AddressTypeCode_display">address1AddressTypeCode_display</a>
 
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -4046,7 +4046,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 ### <a href=#address1Name name="address1Name">address1Name</a>
 
 Type a descriptive name for the customer's address, such as Corporate Headquarters.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -4087,7 +4087,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1PrimaryContactName name="address1PrimaryContactName">address1PrimaryContactName</a>
 
 Type the name of the primary contact person for the customer's address.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -4128,7 +4128,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Line1 name="address1Line1">address1Line1</a>
 
 Type the first line of the customer's address to help identify the location.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -4169,7 +4169,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Line2 name="address1Line2">address1Line2</a>
 
 Type the second line of the customer's address.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -4210,7 +4210,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Line3 name="address1Line3">address1Line3</a>
 
 Type the third line of the customer's address.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -4251,7 +4251,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1City name="address1City">address1City</a>
 
 Type the city for the customer's address to help identify the location.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -4292,7 +4292,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1StateOrProvince name="address1StateOrProvince">address1StateOrProvince</a>
 
 Type the state or province of the customer's address.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -4333,7 +4333,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1County name="address1County">address1County</a>
 
 Type the county for the customer's address.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -4374,7 +4374,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Country name="address1Country">address1Country</a>
 
 Type the country or region for the customer's address.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -4415,7 +4415,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1PostOfficeBox name="address1PostOfficeBox">address1PostOfficeBox</a>
 
 Type the post office box number of the customer's address.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -4455,7 +4455,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1PostalCode name="address1PostalCode">address1PostalCode</a>
 
 Type the ZIP Code or postal code for the address.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -4496,7 +4496,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1UTCOffset name="address1UTCOffset">address1UTCOffset</a>
 
 Select the time zone for the address.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -4537,7 +4537,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1FreightTermsCode name="address1FreightTermsCode">address1FreightTermsCode</a>
 
 Select the freight terms to make sure shipping charges are processed correctly.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -4577,7 +4577,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#address1FreightTermsCode_display name="address1FreightTermsCode_display">address1FreightTermsCode_display</a>
 
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -4601,7 +4601,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 ### <a href=#address1UPSZone name="address1UPSZone">address1UPSZone</a>
 
 Type the UPS zone of the customer's address to make sure shipping charges are calculated correctly and deliveries are made promptly, if shipped by UPS.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -4641,7 +4641,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Latitude name="address1Latitude">address1Latitude</a>
 
 Type the latitude value for the customer's address, for use in mapping and other applications.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -4681,7 +4681,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Telephone1 name="address1Telephone1">address1Telephone1</a>
 
 Type the primary phone number for the customer's address.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -4722,7 +4722,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Longitude name="address1Longitude">address1Longitude</a>
 
 Type the longitude value for the customer's address, for use in mapping and other applications.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -4762,7 +4762,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1ShippingMethodCode name="address1ShippingMethodCode">address1ShippingMethodCode</a>
 
 Select a shipping method for deliveries sent to this address.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -4802,7 +4802,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#address1ShippingMethodCode_display name="address1ShippingMethodCode_display">address1ShippingMethodCode_display</a>
 
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -4826,7 +4826,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 ### <a href=#address1Telephone2 name="address1Telephone2">address1Telephone2</a>
 
 Type a second phone number for the customer's address.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -4867,7 +4867,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Telephone3 name="address1Telephone3">address1Telephone3</a>
 
 Type a third phone number for the customer's address.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -4908,7 +4908,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Fax name="address1Fax">address1Fax</a>
 
 Type the fax number associated with the customer's address.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -4949,7 +4949,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Composite name="address1Composite">address1Composite</a>
 
 Shows the complete address.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -4990,7 +4990,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2AddressId name="address2AddressId">address2AddressId</a>
 
 Unique identifier for address n.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -5029,7 +5029,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#address2AddressTypeCode name="address2AddressTypeCode">address2AddressTypeCode</a>
 
 Select the address type, such as primary or billing.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -5069,7 +5069,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#address2AddressTypeCode_display name="address2AddressTypeCode_display">address2AddressTypeCode_display</a>
 
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -5093,7 +5093,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 ### <a href=#address2Name name="address2Name">address2Name</a>
 
 Type a descriptive name for the customer's address, such as Corporate Headquarters.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -5134,7 +5134,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2PrimaryContactName name="address2PrimaryContactName">address2PrimaryContactName</a>
 
 Type the name of the primary contact person for the customer's address.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -5175,7 +5175,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Line1 name="address2Line1">address2Line1</a>
 
 Type the first line of the customer's address to help identify the location.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -5216,7 +5216,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Line2 name="address2Line2">address2Line2</a>
 
 Type the second line of the customer's address.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -5257,7 +5257,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Line3 name="address2Line3">address2Line3</a>
 
 Type the third line of the customer's address.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -5298,7 +5298,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2City name="address2City">address2City</a>
 
 Type the city for the customer's address to help identify the location.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -5339,7 +5339,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2StateOrProvince name="address2StateOrProvince">address2StateOrProvince</a>
 
 Type the state or province of the customer's address.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -5380,7 +5380,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2County name="address2County">address2County</a>
 
 Type the county for the customer's address.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -5421,7 +5421,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Country name="address2Country">address2Country</a>
 
 Type the country or region for the customer's address.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -5462,7 +5462,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2PostOfficeBox name="address2PostOfficeBox">address2PostOfficeBox</a>
 
 Type the post office box number of the customer's address.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -5502,7 +5502,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2PostalCode name="address2PostalCode">address2PostalCode</a>
 
 Type the ZIP Code or postal code for the address.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -5543,7 +5543,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2UTCOffset name="address2UTCOffset">address2UTCOffset</a>
 
 Select the time zone for the address.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -5584,7 +5584,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2FreightTermsCode name="address2FreightTermsCode">address2FreightTermsCode</a>
 
 Select the freight terms to make sure shipping charges are processed correctly.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -5624,7 +5624,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#address2FreightTermsCode_display name="address2FreightTermsCode_display">address2FreightTermsCode_display</a>
 
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -5648,7 +5648,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 ### <a href=#address2UPSZone name="address2UPSZone">address2UPSZone</a>
 
 Type the UPS zone of the customer's address to make sure shipping charges are calculated correctly and deliveries are made promptly, if shipped by UPS.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -5688,7 +5688,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Latitude name="address2Latitude">address2Latitude</a>
 
 Type the latitude value for the customer's address, for use in mapping and other applications.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -5728,7 +5728,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Telephone1 name="address2Telephone1">address2Telephone1</a>
 
 Type the primary phone number for the customer's address.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -5769,7 +5769,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Longitude name="address2Longitude">address2Longitude</a>
 
 Type the longitude value for the customer's address, for use in mapping and other applications.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -5809,7 +5809,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2ShippingMethodCode name="address2ShippingMethodCode">address2ShippingMethodCode</a>
 
 Select a shipping method for deliveries sent to this address.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -5849,7 +5849,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#address2ShippingMethodCode_display name="address2ShippingMethodCode_display">address2ShippingMethodCode_display</a>
 
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -5873,7 +5873,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 ### <a href=#address2Telephone2 name="address2Telephone2">address2Telephone2</a>
 
 Type a second phone number for the customer's address.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -5914,7 +5914,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Telephone3 name="address2Telephone3">address2Telephone3</a>
 
 Type a third phone number for the customer's address.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -5955,7 +5955,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Fax name="address2Fax">address2Fax</a>
 
 Type the fax number associated with the customer's address.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -5996,7 +5996,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Composite name="address2Composite">address2Composite</a>
 
 Shows the complete address.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -6037,7 +6037,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address3AddressId name="address3AddressId">address3AddressId</a>
 
 Unique identifier for address n.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -6076,7 +6076,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#address3AddressTypeCode name="address3AddressTypeCode">address3AddressTypeCode</a>
 
 Select the address type, such as primary or billing.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -6116,7 +6116,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#address3AddressTypeCode_display name="address3AddressTypeCode_display">address3AddressTypeCode_display</a>
 
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -6140,7 +6140,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 ### <a href=#address3Name name="address3Name">address3Name</a>
 
 Type a descriptive name for the customer's address, such as Corporate Headquarters.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -6181,7 +6181,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address3PrimaryContactName name="address3PrimaryContactName">address3PrimaryContactName</a>
 
 Type the name of the primary contact person for the customer's address.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -6222,7 +6222,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address3Line1 name="address3Line1">address3Line1</a>
 
 Type the first line of the customer's address to help identify the location.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -6263,7 +6263,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address3Line2 name="address3Line2">address3Line2</a>
 
 Type the second line of the customer's address.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -6304,7 +6304,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address3Line3 name="address3Line3">address3Line3</a>
 
 Type the third line of the customer's address.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -6345,7 +6345,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address3City name="address3City">address3City</a>
 
 Type the city for the customer's address to help identify the location.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -6386,7 +6386,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address3StateOrProvince name="address3StateOrProvince">address3StateOrProvince</a>
 
 Type the state or province of the customer's address.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -6427,7 +6427,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address3County name="address3County">address3County</a>
 
 Type the county for the customer's address.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -6468,7 +6468,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address3Country name="address3Country">address3Country</a>
 
 Type the country or region for the customer's address.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -6509,7 +6509,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address3PostOfficeBox name="address3PostOfficeBox">address3PostOfficeBox</a>
 
 Type the post office box number of the customer's address.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -6549,7 +6549,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address3PostalCode name="address3PostalCode">address3PostalCode</a>
 
 Type the ZIP Code or postal code for the address.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -6590,7 +6590,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address3UTCOffset name="address3UTCOffset">address3UTCOffset</a>
 
 Select the time zone for the address.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -6631,7 +6631,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address3FreightTermsCode name="address3FreightTermsCode">address3FreightTermsCode</a>
 
 Select the freight terms to make sure shipping charges are processed correctly.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -6671,7 +6671,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#address3FreightTermsCode_display name="address3FreightTermsCode_display">address3FreightTermsCode_display</a>
 
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -6695,7 +6695,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 ### <a href=#address3UPSZone name="address3UPSZone">address3UPSZone</a>
 
 Type the UPS zone of the customer's address to make sure shipping charges are calculated correctly and deliveries are made promptly, if shipped by UPS.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -6735,7 +6735,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address3Latitude name="address3Latitude">address3Latitude</a>
 
 Type the latitude value for the customer's address, for use in mapping and other applications.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -6775,7 +6775,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address3Telephone1 name="address3Telephone1">address3Telephone1</a>
 
 Type the primary phone number for the customer's address.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -6816,7 +6816,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address3Longitude name="address3Longitude">address3Longitude</a>
 
 Type the longitude value for the customer's address, for use in mapping and other applications.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -6856,7 +6856,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address3ShippingMethodCode name="address3ShippingMethodCode">address3ShippingMethodCode</a>
 
 Select a shipping method for deliveries sent to this address.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -6896,7 +6896,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#address3ShippingMethodCode_display name="address3ShippingMethodCode_display">address3ShippingMethodCode_display</a>
 
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -6920,7 +6920,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 ### <a href=#address3Telephone2 name="address3Telephone2">address3Telephone2</a>
 
 Type a second phone number for the customer's address.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -6961,7 +6961,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address3Telephone3 name="address3Telephone3">address3Telephone3</a>
 
 Type a third phone number for the customer's address.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -7002,7 +7002,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address3Fax name="address3Fax">address3Fax</a>
 
 Type the fax number associated with the customer's address.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -7043,7 +7043,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address3Composite name="address3Composite">address3Composite</a>
 
 Shows the complete address.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -7084,7 +7084,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#preferredSystemUserId name="preferredSystemUserId">preferredSystemUserId</a>
 
 Choose the regular or preferred customer service representative for reference when scheduling service activities for the contact.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -7129,7 +7129,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#masterId name="masterId">masterId</a>
 
 Unique identifier of the master contact for merge.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -7174,7 +7174,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#preferredAppointmentDayCode name="preferredAppointmentDayCode">preferredAppointmentDayCode</a>
 
 Select the preferred day of the week for service appointments.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -7214,7 +7214,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#preferredAppointmentDayCode_display name="preferredAppointmentDayCode_display">preferredAppointmentDayCode_display</a>
 
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -7238,7 +7238,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 ### <a href=#preferredAppointmentTimeCode name="preferredAppointmentTimeCode">preferredAppointmentTimeCode</a>
 
 Select the preferred time of day for service appointments.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -7278,7 +7278,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#preferredAppointmentTimeCode_display name="preferredAppointmentTimeCode_display">preferredAppointmentTimeCode_display</a>
 
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -7302,7 +7302,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 ### <a href=#doNotSendMM name="doNotSendMM">doNotSendMM</a>
 
 Select whether the contact accepts marketing materials, such as brochures or catalogs. Contacts that opt out can be excluded from marketing initiatives.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -7337,7 +7337,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#parentCustomerIdType name="parentCustomerIdType">parentCustomerIdType</a>
 
 The type of parent customer, either Account or Contact.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -7373,7 +7373,7 @@ contains an Account or Contact ID
 ### <a href=#parentCustomerId name="parentCustomerId">parentCustomerId</a>
 
 Select the parent account or parent contact for the contact to provide a quick link to additional details, such as financial information, activities, and opportunities.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -7421,7 +7421,7 @@ contains an Account or Contact ID
 ### <a href=#merged name="merged">merged</a>
 
 Shows whether the account has been merged with a master contact.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -7456,7 +7456,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#externalUserIdentifier name="externalUserIdentifier">externalUserIdentifier</a>
 
 Identifier for an external user.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -7496,7 +7496,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#lastUsedInCampaign name="lastUsedInCampaign">lastUsedInCampaign</a>
 
 Shows the date when the contact was last included in a marketing campaign or quick campaign.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -7534,7 +7534,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Choose the local currency for the record to make sure budgets are reported in the correct currency.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -7579,7 +7579,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -7619,7 +7619,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#annualIncomeBase name="annualIncomeBase">annualIncomeBase</a>
 
 Shows the Annual Income field converted to the system's default base currency. The calculations use the exchange rate specified in the Currencies area.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -7663,7 +7663,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#creditLimitBase name="creditLimitBase">creditLimitBase</a>
 
 Shows the Credit Limit field converted to the system's default base currency for reporting purposes. The calculations use the exchange rate specified in the Currencies area.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -7707,7 +7707,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#aging60Base name="aging60Base">aging60Base</a>
 
 Shows the Aging 60 field converted to the system's default base currency. The calculations use the exchange rate specified in the Currencies area.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -7751,7 +7751,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#aging90Base name="aging90Base">aging90Base</a>
 
 Shows the Aging 90 field converted to the system's default base currency. The calculations use the exchange rate specified in the Currencies area.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -7795,7 +7795,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#aging30Base name="aging30Base">aging30Base</a>
 
 Shows the Aging 30 field converted to the system's default base currency. The calculations use the exchange rate specified in the Currencies area.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -7839,7 +7839,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#stageId name="stageId">stageId</a>
 
 Shows the ID of the stage.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -7877,7 +7877,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#processId name="processId">processId</a>
 
 Shows the ID of the process.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -7915,7 +7915,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#entityImageId name="entityImageId">entityImageId</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -7953,7 +7953,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#traversedPath name="traversedPath">traversedPath</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -7993,7 +7993,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#SLAId name="SLAId">SLAId</a>
 
 Choose the service level agreement (SLA) that you want to apply to the Contact record.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -8038,7 +8038,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#SLAInvokedId name="SLAInvokedId">SLAInvokedId</a>
 
 Last SLA that was applied to this case. This field is for internal use only.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -8083,7 +8083,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#onHoldTime name="onHoldTime">onHoldTime</a>
 
 Shows how long, in minutes, that the record was on hold.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -8121,7 +8121,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#lastOnHoldTime name="lastOnHoldTime">lastOnHoldTime</a>
 
 Contains the date and time stamp of the last on hold time.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -8159,7 +8159,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#followEmail name="followEmail">followEmail</a>
 
 Information about whether to allow following email activity like opens, attachment views and link clicks for emails sent to the contact.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -8194,7 +8194,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#timeSpentByMeOnEmailAndMeetings name="timeSpentByMeOnEmailAndMeetings">timeSpentByMeOnEmailAndMeetings</a>
 
 Total time spent for emails (read and write) and meetings by me in relation to the contact record.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -8235,7 +8235,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#business2 name="business2">business2</a>
 
 Type a second business phone number for this contact.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -8276,7 +8276,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#callback name="callback">callback</a>
 
 Type a callback phone number for this contact.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -8317,7 +8317,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#company name="company">company</a>
 
 Type the company phone of the contact.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -8358,7 +8358,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#home2 name="home2">home2</a>
 
 Type a second home phone number for this contact.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -8399,7 +8399,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#createdByExternalParty name="createdByExternalParty">createdByExternalParty</a>
 
 Shows the external party who created the record.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -8441,7 +8441,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedByExternalParty name="modifiedByExternalParty">modifiedByExternalParty</a>
 
 Shows the external party who modified the record.  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -8483,7 +8483,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#marketingOnly name="marketingOnly">marketingOnly</a>
 
 Whether is only for marketing  
-First included in: /core/applicationCommon/Contact.cdm.json/Contact  
+First included in: <a href="../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
@@ -8518,7 +8518,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#defaultPriceLevelId name="defaultPriceLevelId">defaultPriceLevelId</a>
 
 Choose the default price list associated with the contact to make sure the correct product prices for this customer are applied in sales opportunities, quotes, and orders.  
-First included in: /core/applicationCommon/foundationCommon/Contact.cdm.json/Contact  
+First included in: <a href="Contact.md" target="_blank">foundationCommon/Contact</a>  
 
 #### Properties
 

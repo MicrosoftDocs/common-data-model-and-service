@@ -93,7 +93,7 @@ crmCommon/LeadAddress
 ### <a href=#leadAddressId name="leadAddressId">leadAddressId</a>
 
 Unique identifier of the lead address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/LeadAddress.cdm.json/LeadAddress  
+First included in: <a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>  
 
 #### Properties
 
@@ -132,7 +132,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the lead address was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/LeadAddress.cdm.json/LeadAddress  
+First included in: <a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>  
 
 #### Properties
 
@@ -171,7 +171,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Unique identifier of the user who created the lead address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/LeadAddress.cdm.json/LeadAddress  
+First included in: <a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>  
 
 #### Properties
 
@@ -216,7 +216,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the lead address was last modified.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/LeadAddress.cdm.json/LeadAddress  
+First included in: <a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>  
 
 #### Properties
 
@@ -255,7 +255,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Unique identifier of the user who last modified the lead address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/LeadAddress.cdm.json/LeadAddress  
+First included in: <a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>  
 
 #### Properties
 
@@ -300,7 +300,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Unique identifier of the delegate user who created the leadaddress.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/LeadAddress.cdm.json/LeadAddress  
+First included in: <a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>  
 
 #### Properties
 
@@ -345,7 +345,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Unique identifier of the delegate user who last modified the leadaddress.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/LeadAddress.cdm.json/LeadAddress  
+First included in: <a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>  
 
 #### Properties
 
@@ -390,7 +390,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/LeadAddress.cdm.json/LeadAddress  
+First included in: <a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>  
 
 #### Properties
 
@@ -426,7 +426,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/LeadAddress.cdm.json/LeadAddress  
+First included in: <a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>  
 
 #### Properties
 
@@ -464,7 +464,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/LeadAddress.cdm.json/LeadAddress  
+First included in: <a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>  
 
 #### Properties
 
@@ -503,7 +503,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/LeadAddress.cdm.json/LeadAddress  
+First included in: <a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>  
 
 #### Properties
 
@@ -541,7 +541,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/LeadAddress.cdm.json/LeadAddress  
+First included in: <a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>  
 
 #### Properties
 
@@ -579,7 +579,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#name name="name">name</a>
 
 Name used to identify the lead address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/LeadAddress.cdm.json/LeadAddress  
+First included in: <a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>  
 
 #### Properties
 
@@ -620,7 +620,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#addressNumber name="addressNumber">addressNumber</a>
 
 Information about the address for the lead.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/LeadAddress.cdm.json/LeadAddress  
+First included in: <a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>  
 
 #### Properties
 
@@ -658,7 +658,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#addressTypeCode name="addressTypeCode">addressTypeCode</a>
 
 Type of address for the lead address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/LeadAddress.cdm.json/LeadAddress  
+First included in: <a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>  
 
 #### Properties
 
@@ -698,7 +698,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#addressTypeCode_display name="addressTypeCode_display">addressTypeCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/LeadAddress.cdm.json/LeadAddress  
+First included in: <a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>  
 
 #### Properties
 
@@ -722,7 +722,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/LeadAddres
 ### <a href=#city name="city">city</a>
 
 City name in the address for the lead.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/LeadAddress.cdm.json/LeadAddress  
+First included in: <a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>  
 
 #### Properties
 
@@ -762,7 +762,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#composite name="composite">composite</a>
 
 Shows the complete address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/LeadAddress.cdm.json/LeadAddress  
+First included in: <a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>  
 
 #### Properties
 
@@ -802,7 +802,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#country name="country">country</a>
 
 Country/region name in the address for the lead.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/LeadAddress.cdm.json/LeadAddress  
+First included in: <a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>  
 
 #### Properties
 
@@ -842,7 +842,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#county name="county">county</a>
 
 County name in the address for the lead.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/LeadAddress.cdm.json/LeadAddress  
+First included in: <a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>  
 
 #### Properties
 
@@ -882,7 +882,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#fax name="fax">fax</a>
 
 Fax number for the address for the lead.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/LeadAddress.cdm.json/LeadAddress  
+First included in: <a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>  
 
 #### Properties
 
@@ -922,7 +922,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#latitude name="latitude">latitude</a>
 
 Latitude for the address for the lead.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/LeadAddress.cdm.json/LeadAddress  
+First included in: <a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>  
 
 #### Properties
 
@@ -961,7 +961,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#line1 name="line1">line1</a>
 
 First line for entering address information.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/LeadAddress.cdm.json/LeadAddress  
+First included in: <a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>  
 
 #### Properties
 
@@ -1001,7 +1001,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#line2 name="line2">line2</a>
 
 Second line for entering address information.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/LeadAddress.cdm.json/LeadAddress  
+First included in: <a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>  
 
 #### Properties
 
@@ -1041,7 +1041,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#line3 name="line3">line3</a>
 
 Third line for entering address information.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/LeadAddress.cdm.json/LeadAddress  
+First included in: <a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>  
 
 #### Properties
 
@@ -1081,7 +1081,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#longitude name="longitude">longitude</a>
 
 Longitude for the address for the lead.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/LeadAddress.cdm.json/LeadAddress  
+First included in: <a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>  
 
 #### Properties
 
@@ -1120,7 +1120,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#parentId name="parentId">parentId</a>
 
 Unique identifier of the parent object with which the lead address is associated.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/LeadAddress.cdm.json/LeadAddress  
+First included in: <a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>  
 
 #### Properties
 
@@ -1162,7 +1162,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#postalCode name="postalCode">postalCode</a>
 
 ZIP Code or postal code in the address for the lead.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/LeadAddress.cdm.json/LeadAddress  
+First included in: <a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>  
 
 #### Properties
 
@@ -1202,7 +1202,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#postOfficeBox name="postOfficeBox">postOfficeBox</a>
 
 Post office box number in the address for the lead.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/LeadAddress.cdm.json/LeadAddress  
+First included in: <a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>  
 
 #### Properties
 
@@ -1242,7 +1242,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#shippingMethodCode name="shippingMethodCode">shippingMethodCode</a>
 
 Method of shipment for the lead.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/LeadAddress.cdm.json/LeadAddress  
+First included in: <a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>  
 
 #### Properties
 
@@ -1282,7 +1282,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#shippingMethodCode_display name="shippingMethodCode_display">shippingMethodCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/LeadAddress.cdm.json/LeadAddress  
+First included in: <a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>  
 
 #### Properties
 
@@ -1306,7 +1306,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/LeadAddres
 ### <a href=#stateOrProvince name="stateOrProvince">stateOrProvince</a>
 
 State or province in the address for the lead.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/LeadAddress.cdm.json/LeadAddress  
+First included in: <a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>  
 
 #### Properties
 
@@ -1346,7 +1346,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#telephone1 name="telephone1">telephone1</a>
 
 First telephone number for the lead address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/LeadAddress.cdm.json/LeadAddress  
+First included in: <a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>  
 
 #### Properties
 
@@ -1387,7 +1387,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#telephone2 name="telephone2">telephone2</a>
 
 Second telephone number for the lead address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/LeadAddress.cdm.json/LeadAddress  
+First included in: <a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>  
 
 #### Properties
 
@@ -1428,7 +1428,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#telephone3 name="telephone3">telephone3</a>
 
 Third telephone number for the lead address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/LeadAddress.cdm.json/LeadAddress  
+First included in: <a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>  
 
 #### Properties
 
@@ -1469,7 +1469,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UPSZone name="UPSZone">UPSZone</a>
 
 United Parcel Service (UPS) zone for the address of the lead.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/LeadAddress.cdm.json/LeadAddress  
+First included in: <a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>  
 
 #### Properties
 
@@ -1509,7 +1509,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCOffset name="UTCOffset">UTCOffset</a>
 
 UTC offset for the lead address. This is the difference between local time and standard Coordinated Universal Time.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/LeadAddress.cdm.json/LeadAddress  
+First included in: <a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>  
 
 #### Properties
 
@@ -1547,7 +1547,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Exchange rate for the currency associated with the leadaddress with respect to the base currency.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/LeadAddress.cdm.json/LeadAddress  
+First included in: <a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>  
 
 #### Properties
 
@@ -1587,7 +1587,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Unique identifier of the currency associated with the leadaddress.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/LeadAddress.cdm.json/LeadAddress  
+First included in: <a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>  
 
 #### Properties
 

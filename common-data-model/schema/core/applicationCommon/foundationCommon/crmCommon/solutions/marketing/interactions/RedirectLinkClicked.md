@@ -74,7 +74,7 @@ interactions/RedirectLinkClicked
 ### <a href=#interactionId name="interactionId">interactionId</a>
 
 Unique identifier of the interaction.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/RedirectLinkClicked.cdm.json/RedirectLinkClicked  
+First included in: <a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>  
 
 #### Properties
 
@@ -111,7 +111,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#contactId name="contactId">contactId</a>
 
 Contact  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/RedirectLinkClicked.cdm.json/RedirectLinkClicked  
+First included in: <a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>  
 
 #### Properties
 
@@ -153,7 +153,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#accountId name="accountId">accountId</a>
 
 Account  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/RedirectLinkClicked.cdm.json/RedirectLinkClicked  
+First included in: <a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>  
 
 #### Properties
 
@@ -195,7 +195,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#messageId name="messageId">messageId</a>
 
 Message  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/RedirectLinkClicked.cdm.json/RedirectLinkClicked  
+First included in: <a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>  
 
 #### Properties
 
@@ -237,7 +237,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#customerJourneyId name="customerJourneyId">customerJourneyId</a>
 
 Customer journey  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/RedirectLinkClicked.cdm.json/RedirectLinkClicked  
+First included in: <a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>  
 
 #### Properties
 
@@ -279,7 +279,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#linkId name="linkId">linkId</a>
 
 Link ID  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/RedirectLinkClicked.cdm.json/RedirectLinkClicked  
+First included in: <a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>  
 
 #### Properties
 
@@ -310,7 +310,7 @@ The attribute value may be set to NULL.
 ### <a href=#link name="link">link</a>
 
 Link  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/RedirectLinkClicked.cdm.json/RedirectLinkClicked  
+First included in: <a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>  
 
 #### Properties
 
@@ -341,7 +341,7 @@ The attribute value may be set to NULL.
 ### <a href=#originalUrl name="originalUrl">originalUrl</a>
 
 Original URL  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/RedirectLinkClicked.cdm.json/RedirectLinkClicked  
+First included in: <a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>  
 
 #### Properties
 
@@ -372,7 +372,7 @@ The attribute value may be set to NULL.
 ### <a href=#referrerUri name="referrerUri">referrerUri</a>
 
 Referrer URL  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/RedirectLinkClicked.cdm.json/RedirectLinkClicked  
+First included in: <a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>  
 
 #### Properties
 
@@ -403,7 +403,7 @@ The attribute value may be set to NULL.
 ### <a href=#customerJourneyIterationId name="customerJourneyIterationId">customerJourneyIterationId</a>
 
 Customer journey iteration ID  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/RedirectLinkClicked.cdm.json/RedirectLinkClicked  
+First included in: <a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>  
 
 #### Properties
 
@@ -434,7 +434,7 @@ The attribute value may be set to NULL.
 ### <a href=#sendingId name="sendingId">sendingId</a>
 
 Sending ID  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/RedirectLinkClicked.cdm.json/RedirectLinkClicked  
+First included in: <a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>  
 
 #### Properties
 
@@ -465,7 +465,7 @@ The attribute value may be set to NULL.
 ### <a href=#interactionType name="interactionType">interactionType</a>
 
 Interaction type  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/RedirectLinkClicked.cdm.json/RedirectLinkClicked  
+First included in: <a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>  
 
 #### Properties
 
@@ -496,7 +496,7 @@ The attribute value may be set to NULL.
 ### <a href=#organizationId name="organizationId">organizationId</a>
 
 Organization ID  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/RedirectLinkClicked.cdm.json/RedirectLinkClicked  
+First included in: <a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>  
 
 #### Properties
 
@@ -527,7 +527,7 @@ The attribute value may be set to NULL.
 ### <a href=#timestamp name="timestamp">timestamp</a>
 
 Timestamp  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/RedirectLinkClicked.cdm.json/RedirectLinkClicked  
+First included in: <a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>  
 
 #### Properties
 
@@ -559,7 +559,7 @@ The attribute value may be set to NULL.
 ### <a href=#visitorId name="visitorId">visitorId</a>
 
 Visitor ID  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/RedirectLinkClicked.cdm.json/RedirectLinkClicked  
+First included in: <a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>  
 
 #### Properties
 
@@ -590,7 +590,7 @@ The attribute value may be set to NULL.
 ### <a href=#sessionId name="sessionId">sessionId</a>
 
 Session ID  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/RedirectLinkClicked.cdm.json/RedirectLinkClicked  
+First included in: <a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>  
 
 #### Properties
 
@@ -621,7 +621,7 @@ The attribute value may be set to NULL.
 ### <a href=#countryIsoCode name="countryIsoCode">countryIsoCode</a>
 
 Country ISO code  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/RedirectLinkClicked.cdm.json/RedirectLinkClicked  
+First included in: <a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>  
 
 #### Properties
 
@@ -652,7 +652,7 @@ The attribute value may be set to NULL.
 ### <a href=#state name="state">state</a>
 
 State  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/RedirectLinkClicked.cdm.json/RedirectLinkClicked  
+First included in: <a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>  
 
 #### Properties
 
@@ -683,7 +683,7 @@ The attribute value may be set to NULL.
 ### <a href=#city name="city">city</a>
 
 City  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/RedirectLinkClicked.cdm.json/RedirectLinkClicked  
+First included in: <a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>  
 
 #### Properties
 
@@ -714,7 +714,7 @@ The attribute value may be set to NULL.
 ### <a href=#postalCode name="postalCode">postalCode</a>
 
 Postal code  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/RedirectLinkClicked.cdm.json/RedirectLinkClicked  
+First included in: <a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>  
 
 #### Properties
 
@@ -745,7 +745,7 @@ The attribute value may be set to NULL.
 ### <a href=#browserId name="browserId">browserId</a>
 
 Browser ID  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/RedirectLinkClicked.cdm.json/RedirectLinkClicked  
+First included in: <a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>  
 
 #### Properties
 
@@ -776,7 +776,7 @@ The attribute value may be set to NULL.
 ### <a href=#browserVersion name="browserVersion">browserVersion</a>
 
 Browser version  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/RedirectLinkClicked.cdm.json/RedirectLinkClicked  
+First included in: <a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>  
 
 #### Properties
 
@@ -807,7 +807,7 @@ The attribute value may be set to NULL.
 ### <a href=#operatingSystemId name="operatingSystemId">operatingSystemId</a>
 
 Operating system ID  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/RedirectLinkClicked.cdm.json/RedirectLinkClicked  
+First included in: <a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>  
 
 #### Properties
 
@@ -838,7 +838,7 @@ The attribute value may be set to NULL.
 ### <a href=#operatingSystemVersion name="operatingSystemVersion">operatingSystemVersion</a>
 
 Operating system version  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/RedirectLinkClicked.cdm.json/RedirectLinkClicked  
+First included in: <a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>  
 
 #### Properties
 
@@ -869,7 +869,7 @@ The attribute value may be set to NULL.
 ### <a href=#searchPhrase name="searchPhrase">searchPhrase</a>
 
 Search phrase  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/RedirectLinkClicked.cdm.json/RedirectLinkClicked  
+First included in: <a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>  
 
 #### Properties
 
@@ -900,7 +900,7 @@ The attribute value may be set to NULL.
 ### <a href=#searchEngineName name="searchEngineName">searchEngineName</a>
 
 Search engine name  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/RedirectLinkClicked.cdm.json/RedirectLinkClicked  
+First included in: <a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>  
 
 #### Properties
 
@@ -931,7 +931,7 @@ The attribute value may be set to NULL.
 ### <a href=#visitDuration name="visitDuration">visitDuration</a>
 
 Visit duration  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/RedirectLinkClicked.cdm.json/RedirectLinkClicked  
+First included in: <a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>  
 
 #### Properties
 
@@ -962,7 +962,7 @@ The attribute value may be set to NULL.
 ### <a href=#visitorReturningStatus name="visitorReturningStatus">visitorReturningStatus</a>
 
 Visitor returning status  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/RedirectLinkClicked.cdm.json/RedirectLinkClicked  
+First included in: <a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>  
 
 #### Properties
 
@@ -993,7 +993,7 @@ The attribute value may be set to NULL.
 ### <a href=#visitorAnonymousStatus name="visitorAnonymousStatus">visitorAnonymousStatus</a>
 
 Visitor anonymous status  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/RedirectLinkClicked.cdm.json/RedirectLinkClicked  
+First included in: <a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>  
 
 #### Properties
 
@@ -1024,7 +1024,7 @@ The attribute value may be set to NULL.
 ### <a href=#leadId name="leadId">leadId</a>
 
 Lead ID  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/RedirectLinkClicked.cdm.json/RedirectLinkClicked  
+First included in: <a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>  
 
 #### Properties
 

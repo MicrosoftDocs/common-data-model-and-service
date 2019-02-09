@@ -74,7 +74,7 @@ crmCommon/MarketingListMember
 
 ### <a href=#listMemberId name="listMemberId">listMemberId</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingListMember.cdm.json/MarketingListMember  
+First included in: <a href="MarketingListMember.md" target="_blank">crmCommon/MarketingListMember</a>  
 
 #### Properties
 
@@ -107,7 +107,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingListMember.cdm.json/MarketingListMember  
+First included in: <a href="MarketingListMember.md" target="_blank">crmCommon/MarketingListMember</a>  
 
 #### Properties
 
@@ -146,7 +146,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Unique identifier of the user who created the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingListMember.cdm.json/MarketingListMember  
+First included in: <a href="MarketingListMember.md" target="_blank">crmCommon/MarketingListMember</a>  
 
 #### Properties
 
@@ -191,7 +191,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the list member was last modified.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingListMember.cdm.json/MarketingListMember  
+First included in: <a href="MarketingListMember.md" target="_blank">crmCommon/MarketingListMember</a>  
 
 #### Properties
 
@@ -230,7 +230,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Unique identifier of the user who last modified the list member.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingListMember.cdm.json/MarketingListMember  
+First included in: <a href="MarketingListMember.md" target="_blank">crmCommon/MarketingListMember</a>  
 
 #### Properties
 
@@ -275,7 +275,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Unique identifier of the delegate user who created the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingListMember.cdm.json/MarketingListMember  
+First included in: <a href="MarketingListMember.md" target="_blank">crmCommon/MarketingListMember</a>  
 
 #### Properties
 
@@ -320,7 +320,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Unique identifier of the delegate user who last modified the listmember.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingListMember.cdm.json/MarketingListMember  
+First included in: <a href="MarketingListMember.md" target="_blank">crmCommon/MarketingListMember</a>  
 
 #### Properties
 
@@ -365,7 +365,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingListMember.cdm.json/MarketingListMember  
+First included in: <a href="MarketingListMember.md" target="_blank">crmCommon/MarketingListMember</a>  
 
 #### Properties
 
@@ -401,7 +401,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingListMember.cdm.json/MarketingListMember  
+First included in: <a href="MarketingListMember.md" target="_blank">crmCommon/MarketingListMember</a>  
 
 #### Properties
 
@@ -439,7 +439,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingListMember.cdm.json/MarketingListMember  
+First included in: <a href="MarketingListMember.md" target="_blank">crmCommon/MarketingListMember</a>  
 
 #### Properties
 
@@ -478,7 +478,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingListMember.cdm.json/MarketingListMember  
+First included in: <a href="MarketingListMember.md" target="_blank">crmCommon/MarketingListMember</a>  
 
 #### Properties
 
@@ -516,7 +516,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingListMember.cdm.json/MarketingListMember  
+First included in: <a href="MarketingListMember.md" target="_blank">crmCommon/MarketingListMember</a>  
 
 #### Properties
 
@@ -554,7 +554,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#name name="name">name</a>
 
 name  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingListMember.cdm.json/MarketingListMember  
+First included in: <a href="MarketingListMember.md" target="_blank">crmCommon/MarketingListMember</a>  
 
 #### Properties
 
@@ -595,7 +595,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#entityIdTypeCode name="entityIdTypeCode">entityIdTypeCode</a>
 
 The name of the entity linked by entityId  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingListMember.cdm.json/MarketingListMember  
+First included in: <a href="MarketingListMember.md" target="_blank">crmCommon/MarketingListMember</a>  
 
 #### Properties
 
@@ -627,7 +627,7 @@ Marks an attribute that contains the entity name or 'class' for the situation wh
 
 ### <a href=#entityId name="entityId">entityId</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingListMember.cdm.json/MarketingListMember  
+First included in: <a href="MarketingListMember.md" target="_blank">crmCommon/MarketingListMember</a>  
 
 #### Properties
 
@@ -665,7 +665,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 
 ### <a href=#entityType name="entityType">entityType</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingListMember.cdm.json/MarketingListMember  
+First included in: <a href="MarketingListMember.md" target="_blank">crmCommon/MarketingListMember</a>  
 
 #### Properties
 
@@ -693,7 +693,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#listId name="listId">listId</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingListMember.cdm.json/MarketingListMember  
+First included in: <a href="MarketingListMember.md" target="_blank">crmCommon/MarketingListMember</a>  
 
 #### Properties
 
@@ -732,7 +732,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingListMember.cdm.json/MarketingListMember  
+First included in: <a href="MarketingListMember.md" target="_blank">crmCommon/MarketingListMember</a>  
 
 #### Properties
 
@@ -771,7 +771,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingListMember.cdm.json/MarketingListMember  
+First included in: <a href="MarketingListMember.md" target="_blank">crmCommon/MarketingListMember</a>  
 
 #### Properties
 
@@ -815,7 +815,7 @@ contains a User or Team ID
 
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingListMember.cdm.json/MarketingListMember  
+First included in: <a href="MarketingListMember.md" target="_blank">crmCommon/MarketingListMember</a>  
 
 #### Properties
 
@@ -846,7 +846,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingListMember.cdm.json/MarketingListMember  
+First included in: <a href="MarketingListMember.md" target="_blank">crmCommon/MarketingListMember</a>  
 
 #### Properties
 

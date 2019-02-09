@@ -77,7 +77,7 @@ applicationCommon/CustomerRelationship
 
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
-First included in: /core/applicationCommon/CustomerRelationship.cdm.json/CustomerRelationship  
+First included in: <a href="CustomerRelationship.md" target="_blank">applicationCommon/CustomerRelationship</a>  
 
 #### Properties
 
@@ -107,7 +107,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Shows the date and time when the customer relationship was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.  
-First included in: /core/applicationCommon/CustomerRelationship.cdm.json/CustomerRelationship  
+First included in: <a href="CustomerRelationship.md" target="_blank">applicationCommon/CustomerRelationship</a>  
 
 #### Properties
 
@@ -146,7 +146,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.  
-First included in: /core/applicationCommon/CustomerRelationship.cdm.json/CustomerRelationship  
+First included in: <a href="CustomerRelationship.md" target="_blank">applicationCommon/CustomerRelationship</a>  
 
 #### Properties
 
@@ -185,7 +185,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#customerRoleId name="customerRoleId">customerRoleId</a>
 
 Choose the primary party's role or nature of the relationship the customer has with the second party. The field is read-only until both parties have been selected. Administrators can configure role values under Business Management in the Settings area.  
-First included in: /core/applicationCommon/CustomerRelationship.cdm.json/CustomerRelationship  
+First included in: <a href="CustomerRelationship.md" target="_blank">applicationCommon/CustomerRelationship</a>  
 
 #### Properties
 
@@ -227,7 +227,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#customerRelationshipId name="customerRelationshipId">customerRelationshipId</a>
 
 Unique identifier of the customer relationship.  
-First included in: /core/applicationCommon/CustomerRelationship.cdm.json/CustomerRelationship  
+First included in: <a href="CustomerRelationship.md" target="_blank">applicationCommon/CustomerRelationship</a>  
 
 #### Properties
 
@@ -266,7 +266,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: /core/applicationCommon/CustomerRelationship.cdm.json/CustomerRelationship  
+First included in: <a href="CustomerRelationship.md" target="_blank">applicationCommon/CustomerRelationship</a>  
 
 #### Properties
 
@@ -311,7 +311,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: /core/applicationCommon/CustomerRelationship.cdm.json/CustomerRelationship  
+First included in: <a href="CustomerRelationship.md" target="_blank">applicationCommon/CustomerRelationship</a>  
 
 #### Properties
 
@@ -350,7 +350,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: /core/applicationCommon/CustomerRelationship.cdm.json/CustomerRelationship  
+First included in: <a href="CustomerRelationship.md" target="_blank">applicationCommon/CustomerRelationship</a>  
 
 #### Properties
 
@@ -395,7 +395,7 @@ contains a User or Team ID
 ### <a href=#partnerIdType name="partnerIdType">partnerIdType</a>
 
 The type of partner, either Account or Contact.  
-First included in: /core/applicationCommon/CustomerRelationship.cdm.json/CustomerRelationship  
+First included in: <a href="CustomerRelationship.md" target="_blank">applicationCommon/CustomerRelationship</a>  
 
 #### Properties
 
@@ -431,7 +431,7 @@ contains an Account or Contact ID
 ### <a href=#partnerId name="partnerId">partnerId</a>
 
 Select the secondary account or contact involved in the customer relationship.  
-First included in: /core/applicationCommon/CustomerRelationship.cdm.json/CustomerRelationship  
+First included in: <a href="CustomerRelationship.md" target="_blank">applicationCommon/CustomerRelationship</a>  
 
 #### Properties
 
@@ -476,7 +476,7 @@ contains an Account or Contact ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier of the business unit that owns the customer relationship.  
-First included in: /core/applicationCommon/CustomerRelationship.cdm.json/CustomerRelationship  
+First included in: <a href="CustomerRelationship.md" target="_blank">applicationCommon/CustomerRelationship</a>  
 
 #### Properties
 
@@ -521,7 +521,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#converseRelationshipId name="converseRelationshipId">converseRelationshipId</a>
 
 Unique identifier of the converse relationship of the customer relationship.  
-First included in: /core/applicationCommon/CustomerRelationship.cdm.json/CustomerRelationship  
+First included in: <a href="CustomerRelationship.md" target="_blank">applicationCommon/CustomerRelationship</a>  
 
 #### Properties
 
@@ -566,7 +566,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#partnerRoleId name="partnerRoleId">partnerRoleId</a>
 
 Choose the secondary party's role or nature of the relationship the customer has with the primary party. The field is read-only until both parties have been selected. Administrators can configure role values under Business Management in the Settings area.  
-First included in: /core/applicationCommon/CustomerRelationship.cdm.json/CustomerRelationship  
+First included in: <a href="CustomerRelationship.md" target="_blank">applicationCommon/CustomerRelationship</a>  
 
 #### Properties
 
@@ -608,7 +608,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#customerRoleDescription name="customerRoleDescription">customerRoleDescription</a>
 
 Type additional information about the primary party's role in the customer relationship, such as the length or quality of the relationship.  
-First included in: /core/applicationCommon/CustomerRelationship.cdm.json/CustomerRelationship  
+First included in: <a href="CustomerRelationship.md" target="_blank">applicationCommon/CustomerRelationship</a>  
 
 #### Properties
 
@@ -648,7 +648,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#customerIdType name="customerIdType">customerIdType</a>
 
 The type of customer, either Account or Contact.  
-First included in: /core/applicationCommon/CustomerRelationship.cdm.json/CustomerRelationship  
+First included in: <a href="CustomerRelationship.md" target="_blank">applicationCommon/CustomerRelationship</a>  
 
 #### Properties
 
@@ -684,7 +684,7 @@ contains an Account or Contact ID
 ### <a href=#customerId name="customerId">customerId</a>
 
 The customer account or contact to provide a quick link to additional customer details, such as account information, activities, and opportunities.  
-First included in: /core/applicationCommon/CustomerRelationship.cdm.json/CustomerRelationship  
+First included in: <a href="CustomerRelationship.md" target="_blank">applicationCommon/CustomerRelationship</a>  
 
 #### Properties
 
@@ -729,7 +729,7 @@ contains an Account or Contact ID
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: /core/applicationCommon/CustomerRelationship.cdm.json/CustomerRelationship  
+First included in: <a href="CustomerRelationship.md" target="_blank">applicationCommon/CustomerRelationship</a>  
 
 #### Properties
 
@@ -774,7 +774,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#partnerRoleDescription name="partnerRoleDescription">partnerRoleDescription</a>
 
 Type additional information about the secondary party's role in the customer relationship, such as the length or quality of the relationship.  
-First included in: /core/applicationCommon/CustomerRelationship.cdm.json/CustomerRelationship  
+First included in: <a href="CustomerRelationship.md" target="_blank">applicationCommon/CustomerRelationship</a>  
 
 #### Properties
 
@@ -814,7 +814,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user who owns the customer relationship.  
-First included in: /core/applicationCommon/CustomerRelationship.cdm.json/CustomerRelationship  
+First included in: <a href="CustomerRelationship.md" target="_blank">applicationCommon/CustomerRelationship</a>  
 
 #### Properties
 
@@ -859,7 +859,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: /core/applicationCommon/CustomerRelationship.cdm.json/CustomerRelationship  
+First included in: <a href="CustomerRelationship.md" target="_blank">applicationCommon/CustomerRelationship</a>  
 
 #### Properties
 
@@ -898,7 +898,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: /core/applicationCommon/CustomerRelationship.cdm.json/CustomerRelationship  
+First included in: <a href="CustomerRelationship.md" target="_blank">applicationCommon/CustomerRelationship</a>  
 
 #### Properties
 
@@ -936,7 +936,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: /core/applicationCommon/CustomerRelationship.cdm.json/CustomerRelationship  
+First included in: <a href="CustomerRelationship.md" target="_blank">applicationCommon/CustomerRelationship</a>  
 
 #### Properties
 
@@ -981,7 +981,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: /core/applicationCommon/CustomerRelationship.cdm.json/CustomerRelationship  
+First included in: <a href="CustomerRelationship.md" target="_blank">applicationCommon/CustomerRelationship</a>  
 
 #### Properties
 
@@ -1026,7 +1026,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier of the team who owns the customer relationship.  
-First included in: /core/applicationCommon/CustomerRelationship.cdm.json/CustomerRelationship  
+First included in: <a href="CustomerRelationship.md" target="_blank">applicationCommon/CustomerRelationship</a>  
 
 #### Properties
 

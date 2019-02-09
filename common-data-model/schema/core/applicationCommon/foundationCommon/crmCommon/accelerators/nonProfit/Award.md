@@ -89,7 +89,7 @@ nonProfit/Award
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Award.cdm.json/Award  
+First included in: <a href="Award.md" target="_blank">nonProfit/Award</a>  
 
 #### Properties
 
@@ -128,7 +128,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Award.cdm.json/Award  
+First included in: <a href="Award.md" target="_blank">nonProfit/Award</a>  
 
 #### Properties
 
@@ -176,7 +176,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Award.cdm.json/Award  
+First included in: <a href="Award.md" target="_blank">nonProfit/Award</a>  
 
 #### Properties
 
@@ -215,7 +215,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Award.cdm.json/Award  
+First included in: <a href="Award.md" target="_blank">nonProfit/Award</a>  
 
 #### Properties
 
@@ -263,7 +263,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Award.cdm.json/Award  
+First included in: <a href="Award.md" target="_blank">nonProfit/Award</a>  
 
 #### Properties
 
@@ -311,7 +311,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Award.cdm.json/Award  
+First included in: <a href="Award.md" target="_blank">nonProfit/Award</a>  
 
 #### Properties
 
@@ -359,7 +359,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Award.cdm.json/Award  
+First included in: <a href="Award.md" target="_blank">nonProfit/Award</a>  
 
 #### Properties
 
@@ -398,7 +398,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Award.cdm.json/Award  
+First included in: <a href="Award.md" target="_blank">nonProfit/Award</a>  
 
 #### Properties
 
@@ -433,7 +433,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Award.cdm.json/Award  
+First included in: <a href="Award.md" target="_blank">nonProfit/Award</a>  
 
 #### Properties
 
@@ -472,7 +472,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Award.cdm.json/Award  
+First included in: <a href="Award.md" target="_blank">nonProfit/Award</a>  
 
 #### Properties
 
@@ -517,7 +517,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Award.cdm.json/Award  
+First included in: <a href="Award.md" target="_blank">nonProfit/Award</a>  
 
 #### Properties
 
@@ -562,7 +562,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Award.cdm.json/Award  
+First included in: <a href="Award.md" target="_blank">nonProfit/Award</a>  
 
 #### Properties
 
@@ -610,7 +610,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Award.cdm.json/Award  
+First included in: <a href="Award.md" target="_blank">nonProfit/Award</a>  
 
 #### Properties
 
@@ -655,7 +655,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Award.cdm.json/Award  
+First included in: <a href="Award.md" target="_blank">nonProfit/Award</a>  
 
 #### Properties
 
@@ -693,7 +693,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Award.cdm.json/Award  
+First included in: <a href="Award.md" target="_blank">nonProfit/Award</a>  
 
 #### Properties
 
@@ -731,7 +731,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Award.cdm.json/Award  
+First included in: <a href="Award.md" target="_blank">nonProfit/Award</a>  
 
 #### Properties
 
@@ -768,7 +768,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#awardId name="awardId">awardId</a>
 
 Unique identifier for entity instances  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Award.cdm.json/Award  
+First included in: <a href="Award.md" target="_blank">nonProfit/Award</a>  
 
 #### Properties
 
@@ -807,7 +807,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Status of the Award  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Award.cdm.json/Award  
+First included in: <a href="Award.md" target="_blank">nonProfit/Award</a>  
 
 #### Properties
 
@@ -847,7 +847,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Award.cdm.json/Award  
+First included in: <a href="Award.md" target="_blank">nonProfit/Award</a>  
 
 #### Properties
 
@@ -871,7 +871,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Reason for the status of the Award  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Award.cdm.json/Award  
+First included in: <a href="Award.md" target="_blank">nonProfit/Award</a>  
 
 #### Properties
 
@@ -914,7 +914,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Award.cdm.json/Award  
+First included in: <a href="Award.md" target="_blank">nonProfit/Award</a>  
 
 #### Properties
 
@@ -938,7 +938,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Award.cdm.json/Award  
+First included in: <a href="Award.md" target="_blank">nonProfit/Award</a>  
 
 #### Properties
 
@@ -979,7 +979,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#docketId name="docketId">docketId</a>
 
 Docket  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Award.cdm.json/Award  
+First included in: <a href="Award.md" target="_blank">nonProfit/Award</a>  
 
 #### Properties
 
@@ -1024,7 +1024,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#fiscalSponsorId name="fiscalSponsorId">fiscalSponsorId</a>
 
 Fiscal Sponsor  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Award.cdm.json/Award  
+First included in: <a href="Award.md" target="_blank">nonProfit/Award</a>  
 
 #### Properties
 
@@ -1069,7 +1069,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#internalContactId name="internalContactId">internalContactId</a>
 
 Internal Contact  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Award.cdm.json/Award  
+First included in: <a href="Award.md" target="_blank">nonProfit/Award</a>  
 
 #### Properties
 
@@ -1114,7 +1114,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#noticeOfAwardChannel name="noticeOfAwardChannel">noticeOfAwardChannel</a>
 
 Comm method by which customer is notified that Award is approved.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Award.cdm.json/Award  
+First included in: <a href="Award.md" target="_blank">nonProfit/Award</a>  
 
 #### Properties
 
@@ -1154,7 +1154,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#noticeOfAwardChannel_display name="noticeOfAwardChannel_display">noticeOfAwardChannel_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Award.cdm.json/Award  
+First included in: <a href="Award.md" target="_blank">nonProfit/Award</a>  
 
 #### Properties
 
@@ -1178,7 +1178,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#noticeofAwardDate name="noticeofAwardDate">noticeofAwardDate</a>
 
 Date when customer is notified that Award is approved.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Award.cdm.json/Award  
+First included in: <a href="Award.md" target="_blank">nonProfit/Award</a>  
 
 #### Properties
 
@@ -1215,7 +1215,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#recipient name="recipient">recipient</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Award.cdm.json/Award  
+First included in: <a href="Award.md" target="_blank">nonProfit/Award</a>  
 
 #### Properties
 
@@ -1260,7 +1260,7 @@ contains an Account or Contact ID
 ### <a href=#requestId name="requestId">requestId</a>
 
 Request  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Award.cdm.json/Award  
+First included in: <a href="Award.md" target="_blank">nonProfit/Award</a>  
 
 #### Properties
 
@@ -1305,7 +1305,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#type name="type">type</a>
 
 Type of Award  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Award.cdm.json/Award  
+First included in: <a href="Award.md" target="_blank">nonProfit/Award</a>  
 
 #### Properties
 
@@ -1345,7 +1345,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#type_display name="type_display">type_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Award.cdm.json/Award  
+First included in: <a href="Award.md" target="_blank">nonProfit/Award</a>  
 
 #### Properties
 

@@ -97,7 +97,7 @@ portals/Feedback
 ### <a href=#feedbackId name="feedbackId">feedbackId</a>
 
 FeedbackId  
-First included in: /core/applicationCommon/Feedback.cdm.json/Feedback  
+First included in: <a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>  
 
 #### Properties
 
@@ -136,7 +136,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#rating name="rating">rating</a>
 
 Specifies how helpful the related record was.  
-First included in: /core/applicationCommon/Feedback.cdm.json/Feedback  
+First included in: <a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>  
 
 #### Properties
 
@@ -174,7 +174,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#minRating name="minRating">minRating</a>
 
 Enter the minimum rating value.  
-First included in: /core/applicationCommon/Feedback.cdm.json/Feedback  
+First included in: <a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>  
 
 #### Properties
 
@@ -212,7 +212,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#maxRating name="maxRating">maxRating</a>
 
 Enter the maximum rating value.  
-First included in: /core/applicationCommon/Feedback.cdm.json/Feedback  
+First included in: <a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>  
 
 #### Properties
 
@@ -250,7 +250,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#normalizedRating name="normalizedRating">normalizedRating</a>
 
 Shows the rating scaled to a value between 0 and 1 based on minimum and maximum ratings.  
-First included in: /core/applicationCommon/Feedback.cdm.json/Feedback  
+First included in: <a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>  
 
 #### Properties
 
@@ -290,7 +290,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#comments name="comments">comments</a>
 
 Type the feedback comments.  
-First included in: /core/applicationCommon/Feedback.cdm.json/Feedback  
+First included in: <a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>  
 
 #### Properties
 
@@ -330,7 +330,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#source name="source">source</a>
 
 Shows where the feedback was submitted from.  
-First included in: /core/applicationCommon/Feedback.cdm.json/Feedback  
+First included in: <a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>  
 
 #### Properties
 
@@ -370,7 +370,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#source_display name="source_display">source_display</a>
 
-First included in: /core/applicationCommon/Feedback.cdm.json/Feedback  
+First included in: <a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>  
 
 #### Properties
 
@@ -394,7 +394,7 @@ First included in: /core/applicationCommon/Feedback.cdm.json/Feedback
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Shows whether the feedback is open, rejected or closed.  
-First included in: /core/applicationCommon/Feedback.cdm.json/Feedback  
+First included in: <a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>  
 
 #### Properties
 
@@ -434,7 +434,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: /core/applicationCommon/Feedback.cdm.json/Feedback  
+First included in: <a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>  
 
 #### Properties
 
@@ -458,7 +458,7 @@ First included in: /core/applicationCommon/Feedback.cdm.json/Feedback
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Select the feedback's status.  
-First included in: /core/applicationCommon/Feedback.cdm.json/Feedback  
+First included in: <a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>  
 
 #### Properties
 
@@ -501,7 +501,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: /core/applicationCommon/Feedback.cdm.json/Feedback  
+First included in: <a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>  
 
 #### Properties
 
@@ -525,7 +525,7 @@ First included in: /core/applicationCommon/Feedback.cdm.json/Feedback
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version number of the feedback.  
-First included in: /core/applicationCommon/Feedback.cdm.json/Feedback  
+First included in: <a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>  
 
 #### Properties
 
@@ -561,7 +561,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#regardingObjectId name="regardingObjectId">regardingObjectId</a>
 
 Shows the record that the feedback is associated with.  
-First included in: /core/applicationCommon/Feedback.cdm.json/Feedback  
+First included in: <a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>  
 
 #### Properties
 
@@ -606,7 +606,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: /core/applicationCommon/Feedback.cdm.json/Feedback  
+First included in: <a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>  
 
 #### Properties
 
@@ -651,7 +651,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.  
-First included in: /core/applicationCommon/Feedback.cdm.json/Feedback  
+First included in: <a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>  
 
 #### Properties
 
@@ -690,7 +690,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: /core/applicationCommon/Feedback.cdm.json/Feedback  
+First included in: <a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>  
 
 #### Properties
 
@@ -735,7 +735,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: /core/applicationCommon/Feedback.cdm.json/Feedback  
+First included in: <a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>  
 
 #### Properties
 
@@ -780,7 +780,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.  
-First included in: /core/applicationCommon/Feedback.cdm.json/Feedback  
+First included in: <a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>  
 
 #### Properties
 
@@ -819,7 +819,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Unique identifier of the delegate user who modified the record.  
-First included in: /core/applicationCommon/Feedback.cdm.json/Feedback  
+First included in: <a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>  
 
 #### Properties
 
@@ -864,7 +864,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: /core/applicationCommon/Feedback.cdm.json/Feedback  
+First included in: <a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>  
 
 #### Properties
 
@@ -903,7 +903,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: /core/applicationCommon/Feedback.cdm.json/Feedback  
+First included in: <a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>  
 
 #### Properties
 
@@ -948,7 +948,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier of the business unit that owns the knowledge article views.  
-First included in: /core/applicationCommon/Feedback.cdm.json/Feedback  
+First included in: <a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>  
 
 #### Properties
 
@@ -993,7 +993,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user who owns this feedback.  
-First included in: /core/applicationCommon/Feedback.cdm.json/Feedback  
+First included in: <a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>  
 
 #### Properties
 
@@ -1035,7 +1035,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier of the team that owns the feedback.  
-First included in: /core/applicationCommon/Feedback.cdm.json/Feedback  
+First included in: <a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>  
 
 #### Properties
 
@@ -1077,7 +1077,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#closedBy name="closedBy">closedBy</a>
 
 Shows who closed the record.  
-First included in: /core/applicationCommon/Feedback.cdm.json/Feedback  
+First included in: <a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>  
 
 #### Properties
 
@@ -1122,7 +1122,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#closedOn name="closedOn">closedOn</a>
 
 Shows the date and time when the record was closed. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.  
-First included in: /core/applicationCommon/Feedback.cdm.json/Feedback  
+First included in: <a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>  
 
 #### Properties
 
@@ -1160,7 +1160,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: /core/applicationCommon/Feedback.cdm.json/Feedback  
+First included in: <a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>  
 
 #### Properties
 
@@ -1198,7 +1198,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: /core/applicationCommon/Feedback.cdm.json/Feedback  
+First included in: <a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>  
 
 #### Properties
 
@@ -1237,7 +1237,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Choose the local currency for the record to make sure budgets are reported in the correct currency.  
-First included in: /core/applicationCommon/Feedback.cdm.json/Feedback  
+First included in: <a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>  
 
 #### Properties
 
@@ -1282,7 +1282,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.  
-First included in: /core/applicationCommon/Feedback.cdm.json/Feedback  
+First included in: <a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>  
 
 #### Properties
 
@@ -1322,7 +1322,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#title name="title">title</a>
 
 Type a title for the feedback.  
-First included in: /core/applicationCommon/Feedback.cdm.json/Feedback  
+First included in: <a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>  
 
 #### Properties
 
@@ -1362,7 +1362,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#createdByContact name="createdByContact">createdByContact</a>
 
 Shows the contact who created the record.  
-First included in: /core/applicationCommon/Feedback.cdm.json/Feedback  
+First included in: <a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>  
 
 #### Properties
 
@@ -1407,7 +1407,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfByContact name="createdOnBehalfByContact">createdOnBehalfByContact</a>
 
 Shows the contact who created the record on behalf of another user.  
-First included in: /core/applicationCommon/Feedback.cdm.json/Feedback  
+First included in: <a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>  
 
 #### Properties
 
@@ -1452,7 +1452,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#publishedToWeb name="publishedToWeb">publishedToWeb</a>
 
 Shows whether the feedback is approved for display.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Feedback.cdm.json/Feedback  
+First included in: <a href="Feedback.md" target="_blank">portals/Feedback</a>  
 
 #### Properties
 
@@ -1487,7 +1487,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#authorURL name="authorURL">authorURL</a>
 
 The URL of the author’s home page/blog.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Feedback.cdm.json/Feedback  
+First included in: <a href="Feedback.md" target="_blank">portals/Feedback</a>  
 
 #### Properties
 
@@ -1528,7 +1528,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#adxContactEmail name="adxContactEmail">adxContactEmail</a>
 
 Email of the contact who created the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Feedback.cdm.json/Feedback  
+First included in: <a href="Feedback.md" target="_blank">portals/Feedback</a>  
 
 #### Properties
 
@@ -1569,7 +1569,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#adxContactUsername name="adxContactUsername">adxContactUsername</a>
 
 Username of the contact who created the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Feedback.cdm.json/Feedback  
+First included in: <a href="Feedback.md" target="_blank">portals/Feedback</a>  
 
 #### Properties
 
@@ -1610,7 +1610,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#adxCreatedByContact name="adxCreatedByContact">adxCreatedByContact</a>
 
 Name of the contact who created the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Feedback.cdm.json/Feedback  
+First included in: <a href="Feedback.md" target="_blank">portals/Feedback</a>  
 
 #### Properties
 

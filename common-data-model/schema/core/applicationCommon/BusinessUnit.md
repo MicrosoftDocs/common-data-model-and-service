@@ -132,7 +132,7 @@ applicationCommon/BusinessUnit
 ### <a href=#businessUnitId name="businessUnitId">businessUnitId</a>
 
 Unique identifier of the business unit.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -171,7 +171,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#organizationId name="organizationId">organizationId</a>
 
 Unique identifier of the organization associated with the business unit.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -213,7 +213,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#name name="name">name</a>
 
 Name of the business unit.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -251,7 +251,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#description name="description">description</a>
 
 Description of the business unit.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -291,7 +291,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#divisionName name="divisionName">divisionName</a>
 
 Name of the division to which the business unit belongs.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -332,7 +332,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#fileAsName name="fileAsName">fileAsName</a>
 
 Alternative name under which the business unit can be filed.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -373,7 +373,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#tickerSymbol name="tickerSymbol">tickerSymbol</a>
 
 Stock exchange ticker symbol for the business unit.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -414,7 +414,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#stockExchange name="stockExchange">stockExchange</a>
 
 Stock exchange on which the business is listed.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -454,7 +454,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCOffset name="UTCOffset">UTCOffset</a>
 
 UTC offset for the business unit. This is the difference between local time and standard Coordinated Universal Time.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -495,7 +495,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the business unit was created.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -534,7 +534,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the business unit was last modified.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -573,7 +573,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#creditLimit name="creditLimit">creditLimit</a>
 
 Credit limit for the business unit.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -612,7 +612,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#costCenter name="costCenter">costCenter</a>
 
 Name of the business unit cost center.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -652,7 +652,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#webSiteUrl name="webSiteUrl">webSiteUrl</a>
 
 Website URL for the business unit.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -693,7 +693,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ftpSiteUrl name="ftpSiteUrl">ftpSiteUrl</a>
 
 FTP site URL for the business unit.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -734,7 +734,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#emailAddress name="emailAddress">emailAddress</a>
 
 Email address for the business unit.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -775,7 +775,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#inheritanceMask name="inheritanceMask">inheritanceMask</a>
 
 Inheritance mask for the business unit.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -813,7 +813,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Unique identifier of the user who created the business unit.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -858,7 +858,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Unique identifier of the user who last modified the business unit.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -903,7 +903,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#workflowSuspended name="workflowSuspended">workflowSuspended</a>
 
 Information about whether workflow or sales process rules have been suspended.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -938,7 +938,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#parentBusinessUnitId name="parentBusinessUnitId">parentBusinessUnitId</a>
 
 Unique identifier for the parent business unit.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -983,7 +983,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#isDisabled name="isDisabled">isDisabled</a>
 
 Information about whether the business unit is enabled or disabled.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -1018,7 +1018,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#disabledReason name="disabledReason">disabledReason</a>
 
 Reason for disabling the business unit.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -1058,7 +1058,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version number of the business unit.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -1094,7 +1094,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#address1AddressId name="address1AddressId">address1AddressId</a>
 
 Unique identifier for address 1.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -1133,7 +1133,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#address1AddressTypeCode name="address1AddressTypeCode">address1AddressTypeCode</a>
 
 Type of address for address 1, such as billing, shipping, or primary address.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -1173,7 +1173,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#address1AddressTypeCode_display name="address1AddressTypeCode_display">address1AddressTypeCode_display</a>
 
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -1197,7 +1197,7 @@ First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit
 ### <a href=#address1Name name="address1Name">address1Name</a>
 
 Name to enter for address 1.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -1238,7 +1238,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Line1 name="address1Line1">address1Line1</a>
 
 First line for entering address 1 information.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -1279,7 +1279,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Line2 name="address1Line2">address1Line2</a>
 
 Second line for entering address 1 information.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -1320,7 +1320,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Line3 name="address1Line3">address1Line3</a>
 
 Third line for entering address 1 information.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -1361,7 +1361,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1City name="address1City">address1City</a>
 
 City name for address 1.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -1402,7 +1402,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1StateOrProvince name="address1StateOrProvince">address1StateOrProvince</a>
 
 State or province for address 1.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -1443,7 +1443,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1County name="address1County">address1County</a>
 
 County name for address 1.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -1484,7 +1484,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Country name="address1Country">address1Country</a>
 
 Country/region name for address 1.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -1525,7 +1525,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1PostOfficeBox name="address1PostOfficeBox">address1PostOfficeBox</a>
 
 Post office box number for address 1.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -1565,7 +1565,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1PostalCode name="address1PostalCode">address1PostalCode</a>
 
 ZIP Code or postal code for address 1.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -1606,7 +1606,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1UTCOffset name="address1UTCOffset">address1UTCOffset</a>
 
 UTC offset for address 1. This is the difference between local time and standard Coordinated Universal Time.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -1647,7 +1647,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1UPSZone name="address1UPSZone">address1UPSZone</a>
 
 United Parcel Service (UPS) zone for address 1.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -1687,7 +1687,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Latitude name="address1Latitude">address1Latitude</a>
 
 Latitude for address 1.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -1727,7 +1727,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Telephone1 name="address1Telephone1">address1Telephone1</a>
 
 First telephone number associated with address 1.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -1768,7 +1768,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Longitude name="address1Longitude">address1Longitude</a>
 
 Longitude for address 1.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -1808,7 +1808,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1ShippingMethodCode name="address1ShippingMethodCode">address1ShippingMethodCode</a>
 
 Method of shipment for address 1.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -1848,7 +1848,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#address1ShippingMethodCode_display name="address1ShippingMethodCode_display">address1ShippingMethodCode_display</a>
 
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -1872,7 +1872,7 @@ First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit
 ### <a href=#address1Telephone2 name="address1Telephone2">address1Telephone2</a>
 
 Second telephone number associated with address 1.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -1913,7 +1913,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Telephone3 name="address1Telephone3">address1Telephone3</a>
 
 Third telephone number associated with address 1.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -1954,7 +1954,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Fax name="address1Fax">address1Fax</a>
 
 Fax number for address 1.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -1994,7 +1994,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2AddressId name="address2AddressId">address2AddressId</a>
 
 Unique identifier for address 2.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -2033,7 +2033,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#address2AddressTypeCode name="address2AddressTypeCode">address2AddressTypeCode</a>
 
 Type of address for address 2, such as billing, shipping, or primary address.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -2073,7 +2073,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#address2AddressTypeCode_display name="address2AddressTypeCode_display">address2AddressTypeCode_display</a>
 
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -2097,7 +2097,7 @@ First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit
 ### <a href=#address2Name name="address2Name">address2Name</a>
 
 Name to enter for address 2.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -2138,7 +2138,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Line1 name="address2Line1">address2Line1</a>
 
 First line for entering address 2 information.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -2179,7 +2179,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Line2 name="address2Line2">address2Line2</a>
 
 Second line for entering address 2 information.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -2220,7 +2220,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Line3 name="address2Line3">address2Line3</a>
 
 Third line for entering address 2 information.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -2261,7 +2261,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2City name="address2City">address2City</a>
 
 City name for address 2.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -2302,7 +2302,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2StateOrProvince name="address2StateOrProvince">address2StateOrProvince</a>
 
 State or province for address 2.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -2343,7 +2343,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2County name="address2County">address2County</a>
 
 County name for address 2.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -2384,7 +2384,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Country name="address2Country">address2Country</a>
 
 Country/region name for address 2.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -2425,7 +2425,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2PostOfficeBox name="address2PostOfficeBox">address2PostOfficeBox</a>
 
 Post office box number for address 2.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -2465,7 +2465,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2PostalCode name="address2PostalCode">address2PostalCode</a>
 
 ZIP Code or postal code for address 2.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -2506,7 +2506,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2UTCOffset name="address2UTCOffset">address2UTCOffset</a>
 
 UTC offset for address 2. This is the difference between local time and standard Coordinated Universal Time.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -2547,7 +2547,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2UPSZone name="address2UPSZone">address2UPSZone</a>
 
 United Parcel Service (UPS) zone for address 2.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -2587,7 +2587,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Latitude name="address2Latitude">address2Latitude</a>
 
 Latitude for address 2.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -2627,7 +2627,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Telephone1 name="address2Telephone1">address2Telephone1</a>
 
 First telephone number associated with address 2.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -2668,7 +2668,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Longitude name="address2Longitude">address2Longitude</a>
 
 Longitude for address 2.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -2708,7 +2708,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2ShippingMethodCode name="address2ShippingMethodCode">address2ShippingMethodCode</a>
 
 Method of shipment for address 2.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -2748,7 +2748,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#address2ShippingMethodCode_display name="address2ShippingMethodCode_display">address2ShippingMethodCode_display</a>
 
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -2772,7 +2772,7 @@ First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit
 ### <a href=#address2Telephone2 name="address2Telephone2">address2Telephone2</a>
 
 Second telephone number associated with address 2.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -2813,7 +2813,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Telephone3 name="address2Telephone3">address2Telephone3</a>
 
 Third telephone number associated with address 2.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -2854,7 +2854,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Fax name="address2Fax">address2Fax</a>
 
 Fax number for address 2.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -2894,7 +2894,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#picture name="picture">picture</a>
 
 Picture or diagram of the business unit.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -2934,7 +2934,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#calendarId name="calendarId">calendarId</a>
 
 Fiscal calendar associated with the business unit.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -2976,7 +2976,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -3015,7 +3015,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -3053,7 +3053,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Unique identifier of the delegate user who created the businessunit.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -3098,7 +3098,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Unique identifier of the delegate user who last modified the businessunit.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -3143,7 +3143,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Unique identifier of the currency associated with the businessunit.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 
@@ -3188,7 +3188,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Exchange rate for the currency associated with the businessunit with respect to the base currency.  
-First included in: /core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit  
+First included in: <a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>  
 
 #### Properties
 

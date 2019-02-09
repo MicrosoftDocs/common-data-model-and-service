@@ -68,7 +68,7 @@ interactions/SegmentRelationshipEdited
 ### <a href=#interactionId name="interactionId">interactionId</a>
 
 Unique identifier of the interaction.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/SegmentRelationshipEdited.cdm.json/SegmentRelationshipEdited  
+First included in: <a href="SegmentRelationshipEdited.md" target="_blank">interactions/SegmentRelationshipEdited</a>  
 
 #### Properties
 
@@ -105,7 +105,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#contactId name="contactId">contactId</a>
 
 Contact  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/SegmentRelationshipEdited.cdm.json/SegmentRelationshipEdited  
+First included in: <a href="SegmentRelationshipEdited.md" target="_blank">interactions/SegmentRelationshipEdited</a>  
 
 #### Properties
 
@@ -147,7 +147,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#accountId name="accountId">accountId</a>
 
 Account  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/SegmentRelationshipEdited.cdm.json/SegmentRelationshipEdited  
+First included in: <a href="SegmentRelationshipEdited.md" target="_blank">interactions/SegmentRelationshipEdited</a>  
 
 #### Properties
 
@@ -189,7 +189,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#sessionId name="sessionId">sessionId</a>
 
 Session ID  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/SegmentRelationshipEdited.cdm.json/SegmentRelationshipEdited  
+First included in: <a href="SegmentRelationshipEdited.md" target="_blank">interactions/SegmentRelationshipEdited</a>  
 
 #### Properties
 
@@ -220,7 +220,7 @@ The attribute value may be set to NULL.
 ### <a href=#visitorId name="visitorId">visitorId</a>
 
 Visitor ID  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/SegmentRelationshipEdited.cdm.json/SegmentRelationshipEdited  
+First included in: <a href="SegmentRelationshipEdited.md" target="_blank">interactions/SegmentRelationshipEdited</a>  
 
 #### Properties
 
@@ -251,7 +251,7 @@ The attribute value may be set to NULL.
 ### <a href=#sendingId name="sendingId">sendingId</a>
 
 Sending ID  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/SegmentRelationshipEdited.cdm.json/SegmentRelationshipEdited  
+First included in: <a href="SegmentRelationshipEdited.md" target="_blank">interactions/SegmentRelationshipEdited</a>  
 
 #### Properties
 
@@ -282,7 +282,7 @@ The attribute value may be set to NULL.
 ### <a href=#countryIsoCode name="countryIsoCode">countryIsoCode</a>
 
 Country ISO code  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/SegmentRelationshipEdited.cdm.json/SegmentRelationshipEdited  
+First included in: <a href="SegmentRelationshipEdited.md" target="_blank">interactions/SegmentRelationshipEdited</a>  
 
 #### Properties
 
@@ -313,7 +313,7 @@ The attribute value may be set to NULL.
 ### <a href=#state name="state">state</a>
 
 State  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/SegmentRelationshipEdited.cdm.json/SegmentRelationshipEdited  
+First included in: <a href="SegmentRelationshipEdited.md" target="_blank">interactions/SegmentRelationshipEdited</a>  
 
 #### Properties
 
@@ -344,7 +344,7 @@ The attribute value may be set to NULL.
 ### <a href=#city name="city">city</a>
 
 City  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/SegmentRelationshipEdited.cdm.json/SegmentRelationshipEdited  
+First included in: <a href="SegmentRelationshipEdited.md" target="_blank">interactions/SegmentRelationshipEdited</a>  
 
 #### Properties
 
@@ -375,7 +375,7 @@ The attribute value may be set to NULL.
 ### <a href=#postalCode name="postalCode">postalCode</a>
 
 Postal code  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/SegmentRelationshipEdited.cdm.json/SegmentRelationshipEdited  
+First included in: <a href="SegmentRelationshipEdited.md" target="_blank">interactions/SegmentRelationshipEdited</a>  
 
 #### Properties
 
@@ -406,7 +406,7 @@ The attribute value may be set to NULL.
 ### <a href=#browserId name="browserId">browserId</a>
 
 Browser ID  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/SegmentRelationshipEdited.cdm.json/SegmentRelationshipEdited  
+First included in: <a href="SegmentRelationshipEdited.md" target="_blank">interactions/SegmentRelationshipEdited</a>  
 
 #### Properties
 
@@ -437,7 +437,7 @@ The attribute value may be set to NULL.
 ### <a href=#browserVersion name="browserVersion">browserVersion</a>
 
 Browser version  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/SegmentRelationshipEdited.cdm.json/SegmentRelationshipEdited  
+First included in: <a href="SegmentRelationshipEdited.md" target="_blank">interactions/SegmentRelationshipEdited</a>  
 
 #### Properties
 
@@ -468,7 +468,7 @@ The attribute value may be set to NULL.
 ### <a href=#operatingSystemId name="operatingSystemId">operatingSystemId</a>
 
 Operating system ID  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/SegmentRelationshipEdited.cdm.json/SegmentRelationshipEdited  
+First included in: <a href="SegmentRelationshipEdited.md" target="_blank">interactions/SegmentRelationshipEdited</a>  
 
 #### Properties
 
@@ -499,7 +499,7 @@ The attribute value may be set to NULL.
 ### <a href=#operatingSystemVersion name="operatingSystemVersion">operatingSystemVersion</a>
 
 Operating system version  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/SegmentRelationshipEdited.cdm.json/SegmentRelationshipEdited  
+First included in: <a href="SegmentRelationshipEdited.md" target="_blank">interactions/SegmentRelationshipEdited</a>  
 
 #### Properties
 
@@ -530,7 +530,7 @@ The attribute value may be set to NULL.
 ### <a href=#segmentId name="segmentId">segmentId</a>
 
 Segment ID  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/SegmentRelationshipEdited.cdm.json/SegmentRelationshipEdited  
+First included in: <a href="SegmentRelationshipEdited.md" target="_blank">interactions/SegmentRelationshipEdited</a>  
 
 #### Properties
 
@@ -561,7 +561,7 @@ The attribute value may be set to NULL.
 ### <a href=#relationshipOperatorAction name="relationshipOperatorAction">relationshipOperatorAction</a>
 
 Relationship operator action  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/SegmentRelationshipEdited.cdm.json/SegmentRelationshipEdited  
+First included in: <a href="SegmentRelationshipEdited.md" target="_blank">interactions/SegmentRelationshipEdited</a>  
 
 #### Properties
 
@@ -592,7 +592,7 @@ The attribute value may be set to NULL.
 ### <a href=#result name="result">result</a>
 
 Result  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/SegmentRelationshipEdited.cdm.json/SegmentRelationshipEdited  
+First included in: <a href="SegmentRelationshipEdited.md" target="_blank">interactions/SegmentRelationshipEdited</a>  
 
 #### Properties
 
@@ -623,7 +623,7 @@ The attribute value may be set to NULL.
 ### <a href=#searchPhrase name="searchPhrase">searchPhrase</a>
 
 Search phrase  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/SegmentRelationshipEdited.cdm.json/SegmentRelationshipEdited  
+First included in: <a href="SegmentRelationshipEdited.md" target="_blank">interactions/SegmentRelationshipEdited</a>  
 
 #### Properties
 
@@ -654,7 +654,7 @@ The attribute value may be set to NULL.
 ### <a href=#searchEngineName name="searchEngineName">searchEngineName</a>
 
 Search engine name  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/SegmentRelationshipEdited.cdm.json/SegmentRelationshipEdited  
+First included in: <a href="SegmentRelationshipEdited.md" target="_blank">interactions/SegmentRelationshipEdited</a>  
 
 #### Properties
 
@@ -685,7 +685,7 @@ The attribute value may be set to NULL.
 ### <a href=#visitDuration name="visitDuration">visitDuration</a>
 
 Visit duration  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/SegmentRelationshipEdited.cdm.json/SegmentRelationshipEdited  
+First included in: <a href="SegmentRelationshipEdited.md" target="_blank">interactions/SegmentRelationshipEdited</a>  
 
 #### Properties
 
@@ -716,7 +716,7 @@ The attribute value may be set to NULL.
 ### <a href=#visitorReturningStatus name="visitorReturningStatus">visitorReturningStatus</a>
 
 Visitor returning status  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/SegmentRelationshipEdited.cdm.json/SegmentRelationshipEdited  
+First included in: <a href="SegmentRelationshipEdited.md" target="_blank">interactions/SegmentRelationshipEdited</a>  
 
 #### Properties
 
@@ -747,7 +747,7 @@ The attribute value may be set to NULL.
 ### <a href=#timestamp name="timestamp">timestamp</a>
 
 Timestamp  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/SegmentRelationshipEdited.cdm.json/SegmentRelationshipEdited  
+First included in: <a href="SegmentRelationshipEdited.md" target="_blank">interactions/SegmentRelationshipEdited</a>  
 
 #### Properties
 
@@ -779,7 +779,7 @@ The attribute value may be set to NULL.
 ### <a href=#visitorAnonymousStatus name="visitorAnonymousStatus">visitorAnonymousStatus</a>
 
 Visitor anonymous status  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/SegmentRelationshipEdited.cdm.json/SegmentRelationshipEdited  
+First included in: <a href="SegmentRelationshipEdited.md" target="_blank">interactions/SegmentRelationshipEdited</a>  
 
 #### Properties
 
@@ -810,7 +810,7 @@ The attribute value may be set to NULL.
 ### <a href=#leadId name="leadId">leadId</a>
 
 Lead ID  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/SegmentRelationshipEdited.cdm.json/SegmentRelationshipEdited  
+First included in: <a href="SegmentRelationshipEdited.md" target="_blank">interactions/SegmentRelationshipEdited</a>  
 
 #### Properties
 

@@ -105,7 +105,7 @@ applicationCommon/Address
 
 ### <a href=#parentIdTypeCode name="parentIdTypeCode">parentIdTypeCode</a>
 
-First included in: /core/applicationCommon/Address.cdm.json/Address  
+First included in: <a href="Address.md" target="_blank">applicationCommon/Address</a>  
 
 #### Properties
 
@@ -128,7 +128,7 @@ Marks an attribute that contains the entity name or 'class' for the situation wh
 
 ### <a href=#parentId name="parentId">parentId</a>
 
-First included in: /core/applicationCommon/Address.cdm.json/Address  
+First included in: <a href="Address.md" target="_blank">applicationCommon/Address</a>  
 
 #### Properties
 
@@ -160,7 +160,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 
 ### <a href=#customerAddressId name="customerAddressId">customerAddressId</a>
 
-First included in: /core/applicationCommon/Address.cdm.json/Address  
+First included in: <a href="Address.md" target="_blank">applicationCommon/Address</a>  
 
 #### Properties
 
@@ -186,7 +186,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#addressNumber name="addressNumber">addressNumber</a>
 
-First included in: /core/applicationCommon/Address.cdm.json/Address  
+First included in: <a href="Address.md" target="_blank">applicationCommon/Address</a>  
 
 #### Properties
 
@@ -214,7 +214,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#objectTypeCode name="objectTypeCode">objectTypeCode</a>
 
-First included in: /core/applicationCommon/Address.cdm.json/Address  
+First included in: <a href="Address.md" target="_blank">applicationCommon/Address</a>  
 
 #### Properties
 
@@ -242,7 +242,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#objectTypeCode_display name="objectTypeCode_display">objectTypeCode_display</a>
 
-First included in: /core/applicationCommon/Address.cdm.json/Address  
+First included in: <a href="Address.md" target="_blank">applicationCommon/Address</a>  
 
 #### Properties
 
@@ -265,7 +265,7 @@ First included in: /core/applicationCommon/Address.cdm.json/Address
 
 ### <a href=#addressTypeCode name="addressTypeCode">addressTypeCode</a>
 
-First included in: /core/applicationCommon/Address.cdm.json/Address  
+First included in: <a href="Address.md" target="_blank">applicationCommon/Address</a>  
 
 #### Properties
 
@@ -296,7 +296,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#addressTypeCode_display name="addressTypeCode_display">addressTypeCode_display</a>
 
-First included in: /core/applicationCommon/Address.cdm.json/Address  
+First included in: <a href="Address.md" target="_blank">applicationCommon/Address</a>  
 
 #### Properties
 
@@ -319,7 +319,7 @@ First included in: /core/applicationCommon/Address.cdm.json/Address
 
 ### <a href=#name name="name">name</a>
 
-First included in: /core/applicationCommon/Address.cdm.json/Address  
+First included in: <a href="Address.md" target="_blank">applicationCommon/Address</a>  
 
 #### Properties
 
@@ -350,7 +350,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#primaryContactName name="primaryContactName">primaryContactName</a>
 
-First included in: /core/applicationCommon/Address.cdm.json/Address  
+First included in: <a href="Address.md" target="_blank">applicationCommon/Address</a>  
 
 #### Properties
 
@@ -381,7 +381,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#line1 name="line1">line1</a>
 
-First included in: /core/applicationCommon/Address.cdm.json/Address  
+First included in: <a href="Address.md" target="_blank">applicationCommon/Address</a>  
 
 #### Properties
 
@@ -412,7 +412,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#line2 name="line2">line2</a>
 
-First included in: /core/applicationCommon/Address.cdm.json/Address  
+First included in: <a href="Address.md" target="_blank">applicationCommon/Address</a>  
 
 #### Properties
 
@@ -443,7 +443,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#line3 name="line3">line3</a>
 
-First included in: /core/applicationCommon/Address.cdm.json/Address  
+First included in: <a href="Address.md" target="_blank">applicationCommon/Address</a>  
 
 #### Properties
 
@@ -474,7 +474,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#city name="city">city</a>
 
-First included in: /core/applicationCommon/Address.cdm.json/Address  
+First included in: <a href="Address.md" target="_blank">applicationCommon/Address</a>  
 
 #### Properties
 
@@ -505,7 +505,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#stateOrProvince name="stateOrProvince">stateOrProvince</a>
 
-First included in: /core/applicationCommon/Address.cdm.json/Address  
+First included in: <a href="Address.md" target="_blank">applicationCommon/Address</a>  
 
 #### Properties
 
@@ -536,7 +536,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#county name="county">county</a>
 
-First included in: /core/applicationCommon/Address.cdm.json/Address  
+First included in: <a href="Address.md" target="_blank">applicationCommon/Address</a>  
 
 #### Properties
 
@@ -567,7 +567,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#country name="country">country</a>
 
-First included in: /core/applicationCommon/Address.cdm.json/Address  
+First included in: <a href="Address.md" target="_blank">applicationCommon/Address</a>  
 
 #### Properties
 
@@ -598,7 +598,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#postOfficeBox name="postOfficeBox">postOfficeBox</a>
 
-First included in: /core/applicationCommon/Address.cdm.json/Address  
+First included in: <a href="Address.md" target="_blank">applicationCommon/Address</a>  
 
 #### Properties
 
@@ -628,7 +628,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#postalCode name="postalCode">postalCode</a>
 
-First included in: /core/applicationCommon/Address.cdm.json/Address  
+First included in: <a href="Address.md" target="_blank">applicationCommon/Address</a>  
 
 #### Properties
 
@@ -659,7 +659,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#UTCOffset name="UTCOffset">UTCOffset</a>
 
-First included in: /core/applicationCommon/Address.cdm.json/Address  
+First included in: <a href="Address.md" target="_blank">applicationCommon/Address</a>  
 
 #### Properties
 
@@ -690,7 +690,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#freightTermsCode name="freightTermsCode">freightTermsCode</a>
 
-First included in: /core/applicationCommon/Address.cdm.json/Address  
+First included in: <a href="Address.md" target="_blank">applicationCommon/Address</a>  
 
 #### Properties
 
@@ -721,7 +721,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#freightTermsCode_display name="freightTermsCode_display">freightTermsCode_display</a>
 
-First included in: /core/applicationCommon/Address.cdm.json/Address  
+First included in: <a href="Address.md" target="_blank">applicationCommon/Address</a>  
 
 #### Properties
 
@@ -744,7 +744,7 @@ First included in: /core/applicationCommon/Address.cdm.json/Address
 
 ### <a href=#UPSZone name="UPSZone">UPSZone</a>
 
-First included in: /core/applicationCommon/Address.cdm.json/Address  
+First included in: <a href="Address.md" target="_blank">applicationCommon/Address</a>  
 
 #### Properties
 
@@ -774,7 +774,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#latitude name="latitude">latitude</a>
 
-First included in: /core/applicationCommon/Address.cdm.json/Address  
+First included in: <a href="Address.md" target="_blank">applicationCommon/Address</a>  
 
 #### Properties
 
@@ -804,7 +804,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#telephone1 name="telephone1">telephone1</a>
 
-First included in: /core/applicationCommon/Address.cdm.json/Address  
+First included in: <a href="Address.md" target="_blank">applicationCommon/Address</a>  
 
 #### Properties
 
@@ -835,7 +835,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#longitude name="longitude">longitude</a>
 
-First included in: /core/applicationCommon/Address.cdm.json/Address  
+First included in: <a href="Address.md" target="_blank">applicationCommon/Address</a>  
 
 #### Properties
 
@@ -865,7 +865,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#shippingMethodCode name="shippingMethodCode">shippingMethodCode</a>
 
-First included in: /core/applicationCommon/Address.cdm.json/Address  
+First included in: <a href="Address.md" target="_blank">applicationCommon/Address</a>  
 
 #### Properties
 
@@ -896,7 +896,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#shippingMethodCode_display name="shippingMethodCode_display">shippingMethodCode_display</a>
 
-First included in: /core/applicationCommon/Address.cdm.json/Address  
+First included in: <a href="Address.md" target="_blank">applicationCommon/Address</a>  
 
 #### Properties
 
@@ -919,7 +919,7 @@ First included in: /core/applicationCommon/Address.cdm.json/Address
 
 ### <a href=#telephone2 name="telephone2">telephone2</a>
 
-First included in: /core/applicationCommon/Address.cdm.json/Address  
+First included in: <a href="Address.md" target="_blank">applicationCommon/Address</a>  
 
 #### Properties
 
@@ -950,7 +950,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#telephone3 name="telephone3">telephone3</a>
 
-First included in: /core/applicationCommon/Address.cdm.json/Address  
+First included in: <a href="Address.md" target="_blank">applicationCommon/Address</a>  
 
 #### Properties
 
@@ -981,7 +981,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#fax name="fax">fax</a>
 
-First included in: /core/applicationCommon/Address.cdm.json/Address  
+First included in: <a href="Address.md" target="_blank">applicationCommon/Address</a>  
 
 #### Properties
 
@@ -1012,7 +1012,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
-First included in: /core/applicationCommon/Address.cdm.json/Address  
+First included in: <a href="Address.md" target="_blank">applicationCommon/Address</a>  
 
 #### Properties
 
@@ -1038,7 +1038,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
-First included in: /core/applicationCommon/Address.cdm.json/Address  
+First included in: <a href="Address.md" target="_blank">applicationCommon/Address</a>  
 
 #### Properties
 
@@ -1073,7 +1073,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
-First included in: /core/applicationCommon/Address.cdm.json/Address  
+First included in: <a href="Address.md" target="_blank">applicationCommon/Address</a>  
 
 #### Properties
 
@@ -1102,7 +1102,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
-First included in: /core/applicationCommon/Address.cdm.json/Address  
+First included in: <a href="Address.md" target="_blank">applicationCommon/Address</a>  
 
 #### Properties
 
@@ -1137,7 +1137,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
-First included in: /core/applicationCommon/Address.cdm.json/Address  
+First included in: <a href="Address.md" target="_blank">applicationCommon/Address</a>  
 
 #### Properties
 
@@ -1166,7 +1166,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
-First included in: /core/applicationCommon/Address.cdm.json/Address  
+First included in: <a href="Address.md" target="_blank">applicationCommon/Address</a>  
 
 #### Properties
 
@@ -1198,7 +1198,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
-First included in: /core/applicationCommon/Address.cdm.json/Address  
+First included in: <a href="Address.md" target="_blank">applicationCommon/Address</a>  
 
 #### Properties
 
@@ -1230,7 +1230,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
-First included in: /core/applicationCommon/Address.cdm.json/Address  
+First included in: <a href="Address.md" target="_blank">applicationCommon/Address</a>  
 
 #### Properties
 
@@ -1258,7 +1258,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
-First included in: /core/applicationCommon/Address.cdm.json/Address  
+First included in: <a href="Address.md" target="_blank">applicationCommon/Address</a>  
 
 #### Properties
 
@@ -1287,7 +1287,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
-First included in: /core/applicationCommon/Address.cdm.json/Address  
+First included in: <a href="Address.md" target="_blank">applicationCommon/Address</a>  
 
 #### Properties
 
@@ -1315,7 +1315,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
-First included in: /core/applicationCommon/Address.cdm.json/Address  
+First included in: <a href="Address.md" target="_blank">applicationCommon/Address</a>  
 
 #### Properties
 
@@ -1343,7 +1343,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
-First included in: /core/applicationCommon/Address.cdm.json/Address  
+First included in: <a href="Address.md" target="_blank">applicationCommon/Address</a>  
 
 #### Properties
 
@@ -1372,7 +1372,7 @@ contains a User or Team ID
 
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
-First included in: /core/applicationCommon/Address.cdm.json/Address  
+First included in: <a href="Address.md" target="_blank">applicationCommon/Address</a>  
 
 #### Properties
 
@@ -1407,7 +1407,7 @@ contains a User or Team ID
 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
-First included in: /core/applicationCommon/Address.cdm.json/Address  
+First included in: <a href="Address.md" target="_blank">applicationCommon/Address</a>  
 
 #### Properties
 
@@ -1442,7 +1442,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
-First included in: /core/applicationCommon/Address.cdm.json/Address  
+First included in: <a href="Address.md" target="_blank">applicationCommon/Address</a>  
 
 #### Properties
 
@@ -1477,7 +1477,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
-First included in: /core/applicationCommon/Address.cdm.json/Address  
+First included in: <a href="Address.md" target="_blank">applicationCommon/Address</a>  
 
 #### Properties
 
@@ -1512,7 +1512,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
-First included in: /core/applicationCommon/Address.cdm.json/Address  
+First included in: <a href="Address.md" target="_blank">applicationCommon/Address</a>  
 
 #### Properties
 
@@ -1542,7 +1542,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#composite name="composite">composite</a>
 
-First included in: /core/applicationCommon/Address.cdm.json/Address  
+First included in: <a href="Address.md" target="_blank">applicationCommon/Address</a>  
 
 #### Properties
 

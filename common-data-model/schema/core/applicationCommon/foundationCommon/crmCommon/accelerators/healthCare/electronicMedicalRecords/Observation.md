@@ -147,7 +147,7 @@ electronicMedicalRecords/Observation
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -186,7 +186,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -234,7 +234,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -273,7 +273,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -321,7 +321,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -369,7 +369,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -417,7 +417,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -456,7 +456,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -491,7 +491,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -530,7 +530,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -575,7 +575,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -620,7 +620,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -668,7 +668,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -713,7 +713,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -751,7 +751,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -789,7 +789,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -826,7 +826,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#observationId name="observationId">observationId</a>
 
 Unique identifier for entity instances  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -865,7 +865,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Status of the Observation  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -905,7 +905,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -929,7 +929,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Reason for the status of the Observation  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -972,7 +972,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -996,7 +996,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#description name="description">description</a>
 
 The name of the custom entity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -1036,7 +1036,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#bodySite name="bodySite">bodySite</a>
 
 Indicates the site on the subject's body where the observation was made (i.e. the target site).  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -1081,7 +1081,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#code name="code">code</a>
 
 Describes what was observed. Sometimes this is called the observation "name".  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -1126,7 +1126,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#comment name="comment">comment</a>
 
 May include statements about significant, unexpected or unreliable values, or information about the source of the value where this may be relevant to the interpretation of the result.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -1166,7 +1166,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#conextTypeEncounter name="conextTypeEncounter">conextTypeEncounter</a>
 
 The healthcare event (e.g. a patient and healthcare provider interaction) during which this observation is made.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -1211,7 +1211,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#conextTypeEpisodeOfCare name="conextTypeEpisodeOfCare">conextTypeEpisodeOfCare</a>
 
 The healthcare event (e.g. a patient and healthcare provider interaction) during which this observation is made.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -1256,7 +1256,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#contextType name="contextType">contextType</a>
 
 The healthcare event (e.g. a patient and healthcare provider interaction) during which this observation is made.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -1296,7 +1296,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#contextType_display name="contextType_display">contextType_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -1320,7 +1320,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#dataAbsentReason name="dataAbsentReason">dataAbsentReason</a>
 
 Provides a reason why the expected value in the element Observation.value[x] is missing.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -1365,7 +1365,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#device name="device">device</a>
 
 The device whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -1410,7 +1410,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#deviceType name="deviceType">deviceType</a>
 
 The device used to generate the observation data.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -1450,7 +1450,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#deviceType_display name="deviceType_display">deviceType_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -1474,7 +1474,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#deviceTypeDevice name="deviceTypeDevice">deviceTypeDevice</a>
 
 The device used to generate the observation data.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -1519,7 +1519,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#deviceTypeDeviceMetric name="deviceTypeDeviceMetric">deviceTypeDeviceMetric</a>
 
 The device  metric used to generate the observation data.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -1561,7 +1561,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#effectiveEnd name="effectiveEnd">effectiveEnd</a>
 
 The  End time-period the observed value is asserted as being true. For biological subjects  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -1599,7 +1599,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#effectiveStart name="effectiveStart">effectiveStart</a>
 
 The start time-period the observed value is asserted as being true. For biological subjects  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -1637,7 +1637,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#effectiveType name="effectiveType">effectiveType</a>
 
 Clinically relevant time/time-period for observation.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -1677,7 +1677,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#effectiveType_display name="effectiveType_display">effectiveType_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -1701,7 +1701,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#effectiveTypeDateTime name="effectiveTypeDateTime">effectiveTypeDateTime</a>
 
 Enable this field if the Effective type field is Date time.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -1739,7 +1739,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#episodeOfCare name="episodeOfCare">episodeOfCare</a>
 
 The healthcare event (e.g. a patient and healthcare provider interaction) during which this observation is made.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -1784,7 +1784,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#identifier name="identifier">identifier</a>
 
 A unique identifier assigned to this observation.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -1824,7 +1824,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#interpretation name="interpretation">interpretation</a>
 
 The assessment made based on the result of the observation. Intended as a simple compact code often placed adjacent to the result value in reports and flow sheets to signal the meaning/normalcy status  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -1869,7 +1869,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#issuedDate name="issuedDate">issuedDate</a>
 
 The date and time this observation was made available to providers, typically after the results have been reviewed and verified.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -1907,7 +1907,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#method name="method">method</a>
 
 Indicates the mechanism used to perform the observation.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -1952,7 +1952,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#observationNumber name="observationNumber">observationNumber</a>
 
 A unique identifier assigned to this observation.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -1992,7 +1992,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#specimen name="specimen">specimen</a>
 
 The specimen that was used when this observation was made.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -2034,7 +2034,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#status name="status">status</a>
 
 The status of the result value.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -2074,7 +2074,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#status_display name="status_display">status_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -2098,7 +2098,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#subjectType name="subjectType">subjectType</a>
 
 The patient, or group of patients, location, or device whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -2138,7 +2138,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#subjectType_display name="subjectType_display">subjectType_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -2162,7 +2162,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#subjectTypeDevice name="subjectTypeDevice">subjectTypeDevice</a>
 
 The  device whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -2207,7 +2207,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#subjectTypeGroup name="subjectTypeGroup">subjectTypeGroup</a>
 
 The group whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -2252,7 +2252,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#subjectTypeLocation name="subjectTypeLocation">subjectTypeLocation</a>
 
 The location whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -2297,7 +2297,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#subjectTypePatient name="subjectTypePatient">subjectTypePatient</a>
 
 The patient whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -2342,7 +2342,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#valueBoolean name="valueBoolean">valueBoolean</a>
 
 The boolean information determined as a result of making the observation, if the information has a simple value.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -2377,7 +2377,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#valueCodeableConcept name="valueCodeableConcept">valueCodeableConcept</a>
 
 The codeable concept information determined as a result of making the observation, if the information has a simple value.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -2422,7 +2422,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#valueDateType name="valueDateType">valueDateType</a>
 
 The date and time  information determined as a result of making the observation, if the information has a simple value.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -2460,7 +2460,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#valuePeriodEndDate name="valuePeriodEndDate">valuePeriodEndDate</a>
 
 The period end date information determined as a result of making the observation, if the information has a simple value.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -2498,7 +2498,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#valuePeriodStartDate name="valuePeriodStartDate">valuePeriodStartDate</a>
 
 The period start date information determined as a result of making the observation, if the information has a simple value.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -2536,7 +2536,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#valueQuantityCode name="valueQuantityCode">valueQuantityCode</a>
 
 Coded form of the unit.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -2581,7 +2581,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#valueQuantitySystem name="valueQuantitySystem">valueQuantitySystem</a>
 
 System that defines coded unit form.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -2621,7 +2621,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#valueQuantityUnit name="valueQuantityUnit">valueQuantityUnit</a>
 
 Unit representation.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -2661,7 +2661,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#valueRangeHighLimit name="valueRangeHighLimit">valueRangeHighLimit</a>
 
 The value high range information determined as a result of making the observation, if the information has a simple value.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -2699,7 +2699,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#valueRangeLowLimit name="valueRangeLowLimit">valueRangeLowLimit</a>
 
 The range low value information determined as a result of making the observation, if the information has a simple value.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -2737,7 +2737,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#valueRatioDenominatorCode name="valueRatioDenominatorCode">valueRatioDenominatorCode</a>
 
 The denominator code information determined as a result of making the observation, if the information has a simple value.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -2782,7 +2782,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#valueRatioDenominatorComparator name="valueRatioDenominatorComparator">valueRatioDenominatorComparator</a>
 
 The denominator comparator information determined as a result of making the observation, if the information has a simple value.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -2822,7 +2822,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#valueRatioDenominatorComparator_display name="valueRatioDenominatorComparator_display">valueRatioDenominatorComparator_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -2846,7 +2846,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#valueratioDenominatorSystem name="valueratioDenominatorSystem">valueratioDenominatorSystem</a>
 
 The denominator system information determined as a result of making the observation, if the information has a simple value.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -2885,7 +2885,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#valueRatioDenominatorUnit name="valueRatioDenominatorUnit">valueRatioDenominatorUnit</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -2921,7 +2921,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#valueratioDenominatorvalue name="valueratioDenominatorvalue">valueratioDenominatorvalue</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -2957,7 +2957,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#valueRatioNumeratorCode name="valueRatioNumeratorCode">valueRatioNumeratorCode</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -2998,7 +2998,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 
 ### <a href=#valueRatioNumeratorComparator name="valueRatioNumeratorComparator">valueRatioNumeratorComparator</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -3035,7 +3035,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#valueRatioNumeratorComparator_display name="valueRatioNumeratorComparator_display">valueRatioNumeratorComparator_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -3058,7 +3058,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 ### <a href=#valueRatioNumeratorSystem name="valueRatioNumeratorSystem">valueRatioNumeratorSystem</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -3094,7 +3094,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#valueRatioNumeratorUnit name="valueRatioNumeratorUnit">valueRatioNumeratorUnit</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -3130,7 +3130,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#valueRatioNumeratorValue name="valueRatioNumeratorValue">valueRatioNumeratorValue</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -3167,7 +3167,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#valueSampledDataTypeData name="valueSampledDataTypeData">valueSampledDataTypeData</a>
 
 Decimal values with spaces, or "E" | "U" | "L"  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -3207,7 +3207,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#valueSampledDataTypeDimension name="valueSampledDataTypeDimension">valueSampledDataTypeDimension</a>
 
 Number of sample points at each time point.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -3245,7 +3245,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#valueSampledDataTypeFactor name="valueSampledDataTypeFactor">valueSampledDataTypeFactor</a>
 
 Multiply data by this before adding to origin.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -3285,7 +3285,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#valueSampledDataTypeLowerLimit name="valueSampledDataTypeLowerLimit">valueSampledDataTypeLowerLimit</a>
 
 Lower limit of detection  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -3325,7 +3325,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#valueSampledDataTypeOrigin name="valueSampledDataTypeOrigin">valueSampledDataTypeOrigin</a>
 
 Zero value and units.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -3363,7 +3363,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#valueSampledDataTypePeriod name="valueSampledDataTypePeriod">valueSampledDataTypePeriod</a>
 
 Number of milliseconds between samples.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -3403,7 +3403,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#valueSampledDataTypeUpperLimit name="valueSampledDataTypeUpperLimit">valueSampledDataTypeUpperLimit</a>
 
 Upper limit of detection.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -3442,7 +3442,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#valueString name="valueString">valueString</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -3479,7 +3479,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#valueType name="valueType">valueType</a>
 
 The information determined as a result of making the observation, if the information has a simple value.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -3519,7 +3519,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#valueType_display name="valueType_display">valueType_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -3543,7 +3543,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#valueTypeQuantityComparator name="valueTypeQuantityComparator">valueTypeQuantityComparator</a>
 
 How the Quantity should be understood and represented.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -3583,7 +3583,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#valueTypeQuantityComparator_display name="valueTypeQuantityComparator_display">valueTypeQuantityComparator_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 
@@ -3607,7 +3607,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#valueTypeQuantityValue name="valueTypeQuantityValue">valueTypeQuantityValue</a>
 
 Numerical value (with implicit precision).  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+First included in: <a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>  
 
 #### Properties
 

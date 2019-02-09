@@ -83,7 +83,7 @@ applicationCommon/ConnectionRole
 ### <a href=#connectionRoleId name="connectionRoleId">connectionRoleId</a>
 
 Unique identifier of the connection role.  
-First included in: /core/applicationCommon/ConnectionRole.cdm.json/ConnectionRole  
+First included in: <a href="ConnectionRole.md" target="_blank">applicationCommon/ConnectionRole</a>  
 
 #### Properties
 
@@ -122,7 +122,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Unique identifier of the user who last modified the connection role.  
-First included in: /core/applicationCommon/ConnectionRole.cdm.json/ConnectionRole  
+First included in: <a href="ConnectionRole.md" target="_blank">applicationCommon/ConnectionRole</a>  
 
 #### Properties
 
@@ -167,7 +167,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the connection role was last modified.  
-First included in: /core/applicationCommon/ConnectionRole.cdm.json/ConnectionRole  
+First included in: <a href="ConnectionRole.md" target="_blank">applicationCommon/ConnectionRole</a>  
 
 #### Properties
 
@@ -206,7 +206,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#name name="name">name</a>
 
 Name of the connection role.  
-First included in: /core/applicationCommon/ConnectionRole.cdm.json/ConnectionRole  
+First included in: <a href="ConnectionRole.md" target="_blank">applicationCommon/ConnectionRole</a>  
 
 #### Properties
 
@@ -244,7 +244,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: /core/applicationCommon/ConnectionRole.cdm.json/ConnectionRole  
+First included in: <a href="ConnectionRole.md" target="_blank">applicationCommon/ConnectionRole</a>  
 
 #### Properties
 
@@ -282,7 +282,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Status of the connection role.  
-First included in: /core/applicationCommon/ConnectionRole.cdm.json/ConnectionRole  
+First included in: <a href="ConnectionRole.md" target="_blank">applicationCommon/ConnectionRole</a>  
 
 #### Properties
 
@@ -322,7 +322,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: /core/applicationCommon/ConnectionRole.cdm.json/ConnectionRole  
+First included in: <a href="ConnectionRole.md" target="_blank">applicationCommon/ConnectionRole</a>  
 
 #### Properties
 
@@ -346,7 +346,7 @@ First included in: /core/applicationCommon/ConnectionRole.cdm.json/ConnectionRol
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Reason for the status of the connection role.  
-First included in: /core/applicationCommon/ConnectionRole.cdm.json/ConnectionRole  
+First included in: <a href="ConnectionRole.md" target="_blank">applicationCommon/ConnectionRole</a>  
 
 #### Properties
 
@@ -389,7 +389,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: /core/applicationCommon/ConnectionRole.cdm.json/ConnectionRole  
+First included in: <a href="ConnectionRole.md" target="_blank">applicationCommon/ConnectionRole</a>  
 
 #### Properties
 
@@ -413,7 +413,7 @@ First included in: /core/applicationCommon/ConnectionRole.cdm.json/ConnectionRol
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Unique identifier of the user who created the relationship role.  
-First included in: /core/applicationCommon/ConnectionRole.cdm.json/ConnectionRole  
+First included in: <a href="ConnectionRole.md" target="_blank">applicationCommon/ConnectionRole</a>  
 
 #### Properties
 
@@ -458,7 +458,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#category name="category">category</a>
 
 Categories for connection roles.  
-First included in: /core/applicationCommon/ConnectionRole.cdm.json/ConnectionRole  
+First included in: <a href="ConnectionRole.md" target="_blank">applicationCommon/ConnectionRole</a>  
 
 #### Properties
 
@@ -498,7 +498,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#category_display name="category_display">category_display</a>
 
-First included in: /core/applicationCommon/ConnectionRole.cdm.json/ConnectionRole  
+First included in: <a href="ConnectionRole.md" target="_blank">applicationCommon/ConnectionRole</a>  
 
 #### Properties
 
@@ -522,7 +522,7 @@ First included in: /core/applicationCommon/ConnectionRole.cdm.json/ConnectionRol
 ### <a href=#organizationId name="organizationId">organizationId</a>
 
 Unique identifier of the organization that this connection role belongs to.  
-First included in: /core/applicationCommon/ConnectionRole.cdm.json/ConnectionRole  
+First included in: <a href="ConnectionRole.md" target="_blank">applicationCommon/ConnectionRole</a>  
 
 #### Properties
 
@@ -564,7 +564,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#description name="description">description</a>
 
 Description of the connection role.  
-First included in: /core/applicationCommon/ConnectionRole.cdm.json/ConnectionRole  
+First included in: <a href="ConnectionRole.md" target="_blank">applicationCommon/ConnectionRole</a>  
 
 #### Properties
 
@@ -604,7 +604,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the connection role was created.  
-First included in: /core/applicationCommon/ConnectionRole.cdm.json/ConnectionRole  
+First included in: <a href="ConnectionRole.md" target="_blank">applicationCommon/ConnectionRole</a>  
 
 #### Properties
 
@@ -643,7 +643,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version number of the connection role.  
-First included in: /core/applicationCommon/ConnectionRole.cdm.json/ConnectionRole  
+First included in: <a href="ConnectionRole.md" target="_blank">applicationCommon/ConnectionRole</a>  
 
 #### Properties
 
@@ -679,7 +679,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#solutionId name="solutionId">solutionId</a>
 
 Unique identifier of the associated solution.  
-First included in: /core/applicationCommon/ConnectionRole.cdm.json/ConnectionRole  
+First included in: <a href="ConnectionRole.md" target="_blank">applicationCommon/ConnectionRole</a>  
 
 #### Properties
 
@@ -714,7 +714,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#componentState name="componentState">componentState</a>
 
 State of the component.  
-First included in: /core/applicationCommon/ConnectionRole.cdm.json/ConnectionRole  
+First included in: <a href="ConnectionRole.md" target="_blank">applicationCommon/ConnectionRole</a>  
 
 #### Properties
 
@@ -751,7 +751,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#componentState_display name="componentState_display">componentState_display</a>
 
-First included in: /core/applicationCommon/ConnectionRole.cdm.json/ConnectionRole  
+First included in: <a href="ConnectionRole.md" target="_blank">applicationCommon/ConnectionRole</a>  
 
 #### Properties
 
@@ -775,7 +775,7 @@ First included in: /core/applicationCommon/ConnectionRole.cdm.json/ConnectionRol
 ### <a href=#overwriteTime name="overwriteTime">overwriteTime</a>
 
 Date and time when the record was last overwritten.  
-First included in: /core/applicationCommon/ConnectionRole.cdm.json/ConnectionRole  
+First included in: <a href="ConnectionRole.md" target="_blank">applicationCommon/ConnectionRole</a>  
 
 #### Properties
 
@@ -810,7 +810,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#connectionRoleIdUnique name="connectionRoleIdUnique">connectionRoleIdUnique</a>
 
 Unique identifier of the published or unpublished connection role record.  
-First included in: /core/applicationCommon/ConnectionRole.cdm.json/ConnectionRole  
+First included in: <a href="ConnectionRole.md" target="_blank">applicationCommon/ConnectionRole</a>  
 
 #### Properties
 
@@ -845,7 +845,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Unique identifier of the delegate user who modified the relationship role.  
-First included in: /core/applicationCommon/ConnectionRole.cdm.json/ConnectionRole  
+First included in: <a href="ConnectionRole.md" target="_blank">applicationCommon/ConnectionRole</a>  
 
 #### Properties
 
@@ -890,7 +890,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Unique identifier of the delegate user who created the relationship role.  
-First included in: /core/applicationCommon/ConnectionRole.cdm.json/ConnectionRole  
+First included in: <a href="ConnectionRole.md" target="_blank">applicationCommon/ConnectionRole</a>  
 
 #### Properties
 
@@ -935,7 +935,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#isManaged name="isManaged">isManaged</a>
 
 Indicates whether the solution component is part of a managed solution.  
-First included in: /core/applicationCommon/ConnectionRole.cdm.json/ConnectionRole  
+First included in: <a href="ConnectionRole.md" target="_blank">applicationCommon/ConnectionRole</a>  
 
 #### Properties
 
@@ -967,7 +967,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isCustomizable name="isCustomizable">isCustomizable</a>
 
 Information that specifies whether this component can be customized.  
-First included in: /core/applicationCommon/ConnectionRole.cdm.json/ConnectionRole  
+First included in: <a href="ConnectionRole.md" target="_blank">applicationCommon/ConnectionRole</a>  
 
 #### Properties
 
@@ -999,7 +999,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#introducedVersion name="introducedVersion">introducedVersion</a>
 
 Version in which the form is introduced.  
-First included in: /core/applicationCommon/ConnectionRole.cdm.json/ConnectionRole  
+First included in: <a href="ConnectionRole.md" target="_blank">applicationCommon/ConnectionRole</a>  
 
 #### Properties
 

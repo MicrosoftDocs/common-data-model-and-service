@@ -70,7 +70,7 @@ applicationCommon/KnowledgeBaseRecord
 ### <a href=#knowledgeBaseRecordId name="knowledgeBaseRecordId">knowledgeBaseRecordId</a>
 
 This field will be used to store the Unique ID of the associated Knowledge Base records  
-First included in: /core/applicationCommon/KnowledgeBaseRecord.cdm.json/KnowledgeBaseRecord  
+First included in: <a href="KnowledgeBaseRecord.md" target="_blank">applicationCommon/KnowledgeBaseRecord</a>  
 
 #### Properties
 
@@ -109,7 +109,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: /core/applicationCommon/KnowledgeBaseRecord.cdm.json/KnowledgeBaseRecord  
+First included in: <a href="KnowledgeBaseRecord.md" target="_blank">applicationCommon/KnowledgeBaseRecord</a>  
 
 #### Properties
 
@@ -148,7 +148,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Unique identifier of the user who created the record.  
-First included in: /core/applicationCommon/KnowledgeBaseRecord.cdm.json/KnowledgeBaseRecord  
+First included in: <a href="KnowledgeBaseRecord.md" target="_blank">applicationCommon/KnowledgeBaseRecord</a>  
 
 #### Properties
 
@@ -193,7 +193,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: /core/applicationCommon/KnowledgeBaseRecord.cdm.json/KnowledgeBaseRecord  
+First included in: <a href="KnowledgeBaseRecord.md" target="_blank">applicationCommon/KnowledgeBaseRecord</a>  
 
 #### Properties
 
@@ -232,7 +232,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Unique identifier of the user who modified the record.  
-First included in: /core/applicationCommon/KnowledgeBaseRecord.cdm.json/KnowledgeBaseRecord  
+First included in: <a href="KnowledgeBaseRecord.md" target="_blank">applicationCommon/KnowledgeBaseRecord</a>  
 
 #### Properties
 
@@ -277,7 +277,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Unique identifier of the delegate user who created the record.  
-First included in: /core/applicationCommon/KnowledgeBaseRecord.cdm.json/KnowledgeBaseRecord  
+First included in: <a href="KnowledgeBaseRecord.md" target="_blank">applicationCommon/KnowledgeBaseRecord</a>  
 
 #### Properties
 
@@ -322,7 +322,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Unique identifier of the delegate user who modified the record.  
-First included in: /core/applicationCommon/KnowledgeBaseRecord.cdm.json/KnowledgeBaseRecord  
+First included in: <a href="KnowledgeBaseRecord.md" target="_blank">applicationCommon/KnowledgeBaseRecord</a>  
 
 #### Properties
 
@@ -367,7 +367,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#organizationId name="organizationId">organizationId</a>
 
 Unique identifier for the organization  
-First included in: /core/applicationCommon/KnowledgeBaseRecord.cdm.json/KnowledgeBaseRecord  
+First included in: <a href="KnowledgeBaseRecord.md" target="_blank">applicationCommon/KnowledgeBaseRecord</a>  
 
 #### Properties
 
@@ -411,7 +411,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
-First included in: /core/applicationCommon/KnowledgeBaseRecord.cdm.json/KnowledgeBaseRecord  
+First included in: <a href="KnowledgeBaseRecord.md" target="_blank">applicationCommon/KnowledgeBaseRecord</a>  
 
 #### Properties
 
@@ -441,7 +441,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/KnowledgeBaseRecord.cdm.json/KnowledgeBaseRecord  
+First included in: <a href="KnowledgeBaseRecord.md" target="_blank">applicationCommon/KnowledgeBaseRecord</a>  
 
 #### Properties
 
@@ -479,7 +479,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#title name="title">title</a>
 
 Shows the title of the knowledge base (KB) Record.  
-First included in: /core/applicationCommon/KnowledgeBaseRecord.cdm.json/KnowledgeBaseRecord  
+First included in: <a href="KnowledgeBaseRecord.md" target="_blank">applicationCommon/KnowledgeBaseRecord</a>  
 
 #### Properties
 
@@ -519,7 +519,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#privateUrl name="privateUrl">privateUrl</a>
 
 Shows the internal Parature service desk URL of the knowledge base records.  
-First included in: /core/applicationCommon/KnowledgeBaseRecord.cdm.json/KnowledgeBaseRecord  
+First included in: <a href="KnowledgeBaseRecord.md" target="_blank">applicationCommon/KnowledgeBaseRecord</a>  
 
 #### Properties
 
@@ -560,7 +560,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#publicUrl name="publicUrl">publicUrl</a>
 
 Shows the public Parature portal URL of the knowledge base records.  
-First included in: /core/applicationCommon/KnowledgeBaseRecord.cdm.json/KnowledgeBaseRecord  
+First included in: <a href="KnowledgeBaseRecord.md" target="_blank">applicationCommon/KnowledgeBaseRecord</a>  
 
 #### Properties
 
@@ -601,7 +601,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Exchange rate for the currency associated with the knowledge base record with respect to the base currency.  
-First included in: /core/applicationCommon/KnowledgeBaseRecord.cdm.json/KnowledgeBaseRecord  
+First included in: <a href="KnowledgeBaseRecord.md" target="_blank">applicationCommon/KnowledgeBaseRecord</a>  
 
 #### Properties
 
@@ -641,7 +641,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Exchange rate for the currency associated with the Knowledge Base Record with respect to the base currency.  
-First included in: /core/applicationCommon/KnowledgeBaseRecord.cdm.json/KnowledgeBaseRecord  
+First included in: <a href="KnowledgeBaseRecord.md" target="_blank">applicationCommon/KnowledgeBaseRecord</a>  
 
 #### Properties
 
@@ -686,7 +686,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#uniqueId name="uniqueId">uniqueId</a>
 
 Shows the unique ID of the linked knowledge base (KB) article.  
-First included in: /core/applicationCommon/KnowledgeBaseRecord.cdm.json/KnowledgeBaseRecord  
+First included in: <a href="KnowledgeBaseRecord.md" target="_blank">applicationCommon/KnowledgeBaseRecord</a>  
 
 #### Properties
 

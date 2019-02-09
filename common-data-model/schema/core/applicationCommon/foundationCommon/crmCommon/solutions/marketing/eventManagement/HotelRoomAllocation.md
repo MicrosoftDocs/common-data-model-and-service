@@ -94,7 +94,7 @@ eventManagement/HotelRoomAllocation
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomAllocation.cdm.json/HotelRoomAllocation  
+First included in: <a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>  
 
 #### Properties
 
@@ -133,7 +133,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomAllocation.cdm.json/HotelRoomAllocation  
+First included in: <a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>  
 
 #### Properties
 
@@ -181,7 +181,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomAllocation.cdm.json/HotelRoomAllocation  
+First included in: <a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>  
 
 #### Properties
 
@@ -220,7 +220,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomAllocation.cdm.json/HotelRoomAllocation  
+First included in: <a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>  
 
 #### Properties
 
@@ -268,7 +268,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomAllocation.cdm.json/HotelRoomAllocation  
+First included in: <a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>  
 
 #### Properties
 
@@ -316,7 +316,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomAllocation.cdm.json/HotelRoomAllocation  
+First included in: <a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>  
 
 #### Properties
 
@@ -364,7 +364,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomAllocation.cdm.json/HotelRoomAllocation  
+First included in: <a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>  
 
 #### Properties
 
@@ -403,7 +403,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomAllocation.cdm.json/HotelRoomAllocation  
+First included in: <a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>  
 
 #### Properties
 
@@ -438,7 +438,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomAllocation.cdm.json/HotelRoomAllocation  
+First included in: <a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>  
 
 #### Properties
 
@@ -477,7 +477,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomAllocation.cdm.json/HotelRoomAllocation  
+First included in: <a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>  
 
 #### Properties
 
@@ -522,7 +522,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomAllocation.cdm.json/HotelRoomAllocation  
+First included in: <a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>  
 
 #### Properties
 
@@ -567,7 +567,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomAllocation.cdm.json/HotelRoomAllocation  
+First included in: <a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>  
 
 #### Properties
 
@@ -615,7 +615,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomAllocation.cdm.json/HotelRoomAllocation  
+First included in: <a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>  
 
 #### Properties
 
@@ -660,7 +660,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomAllocation.cdm.json/HotelRoomAllocation  
+First included in: <a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>  
 
 #### Properties
 
@@ -698,7 +698,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomAllocation.cdm.json/HotelRoomAllocation  
+First included in: <a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>  
 
 #### Properties
 
@@ -736,7 +736,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomAllocation.cdm.json/HotelRoomAllocation  
+First included in: <a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>  
 
 #### Properties
 
@@ -773,7 +773,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#hotelRoomAllocationId name="hotelRoomAllocationId">hotelRoomAllocationId</a>
 
 Unique identifier for entity instances  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomAllocation.cdm.json/HotelRoomAllocation  
+First included in: <a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>  
 
 #### Properties
 
@@ -812,7 +812,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Status of the Hotel Room Allocation  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomAllocation.cdm.json/HotelRoomAllocation  
+First included in: <a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>  
 
 #### Properties
 
@@ -852,7 +852,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomAllocation.cdm.json/HotelRoomAllocation  
+First included in: <a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>  
 
 #### Properties
 
@@ -876,7 +876,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Reason for the status of the Hotel Room Allocation  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomAllocation.cdm.json/HotelRoomAllocation  
+First included in: <a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>  
 
 #### Properties
 
@@ -919,7 +919,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomAllocation.cdm.json/HotelRoomAllocation  
+First included in: <a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>  
 
 #### Properties
 
@@ -943,7 +943,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomAllocation.cdm.json/HotelRoomAllocation  
+First included in: <a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>  
 
 #### Properties
 
@@ -984,7 +984,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#additionalDetails name="additionalDetails">additionalDetails</a>
 
 Room allocation additional details  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomAllocation.cdm.json/HotelRoomAllocation  
+First included in: <a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>  
 
 #### Properties
 
@@ -1024,7 +1024,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#event name="event">event</a>
 
 Related event  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomAllocation.cdm.json/HotelRoomAllocation  
+First included in: <a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>  
 
 #### Properties
 
@@ -1069,7 +1069,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#hotelProperty name="hotelProperty">hotelProperty</a>
 
 Related hotel property  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomAllocation.cdm.json/HotelRoomAllocation  
+First included in: <a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>  
 
 #### Properties
 
@@ -1114,7 +1114,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#numberOfRoomsAllocated name="numberOfRoomsAllocated">numberOfRoomsAllocated</a>
 
 Number of allocated rooms  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomAllocation.cdm.json/HotelRoomAllocation  
+First included in: <a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>  
 
 #### Properties
 
@@ -1152,7 +1152,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#pricePerRoom name="pricePerRoom">pricePerRoom</a>
 
 Price per room  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomAllocation.cdm.json/HotelRoomAllocation  
+First included in: <a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>  
 
 #### Properties
 
@@ -1193,7 +1193,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Unique identifier of the currency associated with the entity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomAllocation.cdm.json/HotelRoomAllocation  
+First included in: <a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>  
 
 #### Properties
 
@@ -1238,7 +1238,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Exchange rate for the currency associated with the entity with respect to the base currency.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomAllocation.cdm.json/HotelRoomAllocation  
+First included in: <a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>  
 
 #### Properties
 
@@ -1278,7 +1278,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#pricePerRoomBase name="pricePerRoomBase">pricePerRoomBase</a>
 
 Value of the Price per Room in base currency.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomAllocation.cdm.json/HotelRoomAllocation  
+First included in: <a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>  
 
 #### Properties
 
@@ -1322,7 +1322,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#primaryContact name="primaryContact">primaryContact</a>
 
 Primary contact  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomAllocation.cdm.json/HotelRoomAllocation  
+First included in: <a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>  
 
 #### Properties
 
@@ -1367,7 +1367,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#roomType name="roomType">roomType</a>
 
 Room type  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomAllocation.cdm.json/HotelRoomAllocation  
+First included in: <a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>  
 
 #### Properties
 
@@ -1407,7 +1407,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#roomType_display name="roomType_display">roomType_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomAllocation.cdm.json/HotelRoomAllocation  
+First included in: <a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>  
 
 #### Properties
 
@@ -1431,7 +1431,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 ### <a href=#numberOfRoomsLeft name="numberOfRoomsLeft">numberOfRoomsLeft</a>
 
 Number of rooms left  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomAllocation.cdm.json/HotelRoomAllocation  
+First included in: <a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>  
 
 #### Properties
 
@@ -1469,7 +1469,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#numberofRoomsReserved name="numberofRoomsReserved">numberofRoomsReserved</a>
 
 Number of reserved rooms  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomAllocation.cdm.json/HotelRoomAllocation  
+First included in: <a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>  
 
 #### Properties
 
@@ -1507,7 +1507,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#numberofRoomsReservedDate name="numberofRoomsReservedDate">numberofRoomsReservedDate</a>
 
 Last Updated time of rollup field Number of rooms reserved.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomAllocation.cdm.json/HotelRoomAllocation  
+First included in: <a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>  
 
 #### Properties
 
@@ -1548,7 +1548,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#numberofRoomsReservedState name="numberofRoomsReservedState">numberofRoomsReservedState</a>
 
 State of rollup field Number of rooms reserved.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomAllocation.cdm.json/HotelRoomAllocation  
+First included in: <a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>  
 
 #### Properties
 

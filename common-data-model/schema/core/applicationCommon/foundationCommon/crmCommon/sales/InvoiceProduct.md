@@ -130,7 +130,7 @@ sales/InvoiceProduct
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -169,7 +169,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -217,7 +217,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -256,7 +256,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -304,7 +304,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -352,7 +352,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -400,7 +400,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -439,7 +439,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -474,7 +474,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -513,7 +513,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -558,7 +558,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -603,7 +603,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -651,7 +651,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -696,7 +696,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -734,7 +734,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -772,7 +772,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -809,7 +809,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#invoiceDetailId name="invoiceDetailId">invoiceDetailId</a>
 
 Unique identifier of the invoice product line item.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -848,7 +848,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#actualDeliveryOn name="actualDeliveryOn">actualDeliveryOn</a>
 
 Enter the date when the invoiced product was delivered to the customer.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -886,7 +886,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#baseAmount name="baseAmount">baseAmount</a>
 
 Shows the total price of the invoice product, based on the price per unit, volume discount, and quantity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -927,7 +927,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Choose the local currency for the record to make sure budgets are reported in the correct currency.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -972,7 +972,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -1012,7 +1012,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#baseAmountBase name="baseAmountBase">baseAmountBase</a>
 
 Value of the Amount in base currency.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -1056,7 +1056,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#description name="description">description</a>
 
 Type additional information to describe the product line item of the invoice.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -1096,7 +1096,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#extendedAmount name="extendedAmount">extendedAmount</a>
 
 Shows the total amount due for the invoice product, based on the sum of the unit price, quantity, discounts, and tax.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -1137,7 +1137,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#extendedAmountBase name="extendedAmountBase">extendedAmountBase</a>
 
 Value of the Extended Amount in base currency.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -1181,7 +1181,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#invoiceId name="invoiceId">invoiceId</a>
 
 Unique identifier of the invoice associated with the invoice product line item.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -1223,7 +1223,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#invoiceIsPriceLocked name="invoiceIsPriceLocked">invoiceIsPriceLocked</a>
 
 Information about whether invoice product pricing is locked.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -1258,7 +1258,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#invoiceStateCode name="invoiceStateCode">invoiceStateCode</a>
 
 Status of the invoice product.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -1295,7 +1295,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#invoiceStateCode_display name="invoiceStateCode_display">invoiceStateCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -1319,7 +1319,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Invo
 ### <a href=#isCopied name="isCopied">isCopied</a>
 
 Select whether the invoice product is copied from another item or data source.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -1354,7 +1354,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isPriceOverridden name="isPriceOverridden">isPriceOverridden</a>
 
 Select whether the price per unit is fixed at the value in the specified price list or can be overridden by users who have edit rights to the invoice product.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -1389,7 +1389,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isProductOverridden name="isProductOverridden">isProductOverridden</a>
 
 Select whether the product exists in the Microsoft Dynamics 365 product catalog or is a write-in product specific to the parent invoice.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -1424,7 +1424,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#lineItemNumber name="lineItemNumber">lineItemNumber</a>
 
 Type the line item number for the invoice product to easily identify the product in the invoice and make sure it's listed in the correct order.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -1462,7 +1462,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#manualDiscountAmount name="manualDiscountAmount">manualDiscountAmount</a>
 
 Type the manual discount amount for the invoice product to deduct any negotiated or other savings from the product total.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -1503,7 +1503,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#manualDiscountAmountBase name="manualDiscountAmountBase">manualDiscountAmountBase</a>
 
 Value of the Manual Discount in base currency.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -1547,7 +1547,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#parentBundleId name="parentBundleId">parentBundleId</a>
 
 Choose the parent bundle associated with this product  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -1588,7 +1588,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#productAssociationId name="productAssociationId">productAssociationId</a>
 
 Unique identifier of the product line item association with bundle in the invoice  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -1629,7 +1629,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#productTypeCode name="productTypeCode">productTypeCode</a>
 
 Product Type  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -1666,7 +1666,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#productTypeCode_display name="productTypeCode_display">productTypeCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -1690,7 +1690,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Invo
 ### <a href=#pricePerUnit name="pricePerUnit">pricePerUnit</a>
 
 Type the price per unit of the invoice product. The default is the value in the price list specified on the parent invoice for existing products.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -1731,7 +1731,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#pricePerUnitBase name="pricePerUnitBase">pricePerUnitBase</a>
 
 Value of the Price Per Unit in base currency.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -1775,7 +1775,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#pricingErrorCode name="pricingErrorCode">pricingErrorCode</a>
 
 Pricing error for the invoice product line item.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -1815,7 +1815,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#pricingErrorCode_display name="pricingErrorCode_display">pricingErrorCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -1839,7 +1839,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Invo
 ### <a href=#productDescription name="productDescription">productDescription</a>
 
 Type a name or description to identify the type of write-in product included in the invoice.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -1879,7 +1879,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#productName name="productName">productName</a>
 
 Calculated field that will be populated by name and description of the product.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -1920,7 +1920,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#productId name="productId">productId</a>
 
 Choose the product to include on the invoice.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -1965,7 +1965,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#quantity name="quantity">quantity</a>
 
 Type the amount or quantity of the product included in the invoice's total amount due.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -2005,7 +2005,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#quantityBackordered name="quantityBackordered">quantityBackordered</a>
 
 Type the amount or quantity of the product that is back ordered for the invoice.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -2045,7 +2045,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#quantityCancelled name="quantityCancelled">quantityCancelled</a>
 
 Type the amount or quantity of the product that was canceled for the invoice line item.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -2085,7 +2085,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#quantityShipped name="quantityShipped">quantityShipped</a>
 
 Type the amount or quantity of the product that was shipped.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -2125,7 +2125,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#salesRepId name="salesRepId">salesRepId</a>
 
 Choose the user responsible for the sale of the invoice product.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -2170,7 +2170,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#shippingTrackingNumber name="shippingTrackingNumber">shippingTrackingNumber</a>
 
 Type a tracking number for shipment of the invoiced product.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -2210,7 +2210,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#shipToCity name="shipToCity">shipToCity</a>
 
 Type the city for the customer's shipping address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -2251,7 +2251,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#shipToCountry name="shipToCountry">shipToCountry</a>
 
 Type the country or region for the customer's shipping address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -2292,7 +2292,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#shipToFax name="shipToFax">shipToFax</a>
 
 Type the fax number for the customer's shipping address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -2332,7 +2332,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#shipToFreightTermsCode name="shipToFreightTermsCode">shipToFreightTermsCode</a>
 
 Select the freight terms to make sure shipping orders are processed correctly.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -2372,7 +2372,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#shipToFreightTermsCode_display name="shipToFreightTermsCode_display">shipToFreightTermsCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -2396,7 +2396,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Invo
 ### <a href=#shipToLine1 name="shipToLine1">shipToLine1</a>
 
 Type the first line of the customer's shipping address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -2437,7 +2437,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#shipToLine2 name="shipToLine2">shipToLine2</a>
 
 Type the second line of the customer's shipping address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -2478,7 +2478,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#shipToLine3 name="shipToLine3">shipToLine3</a>
 
 Type the third line of the shipping address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -2519,7 +2519,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#shipToName name="shipToName">shipToName</a>
 
 Type a name for the customer's shipping address, such as "Headquarters" or "Field office",  to identify the address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -2560,7 +2560,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#shipToPostalCode name="shipToPostalCode">shipToPostalCode</a>
 
 Type the ZIP Code or postal code for the shipping address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -2601,7 +2601,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#shipToStateOrProvince name="shipToStateOrProvince">shipToStateOrProvince</a>
 
 Type the state or province for the shipping address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -2642,7 +2642,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#shipToTelephone name="shipToTelephone">shipToTelephone</a>
 
 Type the phone number for the customer's shipping address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -2683,7 +2683,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#tax name="tax">tax</a>
 
 Type the tax amount for the invoice product.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -2724,7 +2724,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#taxBase name="taxBase">taxBase</a>
 
 Value of the Tax in base currency.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -2768,7 +2768,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#uoMId name="uoMId">uoMId</a>
 
 Choose the unit of measurement for the base unit quantity for this purchase, such as each or dozen.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -2813,7 +2813,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#volumeDiscountAmount name="volumeDiscountAmount">volumeDiscountAmount</a>
 
 Shows the discount amount per unit if a specified volume is purchased. Configure volume discounts in the Product Catalog in the Settings area.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -2854,7 +2854,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#volumeDiscountAmountBase name="volumeDiscountAmountBase">volumeDiscountAmountBase</a>
 
 Value of the Volume Discount in base currency.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -2898,7 +2898,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#willCall name="willCall">willCall</a>
 
 Select whether the invoice product should be shipped to the specified address or held until the customer calls with further pick up or delivery instructions.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -2933,7 +2933,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#sequenceNumber name="sequenceNumber">sequenceNumber</a>
 
 Shows the ID of the data that maintains the sequence.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -2971,7 +2971,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#propertyConfigurationStatus name="propertyConfigurationStatus">propertyConfigurationStatus</a>
 
 Status of the property configuration.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -3008,7 +3008,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#propertyConfigurationStatus_display name="propertyConfigurationStatus_display">propertyConfigurationStatus_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -3032,7 +3032,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Invo
 ### <a href=#invoiceDetailName name="invoiceDetailName">invoiceDetailName</a>
 
 Invoice Detail Name. Added for 1:n Referential relationship  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -3073,7 +3073,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#salesOrderDetailId name="salesOrderDetailId">salesOrderDetailId</a>
 
 Unique identifier for Order Line associated with Invoice Line.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 
@@ -3118,7 +3118,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#parentBundleIdRef name="parentBundleIdRef">parentBundleIdRef</a>
 
 Choose the parent bundle associated with this product  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+First included in: <a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>  
 
 #### Properties
 

@@ -83,7 +83,7 @@ sales/SalesLiterature
 ### <a href=#salesLiteratureId name="salesLiteratureId">salesLiteratureId</a>
 
 Unique identifier of the sales literature.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/SalesLiterature.cdm.json/SalesLiterature  
+First included in: <a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>  
 
 #### Properties
 
@@ -122,7 +122,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/SalesLiterature.cdm.json/SalesLiterature  
+First included in: <a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>  
 
 #### Properties
 
@@ -161,7 +161,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/SalesLiterature.cdm.json/SalesLiterature  
+First included in: <a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>  
 
 #### Properties
 
@@ -206,7 +206,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/SalesLiterature.cdm.json/SalesLiterature  
+First included in: <a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>  
 
 #### Properties
 
@@ -245,7 +245,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/SalesLiterature.cdm.json/SalesLiterature  
+First included in: <a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>  
 
 #### Properties
 
@@ -290,7 +290,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/SalesLiterature.cdm.json/SalesLiterature  
+First included in: <a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>  
 
 #### Properties
 
@@ -335,7 +335,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/SalesLiterature.cdm.json/SalesLiterature  
+First included in: <a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>  
 
 #### Properties
 
@@ -380,7 +380,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#organizationId name="organizationId">organizationId</a>
 
 Unique identifier for the organization  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/SalesLiterature.cdm.json/SalesLiterature  
+First included in: <a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>  
 
 #### Properties
 
@@ -422,7 +422,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/SalesLiterature.cdm.json/SalesLiterature  
+First included in: <a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>  
 
 #### Properties
 
@@ -458,7 +458,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/SalesLiterature.cdm.json/SalesLiterature  
+First included in: <a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>  
 
 #### Properties
 
@@ -496,7 +496,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/SalesLiterature.cdm.json/SalesLiterature  
+First included in: <a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>  
 
 #### Properties
 
@@ -535,7 +535,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/SalesLiterature.cdm.json/SalesLiterature  
+First included in: <a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>  
 
 #### Properties
 
@@ -573,7 +573,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/SalesLiterature.cdm.json/SalesLiterature  
+First included in: <a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>  
 
 #### Properties
 
@@ -611,7 +611,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#name name="name">name</a>
 
 Type a descriptive title for the sales literature.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/SalesLiterature.cdm.json/SalesLiterature  
+First included in: <a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>  
 
 #### Properties
 
@@ -652,7 +652,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#processId name="processId">processId</a>
 
 Contains the id of the process associated with the entity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/SalesLiterature.cdm.json/SalesLiterature  
+First included in: <a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>  
 
 #### Properties
 
@@ -690,7 +690,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stageId name="stageId">stageId</a>
 
 Contains the id of the stage where the entity is located.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/SalesLiterature.cdm.json/SalesLiterature  
+First included in: <a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>  
 
 #### Properties
 
@@ -728,7 +728,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#traversedPath name="traversedPath">traversedPath</a>
 
 A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/SalesLiterature.cdm.json/SalesLiterature  
+First included in: <a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>  
 
 #### Properties
 
@@ -768,7 +768,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#description name="description">description</a>
 
 Type additional information to describe the sales literature, such as the intended audience or primary messages.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/SalesLiterature.cdm.json/SalesLiterature  
+First included in: <a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>  
 
 #### Properties
 
@@ -808,7 +808,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#employeeContactId name="employeeContactId">employeeContactId</a>
 
 Choose the user who is responsible for maintaining or updating the sales literature.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/SalesLiterature.cdm.json/SalesLiterature  
+First included in: <a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>  
 
 #### Properties
 
@@ -853,7 +853,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#expirationDate name="expirationDate">expirationDate</a>
 
 Enter the expiration date or last day the sales literature can be distributed.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/SalesLiterature.cdm.json/SalesLiterature  
+First included in: <a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>  
 
 #### Properties
 
@@ -891,7 +891,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#hasAttachments name="hasAttachments">hasAttachments</a>
 
 Tells whether the sales literature has one or more attachments.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/SalesLiterature.cdm.json/SalesLiterature  
+First included in: <a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>  
 
 #### Properties
 
@@ -926,7 +926,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isCustomerViewable name="isCustomerViewable">isCustomerViewable</a>
 
 Select whether the sales literature can be distributed to prospects and customers or is for internal use only.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/SalesLiterature.cdm.json/SalesLiterature  
+First included in: <a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>  
 
 #### Properties
 
@@ -961,7 +961,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#keyWords name="keyWords">keyWords</a>
 
 Type one or more topics or keywords that can be used to search for the sales literature.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/SalesLiterature.cdm.json/SalesLiterature  
+First included in: <a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>  
 
 #### Properties
 
@@ -1001,7 +1001,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#literatureTypeCode name="literatureTypeCode">literatureTypeCode</a>
 
 Select a category or type to help others identify the intended use of the sales literature.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/SalesLiterature.cdm.json/SalesLiterature  
+First included in: <a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>  
 
 #### Properties
 
@@ -1041,7 +1041,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#literatureTypeCode_display name="literatureTypeCode_display">literatureTypeCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/SalesLiterature.cdm.json/SalesLiterature  
+First included in: <a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>  
 
 #### Properties
 
@@ -1065,7 +1065,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Sale
 ### <a href=#subjectId name="subjectId">subjectId</a>
 
 Choose the subject for the sales literature to relate the item to a product or business group. Administrators can configure subjects under Business Management in the Settings area.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/SalesLiterature.cdm.json/SalesLiterature  
+First included in: <a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>  
 
 #### Properties
 
@@ -1106,7 +1106,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#entityImageId name="entityImageId">entityImageId</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/SalesLiterature.cdm.json/SalesLiterature  
+First included in: <a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>  
 
 #### Properties
 
@@ -1138,7 +1138,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/SalesLiterature.cdm.json/SalesLiterature  
+First included in: <a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>  
 
 #### Properties
 
@@ -1178,7 +1178,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Choose the local currency for the record to make sure budgets are reported in the correct currency.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/SalesLiterature.cdm.json/SalesLiterature  
+First included in: <a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>  
 
 #### Properties
 

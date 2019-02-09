@@ -74,7 +74,7 @@ foundationCommon/Unit
 ### <a href=#uoMId name="uoMId">uoMId</a>
 
 Unique identifier of the unit.  
-First included in: /core/applicationCommon/foundationCommon/Unit.cdm.json/Unit  
+First included in: <a href="Unit.md" target="_blank">foundationCommon/Unit</a>  
 
 #### Properties
 
@@ -113,7 +113,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the unit was created.  
-First included in: /core/applicationCommon/foundationCommon/Unit.cdm.json/Unit  
+First included in: <a href="Unit.md" target="_blank">foundationCommon/Unit</a>  
 
 #### Properties
 
@@ -152,7 +152,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Unique identifier of the user who created the unit.  
-First included in: /core/applicationCommon/foundationCommon/Unit.cdm.json/Unit  
+First included in: <a href="Unit.md" target="_blank">foundationCommon/Unit</a>  
 
 #### Properties
 
@@ -197,7 +197,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the unit was last modified.  
-First included in: /core/applicationCommon/foundationCommon/Unit.cdm.json/Unit  
+First included in: <a href="Unit.md" target="_blank">foundationCommon/Unit</a>  
 
 #### Properties
 
@@ -236,7 +236,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Unique identifier of the user who last modified the unit.  
-First included in: /core/applicationCommon/foundationCommon/Unit.cdm.json/Unit  
+First included in: <a href="Unit.md" target="_blank">foundationCommon/Unit</a>  
 
 #### Properties
 
@@ -281,7 +281,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Unique identifier of the delegate user who created the uom.  
-First included in: /core/applicationCommon/foundationCommon/Unit.cdm.json/Unit  
+First included in: <a href="Unit.md" target="_blank">foundationCommon/Unit</a>  
 
 #### Properties
 
@@ -326,7 +326,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Unique identifier of the delegate user who last modified the uom.  
-First included in: /core/applicationCommon/foundationCommon/Unit.cdm.json/Unit  
+First included in: <a href="Unit.md" target="_blank">foundationCommon/Unit</a>  
 
 #### Properties
 
@@ -371,7 +371,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: /core/applicationCommon/foundationCommon/Unit.cdm.json/Unit  
+First included in: <a href="Unit.md" target="_blank">foundationCommon/Unit</a>  
 
 #### Properties
 
@@ -407,7 +407,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: /core/applicationCommon/foundationCommon/Unit.cdm.json/Unit  
+First included in: <a href="Unit.md" target="_blank">foundationCommon/Unit</a>  
 
 #### Properties
 
@@ -445,7 +445,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: /core/applicationCommon/foundationCommon/Unit.cdm.json/Unit  
+First included in: <a href="Unit.md" target="_blank">foundationCommon/Unit</a>  
 
 #### Properties
 
@@ -484,7 +484,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/foundationCommon/Unit.cdm.json/Unit  
+First included in: <a href="Unit.md" target="_blank">foundationCommon/Unit</a>  
 
 #### Properties
 
@@ -522,7 +522,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/Unit.cdm.json/Unit  
+First included in: <a href="Unit.md" target="_blank">foundationCommon/Unit</a>  
 
 #### Properties
 
@@ -560,7 +560,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#name name="name">name</a>
 
 Type a descriptive title or name for the unit of measure.  
-First included in: /core/applicationCommon/foundationCommon/Unit.cdm.json/Unit  
+First included in: <a href="Unit.md" target="_blank">foundationCommon/Unit</a>  
 
 #### Properties
 
@@ -598,7 +598,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#baseUoM name="baseUoM">baseUoM</a>
 
 Choose the base or primary unit on which the unit is based.  
-First included in: /core/applicationCommon/foundationCommon/Unit.cdm.json/Unit  
+First included in: <a href="Unit.md" target="_blank">foundationCommon/Unit</a>  
 
 #### Properties
 
@@ -643,7 +643,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#isScheduleBaseUoM name="isScheduleBaseUoM">isScheduleBaseUoM</a>
 
 Tells whether the unit is the base unit for the associated unit group.  
-First included in: /core/applicationCommon/foundationCommon/Unit.cdm.json/Unit  
+First included in: <a href="Unit.md" target="_blank">foundationCommon/Unit</a>  
 
 #### Properties
 
@@ -678,7 +678,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#organizationId name="organizationId">organizationId</a>
 
 Unique identifier of the organization associated with the unit of measure.  
-First included in: /core/applicationCommon/foundationCommon/Unit.cdm.json/Unit  
+First included in: <a href="Unit.md" target="_blank">foundationCommon/Unit</a>  
 
 #### Properties
 
@@ -713,7 +713,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#quantity name="quantity">quantity</a>
 
 Unit quantity for the product.  
-First included in: /core/applicationCommon/foundationCommon/Unit.cdm.json/Unit  
+First included in: <a href="Unit.md" target="_blank">foundationCommon/Unit</a>  
 
 #### Properties
 
@@ -753,7 +753,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#uoMScheduleId name="uoMScheduleId">uoMScheduleId</a>
 
 Choose the ID of the unit group that the unit is associated with.  
-First included in: /core/applicationCommon/foundationCommon/Unit.cdm.json/Unit  
+First included in: <a href="Unit.md" target="_blank">foundationCommon/Unit</a>  
 
 #### Properties
 
@@ -795,7 +795,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdByExternalParty name="createdByExternalParty">createdByExternalParty</a>
 
 Shows the external party who created the record.  
-First included in: /core/applicationCommon/foundationCommon/Unit.cdm.json/Unit  
+First included in: <a href="Unit.md" target="_blank">foundationCommon/Unit</a>  
 
 #### Properties
 
@@ -837,7 +837,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedByExternalParty name="modifiedByExternalParty">modifiedByExternalParty</a>
 
 Shows the external party who modified the record.  
-First included in: /core/applicationCommon/foundationCommon/Unit.cdm.json/Unit  
+First included in: <a href="Unit.md" target="_blank">foundationCommon/Unit</a>  
 
 #### Properties
 

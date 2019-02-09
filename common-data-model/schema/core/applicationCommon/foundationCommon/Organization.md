@@ -395,7 +395,7 @@ foundationCommon/Organization
 ### <a href=#organizationId name="organizationId">organizationId</a>
 
 Unique identifier of the organization.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -434,7 +434,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#name name="name">name</a>
 
 Name of the organization. The name is set when Microsoft CRM is installed and should not be changed.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -472,7 +472,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#userGroupId name="userGroupId">userGroupId</a>
 
 Unique identifier of the default group of users in the organization.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -510,7 +510,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#privilegeUserGroupId name="privilegeUserGroupId">privilegeUserGroupId</a>
 
 Unique identifier of the default privilege for users in the organization.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -548,7 +548,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#recurrenceExpansionJobBatchSize name="recurrenceExpansionJobBatchSize">recurrenceExpansionJobBatchSize</a>
 
 Specifies the value for number of instances created in on demand job in one shot.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -583,7 +583,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#recurrenceExpansionJobBatchInterval name="recurrenceExpansionJobBatchInterval">recurrenceExpansionJobBatchInterval</a>
 
 Specifies the interval (in seconds) for pausing expansion job.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -618,7 +618,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#fiscalPeriodType name="fiscalPeriodType">fiscalPeriodType</a>
 
 Type of fiscal period used throughout Microsoft CRM.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -653,7 +653,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#fiscalCalendarStart name="fiscalCalendarStart">fiscalCalendarStart</a>
 
 Start date for the fiscal period that is to be used throughout Microsoft CRM.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -691,7 +691,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#dateFormatCode name="dateFormatCode">dateFormatCode</a>
 
 Information about how the date is displayed throughout Microsoft CRM.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -728,7 +728,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#dateFormatCode_display name="dateFormatCode_display">dateFormatCode_display</a>
 
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -752,7 +752,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 ### <a href=#timeFormatCode name="timeFormatCode">timeFormatCode</a>
 
 Information that specifies how the time is displayed throughout Microsoft CRM.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -789,7 +789,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#timeFormatCode_display name="timeFormatCode_display">timeFormatCode_display</a>
 
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -813,7 +813,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 ### <a href=#currencySymbol name="currencySymbol">currencySymbol</a>
 
 Symbol used for currency throughout Microsoft Dynamics 365.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -853,7 +853,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#weekStartDayCode name="weekStartDayCode">weekStartDayCode</a>
 
 Designated first day of the week throughout Microsoft Dynamics 365.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -890,7 +890,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#weekStartDayCode_display name="weekStartDayCode_display">weekStartDayCode_display</a>
 
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -914,7 +914,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 ### <a href=#dateSeparator name="dateSeparator">dateSeparator</a>
 
 Character used to separate the month, the day, and the year in dates throughout Microsoft Dynamics 365.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -954,7 +954,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#fullNameConventionCode name="fullNameConventionCode">fullNameConventionCode</a>
 
 Order in which names are to be displayed throughout Microsoft CRM.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -991,7 +991,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#fullNameConventionCode_display name="fullNameConventionCode_display">fullNameConventionCode_display</a>
 
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -1015,7 +1015,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 ### <a href=#negativeFormatCode name="negativeFormatCode">negativeFormatCode</a>
 
 Information that specifies how negative numbers are displayed throughout Microsoft CRM.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -1052,7 +1052,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#negativeFormatCode_display name="negativeFormatCode_display">negativeFormatCode_display</a>
 
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -1076,7 +1076,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 ### <a href=#numberFormat name="numberFormat">numberFormat</a>
 
 Specification of how numbers are displayed throughout Microsoft CRM.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -1116,7 +1116,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#isDisabled name="isDisabled">isDisabled</a>
 
 Information that specifies whether the organization is disabled.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -1151,7 +1151,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#disabledReason name="disabledReason">disabledReason</a>
 
 Reason for disabling the organization.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -1191,7 +1191,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#kbPrefix name="kbPrefix">kbPrefix</a>
 
 Prefix to use for all articles in Microsoft Dynamics 365.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -1231,7 +1231,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#currentKbNumber name="currentKbNumber">currentKbNumber</a>
 
 First article number to use. Deprecated. Use SetAutoNumberSeed message.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -1269,7 +1269,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#casePrefix name="casePrefix">casePrefix</a>
 
 Prefix to use for all cases throughout Microsoft Dynamics 365.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -1309,7 +1309,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#currentCaseNumber name="currentCaseNumber">currentCaseNumber</a>
 
 First case number to use. Deprecated. Use SetAutoNumberSeed message.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -1347,7 +1347,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#contractPrefix name="contractPrefix">contractPrefix</a>
 
 Prefix to use for all contracts throughout Microsoft Dynamics 365.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -1387,7 +1387,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#currentContractNumber name="currentContractNumber">currentContractNumber</a>
 
 First contract number to use. Deprecated. Use SetAutoNumberSeed message.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -1425,7 +1425,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#quotePrefix name="quotePrefix">quotePrefix</a>
 
 Prefix to use for all quotes throughout Microsoft Dynamics 365.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -1465,7 +1465,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#currentQuoteNumber name="currentQuoteNumber">currentQuoteNumber</a>
 
 First quote number to use. Deprecated. Use SetAutoNumberSeed message.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -1503,7 +1503,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#orderPrefix name="orderPrefix">orderPrefix</a>
 
 Prefix to use for all orders throughout Microsoft Dynamics 365.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -1543,7 +1543,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#currentOrderNumber name="currentOrderNumber">currentOrderNumber</a>
 
 First order number to use. Deprecated. Use SetAutoNumberSeed message.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -1581,7 +1581,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#invoicePrefix name="invoicePrefix">invoicePrefix</a>
 
 Prefix to use for all invoice numbers throughout Microsoft Dynamics 365.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -1621,7 +1621,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#currentInvoiceNumber name="currentInvoiceNumber">currentInvoiceNumber</a>
 
 First invoice number to use. Deprecated. Use SetAutoNumberSeed message.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -1659,7 +1659,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#uniqueSpecifierLength name="uniqueSpecifierLength">uniqueSpecifierLength</a>
 
 Number of characters appended to invoice, quote, and order numbers.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -1697,7 +1697,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the organization was created.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -1736,7 +1736,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the organization was last modified.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -1775,7 +1775,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#fiscalYearFormat name="fiscalYearFormat">fiscalYearFormat</a>
 
 Information that specifies how the name of the fiscal year is displayed throughout Microsoft CRM.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -1815,7 +1815,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#fiscalPeriodFormat name="fiscalPeriodFormat">fiscalPeriodFormat</a>
 
 Information that specifies how the name of the fiscal period is displayed throughout Microsoft CRM.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -1855,7 +1855,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#fiscalYearPeriodConnect name="fiscalYearPeriodConnect">fiscalYearPeriodConnect</a>
 
 Information that specifies how the names of the fiscal year and the fiscal period should be connected when displayed together.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -1892,7 +1892,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#languageCode name="languageCode">languageCode</a>
 
 Preferred language for the organization.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -1933,7 +1933,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#sortId name="sortId">sortId</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -1971,7 +1971,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#dateFormatString name="dateFormatString">dateFormatString</a>
 
 String showing how the date is displayed throughout Microsoft CRM.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -2011,7 +2011,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#timeFormatString name="timeFormatString">timeFormatString</a>
 
 Text for how time is displayed in Microsoft Dynamics 365.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -2051,7 +2051,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#pricingDecimalPrecision name="pricingDecimalPrecision">pricingDecimalPrecision</a>
 
 Number of decimal places that can be used for prices.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -2086,7 +2086,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#showWeekNumber name="showWeekNumber">showWeekNumber</a>
 
 Information that specifies whether to display the week number in calendar displays throughout Microsoft CRM.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -2121,7 +2121,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#nextTrackingNumber name="nextTrackingNumber">nextTrackingNumber</a>
 
 Next token to be placed on the subject line of an email message.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -2159,7 +2159,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#tagMaxAggressiveCycles name="tagMaxAggressiveCycles">tagMaxAggressiveCycles</a>
 
 Maximum number of aggressive polling cycles executed for email auto-tagging when a new email is received.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -2192,7 +2192,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#systemUserId name="systemUserId">systemUserId</a>
 
 Unique identifier of the system user for the organization.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -2230,7 +2230,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Unique identifier of the user who created the organization.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -2275,7 +2275,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#grantAccessToNetworkService name="grantAccessToNetworkService">grantAccessToNetworkService</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -2310,7 +2310,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#allowOutlookScheduledSyncs name="allowOutlookScheduledSyncs">allowOutlookScheduledSyncs</a>
 
 Indicates whether scheduled synchronizations to Outlook are allowed.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -2342,7 +2342,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#allowMarketingEmailExecution name="allowMarketingEmailExecution">allowMarketingEmailExecution</a>
 
 Indicates whether marketing emails execution is allowed.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -2374,7 +2374,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#sqlAccessGroupId name="sqlAccessGroupId">sqlAccessGroupId</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -2412,7 +2412,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#currencyFormatCode name="currencyFormatCode">currencyFormatCode</a>
 
 Information about how currency symbols are placed throughout Microsoft Dynamics CRM.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -2449,7 +2449,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#currencyFormatCode_display name="currencyFormatCode_display">currencyFormatCode_display</a>
 
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -2473,7 +2473,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 ### <a href=#fiscalSettingsUpdated name="fiscalSettingsUpdated">fiscalSettingsUpdated</a>
 
 Information that specifies whether the fiscal settings have been updated.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -2505,7 +2505,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#reportingGroupId name="reportingGroupId">reportingGroupId</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -2543,7 +2543,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#tokenExpiry name="tokenExpiry">tokenExpiry</a>
 
 Duration used for token expiration.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -2579,7 +2579,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#shareToPreviousOwnerOnAssign name="shareToPreviousOwnerOnAssign">shareToPreviousOwnerOnAssign</a>
 
 Information that specifies whether to share to previous owner on assign.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -2611,7 +2611,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#acknowledgementTemplateId name="acknowledgementTemplateId">acknowledgementTemplateId</a>
 
 Unique identifier of the template to be used for acknowledgement when a user unsubscribes.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -2653,7 +2653,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Unique identifier of the user who last modified the organization.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -2698,7 +2698,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#integrationUserId name="integrationUserId">integrationUserId</a>
 
 Unique identifier of the integration user for the organization.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -2736,7 +2736,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#trackingTokenIdBase name="trackingTokenIdBase">trackingTokenIdBase</a>
 
 Base number used to provide separate tracking token identifiers to users belonging to different deployments.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -2774,7 +2774,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#businessClosureCalendarId name="businessClosureCalendarId">businessClosureCalendarId</a>
 
 Unique identifier of the business closure calendar of organization.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -2812,7 +2812,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#allowAutoUnsubscribeAcknowledgement name="allowAutoUnsubscribeAcknowledgement">allowAutoUnsubscribeAcknowledgement</a>
 
 Indicates whether automatic unsubscribe acknowledgement email is allowed to send.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -2847,7 +2847,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#allowAutoUnsubscribe name="allowAutoUnsubscribe">allowAutoUnsubscribe</a>
 
 Indicates whether automatic unsubscribe is allowed.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -2882,7 +2882,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#picture name="picture">picture</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -2922,7 +2922,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version number of the organization.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -2958,7 +2958,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#trackingPrefix name="trackingPrefix">trackingPrefix</a>
 
 History list of tracking token prefixes.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -2998,7 +2998,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#minOutlookSyncInterval name="minOutlookSyncInterval">minOutlookSyncInterval</a>
 
 Minimum allowed time between scheduled Outlook synchronizations.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -3033,7 +3033,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#bulkOperationPrefix name="bulkOperationPrefix">bulkOperationPrefix</a>
 
 Prefix used for bulk operation numbering.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -3070,7 +3070,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#allowAutoResponseCreation name="allowAutoResponseCreation">allowAutoResponseCreation</a>
 
 Indicates whether automatic response creation is allowed.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -3105,7 +3105,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#maximumTrackingNumber name="maximumTrackingNumber">maximumTrackingNumber</a>
 
 Maximum tracking number before recycling takes place.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -3143,7 +3143,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#campaignPrefix name="campaignPrefix">campaignPrefix</a>
 
 Prefix used for campaign numbering.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -3180,7 +3180,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#sqlAccessGroupName name="sqlAccessGroupName">sqlAccessGroupName</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -3221,7 +3221,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#currentCampaignNumber name="currentCampaignNumber">currentCampaignNumber</a>
 
 Current campaign number. Deprecated. Use SetAutoNumberSeed message.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -3259,7 +3259,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#fiscalYearDisplayCode name="fiscalYearDisplayCode">fiscalYearDisplayCode</a>
 
 Information that specifies whether the fiscal year should be displayed based on the start date or the end date of the fiscal year.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -3292,7 +3292,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#siteMapXml name="siteMapXml">siteMapXml</a>
 
 XML string that defines the navigation structure for the application.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -3332,7 +3332,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#isRegistered name="isRegistered">isRegistered</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -3367,7 +3367,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#reportingGroupName name="reportingGroupName">reportingGroupName</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -3408,7 +3408,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#currentBulkOperationNumber name="currentBulkOperationNumber">currentBulkOperationNumber</a>
 
 Current bulk operation number. Deprecated. Use SetAutoNumberSeed message.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -3446,7 +3446,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#schemaNamePrefix name="schemaNamePrefix">schemaNamePrefix</a>
 
 Prefix used for custom entities and attributes.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -3487,7 +3487,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ignoreInternalEmail name="ignoreInternalEmail">ignoreInternalEmail</a>
 
 Indicates whether incoming email sent by internal Microsoft Dynamics 365 users or queues should be tracked.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -3519,7 +3519,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#tagPollingPeriod name="tagPollingPeriod">tagPollingPeriod</a>
 
 Normal polling frequency used for email receive auto-tagging in outlook.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -3554,7 +3554,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#trackingTokenIdDigits name="trackingTokenIdDigits">trackingTokenIdDigits</a>
 
 Number of digits used to represent a tracking token identifier.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -3590,7 +3590,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#numberGroupFormat name="numberGroupFormat">numberGroupFormat</a>
 
 Specifies how numbers are grouped in Microsoft Dynamics 365.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -3630,7 +3630,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#longDateFormatCode name="longDateFormatCode">longDateFormatCode</a>
 
 Information that specifies how the Long Date format is displayed in Microsoft Dynamics 365.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -3665,7 +3665,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -3703,7 +3703,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -3741,7 +3741,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#currentImportSequenceNumber name="currentImportSequenceNumber">currentImportSequenceNumber</a>
 
 Import sequence to use.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -3776,7 +3776,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#parsedTablePrefix name="parsedTablePrefix">parsedTablePrefix</a>
 
 Prefix used for parsed tables.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -3813,7 +3813,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#v3CalloutConfigHash name="v3CalloutConfigHash">v3CalloutConfigHash</a>
 
 Hash of the V3 callout configuration file.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -3853,7 +3853,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#isFiscalPeriodMonthBased name="isFiscalPeriodMonthBased">isFiscalPeriodMonthBased</a>
 
 Indicates whether the fiscal period is displayed as the month number.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -3885,7 +3885,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#localeId name="localeId">localeId</a>
 
 Unique identifier of the locale of the organization.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -3923,7 +3923,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#parsedTableColumnPrefix name="parsedTableColumnPrefix">parsedTableColumnPrefix</a>
 
 Prefix used for parsed table columns.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -3960,7 +3960,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#supportUserId name="supportUserId">supportUserId</a>
 
 Unique identifier of the support user for the organization.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -3998,7 +3998,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#AMDesignator name="AMDesignator">AMDesignator</a>
 
 AM designator to use throughout Microsoft Dynamics CRM.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -4035,7 +4035,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#currencyDisplayOption name="currencyDisplayOption">currencyDisplayOption</a>
 
 Indicates whether to display money fields with currency code or currency symbol.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -4072,7 +4072,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#currencyDisplayOption_display name="currencyDisplayOption_display">currencyDisplayOption_display</a>
 
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -4096,7 +4096,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 ### <a href=#minAddressBookSyncInterval name="minAddressBookSyncInterval">minAddressBookSyncInterval</a>
 
 Normal polling frequency used for address book synchronization in Microsoft Office Outlook.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -4131,7 +4131,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#isDuplicateDetectionEnabledForOnlineCreateUpdate name="isDuplicateDetectionEnabledForOnlineCreateUpdate">isDuplicateDetectionEnabledForOnlineCreateUpdate</a>
 
 Indicates whether duplicate detection during online create or update is enabled.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -4163,7 +4163,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#featureSet name="featureSet">featureSet</a>
 
 Features to be enabled as an XML BLOB.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -4203,7 +4203,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#blockedAttachments name="blockedAttachments">blockedAttachments</a>
 
 Prevent upload or download of certain attachment types that are considered dangerous.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -4243,7 +4243,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#isDuplicateDetectionEnabledForOfflineSync name="isDuplicateDetectionEnabledForOfflineSync">isDuplicateDetectionEnabledForOfflineSync</a>
 
 Indicates whether duplicate detection of records during offline synchronization is enabled.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -4275,7 +4275,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#allowOfflineScheduledSyncs name="allowOfflineScheduledSyncs">allowOfflineScheduledSyncs</a>
 
 Indicates whether background offline synchronization in Microsoft Office Outlook is allowed.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -4307,7 +4307,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#allowUnresolvedPartiesOnEmailSend name="allowUnresolvedPartiesOnEmailSend">allowUnresolvedPartiesOnEmailSend</a>
 
 Indicates whether users are allowed to send email to unresolved parties (parties must still have an email address).  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -4339,7 +4339,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#timeSeparator name="timeSeparator">timeSeparator</a>
 
 Text for how the time separator is displayed throughout Microsoft Dynamics 365.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -4379,7 +4379,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#currentParsedTableNumber name="currentParsedTableNumber">currentParsedTableNumber</a>
 
 First parsed table number to use.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -4414,7 +4414,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#minOfflineSyncInterval name="minOfflineSyncInterval">minOfflineSyncInterval</a>
 
 Normal polling frequency used for background offline synchronization in Microsoft Office Outlook.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -4449,7 +4449,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#allowWebExcelExport name="allowWebExcelExport">allowWebExcelExport</a>
 
 Indicates whether Web-based export of grids to Microsoft Office Excel is allowed.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -4481,7 +4481,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#referenceSiteMapXml name="referenceSiteMapXml">referenceSiteMapXml</a>
 
 XML string that defines the navigation structure for the application. This is the site map from the previously upgraded build and is used in a 3-way merge during upgrade.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -4521,7 +4521,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#isDuplicateDetectionEnabledForImport name="isDuplicateDetectionEnabledForImport">isDuplicateDetectionEnabledForImport</a>
 
 Indicates whether duplicate detection of records during import is enabled.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -4553,7 +4553,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#calendarType name="calendarType">calendarType</a>
 
 Calendar type for the system. Set to Gregorian US by default.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -4591,7 +4591,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#SQMEnabled name="SQMEnabled">SQMEnabled</a>
 
 Setting for SQM data collection, 0 no, 1 yes enabled  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -4626,7 +4626,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#negativeCurrencyFormatCode name="negativeCurrencyFormatCode">negativeCurrencyFormatCode</a>
 
 Information that specifies how negative currency numbers are displayed throughout Microsoft Dynamics 365.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -4661,7 +4661,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#allowAddressBookSyncs name="allowAddressBookSyncs">allowAddressBookSyncs</a>
 
 Indicates whether background address book synchronization in Microsoft Office Outlook is allowed.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -4693,7 +4693,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#ISVIntegrationCode name="ISVIntegrationCode">ISVIntegrationCode</a>
 
 Indicates whether loading of Microsoft Dynamics 365 in a browser window that does not have address, tool, and menu bars is enabled.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -4730,7 +4730,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#ISVIntegrationCode_display name="ISVIntegrationCode_display">ISVIntegrationCode_display</a>
 
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -4754,7 +4754,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 ### <a href=#decimalSymbol name="decimalSymbol">decimalSymbol</a>
 
 Symbol used for decimal in Microsoft Dynamics 365.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -4791,7 +4791,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#maxUploadFileSize name="maxUploadFileSize">maxUploadFileSize</a>
 
 Maximum allowed size of an attachment.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -4826,7 +4826,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#isAppMode name="isAppMode">isAppMode</a>
 
 Indicates whether loading of Microsoft Dynamics 365 in a browser window that does not have address, tool, and menu bars is enabled.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -4858,7 +4858,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#enablePricingOnCreate name="enablePricingOnCreate">enablePricingOnCreate</a>
 
 Enable pricing calculations on a Create call.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -4890,7 +4890,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isSOPIntegrationEnabled name="isSOPIntegrationEnabled">isSOPIntegrationEnabled</a>
 
 Enable sales order processing integration.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -4922,7 +4922,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#PMDesignator name="PMDesignator">PMDesignator</a>
 
 PM designator to use throughout Microsoft Dynamics 365.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -4959,7 +4959,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#currencyDecimalPrecision name="currencyDecimalPrecision">currencyDecimalPrecision</a>
 
 Number of decimal places that can be used for currency.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -4994,7 +4994,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#maxAppointmentDurationDays name="maxAppointmentDurationDays">maxAppointmentDurationDays</a>
 
 Maximum number of days an appointment can last.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -5029,7 +5029,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#emailSendPollingPeriod name="emailSendPollingPeriod">emailSendPollingPeriod</a>
 
 Normal polling frequency used for sending email in Microsoft Office Outlook.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -5064,7 +5064,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#renderSecureIFrameForEmail name="renderSecureIFrameForEmail">renderSecureIFrameForEmail</a>
 
 Flag to render the body of email in the Web form in an IFRAME with the security='restricted' attribute set. This is additional security but can cause a credentials prompt.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -5096,7 +5096,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#numberSeparator name="numberSeparator">numberSeparator</a>
 
 Symbol used for number separation in Microsoft Dynamics 365.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -5133,7 +5133,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#privReportingGroupId name="privReportingGroupId">privReportingGroupId</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -5171,7 +5171,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#baseCurrencyId name="baseCurrencyId">baseCurrencyId</a>
 
 Unique identifier of the base currency of the organization.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -5216,7 +5216,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#maxRecordsForExportToExcel name="maxRecordsForExportToExcel">maxRecordsForExportToExcel</a>
 
 Maximum number of records that will be exported to a static Microsoft Office Excel worksheet when exporting from the grid.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -5251,7 +5251,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#privReportingGroupName name="privReportingGroupName">privReportingGroupName</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -5292,7 +5292,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#yearStartWeekCode name="yearStartWeekCode">yearStartWeekCode</a>
 
 Information that specifies how the first week of the year is specified in Microsoft Dynamics 365.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -5327,7 +5327,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#isPresenceEnabled name="isPresenceEnabled">isPresenceEnabled</a>
 
 Information on whether IM presence is enabled.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -5362,7 +5362,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isDuplicateDetectionEnabled name="isDuplicateDetectionEnabled">isDuplicateDetectionEnabled</a>
 
 Indicates whether duplicate detection of records is enabled.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -5394,7 +5394,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#expireSubscriptionsInDays name="expireSubscriptionsInDays">expireSubscriptionsInDays</a>
 
 Maximum number of days before deleting inactive subscriptions.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -5429,7 +5429,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#isAuditEnabled name="isAuditEnabled">isAuditEnabled</a>
 
 Enable or disable auditing of changes.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -5461,7 +5461,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#baseCurrencyPrecision name="baseCurrencyPrecision">baseCurrencyPrecision</a>
 
 Number of decimal places that can be used for the base currency.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -5496,7 +5496,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#baseCurrencySymbol name="baseCurrencySymbol">baseCurrencySymbol</a>
 
 Symbol used for the base currency.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -5533,7 +5533,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#maxRecordsForLookupFilters name="maxRecordsForLookupFilters">maxRecordsForLookupFilters</a>
 
 Maximum number of lookup and picklist records that can be selected by user for filtering.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -5568,7 +5568,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#allowEntityOnlyAudit name="allowEntityOnlyAudit">allowEntityOnlyAudit</a>
 
 Indicates whether auditing of changes to entity is allowed when no attributes have changed.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -5600,7 +5600,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#defaultRecurrenceEndRangeType name="defaultRecurrenceEndRangeType">defaultRecurrenceEndRangeType</a>
 
 Type of default recurrence end range date.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -5640,7 +5640,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#defaultRecurrenceEndRangeType_display name="defaultRecurrenceEndRangeType_display">defaultRecurrenceEndRangeType_display</a>
 
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -5664,7 +5664,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 ### <a href=#futureExpansionWindow name="futureExpansionWindow">futureExpansionWindow</a>
 
 Specifies the maximum number of months in future for which the recurring activities can be created.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -5699,7 +5699,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#pastExpansionWindow name="pastExpansionWindow">pastExpansionWindow</a>
 
 Specifies the maximum number of months in past for which the recurring activities can be created.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -5734,7 +5734,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#recurrenceExpansionSynchCreateMax name="recurrenceExpansionSynchCreateMax">recurrenceExpansionSynchCreateMax</a>
 
 Specifies the maximum number of instances to be created synchronously after creating a recurring appointment.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -5769,7 +5769,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#recurrenceDefaultNumberOfOccurrences name="recurrenceDefaultNumberOfOccurrences">recurrenceDefaultNumberOfOccurrences</a>
 
 Specifies the default value for number of occurrences field in the recurrence dialog.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -5804,7 +5804,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Unique identifier of the delegate user who created the organization.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -5849,7 +5849,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Unique identifier of the delegate user who last modified the organization.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -5894,7 +5894,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#getStartedPaneContentEnabled name="getStartedPaneContentEnabled">getStartedPaneContentEnabled</a>
 
 Indicates whether Get Started content is enabled for this organization.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -5926,7 +5926,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#useReadForm name="useReadForm">useReadForm</a>
 
 Indicates whether the read-optimized form should be enabled for this organization.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -5958,7 +5958,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#initialVersion name="initialVersion">initialVersion</a>
 
 Initial version of the organization.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -5998,7 +5998,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#sampleDataImportId name="sampleDataImportId">sampleDataImportId</a>
 
 Unique identifier of the sample data import job.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -6036,7 +6036,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#reportScriptErrors name="reportScriptErrors">reportScriptErrors</a>
 
 Picklist for selecting the organization preference for reporting scripting errors.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -6073,7 +6073,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#reportScriptErrors_display name="reportScriptErrors_display">reportScriptErrors_display</a>
 
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -6097,7 +6097,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 ### <a href=#requireApprovalForUserEmail name="requireApprovalForUserEmail">requireApprovalForUserEmail</a>
 
 Indicates whether Send As Other User privilege is enabled.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -6129,7 +6129,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#requireApprovalForQueueEmail name="requireApprovalForQueueEmail">requireApprovalForQueueEmail</a>
 
 Indicates whether Send As Other User privilege is enabled.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -6161,7 +6161,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#goalRollupExpiryTime name="goalRollupExpiryTime">goalRollupExpiryTime</a>
 
 Number of days after the goal's end date after which the rollup of the goal stops automatically.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -6196,7 +6196,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#goalRollupFrequency name="goalRollupFrequency">goalRollupFrequency</a>
 
 Number of hours between automatic rollup jobs .  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -6231,7 +6231,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#autoApplyDefaultonCaseCreate name="autoApplyDefaultonCaseCreate">autoApplyDefaultonCaseCreate</a>
 
 Select whether to auto apply the default customer entitlement on case creation.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -6263,7 +6263,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#autoApplyDefaultonCaseUpdate name="autoApplyDefaultonCaseUpdate">autoApplyDefaultonCaseUpdate</a>
 
 Select whether to auto apply the default customer entitlement on case update.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -6295,7 +6295,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#fiscalYearFormatPrefix name="fiscalYearFormatPrefix">fiscalYearFormatPrefix</a>
 
 Prefix for the display of the fiscal year.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -6335,7 +6335,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#fiscalYearFormatPrefix_display name="fiscalYearFormatPrefix_display">fiscalYearFormatPrefix_display</a>
 
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -6359,7 +6359,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 ### <a href=#fiscalYearFormatSuffix name="fiscalYearFormatSuffix">fiscalYearFormatSuffix</a>
 
 Suffix for the display of the fiscal year.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -6399,7 +6399,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#fiscalYearFormatSuffix_display name="fiscalYearFormatSuffix_display">fiscalYearFormatSuffix_display</a>
 
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -6423,7 +6423,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 ### <a href=#fiscalYearFormatYear name="fiscalYearFormatYear">fiscalYearFormatYear</a>
 
 Format for the year.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -6463,7 +6463,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#fiscalYearFormatYear_display name="fiscalYearFormatYear_display">fiscalYearFormatYear_display</a>
 
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -6487,7 +6487,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 ### <a href=#discountCalculationMethod name="discountCalculationMethod">discountCalculationMethod</a>
 
 Discount calculation method for the QOOI product.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -6524,7 +6524,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#discountCalculationMethod_display name="discountCalculationMethod_display">discountCalculationMethod_display</a>
 
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -6548,7 +6548,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 ### <a href=#fiscalPeriodFormatPeriod name="fiscalPeriodFormatPeriod">fiscalPeriodFormatPeriod</a>
 
 Format in which the fiscal period will be displayed.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -6588,7 +6588,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#fiscalPeriodFormatPeriod_display name="fiscalPeriodFormatPeriod_display">fiscalPeriodFormatPeriod_display</a>
 
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -6612,7 +6612,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 ### <a href=#allowClientMessageBarAd name="allowClientMessageBarAd">allowClientMessageBarAd</a>
 
 Indicates whether Outlook Client message bar advertisement is allowed.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -6644,7 +6644,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#allowUserFormModePreference name="allowUserFormModePreference">allowUserFormModePreference</a>
 
 Indicates whether individuals can select their form mode preference in their personal options.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -6676,7 +6676,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#hashFilterKeywords name="hashFilterKeywords">hashFilterKeywords</a>
 
 Filter Subject Keywords  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -6716,7 +6716,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#hashMaxCount name="hashMaxCount">hashMaxCount</a>
 
 Maximum number of subject keywords or recipients used for correlation  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -6754,7 +6754,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#hashDeltaSubjectCount name="hashDeltaSubjectCount">hashDeltaSubjectCount</a>
 
 Maximum difference allowed between subject keywords count of the email messaged to be correlated  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -6792,7 +6792,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#hashMinAddressCount name="hashMinAddressCount">hashMinAddressCount</a>
 
 Minimum number of recipients required to match for email messaged to be correlated  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -6830,7 +6830,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#enableSmartMatching name="enableSmartMatching">enableSmartMatching</a>
 
 Use Smart Matching.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -6864,7 +6864,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#pinpointLanguageCode name="pinpointLanguageCode">pinpointLanguageCode</a>
 
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -6899,7 +6899,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#orgDbOrgSettings name="orgDbOrgSettings">orgDbOrgSettings</a>
 
 Organization settings stored in Organization Database.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -6939,7 +6939,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#isUserAccessAuditEnabled name="isUserAccessAuditEnabled">isUserAccessAuditEnabled</a>
 
 Enable or disable auditing of user access.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -6971,7 +6971,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#userAccessAuditingInterval name="userAccessAuditingInterval">userAccessAuditingInterval</a>
 
 The interval at which user access is checked for auditing.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -7006,7 +7006,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#quickFindRecordLimitEnabled name="quickFindRecordLimitEnabled">quickFindRecordLimitEnabled</a>
 
 Indicates whether a quick find record limit should be enabled for this organization (allows for faster Quick Find queries but prevents overly broad searches).  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -7038,7 +7038,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#enableBingMapsIntegration name="enableBingMapsIntegration">enableBingMapsIntegration</a>
 
 Enable Integration with Bing Maps  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -7070,7 +7070,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isDefaultCountryCodeCheckEnabled name="isDefaultCountryCodeCheckEnabled">isDefaultCountryCodeCheckEnabled</a>
 
 Enable or disable country code selection.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -7102,7 +7102,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#defaultCountryCode name="defaultCountryCode">defaultCountryCode</a>
 
 Text area to enter default country code.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -7142,7 +7142,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#useSkypeProtocol name="useSkypeProtocol">useSkypeProtocol</a>
 
 Indicates default protocol selected for organization.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -7174,7 +7174,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#incomingEmailExchangeEmailRetrievalBatchSize name="incomingEmailExchangeEmailRetrievalBatchSize">incomingEmailExchangeEmailRetrievalBatchSize</a>
 
 Setting for the Async Service Mailbox Queue. Defines the retrieval batch size of exchange server.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -7212,7 +7212,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#emailCorrelationEnabled name="emailCorrelationEnabled">emailCorrelationEnabled</a>
 
 Flag to turn email correlation on or off.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -7244,7 +7244,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#yammerOAuthAccessTokenExpired name="yammerOAuthAccessTokenExpired">yammerOAuthAccessTokenExpired</a>
 
 Denotes whether the OAuth access token for Yammer network has expired  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -7279,7 +7279,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#defaultEmailSettings name="defaultEmailSettings">defaultEmailSettings</a>
 
 XML string containing the default email settings that are applied when a user or queue is created.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -7320,7 +7320,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#yammerGroupId name="yammerGroupId">yammerGroupId</a>
 
 Denotes the Yammer group ID  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -7358,7 +7358,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#yammerNetworkPermalink name="yammerNetworkPermalink">yammerNetworkPermalink</a>
 
 Denotes the Yammer network permalink  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -7398,7 +7398,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#yammerPostMethod name="yammerPostMethod">yammerPostMethod</a>
 
 Internal Use Only  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -7438,7 +7438,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#yammerPostMethod_display name="yammerPostMethod_display">yammerPostMethod_display</a>
 
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -7462,7 +7462,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 ### <a href=#emailConnectionChannel name="emailConnectionChannel">emailConnectionChannel</a>
 
 Select if you want to use the Email Router or server-side synchronization for email processing.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -7499,7 +7499,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#emailConnectionChannel_display name="emailConnectionChannel_display">emailConnectionChannel_display</a>
 
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -7523,7 +7523,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 ### <a href=#defaultEmailServerProfileId name="defaultEmailServerProfileId">defaultEmailServerProfileId</a>
 
 Unique identifier of the default email server profile.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -7565,7 +7565,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isAutoSaveEnabled name="isAutoSaveEnabled">isAutoSaveEnabled</a>
 
 Information on whether auto save is enabled.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -7597,7 +7597,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#bingMapsApiKey name="bingMapsApiKey">bingMapsApiKey</a>
 
 Api Key to be used in requests to Bing Maps services.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -7637,7 +7637,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#generateAlertsForErrors name="generateAlertsForErrors">generateAlertsForErrors</a>
 
 Indicates whether alerts will be generated for errors.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -7669,7 +7669,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#generateAlertsForInformation name="generateAlertsForInformation">generateAlertsForInformation</a>
 
 Indicates whether alerts will be generated for information.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -7701,7 +7701,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#generateAlertsForWarnings name="generateAlertsForWarnings">generateAlertsForWarnings</a>
 
 Indicates whether alerts will be generated for warnings.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -7733,7 +7733,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#notifyMailboxOwnerOfEmailServerLevelAlerts name="notifyMailboxOwnerOfEmailServerLevelAlerts">notifyMailboxOwnerOfEmailServerLevelAlerts</a>
 
 Indicates whether mailbox owners will be notified of email server profile level alerts.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -7765,7 +7765,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#maximumActiveBusinessProcessFlowsAllowedPerEntity name="maximumActiveBusinessProcessFlowsAllowedPerEntity">maximumActiveBusinessProcessFlowsAllowedPerEntity</a>
 
 Maximum number of active business process flows allowed per entity  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -7803,7 +7803,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#entityImageId name="entityImageId">entityImageId</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -7841,7 +7841,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#allowUsersSeeAppdownloadMessage name="allowUsersSeeAppdownloadMessage">allowUsersSeeAppdownloadMessage</a>
 
 Indicates whether the showing tablet application notification bars in a browser is allowed.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -7873,7 +7873,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#signupOutlookDownloadFWLink name="signupOutlookDownloadFWLink">signupOutlookDownloadFWLink</a>
 
 CRM for Outlook Download URL  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -7910,7 +7910,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#cascadeStatusUpdate name="cascadeStatusUpdate">cascadeStatusUpdate</a>
 
 Flag to cascade Update on incident.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -7945,7 +7945,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#restrictStatusUpdate name="restrictStatusUpdate">restrictStatusUpdate</a>
 
 Flag to restrict Update on incident.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -7980,7 +7980,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#suppressSLA name="suppressSLA">suppressSLA</a>
 
 Indicates whether SLA is suppressed.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -8012,7 +8012,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#socialInsightsTermsAccepted name="socialInsightsTermsAccepted">socialInsightsTermsAccepted</a>
 
 Flag for whether the organization has accepted the Social Insights terms of use.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -8047,7 +8047,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#socialInsightsInstance name="socialInsightsInstance">socialInsightsInstance</a>
 
 Identifier for the Social Insights instance for the organization.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -8087,7 +8087,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#disableSocialCare name="disableSocialCare">disableSocialCare</a>
 
 Indicates whether Social Care is disabled.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -8119,7 +8119,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#maxProductsInBundle name="maxProductsInBundle">maxProductsInBundle</a>
 
 Restrict the maximum no of items in a bundle  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -8154,7 +8154,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#useInbuiltRuleForDefaultPricelistSelection name="useInbuiltRuleForDefaultPricelistSelection">useInbuiltRuleForDefaultPricelistSelection</a>
 
 Flag indicates whether to Use Inbuilt Rule For DefaultPricelist.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -8189,7 +8189,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#OOBPriceCalculationEnabled name="OOBPriceCalculationEnabled">OOBPriceCalculationEnabled</a>
 
 Enable OOB pricing calculation logic for Opportunity, Quote, Order and Invoice entities.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -8221,7 +8221,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isHierarchicalSecurityModelEnabled name="isHierarchicalSecurityModelEnabled">isHierarchicalSecurityModelEnabled</a>
 
 Enable Hierarchical Security Model  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -8253,7 +8253,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#maximumDynamicPropertiesAllowed name="maximumDynamicPropertiesAllowed">maximumDynamicPropertiesAllowed</a>
 
 Restrict the maximum number of product properties for a product family/bundle  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -8288,7 +8288,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#usePositionHierarchy name="usePositionHierarchy">usePositionHierarchy</a>
 
 Use position hierarchy  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -8320,7 +8320,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#maxDepthForHierarchicalSecurityModel name="maxDepthForHierarchicalSecurityModel">maxDepthForHierarchicalSecurityModel</a>
 
 Maximum depth for hierarchy security propagation.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -8355,7 +8355,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#slaPauseStates name="slaPauseStates">slaPauseStates</a>
 
 Contains the on hold case status values.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -8395,7 +8395,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#socialInsightsEnabled name="socialInsightsEnabled">socialInsightsEnabled</a>
 
 Flag for whether the organization is using Social Insights.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -8430,7 +8430,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isAppointmentAttachmentSyncEnabled name="isAppointmentAttachmentSyncEnabled">isAppointmentAttachmentSyncEnabled</a>
 
 Enable or disable attachments sync for outlook and exchange.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -8462,7 +8462,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isAssignedTasksSyncEnabled name="isAssignedTasksSyncEnabled">isAssignedTasksSyncEnabled</a>
 
 Enable or disable assigned tasks sync for outlook and exchange.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -8494,7 +8494,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isContactMailingAddressSyncEnabled name="isContactMailingAddressSyncEnabled">isContactMailingAddressSyncEnabled</a>
 
 Enable or disable mailing address sync for outlook and exchange.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -8526,7 +8526,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#maxSupportedInternetExplorerVersion name="maxSupportedInternetExplorerVersion">maxSupportedInternetExplorerVersion</a>
 
 The maximum version of IE to run browser emulation for in Outlook client  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -8561,7 +8561,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#globalHelpUrl name="globalHelpUrl">globalHelpUrl</a>
 
 URL for the web page global help.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -8602,7 +8602,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#globalHelpUrlEnabled name="globalHelpUrlEnabled">globalHelpUrlEnabled</a>
 
 Indicates whether the customizable global help is enabled.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -8634,7 +8634,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#globalAppendUrlParametersEnabled name="globalAppendUrlParametersEnabled">globalAppendUrlParametersEnabled</a>
 
 Indicates whether the append URL parameters is enabled.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -8666,7 +8666,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#KMSettings name="KMSettings">KMSettings</a>
 
 XML string containing the Knowledge Management settings that are applied in Knowledge Management Wizard.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -8706,7 +8706,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#createProductsWithoutParentInActiveState name="createProductsWithoutParentInActiveState">createProductsWithoutParentInActiveState</a>
 
 Enable Initial state of newly created products to be Active instead of Draft  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -8738,7 +8738,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isMailboxInactiveBackoffEnabled name="isMailboxInactiveBackoffEnabled">isMailboxInactiveBackoffEnabled</a>
 
 Enable or disable mailbox keep alive for Server Side Sync.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -8770,7 +8770,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isFullTextSearchEnabled name="isFullTextSearchEnabled">isFullTextSearchEnabled</a>
 
 Indicates whether full-text search for Quick Find entities should be enabled for the organization.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -8802,7 +8802,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#enforceReadOnlyPlugins name="enforceReadOnlyPlugins">enforceReadOnlyPlugins</a>
 
 Organization setting to enforce read only plugins.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -8834,7 +8834,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#sharePointDeploymentType name="sharePointDeploymentType">sharePointDeploymentType</a>
 
 Indicates which SharePoint deployment type is configured for Server to Server. (Online or On-Premises)  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -8874,7 +8874,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#sharePointDeploymentType_display name="sharePointDeploymentType_display">sharePointDeploymentType_display</a>
 
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -8898,7 +8898,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 ### <a href=#organizationState name="organizationState">organizationState</a>
 
 Indicates the organization lifecycle state  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -8938,7 +8938,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#organizationState_display name="organizationState_display">organizationState_display</a>
 
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -8962,7 +8962,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 ### <a href=#defaultThemeData name="defaultThemeData">defaultThemeData</a>
 
 Default theme data for the organization.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -9002,7 +9002,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#isFolderBasedTrackingEnabled name="isFolderBasedTrackingEnabled">isFolderBasedTrackingEnabled</a>
 
 Enable or disable folder based tracking for Server Side Sync.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -9034,7 +9034,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#webResourceHash name="webResourceHash">webResourceHash</a>
 
 Hash value of web resources.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -9071,7 +9071,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#expireChangeTrackingInDays name="expireChangeTrackingInDays">expireChangeTrackingInDays</a>
 
 Maximum number of days to keep change tracking deleted records  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -9106,7 +9106,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#maxFolderBasedTrackingMappings name="maxFolderBasedTrackingMappings">maxFolderBasedTrackingMappings</a>
 
 Maximum number of Folder Based Tracking mappings user can add  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -9141,7 +9141,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#privacyStatementUrl name="privacyStatementUrl">privacyStatementUrl</a>
 
 Privacy Statement URL  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -9182,7 +9182,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#pluginTraceLogSetting name="pluginTraceLogSetting">pluginTraceLogSetting</a>
 
 Plug-in Trace Log Setting for the Organization.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -9219,7 +9219,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#pluginTraceLogSetting_display name="pluginTraceLogSetting_display">pluginTraceLogSetting_display</a>
 
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -9243,7 +9243,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 ### <a href=#isMailboxForcedUnlockingEnabled name="isMailboxForcedUnlockingEnabled">isMailboxForcedUnlockingEnabled</a>
 
 Enable or disable forced unlocking for Server Side Sync mailboxes.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -9275,7 +9275,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#mailboxIntermittentIssueMinRange name="mailboxIntermittentIssueMinRange">mailboxIntermittentIssueMinRange</a>
 
 Lower Threshold For Mailbox Intermittent Issue.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -9310,7 +9310,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#mailboxPermanentIssueMinRange name="mailboxPermanentIssueMinRange">mailboxPermanentIssueMinRange</a>
 
 Lower Threshold For Mailbox Permanent Issue.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -9345,7 +9345,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#highContrastThemeData name="highContrastThemeData">highContrastThemeData</a>
 
 High contrast theme data for the organization.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -9385,7 +9385,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#delegatedAdminUserId name="delegatedAdminUserId">delegatedAdminUserId</a>
 
 Unique identifier of the delegated admin user for the organization.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -9423,7 +9423,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isExternalSearchIndexEnabled name="isExternalSearchIndexEnabled">isExternalSearchIndexEnabled</a>
 
 Select whether data can be synchronized with an external search index.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -9455,7 +9455,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isMobileOfflineEnabled name="isMobileOfflineEnabled">isMobileOfflineEnabled</a>
 
 Indicates whether the feature MobileOffline should be enabled for the organization.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -9487,7 +9487,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isOfficeGraphEnabled name="isOfficeGraphEnabled">isOfficeGraphEnabled</a>
 
 Indicates whether the feature OfficeGraph should be enabled for the organization.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -9519,7 +9519,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isOneDriveEnabled name="isOneDriveEnabled">isOneDriveEnabled</a>
 
 Indicates whether the feature One Drive should be enabled for the organization.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -9551,7 +9551,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#externalPartyEntitySettings name="externalPartyEntitySettings">externalPartyEntitySettings</a>
 
 XML string containing the ExternalPartyEnabled entities settings.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -9591,7 +9591,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#externalPartyCorrelationKeys name="externalPartyCorrelationKeys">externalPartyCorrelationKeys</a>
 
 XML string containing the ExternalPartyEnabled entities correlation keys for association of existing External Party instance entities to newly created IsExternalPartyEnabled entities.For internal use only  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -9631,7 +9631,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#maxVerboseLoggingMailbox name="maxVerboseLoggingMailbox">maxVerboseLoggingMailbox</a>
 
 Maximum number of mailboxes that can be toggled for verbose logging  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -9666,7 +9666,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#maxVerboseLoggingSyncCycles name="maxVerboseLoggingSyncCycles">maxVerboseLoggingSyncCycles</a>
 
 Maximum number of sync cycles for which verbose logging will be enabled by default  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -9701,7 +9701,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#mobileOfflineSyncInterval name="mobileOfflineSyncInterval">mobileOfflineSyncInterval</a>
 
 Sync interval for mobile offline.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -9736,7 +9736,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#officeGraphDelveUrl name="officeGraphDelveUrl">officeGraphDelveUrl</a>
 
 The url to open the Delve for the organization.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -9777,7 +9777,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#mobileOfflineMinLicenseTrial name="mobileOfflineMinLicenseTrial">mobileOfflineMinLicenseTrial</a>
 
 Minimum number of user license required for mobile offline service by trial organization  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -9812,7 +9812,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#mobileOfflineMinLicenseProd name="mobileOfflineMinLicenseProd">mobileOfflineMinLicenseProd</a>
 
 Minimum number of user license required for mobile offline service by production/preview organization  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -9847,7 +9847,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#daysSinceRecordLastModifiedMaxValue name="daysSinceRecordLastModifiedMaxValue">daysSinceRecordLastModifiedMaxValue</a>
 
 The maximum value for the Mobile Offline setting Days since record last modified  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -9882,7 +9882,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#taskBasedFlowEnabled name="taskBasedFlowEnabled">taskBasedFlowEnabled</a>
 
 Select whether to turn on task flows for the organization.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -9914,7 +9914,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#showKBArticleDeprecationNotification name="showKBArticleDeprecationNotification">showKBArticleDeprecationNotification</a>
 
 Select whether to display a KB article deprecation notification to the user.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -9946,7 +9946,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#azureSchedulerJobCollectionName name="azureSchedulerJobCollectionName">azureSchedulerJobCollectionName</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -9987,7 +9987,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#cortanaProactiveExperienceEnabled name="cortanaProactiveExperienceEnabled">cortanaProactiveExperienceEnabled</a>
 
 Indicates whether the feature CortanaProactiveExperience Flow processes should be enabled for the organization.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -10019,7 +10019,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#officeAppsAutoDeploymentEnabled name="officeAppsAutoDeploymentEnabled">officeAppsAutoDeploymentEnabled</a>
 
 Indicates whether the Office Apps auto deployment is enabled for the organization.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -10051,7 +10051,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#appDesignerExperienceEnabled name="appDesignerExperienceEnabled">appDesignerExperienceEnabled</a>
 
 Indicates whether the appDesignerExperience is enabled for the organization.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -10083,7 +10083,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#enableImmersiveSkypeIntegration name="enableImmersiveSkypeIntegration">enableImmersiveSkypeIntegration</a>
 
 Enable Integration with Immersive Skype  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -10115,7 +10115,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#autoApplySLA name="autoApplySLA">autoApplySLA</a>
 
 Indicates whether to Auto-apply SLA on case record update after SLA was manually applied.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -10147,7 +10147,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isEmailServerProfileContentFilteringEnabled name="isEmailServerProfileContentFilteringEnabled">isEmailServerProfileContentFilteringEnabled</a>
 
 Enable Email Server Profile content filtering  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -10179,7 +10179,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isDelegateAccessEnabled name="isDelegateAccessEnabled">isDelegateAccessEnabled</a>
 
 Enable Delegation Access content  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -10211,7 +10211,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#displayNavigationTour name="displayNavigationTour">displayNavigationTour</a>
 
 Indicates whether or not navigation tour is displayed.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -10243,7 +10243,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#useLegacyRendering name="useLegacyRendering">useLegacyRendering</a>
 
 Select whether to use legacy form rendering.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -10275,7 +10275,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#defaultMobileOfflineProfileId name="defaultMobileOfflineProfileId">defaultMobileOfflineProfileId</a>
 
 Unique identifier of the default mobile offline profile.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -10317,7 +10317,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#kaPrefix name="kaPrefix">kaPrefix</a>
 
 Type the prefix to use for all knowledge articles in Microsoft Dynamics 365.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -10354,7 +10354,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#currentKaNumber name="currentKaNumber">currentKaNumber</a>
 
 Enter the first number to use for knowledge articles. Deprecated. Use SetAutoNumberSeed message.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -10389,7 +10389,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#currentCategoryNumber name="currentCategoryNumber">currentCategoryNumber</a>
 
 Enter the first number to use for Categories. Deprecated. Use SetAutoNumberSeed message.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -10424,7 +10424,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#categoryPrefix name="categoryPrefix">categoryPrefix</a>
 
 Type the prefix to use for all categories in Microsoft Dynamics 365.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -10461,7 +10461,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#maximumEntitiesWithActiveSLA name="maximumEntitiesWithActiveSLA">maximumEntitiesWithActiveSLA</a>
 
 Maximum number of active SLA allowed per entity in online  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -10499,7 +10499,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#maximumSLAKPIPerEntityWithActiveSLA name="maximumSLAKPIPerEntityWithActiveSLA">maximumSLAKPIPerEntityWithActiveSLA</a>
 
 Maximum number of SLA KPI per active SLA allowed for entity in online  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -10537,7 +10537,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#isConflictDetectionEnabledForMobileClient name="isConflictDetectionEnabledForMobileClient">isConflictDetectionEnabledForMobileClient</a>
 
 Information that specifies whether conflict detection for mobile client is enabled.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -10569,7 +10569,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isDelveActionHubIntegrationEnabled name="isDelveActionHubIntegrationEnabled">isDelveActionHubIntegrationEnabled</a>
 
 Indicates whether the feature Action Hub should be enabled for the organization.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -10604,7 +10604,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#orgInsightsEnabled name="orgInsightsEnabled">orgInsightsEnabled</a>
 
 Select whether to turn on OrgInsights for the organization.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -10636,7 +10636,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#productRecommendationsEnabled name="productRecommendationsEnabled">productRecommendationsEnabled</a>
 
 Select whether to turn on product recommendations for the organization.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -10668,7 +10668,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#textAnalyticsEnabled name="textAnalyticsEnabled">textAnalyticsEnabled</a>
 
 Select whether to turn on text analytics for the organization.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -10700,7 +10700,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#maxConditionsForMobileOfflineFilters name="maxConditionsForMobileOfflineFilters">maxConditionsForMobileOfflineFilters</a>
 
 Maximum number of conditions allowed for mobile offline filters  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -10738,7 +10738,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#isFolderAutoCreatedonSP name="isFolderAutoCreatedonSP">isFolderAutoCreatedonSP</a>
 
 Select whether folders should be automatically created on SharePoint.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -10770,7 +10770,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#powerBiFeatureEnabled name="powerBiFeatureEnabled">powerBiFeatureEnabled</a>
 
 Indicates whether the Power BI feature should be enabled for the organization.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -10802,7 +10802,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isActionCardEnabled name="isActionCardEnabled">isActionCardEnabled</a>
 
 Indicates whether the feature Action Card should be enabled for the organization.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -10834,7 +10834,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isEmailMonitoringAllowed name="isEmailMonitoringAllowed">isEmailMonitoringAllowed</a>
 
 Allow tracking recipient activity on sent emails.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -10866,7 +10866,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isActivityAnalysisEnabled name="isActivityAnalysisEnabled">isActivityAnalysisEnabled</a>
 
 Indicates whether the feature Relationship Analytics should be enabled for the organization.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -10901,7 +10901,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isAutoDataCaptureEnabled name="isAutoDataCaptureEnabled">isAutoDataCaptureEnabled</a>
 
 Indicates whether the feature Auto Capture should be enabled for the organization.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -10933,7 +10933,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#externalBaseUrl name="externalBaseUrl">externalBaseUrl</a>
 
 Specify the base URL to use to look for external document suggestions.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -10974,7 +10974,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#isPreviewEnabledForActionCard name="isPreviewEnabledForActionCard">isPreviewEnabledForActionCard</a>
 
 Indicates whether the Preview feature for Action Card should be enabled for the organization.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -11006,7 +11006,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isPreviewForEmailMonitoringAllowed name="isPreviewForEmailMonitoringAllowed">isPreviewForEmailMonitoringAllowed</a>
 
 Is Preview For Email Monitoring Allowed.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -11038,7 +11038,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#unresolveEmailAddressIfMultipleMatch name="unresolveEmailAddressIfMultipleMatch">unresolveEmailAddressIfMultipleMatch</a>
 
 Indicates whether email address should be unresolved if multiple matches are found  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -11070,7 +11070,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#riErrorStatus name="riErrorStatus">riErrorStatus</a>
 
 Error status of Relationship Insights provisioning.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -11108,7 +11108,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#widgetProperties name="widgetProperties">widgetProperties</a>
 
 For Internal use only.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -11148,7 +11148,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#enableMicrosoftFlowIntegration name="enableMicrosoftFlowIntegration">enableMicrosoftFlowIntegration</a>
 
 Enable Integration with Microsoft Flow  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -11180,7 +11180,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isEnabledForAllRoles name="isEnabledForAllRoles">isEnabledForAllRoles</a>
 
 Indicates whether appmodule is enabled for all roles  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -11212,7 +11212,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isPreviewForAutoCaptureEnabled name="isPreviewForAutoCaptureEnabled">isPreviewForAutoCaptureEnabled</a>
 
 Indicates whether the feature Auto Capture should be enabled for the organization at Preview Settings.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -11244,7 +11244,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#defaultCrmCustomName name="defaultCrmCustomName">defaultCrmCustomName</a>
 
 Name of the default crm custom.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -11282,7 +11282,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ACIWebEndpointUrl name="ACIWebEndpointUrl">ACIWebEndpointUrl</a>
 
 ACI Web Endpoint URL.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -11323,7 +11323,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#enableLPAuthoring name="enableLPAuthoring">enableLPAuthoring</a>
 
 Select to enable learning path auhtoring.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -11355,7 +11355,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isResourceBookingExchangeSyncEnabled name="isResourceBookingExchangeSyncEnabled">isResourceBookingExchangeSyncEnabled</a>
 
 Indicates if the synchronization of user resource booking with Exchange is enabled at organization level.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -11387,7 +11387,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isMobileClientOnDemandSyncEnabled name="isMobileClientOnDemandSyncEnabled">isMobileClientOnDemandSyncEnabled</a>
 
 Information that specifies whether mobile client on demand sync is enabled.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -11419,7 +11419,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#postMessageWhitelistDomains name="postMessageWhitelistDomains">postMessageWhitelistDomains</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -11459,7 +11459,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#isRelationshipInsightsEnabled name="isRelationshipInsightsEnabled">isRelationshipInsightsEnabled</a>
 
 Indicates whether the feature Relationship Insights should be enabled for the organization.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -11494,7 +11494,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#resolveSimilarUnresolvedEmailAddress name="resolveSimilarUnresolvedEmailAddress">resolveSimilarUnresolvedEmailAddress</a>
 
 Apply same email address to all unresolved matches when you manually resolve it for one  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -11526,7 +11526,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isTextWrapEnabled name="isTextWrapEnabled">isTextWrapEnabled</a>
 
 Information on whether text wrap is enabled.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -11558,7 +11558,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#sessionTimeoutEnabled name="sessionTimeoutEnabled">sessionTimeoutEnabled</a>
 
 Information that specifies whether session timeout is enabled  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -11590,7 +11590,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#sessionTimeoutInMins name="sessionTimeoutInMins">sessionTimeoutInMins</a>
 
 Session timeout in minutes  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -11628,7 +11628,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#sessionTimeoutReminderInMins name="sessionTimeoutReminderInMins">sessionTimeoutReminderInMins</a>
 
 Session timeout reminder in minutes  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -11666,7 +11666,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#microsoftFlowEnvironment name="microsoftFlowEnvironment">microsoftFlowEnvironment</a>
 
 Environment selected for Integration with Microsoft Flow  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -11706,7 +11706,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#inactivityTimeoutEnabled name="inactivityTimeoutEnabled">inactivityTimeoutEnabled</a>
 
 Information that specifies whether Inactivity timeout is enabled  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -11738,7 +11738,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#inactivityTimeoutInMins name="inactivityTimeoutInMins">inactivityTimeoutInMins</a>
 
 Inactivity timeout in minutes  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -11776,7 +11776,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#inactivityTimeoutReminderInMins name="inactivityTimeoutReminderInMins">inactivityTimeoutReminderInMins</a>
 
 Inactivity timeout reminder in minutes  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -11814,7 +11814,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#syncOptInSelection name="syncOptInSelection">syncOptInSelection</a>
 
 Indicates the selection to use the dynamics 365 azure sync framework or server side sync.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -11846,7 +11846,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#syncOptInSelectionStatus name="syncOptInSelectionStatus">syncOptInSelectionStatus</a>
 
 Indicates the status of the opt-in or opt-out operation for dynamics 365 azure sync.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -11886,7 +11886,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#syncOptInSelectionStatus_display name="syncOptInSelectionStatus_display">syncOptInSelectionStatus_display</a>
 
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -11910,7 +11910,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 ### <a href=#isActionSupportFeatureEnabled name="isActionSupportFeatureEnabled">isActionSupportFeatureEnabled</a>
 
 Information that specifies whether Action Support Feature is enabled  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -11942,7 +11942,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isBPFEntityCustomizationFeatureEnabled name="isBPFEntityCustomizationFeatureEnabled">isBPFEntityCustomizationFeatureEnabled</a>
 
 Information that specifies whether BPF Entity Customization Feature is enabled  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -11974,7 +11974,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#boundDashboardDefaultCardExpanded name="boundDashboardDefaultCardExpanded">boundDashboardDefaultCardExpanded</a>
 
 Display cards in expanded state for interactive dashboard  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -12006,7 +12006,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#maxActionStepsInBPF name="maxActionStepsInBPF">maxActionStepsInBPF</a>
 
 Maximum number of actionsteps allowed in a BPF  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -12041,7 +12041,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#serveStaticResourcesFromAzureCDN name="serveStaticResourcesFromAzureCDN">serveStaticResourcesFromAzureCDN</a>
 
 Serve Static Content From CDN  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -12073,7 +12073,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isExternalFileStorageEnabled name="isExternalFileStorageEnabled">isExternalFileStorageEnabled</a>
 
 Indicates whether the organization's files are being stored in Azure.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -12105,7 +12105,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#clientFeatureSet name="clientFeatureSet">clientFeatureSet</a>
 
 Client Features to be enabled as an XML BLOB.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -12145,7 +12145,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#isReadAuditEnabled name="isReadAuditEnabled">isReadAuditEnabled</a>
 
 Enable or disable auditing of read operations.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -12177,7 +12177,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isNotesAnalysisEnabled name="isNotesAnalysisEnabled">isNotesAnalysisEnabled</a>
 
 Indicates whether the feature Notes Analysis should be enabled for the organization.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -12212,7 +12212,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#allowLegacyDialogsEmbedding name="allowLegacyDialogsEmbedding">allowLegacyDialogsEmbedding</a>
 
 Enable embedding of certain legacy dialogs in Unified Interface browser client  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -12244,7 +12244,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#appointmentRichEditorExperience name="appointmentRichEditorExperience">appointmentRichEditorExperience</a>
 
 Information on whether rich editing experience for Appointment is enabled.  
-First included in: /core/applicationCommon/Organization.cdm.json/Organization  
+First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
@@ -12276,7 +12276,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#schedulingEngine name="schedulingEngine">schedulingEngine</a>
 
 Scheduling engine for Appointments and Service Activities  
-First included in: /core/applicationCommon/foundationCommon/Organization.cdm.json/Organization  
+First included in: <a href="Organization.md" target="_blank">foundationCommon/Organization</a>  
 
 #### Properties
 
@@ -12316,7 +12316,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#schedulingEngine_display name="schedulingEngine_display">schedulingEngine_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/Organization.cdm.json/Organization  
+First included in: <a href="Organization.md" target="_blank">foundationCommon/Organization</a>  
 
 #### Properties
 

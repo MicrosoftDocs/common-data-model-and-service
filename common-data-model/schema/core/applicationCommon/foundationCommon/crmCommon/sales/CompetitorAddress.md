@@ -91,7 +91,7 @@ sales/CompetitorAddress
 ### <a href=#competitorAddressId name="competitorAddressId">competitorAddressId</a>
 
 Unique identifier of the competitor address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/CompetitorAddress.cdm.json/CompetitorAddress  
+First included in: <a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>  
 
 #### Properties
 
@@ -130,7 +130,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the competitor address was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/CompetitorAddress.cdm.json/CompetitorAddress  
+First included in: <a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>  
 
 #### Properties
 
@@ -169,7 +169,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Unique identifier of the user who created the competitor address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/CompetitorAddress.cdm.json/CompetitorAddress  
+First included in: <a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>  
 
 #### Properties
 
@@ -214,7 +214,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the competitor address was last modified.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/CompetitorAddress.cdm.json/CompetitorAddress  
+First included in: <a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>  
 
 #### Properties
 
@@ -253,7 +253,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Unique identifier of the user who last modified the competitor address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/CompetitorAddress.cdm.json/CompetitorAddress  
+First included in: <a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>  
 
 #### Properties
 
@@ -298,7 +298,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Unique identifier of the delegate user who created the competitor address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/CompetitorAddress.cdm.json/CompetitorAddress  
+First included in: <a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>  
 
 #### Properties
 
@@ -343,7 +343,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Unique identifier of the delegate user who last modified the competitor address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/CompetitorAddress.cdm.json/CompetitorAddress  
+First included in: <a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>  
 
 #### Properties
 
@@ -388,7 +388,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/CompetitorAddress.cdm.json/CompetitorAddress  
+First included in: <a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>  
 
 #### Properties
 
@@ -424,7 +424,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/CompetitorAddress.cdm.json/CompetitorAddress  
+First included in: <a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>  
 
 #### Properties
 
@@ -462,7 +462,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/CompetitorAddress.cdm.json/CompetitorAddress  
+First included in: <a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>  
 
 #### Properties
 
@@ -501,7 +501,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/CompetitorAddress.cdm.json/CompetitorAddress  
+First included in: <a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>  
 
 #### Properties
 
@@ -539,7 +539,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/CompetitorAddress.cdm.json/CompetitorAddress  
+First included in: <a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>  
 
 #### Properties
 
@@ -577,7 +577,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#name name="name">name</a>
 
 Name used to identify the competitor address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/CompetitorAddress.cdm.json/CompetitorAddress  
+First included in: <a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>  
 
 #### Properties
 
@@ -618,7 +618,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#addressNumber name="addressNumber">addressNumber</a>
 
 Information about which competitor address is applicable.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/CompetitorAddress.cdm.json/CompetitorAddress  
+First included in: <a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>  
 
 #### Properties
 
@@ -656,7 +656,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#addressTypeCode name="addressTypeCode">addressTypeCode</a>
 
 Type of address for the competitor, such as primary address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/CompetitorAddress.cdm.json/CompetitorAddress  
+First included in: <a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>  
 
 #### Properties
 
@@ -696,7 +696,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#addressTypeCode_display name="addressTypeCode_display">addressTypeCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/CompetitorAddress.cdm.json/CompetitorAddress  
+First included in: <a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>  
 
 #### Properties
 
@@ -720,7 +720,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Comp
 ### <a href=#city name="city">city</a>
 
 City name in the competitor address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/CompetitorAddress.cdm.json/CompetitorAddress  
+First included in: <a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>  
 
 #### Properties
 
@@ -760,7 +760,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#composite name="composite">composite</a>
 
 Shows the complete address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/CompetitorAddress.cdm.json/CompetitorAddress  
+First included in: <a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>  
 
 #### Properties
 
@@ -800,7 +800,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#country name="country">country</a>
 
 Country/region name in the competitor address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/CompetitorAddress.cdm.json/CompetitorAddress  
+First included in: <a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>  
 
 #### Properties
 
@@ -840,7 +840,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#county name="county">county</a>
 
 County name in the competitor address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/CompetitorAddress.cdm.json/CompetitorAddress  
+First included in: <a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>  
 
 #### Properties
 
@@ -880,7 +880,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#fax name="fax">fax</a>
 
 Fax number for the competitor address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/CompetitorAddress.cdm.json/CompetitorAddress  
+First included in: <a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>  
 
 #### Properties
 
@@ -920,7 +920,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#latitude name="latitude">latitude</a>
 
 Latitude for the competitor address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/CompetitorAddress.cdm.json/CompetitorAddress  
+First included in: <a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>  
 
 #### Properties
 
@@ -959,7 +959,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#line1 name="line1">line1</a>
 
 First line for entering address information.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/CompetitorAddress.cdm.json/CompetitorAddress  
+First included in: <a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>  
 
 #### Properties
 
@@ -999,7 +999,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#line2 name="line2">line2</a>
 
 Second line for entering address information.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/CompetitorAddress.cdm.json/CompetitorAddress  
+First included in: <a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>  
 
 #### Properties
 
@@ -1039,7 +1039,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#line3 name="line3">line3</a>
 
 Third line for entering address information.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/CompetitorAddress.cdm.json/CompetitorAddress  
+First included in: <a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>  
 
 #### Properties
 
@@ -1079,7 +1079,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#longitude name="longitude">longitude</a>
 
 Longitude for the address for the competitor.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/CompetitorAddress.cdm.json/CompetitorAddress  
+First included in: <a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>  
 
 #### Properties
 
@@ -1118,7 +1118,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#parentId name="parentId">parentId</a>
 
 Unique identifier of the parent object with which the competitor address is associated.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/CompetitorAddress.cdm.json/CompetitorAddress  
+First included in: <a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>  
 
 #### Properties
 
@@ -1160,7 +1160,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#postalCode name="postalCode">postalCode</a>
 
 ZIP Code or postal code in the competitor address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/CompetitorAddress.cdm.json/CompetitorAddress  
+First included in: <a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>  
 
 #### Properties
 
@@ -1200,7 +1200,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#postOfficeBox name="postOfficeBox">postOfficeBox</a>
 
 Post office box number in the competitor address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/CompetitorAddress.cdm.json/CompetitorAddress  
+First included in: <a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>  
 
 #### Properties
 
@@ -1240,7 +1240,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#shippingMethodCode name="shippingMethodCode">shippingMethodCode</a>
 
 Method of shipment for the competitor.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/CompetitorAddress.cdm.json/CompetitorAddress  
+First included in: <a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>  
 
 #### Properties
 
@@ -1280,7 +1280,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#shippingMethodCode_display name="shippingMethodCode_display">shippingMethodCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/CompetitorAddress.cdm.json/CompetitorAddress  
+First included in: <a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>  
 
 #### Properties
 
@@ -1304,7 +1304,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Comp
 ### <a href=#stateOrProvince name="stateOrProvince">stateOrProvince</a>
 
 State or province in the competitor address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/CompetitorAddress.cdm.json/CompetitorAddress  
+First included in: <a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>  
 
 #### Properties
 
@@ -1344,7 +1344,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#telephone1 name="telephone1">telephone1</a>
 
 First telephone number for the competitor address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/CompetitorAddress.cdm.json/CompetitorAddress  
+First included in: <a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>  
 
 #### Properties
 
@@ -1385,7 +1385,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#telephone2 name="telephone2">telephone2</a>
 
 Second telephone number for the competitor address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/CompetitorAddress.cdm.json/CompetitorAddress  
+First included in: <a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>  
 
 #### Properties
 
@@ -1426,7 +1426,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#telephone3 name="telephone3">telephone3</a>
 
 Third telephone number for the competitor address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/CompetitorAddress.cdm.json/CompetitorAddress  
+First included in: <a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>  
 
 #### Properties
 
@@ -1467,7 +1467,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UPSZone name="UPSZone">UPSZone</a>
 
 United Parcel Service (UPS) zone for the address of the competitor.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/CompetitorAddress.cdm.json/CompetitorAddress  
+First included in: <a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>  
 
 #### Properties
 
@@ -1507,7 +1507,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCOffset name="UTCOffset">UTCOffset</a>
 
 UTC offset for address 1. This is the difference between local time and standard Coordinated Universal Time.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/CompetitorAddress.cdm.json/CompetitorAddress  
+First included in: <a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>  
 
 #### Properties
 

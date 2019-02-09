@@ -109,7 +109,7 @@ electronicMedicalRecords/Encounter
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json/Encounter  
+First included in: <a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>  
 
 #### Properties
 
@@ -148,7 +148,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json/Encounter  
+First included in: <a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>  
 
 #### Properties
 
@@ -196,7 +196,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json/Encounter  
+First included in: <a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>  
 
 #### Properties
 
@@ -235,7 +235,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json/Encounter  
+First included in: <a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>  
 
 #### Properties
 
@@ -283,7 +283,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json/Encounter  
+First included in: <a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>  
 
 #### Properties
 
@@ -331,7 +331,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json/Encounter  
+First included in: <a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>  
 
 #### Properties
 
@@ -379,7 +379,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json/Encounter  
+First included in: <a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>  
 
 #### Properties
 
@@ -418,7 +418,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json/Encounter  
+First included in: <a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>  
 
 #### Properties
 
@@ -453,7 +453,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json/Encounter  
+First included in: <a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>  
 
 #### Properties
 
@@ -492,7 +492,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json/Encounter  
+First included in: <a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>  
 
 #### Properties
 
@@ -537,7 +537,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json/Encounter  
+First included in: <a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>  
 
 #### Properties
 
@@ -582,7 +582,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json/Encounter  
+First included in: <a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>  
 
 #### Properties
 
@@ -630,7 +630,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json/Encounter  
+First included in: <a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>  
 
 #### Properties
 
@@ -675,7 +675,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json/Encounter  
+First included in: <a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>  
 
 #### Properties
 
@@ -713,7 +713,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json/Encounter  
+First included in: <a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>  
 
 #### Properties
 
@@ -751,7 +751,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json/Encounter  
+First included in: <a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>  
 
 #### Properties
 
@@ -788,7 +788,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#encounterId name="encounterId">encounterId</a>
 
 Unique identifier for entity instances  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json/Encounter  
+First included in: <a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>  
 
 #### Properties
 
@@ -827,7 +827,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Status of the Encounter  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json/Encounter  
+First included in: <a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>  
 
 #### Properties
 
@@ -867,7 +867,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json/Encounter  
+First included in: <a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>  
 
 #### Properties
 
@@ -891,7 +891,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Reason for the status of the Encounter  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json/Encounter  
+First included in: <a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>  
 
 #### Properties
 
@@ -934,7 +934,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json/Encounter  
+First included in: <a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>  
 
 #### Properties
 
@@ -958,7 +958,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json/Encounter  
+First included in: <a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>  
 
 #### Properties
 
@@ -999,7 +999,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#emrAppointment name="emrAppointment">emrAppointment</a>
 
 A booking of a healthcare event among patient(s), practitioner(s), related person(s) and/or device(s) for a specific date/time. This may result in one or more Encounter(s).  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json/Encounter  
+First included in: <a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>  
 
 #### Properties
 
@@ -1044,7 +1044,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#class name="class">class</a>
 
 Type of: inpatient | outpatient | ambulatory | emergency +.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json/Encounter  
+First included in: <a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>  
 
 #### Properties
 
@@ -1084,7 +1084,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#class_display name="class_display">class_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json/Encounter  
+First included in: <a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>  
 
 #### Properties
 
@@ -1107,7 +1107,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 ### <a href=#contextEncounter name="contextEncounter">contextEncounter</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json/Encounter  
+First included in: <a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>  
 
 #### Properties
 
@@ -1148,7 +1148,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 
 ### <a href=#contextEpisodeofCare name="contextEpisodeofCare">contextEpisodeofCare</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json/Encounter  
+First included in: <a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>  
 
 #### Properties
 
@@ -1190,7 +1190,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#duration name="duration">duration</a>
 
 Quantity of time the encounter lasted. This excludes the time during leaves of absence.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json/Encounter  
+First included in: <a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>  
 
 #### Properties
 
@@ -1228,7 +1228,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#encounterClass name="encounterClass">encounterClass</a>
 
 Refers to the class of encounter.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json/Encounter  
+First included in: <a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>  
 
 #### Properties
 
@@ -1268,7 +1268,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#encounterClass_display name="encounterClass_display">encounterClass_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json/Encounter  
+First included in: <a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>  
 
 #### Properties
 
@@ -1292,7 +1292,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#encounterEndDate name="encounterEndDate">encounterEndDate</a>
 
 The start and end time of the encounter.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json/Encounter  
+First included in: <a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>  
 
 #### Properties
 
@@ -1330,7 +1330,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#encounterGroupIdentifier name="encounterGroupIdentifier">encounterGroupIdentifier</a>
 
 The group present at the encounter  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json/Encounter  
+First included in: <a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>  
 
 #### Properties
 
@@ -1375,7 +1375,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#encounterIdentifier name="encounterIdentifier">encounterIdentifier</a>
 
 Identifier(s) by which this encounter is known.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json/Encounter  
+First included in: <a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>  
 
 #### Properties
 
@@ -1415,7 +1415,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#encounterLength name="encounterLength">encounterLength</a>
 
 Quantity of time the encounter lasted. This excludes the time during leaves of absence.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json/Encounter  
+First included in: <a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>  
 
 #### Properties
 
@@ -1455,7 +1455,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#encounterParentEncounterIdentifier name="encounterParentEncounterIdentifier">encounterParentEncounterIdentifier</a>
 
 Another Encounter of which this encounter is a part of (administratively or in time).  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json/Encounter  
+First included in: <a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>  
 
 #### Properties
 
@@ -1500,7 +1500,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#encounterPatientIdentifier name="encounterPatientIdentifier">encounterPatientIdentifier</a>
 
 The patient present at the encounter.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json/Encounter  
+First included in: <a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>  
 
 #### Properties
 
@@ -1545,7 +1545,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#encounterPriority name="encounterPriority">encounterPriority</a>
 
 Indicates the urgency of the encounter.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json/Encounter  
+First included in: <a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>  
 
 #### Properties
 
@@ -1590,7 +1590,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#encounterStartDate name="encounterStartDate">encounterStartDate</a>
 
 The start and end time of the encounter.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json/Encounter  
+First included in: <a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>  
 
 #### Properties
 
@@ -1628,7 +1628,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#encounterStatus name="encounterStatus">encounterStatus</a>
 
 Refers to the status of encounter.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json/Encounter  
+First included in: <a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>  
 
 #### Properties
 
@@ -1668,7 +1668,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#encounterStatus_display name="encounterStatus_display">encounterStatus_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json/Encounter  
+First included in: <a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>  
 
 #### Properties
 
@@ -1692,7 +1692,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#hospitalizationAdmitSource name="hospitalizationAdmitSource">hospitalizationAdmitSource</a>
 
 From where patient was admitted (physician referral, transfer).  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json/Encounter  
+First included in: <a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>  
 
 #### Properties
 
@@ -1737,7 +1737,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#hospitalizationDestination name="hospitalizationDestination">hospitalizationDestination</a>
 
 Location to which the patient is discharged.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json/Encounter  
+First included in: <a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>  
 
 #### Properties
 
@@ -1782,7 +1782,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#hospitalizationDischargeDisposition name="hospitalizationDischargeDisposition">hospitalizationDischargeDisposition</a>
 
 Category or kind of location after discharge.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json/Encounter  
+First included in: <a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>  
 
 #### Properties
 
@@ -1827,7 +1827,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#hospitalizationOrigin name="hospitalizationOrigin">hospitalizationOrigin</a>
 
 The location from which the patient came before admission.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json/Encounter  
+First included in: <a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>  
 
 #### Properties
 
@@ -1872,7 +1872,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#hospitalizationPreAdmissionNumber name="hospitalizationPreAdmissionNumber">hospitalizationPreAdmissionNumber</a>
 
 Pre-admission identifier.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json/Encounter  
+First included in: <a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>  
 
 #### Properties
 
@@ -1912,7 +1912,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#hospitalizationReadmission name="hospitalizationReadmission">hospitalizationReadmission</a>
 
 Whether this hospitalization is a readmission and why if known.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json/Encounter  
+First included in: <a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>  
 
 #### Properties
 
@@ -1956,7 +1956,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 
 ### <a href=#onBehalfOf name="onBehalfOf">onBehalfOf</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json/Encounter  
+First included in: <a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>  
 
 #### Properties
 
@@ -1998,7 +1998,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#periodEnd name="periodEnd">periodEnd</a>
 
 The start and end time of the encounter.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json/Encounter  
+First included in: <a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>  
 
 #### Properties
 
@@ -2036,7 +2036,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#periodStart name="periodStart">periodStart</a>
 
 The start and end time of the encounter.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json/Encounter  
+First included in: <a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>  
 
 #### Properties
 
@@ -2074,7 +2074,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#priority name="priority">priority</a>
 
 Indicates the urgency of the encounter.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json/Encounter  
+First included in: <a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>  
 
 #### Properties
 
@@ -2114,7 +2114,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#priority_display name="priority_display">priority_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json/Encounter  
+First included in: <a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>  
 
 #### Properties
 
@@ -2138,7 +2138,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#subjectPatient name="subjectPatient">subjectPatient</a>
 
 The patient or group present at the encounter.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json/Encounter  
+First included in: <a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>  
 
 #### Properties
 

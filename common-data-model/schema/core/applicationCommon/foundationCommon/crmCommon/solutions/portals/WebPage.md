@@ -121,7 +121,7 @@ portals/WebPage
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -160,7 +160,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -208,7 +208,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -247,7 +247,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -295,7 +295,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -343,7 +343,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -391,7 +391,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -430,7 +430,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -465,7 +465,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -504,7 +504,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -549,7 +549,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -594,7 +594,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -642,7 +642,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -687,7 +687,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -725,7 +725,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -763,7 +763,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -800,7 +800,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#webpageId name="webpageId">webpageId</a>
 
 Unique identifier for entity instances  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -839,7 +839,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Status of the Web Page  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -879,7 +879,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -903,7 +903,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Reason for the status of the Web Page  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -946,7 +946,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -970,7 +970,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 ### <a href=#name name="name">name</a>
 
 Shows the name of the custom entity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -1011,7 +1011,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#authorId name="authorId">authorId</a>
 
 Unique identifier for Contact associated with Web Page.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -1055,7 +1055,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 
 ### <a href=#category name="category">category</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -1092,7 +1092,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#category_display name="category_display">category_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -1115,7 +1115,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 ### <a href=#copy name="copy">copy</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -1151,7 +1151,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#adxCreatedByIPAddress name="adxCreatedByIPAddress">adxCreatedByIPAddress</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -1187,7 +1187,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#adxCreatedByUsername name="adxCreatedByUsername">adxCreatedByUsername</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -1224,7 +1224,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#displayDate name="displayDate">displayDate</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -1258,7 +1258,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#displayOrder name="displayOrder">displayOrder</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -1292,7 +1292,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#hiddenFromSitemap name="hiddenFromSitemap">hiddenFromSitemap</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -1323,7 +1323,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#adxModifiedByIPAddress name="adxModifiedByIPAddress">adxModifiedByIPAddress</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -1359,7 +1359,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#adxModifiedByUsername name="adxModifiedByUsername">adxModifiedByUsername</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -1397,7 +1397,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#pageTemplateId name="pageTemplateId">pageTemplateId</a>
 
 Unique identifier for Page Template associated with Web Page.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -1442,7 +1442,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#parentPageId name="parentPageId">parentPageId</a>
 
 Unique identifier for Web Page associated with Web Page.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -1486,7 +1486,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 
 ### <a href=#partialURL name="partialURL">partialURL</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -1524,7 +1524,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#subjectId name="subjectId">subjectId</a>
 
 Unique identifier for Subject associated with Web Page.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -1565,7 +1565,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#summary name="summary">summary</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -1601,7 +1601,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#title name="title">title</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -1638,7 +1638,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#websiteId name="websiteId">websiteId</a>
 
 Unique identifier for Website associated with Web Page.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -1683,7 +1683,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#allowOrigin name="allowOrigin">allowOrigin</a>
 
 Defines CORS header Access-Control-Allow-Origin for cross origin requests.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -1722,7 +1722,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#customCSS name="customCSS">customCSS</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -1758,7 +1758,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#customJavaScript name="customJavaScript">customJavaScript</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -1794,7 +1794,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#editorialComments name="editorialComments">editorialComments</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -1831,7 +1831,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#enabletracking name="enabletracking">enabletracking</a>
 
 Select whether to enable logging of users' downloads of this webpage.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -1866,7 +1866,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#excludeFromSearch name="excludeFromSearch">excludeFromSearch</a>
 
 Shows whether the webpage is excluded from the portal search.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -1900,7 +1900,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#expirationDate name="expirationDate">expirationDate</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -1935,7 +1935,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#image name="image">image</a>
 
 Unique identifier for Web File associated with Web Page.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -1979,7 +1979,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 
 ### <a href=#imageURL name="imageURL">imageURL</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -2017,7 +2017,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#isRoot name="isRoot">isRoot</a>
 
 Defines whether this is the "root" record of this translated group of Web Pages.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -2052,7 +2052,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#masterWebPageId name="masterWebPageId">masterWebPageId</a>
 
 Unique identifier for Web Page associated with Web Page.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -2096,7 +2096,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 
 ### <a href=#metaDescription name="metaDescription">metaDescription</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -2133,7 +2133,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#navigation name="navigation">navigation</a>
 
 Unique identifier for Web Link Set associated with Web Page.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -2175,7 +2175,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#publishingStateId name="publishingStateId">publishingStateId</a>
 
 Unique identifier for Publishing State associated with Web Page.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -2219,7 +2219,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 
 ### <a href=#releaseDate name="releaseDate">releaseDate</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -2254,7 +2254,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#rootWebpageId name="rootWebpageId">rootWebpageId</a>
 
 Lookup to root WebPage.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -2299,7 +2299,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#sharedPageConfiguration name="sharedPageConfiguration">sharedPageConfiguration</a>
 
 Determines if the content page uses the root page configuration  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -2334,7 +2334,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#webpageLanguageId name="webpageLanguageId">webpageLanguageId</a>
 
 Language of this web page.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -2379,7 +2379,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#entityForm name="entityForm">entityForm</a>
 
 Unique identifier for Entity Form associated with Web Page.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -2421,7 +2421,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#entityList name="entityList">entityList</a>
 
 Unique identifier for Entity List associated with Web Page.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -2463,7 +2463,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#webForm name="webForm">webForm</a>
 
 Unique identifier for Web Form associated with Web Page.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -2504,7 +2504,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#commentPolicy name="commentPolicy">commentPolicy</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -2541,7 +2541,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#commentPolicy_display name="commentPolicy_display">commentPolicy_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 
@@ -2565,7 +2565,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 ### <a href=#enableRatings name="enableRatings">enableRatings</a>
 
 Setting this value to 'Yes' will allow users to rate the web page.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+First included in: <a href="WebPage.md" target="_blank">portals/WebPage</a>  
 
 #### Properties
 

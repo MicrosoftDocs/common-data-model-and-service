@@ -83,7 +83,7 @@ applicationCommon/Team
 ### <a href=#teamId name="teamId">teamId</a>
 
 Unique identifier for the team.  
-First included in: /core/applicationCommon/Team.cdm.json/Team  
+First included in: <a href="Team.md" target="_blank">applicationCommon/Team</a>  
 
 #### Properties
 
@@ -122,7 +122,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#organizationId name="organizationId">organizationId</a>
 
 Unique identifier of the organization associated with the team.  
-First included in: /core/applicationCommon/Team.cdm.json/Team  
+First included in: <a href="Team.md" target="_blank">applicationCommon/Team</a>  
 
 #### Properties
 
@@ -160,7 +160,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#businessUnitId name="businessUnitId">businessUnitId</a>
 
 Unique identifier of the business unit with which the team is associated.  
-First included in: /core/applicationCommon/Team.cdm.json/Team  
+First included in: <a href="Team.md" target="_blank">applicationCommon/Team</a>  
 
 #### Properties
 
@@ -202,7 +202,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#name name="name">name</a>
 
 Name of the team.  
-First included in: /core/applicationCommon/Team.cdm.json/Team  
+First included in: <a href="Team.md" target="_blank">applicationCommon/Team</a>  
 
 #### Properties
 
@@ -240,7 +240,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#description name="description">description</a>
 
 Description of the team.  
-First included in: /core/applicationCommon/Team.cdm.json/Team  
+First included in: <a href="Team.md" target="_blank">applicationCommon/Team</a>  
 
 #### Properties
 
@@ -280,7 +280,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#emailAddress name="emailAddress">emailAddress</a>
 
 Email address for the team.  
-First included in: /core/applicationCommon/Team.cdm.json/Team  
+First included in: <a href="Team.md" target="_blank">applicationCommon/Team</a>  
 
 #### Properties
 
@@ -321,7 +321,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the team was created.  
-First included in: /core/applicationCommon/Team.cdm.json/Team  
+First included in: <a href="Team.md" target="_blank">applicationCommon/Team</a>  
 
 #### Properties
 
@@ -360,7 +360,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the team was last modified.  
-First included in: /core/applicationCommon/Team.cdm.json/Team  
+First included in: <a href="Team.md" target="_blank">applicationCommon/Team</a>  
 
 #### Properties
 
@@ -399,7 +399,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Unique identifier of the user who created the team.  
-First included in: /core/applicationCommon/Team.cdm.json/Team  
+First included in: <a href="Team.md" target="_blank">applicationCommon/Team</a>  
 
 #### Properties
 
@@ -444,7 +444,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Unique identifier of the user who last modified the team.  
-First included in: /core/applicationCommon/Team.cdm.json/Team  
+First included in: <a href="Team.md" target="_blank">applicationCommon/Team</a>  
 
 #### Properties
 
@@ -489,7 +489,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version number of the team.  
-First included in: /core/applicationCommon/Team.cdm.json/Team  
+First included in: <a href="Team.md" target="_blank">applicationCommon/Team</a>  
 
 #### Properties
 
@@ -525,7 +525,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: /core/applicationCommon/Team.cdm.json/Team  
+First included in: <a href="Team.md" target="_blank">applicationCommon/Team</a>  
 
 #### Properties
 
@@ -563,7 +563,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: /core/applicationCommon/Team.cdm.json/Team  
+First included in: <a href="Team.md" target="_blank">applicationCommon/Team</a>  
 
 #### Properties
 
@@ -602,7 +602,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#administratorId name="administratorId">administratorId</a>
 
 Unique identifier of the user primary responsible for the team.  
-First included in: /core/applicationCommon/Team.cdm.json/Team  
+First included in: <a href="Team.md" target="_blank">applicationCommon/Team</a>  
 
 #### Properties
 
@@ -644,7 +644,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#isDefault name="isDefault">isDefault</a>
 
 Information about whether the team is a default business unit team.  
-First included in: /core/applicationCommon/Team.cdm.json/Team  
+First included in: <a href="Team.md" target="_blank">applicationCommon/Team</a>  
 
 #### Properties
 
@@ -676,7 +676,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#yomiName name="yomiName">yomiName</a>
 
 Pronunciation of the full name of the team, written in phonetic hiragana or katakana characters.  
-First included in: /core/applicationCommon/Team.cdm.json/Team  
+First included in: <a href="Team.md" target="_blank">applicationCommon/Team</a>  
 
 #### Properties
 
@@ -718,7 +718,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Unique identifier of the delegate user who created the team.  
-First included in: /core/applicationCommon/Team.cdm.json/Team  
+First included in: <a href="Team.md" target="_blank">applicationCommon/Team</a>  
 
 #### Properties
 
@@ -763,7 +763,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Unique identifier of the delegate user who last modified the team.  
-First included in: /core/applicationCommon/Team.cdm.json/Team  
+First included in: <a href="Team.md" target="_blank">applicationCommon/Team</a>  
 
 #### Properties
 
@@ -808,7 +808,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#traversedPath name="traversedPath">traversedPath</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/Team.cdm.json/Team  
+First included in: <a href="Team.md" target="_blank">applicationCommon/Team</a>  
 
 #### Properties
 
@@ -848,7 +848,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#queueId name="queueId">queueId</a>
 
 Unique identifier of the default queue for the team.  
-First included in: /core/applicationCommon/Team.cdm.json/Team  
+First included in: <a href="Team.md" target="_blank">applicationCommon/Team</a>  
 
 #### Properties
 
@@ -893,7 +893,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Unique identifier of the currency associated with the team.  
-First included in: /core/applicationCommon/Team.cdm.json/Team  
+First included in: <a href="Team.md" target="_blank">applicationCommon/Team</a>  
 
 #### Properties
 
@@ -938,7 +938,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Exchange rate for the currency associated with the team with respect to the base currency.  
-First included in: /core/applicationCommon/Team.cdm.json/Team  
+First included in: <a href="Team.md" target="_blank">applicationCommon/Team</a>  
 
 #### Properties
 
@@ -978,7 +978,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#teamType name="teamType">teamType</a>
 
 Select the team type.  
-First included in: /core/applicationCommon/Team.cdm.json/Team  
+First included in: <a href="Team.md" target="_blank">applicationCommon/Team</a>  
 
 #### Properties
 
@@ -1015,7 +1015,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#teamType_display name="teamType_display">teamType_display</a>
 
-First included in: /core/applicationCommon/Team.cdm.json/Team  
+First included in: <a href="Team.md" target="_blank">applicationCommon/Team</a>  
 
 #### Properties
 
@@ -1039,7 +1039,7 @@ First included in: /core/applicationCommon/Team.cdm.json/Team
 ### <a href=#teamTemplateId name="teamTemplateId">teamTemplateId</a>
 
 Shows the team template that is associated with the team.  
-First included in: /core/applicationCommon/Team.cdm.json/Team  
+First included in: <a href="Team.md" target="_blank">applicationCommon/Team</a>  
 
 #### Properties
 
@@ -1081,7 +1081,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#regardingObjectId name="regardingObjectId">regardingObjectId</a>
 
 Choose the record that the team relates to.  
-First included in: /core/applicationCommon/Team.cdm.json/Team  
+First included in: <a href="Team.md" target="_blank">applicationCommon/Team</a>  
 
 #### Properties
 
@@ -1126,7 +1126,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#systemManaged name="systemManaged">systemManaged</a>
 
 Select whether the team will be managed by the system.  
-First included in: /core/applicationCommon/Team.cdm.json/Team  
+First included in: <a href="Team.md" target="_blank">applicationCommon/Team</a>  
 
 #### Properties
 
@@ -1158,7 +1158,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stageId name="stageId">stageId</a>
 
 Shows the ID of the stage.  
-First included in: /core/applicationCommon/Team.cdm.json/Team  
+First included in: <a href="Team.md" target="_blank">applicationCommon/Team</a>  
 
 #### Properties
 
@@ -1196,7 +1196,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#processId name="processId">processId</a>
 
 Shows the ID of the process.  
-First included in: /core/applicationCommon/Team.cdm.json/Team  
+First included in: <a href="Team.md" target="_blank">applicationCommon/Team</a>  
 
 #### Properties
 

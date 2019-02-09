@@ -104,7 +104,7 @@ service/Entitlement
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Entitlement.cdm.json/Entitlement  
+First included in: <a href="Entitlement.md" target="_blank">service/Entitlement</a>  
 
 #### Properties
 
@@ -143,7 +143,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Entitlement.cdm.json/Entitlement  
+First included in: <a href="Entitlement.md" target="_blank">service/Entitlement</a>  
 
 #### Properties
 
@@ -191,7 +191,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Entitlement.cdm.json/Entitlement  
+First included in: <a href="Entitlement.md" target="_blank">service/Entitlement</a>  
 
 #### Properties
 
@@ -230,7 +230,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Entitlement.cdm.json/Entitlement  
+First included in: <a href="Entitlement.md" target="_blank">service/Entitlement</a>  
 
 #### Properties
 
@@ -278,7 +278,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Entitlement.cdm.json/Entitlement  
+First included in: <a href="Entitlement.md" target="_blank">service/Entitlement</a>  
 
 #### Properties
 
@@ -326,7 +326,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Entitlement.cdm.json/Entitlement  
+First included in: <a href="Entitlement.md" target="_blank">service/Entitlement</a>  
 
 #### Properties
 
@@ -374,7 +374,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Entitlement.cdm.json/Entitlement  
+First included in: <a href="Entitlement.md" target="_blank">service/Entitlement</a>  
 
 #### Properties
 
@@ -413,7 +413,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Entitlement.cdm.json/Entitlement  
+First included in: <a href="Entitlement.md" target="_blank">service/Entitlement</a>  
 
 #### Properties
 
@@ -448,7 +448,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Entitlement.cdm.json/Entitlement  
+First included in: <a href="Entitlement.md" target="_blank">service/Entitlement</a>  
 
 #### Properties
 
@@ -487,7 +487,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Entitlement.cdm.json/Entitlement  
+First included in: <a href="Entitlement.md" target="_blank">service/Entitlement</a>  
 
 #### Properties
 
@@ -532,7 +532,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Entitlement.cdm.json/Entitlement  
+First included in: <a href="Entitlement.md" target="_blank">service/Entitlement</a>  
 
 #### Properties
 
@@ -577,7 +577,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Entitlement.cdm.json/Entitlement  
+First included in: <a href="Entitlement.md" target="_blank">service/Entitlement</a>  
 
 #### Properties
 
@@ -625,7 +625,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Entitlement.cdm.json/Entitlement  
+First included in: <a href="Entitlement.md" target="_blank">service/Entitlement</a>  
 
 #### Properties
 
@@ -670,7 +670,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Entitlement.cdm.json/Entitlement  
+First included in: <a href="Entitlement.md" target="_blank">service/Entitlement</a>  
 
 #### Properties
 
@@ -708,7 +708,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Entitlement.cdm.json/Entitlement  
+First included in: <a href="Entitlement.md" target="_blank">service/Entitlement</a>  
 
 #### Properties
 
@@ -746,7 +746,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Entitlement.cdm.json/Entitlement  
+First included in: <a href="Entitlement.md" target="_blank">service/Entitlement</a>  
 
 #### Properties
 
@@ -783,7 +783,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#entitlementId name="entitlementId">entitlementId</a>
 
 Unique identifier for entity instances  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Entitlement.cdm.json/Entitlement  
+First included in: <a href="Entitlement.md" target="_blank">service/Entitlement</a>  
 
 #### Properties
 
@@ -822,7 +822,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#emailAddress name="emailAddress">emailAddress</a>
 
 The primary email address for the entity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Entitlement.cdm.json/Entitlement  
+First included in: <a href="Entitlement.md" target="_blank">service/Entitlement</a>  
 
 #### Properties
 
@@ -863,7 +863,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#name name="name">name</a>
 
 Type a meaningful name for the entitlement.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Entitlement.cdm.json/Entitlement  
+First included in: <a href="Entitlement.md" target="_blank">service/Entitlement</a>  
 
 #### Properties
 
@@ -904,7 +904,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#processId name="processId">processId</a>
 
 Contains the id of the process associated with the entity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Entitlement.cdm.json/Entitlement  
+First included in: <a href="Entitlement.md" target="_blank">service/Entitlement</a>  
 
 #### Properties
 
@@ -942,7 +942,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stageId name="stageId">stageId</a>
 
 Contains the id of the stage where the entity is located.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Entitlement.cdm.json/Entitlement  
+First included in: <a href="Entitlement.md" target="_blank">service/Entitlement</a>  
 
 #### Properties
 
@@ -980,7 +980,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#traversedPath name="traversedPath">traversedPath</a>
 
 A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Entitlement.cdm.json/Entitlement  
+First included in: <a href="Entitlement.md" target="_blank">service/Entitlement</a>  
 
 #### Properties
 
@@ -1020,7 +1020,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#allocationTypeCode name="allocationTypeCode">allocationTypeCode</a>
 
 Select the type of entitlement terms.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Entitlement.cdm.json/Entitlement  
+First included in: <a href="Entitlement.md" target="_blank">service/Entitlement</a>  
 
 #### Properties
 
@@ -1060,7 +1060,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#allocationTypeCode_display name="allocationTypeCode_display">allocationTypeCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Entitlement.cdm.json/Entitlement  
+First included in: <a href="Entitlement.md" target="_blank">service/Entitlement</a>  
 
 #### Properties
 
@@ -1084,7 +1084,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/En
 ### <a href=#description name="description">description</a>
 
 Type additional information to describe the Entitlement  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Entitlement.cdm.json/Entitlement  
+First included in: <a href="Entitlement.md" target="_blank">service/Entitlement</a>  
 
 #### Properties
 
@@ -1124,7 +1124,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#customerIdType name="customerIdType">customerIdType</a>
 
 The type of customer, either Account or Contact.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Entitlement.cdm.json/Entitlement  
+First included in: <a href="Entitlement.md" target="_blank">service/Entitlement</a>  
 
 #### Properties
 
@@ -1160,7 +1160,7 @@ contains an Account or Contact ID
 ### <a href=#customerId name="customerId">customerId</a>
 
 The customer account or contact to provide a quick link to additional customer details, such as account information, activities, and opportunities.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Entitlement.cdm.json/Entitlement  
+First included in: <a href="Entitlement.md" target="_blank">service/Entitlement</a>  
 
 #### Properties
 
@@ -1205,7 +1205,7 @@ contains an Account or Contact ID
 ### <a href=#decreaseRemainingOn name="decreaseRemainingOn">decreaseRemainingOn</a>
 
 Select whether to decrease the remaining terms when the case is created or when it is resolved.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Entitlement.cdm.json/Entitlement  
+First included in: <a href="Entitlement.md" target="_blank">service/Entitlement</a>  
 
 #### Properties
 
@@ -1245,7 +1245,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#decreaseRemainingOn_display name="decreaseRemainingOn_display">decreaseRemainingOn_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Entitlement.cdm.json/Entitlement  
+First included in: <a href="Entitlement.md" target="_blank">service/Entitlement</a>  
 
 #### Properties
 
@@ -1269,7 +1269,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/En
 ### <a href=#endDate name="endDate">endDate</a>
 
 Enter the date when the entitlement ends.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Entitlement.cdm.json/Entitlement  
+First included in: <a href="Entitlement.md" target="_blank">service/Entitlement</a>  
 
 #### Properties
 
@@ -1307,7 +1307,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#entitlementTemplateId name="entitlementTemplateId">entitlementTemplateId</a>
 
 Unique identifier for Entitlement Template associated with Entitlement.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Entitlement.cdm.json/Entitlement  
+First included in: <a href="Entitlement.md" target="_blank">service/Entitlement</a>  
 
 #### Properties
 
@@ -1349,7 +1349,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#kbAccessLevel name="kbAccessLevel">kbAccessLevel</a>
 
 Select the access someone will have to the knowledge base on the portal.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Entitlement.cdm.json/Entitlement  
+First included in: <a href="Entitlement.md" target="_blank">service/Entitlement</a>  
 
 #### Properties
 
@@ -1389,7 +1389,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#kbAccessLevel_display name="kbAccessLevel_display">kbAccessLevel_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Entitlement.cdm.json/Entitlement  
+First included in: <a href="Entitlement.md" target="_blank">service/Entitlement</a>  
 
 #### Properties
 
@@ -1413,7 +1413,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/En
 ### <a href=#remainingTerms name="remainingTerms">remainingTerms</a>
 
 Type the total number of entitlement terms that are left.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Entitlement.cdm.json/Entitlement  
+First included in: <a href="Entitlement.md" target="_blank">service/Entitlement</a>  
 
 #### Properties
 
@@ -1453,7 +1453,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#restrictCaseCreation name="restrictCaseCreation">restrictCaseCreation</a>
 
 Tells whether case creation is restricted based on entitlement terms.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Entitlement.cdm.json/Entitlement  
+First included in: <a href="Entitlement.md" target="_blank">service/Entitlement</a>  
 
 #### Properties
 
@@ -1488,7 +1488,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#SLAId name="SLAId">SLAId</a>
 
 Choose the service level agreement (SLA) associated with the entitlement.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Entitlement.cdm.json/Entitlement  
+First included in: <a href="Entitlement.md" target="_blank">service/Entitlement</a>  
 
 #### Properties
 
@@ -1533,7 +1533,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#startDate name="startDate">startDate</a>
 
 Enter the date when the entitlement starts.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Entitlement.cdm.json/Entitlement  
+First included in: <a href="Entitlement.md" target="_blank">service/Entitlement</a>  
 
 #### Properties
 
@@ -1571,7 +1571,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Entitlement.cdm.json/Entitlement  
+First included in: <a href="Entitlement.md" target="_blank">service/Entitlement</a>  
 
 #### Properties
 
@@ -1614,7 +1614,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Entitlement.cdm.json/Entitlement  
+First included in: <a href="Entitlement.md" target="_blank">service/Entitlement</a>  
 
 #### Properties
 
@@ -1638,7 +1638,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/En
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Select the reason code that explains the status of the entitlement.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Entitlement.cdm.json/Entitlement  
+First included in: <a href="Entitlement.md" target="_blank">service/Entitlement</a>  
 
 #### Properties
 
@@ -1681,7 +1681,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Entitlement.cdm.json/Entitlement  
+First included in: <a href="Entitlement.md" target="_blank">service/Entitlement</a>  
 
 #### Properties
 
@@ -1705,7 +1705,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/En
 ### <a href=#totalTerms name="totalTerms">totalTerms</a>
 
 Type the total number of entitlement terms.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Entitlement.cdm.json/Entitlement  
+First included in: <a href="Entitlement.md" target="_blank">service/Entitlement</a>  
 
 #### Properties
 
@@ -1745,7 +1745,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#isDefault name="isDefault">isDefault</a>
 
 Shows whether this entitlement is the default one for the specified customer.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Entitlement.cdm.json/Entitlement  
+First included in: <a href="Entitlement.md" target="_blank">service/Entitlement</a>  
 
 #### Properties
 
@@ -1780,7 +1780,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#accountId name="accountId">accountId</a>
 
 Unique identifier for Account associated with Entitlement.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Entitlement.cdm.json/Entitlement  
+First included in: <a href="Entitlement.md" target="_blank">service/Entitlement</a>  
 
 #### Properties
 
@@ -1825,7 +1825,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#contactId name="contactId">contactId</a>
 
 Unique identifier for Contact associated with Entitlement.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Entitlement.cdm.json/Entitlement  
+First included in: <a href="Entitlement.md" target="_blank">service/Entitlement</a>  
 
 #### Properties
 
@@ -1870,7 +1870,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Exchange rate for the currency associated with the contact with respect to the base currency.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Entitlement.cdm.json/Entitlement  
+First included in: <a href="Entitlement.md" target="_blank">service/Entitlement</a>  
 
 #### Properties
 
@@ -1910,7 +1910,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Unique identifier of the currency associated with the contact.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Entitlement.cdm.json/Entitlement  
+First included in: <a href="Entitlement.md" target="_blank">service/Entitlement</a>  
 
 #### Properties
 

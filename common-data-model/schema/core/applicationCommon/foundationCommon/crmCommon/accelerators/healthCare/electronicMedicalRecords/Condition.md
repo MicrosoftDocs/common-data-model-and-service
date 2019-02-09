@@ -121,7 +121,7 @@ electronicMedicalRecords/Condition
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -160,7 +160,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -208,7 +208,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -247,7 +247,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -295,7 +295,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -343,7 +343,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -391,7 +391,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -430,7 +430,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -465,7 +465,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -504,7 +504,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -549,7 +549,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -594,7 +594,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -642,7 +642,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -687,7 +687,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -725,7 +725,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -763,7 +763,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -800,7 +800,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#conditionId name="conditionId">conditionId</a>
 
 Unique identifier for entity instances  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -839,7 +839,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Status of the Condition  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -879,7 +879,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -903,7 +903,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Reason for the status of the Condition  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -946,7 +946,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -970,7 +970,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -1011,7 +1011,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#abatementAge name="abatementAge">abatementAge</a>
 
 The date or estimated date that the condition resolved or went into remission. This is called "abatement" because of the many overloaded connotations associated with "remission" or "resolution" -  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -1050,7 +1050,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#abatementDate name="abatementDate">abatementDate</a>
 
 The date or estimated date that the condition resolved or went into remission. This is called "abatement" because of the many overloaded connotations associated with "remission" or "resolution"  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -1088,7 +1088,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#abatementPeriodEndDate name="abatementPeriodEndDate">abatementPeriodEndDate</a>
 
 The date or estimated date that the condition resolved or went into remission. This is called "abatement" because of the many overloaded connotations associated with "remission" or "resolution"  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -1126,7 +1126,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#abatementPeriodStartDate name="abatementPeriodStartDate">abatementPeriodStartDate</a>
 
 The date or estimated date that the condition resolved or went into remission. This is called "abatement" because of the many overloaded connotations associated with "remission" or "resolution"  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -1164,7 +1164,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#abatementRangeHigh name="abatementRangeHigh">abatementRangeHigh</a>
 
 The date or estimated date that the condition resolved or went into remission. This is called "abatement" because of the many overloaded connotations associated with "remission" or "resolution"  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -1202,7 +1202,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#abatementRangeLow name="abatementRangeLow">abatementRangeLow</a>
 
 The date or estimated date that the condition resolved or went into remission. This is called "abatement" because of the many overloaded connotations associated with "remission" or "resolution"  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -1240,7 +1240,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#abatementString name="abatementString">abatementString</a>
 
 The date or estimated date that the condition resolved or went into remission. This is called "abatement" because of the many overloaded connotations associated with "remission" or "resolution"  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -1280,7 +1280,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#abatementType name="abatementType">abatementType</a>
 
 Type of: The date or estimated date that the condition resolved or went into remission. This is called "abatement" because of the many overloaded connotations associated with "remission"/resolution.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -1320,7 +1320,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#abatementType_display name="abatementType_display">abatementType_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -1344,7 +1344,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#appointment name="appointment">appointment</a>
 
 A booking of a healthcare event among patient(s), practitioner(s), related person(s) and/or device(s) for a specific date/time. This may result in one or more Encounter(s).  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -1389,7 +1389,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#assertedDate name="assertedDate">assertedDate</a>
 
 The date on which the existence of the Condition was first asserted or acknowledged.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -1427,7 +1427,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#asserter name="asserter">asserter</a>
 
 Person who asserts this condition  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -1472,7 +1472,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#carePlan name="carePlan">carePlan</a>
 
 Describes the intention of how one or more practitioners intend to deliver care for a particular patient, group or community for a period of time, possibly limited to care for a specific condition.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -1517,7 +1517,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#category name="category">category</a>
 
 Categorization of the condition recorded by health care practitioner.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -1562,7 +1562,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#clinicalStatus name="clinicalStatus">clinicalStatus</a>
 
 The clinical status of the condition.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -1602,7 +1602,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#clinicalStatus_display name="clinicalStatus_display">clinicalStatus_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -1626,7 +1626,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#conditionCode name="conditionCode">conditionCode</a>
 
 List of diagnosis/condition codes  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -1671,7 +1671,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#contextEncounter name="contextEncounter">contextEncounter</a>
 
 Categorization of the condition recorded by health care practitioner.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -1716,7 +1716,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#contextEpisodeofCare name="contextEpisodeofCare">contextEpisodeofCare</a>
 
 Encounter or episode when condition first asserted  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -1761,7 +1761,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#contextType name="contextType">contextType</a>
 
 Type of: Encounter during which the condition was first asserted.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -1801,7 +1801,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#contextType_display name="contextType_display">contextType_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -1825,7 +1825,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#encounter name="encounter">encounter</a>
 
 An interaction between a patient and healthcare provider(s) for the purpose of providing healthcare service(s) or assessing the health status of a patient.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -1870,7 +1870,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#isAbatement name="isAbatement">isAbatement</a>
 
 The date or estimated date that the condition resolved or went into remission. This is called "abatement" because of the many overloaded connotations associated with "remission" or "resolution"  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -1905,7 +1905,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#onsetAge name="onsetAge">onsetAge</a>
 
 Estimated or actual date or date-time the condition began, in the opinion of the clinician.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -1944,7 +1944,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#onsetDate name="onsetDate">onsetDate</a>
 
 Estimated or actual date or date-time the condition began, in the opinion of the clinician.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -1982,7 +1982,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#onsetPeriodEndDate name="onsetPeriodEndDate">onsetPeriodEndDate</a>
 
 Estimated or actual date or date-time the condition began, in the opinion of the clinician.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -2020,7 +2020,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#onsetPeriodStartDate name="onsetPeriodStartDate">onsetPeriodStartDate</a>
 
 Estimated or actual date or date-time the condition began, in the opinion of the clinician.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -2058,7 +2058,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#onsetRangeHigh name="onsetRangeHigh">onsetRangeHigh</a>
 
 Estimated or actual date or date-time the condition began, in the opinion of the clinician.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -2096,7 +2096,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#onsetRangeLow name="onsetRangeLow">onsetRangeLow</a>
 
 Estimated or actual date or date-time the condition began, in the opinion of the clinician.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -2134,7 +2134,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#onsetString name="onsetString">onsetString</a>
 
 Estimated or actual date or date-time the condition began, in the opinion of the clinician.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -2174,7 +2174,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#onsetType name="onsetType">onsetType</a>
 
 Type of: Estimated or actual date or date-time the condition began, in the opinion of the clinician.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -2214,7 +2214,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#onsetType_display name="onsetType_display">onsetType_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -2238,7 +2238,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#practitioner name="practitioner">practitioner</a>
 
 Individual who is making the condition statement.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -2282,7 +2282,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 
 ### <a href=#reasonReferenceReferralRequest name="reasonReferenceReferralRequest">reasonReferenceReferralRequest</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -2324,7 +2324,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#severity name="severity">severity</a>
 
 Grading  of the severity of the condition recorded  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -2369,7 +2369,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#stage name="stage">stage</a>
 
 Specific stage of condition  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -2414,7 +2414,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#subjectType name="subjectType">subjectType</a>
 
 Type of: Indicates the patient or group who the condition record is associated with.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -2454,7 +2454,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#subjectType_display name="subjectType_display">subjectType_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -2478,7 +2478,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#subjectTypeGroup name="subjectTypeGroup">subjectTypeGroup</a>
 
 Indicates the patient or group who the condition record is associated with.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -2523,7 +2523,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#subjectTypePatient name="subjectTypePatient">subjectTypePatient</a>
 
 Indicates the patient or group who the condition record is associated with.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -2568,7 +2568,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#verificationStatus name="verificationStatus">verificationStatus</a>
 
 Type of: The verification status to support the clinical status of the condition.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 
@@ -2608,7 +2608,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#verificationStatus_display name="verificationStatus_display">verificationStatus_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+First included in: <a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>  
 
 #### Properties
 

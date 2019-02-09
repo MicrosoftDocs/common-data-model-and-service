@@ -81,7 +81,7 @@ sales/SalesAttachment
 ### <a href=#salesLiteratureItemId name="salesLiteratureItemId">salesLiteratureItemId</a>
 
 Unique identifier for the document.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/SalesAttachment.cdm.json/SalesAttachment  
+First included in: <a href="SalesAttachment.md" target="_blank">sales/SalesAttachment</a>  
 
 #### Properties
 
@@ -120,7 +120,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the document was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/SalesAttachment.cdm.json/SalesAttachment  
+First included in: <a href="SalesAttachment.md" target="_blank">sales/SalesAttachment</a>  
 
 #### Properties
 
@@ -159,7 +159,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Unique identifier of the user who created the document.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/SalesAttachment.cdm.json/SalesAttachment  
+First included in: <a href="SalesAttachment.md" target="_blank">sales/SalesAttachment</a>  
 
 #### Properties
 
@@ -204,7 +204,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the document was last modified.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/SalesAttachment.cdm.json/SalesAttachment  
+First included in: <a href="SalesAttachment.md" target="_blank">sales/SalesAttachment</a>  
 
 #### Properties
 
@@ -243,7 +243,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Unique identifier of the user who last modified the document.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/SalesAttachment.cdm.json/SalesAttachment  
+First included in: <a href="SalesAttachment.md" target="_blank">sales/SalesAttachment</a>  
 
 #### Properties
 
@@ -288,7 +288,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Unique identifier of the delegate user who created the salesliteratureitem.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/SalesAttachment.cdm.json/SalesAttachment  
+First included in: <a href="SalesAttachment.md" target="_blank">sales/SalesAttachment</a>  
 
 #### Properties
 
@@ -333,7 +333,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Unique identifier of the delegate user who last modified the salesliteratureitem.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/SalesAttachment.cdm.json/SalesAttachment  
+First included in: <a href="SalesAttachment.md" target="_blank">sales/SalesAttachment</a>  
 
 #### Properties
 
@@ -378,7 +378,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/SalesAttachment.cdm.json/SalesAttachment  
+First included in: <a href="SalesAttachment.md" target="_blank">sales/SalesAttachment</a>  
 
 #### Properties
 
@@ -414,7 +414,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/SalesAttachment.cdm.json/SalesAttachment  
+First included in: <a href="SalesAttachment.md" target="_blank">sales/SalesAttachment</a>  
 
 #### Properties
 
@@ -452,7 +452,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/SalesAttachment.cdm.json/SalesAttachment  
+First included in: <a href="SalesAttachment.md" target="_blank">sales/SalesAttachment</a>  
 
 #### Properties
 
@@ -491,7 +491,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/SalesAttachment.cdm.json/SalesAttachment  
+First included in: <a href="SalesAttachment.md" target="_blank">sales/SalesAttachment</a>  
 
 #### Properties
 
@@ -529,7 +529,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/SalesAttachment.cdm.json/SalesAttachment  
+First included in: <a href="SalesAttachment.md" target="_blank">sales/SalesAttachment</a>  
 
 #### Properties
 
@@ -567,7 +567,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#title name="title">title</a>
 
 Type the title or name that describes the document.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/SalesAttachment.cdm.json/SalesAttachment  
+First included in: <a href="SalesAttachment.md" target="_blank">sales/SalesAttachment</a>  
 
 #### Properties
 
@@ -607,7 +607,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#abstract name="abstract">abstract</a>
 
 Abstract of the document.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/SalesAttachment.cdm.json/SalesAttachment  
+First included in: <a href="SalesAttachment.md" target="_blank">sales/SalesAttachment</a>  
 
 #### Properties
 
@@ -647,7 +647,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#attachedDocumentUrl name="attachedDocumentUrl">attachedDocumentUrl</a>
 
 URL of the Website on which the document is located.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/SalesAttachment.cdm.json/SalesAttachment  
+First included in: <a href="SalesAttachment.md" target="_blank">sales/SalesAttachment</a>  
 
 #### Properties
 
@@ -688,7 +688,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#authorName name="authorName">authorName</a>
 
 Author name for the document.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/SalesAttachment.cdm.json/SalesAttachment  
+First included in: <a href="SalesAttachment.md" target="_blank">sales/SalesAttachment</a>  
 
 #### Properties
 
@@ -729,7 +729,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#documentBody name="documentBody">documentBody</a>
 
 Shows the encoded contents of the sales literature document attachment.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/SalesAttachment.cdm.json/SalesAttachment  
+First included in: <a href="SalesAttachment.md" target="_blank">sales/SalesAttachment</a>  
 
 #### Properties
 
@@ -766,7 +766,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#fileName name="fileName">fileName</a>
 
 File name of the document.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/SalesAttachment.cdm.json/SalesAttachment  
+First included in: <a href="SalesAttachment.md" target="_blank">sales/SalesAttachment</a>  
 
 #### Properties
 
@@ -807,7 +807,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#fileSize name="fileSize">fileSize</a>
 
 File size of the document.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/SalesAttachment.cdm.json/SalesAttachment  
+First included in: <a href="SalesAttachment.md" target="_blank">sales/SalesAttachment</a>  
 
 #### Properties
 
@@ -845,7 +845,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#fileTypeCode name="fileTypeCode">fileTypeCode</a>
 
 Select the file type of the document.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/SalesAttachment.cdm.json/SalesAttachment  
+First included in: <a href="SalesAttachment.md" target="_blank">sales/SalesAttachment</a>  
 
 #### Properties
 
@@ -885,7 +885,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#fileTypeCode_display name="fileTypeCode_display">fileTypeCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/SalesAttachment.cdm.json/SalesAttachment  
+First included in: <a href="SalesAttachment.md" target="_blank">sales/SalesAttachment</a>  
 
 #### Properties
 
@@ -909,7 +909,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Sale
 ### <a href=#isCustomerViewable name="isCustomerViewable">isCustomerViewable</a>
 
 Tells whether the document can be shared with customers or is for internal use only.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/SalesAttachment.cdm.json/SalesAttachment  
+First included in: <a href="SalesAttachment.md" target="_blank">sales/SalesAttachment</a>  
 
 #### Properties
 
@@ -944,7 +944,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#keyWords name="keyWords">keyWords</a>
 
 Keywords to use for searches in documents.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/SalesAttachment.cdm.json/SalesAttachment  
+First included in: <a href="SalesAttachment.md" target="_blank">sales/SalesAttachment</a>  
 
 #### Properties
 
@@ -984,7 +984,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#mimeType name="mimeType">mimeType</a>
 
 Shows the file type of the sales literature document attachment, such as text or document.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/SalesAttachment.cdm.json/SalesAttachment  
+First included in: <a href="SalesAttachment.md" target="_blank">sales/SalesAttachment</a>  
 
 #### Properties
 
@@ -1024,7 +1024,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#organizationId name="organizationId">organizationId</a>
 
 Unique identifier of the organization associated with the document.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/SalesAttachment.cdm.json/SalesAttachment  
+First included in: <a href="SalesAttachment.md" target="_blank">sales/SalesAttachment</a>  
 
 #### Properties
 
@@ -1059,7 +1059,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#salesLiteratureId name="salesLiteratureId">salesLiteratureId</a>
 
 Unique identifier of the sales literature that is associated with the individual item.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/SalesAttachment.cdm.json/SalesAttachment  
+First included in: <a href="SalesAttachment.md" target="_blank">sales/SalesAttachment</a>  
 
 #### Properties
 
@@ -1101,7 +1101,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#mode name="mode">mode</a>
 
 Defines the mode of the sales literature document attachment.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/SalesAttachment.cdm.json/SalesAttachment  
+First included in: <a href="SalesAttachment.md" target="_blank">sales/SalesAttachment</a>  
 
 #### Properties
 

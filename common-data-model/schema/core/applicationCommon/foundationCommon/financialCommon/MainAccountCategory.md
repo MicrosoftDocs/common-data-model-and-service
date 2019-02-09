@@ -57,7 +57,7 @@ financialCommon/MainAccountCategory
 ### <a href=#mainAccountCategoryId name="mainAccountCategoryId">mainAccountCategoryId</a>
 
 The surrogate key of the main account category record  
-First included in: /core/applicationCommon/foundationCommon/financialCommon/MainAccountCategory.cdm.json/MainAccountCategory  
+First included in: <a href="MainAccountCategory.md" target="_blank">financialCommon/MainAccountCategory</a>  
 
 #### Properties
 
@@ -85,7 +85,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 ### <a href=#name name="name">name</a>
 
 The display name of the main account category  
-First included in: /core/applicationCommon/foundationCommon/financialCommon/MainAccountCategory.cdm.json/MainAccountCategory  
+First included in: <a href="MainAccountCategory.md" target="_blank">financialCommon/MainAccountCategory</a>  
 
 #### Properties
 
@@ -110,7 +110,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 ### <a href=#description name="description">description</a>
 
 The description of the main account category  
-First included in: /core/applicationCommon/foundationCommon/financialCommon/MainAccountCategory.cdm.json/MainAccountCategory  
+First included in: <a href="MainAccountCategory.md" target="_blank">financialCommon/MainAccountCategory</a>  
 
 #### Properties
 
@@ -136,7 +136,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 ### <a href=#isClosed name="isClosed">isClosed</a>
 
 Determines whether accounts of this category are closed for new transactions  
-First included in: /core/applicationCommon/foundationCommon/financialCommon/MainAccountCategory.cdm.json/MainAccountCategory  
+First included in: <a href="MainAccountCategory.md" target="_blank">financialCommon/MainAccountCategory</a>  
 
 #### Properties
 
@@ -159,7 +159,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 ### <a href=#accountType name="accountType">accountType</a>
 
 The common account type for accounts in this category, such as revenue or liability  
-First included in: /core/applicationCommon/foundationCommon/financialCommon/MainAccountCategory.cdm.json/MainAccountCategory  
+First included in: <a href="MainAccountCategory.md" target="_blank">financialCommon/MainAccountCategory</a>  
 
 #### Properties
 
@@ -187,7 +187,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 
 ### <a href=#accountType_display name="accountType_display">accountType_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/financialCommon/MainAccountCategory.cdm.json/MainAccountCategory  
+First included in: <a href="MainAccountCategory.md" target="_blank">financialCommon/MainAccountCategory</a>  
 
 #### Properties
 

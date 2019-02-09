@@ -158,7 +158,7 @@ sales/Quote
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -197,7 +197,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -245,7 +245,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -284,7 +284,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -332,7 +332,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -380,7 +380,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -428,7 +428,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -467,7 +467,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -502,7 +502,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -541,7 +541,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -586,7 +586,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -631,7 +631,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -679,7 +679,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -724,7 +724,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -762,7 +762,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -800,7 +800,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -837,7 +837,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#quoteId name="quoteId">quoteId</a>
 
 Unique identifier of the quote.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -876,7 +876,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#emailAddress name="emailAddress">emailAddress</a>
 
 The primary email address for the entity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -917,7 +917,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#name name="name">name</a>
 
 Type a descriptive name for the quote.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -958,7 +958,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#processId name="processId">processId</a>
 
 Contains the id of the process associated with the entity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -996,7 +996,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stageId name="stageId">stageId</a>
 
 Contains the id of the stage where the entity is located.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -1034,7 +1034,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#traversedPath name="traversedPath">traversedPath</a>
 
 A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -1074,7 +1074,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#billToAddressId name="billToAddressId">billToAddressId</a>
 
 Unique identifier of the billing address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -1112,7 +1112,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#billToCity name="billToCity">billToCity</a>
 
 Type the city for the customer's billing address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -1153,7 +1153,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#billToComposite name="billToComposite">billToComposite</a>
 
 Shows the complete Bill To address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -1193,7 +1193,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#billToContactName name="billToContactName">billToContactName</a>
 
 Type the primary contact name at the customer's billing address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -1234,7 +1234,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#billToCountry name="billToCountry">billToCountry</a>
 
 Type the country or region for the customer's billing address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -1275,7 +1275,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#billToFax name="billToFax">billToFax</a>
 
 Type the fax number for the customer's billing address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -1315,7 +1315,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#billToLine1 name="billToLine1">billToLine1</a>
 
 Type the first line of the customer's billing address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -1356,7 +1356,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#billToLine2 name="billToLine2">billToLine2</a>
 
 Type the second line of the customer's billing address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -1397,7 +1397,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#billToLine3 name="billToLine3">billToLine3</a>
 
 Type the third line of the billing address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -1438,7 +1438,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#billToName name="billToName">billToName</a>
 
 Type a name for the customer's billing address, such as "Headquarters" or "Field office", to identify the address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -1479,7 +1479,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#billToPostalCode name="billToPostalCode">billToPostalCode</a>
 
 Type the ZIP Code or postal code for the billing address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -1520,7 +1520,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#billToStateOrProvince name="billToStateOrProvince">billToStateOrProvince</a>
 
 Type the state or province for the billing address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -1561,7 +1561,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#billToTelephone name="billToTelephone">billToTelephone</a>
 
 Type the phone number for the customer's billing address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -1602,7 +1602,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#closedOn name="closedOn">closedOn</a>
 
 Enter the date when the quote was closed to indicate the expiration, revision, or cancellation date.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -1640,7 +1640,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#customerIdType name="customerIdType">customerIdType</a>
 
 The type of customer, either Account or Contact.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -1676,7 +1676,7 @@ contains an Account or Contact ID
 ### <a href=#customerId name="customerId">customerId</a>
 
 The customer account or contact to provide a quick link to additional customer details, such as account information, activities, and opportunities.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -1721,7 +1721,7 @@ contains an Account or Contact ID
 ### <a href=#description name="description">description</a>
 
 Type additional information to describe the quote, such as the products or services offered or details about the customer's product preferences.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -1761,7 +1761,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#discountAmount name="discountAmount">discountAmount</a>
 
 Type the discount amount for the quote if the customer is eligible for special savings.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -1802,7 +1802,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Choose the local currency for the record to make sure budgets are reported in the correct currency.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -1847,7 +1847,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -1887,7 +1887,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#discountAmountBase name="discountAmountBase">discountAmountBase</a>
 
 Value of the Quote Discount Amount in base currency.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -1931,7 +1931,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#discountPercentage name="discountPercentage">discountPercentage</a>
 
 Type the discount rate that should be applied to the Detail Amount field to include additional savings for the customer in the quote.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -1971,7 +1971,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#effectiveFrom name="effectiveFrom">effectiveFrom</a>
 
 Enter the date when the quote pricing is effective or was first communicated to the customer.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -2009,7 +2009,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#effectiveTo name="effectiveTo">effectiveTo</a>
 
 Enter the expiration date or last day the quote pricing is effective for the customer.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -2047,7 +2047,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#expiresOn name="expiresOn">expiresOn</a>
 
 Enter the date a decision or order is due from the customer to indicate the expiration date of the quote.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -2085,7 +2085,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#freightAmount name="freightAmount">freightAmount</a>
 
 Type the cost of freight or shipping for the products included in the quote for use in calculating the Total Amount field.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -2126,7 +2126,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#freightAmountBase name="freightAmountBase">freightAmountBase</a>
 
 Value of the Freight Amount in base currency.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -2170,7 +2170,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#freightTermsCode name="freightTermsCode">freightTermsCode</a>
 
 Select the freight terms to make sure shipping charges are processed correctly.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -2210,7 +2210,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#freightTermsCode_display name="freightTermsCode_display">freightTermsCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -2234,7 +2234,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quot
 ### <a href=#opportunityId name="opportunityId">opportunityId</a>
 
 Choose the opportunity that the quote is related to for reporting and analytics.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -2279,7 +2279,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#paymentTermsCode name="paymentTermsCode">paymentTermsCode</a>
 
 Select the payment terms to indicate when the customer needs to pay the total amount.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -2319,7 +2319,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#paymentTermsCode_display name="paymentTermsCode_display">paymentTermsCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -2343,7 +2343,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quot
 ### <a href=#priceLevelId name="priceLevelId">priceLevelId</a>
 
 Choose the price list associated with this record to make sure the products associated with the campaign are offered at the correct prices.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -2388,7 +2388,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#pricingErrorCode name="pricingErrorCode">pricingErrorCode</a>
 
 Pricing error for the quote.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -2428,7 +2428,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#pricingErrorCode_display name="pricingErrorCode_display">pricingErrorCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -2452,7 +2452,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quot
 ### <a href=#quoteNumber name="quoteNumber">quoteNumber</a>
 
 Shows the quote number for customer reference and searching capabilities. The number cannot be modified.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -2489,7 +2489,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#requestDeliveryBy name="requestDeliveryBy">requestDeliveryBy</a>
 
 Enter the delivery date requested by the customer for all products in the quote.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -2527,7 +2527,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#revisionNumber name="revisionNumber">revisionNumber</a>
 
 Shows the version number of the quote for revision history tracking.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -2562,7 +2562,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#shippingMethodCode name="shippingMethodCode">shippingMethodCode</a>
 
 Select a shipping method for deliveries sent to this address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -2602,7 +2602,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#shippingMethodCode_display name="shippingMethodCode_display">shippingMethodCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -2626,7 +2626,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quot
 ### <a href=#shipToAddressId name="shipToAddressId">shipToAddressId</a>
 
 Unique identifier of the shipping address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -2664,7 +2664,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#shipToCity name="shipToCity">shipToCity</a>
 
 Type the city for the customer's shipping address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -2705,7 +2705,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#shipToComposite name="shipToComposite">shipToComposite</a>
 
 Shows the complete Ship To address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -2745,7 +2745,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#shipToContactName name="shipToContactName">shipToContactName</a>
 
 Type the primary contact name at the customer's shipping address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -2786,7 +2786,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#shipToCountry name="shipToCountry">shipToCountry</a>
 
 Type the country or region for the customer's shipping address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -2827,7 +2827,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#shipToFax name="shipToFax">shipToFax</a>
 
 Type the fax number for the customer's shipping address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -2867,7 +2867,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#shipToFreightTermsCode name="shipToFreightTermsCode">shipToFreightTermsCode</a>
 
 Select the freight terms to make sure shipping orders are processed correctly.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -2907,7 +2907,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#shipToFreightTermsCode_display name="shipToFreightTermsCode_display">shipToFreightTermsCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -2931,7 +2931,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quot
 ### <a href=#shipToLine1 name="shipToLine1">shipToLine1</a>
 
 Type the first line of the customer's shipping address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -2972,7 +2972,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#shipToLine2 name="shipToLine2">shipToLine2</a>
 
 Type the second line of the customer's shipping address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -3013,7 +3013,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#shipToLine3 name="shipToLine3">shipToLine3</a>
 
 Type the third line of the shipping address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -3054,7 +3054,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#shipToName name="shipToName">shipToName</a>
 
 Type a name for the customer's shipping address, such as "Headquarters" or "Field office",  to identify the address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -3095,7 +3095,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#shipToPostalCode name="shipToPostalCode">shipToPostalCode</a>
 
 Type the ZIP Code or postal code for the shipping address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -3136,7 +3136,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#shipToStateOrProvince name="shipToStateOrProvince">shipToStateOrProvince</a>
 
 Type the state or province for the shipping address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -3177,7 +3177,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#shipToTelephone name="shipToTelephone">shipToTelephone</a>
 
 Type the phone number for the customer's shipping address.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -3218,7 +3218,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Shows whether the quote is draft, active, won, or closed. Only draft quotes can be edited.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -3258,7 +3258,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -3282,7 +3282,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quot
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Select the quote's status.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -3325,7 +3325,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -3349,7 +3349,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quot
 ### <a href=#totalAmount name="totalAmount">totalAmount</a>
 
 Shows the total amount due, calculated as the sum of the products, discounts, freight, and taxes for the quote.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -3390,7 +3390,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#totalAmountBase name="totalAmountBase">totalAmountBase</a>
 
 Value of the Total Amount in base currency.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -3434,7 +3434,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#totalAmountLessFreight name="totalAmountLessFreight">totalAmountLessFreight</a>
 
 Shows the total product amount for the quote, minus any discounts. This value is added to freight and tax amounts in the calculation for the total amount due for the quote.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -3475,7 +3475,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#totalAmountLessFreightBase name="totalAmountLessFreightBase">totalAmountLessFreightBase</a>
 
 Value of the Total Pre-Freight Amount in base currency.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -3519,7 +3519,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#totalDiscountAmount name="totalDiscountAmount">totalDiscountAmount</a>
 
 Shows the total discount amount, based on the discount price and rate entered on the quote.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -3560,7 +3560,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#totalDiscountAmountBase name="totalDiscountAmountBase">totalDiscountAmountBase</a>
 
 Value of the Total Discount Amount in base currency.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -3604,7 +3604,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#totalLineItemAmount name="totalLineItemAmount">totalLineItemAmount</a>
 
 Shows the sum of all existing and write-in products included on the quote, based on the specified price list and quantities.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -3645,7 +3645,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#totalLineItemAmountBase name="totalLineItemAmountBase">totalLineItemAmountBase</a>
 
 Value of the Total Detail Amount in base currency.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -3689,7 +3689,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#totalLineItemDiscountAmount name="totalLineItemDiscountAmount">totalLineItemDiscountAmount</a>
 
 Shows the total of the Manual Discount amounts specified on all products included in the quote. This value is reflected in the Detail Amount field on the quote and is added to any discount amount or rate specified on the quote  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -3730,7 +3730,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#totalLineItemDiscountAmountBase name="totalLineItemDiscountAmountBase">totalLineItemDiscountAmountBase</a>
 
 Value of the Total Line Item Discount Amount in base currency.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -3774,7 +3774,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#totalTax name="totalTax">totalTax</a>
 
 Shows the total of the Tax amounts specified on all products included in the quote, included in the Total Amount due calculation for the quote.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -3815,7 +3815,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#totalTaxBase name="totalTaxBase">totalTaxBase</a>
 
 Value of the Total Tax in base currency.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -3859,7 +3859,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#willCall name="willCall">willCall</a>
 
 Select whether the products included in the quote should be shipped to the specified address or held until the customer calls with further pick up or delivery instructions.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -3894,7 +3894,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#onHoldTime name="onHoldTime">onHoldTime</a>
 
 Shows the duration in minutes for which the quote was on hold.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -3932,7 +3932,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#lastOnHoldTime name="lastOnHoldTime">lastOnHoldTime</a>
 
 Contains the date time stamp of the last on hold time.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -3970,7 +3970,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#SLAId name="SLAId">SLAId</a>
 
 Choose the service level agreement (SLA) that you want to apply to the quote record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -4015,7 +4015,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#SLAInvokedId name="SLAInvokedId">SLAInvokedId</a>
 
 Last SLA that was applied to this quote. This field is for internal use only.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -4060,7 +4060,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#accountId name="accountId">accountId</a>
 
 Unique identifier of the account with which the quote is associated.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -4102,7 +4102,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#contactId name="contactId">contactId</a>
 
 Unique identifier of the contact associated with the quote.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 
@@ -4144,7 +4144,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#campaignId name="campaignId">campaignId</a>
 
 Shows the campaign that the order was created from.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+First included in: <a href="Quote.md" target="_blank">sales/Quote</a>  
 
 #### Properties
 

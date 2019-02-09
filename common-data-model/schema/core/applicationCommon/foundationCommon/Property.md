@@ -98,7 +98,7 @@ foundationCommon/Property
 ### <a href=#dynamicPropertyId name="dynamicPropertyId">dynamicPropertyId</a>
 
 Shows the unique identifier of the property.  
-First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Property  
+First included in: <a href="Property.md" target="_blank">foundationCommon/Property</a>  
 
 #### Properties
 
@@ -137,7 +137,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Property  
+First included in: <a href="Property.md" target="_blank">foundationCommon/Property</a>  
 
 #### Properties
 
@@ -176,7 +176,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Unique identifier of the user who created the record.  
-First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Property  
+First included in: <a href="Property.md" target="_blank">foundationCommon/Property</a>  
 
 #### Properties
 
@@ -221,7 +221,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Property  
+First included in: <a href="Property.md" target="_blank">foundationCommon/Property</a>  
 
 #### Properties
 
@@ -260,7 +260,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Unique identifier of the user who modified the record.  
-First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Property  
+First included in: <a href="Property.md" target="_blank">foundationCommon/Property</a>  
 
 #### Properties
 
@@ -305,7 +305,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Unique identifier of the delegate user who created the record.  
-First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Property  
+First included in: <a href="Property.md" target="_blank">foundationCommon/Property</a>  
 
 #### Properties
 
@@ -350,7 +350,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Unique identifier of the delegate user who modified the record.  
-First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Property  
+First included in: <a href="Property.md" target="_blank">foundationCommon/Property</a>  
 
 #### Properties
 
@@ -395,7 +395,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#organizationId name="organizationId">organizationId</a>
 
 Unique identifier for the organization  
-First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Property  
+First included in: <a href="Property.md" target="_blank">foundationCommon/Property</a>  
 
 #### Properties
 
@@ -437,7 +437,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Property  
+First included in: <a href="Property.md" target="_blank">foundationCommon/Property</a>  
 
 #### Properties
 
@@ -473,7 +473,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Property  
+First included in: <a href="Property.md" target="_blank">foundationCommon/Property</a>  
 
 #### Properties
 
@@ -511,7 +511,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Property  
+First included in: <a href="Property.md" target="_blank">foundationCommon/Property</a>  
 
 #### Properties
 
@@ -550,7 +550,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Property  
+First included in: <a href="Property.md" target="_blank">foundationCommon/Property</a>  
 
 #### Properties
 
@@ -588,7 +588,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Property  
+First included in: <a href="Property.md" target="_blank">foundationCommon/Property</a>  
 
 #### Properties
 
@@ -626,7 +626,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#name name="name">name</a>
 
 Type the name of the property.  
-First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Property  
+First included in: <a href="Property.md" target="_blank">foundationCommon/Property</a>  
 
 #### Properties
 
@@ -667,7 +667,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#description name="description">description</a>
 
 Type a description for the property.  
-First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Property  
+First included in: <a href="Property.md" target="_blank">foundationCommon/Property</a>  
 
 #### Properties
 
@@ -707,7 +707,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#dataType name="dataType">dataType</a>
 
 Select the data type of the property.  
-First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Property  
+First included in: <a href="Property.md" target="_blank">foundationCommon/Property</a>  
 
 #### Properties
 
@@ -747,7 +747,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#dataType_display name="dataType_display">dataType_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Property  
+First included in: <a href="Property.md" target="_blank">foundationCommon/Property</a>  
 
 #### Properties
 
@@ -771,7 +771,7 @@ First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Pr
 ### <a href=#defaultValueInteger name="defaultValueInteger">defaultValueInteger</a>
 
 Shows the default value of the property for a whole number data type.  
-First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Property  
+First included in: <a href="Property.md" target="_blank">foundationCommon/Property</a>  
 
 #### Properties
 
@@ -809,7 +809,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#defaultValueString name="defaultValueString">defaultValueString</a>
 
 Shows the default value of the property for a string data type.  
-First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Property  
+First included in: <a href="Property.md" target="_blank">foundationCommon/Property</a>  
 
 #### Properties
 
@@ -849,7 +849,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#defaultValueDecimal name="defaultValueDecimal">defaultValueDecimal</a>
 
 Shows the default value of the property for a decimal data type.  
-First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Property  
+First included in: <a href="Property.md" target="_blank">foundationCommon/Property</a>  
 
 #### Properties
 
@@ -889,7 +889,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#baseDynamicPropertyId name="baseDynamicPropertyId">baseDynamicPropertyId</a>
 
 Shows the property in the product family that this property is being inherited from.  
-First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Property  
+First included in: <a href="Property.md" target="_blank">foundationCommon/Property</a>  
 
 #### Properties
 
@@ -934,7 +934,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#overwrittenDynamicPropertyId name="overwrittenDynamicPropertyId">overwrittenDynamicPropertyId</a>
 
 Shows the related overwritten property.  
-First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Property  
+First included in: <a href="Property.md" target="_blank">foundationCommon/Property</a>  
 
 #### Properties
 
@@ -972,7 +972,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#rootDynamicPropertyId name="rootDynamicPropertyId">rootDynamicPropertyId</a>
 
 Shows the root property that this property is derived from.  
-First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Property  
+First included in: <a href="Property.md" target="_blank">foundationCommon/Property</a>  
 
 #### Properties
 
@@ -1010,7 +1010,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#minValueDecimal name="minValueDecimal">minValueDecimal</a>
 
 Shows the minimum allowed value of the property for a decimal data type.  
-First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Property  
+First included in: <a href="Property.md" target="_blank">foundationCommon/Property</a>  
 
 #### Properties
 
@@ -1050,7 +1050,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#maxValueDecimal name="maxValueDecimal">maxValueDecimal</a>
 
 Shows the maximum allowed value of the property for a decimal data type.  
-First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Property  
+First included in: <a href="Property.md" target="_blank">foundationCommon/Property</a>  
 
 #### Properties
 
@@ -1090,7 +1090,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#precision name="precision">precision</a>
 
 Shows the allowed precision of the property for a whole number data type.  
-First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Property  
+First included in: <a href="Property.md" target="_blank">foundationCommon/Property</a>  
 
 #### Properties
 
@@ -1128,7 +1128,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Shows the state of the property.  
-First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Property  
+First included in: <a href="Property.md" target="_blank">foundationCommon/Property</a>  
 
 #### Properties
 
@@ -1171,7 +1171,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Property  
+First included in: <a href="Property.md" target="_blank">foundationCommon/Property</a>  
 
 #### Properties
 
@@ -1195,7 +1195,7 @@ First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Pr
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Shows whether the property is active or inactive.  
-First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Property  
+First included in: <a href="Property.md" target="_blank">foundationCommon/Property</a>  
 
 #### Properties
 
@@ -1238,7 +1238,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Property  
+First included in: <a href="Property.md" target="_blank">foundationCommon/Property</a>  
 
 #### Properties
 
@@ -1262,7 +1262,7 @@ First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Pr
 ### <a href=#regardingObjectId name="regardingObjectId">regardingObjectId</a>
 
 Choose the product that the property is associated with.  
-First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Property  
+First included in: <a href="Property.md" target="_blank">foundationCommon/Property</a>  
 
 #### Properties
 
@@ -1307,7 +1307,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#defaultValueDouble name="defaultValueDouble">defaultValueDouble</a>
 
 Shows the default value of the property for a double data type.  
-First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Property  
+First included in: <a href="Property.md" target="_blank">foundationCommon/Property</a>  
 
 #### Properties
 
@@ -1346,7 +1346,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#minValueDouble name="minValueDouble">minValueDouble</a>
 
 Shows the minimum allowed value of the property for a double data type.  
-First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Property  
+First included in: <a href="Property.md" target="_blank">foundationCommon/Property</a>  
 
 #### Properties
 
@@ -1385,7 +1385,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#maxValueDouble name="maxValueDouble">maxValueDouble</a>
 
 Shows the maximum allowed value of the property for a double data type.  
-First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Property  
+First included in: <a href="Property.md" target="_blank">foundationCommon/Property</a>  
 
 #### Properties
 
@@ -1424,7 +1424,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#minValueInteger name="minValueInteger">minValueInteger</a>
 
 Shows the minimum allowed value of the property for a whole number data type.  
-First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Property  
+First included in: <a href="Property.md" target="_blank">foundationCommon/Property</a>  
 
 #### Properties
 
@@ -1462,7 +1462,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#maxValueInteger name="maxValueInteger">maxValueInteger</a>
 
 Shows the maximum allowed value of the property for a whole number data type.  
-First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Property  
+First included in: <a href="Property.md" target="_blank">foundationCommon/Property</a>  
 
 #### Properties
 
@@ -1500,7 +1500,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#isReadOnly name="isReadOnly">isReadOnly</a>
 
 Defines whether the attribute is read-only or if it can be edited.  
-First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Property  
+First included in: <a href="Property.md" target="_blank">foundationCommon/Property</a>  
 
 #### Properties
 
@@ -1532,7 +1532,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isHidden name="isHidden">isHidden</a>
 
 Defines whether the attribute is hidden or shown.  
-First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Property  
+First included in: <a href="Property.md" target="_blank">foundationCommon/Property</a>  
 
 #### Properties
 
@@ -1564,7 +1564,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isRequired name="isRequired">isRequired</a>
 
 Defines whether the attribute is mandatory.  
-First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Property  
+First included in: <a href="Property.md" target="_blank">foundationCommon/Property</a>  
 
 #### Properties
 
@@ -1596,7 +1596,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#maxLengthString name="maxLengthString">maxLengthString</a>
 
 Shows the maximum allowed length of the property for a string data type.  
-First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Property  
+First included in: <a href="Property.md" target="_blank">foundationCommon/Property</a>  
 
 #### Properties
 
@@ -1634,7 +1634,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#defaultValueOptionSet name="defaultValueOptionSet">defaultValueOptionSet</a>
 
 Shows the default value of the property.  
-First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Property  
+First included in: <a href="Property.md" target="_blank">foundationCommon/Property</a>  
 
 #### Properties
 

@@ -122,7 +122,7 @@ electronicMedicalRecords/MedicationAdministration
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -161,7 +161,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -209,7 +209,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -248,7 +248,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -296,7 +296,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -344,7 +344,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -392,7 +392,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -431,7 +431,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -466,7 +466,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -505,7 +505,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -550,7 +550,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -595,7 +595,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -643,7 +643,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -688,7 +688,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -726,7 +726,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -764,7 +764,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -801,7 +801,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#medicationAdministrationId name="medicationAdministrationId">medicationAdministrationId</a>
 
 Unique identifier for entity instances  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -840,7 +840,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Status of the Medication Administration  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -880,7 +880,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -904,7 +904,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Reason for the status of the Medication Administration  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -947,7 +947,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -971,7 +971,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -1012,7 +1012,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#category name="category">category</a>
 
 Indicates the type of medication administration and where the medication is expected to be consumed or administered.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -1057,7 +1057,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#contextType name="contextType">contextType</a>
 
 The visit, admission or other contact between patient and health care provider the medication administration was performed as part of.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -1097,7 +1097,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#contextType_display name="contextType_display">contextType_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -1121,7 +1121,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#contextTypeEncounter name="contextTypeEncounter">contextTypeEncounter</a>
 
 The visit, admission or other contact between patient and health care provider the medication administration was performed as part of.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -1166,7 +1166,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#contextTypeEpisodeOfCare name="contextTypeEpisodeOfCare">contextTypeEpisodeOfCare</a>
 
 The visit, admission or other contact between patient and health care provider the medication administration was performed as part of.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -1211,7 +1211,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#dosageDose name="dosageDose">dosageDose</a>
 
 The amount of the medication given at one administration event. Use this value when the administration is essentially an instantaneous event such as a swallowing a tablet or giving an injection.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -1249,7 +1249,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#dosageMethod name="dosageMethod">dosageMethod</a>
 
 A coded value indicating the method by which the medication is intended to be or was introduced into or on the body. This attribute will most often NOT be populated.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -1294,7 +1294,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#dosageRateQuantity name="dosageRateQuantity">dosageRateQuantity</a>
 
 Identifies the speed with which the medication was or will be introduced into the patient.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -1332,7 +1332,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#dosageRateType name="dosageRateType">dosageRateType</a>
 
 Identifies the speed with which the medication was or will be introduced into the patient. Typically the rate for an infusion e.g. 100 ml per 1 hour or 100 ml/hr.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -1372,7 +1372,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#dosageRateType_display name="dosageRateType_display">dosageRateType_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -1396,7 +1396,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#dosageRoute name="dosageRoute">dosageRoute</a>
 
 A code specifying the route or physiological path of administration of a therapeutic agent into or onto the patient. For example, topical, intravenous, etc.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -1441,7 +1441,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#dosageSite name="dosageSite">dosageSite</a>
 
 A coded specification of the anatomic site where the medication first entered the body. For example, "left arm".  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -1486,7 +1486,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#dosageText name="dosageText">dosageText</a>
 
 "Free text dosage can be used for cases where the dosage administered is too complex to code. When coded dosage is present, the free text dosage may still be present for display to humans.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -1526,7 +1526,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#effectiveDatetime name="effectiveDatetime">effectiveDatetime</a>
 
 A specific date/time or interval of time during which the administration took place (or did not take place, when the 'notGiven' attribute is true).  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -1564,7 +1564,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#effectivePeriodEndDate name="effectivePeriodEndDate">effectivePeriodEndDate</a>
 
 A specific date/time or interval of time during which the administration took place  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -1602,7 +1602,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#effectivePeriodStartDate name="effectivePeriodStartDate">effectivePeriodStartDate</a>
 
 A specific date/time or interval of time during which the administration took place  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -1640,7 +1640,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#effectiveType name="effectiveType">effectiveType</a>
 
 A specific date/time or interval of time during which the administration took place (or did not take place, when the 'notGiven' attribute is true).  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -1680,7 +1680,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#effectiveType_display name="effectiveType_display">effectiveType_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -1704,7 +1704,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#medicationAdministrationNumber name="medicationAdministrationNumber">medicationAdministrationNumber</a>
 
 External identifier - FHIR will generate its own internal identifiers (probably URLs) which do not need to be explicitly managed by the resource.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -1744,7 +1744,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#medicationCodeableConcept name="medicationCodeableConcept">medicationCodeableConcept</a>
 
 Identifies the medication that was administered.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -1789,7 +1789,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#medicationReference name="medicationReference">medicationReference</a>
 
 A specific date/time or interval of time during which the administration took place  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -1834,7 +1834,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#medicationType name="medicationType">medicationType</a>
 
 Identifies the medication that was administered.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -1874,7 +1874,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#medicationType_display name="medicationType_display">medicationType_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -1898,7 +1898,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#notGiven name="notGiven">notGiven</a>
 
 Set this to true if the record is saying that the medication was NOT administered.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -1933,7 +1933,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#prescription name="prescription">prescription</a>
 
 The original request, instruction or authority to perform the administration.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -1978,7 +1978,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#rateRatioQuantityDenominatorComparator name="rateRatioQuantityDenominatorComparator">rateRatioQuantityDenominatorComparator</a>
 
 How the value should be understood and represented  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -2018,7 +2018,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#rateRatioQuantityDenominatorComparator_display name="rateRatioQuantityDenominatorComparator_display">rateRatioQuantityDenominatorComparator_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -2042,7 +2042,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#rateRatioQuantityDenominatorUnit name="rateRatioQuantityDenominatorUnit">rateRatioQuantityDenominatorUnit</a>
 
 A human-readable form of the unit.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -2082,7 +2082,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#rateRatioQuantityDenominatorValue name="rateRatioQuantityDenominatorValue">rateRatioQuantityDenominatorValue</a>
 
 The value of the measured amount. The value includes an implicit precision in the presentation of the value.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -2122,7 +2122,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#rateRatioQuantityNumeratorCode name="rateRatioQuantityNumeratorCode">rateRatioQuantityNumeratorCode</a>
 
 A computer processable form of the unit in some unit representation system.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -2167,7 +2167,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#rateRatioQuantityNumeratorComparator name="rateRatioQuantityNumeratorComparator">rateRatioQuantityNumeratorComparator</a>
 
 How the value should be understood and represented  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -2207,7 +2207,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#rateRatioQuantityNumeratorComparator_display name="rateRatioQuantityNumeratorComparator_display">rateRatioQuantityNumeratorComparator_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -2231,7 +2231,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#rateRatioQuantityNumeratorSystem name="rateRatioQuantityNumeratorSystem">rateRatioQuantityNumeratorSystem</a>
 
 The identification of the system that provides the coded form of the unit.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -2271,7 +2271,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#rateRatioQuantityNumeratorUnit name="rateRatioQuantityNumeratorUnit">rateRatioQuantityNumeratorUnit</a>
 
 A human-readable form of the unit.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -2311,7 +2311,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#rateRatioQuantityNumeratorValue name="rateRatioQuantityNumeratorValue">rateRatioQuantityNumeratorValue</a>
 
 The value of the measured amount. The value includes an implicit precision in the presentation of the value.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -2351,7 +2351,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#rateRatiotQuantityDenominatorSystem name="rateRatiotQuantityDenominatorSystem">rateRatiotQuantityDenominatorSystem</a>
 
 The identification of the system that provides the coded form of the unit.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -2391,7 +2391,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ratioDenominatorCode name="ratioDenominatorCode">ratioDenominatorCode</a>
 
 A computer processable form of the unit in some unit representation system.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -2436,7 +2436,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#status name="status">status</a>
 
 Will generally be set to show that the administration has been completed.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -2476,7 +2476,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#status_display name="status_display">status_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -2500,7 +2500,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#subjectType name="subjectType">subjectType</a>
 
 The person or animal or group receiving the medication.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -2540,7 +2540,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#subjectType_display name="subjectType_display">subjectType_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -2564,7 +2564,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#subjectTypeGroup name="subjectTypeGroup">subjectTypeGroup</a>
 
 The group receiving the medication.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 
@@ -2609,7 +2609,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#subjectTypePatient name="subjectTypePatient">subjectTypePatient</a>
 
 he person receiving the medication.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+First included in: <a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>  
 
 #### Properties
 

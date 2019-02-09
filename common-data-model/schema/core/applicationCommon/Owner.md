@@ -58,7 +58,7 @@ applicationCommon/Owner
 
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
-First included in: /core/applicationCommon/Owner.cdm.json/Owner  
+First included in: <a href="Owner.md" target="_blank">applicationCommon/Owner</a>  
 
 #### Properties
 
@@ -88,7 +88,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Unique identifier for the Owner: systemuserid or teamid.  
-First included in: /core/applicationCommon/Owner.cdm.json/Owner  
+First included in: <a href="Owner.md" target="_blank">applicationCommon/Owner</a>  
 
 #### Properties
 
@@ -127,7 +127,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#name name="name">name</a>
 
 Name of the Owner.  
-First included in: /core/applicationCommon/Owner.cdm.json/Owner  
+First included in: <a href="Owner.md" target="_blank">applicationCommon/Owner</a>  
 
 #### Properties
 
@@ -167,7 +167,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
-First included in: /core/applicationCommon/Owner.cdm.json/Owner  
+First included in: <a href="Owner.md" target="_blank">applicationCommon/Owner</a>  
 
 #### Properties
 
@@ -196,7 +196,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#yomiName name="yomiName">yomiName</a>
 
 Pronunciation of the name of the owner, written in phonetic hiragana or katakana characters.  
-First included in: /core/applicationCommon/Owner.cdm.json/Owner  
+First included in: <a href="Owner.md" target="_blank">applicationCommon/Owner</a>  
 
 #### Properties
 

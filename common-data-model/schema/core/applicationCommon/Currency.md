@@ -78,7 +78,7 @@ applicationCommon/Currency
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Reason for the status of the transaction currency.  
-First included in: /core/applicationCommon/Currency.cdm.json/Currency  
+First included in: <a href="Currency.md" target="_blank">applicationCommon/Currency</a>  
 
 #### Properties
 
@@ -121,7 +121,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: /core/applicationCommon/Currency.cdm.json/Currency  
+First included in: <a href="Currency.md" target="_blank">applicationCommon/Currency</a>  
 
 #### Properties
 
@@ -145,7 +145,7 @@ First included in: /core/applicationCommon/Currency.cdm.json/Currency
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the transaction currency was last modified.  
-First included in: /core/applicationCommon/Currency.cdm.json/Currency  
+First included in: <a href="Currency.md" target="_blank">applicationCommon/Currency</a>  
 
 #### Properties
 
@@ -184,7 +184,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Status of the transaction currency.  
-First included in: /core/applicationCommon/Currency.cdm.json/Currency  
+First included in: <a href="Currency.md" target="_blank">applicationCommon/Currency</a>  
 
 #### Properties
 
@@ -224,7 +224,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: /core/applicationCommon/Currency.cdm.json/Currency  
+First included in: <a href="Currency.md" target="_blank">applicationCommon/Currency</a>  
 
 #### Properties
 
@@ -248,7 +248,7 @@ First included in: /core/applicationCommon/Currency.cdm.json/Currency
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version number of the transaction currency.  
-First included in: /core/applicationCommon/Currency.cdm.json/Currency  
+First included in: <a href="Currency.md" target="_blank">applicationCommon/Currency</a>  
 
 #### Properties
 
@@ -284,7 +284,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Unique identifier of the user who last modified the transaction currency.  
-First included in: /core/applicationCommon/Currency.cdm.json/Currency  
+First included in: <a href="Currency.md" target="_blank">applicationCommon/Currency</a>  
 
 #### Properties
 
@@ -329,7 +329,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: /core/applicationCommon/Currency.cdm.json/Currency  
+First included in: <a href="Currency.md" target="_blank">applicationCommon/Currency</a>  
 
 #### Properties
 
@@ -367,7 +367,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: /core/applicationCommon/Currency.cdm.json/Currency  
+First included in: <a href="Currency.md" target="_blank">applicationCommon/Currency</a>  
 
 #### Properties
 
@@ -406,7 +406,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the transaction currency was created.  
-First included in: /core/applicationCommon/Currency.cdm.json/Currency  
+First included in: <a href="Currency.md" target="_blank">applicationCommon/Currency</a>  
 
 #### Properties
 
@@ -445,7 +445,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Unique identifier of the transaction currency.  
-First included in: /core/applicationCommon/Currency.cdm.json/Currency  
+First included in: <a href="Currency.md" target="_blank">applicationCommon/Currency</a>  
 
 #### Properties
 
@@ -484,7 +484,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Exchange rate between the transaction currency and the base currency.  
-First included in: /core/applicationCommon/Currency.cdm.json/Currency  
+First included in: <a href="Currency.md" target="_blank">applicationCommon/Currency</a>  
 
 #### Properties
 
@@ -521,7 +521,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#currencySymbol name="currencySymbol">currencySymbol</a>
 
 Symbol for the transaction currency.  
-First included in: /core/applicationCommon/Currency.cdm.json/Currency  
+First included in: <a href="Currency.md" target="_blank">applicationCommon/Currency</a>  
 
 #### Properties
 
@@ -558,7 +558,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#currencyName name="currencyName">currencyName</a>
 
 Name of the transaction currency.  
-First included in: /core/applicationCommon/Currency.cdm.json/Currency  
+First included in: <a href="Currency.md" target="_blank">applicationCommon/Currency</a>  
 
 #### Properties
 
@@ -596,7 +596,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Unique identifier of the user who created the transaction currency.  
-First included in: /core/applicationCommon/Currency.cdm.json/Currency  
+First included in: <a href="Currency.md" target="_blank">applicationCommon/Currency</a>  
 
 #### Properties
 
@@ -641,7 +641,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#ISOCurrencyCode name="ISOCurrencyCode">ISOCurrencyCode</a>
 
 ISO currency code for the transaction currency.  
-First included in: /core/applicationCommon/Currency.cdm.json/Currency  
+First included in: <a href="Currency.md" target="_blank">applicationCommon/Currency</a>  
 
 #### Properties
 
@@ -678,7 +678,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#organizationId name="organizationId">organizationId</a>
 
 Unique identifier of the organization associated with the transaction currency.  
-First included in: /core/applicationCommon/Currency.cdm.json/Currency  
+First included in: <a href="Currency.md" target="_blank">applicationCommon/Currency</a>  
 
 #### Properties
 
@@ -720,7 +720,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#currencyPrecision name="currencyPrecision">currencyPrecision</a>
 
 Number of decimal places that can be used for currency.  
-First included in: /core/applicationCommon/Currency.cdm.json/Currency  
+First included in: <a href="Currency.md" target="_blank">applicationCommon/Currency</a>  
 
 #### Properties
 
@@ -755,7 +755,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Unique identifier of the delegate user who created the transactioncurrency.  
-First included in: /core/applicationCommon/Currency.cdm.json/Currency  
+First included in: <a href="Currency.md" target="_blank">applicationCommon/Currency</a>  
 
 #### Properties
 
@@ -800,7 +800,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Unique identifier of the delegate user who last modified the transactioncurrency.  
-First included in: /core/applicationCommon/Currency.cdm.json/Currency  
+First included in: <a href="Currency.md" target="_blank">applicationCommon/Currency</a>  
 
 #### Properties
 
@@ -845,7 +845,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#entityImageId name="entityImageId">entityImageId</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/Currency.cdm.json/Currency  
+First included in: <a href="Currency.md" target="_blank">applicationCommon/Currency</a>  
 
 #### Properties
 

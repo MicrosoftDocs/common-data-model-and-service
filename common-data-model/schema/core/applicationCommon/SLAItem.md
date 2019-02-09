@@ -84,7 +84,7 @@ applicationCommon/SLAItem
 ### <a href=#SLAItemId name="SLAItemId">SLAItemId</a>
 
 Unique identifier of the SLA Item.  
-First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem  
+First included in: <a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>  
 
 #### Properties
 
@@ -123,7 +123,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#name name="name">name</a>
 
 Type a descriptive name of the service level agreement (SLA) item.  
-First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem  
+First included in: <a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>  
 
 #### Properties
 
@@ -161,7 +161,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem  
+First included in: <a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>  
 
 #### Properties
 
@@ -203,7 +203,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#description name="description">description</a>
 
 Type additional information to describe the SLA Item  
-First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem  
+First included in: <a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>  
 
 #### Properties
 
@@ -243,7 +243,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#relatedField name="relatedField">relatedField</a>
 
 Select the service level agreement (SLA) key performance indicator (KPI) that this SLA Item is created for.  
-First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem  
+First included in: <a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>  
 
 #### Properties
 
@@ -283,7 +283,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#SLAId name="SLAId">SLAId</a>
 
 Unique identifier for SLA associated with SLA Item.  
-First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem  
+First included in: <a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>  
 
 #### Properties
 
@@ -328,7 +328,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.  
-First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem  
+First included in: <a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>  
 
 #### Properties
 
@@ -367,7 +367,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem  
+First included in: <a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>  
 
 #### Properties
 
@@ -412,7 +412,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.  
-First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem  
+First included in: <a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>  
 
 #### Properties
 
@@ -451,7 +451,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem  
+First included in: <a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>  
 
 #### Properties
 
@@ -496,7 +496,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Exchange rate between the currency associated with the SLA Item record and the base currency.  
-First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem  
+First included in: <a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>  
 
 #### Properties
 
@@ -536,7 +536,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version number of the SLA Item.  
-First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem  
+First included in: <a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>  
 
 #### Properties
 
@@ -572,7 +572,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Unique identifier of the currency associated with the SLA Item record.  
-First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem  
+First included in: <a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>  
 
 #### Properties
 
@@ -617,7 +617,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#applicableWhenXml name="applicableWhenXml">applicableWhenXml</a>
 
 Condition for SLA item  
-First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem  
+First included in: <a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>  
 
 #### Properties
 
@@ -657,7 +657,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#successConditionsXml name="successConditionsXml">successConditionsXml</a>
 
 Condition for SLA item  
-First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem  
+First included in: <a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>  
 
 #### Properties
 
@@ -697,7 +697,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#solutionId name="solutionId">solutionId</a>
 
 Unique identifier of the associated solution.  
-First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem  
+First included in: <a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>  
 
 #### Properties
 
@@ -732,7 +732,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#componentState name="componentState">componentState</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem  
+First included in: <a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>  
 
 #### Properties
 
@@ -769,7 +769,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#componentState_display name="componentState_display">componentState_display</a>
 
-First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem  
+First included in: <a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>  
 
 #### Properties
 
@@ -793,7 +793,7 @@ First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem
 ### <a href=#overwriteTime name="overwriteTime">overwriteTime</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem  
+First included in: <a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>  
 
 #### Properties
 
@@ -828,7 +828,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isManaged name="isManaged">isManaged</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem  
+First included in: <a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>  
 
 #### Properties
 
@@ -860,7 +860,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#SLAItemIdUnique name="SLAItemIdUnique">SLAItemIdUnique</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem  
+First included in: <a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>  
 
 #### Properties
 
@@ -895,7 +895,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#sequenceNumber name="sequenceNumber">sequenceNumber</a>
 
 Select the time zone, or UTC offset, for this address so that other people can reference it when they contact someone at this address.  
-First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem  
+First included in: <a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>  
 
 #### Properties
 
@@ -933,7 +933,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#failureAfter name="failureAfter">failureAfter</a>
 
 Select how soon the success criteria must be met until the SLA item is considered failed and failure actions are initiated. The actual duration is based on the business hours as specified in the associated SLA record.  
-First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem  
+First included in: <a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>  
 
 #### Properties
 
@@ -972,7 +972,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#warnAfter name="warnAfter">warnAfter</a>
 
 Select how soon the success criteria must be met before warning actions are initiated. The actual duration is based on the business hours as specified in the associated SLA record.  
-First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem  
+First included in: <a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>  
 
 #### Properties
 
@@ -1011,7 +1011,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user who owns the SLA Item record.  
-First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem  
+First included in: <a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>  
 
 #### Properties
 
@@ -1053,7 +1053,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem  
+First included in: <a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>  
 
 #### Properties
 
@@ -1092,7 +1092,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem  
+First included in: <a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>  
 
 #### Properties
 
@@ -1137,7 +1137,7 @@ contains a User or Team ID
 ### <a href=#workflowId name="workflowId">workflowId</a>
 
 Workflow associated with the SLA Item.  
-First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem  
+First included in: <a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>  
 
 #### Properties
 
@@ -1179,7 +1179,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem  
+First included in: <a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>  
 
 #### Properties
 
@@ -1224,7 +1224,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem  
+First included in: <a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>  
 
 #### Properties
 

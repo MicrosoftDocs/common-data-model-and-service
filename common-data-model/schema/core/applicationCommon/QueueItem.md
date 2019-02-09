@@ -95,7 +95,7 @@ applicationCommon/QueueItem
 ### <a href=#queueItemId name="queueItemId">queueItemId</a>
 
 Unique identifier of the queue item.  
-First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem  
+First included in: <a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>  
 
 #### Properties
 
@@ -134,7 +134,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#queueId name="queueId">queueId</a>
 
 Choose the queue that the item is assigned to.  
-First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem  
+First included in: <a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>  
 
 #### Properties
 
@@ -179,7 +179,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#objectIdTypeCode name="objectIdTypeCode">objectIdTypeCode</a>
 
 The name of the entity linked by objectId  
-First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem  
+First included in: <a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>  
 
 #### Properties
 
@@ -212,7 +212,7 @@ Marks an attribute that contains the entity name or 'class' for the situation wh
 ### <a href=#objectId name="objectId">objectId</a>
 
 Choose the activity, case, or article assigned to the queue.  
-First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem  
+First included in: <a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>  
 
 #### Properties
 
@@ -257,7 +257,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#objectTypeCode name="objectTypeCode">objectTypeCode</a>
 
 Select the type of the queue item, such as activity, case, or appointment.  
-First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem  
+First included in: <a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>  
 
 #### Properties
 
@@ -297,7 +297,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#objectTypeCode_display name="objectTypeCode_display">objectTypeCode_display</a>
 
-First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem  
+First included in: <a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>  
 
 #### Properties
 
@@ -321,7 +321,7 @@ First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem
 ### <a href=#title name="title">title</a>
 
 Shows the title or name that describes the queue record. This value is copied from the record that was assigned to the queue.  
-First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem  
+First included in: <a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>  
 
 #### Properties
 
@@ -361,7 +361,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#enteredOn name="enteredOn">enteredOn</a>
 
 Shows the date the record was assigned to the queue.  
-First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem  
+First included in: <a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>  
 
 #### Properties
 
@@ -399,7 +399,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#priority name="priority">priority</a>
 
 Priority of the queue item.  
-First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem  
+First included in: <a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>  
 
 #### Properties
 
@@ -437,7 +437,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#state name="state">state</a>
 
 Status of the queue item.  
-First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem  
+First included in: <a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>  
 
 #### Properties
 
@@ -475,7 +475,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#status name="status">status</a>
 
 Reason for the status of the queue item.  
-First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem  
+First included in: <a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>  
 
 #### Properties
 
@@ -513,7 +513,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.  
-First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem  
+First included in: <a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>  
 
 #### Properties
 
@@ -552,7 +552,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem  
+First included in: <a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>  
 
 #### Properties
 
@@ -597,7 +597,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem  
+First included in: <a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>  
 
 #### Properties
 
@@ -642,7 +642,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.  
-First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem  
+First included in: <a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>  
 
 #### Properties
 
@@ -681,7 +681,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#toRecipients name="toRecipients">toRecipients</a>
 
 Recipients listed on the To line of the message for email queue items.  
-First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem  
+First included in: <a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>  
 
 #### Properties
 
@@ -721,7 +721,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#sender name="sender">sender</a>
 
 Sender who created the queue item.  
-First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem  
+First included in: <a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>  
 
 #### Properties
 
@@ -761,7 +761,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#organizationId name="organizationId">organizationId</a>
 
 Unique identifier of the organization with which the queue item is associated.  
-First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem  
+First included in: <a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>  
 
 #### Properties
 
@@ -803,7 +803,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version number of the queue item.  
-First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem  
+First included in: <a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>  
 
 #### Properties
 
@@ -839,7 +839,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem  
+First included in: <a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>  
 
 #### Properties
 
@@ -877,7 +877,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem  
+First included in: <a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>  
 
 #### Properties
 
@@ -915,7 +915,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem  
+First included in: <a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>  
 
 #### Properties
 
@@ -954,7 +954,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#workerIdModifiedOn name="workerIdModifiedOn">workerIdModifiedOn</a>
 
 Shows the date and time when the queue item was last assigned to a user.  
-First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem  
+First included in: <a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>  
 
 #### Properties
 
@@ -993,7 +993,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem  
+First included in: <a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>  
 
 #### Properties
 
@@ -1032,7 +1032,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem  
+First included in: <a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>  
 
 #### Properties
 
@@ -1077,7 +1077,7 @@ contains a User or Team ID
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user who owns the queue item.  
-First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem  
+First included in: <a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>  
 
 #### Properties
 
@@ -1119,7 +1119,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#workerIdType name="workerIdType">workerIdType</a>
 
 The name of the entity linked by workerId  
-First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem  
+First included in: <a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>  
 
 #### Properties
 
@@ -1152,7 +1152,7 @@ Marks an attribute that contains the entity name or 'class' for the situation wh
 ### <a href=#workerId name="workerId">workerId</a>
 
 Shows who is working on the queue item.  
-First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem  
+First included in: <a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>  
 
 #### Properties
 
@@ -1197,7 +1197,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier of the business unit that owns the queue item.  
-First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem  
+First included in: <a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>  
 
 #### Properties
 
@@ -1239,7 +1239,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Select the item's status.  
-First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem  
+First included in: <a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>  
 
 #### Properties
 
@@ -1279,7 +1279,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem  
+First included in: <a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>  
 
 #### Properties
 
@@ -1303,7 +1303,7 @@ First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Shows whether the queue record is active or inactive. Inactive queue records are read-only and can't be edited unless they are reactivated.  
-First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem  
+First included in: <a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>  
 
 #### Properties
 
@@ -1343,7 +1343,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem  
+First included in: <a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>  
 
 #### Properties
 
@@ -1367,7 +1367,7 @@ First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem  
+First included in: <a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>  
 
 #### Properties
 
@@ -1412,7 +1412,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Unique identifier of the delegate user who last modified the queueitem.  
-First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem  
+First included in: <a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>  
 
 #### Properties
 
@@ -1457,7 +1457,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Choose the local currency for the record to make sure budgets are reported in the correct currency.  
-First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem  
+First included in: <a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>  
 
 #### Properties
 
@@ -1502,7 +1502,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.  
-First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem  
+First included in: <a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>  
 
 #### Properties
 
@@ -1542,7 +1542,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem  
+First included in: <a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>  
 
 #### Properties
 

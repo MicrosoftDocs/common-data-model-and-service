@@ -73,7 +73,7 @@ applicationCommon/Territory
 ### <a href=#territoryId name="territoryId">territoryId</a>
 
 Unique identifier of the territory.  
-First included in: /core/applicationCommon/Territory.cdm.json/Territory  
+First included in: <a href="Territory.md" target="_blank">applicationCommon/Territory</a>  
 
 #### Properties
 
@@ -112,7 +112,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: /core/applicationCommon/Territory.cdm.json/Territory  
+First included in: <a href="Territory.md" target="_blank">applicationCommon/Territory</a>  
 
 #### Properties
 
@@ -151,7 +151,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Unique identifier of the user who created the territory.  
-First included in: /core/applicationCommon/Territory.cdm.json/Territory  
+First included in: <a href="Territory.md" target="_blank">applicationCommon/Territory</a>  
 
 #### Properties
 
@@ -196,7 +196,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: /core/applicationCommon/Territory.cdm.json/Territory  
+First included in: <a href="Territory.md" target="_blank">applicationCommon/Territory</a>  
 
 #### Properties
 
@@ -235,7 +235,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Unique identifier of the user who last modified the territory.  
-First included in: /core/applicationCommon/Territory.cdm.json/Territory  
+First included in: <a href="Territory.md" target="_blank">applicationCommon/Territory</a>  
 
 #### Properties
 
@@ -280,7 +280,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Unique identifier of the delegate user who created the territory.  
-First included in: /core/applicationCommon/Territory.cdm.json/Territory  
+First included in: <a href="Territory.md" target="_blank">applicationCommon/Territory</a>  
 
 #### Properties
 
@@ -325,7 +325,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Unique identifier of the delegate user who last modified the territory.  
-First included in: /core/applicationCommon/Territory.cdm.json/Territory  
+First included in: <a href="Territory.md" target="_blank">applicationCommon/Territory</a>  
 
 #### Properties
 
@@ -370,7 +370,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#organizationId name="organizationId">organizationId</a>
 
 Unique identifier for the organization  
-First included in: /core/applicationCommon/Territory.cdm.json/Territory  
+First included in: <a href="Territory.md" target="_blank">applicationCommon/Territory</a>  
 
 #### Properties
 
@@ -412,7 +412,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: /core/applicationCommon/Territory.cdm.json/Territory  
+First included in: <a href="Territory.md" target="_blank">applicationCommon/Territory</a>  
 
 #### Properties
 
@@ -448,7 +448,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: /core/applicationCommon/Territory.cdm.json/Territory  
+First included in: <a href="Territory.md" target="_blank">applicationCommon/Territory</a>  
 
 #### Properties
 
@@ -486,7 +486,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: /core/applicationCommon/Territory.cdm.json/Territory  
+First included in: <a href="Territory.md" target="_blank">applicationCommon/Territory</a>  
 
 #### Properties
 
@@ -525,7 +525,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/Territory.cdm.json/Territory  
+First included in: <a href="Territory.md" target="_blank">applicationCommon/Territory</a>  
 
 #### Properties
 
@@ -563,7 +563,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: /core/applicationCommon/Territory.cdm.json/Territory  
+First included in: <a href="Territory.md" target="_blank">applicationCommon/Territory</a>  
 
 #### Properties
 
@@ -601,7 +601,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#name name="name">name</a>
 
 Name of the territory.  
-First included in: /core/applicationCommon/Territory.cdm.json/Territory  
+First included in: <a href="Territory.md" target="_blank">applicationCommon/Territory</a>  
 
 #### Properties
 
@@ -639,7 +639,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#description name="description">description</a>
 
 Description of the territory.  
-First included in: /core/applicationCommon/Territory.cdm.json/Territory  
+First included in: <a href="Territory.md" target="_blank">applicationCommon/Territory</a>  
 
 #### Properties
 
@@ -679,7 +679,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#managerId name="managerId">managerId</a>
 
 Unique identifier of the manager of the territory.  
-First included in: /core/applicationCommon/Territory.cdm.json/Territory  
+First included in: <a href="Territory.md" target="_blank">applicationCommon/Territory</a>  
 
 #### Properties
 
@@ -723,7 +723,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 
 ### <a href=#entityImageId name="entityImageId">entityImageId</a>
 
-First included in: /core/applicationCommon/Territory.cdm.json/Territory  
+First included in: <a href="Territory.md" target="_blank">applicationCommon/Territory</a>  
 
 #### Properties
 
@@ -755,7 +755,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Exchange rate for the currency associated with the territory with respect to the base currency.  
-First included in: /core/applicationCommon/Territory.cdm.json/Territory  
+First included in: <a href="Territory.md" target="_blank">applicationCommon/Territory</a>  
 
 #### Properties
 
@@ -795,7 +795,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Unique identifier of the currency associated with the territory.  
-First included in: /core/applicationCommon/Territory.cdm.json/Territory  
+First included in: <a href="Territory.md" target="_blank">applicationCommon/Territory</a>  
 
 #### Properties
 

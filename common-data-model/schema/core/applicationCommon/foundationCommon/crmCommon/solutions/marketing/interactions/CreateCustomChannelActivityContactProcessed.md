@@ -54,7 +54,7 @@ interactions/CreateCustomChannelActivityContactProcessed
 ### <a href=#interactionId name="interactionId">interactionId</a>
 
 Unique identifier of the interaction.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/CreateCustomChannelActivityContactProcessed.cdm.json/CreateCustomChannelActivityContactProcessed  
+First included in: <a href="CreateCustomChannelActivityContactProcessed.md" target="_blank">interactions/CreateCustomChannelActivityContactProcessed</a>  
 
 #### Properties
 
@@ -91,7 +91,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#customerJourneyId name="customerJourneyId">customerJourneyId</a>
 
 Customer journey  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/CreateCustomChannelActivityContactProcessed.cdm.json/CreateCustomChannelActivityContactProcessed  
+First included in: <a href="CreateCustomChannelActivityContactProcessed.md" target="_blank">interactions/CreateCustomChannelActivityContactProcessed</a>  
 
 #### Properties
 
@@ -133,7 +133,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#contactId name="contactId">contactId</a>
 
 Contact  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/CreateCustomChannelActivityContactProcessed.cdm.json/CreateCustomChannelActivityContactProcessed  
+First included in: <a href="CreateCustomChannelActivityContactProcessed.md" target="_blank">interactions/CreateCustomChannelActivityContactProcessed</a>  
 
 #### Properties
 
@@ -175,7 +175,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#accountId name="accountId">accountId</a>
 
 Account  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/CreateCustomChannelActivityContactProcessed.cdm.json/CreateCustomChannelActivityContactProcessed  
+First included in: <a href="CreateCustomChannelActivityContactProcessed.md" target="_blank">interactions/CreateCustomChannelActivityContactProcessed</a>  
 
 #### Properties
 
@@ -217,7 +217,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#organizationId name="organizationId">organizationId</a>
 
 Organization ID  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/CreateCustomChannelActivityContactProcessed.cdm.json/CreateCustomChannelActivityContactProcessed  
+First included in: <a href="CreateCustomChannelActivityContactProcessed.md" target="_blank">interactions/CreateCustomChannelActivityContactProcessed</a>  
 
 #### Properties
 
@@ -248,7 +248,7 @@ The attribute value may be set to NULL.
 ### <a href=#activityId name="activityId">activityId</a>
 
 Activity ID  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/CreateCustomChannelActivityContactProcessed.cdm.json/CreateCustomChannelActivityContactProcessed  
+First included in: <a href="CreateCustomChannelActivityContactProcessed.md" target="_blank">interactions/CreateCustomChannelActivityContactProcessed</a>  
 
 #### Properties
 
@@ -279,7 +279,7 @@ The attribute value may be set to NULL.
 ### <a href=#workflowId name="workflowId">workflowId</a>
 
 Workflow ID  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/CreateCustomChannelActivityContactProcessed.cdm.json/CreateCustomChannelActivityContactProcessed  
+First included in: <a href="CreateCustomChannelActivityContactProcessed.md" target="_blank">interactions/CreateCustomChannelActivityContactProcessed</a>  
 
 #### Properties
 
@@ -310,7 +310,7 @@ The attribute value may be set to NULL.
 ### <a href=#customerJourneyIterationId name="customerJourneyIterationId">customerJourneyIterationId</a>
 
 Customer journey iteration ID  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/CreateCustomChannelActivityContactProcessed.cdm.json/CreateCustomChannelActivityContactProcessed  
+First included in: <a href="CreateCustomChannelActivityContactProcessed.md" target="_blank">interactions/CreateCustomChannelActivityContactProcessed</a>  
 
 #### Properties
 
@@ -341,7 +341,7 @@ The attribute value may be set to NULL.
 ### <a href=#interactionType name="interactionType">interactionType</a>
 
 Interaction type  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/CreateCustomChannelActivityContactProcessed.cdm.json/CreateCustomChannelActivityContactProcessed  
+First included in: <a href="CreateCustomChannelActivityContactProcessed.md" target="_blank">interactions/CreateCustomChannelActivityContactProcessed</a>  
 
 #### Properties
 
@@ -372,7 +372,7 @@ The attribute value may be set to NULL.
 ### <a href=#timestamp name="timestamp">timestamp</a>
 
 Timestamp  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/CreateCustomChannelActivityContactProcessed.cdm.json/CreateCustomChannelActivityContactProcessed  
+First included in: <a href="CreateCustomChannelActivityContactProcessed.md" target="_blank">interactions/CreateCustomChannelActivityContactProcessed</a>  
 
 #### Properties
 

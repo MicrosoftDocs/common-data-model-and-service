@@ -152,7 +152,7 @@ electronicMedicalRecords/EmrAppointment
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -191,7 +191,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -239,7 +239,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -278,7 +278,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -326,7 +326,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -374,7 +374,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -422,7 +422,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -461,7 +461,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -496,7 +496,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -535,7 +535,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -580,7 +580,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -625,7 +625,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -673,7 +673,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -718,7 +718,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -756,7 +756,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -794,7 +794,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -831,7 +831,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#actualEnd name="actualEnd">actualEnd</a>
 
 Actual end time of the activity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -869,7 +869,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#activityId name="activityId">activityId</a>
 
 Unique identifier of the activity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -911,7 +911,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#isBilled name="isBilled">isBilled</a>
 
 Information regarding whether the activity was billed as part of resolving a case.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -946,7 +946,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#description name="description">description</a>
 
 Description of the activity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -986,7 +986,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#activityTypeCode name="activityTypeCode">activityTypeCode</a>
 
 Type of activity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -1023,7 +1023,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#activityTypeCode_display name="activityTypeCode_display">activityTypeCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -1047,7 +1047,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Status of the activity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -1087,7 +1087,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -1111,7 +1111,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#scheduledEnd name="scheduledEnd">scheduledEnd</a>
 
 Scheduled end time of the activity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -1149,7 +1149,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#scheduledDurationMinutes name="scheduledDurationMinutes">scheduledDurationMinutes</a>
 
 Scheduled duration of the activity, specified in minutes.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -1188,7 +1188,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#actualDurationMinutes name="actualDurationMinutes">actualDurationMinutes</a>
 
 Actual duration of the activity in minutes.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -1227,7 +1227,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Reason for the status of the activity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -1270,7 +1270,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -1294,7 +1294,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#actualStart name="actualStart">actualStart</a>
 
 Actual start time of the activity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -1332,7 +1332,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#priorityCode name="priorityCode">priorityCode</a>
 
 Priority of the activity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -1372,7 +1372,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#priorityCode_display name="priorityCode_display">priorityCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -1396,7 +1396,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#regardingObjectId name="regardingObjectId">regardingObjectId</a>
 
 Unique identifier of the object with which the activity is associated.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -1441,7 +1441,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#subject name="subject">subject</a>
 
 Subject associated with the activity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -1481,7 +1481,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#isWorkflowCreated name="isWorkflowCreated">isWorkflowCreated</a>
 
 Information regarding whether the activity was created from a workflow rule.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -1516,7 +1516,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#scheduledStart name="scheduledStart">scheduledStart</a>
 
 Scheduled start time of the activity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -1554,7 +1554,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#instanceTypeCode name="instanceTypeCode">instanceTypeCode</a>
 
 Type of instance of a recurring series.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -1591,7 +1591,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#instanceTypeCode_display name="instanceTypeCode_display">instanceTypeCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -1615,7 +1615,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#seriesId name="seriesId">seriesId</a>
 
 Uniqueidentifier specifying the id of recurring series of an instance.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -1653,7 +1653,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isRegularActivity name="isRegularActivity">isRegularActivity</a>
 
 Information regarding whether the activity is a regular activity type or event type.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -1685,7 +1685,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Unique identifier of the currency associated with the activitypointer.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -1730,7 +1730,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Exchange rate for the currency associated with the activitypointer with respect to the base currency.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -1770,7 +1770,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#leftVoiceMail name="leftVoiceMail">leftVoiceMail</a>
 
 Left the voice mail  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -1805,7 +1805,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#community name="community">community</a>
 
 Shows how contact about the social activity originated, such as from Twitter or Facebook. This field is read-only.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -1845,7 +1845,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#community_display name="community_display">community_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -1869,7 +1869,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#traversedPath name="traversedPath">traversedPath</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -1909,7 +1909,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#isMapiPrivate name="isMapiPrivate">isMapiPrivate</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -1944,7 +1944,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#exchangeWebLink name="exchangeWebLink">exchangeWebLink</a>
 
 Shows the web link of Activity of type email.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -1984,7 +1984,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#exchangeItemId name="exchangeItemId">exchangeItemId</a>
 
 The message id of activity which is returned from Exchange Server.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -2024,7 +2024,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#deliveryPriorityCode name="deliveryPriorityCode">deliveryPriorityCode</a>
 
 Priority of delivery of the activity to the email server.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -2064,7 +2064,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#deliveryPriorityCode_display name="deliveryPriorityCode_display">deliveryPriorityCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -2088,7 +2088,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#sentOn name="sentOn">sentOn</a>
 
 Date and time when the activity was sent.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -2126,7 +2126,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#deliveryLastAttemptedOn name="deliveryLastAttemptedOn">deliveryLastAttemptedOn</a>
 
 Date and time when the delivery of the activity was last attempted.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -2164,7 +2164,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#senderMailboxId name="senderMailboxId">senderMailboxId</a>
 
 Unique identifier of the mailbox associated with the sender of the email message.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -2206,7 +2206,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#postponeActivityProcessingUntil name="postponeActivityProcessingUntil">postponeActivityProcessingUntil</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -2244,7 +2244,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#processId name="processId">processId</a>
 
 Unique identifier of the Process.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -2282,7 +2282,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stageId name="stageId">stageId</a>
 
 Unique identifier of the Stage.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -2320,7 +2320,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#activityAdditionalParams name="activityAdditionalParams">activityAdditionalParams</a>
 
 Additional information provided by the external application as JSON. For internal use only.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -2360,7 +2360,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#SLAId name="SLAId">SLAId</a>
 
 Choose the service level agreement (SLA) that you want to apply to the case record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -2405,7 +2405,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#SLAInvokedId name="SLAInvokedId">SLAInvokedId</a>
 
 Last SLA that was applied to this case. This field is for internal use only.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -2450,7 +2450,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#onHoldTime name="onHoldTime">onHoldTime</a>
 
 Shows how long, in minutes, that the record was on hold.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -2488,7 +2488,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#lastOnHoldTime name="lastOnHoldTime">lastOnHoldTime</a>
 
 Contains the date and time stamp of the last on hold time.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -2526,7 +2526,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#sortDate name="sortDate">sortDate</a>
 
 Shows the date and time by which the activities are sorted.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -2564,7 +2564,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#serviceId name="serviceId">serviceId</a>
 
 Unique identifier of an associated service.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -2609,7 +2609,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#from name="from">from</a>
 
 Person who the activity is from.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -2653,7 +2653,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#to name="to">to</a>
 
 Person who is the receiver of the activity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -2697,7 +2697,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#CC name="CC">CC</a>
 
 Carbon-copy (cc) recipients of the activity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -2741,7 +2741,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#BCC name="BCC">BCC</a>
 
 Blind Carbon-copy (bcc) recipients of the activity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -2785,7 +2785,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#requiredAttendees name="requiredAttendees">requiredAttendees</a>
 
 List of required attendees for the activity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -2829,7 +2829,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#optionalAttendees name="optionalAttendees">optionalAttendees</a>
 
 List of optional attendees for the activity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -2873,7 +2873,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#organizer name="organizer">organizer</a>
 
 Person who organized the activity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -2917,7 +2917,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#resources name="resources">resources</a>
 
 Users or facility/equipment that are required for the activity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -2961,7 +2961,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#customers name="customers">customers</a>
 
 Customer with which the activity is associated.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -3005,7 +3005,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#partners name="partners">partners</a>
 
 Outsource vendor with which activity is associated.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -3049,7 +3049,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#actorDevice name="actorDevice">actorDevice</a>
 
 Name of the Person, Location/HealthcareService or Device.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -3094,7 +3094,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#actorLocation name="actorLocation">actorLocation</a>
 
 Name of the Person, Location/HealthcareService or Device.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -3139,7 +3139,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#actorPatient name="actorPatient">actorPatient</a>
 
 Name of the Person, Location/HealthcareService or Device.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -3184,7 +3184,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#actorPractitioner name="actorPractitioner">actorPractitioner</a>
 
 Name of the Person, Location/HealthcareService or Device.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -3229,7 +3229,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#actorRelatedPerson name="actorRelatedPerson">actorRelatedPerson</a>
 
 Name of the Person, Location/HealthcareService or Device.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -3274,7 +3274,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#appointmentCreationDate name="appointmentCreationDate">appointmentCreationDate</a>
 
 When appointment is to take place  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -3313,7 +3313,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#appointmentType name="appointmentType">appointmentType</a>
 
 The style of appointment or patient that has been booked in the slot.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -3355,7 +3355,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#comment name="comment">comment</a>
 
 Additional comments about the appointment.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -3395,7 +3395,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#emrDescription name="emrDescription">emrDescription</a>
 
 The brief description of the appointment as would be shown on a subject line in a meeting request, or appointment list. Detailed or expanded information should be put in the comment field.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -3435,7 +3435,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#endTime name="endTime">endTime</a>
 
 End time of an appointment.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -3473,7 +3473,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#minutesDuration name="minutesDuration">minutesDuration</a>
 
 Number of minutes that the appointment is to take. This can be less than the duration between the start and end times (where actual time of appointment is only an estimate or is a planned appointment.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -3511,7 +3511,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#participantActorType name="participantActorType">participantActorType</a>
 
 Type of appointment participant.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -3551,7 +3551,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#participantActorType_display name="participantActorType_display">participantActorType_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -3575,7 +3575,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#participantStatus name="participantStatus">participantStatus</a>
 
 The Participation status of an appointment.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -3615,7 +3615,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#participantStatus_display name="participantStatus_display">participantStatus_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -3639,7 +3639,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#particpantType name="particpantType">particpantType</a>
 
 Role of the participant in the appointment.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -3684,7 +3684,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#patientInstruction name="patientInstruction">patientInstruction</a>
 
 Detailed information and instructions for the patient.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -3724,7 +3724,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#priority name="priority">priority</a>
 
 The priority of the appointment. Can be used to make informed decisions if needing to re-prioritize appointments. (The iCal Standard specifies 0 as undefined, 1 as highest, 9 as lowest priority).  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -3762,7 +3762,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#required name="required">required</a>
 
 Is the Participant required to attend the appointment.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -3802,7 +3802,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#required_display name="required_display">required_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -3826,7 +3826,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#serviceCategory name="serviceCategory">serviceCategory</a>
 
 A broad categorization of the service that is to be performed during this appointment.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -3871,7 +3871,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#startTime name="startTime">startTime</a>
 
 Start time of an appointment.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -3909,7 +3909,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#status name="status">status</a>
 
 Codes providing the status of an appointment.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 
@@ -3954,7 +3954,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#supportingInformation name="supportingInformation">supportingInformation</a>
 
 Additional information may be attachments to support or provide more insight for an appointment.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+First included in: <a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>  
 
 #### Properties
 

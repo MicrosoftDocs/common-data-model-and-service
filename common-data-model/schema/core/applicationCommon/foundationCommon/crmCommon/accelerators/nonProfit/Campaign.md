@@ -129,7 +129,7 @@ nonProfit/Campaign
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign  
+First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaign</a>  
 
 #### Properties
 
@@ -168,7 +168,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign  
+First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaign</a>  
 
 #### Properties
 
@@ -216,7 +216,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign  
+First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaign</a>  
 
 #### Properties
 
@@ -255,7 +255,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign  
+First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaign</a>  
 
 #### Properties
 
@@ -303,7 +303,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign  
+First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaign</a>  
 
 #### Properties
 
@@ -351,7 +351,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign  
+First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaign</a>  
 
 #### Properties
 
@@ -399,7 +399,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign  
+First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaign</a>  
 
 #### Properties
 
@@ -438,7 +438,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign  
+First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaign</a>  
 
 #### Properties
 
@@ -473,7 +473,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign  
+First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaign</a>  
 
 #### Properties
 
@@ -512,7 +512,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign  
+First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaign</a>  
 
 #### Properties
 
@@ -557,7 +557,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign  
+First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaign</a>  
 
 #### Properties
 
@@ -602,7 +602,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign  
+First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaign</a>  
 
 #### Properties
 
@@ -650,7 +650,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign  
+First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaign</a>  
 
 #### Properties
 
@@ -695,7 +695,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign  
+First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaign</a>  
 
 #### Properties
 
@@ -733,7 +733,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign  
+First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaign</a>  
 
 #### Properties
 
@@ -771,7 +771,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign  
+First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaign</a>  
 
 #### Properties
 
@@ -808,7 +808,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#campaignId name="campaignId">campaignId</a>
 
 Unique identifier of the campaign.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign  
+First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaign</a>  
 
 #### Properties
 
@@ -847,7 +847,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#emailAddress name="emailAddress">emailAddress</a>
 
 The primary email address for the entity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign  
+First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaign</a>  
 
 #### Properties
 
@@ -888,7 +888,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#name name="name">name</a>
 
 Type a name for the campaign so that it is identified correctly in lists.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign  
+First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaign</a>  
 
 #### Properties
 
@@ -926,7 +926,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#processId name="processId">processId</a>
 
 Contains the id of the process associated with the entity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign  
+First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaign</a>  
 
 #### Properties
 
@@ -964,7 +964,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stageId name="stageId">stageId</a>
 
 Contains the id of the stage where the entity is located.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign  
+First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaign</a>  
 
 #### Properties
 
@@ -1002,7 +1002,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#traversedPath name="traversedPath">traversedPath</a>
 
 A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign  
+First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaign</a>  
 
 #### Properties
 
@@ -1042,7 +1042,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#actualEnd name="actualEnd">actualEnd</a>
 
 Enter the date when the campaign was closed or completed.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign  
+First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaign</a>  
 
 #### Properties
 
@@ -1080,7 +1080,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#actualStart name="actualStart">actualStart</a>
 
 Enter the actual start date and time for the campaign.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign  
+First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaign</a>  
 
 #### Properties
 
@@ -1118,7 +1118,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#budgetedCost name="budgetedCost">budgetedCost</a>
 
 Type the amount budgeted for the campaign to define a limit for how much you can spend.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign  
+First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaign</a>  
 
 #### Properties
 
@@ -1159,7 +1159,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Choose the local currency for the record to make sure budgets are reported in the correct currency.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign  
+First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaign</a>  
 
 #### Properties
 
@@ -1204,7 +1204,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign  
+First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaign</a>  
 
 #### Properties
 
@@ -1244,7 +1244,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#budgetedCostBase name="budgetedCostBase">budgetedCostBase</a>
 
 Value of the Budget Allocated in base currency.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign  
+First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaign</a>  
 
 #### Properties
 
@@ -1288,7 +1288,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#codeName name="codeName">codeName</a>
 
 Type a number or other tracking code to identify the campaign. If no value is entered, a code will be generated automatically.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign  
+First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaign</a>  
 
 #### Properties
 
@@ -1329,7 +1329,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#description name="description">description</a>
 
 Type additional information to describe the campaign, such as the products or services offered or the targeted audience.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign  
+First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaign</a>  
 
 #### Properties
 
@@ -1369,7 +1369,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#expectedResponse name="expectedResponse">expectedResponse</a>
 
 Type the expected response rate for the campaign as a full number between 0 and 100.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign  
+First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaign</a>  
 
 #### Properties
 
@@ -1407,7 +1407,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#expectedRevenue name="expectedRevenue">expectedRevenue</a>
 
 Type the expected revenue for the campaign for return on investment projections and post-campaign reporting.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign  
+First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaign</a>  
 
 #### Properties
 
@@ -1448,7 +1448,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#expectedRevenueBase name="expectedRevenueBase">expectedRevenueBase</a>
 
 Value of the Estimated Revenue in base currency.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign  
+First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaign</a>  
 
 #### Properties
 
@@ -1492,7 +1492,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#isTemplate name="isTemplate">isTemplate</a>
 
 Select whether the campaign is a template that can be copied when you create future campaigns.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign  
+First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaign</a>  
 
 #### Properties
 
@@ -1527,7 +1527,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#message name="message">message</a>
 
 Type the promotional message or marketing copy for the campaign.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign  
+First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaign</a>  
 
 #### Properties
 
@@ -1567,7 +1567,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#objective name="objective">objective</a>
 
 Type the objective of the campaign, including products, services, discounts, and pricing.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign  
+First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaign</a>  
 
 #### Properties
 
@@ -1607,7 +1607,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#otherCost name="otherCost">otherCost</a>
 
 Type the sum of any miscellaneous campaign costs not included in the campaign activities to make sure the actual cost of the campaign is calculated correctly.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign  
+First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaign</a>  
 
 #### Properties
 
@@ -1648,7 +1648,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#otherCostBase name="otherCostBase">otherCostBase</a>
 
 Value of the Miscellaneous Costs in base currency.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign  
+First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaign</a>  
 
 #### Properties
 
@@ -1692,7 +1692,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#promotionCodeName name="promotionCodeName">promotionCodeName</a>
 
 Type a promotional code to track sales related to the campaign or allow customers to redeem a discount offer.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign  
+First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaign</a>  
 
 #### Properties
 
@@ -1733,7 +1733,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#proposedEnd name="proposedEnd">proposedEnd</a>
 
 Enter the date when the campaign is scheduled to end.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign  
+First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaign</a>  
 
 #### Properties
 
@@ -1771,7 +1771,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#proposedStart name="proposedStart">proposedStart</a>
 
 Enter the date when the campaign is scheduled to start.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign  
+First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaign</a>  
 
 #### Properties
 
@@ -1809,7 +1809,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Shows the status of the campaign. By default, campaigns are active and can't be deactivated.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign  
+First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaign</a>  
 
 #### Properties
 
@@ -1849,7 +1849,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign  
+First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaign</a>  
 
 #### Properties
 
@@ -1873,7 +1873,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Select the campaign's status.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign  
+First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaign</a>  
 
 #### Properties
 
@@ -1916,7 +1916,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign  
+First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaign</a>  
 
 #### Properties
 
@@ -1940,7 +1940,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 ### <a href=#totalActualCost name="totalActualCost">totalActualCost</a>
 
 Shows the sum of the amounts entered in the Total Cost of Campaign Activities and Miscellaneous Costs fields.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign  
+First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaign</a>  
 
 #### Properties
 
@@ -1981,7 +1981,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#totalActualCostBase name="totalActualCostBase">totalActualCostBase</a>
 
 Value of the Total Cost of Campaign in base currency.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign  
+First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaign</a>  
 
 #### Properties
 
@@ -2025,7 +2025,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#totalCampaignActivityActualCost name="totalCampaignActivityActualCost">totalCampaignActivityActualCost</a>
 
 Shows the sum of the values entered in the Actual Cost field on all campaign activities related to the campaign.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign  
+First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaign</a>  
 
 #### Properties
 
@@ -2066,7 +2066,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#totalCampaignActivityActualCostBase name="totalCampaignActivityActualCostBase">totalCampaignActivityActualCostBase</a>
 
 Value of the Total Cost of Campaign Activities in base currency.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign  
+First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaign</a>  
 
 #### Properties
 
@@ -2110,7 +2110,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#typeCode name="typeCode">typeCode</a>
 
 Select the type of the campaign.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign  
+First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaign</a>  
 
 #### Properties
 
@@ -2150,7 +2150,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#typeCode_display name="typeCode_display">typeCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign  
+First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaign</a>  
 
 #### Properties
 
@@ -2174,7 +2174,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 ### <a href=#priceListId name="priceListId">priceListId</a>
 
 Choose the price list associated with this item to make sure the products associated with the campaign are offered at the correct prices.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign  
+First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaign</a>  
 
 #### Properties
 
@@ -2218,7 +2218,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 
 ### <a href=#entityImageId name="entityImageId">entityImageId</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign  
+First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaign</a>  
 
 #### Properties
 
@@ -2250,7 +2250,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#appealSegment name="appealSegment">appealSegment</a>
 
 Giving level or operational area the Campaign is soliciting.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Campaign.cdm.json/Campaign  
+First included in: <a href="Campaign.md" target="_blank">nonProfit/Campaign</a>  
 
 #### Properties
 
@@ -2290,7 +2290,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#appealSegment_display name="appealSegment_display">appealSegment_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Campaign.cdm.json/Campaign  
+First included in: <a href="Campaign.md" target="_blank">nonProfit/Campaign</a>  
 
 #### Properties
 
@@ -2314,7 +2314,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#aquisitionSource name="aquisitionSource">aquisitionSource</a>
 
 Source of the donors solicited for the campaign  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Campaign.cdm.json/Campaign  
+First included in: <a href="Campaign.md" target="_blank">nonProfit/Campaign</a>  
 
 #### Properties
 
@@ -2354,7 +2354,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#campaignDefaultDesignation name="campaignDefaultDesignation">campaignDefaultDesignation</a>
 
 Unique identifier for Designation associated with Campaign.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Campaign.cdm.json/Campaign  
+First included in: <a href="Campaign.md" target="_blank">nonProfit/Campaign</a>  
 
 #### Properties
 
@@ -2399,7 +2399,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#campaignCategory name="campaignCategory">campaignCategory</a>
 
 Assigned manually by the organization, this field is used for downstream analytics  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Campaign.cdm.json/Campaign  
+First included in: <a href="Campaign.md" target="_blank">nonProfit/Campaign</a>  
 
 #### Properties
 
@@ -2439,7 +2439,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#campaignCategory_display name="campaignCategory_display">campaignCategory_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Campaign.cdm.json/Campaign  
+First included in: <a href="Campaign.md" target="_blank">nonProfit/Campaign</a>  
 
 #### Properties
 
@@ -2463,7 +2463,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#campaignType name="campaignType">campaignType</a>
 
 Type of gifts the Campaign is soliciting.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Campaign.cdm.json/Campaign  
+First included in: <a href="Campaign.md" target="_blank">nonProfit/Campaign</a>  
 
 #### Properties
 
@@ -2503,7 +2503,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#campaignType_display name="campaignType_display">campaignType_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Campaign.cdm.json/Campaign  
+First included in: <a href="Campaign.md" target="_blank">nonProfit/Campaign</a>  
 
 #### Properties
 
@@ -2527,7 +2527,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#channel name="channel">channel</a>
 
 Method in which the Campaign will be communicated to constituents.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Campaign.cdm.json/Campaign  
+First included in: <a href="Campaign.md" target="_blank">nonProfit/Campaign</a>  
 
 #### Properties
 
@@ -2567,7 +2567,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#channel_display name="channel_display">channel_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Campaign.cdm.json/Campaign  
+First included in: <a href="Campaign.md" target="_blank">nonProfit/Campaign</a>  
 
 #### Properties
 
@@ -2591,7 +2591,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#effort name="effort">effort</a>
 
 Number of times correspondence has been sent this Campaign.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Campaign.cdm.json/Campaign  
+First included in: <a href="Campaign.md" target="_blank">nonProfit/Campaign</a>  
 
 #### Properties
 
@@ -2631,7 +2631,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#effort_display name="effort_display">effort_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Campaign.cdm.json/Campaign  
+First included in: <a href="Campaign.md" target="_blank">nonProfit/Campaign</a>  
 
 #### Properties
 
@@ -2655,7 +2655,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#firstResponseDate name="firstResponseDate">firstResponseDate</a>
 
 Date the first response was received against the campaign  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Campaign.cdm.json/Campaign  
+First included in: <a href="Campaign.md" target="_blank">nonProfit/Campaign</a>  
 
 #### Properties
 
@@ -2693,7 +2693,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#lastResponseDate name="lastResponseDate">lastResponseDate</a>
 
 Last day a response is received against the campaign  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Campaign.cdm.json/Campaign  
+First included in: <a href="Campaign.md" target="_blank">nonProfit/Campaign</a>  
 
 #### Properties
 
@@ -2731,7 +2731,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#sourceCode name="sourceCode">sourceCode</a>
 
 Source Code of Campaign as generated by rules defined in the Source Codes configuration.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Campaign.cdm.json/Campaign  
+First included in: <a href="Campaign.md" target="_blank">nonProfit/Campaign</a>  
 
 #### Properties
 
@@ -2771,7 +2771,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#startDate name="startDate">startDate</a>
 
 Starting date for the campaign.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Campaign.cdm.json/Campaign  
+First included in: <a href="Campaign.md" target="_blank">nonProfit/Campaign</a>  
 
 #### Properties
 
@@ -2809,7 +2809,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#subChannel name="subChannel">subChannel</a>
 
 Specific way in which the Channel communication will be carried out.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Campaign.cdm.json/Campaign  
+First included in: <a href="Campaign.md" target="_blank">nonProfit/Campaign</a>  
 
 #### Properties
 
@@ -2849,7 +2849,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#subChannel_display name="subChannel_display">subChannel_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Campaign.cdm.json/Campaign  
+First included in: <a href="Campaign.md" target="_blank">nonProfit/Campaign</a>  
 
 #### Properties
 

@@ -79,7 +79,7 @@ applicationCommon/ArticleTemplate
 ### <a href=#kbArticleTemplateId name="kbArticleTemplateId">kbArticleTemplateId</a>
 
 Unique identifier of the knowledge base article template.  
-First included in: /core/applicationCommon/ArticleTemplate.cdm.json/ArticleTemplate  
+First included in: <a href="ArticleTemplate.md" target="_blank">applicationCommon/ArticleTemplate</a>  
 
 #### Properties
 
@@ -118,7 +118,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#structureXml name="structureXml">structureXml</a>
 
 XML structure of the knowledge base article.  
-First included in: /core/applicationCommon/ArticleTemplate.cdm.json/ArticleTemplate  
+First included in: <a href="ArticleTemplate.md" target="_blank">applicationCommon/ArticleTemplate</a>  
 
 #### Properties
 
@@ -158,7 +158,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#organizationId name="organizationId">organizationId</a>
 
 Unique identifier of the organization associated with the template.  
-First included in: /core/applicationCommon/ArticleTemplate.cdm.json/ArticleTemplate  
+First included in: <a href="ArticleTemplate.md" target="_blank">applicationCommon/ArticleTemplate</a>  
 
 #### Properties
 
@@ -200,7 +200,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#formatXml name="formatXml">formatXml</a>
 
 XML format of the knowledge base article template.  
-First included in: /core/applicationCommon/ArticleTemplate.cdm.json/ArticleTemplate  
+First included in: <a href="ArticleTemplate.md" target="_blank">applicationCommon/ArticleTemplate</a>  
 
 #### Properties
 
@@ -240,7 +240,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#title name="title">title</a>
 
 Title of the knowledge base article template.  
-First included in: /core/applicationCommon/ArticleTemplate.cdm.json/ArticleTemplate  
+First included in: <a href="ArticleTemplate.md" target="_blank">applicationCommon/ArticleTemplate</a>  
 
 #### Properties
 
@@ -279,7 +279,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
-First included in: /core/applicationCommon/ArticleTemplate.cdm.json/ArticleTemplate  
+First included in: <a href="ArticleTemplate.md" target="_blank">applicationCommon/ArticleTemplate</a>  
 
 #### Properties
 
@@ -309,7 +309,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#description name="description">description</a>
 
 Description of the knowledge base article template.  
-First included in: /core/applicationCommon/ArticleTemplate.cdm.json/ArticleTemplate  
+First included in: <a href="ArticleTemplate.md" target="_blank">applicationCommon/ArticleTemplate</a>  
 
 #### Properties
 
@@ -349,7 +349,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#isActive name="isActive">isActive</a>
 
 Information about whether the knowledge base article is active.  
-First included in: /core/applicationCommon/ArticleTemplate.cdm.json/ArticleTemplate  
+First included in: <a href="ArticleTemplate.md" target="_blank">applicationCommon/ArticleTemplate</a>  
 
 #### Properties
 
@@ -384,7 +384,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Unique identifier of the user who created the knowledge base article template.  
-First included in: /core/applicationCommon/ArticleTemplate.cdm.json/ArticleTemplate  
+First included in: <a href="ArticleTemplate.md" target="_blank">applicationCommon/ArticleTemplate</a>  
 
 #### Properties
 
@@ -429,7 +429,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Unique identifier of the user who last modified the knowledge base article template.  
-First included in: /core/applicationCommon/ArticleTemplate.cdm.json/ArticleTemplate  
+First included in: <a href="ArticleTemplate.md" target="_blank">applicationCommon/ArticleTemplate</a>  
 
 #### Properties
 
@@ -474,7 +474,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the knowledge base article template was created.  
-First included in: /core/applicationCommon/ArticleTemplate.cdm.json/ArticleTemplate  
+First included in: <a href="ArticleTemplate.md" target="_blank">applicationCommon/ArticleTemplate</a>  
 
 #### Properties
 
@@ -513,7 +513,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the knowledge base article template was last modified.  
-First included in: /core/applicationCommon/ArticleTemplate.cdm.json/ArticleTemplate  
+First included in: <a href="ArticleTemplate.md" target="_blank">applicationCommon/ArticleTemplate</a>  
 
 #### Properties
 
@@ -552,7 +552,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: /core/applicationCommon/ArticleTemplate.cdm.json/ArticleTemplate  
+First included in: <a href="ArticleTemplate.md" target="_blank">applicationCommon/ArticleTemplate</a>  
 
 #### Properties
 
@@ -591,7 +591,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#languageCode name="languageCode">languageCode</a>
 
 Language of the Article Template  
-First included in: /core/applicationCommon/ArticleTemplate.cdm.json/ArticleTemplate  
+First included in: <a href="ArticleTemplate.md" target="_blank">applicationCommon/ArticleTemplate</a>  
 
 #### Properties
 
@@ -632,7 +632,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: /core/applicationCommon/ArticleTemplate.cdm.json/ArticleTemplate  
+First included in: <a href="ArticleTemplate.md" target="_blank">applicationCommon/ArticleTemplate</a>  
 
 #### Properties
 
@@ -670,7 +670,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#kbArticleTemplateIdUnique name="kbArticleTemplateIdUnique">kbArticleTemplateIdUnique</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/ArticleTemplate.cdm.json/ArticleTemplate  
+First included in: <a href="ArticleTemplate.md" target="_blank">applicationCommon/ArticleTemplate</a>  
 
 #### Properties
 
@@ -702,7 +702,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#componentState name="componentState">componentState</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/ArticleTemplate.cdm.json/ArticleTemplate  
+First included in: <a href="ArticleTemplate.md" target="_blank">applicationCommon/ArticleTemplate</a>  
 
 #### Properties
 
@@ -739,7 +739,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#componentState_display name="componentState_display">componentState_display</a>
 
-First included in: /core/applicationCommon/ArticleTemplate.cdm.json/ArticleTemplate  
+First included in: <a href="ArticleTemplate.md" target="_blank">applicationCommon/ArticleTemplate</a>  
 
 #### Properties
 
@@ -763,7 +763,7 @@ First included in: /core/applicationCommon/ArticleTemplate.cdm.json/ArticleTempl
 ### <a href=#solutionId name="solutionId">solutionId</a>
 
 Unique identifier of the associated solution.  
-First included in: /core/applicationCommon/ArticleTemplate.cdm.json/ArticleTemplate  
+First included in: <a href="ArticleTemplate.md" target="_blank">applicationCommon/ArticleTemplate</a>  
 
 #### Properties
 
@@ -798,7 +798,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#overwriteTime name="overwriteTime">overwriteTime</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/ArticleTemplate.cdm.json/ArticleTemplate  
+First included in: <a href="ArticleTemplate.md" target="_blank">applicationCommon/ArticleTemplate</a>  
 
 #### Properties
 
@@ -833,7 +833,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Unique identifier of the delegate user who created the kbarticletemplate.  
-First included in: /core/applicationCommon/ArticleTemplate.cdm.json/ArticleTemplate  
+First included in: <a href="ArticleTemplate.md" target="_blank">applicationCommon/ArticleTemplate</a>  
 
 #### Properties
 
@@ -878,7 +878,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Unique identifier of the delegate user who last modified the kbarticletemplate.  
-First included in: /core/applicationCommon/ArticleTemplate.cdm.json/ArticleTemplate  
+First included in: <a href="ArticleTemplate.md" target="_blank">applicationCommon/ArticleTemplate</a>  
 
 #### Properties
 
@@ -922,7 +922,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 
 ### <a href=#isManaged name="isManaged">isManaged</a>
 
-First included in: /core/applicationCommon/ArticleTemplate.cdm.json/ArticleTemplate  
+First included in: <a href="ArticleTemplate.md" target="_blank">applicationCommon/ArticleTemplate</a>  
 
 #### Properties
 
@@ -948,7 +948,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isCustomizable name="isCustomizable">isCustomizable</a>
 
 Information that specifies whether this component can be customized.  
-First included in: /core/applicationCommon/ArticleTemplate.cdm.json/ArticleTemplate  
+First included in: <a href="ArticleTemplate.md" target="_blank">applicationCommon/ArticleTemplate</a>  
 
 #### Properties
 
@@ -980,7 +980,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#introducedVersion name="introducedVersion">introducedVersion</a>
 
 Version in which the form is introduced.  
-First included in: /core/applicationCommon/ArticleTemplate.cdm.json/ArticleTemplate  
+First included in: <a href="ArticleTemplate.md" target="_blank">applicationCommon/ArticleTemplate</a>  
 
 #### Properties
 

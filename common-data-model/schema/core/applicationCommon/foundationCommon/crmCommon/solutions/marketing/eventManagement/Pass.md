@@ -92,7 +92,7 @@ eventManagement/Pass
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Pass.cdm.json/Pass  
+First included in: <a href="Pass.md" target="_blank">eventManagement/Pass</a>  
 
 #### Properties
 
@@ -131,7 +131,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Pass.cdm.json/Pass  
+First included in: <a href="Pass.md" target="_blank">eventManagement/Pass</a>  
 
 #### Properties
 
@@ -179,7 +179,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Pass.cdm.json/Pass  
+First included in: <a href="Pass.md" target="_blank">eventManagement/Pass</a>  
 
 #### Properties
 
@@ -218,7 +218,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Pass.cdm.json/Pass  
+First included in: <a href="Pass.md" target="_blank">eventManagement/Pass</a>  
 
 #### Properties
 
@@ -266,7 +266,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Pass.cdm.json/Pass  
+First included in: <a href="Pass.md" target="_blank">eventManagement/Pass</a>  
 
 #### Properties
 
@@ -314,7 +314,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Pass.cdm.json/Pass  
+First included in: <a href="Pass.md" target="_blank">eventManagement/Pass</a>  
 
 #### Properties
 
@@ -362,7 +362,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Pass.cdm.json/Pass  
+First included in: <a href="Pass.md" target="_blank">eventManagement/Pass</a>  
 
 #### Properties
 
@@ -401,7 +401,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Pass.cdm.json/Pass  
+First included in: <a href="Pass.md" target="_blank">eventManagement/Pass</a>  
 
 #### Properties
 
@@ -436,7 +436,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Pass.cdm.json/Pass  
+First included in: <a href="Pass.md" target="_blank">eventManagement/Pass</a>  
 
 #### Properties
 
@@ -475,7 +475,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Pass.cdm.json/Pass  
+First included in: <a href="Pass.md" target="_blank">eventManagement/Pass</a>  
 
 #### Properties
 
@@ -520,7 +520,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Pass.cdm.json/Pass  
+First included in: <a href="Pass.md" target="_blank">eventManagement/Pass</a>  
 
 #### Properties
 
@@ -565,7 +565,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Pass.cdm.json/Pass  
+First included in: <a href="Pass.md" target="_blank">eventManagement/Pass</a>  
 
 #### Properties
 
@@ -613,7 +613,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Pass.cdm.json/Pass  
+First included in: <a href="Pass.md" target="_blank">eventManagement/Pass</a>  
 
 #### Properties
 
@@ -658,7 +658,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Pass.cdm.json/Pass  
+First included in: <a href="Pass.md" target="_blank">eventManagement/Pass</a>  
 
 #### Properties
 
@@ -696,7 +696,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Pass.cdm.json/Pass  
+First included in: <a href="Pass.md" target="_blank">eventManagement/Pass</a>  
 
 #### Properties
 
@@ -734,7 +734,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Pass.cdm.json/Pass  
+First included in: <a href="Pass.md" target="_blank">eventManagement/Pass</a>  
 
 #### Properties
 
@@ -771,7 +771,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#passId name="passId">passId</a>
 
 Unique identifier for entity instances  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Pass.cdm.json/Pass  
+First included in: <a href="Pass.md" target="_blank">eventManagement/Pass</a>  
 
 #### Properties
 
@@ -810,7 +810,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Status of the Pass  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Pass.cdm.json/Pass  
+First included in: <a href="Pass.md" target="_blank">eventManagement/Pass</a>  
 
 #### Properties
 
@@ -850,7 +850,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Pass.cdm.json/Pass  
+First included in: <a href="Pass.md" target="_blank">eventManagement/Pass</a>  
 
 #### Properties
 
@@ -874,7 +874,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Reason for the status of the Pass  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Pass.cdm.json/Pass  
+First included in: <a href="Pass.md" target="_blank">eventManagement/Pass</a>  
 
 #### Properties
 
@@ -917,7 +917,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Pass.cdm.json/Pass  
+First included in: <a href="Pass.md" target="_blank">eventManagement/Pass</a>  
 
 #### Properties
 
@@ -941,7 +941,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Pass.cdm.json/Pass  
+First included in: <a href="Pass.md" target="_blank">eventManagement/Pass</a>  
 
 #### Properties
 
@@ -981,7 +981,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#costPerUnit name="costPerUnit">costPerUnit</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Pass.cdm.json/Pass  
+First included in: <a href="Pass.md" target="_blank">eventManagement/Pass</a>  
 
 #### Properties
 
@@ -1019,7 +1019,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Unique identifier of the currency associated with the entity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Pass.cdm.json/Pass  
+First included in: <a href="Pass.md" target="_blank">eventManagement/Pass</a>  
 
 #### Properties
 
@@ -1064,7 +1064,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Exchange rate for the currency associated with the entity with respect to the base currency.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Pass.cdm.json/Pass  
+First included in: <a href="Pass.md" target="_blank">eventManagement/Pass</a>  
 
 #### Properties
 
@@ -1104,7 +1104,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#costPerUnitBase name="costPerUnitBase">costPerUnitBase</a>
 
 Value of the Cost per unit in base currency.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Pass.cdm.json/Pass  
+First included in: <a href="Pass.md" target="_blank">eventManagement/Pass</a>  
 
 #### Properties
 
@@ -1148,7 +1148,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#eventId name="eventId">eventId</a>
 
 Unique identifier for Event associated with Pass.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Pass.cdm.json/Pass  
+First included in: <a href="Pass.md" target="_blank">eventManagement/Pass</a>  
 
 #### Properties
 
@@ -1193,7 +1193,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#noOfPassesAllocated name="noOfPassesAllocated">noOfPassesAllocated</a>
 
 Number of passes allocated.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Pass.cdm.json/Pass  
+First included in: <a href="Pass.md" target="_blank">eventManagement/Pass</a>  
 
 #### Properties
 
@@ -1231,7 +1231,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#noOfPassesSold name="noOfPassesSold">noOfPassesSold</a>
 
 Number of passes sold.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Pass.cdm.json/Pass  
+First included in: <a href="Pass.md" target="_blank">eventManagement/Pass</a>  
 
 #### Properties
 
@@ -1268,7 +1268,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#passPrice name="passPrice">passPrice</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Pass.cdm.json/Pass  
+First included in: <a href="Pass.md" target="_blank">eventManagement/Pass</a>  
 
 #### Properties
 
@@ -1306,7 +1306,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#passPriceBase name="passPriceBase">passPriceBase</a>
 
 Value of the Pass Price in base currency.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Pass.cdm.json/Pass  
+First included in: <a href="Pass.md" target="_blank">eventManagement/Pass</a>  
 
 #### Properties
 
@@ -1350,7 +1350,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#track name="track">track</a>
 
 All Active  records  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Pass.cdm.json/Pass  
+First included in: <a href="Pass.md" target="_blank">eventManagement/Pass</a>  
 
 #### Properties
 
@@ -1395,7 +1395,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#noOfPassesLeft name="noOfPassesLeft">noOfPassesLeft</a>
 
 Number of passes left.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Pass.cdm.json/Pass  
+First included in: <a href="Pass.md" target="_blank">eventManagement/Pass</a>  
 
 #### Properties
 
@@ -1432,7 +1432,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#totalCost name="totalCost">totalCost</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Pass.cdm.json/Pass  
+First included in: <a href="Pass.md" target="_blank">eventManagement/Pass</a>  
 
 #### Properties
 
@@ -1470,7 +1470,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#totalcostBase name="totalcostBase">totalcostBase</a>
 
 Value of the Total cost in base currency.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Pass.cdm.json/Pass  
+First included in: <a href="Pass.md" target="_blank">eventManagement/Pass</a>  
 
 #### Properties
 

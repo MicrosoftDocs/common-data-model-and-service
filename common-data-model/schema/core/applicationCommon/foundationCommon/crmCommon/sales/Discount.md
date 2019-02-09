@@ -79,7 +79,7 @@ sales/Discount
 ### <a href=#discountId name="discountId">discountId</a>
 
 Unique identifier of the discount.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Discount.cdm.json/Discount  
+First included in: <a href="Discount.md" target="_blank">sales/Discount</a>  
 
 #### Properties
 
@@ -118,7 +118,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the discount was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Discount.cdm.json/Discount  
+First included in: <a href="Discount.md" target="_blank">sales/Discount</a>  
 
 #### Properties
 
@@ -157,7 +157,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Unique identifier of the user who created the discount.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Discount.cdm.json/Discount  
+First included in: <a href="Discount.md" target="_blank">sales/Discount</a>  
 
 #### Properties
 
@@ -202,7 +202,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the discount was last modified.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Discount.cdm.json/Discount  
+First included in: <a href="Discount.md" target="_blank">sales/Discount</a>  
 
 #### Properties
 
@@ -241,7 +241,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Unique identifier of the user who last modified the discount.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Discount.cdm.json/Discount  
+First included in: <a href="Discount.md" target="_blank">sales/Discount</a>  
 
 #### Properties
 
@@ -286,7 +286,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Unique identifier of the delegate user who created the discount.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Discount.cdm.json/Discount  
+First included in: <a href="Discount.md" target="_blank">sales/Discount</a>  
 
 #### Properties
 
@@ -331,7 +331,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Unique identifier of the delegate user who last modified the discount.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Discount.cdm.json/Discount  
+First included in: <a href="Discount.md" target="_blank">sales/Discount</a>  
 
 #### Properties
 
@@ -376,7 +376,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Discount.cdm.json/Discount  
+First included in: <a href="Discount.md" target="_blank">sales/Discount</a>  
 
 #### Properties
 
@@ -412,7 +412,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Discount.cdm.json/Discount  
+First included in: <a href="Discount.md" target="_blank">sales/Discount</a>  
 
 #### Properties
 
@@ -450,7 +450,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Discount.cdm.json/Discount  
+First included in: <a href="Discount.md" target="_blank">sales/Discount</a>  
 
 #### Properties
 
@@ -489,7 +489,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Discount.cdm.json/Discount  
+First included in: <a href="Discount.md" target="_blank">sales/Discount</a>  
 
 #### Properties
 
@@ -527,7 +527,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Discount.cdm.json/Discount  
+First included in: <a href="Discount.md" target="_blank">sales/Discount</a>  
 
 #### Properties
 
@@ -565,7 +565,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#name name="name">name</a>
 
 name  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Discount.cdm.json/Discount  
+First included in: <a href="Discount.md" target="_blank">sales/Discount</a>  
 
 #### Properties
 
@@ -606,7 +606,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#amount name="amount">amount</a>
 
 Amount of the discount, specified either as a percentage or as a monetary amount.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Discount.cdm.json/Discount  
+First included in: <a href="Discount.md" target="_blank">sales/Discount</a>  
 
 #### Properties
 
@@ -647,7 +647,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Choose the local currency for the record to make sure budgets are reported in the correct currency.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Discount.cdm.json/Discount  
+First included in: <a href="Discount.md" target="_blank">sales/Discount</a>  
 
 #### Properties
 
@@ -692,7 +692,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Discount.cdm.json/Discount  
+First included in: <a href="Discount.md" target="_blank">sales/Discount</a>  
 
 #### Properties
 
@@ -732,7 +732,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#amountBase name="amountBase">amountBase</a>
 
 Value of the Amount in base currency.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Discount.cdm.json/Discount  
+First included in: <a href="Discount.md" target="_blank">sales/Discount</a>  
 
 #### Properties
 
@@ -776,7 +776,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#discountTypeId name="discountTypeId">discountTypeId</a>
 
 Unique identifier of the discount list associated with the discount.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Discount.cdm.json/Discount  
+First included in: <a href="Discount.md" target="_blank">sales/Discount</a>  
 
 #### Properties
 
@@ -818,7 +818,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#highQuantity name="highQuantity">highQuantity</a>
 
 Upper boundary for the quantity range to which a particular discount can be applied.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Discount.cdm.json/Discount  
+First included in: <a href="Discount.md" target="_blank">sales/Discount</a>  
 
 #### Properties
 
@@ -855,7 +855,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#isAmountType name="isAmountType">isAmountType</a>
 
 Specifies whether the discount is specified as a monetary amount or a percentage.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Discount.cdm.json/Discount  
+First included in: <a href="Discount.md" target="_blank">sales/Discount</a>  
 
 #### Properties
 
@@ -890,7 +890,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#lowQuantity name="lowQuantity">lowQuantity</a>
 
 Lower boundary for the quantity range to which a particular discount is applied.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Discount.cdm.json/Discount  
+First included in: <a href="Discount.md" target="_blank">sales/Discount</a>  
 
 #### Properties
 
@@ -927,7 +927,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#organizationId name="organizationId">organizationId</a>
 
 Unique identifier of the organization associated with the discount.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Discount.cdm.json/Discount  
+First included in: <a href="Discount.md" target="_blank">sales/Discount</a>  
 
 #### Properties
 
@@ -962,7 +962,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#percentage name="percentage">percentage</a>
 
 Percentage discount value.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Discount.cdm.json/Discount  
+First included in: <a href="Discount.md" target="_blank">sales/Discount</a>  
 
 #### Properties
 
@@ -1002,7 +1002,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Select the discount's status.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Discount.cdm.json/Discount  
+First included in: <a href="Discount.md" target="_blank">sales/Discount</a>  
 
 #### Properties
 
@@ -1045,7 +1045,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Discount.cdm.json/Discount  
+First included in: <a href="Discount.md" target="_blank">sales/Discount</a>  
 
 #### Properties
 

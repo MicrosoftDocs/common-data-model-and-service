@@ -82,7 +82,7 @@ applicationCommon/SLAKPIInstance
 ### <a href=#SLAKPIInstanceId name="SLAKPIInstanceId">SLAKPIInstanceId</a>
 
 Unique identifier of the SLA KPI Instance.  
-First included in: /core/applicationCommon/SLAKPIInstance.cdm.json/SLAKPIInstance  
+First included in: <a href="SLAKPIInstance.md" target="_blank">applicationCommon/SLAKPIInstance</a>  
 
 #### Properties
 
@@ -121,7 +121,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#name name="name">name</a>
 
 Type a descriptive name for the service level agreement (SLA) key performance indicator (KPI) instance.  
-First included in: /core/applicationCommon/SLAKPIInstance.cdm.json/SLAKPIInstance  
+First included in: <a href="SLAKPIInstance.md" target="_blank">applicationCommon/SLAKPIInstance</a>  
 
 #### Properties
 
@@ -159,7 +159,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#computedFailureTime name="computedFailureTime">computedFailureTime</a>
 
 Computed Failure Date and time  
-First included in: /core/applicationCommon/SLAKPIInstance.cdm.json/SLAKPIInstance  
+First included in: <a href="SLAKPIInstance.md" target="_blank">applicationCommon/SLAKPIInstance</a>  
 
 #### Properties
 
@@ -197,7 +197,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#computedWarningTime name="computedWarningTime">computedWarningTime</a>
 
 Computed Warning Date and time  
-First included in: /core/applicationCommon/SLAKPIInstance.cdm.json/SLAKPIInstance  
+First included in: <a href="SLAKPIInstance.md" target="_blank">applicationCommon/SLAKPIInstance</a>  
 
 #### Properties
 
@@ -235,7 +235,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#failureTime name="failureTime">failureTime</a>
 
 Enter the date and time when the service level agreement (SLA) key performance indicator (KPI) will expire.  
-First included in: /core/applicationCommon/SLAKPIInstance.cdm.json/SLAKPIInstance  
+First included in: <a href="SLAKPIInstance.md" target="_blank">applicationCommon/SLAKPIInstance</a>  
 
 #### Properties
 
@@ -273,7 +273,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: /core/applicationCommon/SLAKPIInstance.cdm.json/SLAKPIInstance  
+First included in: <a href="SLAKPIInstance.md" target="_blank">applicationCommon/SLAKPIInstance</a>  
 
 #### Properties
 
@@ -312,7 +312,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: /core/applicationCommon/SLAKPIInstance.cdm.json/SLAKPIInstance  
+First included in: <a href="SLAKPIInstance.md" target="_blank">applicationCommon/SLAKPIInstance</a>  
 
 #### Properties
 
@@ -357,7 +357,7 @@ contains a User or Team ID
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Owning User.  
-First included in: /core/applicationCommon/SLAKPIInstance.cdm.json/SLAKPIInstance  
+First included in: <a href="SLAKPIInstance.md" target="_blank">applicationCommon/SLAKPIInstance</a>  
 
 #### Properties
 
@@ -399,7 +399,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 OwningTeam.  
-First included in: /core/applicationCommon/SLAKPIInstance.cdm.json/SLAKPIInstance  
+First included in: <a href="SLAKPIInstance.md" target="_blank">applicationCommon/SLAKPIInstance</a>  
 
 #### Properties
 
@@ -441,7 +441,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Owning Business Unit.  
-First included in: /core/applicationCommon/SLAKPIInstance.cdm.json/SLAKPIInstance  
+First included in: <a href="SLAKPIInstance.md" target="_blank">applicationCommon/SLAKPIInstance</a>  
 
 #### Properties
 
@@ -486,7 +486,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#regarding name="regarding">regarding</a>
 
 Unique identifier of the record that this service level agreement (SLA) key performance indicator (KPI) instance is associated with.  
-First included in: /core/applicationCommon/SLAKPIInstance.cdm.json/SLAKPIInstance  
+First included in: <a href="SLAKPIInstance.md" target="_blank">applicationCommon/SLAKPIInstance</a>  
 
 #### Properties
 
@@ -531,7 +531,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#status name="status">status</a>
 
 Reason for the status of the service level agreement (SLA) key performance indicator (KPI) instance. For example, the SLA KPI could be Noncompliant or Succeeded.  
-First included in: /core/applicationCommon/SLAKPIInstance.cdm.json/SLAKPIInstance  
+First included in: <a href="SLAKPIInstance.md" target="_blank">applicationCommon/SLAKPIInstance</a>  
 
 #### Properties
 
@@ -571,7 +571,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#status_display name="status_display">status_display</a>
 
-First included in: /core/applicationCommon/SLAKPIInstance.cdm.json/SLAKPIInstance  
+First included in: <a href="SLAKPIInstance.md" target="_blank">applicationCommon/SLAKPIInstance</a>  
 
 #### Properties
 
@@ -595,7 +595,7 @@ First included in: /core/applicationCommon/SLAKPIInstance.cdm.json/SLAKPIInstanc
 ### <a href=#succeededOn name="succeededOn">succeededOn</a>
 
 Shows the date and time when the service level agreement (SLA) key performance indicator (KPI) success criteria was met.  
-First included in: /core/applicationCommon/SLAKPIInstance.cdm.json/SLAKPIInstance  
+First included in: <a href="SLAKPIInstance.md" target="_blank">applicationCommon/SLAKPIInstance</a>  
 
 #### Properties
 
@@ -633,7 +633,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#warningTime name="warningTime">warningTime</a>
 
 Enter the date and time when the service level agreement (SLA) key performance indicator (KPI)will go to a warning state.  
-First included in: /core/applicationCommon/SLAKPIInstance.cdm.json/SLAKPIInstance  
+First included in: <a href="SLAKPIInstance.md" target="_blank">applicationCommon/SLAKPIInstance</a>  
 
 #### Properties
 
@@ -671,7 +671,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Choose the local currency for the record to make sure budgets are reported in the correct currency.  
-First included in: /core/applicationCommon/SLAKPIInstance.cdm.json/SLAKPIInstance  
+First included in: <a href="SLAKPIInstance.md" target="_blank">applicationCommon/SLAKPIInstance</a>  
 
 #### Properties
 
@@ -716,7 +716,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/SLAKPIInstance.cdm.json/SLAKPIInstance  
+First included in: <a href="SLAKPIInstance.md" target="_blank">applicationCommon/SLAKPIInstance</a>  
 
 #### Properties
 
@@ -756,7 +756,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/SLAKPIInstance.cdm.json/SLAKPIInstance  
+First included in: <a href="SLAKPIInstance.md" target="_blank">applicationCommon/SLAKPIInstance</a>  
 
 #### Properties
 
@@ -801,7 +801,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/SLAKPIInstance.cdm.json/SLAKPIInstance  
+First included in: <a href="SLAKPIInstance.md" target="_blank">applicationCommon/SLAKPIInstance</a>  
 
 #### Properties
 
@@ -840,7 +840,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/SLAKPIInstance.cdm.json/SLAKPIInstance  
+First included in: <a href="SLAKPIInstance.md" target="_blank">applicationCommon/SLAKPIInstance</a>  
 
 #### Properties
 
@@ -885,7 +885,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#description name="description">description</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/SLAKPIInstance.cdm.json/SLAKPIInstance  
+First included in: <a href="SLAKPIInstance.md" target="_blank">applicationCommon/SLAKPIInstance</a>  
 
 #### Properties
 
@@ -925,7 +925,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/SLAKPIInstance.cdm.json/SLAKPIInstance  
+First included in: <a href="SLAKPIInstance.md" target="_blank">applicationCommon/SLAKPIInstance</a>  
 
 #### Properties
 
@@ -970,7 +970,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/SLAKPIInstance.cdm.json/SLAKPIInstance  
+First included in: <a href="SLAKPIInstance.md" target="_blank">applicationCommon/SLAKPIInstance</a>  
 
 #### Properties
 
@@ -1009,7 +1009,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/SLAKPIInstance.cdm.json/SLAKPIInstance  
+First included in: <a href="SLAKPIInstance.md" target="_blank">applicationCommon/SLAKPIInstance</a>  
 
 #### Properties
 
@@ -1054,7 +1054,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/SLAKPIInstance.cdm.json/SLAKPIInstance  
+First included in: <a href="SLAKPIInstance.md" target="_blank">applicationCommon/SLAKPIInstance</a>  
 
 #### Properties
 
@@ -1090,7 +1090,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#warningTimeReached name="warningTimeReached">warningTimeReached</a>
 
 Shows information about whether the case has reached its warning time.  
-First included in: /core/applicationCommon/SLAKPIInstance.cdm.json/SLAKPIInstance  
+First included in: <a href="SLAKPIInstance.md" target="_blank">applicationCommon/SLAKPIInstance</a>  
 
 #### Properties
 
@@ -1130,7 +1130,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#warningTimeReached_display name="warningTimeReached_display">warningTimeReached_display</a>
 
-First included in: /core/applicationCommon/SLAKPIInstance.cdm.json/SLAKPIInstance  
+First included in: <a href="SLAKPIInstance.md" target="_blank">applicationCommon/SLAKPIInstance</a>  
 
 #### Properties
 

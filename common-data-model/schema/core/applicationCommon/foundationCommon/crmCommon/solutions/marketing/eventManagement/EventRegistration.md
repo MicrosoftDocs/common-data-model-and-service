@@ -100,7 +100,7 @@ Increasing and decreasing done by corresponding workflows.|<a href="EventRegistr
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/EventRegistration.cdm.json/EventRegistration  
+First included in: <a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>  
 
 #### Properties
 
@@ -139,7 +139,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/EventRegistration.cdm.json/EventRegistration  
+First included in: <a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>  
 
 #### Properties
 
@@ -187,7 +187,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/EventRegistration.cdm.json/EventRegistration  
+First included in: <a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>  
 
 #### Properties
 
@@ -226,7 +226,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/EventRegistration.cdm.json/EventRegistration  
+First included in: <a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>  
 
 #### Properties
 
@@ -274,7 +274,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/EventRegistration.cdm.json/EventRegistration  
+First included in: <a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>  
 
 #### Properties
 
@@ -322,7 +322,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/EventRegistration.cdm.json/EventRegistration  
+First included in: <a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>  
 
 #### Properties
 
@@ -370,7 +370,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/EventRegistration.cdm.json/EventRegistration  
+First included in: <a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>  
 
 #### Properties
 
@@ -409,7 +409,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/EventRegistration.cdm.json/EventRegistration  
+First included in: <a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>  
 
 #### Properties
 
@@ -444,7 +444,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/EventRegistration.cdm.json/EventRegistration  
+First included in: <a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>  
 
 #### Properties
 
@@ -483,7 +483,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/EventRegistration.cdm.json/EventRegistration  
+First included in: <a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>  
 
 #### Properties
 
@@ -528,7 +528,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/EventRegistration.cdm.json/EventRegistration  
+First included in: <a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>  
 
 #### Properties
 
@@ -573,7 +573,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/EventRegistration.cdm.json/EventRegistration  
+First included in: <a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>  
 
 #### Properties
 
@@ -621,7 +621,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/EventRegistration.cdm.json/EventRegistration  
+First included in: <a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>  
 
 #### Properties
 
@@ -666,7 +666,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/EventRegistration.cdm.json/EventRegistration  
+First included in: <a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>  
 
 #### Properties
 
@@ -704,7 +704,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/EventRegistration.cdm.json/EventRegistration  
+First included in: <a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>  
 
 #### Properties
 
@@ -742,7 +742,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/EventRegistration.cdm.json/EventRegistration  
+First included in: <a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>  
 
 #### Properties
 
@@ -779,7 +779,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#eventRegistrationId name="eventRegistrationId">eventRegistrationId</a>
 
 Unique identifier for entity instances  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/EventRegistration.cdm.json/EventRegistration  
+First included in: <a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>  
 
 #### Properties
 
@@ -818,7 +818,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Status of the Event Registration  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/EventRegistration.cdm.json/EventRegistration  
+First included in: <a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>  
 
 #### Properties
 
@@ -858,7 +858,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/EventRegistration.cdm.json/EventRegistration  
+First included in: <a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>  
 
 #### Properties
 
@@ -882,7 +882,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Reason for the status of the Event Registration  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/EventRegistration.cdm.json/EventRegistration  
+First included in: <a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>  
 
 #### Properties
 
@@ -925,7 +925,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/EventRegistration.cdm.json/EventRegistration  
+First included in: <a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>  
 
 #### Properties
 
@@ -949,7 +949,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/EventRegistration.cdm.json/EventRegistration  
+First included in: <a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>  
 
 #### Properties
 
@@ -989,7 +989,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#area name="area">area</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/EventRegistration.cdm.json/EventRegistration  
+First included in: <a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>  
 
 #### Properties
 
@@ -1026,7 +1026,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#area_display name="area_display">area_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/EventRegistration.cdm.json/EventRegistration  
+First included in: <a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>  
 
 #### Properties
 
@@ -1049,7 +1049,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 ### <a href=#companySize name="companySize">companySize</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/EventRegistration.cdm.json/EventRegistration  
+First included in: <a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>  
 
 #### Properties
 
@@ -1086,7 +1086,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#companySize_display name="companySize_display">companySize_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/EventRegistration.cdm.json/EventRegistration  
+First included in: <a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>  
 
 #### Properties
 
@@ -1109,7 +1109,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 ### <a href=#contactId name="contactId">contactId</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/EventRegistration.cdm.json/EventRegistration  
+First included in: <a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>  
 
 #### Properties
 
@@ -1151,7 +1151,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#eventId name="eventId">eventId</a>
 
 Unique identifier for Event associated with Event Registration.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/EventRegistration.cdm.json/EventRegistration  
+First included in: <a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>  
 
 #### Properties
 
@@ -1195,7 +1195,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 
 ### <a href=#industry name="industry">industry</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/EventRegistration.cdm.json/EventRegistration  
+First included in: <a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>  
 
 #### Properties
 
@@ -1232,7 +1232,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#industry_display name="industry_display">industry_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/EventRegistration.cdm.json/EventRegistration  
+First included in: <a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>  
 
 #### Properties
 
@@ -1255,7 +1255,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 ### <a href=#isCanceled name="isCanceled">isCanceled</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/EventRegistration.cdm.json/EventRegistration  
+First included in: <a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>  
 
 #### Properties
 
@@ -1286,7 +1286,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#memo name="memo">memo</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/EventRegistration.cdm.json/EventRegistration  
+First included in: <a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>  
 
 #### Properties
 
@@ -1323,7 +1323,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#primaryRole name="primaryRole">primaryRole</a>
 
 Primary Role of the event attendee.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/EventRegistration.cdm.json/EventRegistration  
+First included in: <a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>  
 
 #### Properties
 
@@ -1363,7 +1363,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#primaryRole_display name="primaryRole_display">primaryRole_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/EventRegistration.cdm.json/EventRegistration  
+First included in: <a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>  
 
 #### Properties
 
@@ -1387,7 +1387,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 ### <a href=#publishingState name="publishingState">publishingState</a>
 
 The publishing state of the event registration.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/EventRegistration.cdm.json/EventRegistration  
+First included in: <a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>  
 
 #### Properties
 
@@ -1427,7 +1427,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#publishingState_display name="publishingState_display">publishingState_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/EventRegistration.cdm.json/EventRegistration  
+First included in: <a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>  
 
 #### Properties
 
@@ -1451,7 +1451,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 ### <a href=#registeredBy name="registeredBy">registeredBy</a>
 
 A lookup to the contact who created this event registration  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/EventRegistration.cdm.json/EventRegistration  
+First included in: <a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>  
 
 #### Properties
 
@@ -1493,7 +1493,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#registrationNotificationSeen name="registrationNotificationSeen">registrationNotificationSeen</a>
 
 Whether the registration creation notification has been seen or not  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/EventRegistration.cdm.json/EventRegistration  
+First included in: <a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>  
 
 #### Properties
 
@@ -1527,7 +1527,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#registrationStatus name="registrationStatus">registrationStatus</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/EventRegistration.cdm.json/EventRegistration  
+First included in: <a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>  
 
 #### Properties
 
@@ -1564,7 +1564,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#syncedWithProvider name="syncedWithProvider">syncedWithProvider</a>
 
 A flag that indicates that the registration was synced with provider  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/EventRegistration.cdm.json/EventRegistration  
+First included in: <a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>  
 
 #### Properties
 
@@ -1604,7 +1604,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#syncedWithProvider_display name="syncedWithProvider_display">syncedWithProvider_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/EventRegistration.cdm.json/EventRegistration  
+First included in: <a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>  
 
 #### Properties
 
@@ -1630,7 +1630,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 Hidden field. Number of Event Check-ins related to this ER.
 Used as partial aggregation for Check-in count of Event.
 Increasing and decreasing done by corresponding workflows.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/EventRegistration.cdm.json/EventRegistration  
+First included in: <a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>  
 
 #### Properties
 
@@ -1672,7 +1672,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#webinarRegistrationID name="webinarRegistrationID">webinarRegistrationID</a>
 
 Webinar ID of the Event Registration.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/EventRegistration.cdm.json/EventRegistration  
+First included in: <a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>  
 
 #### Properties
 
@@ -1711,7 +1711,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#yearsInIndustry name="yearsInIndustry">yearsInIndustry</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/EventRegistration.cdm.json/EventRegistration  
+First included in: <a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>  
 
 #### Properties
 
@@ -1748,7 +1748,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#yearsInIndustry_display name="yearsInIndustry_display">yearsInIndustry_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/EventRegistration.cdm.json/EventRegistration  
+First included in: <a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>  
 
 #### Properties
 

@@ -66,7 +66,7 @@ applicationCommon/ArticleComment
 ### <a href=#kbArticleCommentId name="kbArticleCommentId">kbArticleCommentId</a>
 
 Unique identifier of the knowledge base article comment.  
-First included in: /core/applicationCommon/ArticleComment.cdm.json/ArticleComment  
+First included in: <a href="ArticleComment.md" target="_blank">applicationCommon/ArticleComment</a>  
 
 #### Properties
 
@@ -105,7 +105,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#kbArticleId name="kbArticleId">kbArticleId</a>
 
 Unique identifier of the knowledge base article to which the comment applies.  
-First included in: /core/applicationCommon/ArticleComment.cdm.json/ArticleComment  
+First included in: <a href="ArticleComment.md" target="_blank">applicationCommon/ArticleComment</a>  
 
 #### Properties
 
@@ -147,7 +147,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#title name="title">title</a>
 
 Title of the knowledge base article comment.  
-First included in: /core/applicationCommon/ArticleComment.cdm.json/ArticleComment  
+First included in: <a href="ArticleComment.md" target="_blank">applicationCommon/ArticleComment</a>  
 
 #### Properties
 
@@ -187,7 +187,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#commentText name="commentText">commentText</a>
 
 Comment text for the knowledge base article.  
-First included in: /core/applicationCommon/ArticleComment.cdm.json/ArticleComment  
+First included in: <a href="ArticleComment.md" target="_blank">applicationCommon/ArticleComment</a>  
 
 #### Properties
 
@@ -227,7 +227,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the knowledge base article comment was created.  
-First included in: /core/applicationCommon/ArticleComment.cdm.json/ArticleComment  
+First included in: <a href="ArticleComment.md" target="_blank">applicationCommon/ArticleComment</a>  
 
 #### Properties
 
@@ -266,7 +266,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Unique identifier of the user who created the knowledge base article comment.  
-First included in: /core/applicationCommon/ArticleComment.cdm.json/ArticleComment  
+First included in: <a href="ArticleComment.md" target="_blank">applicationCommon/ArticleComment</a>  
 
 #### Properties
 
@@ -311,7 +311,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the knowledge base article comment was last modified.  
-First included in: /core/applicationCommon/ArticleComment.cdm.json/ArticleComment  
+First included in: <a href="ArticleComment.md" target="_blank">applicationCommon/ArticleComment</a>  
 
 #### Properties
 
@@ -350,7 +350,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Unique identifier of the user who last modified the knowledge base article comment.  
-First included in: /core/applicationCommon/ArticleComment.cdm.json/ArticleComment  
+First included in: <a href="ArticleComment.md" target="_blank">applicationCommon/ArticleComment</a>  
 
 #### Properties
 
@@ -394,7 +394,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
-First included in: /core/applicationCommon/ArticleComment.cdm.json/ArticleComment  
+First included in: <a href="ArticleComment.md" target="_blank">applicationCommon/ArticleComment</a>  
 
 #### Properties
 
@@ -424,7 +424,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#organizationId name="organizationId">organizationId</a>
 
 Unique identifier of the organization with which the article comment is associated.  
-First included in: /core/applicationCommon/ArticleComment.cdm.json/ArticleComment  
+First included in: <a href="ArticleComment.md" target="_blank">applicationCommon/ArticleComment</a>  
 
 #### Properties
 
@@ -459,7 +459,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Unique identifier of the delegate user who created the kbarticlecomment.  
-First included in: /core/applicationCommon/ArticleComment.cdm.json/ArticleComment  
+First included in: <a href="ArticleComment.md" target="_blank">applicationCommon/ArticleComment</a>  
 
 #### Properties
 
@@ -504,7 +504,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Unique identifier of the delegate user who last modified the kbarticlecomment.  
-First included in: /core/applicationCommon/ArticleComment.cdm.json/ArticleComment  
+First included in: <a href="ArticleComment.md" target="_blank">applicationCommon/ArticleComment</a>  
 
 #### Properties
 

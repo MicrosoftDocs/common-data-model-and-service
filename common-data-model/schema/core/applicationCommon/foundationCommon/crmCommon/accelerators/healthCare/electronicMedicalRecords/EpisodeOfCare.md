@@ -87,7 +87,7 @@ electronicMedicalRecords/EpisodeOfCare
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EpisodeOfCare.cdm.json/EpisodeOfCare  
+First included in: <a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>  
 
 #### Properties
 
@@ -126,7 +126,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EpisodeOfCare.cdm.json/EpisodeOfCare  
+First included in: <a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>  
 
 #### Properties
 
@@ -174,7 +174,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EpisodeOfCare.cdm.json/EpisodeOfCare  
+First included in: <a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>  
 
 #### Properties
 
@@ -213,7 +213,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EpisodeOfCare.cdm.json/EpisodeOfCare  
+First included in: <a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>  
 
 #### Properties
 
@@ -261,7 +261,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EpisodeOfCare.cdm.json/EpisodeOfCare  
+First included in: <a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>  
 
 #### Properties
 
@@ -309,7 +309,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EpisodeOfCare.cdm.json/EpisodeOfCare  
+First included in: <a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>  
 
 #### Properties
 
@@ -357,7 +357,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EpisodeOfCare.cdm.json/EpisodeOfCare  
+First included in: <a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>  
 
 #### Properties
 
@@ -396,7 +396,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EpisodeOfCare.cdm.json/EpisodeOfCare  
+First included in: <a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>  
 
 #### Properties
 
@@ -431,7 +431,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EpisodeOfCare.cdm.json/EpisodeOfCare  
+First included in: <a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>  
 
 #### Properties
 
@@ -470,7 +470,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EpisodeOfCare.cdm.json/EpisodeOfCare  
+First included in: <a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>  
 
 #### Properties
 
@@ -515,7 +515,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EpisodeOfCare.cdm.json/EpisodeOfCare  
+First included in: <a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>  
 
 #### Properties
 
@@ -560,7 +560,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EpisodeOfCare.cdm.json/EpisodeOfCare  
+First included in: <a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>  
 
 #### Properties
 
@@ -608,7 +608,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EpisodeOfCare.cdm.json/EpisodeOfCare  
+First included in: <a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>  
 
 #### Properties
 
@@ -653,7 +653,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EpisodeOfCare.cdm.json/EpisodeOfCare  
+First included in: <a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>  
 
 #### Properties
 
@@ -691,7 +691,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EpisodeOfCare.cdm.json/EpisodeOfCare  
+First included in: <a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>  
 
 #### Properties
 
@@ -729,7 +729,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EpisodeOfCare.cdm.json/EpisodeOfCare  
+First included in: <a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>  
 
 #### Properties
 
@@ -766,7 +766,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#episodeOfCareId name="episodeOfCareId">episodeOfCareId</a>
 
 Unique identifier for entity instances  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EpisodeOfCare.cdm.json/EpisodeOfCare  
+First included in: <a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>  
 
 #### Properties
 
@@ -805,7 +805,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Status of the Episode of Care  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EpisodeOfCare.cdm.json/EpisodeOfCare  
+First included in: <a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>  
 
 #### Properties
 
@@ -845,7 +845,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EpisodeOfCare.cdm.json/EpisodeOfCare  
+First included in: <a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>  
 
 #### Properties
 
@@ -869,7 +869,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Reason for the status of the Episode of Care  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EpisodeOfCare.cdm.json/EpisodeOfCare  
+First included in: <a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>  
 
 #### Properties
 
@@ -912,7 +912,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EpisodeOfCare.cdm.json/EpisodeOfCare  
+First included in: <a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>  
 
 #### Properties
 
@@ -936,7 +936,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#description name="description">description</a>
 
 The name of the custom entity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EpisodeOfCare.cdm.json/EpisodeOfCare  
+First included in: <a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>  
 
 #### Properties
 
@@ -976,7 +976,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#careManager name="careManager">careManager</a>
 
 The practitioner that is the care manager/care coordinator for this patient.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EpisodeOfCare.cdm.json/EpisodeOfCare  
+First included in: <a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>  
 
 #### Properties
 
@@ -1021,7 +1021,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#endDateTime name="endDateTime">endDateTime</a>
 
 The interval during which the managing organization assumes the defined responsibility.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EpisodeOfCare.cdm.json/EpisodeOfCare  
+First included in: <a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>  
 
 #### Properties
 
@@ -1059,7 +1059,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#identifier name="identifier">identifier</a>
 
 The EpisodeOfCare may be known by different identifiers for different contexts of use, such as when an external agency is tracking the Episode for funding purposes.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EpisodeOfCare.cdm.json/EpisodeOfCare  
+First included in: <a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>  
 
 #### Properties
 
@@ -1099,7 +1099,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#organization name="organization">organization</a>
 
 The organization that has assumed the specific responsibilities for the specified duration.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EpisodeOfCare.cdm.json/EpisodeOfCare  
+First included in: <a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>  
 
 #### Properties
 
@@ -1144,7 +1144,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#patient name="patient">patient</a>
 
 The patient who is the focus of this episode of care.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EpisodeOfCare.cdm.json/EpisodeOfCare  
+First included in: <a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>  
 
 #### Properties
 
@@ -1189,7 +1189,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#startDateTime name="startDateTime">startDateTime</a>
 
 The interval during which the managing organization assumes the defined responsibility.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EpisodeOfCare.cdm.json/EpisodeOfCare  
+First included in: <a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>  
 
 #### Properties
 
@@ -1227,7 +1227,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#status name="status">status</a>
 
 Current status of episode.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EpisodeOfCare.cdm.json/EpisodeOfCare  
+First included in: <a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>  
 
 #### Properties
 
@@ -1267,7 +1267,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#status_display name="status_display">status_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EpisodeOfCare.cdm.json/EpisodeOfCare  
+First included in: <a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>  
 
 #### Properties
 

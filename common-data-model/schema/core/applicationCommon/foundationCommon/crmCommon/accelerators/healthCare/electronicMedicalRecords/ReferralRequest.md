@@ -118,7 +118,7 @@ electronicMedicalRecords/ReferralRequest
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -157,7 +157,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -205,7 +205,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -244,7 +244,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -292,7 +292,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -340,7 +340,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -388,7 +388,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -427,7 +427,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -462,7 +462,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -501,7 +501,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -546,7 +546,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -591,7 +591,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -639,7 +639,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -684,7 +684,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -722,7 +722,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -760,7 +760,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -797,7 +797,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#referralRequestId name="referralRequestId">referralRequestId</a>
 
 Unique identifier for entity instances  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -836,7 +836,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Status of the Referral Request  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -876,7 +876,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -900,7 +900,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Reason for the status of the Referral Request  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -943,7 +943,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -967,7 +967,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -1007,7 +1007,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#emrAppointment name="emrAppointment">emrAppointment</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -1049,7 +1049,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#authoredOn name="authoredOn">authoredOn</a>
 
 Date/DateTime of creation for draft requests and date of activation for active requests.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -1086,7 +1086,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#basedOnReferral name="basedOnReferral">basedOnReferral</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -1128,7 +1128,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#contextType name="contextType">contextType</a>
 
 The encounter at which the request for referral or transfer of care is initiated.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -1168,7 +1168,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#contextType_display name="contextType_display">contextType_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -1192,7 +1192,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#description name="description">description</a>
 
 The reason element gives a short description of why the referral is being made, the description expands on this to support a more complete clinical summary.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -1232,7 +1232,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#groupIdentifier name="groupIdentifier">groupIdentifier</a>
 
 The business identifier of the logical ""grouping"" request/order that this referral is a part of.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -1271,7 +1271,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#initiatingEncounter name="initiatingEncounter">initiatingEncounter</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -1312,7 +1312,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 
 ### <a href=#initiatingEpisodeofCare name="initiatingEpisodeofCare">initiatingEpisodeofCare</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -1354,7 +1354,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#intent name="intent">intent</a>
 
 Distinguishes the "level" of authorization/demand implicit in this request.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -1394,7 +1394,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#intent_display name="intent_display">intent_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -1418,7 +1418,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#occurencePeriodEndDate name="occurencePeriodEndDate">occurencePeriodEndDate</a>
 
 End time with inclusive boundary, if not ongoing.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -1456,7 +1456,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#occurencePeriodStartDate name="occurencePeriodStartDate">occurencePeriodStartDate</a>
 
 Starting time with inclusive boundary.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -1494,7 +1494,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#occurrenceDate name="occurrenceDate">occurrenceDate</a>
 
 The period of time within which the services identified in the referral/transfer of care is specified or required to occur.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -1532,7 +1532,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#occurrenceType name="occurrenceType">occurrenceType</a>
 
 The type of the period of time within which the services identified in the referral/transfer of care is specified or required to occur.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -1572,7 +1572,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#occurrenceType_display name="occurrenceType_display">occurrenceType_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -1596,7 +1596,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#practitionerSpecialty name="practitionerSpecialty">practitionerSpecialty</a>
 
 Indication of the clinical domain or discipline to which the referral or transfer of care request is sent. For example: Cardiology Gastroenterology Diabetology.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -1641,7 +1641,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#priority name="priority">priority</a>
 
 An indication of the urgency of referral (or where applicable the type of transfer of care) request.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -1681,7 +1681,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#priority_display name="priority_display">priority_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -1705,7 +1705,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#referralRequestNumber name="referralRequestNumber">referralRequestNumber</a>
 
 Business identifier that uniquely identifies the referral/care transfer request instance.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -1745,7 +1745,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#requesterAgent name="requesterAgent">requesterAgent</a>
 
 The device, practitioner, etc. who initiated the request.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -1785,7 +1785,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#requesterAgent_display name="requesterAgent_display">requesterAgent_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -1809,7 +1809,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#requesterAgentDevice name="requesterAgentDevice">requesterAgentDevice</a>
 
 This resource identifies an instance or a type of a manufactured item that is used in the provision of healthcare without being substantially changed through that activity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -1854,7 +1854,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#requesterAgentOrganization name="requesterAgentOrganization">requesterAgentOrganization</a>
 
 A formally or informally recognized grouping of people or organizations formed for the purpose of achieving some form of collective action. Includes companies, institutions, corporations, departments.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -1899,7 +1899,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#requesterAgentPatient name="requesterAgentPatient">requesterAgentPatient</a>
 
 Demographics and other administrative information about an individual or animal receiving care or other health-related services.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -1944,7 +1944,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#requesterAgentPractitioner name="requesterAgentPractitioner">requesterAgentPractitioner</a>
 
 A person who is directly or indirectly involved in the provisioning of healthcare.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -1989,7 +1989,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#requesterAgentRelatedPerson name="requesterAgentRelatedPerson">requesterAgentRelatedPerson</a>
 
 Information about a person that is involved in the care for a patient, but who is not the target of healthcare, nor has a formal responsibility in the care process.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -2034,7 +2034,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#requesterOnBehalfOf name="requesterOnBehalfOf">requesterOnBehalfOf</a>
 
 This resource identifies an instance or a type of a manufactured item that is used in the provision of healthcare without being substantially changed through that activity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -2079,7 +2079,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#requestorIdType name="requestorIdType">requestorIdType</a>
 
 The type of requestor, either Account or Contact.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -2114,7 +2114,7 @@ contains an Account or Contact ID
 
 ### <a href=#requestor name="requestor">requestor</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -2159,7 +2159,7 @@ contains an Account or Contact ID
 ### <a href=#status name="status">status</a>
 
 The status of the authorization/intention reflected by the referral request record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -2199,7 +2199,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#status_display name="status_display">status_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -2223,7 +2223,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#subject name="subject">subject</a>
 
 The patient who is the subject of a referral or transfer of care request.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -2263,7 +2263,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#subject_display name="subject_display">subject_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -2287,7 +2287,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#subjectContextEncounter name="subjectContextEncounter">subjectContextEncounter</a>
 
 An interaction between a patient and healthcare provider(s) for the purpose of providing healthcare service(s) or assessing the health status of a patient.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -2332,7 +2332,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#subjectContextEpisodeOfCare name="subjectContextEpisodeOfCare">subjectContextEpisodeOfCare</a>
 
 An association between a patient and an organization / healthcare provider(s) during which time encounters may occur.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -2377,7 +2377,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#subjectGroup name="subjectGroup">subjectGroup</a>
 
 Represents a defined collection of entities that may be discussed or acted upon collectively but which are not expected to act collectively and are not formally or legally recognized.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -2422,7 +2422,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#subjectPatient name="subjectPatient">subjectPatient</a>
 
 The patient who is the subject of a referral or transfer of care request.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 
@@ -2467,7 +2467,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#type name="type">type</a>
 
 An indication of the type of referral (or where applicable the type of transfer of care) request.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+First included in: <a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>  
 
 #### Properties
 

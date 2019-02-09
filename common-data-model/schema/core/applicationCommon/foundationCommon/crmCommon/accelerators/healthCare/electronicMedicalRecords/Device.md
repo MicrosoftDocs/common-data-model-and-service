@@ -100,7 +100,7 @@ electronicMedicalRecords/Device
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device.cdm.json/Device  
+First included in: <a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>  
 
 #### Properties
 
@@ -139,7 +139,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device.cdm.json/Device  
+First included in: <a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>  
 
 #### Properties
 
@@ -187,7 +187,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device.cdm.json/Device  
+First included in: <a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>  
 
 #### Properties
 
@@ -226,7 +226,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device.cdm.json/Device  
+First included in: <a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>  
 
 #### Properties
 
@@ -274,7 +274,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device.cdm.json/Device  
+First included in: <a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>  
 
 #### Properties
 
@@ -322,7 +322,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device.cdm.json/Device  
+First included in: <a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>  
 
 #### Properties
 
@@ -370,7 +370,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device.cdm.json/Device  
+First included in: <a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>  
 
 #### Properties
 
@@ -409,7 +409,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device.cdm.json/Device  
+First included in: <a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>  
 
 #### Properties
 
@@ -444,7 +444,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device.cdm.json/Device  
+First included in: <a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>  
 
 #### Properties
 
@@ -483,7 +483,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device.cdm.json/Device  
+First included in: <a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>  
 
 #### Properties
 
@@ -528,7 +528,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device.cdm.json/Device  
+First included in: <a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>  
 
 #### Properties
 
@@ -573,7 +573,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device.cdm.json/Device  
+First included in: <a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>  
 
 #### Properties
 
@@ -621,7 +621,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device.cdm.json/Device  
+First included in: <a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>  
 
 #### Properties
 
@@ -666,7 +666,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device.cdm.json/Device  
+First included in: <a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>  
 
 #### Properties
 
@@ -704,7 +704,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device.cdm.json/Device  
+First included in: <a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>  
 
 #### Properties
 
@@ -742,7 +742,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device.cdm.json/Device  
+First included in: <a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>  
 
 #### Properties
 
@@ -779,7 +779,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#deviceId name="deviceId">deviceId</a>
 
 Unique identifier for entity instances  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device.cdm.json/Device  
+First included in: <a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>  
 
 #### Properties
 
@@ -818,7 +818,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Status of the Device  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device.cdm.json/Device  
+First included in: <a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>  
 
 #### Properties
 
@@ -858,7 +858,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device.cdm.json/Device  
+First included in: <a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>  
 
 #### Properties
 
@@ -882,7 +882,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Reason for the status of the Device  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device.cdm.json/Device  
+First included in: <a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>  
 
 #### Properties
 
@@ -925,7 +925,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device.cdm.json/Device  
+First included in: <a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>  
 
 #### Properties
 
@@ -949,7 +949,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device.cdm.json/Device  
+First included in: <a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>  
 
 #### Properties
 
@@ -990,7 +990,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#carrierAIDC name="carrierAIDC">carrierAIDC</a>
 
 The full UDI carrier of the Automatic Identification and Data Capture (AIDC) technology representation of the bar code string as printed on the packaging of the device - E.g a bar code or RFID.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device.cdm.json/Device  
+First included in: <a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>  
 
 #### Properties
 
@@ -1030,7 +1030,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#deviceNumber name="deviceNumber">deviceNumber</a>
 
 Unique instance identifiers assigned to a device by manufacturers other organizations or owners.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device.cdm.json/Device  
+First included in: <a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>  
 
 #### Properties
 
@@ -1070,7 +1070,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#deviceStatus name="deviceStatus">deviceStatus</a>
 
 Status of the Device availability.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device.cdm.json/Device  
+First included in: <a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>  
 
 #### Properties
 
@@ -1110,7 +1110,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#deviceStatus_display name="deviceStatus_display">deviceStatus_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device.cdm.json/Device  
+First included in: <a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>  
 
 #### Properties
 
@@ -1134,7 +1134,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#expirationDate name="expirationDate">expirationDate</a>
 
 The date and time beyond which this device is no longer valid or should not be used (if applicable).  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device.cdm.json/Device  
+First included in: <a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>  
 
 #### Properties
 
@@ -1172,7 +1172,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#location name="location">location</a>
 
 The place where the device can be found.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device.cdm.json/Device  
+First included in: <a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>  
 
 #### Properties
 
@@ -1217,7 +1217,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#lotNumber name="lotNumber">lotNumber</a>
 
 Lot number assigned by the manufacturer.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device.cdm.json/Device  
+First included in: <a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>  
 
 #### Properties
 
@@ -1257,7 +1257,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#manufacturer name="manufacturer">manufacturer</a>
 
 A name of the manufacturer.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device.cdm.json/Device  
+First included in: <a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>  
 
 #### Properties
 
@@ -1297,7 +1297,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#manufacturerDate name="manufacturerDate">manufacturerDate</a>
 
 The date and time when the device was manufactured.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device.cdm.json/Device  
+First included in: <a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>  
 
 #### Properties
 
@@ -1335,7 +1335,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#model name="model">model</a>
 
 The "model" is an identifier assigned by the manufacturer to identify the product by its type. This number is shared by the all devices sold as the same type.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device.cdm.json/Device  
+First included in: <a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>  
 
 #### Properties
 
@@ -1375,7 +1375,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#owner name="owner">owner</a>
 
 An organization that is responsible for the provision and ongoing maintenance of the device.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device.cdm.json/Device  
+First included in: <a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>  
 
 #### Properties
 
@@ -1420,7 +1420,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#patient name="patient">patient</a>
 
 Demographics and other administrative information about an individual or animal receiving care or other health-related services.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device.cdm.json/Device  
+First included in: <a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>  
 
 #### Properties
 
@@ -1465,7 +1465,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#type name="type">type</a>
 
 Code or identifier to identify a kind of device.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device.cdm.json/Device  
+First included in: <a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>  
 
 #### Properties
 
@@ -1510,7 +1510,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#UDI name="UDI">UDI</a>
 
 Unique device identifier (UDI) assigned to device label or package.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device.cdm.json/Device  
+First included in: <a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>  
 
 #### Properties
 
@@ -1550,7 +1550,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UDICarrierHRF name="UDICarrierHRF">UDICarrierHRF</a>
 
 Unique device identifier (UDI) assigned to device label or package.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device.cdm.json/Device  
+First included in: <a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>  
 
 #### Properties
 
@@ -1590,7 +1590,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UDIEntryType name="UDIEntryType">UDIEntryType</a>
 
 A coded entry to indicate how the data was entered.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device.cdm.json/Device  
+First included in: <a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>  
 
 #### Properties
 
@@ -1630,7 +1630,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#UDIEntryType_display name="UDIEntryType_display">UDIEntryType_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device.cdm.json/Device  
+First included in: <a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>  
 
 #### Properties
 
@@ -1654,7 +1654,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#UDIIssuer name="UDIIssuer">UDIIssuer</a>
 
 Organization that is charged with issuing UDIs for devices  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device.cdm.json/Device  
+First included in: <a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>  
 
 #### Properties
 
@@ -1694,7 +1694,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#udiJurisdiction name="udiJurisdiction">udiJurisdiction</a>
 
 The identity of the authoritative source for UDI generation within a jurisdiction. All UDIs are globally unique within a single namespace with the appropriate repository uri as the system.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device.cdm.json/Device  
+First included in: <a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>  
 
 #### Properties
 
@@ -1734,7 +1734,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#URL name="URL">URL</a>
 
 A network address on which the device may be contacted directly.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device.cdm.json/Device  
+First included in: <a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>  
 
 #### Properties
 
@@ -1775,7 +1775,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#version name="version">version</a>
 
 The version of the device, if the device has multiple releases under the same model, or if the device is software or carries firmware.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device.cdm.json/Device  
+First included in: <a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>  
 
 #### Properties
 

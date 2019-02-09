@@ -123,7 +123,7 @@ foundationCommon/KnowledgeArticle
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -162,7 +162,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -210,7 +210,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -249,7 +249,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -297,7 +297,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -345,7 +345,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -393,7 +393,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -432,7 +432,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -467,7 +467,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -506,7 +506,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -551,7 +551,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -596,7 +596,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -644,7 +644,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -689,7 +689,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -727,7 +727,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -765,7 +765,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -802,7 +802,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#knowledgearticleId name="knowledgearticleId">knowledgearticleId</a>
 
 Unique identifier for entity instances  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -841,7 +841,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Shows whether the article is a draft or is published, archived, or discarded. Draft articles aren't available externally and can be edited. Published articles are available externally, based on applicable permissions, but can't be edited. All metadata changes are reflected in the published version. Archived and discarded articles aren't available externally and can't be edited.  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -881,7 +881,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -905,7 +905,7 @@ First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeAr
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Select the article's status.  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -948,7 +948,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -972,7 +972,7 @@ First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeAr
 ### <a href=#processId name="processId">processId</a>
 
 Contains the id of the process associated with the entity.  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -1010,7 +1010,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stageId name="stageId">stageId</a>
 
 Contains the id of the stage where the entity is located.  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -1048,7 +1048,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#traversedPath name="traversedPath">traversedPath</a>
 
 A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -1088,7 +1088,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Exchange rate for the currency associated with the KnowledgeArticle with respect to the base currency.  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -1128,7 +1128,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Exchange rate for the currency associated with the KnowledgeArticle with respect to the base currency.  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -1173,7 +1173,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#title name="title">title</a>
 
 Type a title for the article.  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -1213,7 +1213,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#content name="content">content</a>
 
 Shows the body of the article stored in HTML format.  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -1253,7 +1253,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#keyWords name="keyWords">keyWords</a>
 
 Type keywords to be used for searches in knowledge base articles. Separate keywords by using commas.  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -1293,7 +1293,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#publishOn name="publishOn">publishOn</a>
 
 Date and time when the record was published.  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -1331,7 +1331,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#expirationDate name="expirationDate">expirationDate</a>
 
 Enter an expiration date for the article. Leave this field blank for no expiration date.  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -1369,7 +1369,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#parentArticleContentId name="parentArticleContentId">parentArticleContentId</a>
 
 Contains the id of the parent article content associated with the entity.  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -1414,7 +1414,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#knowledgeArticleViews name="knowledgeArticleViews">knowledgeArticleViews</a>
 
 Shows the total number of article views.  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -1452,7 +1452,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#description name="description">description</a>
 
 A short overview of the article, primarily used in search results and for search engine optimization.  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -1492,7 +1492,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#majorVersionNumber name="majorVersionNumber">majorVersionNumber</a>
 
 Shows the major version number of this article's content.  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -1527,7 +1527,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#minorVersionNumber name="minorVersionNumber">minorVersionNumber</a>
 
 Shows the minor version number of this article's content.  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -1562,7 +1562,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#languageLocaleId name="languageLocaleId">languageLocaleId</a>
 
 Select the language that the article's content is in.  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -1604,7 +1604,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#scheduledStatusId name="scheduledStatusId">scheduledStatusId</a>
 
 Contains the id of the scheduled status of the entity.  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -1642,7 +1642,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#expirationStatusId name="expirationStatusId">expirationStatusId</a>
 
 Contains the id of the expiration status of the entity.  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -1680,7 +1680,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#publishStatusId name="publishStatusId">publishStatusId</a>
 
 Publish Status of the Article.  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -1718,7 +1718,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#isPrimary name="isPrimary">isPrimary</a>
 
 Select whether the article is the primary article.  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -1753,7 +1753,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#readyForReview name="readyForReview">readyForReview</a>
 
 Ready For Review  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -1788,7 +1788,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#review name="review">review</a>
 
 Review  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -1828,7 +1828,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#review_display name="review_display">review_display</a>
 
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -1852,7 +1852,7 @@ First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeAr
 ### <a href=#updateContent name="updateContent">updateContent</a>
 
 Update Content  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -1887,7 +1887,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#expiredReviewOptions name="expiredReviewOptions">expiredReviewOptions</a>
 
 Expired Review Options  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -1927,7 +1927,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#expiredReviewOptions_display name="expiredReviewOptions_display">expiredReviewOptions_display</a>
 
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -1951,7 +1951,7 @@ First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeAr
 ### <a href=#subjectId name="subjectId">subjectId</a>
 
 Choose the subject of the article to assist with article searches. You can configure subjects under Business Management in the Settings area.  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -1993,7 +1993,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#primaryAuthorId name="primaryAuthorId">primaryAuthorId</a>
 
 Contains the id of the primary author associated with the article.  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -2038,7 +2038,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#isRootArticle name="isRootArticle">isRootArticle</a>
 
 Select whether the article is the root article.  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -2070,7 +2070,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#previousArticleContentId name="previousArticleContentId">previousArticleContentId</a>
 
 Shows the version that the current article was restored from.  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -2115,7 +2115,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#articlePublicNumber name="articlePublicNumber">articlePublicNumber</a>
 
 Shows the automatically generated ID exposed to customers, partners, and other external users to reference and look up articles.  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -2152,7 +2152,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#isLatestVersion name="isLatestVersion">isLatestVersion</a>
 
 Shows which version of the knowledge article is the latest version.  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -2184,7 +2184,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#rootArticleId name="rootArticleId">rootArticleId</a>
 
 Contains the id of the root article.  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -2229,7 +2229,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#knowledgeArticleViewsDate name="knowledgeArticleViewsDate">knowledgeArticleViewsDate</a>
 
 The date time for Knowledge Article View.  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -2270,7 +2270,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#knowledgeArticleViewsState name="knowledgeArticleViewsState">knowledgeArticleViewsState</a>
 
 State of Knowledge Article View.  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -2311,7 +2311,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#rating name="rating">rating</a>
 
 Information which specifies how helpful the related record was.  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -2351,7 +2351,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ratingDate name="ratingDate">ratingDate</a>
 
 The date time for Rating.  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -2392,7 +2392,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#ratingState name="ratingState">ratingState</a>
 
 State of Rating  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -2433,7 +2433,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ratingSum name="ratingSum">ratingSum</a>
 
 Total sum of Rating  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -2476,7 +2476,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ratingCount name="ratingCount">ratingCount</a>
 
 Rating Count  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -2517,7 +2517,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#isInternal name="isInternal">isInternal</a>
 
 Shows whether this article is only visible internally.  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -2552,7 +2552,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#setCategoryAssociations name="setCategoryAssociations">setCategoryAssociations</a>
 
 Shows whether category associations have been set  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -2587,7 +2587,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#expirationStateId name="expirationStateId">expirationStateId</a>
 
 Contains the id of the expiration state of the entity.  
-First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>  
 
 #### Properties
 
@@ -2625,7 +2625,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#setProductAssociations name="setProductAssociations">setProductAssociations</a>
 
 Set Product Associations  
-First included in: /core/applicationCommon/foundationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+First included in: <a href="KnowledgeArticle.md" target="_blank">foundationCommon/KnowledgeArticle</a>  
 
 #### Properties
 

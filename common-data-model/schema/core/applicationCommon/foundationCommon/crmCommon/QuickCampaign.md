@@ -144,7 +144,7 @@ crmCommon/QuickCampaign
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -183,7 +183,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -231,7 +231,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -270,7 +270,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -318,7 +318,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -366,7 +366,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -414,7 +414,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -453,7 +453,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -488,7 +488,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -527,7 +527,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -572,7 +572,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -617,7 +617,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -665,7 +665,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -710,7 +710,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -748,7 +748,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -786,7 +786,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -823,7 +823,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#activityTypeCode name="activityTypeCode">activityTypeCode</a>
 
 Type of activity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -862,7 +862,7 @@ Marks an attribute that contains the entity name or 'class' for the situation wh
 ### <a href=#activityId name="activityId">activityId</a>
 
 Unique identifier of the activity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -901,7 +901,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#isBilled name="isBilled">isBilled</a>
 
 Information regarding whether the fax activity was billed as part of resolving a case.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -933,7 +933,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#isRegularActivity name="isRegularActivity">isRegularActivity</a>
 
 Information regarding whether the activity is a regular activity type or event type.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -962,7 +962,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#isWorkflowCreated name="isWorkflowCreated">isWorkflowCreated</a>
 
 Information regarding whether the activity was created from a workflow rule.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -994,7 +994,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#priorityCode name="priorityCode">priorityCode</a>
 
 Priority of the activity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -1031,7 +1031,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 
 ### <a href=#priorityCode_display name="priorityCode_display">priorityCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -1055,7 +1055,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampa
 ### <a href=#regardingObjectTypeCode name="regardingObjectTypeCode">regardingObjectTypeCode</a>
 
 The name of the entity linked by regardingObjectId  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -1088,7 +1088,7 @@ Marks an attribute that contains the entity name or 'class' for the situation wh
 ### <a href=#regardingObjectId name="regardingObjectId">regardingObjectId</a>
 
 Unique identifier of the object with which the activity is associated.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -1130,7 +1130,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#scheduledEnd name="scheduledEnd">scheduledEnd</a>
 
 Scheduled end time of the activity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -1165,7 +1165,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#scheduledStart name="scheduledStart">scheduledStart</a>
 
 Scheduled start time of the activity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -1200,7 +1200,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#sortDate name="sortDate">sortDate</a>
 
 Shows the date and time by which the activities are sorted.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -1238,7 +1238,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#subject name="subject">subject</a>
 
 Subject associated with the activity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -1275,7 +1275,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#scheduledDurationMinutes name="scheduledDurationMinutes">scheduledDurationMinutes</a>
 
 Scheduled duration of the activity, specified in minutes.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -1311,7 +1311,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#actualDurationMinutes name="actualDurationMinutes">actualDurationMinutes</a>
 
 Actual duration of the activity in minutes.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -1347,7 +1347,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#actualEnd name="actualEnd">actualEnd</a>
 
 Actual end time of the activity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -1383,7 +1383,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#actualStart name="actualStart">actualStart</a>
 
 Actual start time of the activity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -1419,7 +1419,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#activityAdditionalParams name="activityAdditionalParams">activityAdditionalParams</a>
 
 Additional information provided by the external application as JSON. For internal use only.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -1457,7 +1457,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#to name="to">to</a>
 
 Enter the account, contact, lead, or user recipients of the phone call.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -1498,7 +1498,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#from name="from">from</a>
 
 Enter the account, contact, lead, or user who made the phone call.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -1539,7 +1539,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#instanceTypeCode name="instanceTypeCode">instanceTypeCode</a>
 
 Type of instance of a recurring series.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -1573,7 +1573,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 
 ### <a href=#instanceTypeCode_display name="instanceTypeCode_display">instanceTypeCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -1597,7 +1597,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampa
 ### <a href=#isMapiPrivate name="isMapiPrivate">isMapiPrivate</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -1629,7 +1629,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#organizer name="organizer">organizer</a>
 
 The user who is in charge of coordinating or leading the activity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -1670,7 +1670,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#requiredAttendees name="requiredAttendees">requiredAttendees</a>
 
 Enter the account, contact, lead, user, or other equipment resources that are required to attend the appointment.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -1711,7 +1711,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#optionalAttendees name="optionalAttendees">optionalAttendees</a>
 
 Enter the account, contact, lead, user, or other equipment resources that are not needed at the appointment, but can optionally attend.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -1752,7 +1752,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#seriesId name="seriesId">seriesId</a>
 
 Uniqueidentifier specifying the id of recurring series of an instance.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -1787,7 +1787,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#BCC name="BCC">BCC</a>
 
 Enter the recipients that are included on the activity distribution, but are not displayed to other recipients.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -1828,7 +1828,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#CC name="CC">CC</a>
 
 Enter the recipients that should be copied on the activity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -1869,7 +1869,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#sentOn name="sentOn">sentOn</a>
 
 Date and time when the activity was sent.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -1904,7 +1904,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#senderMailboxId name="senderMailboxId">senderMailboxId</a>
 
 Unique identifier of the mailbox associated with the sender of the email message.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -1943,7 +1943,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#deliveryPriorityCode name="deliveryPriorityCode">deliveryPriorityCode</a>
 
 Priority of delivery of the activity to the email server.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -1980,7 +1980,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 
 ### <a href=#deliveryPriorityCode_display name="deliveryPriorityCode_display">deliveryPriorityCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -2004,7 +2004,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampa
 ### <a href=#resources name="resources">resources</a>
 
 Users or facility/equipment that are required for the activity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -2045,7 +2045,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#community name="community">community</a>
 
 Shows how contact about the activity originated, such as from Twitter or Facebook. This field is read-only.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -2082,7 +2082,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 
 ### <a href=#community_display name="community_display">community_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -2106,7 +2106,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampa
 ### <a href=#leftVoiceMail name="leftVoiceMail">leftVoiceMail</a>
 
 Left the voice mail  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -2138,7 +2138,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#deliveryLastAttemptedOn name="deliveryLastAttemptedOn">deliveryLastAttemptedOn</a>
 
 Date and time when the delivery of the activity was last attempted.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -2173,7 +2173,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#exchangeItemId name="exchangeItemId">exchangeItemId</a>
 
 The message id of activity which is returned from Exchange Server.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -2210,7 +2210,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#exchangeWebLink name="exchangeWebLink">exchangeWebLink</a>
 
 Shows the web link of Activity of type email.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -2248,7 +2248,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#postponeActivityProcessingUntil name="postponeActivityProcessingUntil">postponeActivityProcessingUntil</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -2283,7 +2283,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#customers name="customers">customers</a>
 
 Customer with which the activity is associated.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -2324,7 +2324,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#partners name="partners">partners</a>
 
 Outsource vendor with which activity is associated.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -2365,7 +2365,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#description name="description">description</a>
 
 Type additional information to describe the quick campaign, such as the products or services offered.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -2405,7 +2405,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Shows whether the quick campaign is open, closed, or canceled.  Closed or canceled quick campaigns are read-only and can't be edited.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -2445,7 +2445,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -2469,7 +2469,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampa
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Select the quick campaign's status.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -2512,7 +2512,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -2536,7 +2536,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampa
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Unique identifier of the currency associated with the activitypointer.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -2581,7 +2581,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Exchange rate for the currency associated with the activitypointer with respect to the base currency.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -2621,7 +2621,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#traversedPath name="traversedPath">traversedPath</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -2661,7 +2661,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#processId name="processId">processId</a>
 
 Unique identifier of the Process.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -2699,7 +2699,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stageId name="stageId">stageId</a>
 
 Unique identifier of the Stage.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -2737,7 +2737,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#SLAId name="SLAId">SLAId</a>
 
 Choose the service level agreement (SLA) that you want to apply to the case record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -2782,7 +2782,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#SLAInvokedId name="SLAInvokedId">SLAInvokedId</a>
 
 Last SLA that was applied to this case. This field is for internal use only.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -2827,7 +2827,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#onHoldTime name="onHoldTime">onHoldTime</a>
 
 Shows how long, in minutes, that the record was on hold.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -2865,7 +2865,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#lastOnHoldTime name="lastOnHoldTime">lastOnHoldTime</a>
 
 Contains the date and time stamp of the last on hold time.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -2903,7 +2903,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#bulkOperationNumber name="bulkOperationNumber">bulkOperationNumber</a>
 
 Shows the number for the quick campaign record, used to identify the quick campaign.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -2943,7 +2943,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#createdRecordTypeCode name="createdRecordTypeCode">createdRecordTypeCode</a>
 
 Choose the activity to create that determines how target prospects or customers in this quick campaign are contacted.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -2983,7 +2983,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#createdRecordTypeCode_display name="createdRecordTypeCode_display">createdRecordTypeCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -3007,7 +3007,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampa
 ### <a href=#errorNumber name="errorNumber">errorNumber</a>
 
 Shows the error code that is used to troubleshoot issues in the quick campaign.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -3045,7 +3045,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#failureCount name="failureCount">failureCount</a>
 
 Number of records which failed in the bulk operation.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -3083,7 +3083,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#operationTypeCode name="operationTypeCode">operationTypeCode</a>
 
 Select the type of bulk operation process, such as quick campaign or campaign activity distribution.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -3123,7 +3123,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#operationTypeCode_display name="operationTypeCode_display">operationTypeCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -3147,7 +3147,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampa
 ### <a href=#workflowInfo name="workflowInfo">workflowInfo</a>
 
 Information for bulk operation workflow.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -3187,7 +3187,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#parameters name="parameters">parameters</a>
 
 XML string that contains the parameters to the bulk operation.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -3227,7 +3227,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#successCount name="successCount">successCount</a>
 
 Number of records which succeeded in the bulk operation.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -3265,7 +3265,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#targetedRecordTypeCode name="targetedRecordTypeCode">targetedRecordTypeCode</a>
 
 Select the type of records targeted in the quick campaign to identify the target audience.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -3305,7 +3305,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#targetedRecordTypeCode_display name="targetedRecordTypeCode_display">targetedRecordTypeCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -3329,7 +3329,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampa
 ### <a href=#targetMembersCount name="targetMembersCount">targetMembersCount</a>
 
 Number of members to target.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 
@@ -3367,7 +3367,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#serviceId name="serviceId">serviceId</a>
 
 Unique identifier for an associated service.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+First included in: <a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>  
 
 #### Properties
 

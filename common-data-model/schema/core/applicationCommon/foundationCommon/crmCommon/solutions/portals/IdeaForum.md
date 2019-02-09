@@ -93,7 +93,7 @@ portals/IdeaForum
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/IdeaForum.cdm.json/IdeaForum  
+First included in: <a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>  
 
 #### Properties
 
@@ -132,7 +132,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/IdeaForum.cdm.json/IdeaForum  
+First included in: <a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>  
 
 #### Properties
 
@@ -180,7 +180,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/IdeaForum.cdm.json/IdeaForum  
+First included in: <a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>  
 
 #### Properties
 
@@ -219,7 +219,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/IdeaForum.cdm.json/IdeaForum  
+First included in: <a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>  
 
 #### Properties
 
@@ -267,7 +267,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/IdeaForum.cdm.json/IdeaForum  
+First included in: <a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>  
 
 #### Properties
 
@@ -315,7 +315,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/IdeaForum.cdm.json/IdeaForum  
+First included in: <a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>  
 
 #### Properties
 
@@ -363,7 +363,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/IdeaForum.cdm.json/IdeaForum  
+First included in: <a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>  
 
 #### Properties
 
@@ -402,7 +402,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/IdeaForum.cdm.json/IdeaForum  
+First included in: <a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>  
 
 #### Properties
 
@@ -437,7 +437,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/IdeaForum.cdm.json/IdeaForum  
+First included in: <a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>  
 
 #### Properties
 
@@ -476,7 +476,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/IdeaForum.cdm.json/IdeaForum  
+First included in: <a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>  
 
 #### Properties
 
@@ -521,7 +521,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/IdeaForum.cdm.json/IdeaForum  
+First included in: <a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>  
 
 #### Properties
 
@@ -566,7 +566,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/IdeaForum.cdm.json/IdeaForum  
+First included in: <a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>  
 
 #### Properties
 
@@ -614,7 +614,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/IdeaForum.cdm.json/IdeaForum  
+First included in: <a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>  
 
 #### Properties
 
@@ -659,7 +659,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/IdeaForum.cdm.json/IdeaForum  
+First included in: <a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>  
 
 #### Properties
 
@@ -697,7 +697,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/IdeaForum.cdm.json/IdeaForum  
+First included in: <a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>  
 
 #### Properties
 
@@ -735,7 +735,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/IdeaForum.cdm.json/IdeaForum  
+First included in: <a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>  
 
 #### Properties
 
@@ -772,7 +772,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#ideaForumId name="ideaForumId">ideaForumId</a>
 
 Shows the entity instances.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/IdeaForum.cdm.json/IdeaForum  
+First included in: <a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>  
 
 #### Properties
 
@@ -811,7 +811,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Shows whether the idea forum is active or inactive. Inactive records are read-only and can't be edited unless they are reactivated.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/IdeaForum.cdm.json/IdeaForum  
+First included in: <a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>  
 
 #### Properties
 
@@ -851,7 +851,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/IdeaForum.cdm.json/IdeaForum  
+First included in: <a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>  
 
 #### Properties
 
@@ -875,7 +875,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Select the idea forum's status.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/IdeaForum.cdm.json/IdeaForum  
+First included in: <a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>  
 
 #### Properties
 
@@ -918,7 +918,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/IdeaForum.cdm.json/IdeaForum  
+First included in: <a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>  
 
 #### Properties
 
@@ -942,7 +942,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 ### <a href=#name name="name">name</a>
 
 Shows the name or title of the idea forum.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/IdeaForum.cdm.json/IdeaForum  
+First included in: <a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>  
 
 #### Properties
 
@@ -983,7 +983,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#commentPolicy name="commentPolicy">commentPolicy</a>
 
 Shows the default comment policy to be used on ideas in this idea forum.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/IdeaForum.cdm.json/IdeaForum  
+First included in: <a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>  
 
 #### Properties
 
@@ -1023,7 +1023,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#commentPolicy_display name="commentPolicy_display">commentPolicy_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/IdeaForum.cdm.json/IdeaForum  
+First included in: <a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>  
 
 #### Properties
 
@@ -1047,7 +1047,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 ### <a href=#ideaSubmissionPolicy name="ideaSubmissionPolicy">ideaSubmissionPolicy</a>
 
 Indicates the policy to be enforced for user submitted ideas in this idea forum.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/IdeaForum.cdm.json/IdeaForum  
+First included in: <a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>  
 
 #### Properties
 
@@ -1087,7 +1087,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#ideaSubmissionPolicy_display name="ideaSubmissionPolicy_display">ideaSubmissionPolicy_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/IdeaForum.cdm.json/IdeaForum  
+First included in: <a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>  
 
 #### Properties
 
@@ -1111,7 +1111,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 ### <a href=#partialURL name="partialURL">partialURL</a>
 
 Shows the URL path fragment used to generate a URL for this idea forum.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/IdeaForum.cdm.json/IdeaForum  
+First included in: <a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>  
 
 #### Properties
 
@@ -1152,7 +1152,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#summary name="summary">summary</a>
 
 Type a description of this idea forum's purpose.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/IdeaForum.cdm.json/IdeaForum  
+First included in: <a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>  
 
 #### Properties
 
@@ -1192,7 +1192,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#votesPerIdea name="votesPerIdea">votesPerIdea</a>
 
 Shows the number of votes a user is allowed for a single idea belonging to this idea forum.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/IdeaForum.cdm.json/IdeaForum  
+First included in: <a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>  
 
 #### Properties
 
@@ -1230,7 +1230,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#votesPerUser name="votesPerUser">votesPerUser</a>
 
 Shows the number of votes a user is allowed to use in this idea forum.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/IdeaForum.cdm.json/IdeaForum  
+First included in: <a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>  
 
 #### Properties
 
@@ -1268,7 +1268,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#votingPolicy name="votingPolicy">votingPolicy</a>
 
 Indicates the voting policy to be used for this idea forum.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/IdeaForum.cdm.json/IdeaForum  
+First included in: <a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>  
 
 #### Properties
 
@@ -1308,7 +1308,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#votingPolicy_display name="votingPolicy_display">votingPolicy_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/IdeaForum.cdm.json/IdeaForum  
+First included in: <a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>  
 
 #### Properties
 
@@ -1332,7 +1332,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 ### <a href=#votingType name="votingType">votingType</a>
 
 Shows the type of voting that this idea forum allows.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/IdeaForum.cdm.json/IdeaForum  
+First included in: <a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>  
 
 #### Properties
 
@@ -1372,7 +1372,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#votingType_display name="votingType_display">votingType_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/IdeaForum.cdm.json/IdeaForum  
+First included in: <a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>  
 
 #### Properties
 
@@ -1396,7 +1396,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 ### <a href=#websiteId name="websiteId">websiteId</a>
 
 Shows the website associated with the idea forum.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/IdeaForum.cdm.json/IdeaForum  
+First included in: <a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>  
 
 #### Properties
 
@@ -1441,7 +1441,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#websiteLanguageId name="websiteLanguageId">websiteLanguageId</a>
 
 Option to make idea forums language specific  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/IdeaForum.cdm.json/IdeaForum  
+First included in: <a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>  
 
 #### Properties
 

@@ -66,7 +66,7 @@ interactions/EmailSubscriptionSubmit
 ### <a href=#interactionId name="interactionId">interactionId</a>
 
 Unique identifier of the interaction.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/EmailSubscriptionSubmit.cdm.json/EmailSubscriptionSubmit  
+First included in: <a href="EmailSubscriptionSubmit.md" target="_blank">interactions/EmailSubscriptionSubmit</a>  
 
 #### Properties
 
@@ -103,7 +103,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#contactId name="contactId">contactId</a>
 
 Contact  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/EmailSubscriptionSubmit.cdm.json/EmailSubscriptionSubmit  
+First included in: <a href="EmailSubscriptionSubmit.md" target="_blank">interactions/EmailSubscriptionSubmit</a>  
 
 #### Properties
 
@@ -145,7 +145,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#accountId name="accountId">accountId</a>
 
 Account  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/EmailSubscriptionSubmit.cdm.json/EmailSubscriptionSubmit  
+First included in: <a href="EmailSubscriptionSubmit.md" target="_blank">interactions/EmailSubscriptionSubmit</a>  
 
 #### Properties
 
@@ -187,7 +187,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#messageId name="messageId">messageId</a>
 
 Message  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/EmailSubscriptionSubmit.cdm.json/EmailSubscriptionSubmit  
+First included in: <a href="EmailSubscriptionSubmit.md" target="_blank">interactions/EmailSubscriptionSubmit</a>  
 
 #### Properties
 
@@ -229,7 +229,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#customerJourneyId name="customerJourneyId">customerJourneyId</a>
 
 Customer journey  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/EmailSubscriptionSubmit.cdm.json/EmailSubscriptionSubmit  
+First included in: <a href="EmailSubscriptionSubmit.md" target="_blank">interactions/EmailSubscriptionSubmit</a>  
 
 #### Properties
 
@@ -271,7 +271,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#organizationId name="organizationId">organizationId</a>
 
 Organization ID  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/EmailSubscriptionSubmit.cdm.json/EmailSubscriptionSubmit  
+First included in: <a href="EmailSubscriptionSubmit.md" target="_blank">interactions/EmailSubscriptionSubmit</a>  
 
 #### Properties
 
@@ -302,7 +302,7 @@ The attribute value may be set to NULL.
 ### <a href=#sendingId name="sendingId">sendingId</a>
 
 Sending ID  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/EmailSubscriptionSubmit.cdm.json/EmailSubscriptionSubmit  
+First included in: <a href="EmailSubscriptionSubmit.md" target="_blank">interactions/EmailSubscriptionSubmit</a>  
 
 #### Properties
 
@@ -333,7 +333,7 @@ The attribute value may be set to NULL.
 ### <a href=#customerJourneyIterationId name="customerJourneyIterationId">customerJourneyIterationId</a>
 
 Customer journey iteration ID  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/EmailSubscriptionSubmit.cdm.json/EmailSubscriptionSubmit  
+First included in: <a href="EmailSubscriptionSubmit.md" target="_blank">interactions/EmailSubscriptionSubmit</a>  
 
 #### Properties
 
@@ -364,7 +364,7 @@ The attribute value may be set to NULL.
 ### <a href=#usageType name="usageType">usageType</a>
 
 Usage type  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/EmailSubscriptionSubmit.cdm.json/EmailSubscriptionSubmit  
+First included in: <a href="EmailSubscriptionSubmit.md" target="_blank">interactions/EmailSubscriptionSubmit</a>  
 
 #### Properties
 
@@ -395,7 +395,7 @@ The attribute value may be set to NULL.
 ### <a href=#interactionType name="interactionType">interactionType</a>
 
 Interaction type  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/EmailSubscriptionSubmit.cdm.json/EmailSubscriptionSubmit  
+First included in: <a href="EmailSubscriptionSubmit.md" target="_blank">interactions/EmailSubscriptionSubmit</a>  
 
 #### Properties
 
@@ -426,7 +426,7 @@ The attribute value may be set to NULL.
 ### <a href=#timestamp name="timestamp">timestamp</a>
 
 Timestamp  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/EmailSubscriptionSubmit.cdm.json/EmailSubscriptionSubmit  
+First included in: <a href="EmailSubscriptionSubmit.md" target="_blank">interactions/EmailSubscriptionSubmit</a>  
 
 #### Properties
 
@@ -458,7 +458,7 @@ The attribute value may be set to NULL.
 ### <a href=#countryIsoCode name="countryIsoCode">countryIsoCode</a>
 
 Country ISO code  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/EmailSubscriptionSubmit.cdm.json/EmailSubscriptionSubmit  
+First included in: <a href="EmailSubscriptionSubmit.md" target="_blank">interactions/EmailSubscriptionSubmit</a>  
 
 #### Properties
 
@@ -489,7 +489,7 @@ The attribute value may be set to NULL.
 ### <a href=#state name="state">state</a>
 
 State  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/EmailSubscriptionSubmit.cdm.json/EmailSubscriptionSubmit  
+First included in: <a href="EmailSubscriptionSubmit.md" target="_blank">interactions/EmailSubscriptionSubmit</a>  
 
 #### Properties
 
@@ -520,7 +520,7 @@ The attribute value may be set to NULL.
 ### <a href=#city name="city">city</a>
 
 City  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/EmailSubscriptionSubmit.cdm.json/EmailSubscriptionSubmit  
+First included in: <a href="EmailSubscriptionSubmit.md" target="_blank">interactions/EmailSubscriptionSubmit</a>  
 
 #### Properties
 
@@ -551,7 +551,7 @@ The attribute value may be set to NULL.
 ### <a href=#postalCode name="postalCode">postalCode</a>
 
 Postal code  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/EmailSubscriptionSubmit.cdm.json/EmailSubscriptionSubmit  
+First included in: <a href="EmailSubscriptionSubmit.md" target="_blank">interactions/EmailSubscriptionSubmit</a>  
 
 #### Properties
 
@@ -582,7 +582,7 @@ The attribute value may be set to NULL.
 ### <a href=#browserId name="browserId">browserId</a>
 
 Browser ID  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/EmailSubscriptionSubmit.cdm.json/EmailSubscriptionSubmit  
+First included in: <a href="EmailSubscriptionSubmit.md" target="_blank">interactions/EmailSubscriptionSubmit</a>  
 
 #### Properties
 
@@ -613,7 +613,7 @@ The attribute value may be set to NULL.
 ### <a href=#browserVersion name="browserVersion">browserVersion</a>
 
 Browser version  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/EmailSubscriptionSubmit.cdm.json/EmailSubscriptionSubmit  
+First included in: <a href="EmailSubscriptionSubmit.md" target="_blank">interactions/EmailSubscriptionSubmit</a>  
 
 #### Properties
 
@@ -644,7 +644,7 @@ The attribute value may be set to NULL.
 ### <a href=#operatingSystemId name="operatingSystemId">operatingSystemId</a>
 
 Operating system ID  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/EmailSubscriptionSubmit.cdm.json/EmailSubscriptionSubmit  
+First included in: <a href="EmailSubscriptionSubmit.md" target="_blank">interactions/EmailSubscriptionSubmit</a>  
 
 #### Properties
 
@@ -675,7 +675,7 @@ The attribute value may be set to NULL.
 ### <a href=#operatingSystemVersion name="operatingSystemVersion">operatingSystemVersion</a>
 
 Operating system version  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/EmailSubscriptionSubmit.cdm.json/EmailSubscriptionSubmit  
+First included in: <a href="EmailSubscriptionSubmit.md" target="_blank">interactions/EmailSubscriptionSubmit</a>  
 
 #### Properties
 
@@ -706,7 +706,7 @@ The attribute value may be set to NULL.
 ### <a href=#deviceType name="deviceType">deviceType</a>
 
 Device type  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/EmailSubscriptionSubmit.cdm.json/EmailSubscriptionSubmit  
+First included in: <a href="EmailSubscriptionSubmit.md" target="_blank">interactions/EmailSubscriptionSubmit</a>  
 
 #### Properties
 
@@ -737,7 +737,7 @@ The attribute value may be set to NULL.
 ### <a href=#deviceBrand name="deviceBrand">deviceBrand</a>
 
 Device brand  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/EmailSubscriptionSubmit.cdm.json/EmailSubscriptionSubmit  
+First included in: <a href="EmailSubscriptionSubmit.md" target="_blank">interactions/EmailSubscriptionSubmit</a>  
 
 #### Properties
 
@@ -768,7 +768,7 @@ The attribute value may be set to NULL.
 ### <a href=#deviceModel name="deviceModel">deviceModel</a>
 
 Device model  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/EmailSubscriptionSubmit.cdm.json/EmailSubscriptionSubmit  
+First included in: <a href="EmailSubscriptionSubmit.md" target="_blank">interactions/EmailSubscriptionSubmit</a>  
 
 #### Properties
 

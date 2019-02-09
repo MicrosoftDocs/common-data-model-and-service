@@ -78,7 +78,7 @@ sales/DiscountList
 ### <a href=#discountTypeId name="discountTypeId">discountTypeId</a>
 
 Unique identifier of the discount list.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/DiscountList.cdm.json/DiscountList  
+First included in: <a href="DiscountList.md" target="_blank">sales/DiscountList</a>  
 
 #### Properties
 
@@ -117,7 +117,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the discount list was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/DiscountList.cdm.json/DiscountList  
+First included in: <a href="DiscountList.md" target="_blank">sales/DiscountList</a>  
 
 #### Properties
 
@@ -156,7 +156,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Unique identifier of the user who created the discount list.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/DiscountList.cdm.json/DiscountList  
+First included in: <a href="DiscountList.md" target="_blank">sales/DiscountList</a>  
 
 #### Properties
 
@@ -201,7 +201,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the discount list was last modified.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/DiscountList.cdm.json/DiscountList  
+First included in: <a href="DiscountList.md" target="_blank">sales/DiscountList</a>  
 
 #### Properties
 
@@ -240,7 +240,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Unique identifier of the user who last modified the discount list.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/DiscountList.cdm.json/DiscountList  
+First included in: <a href="DiscountList.md" target="_blank">sales/DiscountList</a>  
 
 #### Properties
 
@@ -285,7 +285,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Unique identifier of the delegate user who created the discounttype.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/DiscountList.cdm.json/DiscountList  
+First included in: <a href="DiscountList.md" target="_blank">sales/DiscountList</a>  
 
 #### Properties
 
@@ -330,7 +330,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Unique identifier of the delegate user who last modified the discounttype.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/DiscountList.cdm.json/DiscountList  
+First included in: <a href="DiscountList.md" target="_blank">sales/DiscountList</a>  
 
 #### Properties
 
@@ -375,7 +375,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#organizationId name="organizationId">organizationId</a>
 
 Unique identifier for the organization  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/DiscountList.cdm.json/DiscountList  
+First included in: <a href="DiscountList.md" target="_blank">sales/DiscountList</a>  
 
 #### Properties
 
@@ -417,7 +417,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/DiscountList.cdm.json/DiscountList  
+First included in: <a href="DiscountList.md" target="_blank">sales/DiscountList</a>  
 
 #### Properties
 
@@ -453,7 +453,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/DiscountList.cdm.json/DiscountList  
+First included in: <a href="DiscountList.md" target="_blank">sales/DiscountList</a>  
 
 #### Properties
 
@@ -491,7 +491,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/DiscountList.cdm.json/DiscountList  
+First included in: <a href="DiscountList.md" target="_blank">sales/DiscountList</a>  
 
 #### Properties
 
@@ -530,7 +530,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/DiscountList.cdm.json/DiscountList  
+First included in: <a href="DiscountList.md" target="_blank">sales/DiscountList</a>  
 
 #### Properties
 
@@ -568,7 +568,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/DiscountList.cdm.json/DiscountList  
+First included in: <a href="DiscountList.md" target="_blank">sales/DiscountList</a>  
 
 #### Properties
 
@@ -606,7 +606,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#name name="name">name</a>
 
 Name of the discount list.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/DiscountList.cdm.json/DiscountList  
+First included in: <a href="DiscountList.md" target="_blank">sales/DiscountList</a>  
 
 #### Properties
 
@@ -644,7 +644,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#description name="description">description</a>
 
 Description of the discount list.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/DiscountList.cdm.json/DiscountList  
+First included in: <a href="DiscountList.md" target="_blank">sales/DiscountList</a>  
 
 #### Properties
 
@@ -684,7 +684,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#isAmountType name="isAmountType">isAmountType</a>
 
 Information about whether the discount list amounts are specified as monetary amounts or percentages.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/DiscountList.cdm.json/DiscountList  
+First included in: <a href="DiscountList.md" target="_blank">sales/DiscountList</a>  
 
 #### Properties
 
@@ -719,7 +719,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Status of the discount list.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/DiscountList.cdm.json/DiscountList  
+First included in: <a href="DiscountList.md" target="_blank">sales/DiscountList</a>  
 
 #### Properties
 
@@ -759,7 +759,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/DiscountList.cdm.json/DiscountList  
+First included in: <a href="DiscountList.md" target="_blank">sales/DiscountList</a>  
 
 #### Properties
 
@@ -783,7 +783,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Disc
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Reason for the status of the discount list.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/DiscountList.cdm.json/DiscountList  
+First included in: <a href="DiscountList.md" target="_blank">sales/DiscountList</a>  
 
 #### Properties
 
@@ -826,7 +826,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/DiscountList.cdm.json/DiscountList  
+First included in: <a href="DiscountList.md" target="_blank">sales/DiscountList</a>  
 
 #### Properties
 
@@ -850,7 +850,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Disc
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Unique identifier of the currency associated with the discount type.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/DiscountList.cdm.json/DiscountList  
+First included in: <a href="DiscountList.md" target="_blank">sales/DiscountList</a>  
 
 #### Properties
 

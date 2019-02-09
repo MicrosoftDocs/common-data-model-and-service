@@ -192,7 +192,7 @@ service/User
 ### <a href=#systemUserId name="systemUserId">systemUserId</a>
 
 Unique identifier for the user.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -231,7 +231,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#organizationId name="organizationId">organizationId</a>
 
 Unique identifier of the organization associated with the user.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -269,7 +269,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#businessUnitId name="businessUnitId">businessUnitId</a>
 
 Unique identifier of the business unit with which the user is associated.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -311,7 +311,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#parentSystemUserId name="parentSystemUserId">parentSystemUserId</a>
 
 Unique identifier of the manager of the user.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -356,7 +356,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#firstName name="firstName">firstName</a>
 
 First name of the user.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -397,7 +397,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#salutation name="salutation">salutation</a>
 
 Salutation for correspondence with the user.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -437,7 +437,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#middleName name="middleName">middleName</a>
 
 Middle name of the user.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -478,7 +478,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#lastName name="lastName">lastName</a>
 
 Last name of the user.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -519,7 +519,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#personalEMailAddress name="personalEMailAddress">personalEMailAddress</a>
 
 Personal email address of the user.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -560,7 +560,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#fullName name="fullName">fullName</a>
 
 Full name of the user.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -601,7 +601,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#nickName name="nickName">nickName</a>
 
 Nickname of the user.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -642,7 +642,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#title name="title">title</a>
 
 Title of the user.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -682,7 +682,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#internalEMailAddress name="internalEMailAddress">internalEMailAddress</a>
 
 Internal email address for the user.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -723,7 +723,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#jobTitle name="jobTitle">jobTitle</a>
 
 Job title of the user.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -763,7 +763,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#mobileAlertEMail name="mobileAlertEMail">mobileAlertEMail</a>
 
 Mobile alert email address for the user.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -804,7 +804,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#preferredEmailCode name="preferredEmailCode">preferredEmailCode</a>
 
 Preferred email address for the user.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -844,7 +844,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#preferredEmailCode_display name="preferredEmailCode_display">preferredEmailCode_display</a>
 
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -868,7 +868,7 @@ First included in: /core/applicationCommon/User.cdm.json/User
 ### <a href=#homePhone name="homePhone">homePhone</a>
 
 Home phone number for the user.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -909,7 +909,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#mobilePhone name="mobilePhone">mobilePhone</a>
 
 Mobile phone number for the user.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -950,7 +950,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#preferredPhoneCode name="preferredPhoneCode">preferredPhoneCode</a>
 
 Preferred phone number for the user.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -990,7 +990,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#preferredPhoneCode_display name="preferredPhoneCode_display">preferredPhoneCode_display</a>
 
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -1014,7 +1014,7 @@ First included in: /core/applicationCommon/User.cdm.json/User
 ### <a href=#preferredAddressCode name="preferredAddressCode">preferredAddressCode</a>
 
 Preferred address for the user.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -1054,7 +1054,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#preferredAddressCode_display name="preferredAddressCode_display">preferredAddressCode_display</a>
 
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -1078,7 +1078,7 @@ First included in: /core/applicationCommon/User.cdm.json/User
 ### <a href=#photoUrl name="photoUrl">photoUrl</a>
 
 URL for the Website on which a photo of the user is located.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -1119,7 +1119,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#domainName name="domainName">domainName</a>
 
 Active Directory domain of which the user is a member.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -1157,7 +1157,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#passportLo name="passportLo">passportLo</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -1195,7 +1195,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the user was created.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -1234,7 +1234,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#passportHi name="passportHi">passportHi</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -1272,7 +1272,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#disabledReason name="disabledReason">disabledReason</a>
 
 Reason for disabling the user.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -1312,7 +1312,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the user was last modified.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -1351,7 +1351,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Unique identifier of the user who created the user.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -1396,7 +1396,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#employeeId name="employeeId">employeeId</a>
 
 Employee identifier for the user.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -1436,7 +1436,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Unique identifier of the user who last modified the user.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -1481,7 +1481,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#isDisabled name="isDisabled">isDisabled</a>
 
 Information about whether the user is enabled.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -1516,7 +1516,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#governmentId name="governmentId">governmentId</a>
 
 Government identifier for the user.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -1557,7 +1557,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version number of the user.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -1593,7 +1593,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#address1AddressId name="address1AddressId">address1AddressId</a>
 
 Unique identifier for address 1.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -1632,7 +1632,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#address1AddressTypeCode name="address1AddressTypeCode">address1AddressTypeCode</a>
 
 Type of address for address 1, such as billing, shipping, or primary address.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -1672,7 +1672,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#address1AddressTypeCode_display name="address1AddressTypeCode_display">address1AddressTypeCode_display</a>
 
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -1696,7 +1696,7 @@ First included in: /core/applicationCommon/User.cdm.json/User
 ### <a href=#address1Name name="address1Name">address1Name</a>
 
 Name to enter for address 1.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -1737,7 +1737,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Line1 name="address1Line1">address1Line1</a>
 
 First line for entering address 1 information.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -1778,7 +1778,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Line2 name="address1Line2">address1Line2</a>
 
 Second line for entering address 1 information.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -1819,7 +1819,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Line3 name="address1Line3">address1Line3</a>
 
 Third line for entering address 1 information.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -1860,7 +1860,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1City name="address1City">address1City</a>
 
 City name for address 1.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -1901,7 +1901,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1StateOrProvince name="address1StateOrProvince">address1StateOrProvince</a>
 
 State or province for address 1.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -1942,7 +1942,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1County name="address1County">address1County</a>
 
 County name for address 1.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -1983,7 +1983,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Country name="address1Country">address1Country</a>
 
 Country/region name in address 1.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -2024,7 +2024,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1PostOfficeBox name="address1PostOfficeBox">address1PostOfficeBox</a>
 
 Post office box number for address 1.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -2064,7 +2064,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1PostalCode name="address1PostalCode">address1PostalCode</a>
 
 ZIP Code or postal code for address 1.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -2105,7 +2105,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1UTCOffset name="address1UTCOffset">address1UTCOffset</a>
 
 UTC offset for address 1. This is the difference between local time and standard Coordinated Universal Time.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -2146,7 +2146,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1UPSZone name="address1UPSZone">address1UPSZone</a>
 
 United Parcel Service (UPS) zone for address 1.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -2186,7 +2186,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Latitude name="address1Latitude">address1Latitude</a>
 
 Latitude for address 1.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -2226,7 +2226,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Telephone1 name="address1Telephone1">address1Telephone1</a>
 
 First telephone number associated with address 1.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -2267,7 +2267,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Longitude name="address1Longitude">address1Longitude</a>
 
 Longitude for address 1.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -2307,7 +2307,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1ShippingMethodCode name="address1ShippingMethodCode">address1ShippingMethodCode</a>
 
 Method of shipment for address 1.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -2347,7 +2347,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#address1ShippingMethodCode_display name="address1ShippingMethodCode_display">address1ShippingMethodCode_display</a>
 
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -2371,7 +2371,7 @@ First included in: /core/applicationCommon/User.cdm.json/User
 ### <a href=#address1Telephone2 name="address1Telephone2">address1Telephone2</a>
 
 Second telephone number associated with address 1.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -2412,7 +2412,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Telephone3 name="address1Telephone3">address1Telephone3</a>
 
 Third telephone number associated with address 1.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -2453,7 +2453,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Fax name="address1Fax">address1Fax</a>
 
 Fax number for address 1.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -2493,7 +2493,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2AddressId name="address2AddressId">address2AddressId</a>
 
 Unique identifier for address 2.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -2532,7 +2532,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#address2AddressTypeCode name="address2AddressTypeCode">address2AddressTypeCode</a>
 
 Type of address for address 2, such as billing, shipping, or primary address.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -2572,7 +2572,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#address2AddressTypeCode_display name="address2AddressTypeCode_display">address2AddressTypeCode_display</a>
 
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -2596,7 +2596,7 @@ First included in: /core/applicationCommon/User.cdm.json/User
 ### <a href=#address2Name name="address2Name">address2Name</a>
 
 Name to enter for address 2.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -2637,7 +2637,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Line1 name="address2Line1">address2Line1</a>
 
 First line for entering address 2 information.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -2678,7 +2678,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Line2 name="address2Line2">address2Line2</a>
 
 Second line for entering address 2 information.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -2719,7 +2719,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Line3 name="address2Line3">address2Line3</a>
 
 Third line for entering address 2 information.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -2760,7 +2760,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2City name="address2City">address2City</a>
 
 City name for address 2.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -2801,7 +2801,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2StateOrProvince name="address2StateOrProvince">address2StateOrProvince</a>
 
 State or province for address 2.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -2842,7 +2842,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2County name="address2County">address2County</a>
 
 County name for address 2.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -2883,7 +2883,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Country name="address2Country">address2Country</a>
 
 Country/region name in address 2.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -2924,7 +2924,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2PostOfficeBox name="address2PostOfficeBox">address2PostOfficeBox</a>
 
 Post office box number for address 2.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -2964,7 +2964,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2PostalCode name="address2PostalCode">address2PostalCode</a>
 
 ZIP Code or postal code for address 2.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -3005,7 +3005,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2UTCOffset name="address2UTCOffset">address2UTCOffset</a>
 
 UTC offset for address 2. This is the difference between local time and standard Coordinated Universal Time.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -3046,7 +3046,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2UPSZone name="address2UPSZone">address2UPSZone</a>
 
 United Parcel Service (UPS) zone for address 2.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -3086,7 +3086,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Latitude name="address2Latitude">address2Latitude</a>
 
 Latitude for address 2.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -3126,7 +3126,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Telephone1 name="address2Telephone1">address2Telephone1</a>
 
 First telephone number associated with address 2.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -3167,7 +3167,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Longitude name="address2Longitude">address2Longitude</a>
 
 Longitude for address 2.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -3207,7 +3207,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2ShippingMethodCode name="address2ShippingMethodCode">address2ShippingMethodCode</a>
 
 Method of shipment for address 2.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -3247,7 +3247,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#address2ShippingMethodCode_display name="address2ShippingMethodCode_display">address2ShippingMethodCode_display</a>
 
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -3271,7 +3271,7 @@ First included in: /core/applicationCommon/User.cdm.json/User
 ### <a href=#address2Telephone2 name="address2Telephone2">address2Telephone2</a>
 
 Second telephone number associated with address 2.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -3312,7 +3312,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Telephone3 name="address2Telephone3">address2Telephone3</a>
 
 Third telephone number associated with address 2.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -3353,7 +3353,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Fax name="address2Fax">address2Fax</a>
 
 Fax number for address 2.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -3393,7 +3393,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#skills name="skills">skills</a>
 
 Skill set of the user.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -3433,7 +3433,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#displayInServiceViews name="displayInServiceViews">displayInServiceViews</a>
 
 Whether to display the user in service views.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -3468,7 +3468,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#calendarId name="calendarId">calendarId</a>
 
 Fiscal calendar associated with the user.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -3510,7 +3510,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#setupUser name="setupUser">setupUser</a>
 
 Check if user is a setup user.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -3542,7 +3542,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#windowsLiveID name="windowsLiveID">windowsLiveID</a>
 
 Windows Live ID  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -3583,7 +3583,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#incomingEmailDeliveryMethod name="incomingEmailDeliveryMethod">incomingEmailDeliveryMethod</a>
 
 Incoming email delivery method for the user.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -3620,7 +3620,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#incomingEmailDeliveryMethod_display name="incomingEmailDeliveryMethod_display">incomingEmailDeliveryMethod_display</a>
 
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -3644,7 +3644,7 @@ First included in: /core/applicationCommon/User.cdm.json/User
 ### <a href=#outgoingEmailDeliveryMethod name="outgoingEmailDeliveryMethod">outgoingEmailDeliveryMethod</a>
 
 Outgoing email delivery method for the user.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -3681,7 +3681,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#outgoingEmailDeliveryMethod_display name="outgoingEmailDeliveryMethod_display">outgoingEmailDeliveryMethod_display</a>
 
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -3705,7 +3705,7 @@ First included in: /core/applicationCommon/User.cdm.json/User
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -3743,7 +3743,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#accessMode name="accessMode">accessMode</a>
 
 Type of user.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -3780,7 +3780,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#accessMode_display name="accessMode_display">accessMode_display</a>
 
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -3804,7 +3804,7 @@ First included in: /core/applicationCommon/User.cdm.json/User
 ### <a href=#inviteStatusCode name="inviteStatusCode">inviteStatusCode</a>
 
 User invitation status.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -3844,7 +3844,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#inviteStatusCode_display name="inviteStatusCode_display">inviteStatusCode_display</a>
 
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -3868,7 +3868,7 @@ First included in: /core/applicationCommon/User.cdm.json/User
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -3907,7 +3907,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -3945,7 +3945,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -3983,7 +3983,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#yomiFullName name="yomiFullName">yomiFullName</a>
 
 Pronunciation of the full name of the user, written in phonetic hiragana or katakana characters.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -4025,7 +4025,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#yomiLastName name="yomiLastName">yomiLastName</a>
 
 Pronunciation of the last name of the user, written in phonetic hiragana or katakana characters.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -4067,7 +4067,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#yomiMiddleName name="yomiMiddleName">yomiMiddleName</a>
 
 Pronunciation of the middle name of the user, written in phonetic hiragana or katakana characters.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -4109,7 +4109,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#yomiFirstName name="yomiFirstName">yomiFirstName</a>
 
 Pronunciation of the first name of the user, written in phonetic hiragana or katakana characters.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -4151,7 +4151,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#isIntegrationUser name="isIntegrationUser">isIntegrationUser</a>
 
 Check if user is an integration user.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -4183,7 +4183,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#defaultFiltersPopulated name="defaultFiltersPopulated">defaultFiltersPopulated</a>
 
 Indicates if default outlook filters have been populated.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -4215,7 +4215,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Unique identifier of the delegate user who created the systemuser.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -4260,7 +4260,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#queueId name="queueId">queueId</a>
 
 Unique identifier of the default queue for the user.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -4305,7 +4305,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Unique identifier of the delegate user who last modified the systemuser.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -4350,7 +4350,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#emailRouterAccessApproval name="emailRouterAccessApproval">emailRouterAccessApproval</a>
 
 Shows the status of the primary email address.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -4387,7 +4387,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#emailRouterAccessApproval_display name="emailRouterAccessApproval_display">emailRouterAccessApproval_display</a>
 
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -4411,7 +4411,7 @@ First included in: /core/applicationCommon/User.cdm.json/User
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Unique identifier of the currency associated with the systemuser.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -4456,7 +4456,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Exchange rate for the currency associated with the systemuser with respect to the base currency.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -4496,7 +4496,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#CALType name="CALType">CALType</a>
 
 License type of user.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -4533,7 +4533,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#CALType_display name="CALType_display">CALType_display</a>
 
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -4557,7 +4557,7 @@ First included in: /core/applicationCommon/User.cdm.json/User
 ### <a href=#isLicensed name="isLicensed">isLicensed</a>
 
 Information about whether the user is licensed.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -4589,7 +4589,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isSyncWithDirectory name="isSyncWithDirectory">isSyncWithDirectory</a>
 
 Information about whether the user is synced with the directory.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -4621,7 +4621,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#yammerEmailAddress name="yammerEmailAddress">yammerEmailAddress</a>
 
 User's Yammer login email address  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -4662,7 +4662,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#yammerUserId name="yammerUserId">yammerUserId</a>
 
 User's Yammer ID  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -4702,7 +4702,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#defaultMailbox name="defaultMailbox">defaultMailbox</a>
 
 Select the mailbox associated with this user.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -4744,7 +4744,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#userLicenseType name="userLicenseType">userLicenseType</a>
 
 Shows the type of user license.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -4779,7 +4779,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#entityImageId name="entityImageId">entityImageId</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -4817,7 +4817,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#address2Composite name="address2Composite">address2Composite</a>
 
 Shows the complete secondary address.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -4857,7 +4857,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Composite name="address1Composite">address1Composite</a>
 
 Shows the complete primary address.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -4897,7 +4897,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#processId name="processId">processId</a>
 
 Shows the ID of the process.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -4935,7 +4935,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stageId name="stageId">stageId</a>
 
 Shows the ID of the stage.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -4973,7 +4973,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isEmailAddressApprovedByO365Admin name="isEmailAddressApprovedByO365Admin">isEmailAddressApprovedByO365Admin</a>
 
 Shows the status of approval of the email address by O365 Admin.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -5005,7 +5005,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#positionId name="positionId">positionId</a>
 
 User's position in hierarchical security model.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -5050,7 +5050,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#traversedPath name="traversedPath">traversedPath</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -5090,7 +5090,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#sharePointEmailAddress name="sharePointEmailAddress">sharePointEmailAddress</a>
 
 SharePoint Work Email Address  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -5131,7 +5131,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#mobileOfflineProfileId name="mobileOfflineProfileId">mobileOfflineProfileId</a>
 
 Items contained with a particular SystemUser.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -5173,7 +5173,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#defaultOdbFolderName name="defaultOdbFolderName">defaultOdbFolderName</a>
 
 Type a default folder name for the user's OneDrive For Business location.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -5211,7 +5211,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#applicationId name="applicationId">applicationId</a>
 
 The identifier for the application. This is used to access data in another application.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -5249,7 +5249,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#applicationIdUri name="applicationIdUri">applicationIdUri</a>
 
 The URI used as a unique logical identifier for the external app. This can be used to validate the application.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -5289,7 +5289,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#azureActiveDirectoryObjectId name="azureActiveDirectoryObjectId">azureActiveDirectoryObjectId</a>
 
 This is the application directory object Id.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -5327,7 +5327,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#identityId name="identityId">identityId</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -5362,7 +5362,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#territoryId name="territoryId">territoryId</a>
 
 Unique identifier of the territory to which the user is assigned.  
-First included in: /core/applicationCommon/User.cdm.json/User  
+First included in: <a href="../../../User.md" target="_blank">applicationCommon/User</a>  
 
 #### Properties
 
@@ -5407,7 +5407,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#siteId name="siteId">siteId</a>
 
 Site at which the user is located.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User  
+First included in: <a href="User.md" target="_blank">service/User</a>  
 
 #### Properties
 

@@ -151,7 +151,7 @@ This resource identifies an instance or a type of a manufactured item that is us
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: /core/applicationCommon/Task.cdm.json/Task  
+First included in: <a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>  
 
 #### Properties
 
@@ -190,7 +190,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: /core/applicationCommon/Task.cdm.json/Task  
+First included in: <a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>  
 
 #### Properties
 
@@ -238,7 +238,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: /core/applicationCommon/Task.cdm.json/Task  
+First included in: <a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>  
 
 #### Properties
 
@@ -277,7 +277,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: /core/applicationCommon/Task.cdm.json/Task  
+First included in: <a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>  
 
 #### Properties
 
@@ -325,7 +325,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: /core/applicationCommon/Task.cdm.json/Task  
+First included in: <a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>  
 
 #### Properties
 
@@ -373,7 +373,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: /core/applicationCommon/Task.cdm.json/Task  
+First included in: <a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>  
 
 #### Properties
 
@@ -421,7 +421,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: /core/applicationCommon/Task.cdm.json/Task  
+First included in: <a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>  
 
 #### Properties
 
@@ -460,7 +460,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: /core/applicationCommon/Task.cdm.json/Task  
+First included in: <a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>  
 
 #### Properties
 
@@ -495,7 +495,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: /core/applicationCommon/Task.cdm.json/Task  
+First included in: <a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>  
 
 #### Properties
 
@@ -534,7 +534,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: /core/applicationCommon/Task.cdm.json/Task  
+First included in: <a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>  
 
 #### Properties
 
@@ -579,7 +579,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: /core/applicationCommon/Task.cdm.json/Task  
+First included in: <a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>  
 
 #### Properties
 
@@ -624,7 +624,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: /core/applicationCommon/Task.cdm.json/Task  
+First included in: <a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>  
 
 #### Properties
 
@@ -672,7 +672,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: /core/applicationCommon/Task.cdm.json/Task  
+First included in: <a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>  
 
 #### Properties
 
@@ -717,7 +717,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/Task.cdm.json/Task  
+First included in: <a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>  
 
 #### Properties
 
@@ -755,7 +755,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: /core/applicationCommon/Task.cdm.json/Task  
+First included in: <a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>  
 
 #### Properties
 
@@ -793,7 +793,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: /core/applicationCommon/Task.cdm.json/Task  
+First included in: <a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>  
 
 #### Properties
 
@@ -830,7 +830,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#activityTypeCode name="activityTypeCode">activityTypeCode</a>
 
 Type of activity.  
-First included in: /core/applicationCommon/Task.cdm.json/Task  
+First included in: <a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>  
 
 #### Properties
 
@@ -869,7 +869,7 @@ Marks an attribute that contains the entity name or 'class' for the situation wh
 ### <a href=#activityId name="activityId">activityId</a>
 
 Unique identifier of the activity.  
-First included in: /core/applicationCommon/Task.cdm.json/Task  
+First included in: <a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>  
 
 #### Properties
 
@@ -908,7 +908,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#isBilled name="isBilled">isBilled</a>
 
 Information regarding whether the fax activity was billed as part of resolving a case.  
-First included in: /core/applicationCommon/Task.cdm.json/Task  
+First included in: <a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>  
 
 #### Properties
 
@@ -940,7 +940,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#isRegularActivity name="isRegularActivity">isRegularActivity</a>
 
 Information regarding whether the activity is a regular activity type or event type.  
-First included in: /core/applicationCommon/Task.cdm.json/Task  
+First included in: <a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>  
 
 #### Properties
 
@@ -969,7 +969,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#isWorkflowCreated name="isWorkflowCreated">isWorkflowCreated</a>
 
 Information regarding whether the activity was created from a workflow rule.  
-First included in: /core/applicationCommon/Task.cdm.json/Task  
+First included in: <a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>  
 
 #### Properties
 
@@ -1001,7 +1001,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#priorityCode name="priorityCode">priorityCode</a>
 
 Priority of the activity.  
-First included in: /core/applicationCommon/Task.cdm.json/Task  
+First included in: <a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>  
 
 #### Properties
 
@@ -1038,7 +1038,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 
 ### <a href=#priorityCode_display name="priorityCode_display">priorityCode_display</a>
 
-First included in: /core/applicationCommon/Task.cdm.json/Task  
+First included in: <a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>  
 
 #### Properties
 
@@ -1062,7 +1062,7 @@ First included in: /core/applicationCommon/Task.cdm.json/Task
 ### <a href=#regardingObjectTypeCode name="regardingObjectTypeCode">regardingObjectTypeCode</a>
 
 The name of the entity linked by regardingObjectId  
-First included in: /core/applicationCommon/Task.cdm.json/Task  
+First included in: <a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>  
 
 #### Properties
 
@@ -1095,7 +1095,7 @@ Marks an attribute that contains the entity name or 'class' for the situation wh
 ### <a href=#regardingObjectId name="regardingObjectId">regardingObjectId</a>
 
 Unique identifier of the object with which the activity is associated.  
-First included in: /core/applicationCommon/Task.cdm.json/Task  
+First included in: <a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>  
 
 #### Properties
 
@@ -1137,7 +1137,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#scheduledEnd name="scheduledEnd">scheduledEnd</a>
 
 Scheduled end time of the activity.  
-First included in: /core/applicationCommon/Task.cdm.json/Task  
+First included in: <a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>  
 
 #### Properties
 
@@ -1172,7 +1172,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#scheduledStart name="scheduledStart">scheduledStart</a>
 
 Scheduled start time of the activity.  
-First included in: /core/applicationCommon/Task.cdm.json/Task  
+First included in: <a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>  
 
 #### Properties
 
@@ -1207,7 +1207,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#sortDate name="sortDate">sortDate</a>
 
 Shows the date and time by which the activities are sorted.  
-First included in: /core/applicationCommon/Task.cdm.json/Task  
+First included in: <a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>  
 
 #### Properties
 
@@ -1245,7 +1245,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#subject name="subject">subject</a>
 
 Subject associated with the activity.  
-First included in: /core/applicationCommon/Task.cdm.json/Task  
+First included in: <a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>  
 
 #### Properties
 
@@ -1282,7 +1282,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#scheduledDurationMinutes name="scheduledDurationMinutes">scheduledDurationMinutes</a>
 
 Scheduled duration of the activity, specified in minutes.  
-First included in: /core/applicationCommon/Task.cdm.json/Task  
+First included in: <a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>  
 
 #### Properties
 
@@ -1318,7 +1318,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#actualDurationMinutes name="actualDurationMinutes">actualDurationMinutes</a>
 
 Actual duration of the activity in minutes.  
-First included in: /core/applicationCommon/Task.cdm.json/Task  
+First included in: <a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>  
 
 #### Properties
 
@@ -1354,7 +1354,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#actualEnd name="actualEnd">actualEnd</a>
 
 Actual end time of the activity.  
-First included in: /core/applicationCommon/Task.cdm.json/Task  
+First included in: <a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>  
 
 #### Properties
 
@@ -1390,7 +1390,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#actualStart name="actualStart">actualStart</a>
 
 Actual start time of the activity.  
-First included in: /core/applicationCommon/Task.cdm.json/Task  
+First included in: <a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>  
 
 #### Properties
 
@@ -1426,7 +1426,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#category name="category">category</a>
 
 Type a category to identify the activity type, such as lead outreach, customer follow-up, or service alert, to tie the eactivity to a business group or function.  
-First included in: /core/applicationCommon/Task.cdm.json/Task  
+First included in: <a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>  
 
 #### Properties
 
@@ -1464,7 +1464,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#subcategory name="subcategory">subcategory</a>
 
 Type a subcategory to identify the activity type and relate the activity to a specific product, sales region, business group, or other function.  
-First included in: /core/applicationCommon/Task.cdm.json/Task  
+First included in: <a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>  
 
 #### Properties
 
@@ -1501,7 +1501,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#activityAdditionalParams name="activityAdditionalParams">activityAdditionalParams</a>
 
 Additional information provided by the external application as JSON. For internal use only.  
-First included in: /core/applicationCommon/Task.cdm.json/Task  
+First included in: <a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>  
 
 #### Properties
 
@@ -1539,7 +1539,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Shows whether the task is open, completed, or canceled. Completed and canceled tasks are read-only and can't be edited.  
-First included in: /core/applicationCommon/Task.cdm.json/Task  
+First included in: <a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>  
 
 #### Properties
 
@@ -1579,7 +1579,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: /core/applicationCommon/Task.cdm.json/Task  
+First included in: <a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>  
 
 #### Properties
 
@@ -1603,7 +1603,7 @@ First included in: /core/applicationCommon/Task.cdm.json/Task
 ### <a href=#description name="description">description</a>
 
 Type additional information to describe the task.  
-First included in: /core/applicationCommon/Task.cdm.json/Task  
+First included in: <a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>  
 
 #### Properties
 
@@ -1643,7 +1643,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#percentComplete name="percentComplete">percentComplete</a>
 
 Type the percentage complete value for the task to track tasks to completion.  
-First included in: /core/applicationCommon/Task.cdm.json/Task  
+First included in: <a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>  
 
 #### Properties
 
@@ -1681,7 +1681,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Select the task's status.  
-First included in: /core/applicationCommon/Task.cdm.json/Task  
+First included in: <a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>  
 
 #### Properties
 
@@ -1724,7 +1724,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: /core/applicationCommon/Task.cdm.json/Task  
+First included in: <a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>  
 
 #### Properties
 
@@ -1748,7 +1748,7 @@ First included in: /core/applicationCommon/Task.cdm.json/Task
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Choose the local currency for the record to make sure budgets are reported in the correct currency.  
-First included in: /core/applicationCommon/Task.cdm.json/Task  
+First included in: <a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>  
 
 #### Properties
 
@@ -1793,7 +1793,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.  
-First included in: /core/applicationCommon/Task.cdm.json/Task  
+First included in: <a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>  
 
 #### Properties
 
@@ -1833,7 +1833,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#processId name="processId">processId</a>
 
 Shows the ID of the process.  
-First included in: /core/applicationCommon/Task.cdm.json/Task  
+First included in: <a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>  
 
 #### Properties
 
@@ -1871,7 +1871,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stageId name="stageId">stageId</a>
 
 Shows the ID of the stage.  
-First included in: /core/applicationCommon/Task.cdm.json/Task  
+First included in: <a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>  
 
 #### Properties
 
@@ -1909,7 +1909,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#traversedPath name="traversedPath">traversedPath</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/Task.cdm.json/Task  
+First included in: <a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>  
 
 #### Properties
 
@@ -1949,7 +1949,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#crmTaskAssignedUniqueId name="crmTaskAssignedUniqueId">crmTaskAssignedUniqueId</a>
 
 Assigned Task Unique Id  
-First included in: /core/applicationCommon/Task.cdm.json/Task  
+First included in: <a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>  
 
 #### Properties
 
@@ -1987,7 +1987,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#SLAId name="SLAId">SLAId</a>
 
 Choose the service level agreement (SLA) that you want to apply to the Task record.  
-First included in: /core/applicationCommon/Task.cdm.json/Task  
+First included in: <a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>  
 
 #### Properties
 
@@ -2032,7 +2032,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#SLAInvokedId name="SLAInvokedId">SLAInvokedId</a>
 
 Last SLA that was applied to this Task. This field is for internal use only.  
-First included in: /core/applicationCommon/Task.cdm.json/Task  
+First included in: <a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>  
 
 #### Properties
 
@@ -2077,7 +2077,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#onHoldTime name="onHoldTime">onHoldTime</a>
 
 Shows how long, in minutes, that the record was on hold.  
-First included in: /core/applicationCommon/Task.cdm.json/Task  
+First included in: <a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>  
 
 #### Properties
 
@@ -2115,7 +2115,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#lastOnHoldTime name="lastOnHoldTime">lastOnHoldTime</a>
 
 Contains the date and time stamp of the last on hold time.  
-First included in: /core/applicationCommon/Task.cdm.json/Task  
+First included in: <a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>  
 
 #### Properties
 
@@ -2153,7 +2153,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#businessStatus name="businessStatus">businessStatus</a>
 
 There's often a need to track substrates of a task - this is often variable by specific workflow implementation.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.cdm.json/Task  
+First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
 
 #### Properties
 
@@ -2198,7 +2198,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#code name="code">code</a>
 
 A name or code (or both) briefly describing what the task involves.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.cdm.json/Task  
+First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
 
 #### Properties
 
@@ -2243,7 +2243,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#contextEncounter name="contextEncounter">contextEncounter</a>
 
 An interaction between a patient and healthcare provider(s) for the purpose of providing healthcare service(s) or assessing the health status of a patient  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.cdm.json/Task  
+First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
 
 #### Properties
 
@@ -2288,7 +2288,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#contextEpisodeofCare name="contextEpisodeofCare">contextEpisodeofCare</a>
 
 An association between a patient and an organization / healthcare provider(s) during which time encounters may occur.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.cdm.json/Task  
+First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
 
 #### Properties
 
@@ -2333,7 +2333,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#contextType name="contextType">contextType</a>
 
 The healthcare event (e.g. a patient and healthcare provider interaction) during which this task was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.cdm.json/Task  
+First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
 
 #### Properties
 
@@ -2373,7 +2373,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#contextType_display name="contextType_display">contextType_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.cdm.json/Task  
+First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
 
 #### Properties
 
@@ -2397,7 +2397,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#definitionUri name="definitionUri">definitionUri</a>
 
 A reference to a formal or informal definition of the task. For example, a protocol, a step within a defined workflow definition, etc.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.cdm.json/Task  
+First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
 
 #### Properties
 
@@ -2437,7 +2437,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#descriptionFocus name="descriptionFocus">descriptionFocus</a>
 
 The request being actioned or the resource being manipulated by this task.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.cdm.json/Task  
+First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
 
 #### Properties
 
@@ -2477,7 +2477,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#descriptionFor name="descriptionFor">descriptionFor</a>
 
 The entity who benefits from the performance of the service specified in the task (e.g., the patient).  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.cdm.json/Task  
+First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
 
 #### Properties
 
@@ -2517,7 +2517,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#groupIdentifier name="groupIdentifier">groupIdentifier</a>
 
 An identifier that links together multiple tasks and other requests that were created in the same context.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.cdm.json/Task  
+First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
 
 #### Properties
 
@@ -2557,7 +2557,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#intent name="intent">intent</a>
 
 Indicates the ""level"" of actionability associated with the Task. I.e. Is this a proposed task, a planned task, an actionable task, etc.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.cdm.json/Task  
+First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
 
 #### Properties
 
@@ -2597,7 +2597,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#intent_display name="intent_display">intent_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.cdm.json/Task  
+First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
 
 #### Properties
 
@@ -2621,7 +2621,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#performerOwnerAgentDevice name="performerOwnerAgentDevice">performerOwnerAgentDevice</a>
 
 This resource identifies an instance or a type of a manufactured item that is used in the provision of healthcare without being substantially changed through that activity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.cdm.json/Task  
+First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
 
 #### Properties
 
@@ -2666,7 +2666,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#performerOwnerOrganization name="performerOwnerOrganization">performerOwnerOrganization</a>
 
 A formally or informally recognized grouping of people or organizations formed for the purpose of achieving some form of collective action.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.cdm.json/Task  
+First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
 
 #### Properties
 
@@ -2711,7 +2711,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#performerOwnerPatient name="performerOwnerPatient">performerOwnerPatient</a>
 
 Demographics and other administrative information about an individual or animal receiving care or other health-related services.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.cdm.json/Task  
+First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
 
 #### Properties
 
@@ -2756,7 +2756,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#performerOwnerPractitioner name="performerOwnerPractitioner">performerOwnerPractitioner</a>
 
 A person who is directly or indirectly involved in the provisioning of healthcare.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.cdm.json/Task  
+First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
 
 #### Properties
 
@@ -2801,7 +2801,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#performerOwnerRelatedPerson name="performerOwnerRelatedPerson">performerOwnerRelatedPerson</a>
 
 Information about a person that is involved in the care for a patient, but who is not the target of healthcare, nor has a formal responsibility in the care process.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.cdm.json/Task  
+First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
 
 #### Properties
 
@@ -2846,7 +2846,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#performerOwnerType name="performerOwnerType">performerOwnerType</a>
 
 The type for Individual organization or Device currently responsible for task execution.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.cdm.json/Task  
+First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
 
 #### Properties
 
@@ -2886,7 +2886,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#performerOwnerType_display name="performerOwnerType_display">performerOwnerType_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.cdm.json/Task  
+First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
 
 #### Properties
 
@@ -2910,7 +2910,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#reason name="reason">reason</a>
 
 A description or code indicating why this task needs to be performed.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.cdm.json/Task  
+First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
 
 #### Properties
 
@@ -2955,7 +2955,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#reference name="reference">reference</a>
 
 A reference to a formal or informal definition of the task. For example, a protocol, a step within a defined workflow definition, etc.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.cdm.json/Task  
+First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
 
 #### Properties
 
@@ -2997,7 +2997,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#requesterAgent name="requesterAgent">requesterAgent</a>
 
 The device, practitioner, etc. who initiated the task.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.cdm.json/Task  
+First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
 
 #### Properties
 
@@ -3037,7 +3037,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#requesterAgent_display name="requesterAgent_display">requesterAgent_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.cdm.json/Task  
+First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
 
 #### Properties
 
@@ -3062,7 +3062,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 " 
 This resource identifies an instance or a type of a manufactured item that is used in the provision of healthcare without being substantially changed through that activity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.cdm.json/Task  
+First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
 
 #### Properties
 
@@ -3109,7 +3109,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#requesterAgentOrganization name="requesterAgentOrganization">requesterAgentOrganization</a>
 
 A formally or informally recognized grouping of people or organizations formed for the purpose of achieving some form of collective action.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.cdm.json/Task  
+First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
 
 #### Properties
 
@@ -3154,7 +3154,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#requesterAgentPatient name="requesterAgentPatient">requesterAgentPatient</a>
 
 Demographics and other administrative information about an individual or animal receiving care or other health-related services.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.cdm.json/Task  
+First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
 
 #### Properties
 
@@ -3199,7 +3199,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#requesterAgentPractitioner name="requesterAgentPractitioner">requesterAgentPractitioner</a>
 
 A person who is directly or indirectly involved in the provisioning of healthcare.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.cdm.json/Task  
+First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
 
 #### Properties
 
@@ -3244,7 +3244,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#requesterAgentRelatedPerson name="requesterAgentRelatedPerson">requesterAgentRelatedPerson</a>
 
 Information about a person that is involved in the care for a patient, but who is not the target of healthcare, nor has a formal responsibility in the care process.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.cdm.json/Task  
+First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
 
 #### Properties
 
@@ -3289,7 +3289,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#requesterOnBehalfOf name="requesterOnBehalfOf">requesterOnBehalfOf</a>
 
 This resource identifies an instance or a type of a manufactured item that is used in the provision of healthcare without being substantially changed through that activity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.cdm.json/Task  
+First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
 
 #### Properties
 
@@ -3334,7 +3334,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#restrictionPeriodEndDate name="restrictionPeriodEndDate">restrictionPeriodEndDate</a>
 
 The end of the period. If the end of the period is missing, it means that the period is ongoing.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.cdm.json/Task  
+First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
 
 #### Properties
 
@@ -3372,7 +3372,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#restrictionPeriodStartDate name="restrictionPeriodStartDate">restrictionPeriodStartDate</a>
 
 The start of the period. The boundary is inclusive.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.cdm.json/Task  
+First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
 
 #### Properties
 
@@ -3410,7 +3410,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#restrictionRepetitions name="restrictionRepetitions">restrictionRepetitions</a>
 
 Indicates the number of times the requested action should occur.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.cdm.json/Task  
+First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
 
 #### Properties
 
@@ -3448,7 +3448,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#status name="status">status</a>
 
 These states enable coordination of task status with off-the-shelf workflow solutions that support automation of tasks.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.cdm.json/Task  
+First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
 
 #### Properties
 
@@ -3488,7 +3488,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#status_display name="status_display">status_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.cdm.json/Task  
+First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
 
 #### Properties
 
@@ -3512,7 +3512,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#statusReason name="statusReason">statusReason</a>
 
 These states enable coordination of task status with off-the-shelf workflow solutions that support automation of tasks.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.cdm.json/Task  
+First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
 
 #### Properties
 
@@ -3557,7 +3557,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#taskNumber name="taskNumber">taskNumber</a>
 
 A task to be performed.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.cdm.json/Task  
+First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
 
 #### Properties
 
@@ -3597,7 +3597,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#taskPriority name="taskPriority">taskPriority</a>
 
 Indicates how quickly the Task should be addressed with respect to other requests.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.cdm.json/Task  
+First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
 
 #### Properties
 
@@ -3637,7 +3637,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#taskPriority_display name="taskPriority_display">taskPriority_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.cdm.json/Task  
+First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
 
 #### Properties
 

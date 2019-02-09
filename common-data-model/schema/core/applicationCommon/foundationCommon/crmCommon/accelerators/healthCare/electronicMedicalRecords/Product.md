@@ -121,7 +121,7 @@ electronicMedicalRecords/Product
 ### <a href=#productId name="productId">productId</a>
 
 Unique identifier of the product.  
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -160,7 +160,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -199,7 +199,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Unique identifier of the user who created the product.  
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -244,7 +244,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -283,7 +283,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Unique identifier of the user who last modified the product.  
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -328,7 +328,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Unique identifier of the delegate user who created the product.  
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -373,7 +373,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Unique identifier of the delegate user who last modified the product.  
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -418,7 +418,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#organizationId name="organizationId">organizationId</a>
 
 Unique identifier for the organization  
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -460,7 +460,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -496,7 +496,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -534,7 +534,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -573,7 +573,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -611,7 +611,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -649,7 +649,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#name name="name">name</a>
 
 Name of the product.  
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -690,7 +690,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#processId name="processId">processId</a>
 
 Contains the id of the process associated with the entity.  
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -728,7 +728,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stageId name="stageId">stageId</a>
 
 Contains the id of the stage where the entity is located.  
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -766,7 +766,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#traversedPath name="traversedPath">traversedPath</a>
 
 A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.  
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -806,7 +806,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#vendorID name="vendorID">vendorID</a>
 
 Unique identifier of vendor supplying the product.  
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -846,7 +846,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#validFromDate name="validFromDate">validFromDate</a>
 
 Date from which this product is valid.  
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -884,7 +884,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#validToDate name="validToDate">validToDate</a>
 
 Date to which this product is valid.  
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -922,7 +922,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#currentCost name="currentCost">currentCost</a>
 
 Current cost for the product item. Used in price calculations.  
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -963,7 +963,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Unique identifier of the currency associated with the product.  
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -1008,7 +1008,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Exchange rate for the currency associated with the product with respect to the base currency.  
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -1048,7 +1048,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#currentCostBase name="currentCostBase">currentCostBase</a>
 
 Value of the Current Cost in base currency.  
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -1092,7 +1092,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#defaultUoMId name="defaultUoMId">defaultUoMId</a>
 
 Default unit for the product.  
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -1137,7 +1137,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#defaultUoMScheduleId name="defaultUoMScheduleId">defaultUoMScheduleId</a>
 
 Default unit group for the product.  
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -1182,7 +1182,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#description name="description">description</a>
 
 Description of the product.  
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -1222,7 +1222,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#isKit name="isKit">isKit</a>
 
 Information that specifies whether the product is a kit.  
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -1257,7 +1257,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isStockItem name="isStockItem">isStockItem</a>
 
 Information about whether the product is a stock item.  
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -1292,7 +1292,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#parentProductId name="parentProductId">parentProductId</a>
 
 Specifies the parent product family hierarchy.  
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -1337,7 +1337,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#price name="price">price</a>
 
 List price of the product.  
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -1378,7 +1378,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#priceBase name="priceBase">priceBase</a>
 
 Value of the List Price in base currency.  
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -1422,7 +1422,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#productStructure name="productStructure">productStructure</a>
 
 Product Structure.  
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -1459,7 +1459,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#productStructure_display name="productStructure_display">productStructure_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -1483,7 +1483,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 ### <a href=#productNumber name="productNumber">productNumber</a>
 
 User-defined product ID.  
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -1520,7 +1520,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#productTypeCode name="productTypeCode">productTypeCode</a>
 
 Type of product.  
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -1560,7 +1560,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#productTypeCode_display name="productTypeCode_display">productTypeCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -1584,7 +1584,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 ### <a href=#productUrl name="productUrl">productUrl</a>
 
 URL for the Website associated with the product.  
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -1625,7 +1625,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#quantityDecimal name="quantityDecimal">quantityDecimal</a>
 
 Number of decimal places that can be used in monetary amounts for the product.  
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -1663,7 +1663,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#quantityOnHand name="quantityOnHand">quantityOnHand</a>
 
 Quantity of the product in stock.  
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -1703,7 +1703,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#size name="size">size</a>
 
 Product size.  
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -1743,7 +1743,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#standardCost name="standardCost">standardCost</a>
 
 Standard cost of the product.  
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -1784,7 +1784,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#standardCostBase name="standardCostBase">standardCostBase</a>
 
 Value of the Standard Cost in base currency.  
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -1828,7 +1828,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Status of the product.  
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -1868,7 +1868,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -1892,7 +1892,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Reason for the status of the product.  
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -1935,7 +1935,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -1959,7 +1959,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 ### <a href=#stockVolume name="stockVolume">stockVolume</a>
 
 Stock volume of the product.  
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -1999,7 +1999,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#stockWeight name="stockWeight">stockWeight</a>
 
 Stock weight of the product.  
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -2039,7 +2039,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#supplierName name="supplierName">supplierName</a>
 
 Name of the product's supplier.  
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -2080,7 +2080,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#vendorName name="vendorName">vendorName</a>
 
 Name of the product vendor.  
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -2121,7 +2121,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#vendorPartNumber name="vendorPartNumber">vendorPartNumber</a>
 
 Unique part identifier in vendor catalog of this product.  
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -2161,7 +2161,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#hierarchyPath name="hierarchyPath">hierarchyPath</a>
 
 Hierarchy path of the product.  
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -2201,7 +2201,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#priceLevelId name="priceLevelId">priceLevelId</a>
 
 Select the default price list for the product.  
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -2246,7 +2246,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#subjectId name="subjectId">subjectId</a>
 
 Select a category for the product.  
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -2287,7 +2287,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#entityImageId name="entityImageId">entityImageId</a>
 
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -2319,7 +2319,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdByExternalParty name="createdByExternalParty">createdByExternalParty</a>
 
 Shows the external party who created the record.  
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -2361,7 +2361,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedByExternalParty name="modifiedByExternalParty">modifiedByExternalParty</a>
 
 Shows the external party who modified the record.  
-First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Product  
+First included in: <a href="../../../../Product.md" target="_blank">foundationCommon/Product</a>  
 
 #### Properties
 
@@ -2403,7 +2403,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#form name="form">form</a>
 
 Describes the form of the item. Powder; tablets; capsule.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Product.cdm.json/Product  
+First included in: <a href="Product.md" target="_blank">electronicMedicalRecords/Product</a>  
 
 #### Properties
 
@@ -2448,7 +2448,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#isBrand name="isBrand">isBrand</a>
 
 Set to true if the item is attributable to a specific manufacturer.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Product.cdm.json/Product  
+First included in: <a href="Product.md" target="_blank">electronicMedicalRecords/Product</a>  
 
 #### Properties
 
@@ -2483,7 +2483,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isOvertheCounter name="isOvertheCounter">isOvertheCounter</a>
 
 Set to true if the medication can be obtained without an order from a prescriber.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Product.cdm.json/Product  
+First included in: <a href="Product.md" target="_blank">electronicMedicalRecords/Product</a>  
 
 #### Properties
 
@@ -2518,7 +2518,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#medicationCode name="medicationCode">medicationCode</a>
 
 A code (or set of codes) that specify this medication, or a textual description if no code is available. Usage note: This could be a standard medication code.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Product.cdm.json/Product  
+First included in: <a href="Product.md" target="_blank">electronicMedicalRecords/Product</a>  
 
 #### Properties
 
@@ -2563,7 +2563,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#packageContainer name="packageContainer">packageContainer</a>
 
 The kind of container that this package comes as.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Product.cdm.json/Product  
+First included in: <a href="Product.md" target="_blank">electronicMedicalRecords/Product</a>  
 
 #### Properties
 

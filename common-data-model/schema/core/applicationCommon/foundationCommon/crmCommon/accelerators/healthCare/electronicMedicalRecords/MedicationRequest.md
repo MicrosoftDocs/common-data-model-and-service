@@ -119,7 +119,7 @@ electronicMedicalRecords/MedicationRequest
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -158,7 +158,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -206,7 +206,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -245,7 +245,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -293,7 +293,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -341,7 +341,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -389,7 +389,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -428,7 +428,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -463,7 +463,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -502,7 +502,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -547,7 +547,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -592,7 +592,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -640,7 +640,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -685,7 +685,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -723,7 +723,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -761,7 +761,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -798,7 +798,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#medicationRequestId name="medicationRequestId">medicationRequestId</a>
 
 Unique identifier for entity instances  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -837,7 +837,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Status of the Medication Request  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -877,7 +877,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -901,7 +901,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Reason for the status of the Medication Request  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -944,7 +944,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -968,7 +968,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -1009,7 +1009,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#authoredOn name="authoredOn">authoredOn</a>
 
 The date (and perhaps time) when the prescription was initially written or authored on.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -1047,7 +1047,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#category name="category">category</a>
 
 Indicates the type of medication request (for example, where the medication is expected to be consumed or administered or the type of treatment.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -1092,7 +1092,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#contextType name="contextType">contextType</a>
 
 A link to an encounter, or episode of care, that identifies the particular occurrence or set occurrences of contact between patient and health care provider.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -1132,7 +1132,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#contextType_display name="contextType_display">contextType_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -1156,7 +1156,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#contextTypeEncounter name="contextTypeEncounter">contextTypeEncounter</a>
 
 A link to an encounter that identifies the particular occurrence or set occurrences of contact between patient and health care provider.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -1201,7 +1201,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#contextTypeEpisodeOfCare name="contextTypeEpisodeOfCare">contextTypeEpisodeOfCare</a>
 
 A link to an episode of care, that identifies the particular occurrence or set occurrences of contact between patient and health care provider.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -1246,7 +1246,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#dispenseRequestNumberofRepeatsAllowed name="dispenseRequestNumberofRepeatsAllowed">dispenseRequestNumberofRepeatsAllowed</a>
 
 An integer indicating the number of times, in addition to the original dispense, (aka refills or repeats) that the patient can receive the prescribed medication.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -1284,7 +1284,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#dispenseRequestPerformer name="dispenseRequestPerformer">dispenseRequestPerformer</a>
 
 Indicates the intended dispensing Organization specified by the Prescriber.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -1329,7 +1329,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#dispenseRequestQuantity name="dispenseRequestQuantity">dispenseRequestQuantity</a>
 
 The amount that is to be dispensed for one fill.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -1367,7 +1367,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#dispenseRequestValidityPeriodEndDate name="dispenseRequestValidityPeriodEndDate">dispenseRequestValidityPeriodEndDate</a>
 
 This indicates the validity period of a prescription (stale dating the Prescription).  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -1405,7 +1405,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#dispenseRequestValidityPeriodStartDate name="dispenseRequestValidityPeriodStartDate">dispenseRequestValidityPeriodStartDate</a>
 
 This indicates the validity period of a prescription (stale dating the Prescription).  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -1443,7 +1443,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#expectedSupplyDuration name="expectedSupplyDuration">expectedSupplyDuration</a>
 
 Identifies the period time over which the supplied product is expected to be used, or the length of time the dispense is expected to last.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -1483,7 +1483,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#groupIdentifier name="groupIdentifier">groupIdentifier</a>
 
 A shared identifier common to all requests that were authorized more or less simultaneously by a single author, representing the identifier of the requisition or prescription.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -1523,7 +1523,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#identifier name="identifier">identifier</a>
 
 This records identifiers associated with this medication request that are defined by business processes and/or used to refer to it when a direct URL reference to the resource itself is not appropriate  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -1563,7 +1563,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#intent name="intent">intent</a>
 
 Whether the request is a proposal, plan, or an original order.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -1603,7 +1603,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#intent_display name="intent_display">intent_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -1627,7 +1627,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#medicationType name="medicationType">medicationType</a>
 
 Identifies the medication being requested.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -1667,7 +1667,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#medicationType_display name="medicationType_display">medicationType_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -1691,7 +1691,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#medicationTypeCodeableConcept name="medicationTypeCodeableConcept">medicationTypeCodeableConcept</a>
 
 Identifies the medication being requested.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -1736,7 +1736,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#medicationReference name="medicationReference">medicationReference</a>
 
 Identifies the medication being requested.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -1781,7 +1781,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#priority name="priority">priority</a>
 
 Indicates how quickly the Medication Request should be addressed with respect to other requests.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -1821,7 +1821,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#priority_display name="priority_display">priority_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -1845,7 +1845,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#priorPrescription name="priorPrescription">priorPrescription</a>
 
 A link to a resource representing an earlier order related order or prescription.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -1890,7 +1890,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#recorder name="recorder">recorder</a>
 
 The person who entered the order on behalf of another individual for example in the case of a verbal or a telephone order.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -1935,7 +1935,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#requesterAgentType name="requesterAgentType">requesterAgentType</a>
 
 The healthcare professional responsible for authorizing the initial prescription.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -1975,7 +1975,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#requesterAgentType_display name="requesterAgentType_display">requesterAgentType_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -1999,7 +1999,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#requesterAgentTypeDevice name="requesterAgentTypeDevice">requesterAgentTypeDevice</a>
 
 The healthcare professional responsible for authorizing the initial prescription.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -2044,7 +2044,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#requesterAgentTypeOrganization name="requesterAgentTypeOrganization">requesterAgentTypeOrganization</a>
 
 The healthcare professional responsible for authorizing the initial prescription.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -2089,7 +2089,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#requesterAgentTypePatient name="requesterAgentTypePatient">requesterAgentTypePatient</a>
 
 The healthcare professional responsible for authorizing the initial prescription.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -2134,7 +2134,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#requesterAgentTypePractitioner name="requesterAgentTypePractitioner">requesterAgentTypePractitioner</a>
 
 The healthcare professional responsible for authorizing the initial prescription.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -2179,7 +2179,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#requesterAgentTypeRelatedPerson name="requesterAgentTypeRelatedPerson">requesterAgentTypeRelatedPerson</a>
 
 The healthcare professional responsible for authorizing the initial prescription.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -2224,7 +2224,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#requesterOnBehalfOf name="requesterOnBehalfOf">requesterOnBehalfOf</a>
 
 The organization the device or practitioner was acting on behalf of.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -2269,7 +2269,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#status name="status">status</a>
 
 A code specifying the current state of the order. Generally, this will be active or completed state.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -2309,7 +2309,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#status_display name="status_display">status_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -2333,7 +2333,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#subjectType name="subjectType">subjectType</a>
 
 A link to a resource representing the person or set of individuals to whom the medication will be given.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -2373,7 +2373,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#subjectType_display name="subjectType_display">subjectType_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -2397,7 +2397,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 ### <a href=#subjectTypeGroup name="subjectTypeGroup">subjectTypeGroup</a>
 
 A link to a resource representing the person or set of individuals to whom the medication will be given.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -2442,7 +2442,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#subjectTypePatient name="subjectTypePatient">subjectTypePatient</a>
 
 A link to a resource representing the person or set of individuals to whom the medication will be given.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -2487,7 +2487,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#substitutionAllowed name="substitutionAllowed">substitutionAllowed</a>
 
 True if the Prescriber allows a different drug to be dispensed from what was prescribed.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 
@@ -2522,7 +2522,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#substitutionReason name="substitutionReason">substitutionReason</a>
 
 Indicates the reason for the substitution, or why substitution must or must not be performed.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+First included in: <a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>  
 
 #### Properties
 

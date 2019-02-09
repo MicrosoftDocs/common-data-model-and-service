@@ -250,7 +250,7 @@ eventManagement/Account
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -289,7 +289,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -337,7 +337,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -376,7 +376,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -424,7 +424,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -472,7 +472,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -520,7 +520,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -559,7 +559,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -593,7 +593,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -622,7 +622,7 @@ contains a User or Team ID
 
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -658,7 +658,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -703,7 +703,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -751,7 +751,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -796,7 +796,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -834,7 +834,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -872,7 +872,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -909,7 +909,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#accountId name="accountId">accountId</a>
 
 Unique identifier of the account.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -948,7 +948,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#accountCategoryCode name="accountCategoryCode">accountCategoryCode</a>
 
 Select a category to indicate whether the customer account is standard or preferred.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -988,7 +988,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#accountCategoryCode_display name="accountCategoryCode_display">accountCategoryCode_display</a>
 
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -1012,7 +1012,7 @@ First included in: /core/applicationCommon/Account.cdm.json/Account
 ### <a href=#customerSizeCode name="customerSizeCode">customerSizeCode</a>
 
 Select the size category or range of the account for segmentation and reporting purposes.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -1052,7 +1052,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#customerSizeCode_display name="customerSizeCode_display">customerSizeCode_display</a>
 
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -1076,7 +1076,7 @@ First included in: /core/applicationCommon/Account.cdm.json/Account
 ### <a href=#preferredContactMethodCode name="preferredContactMethodCode">preferredContactMethodCode</a>
 
 Select the preferred method of contact.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -1116,7 +1116,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#preferredContactMethodCode_display name="preferredContactMethodCode_display">preferredContactMethodCode_display</a>
 
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -1140,7 +1140,7 @@ First included in: /core/applicationCommon/Account.cdm.json/Account
 ### <a href=#customerTypeCode name="customerTypeCode">customerTypeCode</a>
 
 Select the category that best describes the relationship between the account and your organization.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -1180,7 +1180,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#customerTypeCode_display name="customerTypeCode_display">customerTypeCode_display</a>
 
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -1204,7 +1204,7 @@ First included in: /core/applicationCommon/Account.cdm.json/Account
 ### <a href=#accountRatingCode name="accountRatingCode">accountRatingCode</a>
 
 Select a rating to indicate the value of the customer account.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -1244,7 +1244,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#accountRatingCode_display name="accountRatingCode_display">accountRatingCode_display</a>
 
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -1268,7 +1268,7 @@ First included in: /core/applicationCommon/Account.cdm.json/Account
 ### <a href=#industryCode name="industryCode">industryCode</a>
 
 Select the account's primary industry for use in marketing segmentation and demographic analysis.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -1308,7 +1308,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#industryCode_display name="industryCode_display">industryCode_display</a>
 
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -1332,7 +1332,7 @@ First included in: /core/applicationCommon/Account.cdm.json/Account
 ### <a href=#territoryCode name="territoryCode">territoryCode</a>
 
 Select a region or territory for the account for use in segmentation and analysis.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -1372,7 +1372,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#territoryCode_display name="territoryCode_display">territoryCode_display</a>
 
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -1396,7 +1396,7 @@ First included in: /core/applicationCommon/Account.cdm.json/Account
 ### <a href=#accountClassificationCode name="accountClassificationCode">accountClassificationCode</a>
 
 Select a classification code to indicate the potential value of the customer account based on the projected return on investment, cooperation level, sales cycle length or other criteria.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -1436,7 +1436,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#accountClassificationCode_display name="accountClassificationCode_display">accountClassificationCode_display</a>
 
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -1460,7 +1460,7 @@ First included in: /core/applicationCommon/Account.cdm.json/Account
 ### <a href=#businessTypeCode name="businessTypeCode">businessTypeCode</a>
 
 Select the legal designation or other business type of the account for contracts or reporting purposes.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -1500,7 +1500,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#businessTypeCode_display name="businessTypeCode_display">businessTypeCode_display</a>
 
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -1524,7 +1524,7 @@ First included in: /core/applicationCommon/Account.cdm.json/Account
 ### <a href=#traversedPath name="traversedPath">traversedPath</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -1564,7 +1564,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#paymentTermsCode name="paymentTermsCode">paymentTermsCode</a>
 
 Select the payment terms to indicate when the customer needs to pay the total amount.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -1604,7 +1604,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#paymentTermsCode_display name="paymentTermsCode_display">paymentTermsCode_display</a>
 
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -1628,7 +1628,7 @@ First included in: /core/applicationCommon/Account.cdm.json/Account
 ### <a href=#shippingMethodCode name="shippingMethodCode">shippingMethodCode</a>
 
 Select a shipping method for deliveries sent to the account's address to designate the preferred carrier or other delivery option.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -1668,7 +1668,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#shippingMethodCode_display name="shippingMethodCode_display">shippingMethodCode_display</a>
 
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -1692,7 +1692,7 @@ First included in: /core/applicationCommon/Account.cdm.json/Account
 ### <a href=#primaryContactId name="primaryContactId">primaryContactId</a>
 
 Choose the primary contact for the account to provide quick access to contact details.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -1737,7 +1737,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#participatesInWorkflow name="participatesInWorkflow">participatesInWorkflow</a>
 
 For system use only. Legacy Microsoft Dynamics CRM 3.0 workflow data.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -1772,7 +1772,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#name name="name">name</a>
 
 Type the company or business name.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -1813,7 +1813,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#accountNumber name="accountNumber">accountNumber</a>
 
 Type an ID number or code for the account to quickly search and identify the account in system views.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -1853,7 +1853,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#revenue name="revenue">revenue</a>
 
 Type the annual revenue for the account, used as an indicator in financial performance analysis.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -1894,7 +1894,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#numberOfEmployees name="numberOfEmployees">numberOfEmployees</a>
 
 Type the number of employees that work at the account for use in marketing segmentation and demographic analysis.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -1932,7 +1932,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#description name="description">description</a>
 
 Type additional information to describe the account, such as an excerpt from the company's website.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -1972,7 +1972,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#SIC name="SIC">SIC</a>
 
 Type the Standard Industrial Classification (SIC) code that indicates the account's primary industry of business, for use in marketing segmentation and demographic analysis.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -2012,7 +2012,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownershipCode name="ownershipCode">ownershipCode</a>
 
 Select the account's ownership structure, such as public or private.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -2052,7 +2052,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#ownershipCode_display name="ownershipCode_display">ownershipCode_display</a>
 
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -2076,7 +2076,7 @@ First included in: /core/applicationCommon/Account.cdm.json/Account
 ### <a href=#marketCap name="marketCap">marketCap</a>
 
 Type the market capitalization of the account to identify the company's equity, used as an indicator in financial performance analysis.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -2117,7 +2117,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#sharesOutstanding name="sharesOutstanding">sharesOutstanding</a>
 
 Type the number of shares available to the public for the account. This number is used as an indicator in financial performance analysis.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -2155,7 +2155,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#tickerSymbol name="tickerSymbol">tickerSymbol</a>
 
 Type the stock exchange symbol for the account to track financial performance of the company. You can click the code entered in this field to access the latest trading information from MSN Money.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -2196,7 +2196,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#stockExchange name="stockExchange">stockExchange</a>
 
 Type the stock exchange at which the account is listed to track their stock and financial performance of the company.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -2236,7 +2236,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#webSiteUrl name="webSiteUrl">webSiteUrl</a>
 
 Type the account's website URL to get quick details about the company profile.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -2277,7 +2277,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ftpSiteUrl name="ftpSiteUrl">ftpSiteUrl</a>
 
 Type the URL for the account's FTP site to enable users to access data and share documents.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -2318,7 +2318,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#EMailAddress1 name="EMailAddress1">EMailAddress1</a>
 
 Type the primary email address for the account.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -2359,7 +2359,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#EMailAddress2 name="EMailAddress2">EMailAddress2</a>
 
 Type the secondary email address for the account.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -2400,7 +2400,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#EMailAddress3 name="EMailAddress3">EMailAddress3</a>
 
 Type an alternate email address for the account.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -2441,7 +2441,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#doNotPhone name="doNotPhone">doNotPhone</a>
 
 Select whether the account allows phone calls. If Do Not Allow is selected, the account will be excluded from phone call activities distributed in marketing campaigns.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -2476,7 +2476,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#doNotFax name="doNotFax">doNotFax</a>
 
 Select whether the account allows faxes. If Do Not Allow is selected, the account will be excluded from fax activities distributed in marketing campaigns.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -2511,7 +2511,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#telephone1 name="telephone1">telephone1</a>
 
 Type the main phone number for this account.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -2552,7 +2552,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#doNotEMail name="doNotEMail">doNotEMail</a>
 
 Select whether the account allows direct email sent from Microsoft Dynamics 365.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -2587,7 +2587,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#telephone2 name="telephone2">telephone2</a>
 
 Type a second phone number for this account.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -2628,7 +2628,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#fax name="fax">fax</a>
 
 Type the fax number for the account.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -2668,7 +2668,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#telephone3 name="telephone3">telephone3</a>
 
 Type a third phone number for this account.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -2709,7 +2709,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#doNotPostalMail name="doNotPostalMail">doNotPostalMail</a>
 
 Select whether the account allows direct mail. If Do Not Allow is selected, the account will be excluded from letter activities distributed in marketing campaigns.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -2744,7 +2744,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#doNotBulkEMail name="doNotBulkEMail">doNotBulkEMail</a>
 
 Select whether the account allows bulk email sent through campaigns. If Do Not Allow is selected, the account can be added to marketing lists, but is excluded from email.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -2779,7 +2779,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#doNotBulkPostalMail name="doNotBulkPostalMail">doNotBulkPostalMail</a>
 
 Select whether the account allows bulk postal mail sent through marketing campaigns or quick campaigns. If Do Not Allow is selected, the account can be added to marketing lists, but will be excluded from the postal mail.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -2814,7 +2814,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#creditLimit name="creditLimit">creditLimit</a>
 
 Type the credit limit of the account. This is a useful reference when you address invoice and accounting issues with the customer.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -2855,7 +2855,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#creditOnHold name="creditOnHold">creditOnHold</a>
 
 Select whether the credit for the account is on hold. This is a useful reference while addressing the invoice and accounting issues with the customer.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -2890,7 +2890,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#parentAccountId name="parentAccountId">parentAccountId</a>
 
 Choose the parent account associated with this account to show parent and child businesses in reporting and analytics.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -2935,7 +2935,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#aging30 name="aging30">aging30</a>
 
 For system use only.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -2976,7 +2976,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Shows whether the account is active or inactive. Inactive accounts are read-only and can't be edited unless they are reactivated.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -3016,7 +3016,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -3040,7 +3040,7 @@ First included in: /core/applicationCommon/Account.cdm.json/Account
 ### <a href=#aging60 name="aging60">aging60</a>
 
 For system use only.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -3081,7 +3081,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Select the account's status.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -3124,7 +3124,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -3148,7 +3148,7 @@ First included in: /core/applicationCommon/Account.cdm.json/Account
 ### <a href=#aging90 name="aging90">aging90</a>
 
 For system use only.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -3189,7 +3189,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1AddressId name="address1AddressId">address1AddressId</a>
 
 Unique identifier for address 1.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -3228,7 +3228,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#address1AddressTypeCode name="address1AddressTypeCode">address1AddressTypeCode</a>
 
 Select the address type, such as primary or billing.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -3268,7 +3268,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#address1AddressTypeCode_display name="address1AddressTypeCode_display">address1AddressTypeCode_display</a>
 
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -3292,7 +3292,7 @@ First included in: /core/applicationCommon/Account.cdm.json/Account
 ### <a href=#address1Name name="address1Name">address1Name</a>
 
 Type a descriptive name for the customer's address, such as Corporate Headquarters.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -3333,7 +3333,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1PrimaryContactName name="address1PrimaryContactName">address1PrimaryContactName</a>
 
 Type the name of the primary contact person for the customer's address.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -3374,7 +3374,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Line1 name="address1Line1">address1Line1</a>
 
 Type the first line of the customer's address to help identify the location.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -3415,7 +3415,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Line2 name="address1Line2">address1Line2</a>
 
 Type the second line of the customer's address.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -3456,7 +3456,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Line3 name="address1Line3">address1Line3</a>
 
 Type the third line of the customer's address.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -3497,7 +3497,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1City name="address1City">address1City</a>
 
 Type the city for the customer's address to help identify the location.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -3538,7 +3538,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1StateOrProvince name="address1StateOrProvince">address1StateOrProvince</a>
 
 Type the state or province of the customer's address.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -3579,7 +3579,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1County name="address1County">address1County</a>
 
 Type the county for the customer's address.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -3620,7 +3620,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Country name="address1Country">address1Country</a>
 
 Type the country or region for the customer's address.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -3661,7 +3661,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1PostOfficeBox name="address1PostOfficeBox">address1PostOfficeBox</a>
 
 Type the post office box number of the customer's address.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -3701,7 +3701,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1PostalCode name="address1PostalCode">address1PostalCode</a>
 
 Type the ZIP Code or postal code for the address.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -3742,7 +3742,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1UTCOffset name="address1UTCOffset">address1UTCOffset</a>
 
 Select the time zone for the address.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -3783,7 +3783,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1FreightTermsCode name="address1FreightTermsCode">address1FreightTermsCode</a>
 
 Select the freight terms to make sure shipping charges are processed correctly.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -3823,7 +3823,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#address1FreightTermsCode_display name="address1FreightTermsCode_display">address1FreightTermsCode_display</a>
 
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -3847,7 +3847,7 @@ First included in: /core/applicationCommon/Account.cdm.json/Account
 ### <a href=#address1UPSZone name="address1UPSZone">address1UPSZone</a>
 
 Type the UPS zone of the customer's address to make sure shipping charges are calculated correctly and deliveries are made promptly, if shipped by UPS.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -3887,7 +3887,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Latitude name="address1Latitude">address1Latitude</a>
 
 Type the latitude value for the customer's address, for use in mapping and other applications.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -3927,7 +3927,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Telephone1 name="address1Telephone1">address1Telephone1</a>
 
 Type the primary phone number for the customer's address.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -3968,7 +3968,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Longitude name="address1Longitude">address1Longitude</a>
 
 Type the longitude value for the customer's address, for use in mapping and other applications.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -4008,7 +4008,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1ShippingMethodCode name="address1ShippingMethodCode">address1ShippingMethodCode</a>
 
 Select a shipping method for deliveries sent to this address.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -4048,7 +4048,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#address1ShippingMethodCode_display name="address1ShippingMethodCode_display">address1ShippingMethodCode_display</a>
 
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -4072,7 +4072,7 @@ First included in: /core/applicationCommon/Account.cdm.json/Account
 ### <a href=#address1Telephone2 name="address1Telephone2">address1Telephone2</a>
 
 Type a second phone number for the customer's address.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -4113,7 +4113,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Telephone3 name="address1Telephone3">address1Telephone3</a>
 
 Type a third phone number for the customer's address.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -4154,7 +4154,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Fax name="address1Fax">address1Fax</a>
 
 Type the fax number associated with the customer's address.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -4195,7 +4195,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Composite name="address1Composite">address1Composite</a>
 
 Shows the complete address.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -4236,7 +4236,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2AddressId name="address2AddressId">address2AddressId</a>
 
 Unique identifier for address 1.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -4275,7 +4275,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#address2AddressTypeCode name="address2AddressTypeCode">address2AddressTypeCode</a>
 
 Select the address type, such as primary or billing.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -4315,7 +4315,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#address2AddressTypeCode_display name="address2AddressTypeCode_display">address2AddressTypeCode_display</a>
 
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -4339,7 +4339,7 @@ First included in: /core/applicationCommon/Account.cdm.json/Account
 ### <a href=#address2Name name="address2Name">address2Name</a>
 
 Type a descriptive name for the customer's address, such as Corporate Headquarters.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -4380,7 +4380,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2PrimaryContactName name="address2PrimaryContactName">address2PrimaryContactName</a>
 
 Type the name of the primary contact person for the customer's address.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -4421,7 +4421,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Line1 name="address2Line1">address2Line1</a>
 
 Type the first line of the customer's address to help identify the location.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -4462,7 +4462,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Line2 name="address2Line2">address2Line2</a>
 
 Type the second line of the customer's address.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -4503,7 +4503,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Line3 name="address2Line3">address2Line3</a>
 
 Type the third line of the customer's address.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -4544,7 +4544,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2City name="address2City">address2City</a>
 
 Type the city for the customer's address to help identify the location.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -4585,7 +4585,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2StateOrProvince name="address2StateOrProvince">address2StateOrProvince</a>
 
 Type the state or province of the customer's address.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -4626,7 +4626,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2County name="address2County">address2County</a>
 
 Type the county for the customer's address.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -4667,7 +4667,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Country name="address2Country">address2Country</a>
 
 Type the country or region for the customer's address.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -4708,7 +4708,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2PostOfficeBox name="address2PostOfficeBox">address2PostOfficeBox</a>
 
 Type the post office box number of the customer's address.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -4748,7 +4748,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2PostalCode name="address2PostalCode">address2PostalCode</a>
 
 Type the ZIP Code or postal code for the address.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -4789,7 +4789,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2UTCOffset name="address2UTCOffset">address2UTCOffset</a>
 
 Select the time zone for the address.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -4830,7 +4830,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2FreightTermsCode name="address2FreightTermsCode">address2FreightTermsCode</a>
 
 Select the freight terms to make sure shipping charges are processed correctly.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -4870,7 +4870,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#address2FreightTermsCode_display name="address2FreightTermsCode_display">address2FreightTermsCode_display</a>
 
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -4894,7 +4894,7 @@ First included in: /core/applicationCommon/Account.cdm.json/Account
 ### <a href=#address2UPSZone name="address2UPSZone">address2UPSZone</a>
 
 Type the UPS zone of the customer's address to make sure shipping charges are calculated correctly and deliveries are made promptly, if shipped by UPS.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -4934,7 +4934,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Latitude name="address2Latitude">address2Latitude</a>
 
 Type the latitude value for the customer's address, for use in mapping and other applications.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -4974,7 +4974,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Telephone1 name="address2Telephone1">address2Telephone1</a>
 
 Type the primary phone number for the customer's address.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -5015,7 +5015,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Longitude name="address2Longitude">address2Longitude</a>
 
 Type the longitude value for the customer's address, for use in mapping and other applications.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -5055,7 +5055,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2ShippingMethodCode name="address2ShippingMethodCode">address2ShippingMethodCode</a>
 
 Select a shipping method for deliveries sent to this address.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -5095,7 +5095,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#address2ShippingMethodCode_display name="address2ShippingMethodCode_display">address2ShippingMethodCode_display</a>
 
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -5119,7 +5119,7 @@ First included in: /core/applicationCommon/Account.cdm.json/Account
 ### <a href=#address2Telephone2 name="address2Telephone2">address2Telephone2</a>
 
 Type a second phone number for the customer's address.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -5160,7 +5160,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Telephone3 name="address2Telephone3">address2Telephone3</a>
 
 Type a third phone number for the customer's address.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -5201,7 +5201,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Fax name="address2Fax">address2Fax</a>
 
 Type the fax number associated with the customer's address.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -5242,7 +5242,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Composite name="address2Composite">address2Composite</a>
 
 Shows the complete address.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -5283,7 +5283,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#preferredAppointmentDayCode name="preferredAppointmentDayCode">preferredAppointmentDayCode</a>
 
 Select the preferred day of the week for service appointments.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -5323,7 +5323,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#preferredAppointmentDayCode_display name="preferredAppointmentDayCode_display">preferredAppointmentDayCode_display</a>
 
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -5347,7 +5347,7 @@ First included in: /core/applicationCommon/Account.cdm.json/Account
 ### <a href=#preferredSystemUserId name="preferredSystemUserId">preferredSystemUserId</a>
 
 Choose the preferred service representative for reference when you schedule service activities for the account.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -5392,7 +5392,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#preferredAppointmentTimeCode name="preferredAppointmentTimeCode">preferredAppointmentTimeCode</a>
 
 Select the preferred time of day for service appointments.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -5432,7 +5432,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#preferredAppointmentTimeCode_display name="preferredAppointmentTimeCode_display">preferredAppointmentTimeCode_display</a>
 
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -5456,7 +5456,7 @@ First included in: /core/applicationCommon/Account.cdm.json/Account
 ### <a href=#merged name="merged">merged</a>
 
 Shows whether the account has been merged with another account.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -5491,7 +5491,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#doNotSendMM name="doNotSendMM">doNotSendMM</a>
 
 Select whether the account accepts marketing materials, such as brochures or catalogs.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -5526,7 +5526,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#masterId name="masterId">masterId</a>
 
 Shows the master account that the account was merged with.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -5571,7 +5571,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#lastUsedInCampaign name="lastUsedInCampaign">lastUsedInCampaign</a>
 
 Shows the date when the account was last included in a marketing campaign or quick campaign.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -5609,7 +5609,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -5649,7 +5649,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Choose the local currency for the record to make sure budgets are reported in the correct currency.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -5694,7 +5694,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#creditLimitBase name="creditLimitBase">creditLimitBase</a>
 
 Shows the credit limit converted to the system's default base currency for reporting purposes.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -5738,7 +5738,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#aging30Base name="aging30Base">aging30Base</a>
 
 The base currency equivalent of the aging 30 field.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -5782,7 +5782,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#revenueBase name="revenueBase">revenueBase</a>
 
 Shows the annual revenue converted to the system's default base currency. The calculations use the exchange rate specified in the Currencies area.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -5826,7 +5826,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#aging90Base name="aging90Base">aging90Base</a>
 
 The base currency equivalent of the aging 90 field.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -5870,7 +5870,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#marketCapBase name="marketCapBase">marketCapBase</a>
 
 Shows the market capitalization converted to the system's default base currency.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -5914,7 +5914,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#aging60Base name="aging60Base">aging60Base</a>
 
 The base currency equivalent of the aging 60 field.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -5958,7 +5958,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#yomiName name="yomiName">yomiName</a>
 
 Type the phonetic spelling of the company name, if specified in Japanese, to make sure the name is pronounced correctly in phone calls and other communications.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -6000,7 +6000,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#stageId name="stageId">stageId</a>
 
 Shows the ID of the stage.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -6038,7 +6038,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#processId name="processId">processId</a>
 
 Shows the ID of the process.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -6076,7 +6076,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#entityImageId name="entityImageId">entityImageId</a>
 
 For internal use only.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -6114,7 +6114,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#timeSpentByMeOnEmailAndMeetings name="timeSpentByMeOnEmailAndMeetings">timeSpentByMeOnEmailAndMeetings</a>
 
 Total time spent for emails (read and write) and meetings by me in relation to account record.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -6155,7 +6155,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#createdByExternalParty name="createdByExternalParty">createdByExternalParty</a>
 
 Shows the external party who created the record.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -6197,7 +6197,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedByExternalParty name="modifiedByExternalParty">modifiedByExternalParty</a>
 
 Shows the external party who modified the record.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -6239,7 +6239,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#primarySatoriId name="primarySatoriId">primarySatoriId</a>
 
 Primary Satori ID for Account  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -6279,7 +6279,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#primaryTwitterId name="primaryTwitterId">primaryTwitterId</a>
 
 Primary Twitter ID for Account  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -6319,7 +6319,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#SLAId name="SLAId">SLAId</a>
 
 Choose the service level agreement (SLA) that you want to apply to the Account record.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -6364,7 +6364,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#SLAInvokedId name="SLAInvokedId">SLAInvokedId</a>
 
 Last SLA that was applied to this case. This field is for internal use only.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -6409,7 +6409,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#onHoldTime name="onHoldTime">onHoldTime</a>
 
 Shows how long, in minutes, that the record was on hold.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -6447,7 +6447,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#lastOnHoldTime name="lastOnHoldTime">lastOnHoldTime</a>
 
 Contains the date and time stamp of the last on hold time.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -6485,7 +6485,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#followEmail name="followEmail">followEmail</a>
 
 Information about whether to allow following email activity like opens, attachment views and link clicks for emails sent to the account.  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -6520,7 +6520,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#marketingOnly name="marketingOnly">marketingOnly</a>
 
 Whether is only for marketing  
-First included in: /core/applicationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
@@ -6555,7 +6555,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#defaultPriceLevelId name="defaultPriceLevelId">defaultPriceLevelId</a>
 
 Choose the default price list associated with the account to make sure the correct product prices for this customer are applied in sales opportunities, quotes, and orders.  
-First included in: /core/applicationCommon/foundationCommon/Account.cdm.json/Account  
+First included in: <a href="../../../../Account.md" target="_blank">foundationCommon/Account</a>  
 
 #### Properties
 
@@ -6600,7 +6600,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#originatingLeadId name="originatingLeadId">originatingLeadId</a>
 
 Shows the lead that the account was created from if the account was created by converting a lead in Microsoft Dynamics 365. This is used to relate the account to data on the originating lead for use in reporting and analytics.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Account.cdm.json/Account  
+First included in: <a href="../../../Account.md" target="_blank">crmCommon/Account</a>  
 
 #### Properties
 
@@ -6645,7 +6645,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#preferredEquipmentId name="preferredEquipmentId">preferredEquipmentId</a>
 
 Choose the account's preferred service facility or equipment to make sure services are scheduled correctly for the customer.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Account.cdm.json/Account  
+First included in: <a href="../../../Account.md" target="_blank">crmCommon/Account</a>  
 
 #### Properties
 
@@ -6690,7 +6690,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#preferredServiceId name="preferredServiceId">preferredServiceId</a>
 
 Choose the account's preferred service for reference when you schedule service activities.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Account.cdm.json/Account  
+First included in: <a href="../../../Account.md" target="_blank">crmCommon/Account</a>  
 
 #### Properties
 
@@ -6735,7 +6735,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#territoryId name="territoryId">territoryId</a>
 
 Choose the sales region or territory for the account to make sure the account is assigned to the correct representative and for use in segmentation and analysis.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Account.cdm.json/Account  
+First included in: <a href="../../../Account.md" target="_blank">crmCommon/Account</a>  
 
 #### Properties
 
@@ -6780,7 +6780,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#openDeals name="openDeals">openDeals</a>
 
 Number of open opportunities against an account and its child accounts.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Account.cdm.json/Account  
+First included in: <a href="../../../Account.md" target="_blank">crmCommon/Account</a>  
 
 #### Properties
 
@@ -6818,7 +6818,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#openDealsDate name="openDealsDate">openDealsDate</a>
 
 Last Updated time of rollup field Open Deals.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Account.cdm.json/Account  
+First included in: <a href="../../../Account.md" target="_blank">crmCommon/Account</a>  
 
 #### Properties
 
@@ -6859,7 +6859,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#openDealsState name="openDealsState">openDealsState</a>
 
 State of rollup field Open Deals.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Account.cdm.json/Account  
+First included in: <a href="../../../Account.md" target="_blank">crmCommon/Account</a>  
 
 #### Properties
 
@@ -6900,7 +6900,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#openRevenue name="openRevenue">openRevenue</a>
 
 Sum of open revenue against an account and its child accounts.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Account.cdm.json/Account  
+First included in: <a href="../../../Account.md" target="_blank">crmCommon/Account</a>  
 
 #### Properties
 
@@ -6941,7 +6941,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#openRevenueBase name="openRevenueBase">openRevenueBase</a>
 
 Value of the Open Revenue in base currency.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Account.cdm.json/Account  
+First included in: <a href="../../../Account.md" target="_blank">crmCommon/Account</a>  
 
 #### Properties
 
@@ -6985,7 +6985,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#openRevenueDate name="openRevenueDate">openRevenueDate</a>
 
 Last Updated time of rollup field Open Revenue.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Account.cdm.json/Account  
+First included in: <a href="../../../Account.md" target="_blank">crmCommon/Account</a>  
 
 #### Properties
 
@@ -7026,7 +7026,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#openRevenueState name="openRevenueState">openRevenueState</a>
 
 State of rollup field Open Revenue.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/Account.cdm.json/Account  
+First included in: <a href="../../../Account.md" target="_blank">crmCommon/Account</a>  
 
 #### Properties
 
@@ -7066,7 +7066,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#adxCreatedByIPAddress name="adxCreatedByIPAddress">adxCreatedByIPAddress</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Account.cdm.json/Account  
+First included in: <a href="../../portals/Account.md" target="_blank">portals/Account</a>  
 
 #### Properties
 
@@ -7102,7 +7102,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#adxCreatedByUsername name="adxCreatedByUsername">adxCreatedByUsername</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Account.cdm.json/Account  
+First included in: <a href="../../portals/Account.md" target="_blank">portals/Account</a>  
 
 #### Properties
 
@@ -7139,7 +7139,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#adxModifiedByIPAddress name="adxModifiedByIPAddress">adxModifiedByIPAddress</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Account.cdm.json/Account  
+First included in: <a href="../../portals/Account.md" target="_blank">portals/Account</a>  
 
 #### Properties
 
@@ -7175,7 +7175,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#adxModifiedByUsername name="adxModifiedByUsername">adxModifiedByUsername</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Account.cdm.json/Account  
+First included in: <a href="../../portals/Account.md" target="_blank">portals/Account</a>  
 
 #### Properties
 
@@ -7213,7 +7213,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#managingPartner name="managingPartner">managingPartner</a>
 
 Unique identifier for Account associated with Account.  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Account.cdm.json/Account  
+First included in: <a href="../../portals/Account.md" target="_blank">portals/Account</a>  
 
 #### Properties
 
@@ -7258,7 +7258,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#hotelGroup name="hotelGroup">hotelGroup</a>
 
 Whether this account belongs to hotel group or not  
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Account.cdm.json/Account  
+First included in: <a href="Account.md" target="_blank">eventManagement/Account</a>  
 
 #### Properties
 
@@ -7298,7 +7298,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#hotelGroup_display name="hotelGroup_display">hotelGroup_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Account.cdm.json/Account  
+First included in: <a href="Account.md" target="_blank">eventManagement/Account</a>  
 
 #### Properties
 
@@ -7321,7 +7321,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 ### <a href=#rentalCarProvider name="rentalCarProvider">rentalCarProvider</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Account.cdm.json/Account  
+First included in: <a href="Account.md" target="_blank">eventManagement/Account</a>  
 
 #### Properties
 
@@ -7358,7 +7358,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#rentalCarProvider_display name="rentalCarProvider_display">rentalCarProvider_display</a>
 
-First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Account.cdm.json/Account  
+First included in: <a href="Account.md" target="_blank">eventManagement/Account</a>  
 
 #### Properties
 
