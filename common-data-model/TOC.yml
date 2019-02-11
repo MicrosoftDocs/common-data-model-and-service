@@ -17,6 +17,6 @@
     items:
       - name: Model metadata
         href: model-json.md
-  - name: Schema References
+  - name: Entity Reference
     href: schema/toc.yml
     topicHref: schema/overview.md
