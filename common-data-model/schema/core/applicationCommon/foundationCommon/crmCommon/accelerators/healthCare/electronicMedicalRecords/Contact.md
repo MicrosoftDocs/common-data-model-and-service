@@ -10240,7 +10240,7 @@ First included in: electronicMedicalRecords/Contact (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Use of Name</td></tr><tr><td>description</td><td>The use of a human name.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_name1use</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Official</td><td>935000001</td></tr><tr><td>en</td><td>Temp</td><td>935000002</td></tr><tr><td>en</td><td>Nick</td><td>935000003</td></tr><tr><td>en</td><td>Maiden</td><td>935000004</td></tr><tr><td>en</td><td>Old</td><td>935000005</td></tr><tr><td>en</td><td>Anonymus</td><td>935000006</td></tr><tr><td>en</td><td>Usual</td><td>935000000</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Use of Name</td></tr><tr><td>description</td><td>The use of a human name.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_name1use</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Usual</td><td>935000000</td></tr><tr><td>en</td><td>Official</td><td>935000001</td></tr><tr><td>en</td><td>Temp</td><td>935000002</td></tr><tr><td>en</td><td>Nick</td><td>935000003</td></tr><tr><td>en</td><td>Maiden</td><td>935000004</td></tr><tr><td>en</td><td>Old</td><td>935000005</td></tr><tr><td>en</td><td>Anonymus</td><td>935000006</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -10585,7 +10585,7 @@ First included in: electronicMedicalRecords/Contact (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Use of Name</td></tr><tr><td>description</td><td>The use of a human name.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_name2use</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Maiden</td><td>935000004</td></tr><tr><td>en</td><td>Old</td><td>935000005</td></tr><tr><td>en</td><td>Anonymus</td><td>935000006</td></tr><tr><td>en</td><td>Usual</td><td>935000000</td></tr><tr><td>en</td><td>Official</td><td>935000001</td></tr><tr><td>en</td><td>Temp</td><td>935000002</td></tr><tr><td>en</td><td>Nick</td><td>935000003</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Use of Name</td></tr><tr><td>description</td><td>The use of a human name.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_name2use</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Usual</td><td>935000000</td></tr><tr><td>en</td><td>Official</td><td>935000001</td></tr><tr><td>en</td><td>Temp</td><td>935000002</td></tr><tr><td>en</td><td>Nick</td><td>935000003</td></tr><tr><td>en</td><td>Maiden</td><td>935000004</td></tr><tr><td>en</td><td>Old</td><td>935000005</td></tr><tr><td>en</td><td>Anonymus</td><td>935000006</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -11575,7 +11575,7 @@ First included in: electronicMedicalRecords/Contact (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Use of Contact Point</td></tr><tr><td>description</td><td>Purpose of this contact point.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_telecom2use</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Old</td><td>935000004</td></tr><tr><td>en</td><td>Home</td><td>935000000</td></tr><tr><td>en</td><td>Work</td><td>935000001</td></tr><tr><td>en</td><td>Temp</td><td>935000002</td></tr><tr><td>en</td><td>Mobile</td><td>935000003</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Use of Contact Point</td></tr><tr><td>description</td><td>Purpose of this contact point.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_telecom2use</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Home</td><td>935000000</td></tr><tr><td>en</td><td>Work</td><td>935000001</td></tr><tr><td>en</td><td>Temp</td><td>935000002</td></tr><tr><td>en</td><td>Mobile</td><td>935000003</td></tr><tr><td>en</td><td>Old</td><td>935000004</td></tr></table></td></tr></table>
 
 #### Traits
 
