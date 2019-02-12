@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/9/2019
+ms.date: 2/12/2019
 ms.author: tpalmer
 ---
 
@@ -904,7 +904,7 @@ First included in: electronicMedicalRecords/ReferralRequest (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Referral Request Status</td></tr><tr><td>description</td><td>Reason for the status of the Referral Request</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Proposal</td><td>1</td></tr><tr><td>en</td><td>Inactive</td><td>2</td></tr><tr><td>en</td><td>Plan</td><td>935000000</td></tr><tr><td>en</td><td>Original Order</td><td>935000001</td></tr><tr><td>en</td><td>Reflex Order</td><td>935000002</td></tr><tr><td>en</td><td>Instance Order</td><td>935000003</td></tr><tr><td>en</td><td>Option</td><td>935000004</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Referral Request Status</td></tr><tr><td>description</td><td>Reason for the status of the Referral Request</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Proposal</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Plan</td><td>935000000</td><td>0</td></tr><tr><td>en</td><td>Original Order</td><td>935000001</td><td>0</td></tr><tr><td>en</td><td>Reflex Order</td><td>935000002</td><td>0</td></tr><tr><td>en</td><td>Instance Order</td><td>935000003</td><td>0</td></tr><tr><td>en</td><td>Option</td><td>935000004</td><td>0</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -913,7 +913,7 @@ First included in: electronicMedicalRecords/ReferralRequest (this entity)
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Proposal</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>6</td><td>1</td></tr><tr><td>en</td><td>Plan</td><td>935000000</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Original Order</td><td>935000001</td><td>2</td><td>0</td></tr><tr><td>en</td><td>Reflex Order</td><td>935000002</td><td>3</td><td>0</td></tr><tr><td>en</td><td>Instance Order</td><td>935000003</td><td>4</td><td>0</td></tr><tr><td>en</td><td>Option</td><td>935000004</td><td>5</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Proposal</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Plan</td><td>935000000</td><td>0</td></tr><tr><td>en</td><td>Original Order</td><td>935000001</td><td>0</td></tr><tr><td>en</td><td>Reflex Order</td><td>935000002</td><td>0</td></tr><tr><td>en</td><td>Instance Order</td><td>935000003</td><td>0</td></tr><tr><td>en</td><td>Option</td><td>935000004</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1654,7 +1654,7 @@ First included in: electronicMedicalRecords/ReferralRequest (this entity)
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Stat</td><td>935000003</td></tr><tr><td>en</td><td>Routine</td><td>935000000</td></tr><tr><td>en</td><td>Urgent</td><td>935000001</td></tr><tr><td>en</td><td>Asap</td><td>935000002</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Routine</td><td>935000000</td></tr><tr><td>en</td><td>Urgent</td><td>935000001</td></tr><tr><td>en</td><td>Stat</td><td>935000003</td></tr><tr><td>en</td><td>Asap</td><td>935000002</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2172,7 +2172,7 @@ First included in: electronicMedicalRecords/ReferralRequest (this entity)
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Unknown</td><td>935000006</td></tr><tr><td>en</td><td>Draft</td><td>935000000</td></tr><tr><td>en</td><td>Active</td><td>935000001</td></tr><tr><td>en</td><td>Suspended</td><td>935000002</td></tr><tr><td>en</td><td>Cancelled</td><td>935000003</td></tr><tr><td>en</td><td>Completed</td><td>935000004</td></tr><tr><td>en</td><td>Entered-In-Error</td><td>935000005</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Draft</td><td>935000000</td></tr><tr><td>en</td><td>Active</td><td>935000001</td></tr><tr><td>en</td><td>Suspended</td><td>935000002</td></tr><tr><td>en</td><td>Cancelled</td><td>935000003</td></tr><tr><td>en</td><td>Completed</td><td>935000004</td></tr><tr><td>en</td><td>Entered-In-Error</td><td>935000005</td></tr><tr><td>en</td><td>Unknown</td><td>935000006</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  

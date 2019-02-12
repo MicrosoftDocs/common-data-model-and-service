@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/9/2019
+ms.date: 2/12/2019
 ms.author: tpalmer
 ---
 
@@ -822,7 +822,7 @@ First included in: sales/QuoteClose (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Activity Type</td></tr><tr><td>description</td><td>Type of activity.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>sourceName</td><td>activitytypecode</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Fax</td><td>undefined</td></tr><tr><td>en</td><td>Phone Call</td><td>undefined</td></tr><tr><td>en</td><td>Email</td><td>undefined</td></tr><tr><td>en</td><td>Letter</td><td>undefined</td></tr><tr><td>en</td><td>Appointment</td><td>undefined</td></tr><tr><td>en</td><td>Task</td><td>undefined</td></tr><tr><td>en</td><td>Recurring Appointment</td><td>undefined</td></tr><tr><td>en</td><td>Quick Campaign</td><td>undefined</td></tr><tr><td>en</td><td>Campaign Activity</td><td>undefined</td></tr><tr><td>en</td><td>Campaign Response</td><td>undefined</td></tr><tr><td>en</td><td>Case Resolution</td><td>undefined</td></tr><tr><td>en</td><td>Service Activity</td><td>undefined</td></tr><tr><td>en</td><td>Opportunity Close</td><td>undefined</td></tr><tr><td>en</td><td>Order Close</td><td>undefined</td></tr><tr><td>en</td><td>Quote Close</td><td>undefined</td></tr><tr><td>en</td><td>Alert Subscription</td><td>undefined</td></tr><tr><td>en</td><td>Invite Redemption</td><td>undefined</td></tr><tr><td>en</td><td>Portal Comment</td><td>undefined</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Activity Type</td></tr><tr><td>description</td><td>Type of activity.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>sourceName</td><td>activitytypecode</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Fax</td></tr><tr><td>en</td><td>Phone Call</td></tr><tr><td>en</td><td>Email</td></tr><tr><td>en</td><td>Letter</td></tr><tr><td>en</td><td>Appointment</td></tr><tr><td>en</td><td>Task</td></tr><tr><td>en</td><td>Recurring Appointment</td></tr><tr><td>en</td><td>Quick Campaign</td></tr><tr><td>en</td><td>Campaign Activity</td></tr><tr><td>en</td><td>Campaign Response</td></tr><tr><td>en</td><td>Case Resolution</td></tr><tr><td>en</td><td>Service Activity</td></tr><tr><td>en</td><td>Opportunity Close</td></tr><tr><td>en</td><td>Order Close</td></tr><tr><td>en</td><td>Quote Close</td></tr><tr><td>en</td><td>Alert Subscription</td></tr><tr><td>en</td><td>Invite Redemption</td></tr><tr><td>en</td><td>Portal Comment</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2543,7 +2543,7 @@ First included in: sales/QuoteClose (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the quote close activity.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Open</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>2</td></tr><tr><td>en</td><td>Canceled</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the quote close activity.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Open</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>3</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2552,7 +2552,7 @@ First included in: sales/QuoteClose (this entity)
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Open</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>2</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>3</td><td>2</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Open</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>3</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  

@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/9/2019
+ms.date: 2/12/2019
 ms.author: tpalmer
 ---
 
@@ -3829,7 +3829,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the contact's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>1</td></tr><tr><td>en</td><td>Inactive</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the contact's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -3838,7 +3838,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -8734,7 +8734,7 @@ First included in: higherEducation/Contact (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Contact Type</td></tr><tr><td>description</td><td>Type of contact</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_contacttype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Alumni</td><td>494280001</td></tr><tr><td>en</td><td>Donor</td><td>494280002</td></tr><tr><td>en</td><td>Faculty</td><td>494280003</td></tr><tr><td>en</td><td>Friend</td><td>494280004</td></tr><tr><td>en</td><td>Guest</td><td>494280005</td></tr><tr><td>en</td><td>Intructor</td><td>494280000</td></tr><tr><td>en</td><td>Organization Contact</td><td>494280007</td></tr><tr><td>en</td><td>Parent</td><td>494280008</td></tr><tr><td>en</td><td>Sibling</td><td>494280009</td></tr><tr><td>en</td><td>Staff</td><td>494280010</td></tr><tr><td>en</td><td>Student</td><td>494280011</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Contact Type</td></tr><tr><td>description</td><td>Type of contact</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_contacttype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Alumni</td><td>494280001</td></tr><tr><td>en</td><td>Student</td><td>494280011</td></tr><tr><td>en</td><td>Faculty</td><td>494280003</td></tr><tr><td>en</td><td>Friend</td><td>494280004</td></tr><tr><td>en</td><td>Guest</td><td>494280005</td></tr><tr><td>en</td><td>Donor</td><td>494280002</td></tr><tr><td>en</td><td>Organization Contact</td><td>494280007</td></tr><tr><td>en</td><td>Parent</td><td>494280008</td></tr><tr><td>en</td><td>Sibling</td><td>494280009</td></tr><tr><td>en</td><td>Staff</td><td>494280010</td></tr><tr><td>en</td><td>Intructor</td><td>494280000</td></tr></table></td></tr></table>
 
 #### Traits
 

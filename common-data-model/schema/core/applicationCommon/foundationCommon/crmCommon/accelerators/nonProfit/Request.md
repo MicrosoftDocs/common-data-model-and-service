@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/9/2019
+ms.date: 2/12/2019
 ms.author: tpalmer
 ---
 
@@ -896,7 +896,7 @@ First included in: nonProfit/Request (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Request</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>1</td></tr><tr><td>en</td><td>Inactive</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Request</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -905,7 +905,7 @@ First included in: nonProfit/Request (this entity)
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1997,7 +1997,7 @@ First included in: nonProfit/Request (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Stage</td></tr><tr><td>description</td><td>The stage the Request is currently in.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_stage</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Application Started</td><td>844060000</td></tr><tr><td>en</td><td>In Progress</td><td>844060001</td></tr><tr><td>en</td><td>Qualification</td><td>844060002</td></tr><tr><td>en</td><td>Prospecting</td><td>844060003</td></tr><tr><td>en</td><td>Submitted</td><td>844060004</td></tr><tr><td>en</td><td>Under Internal Review</td><td>844060005</td></tr><tr><td>en</td><td>Under Grant Committee Review</td><td>844060006</td></tr><tr><td>en</td><td>Notify Applicant of Decision</td><td>844060007</td></tr><tr><td>en</td><td>Awarded</td><td>844060008</td></tr><tr><td>en</td><td>Declined</td><td>844060009</td></tr><tr><td>en</td><td>Closed</td><td>844060010</td></tr><tr><td>en</td><td>Withdrawn</td><td>844060011</td></tr><tr><td>en</td><td>Proposal Re-Opened</td><td>844060012</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Stage</td></tr><tr><td>description</td><td>The stage the Request is currently in.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_stage</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Application Started</td><td>844060000</td></tr><tr><td>en</td><td>Proposal Re-Opened</td><td>844060012</td></tr><tr><td>en</td><td>Qualification</td><td>844060002</td></tr><tr><td>en</td><td>Prospecting</td><td>844060003</td></tr><tr><td>en</td><td>Submitted</td><td>844060004</td></tr><tr><td>en</td><td>Under Internal Review</td><td>844060005</td></tr><tr><td>en</td><td>In Progress</td><td>844060001</td></tr><tr><td>en</td><td>Notify Applicant of Decision</td><td>844060007</td></tr><tr><td>en</td><td>Awarded</td><td>844060008</td></tr><tr><td>en</td><td>Declined</td><td>844060009</td></tr><tr><td>en</td><td>Closed</td><td>844060010</td></tr><tr><td>en</td><td>Withdrawn</td><td>844060011</td></tr><tr><td>en</td><td>Under Grant Committee Review</td><td>844060006</td></tr></table></td></tr></table>
 
 #### Traits
 

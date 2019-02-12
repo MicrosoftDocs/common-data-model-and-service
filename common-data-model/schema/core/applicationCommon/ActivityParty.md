@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/9/2019
+ms.date: 2/12/2019
 ms.author: tpalmer
 ---
 
@@ -240,7 +240,7 @@ First included in: applicationCommon/ActivityParty (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Participation Type</td></tr><tr><td>description</td><td>Role of the person in the activity, such as sender, to, cc, bcc, required, optional, organizer, regarding, or owner.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>participationtypemask</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Sender</td><td>1</td></tr><tr><td>en</td><td>To Recipient</td><td>2</td></tr><tr><td>en</td><td>CC Recipient</td><td>3</td></tr><tr><td>en</td><td>BCC Recipient</td><td>4</td></tr><tr><td>en</td><td>Required attendee</td><td>5</td></tr><tr><td>en</td><td>Optional attendee</td><td>6</td></tr><tr><td>en</td><td>Organizer</td><td>7</td></tr><tr><td>en</td><td>Regarding</td><td>8</td></tr><tr><td>en</td><td>Owner</td><td>9</td></tr><tr><td>en</td><td>Resource</td><td>10</td></tr><tr><td>en</td><td>Customer</td><td>11</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Participation Type</td></tr><tr><td>description</td><td>Role of the person in the activity, such as sender, to, cc, bcc, required, optional, organizer, regarding, or owner.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>participationtypemask</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Sender</td><td>1</td></tr><tr><td>en</td><td>Customer</td><td>11</td></tr><tr><td>en</td><td>CC Recipient</td><td>3</td></tr><tr><td>en</td><td>BCC Recipient</td><td>4</td></tr><tr><td>en</td><td>Required attendee</td><td>5</td></tr><tr><td>en</td><td>To Recipient</td><td>2</td></tr><tr><td>en</td><td>Organizer</td><td>7</td></tr><tr><td>en</td><td>Regarding</td><td>8</td></tr><tr><td>en</td><td>Owner</td><td>9</td></tr><tr><td>en</td><td>Resource</td><td>10</td></tr><tr><td>en</td><td>Optional attendee</td><td>6</td></tr></table></td></tr></table>
 
 #### Traits
 

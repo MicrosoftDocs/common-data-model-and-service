@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/9/2019
+ms.date: 2/12/2019
 ms.author: tpalmer
 ---
 
@@ -898,7 +898,7 @@ First included in: nonProfit/Salutation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Salutation</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>1</td></tr><tr><td>en</td><td>Inactive</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Salutation</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -907,7 +907,7 @@ First included in: nonProfit/Salutation (this entity)
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1742,7 +1742,7 @@ First included in: nonProfit/Salutation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Type</td></tr><tr><td>description</td><td>Indicates that this Salutation should be applied when the Customer is contacted for the indicated category of mailing or acknowledgement.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_type</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Abbreviated</td><td>100000000</td></tr><tr><td>en</td><td>Annual Report Listing</td><td>100000001</td></tr><tr><td>en</td><td>Campaign Listing</td><td>100000002</td></tr><tr><td>en</td><td>Donor Wall recognition</td><td>100000003</td></tr><tr><td>en</td><td>Expanded in Detail</td><td>100000004</td></tr><tr><td>en</td><td>Formal Name</td><td>100000005</td></tr><tr><td>en</td><td>Informal Name</td><td>100000006</td></tr><tr><td>en</td><td>Major Donor Correspondence</td><td>100000007</td></tr><tr><td>en</td><td>Name Tag at Meeting Event</td><td>100000008</td></tr><tr><td>en</td><td>Other</td><td>100000009</td></tr><tr><td>en</td><td>Public Tribute</td><td>100000010</td></tr><tr><td>en</td><td>Tax Statement</td><td>100000011</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Type</td></tr><tr><td>description</td><td>Indicates that this Salutation should be applied when the Customer is contacted for the indicated category of mailing or acknowledgement.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_type</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Abbreviated</td><td>100000000</td></tr><tr><td>en</td><td>Tax Statement</td><td>100000011</td></tr><tr><td>en</td><td>Campaign Listing</td><td>100000002</td></tr><tr><td>en</td><td>Donor Wall recognition</td><td>100000003</td></tr><tr><td>en</td><td>Expanded in Detail</td><td>100000004</td></tr><tr><td>en</td><td>Formal Name</td><td>100000005</td></tr><tr><td>en</td><td>Annual Report Listing</td><td>100000001</td></tr><tr><td>en</td><td>Major Donor Correspondence</td><td>100000007</td></tr><tr><td>en</td><td>Name Tag at Meeting Event</td><td>100000008</td></tr><tr><td>en</td><td>Other</td><td>100000009</td></tr><tr><td>en</td><td>Public Tribute</td><td>100000010</td></tr><tr><td>en</td><td>Informal Name</td><td>100000006</td></tr></table></td></tr></table>
 
 #### Traits
 

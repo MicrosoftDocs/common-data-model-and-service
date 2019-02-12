@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/9/2019
+ms.date: 2/12/2019
 ms.author: tpalmer
 ---
 
@@ -890,7 +890,7 @@ First included in: marketing/MarketingPage (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status reason</td></tr><tr><td>description</td><td>Marketing page status reason</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Draft</td><td>192350000</td></tr><tr><td>en</td><td>Live</td><td>192350001</td></tr><tr><td>en</td><td>Stopped</td><td>192350002</td></tr><tr><td>en</td><td>Live, Editable</td><td>192350003</td></tr><tr><td>en</td><td>Error</td><td>192350005</td></tr><tr><td>en</td><td>Going live</td><td>192350006</td></tr><tr><td>en</td><td>Stopping</td><td>192350007</td></tr><tr><td>en</td><td>Expired</td><td>192350004</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status reason</td></tr><tr><td>description</td><td>Marketing page status reason</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Draft</td><td>192350000</td><td>0</td></tr><tr><td>en</td><td>Live</td><td>192350001</td><td>0</td></tr><tr><td>en</td><td>Stopped</td><td>192350002</td><td>0</td></tr><tr><td>en</td><td>Live, Editable</td><td>192350003</td><td>0</td></tr><tr><td>en</td><td>Error</td><td>192350005</td><td>0</td></tr><tr><td>en</td><td>Going live</td><td>192350006</td><td>0</td></tr><tr><td>en</td><td>Stopping</td><td>192350007</td><td>0</td></tr><tr><td>en</td><td>Expired</td><td>192350004</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -899,7 +899,7 @@ First included in: marketing/MarketingPage (this entity)
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Draft</td><td>192350000</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Live</td><td>192350001</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Stopped</td><td>192350002</td><td>2</td><td>0</td></tr><tr><td>en</td><td>Live, Editable</td><td>192350003</td><td>3</td><td>0</td></tr><tr><td>en</td><td>Error</td><td>192350005</td><td>4</td><td>0</td></tr><tr><td>en</td><td>Going live</td><td>192350006</td><td>5</td><td>0</td></tr><tr><td>en</td><td>Stopping</td><td>192350007</td><td>6</td><td>0</td></tr><tr><td>en</td><td>Expired</td><td>192350004</td><td>7</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Draft</td><td>192350000</td><td>0</td></tr><tr><td>en</td><td>Live</td><td>192350001</td><td>0</td></tr><tr><td>en</td><td>Stopped</td><td>192350002</td><td>0</td></tr><tr><td>en</td><td>Live, Editable</td><td>192350003</td><td>0</td></tr><tr><td>en</td><td>Error</td><td>192350005</td><td>0</td></tr><tr><td>en</td><td>Going live</td><td>192350006</td><td>0</td></tr><tr><td>en</td><td>Stopping</td><td>192350007</td><td>0</td></tr><tr><td>en</td><td>Expired</td><td>192350004</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
