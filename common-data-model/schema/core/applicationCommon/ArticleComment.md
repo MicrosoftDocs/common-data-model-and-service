@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/12/2019
+ms.date: 2/13/2019
 ms.author: tpalmer
 ---
 
@@ -13,6 +13,12 @@ ms.author: tpalmer
 Comment on a knowledge base article.  
   
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/ArticleComment.cdm.json" target="_blank">GitHub</a>.  
+
+## Instances
+
+Instances of this entity are listed below:  
+
+applicationCommon/ArticleComment  
 
 ## Traits
 
@@ -40,12 +46,6 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 
 </details>
 
-## Instances
-
-Instances of this entity are listed below:  
-
-applicationCommon/ArticleComment  
-
 ## Attributes
 
 |Name|Description|First Included in Instance|
@@ -66,7 +66,7 @@ applicationCommon/ArticleComment
 ### <a href=#kbArticleCommentId name="kbArticleCommentId">kbArticleCommentId</a>
 
 Unique identifier of the knowledge base article comment.  
-First included in: applicationCommon/ArticleComment (this entity)  
+First included in: applicationCommon/ArticleComment  (this entity)  
 
 #### Properties
 
@@ -75,7 +75,7 @@ First included in: applicationCommon/ArticleComment (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the kbArticleCommentId attribute are listed below.</summary>
+<summary>List of traits for the  kbArticleCommentId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -105,7 +105,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#kbArticleId name="kbArticleId">kbArticleId</a>
 
 Unique identifier of the knowledge base article to which the comment applies.  
-First included in: applicationCommon/ArticleComment (this entity)  
+First included in: applicationCommon/ArticleComment  (this entity)  
 
 #### Properties
 
@@ -114,7 +114,7 @@ First included in: applicationCommon/ArticleComment (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the kbArticleId attribute are listed below.</summary>
+<summary>List of traits for the  kbArticleId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -139,15 +139,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>2</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="Article.md" target="_blank">/core/applicationCommon/Article.cdm.json/Article</a></td><td><a href="Article.md#kbArticleId" target="_blank">kbArticleId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#title name="title">title</a>
 
 Title of the knowledge base article comment.  
-First included in: applicationCommon/ArticleComment (this entity)  
+First included in: applicationCommon/ArticleComment  (this entity)  
 
 #### Properties
 
@@ -156,7 +153,7 @@ First included in: applicationCommon/ArticleComment (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the title attribute are listed below.</summary>
+<summary>List of traits for the  title  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -187,7 +184,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#commentText name="commentText">commentText</a>
 
 Comment text for the knowledge base article.  
-First included in: applicationCommon/ArticleComment (this entity)  
+First included in: applicationCommon/ArticleComment  (this entity)  
 
 #### Properties
 
@@ -196,7 +193,7 @@ First included in: applicationCommon/ArticleComment (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the commentText attribute are listed below.</summary>
+<summary>List of traits for the  commentText  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -227,7 +224,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the knowledge base article comment was created.  
-First included in: applicationCommon/ArticleComment (this entity)  
+First included in: applicationCommon/ArticleComment  (this entity)  
 
 #### Properties
 
@@ -236,7 +233,7 @@ First included in: applicationCommon/ArticleComment (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the createdOn attribute are listed below.</summary>
+<summary>List of traits for the  createdOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -266,7 +263,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Unique identifier of the user who created the knowledge base article comment.  
-First included in: applicationCommon/ArticleComment (this entity)  
+First included in: applicationCommon/ArticleComment  (this entity)  
 
 #### Properties
 
@@ -275,7 +272,7 @@ First included in: applicationCommon/ArticleComment (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the createdBy attribute are listed below.</summary>
+<summary>List of traits for the  createdBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -303,15 +300,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>6</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the knowledge base article comment was last modified.  
-First included in: applicationCommon/ArticleComment (this entity)  
+First included in: applicationCommon/ArticleComment  (this entity)  
 
 #### Properties
 
@@ -320,7 +314,7 @@ First included in: applicationCommon/ArticleComment (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedOn attribute are listed below.</summary>
+<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -350,7 +344,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Unique identifier of the user who last modified the knowledge base article comment.  
-First included in: applicationCommon/ArticleComment (this entity)  
+First included in: applicationCommon/ArticleComment  (this entity)  
 
 #### Properties
 
@@ -359,7 +353,7 @@ First included in: applicationCommon/ArticleComment (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedBy attribute are listed below.</summary>
+<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -387,14 +381,11 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>8</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
-First included in: applicationCommon/ArticleComment (this entity)  
+First included in: applicationCommon/ArticleComment  (this entity)  
 
 #### Properties
 
@@ -403,7 +394,7 @@ First included in: applicationCommon/ArticleComment (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the versionNumber attribute are listed below.</summary>
+<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -424,7 +415,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#organizationId name="organizationId">organizationId</a>
 
 Unique identifier of the organization with which the article comment is associated.  
-First included in: applicationCommon/ArticleComment (this entity)  
+First included in: applicationCommon/ArticleComment  (this entity)  
 
 #### Properties
 
@@ -433,7 +424,7 @@ First included in: applicationCommon/ArticleComment (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the organizationId attribute are listed below.</summary>
+<summary>List of traits for the  organizationId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -459,7 +450,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Unique identifier of the delegate user who created the kbarticlecomment.  
-First included in: applicationCommon/ArticleComment (this entity)  
+First included in: applicationCommon/ArticleComment  (this entity)  
 
 #### Properties
 
@@ -468,7 +459,7 @@ First included in: applicationCommon/ArticleComment (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
+<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -496,15 +487,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>17</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Unique identifier of the delegate user who last modified the kbarticlecomment.  
-First included in: applicationCommon/ArticleComment (this entity)  
+First included in: applicationCommon/ArticleComment  (this entity)  
 
 #### Properties
 
@@ -513,7 +501,7 @@ First included in: applicationCommon/ArticleComment (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
+<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -540,8 +528,5 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>21</td><td>integer</td><td></td></tr></table>
-
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 </details>

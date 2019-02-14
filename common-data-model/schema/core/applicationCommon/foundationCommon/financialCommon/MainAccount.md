@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/12/2019
+ms.date: 2/13/2019
 ms.author: tpalmer
 ---
 
@@ -13,6 +13,12 @@ ms.author: tpalmer
 An account whose balance is displayed in major financial statements  
   
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/financialCommon/MainAccount.cdm.json" target="_blank">GitHub</a>.  
+
+## Instances
+
+Instances of this entity are listed below:  
+
+financialCommon/MainAccount  
 
 ## Traits
 
@@ -37,12 +43,6 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 
 </details>
 
-## Instances
-
-Instances of this entity are listed below:  
-
-financialCommon/MainAccount  
-
 ## Attributes
 
 |Name|Description|First Included in Instance|
@@ -56,7 +56,7 @@ financialCommon/MainAccount
 ### <a href=#mainAccountId name="mainAccountId">mainAccountId</a>
 
 The surrogate key of the main account record  
-First included in: financialCommon/MainAccount (this entity)  
+First included in: financialCommon/MainAccount  (this entity)  
 
 #### Properties
 
@@ -65,7 +65,7 @@ First included in: financialCommon/MainAccount (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the mainAccountId attribute are listed below.</summary>
+<summary>List of traits for the  mainAccountId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -84,7 +84,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 ### <a href=#name name="name">name</a>
 
 The user-readable name of the main account  
-First included in: financialCommon/MainAccount (this entity)  
+First included in: financialCommon/MainAccount  (this entity)  
 
 #### Properties
 
@@ -93,7 +93,7 @@ First included in: financialCommon/MainAccount (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the name attribute are listed below.</summary>
+<summary>List of traits for the  name  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -110,7 +110,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 ### <a href=#number name="number">number</a>
 
 The numerical designation of the account according to the chart of accounts, usually designed such that accounts of the same type have similar numbers  
-First included in: financialCommon/MainAccount (this entity)  
+First included in: financialCommon/MainAccount  (this entity)  
 
 #### Properties
 
@@ -119,7 +119,7 @@ First included in: financialCommon/MainAccount (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the number attribute are listed below.</summary>
+<summary>List of traits for the  number  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -135,7 +135,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 ### <a href=#mainAccountCategoryKey name="mainAccountCategoryKey">mainAccountCategoryKey</a>
 
 The categorization of the main account, by which accounting aspects such as account type are defined  
-First included in: financialCommon/MainAccount (this entity)  
+First included in: financialCommon/MainAccount  (this entity)  
 
 #### Properties
 
@@ -144,7 +144,7 @@ First included in: financialCommon/MainAccount (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the mainAccountCategoryKey attribute are listed below.</summary>
+<summary>List of traits for the  mainAccountCategoryKey  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -156,14 +156,14 @@ Holds the list of language specific display text for an object.  <table><tr><th>
 Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The categorization of the main account, by which accounting aspects such as account type are defined</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 - **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="MainAccountCategory.md" target="_blank">/core/applicationCommon/foundationCommon/financialCommon/MainAccountCategory.cdm.json/MainAccountCategory</a></td><td><a href="MainAccountCategory.md#mainAccountCategoryId" target="_blank">mainAccountCategoryId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  
 
 </details>
 
 ### <a href=#currencyKey name="currencyKey">currencyKey</a>
 
 The currency in which amounts held by this account are expressed  
-First included in: financialCommon/MainAccount (this entity)  
+First included in: financialCommon/MainAccount  (this entity)  
 
 #### Properties
 
@@ -172,7 +172,7 @@ First included in: financialCommon/MainAccount (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the currencyKey attribute are listed below.</summary>
+<summary>List of traits for the  currencyKey  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -184,6 +184,6 @@ Holds the list of language specific display text for an object.  <table><tr><th>
 Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The currency in which amounts held by this account are expressed</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 - **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../Currency.md" target="_blank">/core/applicationCommon/Currency.cdm.json/Currency</a></td><td><a href="../../Currency.md#transactionCurrencyId" target="_blank">transactionCurrencyId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  
 
 </details>

@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/12/2019
+ms.date: 2/13/2019
 ms.author: tpalmer
 ---
 
@@ -13,6 +13,13 @@ ms.author: tpalmer
 Activity that is delivered using email protocols.  
   
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/Email.cdm.json" target="_blank">GitHub</a>.  
+
+## Instances
+
+Instances of this entity are listed below:  
+
+[applicationCommon/Email](../../Email.md "/core/applicationCommon/Email.cdm.json/Email")  
+crmCommon/Email  
 
 ## Traits
 
@@ -42,13 +49,6 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>Email</td><td>string</td><td></td></tr></table>
 
 </details>
-
-## Instances
-
-Instances of this entity are listed below:  
-
-[applicationCommon/Email](../../Email.md "/core/applicationCommon/Email.cdm.json/Email")  
-crmCommon/Email  
 
 ## Attributes
 
@@ -171,7 +171,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the createdOn attribute are listed below.</summary>
+<summary>List of traits for the  createdOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -210,7 +210,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the createdBy attribute are listed below.</summary>
+<summary>List of traits for the  createdBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -241,9 +241,6 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>createdby</td><td>string</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
@@ -258,7 +255,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedOn attribute are listed below.</summary>
+<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -297,7 +294,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedBy attribute are listed below.</summary>
+<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -328,9 +325,6 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>modifiedby</td><td>string</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
@@ -345,7 +339,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
+<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -376,9 +370,6 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>createdonbehalfby</td><td>string</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
@@ -393,7 +384,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
+<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -424,9 +415,6 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>modifiedonbehalfby</td><td>string</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
@@ -441,7 +429,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
+<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -480,7 +468,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
+<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -515,7 +503,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the ownerIdType attribute are listed below.</summary>
+<summary>List of traits for the  ownerIdType  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -554,7 +542,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the ownerId attribute are listed below.</summary>
+<summary>List of traits for the  ownerId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -580,7 +568,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>ownerid</td><td>string</td><td></td></tr></table>
 
 - **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="../../Team.md" target="_blank">/core/applicationCommon/Team.cdm.json/Team</a></td><td><a href="../../Team.md#teamId" target="_blank">teamId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  
 
 - **is.CDS.owner**  
 contains a User or Team ID  
@@ -599,7 +587,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
+<summary>List of traits for the  owningBusinessUnit  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -627,9 +615,6 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>owningbusinessunit</td><td>string</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../BusinessUnit.md" target="_blank">/core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit</a></td><td><a href="../../BusinessUnit.md#businessUnitId" target="_blank">businessUnitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#owningUser name="owningUser">owningUser</a>
@@ -644,7 +629,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the owningUser attribute are listed below.</summary>
+<summary>List of traits for the  owningUser  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -675,9 +660,6 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>owninguser</td><td>string</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="service/User.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User</a></td><td><a href="service/User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
@@ -692,7 +674,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the owningTeam attribute are listed below.</summary>
+<summary>List of traits for the  owningTeam  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -720,9 +702,6 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>owningteam</td><td>string</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../Team.md" target="_blank">/core/applicationCommon/Team.cdm.json/Team</a></td><td><a href="../../Team.md#teamId" target="_blank">teamId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
@@ -737,7 +716,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
+<summary>List of traits for the  timeZoneRuleVersionNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -775,7 +754,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
+<summary>List of traits for the  UTCConversionTimeZoneCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -813,7 +792,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the versionNumber attribute are listed below.</summary>
+<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -850,7 +829,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the activityTypeCode attribute are listed below.</summary>
+<summary>List of traits for the  activityTypeCode  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -889,7 +868,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the activityId attribute are listed below.</summary>
+<summary>List of traits for the  activityId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -912,7 +891,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>activityid</td><td>string</td><td></td></tr></table>
 
 - **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  
 
 </details>
 
@@ -928,7 +907,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the isBilled attribute are listed below.</summary>
+<summary>List of traits for the  isBilled  attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -960,7 +939,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the isRegularActivity attribute are listed below.</summary>
+<summary>List of traits for the  isRegularActivity  attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -989,7 +968,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the isWorkflowCreated attribute are listed below.</summary>
+<summary>List of traits for the  isWorkflowCreated  attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1016,16 +995,16 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Priority</td></tr><tr><td>description</td><td>Priority of the activity.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>prioritycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Low</td><td>0</td></tr><tr><td>en</td><td>Normal</td><td>1</td></tr><tr><td>en</td><td>High</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Priority</td></tr><tr><td>description</td><td>Priority of the activity.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>prioritycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>High</td><td>2</td></tr><tr><td>en</td><td>Normal</td><td>1</td></tr><tr><td>en</td><td>Low</td><td>0</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the priorityCode attribute are listed below.</summary>
+<summary>List of traits for the  priorityCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Low</td><td>0</td></tr><tr><td>en</td><td>Normal</td><td>1</td></tr><tr><td>en</td><td>High</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>High</td><td>2</td></tr><tr><td>en</td><td>Normal</td><td>1</td></tr><tr><td>en</td><td>Low</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1058,7 +1037,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the priorityCode_display attribute are listed below.</summary>
+<summary>List of traits for the  priorityCode_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1082,7 +1061,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the regardingObjectTypeCode attribute are listed below.</summary>
+<summary>List of traits for the  regardingObjectTypeCode  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1115,7 +1094,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the regardingObjectId attribute are listed below.</summary>
+<summary>List of traits for the  regardingObjectId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1141,7 +1120,7 @@ The attribute value may be set to NULL.
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>regardingobjectid</td><td>string</td><td></td></tr></table>
 
 - **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../Contact.md" target="_blank">/core/applicationCommon/Contact.cdm.json/Contact</a></td><td><a href="../../Contact.md#contactId" target="_blank">contactId</a></td></tr><tr><td><a href="../../KnowledgeBaseRecord.md" target="_blank">/core/applicationCommon/KnowledgeBaseRecord.cdm.json/KnowledgeBaseRecord</a></td><td><a href="../../KnowledgeBaseRecord.md#knowledgeBaseRecordId" target="_blank">knowledgeBaseRecordId</a></td></tr><tr><td><a href="../../Account.md" target="_blank">/core/applicationCommon/Account.cdm.json/Account</a></td><td><a href="../../Account.md#accountId" target="_blank">accountId</a></td></tr><tr><td><a href="../../KnowledgeArticle.md" target="_blank">/core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle</a></td><td><a href="../../KnowledgeArticle.md#knowledgearticleId" target="_blank">knowledgearticleId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  
 
 </details>
 
@@ -1157,7 +1136,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the scheduledEnd attribute are listed below.</summary>
+<summary>List of traits for the  scheduledEnd  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1192,7 +1171,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the scheduledStart attribute are listed below.</summary>
+<summary>List of traits for the  scheduledStart  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1227,7 +1206,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the sortDate attribute are listed below.</summary>
+<summary>List of traits for the  sortDate  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1265,7 +1244,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the subject attribute are listed below.</summary>
+<summary>List of traits for the  subject  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1302,7 +1281,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the scheduledDurationMinutes attribute are listed below.</summary>
+<summary>List of traits for the  scheduledDurationMinutes  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **means.measurement.duration.minutes**  
@@ -1338,7 +1317,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the actualDurationMinutes attribute are listed below.</summary>
+<summary>List of traits for the  actualDurationMinutes  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **means.measurement.duration.minutes**  
@@ -1374,7 +1353,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the actualEnd attribute are listed below.</summary>
+<summary>List of traits for the  actualEnd  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1410,7 +1389,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the actualStart attribute are listed below.</summary>
+<summary>List of traits for the  actualStart  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1446,7 +1425,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the category attribute are listed below.</summary>
+<summary>List of traits for the  category  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1484,7 +1463,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the subcategory attribute are listed below.</summary>
+<summary>List of traits for the  subcategory  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1521,7 +1500,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the activityAdditionalParams attribute are listed below.</summary>
+<summary>List of traits for the  activityAdditionalParams  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1559,7 +1538,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the to attribute are listed below.</summary>
+<summary>List of traits for the  to  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1603,7 +1582,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the from attribute are listed below.</summary>
+<summary>List of traits for the  from  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1644,7 +1623,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the BCC attribute are listed below.</summary>
+<summary>List of traits for the  BCC  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1688,7 +1667,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the CC attribute are listed below.</summary>
+<summary>List of traits for the  CC  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1732,7 +1711,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the sentOn attribute are listed below.</summary>
+<summary>List of traits for the  sentOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1767,7 +1746,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the senderMailboxId attribute are listed below.</summary>
+<summary>List of traits for the  senderMailboxId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1801,16 +1780,16 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Delivery Priority</td></tr><tr><td>description</td><td>Priority of delivery of the activity to the email server.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>deliveryprioritycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Low</td><td>0</td></tr><tr><td>en</td><td>Normal</td><td>1</td></tr><tr><td>en</td><td>High</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Delivery Priority</td></tr><tr><td>description</td><td>Priority of delivery of the activity to the email server.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>deliveryprioritycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>High</td><td>2</td></tr><tr><td>en</td><td>Normal</td><td>1</td></tr><tr><td>en</td><td>Low</td><td>0</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the deliveryPriorityCode attribute are listed below.</summary>
+<summary>List of traits for the  deliveryPriorityCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Low</td><td>0</td></tr><tr><td>en</td><td>Normal</td><td>1</td></tr><tr><td>en</td><td>High</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>High</td><td>2</td></tr><tr><td>en</td><td>Normal</td><td>1</td></tr><tr><td>en</td><td>Low</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1843,7 +1822,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the deliveryPriorityCode_display attribute are listed below.</summary>
+<summary>List of traits for the  deliveryPriorityCode_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1867,7 +1846,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the directionCode attribute are listed below.</summary>
+<summary>List of traits for the  directionCode  attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1894,16 +1873,16 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the email's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Draft</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Sent</td><td>3</td><td>1</td></tr><tr><td>en</td><td>Received</td><td>4</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>5</td><td>2</td></tr><tr><td>en</td><td>Pending Send</td><td>6</td><td>1</td></tr><tr><td>en</td><td>Sending</td><td>7</td><td>1</td></tr><tr><td>en</td><td>Failed</td><td>8</td><td>0</td></tr><tr><td>en</td><td>Draft</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Sent</td><td>3</td><td>1</td></tr><tr><td>en</td><td>Received</td><td>4</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>5</td><td>2</td></tr><tr><td>en</td><td>Pending Send</td><td>6</td><td>1</td></tr><tr><td>en</td><td>Sending</td><td>7</td><td>1</td></tr><tr><td>en</td><td>Failed</td><td>8</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the email's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Draft</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>2</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Sent</td><td>3</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Received</td><td>4</td><td>3</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>5</td><td>4</td><td>2</td></tr><tr><td>en</td><td>Pending Send</td><td>6</td><td>5</td><td>1</td></tr><tr><td>en</td><td>Sending</td><td>7</td><td>6</td><td>1</td></tr><tr><td>en</td><td>Failed</td><td>8</td><td>7</td><td>0</td></tr><tr><td>en</td><td>Draft</td><td>1</td><td>8</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>2</td><td>9</td><td>1</td></tr><tr><td>en</td><td>Sent</td><td>3</td><td>10</td><td>1</td></tr><tr><td>en</td><td>Received</td><td>4</td><td>11</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>5</td><td>12</td><td>2</td></tr><tr><td>en</td><td>Pending Send</td><td>6</td><td>13</td><td>1</td></tr><tr><td>en</td><td>Sending</td><td>7</td><td>14</td><td>1</td></tr><tr><td>en</td><td>Failed</td><td>8</td><td>15</td><td>0</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the statusCode attribute are listed below.</summary>
+<summary>List of traits for the  statusCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Draft</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Sent</td><td>3</td><td>1</td></tr><tr><td>en</td><td>Received</td><td>4</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>5</td><td>2</td></tr><tr><td>en</td><td>Pending Send</td><td>6</td><td>1</td></tr><tr><td>en</td><td>Sending</td><td>7</td><td>1</td></tr><tr><td>en</td><td>Failed</td><td>8</td><td>0</td></tr><tr><td>en</td><td>Draft</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Sent</td><td>3</td><td>1</td></tr><tr><td>en</td><td>Received</td><td>4</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>5</td><td>2</td></tr><tr><td>en</td><td>Pending Send</td><td>6</td><td>1</td></tr><tr><td>en</td><td>Sending</td><td>7</td><td>1</td></tr><tr><td>en</td><td>Failed</td><td>8</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Draft</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>2</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Sent</td><td>3</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Received</td><td>4</td><td>3</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>5</td><td>4</td><td>2</td></tr><tr><td>en</td><td>Pending Send</td><td>6</td><td>5</td><td>1</td></tr><tr><td>en</td><td>Sending</td><td>7</td><td>6</td><td>1</td></tr><tr><td>en</td><td>Failed</td><td>8</td><td>7</td><td>0</td></tr><tr><td>en</td><td>Draft</td><td>1</td><td>8</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>2</td><td>9</td><td>1</td></tr><tr><td>en</td><td>Sent</td><td>3</td><td>10</td><td>1</td></tr><tr><td>en</td><td>Received</td><td>4</td><td>11</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>5</td><td>12</td><td>2</td></tr><tr><td>en</td><td>Pending Send</td><td>6</td><td>13</td><td>1</td></tr><tr><td>en</td><td>Sending</td><td>7</td><td>14</td><td>1</td></tr><tr><td>en</td><td>Failed</td><td>8</td><td>15</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1942,7 +1921,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the statusCode_display attribute are listed below.</summary>
+<summary>List of traits for the  statusCode_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1966,7 +1945,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the submittedBy attribute are listed below.</summary>
+<summary>List of traits for the  submittedBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2006,7 +1985,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the description attribute are listed below.</summary>
+<summary>List of traits for the  description  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2046,7 +2025,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the mimeType attribute are listed below.</summary>
+<summary>List of traits for the  mimeType  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2086,7 +2065,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the readReceiptRequested attribute are listed below.</summary>
+<summary>List of traits for the  readReceiptRequested  attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -2121,7 +2100,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the trackingToken attribute are listed below.</summary>
+<summary>List of traits for the  trackingToken  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2161,7 +2140,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the sender attribute are listed below.</summary>
+<summary>List of traits for the  sender  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2201,7 +2180,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the toRecipients attribute are listed below.</summary>
+<summary>List of traits for the  toRecipients  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2241,7 +2220,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the deliveryReceiptRequested attribute are listed below.</summary>
+<summary>List of traits for the  deliveryReceiptRequested  attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -2271,16 +2250,16 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Activity Status</td></tr><tr><td>description</td><td>Shows whether the email is open, completed, or canceled. Completed and canceled email is read-only and can't be edited.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Open</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Activity Status</td></tr><tr><td>description</td><td>Shows whether the email is open, completed, or canceled. Completed and canceled email is read-only and can't be edited.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Canceled</td><td>2</td></tr><tr><td>en</td><td>Completed</td><td>1</td></tr><tr><td>en</td><td>Open</td><td>0</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the stateCode attribute are listed below.</summary>
+<summary>List of traits for the  stateCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Open</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Canceled</td><td>2</td></tr><tr><td>en</td><td>Completed</td><td>1</td></tr><tr><td>en</td><td>Open</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2316,7 +2295,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the stateCode_display attribute are listed below.</summary>
+<summary>List of traits for the  stateCode_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2340,7 +2319,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the messageId attribute are listed below.</summary>
+<summary>List of traits for the  messageId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2380,7 +2359,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the deliveryAttempts attribute are listed below.</summary>
+<summary>List of traits for the  deliveryAttempts  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -2418,7 +2397,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the compressed attribute are listed below.</summary>
+<summary>List of traits for the  compressed  attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -2448,16 +2427,16 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Notifications</td></tr><tr><td>description</td><td>Select the notification code to identify issues with the email recipients or attachments, such as blocked attachments.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>notifications</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>None</td><td>0</td></tr><tr><td>en</td><td>The message was saved as a Microsoft Dynamics 365 email record, but not all the attachments could be saved with it. An attachment cannot be saved if it is blocked or if its file type is invalid.</td><td>1</td></tr><tr><td>en</td><td>Truncated body.</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Notifications</td></tr><tr><td>description</td><td>Select the notification code to identify issues with the email recipients or attachments, such as blocked attachments.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>notifications</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Truncated body.</td><td>2</td></tr><tr><td>en</td><td>The message was saved as a Microsoft Dynamics 365 email record, but not all the attachments could be saved with it. An attachment cannot be saved if it is blocked or if its file type is invalid.</td><td>1</td></tr><tr><td>en</td><td>None</td><td>0</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the notifications attribute are listed below.</summary>
+<summary>List of traits for the  notifications  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>None</td><td>0</td></tr><tr><td>en</td><td>The message was saved as a Microsoft Dynamics 365 email record, but not all the attachments could be saved with it. An attachment cannot be saved if it is blocked or if its file type is invalid.</td><td>1</td></tr><tr><td>en</td><td>Truncated body.</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Truncated body.</td><td>2</td></tr><tr><td>en</td><td>The message was saved as a Microsoft Dynamics 365 email record, but not all the attachments could be saved with it. An attachment cannot be saved if it is blocked or if its file type is invalid.</td><td>1</td></tr><tr><td>en</td><td>None</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2493,7 +2472,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the notifications_display attribute are listed below.</summary>
+<summary>List of traits for the  notifications_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2517,7 +2496,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
+<summary>List of traits for the  transactionCurrencyId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2545,9 +2524,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>87</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../Currency.md" target="_blank">/core/applicationCommon/Currency.cdm.json/Currency</a></td><td><a href="../../Currency.md#transactionCurrencyId" target="_blank">transactionCurrencyId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
@@ -2562,7 +2538,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the exchangeRate attribute are listed below.</summary>
+<summary>List of traits for the  exchangeRate  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -2602,7 +2578,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the emailSenderObjectTypeCode attribute are listed below.</summary>
+<summary>List of traits for the  emailSenderObjectTypeCode  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2635,7 +2611,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the emailSender attribute are listed below.</summary>
+<summary>List of traits for the  emailSender  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2664,7 +2640,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>90</td><td>integer</td><td></td></tr></table>
 
 - **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../Queue.md" target="_blank">/core/applicationCommon/Queue.cdm.json/Queue</a></td><td><a href="../../Queue.md#queueId" target="_blank">queueId</a></td></tr><tr><td><a href="../../Contact.md" target="_blank">/core/applicationCommon/Contact.cdm.json/Contact</a></td><td><a href="../../Contact.md#contactId" target="_blank">contactId</a></td></tr><tr><td><a href="../../Account.md" target="_blank">/core/applicationCommon/Account.cdm.json/Account</a></td><td><a href="../../Account.md#accountId" target="_blank">accountId</a></td></tr><tr><td><a href="../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="Contact.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/Contact.cdm.json/Contact</a></td><td><a href="Contact.md#contactId" target="_blank">contactId</a></td></tr><tr><td><a href="Account.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/Account.cdm.json/Account</a></td><td><a href="Account.md#accountId" target="_blank">accountId</a></td></tr><tr><td><a href="service/User.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User</a></td><td><a href="service/User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="service/FacilityEquipment.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/FacilityEquipment.cdm.json/FacilityEquipment</a></td><td><a href="service/FacilityEquipment.md#equipmentId" target="_blank">equipmentId</a></td></tr><tr><td><a href="Lead.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.json/Lead</a></td><td><a href="Lead.md#leadId" target="_blank">leadId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  
 
 </details>
 
@@ -2680,7 +2656,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the sendersAccountObjectTypeCode attribute are listed below.</summary>
+<summary>List of traits for the  sendersAccountObjectTypeCode  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2713,7 +2689,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the sendersAccount attribute are listed below.</summary>
+<summary>List of traits for the  sendersAccount  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2742,7 +2718,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>94</td><td>integer</td><td></td></tr></table>
 
 - **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  
 
 </details>
 
@@ -2758,7 +2734,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the attachmentCount attribute are listed below.</summary>
+<summary>List of traits for the  attachmentCount  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -2793,7 +2769,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the parentActivityId attribute are listed below.</summary>
+<summary>List of traits for the  parentActivityId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2821,9 +2797,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>102</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../Email.md" target="_blank">/core/applicationCommon/Email.cdm.json/Email</a></td><td><a href="../../Email.md#activityId" target="_blank">activityId</a></td></tr><tr><td><a href="Email.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/Email.cdm.json/Email</a></td><td><a href="Email.md#activityId" target="_blank">activityId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#inReplyTo name="inReplyTo">inReplyTo</a>
@@ -2838,7 +2811,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the inReplyTo attribute are listed below.</summary>
+<summary>List of traits for the  inReplyTo  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2878,7 +2851,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the baseConversationIndexHash attribute are listed below.</summary>
+<summary>List of traits for the  baseConversationIndexHash  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -2916,7 +2889,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the conversationIndex attribute are listed below.</summary>
+<summary>List of traits for the  conversationIndex  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2951,16 +2924,16 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Correlation Method</td></tr><tr><td>description</td><td>Shows how an email is matched to an existing email in Microsoft Dynamics 365. For system use only.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>correlationmethod</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>None</td><td>0</td></tr><tr><td>en</td><td>Skipped</td><td>1</td></tr><tr><td>en</td><td>XHeader</td><td>2</td></tr><tr><td>en</td><td>InReplyTo</td><td>3</td></tr><tr><td>en</td><td>TrackingToken</td><td>4</td></tr><tr><td>en</td><td>ConversationIndex</td><td>5</td></tr><tr><td>en</td><td>SmartMatching</td><td>6</td></tr><tr><td>en</td><td>CustomCorrelation</td><td>7</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Correlation Method</td></tr><tr><td>description</td><td>Shows how an email is matched to an existing email in Microsoft Dynamics 365. For system use only.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>correlationmethod</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>CustomCorrelation</td><td>7</td></tr><tr><td>en</td><td>SmartMatching</td><td>6</td></tr><tr><td>en</td><td>ConversationIndex</td><td>5</td></tr><tr><td>en</td><td>TrackingToken</td><td>4</td></tr><tr><td>en</td><td>InReplyTo</td><td>3</td></tr><tr><td>en</td><td>XHeader</td><td>2</td></tr><tr><td>en</td><td>Skipped</td><td>1</td></tr><tr><td>en</td><td>None</td><td>0</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the correlationMethod attribute are listed below.</summary>
+<summary>List of traits for the  correlationMethod  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>None</td><td>0</td></tr><tr><td>en</td><td>Skipped</td><td>1</td></tr><tr><td>en</td><td>XHeader</td><td>2</td></tr><tr><td>en</td><td>InReplyTo</td><td>3</td></tr><tr><td>en</td><td>TrackingToken</td><td>4</td></tr><tr><td>en</td><td>ConversationIndex</td><td>5</td></tr><tr><td>en</td><td>SmartMatching</td><td>6</td></tr><tr><td>en</td><td>CustomCorrelation</td><td>7</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>CustomCorrelation</td><td>7</td></tr><tr><td>en</td><td>SmartMatching</td><td>6</td></tr><tr><td>en</td><td>ConversationIndex</td><td>5</td></tr><tr><td>en</td><td>TrackingToken</td><td>4</td></tr><tr><td>en</td><td>InReplyTo</td><td>3</td></tr><tr><td>en</td><td>XHeader</td><td>2</td></tr><tr><td>en</td><td>Skipped</td><td>1</td></tr><tr><td>en</td><td>None</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2996,7 +2969,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the correlationMethod_display attribute are listed below.</summary>
+<summary>List of traits for the  correlationMethod_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3020,7 +2993,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the postponeEmailProcessingUntil attribute are listed below.</summary>
+<summary>List of traits for the  postponeEmailProcessingUntil  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -3058,7 +3031,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the processId attribute are listed below.</summary>
+<summary>List of traits for the  processId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3096,7 +3069,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the stageId attribute are listed below.</summary>
+<summary>List of traits for the  stageId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3134,7 +3107,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the isUnsafe attribute are listed below.</summary>
+<summary>List of traits for the  isUnsafe  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -3172,7 +3145,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the SLAId attribute are listed below.</summary>
+<summary>List of traits for the  SLAId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3200,9 +3173,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>116</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../SLA.md" target="_blank">/core/applicationCommon/SLA.cdm.json/SLA</a></td><td><a href="../../SLA.md#SLAId" target="_blank">SLAId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#SLAInvokedId name="SLAInvokedId">SLAInvokedId</a>
@@ -3217,7 +3187,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the SLAInvokedId attribute are listed below.</summary>
+<summary>List of traits for the  SLAInvokedId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3245,9 +3215,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>117</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../SLA.md" target="_blank">/core/applicationCommon/SLA.cdm.json/SLA</a></td><td><a href="../../SLA.md#SLAId" target="_blank">SLAId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#onHoldTime name="onHoldTime">onHoldTime</a>
@@ -3262,7 +3229,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the onHoldTime attribute are listed below.</summary>
+<summary>List of traits for the  onHoldTime  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -3300,7 +3267,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the lastOnHoldTime attribute are listed below.</summary>
+<summary>List of traits for the  lastOnHoldTime  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -3338,7 +3305,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the traversedPath attribute are listed below.</summary>
+<summary>List of traits for the  traversedPath  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3378,7 +3345,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the attachmentOpenCount attribute are listed below.</summary>
+<summary>List of traits for the  attachmentOpenCount  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -3416,7 +3383,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the conversationTrackingId attribute are listed below.</summary>
+<summary>List of traits for the  conversationTrackingId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3454,7 +3421,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the delayedEmailSendTime attribute are listed below.</summary>
+<summary>List of traits for the  delayedEmailSendTime  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -3492,7 +3459,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the lastOpenedTime attribute are listed below.</summary>
+<summary>List of traits for the  lastOpenedTime  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -3530,7 +3497,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the linksClickedCount attribute are listed below.</summary>
+<summary>List of traits for the  linksClickedCount  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -3568,7 +3535,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the openCount attribute are listed below.</summary>
+<summary>List of traits for the  openCount  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -3606,7 +3573,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the replyCount attribute are listed below.</summary>
+<summary>List of traits for the  replyCount  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -3644,7 +3611,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the emailTrackingId attribute are listed below.</summary>
+<summary>List of traits for the  emailTrackingId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3682,7 +3649,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the followEmailUserPreference attribute are listed below.</summary>
+<summary>List of traits for the  followEmailUserPreference  attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -3717,7 +3684,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the isEmailFollowed attribute are listed below.</summary>
+<summary>List of traits for the  isEmailFollowed  attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -3752,7 +3719,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the emailReminderExpiryTime attribute are listed below.</summary>
+<summary>List of traits for the  emailReminderExpiryTime  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -3785,16 +3752,16 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Email Reminder Type</td></tr><tr><td>description</td><td>Shows the type of the email reminder.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>emailremindertype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>If I do not receive a reply by</td><td>0</td></tr><tr><td>en</td><td>If the email is not opened by</td><td>1</td></tr><tr><td>en</td><td>Remind me anyways at</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Email Reminder Type</td></tr><tr><td>description</td><td>Shows the type of the email reminder.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>emailremindertype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Remind me anyways at</td><td>2</td></tr><tr><td>en</td><td>If the email is not opened by</td><td>1</td></tr><tr><td>en</td><td>If I do not receive a reply by</td><td>0</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the emailReminderType attribute are listed below.</summary>
+<summary>List of traits for the  emailReminderType  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>If I do not receive a reply by</td><td>0</td></tr><tr><td>en</td><td>If the email is not opened by</td><td>1</td></tr><tr><td>en</td><td>Remind me anyways at</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Remind me anyways at</td><td>2</td></tr><tr><td>en</td><td>If the email is not opened by</td><td>1</td></tr><tr><td>en</td><td>If I do not receive a reply by</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3830,7 +3797,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the emailReminderType_display attribute are listed below.</summary>
+<summary>List of traits for the  emailReminderType_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3849,16 +3816,16 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Email Reminder Status</td></tr><tr><td>description</td><td>Shows the status of the email reminder.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>emailreminderstatus</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>NotSet</td><td>0</td></tr><tr><td>en</td><td>ReminderSet</td><td>1</td></tr><tr><td>en</td><td>ReminderExpired</td><td>2</td></tr><tr><td>en</td><td>ReminderInvalid</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Email Reminder Status</td></tr><tr><td>description</td><td>Shows the status of the email reminder.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>emailreminderstatus</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>ReminderInvalid</td><td>3</td></tr><tr><td>en</td><td>ReminderExpired</td><td>2</td></tr><tr><td>en</td><td>ReminderSet</td><td>1</td></tr><tr><td>en</td><td>NotSet</td><td>0</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the emailReminderStatus attribute are listed below.</summary>
+<summary>List of traits for the  emailReminderStatus  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>NotSet</td><td>0</td></tr><tr><td>en</td><td>ReminderSet</td><td>1</td></tr><tr><td>en</td><td>ReminderExpired</td><td>2</td></tr><tr><td>en</td><td>ReminderInvalid</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>ReminderInvalid</td><td>3</td></tr><tr><td>en</td><td>ReminderExpired</td><td>2</td></tr><tr><td>en</td><td>ReminderSet</td><td>1</td></tr><tr><td>en</td><td>NotSet</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3894,7 +3861,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the emailReminderStatus_display attribute are listed below.</summary>
+<summary>List of traits for the  emailReminderStatus_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3918,7 +3885,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the emailReminderText attribute are listed below.</summary>
+<summary>List of traits for the  emailReminderText  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3959,7 +3926,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the templateId attribute are listed below.</summary>
+<summary>List of traits for the  templateId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4001,7 +3968,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the reminderActionCardId attribute are listed below.</summary>
+<summary>List of traits for the  reminderActionCardId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4039,7 +4006,7 @@ First included in: <a href="../../Email.md" target="_blank">applicationCommon/Em
 #### Traits
 
 <details>
-<summary>List of traits for the isEmailReminderSet attribute are listed below.</summary>
+<summary>List of traits for the  isEmailReminderSet  attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -4065,7 +4032,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#serviceId name="serviceId">serviceId</a>
 
 Unique identifier for the associated service.  
-First included in: crmCommon/Email (this entity)  
+First included in: crmCommon/Email  (this entity)  
 
 #### Properties
 
@@ -4074,7 +4041,7 @@ First included in: crmCommon/Email (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the serviceId attribute are listed below.</summary>
+<summary>List of traits for the  serviceId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4101,8 +4068,5 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10000</td><td>integer</td><td></td></tr></table>
-
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="service/Service.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/Service.cdm.json/Service</a></td><td><a href="service/Service.md#serviceId" target="_blank">serviceId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 </details>

@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/12/2019
+ms.date: 2/13/2019
 ms.author: tpalmer
 ---
 
@@ -13,6 +13,12 @@ ms.author: tpalmer
 Summarization of financial activity for a ledger, date, account, and dimension combination  
   
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/financialCommon/FinancialActivity.cdm.json" target="_blank">GitHub</a>.  
+
+## Instances
+
+Instances of this entity are listed below:  
+
+financialCommon/FinancialActivity  
 
 ## Traits
 
@@ -37,12 +43,6 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 
 </details>
 
-## Instances
-
-Instances of this entity are listed below:  
-
-financialCommon/FinancialActivity  
-
 ## Attributes
 
 |Name|Description|First Included in Instance|
@@ -62,7 +62,7 @@ financialCommon/FinancialActivity
 ### <a href=#financialActivityId name="financialActivityId">financialActivityId</a>
 
 The surrogate key of the record  
-First included in: financialCommon/FinancialActivity (this entity)  
+First included in: financialCommon/FinancialActivity  (this entity)  
 
 #### Properties
 
@@ -71,7 +71,7 @@ First included in: financialCommon/FinancialActivity (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the financialActivityId attribute are listed below.</summary>
+<summary>List of traits for the  financialActivityId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -90,7 +90,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 ### <a href=#mainAccountCategoryKey name="mainAccountCategoryKey">mainAccountCategoryKey</a>
 
 The category of the main account for this activity, denormalized for reporting  
-First included in: financialCommon/FinancialActivity (this entity)  
+First included in: financialCommon/FinancialActivity  (this entity)  
 
 #### Properties
 
@@ -99,7 +99,7 @@ First included in: financialCommon/FinancialActivity (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the mainAccountCategoryKey attribute are listed below.</summary>
+<summary>List of traits for the  mainAccountCategoryKey  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -111,14 +111,14 @@ Holds the list of language specific display text for an object.  <table><tr><th>
 Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The category of the main account for this activity, denormalized for reporting</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 - **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="MainAccountCategory.md" target="_blank">/core/applicationCommon/foundationCommon/financialCommon/MainAccountCategory.cdm.json/MainAccountCategory</a></td><td><a href="MainAccountCategory.md#mainAccountCategoryId" target="_blank">mainAccountCategoryId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  
 
 </details>
 
 ### <a href=#mainAccountKey name="mainAccountKey">mainAccountKey</a>
 
 The main account containing this financial activity  
-First included in: financialCommon/FinancialActivity (this entity)  
+First included in: financialCommon/FinancialActivity  (this entity)  
 
 #### Properties
 
@@ -127,7 +127,7 @@ First included in: financialCommon/FinancialActivity (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the mainAccountKey attribute are listed below.</summary>
+<summary>List of traits for the  mainAccountKey  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -139,14 +139,14 @@ Holds the list of language specific display text for an object.  <table><tr><th>
 Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The main account containing this financial activity</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 - **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="MainAccount.md" target="_blank">/core/applicationCommon/foundationCommon/financialCommon/MainAccount.cdm.json/MainAccount</a></td><td><a href="MainAccount.md#mainAccountId" target="_blank">mainAccountId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  
 
 </details>
 
 ### <a href=#companyKey name="companyKey">companyKey</a>
 
 The company for which this financial activity occurred  
-First included in: financialCommon/FinancialActivity (this entity)  
+First included in: financialCommon/FinancialActivity  (this entity)  
 
 #### Properties
 
@@ -155,7 +155,7 @@ First included in: financialCommon/FinancialActivity (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the companyKey attribute are listed below.</summary>
+<summary>List of traits for the  companyKey  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -167,14 +167,14 @@ Holds the list of language specific display text for an object.  <table><tr><th>
 Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The company for which this financial activity occurred</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 - **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../Company.md" target="_blank">/core/applicationCommon/foundationCommon/Company.cdm.json/Company</a></td><td><a href="../Company.md#companyId" target="_blank">companyId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  
 
 </details>
 
 ### <a href=#transactionCurrencyKey name="transactionCurrencyKey">transactionCurrencyKey</a>
 
 The currency in which the source transaction occurred  
-First included in: financialCommon/FinancialActivity (this entity)  
+First included in: financialCommon/FinancialActivity  (this entity)  
 
 #### Properties
 
@@ -183,7 +183,7 @@ First included in: financialCommon/FinancialActivity (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the transactionCurrencyKey attribute are listed below.</summary>
+<summary>List of traits for the  transactionCurrencyKey  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -195,14 +195,14 @@ Holds the list of language specific display text for an object.  <table><tr><th>
 Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The currency in which the source transaction occurred</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 - **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../Currency.md" target="_blank">/core/applicationCommon/Currency.cdm.json/Currency</a></td><td><a href="../../Currency.md#transactionCurrencyId" target="_blank">transactionCurrencyId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  
 
 </details>
 
 ### <a href=#fiscalCalendarPeriodKey name="fiscalCalendarPeriodKey">fiscalCalendarPeriodKey</a>
 
 The fiscal period in which the financial activity occurred  
-First included in: financialCommon/FinancialActivity (this entity)  
+First included in: financialCommon/FinancialActivity  (this entity)  
 
 #### Properties
 
@@ -211,7 +211,7 @@ First included in: financialCommon/FinancialActivity (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the fiscalCalendarPeriodKey attribute are listed below.</summary>
+<summary>List of traits for the  fiscalCalendarPeriodKey  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -223,14 +223,14 @@ Holds the list of language specific display text for an object.  <table><tr><th>
 Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The fiscal period in which the financial activity occurred</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 - **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="FiscalCalendarPeriod.md" target="_blank">/core/applicationCommon/foundationCommon/financialCommon/FiscalCalendarPeriod.cdm.json/FiscalCalendarPeriod</a></td><td><a href="FiscalCalendarPeriod.md#fiscalCalendarPeriodId" target="_blank">fiscalCalendarPeriodId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  
 
 </details>
 
 ### <a href=#ledgerDimensionDisplayValue name="ledgerDimensionDisplayValue">ledgerDimensionDisplayValue</a>
 
 A denormalization of the full string representing the main account plus additional dimension values  
-First included in: financialCommon/FinancialActivity (this entity)  
+First included in: financialCommon/FinancialActivity  (this entity)  
 
 #### Properties
 
@@ -239,7 +239,7 @@ First included in: financialCommon/FinancialActivity (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the ledgerDimensionDisplayValue attribute are listed below.</summary>
+<summary>List of traits for the  ledgerDimensionDisplayValue  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -255,7 +255,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 ### <a href=#transactionCurrencyCode name="transactionCurrencyCode">transactionCurrencyCode</a>
 
 A denormalization of the currency code in which the source transaction occurred  
-First included in: financialCommon/FinancialActivity (this entity)  
+First included in: financialCommon/FinancialActivity  (this entity)  
 
 #### Properties
 
@@ -264,7 +264,7 @@ First included in: financialCommon/FinancialActivity (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the transactionCurrencyCode attribute are listed below.</summary>
+<summary>List of traits for the  transactionCurrencyCode  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -280,7 +280,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 ### <a href=#accountingCurrencyAmount name="accountingCurrencyAmount">accountingCurrencyAmount</a>
 
 The amount of the financial activity expressed in the accounting currency  
-First included in: financialCommon/FinancialActivity (this entity)  
+First included in: financialCommon/FinancialActivity  (this entity)  
 
 #### Properties
 
@@ -289,7 +289,7 @@ First included in: financialCommon/FinancialActivity (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the accountingCurrencyAmount attribute are listed below.</summary>
+<summary>List of traits for the  accountingCurrencyAmount  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -306,7 +306,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 ### <a href=#accountingDate name="accountingDate">accountingDate</a>
 
 The date on which the financial activity was recognized  
-First included in: financialCommon/FinancialActivity (this entity)  
+First included in: financialCommon/FinancialActivity  (this entity)  
 
 #### Properties
 
@@ -315,7 +315,7 @@ First included in: financialCommon/FinancialActivity (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the accountingDate attribute are listed below.</summary>
+<summary>List of traits for the  accountingDate  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -330,7 +330,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 ### <a href=#ledgerId name="ledgerId">ledgerId</a>
 
 The ledger containing this financial activity  
-First included in: financialCommon/FinancialActivity (this entity)  
+First included in: financialCommon/FinancialActivity  (this entity)  
 
 #### Properties
 
@@ -339,7 +339,7 @@ First included in: financialCommon/FinancialActivity (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the ledgerId attribute are listed below.</summary>
+<summary>List of traits for the  ledgerId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -351,6 +351,6 @@ Holds the list of language specific display text for an object.  <table><tr><th>
 Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The ledger containing this financial activity</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 - **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="Ledger.md" target="_blank">/core/applicationCommon/foundationCommon/financialCommon/Ledger.cdm.json/Ledger</a></td><td><a href="Ledger.md#ledgerId" target="_blank">ledgerId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  
 
 </details>

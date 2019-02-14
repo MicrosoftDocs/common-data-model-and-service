@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/12/2019
+ms.date: 2/13/2019
 ms.author: tpalmer
 ---
 
@@ -13,6 +13,15 @@ ms.author: tpalmer
 Address and shipping information. Used to store additional addresses for an account or contact.  
   
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Address.cdm.json" target="_blank">GitHub</a>.  
+
+## Instances
+
+Instances of this entity are listed below:  
+
+[applicationCommon/Address](../../../../../Address.md "/core/applicationCommon/Address.cdm.json/Address")  
+higherEducation/Address  
+[electronicMedicalRecords/Address](../../healthCare/electronicMedicalRecords/Address.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Address.cdm.json/Address")  
+[nonProfit/Address](../../nonProfit/Address.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Address.cdm.json/Address")  
 
 ## Traits
 
@@ -39,15 +48,6 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>CustomerAddress</td><td>string</td><td></td></tr></table>
 
 </details>
-
-## Instances
-
-Instances of this entity are listed below:  
-
-[applicationCommon/Address](../../../../../Address.md "/core/applicationCommon/Address.cdm.json/Address")  
-higherEducation/Address  
-[electronicMedicalRecords/Address](../../healthCare/electronicMedicalRecords/Address.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Address.cdm.json/Address")  
-[nonProfit/Address](../../nonProfit/Address.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Address.cdm.json/Address")  
 
 ## Attributes
 
@@ -122,7 +122,7 @@ First included in: <a href="../../../../../Address.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the parentIdTypeCode attribute are listed below.</summary>
+<summary>List of traits for the  parentIdTypeCode  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -155,7 +155,7 @@ First included in: <a href="../../../../../Address.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the parentId attribute are listed below.</summary>
+<summary>List of traits for the  parentId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -181,7 +181,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>1</td><td>integer</td><td></td></tr></table>
 
 - **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../../Contact.md" target="_blank">/core/applicationCommon/Contact.cdm.json/Contact</a></td><td><a href="../../../../../Contact.md#contactId" target="_blank">contactId</a></td></tr><tr><td><a href="../../../../../Account.md" target="_blank">/core/applicationCommon/Account.cdm.json/Account</a></td><td><a href="../../../../../Account.md#accountId" target="_blank">accountId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  
 
 </details>
 
@@ -197,7 +197,7 @@ First included in: <a href="../../../../../Address.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the customerAddressId attribute are listed below.</summary>
+<summary>List of traits for the  customerAddressId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -236,7 +236,7 @@ First included in: <a href="../../../../../Address.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the addressNumber attribute are listed below.</summary>
+<summary>List of traits for the  addressNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -269,16 +269,16 @@ First included in: <a href="../../../../../Address.md" target="_blank">applicati
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Object Type </td></tr><tr><td>description</td><td>Shows the type code of the customer record to indicate whether the address belongs to a customer account or contact.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>objecttypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Account</td><td>1</td></tr><tr><td>en</td><td>Contact</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Object Type </td></tr><tr><td>description</td><td>Shows the type code of the customer record to indicate whether the address belongs to a customer account or contact.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>objecttypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Contact</td><td>2</td></tr><tr><td>en</td><td>Account</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the objectTypeCode attribute are listed below.</summary>
+<summary>List of traits for the  objectTypeCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Account</td><td>1</td></tr><tr><td>en</td><td>Contact</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Contact</td><td>2</td></tr><tr><td>en</td><td>Account</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -311,7 +311,7 @@ First included in: <a href="../../../../../Address.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the objectTypeCode_display attribute are listed below.</summary>
+<summary>List of traits for the  objectTypeCode_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -330,16 +330,16 @@ First included in: <a href="../../../../../Address.md" target="_blank">applicati
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Address Type</td></tr><tr><td>description</td><td>Select the address type, such as primary or billing.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>addresstypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Bill To</td><td>1</td></tr><tr><td>en</td><td>Ship To</td><td>2</td></tr><tr><td>en</td><td>Primary</td><td>3</td></tr><tr><td>en</td><td>Other</td><td>4</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Address Type</td></tr><tr><td>description</td><td>Select the address type, such as primary or billing.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>addresstypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Other</td><td>4</td></tr><tr><td>en</td><td>Primary</td><td>3</td></tr><tr><td>en</td><td>Ship To</td><td>2</td></tr><tr><td>en</td><td>Bill To</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the addressTypeCode attribute are listed below.</summary>
+<summary>List of traits for the  addressTypeCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Bill To</td><td>1</td></tr><tr><td>en</td><td>Ship To</td><td>2</td></tr><tr><td>en</td><td>Primary</td><td>3</td></tr><tr><td>en</td><td>Other</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Other</td><td>4</td></tr><tr><td>en</td><td>Primary</td><td>3</td></tr><tr><td>en</td><td>Ship To</td><td>2</td></tr><tr><td>en</td><td>Bill To</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -375,7 +375,7 @@ First included in: <a href="../../../../../Address.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the addressTypeCode_display attribute are listed below.</summary>
+<summary>List of traits for the  addressTypeCode_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -399,7 +399,7 @@ First included in: <a href="../../../../../Address.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the name attribute are listed below.</summary>
+<summary>List of traits for the  name  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -440,7 +440,7 @@ First included in: <a href="../../../../../Address.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the primaryContactName attribute are listed below.</summary>
+<summary>List of traits for the  primaryContactName  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -481,7 +481,7 @@ First included in: <a href="../../../../../Address.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the line1 attribute are listed below.</summary>
+<summary>List of traits for the  line1  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -522,7 +522,7 @@ First included in: <a href="../../../../../Address.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the line2 attribute are listed below.</summary>
+<summary>List of traits for the  line2  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -563,7 +563,7 @@ First included in: <a href="../../../../../Address.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the line3 attribute are listed below.</summary>
+<summary>List of traits for the  line3  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -604,7 +604,7 @@ First included in: <a href="../../../../../Address.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the city attribute are listed below.</summary>
+<summary>List of traits for the  city  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -645,7 +645,7 @@ First included in: <a href="../../../../../Address.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the stateOrProvince attribute are listed below.</summary>
+<summary>List of traits for the  stateOrProvince  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -686,7 +686,7 @@ First included in: <a href="../../../../../Address.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the county attribute are listed below.</summary>
+<summary>List of traits for the  county  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -727,7 +727,7 @@ First included in: <a href="../../../../../Address.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the country attribute are listed below.</summary>
+<summary>List of traits for the  country  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -768,7 +768,7 @@ First included in: <a href="../../../../../Address.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the postOfficeBox attribute are listed below.</summary>
+<summary>List of traits for the  postOfficeBox  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -808,7 +808,7 @@ First included in: <a href="../../../../../Address.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the postalCode attribute are listed below.</summary>
+<summary>List of traits for the  postalCode  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -849,7 +849,7 @@ First included in: <a href="../../../../../Address.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the UTCOffset attribute are listed below.</summary>
+<summary>List of traits for the  UTCOffset  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -885,16 +885,16 @@ First included in: <a href="../../../../../Address.md" target="_blank">applicati
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Freight Terms</td></tr><tr><td>description</td><td>Select the freight terms to make sure shipping charges are processed correctly.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>freighttermscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>FOB</td><td>1</td></tr><tr><td>en</td><td>No Charge</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Freight Terms</td></tr><tr><td>description</td><td>Select the freight terms to make sure shipping charges are processed correctly.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>freighttermscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No Charge</td><td>2</td></tr><tr><td>en</td><td>FOB</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the freightTermsCode attribute are listed below.</summary>
+<summary>List of traits for the  freightTermsCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>FOB</td><td>1</td></tr><tr><td>en</td><td>No Charge</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No Charge</td><td>2</td></tr><tr><td>en</td><td>FOB</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -930,7 +930,7 @@ First included in: <a href="../../../../../Address.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the freightTermsCode_display attribute are listed below.</summary>
+<summary>List of traits for the  freightTermsCode_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -954,7 +954,7 @@ First included in: <a href="../../../../../Address.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the UPSZone attribute are listed below.</summary>
+<summary>List of traits for the  UPSZone  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -994,7 +994,7 @@ First included in: <a href="../../../../../Address.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the latitude attribute are listed below.</summary>
+<summary>List of traits for the  latitude  attribute are listed below.</summary>
 
 - **is.dataFormat.floatingPoint**  
 - **is.dataFormat.big**  
@@ -1034,7 +1034,7 @@ First included in: <a href="../../../../../Address.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the telephone1 attribute are listed below.</summary>
+<summary>List of traits for the  telephone1  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1075,7 +1075,7 @@ First included in: <a href="../../../../../Address.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the longitude attribute are listed below.</summary>
+<summary>List of traits for the  longitude  attribute are listed below.</summary>
 
 - **is.dataFormat.floatingPoint**  
 - **is.dataFormat.big**  
@@ -1110,16 +1110,16 @@ First included in: <a href="../../../../../Address.md" target="_blank">applicati
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Shipping Method</td></tr><tr><td>description</td><td>Select a shipping method for deliveries sent to this address.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>shippingmethodcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Airborne</td><td>1</td></tr><tr><td>en</td><td>DHL</td><td>2</td></tr><tr><td>en</td><td>FedEx</td><td>3</td></tr><tr><td>en</td><td>UPS</td><td>4</td></tr><tr><td>en</td><td>Postal Mail</td><td>5</td></tr><tr><td>en</td><td>Full Load</td><td>6</td></tr><tr><td>en</td><td>Will Call</td><td>7</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Shipping Method</td></tr><tr><td>description</td><td>Select a shipping method for deliveries sent to this address.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>shippingmethodcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Will Call</td><td>7</td></tr><tr><td>en</td><td>Full Load</td><td>6</td></tr><tr><td>en</td><td>Postal Mail</td><td>5</td></tr><tr><td>en</td><td>UPS</td><td>4</td></tr><tr><td>en</td><td>FedEx</td><td>3</td></tr><tr><td>en</td><td>DHL</td><td>2</td></tr><tr><td>en</td><td>Airborne</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the shippingMethodCode attribute are listed below.</summary>
+<summary>List of traits for the  shippingMethodCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Airborne</td><td>1</td></tr><tr><td>en</td><td>DHL</td><td>2</td></tr><tr><td>en</td><td>FedEx</td><td>3</td></tr><tr><td>en</td><td>UPS</td><td>4</td></tr><tr><td>en</td><td>Postal Mail</td><td>5</td></tr><tr><td>en</td><td>Full Load</td><td>6</td></tr><tr><td>en</td><td>Will Call</td><td>7</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Will Call</td><td>7</td></tr><tr><td>en</td><td>Full Load</td><td>6</td></tr><tr><td>en</td><td>Postal Mail</td><td>5</td></tr><tr><td>en</td><td>UPS</td><td>4</td></tr><tr><td>en</td><td>FedEx</td><td>3</td></tr><tr><td>en</td><td>DHL</td><td>2</td></tr><tr><td>en</td><td>Airborne</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1155,7 +1155,7 @@ First included in: <a href="../../../../../Address.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the shippingMethodCode_display attribute are listed below.</summary>
+<summary>List of traits for the  shippingMethodCode_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1179,7 +1179,7 @@ First included in: <a href="../../../../../Address.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the telephone2 attribute are listed below.</summary>
+<summary>List of traits for the  telephone2  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1220,7 +1220,7 @@ First included in: <a href="../../../../../Address.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the telephone3 attribute are listed below.</summary>
+<summary>List of traits for the  telephone3  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1261,7 +1261,7 @@ First included in: <a href="../../../../../Address.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the fax attribute are listed below.</summary>
+<summary>List of traits for the  fax  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1302,7 +1302,7 @@ First included in: <a href="../../../../../Address.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the versionNumber attribute are listed below.</summary>
+<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -1338,7 +1338,7 @@ First included in: <a href="../../../../../Address.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the createdBy attribute are listed below.</summary>
+<summary>List of traits for the  createdBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1366,9 +1366,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>28</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="../../../service/User.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User</a></td><td><a href="../../../service/User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
@@ -1383,7 +1380,7 @@ First included in: <a href="../../../../../Address.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the createdOn attribute are listed below.</summary>
+<summary>List of traits for the  createdOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1422,7 +1419,7 @@ First included in: <a href="../../../../../Address.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedBy attribute are listed below.</summary>
+<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1450,9 +1447,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>30</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="../../../service/User.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User</a></td><td><a href="../../../service/User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
@@ -1467,7 +1461,7 @@ First included in: <a href="../../../../../Address.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedOn attribute are listed below.</summary>
+<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1506,7 +1500,7 @@ First included in: <a href="../../../../../Address.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
+<summary>List of traits for the  owningBusinessUnit  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1548,7 +1542,7 @@ First included in: <a href="../../../../../Address.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the owningUser attribute are listed below.</summary>
+<summary>List of traits for the  owningUser  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1590,7 +1584,7 @@ First included in: <a href="../../../../../Address.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
+<summary>List of traits for the  timeZoneRuleVersionNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1628,7 +1622,7 @@ First included in: <a href="../../../../../Address.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
+<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1667,7 +1661,7 @@ First included in: <a href="../../../../../Address.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
+<summary>List of traits for the  UTCConversionTimeZoneCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1705,7 +1699,7 @@ First included in: <a href="../../../../../Address.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
+<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1743,7 +1737,7 @@ First included in: <a href="../../../../../Address.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the ownerIdType attribute are listed below.</summary>
+<summary>List of traits for the  ownerIdType  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1782,7 +1776,7 @@ First included in: <a href="../../../../../Address.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the ownerId attribute are listed below.</summary>
+<summary>List of traits for the  ownerId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1808,7 +1802,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>ownerid</td><td>string</td><td></td></tr></table>
 
 - **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="../../../../../Team.md" target="_blank">/core/applicationCommon/Team.cdm.json/Team</a></td><td><a href="../../../../../Team.md#teamId" target="_blank">teamId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  
 
 - **is.CDS.owner**  
 contains a User or Team ID  
@@ -1827,7 +1821,7 @@ First included in: <a href="../../../../../Address.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
+<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1855,9 +1849,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>52</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="../../../service/User.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User</a></td><td><a href="../../../service/User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
@@ -1872,7 +1863,7 @@ First included in: <a href="../../../../../Address.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
+<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1900,9 +1891,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>56</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="../../../service/User.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User</a></td><td><a href="../../../service/User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
@@ -1917,7 +1905,7 @@ First included in: <a href="../../../../../Address.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
+<summary>List of traits for the  transactionCurrencyId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1945,9 +1933,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>60</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../../Currency.md" target="_blank">/core/applicationCommon/Currency.cdm.json/Currency</a></td><td><a href="../../../../../Currency.md#transactionCurrencyId" target="_blank">transactionCurrencyId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
@@ -1962,7 +1947,7 @@ First included in: <a href="../../../../../Address.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the exchangeRate attribute are listed below.</summary>
+<summary>List of traits for the  exchangeRate  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -2002,7 +1987,7 @@ First included in: <a href="../../../../../Address.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the composite attribute are listed below.</summary>
+<summary>List of traits for the  composite  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2034,7 +2019,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#endDate name="endDate">endDate</a>
 
 End Date  
-First included in: higherEducation/Address (this entity)  
+First included in: higherEducation/Address  (this entity)  
 
 #### Properties
 
@@ -2043,7 +2028,7 @@ First included in: higherEducation/Address (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the endDate attribute are listed below.</summary>
+<summary>List of traits for the  endDate  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -2072,7 +2057,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#externalIdentifier name="externalIdentifier">externalIdentifier</a>
 
 External Identifier  
-First included in: higherEducation/Address (this entity)  
+First included in: higherEducation/Address  (this entity)  
 
 #### Properties
 
@@ -2081,7 +2066,7 @@ First included in: higherEducation/Address (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the externalIdentifier attribute are listed below.</summary>
+<summary>List of traits for the  externalIdentifier  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2112,7 +2097,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#externalSourceSystem name="externalSourceSystem">externalSourceSystem</a>
 
 External Source System  
-First included in: higherEducation/Address (this entity)  
+First included in: higherEducation/Address  (this entity)  
 
 #### Properties
 
@@ -2121,11 +2106,11 @@ First included in: higherEducation/Address (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the externalSourceSystem attribute are listed below.</summary>
+<summary>List of traits for the  externalSourceSystem  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>System 1</td><td>494280000</td></tr><tr><td>en</td><td>System 2</td><td>494280001</td></tr><tr><td>en</td><td>System 3</td><td>494280002</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>System 3</td><td>494280002</td></tr><tr><td>en</td><td>System 2</td><td>494280001</td></tr><tr><td>en</td><td>System 1</td><td>494280000</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2152,7 +2137,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#externalSourceSystem_display name="externalSourceSystem_display">externalSourceSystem_display</a>
 
-First included in: higherEducation/Address (this entity)  
+First included in: higherEducation/Address  (this entity)  
 
 #### Properties
 
@@ -2161,7 +2146,7 @@ First included in: higherEducation/Address (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the externalSourceSystem_display attribute are listed below.</summary>
+<summary>List of traits for the  externalSourceSystem_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2176,7 +2161,7 @@ First included in: higherEducation/Address (this entity)
 ### <a href=#mailType name="mailType">mailType</a>
 
 Indicate address as Primary or Seasonal  
-First included in: higherEducation/Address (this entity)  
+First included in: higherEducation/Address  (this entity)  
 
 #### Properties
 
@@ -2185,11 +2170,11 @@ First included in: higherEducation/Address (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the mailType attribute are listed below.</summary>
+<summary>List of traits for the  mailType  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Primary</td><td>494280000</td></tr><tr><td>en</td><td>Seasonal</td><td>494280001</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Seasonal</td><td>494280001</td></tr><tr><td>en</td><td>Primary</td><td>494280000</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2216,7 +2201,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#mailType_display name="mailType_display">mailType_display</a>
 
-First included in: higherEducation/Address (this entity)  
+First included in: higherEducation/Address  (this entity)  
 
 #### Properties
 
@@ -2225,7 +2210,7 @@ First included in: higherEducation/Address (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the mailType_display attribute are listed below.</summary>
+<summary>List of traits for the  mailType_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2240,7 +2225,7 @@ First included in: higherEducation/Address (this entity)
 ### <a href=#startDate name="startDate">startDate</a>
 
 Start Date  
-First included in: higherEducation/Address (this entity)  
+First included in: higherEducation/Address  (this entity)  
 
 #### Properties
 
@@ -2249,7 +2234,7 @@ First included in: higherEducation/Address (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the startDate attribute are listed below.</summary>
+<summary>List of traits for the  startDate  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  

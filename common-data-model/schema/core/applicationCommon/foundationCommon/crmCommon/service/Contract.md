@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/12/2019
+ms.date: 2/13/2019
 ms.author: tpalmer
 ---
 
@@ -13,6 +13,12 @@ ms.author: tpalmer
 Agreement to provide customer service during a specified amount of time or number of cases.  
   
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/Contract.cdm.json" target="_blank">GitHub</a>.  
+
+## Instances
+
+Instances of this entity are listed below:  
+
+service/Contract  
 
 ## Traits
 
@@ -42,12 +48,6 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>Contract</td><td>string</td><td></td></tr></table>
 
 </details>
-
-## Instances
-
-Instances of this entity are listed below:  
-
-service/Contract  
 
 ## Attributes
 
@@ -118,7 +118,7 @@ service/Contract
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -127,7 +127,7 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the createdOn attribute are listed below.</summary>
+<summary>List of traits for the  createdOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -157,7 +157,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -166,7 +166,7 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the createdBy attribute are listed below.</summary>
+<summary>List of traits for the  createdBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -197,15 +197,12 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>createdby</td><td>string</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -214,7 +211,7 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedOn attribute are listed below.</summary>
+<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -244,7 +241,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -253,7 +250,7 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedBy attribute are listed below.</summary>
+<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -284,15 +281,12 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>modifiedby</td><td>string</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -301,7 +295,7 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
+<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -332,15 +326,12 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>createdonbehalfby</td><td>string</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -349,7 +340,7 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
+<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -380,15 +371,12 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>modifiedonbehalfby</td><td>string</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -397,7 +385,7 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
+<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -427,7 +415,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -436,7 +424,7 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
+<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -462,7 +450,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -471,7 +459,7 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the ownerIdType attribute are listed below.</summary>
+<summary>List of traits for the  ownerIdType  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -501,7 +489,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -510,7 +498,7 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the ownerId attribute are listed below.</summary>
+<summary>List of traits for the  ownerId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -536,7 +524,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>ownerid</td><td>string</td><td></td></tr></table>
 
 - **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="../../../Team.md" target="_blank">/core/applicationCommon/Team.cdm.json/Team</a></td><td><a href="../../../Team.md#teamId" target="_blank">teamId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  
 
 - **is.CDS.owner**  
 contains a User or Team ID  
@@ -546,7 +534,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -555,7 +543,7 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
+<summary>List of traits for the  owningBusinessUnit  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -583,15 +571,12 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>owningbusinessunit</td><td>string</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../BusinessUnit.md" target="_blank">/core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit</a></td><td><a href="../../../BusinessUnit.md#businessUnitId" target="_blank">businessUnitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -600,7 +585,7 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the owningUser attribute are listed below.</summary>
+<summary>List of traits for the  owningUser  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -631,15 +616,12 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>owninguser</td><td>string</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="User.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User</a></td><td><a href="User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -648,7 +630,7 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the owningTeam attribute are listed below.</summary>
+<summary>List of traits for the  owningTeam  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -676,15 +658,12 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>owningteam</td><td>string</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Team.md" target="_blank">/core/applicationCommon/Team.cdm.json/Team</a></td><td><a href="../../../Team.md#teamId" target="_blank">teamId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -693,7 +672,7 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
+<summary>List of traits for the  timeZoneRuleVersionNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -722,7 +701,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -731,7 +710,7 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
+<summary>List of traits for the  UTCConversionTimeZoneCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -760,7 +739,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -769,7 +748,7 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the versionNumber attribute are listed below.</summary>
+<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -797,7 +776,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#contractId name="contractId">contractId</a>
 
 Unique identifier of the contract.  
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -806,7 +785,7 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the contractId attribute are listed below.</summary>
+<summary>List of traits for the  contractId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -836,7 +815,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#emailAddress name="emailAddress">emailAddress</a>
 
 The primary email address for the entity.  
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -845,7 +824,7 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the emailAddress attribute are listed below.</summary>
+<summary>List of traits for the  emailAddress  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -877,7 +856,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#title name="title">title</a>
 
 Type a title or name for the contract that indicates the purpose of the contract.  
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -886,7 +865,7 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the title attribute are listed below.</summary>
+<summary>List of traits for the  title  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -917,7 +896,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#activeOn name="activeOn">activeOn</a>
 
 Enter the date when the contract becomes active.  
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -926,7 +905,7 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the activeOn attribute are listed below.</summary>
+<summary>List of traits for the  activeOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -952,7 +931,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#allotmentTypeCode name="allotmentTypeCode">allotmentTypeCode</a>
 
 Type of allotment that the contract supports.  
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -961,11 +940,11 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the allotmentTypeCode attribute are listed below.</summary>
+<summary>List of traits for the  allotmentTypeCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Number of Cases</td><td>1</td></tr><tr><td>en</td><td>Time</td><td>2</td></tr><tr><td>en</td><td>Coverage Dates</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Coverage Dates</td><td>3</td></tr><tr><td>en</td><td>Time</td><td>2</td></tr><tr><td>en</td><td>Number of Cases</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -992,7 +971,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#allotmentTypeCode_display name="allotmentTypeCode_display">allotmentTypeCode_display</a>
 
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -1001,7 +980,7 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the allotmentTypeCode_display attribute are listed below.</summary>
+<summary>List of traits for the  allotmentTypeCode_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1016,7 +995,7 @@ First included in: service/Contract (this entity)
 ### <a href=#billingCustomerIdType name="billingCustomerIdType">billingCustomerIdType</a>
 
 The type of billing customer, either Account or Contact.  
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -1025,7 +1004,7 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the billingCustomerIdType attribute are listed below.</summary>
+<summary>List of traits for the  billingCustomerIdType  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1052,7 +1031,7 @@ contains an Account or Contact ID
 ### <a href=#billingCustomerId name="billingCustomerId">billingCustomerId</a>
 
 Select the customer account or contact to which the contract should be billed to provide a quick link to address and other customer details.  
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -1061,7 +1040,7 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the billingCustomerId attribute are listed below.</summary>
+<summary>List of traits for the  billingCustomerId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1090,7 +1069,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10033</td><td>integer</td><td></td></tr></table>
 
 - **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../Contact.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/Contact.cdm.json/Contact</a></td><td><a href="../Contact.md#contactId" target="_blank">contactId</a></td></tr><tr><td><a href="../Account.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/Account.cdm.json/Account</a></td><td><a href="../Account.md#accountId" target="_blank">accountId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  
 
 - **is.CDS.customer**  
 contains an Account or Contact ID  
@@ -1100,7 +1079,7 @@ contains an Account or Contact ID
 ### <a href=#billingEndOn name="billingEndOn">billingEndOn</a>
 
 Enter the end date for the contract's billing period to indicate the period for which the customer must pay for a service.  
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -1109,7 +1088,7 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the billingEndOn attribute are listed below.</summary>
+<summary>List of traits for the  billingEndOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1138,7 +1117,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#billingFrequencyCode name="billingFrequencyCode">billingFrequencyCode</a>
 
 Select the billing schedule of the contract to indicate how often the customer should be invoiced.  
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -1147,11 +1126,11 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the billingFrequencyCode attribute are listed below.</summary>
+<summary>List of traits for the  billingFrequencyCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Monthly</td><td>1</td></tr><tr><td>en</td><td>Bimonthly</td><td>2</td></tr><tr><td>en</td><td>Quarterly</td><td>3</td></tr><tr><td>en</td><td>Semiannually</td><td>4</td></tr><tr><td>en</td><td>Annually</td><td>5</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Annually</td><td>5</td></tr><tr><td>en</td><td>Semiannually</td><td>4</td></tr><tr><td>en</td><td>Quarterly</td><td>3</td></tr><tr><td>en</td><td>Bimonthly</td><td>2</td></tr><tr><td>en</td><td>Monthly</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1178,7 +1157,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#billingFrequencyCode_display name="billingFrequencyCode_display">billingFrequencyCode_display</a>
 
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -1187,7 +1166,7 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the billingFrequencyCode_display attribute are listed below.</summary>
+<summary>List of traits for the  billingFrequencyCode_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1202,7 +1181,7 @@ First included in: service/Contract (this entity)
 ### <a href=#billingStartOn name="billingStartOn">billingStartOn</a>
 
 Enter the start date for the contract's billing period to indicate the period for which the customer must pay for a service. This defaults to the same date that is selected in the Contract Start Date field.  
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -1211,7 +1190,7 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the billingStartOn attribute are listed below.</summary>
+<summary>List of traits for the  billingStartOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1240,7 +1219,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#billToAddress name="billToAddress">billToAddress</a>
 
 Choose which address to send the invoice to.  
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -1249,7 +1228,7 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the billToAddress attribute are listed below.</summary>
+<summary>List of traits for the  billToAddress  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1277,15 +1256,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10038</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Address.md" target="_blank">/core/applicationCommon/Address.cdm.json/Address</a></td><td><a href="../../../Address.md#customerAddressId" target="_blank">customerAddressId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#cancelOn name="cancelOn">cancelOn</a>
 
 Shows the date and time when the contract was canceled.  
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -1294,7 +1270,7 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the cancelOn attribute are listed below.</summary>
+<summary>List of traits for the  cancelOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1323,7 +1299,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#contractLanguage name="contractLanguage">contractLanguage</a>
 
 Type additional information about the contract, such as the products or services provided to the customer.  
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -1332,7 +1308,7 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the contractLanguage attribute are listed below.</summary>
+<summary>List of traits for the  contractLanguage  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1363,7 +1339,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#contractNumber name="contractNumber">contractNumber</a>
 
 Shows the number for the contract for customer reference and searching capabilities. You cannot modify this number.  
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -1372,7 +1348,7 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the contractNumber attribute are listed below.</summary>
+<summary>List of traits for the  contractNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1403,7 +1379,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#contractServiceLevelCode name="contractServiceLevelCode">contractServiceLevelCode</a>
 
 Select the level of service that should be provided for the contract based on your company's definition of bronze, silver, or gold.  
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -1412,11 +1388,11 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the contractServiceLevelCode attribute are listed below.</summary>
+<summary>List of traits for the  contractServiceLevelCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Gold</td><td>1</td></tr><tr><td>en</td><td>Silver</td><td>2</td></tr><tr><td>en</td><td>Bronze</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Bronze</td><td>3</td></tr><tr><td>en</td><td>Silver</td><td>2</td></tr><tr><td>en</td><td>Gold</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1443,7 +1419,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#contractServiceLevelCode_display name="contractServiceLevelCode_display">contractServiceLevelCode_display</a>
 
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -1452,7 +1428,7 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the contractServiceLevelCode_display attribute are listed below.</summary>
+<summary>List of traits for the  contractServiceLevelCode_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1467,7 +1443,7 @@ First included in: service/Contract (this entity)
 ### <a href=#contractTemplateAbbreviation name="contractTemplateAbbreviation">contractTemplateAbbreviation</a>
 
 Shows the abbreviation of the contract template selected when the contract is created.  
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -1476,7 +1452,7 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the contractTemplateAbbreviation attribute are listed below.</summary>
+<summary>List of traits for the  contractTemplateAbbreviation  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1504,7 +1480,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#contractTemplateId name="contractTemplateId">contractTemplateId</a>
 
 Choose the contract template that should be used to determine the terms of the contract, such as allotment type, available hours, and billing frequency.  
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -1513,7 +1489,7 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the contractTemplateId attribute are listed below.</summary>
+<summary>List of traits for the  contractTemplateId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1543,7 +1519,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#customerIdType name="customerIdType">customerIdType</a>
 
 The type of customer, either Account or Contact.  
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -1552,7 +1528,7 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the customerIdType attribute are listed below.</summary>
+<summary>List of traits for the  customerIdType  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1579,7 +1555,7 @@ contains an Account or Contact ID
 ### <a href=#customerId name="customerId">customerId</a>
 
 The customer account or contact to provide a quick link to additional customer details, such as account information, activities, and opportunities.  
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -1588,7 +1564,7 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the customerId attribute are listed below.</summary>
+<summary>List of traits for the  customerId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1614,7 +1590,7 @@ The attribute value may be set to NULL.
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>customerid</td><td>string</td><td></td></tr></table>
 
 - **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Contact.md" target="_blank">/core/applicationCommon/Contact.cdm.json/Contact</a></td><td><a href="../../../Contact.md#contactId" target="_blank">contactId</a></td></tr><tr><td><a href="../../../Account.md" target="_blank">/core/applicationCommon/Account.cdm.json/Account</a></td><td><a href="../../../Account.md#accountId" target="_blank">accountId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  
 
 - **is.CDS.customer**  
 contains an Account or Contact ID  
@@ -1624,7 +1600,7 @@ contains an Account or Contact ID
 ### <a href=#duration name="duration">duration</a>
 
 Shows for the duration of the contract, in days, based on the contract start and end dates.  
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -1633,7 +1609,7 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the duration attribute are listed below.</summary>
+<summary>List of traits for the  duration  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1662,7 +1638,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#effectivityCalendar name="effectivityCalendar">effectivityCalendar</a>
 
 Days of the week and times during which customer service support is available for the duration of the contract.  
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -1671,7 +1647,7 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the effectivityCalendar attribute are listed below.</summary>
+<summary>List of traits for the  effectivityCalendar  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1702,7 +1678,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#expiresOn name="expiresOn">expiresOn</a>
 
 Enter the date when the contract expires.  
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -1711,7 +1687,7 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the expiresOn attribute are listed below.</summary>
+<summary>List of traits for the  expiresOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1737,7 +1713,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#netPrice name="netPrice">netPrice</a>
 
 Shows the total charge to the customer for the service contract, calculated as the sum of values in the Net field for each existing contract line related to the contract.  
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -1746,7 +1722,7 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the netPrice attribute are listed below.</summary>
+<summary>List of traits for the  netPrice  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1778,7 +1754,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Choose the local currency for the record to make sure budgets are reported in the correct currency.  
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -1787,7 +1763,7 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
+<summary>List of traits for the  transactionCurrencyId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1815,15 +1791,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10051</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Currency.md" target="_blank">/core/applicationCommon/Currency.cdm.json/Currency</a></td><td><a href="../../../Currency.md#transactionCurrencyId" target="_blank">transactionCurrencyId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.  
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -1832,7 +1805,7 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the exchangeRate attribute are listed below.</summary>
+<summary>List of traits for the  exchangeRate  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1863,7 +1836,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#netPriceBase name="netPriceBase">netPriceBase</a>
 
 Value of the Net Price in base currency.  
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -1872,7 +1845,7 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the netPriceBase attribute are listed below.</summary>
+<summary>List of traits for the  netPriceBase  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1907,7 +1880,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#originatingContract name="originatingContract">originatingContract</a>
 
 Choose the original contract that this contract was created from. This information is used to track renewal history.  
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -1916,7 +1889,7 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the originatingContract attribute are listed below.</summary>
+<summary>List of traits for the  originatingContract  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1944,15 +1917,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10055</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="Contract.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/Contract.cdm.json/Contract</a></td><td><a href="Contract.md#contractId" target="_blank">contractId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#serviceAddress name="serviceAddress">serviceAddress</a>
 
 Choose the address for the customer account or contact where the services are provided.  
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -1961,7 +1931,7 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the serviceAddress attribute are listed below.</summary>
+<summary>List of traits for the  serviceAddress  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1989,15 +1959,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10056</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Address.md" target="_blank">/core/applicationCommon/Address.cdm.json/Address</a></td><td><a href="../../../Address.md#customerAddressId" target="_blank">customerAddressId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Shows whether the contract is in draft, invoiced, active, on hold, canceled, or expired. You can edit only the contracts that are in draft status.  
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -2006,11 +1973,11 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the stateCode attribute are listed below.</summary>
+<summary>List of traits for the  stateCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Draft</td><td>0</td></tr><tr><td>en</td><td>Invoiced</td><td>1</td></tr><tr><td>en</td><td>Active</td><td>2</td></tr><tr><td>en</td><td>On Hold</td><td>3</td></tr><tr><td>en</td><td>Canceled</td><td>4</td></tr><tr><td>en</td><td>Expired</td><td>5</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Expired</td><td>5</td></tr><tr><td>en</td><td>Canceled</td><td>4</td></tr><tr><td>en</td><td>On Hold</td><td>3</td></tr><tr><td>en</td><td>Active</td><td>2</td></tr><tr><td>en</td><td>Invoiced</td><td>1</td></tr><tr><td>en</td><td>Draft</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2037,7 +2004,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -2046,7 +2013,7 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the stateCode_display attribute are listed below.</summary>
+<summary>List of traits for the  stateCode_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2061,20 +2028,20 @@ First included in: service/Contract (this entity)
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Select the contract's status.  
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the contract's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Draft</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Invoiced</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Active</td><td>3</td><td>2</td></tr><tr><td>en</td><td>On Hold</td><td>4</td><td>3</td></tr><tr><td>en</td><td>Canceled</td><td>5</td><td>4</td></tr><tr><td>en</td><td>Expired</td><td>6</td><td>5</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the contract's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Draft</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Invoiced</td><td>2</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Active</td><td>3</td><td>2</td><td>2</td></tr><tr><td>en</td><td>On Hold</td><td>4</td><td>3</td><td>3</td></tr><tr><td>en</td><td>Canceled</td><td>5</td><td>4</td><td>4</td></tr><tr><td>en</td><td>Expired</td><td>6</td><td>5</td><td>5</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the statusCode attribute are listed below.</summary>
+<summary>List of traits for the  statusCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Draft</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Invoiced</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Active</td><td>3</td><td>2</td></tr><tr><td>en</td><td>On Hold</td><td>4</td><td>3</td></tr><tr><td>en</td><td>Canceled</td><td>5</td><td>4</td></tr><tr><td>en</td><td>Expired</td><td>6</td><td>5</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Draft</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Invoiced</td><td>2</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Active</td><td>3</td><td>2</td><td>2</td></tr><tr><td>en</td><td>On Hold</td><td>4</td><td>3</td><td>3</td></tr><tr><td>en</td><td>Canceled</td><td>5</td><td>4</td><td>4</td></tr><tr><td>en</td><td>Expired</td><td>6</td><td>5</td><td>5</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2104,7 +2071,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -2113,7 +2080,7 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the statusCode_display attribute are listed below.</summary>
+<summary>List of traits for the  statusCode_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2128,7 +2095,7 @@ First included in: service/Contract (this entity)
 ### <a href=#totalDiscount name="totalDiscount">totalDiscount</a>
 
 Shows the total discount applied to the contract's service charges, calculated as the sum of values in the Discount fields for each existing contract line related to the contract.  
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -2137,7 +2104,7 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the totalDiscount attribute are listed below.</summary>
+<summary>List of traits for the  totalDiscount  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -2169,7 +2136,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#totalDiscountBase name="totalDiscountBase">totalDiscountBase</a>
 
 Value of the Total Discount in base currency.  
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -2178,7 +2145,7 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the totalDiscountBase attribute are listed below.</summary>
+<summary>List of traits for the  totalDiscountBase  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -2213,7 +2180,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#totalPrice name="totalPrice">totalPrice</a>
 
 Shows the total service charge for the contract, before any discounts are credited. This is calculated as the sum of values in the Total Price field for each existing contract line related to the contract.  
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -2222,7 +2189,7 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the totalPrice attribute are listed below.</summary>
+<summary>List of traits for the  totalPrice  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -2254,7 +2221,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#totalPriceBase name="totalPriceBase">totalPriceBase</a>
 
 Value of the Total Price in base currency.  
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -2263,7 +2230,7 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the totalPriceBase attribute are listed below.</summary>
+<summary>List of traits for the  totalPriceBase  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -2298,7 +2265,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#useDiscountAsPercentage name="useDiscountAsPercentage">useDiscountAsPercentage</a>
 
 Select whether the discounts entered on contract lines for this contract should be entered as a percentage or a fixed dollar value.  
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -2307,7 +2274,7 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the useDiscountAsPercentage attribute are listed below.</summary>
+<summary>List of traits for the  useDiscountAsPercentage  attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -2332,7 +2299,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#entityImageId name="entityImageId">entityImageId</a>
 
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -2341,7 +2308,7 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the entityImageId attribute are listed below.</summary>
+<summary>List of traits for the  entityImageId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2364,7 +2331,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#accountId name="accountId">accountId</a>
 
 Unique identifier of the account with which the contract is associated.  
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -2373,7 +2340,7 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the accountId attribute are listed below.</summary>
+<summary>List of traits for the  accountId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2406,7 +2373,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#billingAccountId name="billingAccountId">billingAccountId</a>
 
 Unique identifier of the account to which the contract is to be billed.  
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -2415,7 +2382,7 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the billingAccountId attribute are listed below.</summary>
+<summary>List of traits for the  billingAccountId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2448,7 +2415,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#billingContactId name="billingContactId">billingContactId</a>
 
 Unique identifier of the contact to whom the contract is to be billed.  
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -2457,7 +2424,7 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the billingContactId attribute are listed below.</summary>
+<summary>List of traits for the  billingContactId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2490,7 +2457,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#contactId name="contactId">contactId</a>
 
 Unique identifier of the contact specified for the contract.  
-First included in: service/Contract (this entity)  
+First included in: service/Contract  (this entity)  
 
 #### Properties
 
@@ -2499,7 +2466,7 @@ First included in: service/Contract (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the contactId attribute are listed below.</summary>
+<summary>List of traits for the  contactId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  

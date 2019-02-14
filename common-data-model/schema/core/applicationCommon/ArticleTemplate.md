@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/12/2019
+ms.date: 2/13/2019
 ms.author: tpalmer
 ---
 
@@ -13,6 +13,12 @@ ms.author: tpalmer
 Template for a knowledge base article that contains the standard attributes of an article.  
   
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/ArticleTemplate.cdm.json" target="_blank">GitHub</a>.  
+
+## Instances
+
+Instances of this entity are listed below:  
+
+applicationCommon/ArticleTemplate  
 
 ## Traits
 
@@ -39,12 +45,6 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>KbArticleTemplate</td><td>string</td><td></td></tr></table>
 
 </details>
-
-## Instances
-
-Instances of this entity are listed below:  
-
-applicationCommon/ArticleTemplate  
 
 ## Attributes
 
@@ -79,7 +79,7 @@ applicationCommon/ArticleTemplate
 ### <a href=#kbArticleTemplateId name="kbArticleTemplateId">kbArticleTemplateId</a>
 
 Unique identifier of the knowledge base article template.  
-First included in: applicationCommon/ArticleTemplate (this entity)  
+First included in: applicationCommon/ArticleTemplate  (this entity)  
 
 #### Properties
 
@@ -88,7 +88,7 @@ First included in: applicationCommon/ArticleTemplate (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the kbArticleTemplateId attribute are listed below.</summary>
+<summary>List of traits for the  kbArticleTemplateId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -118,7 +118,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#structureXml name="structureXml">structureXml</a>
 
 XML structure of the knowledge base article.  
-First included in: applicationCommon/ArticleTemplate (this entity)  
+First included in: applicationCommon/ArticleTemplate  (this entity)  
 
 #### Properties
 
@@ -127,7 +127,7 @@ First included in: applicationCommon/ArticleTemplate (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the structureXml attribute are listed below.</summary>
+<summary>List of traits for the  structureXml  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -158,7 +158,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#organizationId name="organizationId">organizationId</a>
 
 Unique identifier of the organization associated with the template.  
-First included in: applicationCommon/ArticleTemplate (this entity)  
+First included in: applicationCommon/ArticleTemplate  (this entity)  
 
 #### Properties
 
@@ -167,7 +167,7 @@ First included in: applicationCommon/ArticleTemplate (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the organizationId attribute are listed below.</summary>
+<summary>List of traits for the  organizationId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -192,15 +192,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>3</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="Organization.md" target="_blank">/core/applicationCommon/Organization.cdm.json/Organization</a></td><td><a href="Organization.md#organizationId" target="_blank">organizationId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#formatXml name="formatXml">formatXml</a>
 
 XML format of the knowledge base article template.  
-First included in: applicationCommon/ArticleTemplate (this entity)  
+First included in: applicationCommon/ArticleTemplate  (this entity)  
 
 #### Properties
 
@@ -209,7 +206,7 @@ First included in: applicationCommon/ArticleTemplate (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the formatXml attribute are listed below.</summary>
+<summary>List of traits for the  formatXml  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -240,7 +237,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#title name="title">title</a>
 
 Title of the knowledge base article template.  
-First included in: applicationCommon/ArticleTemplate (this entity)  
+First included in: applicationCommon/ArticleTemplate  (this entity)  
 
 #### Properties
 
@@ -249,7 +246,7 @@ First included in: applicationCommon/ArticleTemplate (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the title attribute are listed below.</summary>
+<summary>List of traits for the  title  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -279,7 +276,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
-First included in: applicationCommon/ArticleTemplate (this entity)  
+First included in: applicationCommon/ArticleTemplate  (this entity)  
 
 #### Properties
 
@@ -288,7 +285,7 @@ First included in: applicationCommon/ArticleTemplate (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the versionNumber attribute are listed below.</summary>
+<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -309,7 +306,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#description name="description">description</a>
 
 Description of the knowledge base article template.  
-First included in: applicationCommon/ArticleTemplate (this entity)  
+First included in: applicationCommon/ArticleTemplate  (this entity)  
 
 #### Properties
 
@@ -318,7 +315,7 @@ First included in: applicationCommon/ArticleTemplate (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the description attribute are listed below.</summary>
+<summary>List of traits for the  description  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -349,7 +346,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#isActive name="isActive">isActive</a>
 
 Information about whether the knowledge base article is active.  
-First included in: applicationCommon/ArticleTemplate (this entity)  
+First included in: applicationCommon/ArticleTemplate  (this entity)  
 
 #### Properties
 
@@ -358,7 +355,7 @@ First included in: applicationCommon/ArticleTemplate (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the isActive attribute are listed below.</summary>
+<summary>List of traits for the  isActive  attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -384,7 +381,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Unique identifier of the user who created the knowledge base article template.  
-First included in: applicationCommon/ArticleTemplate (this entity)  
+First included in: applicationCommon/ArticleTemplate  (this entity)  
 
 #### Properties
 
@@ -393,7 +390,7 @@ First included in: applicationCommon/ArticleTemplate (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the createdBy attribute are listed below.</summary>
+<summary>List of traits for the  createdBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -421,15 +418,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>11</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Unique identifier of the user who last modified the knowledge base article template.  
-First included in: applicationCommon/ArticleTemplate (this entity)  
+First included in: applicationCommon/ArticleTemplate  (this entity)  
 
 #### Properties
 
@@ -438,7 +432,7 @@ First included in: applicationCommon/ArticleTemplate (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedBy attribute are listed below.</summary>
+<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -466,15 +460,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>12</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the knowledge base article template was created.  
-First included in: applicationCommon/ArticleTemplate (this entity)  
+First included in: applicationCommon/ArticleTemplate  (this entity)  
 
 #### Properties
 
@@ -483,7 +474,7 @@ First included in: applicationCommon/ArticleTemplate (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the createdOn attribute are listed below.</summary>
+<summary>List of traits for the  createdOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -513,7 +504,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the knowledge base article template was last modified.  
-First included in: applicationCommon/ArticleTemplate (this entity)  
+First included in: applicationCommon/ArticleTemplate  (this entity)  
 
 #### Properties
 
@@ -522,7 +513,7 @@ First included in: applicationCommon/ArticleTemplate (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedOn attribute are listed below.</summary>
+<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -552,7 +543,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: applicationCommon/ArticleTemplate (this entity)  
+First included in: applicationCommon/ArticleTemplate  (this entity)  
 
 #### Properties
 
@@ -561,7 +552,7 @@ First included in: applicationCommon/ArticleTemplate (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
+<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -591,7 +582,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#languageCode name="languageCode">languageCode</a>
 
 Language of the Article Template  
-First included in: applicationCommon/ArticleTemplate (this entity)  
+First included in: applicationCommon/ArticleTemplate  (this entity)  
 
 #### Properties
 
@@ -600,7 +591,7 @@ First included in: applicationCommon/ArticleTemplate (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the languageCode attribute are listed below.</summary>
+<summary>List of traits for the  languageCode  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -632,7 +623,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: applicationCommon/ArticleTemplate (this entity)  
+First included in: applicationCommon/ArticleTemplate  (this entity)  
 
 #### Properties
 
@@ -641,7 +632,7 @@ First included in: applicationCommon/ArticleTemplate (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
+<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -670,7 +661,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#kbArticleTemplateIdUnique name="kbArticleTemplateIdUnique">kbArticleTemplateIdUnique</a>
 
 For internal use only.  
-First included in: applicationCommon/ArticleTemplate (this entity)  
+First included in: applicationCommon/ArticleTemplate  (this entity)  
 
 #### Properties
 
@@ -679,7 +670,7 @@ First included in: applicationCommon/ArticleTemplate (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the kbArticleTemplateIdUnique attribute are listed below.</summary>
+<summary>List of traits for the  kbArticleTemplateIdUnique  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -702,7 +693,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#componentState name="componentState">componentState</a>
 
 For internal use only.  
-First included in: applicationCommon/ArticleTemplate (this entity)  
+First included in: applicationCommon/ArticleTemplate  (this entity)  
 
 #### Properties
 
@@ -711,11 +702,11 @@ First included in: applicationCommon/ArticleTemplate (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the componentState attribute are listed below.</summary>
+<summary>List of traits for the  componentState  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Published</td><td>0</td></tr><tr><td>en</td><td>Unpublished</td><td>1</td></tr><tr><td>en</td><td>Deleted</td><td>2</td></tr><tr><td>en</td><td>Deleted Unpublished</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Deleted Unpublished</td><td>3</td></tr><tr><td>en</td><td>Deleted</td><td>2</td></tr><tr><td>en</td><td>Unpublished</td><td>1</td></tr><tr><td>en</td><td>Published</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -739,7 +730,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#componentState_display name="componentState_display">componentState_display</a>
 
-First included in: applicationCommon/ArticleTemplate (this entity)  
+First included in: applicationCommon/ArticleTemplate  (this entity)  
 
 #### Properties
 
@@ -748,7 +739,7 @@ First included in: applicationCommon/ArticleTemplate (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the componentState_display attribute are listed below.</summary>
+<summary>List of traits for the  componentState_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -763,7 +754,7 @@ First included in: applicationCommon/ArticleTemplate (this entity)
 ### <a href=#solutionId name="solutionId">solutionId</a>
 
 Unique identifier of the associated solution.  
-First included in: applicationCommon/ArticleTemplate (this entity)  
+First included in: applicationCommon/ArticleTemplate  (this entity)  
 
 #### Properties
 
@@ -772,7 +763,7 @@ First included in: applicationCommon/ArticleTemplate (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the solutionId attribute are listed below.</summary>
+<summary>List of traits for the  solutionId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -798,7 +789,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#overwriteTime name="overwriteTime">overwriteTime</a>
 
 For internal use only.  
-First included in: applicationCommon/ArticleTemplate (this entity)  
+First included in: applicationCommon/ArticleTemplate  (this entity)  
 
 #### Properties
 
@@ -807,7 +798,7 @@ First included in: applicationCommon/ArticleTemplate (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the overwriteTime attribute are listed below.</summary>
+<summary>List of traits for the  overwriteTime  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -833,7 +824,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Unique identifier of the delegate user who created the kbarticletemplate.  
-First included in: applicationCommon/ArticleTemplate (this entity)  
+First included in: applicationCommon/ArticleTemplate  (this entity)  
 
 #### Properties
 
@@ -842,7 +833,7 @@ First included in: applicationCommon/ArticleTemplate (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
+<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -870,15 +861,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>32</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Unique identifier of the delegate user who last modified the kbarticletemplate.  
-First included in: applicationCommon/ArticleTemplate (this entity)  
+First included in: applicationCommon/ArticleTemplate  (this entity)  
 
 #### Properties
 
@@ -887,7 +875,7 @@ First included in: applicationCommon/ArticleTemplate (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
+<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -915,14 +903,11 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>36</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#isManaged name="isManaged">isManaged</a>
 
-First included in: applicationCommon/ArticleTemplate (this entity)  
+First included in: applicationCommon/ArticleTemplate  (this entity)  
 
 #### Properties
 
@@ -931,7 +916,7 @@ First included in: applicationCommon/ArticleTemplate (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the isManaged attribute are listed below.</summary>
+<summary>List of traits for the  isManaged  attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -948,7 +933,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isCustomizable name="isCustomizable">isCustomizable</a>
 
 Information that specifies whether this component can be customized.  
-First included in: applicationCommon/ArticleTemplate (this entity)  
+First included in: applicationCommon/ArticleTemplate  (this entity)  
 
 #### Properties
 
@@ -957,7 +942,7 @@ First included in: applicationCommon/ArticleTemplate (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the isCustomizable attribute are listed below.</summary>
+<summary>List of traits for the  isCustomizable  attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -980,7 +965,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#introducedVersion name="introducedVersion">introducedVersion</a>
 
 Version in which the form is introduced.  
-First included in: applicationCommon/ArticleTemplate (this entity)  
+First included in: applicationCommon/ArticleTemplate  (this entity)  
 
 #### Properties
 
@@ -989,7 +974,7 @@ First included in: applicationCommon/ArticleTemplate (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the introducedVersion attribute are listed below.</summary>
+<summary>List of traits for the  introducedVersion  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  

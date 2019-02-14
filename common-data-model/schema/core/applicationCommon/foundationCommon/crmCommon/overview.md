@@ -4,11 +4,12 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/8/2019
+ms.date: 2/13/2019
 ms.author: tpalmer
 ---
 
 # crmCommon
+
 
 ## Sub-folders
 
@@ -18,6 +19,7 @@ ms.author: tpalmer
 |[sales](sales/overview.md)|
 |[service](service/overview.md)|
 |[solutions](solutions/overview.md)|
+
 
 
 
@@ -35,7 +37,7 @@ ms.author: tpalmer
 |[CampaignItem](CampaignItem.md)|Work item in a campaign, a list or sales literature.  |
 |[CampaignResponse](CampaignResponse.md)|Response from an existing or a potential new customer for a campaign.  |
 |[Contact](Contact.md)|Person with whom a business unit has a relationship, such as customer, supplier, and colleague.  |
-|[ContactLeads](ContactLeads.md)||
+|[ContactLeads](ContactLeads.md)|  |
 |[Email](Email.md)|Activity that is delivered using email protocols.  |
 |[Fax](Fax.md)|Activity that tracks call outcome and number of pages for a fax and optionally stores an electronic copy of the document.  |
 |[Lead](Lead.md)|Prospect or potential sales opportunity. Leads are converted into accounts, contacts, or opportunities when they are qualified. Otherwise, they are deleted or archived.  |

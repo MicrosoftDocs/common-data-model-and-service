@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/12/2019
+ms.date: 2/13/2019
 ms.author: tpalmer
 ---
 
@@ -13,6 +13,13 @@ ms.author: tpalmer
 Service level agreement (SLA) key performance indicator (KPI) instance that is tracked for an individual case  
   
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/SLAKPIInstance.cdm.json" target="_blank">GitHub</a>.  
+
+## Instances
+
+Instances of this entity are listed below:  
+
+applicationCommon/SLAKPIInstance  
+[service/SLAKPIInstance](foundationCommon/crmCommon/service/SLAKPIInstance.md "/core/applicationCommon/foundationCommon/crmCommon/service/SLAKPIInstance.cdm.json/SLAKPIInstance")  
 
 ## Traits
 
@@ -39,13 +46,6 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>SLAKPIInstance</td><td>string</td><td></td></tr></table>
 
 </details>
-
-## Instances
-
-Instances of this entity are listed below:  
-
-applicationCommon/SLAKPIInstance  
-[service/SLAKPIInstance](foundationCommon/crmCommon/service/SLAKPIInstance.md "/core/applicationCommon/foundationCommon/crmCommon/service/SLAKPIInstance.cdm.json/SLAKPIInstance")  
 
 ## Attributes
 
@@ -82,7 +82,7 @@ applicationCommon/SLAKPIInstance
 ### <a href=#SLAKPIInstanceId name="SLAKPIInstanceId">SLAKPIInstanceId</a>
 
 Unique identifier of the SLA KPI Instance.  
-First included in: applicationCommon/SLAKPIInstance (this entity)  
+First included in: applicationCommon/SLAKPIInstance  (this entity)  
 
 #### Properties
 
@@ -91,7 +91,7 @@ First included in: applicationCommon/SLAKPIInstance (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the SLAKPIInstanceId attribute are listed below.</summary>
+<summary>List of traits for the  SLAKPIInstanceId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -121,7 +121,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#name name="name">name</a>
 
 Type a descriptive name for the service level agreement (SLA) key performance indicator (KPI) instance.  
-First included in: applicationCommon/SLAKPIInstance (this entity)  
+First included in: applicationCommon/SLAKPIInstance  (this entity)  
 
 #### Properties
 
@@ -130,7 +130,7 @@ First included in: applicationCommon/SLAKPIInstance (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the name attribute are listed below.</summary>
+<summary>List of traits for the  name  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -159,7 +159,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#computedFailureTime name="computedFailureTime">computedFailureTime</a>
 
 Computed Failure Date and time  
-First included in: applicationCommon/SLAKPIInstance (this entity)  
+First included in: applicationCommon/SLAKPIInstance  (this entity)  
 
 #### Properties
 
@@ -168,7 +168,7 @@ First included in: applicationCommon/SLAKPIInstance (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the computedFailureTime attribute are listed below.</summary>
+<summary>List of traits for the  computedFailureTime  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -197,7 +197,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#computedWarningTime name="computedWarningTime">computedWarningTime</a>
 
 Computed Warning Date and time  
-First included in: applicationCommon/SLAKPIInstance (this entity)  
+First included in: applicationCommon/SLAKPIInstance  (this entity)  
 
 #### Properties
 
@@ -206,7 +206,7 @@ First included in: applicationCommon/SLAKPIInstance (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the computedWarningTime attribute are listed below.</summary>
+<summary>List of traits for the  computedWarningTime  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -235,7 +235,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#failureTime name="failureTime">failureTime</a>
 
 Enter the date and time when the service level agreement (SLA) key performance indicator (KPI) will expire.  
-First included in: applicationCommon/SLAKPIInstance (this entity)  
+First included in: applicationCommon/SLAKPIInstance  (this entity)  
 
 #### Properties
 
@@ -244,7 +244,7 @@ First included in: applicationCommon/SLAKPIInstance (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the failureTime attribute are listed below.</summary>
+<summary>List of traits for the  failureTime  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -273,7 +273,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: applicationCommon/SLAKPIInstance (this entity)  
+First included in: applicationCommon/SLAKPIInstance  (this entity)  
 
 #### Properties
 
@@ -282,7 +282,7 @@ First included in: applicationCommon/SLAKPIInstance (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the ownerIdType attribute are listed below.</summary>
+<summary>List of traits for the  ownerIdType  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -312,7 +312,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: applicationCommon/SLAKPIInstance (this entity)  
+First included in: applicationCommon/SLAKPIInstance  (this entity)  
 
 #### Properties
 
@@ -321,7 +321,7 @@ First included in: applicationCommon/SLAKPIInstance (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the ownerId attribute are listed below.</summary>
+<summary>List of traits for the  ownerId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -347,7 +347,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>ownerid</td><td>string</td><td></td></tr></table>
 
 - **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="Team.md" target="_blank">/core/applicationCommon/Team.cdm.json/Team</a></td><td><a href="Team.md#teamId" target="_blank">teamId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  
 
 - **is.CDS.owner**  
 contains a User or Team ID  
@@ -357,7 +357,7 @@ contains a User or Team ID
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Owning User.  
-First included in: applicationCommon/SLAKPIInstance (this entity)  
+First included in: applicationCommon/SLAKPIInstance  (this entity)  
 
 #### Properties
 
@@ -366,7 +366,7 @@ First included in: applicationCommon/SLAKPIInstance (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the owningUser attribute are listed below.</summary>
+<summary>List of traits for the  owningUser  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -399,7 +399,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 OwningTeam.  
-First included in: applicationCommon/SLAKPIInstance (this entity)  
+First included in: applicationCommon/SLAKPIInstance  (this entity)  
 
 #### Properties
 
@@ -408,7 +408,7 @@ First included in: applicationCommon/SLAKPIInstance (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the owningTeam attribute are listed below.</summary>
+<summary>List of traits for the  owningTeam  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -441,7 +441,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Owning Business Unit.  
-First included in: applicationCommon/SLAKPIInstance (this entity)  
+First included in: applicationCommon/SLAKPIInstance  (this entity)  
 
 #### Properties
 
@@ -450,7 +450,7 @@ First included in: applicationCommon/SLAKPIInstance (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
+<summary>List of traits for the  owningBusinessUnit  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -478,15 +478,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>12</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="BusinessUnit.md" target="_blank">/core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit</a></td><td><a href="BusinessUnit.md#businessUnitId" target="_blank">businessUnitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#regarding name="regarding">regarding</a>
 
 Unique identifier of the record that this service level agreement (SLA) key performance indicator (KPI) instance is associated with.  
-First included in: applicationCommon/SLAKPIInstance (this entity)  
+First included in: applicationCommon/SLAKPIInstance  (this entity)  
 
 #### Properties
 
@@ -495,7 +492,7 @@ First included in: applicationCommon/SLAKPIInstance (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the regarding attribute are listed below.</summary>
+<summary>List of traits for the  regarding  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -523,15 +520,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>13</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="PhoneCall.md" target="_blank">/core/applicationCommon/PhoneCall.cdm.json/PhoneCall</a></td><td><a href="PhoneCall.md#activityId" target="_blank">activityId</a></td></tr><tr><td><a href="Appointment.md" target="_blank">/core/applicationCommon/Appointment.cdm.json/Appointment</a></td><td><a href="Appointment.md#activityId" target="_blank">activityId</a></td></tr><tr><td><a href="Contact.md" target="_blank">/core/applicationCommon/Contact.cdm.json/Contact</a></td><td><a href="Contact.md#contactId" target="_blank">contactId</a></td></tr><tr><td><a href="Fax.md" target="_blank">/core/applicationCommon/Fax.cdm.json/Fax</a></td><td><a href="Fax.md#activityId" target="_blank">activityId</a></td></tr><tr><td><a href="Account.md" target="_blank">/core/applicationCommon/Account.cdm.json/Account</a></td><td><a href="Account.md#accountId" target="_blank">accountId</a></td></tr><tr><td><a href="Email.md" target="_blank">/core/applicationCommon/Email.cdm.json/Email</a></td><td><a href="Email.md#activityId" target="_blank">activityId</a></td></tr><tr><td><a href="SocialActivity.md" target="_blank">/core/applicationCommon/SocialActivity.cdm.json/SocialActivity</a></td><td><a href="SocialActivity.md#activityId" target="_blank">activityId</a></td></tr><tr><td><a href="Activity.md" target="_blank">/core/applicationCommon/Activity.cdm.json/Activity</a></td><td><a href="Activity.md#activityId" target="_blank">activityId</a></td></tr><tr><td><a href="Letter.md" target="_blank">/core/applicationCommon/Letter.cdm.json/Letter</a></td><td><a href="Letter.md#activityId" target="_blank">activityId</a></td></tr><tr><td><a href="Task.md" target="_blank">/core/applicationCommon/Task.cdm.json/Task</a></td><td><a href="Task.md#activityId" target="_blank">activityId</a></td></tr><tr><td><a href="foundationCommon/crmCommon/PhoneCall.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/PhoneCall.cdm.json/PhoneCall</a></td><td><a href="foundationCommon/crmCommon/PhoneCall.md#activityId" target="_blank">activityId</a></td></tr><tr><td><a href="foundationCommon/crmCommon/Appointment.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/Appointment.cdm.json/Appointment</a></td><td><a href="foundationCommon/crmCommon/Appointment.md#activityId" target="_blank">activityId</a></td></tr><tr><td><a href="foundationCommon/crmCommon/Contact.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/Contact.cdm.json/Contact</a></td><td><a href="foundationCommon/crmCommon/Contact.md#contactId" target="_blank">contactId</a></td></tr><tr><td><a href="foundationCommon/crmCommon/Fax.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/Fax.cdm.json/Fax</a></td><td><a href="foundationCommon/crmCommon/Fax.md#activityId" target="_blank">activityId</a></td></tr><tr><td><a href="foundationCommon/crmCommon/Account.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/Account.cdm.json/Account</a></td><td><a href="foundationCommon/crmCommon/Account.md#accountId" target="_blank">accountId</a></td></tr><tr><td><a href="foundationCommon/crmCommon/Email.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/Email.cdm.json/Email</a></td><td><a href="foundationCommon/crmCommon/Email.md#activityId" target="_blank">activityId</a></td></tr><tr><td><a href="foundationCommon/crmCommon/Activity.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/Activity.cdm.json/Activity</a></td><td><a href="foundationCommon/crmCommon/Activity.md#activityId" target="_blank">activityId</a></td></tr><tr><td><a href="foundationCommon/crmCommon/Letter.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/Letter.cdm.json/Letter</a></td><td><a href="foundationCommon/crmCommon/Letter.md#activityId" target="_blank">activityId</a></td></tr><tr><td><a href="foundationCommon/crmCommon/service/ServiceActivity.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/ServiceActivity.cdm.json/ServiceActivity</a></td><td><a href="foundationCommon/crmCommon/service/ServiceActivity.md#activityId" target="_blank">activityId</a></td></tr><tr><td><a href="foundationCommon/crmCommon/service/Case.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/Case.cdm.json/Case</a></td><td><a href="foundationCommon/crmCommon/service/Case.md#incidentId" target="_blank">incidentId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#status name="status">status</a>
 
 Reason for the status of the service level agreement (SLA) key performance indicator (KPI) instance. For example, the SLA KPI could be Noncompliant or Succeeded.  
-First included in: applicationCommon/SLAKPIInstance (this entity)  
+First included in: applicationCommon/SLAKPIInstance  (this entity)  
 
 #### Properties
 
@@ -540,11 +534,11 @@ First included in: applicationCommon/SLAKPIInstance (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the status attribute are listed below.</summary>
+<summary>List of traits for the  status  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>In Progress</td><td>0</td></tr><tr><td>en</td><td>Noncompliant</td><td>1</td></tr><tr><td>en</td><td>Nearing Noncompliance</td><td>2</td></tr><tr><td>en</td><td>Paused</td><td>3</td></tr><tr><td>en</td><td>Succeeded</td><td>4</td></tr><tr><td>en</td><td>Canceled</td><td>5</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Canceled</td><td>5</td></tr><tr><td>en</td><td>Succeeded</td><td>4</td></tr><tr><td>en</td><td>Paused</td><td>3</td></tr><tr><td>en</td><td>Nearing Noncompliance</td><td>2</td></tr><tr><td>en</td><td>Noncompliant</td><td>1</td></tr><tr><td>en</td><td>In Progress</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -571,7 +565,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#status_display name="status_display">status_display</a>
 
-First included in: applicationCommon/SLAKPIInstance (this entity)  
+First included in: applicationCommon/SLAKPIInstance  (this entity)  
 
 #### Properties
 
@@ -580,7 +574,7 @@ First included in: applicationCommon/SLAKPIInstance (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the status_display attribute are listed below.</summary>
+<summary>List of traits for the  status_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -595,7 +589,7 @@ First included in: applicationCommon/SLAKPIInstance (this entity)
 ### <a href=#succeededOn name="succeededOn">succeededOn</a>
 
 Shows the date and time when the service level agreement (SLA) key performance indicator (KPI) success criteria was met.  
-First included in: applicationCommon/SLAKPIInstance (this entity)  
+First included in: applicationCommon/SLAKPIInstance  (this entity)  
 
 #### Properties
 
@@ -604,7 +598,7 @@ First included in: applicationCommon/SLAKPIInstance (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the succeededOn attribute are listed below.</summary>
+<summary>List of traits for the  succeededOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -633,7 +627,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#warningTime name="warningTime">warningTime</a>
 
 Enter the date and time when the service level agreement (SLA) key performance indicator (KPI)will go to a warning state.  
-First included in: applicationCommon/SLAKPIInstance (this entity)  
+First included in: applicationCommon/SLAKPIInstance  (this entity)  
 
 #### Properties
 
@@ -642,7 +636,7 @@ First included in: applicationCommon/SLAKPIInstance (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the warningTime attribute are listed below.</summary>
+<summary>List of traits for the  warningTime  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -671,7 +665,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Choose the local currency for the record to make sure budgets are reported in the correct currency.  
-First included in: applicationCommon/SLAKPIInstance (this entity)  
+First included in: applicationCommon/SLAKPIInstance  (this entity)  
 
 #### Properties
 
@@ -680,7 +674,7 @@ First included in: applicationCommon/SLAKPIInstance (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
+<summary>List of traits for the  transactionCurrencyId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -708,15 +702,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>19</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="Currency.md" target="_blank">/core/applicationCommon/Currency.cdm.json/Currency</a></td><td><a href="Currency.md#transactionCurrencyId" target="_blank">transactionCurrencyId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 For internal use only.  
-First included in: applicationCommon/SLAKPIInstance (this entity)  
+First included in: applicationCommon/SLAKPIInstance  (this entity)  
 
 #### Properties
 
@@ -725,7 +716,7 @@ First included in: applicationCommon/SLAKPIInstance (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the exchangeRate attribute are listed below.</summary>
+<summary>List of traits for the  exchangeRate  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -756,7 +747,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 For internal use only.  
-First included in: applicationCommon/SLAKPIInstance (this entity)  
+First included in: applicationCommon/SLAKPIInstance  (this entity)  
 
 #### Properties
 
@@ -765,7 +756,7 @@ First included in: applicationCommon/SLAKPIInstance (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the createdBy attribute are listed below.</summary>
+<summary>List of traits for the  createdBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -793,15 +784,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>22</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="foundationCommon/crmCommon/service/User.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User</a></td><td><a href="foundationCommon/crmCommon/service/User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 For internal use only.  
-First included in: applicationCommon/SLAKPIInstance (this entity)  
+First included in: applicationCommon/SLAKPIInstance  (this entity)  
 
 #### Properties
 
@@ -810,7 +798,7 @@ First included in: applicationCommon/SLAKPIInstance (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the createdOn attribute are listed below.</summary>
+<summary>List of traits for the  createdOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -840,7 +828,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 For internal use only.  
-First included in: applicationCommon/SLAKPIInstance (this entity)  
+First included in: applicationCommon/SLAKPIInstance  (this entity)  
 
 #### Properties
 
@@ -849,7 +837,7 @@ First included in: applicationCommon/SLAKPIInstance (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
+<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -877,15 +865,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>26</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="foundationCommon/crmCommon/service/User.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User</a></td><td><a href="foundationCommon/crmCommon/service/User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#description name="description">description</a>
 
 For internal use only.  
-First included in: applicationCommon/SLAKPIInstance (this entity)  
+First included in: applicationCommon/SLAKPIInstance  (this entity)  
 
 #### Properties
 
@@ -894,7 +879,7 @@ First included in: applicationCommon/SLAKPIInstance (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the description attribute are listed below.</summary>
+<summary>List of traits for the  description  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -925,7 +910,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 For internal use only.  
-First included in: applicationCommon/SLAKPIInstance (this entity)  
+First included in: applicationCommon/SLAKPIInstance  (this entity)  
 
 #### Properties
 
@@ -934,7 +919,7 @@ First included in: applicationCommon/SLAKPIInstance (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedBy attribute are listed below.</summary>
+<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -962,15 +947,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>30</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="foundationCommon/crmCommon/service/User.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User</a></td><td><a href="foundationCommon/crmCommon/service/User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 For internal use only.  
-First included in: applicationCommon/SLAKPIInstance (this entity)  
+First included in: applicationCommon/SLAKPIInstance  (this entity)  
 
 #### Properties
 
@@ -979,7 +961,7 @@ First included in: applicationCommon/SLAKPIInstance (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedOn attribute are listed below.</summary>
+<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1009,7 +991,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 For internal use only.  
-First included in: applicationCommon/SLAKPIInstance (this entity)  
+First included in: applicationCommon/SLAKPIInstance  (this entity)  
 
 #### Properties
 
@@ -1018,7 +1000,7 @@ First included in: applicationCommon/SLAKPIInstance (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
+<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1046,15 +1028,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>34</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="foundationCommon/crmCommon/service/User.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User</a></td><td><a href="foundationCommon/crmCommon/service/User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 For internal use only.  
-First included in: applicationCommon/SLAKPIInstance (this entity)  
+First included in: applicationCommon/SLAKPIInstance  (this entity)  
 
 #### Properties
 
@@ -1063,7 +1042,7 @@ First included in: applicationCommon/SLAKPIInstance (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the versionNumber attribute are listed below.</summary>
+<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -1090,7 +1069,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#warningTimeReached name="warningTimeReached">warningTimeReached</a>
 
 Shows information about whether the case has reached its warning time.  
-First included in: applicationCommon/SLAKPIInstance (this entity)  
+First included in: applicationCommon/SLAKPIInstance  (this entity)  
 
 #### Properties
 
@@ -1099,11 +1078,11 @@ First included in: applicationCommon/SLAKPIInstance (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the warningTimeReached attribute are listed below.</summary>
+<summary>List of traits for the  warningTimeReached  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No</td><td>0</td></tr><tr><td>en</td><td>Yes</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Yes</td><td>1</td></tr><tr><td>en</td><td>No</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1130,7 +1109,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#warningTimeReached_display name="warningTimeReached_display">warningTimeReached_display</a>
 
-First included in: applicationCommon/SLAKPIInstance (this entity)  
+First included in: applicationCommon/SLAKPIInstance  (this entity)  
 
 #### Properties
 
@@ -1139,7 +1118,7 @@ First included in: applicationCommon/SLAKPIInstance (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the warningTimeReached_display attribute are listed below.</summary>
+<summary>List of traits for the  warningTimeReached_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  

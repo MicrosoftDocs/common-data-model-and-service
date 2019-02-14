@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/12/2019
+ms.date: 2/13/2019
 ms.author: tpalmer
 ---
 
@@ -13,6 +13,13 @@ ms.author: tpalmer
 Structured content that is part of the knowledge base.  
   
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Article.cdm.json" target="_blank">GitHub</a>.  
+
+## Instances
+
+Instances of this entity are listed below:  
+
+[applicationCommon/Article](../../../../Article.md "/core/applicationCommon/Article.cdm.json/Article")  
+portals/Article  
 
 ## Traits
 
@@ -42,13 +49,6 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>KbArticle</td><td>string</td><td></td></tr></table>
 
 </details>
-
-## Instances
-
-Instances of this entity are listed below:  
-
-[applicationCommon/Article](../../../../Article.md "/core/applicationCommon/Article.cdm.json/Article")  
-portals/Article  
 
 ## Attributes
 
@@ -102,7 +102,7 @@ First included in: <a href="../../../../Article.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the kbArticleId attribute are listed below.</summary>
+<summary>List of traits for the  kbArticleId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -141,7 +141,7 @@ First included in: <a href="../../../../Article.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the kbArticleTemplateId attribute are listed below.</summary>
+<summary>List of traits for the  kbArticleTemplateId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -166,9 +166,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>2</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../ArticleTemplate.md" target="_blank">/core/applicationCommon/ArticleTemplate.cdm.json/ArticleTemplate</a></td><td><a href="../../../../ArticleTemplate.md#kbArticleTemplateId" target="_blank">kbArticleTemplateId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#organizationId name="organizationId">organizationId</a>
@@ -183,7 +180,7 @@ First included in: <a href="../../../../Article.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the organizationId attribute are listed below.</summary>
+<summary>List of traits for the  organizationId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -208,9 +205,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>3</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../Organization.md" target="_blank">/core/applicationCommon/Organization.cdm.json/Organization</a></td><td><a href="../../../../Organization.md#organizationId" target="_blank">organizationId</a></td></tr><tr><td><a href="../../../Organization.md" target="_blank">/core/applicationCommon/foundationCommon/Organization.cdm.json/Organization</a></td><td><a href="../../../Organization.md#organizationId" target="_blank">organizationId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#subjectId name="subjectId">subjectId</a>
@@ -225,7 +219,7 @@ First included in: <a href="../../../../Article.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the subjectId attribute are listed below.</summary>
+<summary>List of traits for the  subjectId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -264,7 +258,7 @@ First included in: <a href="../../../../Article.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the articleXml attribute are listed below.</summary>
+<summary>List of traits for the  articleXml  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -304,7 +298,7 @@ First included in: <a href="../../../../Article.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the title attribute are listed below.</summary>
+<summary>List of traits for the  title  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -344,7 +338,7 @@ First included in: <a href="../../../../Article.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the number attribute are listed below.</summary>
+<summary>List of traits for the  number  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -384,7 +378,7 @@ First included in: <a href="../../../../Article.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the content attribute are listed below.</summary>
+<summary>List of traits for the  content  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -424,7 +418,7 @@ First included in: <a href="../../../../Article.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the description attribute are listed below.</summary>
+<summary>List of traits for the  description  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -464,7 +458,7 @@ First included in: <a href="../../../../Article.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the comments attribute are listed below.</summary>
+<summary>List of traits for the  comments  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -504,7 +498,7 @@ First included in: <a href="../../../../Article.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the createdOn attribute are listed below.</summary>
+<summary>List of traits for the  createdOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -543,7 +537,7 @@ First included in: <a href="../../../../Article.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the createdBy attribute are listed below.</summary>
+<summary>List of traits for the  createdBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -571,9 +565,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>13</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="../../service/User.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User</a></td><td><a href="../../service/User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
@@ -588,7 +579,7 @@ First included in: <a href="../../../../Article.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedBy attribute are listed below.</summary>
+<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -616,9 +607,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>14</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="../../service/User.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User</a></td><td><a href="../../service/User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
@@ -633,7 +621,7 @@ First included in: <a href="../../../../Article.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedOn attribute are listed below.</summary>
+<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -667,16 +655,16 @@ First included in: <a href="../../../../Article.md" target="_blank">applicationC
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status </td></tr><tr><td>description</td><td>Shows whether the knowledge base article is in draft, unapproved, or published status. Published articles are read-only and can't be edited unless they are unpublished.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Draft</td><td>1</td></tr><tr><td>en</td><td>Unapproved</td><td>2</td></tr><tr><td>en</td><td>Published</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status </td></tr><tr><td>description</td><td>Shows whether the knowledge base article is in draft, unapproved, or published status. Published articles are read-only and can't be edited unless they are unpublished.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Published</td><td>3</td></tr><tr><td>en</td><td>Unapproved</td><td>2</td></tr><tr><td>en</td><td>Draft</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the stateCode attribute are listed below.</summary>
+<summary>List of traits for the  stateCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Draft</td><td>1</td></tr><tr><td>en</td><td>Unapproved</td><td>2</td></tr><tr><td>en</td><td>Published</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Published</td><td>3</td></tr><tr><td>en</td><td>Unapproved</td><td>2</td></tr><tr><td>en</td><td>Draft</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -712,7 +700,7 @@ First included in: <a href="../../../../Article.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the stateCode_display attribute are listed below.</summary>
+<summary>List of traits for the  stateCode_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -731,16 +719,16 @@ First included in: <a href="../../../../Article.md" target="_blank">applicationC
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the article's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Draft</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Unapproved</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Published</td><td>3</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the article's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Draft</td><td>1</td><td>0</td><td>1</td></tr><tr><td>en</td><td>Unapproved</td><td>2</td><td>1</td><td>2</td></tr><tr><td>en</td><td>Published</td><td>3</td><td>2</td><td>3</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the statusCode attribute are listed below.</summary>
+<summary>List of traits for the  statusCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Draft</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Unapproved</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Published</td><td>3</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Draft</td><td>1</td><td>0</td><td>1</td></tr><tr><td>en</td><td>Unapproved</td><td>2</td><td>1</td><td>2</td></tr><tr><td>en</td><td>Published</td><td>3</td><td>2</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -779,7 +767,7 @@ First included in: <a href="../../../../Article.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the statusCode_display attribute are listed below.</summary>
+<summary>List of traits for the  statusCode_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -803,7 +791,7 @@ First included in: <a href="../../../../Article.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the versionNumber attribute are listed below.</summary>
+<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -839,7 +827,7 @@ First included in: <a href="../../../../Article.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the keyWords attribute are listed below.</summary>
+<summary>List of traits for the  keyWords  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -879,7 +867,7 @@ First included in: <a href="../../../../Article.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
+<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -917,7 +905,7 @@ First included in: <a href="../../../../Article.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
+<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -956,7 +944,7 @@ First included in: <a href="../../../../Article.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
+<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -984,9 +972,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>37</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="../../service/User.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User</a></td><td><a href="../../service/User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
@@ -1001,7 +986,7 @@ First included in: <a href="../../../../Article.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
+<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1029,9 +1014,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>41</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="../../service/User.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User</a></td><td><a href="../../service/User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#languageCode name="languageCode">languageCode</a>
@@ -1046,7 +1028,7 @@ First included in: <a href="../../../../Article.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the languageCode attribute are listed below.</summary>
+<summary>List of traits for the  languageCode  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1087,7 +1069,7 @@ First included in: <a href="../../../../Article.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the exchangeRate attribute are listed below.</summary>
+<summary>List of traits for the  exchangeRate  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1127,7 +1109,7 @@ First included in: <a href="../../../../Article.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
+<summary>List of traits for the  transactionCurrencyId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1155,9 +1137,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>47</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../Currency.md" target="_blank">/core/applicationCommon/Currency.cdm.json/Currency</a></td><td><a href="../../../../Currency.md#transactionCurrencyId" target="_blank">transactionCurrencyId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#entityImageId name="entityImageId">entityImageId</a>
@@ -1172,7 +1151,7 @@ First included in: <a href="../../../../Article.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the entityImageId attribute are listed below.</summary>
+<summary>List of traits for the  entityImageId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1201,7 +1180,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#publishToWeb name="publishToWeb">publishToWeb</a>
 
 If set to Yes, the article will be visible and searchable on portals connected to this organization.  
-First included in: portals/Article (this entity)  
+First included in: portals/Article  (this entity)  
 
 #### Properties
 
@@ -1210,7 +1189,7 @@ First included in: portals/Article (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the publishToWeb attribute are listed below.</summary>
+<summary>List of traits for the  publishToWeb  attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1236,7 +1215,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#averageRating name="averageRating">averageRating</a>
 
 The average rating of this article.  
-First included in: portals/Article (this entity)  
+First included in: portals/Article  (this entity)  
 
 #### Properties
 
@@ -1245,7 +1224,7 @@ First included in: portals/Article (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the averageRating attribute are listed below.</summary>
+<summary>List of traits for the  averageRating  attribute are listed below.</summary>
 
 - **is.dataFormat.floatingPoint**  
 - **is.dataFormat.big**  
@@ -1275,7 +1254,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#averageRatingWholeNumber name="averageRatingWholeNumber">averageRatingWholeNumber</a>
 
 The average rating of this article, rounded to a whole number (positive integer).  
-First included in: portals/Article (this entity)  
+First included in: portals/Article  (this entity)  
 
 #### Properties
 
@@ -1284,7 +1263,7 @@ First included in: portals/Article (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the averageRatingWholeNumber attribute are listed below.</summary>
+<summary>List of traits for the  averageRatingWholeNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1313,7 +1292,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#downvotes name="downvotes">downvotes</a>
 
 The number of negative vote ratings applied to this article.  
-First included in: portals/Article (this entity)  
+First included in: portals/Article  (this entity)  
 
 #### Properties
 
@@ -1322,7 +1301,7 @@ First included in: portals/Article (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the downvotes attribute are listed below.</summary>
+<summary>List of traits for the  downvotes  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1350,7 +1329,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#ratingCount name="ratingCount">ratingCount</a>
 
-First included in: portals/Article (this entity)  
+First included in: portals/Article  (this entity)  
 
 #### Properties
 
@@ -1359,7 +1338,7 @@ First included in: portals/Article (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the ratingCount attribute are listed below.</summary>
+<summary>List of traits for the  ratingCount  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1385,7 +1364,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ratingSum name="ratingSum">ratingSum</a>
 
 The sum of the values of all ratings applied to this article.  
-First included in: portals/Article (this entity)  
+First included in: portals/Article  (this entity)  
 
 #### Properties
 
@@ -1394,7 +1373,7 @@ First included in: portals/Article (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the ratingSum attribute are listed below.</summary>
+<summary>List of traits for the  ratingSum  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1423,7 +1402,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#upvotes name="upvotes">upvotes</a>
 
 The number of positive vote ratings applied to this article.  
-First included in: portals/Article (this entity)  
+First included in: portals/Article  (this entity)  
 
 #### Properties
 
@@ -1432,7 +1411,7 @@ First included in: portals/Article (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the upvotes attribute are listed below.</summary>
+<summary>List of traits for the  upvotes  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  

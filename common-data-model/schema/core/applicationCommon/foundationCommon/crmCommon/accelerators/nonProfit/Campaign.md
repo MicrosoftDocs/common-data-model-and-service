@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/12/2019
+ms.date: 2/13/2019
 ms.author: tpalmer
 ---
 
@@ -13,6 +13,13 @@ ms.author: tpalmer
 Container for campaign activities and responses, sales literature, products, and lists to create, plan, execute, and track the results of a specific marketing campaign through its life.  
   
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Campaign.cdm.json" target="_blank">GitHub</a>.  
+
+## Instances
+
+Instances of this entity are listed below:  
+
+[crmCommon/Campaign](../../Campaign.md "/core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign")  
+nonProfit/Campaign  
 
 ## Traits
 
@@ -42,13 +49,6 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>Campaign</td><td>string</td><td></td></tr></table>
 
 </details>
-
-## Instances
-
-Instances of this entity are listed below:  
-
-[crmCommon/Campaign](../../Campaign.md "/core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign")  
-nonProfit/Campaign  
 
 ## Attributes
 
@@ -138,7 +138,7 @@ First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaig
 #### Traits
 
 <details>
-<summary>List of traits for the createdOn attribute are listed below.</summary>
+<summary>List of traits for the  createdOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -177,7 +177,7 @@ First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaig
 #### Traits
 
 <details>
-<summary>List of traits for the createdBy attribute are listed below.</summary>
+<summary>List of traits for the  createdBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -208,9 +208,6 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>createdby</td><td>string</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
@@ -225,7 +222,7 @@ First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaig
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedOn attribute are listed below.</summary>
+<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -264,7 +261,7 @@ First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaig
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedBy attribute are listed below.</summary>
+<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -295,9 +292,6 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>modifiedby</td><td>string</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
@@ -312,7 +306,7 @@ First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaig
 #### Traits
 
 <details>
-<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
+<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -343,9 +337,6 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>createdonbehalfby</td><td>string</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
@@ -360,7 +351,7 @@ First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaig
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
+<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -391,9 +382,6 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>modifiedonbehalfby</td><td>string</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
@@ -408,7 +396,7 @@ First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaig
 #### Traits
 
 <details>
-<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
+<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -447,7 +435,7 @@ First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaig
 #### Traits
 
 <details>
-<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
+<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -482,7 +470,7 @@ First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaig
 #### Traits
 
 <details>
-<summary>List of traits for the ownerIdType attribute are listed below.</summary>
+<summary>List of traits for the  ownerIdType  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -521,7 +509,7 @@ First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaig
 #### Traits
 
 <details>
-<summary>List of traits for the ownerId attribute are listed below.</summary>
+<summary>List of traits for the  ownerId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -547,7 +535,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>ownerid</td><td>string</td><td></td></tr></table>
 
 - **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="../../../../Team.md" target="_blank">/core/applicationCommon/Team.cdm.json/Team</a></td><td><a href="../../../../Team.md#teamId" target="_blank">teamId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  
 
 - **is.CDS.owner**  
 contains a User or Team ID  
@@ -566,7 +554,7 @@ First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaig
 #### Traits
 
 <details>
-<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
+<summary>List of traits for the  owningBusinessUnit  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -594,9 +582,6 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>owningbusinessunit</td><td>string</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../BusinessUnit.md" target="_blank">/core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit</a></td><td><a href="../../../../BusinessUnit.md#businessUnitId" target="_blank">businessUnitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#owningUser name="owningUser">owningUser</a>
@@ -611,7 +596,7 @@ First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaig
 #### Traits
 
 <details>
-<summary>List of traits for the owningUser attribute are listed below.</summary>
+<summary>List of traits for the  owningUser  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -642,9 +627,6 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>owninguser</td><td>string</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="../../service/User.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User</a></td><td><a href="../../service/User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
@@ -659,7 +641,7 @@ First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaig
 #### Traits
 
 <details>
-<summary>List of traits for the owningTeam attribute are listed below.</summary>
+<summary>List of traits for the  owningTeam  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -687,9 +669,6 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>owningteam</td><td>string</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../Team.md" target="_blank">/core/applicationCommon/Team.cdm.json/Team</a></td><td><a href="../../../../Team.md#teamId" target="_blank">teamId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
@@ -704,7 +683,7 @@ First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaig
 #### Traits
 
 <details>
-<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
+<summary>List of traits for the  timeZoneRuleVersionNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -742,7 +721,7 @@ First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaig
 #### Traits
 
 <details>
-<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
+<summary>List of traits for the  UTCConversionTimeZoneCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -780,7 +759,7 @@ First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaig
 #### Traits
 
 <details>
-<summary>List of traits for the versionNumber attribute are listed below.</summary>
+<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -817,7 +796,7 @@ First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaig
 #### Traits
 
 <details>
-<summary>List of traits for the campaignId attribute are listed below.</summary>
+<summary>List of traits for the  campaignId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -856,7 +835,7 @@ First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaig
 #### Traits
 
 <details>
-<summary>List of traits for the emailAddress attribute are listed below.</summary>
+<summary>List of traits for the  emailAddress  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -897,7 +876,7 @@ First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaig
 #### Traits
 
 <details>
-<summary>List of traits for the name attribute are listed below.</summary>
+<summary>List of traits for the  name  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -935,7 +914,7 @@ First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaig
 #### Traits
 
 <details>
-<summary>List of traits for the processId attribute are listed below.</summary>
+<summary>List of traits for the  processId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -973,7 +952,7 @@ First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaig
 #### Traits
 
 <details>
-<summary>List of traits for the stageId attribute are listed below.</summary>
+<summary>List of traits for the  stageId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1011,7 +990,7 @@ First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaig
 #### Traits
 
 <details>
-<summary>List of traits for the traversedPath attribute are listed below.</summary>
+<summary>List of traits for the  traversedPath  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1051,7 +1030,7 @@ First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaig
 #### Traits
 
 <details>
-<summary>List of traits for the actualEnd attribute are listed below.</summary>
+<summary>List of traits for the  actualEnd  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1089,7 +1068,7 @@ First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaig
 #### Traits
 
 <details>
-<summary>List of traits for the actualStart attribute are listed below.</summary>
+<summary>List of traits for the  actualStart  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1127,7 +1106,7 @@ First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaig
 #### Traits
 
 <details>
-<summary>List of traits for the budgetedCost attribute are listed below.</summary>
+<summary>List of traits for the  budgetedCost  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1168,7 +1147,7 @@ First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaig
 #### Traits
 
 <details>
-<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
+<summary>List of traits for the  transactionCurrencyId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1196,9 +1175,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10036</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../Currency.md" target="_blank">/core/applicationCommon/Currency.cdm.json/Currency</a></td><td><a href="../../../../Currency.md#transactionCurrencyId" target="_blank">transactionCurrencyId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
@@ -1213,7 +1189,7 @@ First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaig
 #### Traits
 
 <details>
-<summary>List of traits for the exchangeRate attribute are listed below.</summary>
+<summary>List of traits for the  exchangeRate  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1253,7 +1229,7 @@ First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaig
 #### Traits
 
 <details>
-<summary>List of traits for the budgetedCostBase attribute are listed below.</summary>
+<summary>List of traits for the  budgetedCostBase  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1297,7 +1273,7 @@ First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaig
 #### Traits
 
 <details>
-<summary>List of traits for the codeName attribute are listed below.</summary>
+<summary>List of traits for the  codeName  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1338,7 +1314,7 @@ First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaig
 #### Traits
 
 <details>
-<summary>List of traits for the description attribute are listed below.</summary>
+<summary>List of traits for the  description  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1378,7 +1354,7 @@ First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaig
 #### Traits
 
 <details>
-<summary>List of traits for the expectedResponse attribute are listed below.</summary>
+<summary>List of traits for the  expectedResponse  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1416,7 +1392,7 @@ First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaig
 #### Traits
 
 <details>
-<summary>List of traits for the expectedRevenue attribute are listed below.</summary>
+<summary>List of traits for the  expectedRevenue  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1457,7 +1433,7 @@ First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaig
 #### Traits
 
 <details>
-<summary>List of traits for the expectedRevenueBase attribute are listed below.</summary>
+<summary>List of traits for the  expectedRevenueBase  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1501,7 +1477,7 @@ First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaig
 #### Traits
 
 <details>
-<summary>List of traits for the isTemplate attribute are listed below.</summary>
+<summary>List of traits for the  isTemplate  attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1536,7 +1512,7 @@ First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaig
 #### Traits
 
 <details>
-<summary>List of traits for the message attribute are listed below.</summary>
+<summary>List of traits for the  message  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1576,7 +1552,7 @@ First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaig
 #### Traits
 
 <details>
-<summary>List of traits for the objective attribute are listed below.</summary>
+<summary>List of traits for the  objective  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1616,7 +1592,7 @@ First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaig
 #### Traits
 
 <details>
-<summary>List of traits for the otherCost attribute are listed below.</summary>
+<summary>List of traits for the  otherCost  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1657,7 +1633,7 @@ First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaig
 #### Traits
 
 <details>
-<summary>List of traits for the otherCostBase attribute are listed below.</summary>
+<summary>List of traits for the  otherCostBase  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1701,7 +1677,7 @@ First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaig
 #### Traits
 
 <details>
-<summary>List of traits for the promotionCodeName attribute are listed below.</summary>
+<summary>List of traits for the  promotionCodeName  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1742,7 +1718,7 @@ First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaig
 #### Traits
 
 <details>
-<summary>List of traits for the proposedEnd attribute are listed below.</summary>
+<summary>List of traits for the  proposedEnd  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1780,7 +1756,7 @@ First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaig
 #### Traits
 
 <details>
-<summary>List of traits for the proposedStart attribute are listed below.</summary>
+<summary>List of traits for the  proposedStart  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1813,16 +1789,16 @@ First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaig
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Shows the status of the campaign. By default, campaigns are active and can't be deactivated.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Shows the status of the campaign. By default, campaigns are active and can't be deactivated.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr><tr><td>en</td><td>Active</td><td>0</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the stateCode attribute are listed below.</summary>
+<summary>List of traits for the  stateCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr><tr><td>en</td><td>Active</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1858,7 +1834,7 @@ First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaig
 #### Traits
 
 <details>
-<summary>List of traits for the stateCode_display attribute are listed below.</summary>
+<summary>List of traits for the  stateCode_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1877,16 +1853,16 @@ First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaig
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the campaign's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Proposed</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Ready To Launch</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Launched</td><td>2</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>3</td><td>0</td></tr><tr><td>en</td><td>Canceled</td><td>4</td><td>0</td></tr><tr><td>en</td><td>Suspended</td><td>5</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>6</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the campaign's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Proposed</td><td>0</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Ready To Launch</td><td>1</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Launched</td><td>2</td><td>2</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>3</td><td>3</td><td>0</td></tr><tr><td>en</td><td>Canceled</td><td>4</td><td>4</td><td>0</td></tr><tr><td>en</td><td>Suspended</td><td>5</td><td>5</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>6</td><td>6</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the statusCode attribute are listed below.</summary>
+<summary>List of traits for the  statusCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Proposed</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Ready To Launch</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Launched</td><td>2</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>3</td><td>0</td></tr><tr><td>en</td><td>Canceled</td><td>4</td><td>0</td></tr><tr><td>en</td><td>Suspended</td><td>5</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>6</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Proposed</td><td>0</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Ready To Launch</td><td>1</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Launched</td><td>2</td><td>2</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>3</td><td>3</td><td>0</td></tr><tr><td>en</td><td>Canceled</td><td>4</td><td>4</td><td>0</td></tr><tr><td>en</td><td>Suspended</td><td>5</td><td>5</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>6</td><td>6</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1925,7 +1901,7 @@ First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaig
 #### Traits
 
 <details>
-<summary>List of traits for the statusCode_display attribute are listed below.</summary>
+<summary>List of traits for the  statusCode_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1949,7 +1925,7 @@ First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaig
 #### Traits
 
 <details>
-<summary>List of traits for the totalActualCost attribute are listed below.</summary>
+<summary>List of traits for the  totalActualCost  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1990,7 +1966,7 @@ First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaig
 #### Traits
 
 <details>
-<summary>List of traits for the totalActualCostBase attribute are listed below.</summary>
+<summary>List of traits for the  totalActualCostBase  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -2034,7 +2010,7 @@ First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaig
 #### Traits
 
 <details>
-<summary>List of traits for the totalCampaignActivityActualCost attribute are listed below.</summary>
+<summary>List of traits for the  totalCampaignActivityActualCost  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -2075,7 +2051,7 @@ First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaig
 #### Traits
 
 <details>
-<summary>List of traits for the totalCampaignActivityActualCostBase attribute are listed below.</summary>
+<summary>List of traits for the  totalCampaignActivityActualCostBase  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -2114,16 +2090,16 @@ First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaig
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Campaign Type</td></tr><tr><td>description</td><td>Select the type of the campaign.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>typecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Advertisement</td><td>1</td></tr><tr><td>en</td><td>Direct Marketing</td><td>2</td></tr><tr><td>en</td><td>Event</td><td>3</td></tr><tr><td>en</td><td>Co-branding</td><td>4</td></tr><tr><td>en</td><td>Other</td><td>5</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Campaign Type</td></tr><tr><td>description</td><td>Select the type of the campaign.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>typecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Other</td><td>5</td></tr><tr><td>en</td><td>Co-branding</td><td>4</td></tr><tr><td>en</td><td>Event</td><td>3</td></tr><tr><td>en</td><td>Direct Marketing</td><td>2</td></tr><tr><td>en</td><td>Advertisement</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the typeCode attribute are listed below.</summary>
+<summary>List of traits for the  typeCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Advertisement</td><td>1</td></tr><tr><td>en</td><td>Direct Marketing</td><td>2</td></tr><tr><td>en</td><td>Event</td><td>3</td></tr><tr><td>en</td><td>Co-branding</td><td>4</td></tr><tr><td>en</td><td>Other</td><td>5</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Other</td><td>5</td></tr><tr><td>en</td><td>Co-branding</td><td>4</td></tr><tr><td>en</td><td>Event</td><td>3</td></tr><tr><td>en</td><td>Direct Marketing</td><td>2</td></tr><tr><td>en</td><td>Advertisement</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2159,7 +2135,7 @@ First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaig
 #### Traits
 
 <details>
-<summary>List of traits for the typeCode_display attribute are listed below.</summary>
+<summary>List of traits for the  typeCode_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2183,7 +2159,7 @@ First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaig
 #### Traits
 
 <details>
-<summary>List of traits for the priceListId attribute are listed below.</summary>
+<summary>List of traits for the  priceListId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2211,9 +2187,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10064</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../PriceList.md" target="_blank">/core/applicationCommon/foundationCommon/PriceList.cdm.json/PriceList</a></td><td><a href="../../../PriceList.md#priceLevelId" target="_blank">priceLevelId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#entityImageId name="entityImageId">entityImageId</a>
@@ -2227,7 +2200,7 @@ First included in: <a href="../../Campaign.md" target="_blank">crmCommon/Campaig
 #### Traits
 
 <details>
-<summary>List of traits for the entityImageId attribute are listed below.</summary>
+<summary>List of traits for the  entityImageId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2250,7 +2223,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#appealSegment name="appealSegment">appealSegment</a>
 
 Giving level or operational area the Campaign is soliciting.  
-First included in: nonProfit/Campaign (this entity)  
+First included in: nonProfit/Campaign  (this entity)  
 
 #### Properties
 
@@ -2259,11 +2232,11 @@ First included in: nonProfit/Campaign (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the appealSegment attribute are listed below.</summary>
+<summary>List of traits for the  appealSegment  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Basic Membership</td><td>100000000</td></tr><tr><td>en</td><td>Development</td><td>100000001</td></tr><tr><td>en</td><td>General Operating</td><td>100000002</td></tr><tr><td>en</td><td>Gift Planning and Endowment</td><td>100000003</td></tr><tr><td>en</td><td>Local Underwriter</td><td>100000004</td></tr><tr><td>en</td><td>Major Membership</td><td>100000005</td></tr><tr><td>en</td><td>Matching Gift</td><td>100000006</td></tr><tr><td>en</td><td>Mid Membership</td><td>100000007</td></tr><tr><td>en</td><td>Other</td><td>100000008</td></tr><tr><td>en</td><td>Sustainer</td><td>100000009</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Sustainer</td><td>100000009</td></tr><tr><td>en</td><td>Other</td><td>100000008</td></tr><tr><td>en</td><td>Mid Membership</td><td>100000007</td></tr><tr><td>en</td><td>Matching Gift</td><td>100000006</td></tr><tr><td>en</td><td>Major Membership</td><td>100000005</td></tr><tr><td>en</td><td>Local Underwriter</td><td>100000004</td></tr><tr><td>en</td><td>Gift Planning and Endowment</td><td>100000003</td></tr><tr><td>en</td><td>General Operating</td><td>100000002</td></tr><tr><td>en</td><td>Development</td><td>100000001</td></tr><tr><td>en</td><td>Basic Membership</td><td>100000000</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2290,7 +2263,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#appealSegment_display name="appealSegment_display">appealSegment_display</a>
 
-First included in: nonProfit/Campaign (this entity)  
+First included in: nonProfit/Campaign  (this entity)  
 
 #### Properties
 
@@ -2299,7 +2272,7 @@ First included in: nonProfit/Campaign (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the appealSegment_display attribute are listed below.</summary>
+<summary>List of traits for the  appealSegment_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2314,7 +2287,7 @@ First included in: nonProfit/Campaign (this entity)
 ### <a href=#aquisitionSource name="aquisitionSource">aquisitionSource</a>
 
 Source of the donors solicited for the campaign  
-First included in: nonProfit/Campaign (this entity)  
+First included in: nonProfit/Campaign  (this entity)  
 
 #### Properties
 
@@ -2323,7 +2296,7 @@ First included in: nonProfit/Campaign (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the aquisitionSource attribute are listed below.</summary>
+<summary>List of traits for the  aquisitionSource  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2354,7 +2327,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#campaignDefaultDesignation name="campaignDefaultDesignation">campaignDefaultDesignation</a>
 
 Unique identifier for Designation associated with Campaign.  
-First included in: nonProfit/Campaign (this entity)  
+First included in: nonProfit/Campaign  (this entity)  
 
 #### Properties
 
@@ -2363,7 +2336,7 @@ First included in: nonProfit/Campaign (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the campaignDefaultDesignation attribute are listed below.</summary>
+<summary>List of traits for the  campaignDefaultDesignation  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2392,27 +2365,27 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10148</td><td>integer</td><td></td></tr></table>
 
 - **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="Designation.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Designation.cdm.json/Designation</a></td><td><a href="Designation.md#designationId" target="_blank">designationId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  
 
 </details>
 
 ### <a href=#campaignCategory name="campaignCategory">campaignCategory</a>
 
 Assigned manually by the organization, this field is used for downstream analytics  
-First included in: nonProfit/Campaign (this entity)  
+First included in: nonProfit/Campaign  (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Campaign Category</td></tr><tr><td>description</td><td>Assigned manually by the organization, this field is used for downstream analytics</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_campaigncategory</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>R0 to R9</td><td>100000000</td></tr><tr><td>en</td><td>RM</td><td>100000001</td></tr><tr><td>en</td><td>C</td><td>100000002</td></tr><tr><td>en</td><td>A</td><td>100000003</td></tr><tr><td>en</td><td>L</td><td>100000004</td></tr><tr><td>en</td><td>MA</td><td>100000005</td></tr><tr><td>en</td><td>TR</td><td>100000006</td></tr><tr><td>en</td><td>TC</td><td>100000007</td></tr><tr><td>en</td><td>TA</td><td>100000008</td></tr><tr><td>en</td><td>TL</td><td>100000009</td></tr><tr><td>en</td><td>TO</td><td>100000010</td></tr><tr><td>en</td><td>P</td><td>100000011</td></tr><tr><td>en</td><td>S</td><td>100000012</td></tr><tr><td>en</td><td>S1</td><td>100000013</td></tr><tr><td>en</td><td>W</td><td>100000014</td></tr><tr><td>en</td><td>SG</td><td>100000015</td></tr><tr><td>en</td><td>9</td><td>100000016</td></tr><tr><td>en</td><td>MG</td><td>100000017</td></tr><tr><td>en</td><td>X</td><td>100000018</td></tr><tr><td>en</td><td>CS</td><td>100000019</td></tr><tr><td>en</td><td>WP</td><td>100000020</td></tr><tr><td>en</td><td>WE</td><td>100000021</td></tr><tr><td>en</td><td>MD</td><td>100000022</td></tr><tr><td>en</td><td>PG</td><td>100000023</td></tr><tr><td>en</td><td>EV</td><td>100000024</td></tr><tr><td>en</td><td>CC</td><td>100000025</td></tr><tr><td>en</td><td>LU</td><td>100000026</td></tr><tr><td>en</td><td>NU</td><td>100000027</td></tr><tr><td>en</td><td>MM</td><td>100000028</td></tr><tr><td>en</td><td>PU</td><td>100000029</td></tr><tr><td>en</td><td>U</td><td>100000030</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Campaign Category</td></tr><tr><td>description</td><td>Assigned manually by the organization, this field is used for downstream analytics</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_campaigncategory</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>R0 to R9</td><td>100000000</td></tr><tr><td>en</td><td>U</td><td>100000030</td></tr><tr><td>en</td><td>C</td><td>100000002</td></tr><tr><td>en</td><td>A</td><td>100000003</td></tr><tr><td>en</td><td>L</td><td>100000004</td></tr><tr><td>en</td><td>MA</td><td>100000005</td></tr><tr><td>en</td><td>TR</td><td>100000006</td></tr><tr><td>en</td><td>TC</td><td>100000007</td></tr><tr><td>en</td><td>TA</td><td>100000008</td></tr><tr><td>en</td><td>TL</td><td>100000009</td></tr><tr><td>en</td><td>TO</td><td>100000010</td></tr><tr><td>en</td><td>P</td><td>100000011</td></tr><tr><td>en</td><td>S</td><td>100000012</td></tr><tr><td>en</td><td>S1</td><td>100000013</td></tr><tr><td>en</td><td>W</td><td>100000014</td></tr><tr><td>en</td><td>RM</td><td>100000001</td></tr><tr><td>en</td><td>9</td><td>100000016</td></tr><tr><td>en</td><td>MG</td><td>100000017</td></tr><tr><td>en</td><td>X</td><td>100000018</td></tr><tr><td>en</td><td>CS</td><td>100000019</td></tr><tr><td>en</td><td>WP</td><td>100000020</td></tr><tr><td>en</td><td>WE</td><td>100000021</td></tr><tr><td>en</td><td>MD</td><td>100000022</td></tr><tr><td>en</td><td>PG</td><td>100000023</td></tr><tr><td>en</td><td>EV</td><td>100000024</td></tr><tr><td>en</td><td>CC</td><td>100000025</td></tr><tr><td>en</td><td>LU</td><td>100000026</td></tr><tr><td>en</td><td>NU</td><td>100000027</td></tr><tr><td>en</td><td>MM</td><td>100000028</td></tr><tr><td>en</td><td>PU</td><td>100000029</td></tr><tr><td>en</td><td>SG</td><td>100000015</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the campaignCategory attribute are listed below.</summary>
+<summary>List of traits for the  campaignCategory  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>R0 to R9</td><td>100000000</td></tr><tr><td>en</td><td>RM</td><td>100000001</td></tr><tr><td>en</td><td>C</td><td>100000002</td></tr><tr><td>en</td><td>A</td><td>100000003</td></tr><tr><td>en</td><td>L</td><td>100000004</td></tr><tr><td>en</td><td>MA</td><td>100000005</td></tr><tr><td>en</td><td>TR</td><td>100000006</td></tr><tr><td>en</td><td>TC</td><td>100000007</td></tr><tr><td>en</td><td>TA</td><td>100000008</td></tr><tr><td>en</td><td>TL</td><td>100000009</td></tr><tr><td>en</td><td>TO</td><td>100000010</td></tr><tr><td>en</td><td>P</td><td>100000011</td></tr><tr><td>en</td><td>S</td><td>100000012</td></tr><tr><td>en</td><td>S1</td><td>100000013</td></tr><tr><td>en</td><td>W</td><td>100000014</td></tr><tr><td>en</td><td>SG</td><td>100000015</td></tr><tr><td>en</td><td>9</td><td>100000016</td></tr><tr><td>en</td><td>MG</td><td>100000017</td></tr><tr><td>en</td><td>X</td><td>100000018</td></tr><tr><td>en</td><td>CS</td><td>100000019</td></tr><tr><td>en</td><td>WP</td><td>100000020</td></tr><tr><td>en</td><td>WE</td><td>100000021</td></tr><tr><td>en</td><td>MD</td><td>100000022</td></tr><tr><td>en</td><td>PG</td><td>100000023</td></tr><tr><td>en</td><td>EV</td><td>100000024</td></tr><tr><td>en</td><td>CC</td><td>100000025</td></tr><tr><td>en</td><td>LU</td><td>100000026</td></tr><tr><td>en</td><td>NU</td><td>100000027</td></tr><tr><td>en</td><td>MM</td><td>100000028</td></tr><tr><td>en</td><td>PU</td><td>100000029</td></tr><tr><td>en</td><td>U</td><td>100000030</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>U</td><td>100000030</td></tr><tr><td>en</td><td>PU</td><td>100000029</td></tr><tr><td>en</td><td>MM</td><td>100000028</td></tr><tr><td>en</td><td>NU</td><td>100000027</td></tr><tr><td>en</td><td>LU</td><td>100000026</td></tr><tr><td>en</td><td>CC</td><td>100000025</td></tr><tr><td>en</td><td>EV</td><td>100000024</td></tr><tr><td>en</td><td>PG</td><td>100000023</td></tr><tr><td>en</td><td>MD</td><td>100000022</td></tr><tr><td>en</td><td>WE</td><td>100000021</td></tr><tr><td>en</td><td>WP</td><td>100000020</td></tr><tr><td>en</td><td>CS</td><td>100000019</td></tr><tr><td>en</td><td>X</td><td>100000018</td></tr><tr><td>en</td><td>MG</td><td>100000017</td></tr><tr><td>en</td><td>9</td><td>100000016</td></tr><tr><td>en</td><td>SG</td><td>100000015</td></tr><tr><td>en</td><td>W</td><td>100000014</td></tr><tr><td>en</td><td>S1</td><td>100000013</td></tr><tr><td>en</td><td>S</td><td>100000012</td></tr><tr><td>en</td><td>P</td><td>100000011</td></tr><tr><td>en</td><td>TO</td><td>100000010</td></tr><tr><td>en</td><td>TL</td><td>100000009</td></tr><tr><td>en</td><td>TA</td><td>100000008</td></tr><tr><td>en</td><td>TC</td><td>100000007</td></tr><tr><td>en</td><td>TR</td><td>100000006</td></tr><tr><td>en</td><td>MA</td><td>100000005</td></tr><tr><td>en</td><td>L</td><td>100000004</td></tr><tr><td>en</td><td>A</td><td>100000003</td></tr><tr><td>en</td><td>C</td><td>100000002</td></tr><tr><td>en</td><td>RM</td><td>100000001</td></tr><tr><td>en</td><td>R0 to R9</td><td>100000000</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2439,7 +2412,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#campaignCategory_display name="campaignCategory_display">campaignCategory_display</a>
 
-First included in: nonProfit/Campaign (this entity)  
+First included in: nonProfit/Campaign  (this entity)  
 
 #### Properties
 
@@ -2448,7 +2421,7 @@ First included in: nonProfit/Campaign (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the campaignCategory_display attribute are listed below.</summary>
+<summary>List of traits for the  campaignCategory_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2463,7 +2436,7 @@ First included in: nonProfit/Campaign (this entity)
 ### <a href=#campaignType name="campaignType">campaignType</a>
 
 Type of gifts the Campaign is soliciting.  
-First included in: nonProfit/Campaign (this entity)  
+First included in: nonProfit/Campaign  (this entity)  
 
 #### Properties
 
@@ -2472,11 +2445,11 @@ First included in: nonProfit/Campaign (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the campaignType attribute are listed below.</summary>
+<summary>List of traits for the  campaignType  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Annual Membership</td><td>100000000</td></tr><tr><td>en</td><td>Corporate Underwriting</td><td>100000001</td></tr><tr><td>en</td><td>Foundation</td><td>100000002</td></tr><tr><td>en</td><td>Matching Gift</td><td>100000003</td></tr><tr><td>en</td><td>Other</td><td>100000004</td></tr><tr><td>en</td><td>Planned Giving</td><td>100000005</td></tr><tr><td>en</td><td>Restricted</td><td>100000006</td></tr><tr><td>en</td><td>Sales</td><td>100000007</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Sales</td><td>100000007</td></tr><tr><td>en</td><td>Restricted</td><td>100000006</td></tr><tr><td>en</td><td>Planned Giving</td><td>100000005</td></tr><tr><td>en</td><td>Other</td><td>100000004</td></tr><tr><td>en</td><td>Matching Gift</td><td>100000003</td></tr><tr><td>en</td><td>Foundation</td><td>100000002</td></tr><tr><td>en</td><td>Corporate Underwriting</td><td>100000001</td></tr><tr><td>en</td><td>Annual Membership</td><td>100000000</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2503,7 +2476,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#campaignType_display name="campaignType_display">campaignType_display</a>
 
-First included in: nonProfit/Campaign (this entity)  
+First included in: nonProfit/Campaign  (this entity)  
 
 #### Properties
 
@@ -2512,7 +2485,7 @@ First included in: nonProfit/Campaign (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the campaignType_display attribute are listed below.</summary>
+<summary>List of traits for the  campaignType_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2527,7 +2500,7 @@ First included in: nonProfit/Campaign (this entity)
 ### <a href=#channel name="channel">channel</a>
 
 Method in which the Campaign will be communicated to constituents.  
-First included in: nonProfit/Campaign (this entity)  
+First included in: nonProfit/Campaign  (this entity)  
 
 #### Properties
 
@@ -2536,11 +2509,11 @@ First included in: nonProfit/Campaign (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the channel attribute are listed below.</summary>
+<summary>List of traits for the  channel  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Broadcast</td><td>100000000</td></tr><tr><td>en</td><td>Email</td><td>100000001</td></tr><tr><td>en</td><td>Mail</td><td>100000002</td></tr><tr><td>en</td><td>Other</td><td>100000003</td></tr><tr><td>en</td><td>Phone</td><td>100000004</td></tr><tr><td>en</td><td>Telesales</td><td>100000005</td></tr><tr><td>en</td><td>Web</td><td>100000006</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Web</td><td>100000006</td></tr><tr><td>en</td><td>Telesales</td><td>100000005</td></tr><tr><td>en</td><td>Phone</td><td>100000004</td></tr><tr><td>en</td><td>Other</td><td>100000003</td></tr><tr><td>en</td><td>Mail</td><td>100000002</td></tr><tr><td>en</td><td>Email</td><td>100000001</td></tr><tr><td>en</td><td>Broadcast</td><td>100000000</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2567,7 +2540,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#channel_display name="channel_display">channel_display</a>
 
-First included in: nonProfit/Campaign (this entity)  
+First included in: nonProfit/Campaign  (this entity)  
 
 #### Properties
 
@@ -2576,7 +2549,7 @@ First included in: nonProfit/Campaign (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the channel_display attribute are listed below.</summary>
+<summary>List of traits for the  channel_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2591,20 +2564,20 @@ First included in: nonProfit/Campaign (this entity)
 ### <a href=#effort name="effort">effort</a>
 
 Number of times correspondence has been sent this Campaign.  
-First included in: nonProfit/Campaign (this entity)  
+First included in: nonProfit/Campaign  (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Effort</td></tr><tr><td>description</td><td>Number of times correspondence has been sent this Campaign.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_effort</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>00</td><td>100000000</td></tr><tr><td>en</td><td>01</td><td>100000001</td></tr><tr><td>en</td><td>02</td><td>100000002</td></tr><tr><td>en</td><td>03</td><td>100000003</td></tr><tr><td>en</td><td>04</td><td>100000004</td></tr><tr><td>en</td><td>05</td><td>100000005</td></tr><tr><td>en</td><td>06</td><td>100000006</td></tr><tr><td>en</td><td>07</td><td>100000007</td></tr><tr><td>en</td><td>08</td><td>100000008</td></tr><tr><td>en</td><td>09</td><td>100000009</td></tr><tr><td>en</td><td>10</td><td>100000010</td></tr><tr><td>en</td><td>11</td><td>100000011</td></tr><tr><td>en</td><td>12</td><td>100000012</td></tr><tr><td>en</td><td>13</td><td>100000013</td></tr><tr><td>en</td><td>14</td><td>100000014</td></tr><tr><td>en</td><td>15</td><td>100000015</td></tr><tr><td>en</td><td>16</td><td>100000016</td></tr><tr><td>en</td><td>17</td><td>100000017</td></tr><tr><td>en</td><td>18</td><td>100000018</td></tr><tr><td>en</td><td>19</td><td>100000019</td></tr><tr><td>en</td><td>20</td><td>100000020</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Effort</td></tr><tr><td>description</td><td>Number of times correspondence has been sent this Campaign.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_effort</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>00</td><td>100000000</td></tr><tr><td>en</td><td>20</td><td>100000020</td></tr><tr><td>en</td><td>02</td><td>100000002</td></tr><tr><td>en</td><td>03</td><td>100000003</td></tr><tr><td>en</td><td>04</td><td>100000004</td></tr><tr><td>en</td><td>05</td><td>100000005</td></tr><tr><td>en</td><td>06</td><td>100000006</td></tr><tr><td>en</td><td>07</td><td>100000007</td></tr><tr><td>en</td><td>08</td><td>100000008</td></tr><tr><td>en</td><td>09</td><td>100000009</td></tr><tr><td>en</td><td>01</td><td>100000001</td></tr><tr><td>en</td><td>11</td><td>100000011</td></tr><tr><td>en</td><td>12</td><td>100000012</td></tr><tr><td>en</td><td>13</td><td>100000013</td></tr><tr><td>en</td><td>14</td><td>100000014</td></tr><tr><td>en</td><td>15</td><td>100000015</td></tr><tr><td>en</td><td>16</td><td>100000016</td></tr><tr><td>en</td><td>17</td><td>100000017</td></tr><tr><td>en</td><td>18</td><td>100000018</td></tr><tr><td>en</td><td>19</td><td>100000019</td></tr><tr><td>en</td><td>10</td><td>100000010</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the effort attribute are listed below.</summary>
+<summary>List of traits for the  effort  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>00</td><td>100000000</td></tr><tr><td>en</td><td>01</td><td>100000001</td></tr><tr><td>en</td><td>02</td><td>100000002</td></tr><tr><td>en</td><td>03</td><td>100000003</td></tr><tr><td>en</td><td>04</td><td>100000004</td></tr><tr><td>en</td><td>05</td><td>100000005</td></tr><tr><td>en</td><td>06</td><td>100000006</td></tr><tr><td>en</td><td>07</td><td>100000007</td></tr><tr><td>en</td><td>08</td><td>100000008</td></tr><tr><td>en</td><td>09</td><td>100000009</td></tr><tr><td>en</td><td>10</td><td>100000010</td></tr><tr><td>en</td><td>11</td><td>100000011</td></tr><tr><td>en</td><td>12</td><td>100000012</td></tr><tr><td>en</td><td>13</td><td>100000013</td></tr><tr><td>en</td><td>14</td><td>100000014</td></tr><tr><td>en</td><td>15</td><td>100000015</td></tr><tr><td>en</td><td>16</td><td>100000016</td></tr><tr><td>en</td><td>17</td><td>100000017</td></tr><tr><td>en</td><td>18</td><td>100000018</td></tr><tr><td>en</td><td>19</td><td>100000019</td></tr><tr><td>en</td><td>20</td><td>100000020</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>20</td><td>100000020</td></tr><tr><td>en</td><td>19</td><td>100000019</td></tr><tr><td>en</td><td>18</td><td>100000018</td></tr><tr><td>en</td><td>17</td><td>100000017</td></tr><tr><td>en</td><td>16</td><td>100000016</td></tr><tr><td>en</td><td>15</td><td>100000015</td></tr><tr><td>en</td><td>14</td><td>100000014</td></tr><tr><td>en</td><td>13</td><td>100000013</td></tr><tr><td>en</td><td>12</td><td>100000012</td></tr><tr><td>en</td><td>11</td><td>100000011</td></tr><tr><td>en</td><td>10</td><td>100000010</td></tr><tr><td>en</td><td>09</td><td>100000009</td></tr><tr><td>en</td><td>08</td><td>100000008</td></tr><tr><td>en</td><td>07</td><td>100000007</td></tr><tr><td>en</td><td>06</td><td>100000006</td></tr><tr><td>en</td><td>05</td><td>100000005</td></tr><tr><td>en</td><td>04</td><td>100000004</td></tr><tr><td>en</td><td>03</td><td>100000003</td></tr><tr><td>en</td><td>02</td><td>100000002</td></tr><tr><td>en</td><td>01</td><td>100000001</td></tr><tr><td>en</td><td>00</td><td>100000000</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2631,7 +2604,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#effort_display name="effort_display">effort_display</a>
 
-First included in: nonProfit/Campaign (this entity)  
+First included in: nonProfit/Campaign  (this entity)  
 
 #### Properties
 
@@ -2640,7 +2613,7 @@ First included in: nonProfit/Campaign (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the effort_display attribute are listed below.</summary>
+<summary>List of traits for the  effort_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2655,7 +2628,7 @@ First included in: nonProfit/Campaign (this entity)
 ### <a href=#firstResponseDate name="firstResponseDate">firstResponseDate</a>
 
 Date the first response was received against the campaign  
-First included in: nonProfit/Campaign (this entity)  
+First included in: nonProfit/Campaign  (this entity)  
 
 #### Properties
 
@@ -2664,7 +2637,7 @@ First included in: nonProfit/Campaign (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the firstResponseDate attribute are listed below.</summary>
+<summary>List of traits for the  firstResponseDate  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -2693,7 +2666,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#lastResponseDate name="lastResponseDate">lastResponseDate</a>
 
 Last day a response is received against the campaign  
-First included in: nonProfit/Campaign (this entity)  
+First included in: nonProfit/Campaign  (this entity)  
 
 #### Properties
 
@@ -2702,7 +2675,7 @@ First included in: nonProfit/Campaign (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the lastResponseDate attribute are listed below.</summary>
+<summary>List of traits for the  lastResponseDate  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -2731,7 +2704,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#sourceCode name="sourceCode">sourceCode</a>
 
 Source Code of Campaign as generated by rules defined in the Source Codes configuration.  
-First included in: nonProfit/Campaign (this entity)  
+First included in: nonProfit/Campaign  (this entity)  
 
 #### Properties
 
@@ -2740,7 +2713,7 @@ First included in: nonProfit/Campaign (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the sourceCode attribute are listed below.</summary>
+<summary>List of traits for the  sourceCode  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2771,7 +2744,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#startDate name="startDate">startDate</a>
 
 Starting date for the campaign.  
-First included in: nonProfit/Campaign (this entity)  
+First included in: nonProfit/Campaign  (this entity)  
 
 #### Properties
 
@@ -2780,7 +2753,7 @@ First included in: nonProfit/Campaign (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the startDate attribute are listed below.</summary>
+<summary>List of traits for the  startDate  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -2809,7 +2782,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#subChannel name="subChannel">subChannel</a>
 
 Specific way in which the Channel communication will be carried out.  
-First included in: nonProfit/Campaign (this entity)  
+First included in: nonProfit/Campaign  (this entity)  
 
 #### Properties
 
@@ -2818,7 +2791,7 @@ First included in: nonProfit/Campaign (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the subChannel attribute are listed below.</summary>
+<summary>List of traits for the  subChannel  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -2849,7 +2822,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#subChannel_display name="subChannel_display">subChannel_display</a>
 
-First included in: nonProfit/Campaign (this entity)  
+First included in: nonProfit/Campaign  (this entity)  
 
 #### Properties
 
@@ -2858,7 +2831,7 @@ First included in: nonProfit/Campaign (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the subChannel_display attribute are listed below.</summary>
+<summary>List of traits for the  subChannel_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  

@@ -4,11 +4,12 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/8/2019
+ms.date: 2/13/2019
 ms.author: tpalmer
 ---
 
 # service
+
 
 ## Entities
 
@@ -21,10 +22,10 @@ ms.author: tpalmer
 |[Contract](Contract.md)|Agreement to provide customer service during a specified amount of time or number of cases.  |
 |[ContractLine](ContractLine.md)|Line item in a contract that specifies the type of service a customer is entitled to.  |
 |[Entitlement](Entitlement.md)|Defines the amount and type of support a customer should receive.  |
-|[EntitlementContact](EntitlementContact.md)||
-|[EntitlementProduct](EntitlementProduct.md)||
+|[EntitlementContact](EntitlementContact.md)|  |
+|[EntitlementProduct](EntitlementProduct.md)|  |
 |[FacilityEquipment](FacilityEquipment.md)|Resource that can be scheduled.  |
-|[IncidentKnowledgeBaseRecord](IncidentKnowledgeBaseRecord.md)||
+|[IncidentKnowledgeBaseRecord](IncidentKnowledgeBaseRecord.md)|  |
 |[KnowledgeArticleIncident](KnowledgeArticleIncident.md)|Association between an knowledge article and incident.  |
 |[Resource](Resource.md)|User or facility/equipment that can be scheduled for a service.  |
 |[ResourceExpansion](ResourceExpansion.md)|Resource Expansions.  |

@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/12/2019
+ms.date: 2/13/2019
 ms.author: tpalmer
 ---
 
@@ -13,6 +13,12 @@ ms.author: tpalmer
 The root entity for portal Ideas.  
   
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/IdeaForum.cdm.json" target="_blank">GitHub</a>.  
+
+## Instances
+
+Instances of this entity are listed below:  
+
+portals/IdeaForum  
 
 ## Traits
 
@@ -42,12 +48,6 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>adx_ideaforum</td><td>string</td><td></td></tr></table>
 
 </details>
-
-## Instances
-
-Instances of this entity are listed below:  
-
-portals/IdeaForum  
 
 ## Attributes
 
@@ -93,7 +93,7 @@ portals/IdeaForum
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: portals/IdeaForum (this entity)  
+First included in: portals/IdeaForum  (this entity)  
 
 #### Properties
 
@@ -102,7 +102,7 @@ First included in: portals/IdeaForum (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the createdOn attribute are listed below.</summary>
+<summary>List of traits for the  createdOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -132,7 +132,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: portals/IdeaForum (this entity)  
+First included in: portals/IdeaForum  (this entity)  
 
 #### Properties
 
@@ -141,7 +141,7 @@ First included in: portals/IdeaForum (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the createdBy attribute are listed below.</summary>
+<summary>List of traits for the  createdBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -172,15 +172,12 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>createdby</td><td>string</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: portals/IdeaForum (this entity)  
+First included in: portals/IdeaForum  (this entity)  
 
 #### Properties
 
@@ -189,7 +186,7 @@ First included in: portals/IdeaForum (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedOn attribute are listed below.</summary>
+<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -219,7 +216,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: portals/IdeaForum (this entity)  
+First included in: portals/IdeaForum  (this entity)  
 
 #### Properties
 
@@ -228,7 +225,7 @@ First included in: portals/IdeaForum (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedBy attribute are listed below.</summary>
+<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -259,15 +256,12 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>modifiedby</td><td>string</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: portals/IdeaForum (this entity)  
+First included in: portals/IdeaForum  (this entity)  
 
 #### Properties
 
@@ -276,7 +270,7 @@ First included in: portals/IdeaForum (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
+<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -307,15 +301,12 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>createdonbehalfby</td><td>string</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: portals/IdeaForum (this entity)  
+First included in: portals/IdeaForum  (this entity)  
 
 #### Properties
 
@@ -324,7 +315,7 @@ First included in: portals/IdeaForum (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
+<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -355,15 +346,12 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>modifiedonbehalfby</td><td>string</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: portals/IdeaForum (this entity)  
+First included in: portals/IdeaForum  (this entity)  
 
 #### Properties
 
@@ -372,7 +360,7 @@ First included in: portals/IdeaForum (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
+<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -402,7 +390,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: portals/IdeaForum (this entity)  
+First included in: portals/IdeaForum  (this entity)  
 
 #### Properties
 
@@ -411,7 +399,7 @@ First included in: portals/IdeaForum (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
+<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -437,7 +425,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: portals/IdeaForum (this entity)  
+First included in: portals/IdeaForum  (this entity)  
 
 #### Properties
 
@@ -446,7 +434,7 @@ First included in: portals/IdeaForum (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the ownerIdType attribute are listed below.</summary>
+<summary>List of traits for the  ownerIdType  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -476,7 +464,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: portals/IdeaForum (this entity)  
+First included in: portals/IdeaForum  (this entity)  
 
 #### Properties
 
@@ -485,7 +473,7 @@ First included in: portals/IdeaForum (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the ownerId attribute are listed below.</summary>
+<summary>List of traits for the  ownerId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -511,7 +499,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>ownerid</td><td>string</td><td></td></tr></table>
 
 - **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="../../../../Team.md" target="_blank">/core/applicationCommon/Team.cdm.json/Team</a></td><td><a href="../../../../Team.md#teamId" target="_blank">teamId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  
 
 - **is.CDS.owner**  
 contains a User or Team ID  
@@ -521,7 +509,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: portals/IdeaForum (this entity)  
+First included in: portals/IdeaForum  (this entity)  
 
 #### Properties
 
@@ -530,7 +518,7 @@ First included in: portals/IdeaForum (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
+<summary>List of traits for the  owningBusinessUnit  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -558,15 +546,12 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>owningbusinessunit</td><td>string</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../BusinessUnit.md" target="_blank">/core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit</a></td><td><a href="../../../../BusinessUnit.md#businessUnitId" target="_blank">businessUnitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: portals/IdeaForum (this entity)  
+First included in: portals/IdeaForum  (this entity)  
 
 #### Properties
 
@@ -575,7 +560,7 @@ First included in: portals/IdeaForum (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the owningUser attribute are listed below.</summary>
+<summary>List of traits for the  owningUser  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -606,15 +591,12 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>owninguser</td><td>string</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="../../service/User.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User</a></td><td><a href="../../service/User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: portals/IdeaForum (this entity)  
+First included in: portals/IdeaForum  (this entity)  
 
 #### Properties
 
@@ -623,7 +605,7 @@ First included in: portals/IdeaForum (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the owningTeam attribute are listed below.</summary>
+<summary>List of traits for the  owningTeam  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -651,15 +633,12 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>owningteam</td><td>string</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../Team.md" target="_blank">/core/applicationCommon/Team.cdm.json/Team</a></td><td><a href="../../../../Team.md#teamId" target="_blank">teamId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: portals/IdeaForum (this entity)  
+First included in: portals/IdeaForum  (this entity)  
 
 #### Properties
 
@@ -668,7 +647,7 @@ First included in: portals/IdeaForum (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
+<summary>List of traits for the  timeZoneRuleVersionNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -697,7 +676,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: portals/IdeaForum (this entity)  
+First included in: portals/IdeaForum  (this entity)  
 
 #### Properties
 
@@ -706,7 +685,7 @@ First included in: portals/IdeaForum (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
+<summary>List of traits for the  UTCConversionTimeZoneCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -735,7 +714,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: portals/IdeaForum (this entity)  
+First included in: portals/IdeaForum  (this entity)  
 
 #### Properties
 
@@ -744,7 +723,7 @@ First included in: portals/IdeaForum (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the versionNumber attribute are listed below.</summary>
+<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -772,7 +751,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#ideaForumId name="ideaForumId">ideaForumId</a>
 
 Shows the entity instances.  
-First included in: portals/IdeaForum (this entity)  
+First included in: portals/IdeaForum  (this entity)  
 
 #### Properties
 
@@ -781,7 +760,7 @@ First included in: portals/IdeaForum (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the ideaForumId attribute are listed below.</summary>
+<summary>List of traits for the  ideaForumId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -811,7 +790,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Shows whether the idea forum is active or inactive. Inactive records are read-only and can't be edited unless they are reactivated.  
-First included in: portals/IdeaForum (this entity)  
+First included in: portals/IdeaForum  (this entity)  
 
 #### Properties
 
@@ -820,11 +799,11 @@ First included in: portals/IdeaForum (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the stateCode attribute are listed below.</summary>
+<summary>List of traits for the  stateCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr><tr><td>en</td><td>Active</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -851,7 +830,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: portals/IdeaForum (this entity)  
+First included in: portals/IdeaForum  (this entity)  
 
 #### Properties
 
@@ -860,7 +839,7 @@ First included in: portals/IdeaForum (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the stateCode_display attribute are listed below.</summary>
+<summary>List of traits for the  stateCode_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -875,20 +854,20 @@ First included in: portals/IdeaForum (this entity)
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Select the idea forum's status.  
-First included in: portals/IdeaForum (this entity)  
+First included in: portals/IdeaForum  (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the idea forum's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the idea forum's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the statusCode attribute are listed below.</summary>
+<summary>List of traits for the  statusCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -918,7 +897,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: portals/IdeaForum (this entity)  
+First included in: portals/IdeaForum  (this entity)  
 
 #### Properties
 
@@ -927,7 +906,7 @@ First included in: portals/IdeaForum (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the statusCode_display attribute are listed below.</summary>
+<summary>List of traits for the  statusCode_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -942,7 +921,7 @@ First included in: portals/IdeaForum (this entity)
 ### <a href=#name name="name">name</a>
 
 Shows the name or title of the idea forum.  
-First included in: portals/IdeaForum (this entity)  
+First included in: portals/IdeaForum  (this entity)  
 
 #### Properties
 
@@ -951,7 +930,7 @@ First included in: portals/IdeaForum (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the name attribute are listed below.</summary>
+<summary>List of traits for the  name  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -983,7 +962,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#commentPolicy name="commentPolicy">commentPolicy</a>
 
 Shows the default comment policy to be used on ideas in this idea forum.  
-First included in: portals/IdeaForum (this entity)  
+First included in: portals/IdeaForum  (this entity)  
 
 #### Properties
 
@@ -992,11 +971,11 @@ First included in: portals/IdeaForum (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the commentPolicy attribute are listed below.</summary>
+<summary>List of traits for the  commentPolicy  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Open</td><td>100000000</td></tr><tr><td>en</td><td>Open to Authenticated Users</td><td>100000001</td></tr><tr><td>en</td><td>Moderated</td><td>100000002</td></tr><tr><td>en</td><td>Closed</td><td>100000003</td></tr><tr><td>en</td><td>None</td><td>100000004</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>None</td><td>100000004</td></tr><tr><td>en</td><td>Closed</td><td>100000003</td></tr><tr><td>en</td><td>Moderated</td><td>100000002</td></tr><tr><td>en</td><td>Open to Authenticated Users</td><td>100000001</td></tr><tr><td>en</td><td>Open</td><td>100000000</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1023,7 +1002,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#commentPolicy_display name="commentPolicy_display">commentPolicy_display</a>
 
-First included in: portals/IdeaForum (this entity)  
+First included in: portals/IdeaForum  (this entity)  
 
 #### Properties
 
@@ -1032,7 +1011,7 @@ First included in: portals/IdeaForum (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the commentPolicy_display attribute are listed below.</summary>
+<summary>List of traits for the  commentPolicy_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1047,7 +1026,7 @@ First included in: portals/IdeaForum (this entity)
 ### <a href=#ideaSubmissionPolicy name="ideaSubmissionPolicy">ideaSubmissionPolicy</a>
 
 Indicates the policy to be enforced for user submitted ideas in this idea forum.  
-First included in: portals/IdeaForum (this entity)  
+First included in: portals/IdeaForum  (this entity)  
 
 #### Properties
 
@@ -1056,11 +1035,11 @@ First included in: portals/IdeaForum (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the ideaSubmissionPolicy attribute are listed below.</summary>
+<summary>List of traits for the  ideaSubmissionPolicy  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Open</td><td>100000000</td></tr><tr><td>en</td><td>Open to Authenticated Users</td><td>100000001</td></tr><tr><td>en</td><td>Moderated</td><td>100000002</td></tr><tr><td>en</td><td>Closed</td><td>100000003</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Closed</td><td>100000003</td></tr><tr><td>en</td><td>Moderated</td><td>100000002</td></tr><tr><td>en</td><td>Open to Authenticated Users</td><td>100000001</td></tr><tr><td>en</td><td>Open</td><td>100000000</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1087,7 +1066,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#ideaSubmissionPolicy_display name="ideaSubmissionPolicy_display">ideaSubmissionPolicy_display</a>
 
-First included in: portals/IdeaForum (this entity)  
+First included in: portals/IdeaForum  (this entity)  
 
 #### Properties
 
@@ -1096,7 +1075,7 @@ First included in: portals/IdeaForum (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the ideaSubmissionPolicy_display attribute are listed below.</summary>
+<summary>List of traits for the  ideaSubmissionPolicy_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1111,7 +1090,7 @@ First included in: portals/IdeaForum (this entity)
 ### <a href=#partialURL name="partialURL">partialURL</a>
 
 Shows the URL path fragment used to generate a URL for this idea forum.  
-First included in: portals/IdeaForum (this entity)  
+First included in: portals/IdeaForum  (this entity)  
 
 #### Properties
 
@@ -1120,7 +1099,7 @@ First included in: portals/IdeaForum (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the partialURL attribute are listed below.</summary>
+<summary>List of traits for the  partialURL  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1152,7 +1131,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#summary name="summary">summary</a>
 
 Type a description of this idea forum's purpose.  
-First included in: portals/IdeaForum (this entity)  
+First included in: portals/IdeaForum  (this entity)  
 
 #### Properties
 
@@ -1161,7 +1140,7 @@ First included in: portals/IdeaForum (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the summary attribute are listed below.</summary>
+<summary>List of traits for the  summary  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1192,7 +1171,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#votesPerIdea name="votesPerIdea">votesPerIdea</a>
 
 Shows the number of votes a user is allowed for a single idea belonging to this idea forum.  
-First included in: portals/IdeaForum (this entity)  
+First included in: portals/IdeaForum  (this entity)  
 
 #### Properties
 
@@ -1201,7 +1180,7 @@ First included in: portals/IdeaForum (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the votesPerIdea attribute are listed below.</summary>
+<summary>List of traits for the  votesPerIdea  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1230,7 +1209,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#votesPerUser name="votesPerUser">votesPerUser</a>
 
 Shows the number of votes a user is allowed to use in this idea forum.  
-First included in: portals/IdeaForum (this entity)  
+First included in: portals/IdeaForum  (this entity)  
 
 #### Properties
 
@@ -1239,7 +1218,7 @@ First included in: portals/IdeaForum (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the votesPerUser attribute are listed below.</summary>
+<summary>List of traits for the  votesPerUser  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1268,7 +1247,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#votingPolicy name="votingPolicy">votingPolicy</a>
 
 Indicates the voting policy to be used for this idea forum.  
-First included in: portals/IdeaForum (this entity)  
+First included in: portals/IdeaForum  (this entity)  
 
 #### Properties
 
@@ -1277,11 +1256,11 @@ First included in: portals/IdeaForum (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the votingPolicy attribute are listed below.</summary>
+<summary>List of traits for the  votingPolicy  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Open</td><td>100000000</td></tr><tr><td>en</td><td>Open to Authenticated Users</td><td>100000001</td></tr><tr><td>en</td><td>Closed</td><td>100000002</td></tr><tr><td>en</td><td>None</td><td>100000003</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>None</td><td>100000003</td></tr><tr><td>en</td><td>Closed</td><td>100000002</td></tr><tr><td>en</td><td>Open to Authenticated Users</td><td>100000001</td></tr><tr><td>en</td><td>Open</td><td>100000000</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1308,7 +1287,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#votingPolicy_display name="votingPolicy_display">votingPolicy_display</a>
 
-First included in: portals/IdeaForum (this entity)  
+First included in: portals/IdeaForum  (this entity)  
 
 #### Properties
 
@@ -1317,7 +1296,7 @@ First included in: portals/IdeaForum (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the votingPolicy_display attribute are listed below.</summary>
+<summary>List of traits for the  votingPolicy_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1332,7 +1311,7 @@ First included in: portals/IdeaForum (this entity)
 ### <a href=#votingType name="votingType">votingType</a>
 
 Shows the type of voting that this idea forum allows.  
-First included in: portals/IdeaForum (this entity)  
+First included in: portals/IdeaForum  (this entity)  
 
 #### Properties
 
@@ -1341,11 +1320,11 @@ First included in: portals/IdeaForum (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the votingType attribute are listed below.</summary>
+<summary>List of traits for the  votingType  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Up Only</td><td>100000000</td></tr><tr><td>en</td><td>Up or Down</td><td>100000001</td></tr><tr><td>en</td><td>Rating</td><td>100000002</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Rating</td><td>100000002</td></tr><tr><td>en</td><td>Up or Down</td><td>100000001</td></tr><tr><td>en</td><td>Up Only</td><td>100000000</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1372,7 +1351,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#votingType_display name="votingType_display">votingType_display</a>
 
-First included in: portals/IdeaForum (this entity)  
+First included in: portals/IdeaForum  (this entity)  
 
 #### Properties
 
@@ -1381,7 +1360,7 @@ First included in: portals/IdeaForum (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the votingType_display attribute are listed below.</summary>
+<summary>List of traits for the  votingType_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1396,7 +1375,7 @@ First included in: portals/IdeaForum (this entity)
 ### <a href=#websiteId name="websiteId">websiteId</a>
 
 Shows the website associated with the idea forum.  
-First included in: portals/IdeaForum (this entity)  
+First included in: portals/IdeaForum  (this entity)  
 
 #### Properties
 
@@ -1405,7 +1384,7 @@ First included in: portals/IdeaForum (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the websiteId attribute are listed below.</summary>
+<summary>List of traits for the  websiteId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1433,15 +1412,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>46</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="Website.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Website.cdm.json/Website</a></td><td><a href="Website.md#websiteId" target="_blank">websiteId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#websiteLanguageId name="websiteLanguageId">websiteLanguageId</a>
 
 Option to make idea forums language specific  
-First included in: portals/IdeaForum (this entity)  
+First included in: portals/IdeaForum  (this entity)  
 
 #### Properties
 
@@ -1450,7 +1426,7 @@ First included in: portals/IdeaForum (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the websiteLanguageId attribute are listed below.</summary>
+<summary>List of traits for the  websiteLanguageId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1477,8 +1453,5 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>47</td><td>integer</td><td></td></tr></table>
-
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="WebsiteLanguage.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebsiteLanguage.cdm.json/WebsiteLanguage</a></td><td><a href="WebsiteLanguage.md#websiteLanguageId" target="_blank">websiteLanguageId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 </details>

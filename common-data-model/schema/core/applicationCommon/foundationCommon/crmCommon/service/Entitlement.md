@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/12/2019
+ms.date: 2/13/2019
 ms.author: tpalmer
 ---
 
@@ -13,6 +13,12 @@ ms.author: tpalmer
 Defines the amount and type of support a customer should receive.  
   
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/Entitlement.cdm.json" target="_blank">GitHub</a>.  
+
+## Instances
+
+Instances of this entity are listed below:  
+
+service/Entitlement  
 
 ## Traits
 
@@ -42,12 +48,6 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>Entitlement</td><td>string</td><td></td></tr></table>
 
 </details>
-
-## Instances
-
-Instances of this entity are listed below:  
-
-service/Entitlement  
 
 ## Attributes
 
@@ -104,7 +104,7 @@ service/Entitlement
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: service/Entitlement (this entity)  
+First included in: service/Entitlement  (this entity)  
 
 #### Properties
 
@@ -113,7 +113,7 @@ First included in: service/Entitlement (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the createdOn attribute are listed below.</summary>
+<summary>List of traits for the  createdOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -143,7 +143,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: service/Entitlement (this entity)  
+First included in: service/Entitlement  (this entity)  
 
 #### Properties
 
@@ -152,7 +152,7 @@ First included in: service/Entitlement (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the createdBy attribute are listed below.</summary>
+<summary>List of traits for the  createdBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -183,15 +183,12 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>createdby</td><td>string</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: service/Entitlement (this entity)  
+First included in: service/Entitlement  (this entity)  
 
 #### Properties
 
@@ -200,7 +197,7 @@ First included in: service/Entitlement (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedOn attribute are listed below.</summary>
+<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -230,7 +227,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: service/Entitlement (this entity)  
+First included in: service/Entitlement  (this entity)  
 
 #### Properties
 
@@ -239,7 +236,7 @@ First included in: service/Entitlement (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedBy attribute are listed below.</summary>
+<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -270,15 +267,12 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>modifiedby</td><td>string</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: service/Entitlement (this entity)  
+First included in: service/Entitlement  (this entity)  
 
 #### Properties
 
@@ -287,7 +281,7 @@ First included in: service/Entitlement (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
+<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -318,15 +312,12 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>createdonbehalfby</td><td>string</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: service/Entitlement (this entity)  
+First included in: service/Entitlement  (this entity)  
 
 #### Properties
 
@@ -335,7 +326,7 @@ First included in: service/Entitlement (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
+<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -366,15 +357,12 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>modifiedonbehalfby</td><td>string</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: service/Entitlement (this entity)  
+First included in: service/Entitlement  (this entity)  
 
 #### Properties
 
@@ -383,7 +371,7 @@ First included in: service/Entitlement (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
+<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -413,7 +401,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: service/Entitlement (this entity)  
+First included in: service/Entitlement  (this entity)  
 
 #### Properties
 
@@ -422,7 +410,7 @@ First included in: service/Entitlement (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
+<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -448,7 +436,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: service/Entitlement (this entity)  
+First included in: service/Entitlement  (this entity)  
 
 #### Properties
 
@@ -457,7 +445,7 @@ First included in: service/Entitlement (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the ownerIdType attribute are listed below.</summary>
+<summary>List of traits for the  ownerIdType  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -487,7 +475,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: service/Entitlement (this entity)  
+First included in: service/Entitlement  (this entity)  
 
 #### Properties
 
@@ -496,7 +484,7 @@ First included in: service/Entitlement (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the ownerId attribute are listed below.</summary>
+<summary>List of traits for the  ownerId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -522,7 +510,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>ownerid</td><td>string</td><td></td></tr></table>
 
 - **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="../../../Team.md" target="_blank">/core/applicationCommon/Team.cdm.json/Team</a></td><td><a href="../../../Team.md#teamId" target="_blank">teamId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  
 
 - **is.CDS.owner**  
 contains a User or Team ID  
@@ -532,7 +520,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: service/Entitlement (this entity)  
+First included in: service/Entitlement  (this entity)  
 
 #### Properties
 
@@ -541,7 +529,7 @@ First included in: service/Entitlement (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
+<summary>List of traits for the  owningBusinessUnit  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -569,15 +557,12 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>owningbusinessunit</td><td>string</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../BusinessUnit.md" target="_blank">/core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit</a></td><td><a href="../../../BusinessUnit.md#businessUnitId" target="_blank">businessUnitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: service/Entitlement (this entity)  
+First included in: service/Entitlement  (this entity)  
 
 #### Properties
 
@@ -586,7 +571,7 @@ First included in: service/Entitlement (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the owningUser attribute are listed below.</summary>
+<summary>List of traits for the  owningUser  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -617,15 +602,12 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>owninguser</td><td>string</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="User.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User</a></td><td><a href="User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: service/Entitlement (this entity)  
+First included in: service/Entitlement  (this entity)  
 
 #### Properties
 
@@ -634,7 +616,7 @@ First included in: service/Entitlement (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the owningTeam attribute are listed below.</summary>
+<summary>List of traits for the  owningTeam  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -662,15 +644,12 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>owningteam</td><td>string</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Team.md" target="_blank">/core/applicationCommon/Team.cdm.json/Team</a></td><td><a href="../../../Team.md#teamId" target="_blank">teamId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: service/Entitlement (this entity)  
+First included in: service/Entitlement  (this entity)  
 
 #### Properties
 
@@ -679,7 +658,7 @@ First included in: service/Entitlement (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
+<summary>List of traits for the  timeZoneRuleVersionNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -708,7 +687,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: service/Entitlement (this entity)  
+First included in: service/Entitlement  (this entity)  
 
 #### Properties
 
@@ -717,7 +696,7 @@ First included in: service/Entitlement (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
+<summary>List of traits for the  UTCConversionTimeZoneCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -746,7 +725,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: service/Entitlement (this entity)  
+First included in: service/Entitlement  (this entity)  
 
 #### Properties
 
@@ -755,7 +734,7 @@ First included in: service/Entitlement (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the versionNumber attribute are listed below.</summary>
+<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -783,7 +762,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#entitlementId name="entitlementId">entitlementId</a>
 
 Unique identifier for entity instances  
-First included in: service/Entitlement (this entity)  
+First included in: service/Entitlement  (this entity)  
 
 #### Properties
 
@@ -792,7 +771,7 @@ First included in: service/Entitlement (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the entitlementId attribute are listed below.</summary>
+<summary>List of traits for the  entitlementId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -822,7 +801,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#emailAddress name="emailAddress">emailAddress</a>
 
 The primary email address for the entity.  
-First included in: service/Entitlement (this entity)  
+First included in: service/Entitlement  (this entity)  
 
 #### Properties
 
@@ -831,7 +810,7 @@ First included in: service/Entitlement (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the emailAddress attribute are listed below.</summary>
+<summary>List of traits for the  emailAddress  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -863,7 +842,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#name name="name">name</a>
 
 Type a meaningful name for the entitlement.  
-First included in: service/Entitlement (this entity)  
+First included in: service/Entitlement  (this entity)  
 
 #### Properties
 
@@ -872,7 +851,7 @@ First included in: service/Entitlement (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the name attribute are listed below.</summary>
+<summary>List of traits for the  name  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -904,7 +883,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#processId name="processId">processId</a>
 
 Contains the id of the process associated with the entity.  
-First included in: service/Entitlement (this entity)  
+First included in: service/Entitlement  (this entity)  
 
 #### Properties
 
@@ -913,7 +892,7 @@ First included in: service/Entitlement (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the processId attribute are listed below.</summary>
+<summary>List of traits for the  processId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -942,7 +921,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stageId name="stageId">stageId</a>
 
 Contains the id of the stage where the entity is located.  
-First included in: service/Entitlement (this entity)  
+First included in: service/Entitlement  (this entity)  
 
 #### Properties
 
@@ -951,7 +930,7 @@ First included in: service/Entitlement (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the stageId attribute are listed below.</summary>
+<summary>List of traits for the  stageId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -980,7 +959,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#traversedPath name="traversedPath">traversedPath</a>
 
 A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.  
-First included in: service/Entitlement (this entity)  
+First included in: service/Entitlement  (this entity)  
 
 #### Properties
 
@@ -989,7 +968,7 @@ First included in: service/Entitlement (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the traversedPath attribute are listed below.</summary>
+<summary>List of traits for the  traversedPath  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1020,7 +999,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#allocationTypeCode name="allocationTypeCode">allocationTypeCode</a>
 
 Select the type of entitlement terms.  
-First included in: service/Entitlement (this entity)  
+First included in: service/Entitlement  (this entity)  
 
 #### Properties
 
@@ -1029,11 +1008,11 @@ First included in: service/Entitlement (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the allocationTypeCode attribute are listed below.</summary>
+<summary>List of traits for the  allocationTypeCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Number of cases</td><td>0</td></tr><tr><td>en</td><td>Number of hours</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Number of hours</td><td>1</td></tr><tr><td>en</td><td>Number of cases</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1060,7 +1039,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#allocationTypeCode_display name="allocationTypeCode_display">allocationTypeCode_display</a>
 
-First included in: service/Entitlement (this entity)  
+First included in: service/Entitlement  (this entity)  
 
 #### Properties
 
@@ -1069,7 +1048,7 @@ First included in: service/Entitlement (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the allocationTypeCode_display attribute are listed below.</summary>
+<summary>List of traits for the  allocationTypeCode_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1084,7 +1063,7 @@ First included in: service/Entitlement (this entity)
 ### <a href=#description name="description">description</a>
 
 Type additional information to describe the Entitlement  
-First included in: service/Entitlement (this entity)  
+First included in: service/Entitlement  (this entity)  
 
 #### Properties
 
@@ -1093,7 +1072,7 @@ First included in: service/Entitlement (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the description attribute are listed below.</summary>
+<summary>List of traits for the  description  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1124,7 +1103,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#customerIdType name="customerIdType">customerIdType</a>
 
 The type of customer, either Account or Contact.  
-First included in: service/Entitlement (this entity)  
+First included in: service/Entitlement  (this entity)  
 
 #### Properties
 
@@ -1133,7 +1112,7 @@ First included in: service/Entitlement (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the customerIdType attribute are listed below.</summary>
+<summary>List of traits for the  customerIdType  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1160,7 +1139,7 @@ contains an Account or Contact ID
 ### <a href=#customerId name="customerId">customerId</a>
 
 The customer account or contact to provide a quick link to additional customer details, such as account information, activities, and opportunities.  
-First included in: service/Entitlement (this entity)  
+First included in: service/Entitlement  (this entity)  
 
 #### Properties
 
@@ -1169,7 +1148,7 @@ First included in: service/Entitlement (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the customerId attribute are listed below.</summary>
+<summary>List of traits for the  customerId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1195,7 +1174,7 @@ The attribute value may be set to NULL.
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>customerid</td><td>string</td><td></td></tr></table>
 
 - **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Contact.md" target="_blank">/core/applicationCommon/Contact.cdm.json/Contact</a></td><td><a href="../../../Contact.md#contactId" target="_blank">contactId</a></td></tr><tr><td><a href="../../../Account.md" target="_blank">/core/applicationCommon/Account.cdm.json/Account</a></td><td><a href="../../../Account.md#accountId" target="_blank">accountId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  
 
 - **is.CDS.customer**  
 contains an Account or Contact ID  
@@ -1205,7 +1184,7 @@ contains an Account or Contact ID
 ### <a href=#decreaseRemainingOn name="decreaseRemainingOn">decreaseRemainingOn</a>
 
 Select whether to decrease the remaining terms when the case is created or when it is resolved.  
-First included in: service/Entitlement (this entity)  
+First included in: service/Entitlement  (this entity)  
 
 #### Properties
 
@@ -1214,11 +1193,11 @@ First included in: service/Entitlement (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the decreaseRemainingOn attribute are listed below.</summary>
+<summary>List of traits for the  decreaseRemainingOn  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Case Resolution</td><td>0</td></tr><tr><td>en</td><td>Case Creation</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Case Creation</td><td>1</td></tr><tr><td>en</td><td>Case Resolution</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1245,7 +1224,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#decreaseRemainingOn_display name="decreaseRemainingOn_display">decreaseRemainingOn_display</a>
 
-First included in: service/Entitlement (this entity)  
+First included in: service/Entitlement  (this entity)  
 
 #### Properties
 
@@ -1254,7 +1233,7 @@ First included in: service/Entitlement (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the decreaseRemainingOn_display attribute are listed below.</summary>
+<summary>List of traits for the  decreaseRemainingOn_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1269,7 +1248,7 @@ First included in: service/Entitlement (this entity)
 ### <a href=#endDate name="endDate">endDate</a>
 
 Enter the date when the entitlement ends.  
-First included in: service/Entitlement (this entity)  
+First included in: service/Entitlement  (this entity)  
 
 #### Properties
 
@@ -1278,7 +1257,7 @@ First included in: service/Entitlement (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the endDate attribute are listed below.</summary>
+<summary>List of traits for the  endDate  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1307,7 +1286,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#entitlementTemplateId name="entitlementTemplateId">entitlementTemplateId</a>
 
 Unique identifier for Entitlement Template associated with Entitlement.  
-First included in: service/Entitlement (this entity)  
+First included in: service/Entitlement  (this entity)  
 
 #### Properties
 
@@ -1316,7 +1295,7 @@ First included in: service/Entitlement (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the entitlementTemplateId attribute are listed below.</summary>
+<summary>List of traits for the  entitlementTemplateId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1349,7 +1328,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#kbAccessLevel name="kbAccessLevel">kbAccessLevel</a>
 
 Select the access someone will have to the knowledge base on the portal.  
-First included in: service/Entitlement (this entity)  
+First included in: service/Entitlement  (this entity)  
 
 #### Properties
 
@@ -1358,11 +1337,11 @@ First included in: service/Entitlement (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the kbAccessLevel attribute are listed below.</summary>
+<summary>List of traits for the  kbAccessLevel  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Standard</td><td>0</td></tr><tr><td>en</td><td>Premium</td><td>1</td></tr><tr><td>en</td><td>None</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>None</td><td>2</td></tr><tr><td>en</td><td>Premium</td><td>1</td></tr><tr><td>en</td><td>Standard</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1389,7 +1368,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#kbAccessLevel_display name="kbAccessLevel_display">kbAccessLevel_display</a>
 
-First included in: service/Entitlement (this entity)  
+First included in: service/Entitlement  (this entity)  
 
 #### Properties
 
@@ -1398,7 +1377,7 @@ First included in: service/Entitlement (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the kbAccessLevel_display attribute are listed below.</summary>
+<summary>List of traits for the  kbAccessLevel_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1413,7 +1392,7 @@ First included in: service/Entitlement (this entity)
 ### <a href=#remainingTerms name="remainingTerms">remainingTerms</a>
 
 Type the total number of entitlement terms that are left.  
-First included in: service/Entitlement (this entity)  
+First included in: service/Entitlement  (this entity)  
 
 #### Properties
 
@@ -1422,7 +1401,7 @@ First included in: service/Entitlement (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the remainingTerms attribute are listed below.</summary>
+<summary>List of traits for the  remainingTerms  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1453,7 +1432,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#restrictCaseCreation name="restrictCaseCreation">restrictCaseCreation</a>
 
 Tells whether case creation is restricted based on entitlement terms.  
-First included in: service/Entitlement (this entity)  
+First included in: service/Entitlement  (this entity)  
 
 #### Properties
 
@@ -1462,7 +1441,7 @@ First included in: service/Entitlement (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the restrictCaseCreation attribute are listed below.</summary>
+<summary>List of traits for the  restrictCaseCreation  attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1488,7 +1467,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#SLAId name="SLAId">SLAId</a>
 
 Choose the service level agreement (SLA) associated with the entitlement.  
-First included in: service/Entitlement (this entity)  
+First included in: service/Entitlement  (this entity)  
 
 #### Properties
 
@@ -1497,7 +1476,7 @@ First included in: service/Entitlement (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the SLAId attribute are listed below.</summary>
+<summary>List of traits for the  SLAId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1525,15 +1504,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10046</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../SLA.md" target="_blank">/core/applicationCommon/SLA.cdm.json/SLA</a></td><td><a href="../../../SLA.md#SLAId" target="_blank">SLAId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#startDate name="startDate">startDate</a>
 
 Enter the date when the entitlement starts.  
-First included in: service/Entitlement (this entity)  
+First included in: service/Entitlement  (this entity)  
 
 #### Properties
 
@@ -1542,7 +1518,7 @@ First included in: service/Entitlement (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the startDate attribute are listed below.</summary>
+<summary>List of traits for the  startDate  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1571,7 +1547,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 For internal use only.  
-First included in: service/Entitlement (this entity)  
+First included in: service/Entitlement  (this entity)  
 
 #### Properties
 
@@ -1580,11 +1556,11 @@ First included in: service/Entitlement (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the stateCode attribute are listed below.</summary>
+<summary>List of traits for the  stateCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Draft</td><td>0</td></tr><tr><td>en</td><td>Active</td><td>1</td></tr><tr><td>en</td><td>Cancelled</td><td>2</td></tr><tr><td>en</td><td>Expired</td><td>3</td></tr><tr><td>en</td><td>Waiting</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Waiting</td><td>4</td></tr><tr><td>en</td><td>Expired</td><td>3</td></tr><tr><td>en</td><td>Cancelled</td><td>2</td></tr><tr><td>en</td><td>Active</td><td>1</td></tr><tr><td>en</td><td>Draft</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1614,7 +1590,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: service/Entitlement (this entity)  
+First included in: service/Entitlement  (this entity)  
 
 #### Properties
 
@@ -1623,7 +1599,7 @@ First included in: service/Entitlement (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the stateCode_display attribute are listed below.</summary>
+<summary>List of traits for the  stateCode_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1638,20 +1614,20 @@ First included in: service/Entitlement (this entity)
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Select the reason code that explains the status of the entitlement.  
-First included in: service/Entitlement (this entity)  
+First included in: service/Entitlement  (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Code</td></tr><tr><td>description</td><td>Select the reason code that explains the status of the entitlement.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Draft</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Active</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Cancelled</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Expired</td><td>3</td><td>3</td></tr><tr><td>en</td><td>Waiting</td><td>1200</td><td>4</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Code</td></tr><tr><td>description</td><td>Select the reason code that explains the status of the entitlement.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Draft</td><td>0</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Active</td><td>1</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Cancelled</td><td>2</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Expired</td><td>3</td><td>3</td><td>3</td></tr><tr><td>en</td><td>Waiting</td><td>1200</td><td>4</td><td>4</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the statusCode attribute are listed below.</summary>
+<summary>List of traits for the  statusCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Draft</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Active</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Cancelled</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Expired</td><td>3</td><td>3</td></tr><tr><td>en</td><td>Waiting</td><td>1200</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Draft</td><td>0</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Active</td><td>1</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Cancelled</td><td>2</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Expired</td><td>3</td><td>3</td><td>3</td></tr><tr><td>en</td><td>Waiting</td><td>1200</td><td>4</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1681,7 +1657,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: service/Entitlement (this entity)  
+First included in: service/Entitlement  (this entity)  
 
 #### Properties
 
@@ -1690,7 +1666,7 @@ First included in: service/Entitlement (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the statusCode_display attribute are listed below.</summary>
+<summary>List of traits for the  statusCode_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1705,7 +1681,7 @@ First included in: service/Entitlement (this entity)
 ### <a href=#totalTerms name="totalTerms">totalTerms</a>
 
 Type the total number of entitlement terms.  
-First included in: service/Entitlement (this entity)  
+First included in: service/Entitlement  (this entity)  
 
 #### Properties
 
@@ -1714,7 +1690,7 @@ First included in: service/Entitlement (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the totalTerms attribute are listed below.</summary>
+<summary>List of traits for the  totalTerms  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1745,7 +1721,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#isDefault name="isDefault">isDefault</a>
 
 Shows whether this entitlement is the default one for the specified customer.  
-First included in: service/Entitlement (this entity)  
+First included in: service/Entitlement  (this entity)  
 
 #### Properties
 
@@ -1754,7 +1730,7 @@ First included in: service/Entitlement (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the isDefault attribute are listed below.</summary>
+<summary>List of traits for the  isDefault  attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1780,7 +1756,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#accountId name="accountId">accountId</a>
 
 Unique identifier for Account associated with Entitlement.  
-First included in: service/Entitlement (this entity)  
+First included in: service/Entitlement  (this entity)  
 
 #### Properties
 
@@ -1789,7 +1765,7 @@ First included in: service/Entitlement (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the accountId attribute are listed below.</summary>
+<summary>List of traits for the  accountId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1817,15 +1793,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10055</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../Account.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/Account.cdm.json/Account</a></td><td><a href="../Account.md#accountId" target="_blank">accountId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#contactId name="contactId">contactId</a>
 
 Unique identifier for Contact associated with Entitlement.  
-First included in: service/Entitlement (this entity)  
+First included in: service/Entitlement  (this entity)  
 
 #### Properties
 
@@ -1834,7 +1807,7 @@ First included in: service/Entitlement (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the contactId attribute are listed below.</summary>
+<summary>List of traits for the  contactId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1862,15 +1835,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10056</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../Contact.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/Contact.cdm.json/Contact</a></td><td><a href="../Contact.md#contactId" target="_blank">contactId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Exchange rate for the currency associated with the contact with respect to the base currency.  
-First included in: service/Entitlement (this entity)  
+First included in: service/Entitlement  (this entity)  
 
 #### Properties
 
@@ -1879,7 +1849,7 @@ First included in: service/Entitlement (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the exchangeRate attribute are listed below.</summary>
+<summary>List of traits for the  exchangeRate  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1910,7 +1880,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Unique identifier of the currency associated with the contact.  
-First included in: service/Entitlement (this entity)  
+First included in: service/Entitlement  (this entity)  
 
 #### Properties
 
@@ -1919,7 +1889,7 @@ First included in: service/Entitlement (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
+<summary>List of traits for the  transactionCurrencyId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1946,8 +1916,5 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10061</td><td>integer</td><td></td></tr></table>
-
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Currency.md" target="_blank">/core/applicationCommon/Currency.cdm.json/Currency</a></td><td><a href="../../../Currency.md#transactionCurrencyId" target="_blank">transactionCurrencyId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 </details>

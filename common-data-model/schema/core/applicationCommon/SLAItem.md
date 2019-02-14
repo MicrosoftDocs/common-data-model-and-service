@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/12/2019
+ms.date: 2/13/2019
 ms.author: tpalmer
 ---
 
@@ -13,6 +13,12 @@ ms.author: tpalmer
 Contains information about a tracked support KPI for a specific customer.  
   
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/SLAItem.cdm.json" target="_blank">GitHub</a>.  
+
+## Instances
+
+Instances of this entity are listed below:  
+
+applicationCommon/SLAItem  
 
 ## Traits
 
@@ -39,12 +45,6 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>SLAItem</td><td>string</td><td></td></tr></table>
 
 </details>
-
-## Instances
-
-Instances of this entity are listed below:  
-
-applicationCommon/SLAItem  
 
 ## Attributes
 
@@ -84,7 +84,7 @@ applicationCommon/SLAItem
 ### <a href=#SLAItemId name="SLAItemId">SLAItemId</a>
 
 Unique identifier of the SLA Item.  
-First included in: applicationCommon/SLAItem (this entity)  
+First included in: applicationCommon/SLAItem  (this entity)  
 
 #### Properties
 
@@ -93,7 +93,7 @@ First included in: applicationCommon/SLAItem (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the SLAItemId attribute are listed below.</summary>
+<summary>List of traits for the  SLAItemId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -123,7 +123,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#name name="name">name</a>
 
 Type a descriptive name of the service level agreement (SLA) item.  
-First included in: applicationCommon/SLAItem (this entity)  
+First included in: applicationCommon/SLAItem  (this entity)  
 
 #### Properties
 
@@ -132,7 +132,7 @@ First included in: applicationCommon/SLAItem (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the name attribute are listed below.</summary>
+<summary>List of traits for the  name  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -161,7 +161,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: applicationCommon/SLAItem (this entity)  
+First included in: applicationCommon/SLAItem  (this entity)  
 
 #### Properties
 
@@ -170,7 +170,7 @@ First included in: applicationCommon/SLAItem (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
+<summary>List of traits for the  owningBusinessUnit  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -203,7 +203,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#description name="description">description</a>
 
 Type additional information to describe the SLA Item  
-First included in: applicationCommon/SLAItem (this entity)  
+First included in: applicationCommon/SLAItem  (this entity)  
 
 #### Properties
 
@@ -212,7 +212,7 @@ First included in: applicationCommon/SLAItem (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the description attribute are listed below.</summary>
+<summary>List of traits for the  description  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -243,7 +243,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#relatedField name="relatedField">relatedField</a>
 
 Select the service level agreement (SLA) key performance indicator (KPI) that this SLA Item is created for.  
-First included in: applicationCommon/SLAItem (this entity)  
+First included in: applicationCommon/SLAItem  (this entity)  
 
 #### Properties
 
@@ -252,7 +252,7 @@ First included in: applicationCommon/SLAItem (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the relatedField attribute are listed below.</summary>
+<summary>List of traits for the  relatedField  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -283,7 +283,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#SLAId name="SLAId">SLAId</a>
 
 Unique identifier for SLA associated with SLA Item.  
-First included in: applicationCommon/SLAItem (this entity)  
+First included in: applicationCommon/SLAItem  (this entity)  
 
 #### Properties
 
@@ -292,7 +292,7 @@ First included in: applicationCommon/SLAItem (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the SLAId attribute are listed below.</summary>
+<summary>List of traits for the  SLAId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -320,15 +320,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>38</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="SLA.md" target="_blank">/core/applicationCommon/SLA.cdm.json/SLA</a></td><td><a href="SLA.md#SLAId" target="_blank">SLAId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.  
-First included in: applicationCommon/SLAItem (this entity)  
+First included in: applicationCommon/SLAItem  (this entity)  
 
 #### Properties
 
@@ -337,7 +334,7 @@ First included in: applicationCommon/SLAItem (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the createdOn attribute are listed below.</summary>
+<summary>List of traits for the  createdOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -367,7 +364,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: applicationCommon/SLAItem (this entity)  
+First included in: applicationCommon/SLAItem  (this entity)  
 
 #### Properties
 
@@ -376,7 +373,7 @@ First included in: applicationCommon/SLAItem (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the createdBy attribute are listed below.</summary>
+<summary>List of traits for the  createdBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -404,15 +401,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>52</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.  
-First included in: applicationCommon/SLAItem (this entity)  
+First included in: applicationCommon/SLAItem  (this entity)  
 
 #### Properties
 
@@ -421,7 +415,7 @@ First included in: applicationCommon/SLAItem (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedOn attribute are listed below.</summary>
+<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -451,7 +445,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: applicationCommon/SLAItem (this entity)  
+First included in: applicationCommon/SLAItem  (this entity)  
 
 #### Properties
 
@@ -460,7 +454,7 @@ First included in: applicationCommon/SLAItem (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedBy attribute are listed below.</summary>
+<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -488,15 +482,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>54</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Exchange rate between the currency associated with the SLA Item record and the base currency.  
-First included in: applicationCommon/SLAItem (this entity)  
+First included in: applicationCommon/SLAItem  (this entity)  
 
 #### Properties
 
@@ -505,7 +496,7 @@ First included in: applicationCommon/SLAItem (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the exchangeRate attribute are listed below.</summary>
+<summary>List of traits for the  exchangeRate  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -536,7 +527,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version number of the SLA Item.  
-First included in: applicationCommon/SLAItem (this entity)  
+First included in: applicationCommon/SLAItem  (this entity)  
 
 #### Properties
 
@@ -545,7 +536,7 @@ First included in: applicationCommon/SLAItem (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the versionNumber attribute are listed below.</summary>
+<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -572,7 +563,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Unique identifier of the currency associated with the SLA Item record.  
-First included in: applicationCommon/SLAItem (this entity)  
+First included in: applicationCommon/SLAItem  (this entity)  
 
 #### Properties
 
@@ -581,7 +572,7 @@ First included in: applicationCommon/SLAItem (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
+<summary>List of traits for the  transactionCurrencyId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -609,15 +600,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>58</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="Currency.md" target="_blank">/core/applicationCommon/Currency.cdm.json/Currency</a></td><td><a href="Currency.md#transactionCurrencyId" target="_blank">transactionCurrencyId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#applicableWhenXml name="applicableWhenXml">applicableWhenXml</a>
 
 Condition for SLA item  
-First included in: applicationCommon/SLAItem (this entity)  
+First included in: applicationCommon/SLAItem  (this entity)  
 
 #### Properties
 
@@ -626,7 +614,7 @@ First included in: applicationCommon/SLAItem (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the applicableWhenXml attribute are listed below.</summary>
+<summary>List of traits for the  applicableWhenXml  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -657,7 +645,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#successConditionsXml name="successConditionsXml">successConditionsXml</a>
 
 Condition for SLA item  
-First included in: applicationCommon/SLAItem (this entity)  
+First included in: applicationCommon/SLAItem  (this entity)  
 
 #### Properties
 
@@ -666,7 +654,7 @@ First included in: applicationCommon/SLAItem (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the successConditionsXml attribute are listed below.</summary>
+<summary>List of traits for the  successConditionsXml  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -697,7 +685,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#solutionId name="solutionId">solutionId</a>
 
 Unique identifier of the associated solution.  
-First included in: applicationCommon/SLAItem (this entity)  
+First included in: applicationCommon/SLAItem  (this entity)  
 
 #### Properties
 
@@ -706,7 +694,7 @@ First included in: applicationCommon/SLAItem (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the solutionId attribute are listed below.</summary>
+<summary>List of traits for the  solutionId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -732,7 +720,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#componentState name="componentState">componentState</a>
 
 For internal use only.  
-First included in: applicationCommon/SLAItem (this entity)  
+First included in: applicationCommon/SLAItem  (this entity)  
 
 #### Properties
 
@@ -741,11 +729,11 @@ First included in: applicationCommon/SLAItem (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the componentState attribute are listed below.</summary>
+<summary>List of traits for the  componentState  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Published</td><td>0</td></tr><tr><td>en</td><td>Unpublished</td><td>1</td></tr><tr><td>en</td><td>Deleted</td><td>2</td></tr><tr><td>en</td><td>Deleted Unpublished</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Deleted Unpublished</td><td>3</td></tr><tr><td>en</td><td>Deleted</td><td>2</td></tr><tr><td>en</td><td>Unpublished</td><td>1</td></tr><tr><td>en</td><td>Published</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -769,7 +757,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#componentState_display name="componentState_display">componentState_display</a>
 
-First included in: applicationCommon/SLAItem (this entity)  
+First included in: applicationCommon/SLAItem  (this entity)  
 
 #### Properties
 
@@ -778,7 +766,7 @@ First included in: applicationCommon/SLAItem (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the componentState_display attribute are listed below.</summary>
+<summary>List of traits for the  componentState_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -793,7 +781,7 @@ First included in: applicationCommon/SLAItem (this entity)
 ### <a href=#overwriteTime name="overwriteTime">overwriteTime</a>
 
 For internal use only.  
-First included in: applicationCommon/SLAItem (this entity)  
+First included in: applicationCommon/SLAItem  (this entity)  
 
 #### Properties
 
@@ -802,7 +790,7 @@ First included in: applicationCommon/SLAItem (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the overwriteTime attribute are listed below.</summary>
+<summary>List of traits for the  overwriteTime  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -828,7 +816,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isManaged name="isManaged">isManaged</a>
 
 For internal use only.  
-First included in: applicationCommon/SLAItem (this entity)  
+First included in: applicationCommon/SLAItem  (this entity)  
 
 #### Properties
 
@@ -837,7 +825,7 @@ First included in: applicationCommon/SLAItem (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the isManaged attribute are listed below.</summary>
+<summary>List of traits for the  isManaged  attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -860,7 +848,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#SLAItemIdUnique name="SLAItemIdUnique">SLAItemIdUnique</a>
 
 For internal use only.  
-First included in: applicationCommon/SLAItem (this entity)  
+First included in: applicationCommon/SLAItem  (this entity)  
 
 #### Properties
 
@@ -869,7 +857,7 @@ First included in: applicationCommon/SLAItem (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the SLAItemIdUnique attribute are listed below.</summary>
+<summary>List of traits for the  SLAItemIdUnique  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -895,7 +883,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#sequenceNumber name="sequenceNumber">sequenceNumber</a>
 
 Select the time zone, or UTC offset, for this address so that other people can reference it when they contact someone at this address.  
-First included in: applicationCommon/SLAItem (this entity)  
+First included in: applicationCommon/SLAItem  (this entity)  
 
 #### Properties
 
@@ -904,7 +892,7 @@ First included in: applicationCommon/SLAItem (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the sequenceNumber attribute are listed below.</summary>
+<summary>List of traits for the  sequenceNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -933,7 +921,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#failureAfter name="failureAfter">failureAfter</a>
 
 Select how soon the success criteria must be met until the SLA item is considered failed and failure actions are initiated. The actual duration is based on the business hours as specified in the associated SLA record.  
-First included in: applicationCommon/SLAItem (this entity)  
+First included in: applicationCommon/SLAItem  (this entity)  
 
 #### Properties
 
@@ -942,7 +930,7 @@ First included in: applicationCommon/SLAItem (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the failureAfter attribute are listed below.</summary>
+<summary>List of traits for the  failureAfter  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **means.measurement.duration**  
@@ -972,7 +960,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#warnAfter name="warnAfter">warnAfter</a>
 
 Select how soon the success criteria must be met before warning actions are initiated. The actual duration is based on the business hours as specified in the associated SLA record.  
-First included in: applicationCommon/SLAItem (this entity)  
+First included in: applicationCommon/SLAItem  (this entity)  
 
 #### Properties
 
@@ -981,7 +969,7 @@ First included in: applicationCommon/SLAItem (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the warnAfter attribute are listed below.</summary>
+<summary>List of traits for the  warnAfter  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **means.measurement.duration**  
@@ -1011,7 +999,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user who owns the SLA Item record.  
-First included in: applicationCommon/SLAItem (this entity)  
+First included in: applicationCommon/SLAItem  (this entity)  
 
 #### Properties
 
@@ -1020,7 +1008,7 @@ First included in: applicationCommon/SLAItem (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the owningUser attribute are listed below.</summary>
+<summary>List of traits for the  owningUser  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1053,7 +1041,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: applicationCommon/SLAItem (this entity)  
+First included in: applicationCommon/SLAItem  (this entity)  
 
 #### Properties
 
@@ -1062,7 +1050,7 @@ First included in: applicationCommon/SLAItem (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the ownerIdType attribute are listed below.</summary>
+<summary>List of traits for the  ownerIdType  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1092,7 +1080,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: applicationCommon/SLAItem (this entity)  
+First included in: applicationCommon/SLAItem  (this entity)  
 
 #### Properties
 
@@ -1101,7 +1089,7 @@ First included in: applicationCommon/SLAItem (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the ownerId attribute are listed below.</summary>
+<summary>List of traits for the  ownerId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1127,7 +1115,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>ownerid</td><td>string</td><td></td></tr></table>
 
 - **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="Team.md" target="_blank">/core/applicationCommon/Team.cdm.json/Team</a></td><td><a href="Team.md#teamId" target="_blank">teamId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  
 
 - **is.CDS.owner**  
 contains a User or Team ID  
@@ -1137,7 +1125,7 @@ contains a User or Team ID
 ### <a href=#workflowId name="workflowId">workflowId</a>
 
 Workflow associated with the SLA Item.  
-First included in: applicationCommon/SLAItem (this entity)  
+First included in: applicationCommon/SLAItem  (this entity)  
 
 #### Properties
 
@@ -1146,7 +1134,7 @@ First included in: applicationCommon/SLAItem (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the workflowId attribute are listed below.</summary>
+<summary>List of traits for the  workflowId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1179,7 +1167,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: applicationCommon/SLAItem (this entity)  
+First included in: applicationCommon/SLAItem  (this entity)  
 
 #### Properties
 
@@ -1188,7 +1176,7 @@ First included in: applicationCommon/SLAItem (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
+<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1216,15 +1204,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>200</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: applicationCommon/SLAItem (this entity)  
+First included in: applicationCommon/SLAItem  (this entity)  
 
 #### Properties
 
@@ -1233,7 +1218,7 @@ First included in: applicationCommon/SLAItem (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
+<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1260,8 +1245,5 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>204</td><td>integer</td><td></td></tr></table>
-
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 </details>

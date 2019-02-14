@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/12/2019
+ms.date: 2/13/2019
 ms.author: tpalmer
 ---
 
@@ -13,6 +13,13 @@ ms.author: tpalmer
 Information about how to price a product in the specified price level, including pricing method, rounding option, and discount type based on a specified product unit.  
   
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/PriceListItem.cdm.json" target="_blank">GitHub</a>.  
+
+## Instances
+
+Instances of this entity are listed below:  
+
+[foundationCommon/PriceListItem](../../PriceListItem.md "/core/applicationCommon/foundationCommon/PriceListItem.cdm.json/PriceListItem")  
+sales/PriceListItem  
 
 ## Traits
 
@@ -39,13 +46,6 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>ProductPriceLevel</td><td>string</td><td></td></tr></table>
 
 </details>
-
-## Instances
-
-Instances of this entity are listed below:  
-
-[foundationCommon/PriceListItem](../../PriceListItem.md "/core/applicationCommon/foundationCommon/PriceListItem.cdm.json/PriceListItem")  
-sales/PriceListItem  
 
 ## Attributes
 
@@ -101,7 +101,7 @@ First included in: <a href="../../PriceListItem.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the productPriceLevelId attribute are listed below.</summary>
+<summary>List of traits for the  productPriceLevelId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -140,7 +140,7 @@ First included in: <a href="../../PriceListItem.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the createdOn attribute are listed below.</summary>
+<summary>List of traits for the  createdOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -179,7 +179,7 @@ First included in: <a href="../../PriceListItem.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the createdBy attribute are listed below.</summary>
+<summary>List of traits for the  createdBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -207,9 +207,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10002</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="../service/User.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User</a></td><td><a href="../service/User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
@@ -224,7 +221,7 @@ First included in: <a href="../../PriceListItem.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedOn attribute are listed below.</summary>
+<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -263,7 +260,7 @@ First included in: <a href="../../PriceListItem.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedBy attribute are listed below.</summary>
+<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -291,9 +288,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10004</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="../service/User.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User</a></td><td><a href="../service/User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
@@ -308,7 +302,7 @@ First included in: <a href="../../PriceListItem.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
+<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -336,9 +330,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10005</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="../service/User.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User</a></td><td><a href="../service/User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
@@ -353,7 +344,7 @@ First included in: <a href="../../PriceListItem.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
+<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -381,9 +372,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10006</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="../service/User.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User</a></td><td><a href="../service/User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
@@ -398,7 +386,7 @@ First included in: <a href="../../PriceListItem.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the versionNumber attribute are listed below.</summary>
+<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -434,7 +422,7 @@ First included in: <a href="../../PriceListItem.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
+<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -472,7 +460,7 @@ First included in: <a href="../../PriceListItem.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
+<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -511,7 +499,7 @@ First included in: <a href="../../PriceListItem.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
+<summary>List of traits for the  timeZoneRuleVersionNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -549,7 +537,7 @@ First included in: <a href="../../PriceListItem.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
+<summary>List of traits for the  UTCConversionTimeZoneCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -587,7 +575,7 @@ First included in: <a href="../../PriceListItem.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the processId attribute are listed below.</summary>
+<summary>List of traits for the  processId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -625,7 +613,7 @@ First included in: <a href="../../PriceListItem.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the stageId attribute are listed below.</summary>
+<summary>List of traits for the  stageId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -663,7 +651,7 @@ First included in: <a href="../../PriceListItem.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the traversedPath attribute are listed below.</summary>
+<summary>List of traits for the  traversedPath  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -703,7 +691,7 @@ First included in: <a href="../../PriceListItem.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the amount attribute are listed below.</summary>
+<summary>List of traits for the  amount  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -744,7 +732,7 @@ First included in: <a href="../../PriceListItem.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
+<summary>List of traits for the  transactionCurrencyId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -772,9 +760,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10024</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Currency.md" target="_blank">/core/applicationCommon/Currency.cdm.json/Currency</a></td><td><a href="../../../Currency.md#transactionCurrencyId" target="_blank">transactionCurrencyId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
@@ -789,7 +774,7 @@ First included in: <a href="../../PriceListItem.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the exchangeRate attribute are listed below.</summary>
+<summary>List of traits for the  exchangeRate  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -829,7 +814,7 @@ First included in: <a href="../../PriceListItem.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the amountBase attribute are listed below.</summary>
+<summary>List of traits for the  amountBase  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -873,7 +858,7 @@ First included in: <a href="../../PriceListItem.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the organizationId attribute are listed below.</summary>
+<summary>List of traits for the  organizationId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -908,7 +893,7 @@ First included in: <a href="../../PriceListItem.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the percentage attribute are listed below.</summary>
+<summary>List of traits for the  percentage  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -948,7 +933,7 @@ First included in: <a href="../../PriceListItem.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the priceLevelId attribute are listed below.</summary>
+<summary>List of traits for the  priceLevelId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -973,9 +958,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10030</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../PriceList.md" target="_blank">/core/applicationCommon/foundationCommon/PriceList.cdm.json/PriceList</a></td><td><a href="../../PriceList.md#priceLevelId" target="_blank">priceLevelId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#pricingMethodCode name="pricingMethodCode">pricingMethodCode</a>
@@ -985,16 +967,16 @@ First included in: <a href="../../PriceListItem.md" target="_blank">foundationCo
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Pricing Method</td></tr><tr><td>description</td><td>Pricing method applied to the price list.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>pricingmethodcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Currency Amount</td><td>1</td></tr><tr><td>en</td><td>Percent of List</td><td>2</td></tr><tr><td>en</td><td>Percent Markup - Current Cost</td><td>3</td></tr><tr><td>en</td><td>Percent Margin - Current Cost</td><td>4</td></tr><tr><td>en</td><td>Percent Markup - Standard Cost</td><td>5</td></tr><tr><td>en</td><td>Percent Margin - Standard Cost</td><td>6</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Pricing Method</td></tr><tr><td>description</td><td>Pricing method applied to the price list.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>pricingmethodcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Percent Margin - Standard Cost</td><td>6</td></tr><tr><td>en</td><td>Percent Markup - Standard Cost</td><td>5</td></tr><tr><td>en</td><td>Percent Margin - Current Cost</td><td>4</td></tr><tr><td>en</td><td>Percent Markup - Current Cost</td><td>3</td></tr><tr><td>en</td><td>Percent of List</td><td>2</td></tr><tr><td>en</td><td>Currency Amount</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the pricingMethodCode attribute are listed below.</summary>
+<summary>List of traits for the  pricingMethodCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Currency Amount</td><td>1</td></tr><tr><td>en</td><td>Percent of List</td><td>2</td></tr><tr><td>en</td><td>Percent Markup - Current Cost</td><td>3</td></tr><tr><td>en</td><td>Percent Margin - Current Cost</td><td>4</td></tr><tr><td>en</td><td>Percent Markup - Standard Cost</td><td>5</td></tr><tr><td>en</td><td>Percent Margin - Standard Cost</td><td>6</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Percent Margin - Standard Cost</td><td>6</td></tr><tr><td>en</td><td>Percent Markup - Standard Cost</td><td>5</td></tr><tr><td>en</td><td>Percent Margin - Current Cost</td><td>4</td></tr><tr><td>en</td><td>Percent Markup - Current Cost</td><td>3</td></tr><tr><td>en</td><td>Percent of List</td><td>2</td></tr><tr><td>en</td><td>Currency Amount</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1030,7 +1012,7 @@ First included in: <a href="../../PriceListItem.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the pricingMethodCode_display attribute are listed below.</summary>
+<summary>List of traits for the  pricingMethodCode_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1054,7 +1036,7 @@ First included in: <a href="../../PriceListItem.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the productId attribute are listed below.</summary>
+<summary>List of traits for the  productId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1079,9 +1061,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10033</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../Product.md" target="_blank">/core/applicationCommon/foundationCommon/Product.cdm.json/Product</a></td><td><a href="../../Product.md#productId" target="_blank">productId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#productNumber name="productNumber">productNumber</a>
@@ -1096,7 +1075,7 @@ First included in: <a href="../../PriceListItem.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the productNumber attribute are listed below.</summary>
+<summary>List of traits for the  productNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1128,16 +1107,16 @@ First included in: <a href="../../PriceListItem.md" target="_blank">foundationCo
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Quantity Selling Option</td></tr><tr><td>description</td><td>Quantity of the product that must be sold for a given price level.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>quantitysellingcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No Control</td><td>1</td></tr><tr><td>en</td><td>Whole</td><td>2</td></tr><tr><td>en</td><td>Whole and Fractional</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Quantity Selling Option</td></tr><tr><td>description</td><td>Quantity of the product that must be sold for a given price level.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>quantitysellingcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Whole and Fractional</td><td>3</td></tr><tr><td>en</td><td>Whole</td><td>2</td></tr><tr><td>en</td><td>No Control</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the quantitySellingCode attribute are listed below.</summary>
+<summary>List of traits for the  quantitySellingCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No Control</td><td>1</td></tr><tr><td>en</td><td>Whole</td><td>2</td></tr><tr><td>en</td><td>Whole and Fractional</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Whole and Fractional</td><td>3</td></tr><tr><td>en</td><td>Whole</td><td>2</td></tr><tr><td>en</td><td>No Control</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1173,7 +1152,7 @@ First included in: <a href="../../PriceListItem.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the quantitySellingCode_display attribute are listed below.</summary>
+<summary>List of traits for the  quantitySellingCode_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1197,7 +1176,7 @@ First included in: <a href="../../PriceListItem.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the roundingOptionAmount attribute are listed below.</summary>
+<summary>List of traits for the  roundingOptionAmount  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1238,7 +1217,7 @@ First included in: <a href="../../PriceListItem.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the roundingOptionAmountBase attribute are listed below.</summary>
+<summary>List of traits for the  roundingOptionAmountBase  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1277,16 +1256,16 @@ First included in: <a href="../../PriceListItem.md" target="_blank">foundationCo
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Rounding Option</td></tr><tr><td>description</td><td>Option for rounding the price list.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>roundingoptioncode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Ends in</td><td>1</td></tr><tr><td>en</td><td>Multiple of</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Rounding Option</td></tr><tr><td>description</td><td>Option for rounding the price list.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>roundingoptioncode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Multiple of</td><td>2</td></tr><tr><td>en</td><td>Ends in</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the roundingOptionCode attribute are listed below.</summary>
+<summary>List of traits for the  roundingOptionCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Ends in</td><td>1</td></tr><tr><td>en</td><td>Multiple of</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Multiple of</td><td>2</td></tr><tr><td>en</td><td>Ends in</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1322,7 +1301,7 @@ First included in: <a href="../../PriceListItem.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the roundingOptionCode_display attribute are listed below.</summary>
+<summary>List of traits for the  roundingOptionCode_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1341,16 +1320,16 @@ First included in: <a href="../../PriceListItem.md" target="_blank">foundationCo
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Rounding Policy</td></tr><tr><td>description</td><td>Policy for rounding the price list.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>roundingpolicycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>None</td><td>1</td></tr><tr><td>en</td><td>Up</td><td>2</td></tr><tr><td>en</td><td>Down</td><td>3</td></tr><tr><td>en</td><td>To Nearest</td><td>4</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Rounding Policy</td></tr><tr><td>description</td><td>Policy for rounding the price list.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>roundingpolicycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>To Nearest</td><td>4</td></tr><tr><td>en</td><td>Down</td><td>3</td></tr><tr><td>en</td><td>Up</td><td>2</td></tr><tr><td>en</td><td>None</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the roundingPolicyCode attribute are listed below.</summary>
+<summary>List of traits for the  roundingPolicyCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>None</td><td>1</td></tr><tr><td>en</td><td>Up</td><td>2</td></tr><tr><td>en</td><td>Down</td><td>3</td></tr><tr><td>en</td><td>To Nearest</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>To Nearest</td><td>4</td></tr><tr><td>en</td><td>Down</td><td>3</td></tr><tr><td>en</td><td>Up</td><td>2</td></tr><tr><td>en</td><td>None</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1386,7 +1365,7 @@ First included in: <a href="../../PriceListItem.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the roundingPolicyCode_display attribute are listed below.</summary>
+<summary>List of traits for the  roundingPolicyCode_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1410,7 +1389,7 @@ First included in: <a href="../../PriceListItem.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the uoMId attribute are listed below.</summary>
+<summary>List of traits for the  uoMId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1438,9 +1417,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10043</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../Unit.md" target="_blank">/core/applicationCommon/foundationCommon/Unit.cdm.json/Unit</a></td><td><a href="../../Unit.md#uoMId" target="_blank">uoMId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#uoMScheduleId name="uoMScheduleId">uoMScheduleId</a>
@@ -1455,7 +1431,7 @@ First included in: <a href="../../PriceListItem.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the uoMScheduleId attribute are listed below.</summary>
+<summary>List of traits for the  uoMScheduleId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1483,15 +1459,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10044</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../UnitGroup.md" target="_blank">/core/applicationCommon/foundationCommon/UnitGroup.cdm.json/UnitGroup</a></td><td><a href="../../UnitGroup.md#uoMScheduleId" target="_blank">uoMScheduleId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#discountTypeId name="discountTypeId">discountTypeId</a>
 
 Unique identifier of the discount list associated with the price list.  
-First included in: sales/PriceListItem (this entity)  
+First included in: sales/PriceListItem  (this entity)  
 
 #### Properties
 
@@ -1500,7 +1473,7 @@ First included in: sales/PriceListItem (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the discountTypeId attribute are listed below.</summary>
+<summary>List of traits for the  discountTypeId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1527,8 +1500,5 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10049</td><td>integer</td><td></td></tr></table>
-
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="DiscountList.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/sales/DiscountList.cdm.json/DiscountList</a></td><td><a href="DiscountList.md#discountTypeId" target="_blank">discountTypeId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 </details>

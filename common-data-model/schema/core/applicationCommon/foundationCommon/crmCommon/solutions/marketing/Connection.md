@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/12/2019
+ms.date: 2/13/2019
 ms.author: tpalmer
 ---
 
@@ -13,6 +13,13 @@ ms.author: tpalmer
 Relationship between two entities.  
   
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Connection.cdm.json" target="_blank">GitHub</a>.  
+
+## Instances
+
+Instances of this entity are listed below:  
+
+[applicationCommon/Connection](../../../../Connection.md "/core/applicationCommon/Connection.cdm.json/Connection")  
+marketing/Connection  
 
 ## Traits
 
@@ -42,13 +49,6 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>Connection</td><td>string</td><td></td></tr></table>
 
 </details>
-
-## Instances
-
-Instances of this entity are listed below:  
-
-[applicationCommon/Connection](../../../../Connection.md "/core/applicationCommon/Connection.cdm.json/Connection")  
-marketing/Connection  
 
 ## Attributes
 
@@ -105,7 +105,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedBy attribute are listed below.</summary>
+<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -133,9 +133,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>1</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="../../service/User.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User</a></td><td><a href="../../service/User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#owningUser name="owningUser">owningUser</a>
@@ -150,7 +147,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the owningUser attribute are listed below.</summary>
+<summary>List of traits for the  owningUser  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -187,16 +184,16 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the connection.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the connection.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the statusCode attribute are listed below.</summary>
+<summary>List of traits for the  statusCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -235,7 +232,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the statusCode_display attribute are listed below.</summary>
+<summary>List of traits for the  statusCode_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -259,7 +256,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
+<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -297,7 +294,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the connectionId attribute are listed below.</summary>
+<summary>List of traits for the  connectionId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -336,7 +333,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the versionNumber attribute are listed below.</summary>
+<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -372,7 +369,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the effectiveStart attribute are listed below.</summary>
+<summary>List of traits for the  effectiveStart  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -410,7 +407,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the isMaster attribute are listed below.</summary>
+<summary>List of traits for the  isMaster  attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -442,7 +439,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the ownerIdType attribute are listed below.</summary>
+<summary>List of traits for the  ownerIdType  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -481,7 +478,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the ownerId attribute are listed below.</summary>
+<summary>List of traits for the  ownerId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -507,7 +504,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>ownerid</td><td>string</td><td></td></tr></table>
 
 - **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="../../../../Team.md" target="_blank">/core/applicationCommon/Team.cdm.json/Team</a></td><td><a href="../../../../Team.md#teamId" target="_blank">teamId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  
 
 - **is.CDS.owner**  
 contains a User or Team ID  
@@ -526,7 +523,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the relatedConnectionId attribute are listed below.</summary>
+<summary>List of traits for the  relatedConnectionId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -554,9 +551,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../Connection.md" target="_blank">/core/applicationCommon/Connection.cdm.json/Connection</a></td><td><a href="../../../../Connection.md#connectionId" target="_blank">connectionId</a></td></tr><tr><td><a href="Connection.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Connection.cdm.json/Connection</a></td><td><a href="Connection.md#connectionId" target="_blank">connectionId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#description name="description">description</a>
@@ -571,7 +565,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the description attribute are listed below.</summary>
+<summary>List of traits for the  description  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -611,7 +605,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
+<summary>List of traits for the  owningBusinessUnit  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -639,9 +633,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>12</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../BusinessUnit.md" target="_blank">/core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit</a></td><td><a href="../../../../BusinessUnit.md#businessUnitId" target="_blank">businessUnitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
@@ -656,7 +647,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
+<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -695,7 +686,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the record2IdObjectTypeCode attribute are listed below.</summary>
+<summary>List of traits for the  record2IdObjectTypeCode  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -728,7 +719,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the record2Id attribute are listed below.</summary>
+<summary>List of traits for the  record2Id  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -757,7 +748,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>14</td><td>integer</td><td></td></tr></table>
 
 - **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../SocialActivity.md" target="_blank">/core/applicationCommon/SocialActivity.cdm.json/SocialActivity</a></td><td><a href="../../../../SocialActivity.md#activityId" target="_blank">activityId</a></td></tr><tr><td><a href="../../../../Letter.md" target="_blank">/core/applicationCommon/Letter.cdm.json/Letter</a></td><td><a href="../../../../Letter.md#activityId" target="_blank">activityId</a></td></tr><tr><td><a href="../../../../Email.md" target="_blank">/core/applicationCommon/Email.cdm.json/Email</a></td><td><a href="../../../../Email.md#activityId" target="_blank">activityId</a></td></tr><tr><td><a href="../../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="../../../../Account.md" target="_blank">/core/applicationCommon/Account.cdm.json/Account</a></td><td><a href="../../../../Account.md#accountId" target="_blank">accountId</a></td></tr><tr><td><a href="../../../../Appointment.md" target="_blank">/core/applicationCommon/Appointment.cdm.json/Appointment</a></td><td><a href="../../../../Appointment.md#activityId" target="_blank">activityId</a></td></tr><tr><td><a href="../../../../Contact.md" target="_blank">/core/applicationCommon/Contact.cdm.json/Contact</a></td><td><a href="../../../../Contact.md#contactId" target="_blank">contactId</a></td></tr><tr><td><a href="../../../../Task.md" target="_blank">/core/applicationCommon/Task.cdm.json/Task</a></td><td><a href="../../../../Task.md#activityId" target="_blank">activityId</a></td></tr><tr><td><a href="../../../../SocialProfile.md" target="_blank">/core/applicationCommon/SocialProfile.cdm.json/SocialProfile</a></td><td><a href="../../../../SocialProfile.md#socialProfileId" target="_blank">socialProfileId</a></td></tr><tr><td><a href="../../../../Activity.md" target="_blank">/core/applicationCommon/Activity.cdm.json/Activity</a></td><td><a href="../../../../Activity.md#activityId" target="_blank">activityId</a></td></tr><tr><td><a href="../../../../Goal.md" target="_blank">/core/applicationCommon/Goal.cdm.json/Goal</a></td><td><a href="../../../../Goal.md#goalId" target="_blank">goalId</a></td></tr><tr><td><a href="../../../../KnowledgeBaseRecord.md" target="_blank">/core/applicationCommon/KnowledgeBaseRecord.cdm.json/KnowledgeBaseRecord</a></td><td><a href="../../../../KnowledgeBaseRecord.md#knowledgeBaseRecordId" target="_blank">knowledgeBaseRecordId</a></td></tr><tr><td><a href="../../../../KnowledgeArticle.md" target="_blank">/core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle</a></td><td><a href="../../../../KnowledgeArticle.md#knowledgearticleId" target="_blank">knowledgearticleId</a></td></tr><tr><td><a href="../../../../Position.md" target="_blank">/core/applicationCommon/Position.cdm.json/Position</a></td><td><a href="../../../../Position.md#positionId" target="_blank">positionId</a></td></tr><tr><td><a href="../../../../Fax.md" target="_blank">/core/applicationCommon/Fax.cdm.json/Fax</a></td><td><a href="../../../../Fax.md#activityId" target="_blank">activityId</a></td></tr><tr><td><a href="../../../../Team.md" target="_blank">/core/applicationCommon/Team.cdm.json/Team</a></td><td><a href="../../../../Team.md#teamId" target="_blank">teamId</a></td></tr><tr><td><a href="../../../../RecurringAppointment.md" target="_blank">/core/applicationCommon/RecurringAppointment.cdm.json/RecurringAppointment</a></td><td><a href="../../../../RecurringAppointment.md#activityId" target="_blank">activityId</a></td></tr><tr><td><a href="../../../../PhoneCall.md" target="_blank">/core/applicationCommon/PhoneCall.cdm.json/PhoneCall</a></td><td><a href="../../../../PhoneCall.md#activityId" target="_blank">activityId</a></td></tr><tr><td><a href="../../service/User.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User</a></td><td><a href="../../service/User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  
 
 </details>
 
@@ -773,7 +764,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the createdBy attribute are listed below.</summary>
+<summary>List of traits for the  createdBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -801,9 +792,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>15</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="../../service/User.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User</a></td><td><a href="../../service/User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#record2RoleId name="record2RoleId">record2RoleId</a>
@@ -818,7 +806,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the record2RoleId attribute are listed below.</summary>
+<summary>List of traits for the  record2RoleId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -846,9 +834,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>16</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../ConnectionRole.md" target="_blank">/core/applicationCommon/ConnectionRole.cdm.json/ConnectionRole</a></td><td><a href="../../../../ConnectionRole.md#connectionRoleId" target="_blank">connectionRoleId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#effectiveEnd name="effectiveEnd">effectiveEnd</a>
@@ -863,7 +848,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the effectiveEnd attribute are listed below.</summary>
+<summary>List of traits for the  effectiveEnd  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -901,7 +886,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the record1RoleId attribute are listed below.</summary>
+<summary>List of traits for the  record1RoleId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -929,9 +914,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>18</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../ConnectionRole.md" target="_blank">/core/applicationCommon/ConnectionRole.cdm.json/ConnectionRole</a></td><td><a href="../../../../ConnectionRole.md#connectionRoleId" target="_blank">connectionRoleId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
@@ -946,7 +928,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the createdOn attribute are listed below.</summary>
+<summary>List of traits for the  createdOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -985,7 +967,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedOn attribute are listed below.</summary>
+<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1024,7 +1006,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the record1IdObjectTypeCode attribute are listed below.</summary>
+<summary>List of traits for the  record1IdObjectTypeCode  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1057,7 +1039,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the record1Id attribute are listed below.</summary>
+<summary>List of traits for the  record1Id  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1086,7 +1068,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>21</td><td>integer</td><td></td></tr></table>
 
 - **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../Task.md" target="_blank">/core/applicationCommon/Task.cdm.json/Task</a></td><td><a href="../../../../Task.md#activityId" target="_blank">activityId</a></td></tr><tr><td><a href="../../../../RecurringAppointment.md" target="_blank">/core/applicationCommon/RecurringAppointment.cdm.json/RecurringAppointment</a></td><td><a href="../../../../RecurringAppointment.md#activityId" target="_blank">activityId</a></td></tr><tr><td><a href="../../../../SocialProfile.md" target="_blank">/core/applicationCommon/SocialProfile.cdm.json/SocialProfile</a></td><td><a href="../../../../SocialProfile.md#socialProfileId" target="_blank">socialProfileId</a></td></tr><tr><td><a href="../../../../PhoneCall.md" target="_blank">/core/applicationCommon/PhoneCall.cdm.json/PhoneCall</a></td><td><a href="../../../../PhoneCall.md#activityId" target="_blank">activityId</a></td></tr><tr><td><a href="../../../../Team.md" target="_blank">/core/applicationCommon/Team.cdm.json/Team</a></td><td><a href="../../../../Team.md#teamId" target="_blank">teamId</a></td></tr><tr><td><a href="../../../../Fax.md" target="_blank">/core/applicationCommon/Fax.cdm.json/Fax</a></td><td><a href="../../../../Fax.md#activityId" target="_blank">activityId</a></td></tr><tr><td><a href="../../../../Account.md" target="_blank">/core/applicationCommon/Account.cdm.json/Account</a></td><td><a href="../../../../Account.md#accountId" target="_blank">accountId</a></td></tr><tr><td><a href="../../../../KnowledgeArticle.md" target="_blank">/core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle</a></td><td><a href="../../../../KnowledgeArticle.md#knowledgearticleId" target="_blank">knowledgearticleId</a></td></tr><tr><td><a href="../../../../Letter.md" target="_blank">/core/applicationCommon/Letter.cdm.json/Letter</a></td><td><a href="../../../../Letter.md#activityId" target="_blank">activityId</a></td></tr><tr><td><a href="../../../../Goal.md" target="_blank">/core/applicationCommon/Goal.cdm.json/Goal</a></td><td><a href="../../../../Goal.md#goalId" target="_blank">goalId</a></td></tr><tr><td><a href="../../../../Activity.md" target="_blank">/core/applicationCommon/Activity.cdm.json/Activity</a></td><td><a href="../../../../Activity.md#activityId" target="_blank">activityId</a></td></tr><tr><td><a href="../../../../Contact.md" target="_blank">/core/applicationCommon/Contact.cdm.json/Contact</a></td><td><a href="../../../../Contact.md#contactId" target="_blank">contactId</a></td></tr><tr><td><a href="../../../../Email.md" target="_blank">/core/applicationCommon/Email.cdm.json/Email</a></td><td><a href="../../../../Email.md#activityId" target="_blank">activityId</a></td></tr><tr><td><a href="../../../../Position.md" target="_blank">/core/applicationCommon/Position.cdm.json/Position</a></td><td><a href="../../../../Position.md#positionId" target="_blank">positionId</a></td></tr><tr><td><a href="../../../../Appointment.md" target="_blank">/core/applicationCommon/Appointment.cdm.json/Appointment</a></td><td><a href="../../../../Appointment.md#activityId" target="_blank">activityId</a></td></tr><tr><td><a href="../../../../KnowledgeBaseRecord.md" target="_blank">/core/applicationCommon/KnowledgeBaseRecord.cdm.json/KnowledgeBaseRecord</a></td><td><a href="../../../../KnowledgeBaseRecord.md#knowledgeBaseRecordId" target="_blank">knowledgeBaseRecordId</a></td></tr><tr><td><a href="../../../../SocialActivity.md" target="_blank">/core/applicationCommon/SocialActivity.cdm.json/SocialActivity</a></td><td><a href="../../../../SocialActivity.md#activityId" target="_blank">activityId</a></td></tr><tr><td><a href="../../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="../../service/User.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User</a></td><td><a href="../../service/User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  
 
 </details>
 
@@ -1097,16 +1079,16 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Shows whether the connection is active or inactive. Inactive connections are read-only and can't be edited unless they are reactivated.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Shows whether the connection is active or inactive. Inactive connections are read-only and can't be edited unless they are reactivated.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr><tr><td>en</td><td>Active</td><td>0</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the stateCode attribute are listed below.</summary>
+<summary>List of traits for the  stateCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr><tr><td>en</td><td>Active</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1142,7 +1124,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the stateCode_display attribute are listed below.</summary>
+<summary>List of traits for the  stateCode_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1166,7 +1148,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
+<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1194,9 +1176,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>38</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="../../service/User.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User</a></td><td><a href="../../service/User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
@@ -1211,7 +1190,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
+<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1239,9 +1218,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>42</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="../../service/User.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User</a></td><td><a href="../../service/User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
@@ -1256,7 +1232,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the owningTeam attribute are listed below.</summary>
+<summary>List of traits for the  owningTeam  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1298,7 +1274,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
+<summary>List of traits for the  transactionCurrencyId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1326,9 +1302,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>47</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../Currency.md" target="_blank">/core/applicationCommon/Currency.cdm.json/Currency</a></td><td><a href="../../../../Currency.md#transactionCurrencyId" target="_blank">transactionCurrencyId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
@@ -1343,7 +1316,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the exchangeRate attribute are listed below.</summary>
+<summary>List of traits for the  exchangeRate  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1383,7 +1356,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the record2ObjectTypeCode attribute are listed below.</summary>
+<summary>List of traits for the  record2ObjectTypeCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -1423,7 +1396,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the record2ObjectTypeCode_display attribute are listed below.</summary>
+<summary>List of traits for the  record2ObjectTypeCode_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1447,7 +1420,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the record1ObjectTypeCode attribute are listed below.</summary>
+<summary>List of traits for the  record1ObjectTypeCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -1487,7 +1460,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the record1ObjectTypeCode_display attribute are listed below.</summary>
+<summary>List of traits for the  record1ObjectTypeCode_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1511,7 +1484,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the name attribute are listed below.</summary>
+<summary>List of traits for the  name  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1552,7 +1525,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the entityImageId attribute are listed below.</summary>
+<summary>List of traits for the  entityImageId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  

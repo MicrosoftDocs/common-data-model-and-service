@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/12/2019
+ms.date: 2/13/2019
 ms.author: tpalmer
 ---
 
@@ -13,6 +13,12 @@ ms.author: tpalmer
 Category for a Knowledge Article.  
   
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/KnowledgeArticleCategory.cdm.json" target="_blank">GitHub</a>.  
+
+## Instances
+
+Instances of this entity are listed below:  
+
+applicationCommon/KnowledgeArticleCategory  
 
 ## Traits
 
@@ -40,12 +46,6 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 
 </details>
 
-## Instances
-
-Instances of this entity are listed below:  
-
-applicationCommon/KnowledgeArticleCategory  
-
 ## Attributes
 
 |Name|Description|First Included in Instance|
@@ -57,7 +57,7 @@ applicationCommon/KnowledgeArticleCategory
 
 ### <a href=#knowledgeArticleId name="knowledgeArticleId">knowledgeArticleId</a>
 
-First included in: applicationCommon/KnowledgeArticleCategory (this entity)  
+First included in: applicationCommon/KnowledgeArticleCategory  (this entity)  
 
 #### Properties
 
@@ -66,7 +66,7 @@ First included in: applicationCommon/KnowledgeArticleCategory (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the knowledgeArticleId attribute are listed below.</summary>
+<summary>List of traits for the  knowledgeArticleId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -81,14 +81,11 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>1</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="KnowledgeArticle.md" target="_blank">/core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle</a></td><td><a href="KnowledgeArticle.md#knowledgearticleId" target="_blank">knowledgearticleId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#categoryId name="categoryId">categoryId</a>
 
-First included in: applicationCommon/KnowledgeArticleCategory (this entity)  
+First included in: applicationCommon/KnowledgeArticleCategory  (this entity)  
 
 #### Properties
 
@@ -97,7 +94,7 @@ First included in: applicationCommon/KnowledgeArticleCategory (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the categoryId attribute are listed below.</summary>
+<summary>List of traits for the  categoryId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -117,7 +114,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#knowledgeArticleCategoryId name="knowledgeArticleCategoryId">knowledgeArticleCategoryId</a>
 
 Unique identifier of the Category for the knowledge article.  
-First included in: applicationCommon/KnowledgeArticleCategory (this entity)  
+First included in: applicationCommon/KnowledgeArticleCategory  (this entity)  
 
 #### Properties
 
@@ -126,7 +123,7 @@ First included in: applicationCommon/KnowledgeArticleCategory (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the knowledgeArticleCategoryId attribute are listed below.</summary>
+<summary>List of traits for the  knowledgeArticleCategoryId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -152,7 +149,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
-First included in: applicationCommon/KnowledgeArticleCategory (this entity)  
+First included in: applicationCommon/KnowledgeArticleCategory  (this entity)  
 
 #### Properties
 
@@ -161,7 +158,7 @@ First included in: applicationCommon/KnowledgeArticleCategory (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the versionNumber attribute are listed below.</summary>
+<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  

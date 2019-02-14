@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/12/2019
+ms.date: 2/13/2019
 ms.author: tpalmer
 ---
 
@@ -13,6 +13,12 @@ ms.author: tpalmer
 User or facility/equipment that can be scheduled for a service.  
   
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/Resource.cdm.json" target="_blank">GitHub</a>.  
+
+## Instances
+
+Instances of this entity are listed below:  
+
+service/Resource  
 
 ## Traits
 
@@ -37,12 +43,6 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 
 </details>
 
-## Instances
-
-Instances of this entity are listed below:  
-
-service/Resource  
-
 ## Attributes
 
 |Name|Description|First Included in Instance|
@@ -66,7 +66,7 @@ service/Resource
 ### <a href=#resourceId name="resourceId">resourceId</a>
 
 Unique identifier of the resource.  
-First included in: service/Resource (this entity)  
+First included in: service/Resource  (this entity)  
 
 #### Properties
 
@@ -75,7 +75,7 @@ First included in: service/Resource (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the resourceId attribute are listed below.</summary>
+<summary>List of traits for the  resourceId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -100,15 +100,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10000</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="FacilityEquipment.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/FacilityEquipment.cdm.json/FacilityEquipment</a></td><td><a href="FacilityEquipment.md#equipmentId" target="_blank">equipmentId</a></td></tr><tr><td><a href="ResourceSpecification.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/ResourceSpecification.cdm.json/ResourceSpecification</a></td><td><a href="ResourceSpecification.md#resourceSpecId" target="_blank">resourceSpecId</a></td></tr><tr><td><a href="User.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User</a></td><td><a href="User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#businessUnitId name="businessUnitId">businessUnitId</a>
 
 Business Unit Id  
-First included in: service/Resource (this entity)  
+First included in: service/Resource  (this entity)  
 
 #### Properties
 
@@ -117,7 +114,7 @@ First included in: service/Resource (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the businessUnitId attribute are listed below.</summary>
+<summary>List of traits for the  businessUnitId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -142,15 +139,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10001</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../BusinessUnit.md" target="_blank">/core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit</a></td><td><a href="../../../BusinessUnit.md#businessUnitId" target="_blank">businessUnitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: service/Resource (this entity)  
+First included in: service/Resource  (this entity)  
 
 #### Properties
 
@@ -159,7 +153,7 @@ First included in: service/Resource (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the versionNumber attribute are listed below.</summary>
+<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -186,7 +180,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: service/Resource (this entity)  
+First included in: service/Resource  (this entity)  
 
 #### Properties
 
@@ -195,7 +189,7 @@ First included in: service/Resource (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
+<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -224,7 +218,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: service/Resource (this entity)  
+First included in: service/Resource  (this entity)  
 
 #### Properties
 
@@ -233,7 +227,7 @@ First included in: service/Resource (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
+<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -263,7 +257,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: service/Resource (this entity)  
+First included in: service/Resource  (this entity)  
 
 #### Properties
 
@@ -272,7 +266,7 @@ First included in: service/Resource (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
+<summary>List of traits for the  timeZoneRuleVersionNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -301,7 +295,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: service/Resource (this entity)  
+First included in: service/Resource  (this entity)  
 
 #### Properties
 
@@ -310,7 +304,7 @@ First included in: service/Resource (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
+<summary>List of traits for the  UTCConversionTimeZoneCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -339,7 +333,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#name name="name">name</a>
 
 Name of the resource.  
-First included in: service/Resource (this entity)  
+First included in: service/Resource  (this entity)  
 
 #### Properties
 
@@ -348,7 +342,7 @@ First included in: service/Resource (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the name attribute are listed below.</summary>
+<summary>List of traits for the  name  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -380,7 +374,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#calendarId name="calendarId">calendarId</a>
 
 Unique identifier of the calendar for the resource.  
-First included in: service/Resource (this entity)  
+First included in: service/Resource  (this entity)  
 
 #### Properties
 
@@ -389,7 +383,7 @@ First included in: service/Resource (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the calendarId attribute are listed below.</summary>
+<summary>List of traits for the  calendarId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -418,7 +412,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#displayInServiceViews name="displayInServiceViews">displayInServiceViews</a>
 
 For internal use only.  
-First included in: service/Resource (this entity)  
+First included in: service/Resource  (this entity)  
 
 #### Properties
 
@@ -427,7 +421,7 @@ First included in: service/Resource (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the displayInServiceViews attribute are listed below.</summary>
+<summary>List of traits for the  displayInServiceViews  attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -453,7 +447,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isDisabled name="isDisabled">isDisabled</a>
 
 Information about whether the resource is enabled.  
-First included in: service/Resource (this entity)  
+First included in: service/Resource  (this entity)  
 
 #### Properties
 
@@ -462,7 +456,7 @@ First included in: service/Resource (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the isDisabled attribute are listed below.</summary>
+<summary>List of traits for the  isDisabled  attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -488,7 +482,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#objectTypeCode name="objectTypeCode">objectTypeCode</a>
 
 Type of entity with which the resource is associated.  
-First included in: service/Resource (this entity)  
+First included in: service/Resource  (this entity)  
 
 #### Properties
 
@@ -497,7 +491,7 @@ First included in: service/Resource (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the objectTypeCode attribute are listed below.</summary>
+<summary>List of traits for the  objectTypeCode  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -523,7 +517,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#organizationId name="organizationId">organizationId</a>
 
 Unique identifier of the organization with which the resource is associated.  
-First included in: service/Resource (this entity)  
+First included in: service/Resource  (this entity)  
 
 #### Properties
 
@@ -532,7 +526,7 @@ First included in: service/Resource (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the organizationId attribute are listed below.</summary>
+<summary>List of traits for the  organizationId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -557,15 +551,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10016</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../Organization.md" target="_blank">/core/applicationCommon/foundationCommon/Organization.cdm.json/Organization</a></td><td><a href="../../Organization.md#organizationId" target="_blank">organizationId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#siteId name="siteId">siteId</a>
 
 Unique identifier of the site at which the resource is located.  
-First included in: service/Resource (this entity)  
+First included in: service/Resource  (this entity)  
 
 #### Properties
 
@@ -574,7 +565,7 @@ First included in: service/Resource (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the siteId attribute are listed below.</summary>
+<summary>List of traits for the  siteId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -602,14 +593,11 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10017</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="Site.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/Site.cdm.json/Site</a></td><td><a href="Site.md#siteId" target="_blank">siteId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#entityImageId name="entityImageId">entityImageId</a>
 
-First included in: service/Resource (this entity)  
+First included in: service/Resource  (this entity)  
 
 #### Properties
 
@@ -618,7 +606,7 @@ First included in: service/Resource (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the entityImageId attribute are listed below.</summary>
+<summary>List of traits for the  entityImageId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  

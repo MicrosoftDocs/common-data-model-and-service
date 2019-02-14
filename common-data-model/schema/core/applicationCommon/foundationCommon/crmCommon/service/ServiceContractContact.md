@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/12/2019
+ms.date: 2/13/2019
 ms.author: tpalmer
 ---
 
@@ -13,6 +13,12 @@ ms.author: tpalmer
 Item in a Service contract.  
   
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/ServiceContractContact.cdm.json" target="_blank">GitHub</a>.  
+
+## Instances
+
+Instances of this entity are listed below:  
+
+service/ServiceContractContact  
 
 ## Traits
 
@@ -40,12 +46,6 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 
 </details>
 
-## Instances
-
-Instances of this entity are listed below:  
-
-service/ServiceContractContact  
-
 ## Attributes
 
 |Name|Description|First Included in Instance|
@@ -64,7 +64,7 @@ service/ServiceContractContact
 ### <a href=#serviceContractContactId name="serviceContractContactId">serviceContractContactId</a>
 
 Unique identifier of the contact of the service contract.  
-First included in: service/ServiceContractContact (this entity)  
+First included in: service/ServiceContractContact  (this entity)  
 
 #### Properties
 
@@ -73,7 +73,7 @@ First included in: service/ServiceContractContact (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the serviceContractContactId attribute are listed below.</summary>
+<summary>List of traits for the  serviceContractContactId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -100,7 +100,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: service/ServiceContractContact (this entity)  
+First included in: service/ServiceContractContact  (this entity)  
 
 #### Properties
 
@@ -109,7 +109,7 @@ First included in: service/ServiceContractContact (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the versionNumber attribute are listed below.</summary>
+<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -136,7 +136,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: service/ServiceContractContact (this entity)  
+First included in: service/ServiceContractContact  (this entity)  
 
 #### Properties
 
@@ -145,7 +145,7 @@ First included in: service/ServiceContractContact (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
+<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -174,7 +174,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: service/ServiceContractContact (this entity)  
+First included in: service/ServiceContractContact  (this entity)  
 
 #### Properties
 
@@ -183,7 +183,7 @@ First included in: service/ServiceContractContact (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
+<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -213,7 +213,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: service/ServiceContractContact (this entity)  
+First included in: service/ServiceContractContact  (this entity)  
 
 #### Properties
 
@@ -222,7 +222,7 @@ First included in: service/ServiceContractContact (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
+<summary>List of traits for the  timeZoneRuleVersionNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -251,7 +251,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: service/ServiceContractContact (this entity)  
+First included in: service/ServiceContractContact  (this entity)  
 
 #### Properties
 
@@ -260,7 +260,7 @@ First included in: service/ServiceContractContact (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
+<summary>List of traits for the  UTCConversionTimeZoneCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -289,7 +289,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#name name="name">name</a>
 
 name  
-First included in: service/ServiceContractContact (this entity)  
+First included in: service/ServiceContractContact  (this entity)  
 
 #### Properties
 
@@ -298,7 +298,7 @@ First included in: service/ServiceContractContact (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the name attribute are listed below.</summary>
+<summary>List of traits for the  name  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -329,7 +329,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#contactId name="contactId">contactId</a>
 
-First included in: service/ServiceContractContact (this entity)  
+First included in: service/ServiceContractContact  (this entity)  
 
 #### Properties
 
@@ -338,7 +338,7 @@ First included in: service/ServiceContractContact (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the contactId attribute are listed below.</summary>
+<summary>List of traits for the  contactId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -353,14 +353,11 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10007</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../Contact.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/Contact.cdm.json/Contact</a></td><td><a href="../Contact.md#contactId" target="_blank">contactId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#contractId name="contractId">contractId</a>
 
-First included in: service/ServiceContractContact (this entity)  
+First included in: service/ServiceContractContact  (this entity)  
 
 #### Properties
 
@@ -369,7 +366,7 @@ First included in: service/ServiceContractContact (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the contractId attribute are listed below.</summary>
+<summary>List of traits for the  contractId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -384,14 +381,11 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10008</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="Contract.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/Contract.cdm.json/Contract</a></td><td><a href="Contract.md#contractId" target="_blank">contractId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#serviceLevel name="serviceLevel">serviceLevel</a>
 
-First included in: service/ServiceContractContact (this entity)  
+First included in: service/ServiceContractContact  (this entity)  
 
 #### Properties
 
@@ -400,7 +394,7 @@ First included in: service/ServiceContractContact (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the serviceLevel attribute are listed below.</summary>
+<summary>List of traits for the  serviceLevel  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  

@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/12/2019
+ms.date: 2/13/2019
 ms.author: tpalmer
 ---
 
@@ -13,6 +13,12 @@ ms.author: tpalmer
 Collection of system users that routinely collaborate. Teams can be used to simplify record sharing and provide team members with common access to organization data when team members belong to different Business Units.  
   
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/Team.cdm.json" target="_blank">GitHub</a>.  
+
+## Instances
+
+Instances of this entity are listed below:  
+
+applicationCommon/Team  
 
 ## Traits
 
@@ -39,12 +45,6 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>Team</td><td>string</td><td></td></tr></table>
 
 </details>
-
-## Instances
-
-Instances of this entity are listed below:  
-
-applicationCommon/Team  
 
 ## Attributes
 
@@ -83,7 +83,7 @@ applicationCommon/Team
 ### <a href=#teamId name="teamId">teamId</a>
 
 Unique identifier for the team.  
-First included in: applicationCommon/Team (this entity)  
+First included in: applicationCommon/Team  (this entity)  
 
 #### Properties
 
@@ -92,7 +92,7 @@ First included in: applicationCommon/Team (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the teamId attribute are listed below.</summary>
+<summary>List of traits for the  teamId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -122,7 +122,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#organizationId name="organizationId">organizationId</a>
 
 Unique identifier of the organization associated with the team.  
-First included in: applicationCommon/Team (this entity)  
+First included in: applicationCommon/Team  (this entity)  
 
 #### Properties
 
@@ -131,7 +131,7 @@ First included in: applicationCommon/Team (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the organizationId attribute are listed below.</summary>
+<summary>List of traits for the  organizationId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -152,15 +152,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>3</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="Organization.md" target="_blank">/core/applicationCommon/Organization.cdm.json/Organization</a></td><td><a href="Organization.md#organizationId" target="_blank">organizationId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#businessUnitId name="businessUnitId">businessUnitId</a>
 
 Unique identifier of the business unit with which the team is associated.  
-First included in: applicationCommon/Team (this entity)  
+First included in: applicationCommon/Team  (this entity)  
 
 #### Properties
 
@@ -169,7 +166,7 @@ First included in: applicationCommon/Team (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the businessUnitId attribute are listed below.</summary>
+<summary>List of traits for the  businessUnitId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -194,15 +191,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>4</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="BusinessUnit.md" target="_blank">/core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit</a></td><td><a href="BusinessUnit.md#businessUnitId" target="_blank">businessUnitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#name name="name">name</a>
 
 Name of the team.  
-First included in: applicationCommon/Team (this entity)  
+First included in: applicationCommon/Team  (this entity)  
 
 #### Properties
 
@@ -211,7 +205,7 @@ First included in: applicationCommon/Team (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the name attribute are listed below.</summary>
+<summary>List of traits for the  name  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -240,7 +234,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#description name="description">description</a>
 
 Description of the team.  
-First included in: applicationCommon/Team (this entity)  
+First included in: applicationCommon/Team  (this entity)  
 
 #### Properties
 
@@ -249,7 +243,7 @@ First included in: applicationCommon/Team (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the description attribute are listed below.</summary>
+<summary>List of traits for the  description  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -280,7 +274,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#emailAddress name="emailAddress">emailAddress</a>
 
 Email address for the team.  
-First included in: applicationCommon/Team (this entity)  
+First included in: applicationCommon/Team  (this entity)  
 
 #### Properties
 
@@ -289,7 +283,7 @@ First included in: applicationCommon/Team (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the emailAddress attribute are listed below.</summary>
+<summary>List of traits for the  emailAddress  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -321,7 +315,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the team was created.  
-First included in: applicationCommon/Team (this entity)  
+First included in: applicationCommon/Team  (this entity)  
 
 #### Properties
 
@@ -330,7 +324,7 @@ First included in: applicationCommon/Team (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the createdOn attribute are listed below.</summary>
+<summary>List of traits for the  createdOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -360,7 +354,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the team was last modified.  
-First included in: applicationCommon/Team (this entity)  
+First included in: applicationCommon/Team  (this entity)  
 
 #### Properties
 
@@ -369,7 +363,7 @@ First included in: applicationCommon/Team (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedOn attribute are listed below.</summary>
+<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -399,7 +393,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Unique identifier of the user who created the team.  
-First included in: applicationCommon/Team (this entity)  
+First included in: applicationCommon/Team  (this entity)  
 
 #### Properties
 
@@ -408,7 +402,7 @@ First included in: applicationCommon/Team (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the createdBy attribute are listed below.</summary>
+<summary>List of traits for the  createdBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -436,15 +430,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Unique identifier of the user who last modified the team.  
-First included in: applicationCommon/Team (this entity)  
+First included in: applicationCommon/Team  (this entity)  
 
 #### Properties
 
@@ -453,7 +444,7 @@ First included in: applicationCommon/Team (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedBy attribute are listed below.</summary>
+<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -481,15 +472,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>12</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version number of the team.  
-First included in: applicationCommon/Team (this entity)  
+First included in: applicationCommon/Team  (this entity)  
 
 #### Properties
 
@@ -498,7 +486,7 @@ First included in: applicationCommon/Team (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the versionNumber attribute are listed below.</summary>
+<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -525,7 +513,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: applicationCommon/Team (this entity)  
+First included in: applicationCommon/Team  (this entity)  
 
 #### Properties
 
@@ -534,7 +522,7 @@ First included in: applicationCommon/Team (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
+<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -563,7 +551,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: applicationCommon/Team (this entity)  
+First included in: applicationCommon/Team  (this entity)  
 
 #### Properties
 
@@ -572,7 +560,7 @@ First included in: applicationCommon/Team (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
+<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -602,7 +590,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#administratorId name="administratorId">administratorId</a>
 
 Unique identifier of the user primary responsible for the team.  
-First included in: applicationCommon/Team (this entity)  
+First included in: applicationCommon/Team  (this entity)  
 
 #### Properties
 
@@ -611,7 +599,7 @@ First included in: applicationCommon/Team (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the administratorId attribute are listed below.</summary>
+<summary>List of traits for the  administratorId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -636,15 +624,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>27</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#isDefault name="isDefault">isDefault</a>
 
 Information about whether the team is a default business unit team.  
-First included in: applicationCommon/Team (this entity)  
+First included in: applicationCommon/Team  (this entity)  
 
 #### Properties
 
@@ -653,7 +638,7 @@ First included in: applicationCommon/Team (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the isDefault attribute are listed below.</summary>
+<summary>List of traits for the  isDefault  attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -676,7 +661,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#yomiName name="yomiName">yomiName</a>
 
 Pronunciation of the full name of the team, written in phonetic hiragana or katakana characters.  
-First included in: applicationCommon/Team (this entity)  
+First included in: applicationCommon/Team  (this entity)  
 
 #### Properties
 
@@ -685,7 +670,7 @@ First included in: applicationCommon/Team (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the yomiName attribute are listed below.</summary>
+<summary>List of traits for the  yomiName  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -718,7 +703,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Unique identifier of the delegate user who created the team.  
-First included in: applicationCommon/Team (this entity)  
+First included in: applicationCommon/Team  (this entity)  
 
 #### Properties
 
@@ -727,7 +712,7 @@ First included in: applicationCommon/Team (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
+<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -755,15 +740,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>35</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Unique identifier of the delegate user who last modified the team.  
-First included in: applicationCommon/Team (this entity)  
+First included in: applicationCommon/Team  (this entity)  
 
 #### Properties
 
@@ -772,7 +754,7 @@ First included in: applicationCommon/Team (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
+<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -800,15 +782,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>39</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#traversedPath name="traversedPath">traversedPath</a>
 
 For internal use only.  
-First included in: applicationCommon/Team (this entity)  
+First included in: applicationCommon/Team  (this entity)  
 
 #### Properties
 
@@ -817,7 +796,7 @@ First included in: applicationCommon/Team (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the traversedPath attribute are listed below.</summary>
+<summary>List of traits for the  traversedPath  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -848,7 +827,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#queueId name="queueId">queueId</a>
 
 Unique identifier of the default queue for the team.  
-First included in: applicationCommon/Team (this entity)  
+First included in: applicationCommon/Team  (this entity)  
 
 #### Properties
 
@@ -857,7 +836,7 @@ First included in: applicationCommon/Team (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the queueId attribute are listed below.</summary>
+<summary>List of traits for the  queueId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -885,15 +864,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>95</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="Queue.md" target="_blank">/core/applicationCommon/Queue.cdm.json/Queue</a></td><td><a href="Queue.md#queueId" target="_blank">queueId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Unique identifier of the currency associated with the team.  
-First included in: applicationCommon/Team (this entity)  
+First included in: applicationCommon/Team  (this entity)  
 
 #### Properties
 
@@ -902,7 +878,7 @@ First included in: applicationCommon/Team (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
+<summary>List of traits for the  transactionCurrencyId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -930,15 +906,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>98</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="Currency.md" target="_blank">/core/applicationCommon/Currency.cdm.json/Currency</a></td><td><a href="Currency.md#transactionCurrencyId" target="_blank">transactionCurrencyId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Exchange rate for the currency associated with the team with respect to the base currency.  
-First included in: applicationCommon/Team (this entity)  
+First included in: applicationCommon/Team  (this entity)  
 
 #### Properties
 
@@ -947,7 +920,7 @@ First included in: applicationCommon/Team (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the exchangeRate attribute are listed below.</summary>
+<summary>List of traits for the  exchangeRate  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -978,7 +951,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#teamType name="teamType">teamType</a>
 
 Select the team type.  
-First included in: applicationCommon/Team (this entity)  
+First included in: applicationCommon/Team  (this entity)  
 
 #### Properties
 
@@ -987,11 +960,11 @@ First included in: applicationCommon/Team (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the teamType attribute are listed below.</summary>
+<summary>List of traits for the  teamType  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Owner</td><td>0</td></tr><tr><td>en</td><td>Access</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Access</td><td>1</td></tr><tr><td>en</td><td>Owner</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1015,7 +988,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#teamType_display name="teamType_display">teamType_display</a>
 
-First included in: applicationCommon/Team (this entity)  
+First included in: applicationCommon/Team  (this entity)  
 
 #### Properties
 
@@ -1024,7 +997,7 @@ First included in: applicationCommon/Team (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the teamType_display attribute are listed below.</summary>
+<summary>List of traits for the  teamType_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1039,7 +1012,7 @@ First included in: applicationCommon/Team (this entity)
 ### <a href=#teamTemplateId name="teamTemplateId">teamTemplateId</a>
 
 Shows the team template that is associated with the team.  
-First included in: applicationCommon/Team (this entity)  
+First included in: applicationCommon/Team  (this entity)  
 
 #### Properties
 
@@ -1048,7 +1021,7 @@ First included in: applicationCommon/Team (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the teamTemplateId attribute are listed below.</summary>
+<summary>List of traits for the  teamTemplateId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1081,7 +1054,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#regardingObjectId name="regardingObjectId">regardingObjectId</a>
 
 Choose the record that the team relates to.  
-First included in: applicationCommon/Team (this entity)  
+First included in: applicationCommon/Team  (this entity)  
 
 #### Properties
 
@@ -1090,7 +1063,7 @@ First included in: applicationCommon/Team (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the regardingObjectId attribute are listed below.</summary>
+<summary>List of traits for the  regardingObjectId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1118,15 +1091,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>105</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="KnowledgeArticle.md" target="_blank">/core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle</a></td><td><a href="KnowledgeArticle.md#knowledgearticleId" target="_blank">knowledgearticleId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#systemManaged name="systemManaged">systemManaged</a>
 
 Select whether the team will be managed by the system.  
-First included in: applicationCommon/Team (this entity)  
+First included in: applicationCommon/Team  (this entity)  
 
 #### Properties
 
@@ -1135,7 +1105,7 @@ First included in: applicationCommon/Team (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the systemManaged attribute are listed below.</summary>
+<summary>List of traits for the  systemManaged  attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1158,7 +1128,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stageId name="stageId">stageId</a>
 
 Shows the ID of the stage.  
-First included in: applicationCommon/Team (this entity)  
+First included in: applicationCommon/Team  (this entity)  
 
 #### Properties
 
@@ -1167,7 +1137,7 @@ First included in: applicationCommon/Team (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the stageId attribute are listed below.</summary>
+<summary>List of traits for the  stageId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1196,7 +1166,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#processId name="processId">processId</a>
 
 Shows the ID of the process.  
-First included in: applicationCommon/Team (this entity)  
+First included in: applicationCommon/Team  (this entity)  
 
 #### Properties
 
@@ -1205,7 +1175,7 @@ First included in: applicationCommon/Team (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the processId attribute are listed below.</summary>
+<summary>List of traits for the  processId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  

@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/12/2019
+ms.date: 2/13/2019
 ms.author: tpalmer
 ---
 
@@ -13,6 +13,12 @@ ms.author: tpalmer
 Note that is attached to one or more objects, including other notes.  
   
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/Note.cdm.json" target="_blank">GitHub</a>.  
+
+## Instances
+
+Instances of this entity are listed below:  
+
+applicationCommon/Note  
 
 ## Traits
 
@@ -39,12 +45,6 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>Annotation</td><td>string</td><td></td></tr></table>
 
 </details>
-
-## Instances
-
-Instances of this entity are listed below:  
-
-applicationCommon/Note  
 
 ## Attributes
 
@@ -82,7 +82,7 @@ applicationCommon/Note
 ### <a href=#annotationId name="annotationId">annotationId</a>
 
 Unique identifier of the note.  
-First included in: applicationCommon/Note (this entity)  
+First included in: applicationCommon/Note  (this entity)  
 
 #### Properties
 
@@ -91,7 +91,7 @@ First included in: applicationCommon/Note (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the annotationId attribute are listed below.</summary>
+<summary>List of traits for the  annotationId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -121,20 +121,20 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#objectTypeCode name="objectTypeCode">objectTypeCode</a>
 
 Type of entity with which the note is associated.  
-First included in: applicationCommon/Note (this entity)  
+First included in: applicationCommon/Note  (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Object Type </td></tr><tr><td>description</td><td>Type of entity with which the note is associated.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>objecttypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Account</td><td>1</td></tr><tr><td>en</td><td>Appointment</td><td>4201</td></tr><tr><td>en</td><td>Bulk Import</td><td>4407</td></tr><tr><td>en</td><td>Calendar</td><td>4003</td></tr><tr><td>en</td><td>Campaign</td><td>4400</td></tr><tr><td>en</td><td>Campaign Activity</td><td>4402</td></tr><tr><td>en</td><td>Campaign Response</td><td>4401</td></tr><tr><td>en</td><td>Case</td><td>112</td></tr><tr><td>en</td><td>Case Resolution</td><td>4206</td></tr><tr><td>en</td><td>Commitment</td><td>4215</td></tr><tr><td>en</td><td>Competitor</td><td>123</td></tr><tr><td>en</td><td>Contact</td><td>2</td></tr><tr><td>en</td><td>Contract</td><td>1010</td></tr><tr><td>en</td><td>Contract Line</td><td>1011</td></tr><tr><td>en</td><td>Email</td><td>4202</td></tr><tr><td>en</td><td>Facility/Equipment</td><td>4000</td></tr><tr><td>en</td><td>Fax</td><td>4204</td></tr><tr><td>en</td><td>Invoice</td><td>1090</td></tr><tr><td>en</td><td>Lead</td><td>4</td></tr><tr><td>en</td><td>Letter</td><td>4207</td></tr><tr><td>en</td><td>Marketing List</td><td>4300</td></tr><tr><td>en</td><td>Opportunity</td><td>3</td></tr><tr><td>en</td><td>Opportunity Close</td><td>4208</td></tr><tr><td>en</td><td>Order</td><td>1088</td></tr><tr><td>en</td><td>Order Close</td><td>4209</td></tr><tr><td>en</td><td>Phone Call</td><td>4210</td></tr><tr><td>en</td><td>Product</td><td>1024</td></tr><tr><td>en</td><td>Quote</td><td>1084</td></tr><tr><td>en</td><td>Quote Close</td><td>4211</td></tr><tr><td>en</td><td>Resource Specification</td><td>4006</td></tr><tr><td>en</td><td>Service</td><td>4001</td></tr><tr><td>en</td><td>Service Activity</td><td>4214</td></tr><tr><td>en</td><td>Task</td><td>4212</td></tr><tr><td>en</td><td>Routing Rule</td><td>8181</td></tr><tr><td>en</td><td>Routing Rule Item</td><td>8199</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Object Type </td></tr><tr><td>description</td><td>Type of entity with which the note is associated.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>objecttypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Account</td><td>1</td></tr><tr><td>en</td><td>Routing Rule Item</td><td>8199</td></tr><tr><td>en</td><td>Bulk Import</td><td>4407</td></tr><tr><td>en</td><td>Calendar</td><td>4003</td></tr><tr><td>en</td><td>Campaign</td><td>4400</td></tr><tr><td>en</td><td>Campaign Activity</td><td>4402</td></tr><tr><td>en</td><td>Campaign Response</td><td>4401</td></tr><tr><td>en</td><td>Case</td><td>112</td></tr><tr><td>en</td><td>Case Resolution</td><td>4206</td></tr><tr><td>en</td><td>Commitment</td><td>4215</td></tr><tr><td>en</td><td>Competitor</td><td>123</td></tr><tr><td>en</td><td>Contact</td><td>2</td></tr><tr><td>en</td><td>Contract</td><td>1010</td></tr><tr><td>en</td><td>Contract Line</td><td>1011</td></tr><tr><td>en</td><td>Email</td><td>4202</td></tr><tr><td>en</td><td>Facility/Equipment</td><td>4000</td></tr><tr><td>en</td><td>Fax</td><td>4204</td></tr><tr><td>en</td><td>Appointment</td><td>4201</td></tr><tr><td>en</td><td>Lead</td><td>4</td></tr><tr><td>en</td><td>Letter</td><td>4207</td></tr><tr><td>en</td><td>Marketing List</td><td>4300</td></tr><tr><td>en</td><td>Opportunity</td><td>3</td></tr><tr><td>en</td><td>Opportunity Close</td><td>4208</td></tr><tr><td>en</td><td>Order</td><td>1088</td></tr><tr><td>en</td><td>Order Close</td><td>4209</td></tr><tr><td>en</td><td>Phone Call</td><td>4210</td></tr><tr><td>en</td><td>Product</td><td>1024</td></tr><tr><td>en</td><td>Quote</td><td>1084</td></tr><tr><td>en</td><td>Quote Close</td><td>4211</td></tr><tr><td>en</td><td>Resource Specification</td><td>4006</td></tr><tr><td>en</td><td>Service</td><td>4001</td></tr><tr><td>en</td><td>Service Activity</td><td>4214</td></tr><tr><td>en</td><td>Task</td><td>4212</td></tr><tr><td>en</td><td>Routing Rule</td><td>8181</td></tr><tr><td>en</td><td>Invoice</td><td>1090</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the objectTypeCode attribute are listed below.</summary>
+<summary>List of traits for the  objectTypeCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Account</td><td>1</td></tr><tr><td>en</td><td>Appointment</td><td>4201</td></tr><tr><td>en</td><td>Bulk Import</td><td>4407</td></tr><tr><td>en</td><td>Calendar</td><td>4003</td></tr><tr><td>en</td><td>Campaign</td><td>4400</td></tr><tr><td>en</td><td>Campaign Activity</td><td>4402</td></tr><tr><td>en</td><td>Campaign Response</td><td>4401</td></tr><tr><td>en</td><td>Case</td><td>112</td></tr><tr><td>en</td><td>Case Resolution</td><td>4206</td></tr><tr><td>en</td><td>Commitment</td><td>4215</td></tr><tr><td>en</td><td>Competitor</td><td>123</td></tr><tr><td>en</td><td>Contact</td><td>2</td></tr><tr><td>en</td><td>Contract</td><td>1010</td></tr><tr><td>en</td><td>Contract Line</td><td>1011</td></tr><tr><td>en</td><td>Email</td><td>4202</td></tr><tr><td>en</td><td>Facility/Equipment</td><td>4000</td></tr><tr><td>en</td><td>Fax</td><td>4204</td></tr><tr><td>en</td><td>Invoice</td><td>1090</td></tr><tr><td>en</td><td>Lead</td><td>4</td></tr><tr><td>en</td><td>Letter</td><td>4207</td></tr><tr><td>en</td><td>Marketing List</td><td>4300</td></tr><tr><td>en</td><td>Opportunity</td><td>3</td></tr><tr><td>en</td><td>Opportunity Close</td><td>4208</td></tr><tr><td>en</td><td>Order</td><td>1088</td></tr><tr><td>en</td><td>Order Close</td><td>4209</td></tr><tr><td>en</td><td>Phone Call</td><td>4210</td></tr><tr><td>en</td><td>Product</td><td>1024</td></tr><tr><td>en</td><td>Quote</td><td>1084</td></tr><tr><td>en</td><td>Quote Close</td><td>4211</td></tr><tr><td>en</td><td>Resource Specification</td><td>4006</td></tr><tr><td>en</td><td>Service</td><td>4001</td></tr><tr><td>en</td><td>Service Activity</td><td>4214</td></tr><tr><td>en</td><td>Task</td><td>4212</td></tr><tr><td>en</td><td>Routing Rule</td><td>8181</td></tr><tr><td>en</td><td>Routing Rule Item</td><td>8199</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Routing Rule Item</td><td>8199</td></tr><tr><td>en</td><td>Routing Rule</td><td>8181</td></tr><tr><td>en</td><td>Task</td><td>4212</td></tr><tr><td>en</td><td>Service Activity</td><td>4214</td></tr><tr><td>en</td><td>Service</td><td>4001</td></tr><tr><td>en</td><td>Resource Specification</td><td>4006</td></tr><tr><td>en</td><td>Quote Close</td><td>4211</td></tr><tr><td>en</td><td>Quote</td><td>1084</td></tr><tr><td>en</td><td>Product</td><td>1024</td></tr><tr><td>en</td><td>Phone Call</td><td>4210</td></tr><tr><td>en</td><td>Order Close</td><td>4209</td></tr><tr><td>en</td><td>Order</td><td>1088</td></tr><tr><td>en</td><td>Opportunity Close</td><td>4208</td></tr><tr><td>en</td><td>Opportunity</td><td>3</td></tr><tr><td>en</td><td>Marketing List</td><td>4300</td></tr><tr><td>en</td><td>Letter</td><td>4207</td></tr><tr><td>en</td><td>Lead</td><td>4</td></tr><tr><td>en</td><td>Invoice</td><td>1090</td></tr><tr><td>en</td><td>Fax</td><td>4204</td></tr><tr><td>en</td><td>Facility/Equipment</td><td>4000</td></tr><tr><td>en</td><td>Email</td><td>4202</td></tr><tr><td>en</td><td>Contract Line</td><td>1011</td></tr><tr><td>en</td><td>Contract</td><td>1010</td></tr><tr><td>en</td><td>Contact</td><td>2</td></tr><tr><td>en</td><td>Competitor</td><td>123</td></tr><tr><td>en</td><td>Commitment</td><td>4215</td></tr><tr><td>en</td><td>Case Resolution</td><td>4206</td></tr><tr><td>en</td><td>Case</td><td>112</td></tr><tr><td>en</td><td>Campaign Response</td><td>4401</td></tr><tr><td>en</td><td>Campaign Activity</td><td>4402</td></tr><tr><td>en</td><td>Campaign</td><td>4400</td></tr><tr><td>en</td><td>Calendar</td><td>4003</td></tr><tr><td>en</td><td>Bulk Import</td><td>4407</td></tr><tr><td>en</td><td>Appointment</td><td>4201</td></tr><tr><td>en</td><td>Account</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -161,7 +161,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#objectTypeCode_display name="objectTypeCode_display">objectTypeCode_display</a>
 
-First included in: applicationCommon/Note (this entity)  
+First included in: applicationCommon/Note  (this entity)  
 
 #### Properties
 
@@ -170,7 +170,7 @@ First included in: applicationCommon/Note (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the objectTypeCode_display attribute are listed below.</summary>
+<summary>List of traits for the  objectTypeCode_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -185,7 +185,7 @@ First included in: applicationCommon/Note (this entity)
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user who owns the note.  
-First included in: applicationCommon/Note (this entity)  
+First included in: applicationCommon/Note  (this entity)  
 
 #### Properties
 
@@ -194,7 +194,7 @@ First included in: applicationCommon/Note (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the owningUser attribute are listed below.</summary>
+<summary>List of traits for the  owningUser  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -222,15 +222,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>5</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#objectIdTypeCode name="objectIdTypeCode">objectIdTypeCode</a>
 
 The name of the entity linked by objectId  
-First included in: applicationCommon/Note (this entity)  
+First included in: applicationCommon/Note  (this entity)  
 
 #### Properties
 
@@ -239,7 +236,7 @@ First included in: applicationCommon/Note (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the objectIdTypeCode attribute are listed below.</summary>
+<summary>List of traits for the  objectIdTypeCode  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -263,7 +260,7 @@ Marks an attribute that contains the entity name or 'class' for the situation wh
 ### <a href=#objectId name="objectId">objectId</a>
 
 Unique identifier of the object with which the note is associated.  
-First included in: applicationCommon/Note (this entity)  
+First included in: applicationCommon/Note  (this entity)  
 
 #### Properties
 
@@ -272,7 +269,7 @@ First included in: applicationCommon/Note (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the objectId attribute are listed below.</summary>
+<summary>List of traits for the  objectId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -301,14 +298,14 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>6</td><td>integer</td><td></td></tr></table>
 
 - **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="Task.md" target="_blank">/core/applicationCommon/Task.cdm.json/Task</a></td><td><a href="Task.md#activityId" target="_blank">activityId</a></td></tr><tr><td><a href="Contact.md" target="_blank">/core/applicationCommon/Contact.cdm.json/Contact</a></td><td><a href="Contact.md#contactId" target="_blank">contactId</a></td></tr><tr><td><a href="SocialActivity.md" target="_blank">/core/applicationCommon/SocialActivity.cdm.json/SocialActivity</a></td><td><a href="SocialActivity.md#activityId" target="_blank">activityId</a></td></tr><tr><td><a href="KnowledgeBaseRecord.md" target="_blank">/core/applicationCommon/KnowledgeBaseRecord.cdm.json/KnowledgeBaseRecord</a></td><td><a href="KnowledgeBaseRecord.md#knowledgeBaseRecordId" target="_blank">knowledgeBaseRecordId</a></td></tr><tr><td><a href="Goal.md" target="_blank">/core/applicationCommon/Goal.cdm.json/Goal</a></td><td><a href="Goal.md#goalId" target="_blank">goalId</a></td></tr><tr><td><a href="Fax.md" target="_blank">/core/applicationCommon/Fax.cdm.json/Fax</a></td><td><a href="Fax.md#activityId" target="_blank">activityId</a></td></tr><tr><td><a href="Appointment.md" target="_blank">/core/applicationCommon/Appointment.cdm.json/Appointment</a></td><td><a href="Appointment.md#activityId" target="_blank">activityId</a></td></tr><tr><td><a href="SLA.md" target="_blank">/core/applicationCommon/SLA.cdm.json/SLA</a></td><td><a href="SLA.md#SLAId" target="_blank">SLAId</a></td></tr><tr><td><a href="Article.md" target="_blank">/core/applicationCommon/Article.cdm.json/Article</a></td><td><a href="Article.md#kbArticleId" target="_blank">kbArticleId</a></td></tr><tr><td><a href="Letter.md" target="_blank">/core/applicationCommon/Letter.cdm.json/Letter</a></td><td><a href="Letter.md#activityId" target="_blank">activityId</a></td></tr><tr><td><a href="PhoneCall.md" target="_blank">/core/applicationCommon/PhoneCall.cdm.json/PhoneCall</a></td><td><a href="PhoneCall.md#activityId" target="_blank">activityId</a></td></tr><tr><td><a href="KnowledgeArticle.md" target="_blank">/core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle</a></td><td><a href="KnowledgeArticle.md#knowledgearticleId" target="_blank">knowledgearticleId</a></td></tr><tr><td><a href="Account.md" target="_blank">/core/applicationCommon/Account.cdm.json/Account</a></td><td><a href="Account.md#accountId" target="_blank">accountId</a></td></tr><tr><td><a href="RecurringAppointment.md" target="_blank">/core/applicationCommon/RecurringAppointment.cdm.json/RecurringAppointment</a></td><td><a href="RecurringAppointment.md#activityId" target="_blank">activityId</a></td></tr><tr><td><a href="Email.md" target="_blank">/core/applicationCommon/Email.cdm.json/Email</a></td><td><a href="Email.md#activityId" target="_blank">activityId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  
 
 </details>
 
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier of the business unit that owns the note.  
-First included in: applicationCommon/Note (this entity)  
+First included in: applicationCommon/Note  (this entity)  
 
 #### Properties
 
@@ -317,7 +314,7 @@ First included in: applicationCommon/Note (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
+<summary>List of traits for the  owningBusinessUnit  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -345,15 +342,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>7</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="BusinessUnit.md" target="_blank">/core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit</a></td><td><a href="BusinessUnit.md#businessUnitId" target="_blank">businessUnitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#subject name="subject">subject</a>
 
 Subject associated with the note.  
-First included in: applicationCommon/Note (this entity)  
+First included in: applicationCommon/Note  (this entity)  
 
 #### Properties
 
@@ -362,7 +356,7 @@ First included in: applicationCommon/Note (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the subject attribute are listed below.</summary>
+<summary>List of traits for the  subject  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -393,7 +387,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#isDocument name="isDocument">isDocument</a>
 
 Specifies whether the note is an attachment.  
-First included in: applicationCommon/Note (this entity)  
+First included in: applicationCommon/Note  (this entity)  
 
 #### Properties
 
@@ -402,7 +396,7 @@ First included in: applicationCommon/Note (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the isDocument attribute are listed below.</summary>
+<summary>List of traits for the  isDocument  attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -425,7 +419,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#noteText name="noteText">noteText</a>
 
 Text of the note.  
-First included in: applicationCommon/Note (this entity)  
+First included in: applicationCommon/Note  (this entity)  
 
 #### Properties
 
@@ -434,7 +428,7 @@ First included in: applicationCommon/Note (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the noteText attribute are listed below.</summary>
+<summary>List of traits for the  noteText  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -465,7 +459,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#mimeType name="mimeType">mimeType</a>
 
 MIME type of the note's attachment.  
-First included in: applicationCommon/Note (this entity)  
+First included in: applicationCommon/Note  (this entity)  
 
 #### Properties
 
@@ -474,7 +468,7 @@ First included in: applicationCommon/Note (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the mimeType attribute are listed below.</summary>
+<summary>List of traits for the  mimeType  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -505,7 +499,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#langId name="langId">langId</a>
 
 Language identifier for the note.  
-First included in: applicationCommon/Note (this entity)  
+First included in: applicationCommon/Note  (this entity)  
 
 #### Properties
 
@@ -514,7 +508,7 @@ First included in: applicationCommon/Note (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the langId attribute are listed below.</summary>
+<summary>List of traits for the  langId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -545,7 +539,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#documentBody name="documentBody">documentBody</a>
 
 Contents of the note's attachment.  
-First included in: applicationCommon/Note (this entity)  
+First included in: applicationCommon/Note  (this entity)  
 
 #### Properties
 
@@ -554,7 +548,7 @@ First included in: applicationCommon/Note (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the documentBody attribute are listed below.</summary>
+<summary>List of traits for the  documentBody  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -585,7 +579,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the note was created.  
-First included in: applicationCommon/Note (this entity)  
+First included in: applicationCommon/Note  (this entity)  
 
 #### Properties
 
@@ -594,7 +588,7 @@ First included in: applicationCommon/Note (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the createdOn attribute are listed below.</summary>
+<summary>List of traits for the  createdOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -624,7 +618,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#fileSize name="fileSize">fileSize</a>
 
 File size of the note.  
-First included in: applicationCommon/Note (this entity)  
+First included in: applicationCommon/Note  (this entity)  
 
 #### Properties
 
@@ -633,7 +627,7 @@ First included in: applicationCommon/Note (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the fileSize attribute are listed below.</summary>
+<summary>List of traits for the  fileSize  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -662,7 +656,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#fileName name="fileName">fileName</a>
 
 File name of the note.  
-First included in: applicationCommon/Note (this entity)  
+First included in: applicationCommon/Note  (this entity)  
 
 #### Properties
 
@@ -671,7 +665,7 @@ First included in: applicationCommon/Note (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the fileName attribute are listed below.</summary>
+<summary>List of traits for the  fileName  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -703,7 +697,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Unique identifier of the user who created the note.  
-First included in: applicationCommon/Note (this entity)  
+First included in: applicationCommon/Note  (this entity)  
 
 #### Properties
 
@@ -712,7 +706,7 @@ First included in: applicationCommon/Note (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the createdBy attribute are listed below.</summary>
+<summary>List of traits for the  createdBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -740,15 +734,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>17</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Unique identifier of the user who last modified the note.  
-First included in: applicationCommon/Note (this entity)  
+First included in: applicationCommon/Note  (this entity)  
 
 #### Properties
 
@@ -757,7 +748,7 @@ First included in: applicationCommon/Note (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedBy attribute are listed below.</summary>
+<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -785,15 +776,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>19</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the note was last modified.  
-First included in: applicationCommon/Note (this entity)  
+First included in: applicationCommon/Note  (this entity)  
 
 #### Properties
 
@@ -802,7 +790,7 @@ First included in: applicationCommon/Note (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedOn attribute are listed below.</summary>
+<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -832,7 +820,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version number of the note.  
-First included in: applicationCommon/Note (this entity)  
+First included in: applicationCommon/Note  (this entity)  
 
 #### Properties
 
@@ -841,7 +829,7 @@ First included in: applicationCommon/Note (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the versionNumber attribute are listed below.</summary>
+<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -868,7 +856,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: applicationCommon/Note (this entity)  
+First included in: applicationCommon/Note  (this entity)  
 
 #### Properties
 
@@ -877,7 +865,7 @@ First included in: applicationCommon/Note (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the ownerIdType attribute are listed below.</summary>
+<summary>List of traits for the  ownerIdType  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -907,7 +895,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: applicationCommon/Note (this entity)  
+First included in: applicationCommon/Note  (this entity)  
 
 #### Properties
 
@@ -916,7 +904,7 @@ First included in: applicationCommon/Note (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the ownerId attribute are listed below.</summary>
+<summary>List of traits for the  ownerId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -942,7 +930,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>ownerid</td><td>string</td><td></td></tr></table>
 
 - **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="Team.md" target="_blank">/core/applicationCommon/Team.cdm.json/Team</a></td><td><a href="Team.md#teamId" target="_blank">teamId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  
 
 - **is.CDS.owner**  
 contains a User or Team ID  
@@ -952,7 +940,7 @@ contains a User or Team ID
 ### <a href=#stepId name="stepId">stepId</a>
 
 workflow step id associated with the note.  
-First included in: applicationCommon/Note (this entity)  
+First included in: applicationCommon/Note  (this entity)  
 
 #### Properties
 
@@ -961,7 +949,7 @@ First included in: applicationCommon/Note (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the stepId attribute are listed below.</summary>
+<summary>List of traits for the  stepId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -992,7 +980,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: applicationCommon/Note (this entity)  
+First included in: applicationCommon/Note  (this entity)  
 
 #### Properties
 
@@ -1001,7 +989,7 @@ First included in: applicationCommon/Note (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
+<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1031,7 +1019,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: applicationCommon/Note (this entity)  
+First included in: applicationCommon/Note  (this entity)  
 
 #### Properties
 
@@ -1040,7 +1028,7 @@ First included in: applicationCommon/Note (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
+<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1069,7 +1057,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Unique identifier of the delegate user who created the annotation.  
-First included in: applicationCommon/Note (this entity)  
+First included in: applicationCommon/Note  (this entity)  
 
 #### Properties
 
@@ -1078,7 +1066,7 @@ First included in: applicationCommon/Note (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
+<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1106,15 +1094,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>41</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Unique identifier of the delegate user who last modified the annotation.  
-First included in: applicationCommon/Note (this entity)  
+First included in: applicationCommon/Note  (this entity)  
 
 #### Properties
 
@@ -1123,7 +1108,7 @@ First included in: applicationCommon/Note (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
+<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1151,15 +1136,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>45</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier of the team who owns the note.  
-First included in: applicationCommon/Note (this entity)  
+First included in: applicationCommon/Note  (this entity)  
 
 #### Properties
 
@@ -1168,7 +1150,7 @@ First included in: applicationCommon/Note (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the owningTeam attribute are listed below.</summary>
+<summary>List of traits for the  owningTeam  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1195,8 +1177,5 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>49</td><td>integer</td><td></td></tr></table>
-
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="Team.md" target="_blank">/core/applicationCommon/Team.cdm.json/Team</a></td><td><a href="Team.md#teamId" target="_blank">teamId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 </details>

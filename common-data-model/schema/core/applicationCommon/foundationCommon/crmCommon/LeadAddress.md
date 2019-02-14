@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/12/2019
+ms.date: 2/13/2019
 ms.author: tpalmer
 ---
 
@@ -13,6 +13,12 @@ ms.author: tpalmer
 Address information for a lead.  
   
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/LeadAddress.cdm.json" target="_blank">GitHub</a>.  
+
+## Instances
+
+Instances of this entity are listed below:  
+
+crmCommon/LeadAddress  
 
 ## Traits
 
@@ -39,12 +45,6 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>LeadAddress</td><td>string</td><td></td></tr></table>
 
 </details>
-
-## Instances
-
-Instances of this entity are listed below:  
-
-crmCommon/LeadAddress  
 
 ## Attributes
 
@@ -93,7 +93,7 @@ crmCommon/LeadAddress
 ### <a href=#leadAddressId name="leadAddressId">leadAddressId</a>
 
 Unique identifier of the lead address.  
-First included in: crmCommon/LeadAddress (this entity)  
+First included in: crmCommon/LeadAddress  (this entity)  
 
 #### Properties
 
@@ -102,7 +102,7 @@ First included in: crmCommon/LeadAddress (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the leadAddressId attribute are listed below.</summary>
+<summary>List of traits for the  leadAddressId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -132,7 +132,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the lead address was created.  
-First included in: crmCommon/LeadAddress (this entity)  
+First included in: crmCommon/LeadAddress  (this entity)  
 
 #### Properties
 
@@ -141,7 +141,7 @@ First included in: crmCommon/LeadAddress (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the createdOn attribute are listed below.</summary>
+<summary>List of traits for the  createdOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -171,7 +171,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Unique identifier of the user who created the lead address.  
-First included in: crmCommon/LeadAddress (this entity)  
+First included in: crmCommon/LeadAddress  (this entity)  
 
 #### Properties
 
@@ -180,7 +180,7 @@ First included in: crmCommon/LeadAddress (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the createdBy attribute are listed below.</summary>
+<summary>List of traits for the  createdBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -208,15 +208,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10002</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="service/User.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User</a></td><td><a href="service/User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the lead address was last modified.  
-First included in: crmCommon/LeadAddress (this entity)  
+First included in: crmCommon/LeadAddress  (this entity)  
 
 #### Properties
 
@@ -225,7 +222,7 @@ First included in: crmCommon/LeadAddress (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedOn attribute are listed below.</summary>
+<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -255,7 +252,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Unique identifier of the user who last modified the lead address.  
-First included in: crmCommon/LeadAddress (this entity)  
+First included in: crmCommon/LeadAddress  (this entity)  
 
 #### Properties
 
@@ -264,7 +261,7 @@ First included in: crmCommon/LeadAddress (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedBy attribute are listed below.</summary>
+<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -292,15 +289,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10004</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="service/User.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User</a></td><td><a href="service/User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Unique identifier of the delegate user who created the leadaddress.  
-First included in: crmCommon/LeadAddress (this entity)  
+First included in: crmCommon/LeadAddress  (this entity)  
 
 #### Properties
 
@@ -309,7 +303,7 @@ First included in: crmCommon/LeadAddress (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
+<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -337,15 +331,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10005</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="service/User.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User</a></td><td><a href="service/User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Unique identifier of the delegate user who last modified the leadaddress.  
-First included in: crmCommon/LeadAddress (this entity)  
+First included in: crmCommon/LeadAddress  (this entity)  
 
 #### Properties
 
@@ -354,7 +345,7 @@ First included in: crmCommon/LeadAddress (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
+<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -382,15 +373,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10006</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="service/User.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User</a></td><td><a href="service/User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: crmCommon/LeadAddress (this entity)  
+First included in: crmCommon/LeadAddress  (this entity)  
 
 #### Properties
 
@@ -399,7 +387,7 @@ First included in: crmCommon/LeadAddress (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the versionNumber attribute are listed below.</summary>
+<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -426,7 +414,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: crmCommon/LeadAddress (this entity)  
+First included in: crmCommon/LeadAddress  (this entity)  
 
 #### Properties
 
@@ -435,7 +423,7 @@ First included in: crmCommon/LeadAddress (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
+<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -464,7 +452,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: crmCommon/LeadAddress (this entity)  
+First included in: crmCommon/LeadAddress  (this entity)  
 
 #### Properties
 
@@ -473,7 +461,7 @@ First included in: crmCommon/LeadAddress (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
+<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -503,7 +491,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: crmCommon/LeadAddress (this entity)  
+First included in: crmCommon/LeadAddress  (this entity)  
 
 #### Properties
 
@@ -512,7 +500,7 @@ First included in: crmCommon/LeadAddress (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
+<summary>List of traits for the  timeZoneRuleVersionNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -541,7 +529,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: crmCommon/LeadAddress (this entity)  
+First included in: crmCommon/LeadAddress  (this entity)  
 
 #### Properties
 
@@ -550,7 +538,7 @@ First included in: crmCommon/LeadAddress (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
+<summary>List of traits for the  UTCConversionTimeZoneCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -579,7 +567,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#name name="name">name</a>
 
 Name used to identify the lead address.  
-First included in: crmCommon/LeadAddress (this entity)  
+First included in: crmCommon/LeadAddress  (this entity)  
 
 #### Properties
 
@@ -588,7 +576,7 @@ First included in: crmCommon/LeadAddress (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the name attribute are listed below.</summary>
+<summary>List of traits for the  name  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -620,7 +608,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#addressNumber name="addressNumber">addressNumber</a>
 
 Information about the address for the lead.  
-First included in: crmCommon/LeadAddress (this entity)  
+First included in: crmCommon/LeadAddress  (this entity)  
 
 #### Properties
 
@@ -629,7 +617,7 @@ First included in: crmCommon/LeadAddress (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the addressNumber attribute are listed below.</summary>
+<summary>List of traits for the  addressNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -658,7 +646,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#addressTypeCode name="addressTypeCode">addressTypeCode</a>
 
 Type of address for the lead address.  
-First included in: crmCommon/LeadAddress (this entity)  
+First included in: crmCommon/LeadAddress  (this entity)  
 
 #### Properties
 
@@ -667,7 +655,7 @@ First included in: crmCommon/LeadAddress (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the addressTypeCode attribute are listed below.</summary>
+<summary>List of traits for the  addressTypeCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -698,7 +686,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#addressTypeCode_display name="addressTypeCode_display">addressTypeCode_display</a>
 
-First included in: crmCommon/LeadAddress (this entity)  
+First included in: crmCommon/LeadAddress  (this entity)  
 
 #### Properties
 
@@ -707,7 +695,7 @@ First included in: crmCommon/LeadAddress (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the addressTypeCode_display attribute are listed below.</summary>
+<summary>List of traits for the  addressTypeCode_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -722,7 +710,7 @@ First included in: crmCommon/LeadAddress (this entity)
 ### <a href=#city name="city">city</a>
 
 City name in the address for the lead.  
-First included in: crmCommon/LeadAddress (this entity)  
+First included in: crmCommon/LeadAddress  (this entity)  
 
 #### Properties
 
@@ -731,7 +719,7 @@ First included in: crmCommon/LeadAddress (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the city attribute are listed below.</summary>
+<summary>List of traits for the  city  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -762,7 +750,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#composite name="composite">composite</a>
 
 Shows the complete address.  
-First included in: crmCommon/LeadAddress (this entity)  
+First included in: crmCommon/LeadAddress  (this entity)  
 
 #### Properties
 
@@ -771,7 +759,7 @@ First included in: crmCommon/LeadAddress (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the composite attribute are listed below.</summary>
+<summary>List of traits for the  composite  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -802,7 +790,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#country name="country">country</a>
 
 Country/region name in the address for the lead.  
-First included in: crmCommon/LeadAddress (this entity)  
+First included in: crmCommon/LeadAddress  (this entity)  
 
 #### Properties
 
@@ -811,7 +799,7 @@ First included in: crmCommon/LeadAddress (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the country attribute are listed below.</summary>
+<summary>List of traits for the  country  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -842,7 +830,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#county name="county">county</a>
 
 County name in the address for the lead.  
-First included in: crmCommon/LeadAddress (this entity)  
+First included in: crmCommon/LeadAddress  (this entity)  
 
 #### Properties
 
@@ -851,7 +839,7 @@ First included in: crmCommon/LeadAddress (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the county attribute are listed below.</summary>
+<summary>List of traits for the  county  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -882,7 +870,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#fax name="fax">fax</a>
 
 Fax number for the address for the lead.  
-First included in: crmCommon/LeadAddress (this entity)  
+First included in: crmCommon/LeadAddress  (this entity)  
 
 #### Properties
 
@@ -891,7 +879,7 @@ First included in: crmCommon/LeadAddress (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the fax attribute are listed below.</summary>
+<summary>List of traits for the  fax  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -922,7 +910,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#latitude name="latitude">latitude</a>
 
 Latitude for the address for the lead.  
-First included in: crmCommon/LeadAddress (this entity)  
+First included in: crmCommon/LeadAddress  (this entity)  
 
 #### Properties
 
@@ -931,7 +919,7 @@ First included in: crmCommon/LeadAddress (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the latitude attribute are listed below.</summary>
+<summary>List of traits for the  latitude  attribute are listed below.</summary>
 
 - **is.dataFormat.floatingPoint**  
 - **is.dataFormat.big**  
@@ -961,7 +949,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#line1 name="line1">line1</a>
 
 First line for entering address information.  
-First included in: crmCommon/LeadAddress (this entity)  
+First included in: crmCommon/LeadAddress  (this entity)  
 
 #### Properties
 
@@ -970,7 +958,7 @@ First included in: crmCommon/LeadAddress (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the line1 attribute are listed below.</summary>
+<summary>List of traits for the  line1  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1001,7 +989,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#line2 name="line2">line2</a>
 
 Second line for entering address information.  
-First included in: crmCommon/LeadAddress (this entity)  
+First included in: crmCommon/LeadAddress  (this entity)  
 
 #### Properties
 
@@ -1010,7 +998,7 @@ First included in: crmCommon/LeadAddress (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the line2 attribute are listed below.</summary>
+<summary>List of traits for the  line2  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1041,7 +1029,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#line3 name="line3">line3</a>
 
 Third line for entering address information.  
-First included in: crmCommon/LeadAddress (this entity)  
+First included in: crmCommon/LeadAddress  (this entity)  
 
 #### Properties
 
@@ -1050,7 +1038,7 @@ First included in: crmCommon/LeadAddress (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the line3 attribute are listed below.</summary>
+<summary>List of traits for the  line3  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1081,7 +1069,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#longitude name="longitude">longitude</a>
 
 Longitude for the address for the lead.  
-First included in: crmCommon/LeadAddress (this entity)  
+First included in: crmCommon/LeadAddress  (this entity)  
 
 #### Properties
 
@@ -1090,7 +1078,7 @@ First included in: crmCommon/LeadAddress (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the longitude attribute are listed below.</summary>
+<summary>List of traits for the  longitude  attribute are listed below.</summary>
 
 - **is.dataFormat.floatingPoint**  
 - **is.dataFormat.big**  
@@ -1120,7 +1108,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#parentId name="parentId">parentId</a>
 
 Unique identifier of the parent object with which the lead address is associated.  
-First included in: crmCommon/LeadAddress (this entity)  
+First included in: crmCommon/LeadAddress  (this entity)  
 
 #### Properties
 
@@ -1129,7 +1117,7 @@ First included in: crmCommon/LeadAddress (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the parentId attribute are listed below.</summary>
+<summary>List of traits for the  parentId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1154,15 +1142,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10035</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="Lead.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.json/Lead</a></td><td><a href="Lead.md#leadId" target="_blank">leadId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#postalCode name="postalCode">postalCode</a>
 
 ZIP Code or postal code in the address for the lead.  
-First included in: crmCommon/LeadAddress (this entity)  
+First included in: crmCommon/LeadAddress  (this entity)  
 
 #### Properties
 
@@ -1171,7 +1156,7 @@ First included in: crmCommon/LeadAddress (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the postalCode attribute are listed below.</summary>
+<summary>List of traits for the  postalCode  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1202,7 +1187,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#postOfficeBox name="postOfficeBox">postOfficeBox</a>
 
 Post office box number in the address for the lead.  
-First included in: crmCommon/LeadAddress (this entity)  
+First included in: crmCommon/LeadAddress  (this entity)  
 
 #### Properties
 
@@ -1211,7 +1196,7 @@ First included in: crmCommon/LeadAddress (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the postOfficeBox attribute are listed below.</summary>
+<summary>List of traits for the  postOfficeBox  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1242,7 +1227,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#shippingMethodCode name="shippingMethodCode">shippingMethodCode</a>
 
 Method of shipment for the lead.  
-First included in: crmCommon/LeadAddress (this entity)  
+First included in: crmCommon/LeadAddress  (this entity)  
 
 #### Properties
 
@@ -1251,7 +1236,7 @@ First included in: crmCommon/LeadAddress (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the shippingMethodCode attribute are listed below.</summary>
+<summary>List of traits for the  shippingMethodCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -1282,7 +1267,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#shippingMethodCode_display name="shippingMethodCode_display">shippingMethodCode_display</a>
 
-First included in: crmCommon/LeadAddress (this entity)  
+First included in: crmCommon/LeadAddress  (this entity)  
 
 #### Properties
 
@@ -1291,7 +1276,7 @@ First included in: crmCommon/LeadAddress (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the shippingMethodCode_display attribute are listed below.</summary>
+<summary>List of traits for the  shippingMethodCode_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1306,7 +1291,7 @@ First included in: crmCommon/LeadAddress (this entity)
 ### <a href=#stateOrProvince name="stateOrProvince">stateOrProvince</a>
 
 State or province in the address for the lead.  
-First included in: crmCommon/LeadAddress (this entity)  
+First included in: crmCommon/LeadAddress  (this entity)  
 
 #### Properties
 
@@ -1315,7 +1300,7 @@ First included in: crmCommon/LeadAddress (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the stateOrProvince attribute are listed below.</summary>
+<summary>List of traits for the  stateOrProvince  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1346,7 +1331,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#telephone1 name="telephone1">telephone1</a>
 
 First telephone number for the lead address.  
-First included in: crmCommon/LeadAddress (this entity)  
+First included in: crmCommon/LeadAddress  (this entity)  
 
 #### Properties
 
@@ -1355,7 +1340,7 @@ First included in: crmCommon/LeadAddress (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the telephone1 attribute are listed below.</summary>
+<summary>List of traits for the  telephone1  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1387,7 +1372,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#telephone2 name="telephone2">telephone2</a>
 
 Second telephone number for the lead address.  
-First included in: crmCommon/LeadAddress (this entity)  
+First included in: crmCommon/LeadAddress  (this entity)  
 
 #### Properties
 
@@ -1396,7 +1381,7 @@ First included in: crmCommon/LeadAddress (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the telephone2 attribute are listed below.</summary>
+<summary>List of traits for the  telephone2  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1428,7 +1413,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#telephone3 name="telephone3">telephone3</a>
 
 Third telephone number for the lead address.  
-First included in: crmCommon/LeadAddress (this entity)  
+First included in: crmCommon/LeadAddress  (this entity)  
 
 #### Properties
 
@@ -1437,7 +1422,7 @@ First included in: crmCommon/LeadAddress (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the telephone3 attribute are listed below.</summary>
+<summary>List of traits for the  telephone3  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1469,7 +1454,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UPSZone name="UPSZone">UPSZone</a>
 
 United Parcel Service (UPS) zone for the address of the lead.  
-First included in: crmCommon/LeadAddress (this entity)  
+First included in: crmCommon/LeadAddress  (this entity)  
 
 #### Properties
 
@@ -1478,7 +1463,7 @@ First included in: crmCommon/LeadAddress (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the UPSZone attribute are listed below.</summary>
+<summary>List of traits for the  UPSZone  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1509,7 +1494,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCOffset name="UTCOffset">UTCOffset</a>
 
 UTC offset for the lead address. This is the difference between local time and standard Coordinated Universal Time.  
-First included in: crmCommon/LeadAddress (this entity)  
+First included in: crmCommon/LeadAddress  (this entity)  
 
 #### Properties
 
@@ -1518,7 +1503,7 @@ First included in: crmCommon/LeadAddress (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the UTCOffset attribute are listed below.</summary>
+<summary>List of traits for the  UTCOffset  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1547,7 +1532,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Exchange rate for the currency associated with the leadaddress with respect to the base currency.  
-First included in: crmCommon/LeadAddress (this entity)  
+First included in: crmCommon/LeadAddress  (this entity)  
 
 #### Properties
 
@@ -1556,7 +1541,7 @@ First included in: crmCommon/LeadAddress (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the exchangeRate attribute are listed below.</summary>
+<summary>List of traits for the  exchangeRate  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1587,7 +1572,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Unique identifier of the currency associated with the leadaddress.  
-First included in: crmCommon/LeadAddress (this entity)  
+First included in: crmCommon/LeadAddress  (this entity)  
 
 #### Properties
 
@@ -1596,7 +1581,7 @@ First included in: crmCommon/LeadAddress (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
+<summary>List of traits for the  transactionCurrencyId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1623,8 +1608,5 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10048</td><td>integer</td><td></td></tr></table>
-
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../Currency.md" target="_blank">/core/applicationCommon/Currency.cdm.json/Currency</a></td><td><a href="../../Currency.md#transactionCurrencyId" target="_blank">transactionCurrencyId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 </details>

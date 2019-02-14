@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/12/2019
+ms.date: 2/13/2019
 ms.author: tpalmer
 ---
 
@@ -13,6 +13,12 @@ ms.author: tpalmer
 A planned gift is a major gift made during a donor's lifetime or at the time of their death that involves their estate and tax planning.  There are many forms of planned giving, but the three most common vehicles are CRTs (Charitable Remainder Trusts), Bequests and Annuities, which all have different tax benefits and financial reconciliation guidelines for the nonprofit organization. Planned gifts are in contrast to annual gifts, which are made through a donor's discretionary income and not tied to an estate.  
   
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/PlannedGiving.cdm.json" target="_blank">GitHub</a>.  
+
+## Instances
+
+Instances of this entity are listed below:  
+
+nonProfit/PlannedGiving  
 
 ## Traits
 
@@ -42,12 +48,6 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>msnfp_PlannedGiving</td><td>string</td><td></td></tr></table>
 
 </details>
-
-## Instances
-
-Instances of this entity are listed below:  
-
-nonProfit/PlannedGiving  
 
 ## Attributes
 
@@ -194,7 +194,7 @@ nonProfit/PlannedGiving
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -203,7 +203,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the createdOn attribute are listed below.</summary>
+<summary>List of traits for the  createdOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -233,7 +233,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -242,7 +242,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the createdBy attribute are listed below.</summary>
+<summary>List of traits for the  createdBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -273,15 +273,12 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>createdby</td><td>string</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -290,7 +287,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedOn attribute are listed below.</summary>
+<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -320,7 +317,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -329,7 +326,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedBy attribute are listed below.</summary>
+<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -360,15 +357,12 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>modifiedby</td><td>string</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -377,7 +371,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
+<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -408,15 +402,12 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>createdonbehalfby</td><td>string</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -425,7 +416,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
+<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -456,15 +447,12 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>modifiedonbehalfby</td><td>string</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -473,7 +461,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
+<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -503,7 +491,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -512,7 +500,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
+<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -538,7 +526,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -547,7 +535,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the ownerIdType attribute are listed below.</summary>
+<summary>List of traits for the  ownerIdType  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -577,7 +565,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -586,7 +574,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the ownerId attribute are listed below.</summary>
+<summary>List of traits for the  ownerId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -612,7 +600,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>ownerid</td><td>string</td><td></td></tr></table>
 
 - **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="../../../../Team.md" target="_blank">/core/applicationCommon/Team.cdm.json/Team</a></td><td><a href="../../../../Team.md#teamId" target="_blank">teamId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  
 
 - **is.CDS.owner**  
 contains a User or Team ID  
@@ -622,7 +610,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -631,7 +619,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
+<summary>List of traits for the  owningBusinessUnit  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -659,15 +647,12 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>owningbusinessunit</td><td>string</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../BusinessUnit.md" target="_blank">/core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit</a></td><td><a href="../../../../BusinessUnit.md#businessUnitId" target="_blank">businessUnitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -676,7 +661,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the owningUser attribute are listed below.</summary>
+<summary>List of traits for the  owningUser  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -707,15 +692,12 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>owninguser</td><td>string</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="../../service/User.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User</a></td><td><a href="../../service/User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -724,7 +706,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the owningTeam attribute are listed below.</summary>
+<summary>List of traits for the  owningTeam  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -752,15 +734,12 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>owningteam</td><td>string</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../Team.md" target="_blank">/core/applicationCommon/Team.cdm.json/Team</a></td><td><a href="../../../../Team.md#teamId" target="_blank">teamId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -769,7 +748,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
+<summary>List of traits for the  timeZoneRuleVersionNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -798,7 +777,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -807,7 +786,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
+<summary>List of traits for the  UTCConversionTimeZoneCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -836,7 +815,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -845,7 +824,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the versionNumber attribute are listed below.</summary>
+<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -873,7 +852,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#plannedGivingId name="plannedGivingId">plannedGivingId</a>
 
 Unique identifier for entity instances  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -882,7 +861,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the plannedGivingId attribute are listed below.</summary>
+<summary>List of traits for the  plannedGivingId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -912,7 +891,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Status of the Planned Giving  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -921,11 +900,11 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the stateCode attribute are listed below.</summary>
+<summary>List of traits for the  stateCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr><tr><td>en</td><td>Active</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -952,7 +931,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -961,7 +940,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the stateCode_display attribute are listed below.</summary>
+<summary>List of traits for the  stateCode_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -976,20 +955,20 @@ First included in: nonProfit/PlannedGiving (this entity)
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Reason for the status of the Planned Giving  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Planned Giving</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Planned Giving</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the statusCode attribute are listed below.</summary>
+<summary>List of traits for the  statusCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1019,7 +998,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -1028,7 +1007,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the statusCode_display attribute are listed below.</summary>
+<summary>List of traits for the  statusCode_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1042,7 +1021,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 
 ### <a href=#name name="name">name</a>
 
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -1051,7 +1030,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the name attribute are listed below.</summary>
+<summary>List of traits for the  name  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1080,7 +1059,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#actualPercentOfEstateRecieved name="actualPercentOfEstateRecieved">actualPercentOfEstateRecieved</a>
 
 Actual percent of donor estate received by organization  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -1089,7 +1068,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the actualPercentOfEstateRecieved attribute are listed below.</summary>
+<summary>List of traits for the  actualPercentOfEstateRecieved  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1120,7 +1099,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#affiliation name="affiliation">affiliation</a>
 
 Represents groups within the organization.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -1129,7 +1108,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the affiliation attribute are listed below.</summary>
+<summary>List of traits for the  affiliation  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -1160,7 +1139,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#affiliation_display name="affiliation_display">affiliation_display</a>
 
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -1169,7 +1148,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the affiliation_display attribute are listed below.</summary>
+<summary>List of traits for the  affiliation_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1184,7 +1163,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 ### <a href=#amountPerFrequency name="amountPerFrequency">amountPerFrequency</a>
 
 Amount distributed to organization per defined frequency.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -1193,7 +1172,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the amountPerFrequency attribute are listed below.</summary>
+<summary>List of traits for the  amountPerFrequency  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1225,7 +1204,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Unique identifier of the currency associated with the entity.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -1234,7 +1213,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
+<summary>List of traits for the  transactionCurrencyId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1263,14 +1242,14 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>38</td><td>integer</td><td></td></tr></table>
 
 - **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../Currency.md" target="_blank">/core/applicationCommon/Currency.cdm.json/Currency</a></td><td><a href="../../../../Currency.md#transactionCurrencyId" target="_blank">transactionCurrencyId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  
 
 </details>
 
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Exchange rate for the currency associated with the entity with respect to the base currency.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -1279,7 +1258,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the exchangeRate attribute are listed below.</summary>
+<summary>List of traits for the  exchangeRate  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1310,7 +1289,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#amountperfrequencyBase name="amountperfrequencyBase">amountperfrequencyBase</a>
 
 Value of the Amount Per Frequency in base currency.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -1319,7 +1298,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the amountperfrequencyBase attribute are listed below.</summary>
+<summary>List of traits for the  amountperfrequencyBase  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1354,7 +1333,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#annualMarketValue name="annualMarketValue">annualMarketValue</a>
 
 Annual Market Value provided by official valuation source such as Kaspick.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -1363,7 +1342,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the annualMarketValue attribute are listed below.</summary>
+<summary>List of traits for the  annualMarketValue  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1395,7 +1374,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#annualmarketvalueBase name="annualmarketvalueBase">annualmarketvalueBase</a>
 
 Value of the Annual Market Value in base currency.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -1404,7 +1383,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the annualmarketvalueBase attribute are listed below.</summary>
+<summary>List of traits for the  annualmarketvalueBase  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1439,7 +1418,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#annualMarketValueDate name="annualMarketValueDate">annualMarketValueDate</a>
 
 Date Annual Market Value provided by official valuation source such as Kaspick.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -1448,7 +1427,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the annualMarketValueDate attribute are listed below.</summary>
+<summary>List of traits for the  annualMarketValueDate  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1477,7 +1456,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#annualPayment name="annualPayment">annualPayment</a>
 
 Annual Payment to organization.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -1486,7 +1465,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the annualPayment attribute are listed below.</summary>
+<summary>List of traits for the  annualPayment  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1518,7 +1497,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#annualpaymentBase name="annualpaymentBase">annualpaymentBase</a>
 
 Value of the Annual Payment in base currency.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -1527,7 +1506,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the annualpaymentBase attribute are listed below.</summary>
+<summary>List of traits for the  annualpaymentBase  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1562,7 +1541,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#anticipatedAnnualPayment name="anticipatedAnnualPayment">anticipatedAnnualPayment</a>
 
 Anticipated Annual Payment to organization.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -1571,7 +1550,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the anticipatedAnnualPayment attribute are listed below.</summary>
+<summary>List of traits for the  anticipatedAnnualPayment  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1603,7 +1582,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#anticipatedannualpaymentBase name="anticipatedannualpaymentBase">anticipatedannualpaymentBase</a>
 
 Value of the Anticipated Annual Payment in base currency.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -1612,7 +1591,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the anticipatedannualpaymentBase attribute are listed below.</summary>
+<summary>List of traits for the  anticipatedannualpaymentBase  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1647,7 +1626,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#anticipatedDistributionDateOfTrust name="anticipatedDistributionDateOfTrust">anticipatedDistributionDateOfTrust</a>
 
 Anticipated distribution date of trust typically provided by executor, trustee or attorney or in estate documentation.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -1656,7 +1635,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the anticipatedDistributionDateOfTrust attribute are listed below.</summary>
+<summary>List of traits for the  anticipatedDistributionDateOfTrust  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1685,7 +1664,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#anticipatedPercentOfTrust name="anticipatedPercentOfTrust">anticipatedPercentOfTrust</a>
 
 Anticipated percent of trust that will go to the organization. This is typically provided by executor, trustee or attorney or in estate documentation.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -1694,7 +1673,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the anticipatedPercentOfTrust attribute are listed below.</summary>
+<summary>List of traits for the  anticipatedPercentOfTrust  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1725,7 +1704,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#appraisalDate name="appraisalDate">appraisalDate</a>
 
 Date the appraisal was conducted.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -1734,7 +1713,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the appraisalDate attribute are listed below.</summary>
+<summary>List of traits for the  appraisalDate  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1763,7 +1742,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#appraisalValue name="appraisalValue">appraisalValue</a>
 
 Value of the appraised item or asset from qualified appraiser  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -1772,7 +1751,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the appraisalValue attribute are listed below.</summary>
+<summary>List of traits for the  appraisalValue  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1804,7 +1783,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#appraisalvalueBase name="appraisalvalueBase">appraisalvalueBase</a>
 
 Value of the Appraisal Value in base currency.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -1813,7 +1792,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the appraisalvalueBase attribute are listed below.</summary>
+<summary>List of traits for the  appraisalvalueBase  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1848,7 +1827,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#bequestType name="bequestType">bequestType</a>
 
 Is the Bequest a Living Trust, Will, or both?  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -1857,11 +1836,11 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the bequestType attribute are listed below.</summary>
+<summary>List of traits for the  bequestType  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Living Trust</td><td>100000000</td></tr><tr><td>en</td><td>Will</td><td>100000001</td></tr><tr><td>en</td><td>Living Trust and Will</td><td>100000002</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Living Trust and Will</td><td>100000002</td></tr><tr><td>en</td><td>Will</td><td>100000001</td></tr><tr><td>en</td><td>Living Trust</td><td>100000000</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1888,7 +1867,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#bequestType_display name="bequestType_display">bequestType_display</a>
 
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -1897,7 +1876,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the bequestType_display attribute are listed below.</summary>
+<summary>List of traits for the  bequestType_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1912,7 +1891,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 ### <a href=#capitalGainIncome name="capitalGainIncome">capitalGainIncome</a>
 
 Beneficiary's taxable capital gain income portion of life insurance income.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -1921,7 +1900,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the capitalGainIncome attribute are listed below.</summary>
+<summary>List of traits for the  capitalGainIncome  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1953,7 +1932,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#capitalgainincomeBase name="capitalgainincomeBase">capitalgainincomeBase</a>
 
 Value of the Capital Gain Income in base currency.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -1962,7 +1941,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the capitalgainincomeBase attribute are listed below.</summary>
+<summary>List of traits for the  capitalgainincomeBase  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1997,7 +1976,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#cashSurrenderValue name="cashSurrenderValue">cashSurrenderValue</a>
 
 The current Cash Surrender Value of the insurance policy.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -2006,7 +1985,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the cashSurrenderValue attribute are listed below.</summary>
+<summary>List of traits for the  cashSurrenderValue  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -2038,7 +2017,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#cashsurrendervalueBase name="cashsurrendervalueBase">cashsurrendervalueBase</a>
 
 Value of the Cash Surrender Value in base currency.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -2047,7 +2026,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the cashsurrendervalueBase attribute are listed below.</summary>
+<summary>List of traits for the  cashsurrendervalueBase  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -2082,7 +2061,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#charitableDeduction name="charitableDeduction">charitableDeduction</a>
 
 Calculated Charitable Deduction for Planned Giving.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -2091,7 +2070,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the charitableDeduction attribute are listed below.</summary>
+<summary>List of traits for the  charitableDeduction  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -2123,7 +2102,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#charitabledeductionBase name="charitabledeductionBase">charitabledeductionBase</a>
 
 Value of the Charitable Deduction in base currency.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -2132,7 +2111,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the charitabledeductionBase attribute are listed below.</summary>
+<summary>List of traits for the  charitabledeductionBase  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -2167,7 +2146,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#contractDate name="contractDate">contractDate</a>
 
 Date funding will start as specified on the Contract.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -2176,7 +2155,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the contractDate attribute are listed below.</summary>
+<summary>List of traits for the  contractDate  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -2205,7 +2184,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#costBasis name="costBasis">costBasis</a>
 
 Original purchase price of funding asset.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -2214,7 +2193,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the costBasis attribute are listed below.</summary>
+<summary>List of traits for the  costBasis  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -2246,7 +2225,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#costbasisBase name="costbasisBase">costbasisBase</a>
 
 Value of the Cost Basis in base currency.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -2255,7 +2234,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the costbasisBase attribute are listed below.</summary>
+<summary>List of traits for the  costbasisBase  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -2290,7 +2269,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#dateClaimFormsRecieved name="dateClaimFormsRecieved">dateClaimFormsRecieved</a>
 
 Date Claim Forms Received.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -2299,7 +2278,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the dateClaimFormsRecieved attribute are listed below.</summary>
+<summary>List of traits for the  dateClaimFormsRecieved  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -2328,7 +2307,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#dateClaimFormsSubmitted name="dateClaimFormsSubmitted">dateClaimFormsSubmitted</a>
 
 Date Claim Forms Submitted.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -2337,7 +2316,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the dateClaimFormsSubmitted attribute are listed below.</summary>
+<summary>List of traits for the  dateClaimFormsSubmitted  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -2366,7 +2345,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#dateEstateClosed name="dateEstateClosed">dateEstateClosed</a>
 
 Date a management agreement is signed as provided by executor, trustee or attorney.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -2375,7 +2354,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the dateEstateClosed attribute are listed below.</summary>
+<summary>List of traits for the  dateEstateClosed  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -2404,7 +2383,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#dateManagementAgreementSigned name="dateManagementAgreementSigned">dateManagementAgreementSigned</a>
 
 Date a management agreement is signed as provided by executor, trustee or attorney.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -2413,7 +2392,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the dateManagementAgreementSigned attribute are listed below.</summary>
+<summary>List of traits for the  dateManagementAgreementSigned  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -2442,7 +2421,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#dateStationNotifiedOfDeath name="dateStationNotifiedOfDeath">dateStationNotifiedOfDeath</a>
 
 Date your organization is notified of the donor's death.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -2451,7 +2430,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the dateStationNotifiedOfDeath attribute are listed below.</summary>
+<summary>List of traits for the  dateStationNotifiedOfDeath  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -2480,7 +2459,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#dateStationNotifiedOfIntention name="dateStationNotifiedOfIntention">dateStationNotifiedOfIntention</a>
 
 Date organization Notified of Intention to give a Planned Giving.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -2489,7 +2468,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the dateStationNotifiedOfIntention attribute are listed below.</summary>
+<summary>List of traits for the  dateStationNotifiedOfIntention  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -2518,7 +2497,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#dateStationNotifiedToMakeClaim name="dateStationNotifiedToMakeClaim">dateStationNotifiedToMakeClaim</a>
 
 Date Organization notified to make a claim.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -2527,7 +2506,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the dateStationNotifiedToMakeClaim attribute are listed below.</summary>
+<summary>List of traits for the  dateStationNotifiedToMakeClaim  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -2556,7 +2535,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#dateWillExecuted name="dateWillExecuted">dateWillExecuted</a>
 
 Date Will Executed as provided in estate documentation.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -2565,7 +2544,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the dateWillExecuted attribute are listed below.</summary>
+<summary>List of traits for the  dateWillExecuted  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -2594,7 +2573,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#deceased name="deceased">deceased</a>
 
 Indicates the Contact is Deceased.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -2603,7 +2582,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the deceased attribute are listed below.</summary>
+<summary>List of traits for the  deceased  attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -2629,20 +2608,20 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#deceasedDay name="deceasedDay">deceasedDay</a>
 
 Day the Contact was deceased.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Deceased Day</td></tr><tr><td>description</td><td>Day the Contact was deceased.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_deceasedday</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>01</td><td>100000000</td></tr><tr><td>en</td><td>02</td><td>100000001</td></tr><tr><td>en</td><td>03</td><td>100000002</td></tr><tr><td>en</td><td>04</td><td>100000003</td></tr><tr><td>en</td><td>05</td><td>100000004</td></tr><tr><td>en</td><td>06</td><td>100000005</td></tr><tr><td>en</td><td>07</td><td>100000006</td></tr><tr><td>en</td><td>08</td><td>100000007</td></tr><tr><td>en</td><td>09</td><td>100000008</td></tr><tr><td>en</td><td>10</td><td>100000009</td></tr><tr><td>en</td><td>11</td><td>100000010</td></tr><tr><td>en</td><td>12</td><td>100000011</td></tr><tr><td>en</td><td>13</td><td>100000012</td></tr><tr><td>en</td><td>14</td><td>100000013</td></tr><tr><td>en</td><td>15</td><td>100000014</td></tr><tr><td>en</td><td>16</td><td>100000015</td></tr><tr><td>en</td><td>17</td><td>100000016</td></tr><tr><td>en</td><td>18</td><td>100000017</td></tr><tr><td>en</td><td>19</td><td>100000018</td></tr><tr><td>en</td><td>20</td><td>100000019</td></tr><tr><td>en</td><td>21</td><td>100000020</td></tr><tr><td>en</td><td>22</td><td>100000021</td></tr><tr><td>en</td><td>23</td><td>100000022</td></tr><tr><td>en</td><td>24</td><td>100000023</td></tr><tr><td>en</td><td>25</td><td>100000024</td></tr><tr><td>en</td><td>26</td><td>100000025</td></tr><tr><td>en</td><td>27</td><td>100000026</td></tr><tr><td>en</td><td>28</td><td>100000027</td></tr><tr><td>en</td><td>29</td><td>100000028</td></tr><tr><td>en</td><td>30</td><td>100000029</td></tr><tr><td>en</td><td>31</td><td>100000030</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Deceased Day</td></tr><tr><td>description</td><td>Day the Contact was deceased.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_deceasedday</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>01</td><td>100000000</td></tr><tr><td>en</td><td>31</td><td>100000030</td></tr><tr><td>en</td><td>03</td><td>100000002</td></tr><tr><td>en</td><td>04</td><td>100000003</td></tr><tr><td>en</td><td>05</td><td>100000004</td></tr><tr><td>en</td><td>06</td><td>100000005</td></tr><tr><td>en</td><td>07</td><td>100000006</td></tr><tr><td>en</td><td>08</td><td>100000007</td></tr><tr><td>en</td><td>09</td><td>100000008</td></tr><tr><td>en</td><td>10</td><td>100000009</td></tr><tr><td>en</td><td>11</td><td>100000010</td></tr><tr><td>en</td><td>12</td><td>100000011</td></tr><tr><td>en</td><td>13</td><td>100000012</td></tr><tr><td>en</td><td>14</td><td>100000013</td></tr><tr><td>en</td><td>15</td><td>100000014</td></tr><tr><td>en</td><td>02</td><td>100000001</td></tr><tr><td>en</td><td>17</td><td>100000016</td></tr><tr><td>en</td><td>18</td><td>100000017</td></tr><tr><td>en</td><td>19</td><td>100000018</td></tr><tr><td>en</td><td>20</td><td>100000019</td></tr><tr><td>en</td><td>21</td><td>100000020</td></tr><tr><td>en</td><td>22</td><td>100000021</td></tr><tr><td>en</td><td>23</td><td>100000022</td></tr><tr><td>en</td><td>24</td><td>100000023</td></tr><tr><td>en</td><td>25</td><td>100000024</td></tr><tr><td>en</td><td>26</td><td>100000025</td></tr><tr><td>en</td><td>27</td><td>100000026</td></tr><tr><td>en</td><td>28</td><td>100000027</td></tr><tr><td>en</td><td>29</td><td>100000028</td></tr><tr><td>en</td><td>30</td><td>100000029</td></tr><tr><td>en</td><td>16</td><td>100000015</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the deceasedDay attribute are listed below.</summary>
+<summary>List of traits for the  deceasedDay  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>01</td><td>100000000</td></tr><tr><td>en</td><td>02</td><td>100000001</td></tr><tr><td>en</td><td>03</td><td>100000002</td></tr><tr><td>en</td><td>04</td><td>100000003</td></tr><tr><td>en</td><td>05</td><td>100000004</td></tr><tr><td>en</td><td>06</td><td>100000005</td></tr><tr><td>en</td><td>07</td><td>100000006</td></tr><tr><td>en</td><td>08</td><td>100000007</td></tr><tr><td>en</td><td>09</td><td>100000008</td></tr><tr><td>en</td><td>10</td><td>100000009</td></tr><tr><td>en</td><td>11</td><td>100000010</td></tr><tr><td>en</td><td>12</td><td>100000011</td></tr><tr><td>en</td><td>13</td><td>100000012</td></tr><tr><td>en</td><td>14</td><td>100000013</td></tr><tr><td>en</td><td>15</td><td>100000014</td></tr><tr><td>en</td><td>16</td><td>100000015</td></tr><tr><td>en</td><td>17</td><td>100000016</td></tr><tr><td>en</td><td>18</td><td>100000017</td></tr><tr><td>en</td><td>19</td><td>100000018</td></tr><tr><td>en</td><td>20</td><td>100000019</td></tr><tr><td>en</td><td>21</td><td>100000020</td></tr><tr><td>en</td><td>22</td><td>100000021</td></tr><tr><td>en</td><td>23</td><td>100000022</td></tr><tr><td>en</td><td>24</td><td>100000023</td></tr><tr><td>en</td><td>25</td><td>100000024</td></tr><tr><td>en</td><td>26</td><td>100000025</td></tr><tr><td>en</td><td>27</td><td>100000026</td></tr><tr><td>en</td><td>28</td><td>100000027</td></tr><tr><td>en</td><td>29</td><td>100000028</td></tr><tr><td>en</td><td>30</td><td>100000029</td></tr><tr><td>en</td><td>31</td><td>100000030</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>31</td><td>100000030</td></tr><tr><td>en</td><td>30</td><td>100000029</td></tr><tr><td>en</td><td>29</td><td>100000028</td></tr><tr><td>en</td><td>28</td><td>100000027</td></tr><tr><td>en</td><td>27</td><td>100000026</td></tr><tr><td>en</td><td>26</td><td>100000025</td></tr><tr><td>en</td><td>25</td><td>100000024</td></tr><tr><td>en</td><td>24</td><td>100000023</td></tr><tr><td>en</td><td>23</td><td>100000022</td></tr><tr><td>en</td><td>22</td><td>100000021</td></tr><tr><td>en</td><td>21</td><td>100000020</td></tr><tr><td>en</td><td>20</td><td>100000019</td></tr><tr><td>en</td><td>19</td><td>100000018</td></tr><tr><td>en</td><td>18</td><td>100000017</td></tr><tr><td>en</td><td>17</td><td>100000016</td></tr><tr><td>en</td><td>16</td><td>100000015</td></tr><tr><td>en</td><td>15</td><td>100000014</td></tr><tr><td>en</td><td>14</td><td>100000013</td></tr><tr><td>en</td><td>13</td><td>100000012</td></tr><tr><td>en</td><td>12</td><td>100000011</td></tr><tr><td>en</td><td>11</td><td>100000010</td></tr><tr><td>en</td><td>10</td><td>100000009</td></tr><tr><td>en</td><td>09</td><td>100000008</td></tr><tr><td>en</td><td>08</td><td>100000007</td></tr><tr><td>en</td><td>07</td><td>100000006</td></tr><tr><td>en</td><td>06</td><td>100000005</td></tr><tr><td>en</td><td>05</td><td>100000004</td></tr><tr><td>en</td><td>04</td><td>100000003</td></tr><tr><td>en</td><td>03</td><td>100000002</td></tr><tr><td>en</td><td>02</td><td>100000001</td></tr><tr><td>en</td><td>01</td><td>100000000</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2669,7 +2648,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#deceasedDay_display name="deceasedDay_display">deceasedDay_display</a>
 
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -2678,7 +2657,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the deceasedDay_display attribute are listed below.</summary>
+<summary>List of traits for the  deceasedDay_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2693,7 +2672,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 ### <a href=#deceasedMonth name="deceasedMonth">deceasedMonth</a>
 
 Month the Contact was deceased.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -2713,7 +2692,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the deceasedMonth attribute are listed below.</summary>
+<summary>List of traits for the  deceasedMonth  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -2755,7 +2734,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#deceasedMonth_display name="deceasedMonth_display">deceasedMonth_display</a>
 
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -2764,7 +2743,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the deceasedMonth_display attribute are listed below.</summary>
+<summary>List of traits for the  deceasedMonth_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2779,7 +2758,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 ### <a href=#deceasedYear name="deceasedYear">deceasedYear</a>
 
 Year the Contact was deceased.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -2798,7 +2777,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the deceasedYear attribute are listed below.</summary>
+<summary>List of traits for the  deceasedYear  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -2839,7 +2818,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#deceasedYear_display name="deceasedYear_display">deceasedYear_display</a>
 
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -2848,7 +2827,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the deceasedYear_display attribute are listed below.</summary>
+<summary>List of traits for the  deceasedYear_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2863,7 +2842,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 ### <a href=#deferredToDate name="deferredToDate">deferredToDate</a>
 
 Same as date of first payment when more than one year after the contract date.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -2872,7 +2851,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the deferredToDate attribute are listed below.</summary>
+<summary>List of traits for the  deferredToDate  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -2901,7 +2880,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#designatedOrganizationPercent name="designatedOrganizationPercent">designatedOrganizationPercent</a>
 
 Percent of remainder designated to organization  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -2910,7 +2889,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the designatedOrganizationPercent attribute are listed below.</summary>
+<summary>List of traits for the  designatedOrganizationPercent  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -2941,7 +2920,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#designatedPrincipleAmount name="designatedPrincipleAmount">designatedPrincipleAmount</a>
 
 Amount of principle designated to organization.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -2950,7 +2929,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the designatedPrincipleAmount attribute are listed below.</summary>
+<summary>List of traits for the  designatedPrincipleAmount  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -2982,7 +2961,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#designatedprincipleamountBase name="designatedprincipleamountBase">designatedprincipleamountBase</a>
 
 Value of the Designated Principle Amount in base currency.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -2991,7 +2970,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the designatedprincipleamountBase attribute are listed below.</summary>
+<summary>List of traits for the  designatedprincipleamountBase  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3026,7 +3005,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#designation name="designation">designation</a>
 
 Usage of gift funds will be unrestricted, restricted or permanently restricted.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -3035,11 +3014,11 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the designation attribute are listed below.</summary>
+<summary>List of traits for the  designation  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Unrestricted</td><td>100000000</td></tr><tr><td>en</td><td>Restricted</td><td>100000001</td></tr><tr><td>en</td><td>Permanently Restriceted</td><td>100000002</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Permanently Restriceted</td><td>100000002</td></tr><tr><td>en</td><td>Restricted</td><td>100000001</td></tr><tr><td>en</td><td>Unrestricted</td><td>100000000</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3066,7 +3045,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#designation_display name="designation_display">designation_display</a>
 
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -3075,7 +3054,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the designation_display attribute are listed below.</summary>
+<summary>List of traits for the  designation_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3090,7 +3069,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 ### <a href=#discountRate name="discountRate">discountRate</a>
 
 Interest rate a central bank charges depository institutions that borrow reserves from it.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -3099,7 +3078,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the discountRate attribute are listed below.</summary>
+<summary>List of traits for the  discountRate  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3130,7 +3109,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#discountRateMonth name="discountRateMonth">discountRateMonth</a>
 
 Month in which latest Discount Rate was populated.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -3150,7 +3129,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the discountRateMonth attribute are listed below.</summary>
+<summary>List of traits for the  discountRateMonth  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -3192,7 +3171,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#discountRateMonth_display name="discountRateMonth_display">discountRateMonth_display</a>
 
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -3201,7 +3180,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the discountRateMonth_display attribute are listed below.</summary>
+<summary>List of traits for the  discountRateMonth_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3216,7 +3195,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 ### <a href=#discountRateYear name="discountRateYear">discountRateYear</a>
 
 Year in which latest Discount Rate was populated.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -3235,7 +3214,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the discountRateYear attribute are listed below.</summary>
+<summary>List of traits for the  discountRateYear  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -3276,7 +3255,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#discountRateYear_display name="discountRateYear_display">discountRateYear_display</a>
 
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -3285,7 +3264,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the discountRateYear_display attribute are listed below.</summary>
+<summary>List of traits for the  discountRateYear_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3300,7 +3279,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 ### <a href=#endowmentType name="endowmentType">endowmentType</a>
 
 Specific endowment at organization where gift will be applied.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -3309,11 +3288,11 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the endowmentType attribute are listed below.</summary>
+<summary>List of traits for the  endowmentType  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Board-Designated Endowment</td><td>100000000</td></tr><tr><td>en</td><td>Permanent Endowment</td><td>100000001</td></tr><tr><td>en</td><td>Donor directed</td><td>100000002</td></tr><tr><td>en</td><td>Current operations</td><td>100000003</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Current operations</td><td>100000003</td></tr><tr><td>en</td><td>Donor directed</td><td>100000002</td></tr><tr><td>en</td><td>Permanent Endowment</td><td>100000001</td></tr><tr><td>en</td><td>Board-Designated Endowment</td><td>100000000</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3340,7 +3319,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#endowmentType_display name="endowmentType_display">endowmentType_display</a>
 
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -3349,7 +3328,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the endowmentType_display attribute are listed below.</summary>
+<summary>List of traits for the  endowmentType_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3364,7 +3343,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 ### <a href=#estimatedGivingAmount name="estimatedGivingAmount">estimatedGivingAmount</a>
 
 Estimated amount organization will receive as provided by executor, trustee, or attorney.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -3373,7 +3352,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the estimatedGivingAmount attribute are listed below.</summary>
+<summary>List of traits for the  estimatedGivingAmount  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3405,7 +3384,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#estimatedgivingamountBase name="estimatedgivingamountBase">estimatedgivingamountBase</a>
 
 Value of the Estimated Giving Amount in base currency.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -3414,7 +3393,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the estimatedgivingamountBase attribute are listed below.</summary>
+<summary>List of traits for the  estimatedgivingamountBase  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3449,7 +3428,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#estimatedTrustProbateDate name="estimatedTrustProbateDate">estimatedTrustProbateDate</a>
 
 Estimated Date Trust/Probate received as provided by executor, trustee or attorney or in estate documentation.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -3458,7 +3437,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the estimatedTrustProbateDate attribute are listed below.</summary>
+<summary>List of traits for the  estimatedTrustProbateDate  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -3487,7 +3466,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#expectedFinalDistributionDate name="expectedFinalDistributionDate">expectedFinalDistributionDate</a>
 
 Expected Date of Final Distribution, typically information provided by executor, trustee or attorney.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -3496,7 +3475,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the expectedFinalDistributionDate attribute are listed below.</summary>
+<summary>List of traits for the  expectedFinalDistributionDate  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -3525,7 +3504,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#expectedFirstDistributionDate name="expectedFirstDistributionDate">expectedFirstDistributionDate</a>
 
 Expected Date of First Distribution, typically information provided by executor, trustee or attorney.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -3534,7 +3513,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the expectedFirstDistributionDate attribute are listed below.</summary>
+<summary>List of traits for the  expectedFirstDistributionDate  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -3563,7 +3542,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#externalID name="externalID">externalID</a>
 
 ID from External or Legacy system.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -3572,7 +3551,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the externalID attribute are listed below.</summary>
+<summary>List of traits for the  externalID  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3603,7 +3582,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#faceValue name="faceValue">faceValue</a>
 
 Value of funds donated.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -3612,7 +3591,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the faceValue attribute are listed below.</summary>
+<summary>List of traits for the  faceValue  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3644,7 +3623,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#facevalueBase name="facevalueBase">facevalueBase</a>
 
 Value of the Face Value in base currency.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -3653,7 +3632,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the facevalueBase attribute are listed below.</summary>
+<summary>List of traits for the  facevalueBase  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3688,7 +3667,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#fundId name="fundId">fundId</a>
 
 Unique identifier for Account associated with Planned Giving.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -3697,7 +3676,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the fundId attribute are listed below.</summary>
+<summary>List of traits for the  fundId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3726,14 +3705,14 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>102</td><td>integer</td><td></td></tr></table>
 
 - **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="Account.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Account.cdm.json/Account</a></td><td><a href="Account.md#accountId" target="_blank">accountId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  
 
 </details>
 
 ### <a href=#givingAmount name="givingAmount">givingAmount</a>
 
 Sum of gifts entered on this record (logic field).  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -3742,7 +3721,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the givingAmount attribute are listed below.</summary>
+<summary>List of traits for the  givingAmount  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -3771,7 +3750,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#givingReceivedDate name="givingReceivedDate">givingReceivedDate</a>
 
 Date distribution or remainder for Planned Giving is received.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -3780,7 +3759,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the givingReceivedDate attribute are listed below.</summary>
+<summary>List of traits for the  givingReceivedDate  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -3809,7 +3788,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#givingSubtype name="givingSubtype">givingSubtype</a>
 
 Specific type of Planned Giving instrument.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -3833,7 +3812,7 @@ Other Retirement Plan</td><td>100000000</td></tr></table></td></tr></table>
 #### Traits
 
 <details>
-<summary>List of traits for the givingSubtype attribute are listed below.</summary>
+<summary>List of traits for the  givingSubtype  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -3879,7 +3858,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#givingSubtype_display name="givingSubtype_display">givingSubtype_display</a>
 
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -3888,7 +3867,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the givingSubtype_display attribute are listed below.</summary>
+<summary>List of traits for the  givingSubtype_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3903,7 +3882,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 ### <a href=#insuranceAnnualPremium name="insuranceAnnualPremium">insuranceAnnualPremium</a>
 
 Annual Premium of the Life Insurance.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -3912,7 +3891,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the insuranceAnnualPremium attribute are listed below.</summary>
+<summary>List of traits for the  insuranceAnnualPremium  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3944,7 +3923,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#insuranceannualpremiumBase name="insuranceannualpremiumBase">insuranceannualpremiumBase</a>
 
 Value of the Insurance Annual Premium in base currency.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -3953,7 +3932,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the insuranceannualpremiumBase attribute are listed below.</summary>
+<summary>List of traits for the  insuranceannualpremiumBase  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3988,7 +3967,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#insuranceCompany name="insuranceCompany">insuranceCompany</a>
 
 Insurance Company for related to this Planned Giving.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -3997,7 +3976,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the insuranceCompany attribute are listed below.</summary>
+<summary>List of traits for the  insuranceCompany  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4028,7 +4007,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#insuranceDeathBenefitAmount name="insuranceDeathBenefitAmount">insuranceDeathBenefitAmount</a>
 
 Death Benefit Amount from Insurance.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -4037,7 +4016,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the insuranceDeathBenefitAmount attribute are listed below.</summary>
+<summary>List of traits for the  insuranceDeathBenefitAmount  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -4066,7 +4045,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#insurancePolicyCode name="insurancePolicyCode">insurancePolicyCode</a>
 
 Insurance policy code related to this Planned Giving.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -4075,7 +4054,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the insurancePolicyCode attribute are listed below.</summary>
+<summary>List of traits for the  insurancePolicyCode  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4106,7 +4085,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#insurancePolicyName name="insurancePolicyName">insurancePolicyName</a>
 
 Insurance Policy Name for this Planned Giving.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -4115,7 +4094,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the insurancePolicyName attribute are listed below.</summary>
+<summary>List of traits for the  insurancePolicyName  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4147,7 +4126,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#insurancePremiumDueDate name="insurancePremiumDueDate">insurancePremiumDueDate</a>
 
 Insurance Premium Due Date related to this Planned Giving record.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -4156,7 +4135,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the insurancePremiumDueDate attribute are listed below.</summary>
+<summary>List of traits for the  insurancePremiumDueDate  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -4185,7 +4164,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#insurancePremiumPaymentAddress name="insurancePremiumPaymentAddress">insurancePremiumPaymentAddress</a>
 
 Address for the Life Insurance Premium Payment.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -4194,7 +4173,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the insurancePremiumPaymentAddress attribute are listed below.</summary>
+<summary>List of traits for the  insurancePremiumPaymentAddress  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4225,7 +4204,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#isRevocable name="isRevocable">isRevocable</a>
 
 Related trust may be amended, altered or revoked by its settlor at any time, provided the settlor is not mentally incapacitated.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -4234,7 +4213,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the isRevocable attribute are listed below.</summary>
+<summary>List of traits for the  isRevocable  attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -4260,7 +4239,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#leadSource name="leadSource">leadSource</a>
 
 Method of communication that prompted Donor to discuss Planned Giving options.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -4277,7 +4256,7 @@ Web Site</td><td>100000000</td></tr></table></td></tr></table>
 #### Traits
 
 <details>
-<summary>List of traits for the leadSource attribute are listed below.</summary>
+<summary>List of traits for the  leadSource  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -4316,7 +4295,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#leadSource_display name="leadSource_display">leadSource_display</a>
 
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -4325,7 +4304,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the leadSource_display attribute are listed below.</summary>
+<summary>List of traits for the  leadSource_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4340,7 +4319,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 ### <a href=#ordinaryIncome name="ordinaryIncome">ordinaryIncome</a>
 
 Income other than capital gain. Examples of Ordinary income can consist of income from wages, salaries, tips, commissions, bonuses, and other types of compensation from employment.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -4349,7 +4328,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the ordinaryIncome attribute are listed below.</summary>
+<summary>List of traits for the  ordinaryIncome  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -4381,7 +4360,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ordinaryincomeBase name="ordinaryincomeBase">ordinaryincomeBase</a>
 
 Value of the Ordinary Income in base currency.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -4390,7 +4369,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the ordinaryincomeBase attribute are listed below.</summary>
+<summary>List of traits for the  ordinaryincomeBase  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -4425,7 +4404,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#paymentFrequency name="paymentFrequency">paymentFrequency</a>
 
 Defined frequency payments are distributed to the organization.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -4437,7 +4416,7 @@ Semi-Annually</td><td>100000000</td></tr></table></td></tr></table>
 #### Traits
 
 <details>
-<summary>List of traits for the paymentFrequency attribute are listed below.</summary>
+<summary>List of traits for the  paymentFrequency  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -4471,7 +4450,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#paymentFrequency_display name="paymentFrequency_display">paymentFrequency_display</a>
 
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -4480,7 +4459,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the paymentFrequency_display attribute are listed below.</summary>
+<summary>List of traits for the  paymentFrequency_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4495,7 +4474,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 ### <a href=#payoutRate name="payoutRate">payoutRate</a>
 
 Dollar amount per share a Corporation pays for their dividend.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -4504,7 +4483,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the payoutRate attribute are listed below.</summary>
+<summary>List of traits for the  payoutRate  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -4535,7 +4514,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#plannedGivingCampaignId name="plannedGivingCampaignId">plannedGivingCampaignId</a>
 
 Campaign  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -4544,7 +4523,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the plannedGivingCampaignId attribute are listed below.</summary>
+<summary>List of traits for the  plannedGivingCampaignId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4573,14 +4552,14 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>124</td><td>integer</td><td></td></tr></table>
 
 - **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="Campaign.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Campaign.cdm.json/Campaign</a></td><td><a href="Campaign.md#campaignId" target="_blank">campaignId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  
 
 </details>
 
 ### <a href=#plannedGivingPledgedByContactId name="plannedGivingPledgedByContactId">plannedGivingPledgedByContactId</a>
 
 Pledged By Contact  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -4589,7 +4568,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the plannedGivingPledgedByContactId attribute are listed below.</summary>
+<summary>List of traits for the  plannedGivingPledgedByContactId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4618,14 +4597,14 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>125</td><td>integer</td><td></td></tr></table>
 
 - **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="Contact.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Contact.cdm.json/Contact</a></td><td><a href="Contact.md#contactId" target="_blank">contactId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  
 
 </details>
 
 ### <a href=#pledgesOnAccountId name="pledgesOnAccountId">pledgesOnAccountId</a>
 
 Unique identifier for Account associated with Planned Giving.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -4634,7 +4613,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the pledgesOnAccountId attribute are listed below.</summary>
+<summary>List of traits for the  pledgesOnAccountId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4663,14 +4642,14 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>126</td><td>integer</td><td></td></tr></table>
 
 - **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="Account.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Account.cdm.json/Account</a></td><td><a href="Account.md#accountId" target="_blank">accountId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  
 
 </details>
 
 ### <a href=#presentValue name="presentValue">presentValue</a>
 
 The value on a given date of a payment or series of payments made at other times for an investment.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -4679,7 +4658,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the presentValue attribute are listed below.</summary>
+<summary>List of traits for the  presentValue  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -4711,7 +4690,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#presentvalueBase name="presentvalueBase">presentvalueBase</a>
 
 Value of the Present Value in base currency.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -4720,7 +4699,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the presentvalueBase attribute are listed below.</summary>
+<summary>List of traits for the  presentvalueBase  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -4755,7 +4734,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#recordType name="recordType">recordType</a>
 
 Type of Planned Giving record.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -4764,7 +4743,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the recordType attribute are listed below.</summary>
+<summary>List of traits for the  recordType  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4795,7 +4774,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#remainderAmount name="remainderAmount">remainderAmount</a>
 
 Remainder $ value a Charitable Organization receives.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -4804,7 +4783,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the remainderAmount attribute are listed below.</summary>
+<summary>List of traits for the  remainderAmount  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -4836,7 +4815,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#remainderamountBase name="remainderamountBase">remainderamountBase</a>
 
 Value of the Remainder Amount in base currency.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -4845,7 +4824,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the remainderamountBase attribute are listed below.</summary>
+<summary>List of traits for the  remainderamountBase  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -4880,7 +4859,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#rollupGiving name="rollupGiving">rollupGiving</a>
 
 Populated by trigger, reflects the most recent Date/Time for Giving record.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -4889,7 +4868,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the rollupGiving attribute are listed below.</summary>
+<summary>List of traits for the  rollupGiving  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -4918,7 +4897,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#salvageValueofBuildings name="salvageValueofBuildings">salvageValueofBuildings</a>
 
 Estimated value of property at the end of its useful life. It is what you expect to get for the property if you sell it after you can no longer use it productively.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -4927,7 +4906,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the salvageValueofBuildings attribute are listed below.</summary>
+<summary>List of traits for the  salvageValueofBuildings  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -4959,7 +4938,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#salvagevalueofbuildingsBase name="salvagevalueofbuildingsBase">salvagevalueofbuildingsBase</a>
 
 Value of the Salvage Value of Buildings in base currency.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -4968,7 +4947,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the salvagevalueofbuildingsBase attribute are listed below.</summary>
+<summary>List of traits for the  salvagevalueofbuildingsBase  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -5003,7 +4982,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#severDate name="severDate">severDate</a>
 
 The term end date' or the date of the related Contact's death.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -5012,7 +4991,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the severDate attribute are listed below.</summary>
+<summary>List of traits for the  severDate  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -5041,7 +5020,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stage name="stage">stage</a>
 
 The current phase the giving record.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -5066,7 +5045,7 @@ Termination processing</td><td>100000000</td></tr></table></td></tr></table>
 #### Traits
 
 <details>
-<summary>List of traits for the stage attribute are listed below.</summary>
+<summary>List of traits for the  stage  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -5113,7 +5092,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stage_display name="stage_display">stage_display</a>
 
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -5122,7 +5101,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the stage_display attribute are listed below.</summary>
+<summary>List of traits for the  stage_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5137,7 +5116,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 ### <a href=#taxFreeIncome name="taxFreeIncome">taxFreeIncome</a>
 
 The tax free income from the asset related to this giving record.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -5146,7 +5125,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the taxFreeIncome attribute are listed below.</summary>
+<summary>List of traits for the  taxFreeIncome  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -5178,7 +5157,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#taxfreeincomeBase name="taxfreeincomeBase">taxfreeincomeBase</a>
 
 Value of the Tax Free Income in base currency.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -5187,7 +5166,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the taxfreeincomeBase attribute are listed below.</summary>
+<summary>List of traits for the  taxfreeincomeBase  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -5222,7 +5201,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#termEndDate name="termEndDate">termEndDate</a>
 
 Term end date for the asset related to the Planned Giving record.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -5231,7 +5210,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the termEndDate attribute are listed below.</summary>
+<summary>List of traits for the  termEndDate  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -5260,7 +5239,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#termType name="termType">termType</a>
 
 Term type for the asset related to the Planned Giving record.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -5272,7 +5251,7 @@ Shorter of term or lives</td><td>100000000</td></tr></table></td></tr></table>
 #### Traits
 
 <details>
-<summary>List of traits for the termType attribute are listed below.</summary>
+<summary>List of traits for the  termType  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -5306,7 +5285,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#termType_display name="termType_display">termType_display</a>
 
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -5315,7 +5294,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the termType_display attribute are listed below.</summary>
+<summary>List of traits for the  termType_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5330,7 +5309,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 ### <a href=#termYears name="termYears">termYears</a>
 
 Term years for the asset related to the Planned Giving record.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -5339,7 +5318,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the termYears attribute are listed below.</summary>
+<summary>List of traits for the  termYears  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -5368,7 +5347,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#totalEstateValue name="totalEstateValue">totalEstateValue</a>
 
 Total Estate Value as provided by executor, trustee or attorney or in estate documentation.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -5377,7 +5356,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the totalEstateValue attribute are listed below.</summary>
+<summary>List of traits for the  totalEstateValue  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -5409,7 +5388,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#totalestatevalueBase name="totalestatevalueBase">totalestatevalueBase</a>
 
 Value of the Total Estate Value in base currency.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -5418,7 +5397,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the totalestatevalueBase attribute are listed below.</summary>
+<summary>List of traits for the  totalestatevalueBase  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -5453,7 +5432,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#trustMarketValue name="trustMarketValue">trustMarketValue</a>
 
 Trust Market Value related to this planned giving record.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -5462,7 +5441,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the trustMarketValue attribute are listed below.</summary>
+<summary>List of traits for the  trustMarketValue  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -5494,7 +5473,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#trustmarketvalueBase name="trustmarketvalueBase">trustmarketvalueBase</a>
 
 Value of the Trust Market Value in base currency.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -5503,7 +5482,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the trustmarketvalueBase attribute are listed below.</summary>
+<summary>List of traits for the  trustmarketvalueBase  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -5538,7 +5517,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#trustProbateNoticeDate name="trustProbateNoticeDate">trustProbateNoticeDate</a>
 
 Date Trust/Probate Notice received.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -5547,7 +5526,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the trustProbateNoticeDate attribute are listed below.</summary>
+<summary>List of traits for the  trustProbateNoticeDate  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -5576,7 +5555,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#trustValueDate name="trustValueDate">trustValueDate</a>
 
 Trust Value Date related to this planned giving record.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -5585,7 +5564,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the trustValueDate attribute are listed below.</summary>
+<summary>List of traits for the  trustValueDate  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -5614,7 +5593,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#typeOfManagement name="typeOfManagement">typeOfManagement</a>
 
 The type of management for the underlying asset or assets related to this Planned Giving record.  
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -5624,12 +5603,12 @@ Outside</td><td>100000002</td></tr></table></td></tr></table>
 #### Traits
 
 <details>
-<summary>List of traits for the typeOfManagement attribute are listed below.</summary>
+<summary>List of traits for the  typeOfManagement  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Inside</td><td>100000000</td></tr><tr><td>en</td><td>Outside - donor self-trustee</td><td>100000001</td></tr><tr><td>en</td><td>Outside - Institution or other trusteem
-Outside</td><td>100000002</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Outside - Institution or other trusteem
+Outside</td><td>100000002</td></tr><tr><td>en</td><td>Outside - donor self-trustee</td><td>100000001</td></tr><tr><td>en</td><td>Inside</td><td>100000000</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -5656,7 +5635,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#typeOfManagement_display name="typeOfManagement_display">typeOfManagement_display</a>
 
-First included in: nonProfit/PlannedGiving (this entity)  
+First included in: nonProfit/PlannedGiving  (this entity)  
 
 #### Properties
 
@@ -5665,7 +5644,7 @@ First included in: nonProfit/PlannedGiving (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the typeOfManagement_display attribute are listed below.</summary>
+<summary>List of traits for the  typeOfManagement_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  

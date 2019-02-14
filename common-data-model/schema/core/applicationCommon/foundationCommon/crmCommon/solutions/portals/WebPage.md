@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/12/2019
+ms.date: 2/13/2019
 ms.author: tpalmer
 ---
 
@@ -13,6 +13,12 @@ ms.author: tpalmer
 Webpage  
   
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json" target="_blank">GitHub</a>.  
+
+## Instances
+
+Instances of this entity are listed below:  
+
+portals/WebPage  
 
 ## Traits
 
@@ -42,12 +48,6 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>Adx_webpage</td><td>string</td><td></td></tr></table>
 
 </details>
-
-## Instances
-
-Instances of this entity are listed below:  
-
-portals/WebPage  
 
 ## Attributes
 
@@ -121,7 +121,7 @@ portals/WebPage
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -130,7 +130,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the createdOn attribute are listed below.</summary>
+<summary>List of traits for the  createdOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -160,7 +160,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -169,7 +169,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the createdBy attribute are listed below.</summary>
+<summary>List of traits for the  createdBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -200,15 +200,12 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>createdby</td><td>string</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -217,7 +214,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedOn attribute are listed below.</summary>
+<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -247,7 +244,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -256,7 +253,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedBy attribute are listed below.</summary>
+<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -287,15 +284,12 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>modifiedby</td><td>string</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -304,7 +298,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
+<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -335,15 +329,12 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>createdonbehalfby</td><td>string</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -352,7 +343,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
+<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -383,15 +374,12 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>modifiedonbehalfby</td><td>string</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -400,7 +388,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
+<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -430,7 +418,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -439,7 +427,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
+<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -465,7 +453,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -474,7 +462,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the ownerIdType attribute are listed below.</summary>
+<summary>List of traits for the  ownerIdType  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -504,7 +492,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -513,7 +501,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the ownerId attribute are listed below.</summary>
+<summary>List of traits for the  ownerId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -539,7 +527,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>ownerid</td><td>string</td><td></td></tr></table>
 
 - **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="../../../../Team.md" target="_blank">/core/applicationCommon/Team.cdm.json/Team</a></td><td><a href="../../../../Team.md#teamId" target="_blank">teamId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  
 
 - **is.CDS.owner**  
 contains a User or Team ID  
@@ -549,7 +537,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -558,7 +546,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
+<summary>List of traits for the  owningBusinessUnit  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -586,15 +574,12 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>owningbusinessunit</td><td>string</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../BusinessUnit.md" target="_blank">/core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit</a></td><td><a href="../../../../BusinessUnit.md#businessUnitId" target="_blank">businessUnitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -603,7 +588,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the owningUser attribute are listed below.</summary>
+<summary>List of traits for the  owningUser  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -634,15 +619,12 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>owninguser</td><td>string</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="../../service/User.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User</a></td><td><a href="../../service/User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -651,7 +633,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the owningTeam attribute are listed below.</summary>
+<summary>List of traits for the  owningTeam  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -679,15 +661,12 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>owningteam</td><td>string</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../Team.md" target="_blank">/core/applicationCommon/Team.cdm.json/Team</a></td><td><a href="../../../../Team.md#teamId" target="_blank">teamId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -696,7 +675,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
+<summary>List of traits for the  timeZoneRuleVersionNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -725,7 +704,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -734,7 +713,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
+<summary>List of traits for the  UTCConversionTimeZoneCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -763,7 +742,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -772,7 +751,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the versionNumber attribute are listed below.</summary>
+<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -800,7 +779,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#webpageId name="webpageId">webpageId</a>
 
 Unique identifier for entity instances  
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -809,7 +788,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the webpageId attribute are listed below.</summary>
+<summary>List of traits for the  webpageId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -839,7 +818,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Status of the Web Page  
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -848,11 +827,11 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the stateCode attribute are listed below.</summary>
+<summary>List of traits for the  stateCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr><tr><td>en</td><td>Active</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -879,7 +858,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -888,7 +867,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the stateCode_display attribute are listed below.</summary>
+<summary>List of traits for the  stateCode_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -903,20 +882,20 @@ First included in: portals/WebPage (this entity)
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Reason for the status of the Web Page  
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Web Page</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Web Page</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the statusCode attribute are listed below.</summary>
+<summary>List of traits for the  statusCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -946,7 +925,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -955,7 +934,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the statusCode_display attribute are listed below.</summary>
+<summary>List of traits for the  statusCode_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -970,7 +949,7 @@ First included in: portals/WebPage (this entity)
 ### <a href=#name name="name">name</a>
 
 Shows the name of the custom entity.  
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -979,7 +958,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the name attribute are listed below.</summary>
+<summary>List of traits for the  name  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1011,7 +990,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#authorId name="authorId">authorId</a>
 
 Unique identifier for Contact associated with Web Page.  
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -1020,7 +999,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the authorId attribute are listed below.</summary>
+<summary>List of traits for the  authorId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1048,14 +1027,11 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>34</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="Contact.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Contact.cdm.json/Contact</a></td><td><a href="Contact.md#contactId" target="_blank">contactId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#category name="category">category</a>
 
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -1064,7 +1040,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the category attribute are listed below.</summary>
+<summary>List of traits for the  category  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -1092,7 +1068,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#category_display name="category_display">category_display</a>
 
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -1101,7 +1077,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the category_display attribute are listed below.</summary>
+<summary>List of traits for the  category_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1115,7 +1091,7 @@ First included in: portals/WebPage (this entity)
 
 ### <a href=#copy name="copy">copy</a>
 
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -1124,7 +1100,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the copy attribute are listed below.</summary>
+<summary>List of traits for the  copy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1151,7 +1127,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#adxCreatedByIPAddress name="adxCreatedByIPAddress">adxCreatedByIPAddress</a>
 
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -1160,7 +1136,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the adxCreatedByIPAddress attribute are listed below.</summary>
+<summary>List of traits for the  adxCreatedByIPAddress  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1187,7 +1163,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#adxCreatedByUsername name="adxCreatedByUsername">adxCreatedByUsername</a>
 
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -1196,7 +1172,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the adxCreatedByUsername attribute are listed below.</summary>
+<summary>List of traits for the  adxCreatedByUsername  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1224,7 +1200,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#displayDate name="displayDate">displayDate</a>
 
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -1233,7 +1209,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the displayDate attribute are listed below.</summary>
+<summary>List of traits for the  displayDate  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1258,7 +1234,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#displayOrder name="displayOrder">displayOrder</a>
 
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -1267,7 +1243,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the displayOrder attribute are listed below.</summary>
+<summary>List of traits for the  displayOrder  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1292,7 +1268,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#hiddenFromSitemap name="hiddenFromSitemap">hiddenFromSitemap</a>
 
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -1301,7 +1277,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the hiddenFromSitemap attribute are listed below.</summary>
+<summary>List of traits for the  hiddenFromSitemap  attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1323,7 +1299,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#adxModifiedByIPAddress name="adxModifiedByIPAddress">adxModifiedByIPAddress</a>
 
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -1332,7 +1308,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the adxModifiedByIPAddress attribute are listed below.</summary>
+<summary>List of traits for the  adxModifiedByIPAddress  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1359,7 +1335,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#adxModifiedByUsername name="adxModifiedByUsername">adxModifiedByUsername</a>
 
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -1368,7 +1344,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the adxModifiedByUsername attribute are listed below.</summary>
+<summary>List of traits for the  adxModifiedByUsername  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1397,7 +1373,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#pageTemplateId name="pageTemplateId">pageTemplateId</a>
 
 Unique identifier for Page Template associated with Web Page.  
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -1406,7 +1382,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the pageTemplateId attribute are listed below.</summary>
+<summary>List of traits for the  pageTemplateId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1434,15 +1410,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>46</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="PageTemplate.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/PageTemplate.cdm.json/PageTemplate</a></td><td><a href="PageTemplate.md#pageTemplateId" target="_blank">pageTemplateId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#parentPageId name="parentPageId">parentPageId</a>
 
 Unique identifier for Web Page associated with Web Page.  
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -1451,7 +1424,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the parentPageId attribute are listed below.</summary>
+<summary>List of traits for the  parentPageId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1479,14 +1452,11 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>47</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="WebPage.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage</a></td><td><a href="WebPage.md#webpageId" target="_blank">webpageId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#partialURL name="partialURL">partialURL</a>
 
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -1495,7 +1465,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the partialURL attribute are listed below.</summary>
+<summary>List of traits for the  partialURL  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1524,7 +1494,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#subjectId name="subjectId">subjectId</a>
 
 Unique identifier for Subject associated with Web Page.  
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -1533,7 +1503,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the subjectId attribute are listed below.</summary>
+<summary>List of traits for the  subjectId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1565,7 +1535,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#summary name="summary">summary</a>
 
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -1574,7 +1544,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the summary attribute are listed below.</summary>
+<summary>List of traits for the  summary  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1601,7 +1571,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#title name="title">title</a>
 
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -1610,7 +1580,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the title attribute are listed below.</summary>
+<summary>List of traits for the  title  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1638,7 +1608,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#websiteId name="websiteId">websiteId</a>
 
 Unique identifier for Website associated with Web Page.  
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -1647,7 +1617,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the websiteId attribute are listed below.</summary>
+<summary>List of traits for the  websiteId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1675,15 +1645,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>52</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="Website.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Website.cdm.json/Website</a></td><td><a href="Website.md#websiteId" target="_blank">websiteId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#allowOrigin name="allowOrigin">allowOrigin</a>
 
 Defines CORS header Access-Control-Allow-Origin for cross origin requests.  
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -1692,7 +1659,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the allowOrigin attribute are listed below.</summary>
+<summary>List of traits for the  allowOrigin  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1722,7 +1689,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#customCSS name="customCSS">customCSS</a>
 
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -1731,7 +1698,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the customCSS attribute are listed below.</summary>
+<summary>List of traits for the  customCSS  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1758,7 +1725,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#customJavaScript name="customJavaScript">customJavaScript</a>
 
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -1767,7 +1734,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the customJavaScript attribute are listed below.</summary>
+<summary>List of traits for the  customJavaScript  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1794,7 +1761,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#editorialComments name="editorialComments">editorialComments</a>
 
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -1803,7 +1770,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the editorialComments attribute are listed below.</summary>
+<summary>List of traits for the  editorialComments  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1831,7 +1798,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#enabletracking name="enabletracking">enabletracking</a>
 
 Select whether to enable logging of users' downloads of this webpage.  
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -1840,7 +1807,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the enabletracking attribute are listed below.</summary>
+<summary>List of traits for the  enabletracking  attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1866,7 +1833,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#excludeFromSearch name="excludeFromSearch">excludeFromSearch</a>
 
 Shows whether the webpage is excluded from the portal search.  
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -1875,7 +1842,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the excludeFromSearch attribute are listed below.</summary>
+<summary>List of traits for the  excludeFromSearch  attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1900,7 +1867,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#expirationDate name="expirationDate">expirationDate</a>
 
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -1909,7 +1876,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the expirationDate attribute are listed below.</summary>
+<summary>List of traits for the  expirationDate  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1935,7 +1902,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#image name="image">image</a>
 
 Unique identifier for Web File associated with Web Page.  
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -1944,7 +1911,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the image attribute are listed below.</summary>
+<summary>List of traits for the  image  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1972,14 +1939,11 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>68</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="WebFile.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebFile.cdm.json/WebFile</a></td><td><a href="WebFile.md#webFileId" target="_blank">webFileId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#imageURL name="imageURL">imageURL</a>
 
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -1988,7 +1952,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the imageURL attribute are listed below.</summary>
+<summary>List of traits for the  imageURL  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2017,7 +1981,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#isRoot name="isRoot">isRoot</a>
 
 Defines whether this is the "root" record of this translated group of Web Pages.  
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -2026,7 +1990,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the isRoot attribute are listed below.</summary>
+<summary>List of traits for the  isRoot  attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -2052,7 +2016,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#masterWebPageId name="masterWebPageId">masterWebPageId</a>
 
 Unique identifier for Web Page associated with Web Page.  
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -2061,7 +2025,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the masterWebPageId attribute are listed below.</summary>
+<summary>List of traits for the  masterWebPageId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2089,14 +2053,11 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>72</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="WebPage.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage</a></td><td><a href="WebPage.md#webpageId" target="_blank">webpageId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#metaDescription name="metaDescription">metaDescription</a>
 
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -2105,7 +2066,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the metaDescription attribute are listed below.</summary>
+<summary>List of traits for the  metaDescription  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2133,7 +2094,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#navigation name="navigation">navigation</a>
 
 Unique identifier for Web Link Set associated with Web Page.  
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -2142,7 +2103,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the navigation attribute are listed below.</summary>
+<summary>List of traits for the  navigation  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2175,7 +2136,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#publishingStateId name="publishingStateId">publishingStateId</a>
 
 Unique identifier for Publishing State associated with Web Page.  
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -2184,7 +2145,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the publishingStateId attribute are listed below.</summary>
+<summary>List of traits for the  publishingStateId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2212,14 +2173,11 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>75</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="PublishingState.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/PublishingState.cdm.json/PublishingState</a></td><td><a href="PublishingState.md#publishingStateId" target="_blank">publishingStateId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#releaseDate name="releaseDate">releaseDate</a>
 
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -2228,7 +2186,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the releaseDate attribute are listed below.</summary>
+<summary>List of traits for the  releaseDate  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -2254,7 +2212,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#rootWebpageId name="rootWebpageId">rootWebpageId</a>
 
 Lookup to root WebPage.  
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -2263,7 +2221,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the rootWebpageId attribute are listed below.</summary>
+<summary>List of traits for the  rootWebpageId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2291,15 +2249,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>77</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="WebPage.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage</a></td><td><a href="WebPage.md#webpageId" target="_blank">webpageId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#sharedPageConfiguration name="sharedPageConfiguration">sharedPageConfiguration</a>
 
 Determines if the content page uses the root page configuration  
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -2308,7 +2263,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the sharedPageConfiguration attribute are listed below.</summary>
+<summary>List of traits for the  sharedPageConfiguration  attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -2334,7 +2289,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#webpageLanguageId name="webpageLanguageId">webpageLanguageId</a>
 
 Language of this web page.  
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -2343,7 +2298,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the webpageLanguageId attribute are listed below.</summary>
+<summary>List of traits for the  webpageLanguageId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2371,15 +2326,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>80</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="WebsiteLanguage.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebsiteLanguage.cdm.json/WebsiteLanguage</a></td><td><a href="WebsiteLanguage.md#websiteLanguageId" target="_blank">websiteLanguageId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#entityForm name="entityForm">entityForm</a>
 
 Unique identifier for Entity Form associated with Web Page.  
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -2388,7 +2340,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the entityForm attribute are listed below.</summary>
+<summary>List of traits for the  entityForm  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2421,7 +2373,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#entityList name="entityList">entityList</a>
 
 Unique identifier for Entity List associated with Web Page.  
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -2430,7 +2382,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the entityList attribute are listed below.</summary>
+<summary>List of traits for the  entityList  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2463,7 +2415,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#webForm name="webForm">webForm</a>
 
 Unique identifier for Web Form associated with Web Page.  
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -2472,7 +2424,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the webForm attribute are listed below.</summary>
+<summary>List of traits for the  webForm  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2504,7 +2456,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#commentPolicy name="commentPolicy">commentPolicy</a>
 
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -2513,11 +2465,11 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the commentPolicy attribute are listed below.</summary>
+<summary>List of traits for the  commentPolicy  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Inherit</td><td>756150000</td></tr><tr><td>en</td><td>None</td><td>756150001</td></tr><tr><td>en</td><td>Open</td><td>756150002</td></tr><tr><td>en</td><td>Open to Authenticated Users</td><td>756150003</td></tr><tr><td>en</td><td>Moderated</td><td>756150004</td></tr><tr><td>en</td><td>Closed</td><td>756150005</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Closed</td><td>756150005</td></tr><tr><td>en</td><td>Moderated</td><td>756150004</td></tr><tr><td>en</td><td>Open to Authenticated Users</td><td>756150003</td></tr><tr><td>en</td><td>Open</td><td>756150002</td></tr><tr><td>en</td><td>None</td><td>756150001</td></tr><tr><td>en</td><td>Inherit</td><td>756150000</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2541,7 +2493,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#commentPolicy_display name="commentPolicy_display">commentPolicy_display</a>
 
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -2550,7 +2502,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the commentPolicy_display attribute are listed below.</summary>
+<summary>List of traits for the  commentPolicy_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2565,7 +2517,7 @@ First included in: portals/WebPage (this entity)
 ### <a href=#enableRatings name="enableRatings">enableRatings</a>
 
 Setting this value to 'Yes' will allow users to rate the web page.  
-First included in: portals/WebPage (this entity)  
+First included in: portals/WebPage  (this entity)  
 
 #### Properties
 
@@ -2574,7 +2526,7 @@ First included in: portals/WebPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the enableRatings attribute are listed below.</summary>
+<summary>List of traits for the  enableRatings  attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  

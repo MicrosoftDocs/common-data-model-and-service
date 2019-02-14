@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/12/2019
+ms.date: 2/13/2019
 ms.author: tpalmer
 ---
 
@@ -13,6 +13,13 @@ ms.author: tpalmer
 Information about products and their pricing information.  
   
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Product.cdm.json" target="_blank">GitHub</a>.  
+
+## Instances
+
+Instances of this entity are listed below:  
+
+[foundationCommon/Product](../../../../Product.md "/core/applicationCommon/foundationCommon/Product.cdm.json/Product")  
+electronicMedicalRecords/Product  
 
 ## Traits
 
@@ -42,13 +49,6 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>Product</td><td>string</td><td></td></tr></table>
 
 </details>
-
-## Instances
-
-Instances of this entity are listed below:  
-
-[foundationCommon/Product](../../../../Product.md "/core/applicationCommon/foundationCommon/Product.cdm.json/Product")  
-electronicMedicalRecords/Product  
 
 ## Attributes
 
@@ -130,7 +130,7 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the productId attribute are listed below.</summary>
+<summary>List of traits for the  productId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -169,7 +169,7 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the createdOn attribute are listed below.</summary>
+<summary>List of traits for the  createdOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -208,7 +208,7 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the createdBy attribute are listed below.</summary>
+<summary>List of traits for the  createdBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -236,9 +236,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10002</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="../../../service/User.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User</a></td><td><a href="../../../service/User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
@@ -253,7 +250,7 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedOn attribute are listed below.</summary>
+<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -292,7 +289,7 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedBy attribute are listed below.</summary>
+<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -320,9 +317,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10004</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="../../../service/User.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User</a></td><td><a href="../../../service/User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
@@ -337,7 +331,7 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
+<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -365,9 +359,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10005</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="../../../service/User.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User</a></td><td><a href="../../../service/User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
@@ -382,7 +373,7 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
+<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -410,9 +401,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10006</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="../../../service/User.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User</a></td><td><a href="../../../service/User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#organizationId name="organizationId">organizationId</a>
@@ -427,7 +415,7 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the organizationId attribute are listed below.</summary>
+<summary>List of traits for the  organizationId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -452,9 +440,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10015</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../Organization.md" target="_blank">/core/applicationCommon/foundationCommon/Organization.cdm.json/Organization</a></td><td><a href="../../../../Organization.md#organizationId" target="_blank">organizationId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
@@ -469,7 +454,7 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the versionNumber attribute are listed below.</summary>
+<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -505,7 +490,7 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
+<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -543,7 +528,7 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
+<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -582,7 +567,7 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
+<summary>List of traits for the  timeZoneRuleVersionNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -620,7 +605,7 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
+<summary>List of traits for the  UTCConversionTimeZoneCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -658,7 +643,7 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the name attribute are listed below.</summary>
+<summary>List of traits for the  name  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -699,7 +684,7 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the processId attribute are listed below.</summary>
+<summary>List of traits for the  processId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -737,7 +722,7 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the stageId attribute are listed below.</summary>
+<summary>List of traits for the  stageId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -775,7 +760,7 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the traversedPath attribute are listed below.</summary>
+<summary>List of traits for the  traversedPath  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -815,7 +800,7 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the vendorID attribute are listed below.</summary>
+<summary>List of traits for the  vendorID  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -855,7 +840,7 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the validFromDate attribute are listed below.</summary>
+<summary>List of traits for the  validFromDate  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -893,7 +878,7 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the validToDate attribute are listed below.</summary>
+<summary>List of traits for the  validToDate  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -931,7 +916,7 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the currentCost attribute are listed below.</summary>
+<summary>List of traits for the  currentCost  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -972,7 +957,7 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
+<summary>List of traits for the  transactionCurrencyId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1000,9 +985,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10031</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../../Currency.md" target="_blank">/core/applicationCommon/Currency.cdm.json/Currency</a></td><td><a href="../../../../../Currency.md#transactionCurrencyId" target="_blank">transactionCurrencyId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
@@ -1017,7 +999,7 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the exchangeRate attribute are listed below.</summary>
+<summary>List of traits for the  exchangeRate  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1057,7 +1039,7 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the currentCostBase attribute are listed below.</summary>
+<summary>List of traits for the  currentCostBase  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1101,7 +1083,7 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the defaultUoMId attribute are listed below.</summary>
+<summary>List of traits for the  defaultUoMId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1129,9 +1111,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10035</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../Unit.md" target="_blank">/core/applicationCommon/foundationCommon/Unit.cdm.json/Unit</a></td><td><a href="../../../../Unit.md#uoMId" target="_blank">uoMId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#defaultUoMScheduleId name="defaultUoMScheduleId">defaultUoMScheduleId</a>
@@ -1146,7 +1125,7 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the defaultUoMScheduleId attribute are listed below.</summary>
+<summary>List of traits for the  defaultUoMScheduleId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1174,9 +1153,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10036</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../UnitGroup.md" target="_blank">/core/applicationCommon/foundationCommon/UnitGroup.cdm.json/UnitGroup</a></td><td><a href="../../../../UnitGroup.md#uoMScheduleId" target="_blank">uoMScheduleId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#description name="description">description</a>
@@ -1191,7 +1167,7 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the description attribute are listed below.</summary>
+<summary>List of traits for the  description  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1231,7 +1207,7 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the isKit attribute are listed below.</summary>
+<summary>List of traits for the  isKit  attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1266,7 +1242,7 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the isStockItem attribute are listed below.</summary>
+<summary>List of traits for the  isStockItem  attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1301,7 +1277,7 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the parentProductId attribute are listed below.</summary>
+<summary>List of traits for the  parentProductId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1329,9 +1305,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10042</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../Product.md" target="_blank">/core/applicationCommon/foundationCommon/Product.cdm.json/Product</a></td><td><a href="../../../../Product.md#productId" target="_blank">productId</a></td></tr><tr><td><a href="Product.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Product.cdm.json/Product</a></td><td><a href="Product.md#productId" target="_blank">productId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#price name="price">price</a>
@@ -1346,7 +1319,7 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the price attribute are listed below.</summary>
+<summary>List of traits for the  price  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1387,7 +1360,7 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the priceBase attribute are listed below.</summary>
+<summary>List of traits for the  priceBase  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1426,16 +1399,16 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Product Structure</td></tr><tr><td>description</td><td>Product Structure.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>productstructure</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Product</td><td>1</td></tr><tr><td>en</td><td>Product Family</td><td>2</td></tr><tr><td>en</td><td>Product Bundle</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Product Structure</td></tr><tr><td>description</td><td>Product Structure.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>productstructure</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Product Bundle</td><td>3</td></tr><tr><td>en</td><td>Product Family</td><td>2</td></tr><tr><td>en</td><td>Product</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the productStructure attribute are listed below.</summary>
+<summary>List of traits for the  productStructure  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Product</td><td>1</td></tr><tr><td>en</td><td>Product Family</td><td>2</td></tr><tr><td>en</td><td>Product Bundle</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Product Bundle</td><td>3</td></tr><tr><td>en</td><td>Product Family</td><td>2</td></tr><tr><td>en</td><td>Product</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1468,7 +1441,7 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the productStructure_display attribute are listed below.</summary>
+<summary>List of traits for the  productStructure_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1492,7 +1465,7 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the productNumber attribute are listed below.</summary>
+<summary>List of traits for the  productNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1524,16 +1497,16 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Product Type</td></tr><tr><td>description</td><td>Type of product.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>producttypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Sales Inventory</td><td>1</td></tr><tr><td>en</td><td>Miscellaneous Charges</td><td>2</td></tr><tr><td>en</td><td>Services</td><td>3</td></tr><tr><td>en</td><td>Flat Fees</td><td>4</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Product Type</td></tr><tr><td>description</td><td>Type of product.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>producttypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Flat Fees</td><td>4</td></tr><tr><td>en</td><td>Services</td><td>3</td></tr><tr><td>en</td><td>Miscellaneous Charges</td><td>2</td></tr><tr><td>en</td><td>Sales Inventory</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the productTypeCode attribute are listed below.</summary>
+<summary>List of traits for the  productTypeCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Sales Inventory</td><td>1</td></tr><tr><td>en</td><td>Miscellaneous Charges</td><td>2</td></tr><tr><td>en</td><td>Services</td><td>3</td></tr><tr><td>en</td><td>Flat Fees</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Flat Fees</td><td>4</td></tr><tr><td>en</td><td>Services</td><td>3</td></tr><tr><td>en</td><td>Miscellaneous Charges</td><td>2</td></tr><tr><td>en</td><td>Sales Inventory</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1569,7 +1542,7 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the productTypeCode_display attribute are listed below.</summary>
+<summary>List of traits for the  productTypeCode_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1593,7 +1566,7 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the productUrl attribute are listed below.</summary>
+<summary>List of traits for the  productUrl  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1634,7 +1607,7 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the quantityDecimal attribute are listed below.</summary>
+<summary>List of traits for the  quantityDecimal  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1672,7 +1645,7 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the quantityOnHand attribute are listed below.</summary>
+<summary>List of traits for the  quantityOnHand  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1712,7 +1685,7 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the size attribute are listed below.</summary>
+<summary>List of traits for the  size  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1752,7 +1725,7 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the standardCost attribute are listed below.</summary>
+<summary>List of traits for the  standardCost  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1793,7 +1766,7 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the standardCostBase attribute are listed below.</summary>
+<summary>List of traits for the  standardCostBase  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1832,16 +1805,16 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the product.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Retired</td><td>1</td></tr><tr><td>en</td><td>Draft</td><td>2</td></tr><tr><td>en</td><td>Under Revision</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the product.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Under Revision</td><td>3</td></tr><tr><td>en</td><td>Draft</td><td>2</td></tr><tr><td>en</td><td>Retired</td><td>1</td></tr><tr><td>en</td><td>Active</td><td>0</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the stateCode attribute are listed below.</summary>
+<summary>List of traits for the  stateCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Retired</td><td>1</td></tr><tr><td>en</td><td>Draft</td><td>2</td></tr><tr><td>en</td><td>Under Revision</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Under Revision</td><td>3</td></tr><tr><td>en</td><td>Draft</td><td>2</td></tr><tr><td>en</td><td>Retired</td><td>1</td></tr><tr><td>en</td><td>Active</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1877,7 +1850,7 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the stateCode_display attribute are listed below.</summary>
+<summary>List of traits for the  stateCode_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1896,16 +1869,16 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the product.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Retired</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Draft</td><td>0</td><td>2</td></tr><tr><td>en</td><td>Under Revision</td><td>3</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the product.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Retired</td><td>2</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Draft</td><td>0</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Under Revision</td><td>3</td><td>3</td><td>3</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the statusCode attribute are listed below.</summary>
+<summary>List of traits for the  statusCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Retired</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Draft</td><td>0</td><td>2</td></tr><tr><td>en</td><td>Under Revision</td><td>3</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Retired</td><td>2</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Draft</td><td>0</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Under Revision</td><td>3</td><td>3</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1944,7 +1917,7 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the statusCode_display attribute are listed below.</summary>
+<summary>List of traits for the  statusCode_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1968,7 +1941,7 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the stockVolume attribute are listed below.</summary>
+<summary>List of traits for the  stockVolume  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -2008,7 +1981,7 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the stockWeight attribute are listed below.</summary>
+<summary>List of traits for the  stockWeight  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -2048,7 +2021,7 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the supplierName attribute are listed below.</summary>
+<summary>List of traits for the  supplierName  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2089,7 +2062,7 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the vendorName attribute are listed below.</summary>
+<summary>List of traits for the  vendorName  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2130,7 +2103,7 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the vendorPartNumber attribute are listed below.</summary>
+<summary>List of traits for the  vendorPartNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2170,7 +2143,7 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the hierarchyPath attribute are listed below.</summary>
+<summary>List of traits for the  hierarchyPath  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2210,7 +2183,7 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the priceLevelId attribute are listed below.</summary>
+<summary>List of traits for the  priceLevelId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2238,9 +2211,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10066</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../PriceList.md" target="_blank">/core/applicationCommon/foundationCommon/PriceList.cdm.json/PriceList</a></td><td><a href="../../../../PriceList.md#priceLevelId" target="_blank">priceLevelId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#subjectId name="subjectId">subjectId</a>
@@ -2255,7 +2225,7 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the subjectId attribute are listed below.</summary>
+<summary>List of traits for the  subjectId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2296,7 +2266,7 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the entityImageId attribute are listed below.</summary>
+<summary>List of traits for the  entityImageId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2328,7 +2298,7 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the createdByExternalParty attribute are listed below.</summary>
+<summary>List of traits for the  createdByExternalParty  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2370,7 +2340,7 @@ First included in: <a href="../../../../Product.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedByExternalParty attribute are listed below.</summary>
+<summary>List of traits for the  modifiedByExternalParty  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2403,7 +2373,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#form name="form">form</a>
 
 Describes the form of the item. Powder; tablets; capsule.  
-First included in: electronicMedicalRecords/Product (this entity)  
+First included in: electronicMedicalRecords/Product  (this entity)  
 
 #### Properties
 
@@ -2412,7 +2382,7 @@ First included in: electronicMedicalRecords/Product (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the form attribute are listed below.</summary>
+<summary>List of traits for the  form  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2440,15 +2410,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10096</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="CodeableConcept.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CodeableConcept.cdm.json/CodeableConcept</a></td><td><a href="CodeableConcept.md#codeableConceptId" target="_blank">codeableConceptId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#isBrand name="isBrand">isBrand</a>
 
 Set to true if the item is attributable to a specific manufacturer.  
-First included in: electronicMedicalRecords/Product (this entity)  
+First included in: electronicMedicalRecords/Product  (this entity)  
 
 #### Properties
 
@@ -2457,7 +2424,7 @@ First included in: electronicMedicalRecords/Product (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the isBrand attribute are listed below.</summary>
+<summary>List of traits for the  isBrand  attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -2483,7 +2450,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isOvertheCounter name="isOvertheCounter">isOvertheCounter</a>
 
 Set to true if the medication can be obtained without an order from a prescriber.  
-First included in: electronicMedicalRecords/Product (this entity)  
+First included in: electronicMedicalRecords/Product  (this entity)  
 
 #### Properties
 
@@ -2492,7 +2459,7 @@ First included in: electronicMedicalRecords/Product (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the isOvertheCounter attribute are listed below.</summary>
+<summary>List of traits for the  isOvertheCounter  attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -2518,7 +2485,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#medicationCode name="medicationCode">medicationCode</a>
 
 A code (or set of codes) that specify this medication, or a textual description if no code is available. Usage note: This could be a standard medication code.  
-First included in: electronicMedicalRecords/Product (this entity)  
+First included in: electronicMedicalRecords/Product  (this entity)  
 
 #### Properties
 
@@ -2527,7 +2494,7 @@ First included in: electronicMedicalRecords/Product (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the medicationCode attribute are listed below.</summary>
+<summary>List of traits for the  medicationCode  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2555,15 +2522,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10101</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="CodeableConcept.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CodeableConcept.cdm.json/CodeableConcept</a></td><td><a href="CodeableConcept.md#codeableConceptId" target="_blank">codeableConceptId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#packageContainer name="packageContainer">packageContainer</a>
 
 The kind of container that this package comes as.  
-First included in: electronicMedicalRecords/Product (this entity)  
+First included in: electronicMedicalRecords/Product  (this entity)  
 
 #### Properties
 
@@ -2572,7 +2536,7 @@ First included in: electronicMedicalRecords/Product (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the packageContainer attribute are listed below.</summary>
+<summary>List of traits for the  packageContainer  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2599,8 +2563,5 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10102</td><td>integer</td><td></td></tr></table>
-
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="CodeableConcept.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CodeableConcept.cdm.json/CodeableConcept</a></td><td><a href="CodeableConcept.md#codeableConceptId" target="_blank">codeableConceptId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 </details>

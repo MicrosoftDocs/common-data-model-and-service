@@ -4,11 +4,12 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/8/2019
+ms.date: 2/13/2019
 ms.author: tpalmer
 ---
 
 # sales
+
 
 ## Entities
 
@@ -17,26 +18,26 @@ ms.author: tpalmer
 |[Competitor](Competitor.md)|Business competing for the sale represented by a lead or opportunity.  |
 |[CompetitorAddress](CompetitorAddress.md)|Additional addresses for a competitor. The first two addresses are stored in the competitor object.  |
 |[CompetitorProduct](CompetitorProduct.md)|Association between a competitor and a product offered by the competitor.  |
-|[CompetitorSalesLiterature](CompetitorSalesLiterature.md)||
-|[ContactInvoices](ContactInvoices.md)||
-|[ContactOrders](ContactOrders.md)||
-|[ContactQuotes](ContactQuotes.md)||
+|[CompetitorSalesLiterature](CompetitorSalesLiterature.md)|  |
+|[ContactInvoices](ContactInvoices.md)|  |
+|[ContactOrders](ContactOrders.md)|  |
+|[ContactQuotes](ContactQuotes.md)|  |
 |[Discount](Discount.md)|Price reduction made from the list price of a product or service based on the quantity purchased.  |
 |[DiscountList](DiscountList.md)|Type of discount specified as either a percentage or an amount.  |
 |[Invoice](Invoice.md)|Order that has been billed.  |
 |[InvoiceProduct](InvoiceProduct.md)|Line item in an invoice containing detailed billing information for a product.  |
-|[LeadCompetitors](LeadCompetitors.md)||
-|[LeadProduct](LeadProduct.md)||
+|[LeadCompetitors](LeadCompetitors.md)|  |
+|[LeadProduct](LeadProduct.md)|  |
 |[Opportunity](Opportunity.md)|Potential revenue-generating event, or sale to an account, which needs to be tracked through a sales process to completion.  |
 |[OpportunityClose](OpportunityClose.md)|Activity that is created automatically when an opportunity is closed, containing information such as the description of the closing and actual revenue.  |
-|[OpportunityCompetitors](OpportunityCompetitors.md)||
+|[OpportunityCompetitors](OpportunityCompetitors.md)|  |
 |[OpportunityProduct](OpportunityProduct.md)|Association between an opportunity and a product.  |
 |[OpportunityRelationship](OpportunityRelationship.md)|Relationship between an account or contact and an opportunity.  |
 |[Order](Order.md)|Quote that has been accepted.  |
 |[OrderClose](OrderClose.md)|Activity generated automatically when an order is closed.  |
 |[OrderProduct](OrderProduct.md)|Line item in a sales order.  |
 |[PriceListItem](PriceListItem.md)|Information about how to price a product in the specified price level, including pricing method, rounding option, and discount type based on a specified product unit.  |
-|[ProductSalesLiterature](ProductSalesLiterature.md)||
+|[ProductSalesLiterature](ProductSalesLiterature.md)|  |
 |[PropertyInstance](PropertyInstance.md)|Instance of a property with its value.  |
 |[Quote](Quote.md)|Formal offer for products and/or services, proposed at specific prices and related payment terms, which is sent to a prospective customer.  |
 |[QuoteClose](QuoteClose.md)|Activity generated when a quote is closed.  |

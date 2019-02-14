@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/12/2019
+ms.date: 2/13/2019
 ms.author: tpalmer
 ---
 
@@ -13,6 +13,12 @@ ms.author: tpalmer
 Group of undeleted system users and undeleted teams. Owners can be used to control access to specific objects.  
   
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/Owner.cdm.json" target="_blank">GitHub</a>.  
+
+## Instances
+
+Instances of this entity are listed below:  
+
+applicationCommon/Owner  
 
 ## Traits
 
@@ -40,12 +46,6 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 
 </details>
 
-## Instances
-
-Instances of this entity are listed below:  
-
-applicationCommon/Owner  
-
 ## Attributes
 
 |Name|Description|First Included in Instance|
@@ -58,7 +58,7 @@ applicationCommon/Owner
 
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
-First included in: applicationCommon/Owner (this entity)  
+First included in: applicationCommon/Owner  (this entity)  
 
 #### Properties
 
@@ -67,7 +67,7 @@ First included in: applicationCommon/Owner (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the versionNumber attribute are listed below.</summary>
+<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -88,7 +88,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Unique identifier for the Owner: systemuserid or teamid.  
-First included in: applicationCommon/Owner (this entity)  
+First included in: applicationCommon/Owner  (this entity)  
 
 #### Properties
 
@@ -97,7 +97,7 @@ First included in: applicationCommon/Owner (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the ownerId attribute are listed below.</summary>
+<summary>List of traits for the  ownerId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -127,7 +127,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#name name="name">name</a>
 
 Name of the Owner.  
-First included in: applicationCommon/Owner (this entity)  
+First included in: applicationCommon/Owner  (this entity)  
 
 #### Properties
 
@@ -136,7 +136,7 @@ First included in: applicationCommon/Owner (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the name attribute are listed below.</summary>
+<summary>List of traits for the  name  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -167,7 +167,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
-First included in: applicationCommon/Owner (this entity)  
+First included in: applicationCommon/Owner  (this entity)  
 
 #### Properties
 
@@ -176,7 +176,7 @@ First included in: applicationCommon/Owner (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the ownerIdType attribute are listed below.</summary>
+<summary>List of traits for the  ownerIdType  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -196,7 +196,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#yomiName name="yomiName">yomiName</a>
 
 Pronunciation of the name of the owner, written in phonetic hiragana or katakana characters.  
-First included in: applicationCommon/Owner (this entity)  
+First included in: applicationCommon/Owner  (this entity)  
 
 #### Properties
 
@@ -205,7 +205,7 @@ First included in: applicationCommon/Owner (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the yomiName attribute are listed below.</summary>
+<summary>List of traits for the  yomiName  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  

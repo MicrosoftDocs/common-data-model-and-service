@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/12/2019
+ms.date: 2/13/2019
 ms.author: tpalmer
 ---
 
@@ -13,6 +13,13 @@ ms.author: tpalmer
 Organizational knowledge for internal and external use.  
   
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/KnowledgeArticle.cdm.json" target="_blank">GitHub</a>.  
+
+## Instances
+
+Instances of this entity are listed below:  
+
+applicationCommon/KnowledgeArticle  
+[foundationCommon/KnowledgeArticle](foundationCommon/KnowledgeArticle.md "/core/applicationCommon/foundationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle")  
 
 ## Traits
 
@@ -42,13 +49,6 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>KnowledgeArticle</td><td>string</td><td></td></tr></table>
 
 </details>
-
-## Instances
-
-Instances of this entity are listed below:  
-
-applicationCommon/KnowledgeArticle  
-[foundationCommon/KnowledgeArticle](foundationCommon/KnowledgeArticle.md "/core/applicationCommon/foundationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle")  
 
 ## Attributes
 
@@ -122,7 +122,7 @@ applicationCommon/KnowledgeArticle
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -131,7 +131,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the createdOn attribute are listed below.</summary>
+<summary>List of traits for the  createdOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -161,7 +161,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -170,7 +170,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the createdBy attribute are listed below.</summary>
+<summary>List of traits for the  createdBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -201,15 +201,12 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>createdby</td><td>string</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -218,7 +215,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedOn attribute are listed below.</summary>
+<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -248,7 +245,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -257,7 +254,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedBy attribute are listed below.</summary>
+<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -288,15 +285,12 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>modifiedby</td><td>string</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -305,7 +299,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
+<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -336,15 +330,12 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>createdonbehalfby</td><td>string</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -353,7 +344,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
+<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -384,15 +375,12 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>modifiedonbehalfby</td><td>string</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -401,7 +389,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
+<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -431,7 +419,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -440,7 +428,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
+<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -466,7 +454,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -475,7 +463,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the ownerIdType attribute are listed below.</summary>
+<summary>List of traits for the  ownerIdType  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -505,7 +493,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -514,7 +502,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the ownerId attribute are listed below.</summary>
+<summary>List of traits for the  ownerId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -540,7 +528,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>ownerid</td><td>string</td><td></td></tr></table>
 
 - **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="Team.md" target="_blank">/core/applicationCommon/Team.cdm.json/Team</a></td><td><a href="Team.md#teamId" target="_blank">teamId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  
 
 - **is.CDS.owner**  
 contains a User or Team ID  
@@ -550,7 +538,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -559,7 +547,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
+<summary>List of traits for the  owningBusinessUnit  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -587,15 +575,12 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>owningbusinessunit</td><td>string</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="BusinessUnit.md" target="_blank">/core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit</a></td><td><a href="BusinessUnit.md#businessUnitId" target="_blank">businessUnitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -604,7 +589,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the owningUser attribute are listed below.</summary>
+<summary>List of traits for the  owningUser  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -635,15 +620,12 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>owninguser</td><td>string</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="foundationCommon/crmCommon/service/User.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User</a></td><td><a href="foundationCommon/crmCommon/service/User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -652,7 +634,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the owningTeam attribute are listed below.</summary>
+<summary>List of traits for the  owningTeam  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -680,15 +662,12 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>owningteam</td><td>string</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="Team.md" target="_blank">/core/applicationCommon/Team.cdm.json/Team</a></td><td><a href="Team.md#teamId" target="_blank">teamId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -697,7 +676,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
+<summary>List of traits for the  timeZoneRuleVersionNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -726,7 +705,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -735,7 +714,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
+<summary>List of traits for the  UTCConversionTimeZoneCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -764,7 +743,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -773,7 +752,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the versionNumber attribute are listed below.</summary>
+<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -801,7 +780,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#knowledgearticleId name="knowledgearticleId">knowledgearticleId</a>
 
 Unique identifier for entity instances  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -810,7 +789,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the knowledgearticleId attribute are listed below.</summary>
+<summary>List of traits for the  knowledgearticleId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -840,7 +819,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Shows whether the article is a draft or is published, archived, or discarded. Draft articles aren't available externally and can be edited. Published articles are available externally, based on applicable permissions, but can't be edited. All metadata changes are reflected in the published version. Archived and discarded articles aren't available externally and can't be edited.  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -849,11 +828,11 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the stateCode attribute are listed below.</summary>
+<summary>List of traits for the  stateCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Draft</td><td>0</td></tr><tr><td>en</td><td>Approved</td><td>1</td></tr><tr><td>en</td><td>Scheduled</td><td>2</td></tr><tr><td>en</td><td>Published</td><td>3</td></tr><tr><td>en</td><td>Expired</td><td>4</td></tr><tr><td>en</td><td>Archived</td><td>5</td></tr><tr><td>en</td><td>Discarded</td><td>6</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Discarded</td><td>6</td></tr><tr><td>en</td><td>Archived</td><td>5</td></tr><tr><td>en</td><td>Expired</td><td>4</td></tr><tr><td>en</td><td>Published</td><td>3</td></tr><tr><td>en</td><td>Scheduled</td><td>2</td></tr><tr><td>en</td><td>Approved</td><td>1</td></tr><tr><td>en</td><td>Draft</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -880,7 +859,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -889,7 +868,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the stateCode_display attribute are listed below.</summary>
+<summary>List of traits for the  stateCode_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -904,20 +883,20 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Select the article's status.  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the article's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Proposed</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Draft</td><td>2</td><td>0</td></tr><tr><td>en</td><td>Needs review</td><td>3</td><td>0</td></tr><tr><td>en</td><td>In review</td><td>4</td><td>0</td></tr><tr><td>en</td><td>Approved</td><td>5</td><td>1</td></tr><tr><td>en</td><td>Scheduled</td><td>6</td><td>2</td></tr><tr><td>en</td><td>Published</td><td>7</td><td>3</td></tr><tr><td>en</td><td>Needs review</td><td>8</td><td>3</td></tr><tr><td>en</td><td>Updating</td><td>9</td><td>3</td></tr><tr><td>en</td><td>Expired</td><td>10</td><td>4</td></tr><tr><td>en</td><td>Rejected</td><td>11</td><td>4</td></tr><tr><td>en</td><td>Archived</td><td>12</td><td>5</td></tr><tr><td>en</td><td>Discarded</td><td>13</td><td>6</td></tr><tr><td>en</td><td>Rejected</td><td>14</td><td>6</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the article's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Proposed</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Draft</td><td>2</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Needs review</td><td>3</td><td>2</td><td>0</td></tr><tr><td>en</td><td>In review</td><td>4</td><td>3</td><td>0</td></tr><tr><td>en</td><td>Approved</td><td>5</td><td>4</td><td>1</td></tr><tr><td>en</td><td>Scheduled</td><td>6</td><td>5</td><td>2</td></tr><tr><td>en</td><td>Published</td><td>7</td><td>6</td><td>3</td></tr><tr><td>en</td><td>Needs review</td><td>8</td><td>7</td><td>3</td></tr><tr><td>en</td><td>Updating</td><td>9</td><td>8</td><td>3</td></tr><tr><td>en</td><td>Expired</td><td>10</td><td>9</td><td>4</td></tr><tr><td>en</td><td>Rejected</td><td>11</td><td>10</td><td>4</td></tr><tr><td>en</td><td>Archived</td><td>12</td><td>11</td><td>5</td></tr><tr><td>en</td><td>Discarded</td><td>13</td><td>12</td><td>6</td></tr><tr><td>en</td><td>Rejected</td><td>14</td><td>13</td><td>6</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the statusCode attribute are listed below.</summary>
+<summary>List of traits for the  statusCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Proposed</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Draft</td><td>2</td><td>0</td></tr><tr><td>en</td><td>Needs review</td><td>3</td><td>0</td></tr><tr><td>en</td><td>In review</td><td>4</td><td>0</td></tr><tr><td>en</td><td>Approved</td><td>5</td><td>1</td></tr><tr><td>en</td><td>Scheduled</td><td>6</td><td>2</td></tr><tr><td>en</td><td>Published</td><td>7</td><td>3</td></tr><tr><td>en</td><td>Needs review</td><td>8</td><td>3</td></tr><tr><td>en</td><td>Updating</td><td>9</td><td>3</td></tr><tr><td>en</td><td>Expired</td><td>10</td><td>4</td></tr><tr><td>en</td><td>Rejected</td><td>11</td><td>4</td></tr><tr><td>en</td><td>Archived</td><td>12</td><td>5</td></tr><tr><td>en</td><td>Discarded</td><td>13</td><td>6</td></tr><tr><td>en</td><td>Rejected</td><td>14</td><td>6</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Proposed</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Draft</td><td>2</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Needs review</td><td>3</td><td>2</td><td>0</td></tr><tr><td>en</td><td>In review</td><td>4</td><td>3</td><td>0</td></tr><tr><td>en</td><td>Approved</td><td>5</td><td>4</td><td>1</td></tr><tr><td>en</td><td>Scheduled</td><td>6</td><td>5</td><td>2</td></tr><tr><td>en</td><td>Published</td><td>7</td><td>6</td><td>3</td></tr><tr><td>en</td><td>Needs review</td><td>8</td><td>7</td><td>3</td></tr><tr><td>en</td><td>Updating</td><td>9</td><td>8</td><td>3</td></tr><tr><td>en</td><td>Expired</td><td>10</td><td>9</td><td>4</td></tr><tr><td>en</td><td>Rejected</td><td>11</td><td>10</td><td>4</td></tr><tr><td>en</td><td>Archived</td><td>12</td><td>11</td><td>5</td></tr><tr><td>en</td><td>Discarded</td><td>13</td><td>12</td><td>6</td></tr><tr><td>en</td><td>Rejected</td><td>14</td><td>13</td><td>6</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -947,7 +926,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -956,7 +935,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the statusCode_display attribute are listed below.</summary>
+<summary>List of traits for the  statusCode_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -971,7 +950,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 ### <a href=#processId name="processId">processId</a>
 
 Contains the id of the process associated with the entity.  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -980,7 +959,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the processId attribute are listed below.</summary>
+<summary>List of traits for the  processId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1009,7 +988,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stageId name="stageId">stageId</a>
 
 Contains the id of the stage where the entity is located.  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -1018,7 +997,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the stageId attribute are listed below.</summary>
+<summary>List of traits for the  stageId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1047,7 +1026,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#traversedPath name="traversedPath">traversedPath</a>
 
 A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -1056,7 +1035,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the traversedPath attribute are listed below.</summary>
+<summary>List of traits for the  traversedPath  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1087,7 +1066,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Exchange rate for the currency associated with the KnowledgeArticle with respect to the base currency.  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -1096,7 +1075,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the exchangeRate attribute are listed below.</summary>
+<summary>List of traits for the  exchangeRate  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1127,7 +1106,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Exchange rate for the currency associated with the KnowledgeArticle with respect to the base currency.  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -1136,7 +1115,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
+<summary>List of traits for the  transactionCurrencyId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1164,15 +1143,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>39</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="Currency.md" target="_blank">/core/applicationCommon/Currency.cdm.json/Currency</a></td><td><a href="Currency.md#transactionCurrencyId" target="_blank">transactionCurrencyId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#title name="title">title</a>
 
 Type a title for the article.  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -1181,7 +1157,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the title attribute are listed below.</summary>
+<summary>List of traits for the  title  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1212,7 +1188,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#content name="content">content</a>
 
 Shows the body of the article stored in HTML format.  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -1221,7 +1197,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the content attribute are listed below.</summary>
+<summary>List of traits for the  content  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1252,7 +1228,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#keyWords name="keyWords">keyWords</a>
 
 Type keywords to be used for searches in knowledge base articles. Separate keywords by using commas.  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -1261,7 +1237,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the keyWords attribute are listed below.</summary>
+<summary>List of traits for the  keyWords  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1292,7 +1268,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#publishOn name="publishOn">publishOn</a>
 
 Date and time when the record was published.  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -1301,7 +1277,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the publishOn attribute are listed below.</summary>
+<summary>List of traits for the  publishOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1330,7 +1306,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#expirationDate name="expirationDate">expirationDate</a>
 
 Enter an expiration date for the article. Leave this field blank for no expiration date.  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -1339,7 +1315,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the expirationDate attribute are listed below.</summary>
+<summary>List of traits for the  expirationDate  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1368,7 +1344,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#parentArticleContentId name="parentArticleContentId">parentArticleContentId</a>
 
 Contains the id of the parent article content associated with the entity.  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -1377,7 +1353,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the parentArticleContentId attribute are listed below.</summary>
+<summary>List of traits for the  parentArticleContentId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1405,15 +1381,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>47</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="KnowledgeArticle.md" target="_blank">/core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle</a></td><td><a href="KnowledgeArticle.md#knowledgearticleId" target="_blank">knowledgearticleId</a></td></tr><tr><td><a href="foundationCommon/KnowledgeArticle.md" target="_blank">/core/applicationCommon/foundationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle</a></td><td><a href="foundationCommon/KnowledgeArticle.md#knowledgearticleId" target="_blank">knowledgearticleId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#knowledgeArticleViews name="knowledgeArticleViews">knowledgeArticleViews</a>
 
 Shows the total number of article views.  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -1422,7 +1395,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the knowledgeArticleViews attribute are listed below.</summary>
+<summary>List of traits for the  knowledgeArticleViews  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1451,7 +1424,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#description name="description">description</a>
 
 A short overview of the article, primarily used in search results and for search engine optimization.  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -1460,7 +1433,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the description attribute are listed below.</summary>
+<summary>List of traits for the  description  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1491,7 +1464,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#majorVersionNumber name="majorVersionNumber">majorVersionNumber</a>
 
 Shows the major version number of this article's content.  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -1500,7 +1473,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the majorVersionNumber attribute are listed below.</summary>
+<summary>List of traits for the  majorVersionNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1526,7 +1499,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#minorVersionNumber name="minorVersionNumber">minorVersionNumber</a>
 
 Shows the minor version number of this article's content.  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -1535,7 +1508,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the minorVersionNumber attribute are listed below.</summary>
+<summary>List of traits for the  minorVersionNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1561,7 +1534,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#languageLocaleId name="languageLocaleId">languageLocaleId</a>
 
 Select the language that the article's content is in.  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -1570,7 +1543,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the languageLocaleId attribute are listed below.</summary>
+<summary>List of traits for the  languageLocaleId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1603,7 +1576,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#scheduledStatusId name="scheduledStatusId">scheduledStatusId</a>
 
 Contains the id of the scheduled status of the entity.  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -1612,7 +1585,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the scheduledStatusId attribute are listed below.</summary>
+<summary>List of traits for the  scheduledStatusId  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1641,7 +1614,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#expirationStatusId name="expirationStatusId">expirationStatusId</a>
 
 Contains the id of the expiration status of the entity.  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -1650,7 +1623,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the expirationStatusId attribute are listed below.</summary>
+<summary>List of traits for the  expirationStatusId  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1679,7 +1652,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#publishStatusId name="publishStatusId">publishStatusId</a>
 
 Publish Status of the Article.  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -1688,7 +1661,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the publishStatusId attribute are listed below.</summary>
+<summary>List of traits for the  publishStatusId  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1717,7 +1690,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#isPrimary name="isPrimary">isPrimary</a>
 
 Select whether the article is the primary article.  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -1726,7 +1699,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the isPrimary attribute are listed below.</summary>
+<summary>List of traits for the  isPrimary  attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1752,7 +1725,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#readyForReview name="readyForReview">readyForReview</a>
 
 Ready For Review  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -1761,7 +1734,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the readyForReview attribute are listed below.</summary>
+<summary>List of traits for the  readyForReview  attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1787,7 +1760,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#review name="review">review</a>
 
 Review  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -1796,11 +1769,11 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the review attribute are listed below.</summary>
+<summary>List of traits for the  review  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Approved</td><td>0</td></tr><tr><td>en</td><td>Rejected</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Rejected</td><td>1</td></tr><tr><td>en</td><td>Approved</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1827,7 +1800,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#review_display name="review_display">review_display</a>
 
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -1836,7 +1809,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the review_display attribute are listed below.</summary>
+<summary>List of traits for the  review_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1851,7 +1824,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 ### <a href=#updateContent name="updateContent">updateContent</a>
 
 Update Content  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -1860,7 +1833,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the updateContent attribute are listed below.</summary>
+<summary>List of traits for the  updateContent  attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1886,7 +1859,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#expiredReviewOptions name="expiredReviewOptions">expiredReviewOptions</a>
 
 Expired Review Options  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -1895,11 +1868,11 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the expiredReviewOptions attribute are listed below.</summary>
+<summary>List of traits for the  expiredReviewOptions  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Needs Updating</td><td>0</td></tr><tr><td>en</td><td>Republish</td><td>1</td></tr><tr><td>en</td><td>Archive</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Archive</td><td>2</td></tr><tr><td>en</td><td>Republish</td><td>1</td></tr><tr><td>en</td><td>Needs Updating</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1926,7 +1899,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#expiredReviewOptions_display name="expiredReviewOptions_display">expiredReviewOptions_display</a>
 
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -1935,7 +1908,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the expiredReviewOptions_display attribute are listed below.</summary>
+<summary>List of traits for the  expiredReviewOptions_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1950,7 +1923,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 ### <a href=#subjectId name="subjectId">subjectId</a>
 
 Choose the subject of the article to assist with article searches. You can configure subjects under Business Management in the Settings area.  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -1959,7 +1932,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the subjectId attribute are listed below.</summary>
+<summary>List of traits for the  subjectId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1992,7 +1965,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#primaryAuthorId name="primaryAuthorId">primaryAuthorId</a>
 
 Contains the id of the primary author associated with the article.  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -2001,7 +1974,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the primaryAuthorId attribute are listed below.</summary>
+<summary>List of traits for the  primaryAuthorId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2029,15 +2002,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>94</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#isRootArticle name="isRootArticle">isRootArticle</a>
 
 Select whether the article is the root article.  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -2046,7 +2016,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the isRootArticle attribute are listed below.</summary>
+<summary>List of traits for the  isRootArticle  attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -2069,7 +2039,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#previousArticleContentId name="previousArticleContentId">previousArticleContentId</a>
 
 Shows the version that the current article was restored from.  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -2078,7 +2048,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the previousArticleContentId attribute are listed below.</summary>
+<summary>List of traits for the  previousArticleContentId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2106,15 +2076,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>98</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="KnowledgeArticle.md" target="_blank">/core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle</a></td><td><a href="KnowledgeArticle.md#knowledgearticleId" target="_blank">knowledgearticleId</a></td></tr><tr><td><a href="foundationCommon/KnowledgeArticle.md" target="_blank">/core/applicationCommon/foundationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle</a></td><td><a href="foundationCommon/KnowledgeArticle.md#knowledgearticleId" target="_blank">knowledgearticleId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#articlePublicNumber name="articlePublicNumber">articlePublicNumber</a>
 
 Shows the automatically generated ID exposed to customers, partners, and other external users to reference and look up articles.  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -2123,7 +2090,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the articlePublicNumber attribute are listed below.</summary>
+<summary>List of traits for the  articlePublicNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2151,7 +2118,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#isLatestVersion name="isLatestVersion">isLatestVersion</a>
 
 Shows which version of the knowledge article is the latest version.  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -2160,7 +2127,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the isLatestVersion attribute are listed below.</summary>
+<summary>List of traits for the  isLatestVersion  attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -2183,7 +2150,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#rootArticleId name="rootArticleId">rootArticleId</a>
 
 Contains the id of the root article.  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -2192,7 +2159,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the rootArticleId attribute are listed below.</summary>
+<summary>List of traits for the  rootArticleId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2220,15 +2187,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>109</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="KnowledgeArticle.md" target="_blank">/core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle</a></td><td><a href="KnowledgeArticle.md#knowledgearticleId" target="_blank">knowledgearticleId</a></td></tr><tr><td><a href="foundationCommon/KnowledgeArticle.md" target="_blank">/core/applicationCommon/foundationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle</a></td><td><a href="foundationCommon/KnowledgeArticle.md#knowledgearticleId" target="_blank">knowledgearticleId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#knowledgeArticleViewsDate name="knowledgeArticleViewsDate">knowledgeArticleViewsDate</a>
 
 The date time for Knowledge Article View.  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -2237,7 +2201,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the knowledgeArticleViewsDate attribute are listed below.</summary>
+<summary>List of traits for the  knowledgeArticleViewsDate  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -2269,7 +2233,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#knowledgeArticleViewsState name="knowledgeArticleViewsState">knowledgeArticleViewsState</a>
 
 State of Knowledge Article View.  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -2278,7 +2242,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the knowledgeArticleViewsState attribute are listed below.</summary>
+<summary>List of traits for the  knowledgeArticleViewsState  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.calculationOf**  
@@ -2310,7 +2274,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#rating name="rating">rating</a>
 
 Information which specifies how helpful the related record was.  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -2319,7 +2283,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the rating attribute are listed below.</summary>
+<summary>List of traits for the  rating  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -2350,7 +2314,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ratingDate name="ratingDate">ratingDate</a>
 
 The date time for Rating.  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -2359,7 +2323,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the ratingDate attribute are listed below.</summary>
+<summary>List of traits for the  ratingDate  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -2391,7 +2355,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#ratingState name="ratingState">ratingState</a>
 
 State of Rating  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -2400,7 +2364,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the ratingState attribute are listed below.</summary>
+<summary>List of traits for the  ratingState  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.calculationOf**  
@@ -2432,7 +2396,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ratingSum name="ratingSum">ratingSum</a>
 
 Total sum of Rating  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -2441,7 +2405,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the ratingSum attribute are listed below.</summary>
+<summary>List of traits for the  ratingSum  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -2475,7 +2439,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ratingCount name="ratingCount">ratingCount</a>
 
 Rating Count  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -2484,7 +2448,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the ratingCount attribute are listed below.</summary>
+<summary>List of traits for the  ratingCount  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.calculationOf**  
@@ -2516,7 +2480,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#isInternal name="isInternal">isInternal</a>
 
 Shows whether this article is only visible internally.  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -2525,7 +2489,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the isInternal attribute are listed below.</summary>
+<summary>List of traits for the  isInternal  attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -2551,7 +2515,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#setCategoryAssociations name="setCategoryAssociations">setCategoryAssociations</a>
 
 Shows whether category associations have been set  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -2560,7 +2524,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the setCategoryAssociations attribute are listed below.</summary>
+<summary>List of traits for the  setCategoryAssociations  attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -2586,7 +2550,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#expirationStateId name="expirationStateId">expirationStateId</a>
 
 Contains the id of the expiration state of the entity.  
-First included in: applicationCommon/KnowledgeArticle (this entity)  
+First included in: applicationCommon/KnowledgeArticle  (this entity)  
 
 #### Properties
 
@@ -2595,7 +2559,7 @@ First included in: applicationCommon/KnowledgeArticle (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the expirationStateId attribute are listed below.</summary>
+<summary>List of traits for the  expirationStateId  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  

@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/12/2019
+ms.date: 2/13/2019
 ms.author: tpalmer
 ---
 
@@ -13,6 +13,12 @@ ms.author: tpalmer
 Information about a product property.  
   
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/Property.cdm.json" target="_blank">GitHub</a>.  
+
+## Instances
+
+Instances of this entity are listed below:  
+
+foundationCommon/Property  
 
 ## Traits
 
@@ -42,12 +48,6 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>DynamicProperty</td><td>string</td><td></td></tr></table>
 
 </details>
-
-## Instances
-
-Instances of this entity are listed below:  
-
-foundationCommon/Property  
 
 ## Attributes
 
@@ -98,7 +98,7 @@ foundationCommon/Property
 ### <a href=#dynamicPropertyId name="dynamicPropertyId">dynamicPropertyId</a>
 
 Shows the unique identifier of the property.  
-First included in: foundationCommon/Property (this entity)  
+First included in: foundationCommon/Property  (this entity)  
 
 #### Properties
 
@@ -107,7 +107,7 @@ First included in: foundationCommon/Property (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the dynamicPropertyId attribute are listed below.</summary>
+<summary>List of traits for the  dynamicPropertyId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -137,7 +137,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: foundationCommon/Property (this entity)  
+First included in: foundationCommon/Property  (this entity)  
 
 #### Properties
 
@@ -146,7 +146,7 @@ First included in: foundationCommon/Property (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the createdOn attribute are listed below.</summary>
+<summary>List of traits for the  createdOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -176,7 +176,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Unique identifier of the user who created the record.  
-First included in: foundationCommon/Property (this entity)  
+First included in: foundationCommon/Property  (this entity)  
 
 #### Properties
 
@@ -185,7 +185,7 @@ First included in: foundationCommon/Property (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the createdBy attribute are listed below.</summary>
+<summary>List of traits for the  createdBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -213,15 +213,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10002</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: foundationCommon/Property (this entity)  
+First included in: foundationCommon/Property  (this entity)  
 
 #### Properties
 
@@ -230,7 +227,7 @@ First included in: foundationCommon/Property (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedOn attribute are listed below.</summary>
+<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -260,7 +257,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Unique identifier of the user who modified the record.  
-First included in: foundationCommon/Property (this entity)  
+First included in: foundationCommon/Property  (this entity)  
 
 #### Properties
 
@@ -269,7 +266,7 @@ First included in: foundationCommon/Property (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedBy attribute are listed below.</summary>
+<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -297,15 +294,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10004</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Unique identifier of the delegate user who created the record.  
-First included in: foundationCommon/Property (this entity)  
+First included in: foundationCommon/Property  (this entity)  
 
 #### Properties
 
@@ -314,7 +308,7 @@ First included in: foundationCommon/Property (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
+<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -342,15 +336,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10005</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Unique identifier of the delegate user who modified the record.  
-First included in: foundationCommon/Property (this entity)  
+First included in: foundationCommon/Property  (this entity)  
 
 #### Properties
 
@@ -359,7 +350,7 @@ First included in: foundationCommon/Property (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
+<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -387,15 +378,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10006</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#organizationId name="organizationId">organizationId</a>
 
 Unique identifier for the organization  
-First included in: foundationCommon/Property (this entity)  
+First included in: foundationCommon/Property  (this entity)  
 
 #### Properties
 
@@ -404,7 +392,7 @@ First included in: foundationCommon/Property (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the organizationId attribute are listed below.</summary>
+<summary>List of traits for the  organizationId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -429,15 +417,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10015</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="Organization.md" target="_blank">/core/applicationCommon/foundationCommon/Organization.cdm.json/Organization</a></td><td><a href="Organization.md#organizationId" target="_blank">organizationId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: foundationCommon/Property (this entity)  
+First included in: foundationCommon/Property  (this entity)  
 
 #### Properties
 
@@ -446,7 +431,7 @@ First included in: foundationCommon/Property (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the versionNumber attribute are listed below.</summary>
+<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -473,7 +458,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: foundationCommon/Property (this entity)  
+First included in: foundationCommon/Property  (this entity)  
 
 #### Properties
 
@@ -482,7 +467,7 @@ First included in: foundationCommon/Property (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
+<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -511,7 +496,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: foundationCommon/Property (this entity)  
+First included in: foundationCommon/Property  (this entity)  
 
 #### Properties
 
@@ -520,7 +505,7 @@ First included in: foundationCommon/Property (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
+<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -550,7 +535,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: foundationCommon/Property (this entity)  
+First included in: foundationCommon/Property  (this entity)  
 
 #### Properties
 
@@ -559,7 +544,7 @@ First included in: foundationCommon/Property (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
+<summary>List of traits for the  timeZoneRuleVersionNumber  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -588,7 +573,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: foundationCommon/Property (this entity)  
+First included in: foundationCommon/Property  (this entity)  
 
 #### Properties
 
@@ -597,7 +582,7 @@ First included in: foundationCommon/Property (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
+<summary>List of traits for the  UTCConversionTimeZoneCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -626,7 +611,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#name name="name">name</a>
 
 Type the name of the property.  
-First included in: foundationCommon/Property (this entity)  
+First included in: foundationCommon/Property  (this entity)  
 
 #### Properties
 
@@ -635,7 +620,7 @@ First included in: foundationCommon/Property (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the name attribute are listed below.</summary>
+<summary>List of traits for the  name  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -667,7 +652,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#description name="description">description</a>
 
 Type a description for the property.  
-First included in: foundationCommon/Property (this entity)  
+First included in: foundationCommon/Property  (this entity)  
 
 #### Properties
 
@@ -676,7 +661,7 @@ First included in: foundationCommon/Property (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the description attribute are listed below.</summary>
+<summary>List of traits for the  description  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -707,7 +692,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#dataType name="dataType">dataType</a>
 
 Select the data type of the property.  
-First included in: foundationCommon/Property (this entity)  
+First included in: foundationCommon/Property  (this entity)  
 
 #### Properties
 
@@ -716,11 +701,11 @@ First included in: foundationCommon/Property (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the dataType attribute are listed below.</summary>
+<summary>List of traits for the  dataType  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Option Set</td><td>0</td></tr><tr><td>en</td><td>Decimal</td><td>1</td></tr><tr><td>en</td><td>Floating Point Number</td><td>2</td></tr><tr><td>en</td><td>Single Line Of Text</td><td>3</td></tr><tr><td>en</td><td>Whole Number</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Whole Number</td><td>4</td></tr><tr><td>en</td><td>Single Line Of Text</td><td>3</td></tr><tr><td>en</td><td>Floating Point Number</td><td>2</td></tr><tr><td>en</td><td>Decimal</td><td>1</td></tr><tr><td>en</td><td>Option Set</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -747,7 +732,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#dataType_display name="dataType_display">dataType_display</a>
 
-First included in: foundationCommon/Property (this entity)  
+First included in: foundationCommon/Property  (this entity)  
 
 #### Properties
 
@@ -756,7 +741,7 @@ First included in: foundationCommon/Property (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the dataType_display attribute are listed below.</summary>
+<summary>List of traits for the  dataType_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -771,7 +756,7 @@ First included in: foundationCommon/Property (this entity)
 ### <a href=#defaultValueInteger name="defaultValueInteger">defaultValueInteger</a>
 
 Shows the default value of the property for a whole number data type.  
-First included in: foundationCommon/Property (this entity)  
+First included in: foundationCommon/Property  (this entity)  
 
 #### Properties
 
@@ -780,7 +765,7 @@ First included in: foundationCommon/Property (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the defaultValueInteger attribute are listed below.</summary>
+<summary>List of traits for the  defaultValueInteger  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -809,7 +794,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#defaultValueString name="defaultValueString">defaultValueString</a>
 
 Shows the default value of the property for a string data type.  
-First included in: foundationCommon/Property (this entity)  
+First included in: foundationCommon/Property  (this entity)  
 
 #### Properties
 
@@ -818,7 +803,7 @@ First included in: foundationCommon/Property (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the defaultValueString attribute are listed below.</summary>
+<summary>List of traits for the  defaultValueString  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -849,7 +834,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#defaultValueDecimal name="defaultValueDecimal">defaultValueDecimal</a>
 
 Shows the default value of the property for a decimal data type.  
-First included in: foundationCommon/Property (this entity)  
+First included in: foundationCommon/Property  (this entity)  
 
 #### Properties
 
@@ -858,7 +843,7 @@ First included in: foundationCommon/Property (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the defaultValueDecimal attribute are listed below.</summary>
+<summary>List of traits for the  defaultValueDecimal  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -889,7 +874,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#baseDynamicPropertyId name="baseDynamicPropertyId">baseDynamicPropertyId</a>
 
 Shows the property in the product family that this property is being inherited from.  
-First included in: foundationCommon/Property (this entity)  
+First included in: foundationCommon/Property  (this entity)  
 
 #### Properties
 
@@ -898,7 +883,7 @@ First included in: foundationCommon/Property (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the baseDynamicPropertyId attribute are listed below.</summary>
+<summary>List of traits for the  baseDynamicPropertyId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -926,15 +911,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10030</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="Property.md" target="_blank">/core/applicationCommon/foundationCommon/Property.cdm.json/Property</a></td><td><a href="Property.md#dynamicPropertyId" target="_blank">dynamicPropertyId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#overwrittenDynamicPropertyId name="overwrittenDynamicPropertyId">overwrittenDynamicPropertyId</a>
 
 Shows the related overwritten property.  
-First included in: foundationCommon/Property (this entity)  
+First included in: foundationCommon/Property  (this entity)  
 
 #### Properties
 
@@ -943,7 +925,7 @@ First included in: foundationCommon/Property (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the overwrittenDynamicPropertyId attribute are listed below.</summary>
+<summary>List of traits for the  overwrittenDynamicPropertyId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -972,7 +954,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#rootDynamicPropertyId name="rootDynamicPropertyId">rootDynamicPropertyId</a>
 
 Shows the root property that this property is derived from.  
-First included in: foundationCommon/Property (this entity)  
+First included in: foundationCommon/Property  (this entity)  
 
 #### Properties
 
@@ -981,7 +963,7 @@ First included in: foundationCommon/Property (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the rootDynamicPropertyId attribute are listed below.</summary>
+<summary>List of traits for the  rootDynamicPropertyId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1010,7 +992,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#minValueDecimal name="minValueDecimal">minValueDecimal</a>
 
 Shows the minimum allowed value of the property for a decimal data type.  
-First included in: foundationCommon/Property (this entity)  
+First included in: foundationCommon/Property  (this entity)  
 
 #### Properties
 
@@ -1019,7 +1001,7 @@ First included in: foundationCommon/Property (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the minValueDecimal attribute are listed below.</summary>
+<summary>List of traits for the  minValueDecimal  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1050,7 +1032,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#maxValueDecimal name="maxValueDecimal">maxValueDecimal</a>
 
 Shows the maximum allowed value of the property for a decimal data type.  
-First included in: foundationCommon/Property (this entity)  
+First included in: foundationCommon/Property  (this entity)  
 
 #### Properties
 
@@ -1059,7 +1041,7 @@ First included in: foundationCommon/Property (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the maxValueDecimal attribute are listed below.</summary>
+<summary>List of traits for the  maxValueDecimal  attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1090,7 +1072,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#precision name="precision">precision</a>
 
 Shows the allowed precision of the property for a whole number data type.  
-First included in: foundationCommon/Property (this entity)  
+First included in: foundationCommon/Property  (this entity)  
 
 #### Properties
 
@@ -1099,7 +1081,7 @@ First included in: foundationCommon/Property (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the precision attribute are listed below.</summary>
+<summary>List of traits for the  precision  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1128,7 +1110,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Shows the state of the property.  
-First included in: foundationCommon/Property (this entity)  
+First included in: foundationCommon/Property  (this entity)  
 
 #### Properties
 
@@ -1137,11 +1119,11 @@ First included in: foundationCommon/Property (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the stateCode attribute are listed below.</summary>
+<summary>List of traits for the  stateCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Draft</td><td>1</td></tr><tr><td>en</td><td>Retired</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Retired</td><td>2</td></tr><tr><td>en</td><td>Draft</td><td>1</td></tr><tr><td>en</td><td>Active</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1171,7 +1153,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: foundationCommon/Property (this entity)  
+First included in: foundationCommon/Property  (this entity)  
 
 #### Properties
 
@@ -1180,7 +1162,7 @@ First included in: foundationCommon/Property (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the stateCode_display attribute are listed below.</summary>
+<summary>List of traits for the  stateCode_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1195,20 +1177,20 @@ First included in: foundationCommon/Property (this entity)
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Shows whether the property is active or inactive.  
-First included in: foundationCommon/Property (this entity)  
+First included in: foundationCommon/Property  (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Shows whether the property is active or inactive.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Draft</td><td>0</td><td>1</td></tr><tr><td>en</td><td>Retired</td><td>2</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Shows whether the property is active or inactive.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Draft</td><td>0</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Retired</td><td>2</td><td>2</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the statusCode attribute are listed below.</summary>
+<summary>List of traits for the  statusCode  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Draft</td><td>0</td><td>1</td></tr><tr><td>en</td><td>Retired</td><td>2</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Draft</td><td>0</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Retired</td><td>2</td><td>2</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1238,7 +1220,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: foundationCommon/Property (this entity)  
+First included in: foundationCommon/Property  (this entity)  
 
 #### Properties
 
@@ -1247,7 +1229,7 @@ First included in: foundationCommon/Property (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the statusCode_display attribute are listed below.</summary>
+<summary>List of traits for the  statusCode_display  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1262,7 +1244,7 @@ First included in: foundationCommon/Property (this entity)
 ### <a href=#regardingObjectId name="regardingObjectId">regardingObjectId</a>
 
 Choose the product that the property is associated with.  
-First included in: foundationCommon/Property (this entity)  
+First included in: foundationCommon/Property  (this entity)  
 
 #### Properties
 
@@ -1271,7 +1253,7 @@ First included in: foundationCommon/Property (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the regardingObjectId attribute are listed below.</summary>
+<summary>List of traits for the  regardingObjectId  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1299,15 +1281,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10040</td><td>integer</td><td></td></tr></table>
 
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="Product.md" target="_blank">/core/applicationCommon/foundationCommon/Product.cdm.json/Product</a></td><td><a href="Product.md#productId" target="_blank">productId</a></td></tr><tr><td><a href="ProductAssociation.md" target="_blank">/core/applicationCommon/foundationCommon/ProductAssociation.cdm.json/ProductAssociation</a></td><td><a href="ProductAssociation.md#productAssociationId" target="_blank">productAssociationId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
 </details>
 
 ### <a href=#defaultValueDouble name="defaultValueDouble">defaultValueDouble</a>
 
 Shows the default value of the property for a double data type.  
-First included in: foundationCommon/Property (this entity)  
+First included in: foundationCommon/Property  (this entity)  
 
 #### Properties
 
@@ -1316,7 +1295,7 @@ First included in: foundationCommon/Property (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the defaultValueDouble attribute are listed below.</summary>
+<summary>List of traits for the  defaultValueDouble  attribute are listed below.</summary>
 
 - **is.dataFormat.floatingPoint**  
 - **is.dataFormat.big**  
@@ -1346,7 +1325,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#minValueDouble name="minValueDouble">minValueDouble</a>
 
 Shows the minimum allowed value of the property for a double data type.  
-First included in: foundationCommon/Property (this entity)  
+First included in: foundationCommon/Property  (this entity)  
 
 #### Properties
 
@@ -1355,7 +1334,7 @@ First included in: foundationCommon/Property (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the minValueDouble attribute are listed below.</summary>
+<summary>List of traits for the  minValueDouble  attribute are listed below.</summary>
 
 - **is.dataFormat.floatingPoint**  
 - **is.dataFormat.big**  
@@ -1385,7 +1364,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#maxValueDouble name="maxValueDouble">maxValueDouble</a>
 
 Shows the maximum allowed value of the property for a double data type.  
-First included in: foundationCommon/Property (this entity)  
+First included in: foundationCommon/Property  (this entity)  
 
 #### Properties
 
@@ -1394,7 +1373,7 @@ First included in: foundationCommon/Property (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the maxValueDouble attribute are listed below.</summary>
+<summary>List of traits for the  maxValueDouble  attribute are listed below.</summary>
 
 - **is.dataFormat.floatingPoint**  
 - **is.dataFormat.big**  
@@ -1424,7 +1403,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#minValueInteger name="minValueInteger">minValueInteger</a>
 
 Shows the minimum allowed value of the property for a whole number data type.  
-First included in: foundationCommon/Property (this entity)  
+First included in: foundationCommon/Property  (this entity)  
 
 #### Properties
 
@@ -1433,7 +1412,7 @@ First included in: foundationCommon/Property (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the minValueInteger attribute are listed below.</summary>
+<summary>List of traits for the  minValueInteger  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1462,7 +1441,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#maxValueInteger name="maxValueInteger">maxValueInteger</a>
 
 Shows the maximum allowed value of the property for a whole number data type.  
-First included in: foundationCommon/Property (this entity)  
+First included in: foundationCommon/Property  (this entity)  
 
 #### Properties
 
@@ -1471,7 +1450,7 @@ First included in: foundationCommon/Property (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the maxValueInteger attribute are listed below.</summary>
+<summary>List of traits for the  maxValueInteger  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1500,7 +1479,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#isReadOnly name="isReadOnly">isReadOnly</a>
 
 Defines whether the attribute is read-only or if it can be edited.  
-First included in: foundationCommon/Property (this entity)  
+First included in: foundationCommon/Property  (this entity)  
 
 #### Properties
 
@@ -1509,7 +1488,7 @@ First included in: foundationCommon/Property (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the isReadOnly attribute are listed below.</summary>
+<summary>List of traits for the  isReadOnly  attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1532,7 +1511,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isHidden name="isHidden">isHidden</a>
 
 Defines whether the attribute is hidden or shown.  
-First included in: foundationCommon/Property (this entity)  
+First included in: foundationCommon/Property  (this entity)  
 
 #### Properties
 
@@ -1541,7 +1520,7 @@ First included in: foundationCommon/Property (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the isHidden attribute are listed below.</summary>
+<summary>List of traits for the  isHidden  attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1564,7 +1543,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isRequired name="isRequired">isRequired</a>
 
 Defines whether the attribute is mandatory.  
-First included in: foundationCommon/Property (this entity)  
+First included in: foundationCommon/Property  (this entity)  
 
 #### Properties
 
@@ -1573,7 +1552,7 @@ First included in: foundationCommon/Property (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the isRequired attribute are listed below.</summary>
+<summary>List of traits for the  isRequired  attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1596,7 +1575,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#maxLengthString name="maxLengthString">maxLengthString</a>
 
 Shows the maximum allowed length of the property for a string data type.  
-First included in: foundationCommon/Property (this entity)  
+First included in: foundationCommon/Property  (this entity)  
 
 #### Properties
 
@@ -1605,7 +1584,7 @@ First included in: foundationCommon/Property (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the maxLengthString attribute are listed below.</summary>
+<summary>List of traits for the  maxLengthString  attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1634,7 +1613,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#defaultValueOptionSet name="defaultValueOptionSet">defaultValueOptionSet</a>
 
 Shows the default value of the property.  
-First included in: foundationCommon/Property (this entity)  
+First included in: foundationCommon/Property  (this entity)  
 
 #### Properties
 
@@ -1643,7 +1622,7 @@ First included in: foundationCommon/Property (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the defaultValueOptionSet attribute are listed below.</summary>
+<summary>List of traits for the  defaultValueOptionSet  attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1670,8 +1649,5 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10053</td><td>integer</td><td></td></tr></table>
-
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="PropertyOptionSetItem.md" target="_blank">/core/applicationCommon/foundationCommon/PropertyOptionSetItem.cdm.json/PropertyOptionSetItem</a></td><td><a href="PropertyOptionSetItem.md#dynamicPropertyOptionSetValueId" target="_blank">dynamicPropertyOptionSetValueId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 </details>
