@@ -19,7 +19,7 @@ Latest version (0.8.1) of the JSON entity definition is available on <a href="ht
 Instances of this entity are listed below.  
 
 /core/applicationCommon/SLAKPIInstance.cdm.json/SLAKPIInstance  
-[service/SLAKPIInstance](foundationCommon/crmCommon/service/SLAKPIInstance.md "/core/applicationCommon/foundationCommon/crmCommon/service/SLAKPIInstance.cdm.json/SLAKPIInstance")  
+[/core/applicationCommon/foundationCommon/crmCommon/service/SLAKPIInstance.cdm.json/SLAKPIInstance](foundationCommon/crmCommon/service/SLAKPIInstance.md "/core/applicationCommon/foundationCommon/crmCommon/service/SLAKPIInstance.cdm.json/SLAKPIInstance")  
 
 ## Traits
 

@@ -18,7 +18,7 @@ Latest version (0.8.1) of the JSON entity definition is available on <a href="ht
 
 Instances of this entity are listed below.  
 
-[applicationCommon/Activity](../../Activity.md "/core/applicationCommon/Activity.cdm.json/Activity")  
+[/core/applicationCommon/Activity.cdm.json/Activity](../../Activity.md "/core/applicationCommon/Activity.cdm.json/Activity")  
 /core/applicationCommon/foundationCommon/crmCommon/Activity.cdm.json/Activity  
 
 ## Traits

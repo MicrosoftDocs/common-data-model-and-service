@@ -19,8 +19,8 @@ Latest version (0.8.1) of the JSON entity definition is available on <a href="ht
 Instances of this entity are listed below.  
 
 /core/applicationCommon/PhoneCall.cdm.json/PhoneCall  
-[crmCommon/PhoneCall](foundationCommon/crmCommon/PhoneCall.md "/core/applicationCommon/foundationCommon/crmCommon/PhoneCall.cdm.json/PhoneCall")  
-[marketing/PhoneCall](foundationCommon/crmCommon/solutions/marketing/PhoneCall.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/PhoneCall.cdm.json/PhoneCall")  
+[/core/applicationCommon/foundationCommon/crmCommon/PhoneCall.cdm.json/PhoneCall](foundationCommon/crmCommon/PhoneCall.md "/core/applicationCommon/foundationCommon/crmCommon/PhoneCall.cdm.json/PhoneCall")  
+[/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/PhoneCall.cdm.json/PhoneCall](foundationCommon/crmCommon/solutions/marketing/PhoneCall.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/PhoneCall.cdm.json/PhoneCall")  
 
 ## Traits
 

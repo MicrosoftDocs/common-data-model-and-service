@@ -19,13 +19,13 @@ Latest version (0.8.1) of the JSON entity definition is available on <a href="ht
 Instances of this entity are listed below.  
 
 /core/applicationCommon/Account.cdm.json/Account  
-[foundationCommon/Account](foundationCommon/Account.md "/core/applicationCommon/foundationCommon/Account.cdm.json/Account")  
-[crmCommon/Account](foundationCommon/crmCommon/Account.md "/core/applicationCommon/foundationCommon/crmCommon/Account.cdm.json/Account")  
-[higherEducation/Account](foundationCommon/crmCommon/accelerators/education/higherEducation/Account.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Account.cdm.json/Account")  
-[electronicMedicalRecords/Account](foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Account.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Account.cdm.json/Account")  
-[nonProfit/Account](foundationCommon/crmCommon/accelerators/nonProfit/Account.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Account.cdm.json/Account")  
-[eventManagement/Account](foundationCommon/crmCommon/solutions/marketing/eventManagement/Account.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Account.cdm.json/Account")  
-[portals/Account](foundationCommon/crmCommon/solutions/portals/Account.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Account.cdm.json/Account")  
+[/core/applicationCommon/foundationCommon/Account.cdm.json/Account](foundationCommon/Account.md "/core/applicationCommon/foundationCommon/Account.cdm.json/Account")  
+[/core/applicationCommon/foundationCommon/crmCommon/Account.cdm.json/Account](foundationCommon/crmCommon/Account.md "/core/applicationCommon/foundationCommon/crmCommon/Account.cdm.json/Account")  
+[/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Account.cdm.json/Account](foundationCommon/crmCommon/accelerators/education/higherEducation/Account.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Account.cdm.json/Account")  
+[/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Account.cdm.json/Account](foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Account.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Account.cdm.json/Account")  
+[/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Account.cdm.json/Account](foundationCommon/crmCommon/accelerators/nonProfit/Account.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Account.cdm.json/Account")  
+[/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Account.cdm.json/Account](foundationCommon/crmCommon/solutions/marketing/eventManagement/Account.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Account.cdm.json/Account")  
+[/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Account.cdm.json/Account](foundationCommon/crmCommon/solutions/portals/Account.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Account.cdm.json/Account")  
 
 ## Traits
 

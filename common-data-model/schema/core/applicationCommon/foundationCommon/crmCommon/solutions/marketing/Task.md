@@ -18,9 +18,9 @@ Latest version (0.8.1) of the JSON entity definition is available on <a href="ht
 
 Instances of this entity are listed below.  
 
-[applicationCommon/Task](../../../../Task.md "/core/applicationCommon/Task.cdm.json/Task")  
-[electronicMedicalRecords/Task](../../accelerators/healthCare/electronicMedicalRecords/Task.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.cdm.json/Task")  
-[service/Task](../../service/Task.md "/core/applicationCommon/foundationCommon/crmCommon/service/Task.cdm.json/Task")  
+[/core/applicationCommon/Task.cdm.json/Task](../../../../Task.md "/core/applicationCommon/Task.cdm.json/Task")  
+[/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.cdm.json/Task](../../accelerators/healthCare/electronicMedicalRecords/Task.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.cdm.json/Task")  
+[/core/applicationCommon/foundationCommon/crmCommon/service/Task.cdm.json/Task](../../service/Task.md "/core/applicationCommon/foundationCommon/crmCommon/service/Task.cdm.json/Task")  
 /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Task.cdm.json/Task  
 
 ## Traits

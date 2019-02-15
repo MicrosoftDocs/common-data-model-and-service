@@ -19,7 +19,7 @@ Latest version (0.8.1) of the JSON entity definition is available on <a href="ht
 Instances of this entity are listed below.  
 
 /core/applicationCommon/foundationCommon/PropertyInstance.cdm.json/PropertyInstance  
-[sales/PropertyInstance](crmCommon/sales/PropertyInstance.md "/core/applicationCommon/foundationCommon/crmCommon/sales/PropertyInstance.cdm.json/PropertyInstance")  
+[/core/applicationCommon/foundationCommon/crmCommon/sales/PropertyInstance.cdm.json/PropertyInstance](crmCommon/sales/PropertyInstance.md "/core/applicationCommon/foundationCommon/crmCommon/sales/PropertyInstance.cdm.json/PropertyInstance")  
 
 ## Traits
 

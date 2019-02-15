@@ -18,7 +18,7 @@ Latest version (0.8.1) of the JSON entity definition is available on <a href="ht
 
 Instances of this entity are listed below.  
 
-[applicationCommon/Letter](../../Letter.md "/core/applicationCommon/Letter.cdm.json/Letter")  
+[/core/applicationCommon/Letter.cdm.json/Letter](../../Letter.md "/core/applicationCommon/Letter.cdm.json/Letter")  
 /core/applicationCommon/foundationCommon/crmCommon/Letter.cdm.json/Letter  
 
 ## Traits

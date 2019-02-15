@@ -18,7 +18,7 @@ Latest version (0.8.1) of the JSON entity definition is available on <a href="ht
 
 Instances of this entity are listed below.  
 
-[foundationCommon/Product](../../../../Product.md "/core/applicationCommon/foundationCommon/Product.cdm.json/Product")  
+[/core/applicationCommon/foundationCommon/Product.cdm.json/Product](../../../../Product.md "/core/applicationCommon/foundationCommon/Product.cdm.json/Product")  
 /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Product.cdm.json/Product  
 
 ## Traits

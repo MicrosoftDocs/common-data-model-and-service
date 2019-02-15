@@ -19,7 +19,7 @@ Latest version (0.8.1) of the JSON entity definition is available on <a href="ht
 Instances of this entity are listed below.  
 
 /core/applicationCommon/Article.cdm.json/Article  
-[portals/Article](foundationCommon/crmCommon/solutions/portals/Article.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Article.cdm.json/Article")  
+[/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Article.cdm.json/Article](foundationCommon/crmCommon/solutions/portals/Article.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Article.cdm.json/Article")  
 
 ## Traits
 

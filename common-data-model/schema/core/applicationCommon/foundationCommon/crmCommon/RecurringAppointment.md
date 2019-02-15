@@ -18,7 +18,7 @@ Latest version (0.8.1) of the JSON entity definition is available on <a href="ht
 
 Instances of this entity are listed below.  
 
-[applicationCommon/RecurringAppointment](../../RecurringAppointment.md "/core/applicationCommon/RecurringAppointment.cdm.json/RecurringAppointment")  
+[/core/applicationCommon/RecurringAppointment.cdm.json/RecurringAppointment](../../RecurringAppointment.md "/core/applicationCommon/RecurringAppointment.cdm.json/RecurringAppointment")  
 /core/applicationCommon/foundationCommon/crmCommon/RecurringAppointment.cdm.json/RecurringAppointment  
 
 ## Traits

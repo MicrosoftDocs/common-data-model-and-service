@@ -18,7 +18,7 @@ Latest version (0.8.1) of the JSON entity definition is available on <a href="ht
 
 Instances of this entity are listed below.  
 
-[applicationCommon/Connection](../../../../Connection.md "/core/applicationCommon/Connection.cdm.json/Connection")  
+[/core/applicationCommon/Connection.cdm.json/Connection](../../../../Connection.md "/core/applicationCommon/Connection.cdm.json/Connection")  
 /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Connection.cdm.json/Connection  
 
 ## Traits
