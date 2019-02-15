@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/13/2019
+ms.date: 2/15/2019
 ms.author: tpalmer
 ---
 
@@ -12,13 +12,13 @@ ms.author: tpalmer
 
 Item in the sales literature collection.  
   
-Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/SalesAttachment.cdm.json" target="_blank">GitHub</a>.  
+Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/SalesAttachment.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
-Instances of this entity are listed below:  
+Instances of this entity are listed below.  
 
-sales/SalesAttachment  
+/core/applicationCommon/foundationCommon/crmCommon/sales/SalesAttachment.cdm.json/SalesAttachment  
 
 ## Traits
 
@@ -81,7 +81,7 @@ sales/SalesAttachment
 ### <a href=#salesLiteratureItemId name="salesLiteratureItemId">salesLiteratureItemId</a>
 
 Unique identifier for the document.  
-First included in: sales/SalesAttachment  (this entity)  
+First included in: sales/SalesAttachment (this entity)  
 
 #### Properties
 
@@ -90,7 +90,7 @@ First included in: sales/SalesAttachment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  salesLiteratureItemId  attribute are listed below.</summary>
+<summary>List of traits for the salesLiteratureItemId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -120,7 +120,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the document was created.  
-First included in: sales/SalesAttachment  (this entity)  
+First included in: sales/SalesAttachment (this entity)  
 
 #### Properties
 
@@ -129,7 +129,7 @@ First included in: sales/SalesAttachment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOn  attribute are listed below.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -159,7 +159,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Unique identifier of the user who created the document.  
-First included in: sales/SalesAttachment  (this entity)  
+First included in: sales/SalesAttachment (this entity)  
 
 #### Properties
 
@@ -168,7 +168,7 @@ First included in: sales/SalesAttachment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdBy  attribute are listed below.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -201,7 +201,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the document was last modified.  
-First included in: sales/SalesAttachment  (this entity)  
+First included in: sales/SalesAttachment (this entity)  
 
 #### Properties
 
@@ -210,7 +210,7 @@ First included in: sales/SalesAttachment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -240,7 +240,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Unique identifier of the user who last modified the document.  
-First included in: sales/SalesAttachment  (this entity)  
+First included in: sales/SalesAttachment (this entity)  
 
 #### Properties
 
@@ -249,7 +249,7 @@ First included in: sales/SalesAttachment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -282,7 +282,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Unique identifier of the delegate user who created the salesliteratureitem.  
-First included in: sales/SalesAttachment  (this entity)  
+First included in: sales/SalesAttachment (this entity)  
 
 #### Properties
 
@@ -291,7 +291,7 @@ First included in: sales/SalesAttachment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -324,7 +324,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Unique identifier of the delegate user who last modified the salesliteratureitem.  
-First included in: sales/SalesAttachment  (this entity)  
+First included in: sales/SalesAttachment (this entity)  
 
 #### Properties
 
@@ -333,7 +333,7 @@ First included in: sales/SalesAttachment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -366,7 +366,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: sales/SalesAttachment  (this entity)  
+First included in: sales/SalesAttachment (this entity)  
 
 #### Properties
 
@@ -375,7 +375,7 @@ First included in: sales/SalesAttachment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -402,7 +402,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: sales/SalesAttachment  (this entity)  
+First included in: sales/SalesAttachment (this entity)  
 
 #### Properties
 
@@ -411,7 +411,7 @@ First included in: sales/SalesAttachment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -440,7 +440,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: sales/SalesAttachment  (this entity)  
+First included in: sales/SalesAttachment (this entity)  
 
 #### Properties
 
@@ -449,7 +449,7 @@ First included in: sales/SalesAttachment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -479,7 +479,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: sales/SalesAttachment  (this entity)  
+First included in: sales/SalesAttachment (this entity)  
 
 #### Properties
 
@@ -488,7 +488,7 @@ First included in: sales/SalesAttachment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  timeZoneRuleVersionNumber  attribute are listed below.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -517,7 +517,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: sales/SalesAttachment  (this entity)  
+First included in: sales/SalesAttachment (this entity)  
 
 #### Properties
 
@@ -526,7 +526,7 @@ First included in: sales/SalesAttachment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  UTCConversionTimeZoneCode  attribute are listed below.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -555,7 +555,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#title name="title">title</a>
 
 Type the title or name that describes the document.  
-First included in: sales/SalesAttachment  (this entity)  
+First included in: sales/SalesAttachment (this entity)  
 
 #### Properties
 
@@ -564,7 +564,7 @@ First included in: sales/SalesAttachment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  title  attribute are listed below.</summary>
+<summary>List of traits for the title attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -595,7 +595,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#abstract name="abstract">abstract</a>
 
 Abstract of the document.  
-First included in: sales/SalesAttachment  (this entity)  
+First included in: sales/SalesAttachment (this entity)  
 
 #### Properties
 
@@ -604,7 +604,7 @@ First included in: sales/SalesAttachment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  abstract  attribute are listed below.</summary>
+<summary>List of traits for the abstract attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -635,7 +635,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#attachedDocumentUrl name="attachedDocumentUrl">attachedDocumentUrl</a>
 
 URL of the Website on which the document is located.  
-First included in: sales/SalesAttachment  (this entity)  
+First included in: sales/SalesAttachment (this entity)  
 
 #### Properties
 
@@ -644,7 +644,7 @@ First included in: sales/SalesAttachment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  attachedDocumentUrl  attribute are listed below.</summary>
+<summary>List of traits for the attachedDocumentUrl attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -676,7 +676,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#authorName name="authorName">authorName</a>
 
 Author name for the document.  
-First included in: sales/SalesAttachment  (this entity)  
+First included in: sales/SalesAttachment (this entity)  
 
 #### Properties
 
@@ -685,7 +685,7 @@ First included in: sales/SalesAttachment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  authorName  attribute are listed below.</summary>
+<summary>List of traits for the authorName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -717,7 +717,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#documentBody name="documentBody">documentBody</a>
 
 Shows the encoded contents of the sales literature document attachment.  
-First included in: sales/SalesAttachment  (this entity)  
+First included in: sales/SalesAttachment (this entity)  
 
 #### Properties
 
@@ -726,7 +726,7 @@ First included in: sales/SalesAttachment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  documentBody  attribute are listed below.</summary>
+<summary>List of traits for the documentBody attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -754,7 +754,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#fileName name="fileName">fileName</a>
 
 File name of the document.  
-First included in: sales/SalesAttachment  (this entity)  
+First included in: sales/SalesAttachment (this entity)  
 
 #### Properties
 
@@ -763,7 +763,7 @@ First included in: sales/SalesAttachment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  fileName  attribute are listed below.</summary>
+<summary>List of traits for the fileName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -795,7 +795,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#fileSize name="fileSize">fileSize</a>
 
 File size of the document.  
-First included in: sales/SalesAttachment  (this entity)  
+First included in: sales/SalesAttachment (this entity)  
 
 #### Properties
 
@@ -804,7 +804,7 @@ First included in: sales/SalesAttachment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  fileSize  attribute are listed below.</summary>
+<summary>List of traits for the fileSize attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -833,7 +833,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#fileTypeCode name="fileTypeCode">fileTypeCode</a>
 
 Select the file type of the document.  
-First included in: sales/SalesAttachment  (this entity)  
+First included in: sales/SalesAttachment (this entity)  
 
 #### Properties
 
@@ -842,7 +842,7 @@ First included in: sales/SalesAttachment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  fileTypeCode  attribute are listed below.</summary>
+<summary>List of traits for the fileTypeCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -873,7 +873,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#fileTypeCode_display name="fileTypeCode_display">fileTypeCode_display</a>
 
-First included in: sales/SalesAttachment  (this entity)  
+First included in: sales/SalesAttachment (this entity)  
 
 #### Properties
 
@@ -882,7 +882,7 @@ First included in: sales/SalesAttachment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  fileTypeCode_display  attribute are listed below.</summary>
+<summary>List of traits for the fileTypeCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -897,7 +897,7 @@ First included in: sales/SalesAttachment  (this entity)
 ### <a href=#isCustomerViewable name="isCustomerViewable">isCustomerViewable</a>
 
 Tells whether the document can be shared with customers or is for internal use only.  
-First included in: sales/SalesAttachment  (this entity)  
+First included in: sales/SalesAttachment (this entity)  
 
 #### Properties
 
@@ -906,7 +906,7 @@ First included in: sales/SalesAttachment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  isCustomerViewable  attribute are listed below.</summary>
+<summary>List of traits for the isCustomerViewable attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -932,7 +932,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#keyWords name="keyWords">keyWords</a>
 
 Keywords to use for searches in documents.  
-First included in: sales/SalesAttachment  (this entity)  
+First included in: sales/SalesAttachment (this entity)  
 
 #### Properties
 
@@ -941,7 +941,7 @@ First included in: sales/SalesAttachment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  keyWords  attribute are listed below.</summary>
+<summary>List of traits for the keyWords attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -972,7 +972,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#mimeType name="mimeType">mimeType</a>
 
 Shows the file type of the sales literature document attachment, such as text or document.  
-First included in: sales/SalesAttachment  (this entity)  
+First included in: sales/SalesAttachment (this entity)  
 
 #### Properties
 
@@ -981,7 +981,7 @@ First included in: sales/SalesAttachment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  mimeType  attribute are listed below.</summary>
+<summary>List of traits for the mimeType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1012,7 +1012,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#organizationId name="organizationId">organizationId</a>
 
 Unique identifier of the organization associated with the document.  
-First included in: sales/SalesAttachment  (this entity)  
+First included in: sales/SalesAttachment (this entity)  
 
 #### Properties
 
@@ -1021,7 +1021,7 @@ First included in: sales/SalesAttachment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  organizationId  attribute are listed below.</summary>
+<summary>List of traits for the organizationId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1047,7 +1047,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#salesLiteratureId name="salesLiteratureId">salesLiteratureId</a>
 
 Unique identifier of the sales literature that is associated with the individual item.  
-First included in: sales/SalesAttachment  (this entity)  
+First included in: sales/SalesAttachment (this entity)  
 
 #### Properties
 
@@ -1056,7 +1056,7 @@ First included in: sales/SalesAttachment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  salesLiteratureId  attribute are listed below.</summary>
+<summary>List of traits for the salesLiteratureId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1086,7 +1086,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#mode name="mode">mode</a>
 
 Defines the mode of the sales literature document attachment.  
-First included in: sales/SalesAttachment  (this entity)  
+First included in: sales/SalesAttachment (this entity)  
 
 #### Properties
 
@@ -1095,7 +1095,7 @@ First included in: sales/SalesAttachment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  mode  attribute are listed below.</summary>
+<summary>List of traits for the mode attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  

@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/13/2019
+ms.date: 2/15/2019
 ms.author: tpalmer
 ---
 
@@ -12,14 +12,14 @@ ms.author: tpalmer
 
 Instance of a property with its value.  
   
-Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/PropertyInstance.cdm.json" target="_blank">GitHub</a>.  
+Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/PropertyInstance.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
-Instances of this entity are listed below:  
+Instances of this entity are listed below.  
 
 [foundationCommon/PropertyInstance](../../PropertyInstance.md "/core/applicationCommon/foundationCommon/PropertyInstance.cdm.json/PropertyInstance")  
-sales/PropertyInstance  
+/core/applicationCommon/foundationCommon/crmCommon/sales/PropertyInstance.cdm.json/PropertyInstance  
 
 ## Traits
 
@@ -89,7 +89,7 @@ First included in: <a href="../../PropertyInstance.md" target="_blank">foundatio
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOn  attribute are listed below.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -128,7 +128,7 @@ First included in: <a href="../../PropertyInstance.md" target="_blank">foundatio
 #### Traits
 
 <details>
-<summary>List of traits for the  createdBy  attribute are listed below.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -173,7 +173,7 @@ First included in: <a href="../../PropertyInstance.md" target="_blank">foundatio
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -212,7 +212,7 @@ First included in: <a href="../../PropertyInstance.md" target="_blank">foundatio
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -257,7 +257,7 @@ First included in: <a href="../../PropertyInstance.md" target="_blank">foundatio
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -302,7 +302,7 @@ First included in: <a href="../../PropertyInstance.md" target="_blank">foundatio
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -347,7 +347,7 @@ First included in: <a href="../../PropertyInstance.md" target="_blank">foundatio
 #### Traits
 
 <details>
-<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -386,7 +386,7 @@ First included in: <a href="../../PropertyInstance.md" target="_blank">foundatio
 #### Traits
 
 <details>
-<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -421,7 +421,7 @@ First included in: <a href="../../PropertyInstance.md" target="_blank">foundatio
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerIdType  attribute are listed below.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -460,7 +460,7 @@ First included in: <a href="../../PropertyInstance.md" target="_blank">foundatio
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerId  attribute are listed below.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -505,7 +505,7 @@ First included in: <a href="../../PropertyInstance.md" target="_blank">foundatio
 #### Traits
 
 <details>
-<summary>List of traits for the  owningBusinessUnit  attribute are listed below.</summary>
+<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -547,7 +547,7 @@ First included in: <a href="../../PropertyInstance.md" target="_blank">foundatio
 #### Traits
 
 <details>
-<summary>List of traits for the  owningUser  attribute are listed below.</summary>
+<summary>List of traits for the owningUser attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -592,7 +592,7 @@ First included in: <a href="../../PropertyInstance.md" target="_blank">foundatio
 #### Traits
 
 <details>
-<summary>List of traits for the  owningTeam  attribute are listed below.</summary>
+<summary>List of traits for the owningTeam attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -634,7 +634,7 @@ First included in: <a href="../../PropertyInstance.md" target="_blank">foundatio
 #### Traits
 
 <details>
-<summary>List of traits for the  timeZoneRuleVersionNumber  attribute are listed below.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -672,7 +672,7 @@ First included in: <a href="../../PropertyInstance.md" target="_blank">foundatio
 #### Traits
 
 <details>
-<summary>List of traits for the  UTCConversionTimeZoneCode  attribute are listed below.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -710,7 +710,7 @@ First included in: <a href="../../PropertyInstance.md" target="_blank">foundatio
 #### Traits
 
 <details>
-<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -747,7 +747,7 @@ First included in: <a href="../../PropertyInstance.md" target="_blank">foundatio
 #### Traits
 
 <details>
-<summary>List of traits for the  dynamicPropertyInstanceIdType  attribute are listed below.</summary>
+<summary>List of traits for the dynamicPropertyInstanceIdType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -780,7 +780,7 @@ First included in: <a href="../../PropertyInstance.md" target="_blank">foundatio
 #### Traits
 
 <details>
-<summary>List of traits for the  dynamicPropertyInstanceid  attribute are listed below.</summary>
+<summary>List of traits for the dynamicPropertyInstanceid attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -822,7 +822,7 @@ First included in: <a href="../../PropertyInstance.md" target="_blank">foundatio
 #### Traits
 
 <details>
-<summary>List of traits for the  name  attribute are listed below.</summary>
+<summary>List of traits for the name attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -863,7 +863,7 @@ First included in: <a href="../../PropertyInstance.md" target="_blank">foundatio
 #### Traits
 
 <details>
-<summary>List of traits for the  valueInteger  attribute are listed below.</summary>
+<summary>List of traits for the valueInteger attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -901,7 +901,7 @@ First included in: <a href="../../PropertyInstance.md" target="_blank">foundatio
 #### Traits
 
 <details>
-<summary>List of traits for the  valueDecimal  attribute are listed below.</summary>
+<summary>List of traits for the valueDecimal attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -941,7 +941,7 @@ First included in: <a href="../../PropertyInstance.md" target="_blank">foundatio
 #### Traits
 
 <details>
-<summary>List of traits for the  valueDouble  attribute are listed below.</summary>
+<summary>List of traits for the valueDouble attribute are listed below.</summary>
 
 - **is.dataFormat.floatingPoint**  
 - **is.dataFormat.big**  
@@ -980,7 +980,7 @@ First included in: <a href="../../PropertyInstance.md" target="_blank">foundatio
 #### Traits
 
 <details>
-<summary>List of traits for the  valueString  attribute are listed below.</summary>
+<summary>List of traits for the valueString attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1020,7 +1020,7 @@ First included in: <a href="../../PropertyInstance.md" target="_blank">foundatio
 #### Traits
 
 <details>
-<summary>List of traits for the  dynamicPropertyId  attribute are listed below.</summary>
+<summary>List of traits for the dynamicPropertyId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1059,7 +1059,7 @@ First included in: <a href="../../PropertyInstance.md" target="_blank">foundatio
 #### Traits
 
 <details>
-<summary>List of traits for the  isValid  attribute are listed below.</summary>
+<summary>List of traits for the isValid attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1094,7 +1094,7 @@ First included in: <a href="../../PropertyInstance.md" target="_blank">foundatio
 #### Traits
 
 <details>
-<summary>List of traits for the  transactionCurrencyId  attribute are listed below.</summary>
+<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1136,7 +1136,7 @@ First included in: <a href="../../PropertyInstance.md" target="_blank">foundatio
 #### Traits
 
 <details>
-<summary>List of traits for the  exchangeRate  attribute are listed below.</summary>
+<summary>List of traits for the exchangeRate attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1167,7 +1167,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#regardingObjectId name="regardingObjectId">regardingObjectId</a>
 
 Shows the object that the property is associated with.  
-First included in: sales/PropertyInstance  (this entity)  
+First included in: sales/PropertyInstance (this entity)  
 
 #### Properties
 
@@ -1176,7 +1176,7 @@ First included in: sales/PropertyInstance  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  regardingObjectId  attribute are listed below.</summary>
+<summary>List of traits for the regardingObjectId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  

@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/13/2019
+ms.date: 2/15/2019
 ms.author: tpalmer
 ---
 
@@ -12,13 +12,13 @@ ms.author: tpalmer
 
 Additional addresses for a competitor. The first two addresses are stored in the competitor object.  
   
-Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/CompetitorAddress.cdm.json" target="_blank">GitHub</a>.  
+Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/CompetitorAddress.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
-Instances of this entity are listed below:  
+Instances of this entity are listed below.  
 
-sales/CompetitorAddress  
+/core/applicationCommon/foundationCommon/crmCommon/sales/CompetitorAddress.cdm.json/CompetitorAddress  
 
 ## Traits
 
@@ -91,7 +91,7 @@ sales/CompetitorAddress
 ### <a href=#competitorAddressId name="competitorAddressId">competitorAddressId</a>
 
 Unique identifier of the competitor address.  
-First included in: sales/CompetitorAddress  (this entity)  
+First included in: sales/CompetitorAddress (this entity)  
 
 #### Properties
 
@@ -100,7 +100,7 @@ First included in: sales/CompetitorAddress  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  competitorAddressId  attribute are listed below.</summary>
+<summary>List of traits for the competitorAddressId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -130,7 +130,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the competitor address was created.  
-First included in: sales/CompetitorAddress  (this entity)  
+First included in: sales/CompetitorAddress (this entity)  
 
 #### Properties
 
@@ -139,7 +139,7 @@ First included in: sales/CompetitorAddress  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOn  attribute are listed below.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -169,7 +169,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Unique identifier of the user who created the competitor address.  
-First included in: sales/CompetitorAddress  (this entity)  
+First included in: sales/CompetitorAddress (this entity)  
 
 #### Properties
 
@@ -178,7 +178,7 @@ First included in: sales/CompetitorAddress  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdBy  attribute are listed below.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -211,7 +211,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the competitor address was last modified.  
-First included in: sales/CompetitorAddress  (this entity)  
+First included in: sales/CompetitorAddress (this entity)  
 
 #### Properties
 
@@ -220,7 +220,7 @@ First included in: sales/CompetitorAddress  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -250,7 +250,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Unique identifier of the user who last modified the competitor address.  
-First included in: sales/CompetitorAddress  (this entity)  
+First included in: sales/CompetitorAddress (this entity)  
 
 #### Properties
 
@@ -259,7 +259,7 @@ First included in: sales/CompetitorAddress  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -292,7 +292,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Unique identifier of the delegate user who created the competitor address.  
-First included in: sales/CompetitorAddress  (this entity)  
+First included in: sales/CompetitorAddress (this entity)  
 
 #### Properties
 
@@ -301,7 +301,7 @@ First included in: sales/CompetitorAddress  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -334,7 +334,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Unique identifier of the delegate user who last modified the competitor address.  
-First included in: sales/CompetitorAddress  (this entity)  
+First included in: sales/CompetitorAddress (this entity)  
 
 #### Properties
 
@@ -343,7 +343,7 @@ First included in: sales/CompetitorAddress  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -376,7 +376,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: sales/CompetitorAddress  (this entity)  
+First included in: sales/CompetitorAddress (this entity)  
 
 #### Properties
 
@@ -385,7 +385,7 @@ First included in: sales/CompetitorAddress  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -412,7 +412,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: sales/CompetitorAddress  (this entity)  
+First included in: sales/CompetitorAddress (this entity)  
 
 #### Properties
 
@@ -421,7 +421,7 @@ First included in: sales/CompetitorAddress  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -450,7 +450,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: sales/CompetitorAddress  (this entity)  
+First included in: sales/CompetitorAddress (this entity)  
 
 #### Properties
 
@@ -459,7 +459,7 @@ First included in: sales/CompetitorAddress  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -489,7 +489,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: sales/CompetitorAddress  (this entity)  
+First included in: sales/CompetitorAddress (this entity)  
 
 #### Properties
 
@@ -498,7 +498,7 @@ First included in: sales/CompetitorAddress  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  timeZoneRuleVersionNumber  attribute are listed below.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -527,7 +527,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: sales/CompetitorAddress  (this entity)  
+First included in: sales/CompetitorAddress (this entity)  
 
 #### Properties
 
@@ -536,7 +536,7 @@ First included in: sales/CompetitorAddress  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  UTCConversionTimeZoneCode  attribute are listed below.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -565,7 +565,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#name name="name">name</a>
 
 Name used to identify the competitor address.  
-First included in: sales/CompetitorAddress  (this entity)  
+First included in: sales/CompetitorAddress (this entity)  
 
 #### Properties
 
@@ -574,7 +574,7 @@ First included in: sales/CompetitorAddress  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  name  attribute are listed below.</summary>
+<summary>List of traits for the name attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -606,7 +606,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#addressNumber name="addressNumber">addressNumber</a>
 
 Information about which competitor address is applicable.  
-First included in: sales/CompetitorAddress  (this entity)  
+First included in: sales/CompetitorAddress (this entity)  
 
 #### Properties
 
@@ -615,7 +615,7 @@ First included in: sales/CompetitorAddress  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  addressNumber  attribute are listed below.</summary>
+<summary>List of traits for the addressNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -644,7 +644,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#addressTypeCode name="addressTypeCode">addressTypeCode</a>
 
 Type of address for the competitor, such as primary address.  
-First included in: sales/CompetitorAddress  (this entity)  
+First included in: sales/CompetitorAddress (this entity)  
 
 #### Properties
 
@@ -653,7 +653,7 @@ First included in: sales/CompetitorAddress  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  addressTypeCode  attribute are listed below.</summary>
+<summary>List of traits for the addressTypeCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -684,7 +684,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#addressTypeCode_display name="addressTypeCode_display">addressTypeCode_display</a>
 
-First included in: sales/CompetitorAddress  (this entity)  
+First included in: sales/CompetitorAddress (this entity)  
 
 #### Properties
 
@@ -693,7 +693,7 @@ First included in: sales/CompetitorAddress  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  addressTypeCode_display  attribute are listed below.</summary>
+<summary>List of traits for the addressTypeCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -708,7 +708,7 @@ First included in: sales/CompetitorAddress  (this entity)
 ### <a href=#city name="city">city</a>
 
 City name in the competitor address.  
-First included in: sales/CompetitorAddress  (this entity)  
+First included in: sales/CompetitorAddress (this entity)  
 
 #### Properties
 
@@ -717,7 +717,7 @@ First included in: sales/CompetitorAddress  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  city  attribute are listed below.</summary>
+<summary>List of traits for the city attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -748,7 +748,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#composite name="composite">composite</a>
 
 Shows the complete address.  
-First included in: sales/CompetitorAddress  (this entity)  
+First included in: sales/CompetitorAddress (this entity)  
 
 #### Properties
 
@@ -757,7 +757,7 @@ First included in: sales/CompetitorAddress  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  composite  attribute are listed below.</summary>
+<summary>List of traits for the composite attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -788,7 +788,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#country name="country">country</a>
 
 Country/region name in the competitor address.  
-First included in: sales/CompetitorAddress  (this entity)  
+First included in: sales/CompetitorAddress (this entity)  
 
 #### Properties
 
@@ -797,7 +797,7 @@ First included in: sales/CompetitorAddress  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  country  attribute are listed below.</summary>
+<summary>List of traits for the country attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -828,7 +828,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#county name="county">county</a>
 
 County name in the competitor address.  
-First included in: sales/CompetitorAddress  (this entity)  
+First included in: sales/CompetitorAddress (this entity)  
 
 #### Properties
 
@@ -837,7 +837,7 @@ First included in: sales/CompetitorAddress  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  county  attribute are listed below.</summary>
+<summary>List of traits for the county attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -868,7 +868,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#fax name="fax">fax</a>
 
 Fax number for the competitor address.  
-First included in: sales/CompetitorAddress  (this entity)  
+First included in: sales/CompetitorAddress (this entity)  
 
 #### Properties
 
@@ -877,7 +877,7 @@ First included in: sales/CompetitorAddress  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  fax  attribute are listed below.</summary>
+<summary>List of traits for the fax attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -908,7 +908,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#latitude name="latitude">latitude</a>
 
 Latitude for the competitor address.  
-First included in: sales/CompetitorAddress  (this entity)  
+First included in: sales/CompetitorAddress (this entity)  
 
 #### Properties
 
@@ -917,7 +917,7 @@ First included in: sales/CompetitorAddress  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  latitude  attribute are listed below.</summary>
+<summary>List of traits for the latitude attribute are listed below.</summary>
 
 - **is.dataFormat.floatingPoint**  
 - **is.dataFormat.big**  
@@ -947,7 +947,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#line1 name="line1">line1</a>
 
 First line for entering address information.  
-First included in: sales/CompetitorAddress  (this entity)  
+First included in: sales/CompetitorAddress (this entity)  
 
 #### Properties
 
@@ -956,7 +956,7 @@ First included in: sales/CompetitorAddress  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  line1  attribute are listed below.</summary>
+<summary>List of traits for the line1 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -987,7 +987,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#line2 name="line2">line2</a>
 
 Second line for entering address information.  
-First included in: sales/CompetitorAddress  (this entity)  
+First included in: sales/CompetitorAddress (this entity)  
 
 #### Properties
 
@@ -996,7 +996,7 @@ First included in: sales/CompetitorAddress  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  line2  attribute are listed below.</summary>
+<summary>List of traits for the line2 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1027,7 +1027,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#line3 name="line3">line3</a>
 
 Third line for entering address information.  
-First included in: sales/CompetitorAddress  (this entity)  
+First included in: sales/CompetitorAddress (this entity)  
 
 #### Properties
 
@@ -1036,7 +1036,7 @@ First included in: sales/CompetitorAddress  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  line3  attribute are listed below.</summary>
+<summary>List of traits for the line3 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1067,7 +1067,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#longitude name="longitude">longitude</a>
 
 Longitude for the address for the competitor.  
-First included in: sales/CompetitorAddress  (this entity)  
+First included in: sales/CompetitorAddress (this entity)  
 
 #### Properties
 
@@ -1076,7 +1076,7 @@ First included in: sales/CompetitorAddress  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  longitude  attribute are listed below.</summary>
+<summary>List of traits for the longitude attribute are listed below.</summary>
 
 - **is.dataFormat.floatingPoint**  
 - **is.dataFormat.big**  
@@ -1106,7 +1106,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#parentId name="parentId">parentId</a>
 
 Unique identifier of the parent object with which the competitor address is associated.  
-First included in: sales/CompetitorAddress  (this entity)  
+First included in: sales/CompetitorAddress (this entity)  
 
 #### Properties
 
@@ -1115,7 +1115,7 @@ First included in: sales/CompetitorAddress  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  parentId  attribute are listed below.</summary>
+<summary>List of traits for the parentId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1145,7 +1145,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#postalCode name="postalCode">postalCode</a>
 
 ZIP Code or postal code in the competitor address.  
-First included in: sales/CompetitorAddress  (this entity)  
+First included in: sales/CompetitorAddress (this entity)  
 
 #### Properties
 
@@ -1154,7 +1154,7 @@ First included in: sales/CompetitorAddress  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  postalCode  attribute are listed below.</summary>
+<summary>List of traits for the postalCode attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1185,7 +1185,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#postOfficeBox name="postOfficeBox">postOfficeBox</a>
 
 Post office box number in the competitor address.  
-First included in: sales/CompetitorAddress  (this entity)  
+First included in: sales/CompetitorAddress (this entity)  
 
 #### Properties
 
@@ -1194,7 +1194,7 @@ First included in: sales/CompetitorAddress  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  postOfficeBox  attribute are listed below.</summary>
+<summary>List of traits for the postOfficeBox attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1225,7 +1225,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#shippingMethodCode name="shippingMethodCode">shippingMethodCode</a>
 
 Method of shipment for the competitor.  
-First included in: sales/CompetitorAddress  (this entity)  
+First included in: sales/CompetitorAddress (this entity)  
 
 #### Properties
 
@@ -1234,7 +1234,7 @@ First included in: sales/CompetitorAddress  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  shippingMethodCode  attribute are listed below.</summary>
+<summary>List of traits for the shippingMethodCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -1265,7 +1265,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#shippingMethodCode_display name="shippingMethodCode_display">shippingMethodCode_display</a>
 
-First included in: sales/CompetitorAddress  (this entity)  
+First included in: sales/CompetitorAddress (this entity)  
 
 #### Properties
 
@@ -1274,7 +1274,7 @@ First included in: sales/CompetitorAddress  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  shippingMethodCode_display  attribute are listed below.</summary>
+<summary>List of traits for the shippingMethodCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1289,7 +1289,7 @@ First included in: sales/CompetitorAddress  (this entity)
 ### <a href=#stateOrProvince name="stateOrProvince">stateOrProvince</a>
 
 State or province in the competitor address.  
-First included in: sales/CompetitorAddress  (this entity)  
+First included in: sales/CompetitorAddress (this entity)  
 
 #### Properties
 
@@ -1298,7 +1298,7 @@ First included in: sales/CompetitorAddress  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  stateOrProvince  attribute are listed below.</summary>
+<summary>List of traits for the stateOrProvince attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1329,7 +1329,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#telephone1 name="telephone1">telephone1</a>
 
 First telephone number for the competitor address.  
-First included in: sales/CompetitorAddress  (this entity)  
+First included in: sales/CompetitorAddress (this entity)  
 
 #### Properties
 
@@ -1338,7 +1338,7 @@ First included in: sales/CompetitorAddress  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  telephone1  attribute are listed below.</summary>
+<summary>List of traits for the telephone1 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1370,7 +1370,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#telephone2 name="telephone2">telephone2</a>
 
 Second telephone number for the competitor address.  
-First included in: sales/CompetitorAddress  (this entity)  
+First included in: sales/CompetitorAddress (this entity)  
 
 #### Properties
 
@@ -1379,7 +1379,7 @@ First included in: sales/CompetitorAddress  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  telephone2  attribute are listed below.</summary>
+<summary>List of traits for the telephone2 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1411,7 +1411,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#telephone3 name="telephone3">telephone3</a>
 
 Third telephone number for the competitor address.  
-First included in: sales/CompetitorAddress  (this entity)  
+First included in: sales/CompetitorAddress (this entity)  
 
 #### Properties
 
@@ -1420,7 +1420,7 @@ First included in: sales/CompetitorAddress  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  telephone3  attribute are listed below.</summary>
+<summary>List of traits for the telephone3 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1452,7 +1452,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UPSZone name="UPSZone">UPSZone</a>
 
 United Parcel Service (UPS) zone for the address of the competitor.  
-First included in: sales/CompetitorAddress  (this entity)  
+First included in: sales/CompetitorAddress (this entity)  
 
 #### Properties
 
@@ -1461,7 +1461,7 @@ First included in: sales/CompetitorAddress  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  UPSZone  attribute are listed below.</summary>
+<summary>List of traits for the UPSZone attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1492,7 +1492,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCOffset name="UTCOffset">UTCOffset</a>
 
 UTC offset for address 1. This is the difference between local time and standard Coordinated Universal Time.  
-First included in: sales/CompetitorAddress  (this entity)  
+First included in: sales/CompetitorAddress (this entity)  
 
 #### Properties
 
@@ -1501,7 +1501,7 @@ First included in: sales/CompetitorAddress  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  UTCOffset  attribute are listed below.</summary>
+<summary>List of traits for the UTCOffset attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  

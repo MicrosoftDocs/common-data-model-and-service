@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/13/2019
+ms.date: 2/15/2019
 ms.author: tpalmer
 ---
 
@@ -12,13 +12,13 @@ ms.author: tpalmer
 
 Relationship between a customer and a partner in which either can be an account or contact.  
   
-Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/CustomerRelationship.cdm.json" target="_blank">GitHub</a>.  
+Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/CustomerRelationship.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
-Instances of this entity are listed below:  
+Instances of this entity are listed below.  
 
-applicationCommon/CustomerRelationship  
+/core/applicationCommon/CustomerRelationship.cdm.json/CustomerRelationship  
 
 ## Traits
 
@@ -77,7 +77,7 @@ applicationCommon/CustomerRelationship
 
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
-First included in: applicationCommon/CustomerRelationship  (this entity)  
+First included in: applicationCommon/CustomerRelationship (this entity)  
 
 #### Properties
 
@@ -86,7 +86,7 @@ First included in: applicationCommon/CustomerRelationship  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -107,7 +107,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Shows the date and time when the customer relationship was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.  
-First included in: applicationCommon/CustomerRelationship  (this entity)  
+First included in: applicationCommon/CustomerRelationship (this entity)  
 
 #### Properties
 
@@ -116,7 +116,7 @@ First included in: applicationCommon/CustomerRelationship  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOn  attribute are listed below.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -146,7 +146,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.  
-First included in: applicationCommon/CustomerRelationship  (this entity)  
+First included in: applicationCommon/CustomerRelationship (this entity)  
 
 #### Properties
 
@@ -155,7 +155,7 @@ First included in: applicationCommon/CustomerRelationship  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -185,7 +185,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#customerRoleId name="customerRoleId">customerRoleId</a>
 
 Choose the primary party's role or nature of the relationship the customer has with the second party. The field is read-only until both parties have been selected. Administrators can configure role values under Business Management in the Settings area.  
-First included in: applicationCommon/CustomerRelationship  (this entity)  
+First included in: applicationCommon/CustomerRelationship (this entity)  
 
 #### Properties
 
@@ -194,7 +194,7 @@ First included in: applicationCommon/CustomerRelationship  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  customerRoleId  attribute are listed below.</summary>
+<summary>List of traits for the customerRoleId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -227,7 +227,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#customerRelationshipId name="customerRelationshipId">customerRelationshipId</a>
 
 Unique identifier of the customer relationship.  
-First included in: applicationCommon/CustomerRelationship  (this entity)  
+First included in: applicationCommon/CustomerRelationship (this entity)  
 
 #### Properties
 
@@ -236,7 +236,7 @@ First included in: applicationCommon/CustomerRelationship  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  customerRelationshipId  attribute are listed below.</summary>
+<summary>List of traits for the customerRelationshipId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -266,7 +266,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: applicationCommon/CustomerRelationship  (this entity)  
+First included in: applicationCommon/CustomerRelationship (this entity)  
 
 #### Properties
 
@@ -275,7 +275,7 @@ First included in: applicationCommon/CustomerRelationship  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdBy  attribute are listed below.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -308,7 +308,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: applicationCommon/CustomerRelationship  (this entity)  
+First included in: applicationCommon/CustomerRelationship (this entity)  
 
 #### Properties
 
@@ -317,7 +317,7 @@ First included in: applicationCommon/CustomerRelationship  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerIdType  attribute are listed below.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -347,7 +347,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: applicationCommon/CustomerRelationship  (this entity)  
+First included in: applicationCommon/CustomerRelationship (this entity)  
 
 #### Properties
 
@@ -356,7 +356,7 @@ First included in: applicationCommon/CustomerRelationship  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerId  attribute are listed below.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -392,7 +392,7 @@ contains a User or Team ID
 ### <a href=#partnerIdType name="partnerIdType">partnerIdType</a>
 
 The type of partner, either Account or Contact.  
-First included in: applicationCommon/CustomerRelationship  (this entity)  
+First included in: applicationCommon/CustomerRelationship (this entity)  
 
 #### Properties
 
@@ -401,7 +401,7 @@ First included in: applicationCommon/CustomerRelationship  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  partnerIdType  attribute are listed below.</summary>
+<summary>List of traits for the partnerIdType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -428,7 +428,7 @@ contains an Account or Contact ID
 ### <a href=#partnerId name="partnerId">partnerId</a>
 
 Select the secondary account or contact involved in the customer relationship.  
-First included in: applicationCommon/CustomerRelationship  (this entity)  
+First included in: applicationCommon/CustomerRelationship (this entity)  
 
 #### Properties
 
@@ -437,7 +437,7 @@ First included in: applicationCommon/CustomerRelationship  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  partnerId  attribute are listed below.</summary>
+<summary>List of traits for the partnerId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -473,7 +473,7 @@ contains an Account or Contact ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier of the business unit that owns the customer relationship.  
-First included in: applicationCommon/CustomerRelationship  (this entity)  
+First included in: applicationCommon/CustomerRelationship (this entity)  
 
 #### Properties
 
@@ -482,7 +482,7 @@ First included in: applicationCommon/CustomerRelationship  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningBusinessUnit  attribute are listed below.</summary>
+<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -515,7 +515,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#converseRelationshipId name="converseRelationshipId">converseRelationshipId</a>
 
 Unique identifier of the converse relationship of the customer relationship.  
-First included in: applicationCommon/CustomerRelationship  (this entity)  
+First included in: applicationCommon/CustomerRelationship (this entity)  
 
 #### Properties
 
@@ -524,7 +524,7 @@ First included in: applicationCommon/CustomerRelationship  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  converseRelationshipId  attribute are listed below.</summary>
+<summary>List of traits for the converseRelationshipId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -557,7 +557,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#partnerRoleId name="partnerRoleId">partnerRoleId</a>
 
 Choose the secondary party's role or nature of the relationship the customer has with the primary party. The field is read-only until both parties have been selected. Administrators can configure role values under Business Management in the Settings area.  
-First included in: applicationCommon/CustomerRelationship  (this entity)  
+First included in: applicationCommon/CustomerRelationship (this entity)  
 
 #### Properties
 
@@ -566,7 +566,7 @@ First included in: applicationCommon/CustomerRelationship  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  partnerRoleId  attribute are listed below.</summary>
+<summary>List of traits for the partnerRoleId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -599,7 +599,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#customerRoleDescription name="customerRoleDescription">customerRoleDescription</a>
 
 Type additional information about the primary party's role in the customer relationship, such as the length or quality of the relationship.  
-First included in: applicationCommon/CustomerRelationship  (this entity)  
+First included in: applicationCommon/CustomerRelationship (this entity)  
 
 #### Properties
 
@@ -608,7 +608,7 @@ First included in: applicationCommon/CustomerRelationship  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  customerRoleDescription  attribute are listed below.</summary>
+<summary>List of traits for the customerRoleDescription attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -639,7 +639,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#customerIdType name="customerIdType">customerIdType</a>
 
 The type of customer, either Account or Contact.  
-First included in: applicationCommon/CustomerRelationship  (this entity)  
+First included in: applicationCommon/CustomerRelationship (this entity)  
 
 #### Properties
 
@@ -648,7 +648,7 @@ First included in: applicationCommon/CustomerRelationship  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  customerIdType  attribute are listed below.</summary>
+<summary>List of traits for the customerIdType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -675,7 +675,7 @@ contains an Account or Contact ID
 ### <a href=#customerId name="customerId">customerId</a>
 
 The customer account or contact to provide a quick link to additional customer details, such as account information, activities, and opportunities.  
-First included in: applicationCommon/CustomerRelationship  (this entity)  
+First included in: applicationCommon/CustomerRelationship (this entity)  
 
 #### Properties
 
@@ -684,7 +684,7 @@ First included in: applicationCommon/CustomerRelationship  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  customerId  attribute are listed below.</summary>
+<summary>List of traits for the customerId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -720,7 +720,7 @@ contains an Account or Contact ID
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: applicationCommon/CustomerRelationship  (this entity)  
+First included in: applicationCommon/CustomerRelationship (this entity)  
 
 #### Properties
 
@@ -729,7 +729,7 @@ First included in: applicationCommon/CustomerRelationship  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -762,7 +762,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#partnerRoleDescription name="partnerRoleDescription">partnerRoleDescription</a>
 
 Type additional information about the secondary party's role in the customer relationship, such as the length or quality of the relationship.  
-First included in: applicationCommon/CustomerRelationship  (this entity)  
+First included in: applicationCommon/CustomerRelationship (this entity)  
 
 #### Properties
 
@@ -771,7 +771,7 @@ First included in: applicationCommon/CustomerRelationship  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  partnerRoleDescription  attribute are listed below.</summary>
+<summary>List of traits for the partnerRoleDescription attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -802,7 +802,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user who owns the customer relationship.  
-First included in: applicationCommon/CustomerRelationship  (this entity)  
+First included in: applicationCommon/CustomerRelationship (this entity)  
 
 #### Properties
 
@@ -811,7 +811,7 @@ First included in: applicationCommon/CustomerRelationship  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningUser  attribute are listed below.</summary>
+<summary>List of traits for the owningUser attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -844,7 +844,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: applicationCommon/CustomerRelationship  (this entity)  
+First included in: applicationCommon/CustomerRelationship (this entity)  
 
 #### Properties
 
@@ -853,7 +853,7 @@ First included in: applicationCommon/CustomerRelationship  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -883,7 +883,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: applicationCommon/CustomerRelationship  (this entity)  
+First included in: applicationCommon/CustomerRelationship (this entity)  
 
 #### Properties
 
@@ -892,7 +892,7 @@ First included in: applicationCommon/CustomerRelationship  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -921,7 +921,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: applicationCommon/CustomerRelationship  (this entity)  
+First included in: applicationCommon/CustomerRelationship (this entity)  
 
 #### Properties
 
@@ -930,7 +930,7 @@ First included in: applicationCommon/CustomerRelationship  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -963,7 +963,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: applicationCommon/CustomerRelationship  (this entity)  
+First included in: applicationCommon/CustomerRelationship (this entity)  
 
 #### Properties
 
@@ -972,7 +972,7 @@ First included in: applicationCommon/CustomerRelationship  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1005,7 +1005,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier of the team who owns the customer relationship.  
-First included in: applicationCommon/CustomerRelationship  (this entity)  
+First included in: applicationCommon/CustomerRelationship (this entity)  
 
 #### Properties
 
@@ -1014,7 +1014,7 @@ First included in: applicationCommon/CustomerRelationship  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningTeam  attribute are listed below.</summary>
+<summary>List of traits for the owningTeam attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  

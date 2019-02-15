@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/13/2019
+ms.date: 2/15/2019
 ms.author: tpalmer
 ---
 
@@ -12,14 +12,14 @@ ms.author: tpalmer
 
 Prospect or potential sales opportunity. Leads are converted into accounts, contacts, or opportunities when they are qualified. Otherwise, they are deleted or archived.  
   
-Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Lead.cdm.json" target="_blank">GitHub</a>.  
+Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Lead.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
-Instances of this entity are listed below:  
+Instances of this entity are listed below.  
 
 [crmCommon/Lead](../../Lead.md "/core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.json/Lead")  
-nonProfit/Lead  
+/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Lead.cdm.json/Lead  
 [marketing/Lead](../../solutions/marketing/Lead.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Lead.cdm.json/Lead")  
 
 ## Traits
@@ -250,7 +250,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOn  attribute are listed below.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -289,7 +289,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  createdBy  attribute are listed below.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -334,7 +334,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -373,7 +373,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -418,7 +418,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -463,7 +463,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -508,7 +508,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -547,7 +547,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -582,7 +582,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerIdType  attribute are listed below.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -621,7 +621,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerId  attribute are listed below.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -666,7 +666,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  owningBusinessUnit  attribute are listed below.</summary>
+<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -708,7 +708,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  owningUser  attribute are listed below.</summary>
+<summary>List of traits for the owningUser attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -753,7 +753,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  owningTeam  attribute are listed below.</summary>
+<summary>List of traits for the owningTeam attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -795,7 +795,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  timeZoneRuleVersionNumber  attribute are listed below.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -833,7 +833,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  UTCConversionTimeZoneCode  attribute are listed below.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -871,7 +871,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -908,7 +908,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  leadId  attribute are listed below.</summary>
+<summary>List of traits for the leadId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -947,7 +947,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  fullName  attribute are listed below.</summary>
+<summary>List of traits for the fullName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -988,7 +988,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  processId  attribute are listed below.</summary>
+<summary>List of traits for the processId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1026,7 +1026,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  stageId  attribute are listed below.</summary>
+<summary>List of traits for the stageId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1064,7 +1064,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  traversedPath  attribute are listed below.</summary>
+<summary>List of traits for the traversedPath attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1104,7 +1104,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  parentAccountId  attribute are listed below.</summary>
+<summary>List of traits for the parentAccountId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1146,7 +1146,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  parentContactId  attribute are listed below.</summary>
+<summary>List of traits for the parentContactId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1188,7 +1188,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  address1AddressId  attribute are listed below.</summary>
+<summary>List of traits for the address1AddressId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1227,7 +1227,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  address1AddressTypeCode  attribute are listed below.</summary>
+<summary>List of traits for the address1AddressTypeCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -1267,7 +1267,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  address1AddressTypeCode_display  attribute are listed below.</summary>
+<summary>List of traits for the address1AddressTypeCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1291,7 +1291,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  address1City  attribute are listed below.</summary>
+<summary>List of traits for the address1City attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1332,7 +1332,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Composite  attribute are listed below.</summary>
+<summary>List of traits for the address1Composite attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1372,7 +1372,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Country  attribute are listed below.</summary>
+<summary>List of traits for the address1Country attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1413,7 +1413,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  address1County  attribute are listed below.</summary>
+<summary>List of traits for the address1County attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1454,7 +1454,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Fax  attribute are listed below.</summary>
+<summary>List of traits for the address1Fax attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1494,7 +1494,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Latitude  attribute are listed below.</summary>
+<summary>List of traits for the address1Latitude attribute are listed below.</summary>
 
 - **is.dataFormat.floatingPoint**  
 - **is.dataFormat.big**  
@@ -1534,7 +1534,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Line1  attribute are listed below.</summary>
+<summary>List of traits for the address1Line1 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1575,7 +1575,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Line2  attribute are listed below.</summary>
+<summary>List of traits for the address1Line2 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1616,7 +1616,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Line3  attribute are listed below.</summary>
+<summary>List of traits for the address1Line3 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1657,7 +1657,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Longitude  attribute are listed below.</summary>
+<summary>List of traits for the address1Longitude attribute are listed below.</summary>
 
 - **is.dataFormat.floatingPoint**  
 - **is.dataFormat.big**  
@@ -1697,7 +1697,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Name  attribute are listed below.</summary>
+<summary>List of traits for the address1Name attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1738,7 +1738,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  address1PostalCode  attribute are listed below.</summary>
+<summary>List of traits for the address1PostalCode attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1779,7 +1779,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  address1PostOfficeBox  attribute are listed below.</summary>
+<summary>List of traits for the address1PostOfficeBox attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1819,7 +1819,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  address1ShippingMethodCode  attribute are listed below.</summary>
+<summary>List of traits for the address1ShippingMethodCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -1859,7 +1859,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  address1ShippingMethodCode_display  attribute are listed below.</summary>
+<summary>List of traits for the address1ShippingMethodCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1883,7 +1883,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  address1StateOrProvince  attribute are listed below.</summary>
+<summary>List of traits for the address1StateOrProvince attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1924,7 +1924,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Telephone1  attribute are listed below.</summary>
+<summary>List of traits for the address1Telephone1 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1965,7 +1965,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Telephone2  attribute are listed below.</summary>
+<summary>List of traits for the address1Telephone2 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2006,7 +2006,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Telephone3  attribute are listed below.</summary>
+<summary>List of traits for the address1Telephone3 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2047,7 +2047,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  address1UPSZone  attribute are listed below.</summary>
+<summary>List of traits for the address1UPSZone attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2087,7 +2087,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  address1UTCOffset  attribute are listed below.</summary>
+<summary>List of traits for the address1UTCOffset attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2128,7 +2128,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  address2AddressId  attribute are listed below.</summary>
+<summary>List of traits for the address2AddressId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2167,7 +2167,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  address2AddressTypeCode  attribute are listed below.</summary>
+<summary>List of traits for the address2AddressTypeCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -2207,7 +2207,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  address2AddressTypeCode_display  attribute are listed below.</summary>
+<summary>List of traits for the address2AddressTypeCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2231,7 +2231,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  address2City  attribute are listed below.</summary>
+<summary>List of traits for the address2City attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2272,7 +2272,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Composite  attribute are listed below.</summary>
+<summary>List of traits for the address2Composite attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2312,7 +2312,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Country  attribute are listed below.</summary>
+<summary>List of traits for the address2Country attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2353,7 +2353,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  address2County  attribute are listed below.</summary>
+<summary>List of traits for the address2County attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2394,7 +2394,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Fax  attribute are listed below.</summary>
+<summary>List of traits for the address2Fax attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2434,7 +2434,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Latitude  attribute are listed below.</summary>
+<summary>List of traits for the address2Latitude attribute are listed below.</summary>
 
 - **is.dataFormat.floatingPoint**  
 - **is.dataFormat.big**  
@@ -2474,7 +2474,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Line1  attribute are listed below.</summary>
+<summary>List of traits for the address2Line1 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2515,7 +2515,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Line2  attribute are listed below.</summary>
+<summary>List of traits for the address2Line2 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2556,7 +2556,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Line3  attribute are listed below.</summary>
+<summary>List of traits for the address2Line3 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2597,7 +2597,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Longitude  attribute are listed below.</summary>
+<summary>List of traits for the address2Longitude attribute are listed below.</summary>
 
 - **is.dataFormat.floatingPoint**  
 - **is.dataFormat.big**  
@@ -2637,7 +2637,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Name  attribute are listed below.</summary>
+<summary>List of traits for the address2Name attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2678,7 +2678,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  address2PostalCode  attribute are listed below.</summary>
+<summary>List of traits for the address2PostalCode attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2719,7 +2719,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  address2PostOfficeBox  attribute are listed below.</summary>
+<summary>List of traits for the address2PostOfficeBox attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2759,7 +2759,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  address2ShippingMethodCode  attribute are listed below.</summary>
+<summary>List of traits for the address2ShippingMethodCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -2799,7 +2799,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  address2ShippingMethodCode_display  attribute are listed below.</summary>
+<summary>List of traits for the address2ShippingMethodCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2823,7 +2823,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  address2StateOrProvince  attribute are listed below.</summary>
+<summary>List of traits for the address2StateOrProvince attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2864,7 +2864,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Telephone1  attribute are listed below.</summary>
+<summary>List of traits for the address2Telephone1 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2905,7 +2905,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Telephone2  attribute are listed below.</summary>
+<summary>List of traits for the address2Telephone2 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2946,7 +2946,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Telephone3  attribute are listed below.</summary>
+<summary>List of traits for the address2Telephone3 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2987,7 +2987,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  address2UPSZone  attribute are listed below.</summary>
+<summary>List of traits for the address2UPSZone attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3027,7 +3027,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  address2UTCOffset  attribute are listed below.</summary>
+<summary>List of traits for the address2UTCOffset attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3068,7 +3068,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  budgetAmount  attribute are listed below.</summary>
+<summary>List of traits for the budgetAmount attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3109,7 +3109,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  transactionCurrencyId  attribute are listed below.</summary>
+<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3151,7 +3151,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  exchangeRate  attribute are listed below.</summary>
+<summary>List of traits for the exchangeRate attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3191,7 +3191,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  budgetAmountBase  attribute are listed below.</summary>
+<summary>List of traits for the budgetAmountBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3230,16 +3230,16 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Budget</td></tr><tr><td>description</td><td>Information about the budget status of the lead's company or organization.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>budgetstatus</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Will Buy</td><td>3</td></tr><tr><td>en</td><td>Can Buy</td><td>2</td></tr><tr><td>en</td><td>May Buy</td><td>1</td></tr><tr><td>en</td><td>No Committed Budget</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Budget</td></tr><tr><td>description</td><td>Information about the budget status of the lead's company or organization.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>budgetstatus</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No Committed Budget</td><td>0</td></tr><tr><td>en</td><td>May Buy</td><td>1</td></tr><tr><td>en</td><td>Can Buy</td><td>2</td></tr><tr><td>en</td><td>Will Buy</td><td>3</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  budgetStatus  attribute are listed below.</summary>
+<summary>List of traits for the budgetStatus attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Will Buy</td><td>3</td></tr><tr><td>en</td><td>Can Buy</td><td>2</td></tr><tr><td>en</td><td>May Buy</td><td>1</td></tr><tr><td>en</td><td>No Committed Budget</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No Committed Budget</td><td>0</td></tr><tr><td>en</td><td>May Buy</td><td>1</td></tr><tr><td>en</td><td>Can Buy</td><td>2</td></tr><tr><td>en</td><td>Will Buy</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3275,7 +3275,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  budgetStatus_display  attribute are listed below.</summary>
+<summary>List of traits for the budgetStatus_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3299,7 +3299,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  companyName  attribute are listed below.</summary>
+<summary>List of traits for the companyName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3340,7 +3340,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  confirmInterest  attribute are listed below.</summary>
+<summary>List of traits for the confirmInterest attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -3375,7 +3375,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  customerIdType  attribute are listed below.</summary>
+<summary>List of traits for the customerIdType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3411,7 +3411,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  customerId  attribute are listed below.</summary>
+<summary>List of traits for the customerId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3456,7 +3456,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  decisionMaker  attribute are listed below.</summary>
+<summary>List of traits for the decisionMaker attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -3491,7 +3491,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  description  attribute are listed below.</summary>
+<summary>List of traits for the description attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3531,7 +3531,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  doNotBulkEMail  attribute are listed below.</summary>
+<summary>List of traits for the doNotBulkEMail attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -3566,7 +3566,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  doNotEMail  attribute are listed below.</summary>
+<summary>List of traits for the doNotEMail attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -3601,7 +3601,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  doNotFax  attribute are listed below.</summary>
+<summary>List of traits for the doNotFax attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -3636,7 +3636,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  doNotPhone  attribute are listed below.</summary>
+<summary>List of traits for the doNotPhone attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -3671,7 +3671,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  doNotPostalMail  attribute are listed below.</summary>
+<summary>List of traits for the doNotPostalMail attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -3706,7 +3706,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  doNotSendMM  attribute are listed below.</summary>
+<summary>List of traits for the doNotSendMM attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -3741,7 +3741,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  EMailAddress1  attribute are listed below.</summary>
+<summary>List of traits for the EMailAddress1 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3782,7 +3782,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  EMailAddress2  attribute are listed below.</summary>
+<summary>List of traits for the EMailAddress2 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3823,7 +3823,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  EMailAddress3  attribute are listed below.</summary>
+<summary>List of traits for the EMailAddress3 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3864,7 +3864,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  estimatedAmount  attribute are listed below.</summary>
+<summary>List of traits for the estimatedAmount attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3905,7 +3905,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  estimatedAmountBase  attribute are listed below.</summary>
+<summary>List of traits for the estimatedAmountBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3949,7 +3949,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  estimatedCloseDate  attribute are listed below.</summary>
+<summary>List of traits for the estimatedCloseDate attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -3987,7 +3987,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  estimatedValue  attribute are listed below.</summary>
+<summary>List of traits for the estimatedValue attribute are listed below.</summary>
 
 - **is.dataFormat.floatingPoint**  
 - **is.dataFormat.big**  
@@ -4026,7 +4026,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  evaluateFit  attribute are listed below.</summary>
+<summary>List of traits for the evaluateFit attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -4061,7 +4061,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  fax  attribute are listed below.</summary>
+<summary>List of traits for the fax attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4101,7 +4101,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  firstName  attribute are listed below.</summary>
+<summary>List of traits for the firstName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4137,16 +4137,16 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Industry</td></tr><tr><td>description</td><td>Select the primary industry in which the lead's business is focused, for use in marketing segmentation and demographic analysis.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>industrycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Wholesale</td><td>33</td></tr><tr><td>en</td><td>Accounting</td><td>1</td></tr><tr><td>en</td><td>Utility Creation and Distribution</td><td>31</td></tr><tr><td>en</td><td>Transportation</td><td>30</td></tr><tr><td>en</td><td>Specialty Realty</td><td>29</td></tr><tr><td>en</td><td>Special Outbound Trade Contractors</td><td>28</td></tr><tr><td>en</td><td>Social Services</td><td>27</td></tr><tr><td>en</td><td>SIG Affiliations</td><td>26</td></tr><tr><td>en</td><td>Service Retail</td><td>25</td></tr><tr><td>en</td><td>Petrochemical Extraction and Distribution</td><td>24</td></tr><tr><td>en</td><td>Outbound Consumer Service</td><td>23</td></tr><tr><td>en</td><td>Non-Durable Merchandise Retail</td><td>22</td></tr><tr><td>en</td><td>Legal Services</td><td>21</td></tr><tr><td>en</td><td>Insurance</td><td>20</td></tr><tr><td>en</td><td>Inbound Repair and Services</td><td>19</td></tr><tr><td>en</td><td>Inbound Capital Intensive Processing</td><td>18</td></tr><tr><td>en</td><td>Vehicle Retail</td><td>32</td></tr><tr><td>en</td><td>Financial</td><td>16</td></tr><tr><td>en</td><td>Equipment Rental and Leasing</td><td>15</td></tr><tr><td>en</td><td>Entertainment Retail</td><td>14</td></tr><tr><td>en</td><td>Eating and Drinking Places</td><td>13</td></tr><tr><td>en</td><td>Durable Manufacturing</td><td>12</td></tr><tr><td>en</td><td>Doctor's Offices and Clinics</td><td>11</td></tr><tr><td>en</td><td>Distributors, Dispatchers and Processors</td><td>10</td></tr><tr><td>en</td><td>Design, Direction and Creative Management</td><td>9</td></tr><tr><td>en</td><td>Consumer Services</td><td>8</td></tr><tr><td>en</td><td>Consulting</td><td>7</td></tr><tr><td>en</td><td>Business Services</td><td>6</td></tr><tr><td>en</td><td>Building Supply Retail</td><td>5</td></tr><tr><td>en</td><td>Brokers</td><td>4</td></tr><tr><td>en</td><td>Broadcasting Printing and Publishing</td><td>3</td></tr><tr><td>en</td><td>Agriculture and Non-petrol Natural Resource Extraction</td><td>2</td></tr><tr><td>en</td><td>Food and Tobacco Processing</td><td>17</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Industry</td></tr><tr><td>description</td><td>Select the primary industry in which the lead's business is focused, for use in marketing segmentation and demographic analysis.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>industrycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Accounting</td><td>1</td></tr><tr><td>en</td><td>Agriculture and Non-petrol Natural Resource Extraction</td><td>2</td></tr><tr><td>en</td><td>Broadcasting Printing and Publishing</td><td>3</td></tr><tr><td>en</td><td>Brokers</td><td>4</td></tr><tr><td>en</td><td>Building Supply Retail</td><td>5</td></tr><tr><td>en</td><td>Business Services</td><td>6</td></tr><tr><td>en</td><td>Consulting</td><td>7</td></tr><tr><td>en</td><td>Consumer Services</td><td>8</td></tr><tr><td>en</td><td>Design, Direction and Creative Management</td><td>9</td></tr><tr><td>en</td><td>Distributors, Dispatchers and Processors</td><td>10</td></tr><tr><td>en</td><td>Doctor's Offices and Clinics</td><td>11</td></tr><tr><td>en</td><td>Durable Manufacturing</td><td>12</td></tr><tr><td>en</td><td>Eating and Drinking Places</td><td>13</td></tr><tr><td>en</td><td>Entertainment Retail</td><td>14</td></tr><tr><td>en</td><td>Equipment Rental and Leasing</td><td>15</td></tr><tr><td>en</td><td>Financial</td><td>16</td></tr><tr><td>en</td><td>Food and Tobacco Processing</td><td>17</td></tr><tr><td>en</td><td>Inbound Capital Intensive Processing</td><td>18</td></tr><tr><td>en</td><td>Inbound Repair and Services</td><td>19</td></tr><tr><td>en</td><td>Insurance</td><td>20</td></tr><tr><td>en</td><td>Legal Services</td><td>21</td></tr><tr><td>en</td><td>Non-Durable Merchandise Retail</td><td>22</td></tr><tr><td>en</td><td>Outbound Consumer Service</td><td>23</td></tr><tr><td>en</td><td>Petrochemical Extraction and Distribution</td><td>24</td></tr><tr><td>en</td><td>Service Retail</td><td>25</td></tr><tr><td>en</td><td>SIG Affiliations</td><td>26</td></tr><tr><td>en</td><td>Social Services</td><td>27</td></tr><tr><td>en</td><td>Special Outbound Trade Contractors</td><td>28</td></tr><tr><td>en</td><td>Specialty Realty</td><td>29</td></tr><tr><td>en</td><td>Transportation</td><td>30</td></tr><tr><td>en</td><td>Utility Creation and Distribution</td><td>31</td></tr><tr><td>en</td><td>Vehicle Retail</td><td>32</td></tr><tr><td>en</td><td>Wholesale</td><td>33</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  industryCode  attribute are listed below.</summary>
+<summary>List of traits for the industryCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Wholesale</td><td>33</td></tr><tr><td>en</td><td>Vehicle Retail</td><td>32</td></tr><tr><td>en</td><td>Utility Creation and Distribution</td><td>31</td></tr><tr><td>en</td><td>Transportation</td><td>30</td></tr><tr><td>en</td><td>Specialty Realty</td><td>29</td></tr><tr><td>en</td><td>Special Outbound Trade Contractors</td><td>28</td></tr><tr><td>en</td><td>Social Services</td><td>27</td></tr><tr><td>en</td><td>SIG Affiliations</td><td>26</td></tr><tr><td>en</td><td>Service Retail</td><td>25</td></tr><tr><td>en</td><td>Petrochemical Extraction and Distribution</td><td>24</td></tr><tr><td>en</td><td>Outbound Consumer Service</td><td>23</td></tr><tr><td>en</td><td>Non-Durable Merchandise Retail</td><td>22</td></tr><tr><td>en</td><td>Legal Services</td><td>21</td></tr><tr><td>en</td><td>Insurance</td><td>20</td></tr><tr><td>en</td><td>Inbound Repair and Services</td><td>19</td></tr><tr><td>en</td><td>Inbound Capital Intensive Processing</td><td>18</td></tr><tr><td>en</td><td>Food and Tobacco Processing</td><td>17</td></tr><tr><td>en</td><td>Financial</td><td>16</td></tr><tr><td>en</td><td>Equipment Rental and Leasing</td><td>15</td></tr><tr><td>en</td><td>Entertainment Retail</td><td>14</td></tr><tr><td>en</td><td>Eating and Drinking Places</td><td>13</td></tr><tr><td>en</td><td>Durable Manufacturing</td><td>12</td></tr><tr><td>en</td><td>Doctor's Offices and Clinics</td><td>11</td></tr><tr><td>en</td><td>Distributors, Dispatchers and Processors</td><td>10</td></tr><tr><td>en</td><td>Design, Direction and Creative Management</td><td>9</td></tr><tr><td>en</td><td>Consumer Services</td><td>8</td></tr><tr><td>en</td><td>Consulting</td><td>7</td></tr><tr><td>en</td><td>Business Services</td><td>6</td></tr><tr><td>en</td><td>Building Supply Retail</td><td>5</td></tr><tr><td>en</td><td>Brokers</td><td>4</td></tr><tr><td>en</td><td>Broadcasting Printing and Publishing</td><td>3</td></tr><tr><td>en</td><td>Agriculture and Non-petrol Natural Resource Extraction</td><td>2</td></tr><tr><td>en</td><td>Accounting</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Accounting</td><td>1</td></tr><tr><td>en</td><td>Agriculture and Non-petrol Natural Resource Extraction</td><td>2</td></tr><tr><td>en</td><td>Broadcasting Printing and Publishing</td><td>3</td></tr><tr><td>en</td><td>Brokers</td><td>4</td></tr><tr><td>en</td><td>Building Supply Retail</td><td>5</td></tr><tr><td>en</td><td>Business Services</td><td>6</td></tr><tr><td>en</td><td>Consulting</td><td>7</td></tr><tr><td>en</td><td>Consumer Services</td><td>8</td></tr><tr><td>en</td><td>Design, Direction and Creative Management</td><td>9</td></tr><tr><td>en</td><td>Distributors, Dispatchers and Processors</td><td>10</td></tr><tr><td>en</td><td>Doctor's Offices and Clinics</td><td>11</td></tr><tr><td>en</td><td>Durable Manufacturing</td><td>12</td></tr><tr><td>en</td><td>Eating and Drinking Places</td><td>13</td></tr><tr><td>en</td><td>Entertainment Retail</td><td>14</td></tr><tr><td>en</td><td>Equipment Rental and Leasing</td><td>15</td></tr><tr><td>en</td><td>Financial</td><td>16</td></tr><tr><td>en</td><td>Food and Tobacco Processing</td><td>17</td></tr><tr><td>en</td><td>Inbound Capital Intensive Processing</td><td>18</td></tr><tr><td>en</td><td>Inbound Repair and Services</td><td>19</td></tr><tr><td>en</td><td>Insurance</td><td>20</td></tr><tr><td>en</td><td>Legal Services</td><td>21</td></tr><tr><td>en</td><td>Non-Durable Merchandise Retail</td><td>22</td></tr><tr><td>en</td><td>Outbound Consumer Service</td><td>23</td></tr><tr><td>en</td><td>Petrochemical Extraction and Distribution</td><td>24</td></tr><tr><td>en</td><td>Service Retail</td><td>25</td></tr><tr><td>en</td><td>SIG Affiliations</td><td>26</td></tr><tr><td>en</td><td>Social Services</td><td>27</td></tr><tr><td>en</td><td>Special Outbound Trade Contractors</td><td>28</td></tr><tr><td>en</td><td>Specialty Realty</td><td>29</td></tr><tr><td>en</td><td>Transportation</td><td>30</td></tr><tr><td>en</td><td>Utility Creation and Distribution</td><td>31</td></tr><tr><td>en</td><td>Vehicle Retail</td><td>32</td></tr><tr><td>en</td><td>Wholesale</td><td>33</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -4182,7 +4182,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  industryCode_display  attribute are listed below.</summary>
+<summary>List of traits for the industryCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4201,16 +4201,16 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Initial Communication</td></tr><tr><td>description</td><td>Choose whether someone from the sales team contacted this lead earlier.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>initialcommunication</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not Contacted</td><td>1</td></tr><tr><td>en</td><td>Contacted</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Initial Communication</td></tr><tr><td>description</td><td>Choose whether someone from the sales team contacted this lead earlier.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>initialcommunication</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Contacted</td><td>0</td></tr><tr><td>en</td><td>Not Contacted</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  initialCommunication  attribute are listed below.</summary>
+<summary>List of traits for the initialCommunication attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not Contacted</td><td>1</td></tr><tr><td>en</td><td>Contacted</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Contacted</td><td>0</td></tr><tr><td>en</td><td>Not Contacted</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -4246,7 +4246,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  initialCommunication_display  attribute are listed below.</summary>
+<summary>List of traits for the initialCommunication_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4270,7 +4270,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  jobTitle  attribute are listed below.</summary>
+<summary>List of traits for the jobTitle attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4310,7 +4310,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  lastName  attribute are listed below.</summary>
+<summary>List of traits for the lastName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4351,7 +4351,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  lastUsedInCampaign  attribute are listed below.</summary>
+<summary>List of traits for the lastUsedInCampaign attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -4384,16 +4384,16 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Rating</td></tr><tr><td>description</td><td>Select a rating value to indicate the lead's potential to become a customer.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>leadqualitycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Cold</td><td>3</td></tr><tr><td>en</td><td>Warm</td><td>2</td></tr><tr><td>en</td><td>Hot</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Rating</td></tr><tr><td>description</td><td>Select a rating value to indicate the lead's potential to become a customer.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>leadqualitycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Hot</td><td>1</td></tr><tr><td>en</td><td>Warm</td><td>2</td></tr><tr><td>en</td><td>Cold</td><td>3</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  leadQualityCode  attribute are listed below.</summary>
+<summary>List of traits for the leadQualityCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Cold</td><td>3</td></tr><tr><td>en</td><td>Warm</td><td>2</td></tr><tr><td>en</td><td>Hot</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Hot</td><td>1</td></tr><tr><td>en</td><td>Warm</td><td>2</td></tr><tr><td>en</td><td>Cold</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -4429,7 +4429,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  leadQualityCode_display  attribute are listed below.</summary>
+<summary>List of traits for the leadQualityCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4448,16 +4448,16 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Lead Source</td></tr><tr><td>description</td><td>Select the primary marketing source that prompted the lead to contact you.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>leadsourcecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Other</td><td>10</td></tr><tr><td>en</td><td>Word of Mouth</td><td>9</td></tr><tr><td>en</td><td>Web</td><td>8</td></tr><tr><td>en</td><td>Trade Show</td><td>7</td></tr><tr><td>en</td><td>Seminar</td><td>6</td></tr><tr><td>en</td><td>Public Relations</td><td>5</td></tr><tr><td>en</td><td>Partner</td><td>4</td></tr><tr><td>en</td><td>External Referral</td><td>3</td></tr><tr><td>en</td><td>Employee Referral</td><td>2</td></tr><tr><td>en</td><td>Advertisement</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Lead Source</td></tr><tr><td>description</td><td>Select the primary marketing source that prompted the lead to contact you.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>leadsourcecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Advertisement</td><td>1</td></tr><tr><td>en</td><td>Employee Referral</td><td>2</td></tr><tr><td>en</td><td>External Referral</td><td>3</td></tr><tr><td>en</td><td>Partner</td><td>4</td></tr><tr><td>en</td><td>Public Relations</td><td>5</td></tr><tr><td>en</td><td>Seminar</td><td>6</td></tr><tr><td>en</td><td>Trade Show</td><td>7</td></tr><tr><td>en</td><td>Web</td><td>8</td></tr><tr><td>en</td><td>Word of Mouth</td><td>9</td></tr><tr><td>en</td><td>Other</td><td>10</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  leadSourceCode  attribute are listed below.</summary>
+<summary>List of traits for the leadSourceCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Other</td><td>10</td></tr><tr><td>en</td><td>Word of Mouth</td><td>9</td></tr><tr><td>en</td><td>Web</td><td>8</td></tr><tr><td>en</td><td>Trade Show</td><td>7</td></tr><tr><td>en</td><td>Seminar</td><td>6</td></tr><tr><td>en</td><td>Public Relations</td><td>5</td></tr><tr><td>en</td><td>Partner</td><td>4</td></tr><tr><td>en</td><td>External Referral</td><td>3</td></tr><tr><td>en</td><td>Employee Referral</td><td>2</td></tr><tr><td>en</td><td>Advertisement</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Advertisement</td><td>1</td></tr><tr><td>en</td><td>Employee Referral</td><td>2</td></tr><tr><td>en</td><td>External Referral</td><td>3</td></tr><tr><td>en</td><td>Partner</td><td>4</td></tr><tr><td>en</td><td>Public Relations</td><td>5</td></tr><tr><td>en</td><td>Seminar</td><td>6</td></tr><tr><td>en</td><td>Trade Show</td><td>7</td></tr><tr><td>en</td><td>Web</td><td>8</td></tr><tr><td>en</td><td>Word of Mouth</td><td>9</td></tr><tr><td>en</td><td>Other</td><td>10</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -4493,7 +4493,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  leadSourceCode_display  attribute are listed below.</summary>
+<summary>List of traits for the leadSourceCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4517,7 +4517,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  masterId  attribute are listed below.</summary>
+<summary>List of traits for the masterId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4559,7 +4559,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  merged  attribute are listed below.</summary>
+<summary>List of traits for the merged attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -4594,7 +4594,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  middleName  attribute are listed below.</summary>
+<summary>List of traits for the middleName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4635,7 +4635,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  mobilePhone  attribute are listed below.</summary>
+<summary>List of traits for the mobilePhone attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4671,16 +4671,16 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Need</td></tr><tr><td>description</td><td>Choose how high the level of need is for the lead's company.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>need</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No need</td><td>3</td></tr><tr><td>en</td><td>Good to have</td><td>2</td></tr><tr><td>en</td><td>Should have</td><td>1</td></tr><tr><td>en</td><td>Must have</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Need</td></tr><tr><td>description</td><td>Choose how high the level of need is for the lead's company.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>need</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Must have</td><td>0</td></tr><tr><td>en</td><td>Should have</td><td>1</td></tr><tr><td>en</td><td>Good to have</td><td>2</td></tr><tr><td>en</td><td>No need</td><td>3</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  need  attribute are listed below.</summary>
+<summary>List of traits for the need attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No need</td><td>3</td></tr><tr><td>en</td><td>Good to have</td><td>2</td></tr><tr><td>en</td><td>Should have</td><td>1</td></tr><tr><td>en</td><td>Must have</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Must have</td><td>0</td></tr><tr><td>en</td><td>Should have</td><td>1</td></tr><tr><td>en</td><td>Good to have</td><td>2</td></tr><tr><td>en</td><td>No need</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -4716,7 +4716,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  need_display  attribute are listed below.</summary>
+<summary>List of traits for the need_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4740,7 +4740,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  numberOfEmployees  attribute are listed below.</summary>
+<summary>List of traits for the numberOfEmployees attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -4778,7 +4778,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  pager  attribute are listed below.</summary>
+<summary>List of traits for the pager attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4818,7 +4818,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  participatesInWorkflow  attribute are listed below.</summary>
+<summary>List of traits for the participatesInWorkflow attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -4848,16 +4848,16 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Preferred Method of Contact</td></tr><tr><td>description</td><td>Select the preferred method of contact.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>preferredcontactmethodcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Mail</td><td>5</td></tr><tr><td>en</td><td>Fax</td><td>4</td></tr><tr><td>en</td><td>Phone</td><td>3</td></tr><tr><td>en</td><td>Email</td><td>2</td></tr><tr><td>en</td><td>Any</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Preferred Method of Contact</td></tr><tr><td>description</td><td>Select the preferred method of contact.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>preferredcontactmethodcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Any</td><td>1</td></tr><tr><td>en</td><td>Email</td><td>2</td></tr><tr><td>en</td><td>Phone</td><td>3</td></tr><tr><td>en</td><td>Fax</td><td>4</td></tr><tr><td>en</td><td>Mail</td><td>5</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  preferredContactMethodCode  attribute are listed below.</summary>
+<summary>List of traits for the preferredContactMethodCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Mail</td><td>5</td></tr><tr><td>en</td><td>Fax</td><td>4</td></tr><tr><td>en</td><td>Phone</td><td>3</td></tr><tr><td>en</td><td>Email</td><td>2</td></tr><tr><td>en</td><td>Any</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Any</td><td>1</td></tr><tr><td>en</td><td>Email</td><td>2</td></tr><tr><td>en</td><td>Phone</td><td>3</td></tr><tr><td>en</td><td>Fax</td><td>4</td></tr><tr><td>en</td><td>Mail</td><td>5</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -4893,7 +4893,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  preferredContactMethodCode_display  attribute are listed below.</summary>
+<summary>List of traits for the preferredContactMethodCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4917,7 +4917,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  priorityCode  attribute are listed below.</summary>
+<summary>List of traits for the priorityCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -4957,7 +4957,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  priorityCode_display  attribute are listed below.</summary>
+<summary>List of traits for the priorityCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4976,16 +4976,16 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Purchase Process</td></tr><tr><td>description</td><td>Choose whether an individual or a committee will be involved in the  purchase process for the lead.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>purchaseprocess</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Unknown</td><td>2</td></tr><tr><td>en</td><td>Committee</td><td>1</td></tr><tr><td>en</td><td>Individual</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Purchase Process</td></tr><tr><td>description</td><td>Choose whether an individual or a committee will be involved in the  purchase process for the lead.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>purchaseprocess</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Individual</td><td>0</td></tr><tr><td>en</td><td>Committee</td><td>1</td></tr><tr><td>en</td><td>Unknown</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  purchaseProcess  attribute are listed below.</summary>
+<summary>List of traits for the purchaseProcess attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Unknown</td><td>2</td></tr><tr><td>en</td><td>Committee</td><td>1</td></tr><tr><td>en</td><td>Individual</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Individual</td><td>0</td></tr><tr><td>en</td><td>Committee</td><td>1</td></tr><tr><td>en</td><td>Unknown</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -5021,7 +5021,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  purchaseProcess_display  attribute are listed below.</summary>
+<summary>List of traits for the purchaseProcess_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5045,7 +5045,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  qualificationComments  attribute are listed below.</summary>
+<summary>List of traits for the qualificationComments attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5085,7 +5085,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  revenue  attribute are listed below.</summary>
+<summary>List of traits for the revenue attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -5126,7 +5126,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  revenueBase  attribute are listed below.</summary>
+<summary>List of traits for the revenueBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -5170,7 +5170,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  salesStage  attribute are listed below.</summary>
+<summary>List of traits for the salesStage attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -5210,7 +5210,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  salesStage_display  attribute are listed below.</summary>
+<summary>List of traits for the salesStage_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5234,7 +5234,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  salesStageCode  attribute are listed below.</summary>
+<summary>List of traits for the salesStageCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -5274,7 +5274,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  salesStageCode_display  attribute are listed below.</summary>
+<summary>List of traits for the salesStageCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5298,7 +5298,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  salutation  attribute are listed below.</summary>
+<summary>List of traits for the salutation attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5338,7 +5338,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  scheduleFollowupProspect  attribute are listed below.</summary>
+<summary>List of traits for the scheduleFollowupProspect attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -5376,7 +5376,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  scheduleFollowUpQualify  attribute are listed below.</summary>
+<summary>List of traits for the scheduleFollowUpQualify attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -5414,7 +5414,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  SIC  attribute are listed below.</summary>
+<summary>List of traits for the SIC attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5449,16 +5449,16 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Shows whether the lead is open, qualified, or disqualified. Qualified and disqualified leads are read-only and can't be edited unless they are reactivated.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Disqualified</td><td>2</td></tr><tr><td>en</td><td>Qualified</td><td>1</td></tr><tr><td>en</td><td>Open</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Shows whether the lead is open, qualified, or disqualified. Qualified and disqualified leads are read-only and can't be edited unless they are reactivated.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Open</td><td>0</td></tr><tr><td>en</td><td>Qualified</td><td>1</td></tr><tr><td>en</td><td>Disqualified</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode  attribute are listed below.</summary>
+<summary>List of traits for the stateCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Disqualified</td><td>2</td></tr><tr><td>en</td><td>Qualified</td><td>1</td></tr><tr><td>en</td><td>Open</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Open</td><td>0</td></tr><tr><td>en</td><td>Qualified</td><td>1</td></tr><tr><td>en</td><td>Disqualified</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -5494,7 +5494,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode_display  attribute are listed below.</summary>
+<summary>List of traits for the stateCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5513,16 +5513,16 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the lead's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>New</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Contacted</td><td>2</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Qualified</td><td>3</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Lost</td><td>4</td><td>3</td><td>2</td></tr><tr><td>en</td><td>Cannot Contact</td><td>5</td><td>4</td><td>2</td></tr><tr><td>en</td><td>No Longer Interested</td><td>6</td><td>5</td><td>2</td></tr><tr><td>en</td><td>Canceled</td><td>7</td><td>6</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the lead's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>New</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Contacted</td><td>2</td><td>0</td></tr><tr><td>en</td><td>Qualified</td><td>3</td><td>1</td></tr><tr><td>en</td><td>Lost</td><td>4</td><td>2</td></tr><tr><td>en</td><td>Cannot Contact</td><td>5</td><td>2</td></tr><tr><td>en</td><td>No Longer Interested</td><td>6</td><td>2</td></tr><tr><td>en</td><td>Canceled</td><td>7</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode  attribute are listed below.</summary>
+<summary>List of traits for the statusCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>New</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Contacted</td><td>2</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Qualified</td><td>3</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Lost</td><td>4</td><td>3</td><td>2</td></tr><tr><td>en</td><td>Cannot Contact</td><td>5</td><td>4</td><td>2</td></tr><tr><td>en</td><td>No Longer Interested</td><td>6</td><td>5</td><td>2</td></tr><tr><td>en</td><td>Canceled</td><td>7</td><td>6</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>New</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Contacted</td><td>2</td><td>0</td></tr><tr><td>en</td><td>Qualified</td><td>3</td><td>1</td></tr><tr><td>en</td><td>Lost</td><td>4</td><td>2</td></tr><tr><td>en</td><td>Cannot Contact</td><td>5</td><td>2</td></tr><tr><td>en</td><td>No Longer Interested</td><td>6</td><td>2</td></tr><tr><td>en</td><td>Canceled</td><td>7</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -5561,7 +5561,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode_display  attribute are listed below.</summary>
+<summary>List of traits for the statusCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5585,7 +5585,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  subject  attribute are listed below.</summary>
+<summary>List of traits for the subject attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5625,7 +5625,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  telephone1  attribute are listed below.</summary>
+<summary>List of traits for the telephone1 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5666,7 +5666,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  telephone2  attribute are listed below.</summary>
+<summary>List of traits for the telephone2 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5707,7 +5707,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  telephone3  attribute are listed below.</summary>
+<summary>List of traits for the telephone3 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5743,16 +5743,16 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Purchase Timeframe</td></tr><tr><td>description</td><td>Choose how long the lead will likely take to make the purchase, so the sales team will be aware.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>purchasetimeframe</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Unknown</td><td>4</td></tr><tr><td>en</td><td>This Year</td><td>3</td></tr><tr><td>en</td><td>Next Quarter</td><td>2</td></tr><tr><td>en</td><td>This Quarter</td><td>1</td></tr><tr><td>en</td><td>Immediate</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Purchase Timeframe</td></tr><tr><td>description</td><td>Choose how long the lead will likely take to make the purchase, so the sales team will be aware.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>purchasetimeframe</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Immediate</td><td>0</td></tr><tr><td>en</td><td>This Quarter</td><td>1</td></tr><tr><td>en</td><td>Next Quarter</td><td>2</td></tr><tr><td>en</td><td>This Year</td><td>3</td></tr><tr><td>en</td><td>Unknown</td><td>4</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  purchaseTimeFrame  attribute are listed below.</summary>
+<summary>List of traits for the purchaseTimeFrame attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Unknown</td><td>4</td></tr><tr><td>en</td><td>This Year</td><td>3</td></tr><tr><td>en</td><td>Next Quarter</td><td>2</td></tr><tr><td>en</td><td>This Quarter</td><td>1</td></tr><tr><td>en</td><td>Immediate</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Immediate</td><td>0</td></tr><tr><td>en</td><td>This Quarter</td><td>1</td></tr><tr><td>en</td><td>Next Quarter</td><td>2</td></tr><tr><td>en</td><td>This Year</td><td>3</td></tr><tr><td>en</td><td>Unknown</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -5788,7 +5788,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  purchaseTimeFrame_display  attribute are listed below.</summary>
+<summary>List of traits for the purchaseTimeFrame_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5812,7 +5812,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  webSiteUrl  attribute are listed below.</summary>
+<summary>List of traits for the webSiteUrl attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5853,7 +5853,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  SLAId  attribute are listed below.</summary>
+<summary>List of traits for the SLAId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5895,7 +5895,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  SLAInvokedId  attribute are listed below.</summary>
+<summary>List of traits for the SLAInvokedId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5937,7 +5937,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  onHoldTime  attribute are listed below.</summary>
+<summary>List of traits for the onHoldTime attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -5975,7 +5975,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  lastOnHoldTime  attribute are listed below.</summary>
+<summary>List of traits for the lastOnHoldTime attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -6013,7 +6013,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  followEmail  attribute are listed below.</summary>
+<summary>List of traits for the followEmail attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -6048,7 +6048,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  timeSpentByMeOnEmailAndMeetings  attribute are listed below.</summary>
+<summary>List of traits for the timeSpentByMeOnEmailAndMeetings attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6088,7 +6088,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  entityImageId  attribute are listed below.</summary>
+<summary>List of traits for the entityImageId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6120,7 +6120,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  accountId  attribute are listed below.</summary>
+<summary>List of traits for the accountId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6162,7 +6162,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  contactId  attribute are listed below.</summary>
+<summary>List of traits for the contactId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6204,7 +6204,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  yomiCompanyName  attribute are listed below.</summary>
+<summary>List of traits for the yomiCompanyName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6246,7 +6246,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  yomiFirstName  attribute are listed below.</summary>
+<summary>List of traits for the yomiFirstName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6288,7 +6288,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  yomiFullName  attribute are listed below.</summary>
+<summary>List of traits for the yomiFullName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6330,7 +6330,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  yomiLastName  attribute are listed below.</summary>
+<summary>List of traits for the yomiLastName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6372,7 +6372,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  yomiMiddleName  attribute are listed below.</summary>
+<summary>List of traits for the yomiMiddleName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6414,7 +6414,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  campaignId  attribute are listed below.</summary>
+<summary>List of traits for the campaignId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6456,7 +6456,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  relatedObjectId  attribute are listed below.</summary>
+<summary>List of traits for the relatedObjectId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6498,7 +6498,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  originatingCaseId  attribute are listed below.</summary>
+<summary>List of traits for the originatingCaseId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6540,7 +6540,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 #### Traits
 
 <details>
-<summary>List of traits for the  qualifyingOpportunityId  attribute are listed below.</summary>
+<summary>List of traits for the qualifyingOpportunityId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6573,7 +6573,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#applicationDeadline name="applicationDeadline">applicationDeadline</a>
 
 Deadline to submit application.  
-First included in: nonProfit/Lead  (this entity)  
+First included in: nonProfit/Lead (this entity)  
 
 #### Properties
 
@@ -6582,7 +6582,7 @@ First included in: nonProfit/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  applicationDeadline  attribute are listed below.</summary>
+<summary>List of traits for the applicationDeadline attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -6610,7 +6610,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#deliveryFramework name="deliveryFramework">deliveryFramework</a>
 
-First included in: nonProfit/Lead  (this entity)  
+First included in: nonProfit/Lead (this entity)  
 
 #### Properties
 
@@ -6619,7 +6619,7 @@ First included in: nonProfit/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  deliveryFramework  attribute are listed below.</summary>
+<summary>List of traits for the deliveryFramework attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6652,7 +6652,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#expectedAmountRequested name="expectedAmountRequested">expectedAmountRequested</a>
 
 Amount requested by the Grant Seeker.  
-First included in: nonProfit/Lead  (this entity)  
+First included in: nonProfit/Lead (this entity)  
 
 #### Properties
 
@@ -6661,7 +6661,7 @@ First included in: nonProfit/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  expectedAmountRequested  attribute are listed below.</summary>
+<summary>List of traits for the expectedAmountRequested attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -6693,7 +6693,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#expectedamountrequestedBase name="expectedamountrequestedBase">expectedamountrequestedBase</a>
 
 Value of the Expected Amount Requested in base currency.  
-First included in: nonProfit/Lead  (this entity)  
+First included in: nonProfit/Lead (this entity)  
 
 #### Properties
 
@@ -6702,7 +6702,7 @@ First included in: nonProfit/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  expectedamountrequestedBase  attribute are listed below.</summary>
+<summary>List of traits for the expectedamountrequestedBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -6737,7 +6737,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#expectedDuration name="expectedDuration">expectedDuration</a>
 
 Expected duration of the Grant in months.  
-First included in: nonProfit/Lead  (this entity)  
+First included in: nonProfit/Lead (this entity)  
 
 #### Properties
 
@@ -6746,7 +6746,7 @@ First included in: nonProfit/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  expectedDuration  attribute are listed below.</summary>
+<summary>List of traits for the expectedDuration attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -6775,7 +6775,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#expectedStartDate name="expectedStartDate">expectedStartDate</a>
 
 Expected start date of the Grant.  
-First included in: nonProfit/Lead  (this entity)  
+First included in: nonProfit/Lead (this entity)  
 
 #### Properties
 
@@ -6784,7 +6784,7 @@ First included in: nonProfit/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  expectedStartDate  attribute are listed below.</summary>
+<summary>List of traits for the expectedStartDate attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -6813,7 +6813,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isRenewal name="isRenewal">isRenewal</a>
 
 Indicates if this is a renewal Grant.  
-First included in: nonProfit/Lead  (this entity)  
+First included in: nonProfit/Lead (this entity)  
 
 #### Properties
 
@@ -6822,7 +6822,7 @@ First included in: nonProfit/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  isRenewal  attribute are listed below.</summary>
+<summary>List of traits for the isRenewal attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -6848,7 +6848,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#leadDocketId name="leadDocketId">leadDocketId</a>
 
 Docket  
-First included in: nonProfit/Lead  (this entity)  
+First included in: nonProfit/Lead (this entity)  
 
 #### Properties
 
@@ -6857,7 +6857,7 @@ First included in: nonProfit/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  leadDocketId  attribute are listed below.</summary>
+<summary>List of traits for the leadDocketId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6893,7 +6893,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#letterofIntentDeadline name="letterofIntentDeadline">letterofIntentDeadline</a>
 
 Deadline to submit notification to donor that organization will be competing for this grant.  
-First included in: nonProfit/Lead  (this entity)  
+First included in: nonProfit/Lead (this entity)  
 
 #### Properties
 
@@ -6902,7 +6902,7 @@ First included in: nonProfit/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  letterofIntentDeadline  attribute are listed below.</summary>
+<summary>List of traits for the letterofIntentDeadline attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -6931,7 +6931,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#organizationalBudget name="organizationalBudget">organizationalBudget</a>
 
 Total budget of the Organization.  
-First included in: nonProfit/Lead  (this entity)  
+First included in: nonProfit/Lead (this entity)  
 
 #### Properties
 
@@ -6940,7 +6940,7 @@ First included in: nonProfit/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  organizationalBudget  attribute are listed below.</summary>
+<summary>List of traits for the organizationalBudget attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -6972,7 +6972,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#organizationalbudgetBase name="organizationalbudgetBase">organizationalbudgetBase</a>
 
 Value of the Organization Budget in base currency.  
-First included in: nonProfit/Lead  (this entity)  
+First included in: nonProfit/Lead (this entity)  
 
 #### Properties
 
@@ -6981,7 +6981,7 @@ First included in: nonProfit/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  organizationalbudgetBase  attribute are listed below.</summary>
+<summary>List of traits for the organizationalbudgetBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -7016,7 +7016,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#organizationType name="organizationType">organizationType</a>
 
 Type of Account.  
-First included in: nonProfit/Lead  (this entity)  
+First included in: nonProfit/Lead (this entity)  
 
 #### Properties
 
@@ -7025,11 +7025,11 @@ First included in: nonProfit/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  organizationType  attribute are listed below.</summary>
+<summary>List of traits for the organizationType attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Heavy Crude</td><td>100000003</td></tr><tr><td>en</td><td>Fossil Fuels</td><td>100000002</td></tr><tr><td>en</td><td>Petroleum</td><td>100000001</td></tr><tr><td>en</td><td>Oil & Gas</td><td>100000000</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Oil & Gas</td><td>100000000</td></tr><tr><td>en</td><td>Petroleum</td><td>100000001</td></tr><tr><td>en</td><td>Fossil Fuels</td><td>100000002</td></tr><tr><td>en</td><td>Heavy Crude</td><td>100000003</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -7056,7 +7056,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#organizationType_display name="organizationType_display">organizationType_display</a>
 
-First included in: nonProfit/Lead  (this entity)  
+First included in: nonProfit/Lead (this entity)  
 
 #### Properties
 
@@ -7065,7 +7065,7 @@ First included in: nonProfit/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  organizationType_display  attribute are listed below.</summary>
+<summary>List of traits for the organizationType_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -7080,7 +7080,7 @@ First included in: nonProfit/Lead  (this entity)
 ### <a href=#requestType name="requestType">requestType</a>
 
 Indicates the type of Inquiry/LOI/Lead.  
-First included in: nonProfit/Lead  (this entity)  
+First included in: nonProfit/Lead (this entity)  
 
 #### Properties
 
@@ -7089,11 +7089,11 @@ First included in: nonProfit/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  requestType  attribute are listed below.</summary>
+<summary>List of traits for the requestType attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Project Support</td><td>100000001</td></tr><tr><td>en</td><td>General Support</td><td>100000000</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>General Support</td><td>100000000</td></tr><tr><td>en</td><td>Project Support</td><td>100000001</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -7120,7 +7120,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#requestType_display name="requestType_display">requestType_display</a>
 
-First included in: nonProfit/Lead  (this entity)  
+First included in: nonProfit/Lead (this entity)  
 
 #### Properties
 
@@ -7129,7 +7129,7 @@ First included in: nonProfit/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  requestType_display  attribute are listed below.</summary>
+<summary>List of traits for the requestType_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -7144,7 +7144,7 @@ First included in: nonProfit/Lead  (this entity)
 ### <a href=#totalProjectBudget name="totalProjectBudget">totalProjectBudget</a>
 
 Budget defined by the Grant Seeker.  
-First included in: nonProfit/Lead  (this entity)  
+First included in: nonProfit/Lead (this entity)  
 
 #### Properties
 
@@ -7153,7 +7153,7 @@ First included in: nonProfit/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  totalProjectBudget  attribute are listed below.</summary>
+<summary>List of traits for the totalProjectBudget attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -7185,7 +7185,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#totalprojectbudgetBase name="totalprojectbudgetBase">totalprojectbudgetBase</a>
 
 Value of the Total Project Budget in base currency.  
-First included in: nonProfit/Lead  (this entity)  
+First included in: nonProfit/Lead (this entity)  
 
 #### Properties
 
@@ -7194,7 +7194,7 @@ First included in: nonProfit/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  totalprojectbudgetBase  attribute are listed below.</summary>
+<summary>List of traits for the totalprojectbudgetBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  

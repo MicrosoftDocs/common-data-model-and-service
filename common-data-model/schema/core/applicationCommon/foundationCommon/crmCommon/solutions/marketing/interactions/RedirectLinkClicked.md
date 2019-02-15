@@ -4,20 +4,20 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/13/2019
+ms.date: 2/15/2019
 ms.author: tpalmer
 ---
 
 # Redirect link clicked
 
   
-Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/RedirectLinkClicked.cdm.json" target="_blank">GitHub</a>.  
+Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/RedirectLinkClicked.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
-Instances of this entity are listed below:  
+Instances of this entity are listed below.  
 
-interactions/RedirectLinkClicked  
+/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/RedirectLinkClicked.cdm.json/RedirectLinkClicked  
 
 ## Traits
 
@@ -74,7 +74,7 @@ interactions/RedirectLinkClicked
 ### <a href=#interactionId name="interactionId">interactionId</a>
 
 Unique identifier of the interaction.  
-First included in: interactions/RedirectLinkClicked  (this entity)  
+First included in: interactions/RedirectLinkClicked (this entity)  
 
 #### Properties
 
@@ -83,7 +83,7 @@ First included in: interactions/RedirectLinkClicked  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  interactionId  attribute are listed below.</summary>
+<summary>List of traits for the interactionId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -111,7 +111,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#contactId name="contactId">contactId</a>
 
 Contact  
-First included in: interactions/RedirectLinkClicked  (this entity)  
+First included in: interactions/RedirectLinkClicked (this entity)  
 
 #### Properties
 
@@ -120,7 +120,7 @@ First included in: interactions/RedirectLinkClicked  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  contactId  attribute are listed below.</summary>
+<summary>List of traits for the contactId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -150,7 +150,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#accountId name="accountId">accountId</a>
 
 Account  
-First included in: interactions/RedirectLinkClicked  (this entity)  
+First included in: interactions/RedirectLinkClicked (this entity)  
 
 #### Properties
 
@@ -159,7 +159,7 @@ First included in: interactions/RedirectLinkClicked  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  accountId  attribute are listed below.</summary>
+<summary>List of traits for the accountId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -189,7 +189,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#messageId name="messageId">messageId</a>
 
 Message  
-First included in: interactions/RedirectLinkClicked  (this entity)  
+First included in: interactions/RedirectLinkClicked (this entity)  
 
 #### Properties
 
@@ -198,7 +198,7 @@ First included in: interactions/RedirectLinkClicked  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  messageId  attribute are listed below.</summary>
+<summary>List of traits for the messageId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -228,7 +228,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#customerJourneyId name="customerJourneyId">customerJourneyId</a>
 
 Customer journey  
-First included in: interactions/RedirectLinkClicked  (this entity)  
+First included in: interactions/RedirectLinkClicked (this entity)  
 
 #### Properties
 
@@ -237,7 +237,7 @@ First included in: interactions/RedirectLinkClicked  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  customerJourneyId  attribute are listed below.</summary>
+<summary>List of traits for the customerJourneyId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -267,7 +267,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#linkId name="linkId">linkId</a>
 
 Link ID  
-First included in: interactions/RedirectLinkClicked  (this entity)  
+First included in: interactions/RedirectLinkClicked (this entity)  
 
 #### Properties
 
@@ -276,7 +276,7 @@ First included in: interactions/RedirectLinkClicked  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  linkId  attribute are listed below.</summary>
+<summary>List of traits for the linkId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -298,7 +298,7 @@ The attribute value may be set to NULL.
 ### <a href=#link name="link">link</a>
 
 Link  
-First included in: interactions/RedirectLinkClicked  (this entity)  
+First included in: interactions/RedirectLinkClicked (this entity)  
 
 #### Properties
 
@@ -307,7 +307,7 @@ First included in: interactions/RedirectLinkClicked  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  link  attribute are listed below.</summary>
+<summary>List of traits for the link attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -329,7 +329,7 @@ The attribute value may be set to NULL.
 ### <a href=#originalUrl name="originalUrl">originalUrl</a>
 
 Original URL  
-First included in: interactions/RedirectLinkClicked  (this entity)  
+First included in: interactions/RedirectLinkClicked (this entity)  
 
 #### Properties
 
@@ -338,7 +338,7 @@ First included in: interactions/RedirectLinkClicked  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  originalUrl  attribute are listed below.</summary>
+<summary>List of traits for the originalUrl attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -360,7 +360,7 @@ The attribute value may be set to NULL.
 ### <a href=#referrerUri name="referrerUri">referrerUri</a>
 
 Referrer URL  
-First included in: interactions/RedirectLinkClicked  (this entity)  
+First included in: interactions/RedirectLinkClicked (this entity)  
 
 #### Properties
 
@@ -369,7 +369,7 @@ First included in: interactions/RedirectLinkClicked  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  referrerUri  attribute are listed below.</summary>
+<summary>List of traits for the referrerUri attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -391,7 +391,7 @@ The attribute value may be set to NULL.
 ### <a href=#customerJourneyIterationId name="customerJourneyIterationId">customerJourneyIterationId</a>
 
 Customer journey iteration ID  
-First included in: interactions/RedirectLinkClicked  (this entity)  
+First included in: interactions/RedirectLinkClicked (this entity)  
 
 #### Properties
 
@@ -400,7 +400,7 @@ First included in: interactions/RedirectLinkClicked  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  customerJourneyIterationId  attribute are listed below.</summary>
+<summary>List of traits for the customerJourneyIterationId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -422,7 +422,7 @@ The attribute value may be set to NULL.
 ### <a href=#sendingId name="sendingId">sendingId</a>
 
 Sending ID  
-First included in: interactions/RedirectLinkClicked  (this entity)  
+First included in: interactions/RedirectLinkClicked (this entity)  
 
 #### Properties
 
@@ -431,7 +431,7 @@ First included in: interactions/RedirectLinkClicked  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  sendingId  attribute are listed below.</summary>
+<summary>List of traits for the sendingId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -453,7 +453,7 @@ The attribute value may be set to NULL.
 ### <a href=#interactionType name="interactionType">interactionType</a>
 
 Interaction type  
-First included in: interactions/RedirectLinkClicked  (this entity)  
+First included in: interactions/RedirectLinkClicked (this entity)  
 
 #### Properties
 
@@ -462,7 +462,7 @@ First included in: interactions/RedirectLinkClicked  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  interactionType  attribute are listed below.</summary>
+<summary>List of traits for the interactionType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -484,7 +484,7 @@ The attribute value may be set to NULL.
 ### <a href=#organizationId name="organizationId">organizationId</a>
 
 Organization ID  
-First included in: interactions/RedirectLinkClicked  (this entity)  
+First included in: interactions/RedirectLinkClicked (this entity)  
 
 #### Properties
 
@@ -493,7 +493,7 @@ First included in: interactions/RedirectLinkClicked  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  organizationId  attribute are listed below.</summary>
+<summary>List of traits for the organizationId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -515,7 +515,7 @@ The attribute value may be set to NULL.
 ### <a href=#timestamp name="timestamp">timestamp</a>
 
 Timestamp  
-First included in: interactions/RedirectLinkClicked  (this entity)  
+First included in: interactions/RedirectLinkClicked (this entity)  
 
 #### Properties
 
@@ -524,7 +524,7 @@ First included in: interactions/RedirectLinkClicked  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  timestamp  attribute are listed below.</summary>
+<summary>List of traits for the timestamp attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -547,7 +547,7 @@ The attribute value may be set to NULL.
 ### <a href=#visitorId name="visitorId">visitorId</a>
 
 Visitor ID  
-First included in: interactions/RedirectLinkClicked  (this entity)  
+First included in: interactions/RedirectLinkClicked (this entity)  
 
 #### Properties
 
@@ -556,7 +556,7 @@ First included in: interactions/RedirectLinkClicked  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  visitorId  attribute are listed below.</summary>
+<summary>List of traits for the visitorId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -578,7 +578,7 @@ The attribute value may be set to NULL.
 ### <a href=#sessionId name="sessionId">sessionId</a>
 
 Session ID  
-First included in: interactions/RedirectLinkClicked  (this entity)  
+First included in: interactions/RedirectLinkClicked (this entity)  
 
 #### Properties
 
@@ -587,7 +587,7 @@ First included in: interactions/RedirectLinkClicked  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  sessionId  attribute are listed below.</summary>
+<summary>List of traits for the sessionId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -609,7 +609,7 @@ The attribute value may be set to NULL.
 ### <a href=#countryIsoCode name="countryIsoCode">countryIsoCode</a>
 
 Country ISO code  
-First included in: interactions/RedirectLinkClicked  (this entity)  
+First included in: interactions/RedirectLinkClicked (this entity)  
 
 #### Properties
 
@@ -618,7 +618,7 @@ First included in: interactions/RedirectLinkClicked  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  countryIsoCode  attribute are listed below.</summary>
+<summary>List of traits for the countryIsoCode attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -640,7 +640,7 @@ The attribute value may be set to NULL.
 ### <a href=#state name="state">state</a>
 
 State  
-First included in: interactions/RedirectLinkClicked  (this entity)  
+First included in: interactions/RedirectLinkClicked (this entity)  
 
 #### Properties
 
@@ -649,7 +649,7 @@ First included in: interactions/RedirectLinkClicked  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  state  attribute are listed below.</summary>
+<summary>List of traits for the state attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -671,7 +671,7 @@ The attribute value may be set to NULL.
 ### <a href=#city name="city">city</a>
 
 City  
-First included in: interactions/RedirectLinkClicked  (this entity)  
+First included in: interactions/RedirectLinkClicked (this entity)  
 
 #### Properties
 
@@ -680,7 +680,7 @@ First included in: interactions/RedirectLinkClicked  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  city  attribute are listed below.</summary>
+<summary>List of traits for the city attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -702,7 +702,7 @@ The attribute value may be set to NULL.
 ### <a href=#postalCode name="postalCode">postalCode</a>
 
 Postal code  
-First included in: interactions/RedirectLinkClicked  (this entity)  
+First included in: interactions/RedirectLinkClicked (this entity)  
 
 #### Properties
 
@@ -711,7 +711,7 @@ First included in: interactions/RedirectLinkClicked  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  postalCode  attribute are listed below.</summary>
+<summary>List of traits for the postalCode attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -733,7 +733,7 @@ The attribute value may be set to NULL.
 ### <a href=#browserId name="browserId">browserId</a>
 
 Browser ID  
-First included in: interactions/RedirectLinkClicked  (this entity)  
+First included in: interactions/RedirectLinkClicked (this entity)  
 
 #### Properties
 
@@ -742,7 +742,7 @@ First included in: interactions/RedirectLinkClicked  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  browserId  attribute are listed below.</summary>
+<summary>List of traits for the browserId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -764,7 +764,7 @@ The attribute value may be set to NULL.
 ### <a href=#browserVersion name="browserVersion">browserVersion</a>
 
 Browser version  
-First included in: interactions/RedirectLinkClicked  (this entity)  
+First included in: interactions/RedirectLinkClicked (this entity)  
 
 #### Properties
 
@@ -773,7 +773,7 @@ First included in: interactions/RedirectLinkClicked  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  browserVersion  attribute are listed below.</summary>
+<summary>List of traits for the browserVersion attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -795,7 +795,7 @@ The attribute value may be set to NULL.
 ### <a href=#operatingSystemId name="operatingSystemId">operatingSystemId</a>
 
 Operating system ID  
-First included in: interactions/RedirectLinkClicked  (this entity)  
+First included in: interactions/RedirectLinkClicked (this entity)  
 
 #### Properties
 
@@ -804,7 +804,7 @@ First included in: interactions/RedirectLinkClicked  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  operatingSystemId  attribute are listed below.</summary>
+<summary>List of traits for the operatingSystemId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -826,7 +826,7 @@ The attribute value may be set to NULL.
 ### <a href=#operatingSystemVersion name="operatingSystemVersion">operatingSystemVersion</a>
 
 Operating system version  
-First included in: interactions/RedirectLinkClicked  (this entity)  
+First included in: interactions/RedirectLinkClicked (this entity)  
 
 #### Properties
 
@@ -835,7 +835,7 @@ First included in: interactions/RedirectLinkClicked  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  operatingSystemVersion  attribute are listed below.</summary>
+<summary>List of traits for the operatingSystemVersion attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -857,7 +857,7 @@ The attribute value may be set to NULL.
 ### <a href=#searchPhrase name="searchPhrase">searchPhrase</a>
 
 Search phrase  
-First included in: interactions/RedirectLinkClicked  (this entity)  
+First included in: interactions/RedirectLinkClicked (this entity)  
 
 #### Properties
 
@@ -866,7 +866,7 @@ First included in: interactions/RedirectLinkClicked  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  searchPhrase  attribute are listed below.</summary>
+<summary>List of traits for the searchPhrase attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -888,7 +888,7 @@ The attribute value may be set to NULL.
 ### <a href=#searchEngineName name="searchEngineName">searchEngineName</a>
 
 Search engine name  
-First included in: interactions/RedirectLinkClicked  (this entity)  
+First included in: interactions/RedirectLinkClicked (this entity)  
 
 #### Properties
 
@@ -897,7 +897,7 @@ First included in: interactions/RedirectLinkClicked  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  searchEngineName  attribute are listed below.</summary>
+<summary>List of traits for the searchEngineName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -919,7 +919,7 @@ The attribute value may be set to NULL.
 ### <a href=#visitDuration name="visitDuration">visitDuration</a>
 
 Visit duration  
-First included in: interactions/RedirectLinkClicked  (this entity)  
+First included in: interactions/RedirectLinkClicked (this entity)  
 
 #### Properties
 
@@ -928,7 +928,7 @@ First included in: interactions/RedirectLinkClicked  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  visitDuration  attribute are listed below.</summary>
+<summary>List of traits for the visitDuration attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -950,7 +950,7 @@ The attribute value may be set to NULL.
 ### <a href=#visitorReturningStatus name="visitorReturningStatus">visitorReturningStatus</a>
 
 Visitor returning status  
-First included in: interactions/RedirectLinkClicked  (this entity)  
+First included in: interactions/RedirectLinkClicked (this entity)  
 
 #### Properties
 
@@ -959,7 +959,7 @@ First included in: interactions/RedirectLinkClicked  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  visitorReturningStatus  attribute are listed below.</summary>
+<summary>List of traits for the visitorReturningStatus attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -981,7 +981,7 @@ The attribute value may be set to NULL.
 ### <a href=#visitorAnonymousStatus name="visitorAnonymousStatus">visitorAnonymousStatus</a>
 
 Visitor anonymous status  
-First included in: interactions/RedirectLinkClicked  (this entity)  
+First included in: interactions/RedirectLinkClicked (this entity)  
 
 #### Properties
 
@@ -990,7 +990,7 @@ First included in: interactions/RedirectLinkClicked  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  visitorAnonymousStatus  attribute are listed below.</summary>
+<summary>List of traits for the visitorAnonymousStatus attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1012,7 +1012,7 @@ The attribute value may be set to NULL.
 ### <a href=#leadId name="leadId">leadId</a>
 
 Lead ID  
-First included in: interactions/RedirectLinkClicked  (this entity)  
+First included in: interactions/RedirectLinkClicked (this entity)  
 
 #### Properties
 
@@ -1021,7 +1021,7 @@ First included in: interactions/RedirectLinkClicked  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  leadId  attribute are listed below.</summary>
+<summary>List of traits for the leadId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  

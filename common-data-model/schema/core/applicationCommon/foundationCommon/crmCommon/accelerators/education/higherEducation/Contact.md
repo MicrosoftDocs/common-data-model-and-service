@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/13/2019
+ms.date: 2/15/2019
 ms.author: tpalmer
 ---
 
@@ -12,16 +12,16 @@ ms.author: tpalmer
 
 Person with whom a business unit has a relationship, such as customer, supplier, and colleague.  
   
-Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Contact.cdm.json" target="_blank">GitHub</a>.  
+Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Contact.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
-Instances of this entity are listed below:  
+Instances of this entity are listed below.  
 
 [applicationCommon/Contact](../../../../../Contact.md "/core/applicationCommon/Contact.cdm.json/Contact")  
 [foundationCommon/Contact](../../../../Contact.md "/core/applicationCommon/foundationCommon/Contact.cdm.json/Contact")  
 [crmCommon/Contact](../../../Contact.md "/core/applicationCommon/foundationCommon/crmCommon/Contact.cdm.json/Contact")  
-higherEducation/Contact  
+/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Contact.cdm.json/Contact  
 [electronicMedicalRecords/Contact](../../healthCare/electronicMedicalRecords/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Contact.cdm.json/Contact")  
 [nonProfit/Contact](../../nonProfit/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Contact.cdm.json/Contact")  
 [marketing/Contact](../../../solutions/marketing/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Contact.cdm.json/Contact")  
@@ -320,7 +320,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOn  attribute are listed below.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -359,7 +359,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  createdBy  attribute are listed below.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -404,7 +404,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -443,7 +443,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -488,7 +488,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -533,7 +533,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -578,7 +578,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -617,7 +617,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -651,7 +651,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerIdType  attribute are listed below.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -680,7 +680,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerId  attribute are listed below.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -716,7 +716,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  owningBusinessUnit  attribute are listed below.</summary>
+<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -758,7 +758,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  owningUser  attribute are listed below.</summary>
+<summary>List of traits for the owningUser attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -803,7 +803,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  owningTeam  attribute are listed below.</summary>
+<summary>List of traits for the owningTeam attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -845,7 +845,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  timeZoneRuleVersionNumber  attribute are listed below.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -883,7 +883,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  UTCConversionTimeZoneCode  attribute are listed below.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -921,7 +921,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -958,7 +958,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  contactId  attribute are listed below.</summary>
+<summary>List of traits for the contactId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -997,7 +997,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  customerSizeCode  attribute are listed below.</summary>
+<summary>List of traits for the customerSizeCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -1037,7 +1037,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  customerSizeCode_display  attribute are listed below.</summary>
+<summary>List of traits for the customerSizeCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1061,7 +1061,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  customerTypeCode  attribute are listed below.</summary>
+<summary>List of traits for the customerTypeCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -1101,7 +1101,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  customerTypeCode_display  attribute are listed below.</summary>
+<summary>List of traits for the customerTypeCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1120,16 +1120,16 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Preferred Method of Contact</td></tr><tr><td>description</td><td>Select the preferred method of contact.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>preferredcontactmethodcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Mail</td><td>5</td></tr><tr><td>en</td><td>Fax</td><td>4</td></tr><tr><td>en</td><td>Phone</td><td>3</td></tr><tr><td>en</td><td>Email</td><td>2</td></tr><tr><td>en</td><td>Any</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Preferred Method of Contact</td></tr><tr><td>description</td><td>Select the preferred method of contact.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>preferredcontactmethodcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Any</td><td>1</td></tr><tr><td>en</td><td>Email</td><td>2</td></tr><tr><td>en</td><td>Phone</td><td>3</td></tr><tr><td>en</td><td>Fax</td><td>4</td></tr><tr><td>en</td><td>Mail</td><td>5</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  preferredContactMethodCode  attribute are listed below.</summary>
+<summary>List of traits for the preferredContactMethodCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Mail</td><td>5</td></tr><tr><td>en</td><td>Fax</td><td>4</td></tr><tr><td>en</td><td>Phone</td><td>3</td></tr><tr><td>en</td><td>Email</td><td>2</td></tr><tr><td>en</td><td>Any</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Any</td><td>1</td></tr><tr><td>en</td><td>Email</td><td>2</td></tr><tr><td>en</td><td>Phone</td><td>3</td></tr><tr><td>en</td><td>Fax</td><td>4</td></tr><tr><td>en</td><td>Mail</td><td>5</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1165,7 +1165,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  preferredContactMethodCode_display  attribute are listed below.</summary>
+<summary>List of traits for the preferredContactMethodCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1189,7 +1189,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  leadSourceCode  attribute are listed below.</summary>
+<summary>List of traits for the leadSourceCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -1229,7 +1229,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  leadSourceCode_display  attribute are listed below.</summary>
+<summary>List of traits for the leadSourceCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1248,16 +1248,16 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Payment Terms</td></tr><tr><td>description</td><td>Select the payment terms to indicate when the customer needs to pay the total amount.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>paymenttermscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Net 60</td><td>4</td></tr><tr><td>en</td><td>Net 45</td><td>3</td></tr><tr><td>en</td><td>2% 10, Net 30</td><td>2</td></tr><tr><td>en</td><td>Net 30</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Payment Terms</td></tr><tr><td>description</td><td>Select the payment terms to indicate when the customer needs to pay the total amount.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>paymenttermscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Net 30</td><td>1</td></tr><tr><td>en</td><td>2% 10, Net 30</td><td>2</td></tr><tr><td>en</td><td>Net 45</td><td>3</td></tr><tr><td>en</td><td>Net 60</td><td>4</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  paymentTermsCode  attribute are listed below.</summary>
+<summary>List of traits for the paymentTermsCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Net 60</td><td>4</td></tr><tr><td>en</td><td>Net 45</td><td>3</td></tr><tr><td>en</td><td>2% 10, Net 30</td><td>2</td></tr><tr><td>en</td><td>Net 30</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Net 30</td><td>1</td></tr><tr><td>en</td><td>2% 10, Net 30</td><td>2</td></tr><tr><td>en</td><td>Net 45</td><td>3</td></tr><tr><td>en</td><td>Net 60</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1293,7 +1293,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  paymentTermsCode_display  attribute are listed below.</summary>
+<summary>List of traits for the paymentTermsCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1317,7 +1317,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  shippingMethodCode  attribute are listed below.</summary>
+<summary>List of traits for the shippingMethodCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -1357,7 +1357,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  shippingMethodCode_display  attribute are listed below.</summary>
+<summary>List of traits for the shippingMethodCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1381,7 +1381,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  accountId  attribute are listed below.</summary>
+<summary>List of traits for the accountId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1423,7 +1423,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  participatesInWorkflow  attribute are listed below.</summary>
+<summary>List of traits for the participatesInWorkflow attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1458,7 +1458,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  isBackofficeCustomer  attribute are listed below.</summary>
+<summary>List of traits for the isBackofficeCustomer attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1493,7 +1493,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  salutation  attribute are listed below.</summary>
+<summary>List of traits for the salutation attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1533,7 +1533,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  jobTitle  attribute are listed below.</summary>
+<summary>List of traits for the jobTitle attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1573,7 +1573,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  firstName  attribute are listed below.</summary>
+<summary>List of traits for the firstName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1614,7 +1614,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  department  attribute are listed below.</summary>
+<summary>List of traits for the department attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1654,7 +1654,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  nickName  attribute are listed below.</summary>
+<summary>List of traits for the nickName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1695,7 +1695,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  middleName  attribute are listed below.</summary>
+<summary>List of traits for the middleName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1736,7 +1736,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  lastName  attribute are listed below.</summary>
+<summary>List of traits for the lastName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1777,7 +1777,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  suffix  attribute are listed below.</summary>
+<summary>List of traits for the suffix attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1817,7 +1817,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  yomiFirstName  attribute are listed below.</summary>
+<summary>List of traits for the yomiFirstName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1859,7 +1859,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  fullName  attribute are listed below.</summary>
+<summary>List of traits for the fullName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1900,7 +1900,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  yomiMiddleName  attribute are listed below.</summary>
+<summary>List of traits for the yomiMiddleName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1942,7 +1942,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  yomiLastName  attribute are listed below.</summary>
+<summary>List of traits for the yomiLastName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1984,7 +1984,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  anniversary  attribute are listed below.</summary>
+<summary>List of traits for the anniversary attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -2022,7 +2022,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  birthDate  attribute are listed below.</summary>
+<summary>List of traits for the birthDate attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -2060,7 +2060,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  governmentId  attribute are listed below.</summary>
+<summary>List of traits for the governmentId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2101,7 +2101,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  yomiFullName  attribute are listed below.</summary>
+<summary>List of traits for the yomiFullName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2143,7 +2143,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  description  attribute are listed below.</summary>
+<summary>List of traits for the description attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2183,7 +2183,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  employeeId  attribute are listed below.</summary>
+<summary>List of traits for the employeeId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2218,16 +2218,16 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Gender</td></tr><tr><td>description</td><td>Select the contact's gender to make sure the contact is addressed correctly in sales calls, email, and marketing campaigns.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>gendercode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Female</td><td>2</td></tr><tr><td>en</td><td>Male</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Gender</td></tr><tr><td>description</td><td>Select the contact's gender to make sure the contact is addressed correctly in sales calls, email, and marketing campaigns.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>gendercode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Male</td><td>1</td></tr><tr><td>en</td><td>Female</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  genderCode  attribute are listed below.</summary>
+<summary>List of traits for the genderCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Female</td><td>2</td></tr><tr><td>en</td><td>Male</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Male</td><td>1</td></tr><tr><td>en</td><td>Female</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2263,7 +2263,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  genderCode_display  attribute are listed below.</summary>
+<summary>List of traits for the genderCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2287,7 +2287,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  annualIncome  attribute are listed below.</summary>
+<summary>List of traits for the annualIncome attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -2328,7 +2328,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  hasChildrenCode  attribute are listed below.</summary>
+<summary>List of traits for the hasChildrenCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -2368,7 +2368,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  hasChildrenCode_display  attribute are listed below.</summary>
+<summary>List of traits for the hasChildrenCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2392,7 +2392,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  educationCode  attribute are listed below.</summary>
+<summary>List of traits for the educationCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -2432,7 +2432,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  educationCode_display  attribute are listed below.</summary>
+<summary>List of traits for the educationCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2456,7 +2456,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  webSiteUrl  attribute are listed below.</summary>
+<summary>List of traits for the webSiteUrl attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2492,16 +2492,16 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Marital Status</td></tr><tr><td>description</td><td>Select the marital status of the contact for reference in follow-up phone calls and other communications.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>familystatuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Widowed</td><td>4</td></tr><tr><td>en</td><td>Divorced</td><td>3</td></tr><tr><td>en</td><td>Married</td><td>2</td></tr><tr><td>en</td><td>Single</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Marital Status</td></tr><tr><td>description</td><td>Select the marital status of the contact for reference in follow-up phone calls and other communications.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>familystatuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Single</td><td>1</td></tr><tr><td>en</td><td>Married</td><td>2</td></tr><tr><td>en</td><td>Divorced</td><td>3</td></tr><tr><td>en</td><td>Widowed</td><td>4</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  familyStatusCode  attribute are listed below.</summary>
+<summary>List of traits for the familyStatusCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Widowed</td><td>4</td></tr><tr><td>en</td><td>Divorced</td><td>3</td></tr><tr><td>en</td><td>Married</td><td>2</td></tr><tr><td>en</td><td>Single</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Single</td><td>1</td></tr><tr><td>en</td><td>Married</td><td>2</td></tr><tr><td>en</td><td>Divorced</td><td>3</td></tr><tr><td>en</td><td>Widowed</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2537,7 +2537,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  familyStatusCode_display  attribute are listed below.</summary>
+<summary>List of traits for the familyStatusCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2561,7 +2561,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  ftpSiteUrl  attribute are listed below.</summary>
+<summary>List of traits for the ftpSiteUrl attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2602,7 +2602,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  EMailAddress1  attribute are listed below.</summary>
+<summary>List of traits for the EMailAddress1 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2643,7 +2643,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  spousesName  attribute are listed below.</summary>
+<summary>List of traits for the spousesName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2684,7 +2684,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  assistantName  attribute are listed below.</summary>
+<summary>List of traits for the assistantName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2725,7 +2725,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  EMailAddress2  attribute are listed below.</summary>
+<summary>List of traits for the EMailAddress2 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2766,7 +2766,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  assistantPhone  attribute are listed below.</summary>
+<summary>List of traits for the assistantPhone attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2807,7 +2807,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  EMailAddress3  attribute are listed below.</summary>
+<summary>List of traits for the EMailAddress3 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2848,7 +2848,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  doNotPhone  attribute are listed below.</summary>
+<summary>List of traits for the doNotPhone attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -2883,7 +2883,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  managerName  attribute are listed below.</summary>
+<summary>List of traits for the managerName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2924,7 +2924,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  managerPhone  attribute are listed below.</summary>
+<summary>List of traits for the managerPhone attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2965,7 +2965,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  doNotFax  attribute are listed below.</summary>
+<summary>List of traits for the doNotFax attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -3000,7 +3000,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  doNotEMail  attribute are listed below.</summary>
+<summary>List of traits for the doNotEMail attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -3035,7 +3035,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  doNotPostalMail  attribute are listed below.</summary>
+<summary>List of traits for the doNotPostalMail attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -3070,7 +3070,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  doNotBulkEMail  attribute are listed below.</summary>
+<summary>List of traits for the doNotBulkEMail attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -3105,7 +3105,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  doNotBulkPostalMail  attribute are listed below.</summary>
+<summary>List of traits for the doNotBulkPostalMail attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -3135,16 +3135,16 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Role</td></tr><tr><td>description</td><td>Select the contact's role within the company or sales process, such as decision maker, employee, or influencer.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>accountrolecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Influencer</td><td>3</td></tr><tr><td>en</td><td>Employee</td><td>2</td></tr><tr><td>en</td><td>Decision Maker</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Role</td></tr><tr><td>description</td><td>Select the contact's role within the company or sales process, such as decision maker, employee, or influencer.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>accountrolecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Decision Maker</td><td>1</td></tr><tr><td>en</td><td>Employee</td><td>2</td></tr><tr><td>en</td><td>Influencer</td><td>3</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  accountRoleCode  attribute are listed below.</summary>
+<summary>List of traits for the accountRoleCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Influencer</td><td>3</td></tr><tr><td>en</td><td>Employee</td><td>2</td></tr><tr><td>en</td><td>Decision Maker</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Decision Maker</td><td>1</td></tr><tr><td>en</td><td>Employee</td><td>2</td></tr><tr><td>en</td><td>Influencer</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3180,7 +3180,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  accountRoleCode_display  attribute are listed below.</summary>
+<summary>List of traits for the accountRoleCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3204,7 +3204,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  territoryCode  attribute are listed below.</summary>
+<summary>List of traits for the territoryCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -3244,7 +3244,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  territoryCode_display  attribute are listed below.</summary>
+<summary>List of traits for the territoryCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3268,7 +3268,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  creditLimit  attribute are listed below.</summary>
+<summary>List of traits for the creditLimit attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3309,7 +3309,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  creditOnHold  attribute are listed below.</summary>
+<summary>List of traits for the creditOnHold attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -3344,7 +3344,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  numberOfChildren  attribute are listed below.</summary>
+<summary>List of traits for the numberOfChildren attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -3382,7 +3382,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  childrensNames  attribute are listed below.</summary>
+<summary>List of traits for the childrensNames attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3423,7 +3423,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  mobilePhone  attribute are listed below.</summary>
+<summary>List of traits for the mobilePhone attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3464,7 +3464,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  pager  attribute are listed below.</summary>
+<summary>List of traits for the pager attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3504,7 +3504,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  telephone1  attribute are listed below.</summary>
+<summary>List of traits for the telephone1 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3545,7 +3545,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  telephone2  attribute are listed below.</summary>
+<summary>List of traits for the telephone2 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3586,7 +3586,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  telephone3  attribute are listed below.</summary>
+<summary>List of traits for the telephone3 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3627,7 +3627,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  fax  attribute are listed below.</summary>
+<summary>List of traits for the fax attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3667,7 +3667,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  aging30  attribute are listed below.</summary>
+<summary>List of traits for the aging30 attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3703,16 +3703,16 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Shows whether the contact is active or inactive. Inactive contacts are read-only and can't be edited unless they are reactivated.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr><tr><td>en</td><td>Active</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Shows whether the contact is active or inactive. Inactive contacts are read-only and can't be edited unless they are reactivated.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode  attribute are listed below.</summary>
+<summary>List of traits for the stateCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr><tr><td>en</td><td>Active</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3748,7 +3748,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode_display  attribute are listed below.</summary>
+<summary>List of traits for the stateCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3772,7 +3772,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  aging60  attribute are listed below.</summary>
+<summary>List of traits for the aging60 attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3808,16 +3808,16 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the contact's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the contact's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode  attribute are listed below.</summary>
+<summary>List of traits for the statusCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3856,7 +3856,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode_display  attribute are listed below.</summary>
+<summary>List of traits for the statusCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3880,7 +3880,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  aging90  attribute are listed below.</summary>
+<summary>List of traits for the aging90 attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3921,7 +3921,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  parentContactId  attribute are listed below.</summary>
+<summary>List of traits for the parentContactId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3963,7 +3963,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address1AddressId  attribute are listed below.</summary>
+<summary>List of traits for the address1AddressId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3997,16 +3997,16 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Address Type</td></tr><tr><td>description</td><td>Select the address type, such as primary or billing.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>addresstypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Other</td><td>4</td></tr><tr><td>en</td><td>Primary</td><td>3</td></tr><tr><td>en</td><td>Ship To</td><td>2</td></tr><tr><td>en</td><td>Bill To</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Address Type</td></tr><tr><td>description</td><td>Select the address type, such as primary or billing.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>addresstypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Bill To</td><td>1</td></tr><tr><td>en</td><td>Ship To</td><td>2</td></tr><tr><td>en</td><td>Primary</td><td>3</td></tr><tr><td>en</td><td>Other</td><td>4</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  address1AddressTypeCode  attribute are listed below.</summary>
+<summary>List of traits for the address1AddressTypeCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Other</td><td>4</td></tr><tr><td>en</td><td>Primary</td><td>3</td></tr><tr><td>en</td><td>Ship To</td><td>2</td></tr><tr><td>en</td><td>Bill To</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Bill To</td><td>1</td></tr><tr><td>en</td><td>Ship To</td><td>2</td></tr><tr><td>en</td><td>Primary</td><td>3</td></tr><tr><td>en</td><td>Other</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -4042,7 +4042,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address1AddressTypeCode_display  attribute are listed below.</summary>
+<summary>List of traits for the address1AddressTypeCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4066,7 +4066,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Name  attribute are listed below.</summary>
+<summary>List of traits for the address1Name attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4107,7 +4107,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address1PrimaryContactName  attribute are listed below.</summary>
+<summary>List of traits for the address1PrimaryContactName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4148,7 +4148,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Line1  attribute are listed below.</summary>
+<summary>List of traits for the address1Line1 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4189,7 +4189,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Line2  attribute are listed below.</summary>
+<summary>List of traits for the address1Line2 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4230,7 +4230,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Line3  attribute are listed below.</summary>
+<summary>List of traits for the address1Line3 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4271,7 +4271,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address1City  attribute are listed below.</summary>
+<summary>List of traits for the address1City attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4312,7 +4312,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address1StateOrProvince  attribute are listed below.</summary>
+<summary>List of traits for the address1StateOrProvince attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4353,7 +4353,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address1County  attribute are listed below.</summary>
+<summary>List of traits for the address1County attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4394,7 +4394,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Country  attribute are listed below.</summary>
+<summary>List of traits for the address1Country attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4435,7 +4435,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address1PostOfficeBox  attribute are listed below.</summary>
+<summary>List of traits for the address1PostOfficeBox attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4475,7 +4475,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address1PostalCode  attribute are listed below.</summary>
+<summary>List of traits for the address1PostalCode attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4516,7 +4516,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address1UTCOffset  attribute are listed below.</summary>
+<summary>List of traits for the address1UTCOffset attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4552,16 +4552,16 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Freight Terms</td></tr><tr><td>description</td><td>Select the freight terms to make sure shipping charges are processed correctly.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>freighttermscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No Charge</td><td>2</td></tr><tr><td>en</td><td>FOB</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Freight Terms</td></tr><tr><td>description</td><td>Select the freight terms to make sure shipping charges are processed correctly.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>freighttermscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>FOB</td><td>1</td></tr><tr><td>en</td><td>No Charge</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  address1FreightTermsCode  attribute are listed below.</summary>
+<summary>List of traits for the address1FreightTermsCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No Charge</td><td>2</td></tr><tr><td>en</td><td>FOB</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>FOB</td><td>1</td></tr><tr><td>en</td><td>No Charge</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -4597,7 +4597,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address1FreightTermsCode_display  attribute are listed below.</summary>
+<summary>List of traits for the address1FreightTermsCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4621,7 +4621,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address1UPSZone  attribute are listed below.</summary>
+<summary>List of traits for the address1UPSZone attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4661,7 +4661,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Latitude  attribute are listed below.</summary>
+<summary>List of traits for the address1Latitude attribute are listed below.</summary>
 
 - **is.dataFormat.floatingPoint**  
 - **is.dataFormat.big**  
@@ -4701,7 +4701,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Telephone1  attribute are listed below.</summary>
+<summary>List of traits for the address1Telephone1 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4742,7 +4742,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Longitude  attribute are listed below.</summary>
+<summary>List of traits for the address1Longitude attribute are listed below.</summary>
 
 - **is.dataFormat.floatingPoint**  
 - **is.dataFormat.big**  
@@ -4777,16 +4777,16 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Shipping Method</td></tr><tr><td>description</td><td>Select a shipping method for deliveries sent to this address.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>shippingmethodcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Will Call</td><td>7</td></tr><tr><td>en</td><td>Full Load</td><td>6</td></tr><tr><td>en</td><td>Postal Mail</td><td>5</td></tr><tr><td>en</td><td>UPS</td><td>4</td></tr><tr><td>en</td><td>FedEx</td><td>3</td></tr><tr><td>en</td><td>DHL</td><td>2</td></tr><tr><td>en</td><td>Airborne</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Shipping Method</td></tr><tr><td>description</td><td>Select a shipping method for deliveries sent to this address.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>shippingmethodcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Airborne</td><td>1</td></tr><tr><td>en</td><td>DHL</td><td>2</td></tr><tr><td>en</td><td>FedEx</td><td>3</td></tr><tr><td>en</td><td>UPS</td><td>4</td></tr><tr><td>en</td><td>Postal Mail</td><td>5</td></tr><tr><td>en</td><td>Full Load</td><td>6</td></tr><tr><td>en</td><td>Will Call</td><td>7</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  address1ShippingMethodCode  attribute are listed below.</summary>
+<summary>List of traits for the address1ShippingMethodCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Will Call</td><td>7</td></tr><tr><td>en</td><td>Full Load</td><td>6</td></tr><tr><td>en</td><td>Postal Mail</td><td>5</td></tr><tr><td>en</td><td>UPS</td><td>4</td></tr><tr><td>en</td><td>FedEx</td><td>3</td></tr><tr><td>en</td><td>DHL</td><td>2</td></tr><tr><td>en</td><td>Airborne</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Airborne</td><td>1</td></tr><tr><td>en</td><td>DHL</td><td>2</td></tr><tr><td>en</td><td>FedEx</td><td>3</td></tr><tr><td>en</td><td>UPS</td><td>4</td></tr><tr><td>en</td><td>Postal Mail</td><td>5</td></tr><tr><td>en</td><td>Full Load</td><td>6</td></tr><tr><td>en</td><td>Will Call</td><td>7</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -4822,7 +4822,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address1ShippingMethodCode_display  attribute are listed below.</summary>
+<summary>List of traits for the address1ShippingMethodCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4846,7 +4846,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Telephone2  attribute are listed below.</summary>
+<summary>List of traits for the address1Telephone2 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4887,7 +4887,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Telephone3  attribute are listed below.</summary>
+<summary>List of traits for the address1Telephone3 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4928,7 +4928,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Fax  attribute are listed below.</summary>
+<summary>List of traits for the address1Fax attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4969,7 +4969,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Composite  attribute are listed below.</summary>
+<summary>List of traits for the address1Composite attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5010,7 +5010,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address2AddressId  attribute are listed below.</summary>
+<summary>List of traits for the address2AddressId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5044,16 +5044,16 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Address Type</td></tr><tr><td>description</td><td>Select the address type, such as primary or billing.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>addresstypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Other</td><td>4</td></tr><tr><td>en</td><td>Primary</td><td>3</td></tr><tr><td>en</td><td>Ship To</td><td>2</td></tr><tr><td>en</td><td>Bill To</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Address Type</td></tr><tr><td>description</td><td>Select the address type, such as primary or billing.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>addresstypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Bill To</td><td>1</td></tr><tr><td>en</td><td>Ship To</td><td>2</td></tr><tr><td>en</td><td>Primary</td><td>3</td></tr><tr><td>en</td><td>Other</td><td>4</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  address2AddressTypeCode  attribute are listed below.</summary>
+<summary>List of traits for the address2AddressTypeCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Other</td><td>4</td></tr><tr><td>en</td><td>Primary</td><td>3</td></tr><tr><td>en</td><td>Ship To</td><td>2</td></tr><tr><td>en</td><td>Bill To</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Bill To</td><td>1</td></tr><tr><td>en</td><td>Ship To</td><td>2</td></tr><tr><td>en</td><td>Primary</td><td>3</td></tr><tr><td>en</td><td>Other</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -5089,7 +5089,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address2AddressTypeCode_display  attribute are listed below.</summary>
+<summary>List of traits for the address2AddressTypeCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5113,7 +5113,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Name  attribute are listed below.</summary>
+<summary>List of traits for the address2Name attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5154,7 +5154,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address2PrimaryContactName  attribute are listed below.</summary>
+<summary>List of traits for the address2PrimaryContactName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5195,7 +5195,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Line1  attribute are listed below.</summary>
+<summary>List of traits for the address2Line1 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5236,7 +5236,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Line2  attribute are listed below.</summary>
+<summary>List of traits for the address2Line2 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5277,7 +5277,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Line3  attribute are listed below.</summary>
+<summary>List of traits for the address2Line3 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5318,7 +5318,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address2City  attribute are listed below.</summary>
+<summary>List of traits for the address2City attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5359,7 +5359,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address2StateOrProvince  attribute are listed below.</summary>
+<summary>List of traits for the address2StateOrProvince attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5400,7 +5400,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address2County  attribute are listed below.</summary>
+<summary>List of traits for the address2County attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5441,7 +5441,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Country  attribute are listed below.</summary>
+<summary>List of traits for the address2Country attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5482,7 +5482,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address2PostOfficeBox  attribute are listed below.</summary>
+<summary>List of traits for the address2PostOfficeBox attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5522,7 +5522,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address2PostalCode  attribute are listed below.</summary>
+<summary>List of traits for the address2PostalCode attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5563,7 +5563,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address2UTCOffset  attribute are listed below.</summary>
+<summary>List of traits for the address2UTCOffset attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5599,16 +5599,16 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Freight Terms</td></tr><tr><td>description</td><td>Select the freight terms to make sure shipping charges are processed correctly.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>freighttermscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No Charge</td><td>2</td></tr><tr><td>en</td><td>FOB</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Freight Terms</td></tr><tr><td>description</td><td>Select the freight terms to make sure shipping charges are processed correctly.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>freighttermscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>FOB</td><td>1</td></tr><tr><td>en</td><td>No Charge</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  address2FreightTermsCode  attribute are listed below.</summary>
+<summary>List of traits for the address2FreightTermsCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No Charge</td><td>2</td></tr><tr><td>en</td><td>FOB</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>FOB</td><td>1</td></tr><tr><td>en</td><td>No Charge</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -5644,7 +5644,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address2FreightTermsCode_display  attribute are listed below.</summary>
+<summary>List of traits for the address2FreightTermsCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5668,7 +5668,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address2UPSZone  attribute are listed below.</summary>
+<summary>List of traits for the address2UPSZone attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5708,7 +5708,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Latitude  attribute are listed below.</summary>
+<summary>List of traits for the address2Latitude attribute are listed below.</summary>
 
 - **is.dataFormat.floatingPoint**  
 - **is.dataFormat.big**  
@@ -5748,7 +5748,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Telephone1  attribute are listed below.</summary>
+<summary>List of traits for the address2Telephone1 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5789,7 +5789,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Longitude  attribute are listed below.</summary>
+<summary>List of traits for the address2Longitude attribute are listed below.</summary>
 
 - **is.dataFormat.floatingPoint**  
 - **is.dataFormat.big**  
@@ -5824,16 +5824,16 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Shipping Method</td></tr><tr><td>description</td><td>Select a shipping method for deliveries sent to this address.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>shippingmethodcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Will Call</td><td>7</td></tr><tr><td>en</td><td>Full Load</td><td>6</td></tr><tr><td>en</td><td>Postal Mail</td><td>5</td></tr><tr><td>en</td><td>UPS</td><td>4</td></tr><tr><td>en</td><td>FedEx</td><td>3</td></tr><tr><td>en</td><td>DHL</td><td>2</td></tr><tr><td>en</td><td>Airborne</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Shipping Method</td></tr><tr><td>description</td><td>Select a shipping method for deliveries sent to this address.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>shippingmethodcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Airborne</td><td>1</td></tr><tr><td>en</td><td>DHL</td><td>2</td></tr><tr><td>en</td><td>FedEx</td><td>3</td></tr><tr><td>en</td><td>UPS</td><td>4</td></tr><tr><td>en</td><td>Postal Mail</td><td>5</td></tr><tr><td>en</td><td>Full Load</td><td>6</td></tr><tr><td>en</td><td>Will Call</td><td>7</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  address2ShippingMethodCode  attribute are listed below.</summary>
+<summary>List of traits for the address2ShippingMethodCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Will Call</td><td>7</td></tr><tr><td>en</td><td>Full Load</td><td>6</td></tr><tr><td>en</td><td>Postal Mail</td><td>5</td></tr><tr><td>en</td><td>UPS</td><td>4</td></tr><tr><td>en</td><td>FedEx</td><td>3</td></tr><tr><td>en</td><td>DHL</td><td>2</td></tr><tr><td>en</td><td>Airborne</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Airborne</td><td>1</td></tr><tr><td>en</td><td>DHL</td><td>2</td></tr><tr><td>en</td><td>FedEx</td><td>3</td></tr><tr><td>en</td><td>UPS</td><td>4</td></tr><tr><td>en</td><td>Postal Mail</td><td>5</td></tr><tr><td>en</td><td>Full Load</td><td>6</td></tr><tr><td>en</td><td>Will Call</td><td>7</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -5869,7 +5869,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address2ShippingMethodCode_display  attribute are listed below.</summary>
+<summary>List of traits for the address2ShippingMethodCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5893,7 +5893,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Telephone2  attribute are listed below.</summary>
+<summary>List of traits for the address2Telephone2 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5934,7 +5934,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Telephone3  attribute are listed below.</summary>
+<summary>List of traits for the address2Telephone3 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5975,7 +5975,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Fax  attribute are listed below.</summary>
+<summary>List of traits for the address2Fax attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6016,7 +6016,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Composite  attribute are listed below.</summary>
+<summary>List of traits for the address2Composite attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6057,7 +6057,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address3AddressId  attribute are listed below.</summary>
+<summary>List of traits for the address3AddressId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6091,16 +6091,16 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Address Type</td></tr><tr><td>description</td><td>Select the address type, such as primary or billing.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>addresstypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Other</td><td>4</td></tr><tr><td>en</td><td>Primary</td><td>3</td></tr><tr><td>en</td><td>Ship To</td><td>2</td></tr><tr><td>en</td><td>Bill To</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Address Type</td></tr><tr><td>description</td><td>Select the address type, such as primary or billing.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>addresstypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Bill To</td><td>1</td></tr><tr><td>en</td><td>Ship To</td><td>2</td></tr><tr><td>en</td><td>Primary</td><td>3</td></tr><tr><td>en</td><td>Other</td><td>4</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  address3AddressTypeCode  attribute are listed below.</summary>
+<summary>List of traits for the address3AddressTypeCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Other</td><td>4</td></tr><tr><td>en</td><td>Primary</td><td>3</td></tr><tr><td>en</td><td>Ship To</td><td>2</td></tr><tr><td>en</td><td>Bill To</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Bill To</td><td>1</td></tr><tr><td>en</td><td>Ship To</td><td>2</td></tr><tr><td>en</td><td>Primary</td><td>3</td></tr><tr><td>en</td><td>Other</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -6136,7 +6136,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address3AddressTypeCode_display  attribute are listed below.</summary>
+<summary>List of traits for the address3AddressTypeCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6160,7 +6160,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address3Name  attribute are listed below.</summary>
+<summary>List of traits for the address3Name attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6201,7 +6201,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address3PrimaryContactName  attribute are listed below.</summary>
+<summary>List of traits for the address3PrimaryContactName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6242,7 +6242,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address3Line1  attribute are listed below.</summary>
+<summary>List of traits for the address3Line1 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6283,7 +6283,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address3Line2  attribute are listed below.</summary>
+<summary>List of traits for the address3Line2 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6324,7 +6324,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address3Line3  attribute are listed below.</summary>
+<summary>List of traits for the address3Line3 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6365,7 +6365,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address3City  attribute are listed below.</summary>
+<summary>List of traits for the address3City attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6406,7 +6406,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address3StateOrProvince  attribute are listed below.</summary>
+<summary>List of traits for the address3StateOrProvince attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6447,7 +6447,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address3County  attribute are listed below.</summary>
+<summary>List of traits for the address3County attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6488,7 +6488,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address3Country  attribute are listed below.</summary>
+<summary>List of traits for the address3Country attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6529,7 +6529,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address3PostOfficeBox  attribute are listed below.</summary>
+<summary>List of traits for the address3PostOfficeBox attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6569,7 +6569,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address3PostalCode  attribute are listed below.</summary>
+<summary>List of traits for the address3PostalCode attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6610,7 +6610,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address3UTCOffset  attribute are listed below.</summary>
+<summary>List of traits for the address3UTCOffset attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6646,16 +6646,16 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Freight Terms</td></tr><tr><td>description</td><td>Select the freight terms to make sure shipping charges are processed correctly.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>freighttermscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No Charge</td><td>2</td></tr><tr><td>en</td><td>FOB</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Freight Terms</td></tr><tr><td>description</td><td>Select the freight terms to make sure shipping charges are processed correctly.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>freighttermscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>FOB</td><td>1</td></tr><tr><td>en</td><td>No Charge</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  address3FreightTermsCode  attribute are listed below.</summary>
+<summary>List of traits for the address3FreightTermsCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No Charge</td><td>2</td></tr><tr><td>en</td><td>FOB</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>FOB</td><td>1</td></tr><tr><td>en</td><td>No Charge</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -6691,7 +6691,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address3FreightTermsCode_display  attribute are listed below.</summary>
+<summary>List of traits for the address3FreightTermsCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6715,7 +6715,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address3UPSZone  attribute are listed below.</summary>
+<summary>List of traits for the address3UPSZone attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6755,7 +6755,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address3Latitude  attribute are listed below.</summary>
+<summary>List of traits for the address3Latitude attribute are listed below.</summary>
 
 - **is.dataFormat.floatingPoint**  
 - **is.dataFormat.big**  
@@ -6795,7 +6795,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address3Telephone1  attribute are listed below.</summary>
+<summary>List of traits for the address3Telephone1 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6836,7 +6836,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address3Longitude  attribute are listed below.</summary>
+<summary>List of traits for the address3Longitude attribute are listed below.</summary>
 
 - **is.dataFormat.floatingPoint**  
 - **is.dataFormat.big**  
@@ -6871,16 +6871,16 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Shipping Method</td></tr><tr><td>description</td><td>Select a shipping method for deliveries sent to this address.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>shippingmethodcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Will Call</td><td>7</td></tr><tr><td>en</td><td>Full Load</td><td>6</td></tr><tr><td>en</td><td>Postal Mail</td><td>5</td></tr><tr><td>en</td><td>UPS</td><td>4</td></tr><tr><td>en</td><td>FedEx</td><td>3</td></tr><tr><td>en</td><td>DHL</td><td>2</td></tr><tr><td>en</td><td>Airborne</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Shipping Method</td></tr><tr><td>description</td><td>Select a shipping method for deliveries sent to this address.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>shippingmethodcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Airborne</td><td>1</td></tr><tr><td>en</td><td>DHL</td><td>2</td></tr><tr><td>en</td><td>FedEx</td><td>3</td></tr><tr><td>en</td><td>UPS</td><td>4</td></tr><tr><td>en</td><td>Postal Mail</td><td>5</td></tr><tr><td>en</td><td>Full Load</td><td>6</td></tr><tr><td>en</td><td>Will Call</td><td>7</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  address3ShippingMethodCode  attribute are listed below.</summary>
+<summary>List of traits for the address3ShippingMethodCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Will Call</td><td>7</td></tr><tr><td>en</td><td>Full Load</td><td>6</td></tr><tr><td>en</td><td>Postal Mail</td><td>5</td></tr><tr><td>en</td><td>UPS</td><td>4</td></tr><tr><td>en</td><td>FedEx</td><td>3</td></tr><tr><td>en</td><td>DHL</td><td>2</td></tr><tr><td>en</td><td>Airborne</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Airborne</td><td>1</td></tr><tr><td>en</td><td>DHL</td><td>2</td></tr><tr><td>en</td><td>FedEx</td><td>3</td></tr><tr><td>en</td><td>UPS</td><td>4</td></tr><tr><td>en</td><td>Postal Mail</td><td>5</td></tr><tr><td>en</td><td>Full Load</td><td>6</td></tr><tr><td>en</td><td>Will Call</td><td>7</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -6916,7 +6916,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address3ShippingMethodCode_display  attribute are listed below.</summary>
+<summary>List of traits for the address3ShippingMethodCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6940,7 +6940,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address3Telephone2  attribute are listed below.</summary>
+<summary>List of traits for the address3Telephone2 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6981,7 +6981,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address3Telephone3  attribute are listed below.</summary>
+<summary>List of traits for the address3Telephone3 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -7022,7 +7022,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address3Fax  attribute are listed below.</summary>
+<summary>List of traits for the address3Fax attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -7063,7 +7063,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  address3Composite  attribute are listed below.</summary>
+<summary>List of traits for the address3Composite attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -7104,7 +7104,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  preferredSystemUserId  attribute are listed below.</summary>
+<summary>List of traits for the preferredSystemUserId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -7146,7 +7146,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  masterId  attribute are listed below.</summary>
+<summary>List of traits for the masterId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -7183,16 +7183,16 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Preferred Day</td></tr><tr><td>description</td><td>Select the preferred day of the week for service appointments.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>preferredappointmentdaycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Saturday</td><td>6</td></tr><tr><td>en</td><td>Friday</td><td>5</td></tr><tr><td>en</td><td>Thursday</td><td>4</td></tr><tr><td>en</td><td>Wednesday</td><td>3</td></tr><tr><td>en</td><td>Tuesday</td><td>2</td></tr><tr><td>en</td><td>Monday</td><td>1</td></tr><tr><td>en</td><td>Sunday</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Preferred Day</td></tr><tr><td>description</td><td>Select the preferred day of the week for service appointments.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>preferredappointmentdaycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Sunday</td><td>0</td></tr><tr><td>en</td><td>Monday</td><td>1</td></tr><tr><td>en</td><td>Tuesday</td><td>2</td></tr><tr><td>en</td><td>Wednesday</td><td>3</td></tr><tr><td>en</td><td>Thursday</td><td>4</td></tr><tr><td>en</td><td>Friday</td><td>5</td></tr><tr><td>en</td><td>Saturday</td><td>6</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  preferredAppointmentDayCode  attribute are listed below.</summary>
+<summary>List of traits for the preferredAppointmentDayCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Saturday</td><td>6</td></tr><tr><td>en</td><td>Friday</td><td>5</td></tr><tr><td>en</td><td>Thursday</td><td>4</td></tr><tr><td>en</td><td>Wednesday</td><td>3</td></tr><tr><td>en</td><td>Tuesday</td><td>2</td></tr><tr><td>en</td><td>Monday</td><td>1</td></tr><tr><td>en</td><td>Sunday</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Sunday</td><td>0</td></tr><tr><td>en</td><td>Monday</td><td>1</td></tr><tr><td>en</td><td>Tuesday</td><td>2</td></tr><tr><td>en</td><td>Wednesday</td><td>3</td></tr><tr><td>en</td><td>Thursday</td><td>4</td></tr><tr><td>en</td><td>Friday</td><td>5</td></tr><tr><td>en</td><td>Saturday</td><td>6</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -7228,7 +7228,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  preferredAppointmentDayCode_display  attribute are listed below.</summary>
+<summary>List of traits for the preferredAppointmentDayCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -7247,16 +7247,16 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Preferred Time</td></tr><tr><td>description</td><td>Select the preferred time of day for service appointments.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>preferredappointmenttimecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Evening</td><td>3</td></tr><tr><td>en</td><td>Afternoon</td><td>2</td></tr><tr><td>en</td><td>Morning</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Preferred Time</td></tr><tr><td>description</td><td>Select the preferred time of day for service appointments.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>preferredappointmenttimecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Morning</td><td>1</td></tr><tr><td>en</td><td>Afternoon</td><td>2</td></tr><tr><td>en</td><td>Evening</td><td>3</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  preferredAppointmentTimeCode  attribute are listed below.</summary>
+<summary>List of traits for the preferredAppointmentTimeCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Evening</td><td>3</td></tr><tr><td>en</td><td>Afternoon</td><td>2</td></tr><tr><td>en</td><td>Morning</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Morning</td><td>1</td></tr><tr><td>en</td><td>Afternoon</td><td>2</td></tr><tr><td>en</td><td>Evening</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -7292,7 +7292,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  preferredAppointmentTimeCode_display  attribute are listed below.</summary>
+<summary>List of traits for the preferredAppointmentTimeCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -7316,7 +7316,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  doNotSendMM  attribute are listed below.</summary>
+<summary>List of traits for the doNotSendMM attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -7351,7 +7351,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  parentCustomerIdType  attribute are listed below.</summary>
+<summary>List of traits for the parentCustomerIdType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -7387,7 +7387,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  parentCustomerId  attribute are listed below.</summary>
+<summary>List of traits for the parentCustomerId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -7435,7 +7435,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  merged  attribute are listed below.</summary>
+<summary>List of traits for the merged attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -7470,7 +7470,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  externalUserIdentifier  attribute are listed below.</summary>
+<summary>List of traits for the externalUserIdentifier attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -7510,7 +7510,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  lastUsedInCampaign  attribute are listed below.</summary>
+<summary>List of traits for the lastUsedInCampaign attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -7548,7 +7548,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  transactionCurrencyId  attribute are listed below.</summary>
+<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -7590,7 +7590,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  exchangeRate  attribute are listed below.</summary>
+<summary>List of traits for the exchangeRate attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -7630,7 +7630,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  annualIncomeBase  attribute are listed below.</summary>
+<summary>List of traits for the annualIncomeBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -7674,7 +7674,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  creditLimitBase  attribute are listed below.</summary>
+<summary>List of traits for the creditLimitBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -7718,7 +7718,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  aging60Base  attribute are listed below.</summary>
+<summary>List of traits for the aging60Base attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -7762,7 +7762,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  aging90Base  attribute are listed below.</summary>
+<summary>List of traits for the aging90Base attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -7806,7 +7806,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  aging30Base  attribute are listed below.</summary>
+<summary>List of traits for the aging30Base attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -7850,7 +7850,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  stageId  attribute are listed below.</summary>
+<summary>List of traits for the stageId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -7888,7 +7888,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  processId  attribute are listed below.</summary>
+<summary>List of traits for the processId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -7926,7 +7926,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  entityImageId  attribute are listed below.</summary>
+<summary>List of traits for the entityImageId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -7964,7 +7964,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  traversedPath  attribute are listed below.</summary>
+<summary>List of traits for the traversedPath attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -8004,7 +8004,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  SLAId  attribute are listed below.</summary>
+<summary>List of traits for the SLAId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -8046,7 +8046,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  SLAInvokedId  attribute are listed below.</summary>
+<summary>List of traits for the SLAInvokedId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -8088,7 +8088,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  onHoldTime  attribute are listed below.</summary>
+<summary>List of traits for the onHoldTime attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -8126,7 +8126,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  lastOnHoldTime  attribute are listed below.</summary>
+<summary>List of traits for the lastOnHoldTime attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -8164,7 +8164,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  followEmail  attribute are listed below.</summary>
+<summary>List of traits for the followEmail attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -8199,7 +8199,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  timeSpentByMeOnEmailAndMeetings  attribute are listed below.</summary>
+<summary>List of traits for the timeSpentByMeOnEmailAndMeetings attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -8240,7 +8240,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  business2  attribute are listed below.</summary>
+<summary>List of traits for the business2 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -8281,7 +8281,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  callback  attribute are listed below.</summary>
+<summary>List of traits for the callback attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -8322,7 +8322,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  company  attribute are listed below.</summary>
+<summary>List of traits for the company attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -8363,7 +8363,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  home2  attribute are listed below.</summary>
+<summary>List of traits for the home2 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -8404,7 +8404,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  createdByExternalParty  attribute are listed below.</summary>
+<summary>List of traits for the createdByExternalParty attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -8446,7 +8446,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedByExternalParty  attribute are listed below.</summary>
+<summary>List of traits for the modifiedByExternalParty attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -8488,7 +8488,7 @@ First included in: <a href="../../../../../Contact.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  marketingOnly  attribute are listed below.</summary>
+<summary>List of traits for the marketingOnly attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -8523,7 +8523,7 @@ First included in: <a href="../../../../Contact.md" target="_blank">foundationCo
 #### Traits
 
 <details>
-<summary>List of traits for the  defaultPriceLevelId  attribute are listed below.</summary>
+<summary>List of traits for the defaultPriceLevelId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -8565,7 +8565,7 @@ First included in: <a href="../../../Contact.md" target="_blank">crmCommon/Conta
 #### Traits
 
 <details>
-<summary>List of traits for the  originatingLeadId  attribute are listed below.</summary>
+<summary>List of traits for the originatingLeadId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -8607,7 +8607,7 @@ First included in: <a href="../../../Contact.md" target="_blank">crmCommon/Conta
 #### Traits
 
 <details>
-<summary>List of traits for the  preferredEquipmentId  attribute are listed below.</summary>
+<summary>List of traits for the preferredEquipmentId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -8649,7 +8649,7 @@ First included in: <a href="../../../Contact.md" target="_blank">crmCommon/Conta
 #### Traits
 
 <details>
-<summary>List of traits for the  preferredServiceId  attribute are listed below.</summary>
+<summary>List of traits for the preferredServiceId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -8682,22 +8682,22 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#contactType name="contactType">contactType</a>
 
 Type of contact  
-First included in: higherEducation/Contact  (this entity)  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Contact Type</td></tr><tr><td>description</td><td>Type of contact</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_contacttype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Alumni</td><td>494280001</td></tr><tr><td>en</td><td>Student</td><td>494280011</td></tr><tr><td>en</td><td>Faculty</td><td>494280003</td></tr><tr><td>en</td><td>Friend</td><td>494280004</td></tr><tr><td>en</td><td>Guest</td><td>494280005</td></tr><tr><td>en</td><td>Donor</td><td>494280002</td></tr><tr><td>en</td><td>Organization Contact</td><td>494280007</td></tr><tr><td>en</td><td>Parent</td><td>494280008</td></tr><tr><td>en</td><td>Sibling</td><td>494280009</td></tr><tr><td>en</td><td>Staff</td><td>494280010</td></tr><tr><td>en</td><td>Intructor</td><td>494280000</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Contact Type</td></tr><tr><td>description</td><td>Type of contact</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_contacttype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Alumni</td><td>494280001</td></tr><tr><td>en</td><td>Donor</td><td>494280002</td></tr><tr><td>en</td><td>Faculty</td><td>494280003</td></tr><tr><td>en</td><td>Friend</td><td>494280004</td></tr><tr><td>en</td><td>Guest</td><td>494280005</td></tr><tr><td>en</td><td>Intructor</td><td>494280000</td></tr><tr><td>en</td><td>Organization Contact</td><td>494280007</td></tr><tr><td>en</td><td>Parent</td><td>494280008</td></tr><tr><td>en</td><td>Sibling</td><td>494280009</td></tr><tr><td>en</td><td>Staff</td><td>494280010</td></tr><tr><td>en</td><td>Student</td><td>494280011</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  contactType  attribute are listed below.</summary>
+<summary>List of traits for the contactType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
 - **is.dataFormat.array**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Student</td><td>494280011</td></tr><tr><td>en</td><td>Staff</td><td>494280010</td></tr><tr><td>en</td><td>Sibling</td><td>494280009</td></tr><tr><td>en</td><td>Parent</td><td>494280008</td></tr><tr><td>en</td><td>Organization Contact</td><td>494280007</td></tr><tr><td>en</td><td>Intructor</td><td>494280000</td></tr><tr><td>en</td><td>Guest</td><td>494280005</td></tr><tr><td>en</td><td>Friend</td><td>494280004</td></tr><tr><td>en</td><td>Faculty</td><td>494280003</td></tr><tr><td>en</td><td>Donor</td><td>494280002</td></tr><tr><td>en</td><td>Alumni</td><td>494280001</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Alumni</td><td>494280001</td></tr><tr><td>en</td><td>Donor</td><td>494280002</td></tr><tr><td>en</td><td>Faculty</td><td>494280003</td></tr><tr><td>en</td><td>Friend</td><td>494280004</td></tr><tr><td>en</td><td>Guest</td><td>494280005</td></tr><tr><td>en</td><td>Intructor</td><td>494280000</td></tr><tr><td>en</td><td>Organization Contact</td><td>494280007</td></tr><tr><td>en</td><td>Parent</td><td>494280008</td></tr><tr><td>en</td><td>Sibling</td><td>494280009</td></tr><tr><td>en</td><td>Staff</td><td>494280010</td></tr><tr><td>en</td><td>Student</td><td>494280011</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **means.content.text.CSV**  
 - **is.constrainedList**  
@@ -8725,7 +8725,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#contactType_display name="contactType_display">contactType_display</a>
 
-First included in: higherEducation/Contact  (this entity)  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
@@ -8734,7 +8734,7 @@ First included in: higherEducation/Contact  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  contactType_display  attribute are listed below.</summary>
+<summary>List of traits for the contactType_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -8750,7 +8750,7 @@ First included in: higherEducation/Contact  (this entity)
 ### <a href=#countryofBirth name="countryofBirth">countryofBirth</a>
 
 Country of birth for the contact.  
-First included in: higherEducation/Contact  (this entity)  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
@@ -8759,11 +8759,11 @@ First included in: higherEducation/Contact  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  countryofBirth  attribute are listed below.</summary>
+<summary>List of traits for the countryofBirth attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>USA</td><td>494280002</td></tr><tr><td>en</td><td>Country 2</td><td>494280001</td></tr><tr><td>en</td><td>Country 1</td><td>494280000</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Country 1</td><td>494280000</td></tr><tr><td>en</td><td>Country 2</td><td>494280001</td></tr><tr><td>en</td><td>USA</td><td>494280002</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -8790,7 +8790,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#countryofBirth_display name="countryofBirth_display">countryofBirth_display</a>
 
-First included in: higherEducation/Contact  (this entity)  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
@@ -8799,7 +8799,7 @@ First included in: higherEducation/Contact  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  countryofBirth_display  attribute are listed below.</summary>
+<summary>List of traits for the countryofBirth_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -8814,7 +8814,7 @@ First included in: higherEducation/Contact  (this entity)
 ### <a href=#currentAcademicPeriodId name="currentAcademicPeriodId">currentAcademicPeriodId</a>
 
 Current academic period enrolled, if any, for the contact.  
-First included in: higherEducation/Contact  (this entity)  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
@@ -8823,7 +8823,7 @@ First included in: higherEducation/Contact  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  currentAcademicPeriodId  attribute are listed below.</summary>
+<summary>List of traits for the currentAcademicPeriodId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -8859,7 +8859,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#currentProgramId name="currentProgramId">currentProgramId</a>
 
 Current program for the contact.  
-First included in: higherEducation/Contact  (this entity)  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
@@ -8868,7 +8868,7 @@ First included in: higherEducation/Contact  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  currentProgramId  attribute are listed below.</summary>
+<summary>List of traits for the currentProgramId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -8904,7 +8904,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#currentProgramLevelId name="currentProgramLevelId">currentProgramLevelId</a>
 
 Current program level associated to the program for the contact.  
-First included in: higherEducation/Contact  (this entity)  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
@@ -8913,7 +8913,7 @@ First included in: higherEducation/Contact  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  currentProgramLevelId  attribute are listed below.</summary>
+<summary>List of traits for the currentProgramLevelId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -8949,7 +8949,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#ethnicGroup name="ethnicGroup">ethnicGroup</a>
 
 Ethnic group for the contact.  
-First included in: higherEducation/Contact  (this entity)  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
@@ -8958,11 +8958,11 @@ First included in: higherEducation/Contact  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ethnicGroup  attribute are listed below.</summary>
+<summary>List of traits for the ethnicGroup attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Group 3</td><td>494280002</td></tr><tr><td>en</td><td>Group 2</td><td>494280001</td></tr><tr><td>en</td><td>Group 1</td><td>494280000</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Group 1</td><td>494280000</td></tr><tr><td>en</td><td>Group 2</td><td>494280001</td></tr><tr><td>en</td><td>Group 3</td><td>494280002</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -8989,7 +8989,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#ethnicGroup_display name="ethnicGroup_display">ethnicGroup_display</a>
 
-First included in: higherEducation/Contact  (this entity)  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
@@ -8998,7 +8998,7 @@ First included in: higherEducation/Contact  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ethnicGroup_display  attribute are listed below.</summary>
+<summary>List of traits for the ethnicGroup_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -9013,7 +9013,7 @@ First included in: higherEducation/Contact  (this entity)
 ### <a href=#externalIdentifier name="externalIdentifier">externalIdentifier</a>
 
 External Identifier  
-First included in: higherEducation/Contact  (this entity)  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
@@ -9022,7 +9022,7 @@ First included in: higherEducation/Contact  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  externalIdentifier  attribute are listed below.</summary>
+<summary>List of traits for the externalIdentifier attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -9053,7 +9053,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#externalSourceSystem name="externalSourceSystem">externalSourceSystem</a>
 
 External Source System  
-First included in: higherEducation/Contact  (this entity)  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
@@ -9062,11 +9062,11 @@ First included in: higherEducation/Contact  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  externalSourceSystem  attribute are listed below.</summary>
+<summary>List of traits for the externalSourceSystem attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>System 3</td><td>494280002</td></tr><tr><td>en</td><td>System 2</td><td>494280001</td></tr><tr><td>en</td><td>System 1</td><td>494280000</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>System 1</td><td>494280000</td></tr><tr><td>en</td><td>System 2</td><td>494280001</td></tr><tr><td>en</td><td>System 3</td><td>494280002</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -9093,7 +9093,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#externalSourceSystem_display name="externalSourceSystem_display">externalSourceSystem_display</a>
 
-First included in: higherEducation/Contact  (this entity)  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
@@ -9102,7 +9102,7 @@ First included in: higherEducation/Contact  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  externalSourceSystem_display  attribute are listed below.</summary>
+<summary>List of traits for the externalSourceSystem_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -9117,7 +9117,7 @@ First included in: higherEducation/Contact  (this entity)
 ### <a href=#FERPAPrivacy name="FERPAPrivacy">FERPAPrivacy</a>
 
 Indicates if the Contact has elected to withhold directory information pursuant to FERPA (USA Federal Education Rights and Privacy Act).  
-First included in: higherEducation/Contact  (this entity)  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
@@ -9126,7 +9126,7 @@ First included in: higherEducation/Contact  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  FERPAPrivacy  attribute are listed below.</summary>
+<summary>List of traits for the FERPAPrivacy attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -9152,7 +9152,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#firstGeneration name="firstGeneration">firstGeneration</a>
 
 Indicates if contact is a first generation student.  
-First included in: higherEducation/Contact  (this entity)  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
@@ -9161,7 +9161,7 @@ First included in: higherEducation/Contact  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  firstGeneration  attribute are listed below.</summary>
+<summary>List of traits for the firstGeneration attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -9187,7 +9187,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#HIPAAIndicator name="HIPAAIndicator">HIPAAIndicator</a>
 
 Indicates if the Contact record includes information such as disability services requests that are protected by HIPAA (USA Health Insurance Portability and Accountability Act standards).  
-First included in: higherEducation/Contact  (this entity)  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
@@ -9196,7 +9196,7 @@ First included in: higherEducation/Contact  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  HIPAAIndicator  attribute are listed below.</summary>
+<summary>List of traits for the HIPAAIndicator attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -9222,7 +9222,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isDeceased name="isDeceased">isDeceased</a>
 
 If updated to YES, will deactivate Contact as deceased and change all marketing preferences to "Do Not Allow"  
-First included in: higherEducation/Contact  (this entity)  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
@@ -9231,7 +9231,7 @@ First included in: higherEducation/Contact  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  isDeceased  attribute are listed below.</summary>
+<summary>List of traits for the isDeceased attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -9257,7 +9257,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#lastPermanentResidenceCountry name="lastPermanentResidenceCountry">lastPermanentResidenceCountry</a>
 
 Last country of permanent residence for the contact.  
-First included in: higherEducation/Contact  (this entity)  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
@@ -9266,11 +9266,11 @@ First included in: higherEducation/Contact  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  lastPermanentResidenceCountry  attribute are listed below.</summary>
+<summary>List of traits for the lastPermanentResidenceCountry attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>USA</td><td>494280002</td></tr><tr><td>en</td><td>Country 2</td><td>494280001</td></tr><tr><td>en</td><td>Country 1</td><td>494280000</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Country 1</td><td>494280000</td></tr><tr><td>en</td><td>Country 2</td><td>494280001</td></tr><tr><td>en</td><td>USA</td><td>494280002</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -9297,7 +9297,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#lastPermanentResidenceCountry_display name="lastPermanentResidenceCountry_display">lastPermanentResidenceCountry_display</a>
 
-First included in: higherEducation/Contact  (this entity)  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
@@ -9306,7 +9306,7 @@ First included in: higherEducation/Contact  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  lastPermanentResidenceCountry_display  attribute are listed below.</summary>
+<summary>List of traits for the lastPermanentResidenceCountry_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -9321,7 +9321,7 @@ First included in: higherEducation/Contact  (this entity)
 ### <a href=#legacy name="legacy">legacy</a>
 
 Identifies a Contact that is part of a legacy of contacts  
-First included in: higherEducation/Contact  (this entity)  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
@@ -9330,7 +9330,7 @@ First included in: higherEducation/Contact  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  legacy  attribute are listed below.</summary>
+<summary>List of traits for the legacy attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -9356,7 +9356,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#maidenName name="maidenName">maidenName</a>
 
 Maiden Name  
-First included in: higherEducation/Contact  (this entity)  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
@@ -9365,7 +9365,7 @@ First included in: higherEducation/Contact  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  maidenName  attribute are listed below.</summary>
+<summary>List of traits for the maidenName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -9397,7 +9397,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#manualRiskScore name="manualRiskScore">manualRiskScore</a>
 
 Manual Risk Score  
-First included in: higherEducation/Contact  (this entity)  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
@@ -9406,7 +9406,7 @@ First included in: higherEducation/Contact  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  manualRiskScore  attribute are listed below.</summary>
+<summary>List of traits for the manualRiskScore attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -9437,7 +9437,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#miltaryStatus name="miltaryStatus">miltaryStatus</a>
 
 Indicates the military service record for the contact.  
-First included in: higherEducation/Contact  (this entity)  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
@@ -9446,11 +9446,11 @@ First included in: higherEducation/Contact  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  miltaryStatus  attribute are listed below.</summary>
+<summary>List of traits for the miltaryStatus attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>N/A</td><td>494280004</td></tr><tr><td>en</td><td>Veteran</td><td>494280003</td></tr><tr><td>en</td><td>Reserves</td><td>494280002</td></tr><tr><td>en</td><td>Active Duty</td><td>494280001</td></tr><tr><td>en</td><td>No Military Service</td><td>494280000</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No Military Service</td><td>494280000</td></tr><tr><td>en</td><td>Active Duty</td><td>494280001</td></tr><tr><td>en</td><td>Reserves</td><td>494280002</td></tr><tr><td>en</td><td>Veteran</td><td>494280003</td></tr><tr><td>en</td><td>N/A</td><td>494280004</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -9477,7 +9477,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#miltaryStatus_display name="miltaryStatus_display">miltaryStatus_display</a>
 
-First included in: higherEducation/Contact  (this entity)  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
@@ -9486,7 +9486,7 @@ First included in: higherEducation/Contact  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  miltaryStatus_display  attribute are listed below.</summary>
+<summary>List of traits for the miltaryStatus_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -9501,7 +9501,7 @@ First included in: higherEducation/Contact  (this entity)
 ### <a href=#nationalIdentifier name="nationalIdentifier">nationalIdentifier</a>
 
 Unique Identifier or Student SSN  
-First included in: higherEducation/Contact  (this entity)  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
@@ -9510,7 +9510,7 @@ First included in: higherEducation/Contact  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  nationalIdentifier  attribute are listed below.</summary>
+<summary>List of traits for the nationalIdentifier attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -9541,7 +9541,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#nationality name="nationality">nationality</a>
 
 Country of nationality for the contact.  
-First included in: higherEducation/Contact  (this entity)  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
@@ -9550,11 +9550,11 @@ First included in: higherEducation/Contact  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  nationality  attribute are listed below.</summary>
+<summary>List of traits for the nationality attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Nationality 3</td><td>494280002</td></tr><tr><td>en</td><td>Nationality 2</td><td>494280001</td></tr><tr><td>en</td><td>Nationality 1</td><td>494280000</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Nationality 1</td><td>494280000</td></tr><tr><td>en</td><td>Nationality 2</td><td>494280001</td></tr><tr><td>en</td><td>Nationality 3</td><td>494280002</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -9581,7 +9581,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#nationality_display name="nationality_display">nationality_display</a>
 
-First included in: higherEducation/Contact  (this entity)  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
@@ -9590,7 +9590,7 @@ First included in: higherEducation/Contact  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  nationality_display  attribute are listed below.</summary>
+<summary>List of traits for the nationality_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -9605,7 +9605,7 @@ First included in: higherEducation/Contact  (this entity)
 ### <a href=#race name="race">race</a>
 
 Race of the contact  
-First included in: higherEducation/Contact  (this entity)  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
@@ -9614,11 +9614,11 @@ First included in: higherEducation/Contact  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  race  attribute are listed below.</summary>
+<summary>List of traits for the race attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Race 2</td><td>494280001</td></tr><tr><td>en</td><td>Race 1</td><td>494280000</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Race 1</td><td>494280000</td></tr><tr><td>en</td><td>Race 2</td><td>494280001</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -9645,7 +9645,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#race_display name="race_display">race_display</a>
 
-First included in: higherEducation/Contact  (this entity)  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
@@ -9654,7 +9654,7 @@ First included in: higherEducation/Contact  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  race_display  attribute are listed below.</summary>
+<summary>List of traits for the race_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -9668,7 +9668,7 @@ First included in: higherEducation/Contact  (this entity)
 
 ### <a href=#studentStatusId name="studentStatusId">studentStatusId</a>
 
-First included in: higherEducation/Contact  (this entity)  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
@@ -9677,7 +9677,7 @@ First included in: higherEducation/Contact  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  studentStatusId  attribute are listed below.</summary>
+<summary>List of traits for the studentStatusId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  

@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/13/2019
+ms.date: 2/15/2019
 ms.author: tpalmer
 ---
 
@@ -12,13 +12,13 @@ ms.author: tpalmer
 
 A single venue can be comprised of zero or more buildings where event activities are held. Each building in turn is comprised of zero or more rooms where event activities are held.  
   
-Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Building.cdm.json" target="_blank">GitHub</a>.  
+Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Building.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
-Instances of this entity are listed below:  
+Instances of this entity are listed below.  
 
-eventManagement/Building  
+/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Building.cdm.json/Building  
 
 ## Traits
 
@@ -115,7 +115,7 @@ eventManagement/Building
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -124,7 +124,7 @@ First included in: eventManagement/Building  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOn  attribute are listed below.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -154,7 +154,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -163,7 +163,7 @@ First included in: eventManagement/Building  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdBy  attribute are listed below.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -199,7 +199,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -208,7 +208,7 @@ First included in: eventManagement/Building  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -238,7 +238,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -247,7 +247,7 @@ First included in: eventManagement/Building  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -283,7 +283,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -292,7 +292,7 @@ First included in: eventManagement/Building  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -328,7 +328,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -337,7 +337,7 @@ First included in: eventManagement/Building  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -373,7 +373,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -382,7 +382,7 @@ First included in: eventManagement/Building  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -412,7 +412,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -421,7 +421,7 @@ First included in: eventManagement/Building  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -447,7 +447,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -456,7 +456,7 @@ First included in: eventManagement/Building  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerIdType  attribute are listed below.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -486,7 +486,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -495,7 +495,7 @@ First included in: eventManagement/Building  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerId  attribute are listed below.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -531,7 +531,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -540,7 +540,7 @@ First included in: eventManagement/Building  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningBusinessUnit  attribute are listed below.</summary>
+<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -573,7 +573,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -582,7 +582,7 @@ First included in: eventManagement/Building  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningUser  attribute are listed below.</summary>
+<summary>List of traits for the owningUser attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -618,7 +618,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -627,7 +627,7 @@ First included in: eventManagement/Building  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningTeam  attribute are listed below.</summary>
+<summary>List of traits for the owningTeam attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -660,7 +660,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -669,7 +669,7 @@ First included in: eventManagement/Building  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  timeZoneRuleVersionNumber  attribute are listed below.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -698,7 +698,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -707,7 +707,7 @@ First included in: eventManagement/Building  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  UTCConversionTimeZoneCode  attribute are listed below.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -736,7 +736,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -745,7 +745,7 @@ First included in: eventManagement/Building  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -773,7 +773,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#buildingId name="buildingId">buildingId</a>
 
 Unique identifier for entity instances  
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -782,7 +782,7 @@ First included in: eventManagement/Building  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  buildingId  attribute are listed below.</summary>
+<summary>List of traits for the buildingId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -812,7 +812,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Status of the Building  
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -821,11 +821,11 @@ First included in: eventManagement/Building  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode  attribute are listed below.</summary>
+<summary>List of traits for the stateCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr><tr><td>en</td><td>Active</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -852,7 +852,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -861,7 +861,7 @@ First included in: eventManagement/Building  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode_display  attribute are listed below.</summary>
+<summary>List of traits for the stateCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -876,20 +876,20 @@ First included in: eventManagement/Building  (this entity)
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Reason for the status of the Building  
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Building</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Building</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode  attribute are listed below.</summary>
+<summary>List of traits for the statusCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -919,7 +919,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -928,7 +928,7 @@ First included in: eventManagement/Building  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode_display  attribute are listed below.</summary>
+<summary>List of traits for the statusCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -943,7 +943,7 @@ First included in: eventManagement/Building  (this entity)
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -952,7 +952,7 @@ First included in: eventManagement/Building  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  name  attribute are listed below.</summary>
+<summary>List of traits for the name attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -984,7 +984,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#accessibleToilets name="accessibleToilets">accessibleToilets</a>
 
 There are accessible toilets or not.  
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -993,11 +993,11 @@ First included in: eventManagement/Building  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  accessibleToilets  attribute are listed below.</summary>
+<summary>List of traits for the accessibleToilets attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No</td><td>100000002</td></tr><tr><td>en</td><td>Yes</td><td>100000001</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Yes</td><td>100000001</td></tr><tr><td>en</td><td>No</td><td>100000002</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1024,7 +1024,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#accessibleToilets_display name="accessibleToilets_display">accessibleToilets_display</a>
 
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -1033,7 +1033,7 @@ First included in: eventManagement/Building  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  accessibleToilets_display  attribute are listed below.</summary>
+<summary>List of traits for the accessibleToilets_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1048,7 +1048,7 @@ First included in: eventManagement/Building  (this entity)
 ### <a href=#additionalFacilities name="additionalFacilities">additionalFacilities</a>
 
 Some additional facilities which is not covered by available options.  
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -1057,7 +1057,7 @@ First included in: eventManagement/Building  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  additionalFacilities  attribute are listed below.</summary>
+<summary>List of traits for the additionalFacilities attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1088,7 +1088,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#addressLine1 name="addressLine1">addressLine1</a>
 
 Address (except of city, country/region, state or province and postal code).  
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -1097,7 +1097,7 @@ First included in: eventManagement/Building  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  addressLine1  attribute are listed below.</summary>
+<summary>List of traits for the addressLine1 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1128,7 +1128,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#addressLine2 name="addressLine2">addressLine2</a>
 
 Additional address details.  
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -1137,7 +1137,7 @@ First included in: eventManagement/Building  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  addressLine2  attribute are listed below.</summary>
+<summary>List of traits for the addressLine2 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1168,7 +1168,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#addressLine3 name="addressLine3">addressLine3</a>
 
 Additional address details.  
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -1177,7 +1177,7 @@ First included in: eventManagement/Building  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  addressLine3  attribute are listed below.</summary>
+<summary>List of traits for the addressLine3 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1208,7 +1208,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#city name="city">city</a>
 
 City. Part of address info.  
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -1217,7 +1217,7 @@ First included in: eventManagement/Building  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  city  attribute are listed below.</summary>
+<summary>List of traits for the city attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1249,7 +1249,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#cost name="cost">cost</a>
 
 Cost (of using the building)  
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -1258,7 +1258,7 @@ First included in: eventManagement/Building  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  cost  attribute are listed below.</summary>
+<summary>List of traits for the cost attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1290,7 +1290,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Unique identifier of the currency associated with the entity.  
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -1299,7 +1299,7 @@ First included in: eventManagement/Building  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  transactionCurrencyId  attribute are listed below.</summary>
+<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1332,7 +1332,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Exchange rate for the currency associated with the entity with respect to the base currency.  
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -1341,7 +1341,7 @@ First included in: eventManagement/Building  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  exchangeRate  attribute are listed below.</summary>
+<summary>List of traits for the exchangeRate attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1372,7 +1372,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#costBase name="costBase">costBase</a>
 
 Value of the Cost in base currency.  
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -1381,7 +1381,7 @@ First included in: eventManagement/Building  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  costBase  attribute are listed below.</summary>
+<summary>List of traits for the costBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1416,7 +1416,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#country name="country">country</a>
 
 Country/Region. Part of address info.  
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -1425,7 +1425,7 @@ First included in: eventManagement/Building  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  country  attribute are listed below.</summary>
+<summary>List of traits for the country attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1457,7 +1457,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#description name="description">description</a>
 
 Description of the building.  
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -1466,7 +1466,7 @@ First included in: eventManagement/Building  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  description  attribute are listed below.</summary>
+<summary>List of traits for the description attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1497,7 +1497,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#disabledAccess name="disabledAccess">disabledAccess</a>
 
 There is disabled access or not.  
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -1506,11 +1506,11 @@ First included in: eventManagement/Building  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  disabledAccess  attribute are listed below.</summary>
+<summary>List of traits for the disabledAccess attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No</td><td>100000002</td></tr><tr><td>en</td><td>Yes</td><td>100000001</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Yes</td><td>100000001</td></tr><tr><td>en</td><td>No</td><td>100000002</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1537,7 +1537,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#disabledAccess_display name="disabledAccess_display">disabledAccess_display</a>
 
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -1546,7 +1546,7 @@ First included in: eventManagement/Building  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  disabledAccess_display  attribute are listed below.</summary>
+<summary>List of traits for the disabledAccess_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1561,7 +1561,7 @@ First included in: eventManagement/Building  (this entity)
 ### <a href=#disabledParking name="disabledParking">disabledParking</a>
 
 There is disabled parking or not.  
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -1570,11 +1570,11 @@ First included in: eventManagement/Building  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  disabledParking  attribute are listed below.</summary>
+<summary>List of traits for the disabledParking attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No</td><td>100000002</td></tr><tr><td>en</td><td>Yes</td><td>100000001</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Yes</td><td>100000001</td></tr><tr><td>en</td><td>No</td><td>100000002</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1601,7 +1601,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#disabledParking_display name="disabledParking_display">disabledParking_display</a>
 
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -1610,7 +1610,7 @@ First included in: eventManagement/Building  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  disabledParking_display  attribute are listed below.</summary>
+<summary>List of traits for the disabledParking_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1625,7 +1625,7 @@ First included in: eventManagement/Building  (this entity)
 ### <a href=#email name="email">email</a>
 
 Email to contact the building  
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -1634,7 +1634,7 @@ First included in: eventManagement/Building  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  email  attribute are listed below.</summary>
+<summary>List of traits for the email attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1666,7 +1666,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#estimatedCapacity name="estimatedCapacity">estimatedCapacity</a>
 
 Estimated capacity of building  
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -1675,7 +1675,7 @@ First included in: eventManagement/Building  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  estimatedCapacity  attribute are listed below.</summary>
+<summary>List of traits for the estimatedCapacity attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1704,7 +1704,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#postalCode name="postalCode">postalCode</a>
 
 Postal code. Part of address info.  
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -1713,7 +1713,7 @@ First included in: eventManagement/Building  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  postalCode  attribute are listed below.</summary>
+<summary>List of traits for the postalCode attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1745,7 +1745,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#primaryContact name="primaryContact">primaryContact</a>
 
 A person who is responsible for the building.  
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -1754,7 +1754,7 @@ First included in: eventManagement/Building  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  primaryContact  attribute are listed below.</summary>
+<summary>List of traits for the primaryContact attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1787,7 +1787,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#publicTelephoneAvailable name="publicTelephoneAvailable">publicTelephoneAvailable</a>
 
 There is available public telephone or not.  
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -1796,11 +1796,11 @@ First included in: eventManagement/Building  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  publicTelephoneAvailable  attribute are listed below.</summary>
+<summary>List of traits for the publicTelephoneAvailable attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No</td><td>100000002</td></tr><tr><td>en</td><td>Yes</td><td>100000001</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Yes</td><td>100000001</td></tr><tr><td>en</td><td>No</td><td>100000002</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1827,7 +1827,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#publicTelephoneAvailable_display name="publicTelephoneAvailable_display">publicTelephoneAvailable_display</a>
 
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -1836,7 +1836,7 @@ First included in: eventManagement/Building  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  publicTelephoneAvailable_display  attribute are listed below.</summary>
+<summary>List of traits for the publicTelephoneAvailable_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1851,7 +1851,7 @@ First included in: eventManagement/Building  (this entity)
 ### <a href=#stateProvince name="stateProvince">stateProvince</a>
 
 State or province. Part of address info.  
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -1860,7 +1860,7 @@ First included in: eventManagement/Building  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  stateProvince  attribute are listed below.</summary>
+<summary>List of traits for the stateProvince attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1891,7 +1891,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#telephone1 name="telephone1">telephone1</a>
 
 Telephone to contact the building  
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -1900,7 +1900,7 @@ First included in: eventManagement/Building  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  telephone1  attribute are listed below.</summary>
+<summary>List of traits for the telephone1 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1932,7 +1932,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#telephone2 name="telephone2">telephone2</a>
 
 Telephone to contact the building  
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -1941,7 +1941,7 @@ First included in: eventManagement/Building  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  telephone2  attribute are listed below.</summary>
+<summary>List of traits for the telephone2 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1973,7 +1973,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#telephone3 name="telephone3">telephone3</a>
 
 Telephone to contact the building  
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -1982,7 +1982,7 @@ First included in: eventManagement/Building  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  telephone3  attribute are listed below.</summary>
+<summary>List of traits for the telephone3 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2014,7 +2014,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#website name="website">website</a>
 
 Website to contact the building  
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -2023,7 +2023,7 @@ First included in: eventManagement/Building  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  website  attribute are listed below.</summary>
+<summary>List of traits for the website attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2054,7 +2054,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#wifiAvailable name="wifiAvailable">wifiAvailable</a>
 
 There is available wifi or not.  
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -2063,11 +2063,11 @@ First included in: eventManagement/Building  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  wifiAvailable  attribute are listed below.</summary>
+<summary>List of traits for the wifiAvailable attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No</td><td>100000002</td></tr><tr><td>en</td><td>Yes</td><td>100000001</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Yes</td><td>100000001</td></tr><tr><td>en</td><td>No</td><td>100000002</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2094,7 +2094,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#wifiAvailable_display name="wifiAvailable_display">wifiAvailable_display</a>
 
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -2103,7 +2103,7 @@ First included in: eventManagement/Building  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  wifiAvailable_display  attribute are listed below.</summary>
+<summary>List of traits for the wifiAvailable_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2118,7 +2118,7 @@ First included in: eventManagement/Building  (this entity)
 ### <a href=#wifiPassword name="wifiPassword">wifiPassword</a>
 
 Wifi password.  
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -2127,7 +2127,7 @@ First included in: eventManagement/Building  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  wifiPassword  attribute are listed below.</summary>
+<summary>List of traits for the wifiPassword attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2158,7 +2158,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#wifiSSID name="wifiSSID">wifiSSID</a>
 
 SSID of the wifi  
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -2167,7 +2167,7 @@ First included in: eventManagement/Building  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  wifiSSID  attribute are listed below.</summary>
+<summary>List of traits for the wifiSSID attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2197,7 +2197,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#addressComposite name="addressComposite">addressComposite</a>
 
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -2206,7 +2206,7 @@ First included in: eventManagement/Building  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  addressComposite  attribute are listed below.</summary>
+<summary>List of traits for the addressComposite attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2234,7 +2234,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#numberOfRooms name="numberOfRooms">numberOfRooms</a>
 
 Number of available rooms.  
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -2243,7 +2243,7 @@ First included in: eventManagement/Building  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  numberOfRooms  attribute are listed below.</summary>
+<summary>List of traits for the numberOfRooms attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -2272,7 +2272,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#numberOfRoomsDate name="numberOfRoomsDate">numberOfRoomsDate</a>
 
 Last Updated time of rollup field Number of Rooms.  
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -2281,7 +2281,7 @@ First included in: eventManagement/Building  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  numberOfRoomsDate  attribute are listed below.</summary>
+<summary>List of traits for the numberOfRoomsDate attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -2313,7 +2313,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#numberOfRoomsState name="numberOfRoomsState">numberOfRoomsState</a>
 
 State of rollup field Number of Rooms.  
-First included in: eventManagement/Building  (this entity)  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -2322,7 +2322,7 @@ First included in: eventManagement/Building  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  numberOfRoomsState  attribute are listed below.</summary>
+<summary>List of traits for the numberOfRoomsState attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.calculationOf**  

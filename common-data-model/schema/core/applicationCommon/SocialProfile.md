@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/13/2019
+ms.date: 2/15/2019
 ms.author: tpalmer
 ---
 
@@ -12,13 +12,13 @@ ms.author: tpalmer
 
 This entity is used to store social profile information of its associated account and contacts on different social channels.  
   
-Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/SocialProfile.cdm.json" target="_blank">GitHub</a>.  
+Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/SocialProfile.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
-Instances of this entity are listed below:  
+Instances of this entity are listed below.  
 
-applicationCommon/SocialProfile  
+/core/applicationCommon/SocialProfile.cdm.json/SocialProfile  
 
 ## Traits
 
@@ -90,7 +90,7 @@ applicationCommon/SocialProfile
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: applicationCommon/SocialProfile  (this entity)  
+First included in: applicationCommon/SocialProfile (this entity)  
 
 #### Properties
 
@@ -99,7 +99,7 @@ First included in: applicationCommon/SocialProfile  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOn  attribute are listed below.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -129,7 +129,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: applicationCommon/SocialProfile  (this entity)  
+First included in: applicationCommon/SocialProfile (this entity)  
 
 #### Properties
 
@@ -138,7 +138,7 @@ First included in: applicationCommon/SocialProfile  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdBy  attribute are listed below.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -174,7 +174,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: applicationCommon/SocialProfile  (this entity)  
+First included in: applicationCommon/SocialProfile (this entity)  
 
 #### Properties
 
@@ -183,7 +183,7 @@ First included in: applicationCommon/SocialProfile  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -213,7 +213,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: applicationCommon/SocialProfile  (this entity)  
+First included in: applicationCommon/SocialProfile (this entity)  
 
 #### Properties
 
@@ -222,7 +222,7 @@ First included in: applicationCommon/SocialProfile  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -258,7 +258,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: applicationCommon/SocialProfile  (this entity)  
+First included in: applicationCommon/SocialProfile (this entity)  
 
 #### Properties
 
@@ -267,7 +267,7 @@ First included in: applicationCommon/SocialProfile  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -303,7 +303,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: applicationCommon/SocialProfile  (this entity)  
+First included in: applicationCommon/SocialProfile (this entity)  
 
 #### Properties
 
@@ -312,7 +312,7 @@ First included in: applicationCommon/SocialProfile  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -348,7 +348,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: applicationCommon/SocialProfile  (this entity)  
+First included in: applicationCommon/SocialProfile (this entity)  
 
 #### Properties
 
@@ -357,7 +357,7 @@ First included in: applicationCommon/SocialProfile  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -387,7 +387,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: applicationCommon/SocialProfile  (this entity)  
+First included in: applicationCommon/SocialProfile (this entity)  
 
 #### Properties
 
@@ -396,7 +396,7 @@ First included in: applicationCommon/SocialProfile  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -422,7 +422,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: applicationCommon/SocialProfile  (this entity)  
+First included in: applicationCommon/SocialProfile (this entity)  
 
 #### Properties
 
@@ -431,7 +431,7 @@ First included in: applicationCommon/SocialProfile  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerIdType  attribute are listed below.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -461,7 +461,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: applicationCommon/SocialProfile  (this entity)  
+First included in: applicationCommon/SocialProfile (this entity)  
 
 #### Properties
 
@@ -470,7 +470,7 @@ First included in: applicationCommon/SocialProfile  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerId  attribute are listed below.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -506,7 +506,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: applicationCommon/SocialProfile  (this entity)  
+First included in: applicationCommon/SocialProfile (this entity)  
 
 #### Properties
 
@@ -515,7 +515,7 @@ First included in: applicationCommon/SocialProfile  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningBusinessUnit  attribute are listed below.</summary>
+<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -548,7 +548,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: applicationCommon/SocialProfile  (this entity)  
+First included in: applicationCommon/SocialProfile (this entity)  
 
 #### Properties
 
@@ -557,7 +557,7 @@ First included in: applicationCommon/SocialProfile  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningUser  attribute are listed below.</summary>
+<summary>List of traits for the owningUser attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -593,7 +593,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: applicationCommon/SocialProfile  (this entity)  
+First included in: applicationCommon/SocialProfile (this entity)  
 
 #### Properties
 
@@ -602,7 +602,7 @@ First included in: applicationCommon/SocialProfile  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningTeam  attribute are listed below.</summary>
+<summary>List of traits for the owningTeam attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -635,7 +635,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: applicationCommon/SocialProfile  (this entity)  
+First included in: applicationCommon/SocialProfile (this entity)  
 
 #### Properties
 
@@ -644,7 +644,7 @@ First included in: applicationCommon/SocialProfile  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  timeZoneRuleVersionNumber  attribute are listed below.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -673,7 +673,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: applicationCommon/SocialProfile  (this entity)  
+First included in: applicationCommon/SocialProfile (this entity)  
 
 #### Properties
 
@@ -682,7 +682,7 @@ First included in: applicationCommon/SocialProfile  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  UTCConversionTimeZoneCode  attribute are listed below.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -711,7 +711,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: applicationCommon/SocialProfile  (this entity)  
+First included in: applicationCommon/SocialProfile (this entity)  
 
 #### Properties
 
@@ -720,7 +720,7 @@ First included in: applicationCommon/SocialProfile  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -748,7 +748,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#socialProfileId name="socialProfileId">socialProfileId</a>
 
 Unique Identifier of the social profile name.  
-First included in: applicationCommon/SocialProfile  (this entity)  
+First included in: applicationCommon/SocialProfile (this entity)  
 
 #### Properties
 
@@ -757,7 +757,7 @@ First included in: applicationCommon/SocialProfile  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  socialProfileId  attribute are listed below.</summary>
+<summary>List of traits for the socialProfileId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -787,7 +787,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#profileName name="profileName">profileName</a>
 
 Shows the name of the social profile on the corresponding social channel.  
-First included in: applicationCommon/SocialProfile  (this entity)  
+First included in: applicationCommon/SocialProfile (this entity)  
 
 #### Properties
 
@@ -796,7 +796,7 @@ First included in: applicationCommon/SocialProfile  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  profileName  attribute are listed below.</summary>
+<summary>List of traits for the profileName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -828,7 +828,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#profileFullName name="profileFullName">profileFullName</a>
 
 Shows the display name of the customer on this social profile.  
-First included in: applicationCommon/SocialProfile  (this entity)  
+First included in: applicationCommon/SocialProfile (this entity)  
 
 #### Properties
 
@@ -837,7 +837,7 @@ First included in: applicationCommon/SocialProfile  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  profileFullName  attribute are listed below.</summary>
+<summary>List of traits for the profileFullName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -869,7 +869,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Status of the Social Profile  
-First included in: applicationCommon/SocialProfile  (this entity)  
+First included in: applicationCommon/SocialProfile (this entity)  
 
 #### Properties
 
@@ -878,11 +878,11 @@ First included in: applicationCommon/SocialProfile  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode  attribute are listed below.</summary>
+<summary>List of traits for the stateCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr><tr><td>en</td><td>Active</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -909,7 +909,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: applicationCommon/SocialProfile  (this entity)  
+First included in: applicationCommon/SocialProfile (this entity)  
 
 #### Properties
 
@@ -918,7 +918,7 @@ First included in: applicationCommon/SocialProfile  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode_display  attribute are listed below.</summary>
+<summary>List of traits for the stateCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -933,20 +933,20 @@ First included in: applicationCommon/SocialProfile  (this entity)
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Reason for the status of the Social Profile  
-First included in: applicationCommon/SocialProfile  (this entity)  
+First included in: applicationCommon/SocialProfile (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Social Profile</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Social Profile</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode  attribute are listed below.</summary>
+<summary>List of traits for the statusCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -976,7 +976,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: applicationCommon/SocialProfile  (this entity)  
+First included in: applicationCommon/SocialProfile (this entity)  
 
 #### Properties
 
@@ -985,7 +985,7 @@ First included in: applicationCommon/SocialProfile  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode_display  attribute are listed below.</summary>
+<summary>List of traits for the statusCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1000,7 +1000,7 @@ First included in: applicationCommon/SocialProfile  (this entity)
 ### <a href=#customerIdType name="customerIdType">customerIdType</a>
 
 The type of customer, either Account or Contact.  
-First included in: applicationCommon/SocialProfile  (this entity)  
+First included in: applicationCommon/SocialProfile (this entity)  
 
 #### Properties
 
@@ -1009,7 +1009,7 @@ First included in: applicationCommon/SocialProfile  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  customerIdType  attribute are listed below.</summary>
+<summary>List of traits for the customerIdType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1036,7 +1036,7 @@ contains an Account or Contact ID
 ### <a href=#customerId name="customerId">customerId</a>
 
 The customer account or contact to provide a quick link to additional customer details, such as account information, activities, and opportunities.  
-First included in: applicationCommon/SocialProfile  (this entity)  
+First included in: applicationCommon/SocialProfile (this entity)  
 
 #### Properties
 
@@ -1045,7 +1045,7 @@ First included in: applicationCommon/SocialProfile  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  customerId  attribute are listed below.</summary>
+<summary>List of traits for the customerId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1081,7 +1081,7 @@ contains an Account or Contact ID
 ### <a href=#blocked name="blocked">blocked</a>
 
 Identifies if the social profile has been blocked.  
-First included in: applicationCommon/SocialProfile  (this entity)  
+First included in: applicationCommon/SocialProfile (this entity)  
 
 #### Properties
 
@@ -1090,7 +1090,7 @@ First included in: applicationCommon/SocialProfile  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  blocked  attribute are listed below.</summary>
+<summary>List of traits for the blocked attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1116,7 +1116,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#community name="community">community</a>
 
 Identifies where the social profile originated from, such as Twitter, or Facebook.  
-First included in: applicationCommon/SocialProfile  (this entity)  
+First included in: applicationCommon/SocialProfile (this entity)  
 
 #### Properties
 
@@ -1125,11 +1125,11 @@ First included in: applicationCommon/SocialProfile  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  community  attribute are listed below.</summary>
+<summary>List of traits for the community attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Other</td><td>0</td></tr><tr><td>en</td><td>Twitter</td><td>2</td></tr><tr><td>en</td><td>Facebook</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Facebook</td><td>1</td></tr><tr><td>en</td><td>Twitter</td><td>2</td></tr><tr><td>en</td><td>Other</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1156,7 +1156,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#community_display name="community_display">community_display</a>
 
-First included in: applicationCommon/SocialProfile  (this entity)  
+First included in: applicationCommon/SocialProfile (this entity)  
 
 #### Properties
 
@@ -1165,7 +1165,7 @@ First included in: applicationCommon/SocialProfile  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  community_display  attribute are listed below.</summary>
+<summary>List of traits for the community_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1180,7 +1180,7 @@ First included in: applicationCommon/SocialProfile  (this entity)
 ### <a href=#influenceScore name="influenceScore">influenceScore</a>
 
 Shows the score that determines the online social influence of the social profile.  
-First included in: applicationCommon/SocialProfile  (this entity)  
+First included in: applicationCommon/SocialProfile (this entity)  
 
 #### Properties
 
@@ -1189,7 +1189,7 @@ First included in: applicationCommon/SocialProfile  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  influenceScore  attribute are listed below.</summary>
+<summary>List of traits for the influenceScore attribute are listed below.</summary>
 
 - **is.dataFormat.floatingPoint**  
 - **is.dataFormat.big**  
@@ -1219,7 +1219,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#profileLink name="profileLink">profileLink</a>
 
 Shows the customer that this social profile belongs to.  
-First included in: applicationCommon/SocialProfile  (this entity)  
+First included in: applicationCommon/SocialProfile (this entity)  
 
 #### Properties
 
@@ -1228,7 +1228,7 @@ First included in: applicationCommon/SocialProfile  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  profileLink  attribute are listed below.</summary>
+<summary>List of traits for the profileLink attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1260,7 +1260,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#uniqueProfileID name="uniqueProfileID">uniqueProfileID</a>
 
 Unique ID of the Profile ID  
-First included in: applicationCommon/SocialProfile  (this entity)  
+First included in: applicationCommon/SocialProfile (this entity)  
 
 #### Properties
 
@@ -1269,7 +1269,7 @@ First included in: applicationCommon/SocialProfile  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  uniqueProfileID  attribute are listed below.</summary>
+<summary>List of traits for the uniqueProfileID attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1300,7 +1300,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Choose the local currency for the record to make sure budgets are reported in the correct currency.  
-First included in: applicationCommon/SocialProfile  (this entity)  
+First included in: applicationCommon/SocialProfile (this entity)  
 
 #### Properties
 
@@ -1309,7 +1309,7 @@ First included in: applicationCommon/SocialProfile  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  transactionCurrencyId  attribute are listed below.</summary>
+<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1342,7 +1342,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.  
-First included in: applicationCommon/SocialProfile  (this entity)  
+First included in: applicationCommon/SocialProfile (this entity)  
 
 #### Properties
 
@@ -1351,7 +1351,7 @@ First included in: applicationCommon/SocialProfile  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  exchangeRate  attribute are listed below.</summary>
+<summary>List of traits for the exchangeRate attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  

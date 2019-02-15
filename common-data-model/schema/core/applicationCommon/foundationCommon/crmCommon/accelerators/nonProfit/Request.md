@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/13/2019
+ms.date: 2/15/2019
 ms.author: tpalmer
 ---
 
@@ -12,13 +12,13 @@ ms.author: tpalmer
 
 Represents a request from an individual or institution for funding or support. A request is more formal than an inquiry (LOI) and typically happens after an inquiry has already occurred.  
   
-Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Request.cdm.json" target="_blank">GitHub</a>.  
+Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Request.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
-Instances of this entity are listed below:  
+Instances of this entity are listed below.  
 
-nonProfit/Request  
+/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Request.cdm.json/Request  
 
 ## Traits
 
@@ -110,7 +110,7 @@ nonProfit/Request
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: nonProfit/Request  (this entity)  
+First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
@@ -119,7 +119,7 @@ First included in: nonProfit/Request  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOn  attribute are listed below.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -149,7 +149,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: nonProfit/Request  (this entity)  
+First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
@@ -158,7 +158,7 @@ First included in: nonProfit/Request  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdBy  attribute are listed below.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -194,7 +194,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: nonProfit/Request  (this entity)  
+First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
@@ -203,7 +203,7 @@ First included in: nonProfit/Request  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -233,7 +233,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: nonProfit/Request  (this entity)  
+First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
@@ -242,7 +242,7 @@ First included in: nonProfit/Request  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -278,7 +278,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: nonProfit/Request  (this entity)  
+First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
@@ -287,7 +287,7 @@ First included in: nonProfit/Request  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -323,7 +323,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: nonProfit/Request  (this entity)  
+First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
@@ -332,7 +332,7 @@ First included in: nonProfit/Request  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -368,7 +368,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: nonProfit/Request  (this entity)  
+First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
@@ -377,7 +377,7 @@ First included in: nonProfit/Request  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -407,7 +407,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: nonProfit/Request  (this entity)  
+First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
@@ -416,7 +416,7 @@ First included in: nonProfit/Request  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -442,7 +442,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: nonProfit/Request  (this entity)  
+First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
@@ -451,7 +451,7 @@ First included in: nonProfit/Request  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerIdType  attribute are listed below.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -481,7 +481,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: nonProfit/Request  (this entity)  
+First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
@@ -490,7 +490,7 @@ First included in: nonProfit/Request  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerId  attribute are listed below.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -526,7 +526,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: nonProfit/Request  (this entity)  
+First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
@@ -535,7 +535,7 @@ First included in: nonProfit/Request  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningBusinessUnit  attribute are listed below.</summary>
+<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -568,7 +568,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: nonProfit/Request  (this entity)  
+First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
@@ -577,7 +577,7 @@ First included in: nonProfit/Request  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningUser  attribute are listed below.</summary>
+<summary>List of traits for the owningUser attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -613,7 +613,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: nonProfit/Request  (this entity)  
+First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
@@ -622,7 +622,7 @@ First included in: nonProfit/Request  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningTeam  attribute are listed below.</summary>
+<summary>List of traits for the owningTeam attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -655,7 +655,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: nonProfit/Request  (this entity)  
+First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
@@ -664,7 +664,7 @@ First included in: nonProfit/Request  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  timeZoneRuleVersionNumber  attribute are listed below.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -693,7 +693,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: nonProfit/Request  (this entity)  
+First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
@@ -702,7 +702,7 @@ First included in: nonProfit/Request  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  UTCConversionTimeZoneCode  attribute are listed below.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -731,7 +731,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: nonProfit/Request  (this entity)  
+First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
@@ -740,7 +740,7 @@ First included in: nonProfit/Request  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -768,7 +768,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#requestId name="requestId">requestId</a>
 
 Unique identifier for entity instances  
-First included in: nonProfit/Request  (this entity)  
+First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
@@ -777,7 +777,7 @@ First included in: nonProfit/Request  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  requestId  attribute are listed below.</summary>
+<summary>List of traits for the requestId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -807,7 +807,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Status of the Request  
-First included in: nonProfit/Request  (this entity)  
+First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
@@ -816,11 +816,11 @@ First included in: nonProfit/Request  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode  attribute are listed below.</summary>
+<summary>List of traits for the stateCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr><tr><td>en</td><td>Active</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -847,7 +847,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: nonProfit/Request  (this entity)  
+First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
@@ -856,7 +856,7 @@ First included in: nonProfit/Request  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode_display  attribute are listed below.</summary>
+<summary>List of traits for the stateCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -871,20 +871,20 @@ First included in: nonProfit/Request  (this entity)
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Reason for the status of the Request  
-First included in: nonProfit/Request  (this entity)  
+First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Request</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Request</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode  attribute are listed below.</summary>
+<summary>List of traits for the statusCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -914,7 +914,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: nonProfit/Request  (this entity)  
+First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
@@ -923,7 +923,7 @@ First included in: nonProfit/Request  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode_display  attribute are listed below.</summary>
+<summary>List of traits for the statusCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -938,7 +938,7 @@ First included in: nonProfit/Request  (this entity)
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: nonProfit/Request  (this entity)  
+First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
@@ -947,7 +947,7 @@ First included in: nonProfit/Request  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  name  attribute are listed below.</summary>
+<summary>List of traits for the name attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -979,7 +979,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#amountProjected name="amountProjected">amountProjected</a>
 
 Projected amount to be received from awarding entity (as contrasted to amount requested and amount received).  
-First included in: nonProfit/Request  (this entity)  
+First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
@@ -988,7 +988,7 @@ First included in: nonProfit/Request  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  amountProjected  attribute are listed below.</summary>
+<summary>List of traits for the amountProjected attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1020,7 +1020,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Unique identifier of the currency associated with the entity.  
-First included in: nonProfit/Request  (this entity)  
+First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
@@ -1029,7 +1029,7 @@ First included in: nonProfit/Request  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  transactionCurrencyId  attribute are listed below.</summary>
+<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1065,7 +1065,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Exchange rate for the currency associated with the entity with respect to the base currency.  
-First included in: nonProfit/Request  (this entity)  
+First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
@@ -1074,7 +1074,7 @@ First included in: nonProfit/Request  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  exchangeRate  attribute are listed below.</summary>
+<summary>List of traits for the exchangeRate attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1105,7 +1105,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#amountprojectedBase name="amountprojectedBase">amountprojectedBase</a>
 
 Value of the Amount Projected in base currency.  
-First included in: nonProfit/Request  (this entity)  
+First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
@@ -1114,7 +1114,7 @@ First included in: nonProfit/Request  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  amountprojectedBase  attribute are listed below.</summary>
+<summary>List of traits for the amountprojectedBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1149,7 +1149,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#amountRecommended name="amountRecommended">amountRecommended</a>
 
 Recommended Award amount.  
-First included in: nonProfit/Request  (this entity)  
+First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
@@ -1158,7 +1158,7 @@ First included in: nonProfit/Request  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  amountRecommended  attribute are listed below.</summary>
+<summary>List of traits for the amountRecommended attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1190,7 +1190,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#amountrecommendedBase name="amountrecommendedBase">amountrecommendedBase</a>
 
 Value of the Amount Recommended in base currency.  
-First included in: nonProfit/Request  (this entity)  
+First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
@@ -1199,7 +1199,7 @@ First included in: nonProfit/Request  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  amountrecommendedBase  attribute are listed below.</summary>
+<summary>List of traits for the amountrecommendedBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1234,7 +1234,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#amountRequested name="amountRequested">amountRequested</a>
 
 Amount requested in proposal (as contrasted to amount expected and amount received).  
-First included in: nonProfit/Request  (this entity)  
+First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
@@ -1243,7 +1243,7 @@ First included in: nonProfit/Request  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  amountRequested  attribute are listed below.</summary>
+<summary>List of traits for the amountRequested attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1275,7 +1275,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#amountrequestedBase name="amountrequestedBase">amountrequestedBase</a>
 
 Value of the Amount Requested in base currency.  
-First included in: nonProfit/Request  (this entity)  
+First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
@@ -1284,7 +1284,7 @@ First included in: nonProfit/Request  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  amountrequestedBase  attribute are listed below.</summary>
+<summary>List of traits for the amountrequestedBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1319,7 +1319,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#applicationID name="applicationID">applicationID</a>
 
 Internal ID for the Application.  
-First included in: nonProfit/Request  (this entity)  
+First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
@@ -1328,7 +1328,7 @@ First included in: nonProfit/Request  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  applicationID  attribute are listed below.</summary>
+<summary>List of traits for the applicationID attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1359,7 +1359,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#conflictofInterestDetail name="conflictofInterestDetail">conflictofInterestDetail</a>
 
 Description of a conflict of interest, if any.  
-First included in: nonProfit/Request  (this entity)  
+First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
@@ -1368,7 +1368,7 @@ First included in: nonProfit/Request  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  conflictofInterestDetail  attribute are listed below.</summary>
+<summary>List of traits for the conflictofInterestDetail attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1399,7 +1399,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#conflictofInterestStatus name="conflictofInterestStatus">conflictofInterestStatus</a>
 
 Indicates the type of conflict of interest, if any.  
-First included in: nonProfit/Request  (this entity)  
+First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
@@ -1408,7 +1408,7 @@ First included in: nonProfit/Request  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  conflictofInterestStatus  attribute are listed below.</summary>
+<summary>List of traits for the conflictofInterestStatus attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -1439,7 +1439,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#conflictofInterestStatus_display name="conflictofInterestStatus_display">conflictofInterestStatus_display</a>
 
-First included in: nonProfit/Request  (this entity)  
+First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
@@ -1448,7 +1448,7 @@ First included in: nonProfit/Request  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  conflictofInterestStatus_display  attribute are listed below.</summary>
+<summary>List of traits for the conflictofInterestStatus_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1463,7 +1463,7 @@ First included in: nonProfit/Request  (this entity)
 ### <a href=#docketId name="docketId">docketId</a>
 
 Docket  
-First included in: nonProfit/Request  (this entity)  
+First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
@@ -1472,7 +1472,7 @@ First included in: nonProfit/Request  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  docketId  attribute are listed below.</summary>
+<summary>List of traits for the docketId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1508,7 +1508,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#fiscalSponsorId name="fiscalSponsorId">fiscalSponsorId</a>
 
 Fiscal Sponsor  
-First included in: nonProfit/Request  (this entity)  
+First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
@@ -1517,7 +1517,7 @@ First included in: nonProfit/Request  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  fiscalSponsorId  attribute are listed below.</summary>
+<summary>List of traits for the fiscalSponsorId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1553,7 +1553,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#initialApplicationChannel name="initialApplicationChannel">initialApplicationChannel</a>
 
 Method by which the initial application was received.  
-First included in: nonProfit/Request  (this entity)  
+First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
@@ -1562,7 +1562,7 @@ First included in: nonProfit/Request  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  initialApplicationChannel  attribute are listed below.</summary>
+<summary>List of traits for the initialApplicationChannel attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -1593,7 +1593,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#initialApplicationChannel_display name="initialApplicationChannel_display">initialApplicationChannel_display</a>
 
-First included in: nonProfit/Request  (this entity)  
+First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
@@ -1602,7 +1602,7 @@ First included in: nonProfit/Request  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  initialApplicationChannel_display  attribute are listed below.</summary>
+<summary>List of traits for the initialApplicationChannel_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1617,7 +1617,7 @@ First included in: nonProfit/Request  (this entity)
 ### <a href=#leadId name="leadId">leadId</a>
 
 Lead  
-First included in: nonProfit/Request  (this entity)  
+First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
@@ -1626,7 +1626,7 @@ First included in: nonProfit/Request  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  leadId  attribute are listed below.</summary>
+<summary>List of traits for the leadId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1662,7 +1662,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#purpose name="purpose">purpose</a>
 
 Summary of the purpose of the Request proposal that is one-paragraph. Include what, where, when, and why.  
-First included in: nonProfit/Request  (this entity)  
+First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
@@ -1671,7 +1671,7 @@ First included in: nonProfit/Request  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  purpose  attribute are listed below.</summary>
+<summary>List of traits for the purpose attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1701,7 +1701,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#recipientId name="recipientId">recipientId</a>
 
-First included in: nonProfit/Request  (this entity)  
+First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
@@ -1710,7 +1710,7 @@ First included in: nonProfit/Request  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  recipientId  attribute are listed below.</summary>
+<summary>List of traits for the recipientId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1746,7 +1746,7 @@ contains an Account or Contact ID
 ### <a href=#renewalofAwardId name="renewalofAwardId">renewalofAwardId</a>
 
 Renewal Of Request  
-First included in: nonProfit/Request  (this entity)  
+First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
@@ -1755,7 +1755,7 @@ First included in: nonProfit/Request  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  renewalofAwardId  attribute are listed below.</summary>
+<summary>List of traits for the renewalofAwardId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1791,7 +1791,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#requestedDuration name="requestedDuration">requestedDuration</a>
 
 Requested duration of the Award in months  
-First included in: nonProfit/Request  (this entity)  
+First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
@@ -1800,7 +1800,7 @@ First included in: nonProfit/Request  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  requestedDuration  attribute are listed below.</summary>
+<summary>List of traits for the requestedDuration attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1829,7 +1829,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#requestedStartDate name="requestedStartDate">requestedStartDate</a>
 
 Date that funding is requested to begin  
-First included in: nonProfit/Request  (this entity)  
+First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
@@ -1838,7 +1838,7 @@ First included in: nonProfit/Request  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  requestedStartDate  attribute are listed below.</summary>
+<summary>List of traits for the requestedStartDate attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1867,7 +1867,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#requestType name="requestType">requestType</a>
 
 Type or Designation of Request  
-First included in: nonProfit/Request  (this entity)  
+First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
@@ -1876,11 +1876,11 @@ First included in: nonProfit/Request  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  requestType  attribute are listed below.</summary>
+<summary>List of traits for the requestType attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Project Support</td><td>844060001</td></tr><tr><td>en</td><td>General</td><td>844060000</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>General</td><td>844060000</td></tr><tr><td>en</td><td>Project Support</td><td>844060001</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1907,7 +1907,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#requestType_display name="requestType_display">requestType_display</a>
 
-First included in: nonProfit/Request  (this entity)  
+First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
@@ -1916,7 +1916,7 @@ First included in: nonProfit/Request  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  requestType_display  attribute are listed below.</summary>
+<summary>List of traits for the requestType_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1931,7 +1931,7 @@ First included in: nonProfit/Request  (this entity)
 ### <a href=#requirements name="requirements">requirements</a>
 
 Link to Request requirements  
-First included in: nonProfit/Request  (this entity)  
+First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
@@ -1940,7 +1940,7 @@ First included in: nonProfit/Request  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  requirements  attribute are listed below.</summary>
+<summary>List of traits for the requirements attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1972,20 +1972,20 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#stage name="stage">stage</a>
 
 The stage the Request is currently in.  
-First included in: nonProfit/Request  (this entity)  
+First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Stage</td></tr><tr><td>description</td><td>The stage the Request is currently in.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_stage</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Application Started</td><td>844060000</td></tr><tr><td>en</td><td>Proposal Re-Opened</td><td>844060012</td></tr><tr><td>en</td><td>Qualification</td><td>844060002</td></tr><tr><td>en</td><td>Prospecting</td><td>844060003</td></tr><tr><td>en</td><td>Submitted</td><td>844060004</td></tr><tr><td>en</td><td>Under Internal Review</td><td>844060005</td></tr><tr><td>en</td><td>In Progress</td><td>844060001</td></tr><tr><td>en</td><td>Notify Applicant of Decision</td><td>844060007</td></tr><tr><td>en</td><td>Awarded</td><td>844060008</td></tr><tr><td>en</td><td>Declined</td><td>844060009</td></tr><tr><td>en</td><td>Closed</td><td>844060010</td></tr><tr><td>en</td><td>Withdrawn</td><td>844060011</td></tr><tr><td>en</td><td>Under Grant Committee Review</td><td>844060006</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Stage</td></tr><tr><td>description</td><td>The stage the Request is currently in.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_stage</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Application Started</td><td>844060000</td></tr><tr><td>en</td><td>In Progress</td><td>844060001</td></tr><tr><td>en</td><td>Qualification</td><td>844060002</td></tr><tr><td>en</td><td>Prospecting</td><td>844060003</td></tr><tr><td>en</td><td>Submitted</td><td>844060004</td></tr><tr><td>en</td><td>Under Internal Review</td><td>844060005</td></tr><tr><td>en</td><td>Under Grant Committee Review</td><td>844060006</td></tr><tr><td>en</td><td>Notify Applicant of Decision</td><td>844060007</td></tr><tr><td>en</td><td>Awarded</td><td>844060008</td></tr><tr><td>en</td><td>Declined</td><td>844060009</td></tr><tr><td>en</td><td>Closed</td><td>844060010</td></tr><tr><td>en</td><td>Withdrawn</td><td>844060011</td></tr><tr><td>en</td><td>Proposal Re-Opened</td><td>844060012</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  stage  attribute are listed below.</summary>
+<summary>List of traits for the stage attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Proposal Re-Opened</td><td>844060012</td></tr><tr><td>en</td><td>Withdrawn</td><td>844060011</td></tr><tr><td>en</td><td>Closed</td><td>844060010</td></tr><tr><td>en</td><td>Declined</td><td>844060009</td></tr><tr><td>en</td><td>Awarded</td><td>844060008</td></tr><tr><td>en</td><td>Notify Applicant of Decision</td><td>844060007</td></tr><tr><td>en</td><td>Under Grant Committee Review</td><td>844060006</td></tr><tr><td>en</td><td>Under Internal Review</td><td>844060005</td></tr><tr><td>en</td><td>Submitted</td><td>844060004</td></tr><tr><td>en</td><td>Prospecting</td><td>844060003</td></tr><tr><td>en</td><td>Qualification</td><td>844060002</td></tr><tr><td>en</td><td>In Progress</td><td>844060001</td></tr><tr><td>en</td><td>Application Started</td><td>844060000</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Application Started</td><td>844060000</td></tr><tr><td>en</td><td>In Progress</td><td>844060001</td></tr><tr><td>en</td><td>Qualification</td><td>844060002</td></tr><tr><td>en</td><td>Prospecting</td><td>844060003</td></tr><tr><td>en</td><td>Submitted</td><td>844060004</td></tr><tr><td>en</td><td>Under Internal Review</td><td>844060005</td></tr><tr><td>en</td><td>Under Grant Committee Review</td><td>844060006</td></tr><tr><td>en</td><td>Notify Applicant of Decision</td><td>844060007</td></tr><tr><td>en</td><td>Awarded</td><td>844060008</td></tr><tr><td>en</td><td>Declined</td><td>844060009</td></tr><tr><td>en</td><td>Closed</td><td>844060010</td></tr><tr><td>en</td><td>Withdrawn</td><td>844060011</td></tr><tr><td>en</td><td>Proposal Re-Opened</td><td>844060012</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2012,7 +2012,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stage_display name="stage_display">stage_display</a>
 
-First included in: nonProfit/Request  (this entity)  
+First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
@@ -2021,7 +2021,7 @@ First included in: nonProfit/Request  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  stage_display  attribute are listed below.</summary>
+<summary>List of traits for the stage_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2036,7 +2036,7 @@ First included in: nonProfit/Request  (this entity)
 ### <a href=#submittedById name="submittedById">submittedById</a>
 
 Submitted By  
-First included in: nonProfit/Request  (this entity)  
+First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
@@ -2045,7 +2045,7 @@ First included in: nonProfit/Request  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  submittedById  attribute are listed below.</summary>
+<summary>List of traits for the submittedById attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2081,7 +2081,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#submittedDate name="submittedDate">submittedDate</a>
 
 Date the Request was received by the awarding organization  
-First included in: nonProfit/Request  (this entity)  
+First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
@@ -2090,7 +2090,7 @@ First included in: nonProfit/Request  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  submittedDate  attribute are listed below.</summary>
+<summary>List of traits for the submittedDate attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -2119,7 +2119,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#totalProjectBudget name="totalProjectBudget">totalProjectBudget</a>
 
 Total Project Budget, which may be in excess of a requested or awarded amount  
-First included in: nonProfit/Request  (this entity)  
+First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
@@ -2128,7 +2128,7 @@ First included in: nonProfit/Request  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  totalProjectBudget  attribute are listed below.</summary>
+<summary>List of traits for the totalProjectBudget attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -2160,7 +2160,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#totalprojectbudgetBase name="totalprojectbudgetBase">totalprojectbudgetBase</a>
 
 Value of the Total Project Budget in base currency.  
-First included in: nonProfit/Request  (this entity)  
+First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
@@ -2169,7 +2169,7 @@ First included in: nonProfit/Request  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  totalprojectbudgetBase  attribute are listed below.</summary>
+<summary>List of traits for the totalprojectbudgetBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  

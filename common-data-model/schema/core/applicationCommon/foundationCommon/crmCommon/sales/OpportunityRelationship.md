@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/13/2019
+ms.date: 2/15/2019
 ms.author: tpalmer
 ---
 
@@ -12,13 +12,13 @@ ms.author: tpalmer
 
 Relationship between an account or contact and an opportunity.  
   
-Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/OpportunityRelationship.cdm.json" target="_blank">GitHub</a>.  
+Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/OpportunityRelationship.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
-Instances of this entity are listed below:  
+Instances of this entity are listed below.  
 
-sales/OpportunityRelationship  
+/core/applicationCommon/foundationCommon/crmCommon/sales/OpportunityRelationship.cdm.json/OpportunityRelationship  
 
 ## Traits
 
@@ -78,7 +78,7 @@ sales/OpportunityRelationship
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: sales/OpportunityRelationship  (this entity)  
+First included in: sales/OpportunityRelationship (this entity)  
 
 #### Properties
 
@@ -87,7 +87,7 @@ First included in: sales/OpportunityRelationship  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOn  attribute are listed below.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -117,7 +117,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: sales/OpportunityRelationship  (this entity)  
+First included in: sales/OpportunityRelationship (this entity)  
 
 #### Properties
 
@@ -126,7 +126,7 @@ First included in: sales/OpportunityRelationship  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdBy  attribute are listed below.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -162,7 +162,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: sales/OpportunityRelationship  (this entity)  
+First included in: sales/OpportunityRelationship (this entity)  
 
 #### Properties
 
@@ -171,7 +171,7 @@ First included in: sales/OpportunityRelationship  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -201,7 +201,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: sales/OpportunityRelationship  (this entity)  
+First included in: sales/OpportunityRelationship (this entity)  
 
 #### Properties
 
@@ -210,7 +210,7 @@ First included in: sales/OpportunityRelationship  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -246,7 +246,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: sales/OpportunityRelationship  (this entity)  
+First included in: sales/OpportunityRelationship (this entity)  
 
 #### Properties
 
@@ -255,7 +255,7 @@ First included in: sales/OpportunityRelationship  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -291,7 +291,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: sales/OpportunityRelationship  (this entity)  
+First included in: sales/OpportunityRelationship (this entity)  
 
 #### Properties
 
@@ -300,7 +300,7 @@ First included in: sales/OpportunityRelationship  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -336,7 +336,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: sales/OpportunityRelationship  (this entity)  
+First included in: sales/OpportunityRelationship (this entity)  
 
 #### Properties
 
@@ -345,7 +345,7 @@ First included in: sales/OpportunityRelationship  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -375,7 +375,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: sales/OpportunityRelationship  (this entity)  
+First included in: sales/OpportunityRelationship (this entity)  
 
 #### Properties
 
@@ -384,7 +384,7 @@ First included in: sales/OpportunityRelationship  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -410,7 +410,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: sales/OpportunityRelationship  (this entity)  
+First included in: sales/OpportunityRelationship (this entity)  
 
 #### Properties
 
@@ -419,7 +419,7 @@ First included in: sales/OpportunityRelationship  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerIdType  attribute are listed below.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -449,7 +449,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: sales/OpportunityRelationship  (this entity)  
+First included in: sales/OpportunityRelationship (this entity)  
 
 #### Properties
 
@@ -458,7 +458,7 @@ First included in: sales/OpportunityRelationship  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerId  attribute are listed below.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -494,7 +494,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: sales/OpportunityRelationship  (this entity)  
+First included in: sales/OpportunityRelationship (this entity)  
 
 #### Properties
 
@@ -503,7 +503,7 @@ First included in: sales/OpportunityRelationship  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningBusinessUnit  attribute are listed below.</summary>
+<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -536,7 +536,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: sales/OpportunityRelationship  (this entity)  
+First included in: sales/OpportunityRelationship (this entity)  
 
 #### Properties
 
@@ -545,7 +545,7 @@ First included in: sales/OpportunityRelationship  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningUser  attribute are listed below.</summary>
+<summary>List of traits for the owningUser attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -581,7 +581,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: sales/OpportunityRelationship  (this entity)  
+First included in: sales/OpportunityRelationship (this entity)  
 
 #### Properties
 
@@ -590,7 +590,7 @@ First included in: sales/OpportunityRelationship  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningTeam  attribute are listed below.</summary>
+<summary>List of traits for the owningTeam attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -623,7 +623,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: sales/OpportunityRelationship  (this entity)  
+First included in: sales/OpportunityRelationship (this entity)  
 
 #### Properties
 
@@ -632,7 +632,7 @@ First included in: sales/OpportunityRelationship  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  timeZoneRuleVersionNumber  attribute are listed below.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -661,7 +661,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: sales/OpportunityRelationship  (this entity)  
+First included in: sales/OpportunityRelationship (this entity)  
 
 #### Properties
 
@@ -670,7 +670,7 @@ First included in: sales/OpportunityRelationship  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  UTCConversionTimeZoneCode  attribute are listed below.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -699,7 +699,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: sales/OpportunityRelationship  (this entity)  
+First included in: sales/OpportunityRelationship (this entity)  
 
 #### Properties
 
@@ -708,7 +708,7 @@ First included in: sales/OpportunityRelationship  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -736,7 +736,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#customerOpportunityRoleId name="customerOpportunityRoleId">customerOpportunityRoleId</a>
 
 Unique identifier of the opportunity relationship.  
-First included in: sales/OpportunityRelationship  (this entity)  
+First included in: sales/OpportunityRelationship (this entity)  
 
 #### Properties
 
@@ -745,7 +745,7 @@ First included in: sales/OpportunityRelationship  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  customerOpportunityRoleId  attribute are listed below.</summary>
+<summary>List of traits for the customerOpportunityRoleId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -775,7 +775,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#customerIdType name="customerIdType">customerIdType</a>
 
 The type of customer, either Account or Contact.  
-First included in: sales/OpportunityRelationship  (this entity)  
+First included in: sales/OpportunityRelationship (this entity)  
 
 #### Properties
 
@@ -784,7 +784,7 @@ First included in: sales/OpportunityRelationship  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  customerIdType  attribute are listed below.</summary>
+<summary>List of traits for the customerIdType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -811,7 +811,7 @@ contains an Account or Contact ID
 ### <a href=#customerId name="customerId">customerId</a>
 
 The customer account or contact to provide a quick link to additional customer details, such as account information, activities, and opportunities.  
-First included in: sales/OpportunityRelationship  (this entity)  
+First included in: sales/OpportunityRelationship (this entity)  
 
 #### Properties
 
@@ -820,7 +820,7 @@ First included in: sales/OpportunityRelationship  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  customerId  attribute are listed below.</summary>
+<summary>List of traits for the customerId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -856,7 +856,7 @@ contains an Account or Contact ID
 ### <a href=#description name="description">description</a>
 
 Type additional information to describe the opportunity relationship, such as the length or quality of the relationship.  
-First included in: sales/OpportunityRelationship  (this entity)  
+First included in: sales/OpportunityRelationship (this entity)  
 
 #### Properties
 
@@ -865,7 +865,7 @@ First included in: sales/OpportunityRelationship  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  description  attribute are listed below.</summary>
+<summary>List of traits for the description attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -896,7 +896,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#opportunityId name="opportunityId">opportunityId</a>
 
 Choose the opportunity that the specified account or contact is related to. The opportunity relationship will be displayed in the Relationships view on the selected opportunity.  
-First included in: sales/OpportunityRelationship  (this entity)  
+First included in: sales/OpportunityRelationship (this entity)  
 
 #### Properties
 
@@ -905,7 +905,7 @@ First included in: sales/OpportunityRelationship  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  opportunityId  attribute are listed below.</summary>
+<summary>List of traits for the opportunityId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -935,7 +935,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#opportunityRoleId name="opportunityRoleId">opportunityRoleId</a>
 
 Choose the role or nature of the relationship that the customer has with the opportunity. The field is read-only until a customer has been selected. Administrators can configure role values under Business Management in the Settings area.  
-First included in: sales/OpportunityRelationship  (this entity)  
+First included in: sales/OpportunityRelationship (this entity)  
 
 #### Properties
 
@@ -944,7 +944,7 @@ First included in: sales/OpportunityRelationship  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  opportunityRoleId  attribute are listed below.</summary>
+<summary>List of traits for the opportunityRoleId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -977,7 +977,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#opportunityStateCode name="opportunityStateCode">opportunityStateCode</a>
 
 Status of the opportunity.  
-First included in: sales/OpportunityRelationship  (this entity)  
+First included in: sales/OpportunityRelationship (this entity)  
 
 #### Properties
 
@@ -986,7 +986,7 @@ First included in: sales/OpportunityRelationship  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  opportunityStateCode  attribute are listed below.</summary>
+<summary>List of traits for the opportunityStateCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1012,7 +1012,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#opportunityStatusCode name="opportunityStatusCode">opportunityStatusCode</a>
 
 Reason for the status of the opportunity.  
-First included in: sales/OpportunityRelationship  (this entity)  
+First included in: sales/OpportunityRelationship (this entity)  
 
 #### Properties
 
@@ -1021,7 +1021,7 @@ First included in: sales/OpportunityRelationship  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  opportunityStatusCode  attribute are listed below.</summary>
+<summary>List of traits for the opportunityStatusCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  

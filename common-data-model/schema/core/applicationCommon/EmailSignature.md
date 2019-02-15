@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/13/2019
+ms.date: 2/15/2019
 ms.author: tpalmer
 ---
 
@@ -12,13 +12,13 @@ ms.author: tpalmer
 
 Signature for email message  
   
-Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/EmailSignature.cdm.json" target="_blank">GitHub</a>.  
+Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/EmailSignature.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
-Instances of this entity are listed below:  
+Instances of this entity are listed below.  
 
-applicationCommon/EmailSignature  
+/core/applicationCommon/EmailSignature.cdm.json/EmailSignature  
 
 ## Traits
 
@@ -81,7 +81,7 @@ applicationCommon/EmailSignature
 ### <a href=#emailSignatureId name="emailSignatureId">emailSignatureId</a>
 
 Unique identifier of the email signature.  
-First included in: applicationCommon/EmailSignature  (this entity)  
+First included in: applicationCommon/EmailSignature (this entity)  
 
 #### Properties
 
@@ -90,7 +90,7 @@ First included in: applicationCommon/EmailSignature  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  emailSignatureId  attribute are listed below.</summary>
+<summary>List of traits for the emailSignatureId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -120,7 +120,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier of the business unit that owns the email signature.  
-First included in: applicationCommon/EmailSignature  (this entity)  
+First included in: applicationCommon/EmailSignature (this entity)  
 
 #### Properties
 
@@ -129,7 +129,7 @@ First included in: applicationCommon/EmailSignature  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningBusinessUnit  attribute are listed below.</summary>
+<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -162,7 +162,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isPersonal name="isPersonal">isPersonal</a>
 
 Information about whether the email signature is personal or is available to all users.  
-First included in: applicationCommon/EmailSignature  (this entity)  
+First included in: applicationCommon/EmailSignature (this entity)  
 
 #### Properties
 
@@ -171,7 +171,7 @@ First included in: applicationCommon/EmailSignature  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  isPersonal  attribute are listed below.</summary>
+<summary>List of traits for the isPersonal attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -197,7 +197,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#mimeType name="mimeType">mimeType</a>
 
 MIME type of the email signature.  
-First included in: applicationCommon/EmailSignature  (this entity)  
+First included in: applicationCommon/EmailSignature (this entity)  
 
 #### Properties
 
@@ -206,7 +206,7 @@ First included in: applicationCommon/EmailSignature  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  mimeType  attribute are listed below.</summary>
+<summary>List of traits for the mimeType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -237,7 +237,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#body name="body">body</a>
 
 Body text of the email signature.  
-First included in: applicationCommon/EmailSignature  (this entity)  
+First included in: applicationCommon/EmailSignature (this entity)  
 
 #### Properties
 
@@ -246,7 +246,7 @@ First included in: applicationCommon/EmailSignature  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  body  attribute are listed below.</summary>
+<summary>List of traits for the body attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -277,7 +277,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#title name="title">title</a>
 
 Title of the email signature.  
-First included in: applicationCommon/EmailSignature  (this entity)  
+First included in: applicationCommon/EmailSignature (this entity)  
 
 #### Properties
 
@@ -286,7 +286,7 @@ First included in: applicationCommon/EmailSignature  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  title  attribute are listed below.</summary>
+<summary>List of traits for the title attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -317,7 +317,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#description name="description">description</a>
 
 Description of the email signature.  
-First included in: applicationCommon/EmailSignature  (this entity)  
+First included in: applicationCommon/EmailSignature (this entity)  
 
 #### Properties
 
@@ -326,7 +326,7 @@ First included in: applicationCommon/EmailSignature  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  description  attribute are listed below.</summary>
+<summary>List of traits for the description attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -357,7 +357,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user who owns the email signature.  
-First included in: applicationCommon/EmailSignature  (this entity)  
+First included in: applicationCommon/EmailSignature (this entity)  
 
 #### Properties
 
@@ -366,7 +366,7 @@ First included in: applicationCommon/EmailSignature  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningUser  attribute are listed below.</summary>
+<summary>List of traits for the owningUser attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -399,7 +399,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Unique identifier of the user who created the email signature.  
-First included in: applicationCommon/EmailSignature  (this entity)  
+First included in: applicationCommon/EmailSignature (this entity)  
 
 #### Properties
 
@@ -408,7 +408,7 @@ First included in: applicationCommon/EmailSignature  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdBy  attribute are listed below.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -441,7 +441,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#presentationXml name="presentationXml">presentationXml</a>
 
 XML data for the body of the email signature.  
-First included in: applicationCommon/EmailSignature  (this entity)  
+First included in: applicationCommon/EmailSignature (this entity)  
 
 #### Properties
 
@@ -450,7 +450,7 @@ First included in: applicationCommon/EmailSignature  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  presentationXml  attribute are listed below.</summary>
+<summary>List of traits for the presentationXml attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -481,7 +481,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the email signature was created.  
-First included in: applicationCommon/EmailSignature  (this entity)  
+First included in: applicationCommon/EmailSignature (this entity)  
 
 #### Properties
 
@@ -490,7 +490,7 @@ First included in: applicationCommon/EmailSignature  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOn  attribute are listed below.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -520,7 +520,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Unique identifier of the user who last modified the email signature.  
-First included in: applicationCommon/EmailSignature  (this entity)  
+First included in: applicationCommon/EmailSignature (this entity)  
 
 #### Properties
 
@@ -529,7 +529,7 @@ First included in: applicationCommon/EmailSignature  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -562,7 +562,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the email signature was last modified.  
-First included in: applicationCommon/EmailSignature  (this entity)  
+First included in: applicationCommon/EmailSignature (this entity)  
 
 #### Properties
 
@@ -571,7 +571,7 @@ First included in: applicationCommon/EmailSignature  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -601,7 +601,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: applicationCommon/EmailSignature  (this entity)  
+First included in: applicationCommon/EmailSignature (this entity)  
 
 #### Properties
 
@@ -610,7 +610,7 @@ First included in: applicationCommon/EmailSignature  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerIdType  attribute are listed below.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -640,7 +640,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: applicationCommon/EmailSignature  (this entity)  
+First included in: applicationCommon/EmailSignature (this entity)  
 
 #### Properties
 
@@ -649,7 +649,7 @@ First included in: applicationCommon/EmailSignature  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerId  attribute are listed below.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -685,7 +685,7 @@ contains a User or Team ID
 ### <a href=#generationTypeCode name="generationTypeCode">generationTypeCode</a>
 
 For internal use only.  
-First included in: applicationCommon/EmailSignature  (this entity)  
+First included in: applicationCommon/EmailSignature (this entity)  
 
 #### Properties
 
@@ -694,7 +694,7 @@ First included in: applicationCommon/EmailSignature  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  generationTypeCode  attribute are listed below.</summary>
+<summary>List of traits for the generationTypeCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -723,7 +723,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#languageCode name="languageCode">languageCode</a>
 
 Language of the email signature.  
-First included in: applicationCommon/EmailSignature  (this entity)  
+First included in: applicationCommon/EmailSignature (this entity)  
 
 #### Properties
 
@@ -732,7 +732,7 @@ First included in: applicationCommon/EmailSignature  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  languageCode  attribute are listed below.</summary>
+<summary>List of traits for the languageCode attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -764,7 +764,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: applicationCommon/EmailSignature  (this entity)  
+First included in: applicationCommon/EmailSignature (this entity)  
 
 #### Properties
 
@@ -773,7 +773,7 @@ First included in: applicationCommon/EmailSignature  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -802,7 +802,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#overwriteTime name="overwriteTime">overwriteTime</a>
 
 For internal use only.  
-First included in: applicationCommon/EmailSignature  (this entity)  
+First included in: applicationCommon/EmailSignature (this entity)  
 
 #### Properties
 
@@ -811,7 +811,7 @@ First included in: applicationCommon/EmailSignature  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  overwriteTime  attribute are listed below.</summary>
+<summary>List of traits for the overwriteTime attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -837,7 +837,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#componentState name="componentState">componentState</a>
 
 For internal use only.  
-First included in: applicationCommon/EmailSignature  (this entity)  
+First included in: applicationCommon/EmailSignature (this entity)  
 
 #### Properties
 
@@ -846,11 +846,11 @@ First included in: applicationCommon/EmailSignature  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  componentState  attribute are listed below.</summary>
+<summary>List of traits for the componentState attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Deleted Unpublished</td><td>3</td></tr><tr><td>en</td><td>Deleted</td><td>2</td></tr><tr><td>en</td><td>Unpublished</td><td>1</td></tr><tr><td>en</td><td>Published</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Published</td><td>0</td></tr><tr><td>en</td><td>Unpublished</td><td>1</td></tr><tr><td>en</td><td>Deleted</td><td>2</td></tr><tr><td>en</td><td>Deleted Unpublished</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -874,7 +874,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#componentState_display name="componentState_display">componentState_display</a>
 
-First included in: applicationCommon/EmailSignature  (this entity)  
+First included in: applicationCommon/EmailSignature (this entity)  
 
 #### Properties
 
@@ -883,7 +883,7 @@ First included in: applicationCommon/EmailSignature  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  componentState_display  attribute are listed below.</summary>
+<summary>List of traits for the componentState_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -898,7 +898,7 @@ First included in: applicationCommon/EmailSignature  (this entity)
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Unique identifier of the delegate user who created the email signature.  
-First included in: applicationCommon/EmailSignature  (this entity)  
+First included in: applicationCommon/EmailSignature (this entity)  
 
 #### Properties
 
@@ -907,7 +907,7 @@ First included in: applicationCommon/EmailSignature  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -940,7 +940,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Unique identifier of the delegate user who last modified the email signature.  
-First included in: applicationCommon/EmailSignature  (this entity)  
+First included in: applicationCommon/EmailSignature (this entity)  
 
 #### Properties
 
@@ -949,7 +949,7 @@ First included in: applicationCommon/EmailSignature  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -982,7 +982,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier of the team who owns the email signature.  
-First included in: applicationCommon/EmailSignature  (this entity)  
+First included in: applicationCommon/EmailSignature (this entity)  
 
 #### Properties
 
@@ -991,7 +991,7 @@ First included in: applicationCommon/EmailSignature  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningTeam  attribute are listed below.</summary>
+<summary>List of traits for the owningTeam attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1024,7 +1024,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isCustomizable name="isCustomizable">isCustomizable</a>
 
 Information that specifies whether this component can be customized.  
-First included in: applicationCommon/EmailSignature  (this entity)  
+First included in: applicationCommon/EmailSignature (this entity)  
 
 #### Properties
 
@@ -1033,7 +1033,7 @@ First included in: applicationCommon/EmailSignature  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  isCustomizable  attribute are listed below.</summary>
+<summary>List of traits for the isCustomizable attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1056,7 +1056,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: applicationCommon/EmailSignature  (this entity)  
+First included in: applicationCommon/EmailSignature (this entity)  
 
 #### Properties
 
@@ -1065,7 +1065,7 @@ First included in: applicationCommon/EmailSignature  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1095,7 +1095,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isDefault name="isDefault">isDefault</a>
 
 Information that specifies whether the email signature is default to the user.  
-First included in: applicationCommon/EmailSignature  (this entity)  
+First included in: applicationCommon/EmailSignature (this entity)  
 
 #### Properties
 
@@ -1104,7 +1104,7 @@ First included in: applicationCommon/EmailSignature  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  isDefault  attribute are listed below.</summary>
+<summary>List of traits for the isDefault attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  

@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/13/2019
+ms.date: 2/15/2019
 ms.author: tpalmer
 ---
 
@@ -12,14 +12,14 @@ ms.author: tpalmer
 
 Person with whom a business unit has a relationship, such as customer, supplier, and colleague.  
   
-Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/Contact.cdm.json" target="_blank">GitHub</a>.  
+Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/Contact.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
-Instances of this entity are listed below:  
+Instances of this entity are listed below.  
 
 [applicationCommon/Contact](../Contact.md "/core/applicationCommon/Contact.cdm.json/Contact")  
-foundationCommon/Contact  
+/core/applicationCommon/foundationCommon/Contact.cdm.json/Contact  
 [crmCommon/Contact](crmCommon/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/Contact.cdm.json/Contact")  
 [higherEducation/Contact](crmCommon/accelerators/education/higherEducation/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Contact.cdm.json/Contact")  
 [electronicMedicalRecords/Contact](crmCommon/accelerators/healthCare/electronicMedicalRecords/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Contact.cdm.json/Contact")  
@@ -288,7 +288,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOn  attribute are listed below.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -327,7 +327,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  createdBy  attribute are listed below.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -372,7 +372,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -411,7 +411,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -456,7 +456,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -501,7 +501,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -546,7 +546,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -585,7 +585,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -619,7 +619,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerIdType  attribute are listed below.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -648,7 +648,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerId  attribute are listed below.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -684,7 +684,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  owningBusinessUnit  attribute are listed below.</summary>
+<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -726,7 +726,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  owningUser  attribute are listed below.</summary>
+<summary>List of traits for the owningUser attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -771,7 +771,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  owningTeam  attribute are listed below.</summary>
+<summary>List of traits for the owningTeam attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -813,7 +813,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  timeZoneRuleVersionNumber  attribute are listed below.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -851,7 +851,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  UTCConversionTimeZoneCode  attribute are listed below.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -889,7 +889,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -926,7 +926,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  contactId  attribute are listed below.</summary>
+<summary>List of traits for the contactId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -965,7 +965,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  customerSizeCode  attribute are listed below.</summary>
+<summary>List of traits for the customerSizeCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -1005,7 +1005,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  customerSizeCode_display  attribute are listed below.</summary>
+<summary>List of traits for the customerSizeCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1029,7 +1029,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  customerTypeCode  attribute are listed below.</summary>
+<summary>List of traits for the customerTypeCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -1069,7 +1069,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  customerTypeCode_display  attribute are listed below.</summary>
+<summary>List of traits for the customerTypeCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1088,16 +1088,16 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Preferred Method of Contact</td></tr><tr><td>description</td><td>Select the preferred method of contact.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>preferredcontactmethodcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Mail</td><td>5</td></tr><tr><td>en</td><td>Fax</td><td>4</td></tr><tr><td>en</td><td>Phone</td><td>3</td></tr><tr><td>en</td><td>Email</td><td>2</td></tr><tr><td>en</td><td>Any</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Preferred Method of Contact</td></tr><tr><td>description</td><td>Select the preferred method of contact.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>preferredcontactmethodcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Any</td><td>1</td></tr><tr><td>en</td><td>Email</td><td>2</td></tr><tr><td>en</td><td>Phone</td><td>3</td></tr><tr><td>en</td><td>Fax</td><td>4</td></tr><tr><td>en</td><td>Mail</td><td>5</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  preferredContactMethodCode  attribute are listed below.</summary>
+<summary>List of traits for the preferredContactMethodCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Mail</td><td>5</td></tr><tr><td>en</td><td>Fax</td><td>4</td></tr><tr><td>en</td><td>Phone</td><td>3</td></tr><tr><td>en</td><td>Email</td><td>2</td></tr><tr><td>en</td><td>Any</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Any</td><td>1</td></tr><tr><td>en</td><td>Email</td><td>2</td></tr><tr><td>en</td><td>Phone</td><td>3</td></tr><tr><td>en</td><td>Fax</td><td>4</td></tr><tr><td>en</td><td>Mail</td><td>5</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1133,7 +1133,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  preferredContactMethodCode_display  attribute are listed below.</summary>
+<summary>List of traits for the preferredContactMethodCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1157,7 +1157,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  leadSourceCode  attribute are listed below.</summary>
+<summary>List of traits for the leadSourceCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -1197,7 +1197,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  leadSourceCode_display  attribute are listed below.</summary>
+<summary>List of traits for the leadSourceCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1216,16 +1216,16 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Payment Terms</td></tr><tr><td>description</td><td>Select the payment terms to indicate when the customer needs to pay the total amount.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>paymenttermscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Net 60</td><td>4</td></tr><tr><td>en</td><td>Net 45</td><td>3</td></tr><tr><td>en</td><td>2% 10, Net 30</td><td>2</td></tr><tr><td>en</td><td>Net 30</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Payment Terms</td></tr><tr><td>description</td><td>Select the payment terms to indicate when the customer needs to pay the total amount.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>paymenttermscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Net 30</td><td>1</td></tr><tr><td>en</td><td>2% 10, Net 30</td><td>2</td></tr><tr><td>en</td><td>Net 45</td><td>3</td></tr><tr><td>en</td><td>Net 60</td><td>4</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  paymentTermsCode  attribute are listed below.</summary>
+<summary>List of traits for the paymentTermsCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Net 60</td><td>4</td></tr><tr><td>en</td><td>Net 45</td><td>3</td></tr><tr><td>en</td><td>2% 10, Net 30</td><td>2</td></tr><tr><td>en</td><td>Net 30</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Net 30</td><td>1</td></tr><tr><td>en</td><td>2% 10, Net 30</td><td>2</td></tr><tr><td>en</td><td>Net 45</td><td>3</td></tr><tr><td>en</td><td>Net 60</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1261,7 +1261,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  paymentTermsCode_display  attribute are listed below.</summary>
+<summary>List of traits for the paymentTermsCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1285,7 +1285,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  shippingMethodCode  attribute are listed below.</summary>
+<summary>List of traits for the shippingMethodCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -1325,7 +1325,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  shippingMethodCode_display  attribute are listed below.</summary>
+<summary>List of traits for the shippingMethodCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1349,7 +1349,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  accountId  attribute are listed below.</summary>
+<summary>List of traits for the accountId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1391,7 +1391,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  participatesInWorkflow  attribute are listed below.</summary>
+<summary>List of traits for the participatesInWorkflow attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1426,7 +1426,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  isBackofficeCustomer  attribute are listed below.</summary>
+<summary>List of traits for the isBackofficeCustomer attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1461,7 +1461,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  salutation  attribute are listed below.</summary>
+<summary>List of traits for the salutation attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1501,7 +1501,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  jobTitle  attribute are listed below.</summary>
+<summary>List of traits for the jobTitle attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1541,7 +1541,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  firstName  attribute are listed below.</summary>
+<summary>List of traits for the firstName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1582,7 +1582,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  department  attribute are listed below.</summary>
+<summary>List of traits for the department attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1622,7 +1622,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  nickName  attribute are listed below.</summary>
+<summary>List of traits for the nickName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1663,7 +1663,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  middleName  attribute are listed below.</summary>
+<summary>List of traits for the middleName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1704,7 +1704,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  lastName  attribute are listed below.</summary>
+<summary>List of traits for the lastName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1745,7 +1745,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  suffix  attribute are listed below.</summary>
+<summary>List of traits for the suffix attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1785,7 +1785,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  yomiFirstName  attribute are listed below.</summary>
+<summary>List of traits for the yomiFirstName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1827,7 +1827,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  fullName  attribute are listed below.</summary>
+<summary>List of traits for the fullName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1868,7 +1868,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  yomiMiddleName  attribute are listed below.</summary>
+<summary>List of traits for the yomiMiddleName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1910,7 +1910,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  yomiLastName  attribute are listed below.</summary>
+<summary>List of traits for the yomiLastName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1952,7 +1952,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  anniversary  attribute are listed below.</summary>
+<summary>List of traits for the anniversary attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1990,7 +1990,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  birthDate  attribute are listed below.</summary>
+<summary>List of traits for the birthDate attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -2028,7 +2028,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  governmentId  attribute are listed below.</summary>
+<summary>List of traits for the governmentId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2069,7 +2069,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  yomiFullName  attribute are listed below.</summary>
+<summary>List of traits for the yomiFullName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2111,7 +2111,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  description  attribute are listed below.</summary>
+<summary>List of traits for the description attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2151,7 +2151,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  employeeId  attribute are listed below.</summary>
+<summary>List of traits for the employeeId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2186,16 +2186,16 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Gender</td></tr><tr><td>description</td><td>Select the contact's gender to make sure the contact is addressed correctly in sales calls, email, and marketing campaigns.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>gendercode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Female</td><td>2</td></tr><tr><td>en</td><td>Male</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Gender</td></tr><tr><td>description</td><td>Select the contact's gender to make sure the contact is addressed correctly in sales calls, email, and marketing campaigns.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>gendercode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Male</td><td>1</td></tr><tr><td>en</td><td>Female</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  genderCode  attribute are listed below.</summary>
+<summary>List of traits for the genderCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Female</td><td>2</td></tr><tr><td>en</td><td>Male</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Male</td><td>1</td></tr><tr><td>en</td><td>Female</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2231,7 +2231,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  genderCode_display  attribute are listed below.</summary>
+<summary>List of traits for the genderCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2255,7 +2255,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  annualIncome  attribute are listed below.</summary>
+<summary>List of traits for the annualIncome attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -2296,7 +2296,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  hasChildrenCode  attribute are listed below.</summary>
+<summary>List of traits for the hasChildrenCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -2336,7 +2336,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  hasChildrenCode_display  attribute are listed below.</summary>
+<summary>List of traits for the hasChildrenCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2360,7 +2360,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  educationCode  attribute are listed below.</summary>
+<summary>List of traits for the educationCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -2400,7 +2400,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  educationCode_display  attribute are listed below.</summary>
+<summary>List of traits for the educationCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2424,7 +2424,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  webSiteUrl  attribute are listed below.</summary>
+<summary>List of traits for the webSiteUrl attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2460,16 +2460,16 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Marital Status</td></tr><tr><td>description</td><td>Select the marital status of the contact for reference in follow-up phone calls and other communications.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>familystatuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Widowed</td><td>4</td></tr><tr><td>en</td><td>Divorced</td><td>3</td></tr><tr><td>en</td><td>Married</td><td>2</td></tr><tr><td>en</td><td>Single</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Marital Status</td></tr><tr><td>description</td><td>Select the marital status of the contact for reference in follow-up phone calls and other communications.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>familystatuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Single</td><td>1</td></tr><tr><td>en</td><td>Married</td><td>2</td></tr><tr><td>en</td><td>Divorced</td><td>3</td></tr><tr><td>en</td><td>Widowed</td><td>4</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  familyStatusCode  attribute are listed below.</summary>
+<summary>List of traits for the familyStatusCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Widowed</td><td>4</td></tr><tr><td>en</td><td>Divorced</td><td>3</td></tr><tr><td>en</td><td>Married</td><td>2</td></tr><tr><td>en</td><td>Single</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Single</td><td>1</td></tr><tr><td>en</td><td>Married</td><td>2</td></tr><tr><td>en</td><td>Divorced</td><td>3</td></tr><tr><td>en</td><td>Widowed</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2505,7 +2505,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  familyStatusCode_display  attribute are listed below.</summary>
+<summary>List of traits for the familyStatusCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2529,7 +2529,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  ftpSiteUrl  attribute are listed below.</summary>
+<summary>List of traits for the ftpSiteUrl attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2570,7 +2570,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  EMailAddress1  attribute are listed below.</summary>
+<summary>List of traits for the EMailAddress1 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2611,7 +2611,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  spousesName  attribute are listed below.</summary>
+<summary>List of traits for the spousesName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2652,7 +2652,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  assistantName  attribute are listed below.</summary>
+<summary>List of traits for the assistantName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2693,7 +2693,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  EMailAddress2  attribute are listed below.</summary>
+<summary>List of traits for the EMailAddress2 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2734,7 +2734,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  assistantPhone  attribute are listed below.</summary>
+<summary>List of traits for the assistantPhone attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2775,7 +2775,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  EMailAddress3  attribute are listed below.</summary>
+<summary>List of traits for the EMailAddress3 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2816,7 +2816,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  doNotPhone  attribute are listed below.</summary>
+<summary>List of traits for the doNotPhone attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -2851,7 +2851,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  managerName  attribute are listed below.</summary>
+<summary>List of traits for the managerName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2892,7 +2892,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  managerPhone  attribute are listed below.</summary>
+<summary>List of traits for the managerPhone attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2933,7 +2933,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  doNotFax  attribute are listed below.</summary>
+<summary>List of traits for the doNotFax attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -2968,7 +2968,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  doNotEMail  attribute are listed below.</summary>
+<summary>List of traits for the doNotEMail attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -3003,7 +3003,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  doNotPostalMail  attribute are listed below.</summary>
+<summary>List of traits for the doNotPostalMail attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -3038,7 +3038,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  doNotBulkEMail  attribute are listed below.</summary>
+<summary>List of traits for the doNotBulkEMail attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -3073,7 +3073,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  doNotBulkPostalMail  attribute are listed below.</summary>
+<summary>List of traits for the doNotBulkPostalMail attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -3103,16 +3103,16 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Role</td></tr><tr><td>description</td><td>Select the contact's role within the company or sales process, such as decision maker, employee, or influencer.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>accountrolecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Influencer</td><td>3</td></tr><tr><td>en</td><td>Employee</td><td>2</td></tr><tr><td>en</td><td>Decision Maker</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Role</td></tr><tr><td>description</td><td>Select the contact's role within the company or sales process, such as decision maker, employee, or influencer.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>accountrolecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Decision Maker</td><td>1</td></tr><tr><td>en</td><td>Employee</td><td>2</td></tr><tr><td>en</td><td>Influencer</td><td>3</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  accountRoleCode  attribute are listed below.</summary>
+<summary>List of traits for the accountRoleCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Influencer</td><td>3</td></tr><tr><td>en</td><td>Employee</td><td>2</td></tr><tr><td>en</td><td>Decision Maker</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Decision Maker</td><td>1</td></tr><tr><td>en</td><td>Employee</td><td>2</td></tr><tr><td>en</td><td>Influencer</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3148,7 +3148,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  accountRoleCode_display  attribute are listed below.</summary>
+<summary>List of traits for the accountRoleCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3172,7 +3172,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  territoryCode  attribute are listed below.</summary>
+<summary>List of traits for the territoryCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -3212,7 +3212,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  territoryCode_display  attribute are listed below.</summary>
+<summary>List of traits for the territoryCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3236,7 +3236,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  creditLimit  attribute are listed below.</summary>
+<summary>List of traits for the creditLimit attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3277,7 +3277,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  creditOnHold  attribute are listed below.</summary>
+<summary>List of traits for the creditOnHold attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -3312,7 +3312,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  numberOfChildren  attribute are listed below.</summary>
+<summary>List of traits for the numberOfChildren attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -3350,7 +3350,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  childrensNames  attribute are listed below.</summary>
+<summary>List of traits for the childrensNames attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3391,7 +3391,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  mobilePhone  attribute are listed below.</summary>
+<summary>List of traits for the mobilePhone attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3432,7 +3432,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  pager  attribute are listed below.</summary>
+<summary>List of traits for the pager attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3472,7 +3472,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  telephone1  attribute are listed below.</summary>
+<summary>List of traits for the telephone1 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3513,7 +3513,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  telephone2  attribute are listed below.</summary>
+<summary>List of traits for the telephone2 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3554,7 +3554,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  telephone3  attribute are listed below.</summary>
+<summary>List of traits for the telephone3 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3595,7 +3595,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  fax  attribute are listed below.</summary>
+<summary>List of traits for the fax attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3635,7 +3635,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  aging30  attribute are listed below.</summary>
+<summary>List of traits for the aging30 attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3671,16 +3671,16 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Shows whether the contact is active or inactive. Inactive contacts are read-only and can't be edited unless they are reactivated.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr><tr><td>en</td><td>Active</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Shows whether the contact is active or inactive. Inactive contacts are read-only and can't be edited unless they are reactivated.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode  attribute are listed below.</summary>
+<summary>List of traits for the stateCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr><tr><td>en</td><td>Active</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3716,7 +3716,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode_display  attribute are listed below.</summary>
+<summary>List of traits for the stateCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3740,7 +3740,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  aging60  attribute are listed below.</summary>
+<summary>List of traits for the aging60 attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3776,16 +3776,16 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the contact's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the contact's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode  attribute are listed below.</summary>
+<summary>List of traits for the statusCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3824,7 +3824,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode_display  attribute are listed below.</summary>
+<summary>List of traits for the statusCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3848,7 +3848,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  aging90  attribute are listed below.</summary>
+<summary>List of traits for the aging90 attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3889,7 +3889,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  parentContactId  attribute are listed below.</summary>
+<summary>List of traits for the parentContactId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3931,7 +3931,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address1AddressId  attribute are listed below.</summary>
+<summary>List of traits for the address1AddressId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3965,16 +3965,16 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Address Type</td></tr><tr><td>description</td><td>Select the address type, such as primary or billing.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>addresstypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Other</td><td>4</td></tr><tr><td>en</td><td>Primary</td><td>3</td></tr><tr><td>en</td><td>Ship To</td><td>2</td></tr><tr><td>en</td><td>Bill To</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Address Type</td></tr><tr><td>description</td><td>Select the address type, such as primary or billing.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>addresstypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Bill To</td><td>1</td></tr><tr><td>en</td><td>Ship To</td><td>2</td></tr><tr><td>en</td><td>Primary</td><td>3</td></tr><tr><td>en</td><td>Other</td><td>4</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  address1AddressTypeCode  attribute are listed below.</summary>
+<summary>List of traits for the address1AddressTypeCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Other</td><td>4</td></tr><tr><td>en</td><td>Primary</td><td>3</td></tr><tr><td>en</td><td>Ship To</td><td>2</td></tr><tr><td>en</td><td>Bill To</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Bill To</td><td>1</td></tr><tr><td>en</td><td>Ship To</td><td>2</td></tr><tr><td>en</td><td>Primary</td><td>3</td></tr><tr><td>en</td><td>Other</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -4010,7 +4010,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address1AddressTypeCode_display  attribute are listed below.</summary>
+<summary>List of traits for the address1AddressTypeCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4034,7 +4034,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Name  attribute are listed below.</summary>
+<summary>List of traits for the address1Name attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4075,7 +4075,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address1PrimaryContactName  attribute are listed below.</summary>
+<summary>List of traits for the address1PrimaryContactName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4116,7 +4116,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Line1  attribute are listed below.</summary>
+<summary>List of traits for the address1Line1 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4157,7 +4157,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Line2  attribute are listed below.</summary>
+<summary>List of traits for the address1Line2 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4198,7 +4198,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Line3  attribute are listed below.</summary>
+<summary>List of traits for the address1Line3 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4239,7 +4239,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address1City  attribute are listed below.</summary>
+<summary>List of traits for the address1City attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4280,7 +4280,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address1StateOrProvince  attribute are listed below.</summary>
+<summary>List of traits for the address1StateOrProvince attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4321,7 +4321,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address1County  attribute are listed below.</summary>
+<summary>List of traits for the address1County attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4362,7 +4362,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Country  attribute are listed below.</summary>
+<summary>List of traits for the address1Country attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4403,7 +4403,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address1PostOfficeBox  attribute are listed below.</summary>
+<summary>List of traits for the address1PostOfficeBox attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4443,7 +4443,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address1PostalCode  attribute are listed below.</summary>
+<summary>List of traits for the address1PostalCode attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4484,7 +4484,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address1UTCOffset  attribute are listed below.</summary>
+<summary>List of traits for the address1UTCOffset attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4520,16 +4520,16 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Freight Terms</td></tr><tr><td>description</td><td>Select the freight terms to make sure shipping charges are processed correctly.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>freighttermscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No Charge</td><td>2</td></tr><tr><td>en</td><td>FOB</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Freight Terms</td></tr><tr><td>description</td><td>Select the freight terms to make sure shipping charges are processed correctly.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>freighttermscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>FOB</td><td>1</td></tr><tr><td>en</td><td>No Charge</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  address1FreightTermsCode  attribute are listed below.</summary>
+<summary>List of traits for the address1FreightTermsCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No Charge</td><td>2</td></tr><tr><td>en</td><td>FOB</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>FOB</td><td>1</td></tr><tr><td>en</td><td>No Charge</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -4565,7 +4565,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address1FreightTermsCode_display  attribute are listed below.</summary>
+<summary>List of traits for the address1FreightTermsCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4589,7 +4589,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address1UPSZone  attribute are listed below.</summary>
+<summary>List of traits for the address1UPSZone attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4629,7 +4629,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Latitude  attribute are listed below.</summary>
+<summary>List of traits for the address1Latitude attribute are listed below.</summary>
 
 - **is.dataFormat.floatingPoint**  
 - **is.dataFormat.big**  
@@ -4669,7 +4669,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Telephone1  attribute are listed below.</summary>
+<summary>List of traits for the address1Telephone1 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4710,7 +4710,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Longitude  attribute are listed below.</summary>
+<summary>List of traits for the address1Longitude attribute are listed below.</summary>
 
 - **is.dataFormat.floatingPoint**  
 - **is.dataFormat.big**  
@@ -4745,16 +4745,16 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Shipping Method</td></tr><tr><td>description</td><td>Select a shipping method for deliveries sent to this address.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>shippingmethodcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Will Call</td><td>7</td></tr><tr><td>en</td><td>Full Load</td><td>6</td></tr><tr><td>en</td><td>Postal Mail</td><td>5</td></tr><tr><td>en</td><td>UPS</td><td>4</td></tr><tr><td>en</td><td>FedEx</td><td>3</td></tr><tr><td>en</td><td>DHL</td><td>2</td></tr><tr><td>en</td><td>Airborne</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Shipping Method</td></tr><tr><td>description</td><td>Select a shipping method for deliveries sent to this address.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>shippingmethodcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Airborne</td><td>1</td></tr><tr><td>en</td><td>DHL</td><td>2</td></tr><tr><td>en</td><td>FedEx</td><td>3</td></tr><tr><td>en</td><td>UPS</td><td>4</td></tr><tr><td>en</td><td>Postal Mail</td><td>5</td></tr><tr><td>en</td><td>Full Load</td><td>6</td></tr><tr><td>en</td><td>Will Call</td><td>7</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  address1ShippingMethodCode  attribute are listed below.</summary>
+<summary>List of traits for the address1ShippingMethodCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Will Call</td><td>7</td></tr><tr><td>en</td><td>Full Load</td><td>6</td></tr><tr><td>en</td><td>Postal Mail</td><td>5</td></tr><tr><td>en</td><td>UPS</td><td>4</td></tr><tr><td>en</td><td>FedEx</td><td>3</td></tr><tr><td>en</td><td>DHL</td><td>2</td></tr><tr><td>en</td><td>Airborne</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Airborne</td><td>1</td></tr><tr><td>en</td><td>DHL</td><td>2</td></tr><tr><td>en</td><td>FedEx</td><td>3</td></tr><tr><td>en</td><td>UPS</td><td>4</td></tr><tr><td>en</td><td>Postal Mail</td><td>5</td></tr><tr><td>en</td><td>Full Load</td><td>6</td></tr><tr><td>en</td><td>Will Call</td><td>7</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -4790,7 +4790,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address1ShippingMethodCode_display  attribute are listed below.</summary>
+<summary>List of traits for the address1ShippingMethodCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4814,7 +4814,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Telephone2  attribute are listed below.</summary>
+<summary>List of traits for the address1Telephone2 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4855,7 +4855,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Telephone3  attribute are listed below.</summary>
+<summary>List of traits for the address1Telephone3 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4896,7 +4896,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Fax  attribute are listed below.</summary>
+<summary>List of traits for the address1Fax attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4937,7 +4937,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Composite  attribute are listed below.</summary>
+<summary>List of traits for the address1Composite attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4978,7 +4978,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address2AddressId  attribute are listed below.</summary>
+<summary>List of traits for the address2AddressId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5012,16 +5012,16 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Address Type</td></tr><tr><td>description</td><td>Select the address type, such as primary or billing.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>addresstypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Other</td><td>4</td></tr><tr><td>en</td><td>Primary</td><td>3</td></tr><tr><td>en</td><td>Ship To</td><td>2</td></tr><tr><td>en</td><td>Bill To</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Address Type</td></tr><tr><td>description</td><td>Select the address type, such as primary or billing.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>addresstypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Bill To</td><td>1</td></tr><tr><td>en</td><td>Ship To</td><td>2</td></tr><tr><td>en</td><td>Primary</td><td>3</td></tr><tr><td>en</td><td>Other</td><td>4</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  address2AddressTypeCode  attribute are listed below.</summary>
+<summary>List of traits for the address2AddressTypeCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Other</td><td>4</td></tr><tr><td>en</td><td>Primary</td><td>3</td></tr><tr><td>en</td><td>Ship To</td><td>2</td></tr><tr><td>en</td><td>Bill To</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Bill To</td><td>1</td></tr><tr><td>en</td><td>Ship To</td><td>2</td></tr><tr><td>en</td><td>Primary</td><td>3</td></tr><tr><td>en</td><td>Other</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -5057,7 +5057,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address2AddressTypeCode_display  attribute are listed below.</summary>
+<summary>List of traits for the address2AddressTypeCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5081,7 +5081,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Name  attribute are listed below.</summary>
+<summary>List of traits for the address2Name attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5122,7 +5122,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address2PrimaryContactName  attribute are listed below.</summary>
+<summary>List of traits for the address2PrimaryContactName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5163,7 +5163,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Line1  attribute are listed below.</summary>
+<summary>List of traits for the address2Line1 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5204,7 +5204,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Line2  attribute are listed below.</summary>
+<summary>List of traits for the address2Line2 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5245,7 +5245,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Line3  attribute are listed below.</summary>
+<summary>List of traits for the address2Line3 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5286,7 +5286,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address2City  attribute are listed below.</summary>
+<summary>List of traits for the address2City attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5327,7 +5327,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address2StateOrProvince  attribute are listed below.</summary>
+<summary>List of traits for the address2StateOrProvince attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5368,7 +5368,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address2County  attribute are listed below.</summary>
+<summary>List of traits for the address2County attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5409,7 +5409,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Country  attribute are listed below.</summary>
+<summary>List of traits for the address2Country attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5450,7 +5450,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address2PostOfficeBox  attribute are listed below.</summary>
+<summary>List of traits for the address2PostOfficeBox attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5490,7 +5490,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address2PostalCode  attribute are listed below.</summary>
+<summary>List of traits for the address2PostalCode attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5531,7 +5531,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address2UTCOffset  attribute are listed below.</summary>
+<summary>List of traits for the address2UTCOffset attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5567,16 +5567,16 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Freight Terms</td></tr><tr><td>description</td><td>Select the freight terms to make sure shipping charges are processed correctly.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>freighttermscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No Charge</td><td>2</td></tr><tr><td>en</td><td>FOB</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Freight Terms</td></tr><tr><td>description</td><td>Select the freight terms to make sure shipping charges are processed correctly.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>freighttermscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>FOB</td><td>1</td></tr><tr><td>en</td><td>No Charge</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  address2FreightTermsCode  attribute are listed below.</summary>
+<summary>List of traits for the address2FreightTermsCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No Charge</td><td>2</td></tr><tr><td>en</td><td>FOB</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>FOB</td><td>1</td></tr><tr><td>en</td><td>No Charge</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -5612,7 +5612,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address2FreightTermsCode_display  attribute are listed below.</summary>
+<summary>List of traits for the address2FreightTermsCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5636,7 +5636,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address2UPSZone  attribute are listed below.</summary>
+<summary>List of traits for the address2UPSZone attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5676,7 +5676,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Latitude  attribute are listed below.</summary>
+<summary>List of traits for the address2Latitude attribute are listed below.</summary>
 
 - **is.dataFormat.floatingPoint**  
 - **is.dataFormat.big**  
@@ -5716,7 +5716,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Telephone1  attribute are listed below.</summary>
+<summary>List of traits for the address2Telephone1 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5757,7 +5757,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Longitude  attribute are listed below.</summary>
+<summary>List of traits for the address2Longitude attribute are listed below.</summary>
 
 - **is.dataFormat.floatingPoint**  
 - **is.dataFormat.big**  
@@ -5792,16 +5792,16 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Shipping Method</td></tr><tr><td>description</td><td>Select a shipping method for deliveries sent to this address.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>shippingmethodcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Will Call</td><td>7</td></tr><tr><td>en</td><td>Full Load</td><td>6</td></tr><tr><td>en</td><td>Postal Mail</td><td>5</td></tr><tr><td>en</td><td>UPS</td><td>4</td></tr><tr><td>en</td><td>FedEx</td><td>3</td></tr><tr><td>en</td><td>DHL</td><td>2</td></tr><tr><td>en</td><td>Airborne</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Shipping Method</td></tr><tr><td>description</td><td>Select a shipping method for deliveries sent to this address.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>shippingmethodcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Airborne</td><td>1</td></tr><tr><td>en</td><td>DHL</td><td>2</td></tr><tr><td>en</td><td>FedEx</td><td>3</td></tr><tr><td>en</td><td>UPS</td><td>4</td></tr><tr><td>en</td><td>Postal Mail</td><td>5</td></tr><tr><td>en</td><td>Full Load</td><td>6</td></tr><tr><td>en</td><td>Will Call</td><td>7</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  address2ShippingMethodCode  attribute are listed below.</summary>
+<summary>List of traits for the address2ShippingMethodCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Will Call</td><td>7</td></tr><tr><td>en</td><td>Full Load</td><td>6</td></tr><tr><td>en</td><td>Postal Mail</td><td>5</td></tr><tr><td>en</td><td>UPS</td><td>4</td></tr><tr><td>en</td><td>FedEx</td><td>3</td></tr><tr><td>en</td><td>DHL</td><td>2</td></tr><tr><td>en</td><td>Airborne</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Airborne</td><td>1</td></tr><tr><td>en</td><td>DHL</td><td>2</td></tr><tr><td>en</td><td>FedEx</td><td>3</td></tr><tr><td>en</td><td>UPS</td><td>4</td></tr><tr><td>en</td><td>Postal Mail</td><td>5</td></tr><tr><td>en</td><td>Full Load</td><td>6</td></tr><tr><td>en</td><td>Will Call</td><td>7</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -5837,7 +5837,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address2ShippingMethodCode_display  attribute are listed below.</summary>
+<summary>List of traits for the address2ShippingMethodCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5861,7 +5861,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Telephone2  attribute are listed below.</summary>
+<summary>List of traits for the address2Telephone2 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5902,7 +5902,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Telephone3  attribute are listed below.</summary>
+<summary>List of traits for the address2Telephone3 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5943,7 +5943,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Fax  attribute are listed below.</summary>
+<summary>List of traits for the address2Fax attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5984,7 +5984,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Composite  attribute are listed below.</summary>
+<summary>List of traits for the address2Composite attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6025,7 +6025,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address3AddressId  attribute are listed below.</summary>
+<summary>List of traits for the address3AddressId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6059,16 +6059,16 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Address Type</td></tr><tr><td>description</td><td>Select the address type, such as primary or billing.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>addresstypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Other</td><td>4</td></tr><tr><td>en</td><td>Primary</td><td>3</td></tr><tr><td>en</td><td>Ship To</td><td>2</td></tr><tr><td>en</td><td>Bill To</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Address Type</td></tr><tr><td>description</td><td>Select the address type, such as primary or billing.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>addresstypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Bill To</td><td>1</td></tr><tr><td>en</td><td>Ship To</td><td>2</td></tr><tr><td>en</td><td>Primary</td><td>3</td></tr><tr><td>en</td><td>Other</td><td>4</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  address3AddressTypeCode  attribute are listed below.</summary>
+<summary>List of traits for the address3AddressTypeCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Other</td><td>4</td></tr><tr><td>en</td><td>Primary</td><td>3</td></tr><tr><td>en</td><td>Ship To</td><td>2</td></tr><tr><td>en</td><td>Bill To</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Bill To</td><td>1</td></tr><tr><td>en</td><td>Ship To</td><td>2</td></tr><tr><td>en</td><td>Primary</td><td>3</td></tr><tr><td>en</td><td>Other</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -6104,7 +6104,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address3AddressTypeCode_display  attribute are listed below.</summary>
+<summary>List of traits for the address3AddressTypeCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6128,7 +6128,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address3Name  attribute are listed below.</summary>
+<summary>List of traits for the address3Name attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6169,7 +6169,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address3PrimaryContactName  attribute are listed below.</summary>
+<summary>List of traits for the address3PrimaryContactName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6210,7 +6210,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address3Line1  attribute are listed below.</summary>
+<summary>List of traits for the address3Line1 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6251,7 +6251,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address3Line2  attribute are listed below.</summary>
+<summary>List of traits for the address3Line2 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6292,7 +6292,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address3Line3  attribute are listed below.</summary>
+<summary>List of traits for the address3Line3 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6333,7 +6333,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address3City  attribute are listed below.</summary>
+<summary>List of traits for the address3City attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6374,7 +6374,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address3StateOrProvince  attribute are listed below.</summary>
+<summary>List of traits for the address3StateOrProvince attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6415,7 +6415,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address3County  attribute are listed below.</summary>
+<summary>List of traits for the address3County attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6456,7 +6456,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address3Country  attribute are listed below.</summary>
+<summary>List of traits for the address3Country attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6497,7 +6497,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address3PostOfficeBox  attribute are listed below.</summary>
+<summary>List of traits for the address3PostOfficeBox attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6537,7 +6537,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address3PostalCode  attribute are listed below.</summary>
+<summary>List of traits for the address3PostalCode attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6578,7 +6578,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address3UTCOffset  attribute are listed below.</summary>
+<summary>List of traits for the address3UTCOffset attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6614,16 +6614,16 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Freight Terms</td></tr><tr><td>description</td><td>Select the freight terms to make sure shipping charges are processed correctly.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>freighttermscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No Charge</td><td>2</td></tr><tr><td>en</td><td>FOB</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Freight Terms</td></tr><tr><td>description</td><td>Select the freight terms to make sure shipping charges are processed correctly.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>freighttermscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>FOB</td><td>1</td></tr><tr><td>en</td><td>No Charge</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  address3FreightTermsCode  attribute are listed below.</summary>
+<summary>List of traits for the address3FreightTermsCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No Charge</td><td>2</td></tr><tr><td>en</td><td>FOB</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>FOB</td><td>1</td></tr><tr><td>en</td><td>No Charge</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -6659,7 +6659,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address3FreightTermsCode_display  attribute are listed below.</summary>
+<summary>List of traits for the address3FreightTermsCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6683,7 +6683,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address3UPSZone  attribute are listed below.</summary>
+<summary>List of traits for the address3UPSZone attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6723,7 +6723,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address3Latitude  attribute are listed below.</summary>
+<summary>List of traits for the address3Latitude attribute are listed below.</summary>
 
 - **is.dataFormat.floatingPoint**  
 - **is.dataFormat.big**  
@@ -6763,7 +6763,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address3Telephone1  attribute are listed below.</summary>
+<summary>List of traits for the address3Telephone1 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6804,7 +6804,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address3Longitude  attribute are listed below.</summary>
+<summary>List of traits for the address3Longitude attribute are listed below.</summary>
 
 - **is.dataFormat.floatingPoint**  
 - **is.dataFormat.big**  
@@ -6839,16 +6839,16 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Shipping Method</td></tr><tr><td>description</td><td>Select a shipping method for deliveries sent to this address.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>shippingmethodcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Will Call</td><td>7</td></tr><tr><td>en</td><td>Full Load</td><td>6</td></tr><tr><td>en</td><td>Postal Mail</td><td>5</td></tr><tr><td>en</td><td>UPS</td><td>4</td></tr><tr><td>en</td><td>FedEx</td><td>3</td></tr><tr><td>en</td><td>DHL</td><td>2</td></tr><tr><td>en</td><td>Airborne</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Shipping Method</td></tr><tr><td>description</td><td>Select a shipping method for deliveries sent to this address.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>shippingmethodcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Airborne</td><td>1</td></tr><tr><td>en</td><td>DHL</td><td>2</td></tr><tr><td>en</td><td>FedEx</td><td>3</td></tr><tr><td>en</td><td>UPS</td><td>4</td></tr><tr><td>en</td><td>Postal Mail</td><td>5</td></tr><tr><td>en</td><td>Full Load</td><td>6</td></tr><tr><td>en</td><td>Will Call</td><td>7</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  address3ShippingMethodCode  attribute are listed below.</summary>
+<summary>List of traits for the address3ShippingMethodCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Will Call</td><td>7</td></tr><tr><td>en</td><td>Full Load</td><td>6</td></tr><tr><td>en</td><td>Postal Mail</td><td>5</td></tr><tr><td>en</td><td>UPS</td><td>4</td></tr><tr><td>en</td><td>FedEx</td><td>3</td></tr><tr><td>en</td><td>DHL</td><td>2</td></tr><tr><td>en</td><td>Airborne</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Airborne</td><td>1</td></tr><tr><td>en</td><td>DHL</td><td>2</td></tr><tr><td>en</td><td>FedEx</td><td>3</td></tr><tr><td>en</td><td>UPS</td><td>4</td></tr><tr><td>en</td><td>Postal Mail</td><td>5</td></tr><tr><td>en</td><td>Full Load</td><td>6</td></tr><tr><td>en</td><td>Will Call</td><td>7</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -6884,7 +6884,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address3ShippingMethodCode_display  attribute are listed below.</summary>
+<summary>List of traits for the address3ShippingMethodCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6908,7 +6908,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address3Telephone2  attribute are listed below.</summary>
+<summary>List of traits for the address3Telephone2 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6949,7 +6949,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address3Telephone3  attribute are listed below.</summary>
+<summary>List of traits for the address3Telephone3 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6990,7 +6990,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address3Fax  attribute are listed below.</summary>
+<summary>List of traits for the address3Fax attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -7031,7 +7031,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  address3Composite  attribute are listed below.</summary>
+<summary>List of traits for the address3Composite attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -7072,7 +7072,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  preferredSystemUserId  attribute are listed below.</summary>
+<summary>List of traits for the preferredSystemUserId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -7114,7 +7114,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  masterId  attribute are listed below.</summary>
+<summary>List of traits for the masterId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -7151,16 +7151,16 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Preferred Day</td></tr><tr><td>description</td><td>Select the preferred day of the week for service appointments.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>preferredappointmentdaycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Saturday</td><td>6</td></tr><tr><td>en</td><td>Friday</td><td>5</td></tr><tr><td>en</td><td>Thursday</td><td>4</td></tr><tr><td>en</td><td>Wednesday</td><td>3</td></tr><tr><td>en</td><td>Tuesday</td><td>2</td></tr><tr><td>en</td><td>Monday</td><td>1</td></tr><tr><td>en</td><td>Sunday</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Preferred Day</td></tr><tr><td>description</td><td>Select the preferred day of the week for service appointments.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>preferredappointmentdaycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Sunday</td><td>0</td></tr><tr><td>en</td><td>Monday</td><td>1</td></tr><tr><td>en</td><td>Tuesday</td><td>2</td></tr><tr><td>en</td><td>Wednesday</td><td>3</td></tr><tr><td>en</td><td>Thursday</td><td>4</td></tr><tr><td>en</td><td>Friday</td><td>5</td></tr><tr><td>en</td><td>Saturday</td><td>6</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  preferredAppointmentDayCode  attribute are listed below.</summary>
+<summary>List of traits for the preferredAppointmentDayCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Saturday</td><td>6</td></tr><tr><td>en</td><td>Friday</td><td>5</td></tr><tr><td>en</td><td>Thursday</td><td>4</td></tr><tr><td>en</td><td>Wednesday</td><td>3</td></tr><tr><td>en</td><td>Tuesday</td><td>2</td></tr><tr><td>en</td><td>Monday</td><td>1</td></tr><tr><td>en</td><td>Sunday</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Sunday</td><td>0</td></tr><tr><td>en</td><td>Monday</td><td>1</td></tr><tr><td>en</td><td>Tuesday</td><td>2</td></tr><tr><td>en</td><td>Wednesday</td><td>3</td></tr><tr><td>en</td><td>Thursday</td><td>4</td></tr><tr><td>en</td><td>Friday</td><td>5</td></tr><tr><td>en</td><td>Saturday</td><td>6</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -7196,7 +7196,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  preferredAppointmentDayCode_display  attribute are listed below.</summary>
+<summary>List of traits for the preferredAppointmentDayCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -7215,16 +7215,16 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Preferred Time</td></tr><tr><td>description</td><td>Select the preferred time of day for service appointments.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>preferredappointmenttimecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Evening</td><td>3</td></tr><tr><td>en</td><td>Afternoon</td><td>2</td></tr><tr><td>en</td><td>Morning</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Preferred Time</td></tr><tr><td>description</td><td>Select the preferred time of day for service appointments.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>preferredappointmenttimecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Morning</td><td>1</td></tr><tr><td>en</td><td>Afternoon</td><td>2</td></tr><tr><td>en</td><td>Evening</td><td>3</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  preferredAppointmentTimeCode  attribute are listed below.</summary>
+<summary>List of traits for the preferredAppointmentTimeCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Evening</td><td>3</td></tr><tr><td>en</td><td>Afternoon</td><td>2</td></tr><tr><td>en</td><td>Morning</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Morning</td><td>1</td></tr><tr><td>en</td><td>Afternoon</td><td>2</td></tr><tr><td>en</td><td>Evening</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -7260,7 +7260,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  preferredAppointmentTimeCode_display  attribute are listed below.</summary>
+<summary>List of traits for the preferredAppointmentTimeCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -7284,7 +7284,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  doNotSendMM  attribute are listed below.</summary>
+<summary>List of traits for the doNotSendMM attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -7319,7 +7319,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  parentCustomerIdType  attribute are listed below.</summary>
+<summary>List of traits for the parentCustomerIdType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -7355,7 +7355,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  parentCustomerId  attribute are listed below.</summary>
+<summary>List of traits for the parentCustomerId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -7403,7 +7403,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  merged  attribute are listed below.</summary>
+<summary>List of traits for the merged attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -7438,7 +7438,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  externalUserIdentifier  attribute are listed below.</summary>
+<summary>List of traits for the externalUserIdentifier attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -7478,7 +7478,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  lastUsedInCampaign  attribute are listed below.</summary>
+<summary>List of traits for the lastUsedInCampaign attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -7516,7 +7516,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  transactionCurrencyId  attribute are listed below.</summary>
+<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -7558,7 +7558,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  exchangeRate  attribute are listed below.</summary>
+<summary>List of traits for the exchangeRate attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -7598,7 +7598,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  annualIncomeBase  attribute are listed below.</summary>
+<summary>List of traits for the annualIncomeBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -7642,7 +7642,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  creditLimitBase  attribute are listed below.</summary>
+<summary>List of traits for the creditLimitBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -7686,7 +7686,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  aging60Base  attribute are listed below.</summary>
+<summary>List of traits for the aging60Base attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -7730,7 +7730,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  aging90Base  attribute are listed below.</summary>
+<summary>List of traits for the aging90Base attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -7774,7 +7774,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  aging30Base  attribute are listed below.</summary>
+<summary>List of traits for the aging30Base attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -7818,7 +7818,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  stageId  attribute are listed below.</summary>
+<summary>List of traits for the stageId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -7856,7 +7856,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  processId  attribute are listed below.</summary>
+<summary>List of traits for the processId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -7894,7 +7894,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  entityImageId  attribute are listed below.</summary>
+<summary>List of traits for the entityImageId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -7932,7 +7932,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  traversedPath  attribute are listed below.</summary>
+<summary>List of traits for the traversedPath attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -7972,7 +7972,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  SLAId  attribute are listed below.</summary>
+<summary>List of traits for the SLAId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -8014,7 +8014,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  SLAInvokedId  attribute are listed below.</summary>
+<summary>List of traits for the SLAInvokedId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -8056,7 +8056,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  onHoldTime  attribute are listed below.</summary>
+<summary>List of traits for the onHoldTime attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -8094,7 +8094,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  lastOnHoldTime  attribute are listed below.</summary>
+<summary>List of traits for the lastOnHoldTime attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -8132,7 +8132,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  followEmail  attribute are listed below.</summary>
+<summary>List of traits for the followEmail attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -8167,7 +8167,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  timeSpentByMeOnEmailAndMeetings  attribute are listed below.</summary>
+<summary>List of traits for the timeSpentByMeOnEmailAndMeetings attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -8208,7 +8208,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  business2  attribute are listed below.</summary>
+<summary>List of traits for the business2 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -8249,7 +8249,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  callback  attribute are listed below.</summary>
+<summary>List of traits for the callback attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -8290,7 +8290,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  company  attribute are listed below.</summary>
+<summary>List of traits for the company attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -8331,7 +8331,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  home2  attribute are listed below.</summary>
+<summary>List of traits for the home2 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -8372,7 +8372,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  createdByExternalParty  attribute are listed below.</summary>
+<summary>List of traits for the createdByExternalParty attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -8414,7 +8414,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedByExternalParty  attribute are listed below.</summary>
+<summary>List of traits for the modifiedByExternalParty attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -8456,7 +8456,7 @@ First included in: <a href="../Contact.md" target="_blank">applicationCommon/Con
 #### Traits
 
 <details>
-<summary>List of traits for the  marketingOnly  attribute are listed below.</summary>
+<summary>List of traits for the marketingOnly attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -8482,7 +8482,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#defaultPriceLevelId name="defaultPriceLevelId">defaultPriceLevelId</a>
 
 Choose the default price list associated with the contact to make sure the correct product prices for this customer are applied in sales opportunities, quotes, and orders.  
-First included in: foundationCommon/Contact  (this entity)  
+First included in: foundationCommon/Contact (this entity)  
 
 #### Properties
 
@@ -8491,7 +8491,7 @@ First included in: foundationCommon/Contact  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  defaultPriceLevelId  attribute are listed below.</summary>
+<summary>List of traits for the defaultPriceLevelId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  

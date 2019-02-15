@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/13/2019
+ms.date: 2/15/2019
 ms.author: tpalmer
 ---
 
@@ -12,13 +12,13 @@ ms.author: tpalmer
 
 Association between an opportunity and a product.  
   
-Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/OpportunityProduct.cdm.json" target="_blank">GitHub</a>.  
+Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/OpportunityProduct.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
-Instances of this entity are listed below:  
+Instances of this entity are listed below.  
 
-sales/OpportunityProduct  
+/core/applicationCommon/foundationCommon/crmCommon/sales/OpportunityProduct.cdm.json/OpportunityProduct  
 
 ## Traits
 
@@ -109,7 +109,7 @@ sales/OpportunityProduct
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: sales/OpportunityProduct  (this entity)  
+First included in: sales/OpportunityProduct (this entity)  
 
 #### Properties
 
@@ -118,7 +118,7 @@ First included in: sales/OpportunityProduct  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOn  attribute are listed below.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -148,7 +148,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: sales/OpportunityProduct  (this entity)  
+First included in: sales/OpportunityProduct (this entity)  
 
 #### Properties
 
@@ -157,7 +157,7 @@ First included in: sales/OpportunityProduct  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdBy  attribute are listed below.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -193,7 +193,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: sales/OpportunityProduct  (this entity)  
+First included in: sales/OpportunityProduct (this entity)  
 
 #### Properties
 
@@ -202,7 +202,7 @@ First included in: sales/OpportunityProduct  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -232,7 +232,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: sales/OpportunityProduct  (this entity)  
+First included in: sales/OpportunityProduct (this entity)  
 
 #### Properties
 
@@ -241,7 +241,7 @@ First included in: sales/OpportunityProduct  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -277,7 +277,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: sales/OpportunityProduct  (this entity)  
+First included in: sales/OpportunityProduct (this entity)  
 
 #### Properties
 
@@ -286,7 +286,7 @@ First included in: sales/OpportunityProduct  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -322,7 +322,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: sales/OpportunityProduct  (this entity)  
+First included in: sales/OpportunityProduct (this entity)  
 
 #### Properties
 
@@ -331,7 +331,7 @@ First included in: sales/OpportunityProduct  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -367,7 +367,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: sales/OpportunityProduct  (this entity)  
+First included in: sales/OpportunityProduct (this entity)  
 
 #### Properties
 
@@ -376,7 +376,7 @@ First included in: sales/OpportunityProduct  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -406,7 +406,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: sales/OpportunityProduct  (this entity)  
+First included in: sales/OpportunityProduct (this entity)  
 
 #### Properties
 
@@ -415,7 +415,7 @@ First included in: sales/OpportunityProduct  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -441,7 +441,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: sales/OpportunityProduct  (this entity)  
+First included in: sales/OpportunityProduct (this entity)  
 
 #### Properties
 
@@ -450,7 +450,7 @@ First included in: sales/OpportunityProduct  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerIdType  attribute are listed below.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -480,7 +480,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: sales/OpportunityProduct  (this entity)  
+First included in: sales/OpportunityProduct (this entity)  
 
 #### Properties
 
@@ -489,7 +489,7 @@ First included in: sales/OpportunityProduct  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerId  attribute are listed below.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -525,7 +525,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: sales/OpportunityProduct  (this entity)  
+First included in: sales/OpportunityProduct (this entity)  
 
 #### Properties
 
@@ -534,7 +534,7 @@ First included in: sales/OpportunityProduct  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningBusinessUnit  attribute are listed below.</summary>
+<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -567,7 +567,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: sales/OpportunityProduct  (this entity)  
+First included in: sales/OpportunityProduct (this entity)  
 
 #### Properties
 
@@ -576,7 +576,7 @@ First included in: sales/OpportunityProduct  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningUser  attribute are listed below.</summary>
+<summary>List of traits for the owningUser attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -612,7 +612,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: sales/OpportunityProduct  (this entity)  
+First included in: sales/OpportunityProduct (this entity)  
 
 #### Properties
 
@@ -621,7 +621,7 @@ First included in: sales/OpportunityProduct  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningTeam  attribute are listed below.</summary>
+<summary>List of traits for the owningTeam attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -654,7 +654,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: sales/OpportunityProduct  (this entity)  
+First included in: sales/OpportunityProduct (this entity)  
 
 #### Properties
 
@@ -663,7 +663,7 @@ First included in: sales/OpportunityProduct  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  timeZoneRuleVersionNumber  attribute are listed below.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -692,7 +692,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: sales/OpportunityProduct  (this entity)  
+First included in: sales/OpportunityProduct (this entity)  
 
 #### Properties
 
@@ -701,7 +701,7 @@ First included in: sales/OpportunityProduct  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  UTCConversionTimeZoneCode  attribute are listed below.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -730,7 +730,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: sales/OpportunityProduct  (this entity)  
+First included in: sales/OpportunityProduct (this entity)  
 
 #### Properties
 
@@ -739,7 +739,7 @@ First included in: sales/OpportunityProduct  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -767,7 +767,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#opportunityProductId name="opportunityProductId">opportunityProductId</a>
 
 Unique identifier of the opportunity product.  
-First included in: sales/OpportunityProduct  (this entity)  
+First included in: sales/OpportunityProduct (this entity)  
 
 #### Properties
 
@@ -776,7 +776,7 @@ First included in: sales/OpportunityProduct  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  opportunityProductId  attribute are listed below.</summary>
+<summary>List of traits for the opportunityProductId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -806,7 +806,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#baseAmount name="baseAmount">baseAmount</a>
 
 Shows the total price of the opportunity product, based on the price per unit, volume discount, and quantity.  
-First included in: sales/OpportunityProduct  (this entity)  
+First included in: sales/OpportunityProduct (this entity)  
 
 #### Properties
 
@@ -815,7 +815,7 @@ First included in: sales/OpportunityProduct  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  baseAmount  attribute are listed below.</summary>
+<summary>List of traits for the baseAmount attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -847,7 +847,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Choose the local currency for the record to make sure budgets are reported in the correct currency.  
-First included in: sales/OpportunityProduct  (this entity)  
+First included in: sales/OpportunityProduct (this entity)  
 
 #### Properties
 
@@ -856,7 +856,7 @@ First included in: sales/OpportunityProduct  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  transactionCurrencyId  attribute are listed below.</summary>
+<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -889,7 +889,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.  
-First included in: sales/OpportunityProduct  (this entity)  
+First included in: sales/OpportunityProduct (this entity)  
 
 #### Properties
 
@@ -898,7 +898,7 @@ First included in: sales/OpportunityProduct  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  exchangeRate  attribute are listed below.</summary>
+<summary>List of traits for the exchangeRate attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -929,7 +929,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#baseAmountBase name="baseAmountBase">baseAmountBase</a>
 
 Value of the Amount in base currency.  
-First included in: sales/OpportunityProduct  (this entity)  
+First included in: sales/OpportunityProduct (this entity)  
 
 #### Properties
 
@@ -938,7 +938,7 @@ First included in: sales/OpportunityProduct  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  baseAmountBase  attribute are listed below.</summary>
+<summary>List of traits for the baseAmountBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -973,7 +973,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#description name="description">description</a>
 
 Type additional information to describe the opportunity product, such as manufacturing details.  
-First included in: sales/OpportunityProduct  (this entity)  
+First included in: sales/OpportunityProduct (this entity)  
 
 #### Properties
 
@@ -982,7 +982,7 @@ First included in: sales/OpportunityProduct  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  description  attribute are listed below.</summary>
+<summary>List of traits for the description attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1013,7 +1013,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#extendedAmount name="extendedAmount">extendedAmount</a>
 
 Shows the total amount due for the opportunity product, calculated on the Amount value minus the Manual Discount amount.  
-First included in: sales/OpportunityProduct  (this entity)  
+First included in: sales/OpportunityProduct (this entity)  
 
 #### Properties
 
@@ -1022,7 +1022,7 @@ First included in: sales/OpportunityProduct  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  extendedAmount  attribute are listed below.</summary>
+<summary>List of traits for the extendedAmount attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1054,7 +1054,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#extendedAmountBase name="extendedAmountBase">extendedAmountBase</a>
 
 Value of the Extended Amount in base currency.  
-First included in: sales/OpportunityProduct  (this entity)  
+First included in: sales/OpportunityProduct (this entity)  
 
 #### Properties
 
@@ -1063,7 +1063,7 @@ First included in: sales/OpportunityProduct  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  extendedAmountBase  attribute are listed below.</summary>
+<summary>List of traits for the extendedAmountBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1098,7 +1098,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#isPriceOverridden name="isPriceOverridden">isPriceOverridden</a>
 
 Select whether the pricing on the opportunity product reflects an override of the product catalog pricing.  
-First included in: sales/OpportunityProduct  (this entity)  
+First included in: sales/OpportunityProduct (this entity)  
 
 #### Properties
 
@@ -1107,7 +1107,7 @@ First included in: sales/OpportunityProduct  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  isPriceOverridden  attribute are listed below.</summary>
+<summary>List of traits for the isPriceOverridden attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1133,7 +1133,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isProductOverridden name="isProductOverridden">isProductOverridden</a>
 
 For system use only.  
-First included in: sales/OpportunityProduct  (this entity)  
+First included in: sales/OpportunityProduct (this entity)  
 
 #### Properties
 
@@ -1142,7 +1142,7 @@ First included in: sales/OpportunityProduct  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  isProductOverridden  attribute are listed below.</summary>
+<summary>List of traits for the isProductOverridden attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1168,7 +1168,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#lineItemNumber name="lineItemNumber">lineItemNumber</a>
 
 Type the line item number for the opportunity product to easily identify the product in the opportunity documents and make sure it's listed in the correct order.  
-First included in: sales/OpportunityProduct  (this entity)  
+First included in: sales/OpportunityProduct (this entity)  
 
 #### Properties
 
@@ -1177,7 +1177,7 @@ First included in: sales/OpportunityProduct  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  lineItemNumber  attribute are listed below.</summary>
+<summary>List of traits for the lineItemNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1206,7 +1206,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#manualDiscountAmount name="manualDiscountAmount">manualDiscountAmount</a>
 
 Type the manual discount amount for the opportunity product to deduct any negotiated or other savings from the product total.  
-First included in: sales/OpportunityProduct  (this entity)  
+First included in: sales/OpportunityProduct (this entity)  
 
 #### Properties
 
@@ -1215,7 +1215,7 @@ First included in: sales/OpportunityProduct  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  manualDiscountAmount  attribute are listed below.</summary>
+<summary>List of traits for the manualDiscountAmount attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1247,7 +1247,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#manualDiscountAmountBase name="manualDiscountAmountBase">manualDiscountAmountBase</a>
 
 Value of the Manual Discount Amount in base currency.  
-First included in: sales/OpportunityProduct  (this entity)  
+First included in: sales/OpportunityProduct (this entity)  
 
 #### Properties
 
@@ -1256,7 +1256,7 @@ First included in: sales/OpportunityProduct  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  manualDiscountAmountBase  attribute are listed below.</summary>
+<summary>List of traits for the manualDiscountAmountBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1291,7 +1291,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#opportunityId name="opportunityId">opportunityId</a>
 
 Unique identifier of the opportunity with which the opportunity product is associated.  
-First included in: sales/OpportunityProduct  (this entity)  
+First included in: sales/OpportunityProduct (this entity)  
 
 #### Properties
 
@@ -1300,7 +1300,7 @@ First included in: sales/OpportunityProduct  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  opportunityId  attribute are listed below.</summary>
+<summary>List of traits for the opportunityId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1330,7 +1330,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#opportunityStateCode name="opportunityStateCode">opportunityStateCode</a>
 
 Select the status of the opportunity product.  
-First included in: sales/OpportunityProduct  (this entity)  
+First included in: sales/OpportunityProduct (this entity)  
 
 #### Properties
 
@@ -1339,7 +1339,7 @@ First included in: sales/OpportunityProduct  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  opportunityStateCode  attribute are listed below.</summary>
+<summary>List of traits for the opportunityStateCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -1367,7 +1367,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#opportunityStateCode_display name="opportunityStateCode_display">opportunityStateCode_display</a>
 
-First included in: sales/OpportunityProduct  (this entity)  
+First included in: sales/OpportunityProduct (this entity)  
 
 #### Properties
 
@@ -1376,7 +1376,7 @@ First included in: sales/OpportunityProduct  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  opportunityStateCode_display  attribute are listed below.</summary>
+<summary>List of traits for the opportunityStateCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1391,7 +1391,7 @@ First included in: sales/OpportunityProduct  (this entity)
 ### <a href=#parentBundleId name="parentBundleId">parentBundleId</a>
 
 Choose the parent bundle associated with this product  
-First included in: sales/OpportunityProduct  (this entity)  
+First included in: sales/OpportunityProduct (this entity)  
 
 #### Properties
 
@@ -1400,7 +1400,7 @@ First included in: sales/OpportunityProduct  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  parentBundleId  attribute are listed below.</summary>
+<summary>List of traits for the parentBundleId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1429,7 +1429,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#productAssociationId name="productAssociationId">productAssociationId</a>
 
 Unique identifier of the product line item association with bundle in the opportunity  
-First included in: sales/OpportunityProduct  (this entity)  
+First included in: sales/OpportunityProduct (this entity)  
 
 #### Properties
 
@@ -1438,7 +1438,7 @@ First included in: sales/OpportunityProduct  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  productAssociationId  attribute are listed below.</summary>
+<summary>List of traits for the productAssociationId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1467,7 +1467,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#productTypeCode name="productTypeCode">productTypeCode</a>
 
 Product Type  
-First included in: sales/OpportunityProduct  (this entity)  
+First included in: sales/OpportunityProduct (this entity)  
 
 #### Properties
 
@@ -1476,11 +1476,11 @@ First included in: sales/OpportunityProduct  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  productTypeCode  attribute are listed below.</summary>
+<summary>List of traits for the productTypeCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Project-based Service</td><td>5</td></tr><tr><td>en</td><td>Optional Bundle Product</td><td>4</td></tr><tr><td>en</td><td>Required Bundle Product</td><td>3</td></tr><tr><td>en</td><td>Bundle</td><td>2</td></tr><tr><td>en</td><td>Product</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Product</td><td>1</td></tr><tr><td>en</td><td>Bundle</td><td>2</td></tr><tr><td>en</td><td>Required Bundle Product</td><td>3</td></tr><tr><td>en</td><td>Optional Bundle Product</td><td>4</td></tr><tr><td>en</td><td>Project-based Service</td><td>5</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1504,7 +1504,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#productTypeCode_display name="productTypeCode_display">productTypeCode_display</a>
 
-First included in: sales/OpportunityProduct  (this entity)  
+First included in: sales/OpportunityProduct (this entity)  
 
 #### Properties
 
@@ -1513,7 +1513,7 @@ First included in: sales/OpportunityProduct  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  productTypeCode_display  attribute are listed below.</summary>
+<summary>List of traits for the productTypeCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1528,7 +1528,7 @@ First included in: sales/OpportunityProduct  (this entity)
 ### <a href=#pricePerUnit name="pricePerUnit">pricePerUnit</a>
 
 Shows the price per unit of the opportunity product, based on the price list specified on the parent opportunity.  
-First included in: sales/OpportunityProduct  (this entity)  
+First included in: sales/OpportunityProduct (this entity)  
 
 #### Properties
 
@@ -1537,7 +1537,7 @@ First included in: sales/OpportunityProduct  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  pricePerUnit  attribute are listed below.</summary>
+<summary>List of traits for the pricePerUnit attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1569,7 +1569,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#pricePerUnitBase name="pricePerUnitBase">pricePerUnitBase</a>
 
 Value of the Price Per Unit in base currency.  
-First included in: sales/OpportunityProduct  (this entity)  
+First included in: sales/OpportunityProduct (this entity)  
 
 #### Properties
 
@@ -1578,7 +1578,7 @@ First included in: sales/OpportunityProduct  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  pricePerUnitBase  attribute are listed below.</summary>
+<summary>List of traits for the pricePerUnitBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1613,20 +1613,20 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#pricingErrorCode name="pricingErrorCode">pricingErrorCode</a>
 
 Select the pricing error for the opportunity product.  
-First included in: sales/OpportunityProduct  (this entity)  
+First included in: sales/OpportunityProduct (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Pricing Error </td></tr><tr><td>description</td><td>Select the pricing error for the opportunity product.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>pricingerrorcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>None</td><td>0</td></tr><tr><td>en</td><td>Base Currency Attribute Underflow</td><td>37</td></tr><tr><td>en</td><td>Missing Price Level</td><td>2</td></tr><tr><td>en</td><td>Inactive Price Level</td><td>3</td></tr><tr><td>en</td><td>Missing Quantity</td><td>4</td></tr><tr><td>en</td><td>Missing Unit Price</td><td>5</td></tr><tr><td>en</td><td>Missing Product</td><td>6</td></tr><tr><td>en</td><td>Invalid Product</td><td>7</td></tr><tr><td>en</td><td>Missing Pricing Code</td><td>8</td></tr><tr><td>en</td><td>Invalid Pricing Code</td><td>9</td></tr><tr><td>en</td><td>Missing UOM</td><td>10</td></tr><tr><td>en</td><td>Product Not In Price Level</td><td>11</td></tr><tr><td>en</td><td>Missing Price Level Amount</td><td>12</td></tr><tr><td>en</td><td>Missing Price Level Percentage</td><td>13</td></tr><tr><td>en</td><td>Missing Price</td><td>14</td></tr><tr><td>en</td><td>Missing Current Cost</td><td>15</td></tr><tr><td>en</td><td>Missing Standard Cost</td><td>16</td></tr><tr><td>en</td><td>Invalid Price Level Amount</td><td>17</td></tr><tr><td>en</td><td>Invalid Price Level Percentage</td><td>18</td></tr><tr><td>en</td><td>Detail Error</td><td>1</td></tr><tr><td>en</td><td>Invalid Current Cost</td><td>20</td></tr><tr><td>en</td><td>Invalid Standard Cost</td><td>21</td></tr><tr><td>en</td><td>Invalid Rounding Policy</td><td>22</td></tr><tr><td>en</td><td>Invalid Rounding Option</td><td>23</td></tr><tr><td>en</td><td>Invalid Rounding Amount</td><td>24</td></tr><tr><td>en</td><td>Price Calculation Error</td><td>25</td></tr><tr><td>en</td><td>Invalid Discount Type</td><td>26</td></tr><tr><td>en</td><td>Discount Type Invalid State</td><td>27</td></tr><tr><td>en</td><td>Invalid Discount</td><td>28</td></tr><tr><td>en</td><td>Invalid Quantity</td><td>29</td></tr><tr><td>en</td><td>Invalid Pricing Precision</td><td>30</td></tr><tr><td>en</td><td>Missing Product Default UOM</td><td>31</td></tr><tr><td>en</td><td>Missing Product UOM Schedule </td><td>32</td></tr><tr><td>en</td><td>Inactive Discount Type</td><td>33</td></tr><tr><td>en</td><td>Invalid Price Level Currency</td><td>34</td></tr><tr><td>en</td><td>Price Attribute Out Of Range</td><td>35</td></tr><tr><td>en</td><td>Base Currency Attribute Overflow</td><td>36</td></tr><tr><td>en</td><td>Invalid Price</td><td>19</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Pricing Error </td></tr><tr><td>description</td><td>Select the pricing error for the opportunity product.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>pricingerrorcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>None</td><td>0</td></tr><tr><td>en</td><td>Detail Error</td><td>1</td></tr><tr><td>en</td><td>Missing Price Level</td><td>2</td></tr><tr><td>en</td><td>Inactive Price Level</td><td>3</td></tr><tr><td>en</td><td>Missing Quantity</td><td>4</td></tr><tr><td>en</td><td>Missing Unit Price</td><td>5</td></tr><tr><td>en</td><td>Missing Product</td><td>6</td></tr><tr><td>en</td><td>Invalid Product</td><td>7</td></tr><tr><td>en</td><td>Missing Pricing Code</td><td>8</td></tr><tr><td>en</td><td>Invalid Pricing Code</td><td>9</td></tr><tr><td>en</td><td>Missing UOM</td><td>10</td></tr><tr><td>en</td><td>Product Not In Price Level</td><td>11</td></tr><tr><td>en</td><td>Missing Price Level Amount</td><td>12</td></tr><tr><td>en</td><td>Missing Price Level Percentage</td><td>13</td></tr><tr><td>en</td><td>Missing Price</td><td>14</td></tr><tr><td>en</td><td>Missing Current Cost</td><td>15</td></tr><tr><td>en</td><td>Missing Standard Cost</td><td>16</td></tr><tr><td>en</td><td>Invalid Price Level Amount</td><td>17</td></tr><tr><td>en</td><td>Invalid Price Level Percentage</td><td>18</td></tr><tr><td>en</td><td>Invalid Price</td><td>19</td></tr><tr><td>en</td><td>Invalid Current Cost</td><td>20</td></tr><tr><td>en</td><td>Invalid Standard Cost</td><td>21</td></tr><tr><td>en</td><td>Invalid Rounding Policy</td><td>22</td></tr><tr><td>en</td><td>Invalid Rounding Option</td><td>23</td></tr><tr><td>en</td><td>Invalid Rounding Amount</td><td>24</td></tr><tr><td>en</td><td>Price Calculation Error</td><td>25</td></tr><tr><td>en</td><td>Invalid Discount Type</td><td>26</td></tr><tr><td>en</td><td>Discount Type Invalid State</td><td>27</td></tr><tr><td>en</td><td>Invalid Discount</td><td>28</td></tr><tr><td>en</td><td>Invalid Quantity</td><td>29</td></tr><tr><td>en</td><td>Invalid Pricing Precision</td><td>30</td></tr><tr><td>en</td><td>Missing Product Default UOM</td><td>31</td></tr><tr><td>en</td><td>Missing Product UOM Schedule </td><td>32</td></tr><tr><td>en</td><td>Inactive Discount Type</td><td>33</td></tr><tr><td>en</td><td>Invalid Price Level Currency</td><td>34</td></tr><tr><td>en</td><td>Price Attribute Out Of Range</td><td>35</td></tr><tr><td>en</td><td>Base Currency Attribute Overflow</td><td>36</td></tr><tr><td>en</td><td>Base Currency Attribute Underflow</td><td>37</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  pricingErrorCode  attribute are listed below.</summary>
+<summary>List of traits for the pricingErrorCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Base Currency Attribute Underflow</td><td>37</td></tr><tr><td>en</td><td>Base Currency Attribute Overflow</td><td>36</td></tr><tr><td>en</td><td>Price Attribute Out Of Range</td><td>35</td></tr><tr><td>en</td><td>Invalid Price Level Currency</td><td>34</td></tr><tr><td>en</td><td>Inactive Discount Type</td><td>33</td></tr><tr><td>en</td><td>Missing Product UOM Schedule </td><td>32</td></tr><tr><td>en</td><td>Missing Product Default UOM</td><td>31</td></tr><tr><td>en</td><td>Invalid Pricing Precision</td><td>30</td></tr><tr><td>en</td><td>Invalid Quantity</td><td>29</td></tr><tr><td>en</td><td>Invalid Discount</td><td>28</td></tr><tr><td>en</td><td>Discount Type Invalid State</td><td>27</td></tr><tr><td>en</td><td>Invalid Discount Type</td><td>26</td></tr><tr><td>en</td><td>Price Calculation Error</td><td>25</td></tr><tr><td>en</td><td>Invalid Rounding Amount</td><td>24</td></tr><tr><td>en</td><td>Invalid Rounding Option</td><td>23</td></tr><tr><td>en</td><td>Invalid Rounding Policy</td><td>22</td></tr><tr><td>en</td><td>Invalid Standard Cost</td><td>21</td></tr><tr><td>en</td><td>Invalid Current Cost</td><td>20</td></tr><tr><td>en</td><td>Invalid Price</td><td>19</td></tr><tr><td>en</td><td>Invalid Price Level Percentage</td><td>18</td></tr><tr><td>en</td><td>Invalid Price Level Amount</td><td>17</td></tr><tr><td>en</td><td>Missing Standard Cost</td><td>16</td></tr><tr><td>en</td><td>Missing Current Cost</td><td>15</td></tr><tr><td>en</td><td>Missing Price</td><td>14</td></tr><tr><td>en</td><td>Missing Price Level Percentage</td><td>13</td></tr><tr><td>en</td><td>Missing Price Level Amount</td><td>12</td></tr><tr><td>en</td><td>Product Not In Price Level</td><td>11</td></tr><tr><td>en</td><td>Missing UOM</td><td>10</td></tr><tr><td>en</td><td>Invalid Pricing Code</td><td>9</td></tr><tr><td>en</td><td>Missing Pricing Code</td><td>8</td></tr><tr><td>en</td><td>Invalid Product</td><td>7</td></tr><tr><td>en</td><td>Missing Product</td><td>6</td></tr><tr><td>en</td><td>Missing Unit Price</td><td>5</td></tr><tr><td>en</td><td>Missing Quantity</td><td>4</td></tr><tr><td>en</td><td>Inactive Price Level</td><td>3</td></tr><tr><td>en</td><td>Missing Price Level</td><td>2</td></tr><tr><td>en</td><td>Detail Error</td><td>1</td></tr><tr><td>en</td><td>None</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>None</td><td>0</td></tr><tr><td>en</td><td>Detail Error</td><td>1</td></tr><tr><td>en</td><td>Missing Price Level</td><td>2</td></tr><tr><td>en</td><td>Inactive Price Level</td><td>3</td></tr><tr><td>en</td><td>Missing Quantity</td><td>4</td></tr><tr><td>en</td><td>Missing Unit Price</td><td>5</td></tr><tr><td>en</td><td>Missing Product</td><td>6</td></tr><tr><td>en</td><td>Invalid Product</td><td>7</td></tr><tr><td>en</td><td>Missing Pricing Code</td><td>8</td></tr><tr><td>en</td><td>Invalid Pricing Code</td><td>9</td></tr><tr><td>en</td><td>Missing UOM</td><td>10</td></tr><tr><td>en</td><td>Product Not In Price Level</td><td>11</td></tr><tr><td>en</td><td>Missing Price Level Amount</td><td>12</td></tr><tr><td>en</td><td>Missing Price Level Percentage</td><td>13</td></tr><tr><td>en</td><td>Missing Price</td><td>14</td></tr><tr><td>en</td><td>Missing Current Cost</td><td>15</td></tr><tr><td>en</td><td>Missing Standard Cost</td><td>16</td></tr><tr><td>en</td><td>Invalid Price Level Amount</td><td>17</td></tr><tr><td>en</td><td>Invalid Price Level Percentage</td><td>18</td></tr><tr><td>en</td><td>Invalid Price</td><td>19</td></tr><tr><td>en</td><td>Invalid Current Cost</td><td>20</td></tr><tr><td>en</td><td>Invalid Standard Cost</td><td>21</td></tr><tr><td>en</td><td>Invalid Rounding Policy</td><td>22</td></tr><tr><td>en</td><td>Invalid Rounding Option</td><td>23</td></tr><tr><td>en</td><td>Invalid Rounding Amount</td><td>24</td></tr><tr><td>en</td><td>Price Calculation Error</td><td>25</td></tr><tr><td>en</td><td>Invalid Discount Type</td><td>26</td></tr><tr><td>en</td><td>Discount Type Invalid State</td><td>27</td></tr><tr><td>en</td><td>Invalid Discount</td><td>28</td></tr><tr><td>en</td><td>Invalid Quantity</td><td>29</td></tr><tr><td>en</td><td>Invalid Pricing Precision</td><td>30</td></tr><tr><td>en</td><td>Missing Product Default UOM</td><td>31</td></tr><tr><td>en</td><td>Missing Product UOM Schedule </td><td>32</td></tr><tr><td>en</td><td>Inactive Discount Type</td><td>33</td></tr><tr><td>en</td><td>Invalid Price Level Currency</td><td>34</td></tr><tr><td>en</td><td>Price Attribute Out Of Range</td><td>35</td></tr><tr><td>en</td><td>Base Currency Attribute Overflow</td><td>36</td></tr><tr><td>en</td><td>Base Currency Attribute Underflow</td><td>37</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1653,7 +1653,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#pricingErrorCode_display name="pricingErrorCode_display">pricingErrorCode_display</a>
 
-First included in: sales/OpportunityProduct  (this entity)  
+First included in: sales/OpportunityProduct (this entity)  
 
 #### Properties
 
@@ -1662,7 +1662,7 @@ First included in: sales/OpportunityProduct  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  pricingErrorCode_display  attribute are listed below.</summary>
+<summary>List of traits for the pricingErrorCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1677,7 +1677,7 @@ First included in: sales/OpportunityProduct  (this entity)
 ### <a href=#productDescription name="productDescription">productDescription</a>
 
 Type a detailed product description or additional notes about the opportunity product, such as talking points or product updates, that will assist the sales team when they discuss the product with the customer.  
-First included in: sales/OpportunityProduct  (this entity)  
+First included in: sales/OpportunityProduct (this entity)  
 
 #### Properties
 
@@ -1686,7 +1686,7 @@ First included in: sales/OpportunityProduct  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  productDescription  attribute are listed below.</summary>
+<summary>List of traits for the productDescription attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1717,7 +1717,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#productName name="productName">productName</a>
 
 Calculated field that will be populated by name and description of the product.  
-First included in: sales/OpportunityProduct  (this entity)  
+First included in: sales/OpportunityProduct (this entity)  
 
 #### Properties
 
@@ -1726,7 +1726,7 @@ First included in: sales/OpportunityProduct  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  productName  attribute are listed below.</summary>
+<summary>List of traits for the productName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1758,7 +1758,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#productId name="productId">productId</a>
 
 Choose the product to include on the opportunity to link the product's pricing and other information to the opportunity.  
-First included in: sales/OpportunityProduct  (this entity)  
+First included in: sales/OpportunityProduct (this entity)  
 
 #### Properties
 
@@ -1767,7 +1767,7 @@ First included in: sales/OpportunityProduct  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  productId  attribute are listed below.</summary>
+<summary>List of traits for the productId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1800,7 +1800,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#quantity name="quantity">quantity</a>
 
 Type the amount or quantity of the product the customer would like to purchase.  
-First included in: sales/OpportunityProduct  (this entity)  
+First included in: sales/OpportunityProduct (this entity)  
 
 #### Properties
 
@@ -1809,7 +1809,7 @@ First included in: sales/OpportunityProduct  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  quantity  attribute are listed below.</summary>
+<summary>List of traits for the quantity attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1840,7 +1840,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#tax name="tax">tax</a>
 
 Type the tax amount to be applied on the opportunity product.  
-First included in: sales/OpportunityProduct  (this entity)  
+First included in: sales/OpportunityProduct (this entity)  
 
 #### Properties
 
@@ -1849,7 +1849,7 @@ First included in: sales/OpportunityProduct  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  tax  attribute are listed below.</summary>
+<summary>List of traits for the tax attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1881,7 +1881,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#taxBase name="taxBase">taxBase</a>
 
 Value of the Tax in base currency.  
-First included in: sales/OpportunityProduct  (this entity)  
+First included in: sales/OpportunityProduct (this entity)  
 
 #### Properties
 
@@ -1890,7 +1890,7 @@ First included in: sales/OpportunityProduct  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  taxBase  attribute are listed below.</summary>
+<summary>List of traits for the taxBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1925,7 +1925,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#uoMId name="uoMId">uoMId</a>
 
 Choose the unit of measurement for the base unit quantity for this purchase, such as each or dozen.  
-First included in: sales/OpportunityProduct  (this entity)  
+First included in: sales/OpportunityProduct (this entity)  
 
 #### Properties
 
@@ -1934,7 +1934,7 @@ First included in: sales/OpportunityProduct  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  uoMId  attribute are listed below.</summary>
+<summary>List of traits for the uoMId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1967,7 +1967,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#volumeDiscountAmount name="volumeDiscountAmount">volumeDiscountAmount</a>
 
 Shows the discount amount per unit if a specified volume is purchased. Configure volume discounts in the Product Catalog in the Settings area.  
-First included in: sales/OpportunityProduct  (this entity)  
+First included in: sales/OpportunityProduct (this entity)  
 
 #### Properties
 
@@ -1976,7 +1976,7 @@ First included in: sales/OpportunityProduct  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  volumeDiscountAmount  attribute are listed below.</summary>
+<summary>List of traits for the volumeDiscountAmount attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -2008,7 +2008,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#volumeDiscountAmountBase name="volumeDiscountAmountBase">volumeDiscountAmountBase</a>
 
 Value of the Volume Discount in base currency.  
-First included in: sales/OpportunityProduct  (this entity)  
+First included in: sales/OpportunityProduct (this entity)  
 
 #### Properties
 
@@ -2017,7 +2017,7 @@ First included in: sales/OpportunityProduct  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  volumeDiscountAmountBase  attribute are listed below.</summary>
+<summary>List of traits for the volumeDiscountAmountBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -2052,7 +2052,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#sequenceNumber name="sequenceNumber">sequenceNumber</a>
 
 Shows the ID of the data that maintains the sequence.  
-First included in: sales/OpportunityProduct  (this entity)  
+First included in: sales/OpportunityProduct (this entity)  
 
 #### Properties
 
@@ -2061,7 +2061,7 @@ First included in: sales/OpportunityProduct  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  sequenceNumber  attribute are listed below.</summary>
+<summary>List of traits for the sequenceNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -2090,7 +2090,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#propertyConfigurationStatus name="propertyConfigurationStatus">propertyConfigurationStatus</a>
 
 Status of the property configuration.  
-First included in: sales/OpportunityProduct  (this entity)  
+First included in: sales/OpportunityProduct (this entity)  
 
 #### Properties
 
@@ -2099,11 +2099,11 @@ First included in: sales/OpportunityProduct  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  propertyConfigurationStatus  attribute are listed below.</summary>
+<summary>List of traits for the propertyConfigurationStatus attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not Configured</td><td>2</td></tr><tr><td>en</td><td>Rectify</td><td>1</td></tr><tr><td>en</td><td>Edit</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Edit</td><td>0</td></tr><tr><td>en</td><td>Rectify</td><td>1</td></tr><tr><td>en</td><td>Not Configured</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2127,7 +2127,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#propertyConfigurationStatus_display name="propertyConfigurationStatus_display">propertyConfigurationStatus_display</a>
 
-First included in: sales/OpportunityProduct  (this entity)  
+First included in: sales/OpportunityProduct (this entity)  
 
 #### Properties
 
@@ -2136,7 +2136,7 @@ First included in: sales/OpportunityProduct  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  propertyConfigurationStatus_display  attribute are listed below.</summary>
+<summary>List of traits for the propertyConfigurationStatus_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2150,7 +2150,7 @@ First included in: sales/OpportunityProduct  (this entity)
 
 ### <a href=#entityImageId name="entityImageId">entityImageId</a>
 
-First included in: sales/OpportunityProduct  (this entity)  
+First included in: sales/OpportunityProduct (this entity)  
 
 #### Properties
 
@@ -2159,7 +2159,7 @@ First included in: sales/OpportunityProduct  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  entityImageId  attribute are listed below.</summary>
+<summary>List of traits for the entityImageId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2182,7 +2182,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#opportunityProductName name="opportunityProductName">opportunityProductName</a>
 
 Opportunity Product Name. Added for 1:n Referential relationship  
-First included in: sales/OpportunityProduct  (this entity)  
+First included in: sales/OpportunityProduct (this entity)  
 
 #### Properties
 
@@ -2191,7 +2191,7 @@ First included in: sales/OpportunityProduct  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  opportunityProductName  attribute are listed below.</summary>
+<summary>List of traits for the opportunityProductName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2223,7 +2223,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#parentBundleIdRef name="parentBundleIdRef">parentBundleIdRef</a>
 
 Choose the parent bundle associated with this product  
-First included in: sales/OpportunityProduct  (this entity)  
+First included in: sales/OpportunityProduct (this entity)  
 
 #### Properties
 
@@ -2232,7 +2232,7 @@ First included in: sales/OpportunityProduct  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  parentBundleIdRef  attribute are listed below.</summary>
+<summary>List of traits for the parentBundleIdRef attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  

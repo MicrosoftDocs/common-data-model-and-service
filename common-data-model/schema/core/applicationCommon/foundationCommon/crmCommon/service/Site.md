@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/13/2019
+ms.date: 2/15/2019
 ms.author: tpalmer
 ---
 
@@ -12,13 +12,13 @@ ms.author: tpalmer
 
 Location or branch office where an organization does business. An organization can have multiple sites.  
   
-Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/Site.cdm.json" target="_blank">GitHub</a>.  
+Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/Site.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
-Instances of this entity are listed below:  
+Instances of this entity are listed below.  
 
-service/Site  
+/core/applicationCommon/foundationCommon/crmCommon/service/Site.cdm.json/Site  
 
 ## Traits
 
@@ -116,7 +116,7 @@ service/Site
 ### <a href=#siteId name="siteId">siteId</a>
 
 Unique identifier of the site.  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -125,7 +125,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  siteId  attribute are listed below.</summary>
+<summary>List of traits for the siteId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -155,7 +155,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the site was created.  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -164,7 +164,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOn  attribute are listed below.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -194,7 +194,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Unique identifier of the user who created the site.  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -203,7 +203,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdBy  attribute are listed below.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -236,7 +236,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the site was last modified.  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -245,7 +245,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -275,7 +275,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Unique identifier of the user who last modified the site.  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -284,7 +284,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -317,7 +317,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Unique identifier of the delegate user who created the site.  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -326,7 +326,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -359,7 +359,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Unique identifier of the delegate user who last modified the site.  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -368,7 +368,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -401,7 +401,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#organizationId name="organizationId">organizationId</a>
 
 Unique identifier for the organization  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -410,7 +410,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  organizationId  attribute are listed below.</summary>
+<summary>List of traits for the organizationId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -437,7 +437,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -446,7 +446,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -473,7 +473,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -482,7 +482,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -511,7 +511,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -520,7 +520,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -550,7 +550,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -559,7 +559,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  timeZoneRuleVersionNumber  attribute are listed below.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -588,7 +588,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -597,7 +597,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  UTCConversionTimeZoneCode  attribute are listed below.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -626,7 +626,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#name name="name">name</a>
 
 Name of the site.  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -635,7 +635,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  name  attribute are listed below.</summary>
+<summary>List of traits for the name attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -664,7 +664,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1AddressId name="address1AddressId">address1AddressId</a>
 
 Unique identifier for address 1.  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -673,7 +673,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1AddressId  attribute are listed below.</summary>
+<summary>List of traits for the address1AddressId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -703,7 +703,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#address1AddressTypeCode name="address1AddressTypeCode">address1AddressTypeCode</a>
 
 Type of address for address 1, such as billing, shipping, or primary address.  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -712,7 +712,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1AddressTypeCode  attribute are listed below.</summary>
+<summary>List of traits for the address1AddressTypeCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -743,7 +743,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#address1AddressTypeCode_display name="address1AddressTypeCode_display">address1AddressTypeCode_display</a>
 
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -752,7 +752,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1AddressTypeCode_display  attribute are listed below.</summary>
+<summary>List of traits for the address1AddressTypeCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -767,7 +767,7 @@ First included in: service/Site  (this entity)
 ### <a href=#address1City name="address1City">address1City</a>
 
 City name for address 1.  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -776,7 +776,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1City  attribute are listed below.</summary>
+<summary>List of traits for the address1City attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -808,7 +808,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Country name="address1Country">address1Country</a>
 
 Country/region name for address 1.  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -817,7 +817,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Country  attribute are listed below.</summary>
+<summary>List of traits for the address1Country attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -849,7 +849,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1County name="address1County">address1County</a>
 
 County name for address 1.  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -858,7 +858,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1County  attribute are listed below.</summary>
+<summary>List of traits for the address1County attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -890,7 +890,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Fax name="address1Fax">address1Fax</a>
 
 Fax number for address 1.  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -899,7 +899,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Fax  attribute are listed below.</summary>
+<summary>List of traits for the address1Fax attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -930,7 +930,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Latitude name="address1Latitude">address1Latitude</a>
 
 Latitude for address 1.  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -939,7 +939,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Latitude  attribute are listed below.</summary>
+<summary>List of traits for the address1Latitude attribute are listed below.</summary>
 
 - **is.dataFormat.floatingPoint**  
 - **is.dataFormat.big**  
@@ -970,7 +970,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Line1 name="address1Line1">address1Line1</a>
 
 First line for entering address 1 information.  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -979,7 +979,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Line1  attribute are listed below.</summary>
+<summary>List of traits for the address1Line1 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1011,7 +1011,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Line2 name="address1Line2">address1Line2</a>
 
 Second line for entering address 1 information.  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -1020,7 +1020,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Line2  attribute are listed below.</summary>
+<summary>List of traits for the address1Line2 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1052,7 +1052,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Line3 name="address1Line3">address1Line3</a>
 
 Third line for entering address 1 information.  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -1061,7 +1061,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Line3  attribute are listed below.</summary>
+<summary>List of traits for the address1Line3 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1093,7 +1093,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Longitude name="address1Longitude">address1Longitude</a>
 
 Longitude for address 1.  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -1102,7 +1102,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Longitude  attribute are listed below.</summary>
+<summary>List of traits for the address1Longitude attribute are listed below.</summary>
 
 - **is.dataFormat.floatingPoint**  
 - **is.dataFormat.big**  
@@ -1133,7 +1133,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Name name="address1Name">address1Name</a>
 
 Name to enter for address 1.  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -1142,7 +1142,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Name  attribute are listed below.</summary>
+<summary>List of traits for the address1Name attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1174,7 +1174,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1PostalCode name="address1PostalCode">address1PostalCode</a>
 
 ZIP Code or postal code for address 1.  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -1183,7 +1183,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1PostalCode  attribute are listed below.</summary>
+<summary>List of traits for the address1PostalCode attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1215,7 +1215,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1PostOfficeBox name="address1PostOfficeBox">address1PostOfficeBox</a>
 
 Post office box number for address 1.  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -1224,7 +1224,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1PostOfficeBox  attribute are listed below.</summary>
+<summary>List of traits for the address1PostOfficeBox attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1255,7 +1255,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1ShippingMethodCode name="address1ShippingMethodCode">address1ShippingMethodCode</a>
 
 Method of shipment for address 1.  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -1264,7 +1264,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1ShippingMethodCode  attribute are listed below.</summary>
+<summary>List of traits for the address1ShippingMethodCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -1295,7 +1295,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#address1ShippingMethodCode_display name="address1ShippingMethodCode_display">address1ShippingMethodCode_display</a>
 
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -1304,7 +1304,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1ShippingMethodCode_display  attribute are listed below.</summary>
+<summary>List of traits for the address1ShippingMethodCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1319,7 +1319,7 @@ First included in: service/Site  (this entity)
 ### <a href=#address1StateOrProvince name="address1StateOrProvince">address1StateOrProvince</a>
 
 State or province for address 1.  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -1328,7 +1328,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1StateOrProvince  attribute are listed below.</summary>
+<summary>List of traits for the address1StateOrProvince attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1360,7 +1360,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Telephone1 name="address1Telephone1">address1Telephone1</a>
 
 First telephone number associated with address 1.  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -1369,7 +1369,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Telephone1  attribute are listed below.</summary>
+<summary>List of traits for the address1Telephone1 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1401,7 +1401,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Telephone2 name="address1Telephone2">address1Telephone2</a>
 
 Second telephone number associated with address 1.  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -1410,7 +1410,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Telephone2  attribute are listed below.</summary>
+<summary>List of traits for the address1Telephone2 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1442,7 +1442,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Telephone3 name="address1Telephone3">address1Telephone3</a>
 
 Third telephone number associated with address 1.  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -1451,7 +1451,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Telephone3  attribute are listed below.</summary>
+<summary>List of traits for the address1Telephone3 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1483,7 +1483,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1UPSZone name="address1UPSZone">address1UPSZone</a>
 
 United Parcel Service (UPS) zone for address 1.  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -1492,7 +1492,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1UPSZone  attribute are listed below.</summary>
+<summary>List of traits for the address1UPSZone attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1523,7 +1523,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1UTCOffset name="address1UTCOffset">address1UTCOffset</a>
 
 UTC offset for address 1. This is the difference between local time and standard Coordinated Universal Time.  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -1532,7 +1532,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1UTCOffset  attribute are listed below.</summary>
+<summary>List of traits for the address1UTCOffset attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1564,7 +1564,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2AddressId name="address2AddressId">address2AddressId</a>
 
 Unique identifier for address 2.  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -1573,7 +1573,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2AddressId  attribute are listed below.</summary>
+<summary>List of traits for the address2AddressId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1603,7 +1603,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#address2AddressTypeCode name="address2AddressTypeCode">address2AddressTypeCode</a>
 
 Type of address for address 2, such as billing, shipping, or primary address.  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -1612,7 +1612,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2AddressTypeCode  attribute are listed below.</summary>
+<summary>List of traits for the address2AddressTypeCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -1643,7 +1643,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#address2AddressTypeCode_display name="address2AddressTypeCode_display">address2AddressTypeCode_display</a>
 
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -1652,7 +1652,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2AddressTypeCode_display  attribute are listed below.</summary>
+<summary>List of traits for the address2AddressTypeCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1667,7 +1667,7 @@ First included in: service/Site  (this entity)
 ### <a href=#address2City name="address2City">address2City</a>
 
 City name for address 2.  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -1676,7 +1676,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2City  attribute are listed below.</summary>
+<summary>List of traits for the address2City attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1708,7 +1708,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Country name="address2Country">address2Country</a>
 
 Country/region name for address 2.  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -1717,7 +1717,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Country  attribute are listed below.</summary>
+<summary>List of traits for the address2Country attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1749,7 +1749,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2County name="address2County">address2County</a>
 
 County name for address 2.  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -1758,7 +1758,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2County  attribute are listed below.</summary>
+<summary>List of traits for the address2County attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1790,7 +1790,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Fax name="address2Fax">address2Fax</a>
 
 Fax number for address 2.  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -1799,7 +1799,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Fax  attribute are listed below.</summary>
+<summary>List of traits for the address2Fax attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1830,7 +1830,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Latitude name="address2Latitude">address2Latitude</a>
 
 Latitude for address 2.  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -1839,7 +1839,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Latitude  attribute are listed below.</summary>
+<summary>List of traits for the address2Latitude attribute are listed below.</summary>
 
 - **is.dataFormat.floatingPoint**  
 - **is.dataFormat.big**  
@@ -1870,7 +1870,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Line1 name="address2Line1">address2Line1</a>
 
 First line for entering address 2 information.  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -1879,7 +1879,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Line1  attribute are listed below.</summary>
+<summary>List of traits for the address2Line1 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1911,7 +1911,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Line2 name="address2Line2">address2Line2</a>
 
 Second line for entering address 2 information.  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -1920,7 +1920,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Line2  attribute are listed below.</summary>
+<summary>List of traits for the address2Line2 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1952,7 +1952,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Line3 name="address2Line3">address2Line3</a>
 
 Third line for entering address 2 information.  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -1961,7 +1961,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Line3  attribute are listed below.</summary>
+<summary>List of traits for the address2Line3 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1993,7 +1993,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Longitude name="address2Longitude">address2Longitude</a>
 
 Longitude for address 2.  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -2002,7 +2002,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Longitude  attribute are listed below.</summary>
+<summary>List of traits for the address2Longitude attribute are listed below.</summary>
 
 - **is.dataFormat.floatingPoint**  
 - **is.dataFormat.big**  
@@ -2033,7 +2033,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Name name="address2Name">address2Name</a>
 
 Name to enter for address 2.  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -2042,7 +2042,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Name  attribute are listed below.</summary>
+<summary>List of traits for the address2Name attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2074,7 +2074,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2PostalCode name="address2PostalCode">address2PostalCode</a>
 
 ZIP Code or postal code for address 2.  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -2083,7 +2083,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2PostalCode  attribute are listed below.</summary>
+<summary>List of traits for the address2PostalCode attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2115,7 +2115,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2PostOfficeBox name="address2PostOfficeBox">address2PostOfficeBox</a>
 
 Post office box number for address 2.  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -2124,7 +2124,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2PostOfficeBox  attribute are listed below.</summary>
+<summary>List of traits for the address2PostOfficeBox attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2155,7 +2155,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2ShippingMethodCode name="address2ShippingMethodCode">address2ShippingMethodCode</a>
 
 Method of shipment for address 2.  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -2164,7 +2164,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2ShippingMethodCode  attribute are listed below.</summary>
+<summary>List of traits for the address2ShippingMethodCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -2195,7 +2195,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#address2ShippingMethodCode_display name="address2ShippingMethodCode_display">address2ShippingMethodCode_display</a>
 
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -2204,7 +2204,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2ShippingMethodCode_display  attribute are listed below.</summary>
+<summary>List of traits for the address2ShippingMethodCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2219,7 +2219,7 @@ First included in: service/Site  (this entity)
 ### <a href=#address2StateOrProvince name="address2StateOrProvince">address2StateOrProvince</a>
 
 State or province for address 2.  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -2228,7 +2228,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2StateOrProvince  attribute are listed below.</summary>
+<summary>List of traits for the address2StateOrProvince attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2260,7 +2260,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Telephone1 name="address2Telephone1">address2Telephone1</a>
 
 First telephone number associated with address 2.  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -2269,7 +2269,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Telephone1  attribute are listed below.</summary>
+<summary>List of traits for the address2Telephone1 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2301,7 +2301,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Telephone2 name="address2Telephone2">address2Telephone2</a>
 
 Second telephone number associated with address 2.  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -2310,7 +2310,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Telephone2  attribute are listed below.</summary>
+<summary>List of traits for the address2Telephone2 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2342,7 +2342,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Telephone3 name="address2Telephone3">address2Telephone3</a>
 
 Third telephone number associated with address 2.  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -2351,7 +2351,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Telephone3  attribute are listed below.</summary>
+<summary>List of traits for the address2Telephone3 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2383,7 +2383,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2UPSZone name="address2UPSZone">address2UPSZone</a>
 
 United Parcel Service (UPS) zone for address 2.  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -2392,7 +2392,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2UPSZone  attribute are listed below.</summary>
+<summary>List of traits for the address2UPSZone attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2423,7 +2423,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2UTCOffset name="address2UTCOffset">address2UTCOffset</a>
 
 UTC offset for address 2. This is the difference between local time and standard Coordinated Universal Time.  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -2432,7 +2432,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2UTCOffset  attribute are listed below.</summary>
+<summary>List of traits for the address2UTCOffset attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2464,7 +2464,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#emailAddress name="emailAddress">emailAddress</a>
 
 Email address for the site.  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -2473,7 +2473,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  emailAddress  attribute are listed below.</summary>
+<summary>List of traits for the emailAddress attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2505,7 +2505,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#timeZoneCode name="timeZoneCode">timeZoneCode</a>
 
 Local time zone for the site.  
-First included in: service/Site  (this entity)  
+First included in: service/Site (this entity)  
 
 #### Properties
 
@@ -2514,7 +2514,7 @@ First included in: service/Site  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  timeZoneCode  attribute are listed below.</summary>
+<summary>List of traits for the timeZoneCode attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  

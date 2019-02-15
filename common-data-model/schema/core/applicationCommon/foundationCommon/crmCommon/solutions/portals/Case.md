@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/13/2019
+ms.date: 2/15/2019
 ms.author: tpalmer
 ---
 
@@ -12,14 +12,14 @@ ms.author: tpalmer
 
 Service request case associated with a contract.  
   
-Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Case.cdm.json" target="_blank">GitHub</a>.  
+Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Case.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
-Instances of this entity are listed below:  
+Instances of this entity are listed below.  
 
 [service/Case](../../service/Case.md "/core/applicationCommon/foundationCommon/crmCommon/service/Case.cdm.json/Case")  
-portals/Case  
+/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Case.cdm.json/Case  
 
 ## Traits
 
@@ -172,7 +172,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOn  attribute are listed below.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -211,7 +211,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  createdBy  attribute are listed below.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -256,7 +256,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -295,7 +295,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -340,7 +340,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -385,7 +385,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -430,7 +430,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -469,7 +469,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -504,7 +504,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerIdType  attribute are listed below.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -543,7 +543,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerId  attribute are listed below.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -588,7 +588,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  owningBusinessUnit  attribute are listed below.</summary>
+<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -630,7 +630,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  owningUser  attribute are listed below.</summary>
+<summary>List of traits for the owningUser attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -675,7 +675,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  owningTeam  attribute are listed below.</summary>
+<summary>List of traits for the owningTeam attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -717,7 +717,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  timeZoneRuleVersionNumber  attribute are listed below.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -755,7 +755,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  UTCConversionTimeZoneCode  attribute are listed below.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -793,7 +793,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -830,7 +830,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  incidentId  attribute are listed below.</summary>
+<summary>List of traits for the incidentId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -869,7 +869,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  emailAddress  attribute are listed below.</summary>
+<summary>List of traits for the emailAddress attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -910,7 +910,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  title  attribute are listed below.</summary>
+<summary>List of traits for the title attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -950,7 +950,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  processId  attribute are listed below.</summary>
+<summary>List of traits for the processId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -988,7 +988,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  stageId  attribute are listed below.</summary>
+<summary>List of traits for the stageId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1026,7 +1026,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  traversedPath  attribute are listed below.</summary>
+<summary>List of traits for the traversedPath attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1066,7 +1066,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  activitiesComplete  attribute are listed below.</summary>
+<summary>List of traits for the activitiesComplete attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1101,7 +1101,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  actualServiceUnits  attribute are listed below.</summary>
+<summary>List of traits for the actualServiceUnits attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1139,7 +1139,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  billedServiceUnits  attribute are listed below.</summary>
+<summary>List of traits for the billedServiceUnits attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1177,7 +1177,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  blockedProfile  attribute are listed below.</summary>
+<summary>List of traits for the blockedProfile attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1207,16 +1207,16 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Origin</td></tr><tr><td>description</td><td>Select how contact about the case was originated, such as email, phone, or web, for use in reporting and analysis.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>caseorigincode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Twitter</td><td>3986</td></tr><tr><td>en</td><td>Facebook</td><td>2483</td></tr><tr><td>en</td><td>Web</td><td>3</td></tr><tr><td>en</td><td>Email</td><td>2</td></tr><tr><td>en</td><td>Phone</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Origin</td></tr><tr><td>description</td><td>Select how contact about the case was originated, such as email, phone, or web, for use in reporting and analysis.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>caseorigincode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Phone</td><td>1</td></tr><tr><td>en</td><td>Email</td><td>2</td></tr><tr><td>en</td><td>Web</td><td>3</td></tr><tr><td>en</td><td>Facebook</td><td>2483</td></tr><tr><td>en</td><td>Twitter</td><td>3986</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  caseOriginCode  attribute are listed below.</summary>
+<summary>List of traits for the caseOriginCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Twitter</td><td>3986</td></tr><tr><td>en</td><td>Facebook</td><td>2483</td></tr><tr><td>en</td><td>Web</td><td>3</td></tr><tr><td>en</td><td>Email</td><td>2</td></tr><tr><td>en</td><td>Phone</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Phone</td><td>1</td></tr><tr><td>en</td><td>Email</td><td>2</td></tr><tr><td>en</td><td>Web</td><td>3</td></tr><tr><td>en</td><td>Facebook</td><td>2483</td></tr><tr><td>en</td><td>Twitter</td><td>3986</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1252,7 +1252,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  caseOriginCode_display  attribute are listed below.</summary>
+<summary>List of traits for the caseOriginCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1271,16 +1271,16 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Case Type</td></tr><tr><td>description</td><td>Select the type of case to identify the incident for use in case routing and analysis.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>casetypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Request</td><td>3</td></tr><tr><td>en</td><td>Problem</td><td>2</td></tr><tr><td>en</td><td>Question</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Case Type</td></tr><tr><td>description</td><td>Select the type of case to identify the incident for use in case routing and analysis.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>casetypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Question</td><td>1</td></tr><tr><td>en</td><td>Problem</td><td>2</td></tr><tr><td>en</td><td>Request</td><td>3</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  caseTypeCode  attribute are listed below.</summary>
+<summary>List of traits for the caseTypeCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Request</td><td>3</td></tr><tr><td>en</td><td>Problem</td><td>2</td></tr><tr><td>en</td><td>Question</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Question</td><td>1</td></tr><tr><td>en</td><td>Problem</td><td>2</td></tr><tr><td>en</td><td>Request</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1316,7 +1316,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  caseTypeCode_display  attribute are listed below.</summary>
+<summary>List of traits for the caseTypeCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1340,7 +1340,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  checkEmail  attribute are listed below.</summary>
+<summary>List of traits for the checkEmail attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1375,7 +1375,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  contractDetailId  attribute are listed below.</summary>
+<summary>List of traits for the contractDetailId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1417,7 +1417,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  contractId  attribute are listed below.</summary>
+<summary>List of traits for the contractId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1454,16 +1454,16 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Service Level</td></tr><tr><td>description</td><td>Select the service level for the case to make sure the case is handled correctly.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>contractservicelevelcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Bronze</td><td>3</td></tr><tr><td>en</td><td>Silver</td><td>2</td></tr><tr><td>en</td><td>Gold</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Service Level</td></tr><tr><td>description</td><td>Select the service level for the case to make sure the case is handled correctly.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>contractservicelevelcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Gold</td><td>1</td></tr><tr><td>en</td><td>Silver</td><td>2</td></tr><tr><td>en</td><td>Bronze</td><td>3</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  contractServiceLevelCode  attribute are listed below.</summary>
+<summary>List of traits for the contractServiceLevelCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Bronze</td><td>3</td></tr><tr><td>en</td><td>Silver</td><td>2</td></tr><tr><td>en</td><td>Gold</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Gold</td><td>1</td></tr><tr><td>en</td><td>Silver</td><td>2</td></tr><tr><td>en</td><td>Bronze</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1499,7 +1499,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  contractServiceLevelCode_display  attribute are listed below.</summary>
+<summary>List of traits for the contractServiceLevelCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1523,7 +1523,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  customerIdType  attribute are listed below.</summary>
+<summary>List of traits for the customerIdType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1559,7 +1559,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  customerId  attribute are listed below.</summary>
+<summary>List of traits for the customerId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1599,16 +1599,16 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Satisfaction</td></tr><tr><td>description</td><td>Select the customer's level of satisfaction with the handling and resolution of the case.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>customersatisfactioncode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Very Dissatisfied</td><td>1</td></tr><tr><td>en</td><td>Dissatisfied</td><td>2</td></tr><tr><td>en</td><td>Neutral</td><td>3</td></tr><tr><td>en</td><td>Satisfied</td><td>4</td></tr><tr><td>en</td><td>Very Satisfied</td><td>5</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Satisfaction</td></tr><tr><td>description</td><td>Select the customer's level of satisfaction with the handling and resolution of the case.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>customersatisfactioncode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Very Satisfied</td><td>5</td></tr><tr><td>en</td><td>Satisfied</td><td>4</td></tr><tr><td>en</td><td>Neutral</td><td>3</td></tr><tr><td>en</td><td>Dissatisfied</td><td>2</td></tr><tr><td>en</td><td>Very Dissatisfied</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  customerSatisfactionCode  attribute are listed below.</summary>
+<summary>List of traits for the customerSatisfactionCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Very Dissatisfied</td><td>1</td></tr><tr><td>en</td><td>Dissatisfied</td><td>2</td></tr><tr><td>en</td><td>Neutral</td><td>3</td></tr><tr><td>en</td><td>Satisfied</td><td>4</td></tr><tr><td>en</td><td>Very Satisfied</td><td>5</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Very Satisfied</td><td>5</td></tr><tr><td>en</td><td>Satisfied</td><td>4</td></tr><tr><td>en</td><td>Neutral</td><td>3</td></tr><tr><td>en</td><td>Dissatisfied</td><td>2</td></tr><tr><td>en</td><td>Very Dissatisfied</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1644,7 +1644,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  customerSatisfactionCode_display  attribute are listed below.</summary>
+<summary>List of traits for the customerSatisfactionCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1668,7 +1668,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  description  attribute are listed below.</summary>
+<summary>List of traits for the description attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1708,7 +1708,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  entitlementId  attribute are listed below.</summary>
+<summary>List of traits for the entitlementId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1750,7 +1750,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  SLAId  attribute are listed below.</summary>
+<summary>List of traits for the SLAId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1787,16 +1787,16 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>First Response SLA Status</td></tr><tr><td>description</td><td>Shows the status of the initial response time for the case according to the terms of the SLA.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>firstresponseslastatus</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Noncompliant</td><td>4</td></tr><tr><td>en</td><td>Succeeded</td><td>3</td></tr><tr><td>en</td><td>Nearing Noncompliance</td><td>2</td></tr><tr><td>en</td><td>In Progress</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>First Response SLA Status</td></tr><tr><td>description</td><td>Shows the status of the initial response time for the case according to the terms of the SLA.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>firstresponseslastatus</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>In Progress</td><td>1</td></tr><tr><td>en</td><td>Nearing Noncompliance</td><td>2</td></tr><tr><td>en</td><td>Succeeded</td><td>3</td></tr><tr><td>en</td><td>Noncompliant</td><td>4</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  firstResponseSLAStatus  attribute are listed below.</summary>
+<summary>List of traits for the firstResponseSLAStatus attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Noncompliant</td><td>4</td></tr><tr><td>en</td><td>Succeeded</td><td>3</td></tr><tr><td>en</td><td>Nearing Noncompliance</td><td>2</td></tr><tr><td>en</td><td>In Progress</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>In Progress</td><td>1</td></tr><tr><td>en</td><td>Nearing Noncompliance</td><td>2</td></tr><tr><td>en</td><td>Succeeded</td><td>3</td></tr><tr><td>en</td><td>Noncompliant</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1832,7 +1832,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  firstResponseSLAStatus_display  attribute are listed below.</summary>
+<summary>List of traits for the firstResponseSLAStatus_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1856,7 +1856,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  followupBy  attribute are listed below.</summary>
+<summary>List of traits for the followupBy attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1894,7 +1894,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  followUpTaskCreated  attribute are listed below.</summary>
+<summary>List of traits for the followUpTaskCreated attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1929,7 +1929,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  incidentStageCode  attribute are listed below.</summary>
+<summary>List of traits for the incidentStageCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -1969,7 +1969,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  incidentStageCode_display  attribute are listed below.</summary>
+<summary>List of traits for the incidentStageCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1993,7 +1993,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  isDecrementing  attribute are listed below.</summary>
+<summary>List of traits for the isDecrementing attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -2028,7 +2028,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  kbArticleId  attribute are listed below.</summary>
+<summary>List of traits for the kbArticleId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2070,7 +2070,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  messageTypeCode  attribute are listed below.</summary>
+<summary>List of traits for the messageTypeCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -2110,7 +2110,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  messageTypeCode_display  attribute are listed below.</summary>
+<summary>List of traits for the messageTypeCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2129,16 +2129,16 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Priority</td></tr><tr><td>description</td><td>Select the priority so that preferred customers or critical issues are handled quickly.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>prioritycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Low</td><td>3</td></tr><tr><td>en</td><td>Normal</td><td>2</td></tr><tr><td>en</td><td>High</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Priority</td></tr><tr><td>description</td><td>Select the priority so that preferred customers or critical issues are handled quickly.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>prioritycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>High</td><td>1</td></tr><tr><td>en</td><td>Normal</td><td>2</td></tr><tr><td>en</td><td>Low</td><td>3</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  priorityCode  attribute are listed below.</summary>
+<summary>List of traits for the priorityCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Low</td><td>3</td></tr><tr><td>en</td><td>Normal</td><td>2</td></tr><tr><td>en</td><td>High</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>High</td><td>1</td></tr><tr><td>en</td><td>Normal</td><td>2</td></tr><tr><td>en</td><td>Low</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2174,7 +2174,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  priorityCode_display  attribute are listed below.</summary>
+<summary>List of traits for the priorityCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2198,7 +2198,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  productId  attribute are listed below.</summary>
+<summary>List of traits for the productId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2240,7 +2240,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  productSerialNumber  attribute are listed below.</summary>
+<summary>List of traits for the productSerialNumber attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2280,7 +2280,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  existingCase  attribute are listed below.</summary>
+<summary>List of traits for the existingCase attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2317,16 +2317,16 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Resolve By SLA Status</td></tr><tr><td>description</td><td>Shows the status of the resolution time for the case according to the terms of the SLA.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>resolvebyslastatus</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Noncompliant</td><td>4</td></tr><tr><td>en</td><td>Succeeded</td><td>3</td></tr><tr><td>en</td><td>Nearing Noncompliance</td><td>2</td></tr><tr><td>en</td><td>In Progress</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Resolve By SLA Status</td></tr><tr><td>description</td><td>Shows the status of the resolution time for the case according to the terms of the SLA.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>resolvebyslastatus</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>In Progress</td><td>1</td></tr><tr><td>en</td><td>Nearing Noncompliance</td><td>2</td></tr><tr><td>en</td><td>Succeeded</td><td>3</td></tr><tr><td>en</td><td>Noncompliant</td><td>4</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  resolveBySLAStatus  attribute are listed below.</summary>
+<summary>List of traits for the resolveBySLAStatus attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Noncompliant</td><td>4</td></tr><tr><td>en</td><td>Succeeded</td><td>3</td></tr><tr><td>en</td><td>Nearing Noncompliance</td><td>2</td></tr><tr><td>en</td><td>In Progress</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>In Progress</td><td>1</td></tr><tr><td>en</td><td>Nearing Noncompliance</td><td>2</td></tr><tr><td>en</td><td>Succeeded</td><td>3</td></tr><tr><td>en</td><td>Noncompliant</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2362,7 +2362,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  resolveBySLAStatus_display  attribute are listed below.</summary>
+<summary>List of traits for the resolveBySLAStatus_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2386,7 +2386,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  responsibleContactId  attribute are listed below.</summary>
+<summary>List of traits for the responsibleContactId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2428,7 +2428,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  sentimentValue  attribute are listed below.</summary>
+<summary>List of traits for the sentimentValue attribute are listed below.</summary>
 
 - **is.dataFormat.floatingPoint**  
 - **is.dataFormat.big**  
@@ -2467,7 +2467,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  influenceScore  attribute are listed below.</summary>
+<summary>List of traits for the influenceScore attribute are listed below.</summary>
 
 - **is.dataFormat.floatingPoint**  
 - **is.dataFormat.big**  
@@ -2501,16 +2501,16 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Service Stage</td></tr><tr><td>description</td><td>Select the stage, in the case resolution process, that the case is in.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>servicestage</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Resolve</td><td>2</td></tr><tr><td>en</td><td>Research</td><td>1</td></tr><tr><td>en</td><td>Identify</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Service Stage</td></tr><tr><td>description</td><td>Select the stage, in the case resolution process, that the case is in.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>servicestage</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Identify</td><td>0</td></tr><tr><td>en</td><td>Research</td><td>1</td></tr><tr><td>en</td><td>Resolve</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  serviceStage  attribute are listed below.</summary>
+<summary>List of traits for the serviceStage attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Resolve</td><td>2</td></tr><tr><td>en</td><td>Research</td><td>1</td></tr><tr><td>en</td><td>Identify</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Identify</td><td>0</td></tr><tr><td>en</td><td>Research</td><td>1</td></tr><tr><td>en</td><td>Resolve</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2546,7 +2546,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  serviceStage_display  attribute are listed below.</summary>
+<summary>List of traits for the serviceStage_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2570,7 +2570,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  severityCode  attribute are listed below.</summary>
+<summary>List of traits for the severityCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -2610,7 +2610,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  severityCode_display  attribute are listed below.</summary>
+<summary>List of traits for the severityCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2634,7 +2634,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  SLAInvokedId  attribute are listed below.</summary>
+<summary>List of traits for the SLAInvokedId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2676,7 +2676,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  socialProfileId  attribute are listed below.</summary>
+<summary>List of traits for the socialProfileId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2713,16 +2713,16 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Shows whether the case is active, resolved, or canceled. Resolved and canceled cases are read-only and can't be edited unless they are reactivated.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Canceled</td><td>2</td></tr><tr><td>en</td><td>Resolved</td><td>1</td></tr><tr><td>en</td><td>Active</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Shows whether the case is active, resolved, or canceled. Resolved and canceled cases are read-only and can't be edited unless they are reactivated.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Resolved</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode  attribute are listed below.</summary>
+<summary>List of traits for the stateCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Canceled</td><td>2</td></tr><tr><td>en</td><td>Resolved</td><td>1</td></tr><tr><td>en</td><td>Active</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Resolved</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2758,7 +2758,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode_display  attribute are listed below.</summary>
+<summary>List of traits for the stateCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2777,16 +2777,16 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the case's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Problem Solved</td><td>5</td><td>0</td><td>1</td></tr><tr><td>en</td><td>Information Provided</td><td>1000</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>6</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Merged</td><td>2000</td><td>3</td><td>2</td></tr><tr><td>en</td><td>In Progress</td><td>1</td><td>4</td><td>0</td></tr><tr><td>en</td><td>On Hold</td><td>2</td><td>5</td><td>0</td></tr><tr><td>en</td><td>Waiting for Details</td><td>3</td><td>6</td><td>0</td></tr><tr><td>en</td><td>Researching</td><td>4</td><td>7</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the case's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Problem Solved</td><td>5</td><td>1</td></tr><tr><td>en</td><td>Information Provided</td><td>1000</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>6</td><td>2</td></tr><tr><td>en</td><td>Merged</td><td>2000</td><td>2</td></tr><tr><td>en</td><td>In Progress</td><td>1</td><td>0</td></tr><tr><td>en</td><td>On Hold</td><td>2</td><td>0</td></tr><tr><td>en</td><td>Waiting for Details</td><td>3</td><td>0</td></tr><tr><td>en</td><td>Researching</td><td>4</td><td>0</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode  attribute are listed below.</summary>
+<summary>List of traits for the statusCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Problem Solved</td><td>5</td><td>0</td><td>1</td></tr><tr><td>en</td><td>Information Provided</td><td>1000</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>6</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Merged</td><td>2000</td><td>3</td><td>2</td></tr><tr><td>en</td><td>In Progress</td><td>1</td><td>4</td><td>0</td></tr><tr><td>en</td><td>On Hold</td><td>2</td><td>5</td><td>0</td></tr><tr><td>en</td><td>Waiting for Details</td><td>3</td><td>6</td><td>0</td></tr><tr><td>en</td><td>Researching</td><td>4</td><td>7</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Problem Solved</td><td>5</td><td>1</td></tr><tr><td>en</td><td>Information Provided</td><td>1000</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>6</td><td>2</td></tr><tr><td>en</td><td>Merged</td><td>2000</td><td>2</td></tr><tr><td>en</td><td>In Progress</td><td>1</td><td>0</td></tr><tr><td>en</td><td>On Hold</td><td>2</td><td>0</td></tr><tr><td>en</td><td>Waiting for Details</td><td>3</td><td>0</td></tr><tr><td>en</td><td>Researching</td><td>4</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2825,7 +2825,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode_display  attribute are listed below.</summary>
+<summary>List of traits for the statusCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2849,7 +2849,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  subjectId  attribute are listed below.</summary>
+<summary>List of traits for the subjectId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2891,7 +2891,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  ticketNumber  attribute are listed below.</summary>
+<summary>List of traits for the ticketNumber attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2931,7 +2931,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  masterId  attribute are listed below.</summary>
+<summary>List of traits for the masterId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2973,7 +2973,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  parentCaseId  attribute are listed below.</summary>
+<summary>List of traits for the parentCaseId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3015,7 +3015,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  numberOfChildIncidents  attribute are listed below.</summary>
+<summary>List of traits for the numberOfChildIncidents attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -3053,7 +3053,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  merged  attribute are listed below.</summary>
+<summary>List of traits for the merged attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -3088,7 +3088,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  routeCase  attribute are listed below.</summary>
+<summary>List of traits for the routeCase attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -3123,7 +3123,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  resolveBy  attribute are listed below.</summary>
+<summary>List of traits for the resolveBy attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -3161,7 +3161,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  responseBy  attribute are listed below.</summary>
+<summary>List of traits for the responseBy attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -3199,7 +3199,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  customerContacted  attribute are listed below.</summary>
+<summary>List of traits for the customerContacted attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -3234,7 +3234,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  firstResponseSent  attribute are listed below.</summary>
+<summary>List of traits for the firstResponseSent attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -3269,7 +3269,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  isEscalated  attribute are listed below.</summary>
+<summary>List of traits for the isEscalated attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -3304,7 +3304,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  escalatedOn  attribute are listed below.</summary>
+<summary>List of traits for the escalatedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -3342,7 +3342,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  primaryContactId  attribute are listed below.</summary>
+<summary>List of traits for the primaryContactId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3384,7 +3384,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  onHoldTime  attribute are listed below.</summary>
+<summary>List of traits for the onHoldTime attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -3422,7 +3422,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  lastOnHoldTime  attribute are listed below.</summary>
+<summary>List of traits for the lastOnHoldTime attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -3460,7 +3460,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  resolveByKPIId  attribute are listed below.</summary>
+<summary>List of traits for the resolveByKPIId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3502,7 +3502,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  firstResponseByKPIId  attribute are listed below.</summary>
+<summary>List of traits for the firstResponseByKPIId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3544,7 +3544,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  decrementEntitlementTerm  attribute are listed below.</summary>
+<summary>List of traits for the decrementEntitlementTerm attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -3578,7 +3578,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  entityImageId  attribute are listed below.</summary>
+<summary>List of traits for the entityImageId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3610,7 +3610,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  accountId  attribute are listed below.</summary>
+<summary>List of traits for the accountId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3652,7 +3652,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  contactId  attribute are listed below.</summary>
+<summary>List of traits for the contactId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3694,7 +3694,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  exchangeRate  attribute are listed below.</summary>
+<summary>List of traits for the exchangeRate attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3734,7 +3734,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  transactionCurrencyId  attribute are listed below.</summary>
+<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3776,7 +3776,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  createdByExternalParty  attribute are listed below.</summary>
+<summary>List of traits for the createdByExternalParty attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3818,7 +3818,7 @@ First included in: <a href="../../service/Case.md" target="_blank">service/Case<
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedByExternalParty  attribute are listed below.</summary>
+<summary>List of traits for the modifiedByExternalParty attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3850,7 +3850,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#adxCreatedByIPAddress name="adxCreatedByIPAddress">adxCreatedByIPAddress</a>
 
-First included in: portals/Case  (this entity)  
+First included in: portals/Case (this entity)  
 
 #### Properties
 
@@ -3859,7 +3859,7 @@ First included in: portals/Case  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  adxCreatedByIPAddress  attribute are listed below.</summary>
+<summary>List of traits for the adxCreatedByIPAddress attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3886,7 +3886,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#adxCreatedByUsername name="adxCreatedByUsername">adxCreatedByUsername</a>
 
-First included in: portals/Case  (this entity)  
+First included in: portals/Case (this entity)  
 
 #### Properties
 
@@ -3895,7 +3895,7 @@ First included in: portals/Case  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  adxCreatedByUsername  attribute are listed below.</summary>
+<summary>List of traits for the adxCreatedByUsername attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3923,7 +3923,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#adxModifiedByIPAddress name="adxModifiedByIPAddress">adxModifiedByIPAddress</a>
 
-First included in: portals/Case  (this entity)  
+First included in: portals/Case (this entity)  
 
 #### Properties
 
@@ -3932,7 +3932,7 @@ First included in: portals/Case  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  adxModifiedByIPAddress  attribute are listed below.</summary>
+<summary>List of traits for the adxModifiedByIPAddress attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3959,7 +3959,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#adxModifiedByUsername name="adxModifiedByUsername">adxModifiedByUsername</a>
 
-First included in: portals/Case  (this entity)  
+First included in: portals/Case (this entity)  
 
 #### Properties
 
@@ -3968,7 +3968,7 @@ First included in: portals/Case  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  adxModifiedByUsername  attribute are listed below.</summary>
+<summary>List of traits for the adxModifiedByUsername attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3997,7 +3997,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#partnerContact name="partnerContact">partnerContact</a>
 
 Allows a partner contact to be assigned to a specific case.  
-First included in: portals/Case  (this entity)  
+First included in: portals/Case (this entity)  
 
 #### Properties
 
@@ -4006,7 +4006,7 @@ First included in: portals/Case  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  partnerContact  attribute are listed below.</summary>
+<summary>List of traits for the partnerContact attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4039,7 +4039,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#partnerid name="partnerid">partnerid</a>
 
 Creates a Relationship between a Partner (account) and a case for indirect service arrangements.  
-First included in: portals/Case  (this entity)  
+First included in: portals/Case (this entity)  
 
 #### Properties
 
@@ -4048,7 +4048,7 @@ First included in: portals/Case  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  partnerid  attribute are listed below.</summary>
+<summary>List of traits for the partnerid attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4081,7 +4081,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#publishToWeb name="publishToWeb">publishToWeb</a>
 
 If set to Yes, the case will be visible and searchable on portals connected to this organization.  
-First included in: portals/Case  (this entity)  
+First included in: portals/Case (this entity)  
 
 #### Properties
 
@@ -4090,7 +4090,7 @@ First included in: portals/Case  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  publishToWeb  attribute are listed below.</summary>
+<summary>List of traits for the publishToWeb attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -4115,7 +4115,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#resolution name="resolution">resolution</a>
 
-First included in: portals/Case  (this entity)  
+First included in: portals/Case (this entity)  
 
 #### Properties
 
@@ -4124,7 +4124,7 @@ First included in: portals/Case  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  resolution  attribute are listed below.</summary>
+<summary>List of traits for the resolution attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4151,7 +4151,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#resolutionDate name="resolutionDate">resolutionDate</a>
 
-First included in: portals/Case  (this entity)  
+First included in: portals/Case (this entity)  
 
 #### Properties
 
@@ -4160,7 +4160,7 @@ First included in: portals/Case  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  resolutionDate  attribute are listed below.</summary>
+<summary>List of traits for the resolutionDate attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -4185,7 +4185,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stepsToReproduce name="stepsToReproduce">stepsToReproduce</a>
 
-First included in: portals/Case  (this entity)  
+First included in: portals/Case (this entity)  
 
 #### Properties
 
@@ -4194,7 +4194,7 @@ First included in: portals/Case  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  stepsToReproduce  attribute are listed below.</summary>
+<summary>List of traits for the stepsToReproduce attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  

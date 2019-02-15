@@ -4,20 +4,20 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/13/2019
+ms.date: 2/15/2019
 ms.author: tpalmer
 ---
 
 # Web Template
 
   
-Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebTemplate.cdm.json" target="_blank">GitHub</a>.  
+Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebTemplate.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
-Instances of this entity are listed below:  
+Instances of this entity are listed below.  
 
-portals/WebTemplate  
+/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebTemplate.cdm.json/WebTemplate  
 
 ## Traits
 
@@ -74,7 +74,7 @@ portals/WebTemplate
 ### <a href=#webTemplateId name="webTemplateId">webTemplateId</a>
 
 Shows the entity instance.  
-First included in: portals/WebTemplate  (this entity)  
+First included in: portals/WebTemplate (this entity)  
 
 #### Properties
 
@@ -83,7 +83,7 @@ First included in: portals/WebTemplate  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  webTemplateId  attribute are listed below.</summary>
+<summary>List of traits for the webTemplateId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -113,7 +113,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Shows the date and time when the record was created.  
-First included in: portals/WebTemplate  (this entity)  
+First included in: portals/WebTemplate (this entity)  
 
 #### Properties
 
@@ -122,7 +122,7 @@ First included in: portals/WebTemplate  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOn  attribute are listed below.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -152,7 +152,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: portals/WebTemplate  (this entity)  
+First included in: portals/WebTemplate (this entity)  
 
 #### Properties
 
@@ -161,7 +161,7 @@ First included in: portals/WebTemplate  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdBy  attribute are listed below.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -194,7 +194,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Shows the date and time when the record was modified.  
-First included in: portals/WebTemplate  (this entity)  
+First included in: portals/WebTemplate (this entity)  
 
 #### Properties
 
@@ -203,7 +203,7 @@ First included in: portals/WebTemplate  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -233,7 +233,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: portals/WebTemplate  (this entity)  
+First included in: portals/WebTemplate (this entity)  
 
 #### Properties
 
@@ -242,7 +242,7 @@ First included in: portals/WebTemplate  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -275,7 +275,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: portals/WebTemplate  (this entity)  
+First included in: portals/WebTemplate (this entity)  
 
 #### Properties
 
@@ -284,7 +284,7 @@ First included in: portals/WebTemplate  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -317,7 +317,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: portals/WebTemplate  (this entity)  
+First included in: portals/WebTemplate (this entity)  
 
 #### Properties
 
@@ -326,7 +326,7 @@ First included in: portals/WebTemplate  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -359,7 +359,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#organizationId name="organizationId">organizationId</a>
 
 Shows the organization.  
-First included in: portals/WebTemplate  (this entity)  
+First included in: portals/WebTemplate (this entity)  
 
 #### Properties
 
@@ -368,7 +368,7 @@ First included in: portals/WebTemplate  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  organizationId  attribute are listed below.</summary>
+<summary>List of traits for the organizationId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -401,7 +401,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Status of the Web Template  
-First included in: portals/WebTemplate  (this entity)  
+First included in: portals/WebTemplate (this entity)  
 
 #### Properties
 
@@ -410,11 +410,11 @@ First included in: portals/WebTemplate  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode  attribute are listed below.</summary>
+<summary>List of traits for the stateCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr><tr><td>en</td><td>Active</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -441,7 +441,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: portals/WebTemplate  (this entity)  
+First included in: portals/WebTemplate (this entity)  
 
 #### Properties
 
@@ -450,7 +450,7 @@ First included in: portals/WebTemplate  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode_display  attribute are listed below.</summary>
+<summary>List of traits for the stateCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -465,20 +465,20 @@ First included in: portals/WebTemplate  (this entity)
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Select the web template's status.  
-First included in: portals/WebTemplate  (this entity)  
+First included in: portals/WebTemplate (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the web template's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the web template's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode  attribute are listed below.</summary>
+<summary>List of traits for the statusCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -508,7 +508,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: portals/WebTemplate  (this entity)  
+First included in: portals/WebTemplate (this entity)  
 
 #### Properties
 
@@ -517,7 +517,7 @@ First included in: portals/WebTemplate  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode_display  attribute are listed below.</summary>
+<summary>List of traits for the statusCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -532,7 +532,7 @@ First included in: portals/WebTemplate  (this entity)
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: portals/WebTemplate  (this entity)  
+First included in: portals/WebTemplate (this entity)  
 
 #### Properties
 
@@ -541,7 +541,7 @@ First included in: portals/WebTemplate  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -568,7 +568,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Shows the sequence number of the import that created this record.  
-First included in: portals/WebTemplate  (this entity)  
+First included in: portals/WebTemplate (this entity)  
 
 #### Properties
 
@@ -577,7 +577,7 @@ First included in: portals/WebTemplate  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -606,7 +606,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Shows the date and time that the record was migrated.  
-First included in: portals/WebTemplate  (this entity)  
+First included in: portals/WebTemplate (this entity)  
 
 #### Properties
 
@@ -615,7 +615,7 @@ First included in: portals/WebTemplate  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -645,7 +645,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: portals/WebTemplate  (this entity)  
+First included in: portals/WebTemplate (this entity)  
 
 #### Properties
 
@@ -654,7 +654,7 @@ First included in: portals/WebTemplate  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  timeZoneRuleVersionNumber  attribute are listed below.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -683,7 +683,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Shows the time zone code that was in use when the record was created.  
-First included in: portals/WebTemplate  (this entity)  
+First included in: portals/WebTemplate (this entity)  
 
 #### Properties
 
@@ -692,7 +692,7 @@ First included in: portals/WebTemplate  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  UTCConversionTimeZoneCode  attribute are listed below.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -721,7 +721,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#name name="name">name</a>
 
 Type the name of the custom entity.  
-First included in: portals/WebTemplate  (this entity)  
+First included in: portals/WebTemplate (this entity)  
 
 #### Properties
 
@@ -730,7 +730,7 @@ First included in: portals/WebTemplate  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  name  attribute are listed below.</summary>
+<summary>List of traits for the name attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -762,7 +762,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#MIMEType name="MIMEType">MIMEType</a>
 
 Shows the MIME type of the web template content.  
-First included in: portals/WebTemplate  (this entity)  
+First included in: portals/WebTemplate (this entity)  
 
 #### Properties
 
@@ -771,7 +771,7 @@ First included in: portals/WebTemplate  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  MIMEType  attribute are listed below.</summary>
+<summary>List of traits for the MIMEType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -801,7 +801,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#source name="source">source</a>
 
-First included in: portals/WebTemplate  (this entity)  
+First included in: portals/WebTemplate (this entity)  
 
 #### Properties
 
@@ -810,7 +810,7 @@ First included in: portals/WebTemplate  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  source  attribute are listed below.</summary>
+<summary>List of traits for the source attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -838,7 +838,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#websiteId name="websiteId">websiteId</a>
 
 Unique identifier for Website associated with Web Template  
-First included in: portals/WebTemplate  (this entity)  
+First included in: portals/WebTemplate (this entity)  
 
 #### Properties
 
@@ -847,7 +847,7 @@ First included in: portals/WebTemplate  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  websiteId  attribute are listed below.</summary>
+<summary>List of traits for the websiteId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  

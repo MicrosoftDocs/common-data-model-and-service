@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/13/2019
+ms.date: 2/15/2019
 ms.author: tpalmer
 ---
 
@@ -12,13 +12,13 @@ ms.author: tpalmer
 
 Container to manage and plan marketing activities that take place at a specific venue or location.  
   
-Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json" target="_blank">GitHub</a>.  
+Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
-Instances of this entity are listed below:  
+Instances of this entity are listed below.  
 
-eventManagement/Event  
+/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event  
 
 ## Traits
 
@@ -214,7 +214,7 @@ eventManagement/Event
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -223,7 +223,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOn  attribute are listed below.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -253,7 +253,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -262,7 +262,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdBy  attribute are listed below.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -298,7 +298,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -307,7 +307,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -337,7 +337,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -346,7 +346,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -382,7 +382,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -391,7 +391,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -427,7 +427,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -436,7 +436,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -472,7 +472,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -481,7 +481,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -511,7 +511,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -520,7 +520,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -546,7 +546,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -555,7 +555,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerIdType  attribute are listed below.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -585,7 +585,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -594,7 +594,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerId  attribute are listed below.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -630,7 +630,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -639,7 +639,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningBusinessUnit  attribute are listed below.</summary>
+<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -672,7 +672,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -681,7 +681,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningUser  attribute are listed below.</summary>
+<summary>List of traits for the owningUser attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -717,7 +717,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -726,7 +726,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningTeam  attribute are listed below.</summary>
+<summary>List of traits for the owningTeam attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -759,7 +759,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -768,7 +768,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  timeZoneRuleVersionNumber  attribute are listed below.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -797,7 +797,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -806,7 +806,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  UTCConversionTimeZoneCode  attribute are listed below.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -835,7 +835,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -844,7 +844,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -872,7 +872,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#eventId name="eventId">eventId</a>
 
 Unique identifier for entity instances  
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -881,7 +881,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  eventId  attribute are listed below.</summary>
+<summary>List of traits for the eventId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -911,7 +911,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Status of the Event  
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -920,11 +920,11 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode  attribute are listed below.</summary>
+<summary>List of traits for the stateCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr><tr><td>en</td><td>Active</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -951,7 +951,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -960,7 +960,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode_display  attribute are listed below.</summary>
+<summary>List of traits for the stateCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -975,20 +975,20 @@ First included in: eventManagement/Event  (this entity)
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Reason for the status of the Event  
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Event</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Event</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode  attribute are listed below.</summary>
+<summary>List of traits for the statusCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1018,7 +1018,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1027,7 +1027,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode_display  attribute are listed below.</summary>
+<summary>List of traits for the statusCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1042,7 +1042,7 @@ First included in: eventManagement/Event  (this entity)
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1051,7 +1051,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  name  attribute are listed below.</summary>
+<summary>List of traits for the name attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1083,7 +1083,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#processId name="processId">processId</a>
 
 Contains the id of the process associated with the entity.  
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1092,7 +1092,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  processId  attribute are listed below.</summary>
+<summary>List of traits for the processId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1121,7 +1121,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stageId name="stageId">stageId</a>
 
 Contains the id of the stage where the entity is located.  
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1130,7 +1130,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  stageId  attribute are listed below.</summary>
+<summary>List of traits for the stageId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1159,7 +1159,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#traversedPath name="traversedPath">traversedPath</a>
 
 A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.  
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1168,7 +1168,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  traversedPath  attribute are listed below.</summary>
+<summary>List of traits for the traversedPath attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1198,7 +1198,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#entityImageId name="entityImageId">entityImageId</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1207,7 +1207,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  entityImageId  attribute are listed below.</summary>
+<summary>List of traits for the entityImageId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1229,7 +1229,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#baseRecurrentEventID name="baseRecurrentEventID">baseRecurrentEventID</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1238,7 +1238,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  baseRecurrentEventID  attribute are listed below.</summary>
+<summary>List of traits for the baseRecurrentEventID attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1266,7 +1266,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#bookedFlightReservations name="bookedFlightReservations">bookedFlightReservations</a>
 
 Flight reservations booking status  
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1275,11 +1275,11 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  bookedFlightReservations  attribute are listed below.</summary>
+<summary>List of traits for the bookedFlightReservations attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1306,7 +1306,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#bookedFlightReservations_display name="bookedFlightReservations_display">bookedFlightReservations_display</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1315,7 +1315,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  bookedFlightReservations_display  attribute are listed below.</summary>
+<summary>List of traits for the bookedFlightReservations_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1329,7 +1329,7 @@ First included in: eventManagement/Event  (this entity)
 
 ### <a href=#bookRooms name="bookRooms">bookRooms</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1338,11 +1338,11 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  bookRooms  attribute are listed below.</summary>
+<summary>List of traits for the bookRooms attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1366,7 +1366,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#bookRooms_display name="bookRooms_display">bookRooms_display</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1375,7 +1375,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  bookRooms_display  attribute are listed below.</summary>
+<summary>List of traits for the bookRooms_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1389,7 +1389,7 @@ First included in: eventManagement/Event  (this entity)
 
 ### <a href=#budgetAllocated name="budgetAllocated">budgetAllocated</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1398,7 +1398,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  budgetAllocated  attribute are listed below.</summary>
+<summary>List of traits for the budgetAllocated attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1427,7 +1427,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Unique identifier of the currency associated with the entity.  
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1436,7 +1436,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  transactionCurrencyId  attribute are listed below.</summary>
+<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1469,7 +1469,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Exchange rate for the currency associated with the entity with respect to the base currency.  
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1478,7 +1478,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  exchangeRate  attribute are listed below.</summary>
+<summary>List of traits for the exchangeRate attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1509,7 +1509,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#budgetAllocatedBase name="budgetAllocatedBase">budgetAllocatedBase</a>
 
 Value of the Budget Allocated in base currency.  
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1518,7 +1518,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  budgetAllocatedBase  attribute are listed below.</summary>
+<summary>List of traits for the budgetAllocatedBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1552,7 +1552,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#cateringRequired name="cateringRequired">cateringRequired</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1561,11 +1561,11 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  cateringRequired  attribute are listed below.</summary>
+<summary>List of traits for the cateringRequired attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Yes</td><td>100000002</td></tr><tr><td>en</td><td>No</td><td>100000001</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No</td><td>100000001</td></tr><tr><td>en</td><td>Yes</td><td>100000002</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1589,7 +1589,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#cateringRequired_display name="cateringRequired_display">cateringRequired_display</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1598,7 +1598,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  cateringRequired_display  attribute are listed below.</summary>
+<summary>List of traits for the cateringRequired_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1613,7 +1613,7 @@ First included in: eventManagement/Event  (this entity)
 ### <a href=#checkInCount name="checkInCount">checkInCount</a>
 
 Check-in count  
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1622,7 +1622,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  checkInCount  attribute are listed below.</summary>
+<summary>List of traits for the checkInCount attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1651,7 +1651,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#confirmedHotelChoices name="confirmedHotelChoices">confirmedHotelChoices</a>
 
 Hotel choices confirmation status  
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1660,11 +1660,11 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  confirmedHotelChoices  attribute are listed below.</summary>
+<summary>List of traits for the confirmedHotelChoices attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1691,7 +1691,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#confirmedHotelChoices_display name="confirmedHotelChoices_display">confirmedHotelChoices_display</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1700,7 +1700,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  confirmedHotelChoices_display  attribute are listed below.</summary>
+<summary>List of traits for the confirmedHotelChoices_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1714,7 +1714,7 @@ First included in: eventManagement/Event  (this entity)
 
 ### <a href=#countdownInDays name="countdownInDays">countdownInDays</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1723,7 +1723,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  countdownInDays  attribute are listed below.</summary>
+<summary>List of traits for the countdownInDays attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1748,7 +1748,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#createMarketingCollateral name="createMarketingCollateral">createMarketingCollateral</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1757,11 +1757,11 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createMarketingCollateral  attribute are listed below.</summary>
+<summary>List of traits for the createMarketingCollateral attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1785,7 +1785,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#createMarketingCollateral_display name="createMarketingCollateral_display">createMarketingCollateral_display</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1794,7 +1794,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createMarketingCollateral_display  attribute are listed below.</summary>
+<summary>List of traits for the createMarketingCollateral_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1808,7 +1808,7 @@ First included in: eventManagement/Event  (this entity)
 
 ### <a href=#definePackagesandPricing name="definePackagesandPricing">definePackagesandPricing</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1817,11 +1817,11 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  definePackagesandPricing  attribute are listed below.</summary>
+<summary>List of traits for the definePackagesandPricing attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1845,7 +1845,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#definePackagesandPricing_display name="definePackagesandPricing_display">definePackagesandPricing_display</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1854,7 +1854,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  definePackagesandPricing_display  attribute are listed below.</summary>
+<summary>List of traits for the definePackagesandPricing_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1868,7 +1868,7 @@ First included in: eventManagement/Event  (this entity)
 
 ### <a href=#defineSessions name="defineSessions">defineSessions</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1877,11 +1877,11 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  defineSessions  attribute are listed below.</summary>
+<summary>List of traits for the defineSessions attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1905,7 +1905,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#defineSessions_display name="defineSessions_display">defineSessions_display</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1914,7 +1914,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  defineSessions_display  attribute are listed below.</summary>
+<summary>List of traits for the defineSessions_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1928,7 +1928,7 @@ First included in: eventManagement/Event  (this entity)
 
 ### <a href=#defineTeam name="defineTeam">defineTeam</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1937,11 +1937,11 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  defineTeam  attribute are listed below.</summary>
+<summary>List of traits for the defineTeam attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1965,7 +1965,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#defineTeam_display name="defineTeam_display">defineTeam_display</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1974,7 +1974,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  defineTeam_display  attribute are listed below.</summary>
+<summary>List of traits for the defineTeam_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1988,7 +1988,7 @@ First included in: eventManagement/Event  (this entity)
 
 ### <a href=#description name="description">description</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1997,7 +1997,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  description  attribute are listed below.</summary>
+<summary>List of traits for the description attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2024,7 +2024,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#developMarketingPlan name="developMarketingPlan">developMarketingPlan</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2033,11 +2033,11 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  developMarketingPlan  attribute are listed below.</summary>
+<summary>List of traits for the developMarketingPlan attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2061,7 +2061,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#developMarketingPlan_display name="developMarketingPlan_display">developMarketingPlan_display</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2070,7 +2070,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  developMarketingPlan_display  attribute are listed below.</summary>
+<summary>List of traits for the developMarketingPlan_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2084,7 +2084,7 @@ First included in: eventManagement/Event  (this entity)
 
 ### <a href=#earlyBirdCutOffDate name="earlyBirdCutOffDate">earlyBirdCutOffDate</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2093,7 +2093,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  earlyBirdCutOffDate  attribute are listed below.</summary>
+<summary>List of traits for the earlyBirdCutOffDate attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -2118,7 +2118,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#eventDebriefing name="eventDebriefing">eventDebriefing</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2127,11 +2127,11 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  eventDebriefing  attribute are listed below.</summary>
+<summary>List of traits for the eventDebriefing attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2155,7 +2155,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#eventDebriefing_display name="eventDebriefing_display">eventDebriefing_display</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2164,7 +2164,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  eventDebriefing_display  attribute are listed below.</summary>
+<summary>List of traits for the eventDebriefing_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2178,7 +2178,7 @@ First included in: eventManagement/Event  (this entity)
 
 ### <a href=#eventEndDate name="eventEndDate">eventEndDate</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2187,7 +2187,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  eventEndDate  attribute are listed below.</summary>
+<summary>List of traits for the eventEndDate attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -2212,7 +2212,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#eventFormat name="eventFormat">eventFormat</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2221,11 +2221,11 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  eventFormat  attribute are listed below.</summary>
+<summary>List of traits for the eventFormat attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Hybrid</td><td>100000003</td></tr><tr><td>en</td><td>Webinar</td><td>100000002</td></tr><tr><td>en</td><td>On Site</td><td>100000001</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>On Site</td><td>100000001</td></tr><tr><td>en</td><td>Webinar</td><td>100000002</td></tr><tr><td>en</td><td>Hybrid</td><td>100000003</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2249,7 +2249,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#eventFormat_display name="eventFormat_display">eventFormat_display</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2258,7 +2258,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  eventFormat_display  attribute are listed below.</summary>
+<summary>List of traits for the eventFormat_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2272,7 +2272,7 @@ First included in: eventManagement/Event  (this entity)
 
 ### <a href=#eventStartDate name="eventStartDate">eventStartDate</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2281,7 +2281,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  eventStartDate  attribute are listed below.</summary>
+<summary>List of traits for the eventStartDate attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -2306,7 +2306,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#eventTimeZone name="eventTimeZone">eventTimeZone</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2315,7 +2315,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  eventTimeZone  attribute are listed below.</summary>
+<summary>List of traits for the eventTimeZone attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2343,7 +2343,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#eventTimeZoneName name="eventTimeZoneName">eventTimeZoneName</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2352,7 +2352,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  eventTimeZoneName  attribute are listed below.</summary>
+<summary>List of traits for the eventTimeZoneName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2380,7 +2380,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#eventType name="eventType">eventType</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2389,11 +2389,11 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  eventType  attribute are listed below.</summary>
+<summary>List of traits for the eventType attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Webcast</td><td>100000005</td></tr><tr><td>en</td><td>Training</td><td>100000004</td></tr><tr><td>en</td><td>Demonstration</td><td>100000003</td></tr><tr><td>en</td><td>Conference</td><td>100000002</td></tr><tr><td>en</td><td>Executive Briefing</td><td>100000001</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Executive Briefing</td><td>100000001</td></tr><tr><td>en</td><td>Conference</td><td>100000002</td></tr><tr><td>en</td><td>Demonstration</td><td>100000003</td></tr><tr><td>en</td><td>Training</td><td>100000004</td></tr><tr><td>en</td><td>Webcast</td><td>100000005</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2417,7 +2417,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#eventType_display name="eventType_display">eventType_display</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2426,7 +2426,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  eventType_display  attribute are listed below.</summary>
+<summary>List of traits for the eventType_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2440,7 +2440,7 @@ First included in: eventManagement/Event  (this entity)
 
 ### <a href=#eventVenueCost name="eventVenueCost">eventVenueCost</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2449,7 +2449,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  eventVenueCost  attribute are listed below.</summary>
+<summary>List of traits for the eventVenueCost attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -2478,7 +2478,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#eventVenueCostBase name="eventVenueCostBase">eventVenueCostBase</a>
 
 Value of the Event Venue Cost in base currency.  
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2487,7 +2487,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  eventVenueCostBase  attribute are listed below.</summary>
+<summary>List of traits for the eventVenueCostBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -2521,7 +2521,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#expectedOutcome name="expectedOutcome">expectedOutcome</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2530,7 +2530,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  expectedOutcome  attribute are listed below.</summary>
+<summary>List of traits for the expectedOutcome attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2557,7 +2557,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#followUpOnLeads name="followUpOnLeads">followUpOnLeads</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2566,11 +2566,11 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  followUpOnLeads  attribute are listed below.</summary>
+<summary>List of traits for the followUpOnLeads attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2594,7 +2594,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#followUpOnLeads_display name="followUpOnLeads_display">followUpOnLeads_display</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2603,7 +2603,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  followUpOnLeads_display  attribute are listed below.</summary>
+<summary>List of traits for the followUpOnLeads_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2618,7 +2618,7 @@ First included in: eventManagement/Event  (this entity)
 ### <a href=#guestLogistics name="guestLogistics">guestLogistics</a>
 
 Whether guest logistics are required or not.  
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2627,11 +2627,11 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  guestLogistics  attribute are listed below.</summary>
+<summary>List of traits for the guestLogistics attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Yes</td><td>100000002</td></tr><tr><td>en</td><td>No</td><td>100000001</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No</td><td>100000001</td></tr><tr><td>en</td><td>Yes</td><td>100000002</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2658,7 +2658,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#guestLogistics_display name="guestLogistics_display">guestLogistics_display</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2667,7 +2667,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  guestLogistics_display  attribute are listed below.</summary>
+<summary>List of traits for the guestLogistics_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2681,7 +2681,7 @@ First included in: eventManagement/Event  (this entity)
 
 ### <a href=#identifySpeakers name="identifySpeakers">identifySpeakers</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2690,11 +2690,11 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  identifySpeakers  attribute are listed below.</summary>
+<summary>List of traits for the identifySpeakers attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2718,7 +2718,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#identifySpeakers_display name="identifySpeakers_display">identifySpeakers_display</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2727,7 +2727,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  identifySpeakers_display  attribute are listed below.</summary>
+<summary>List of traits for the identifySpeakers_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2741,7 +2741,7 @@ First included in: eventManagement/Event  (this entity)
 
 ### <a href=#identifySponsors name="identifySponsors">identifySponsors</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2750,11 +2750,11 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  identifySponsors  attribute are listed below.</summary>
+<summary>List of traits for the identifySponsors attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Complete</td><td>100000003</td></tr><tr><td>en</td><td>Incomplete</td><td>100000002</td></tr><tr><td>en</td><td>Not applicable</td><td>100000001</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not applicable</td><td>100000001</td></tr><tr><td>en</td><td>Incomplete</td><td>100000002</td></tr><tr><td>en</td><td>Complete</td><td>100000003</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2778,7 +2778,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#identifySponsors_display name="identifySponsors_display">identifySponsors_display</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2787,7 +2787,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  identifySponsors_display  attribute are listed below.</summary>
+<summary>List of traits for the identifySponsors_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2801,7 +2801,7 @@ First included in: eventManagement/Event  (this entity)
 
 ### <a href=#isRecurringEvent name="isRecurringEvent">isRecurringEvent</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2810,7 +2810,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  isRecurringEvent  attribute are listed below.</summary>
+<summary>List of traits for the isRecurringEvent attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -2832,7 +2832,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#isTemplate name="isTemplate">isTemplate</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2841,11 +2841,11 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  isTemplate  attribute are listed below.</summary>
+<summary>List of traits for the isTemplate attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No</td><td>100000002</td></tr><tr><td>en</td><td>Yes</td><td>100000001</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Yes</td><td>100000001</td></tr><tr><td>en</td><td>No</td><td>100000002</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2869,7 +2869,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#isTemplate_display name="isTemplate_display">isTemplate_display</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2878,7 +2878,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  isTemplate_display  attribute are listed below.</summary>
+<summary>List of traits for the isTemplate_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2893,20 +2893,20 @@ First included in: eventManagement/Event  (this entity)
 ### <a href=#language name="language">language</a>
 
 The language of the webinar  
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Language</td></tr><tr><td>description</td><td>The language of the webinar</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_language</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>English</td><td>100000000</td></tr><tr><td>en</td><td>Hebrew</td><td>100000012</td></tr><tr><td>en</td><td>German</td><td>100000002</td></tr><tr><td>en</td><td>Spanish</td><td>100000003</td></tr><tr><td>en</td><td>Italian</td><td>100000004</td></tr><tr><td>en</td><td>Russian</td><td>100000005</td></tr><tr><td>en</td><td>Dutch</td><td>100000006</td></tr><tr><td>en</td><td>French</td><td>100000001</td></tr><tr><td>en</td><td>Portuguese</td><td>100000008</td></tr><tr><td>en</td><td>Chinese (Simplified)</td><td>100000009</td></tr><tr><td>en</td><td>Chinese (Traditional)</td><td>100000013</td></tr><tr><td>en</td><td>Japanese</td><td>100000010</td></tr><tr><td>en</td><td>Korean</td><td>100000011</td></tr><tr><td>en</td><td>Turkish</td><td>100000007</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Language</td></tr><tr><td>description</td><td>The language of the webinar</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_language</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>English</td><td>100000000</td></tr><tr><td>en</td><td>French</td><td>100000001</td></tr><tr><td>en</td><td>German</td><td>100000002</td></tr><tr><td>en</td><td>Spanish</td><td>100000003</td></tr><tr><td>en</td><td>Italian</td><td>100000004</td></tr><tr><td>en</td><td>Russian</td><td>100000005</td></tr><tr><td>en</td><td>Dutch</td><td>100000006</td></tr><tr><td>en</td><td>Turkish</td><td>100000007</td></tr><tr><td>en</td><td>Portuguese</td><td>100000008</td></tr><tr><td>en</td><td>Chinese (Simplified)</td><td>100000009</td></tr><tr><td>en</td><td>Chinese (Traditional)</td><td>100000013</td></tr><tr><td>en</td><td>Japanese</td><td>100000010</td></tr><tr><td>en</td><td>Korean</td><td>100000011</td></tr><tr><td>en</td><td>Hebrew</td><td>100000012</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  language  attribute are listed below.</summary>
+<summary>List of traits for the language attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Hebrew</td><td>100000012</td></tr><tr><td>en</td><td>Korean</td><td>100000011</td></tr><tr><td>en</td><td>Japanese</td><td>100000010</td></tr><tr><td>en</td><td>Chinese (Traditional)</td><td>100000013</td></tr><tr><td>en</td><td>Chinese (Simplified)</td><td>100000009</td></tr><tr><td>en</td><td>Portuguese</td><td>100000008</td></tr><tr><td>en</td><td>Turkish</td><td>100000007</td></tr><tr><td>en</td><td>Dutch</td><td>100000006</td></tr><tr><td>en</td><td>Russian</td><td>100000005</td></tr><tr><td>en</td><td>Italian</td><td>100000004</td></tr><tr><td>en</td><td>Spanish</td><td>100000003</td></tr><tr><td>en</td><td>German</td><td>100000002</td></tr><tr><td>en</td><td>French</td><td>100000001</td></tr><tr><td>en</td><td>English</td><td>100000000</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>English</td><td>100000000</td></tr><tr><td>en</td><td>French</td><td>100000001</td></tr><tr><td>en</td><td>German</td><td>100000002</td></tr><tr><td>en</td><td>Spanish</td><td>100000003</td></tr><tr><td>en</td><td>Italian</td><td>100000004</td></tr><tr><td>en</td><td>Russian</td><td>100000005</td></tr><tr><td>en</td><td>Dutch</td><td>100000006</td></tr><tr><td>en</td><td>Turkish</td><td>100000007</td></tr><tr><td>en</td><td>Portuguese</td><td>100000008</td></tr><tr><td>en</td><td>Chinese (Simplified)</td><td>100000009</td></tr><tr><td>en</td><td>Chinese (Traditional)</td><td>100000013</td></tr><tr><td>en</td><td>Japanese</td><td>100000010</td></tr><tr><td>en</td><td>Korean</td><td>100000011</td></tr><tr><td>en</td><td>Hebrew</td><td>100000012</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2933,7 +2933,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#language_display name="language_display">language_display</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2942,7 +2942,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  language_display  attribute are listed below.</summary>
+<summary>List of traits for the language_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2956,7 +2956,7 @@ First included in: eventManagement/Event  (this entity)
 
 ### <a href=#makePaymentsDue name="makePaymentsDue">makePaymentsDue</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2965,11 +2965,11 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  makePaymentsDue  attribute are listed below.</summary>
+<summary>List of traits for the makePaymentsDue attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2993,7 +2993,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#makePaymentsDue_display name="makePaymentsDue_display">makePaymentsDue_display</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3002,7 +3002,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  makePaymentsDue_display  attribute are listed below.</summary>
+<summary>List of traits for the makePaymentsDue_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3016,7 +3016,7 @@ First included in: eventManagement/Event  (this entity)
 
 ### <a href=#manageRegistrationCount name="manageRegistrationCount">manageRegistrationCount</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3025,11 +3025,11 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  manageRegistrationCount  attribute are listed below.</summary>
+<summary>List of traits for the manageRegistrationCount attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No</td><td>100000002</td></tr><tr><td>en</td><td>Yes</td><td>100000001</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Yes</td><td>100000001</td></tr><tr><td>en</td><td>No</td><td>100000002</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3053,7 +3053,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#manageRegistrationCount_display name="manageRegistrationCount_display">manageRegistrationCount_display</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3062,7 +3062,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  manageRegistrationCount_display  attribute are listed below.</summary>
+<summary>List of traits for the manageRegistrationCount_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3076,7 +3076,7 @@ First included in: eventManagement/Event  (this entity)
 
 ### <a href=#maximumEventCapacity name="maximumEventCapacity">maximumEventCapacity</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3085,7 +3085,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  maximumEventCapacity  attribute are listed below.</summary>
+<summary>List of traits for the maximumEventCapacity attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -3110,7 +3110,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#maxNumberOfRegistrations name="maxNumberOfRegistrations">maxNumberOfRegistrations</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3119,7 +3119,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  maxNumberOfRegistrations  attribute are listed below.</summary>
+<summary>List of traits for the maxNumberOfRegistrations attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -3144,7 +3144,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#miscellaneousCosts name="miscellaneousCosts">miscellaneousCosts</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3153,7 +3153,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  miscellaneousCosts  attribute are listed below.</summary>
+<summary>List of traits for the miscellaneousCosts attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3182,7 +3182,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#miscellaneousCostsBase name="miscellaneousCostsBase">miscellaneousCostsBase</a>
 
 Value of the Miscellaneous Costs in base currency.  
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3191,7 +3191,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  miscellaneousCostsBase  attribute are listed below.</summary>
+<summary>List of traits for the miscellaneousCostsBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3225,7 +3225,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#notifyAuthoritiesOfEvent name="notifyAuthoritiesOfEvent">notifyAuthoritiesOfEvent</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3234,11 +3234,11 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  notifyAuthoritiesOfEvent  attribute are listed below.</summary>
+<summary>List of traits for the notifyAuthoritiesOfEvent attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3262,7 +3262,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#notifyAuthoritiesOfEvent_display name="notifyAuthoritiesOfEvent_display">notifyAuthoritiesOfEvent_display</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3271,7 +3271,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  notifyAuthoritiesOfEvent_display  attribute are listed below.</summary>
+<summary>List of traits for the notifyAuthoritiesOfEvent_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3285,7 +3285,7 @@ First included in: eventManagement/Event  (this entity)
 
 ### <a href=#planRegistration name="planRegistration">planRegistration</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3294,11 +3294,11 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  planRegistration  attribute are listed below.</summary>
+<summary>List of traits for the planRegistration attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3322,7 +3322,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#planRegistration_display name="planRegistration_display">planRegistration_display</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3331,7 +3331,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  planRegistration_display  attribute are listed below.</summary>
+<summary>List of traits for the planRegistration_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3345,7 +3345,7 @@ First included in: eventManagement/Event  (this entity)
 
 ### <a href=#presentationManagerUrl name="presentationManagerUrl">presentationManagerUrl</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3354,7 +3354,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  presentationManagerUrl  attribute are listed below.</summary>
+<summary>List of traits for the presentationManagerUrl attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3382,7 +3382,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#primaryGoal name="primaryGoal">primaryGoal</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3391,11 +3391,11 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  primaryGoal  attribute are listed below.</summary>
+<summary>List of traits for the primaryGoal attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Morale</td><td>100000004</td></tr><tr><td>en</td><td>Education</td><td>100000003</td></tr><tr><td>en</td><td>Sales</td><td>100000002</td></tr><tr><td>en</td><td>Marketing</td><td>100000001</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Marketing</td><td>100000001</td></tr><tr><td>en</td><td>Sales</td><td>100000002</td></tr><tr><td>en</td><td>Education</td><td>100000003</td></tr><tr><td>en</td><td>Morale</td><td>100000004</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3419,7 +3419,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#primaryGoal_display name="primaryGoal_display">primaryGoal_display</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3428,7 +3428,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  primaryGoal_display  attribute are listed below.</summary>
+<summary>List of traits for the primaryGoal_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3442,7 +3442,7 @@ First included in: eventManagement/Event  (this entity)
 
 ### <a href=#primaryVenue name="primaryVenue">primaryVenue</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3451,7 +3451,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  primaryVenue  attribute are listed below.</summary>
+<summary>List of traits for the primaryVenue attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3480,7 +3480,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#producer name="producer">producer</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3489,7 +3489,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  producer  attribute are listed below.</summary>
+<summary>List of traits for the producer attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3518,7 +3518,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#publicEventURL name="publicEventURL">publicEventURL</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3527,7 +3527,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  publicEventURL  attribute are listed below.</summary>
+<summary>List of traits for the publicEventURL attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3555,7 +3555,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#publishStatus name="publishStatus">publishStatus</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3564,11 +3564,11 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  publishStatus  attribute are listed below.</summary>
+<summary>List of traits for the publishStatus attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Published</td><td>100000003</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Ready to publish</td><td>100000001</td></tr><tr><td>en</td><td>Draft</td><td>100000000</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Draft</td><td>100000000</td></tr><tr><td>en</td><td>Ready to publish</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Published</td><td>100000003</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3592,7 +3592,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#publishStatus_display name="publishStatus_display">publishStatus_display</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3601,7 +3601,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  publishStatus_display  attribute are listed below.</summary>
+<summary>List of traits for the publishStatus_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3615,7 +3615,7 @@ First included in: eventManagement/Event  (this entity)
 
 ### <a href=#readableEventID name="readableEventID">readableEventID</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3624,7 +3624,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  readableEventID  attribute are listed below.</summary>
+<summary>List of traits for the readableEventID attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3651,7 +3651,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#recurrencePattern name="recurrencePattern">recurrencePattern</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3660,7 +3660,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  recurrencePattern  attribute are listed below.</summary>
+<summary>List of traits for the recurrencePattern attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3687,7 +3687,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#recurrentEventStatus name="recurrentEventStatus">recurrentEventStatus</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3696,7 +3696,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  recurrentEventStatus  attribute are listed below.</summary>
+<summary>List of traits for the recurrentEventStatus attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -3722,7 +3722,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#registrationCount name="registrationCount">registrationCount</a>
 
 Registration count of the Event.  
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3731,7 +3731,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  registrationCount  attribute are listed below.</summary>
+<summary>List of traits for the registrationCount attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -3759,7 +3759,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#registrationsTarget name="registrationsTarget">registrationsTarget</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3768,7 +3768,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  registrationsTarget  attribute are listed below.</summary>
+<summary>List of traits for the registrationsTarget attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -3793,7 +3793,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#requestSponsorship name="requestSponsorship">requestSponsorship</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3802,11 +3802,11 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  requestSponsorship  attribute are listed below.</summary>
+<summary>List of traits for the requestSponsorship attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3830,7 +3830,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#requestSponsorship_display name="requestSponsorship_display">requestSponsorship_display</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3839,7 +3839,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  requestSponsorship_display  attribute are listed below.</summary>
+<summary>List of traits for the requestSponsorship_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3853,7 +3853,7 @@ First included in: eventManagement/Event  (this entity)
 
 ### <a href=#revenueFromSponsorship name="revenueFromSponsorship">revenueFromSponsorship</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3862,7 +3862,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  revenueFromSponsorship  attribute are listed below.</summary>
+<summary>List of traits for the revenueFromSponsorship attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3891,7 +3891,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#revenueFromSponsorshipBase name="revenueFromSponsorshipBase">revenueFromSponsorshipBase</a>
 
 Value of the Revenue from Sponsorship in base currency.  
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3900,7 +3900,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  revenueFromSponsorshipBase  attribute are listed below.</summary>
+<summary>List of traits for the revenueFromSponsorshipBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3935,7 +3935,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#scheduleAirportPickups name="scheduleAirportPickups">scheduleAirportPickups</a>
 
 Airport pickups scheduling status  
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3944,11 +3944,11 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  scheduleAirportPickups  attribute are listed below.</summary>
+<summary>List of traits for the scheduleAirportPickups attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3975,7 +3975,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#scheduleAirportPickups_display name="scheduleAirportPickups_display">scheduleAirportPickups_display</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3984,7 +3984,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  scheduleAirportPickups_display  attribute are listed below.</summary>
+<summary>List of traits for the scheduleAirportPickups_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3998,7 +3998,7 @@ First included in: eventManagement/Event  (this entity)
 
 ### <a href=#scheduleSessions name="scheduleSessions">scheduleSessions</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4007,11 +4007,11 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  scheduleSessions  attribute are listed below.</summary>
+<summary>List of traits for the scheduleSessions attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -4035,7 +4035,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#scheduleSessions_display name="scheduleSessions_display">scheduleSessions_display</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4044,7 +4044,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  scheduleSessions_display  attribute are listed below.</summary>
+<summary>List of traits for the scheduleSessions_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4058,7 +4058,7 @@ First included in: eventManagement/Event  (this entity)
 
 ### <a href=#selectSpeakers name="selectSpeakers">selectSpeakers</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4067,11 +4067,11 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  selectSpeakers  attribute are listed below.</summary>
+<summary>List of traits for the selectSpeakers attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -4095,7 +4095,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#selectSpeakers_display name="selectSpeakers_display">selectSpeakers_display</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4104,7 +4104,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  selectSpeakers_display  attribute are listed below.</summary>
+<summary>List of traits for the selectSpeakers_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4118,7 +4118,7 @@ First included in: eventManagement/Event  (this entity)
 
 ### <a href=#selectVendors name="selectVendors">selectVendors</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4127,11 +4127,11 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  selectVendors  attribute are listed below.</summary>
+<summary>List of traits for the selectVendors attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -4155,7 +4155,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#selectVendors_display name="selectVendors_display">selectVendors_display</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4164,7 +4164,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  selectVendors_display  attribute are listed below.</summary>
+<summary>List of traits for the selectVendors_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4179,7 +4179,7 @@ First included in: eventManagement/Event  (this entity)
 ### <a href=#sendEventInvitation name="sendEventInvitation">sendEventInvitation</a>
 
 Event invitation sending status  
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4188,11 +4188,11 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  sendEventInvitation  attribute are listed below.</summary>
+<summary>List of traits for the sendEventInvitation attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -4219,7 +4219,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#sendEventInvitation_display name="sendEventInvitation_display">sendEventInvitation_display</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4228,7 +4228,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  sendEventInvitation_display  attribute are listed below.</summary>
+<summary>List of traits for the sendEventInvitation_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4242,7 +4242,7 @@ First included in: eventManagement/Event  (this entity)
 
 ### <a href=#sendMarketingMaterial name="sendMarketingMaterial">sendMarketingMaterial</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4251,11 +4251,11 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  sendMarketingMaterial  attribute are listed below.</summary>
+<summary>List of traits for the sendMarketingMaterial attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -4279,7 +4279,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#sendMarketingMaterial_display name="sendMarketingMaterial_display">sendMarketingMaterial_display</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4288,7 +4288,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  sendMarketingMaterial_display  attribute are listed below.</summary>
+<summary>List of traits for the sendMarketingMaterial_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4302,7 +4302,7 @@ First included in: eventManagement/Event  (this entity)
 
 ### <a href=#sendPreEventReminders name="sendPreEventReminders">sendPreEventReminders</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4311,11 +4311,11 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  sendPreEventReminders  attribute are listed below.</summary>
+<summary>List of traits for the sendPreEventReminders attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -4339,7 +4339,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#sendPreEventReminders_display name="sendPreEventReminders_display">sendPreEventReminders_display</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4348,7 +4348,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  sendPreEventReminders_display  attribute are listed below.</summary>
+<summary>List of traits for the sendPreEventReminders_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4362,7 +4362,7 @@ First included in: eventManagement/Event  (this entity)
 
 ### <a href=#sendThankYouEmails name="sendThankYouEmails">sendThankYouEmails</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4371,11 +4371,11 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  sendThankYouEmails  attribute are listed below.</summary>
+<summary>List of traits for the sendThankYouEmails attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -4399,7 +4399,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#sendThankYouEmails_display name="sendThankYouEmails_display">sendThankYouEmails_display</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4408,7 +4408,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  sendThankYouEmails_display  attribute are listed below.</summary>
+<summary>List of traits for the sendThankYouEmails_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4422,7 +4422,7 @@ First included in: eventManagement/Event  (this entity)
 
 ### <a href=#showWaitlist name="showWaitlist">showWaitlist</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4431,7 +4431,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  showWaitlist  attribute are listed below.</summary>
+<summary>List of traits for the showWaitlist attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -4453,7 +4453,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#targetRevenue name="targetRevenue">targetRevenue</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4462,7 +4462,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  targetRevenue  attribute are listed below.</summary>
+<summary>List of traits for the targetRevenue attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -4491,7 +4491,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#targetRevenueBase name="targetRevenueBase">targetRevenueBase</a>
 
 Value of the Target Revenue in base currency.  
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4500,7 +4500,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  targetRevenueBase  attribute are listed below.</summary>
+<summary>List of traits for the targetRevenueBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -4534,7 +4534,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#teamDebriefing name="teamDebriefing">teamDebriefing</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4543,11 +4543,11 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  teamDebriefing  attribute are listed below.</summary>
+<summary>List of traits for the teamDebriefing attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -4571,7 +4571,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#teamDebriefing_display name="teamDebriefing_display">teamDebriefing_display</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4580,7 +4580,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  teamDebriefing_display  attribute are listed below.</summary>
+<summary>List of traits for the teamDebriefing_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4594,7 +4594,7 @@ First included in: eventManagement/Event  (this entity)
 
 ### <a href=#totalCostOfEventsActivities name="totalCostOfEventsActivities">totalCostOfEventsActivities</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4603,7 +4603,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  totalCostOfEventsActivities  attribute are listed below.</summary>
+<summary>List of traits for the totalCostOfEventsActivities attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -4632,7 +4632,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#totalCostOfEventsActivitiesBase name="totalCostOfEventsActivitiesBase">totalCostOfEventsActivitiesBase</a>
 
 Value of the Total Cost of Events Activities in base currency.  
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4641,7 +4641,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  totalCostOfEventsActivitiesBase  attribute are listed below.</summary>
+<summary>List of traits for the totalCostOfEventsActivitiesBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -4675,7 +4675,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#totalCostOfExternalMembers name="totalCostOfExternalMembers">totalCostOfExternalMembers</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4684,7 +4684,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  totalCostOfExternalMembers  attribute are listed below.</summary>
+<summary>List of traits for the totalCostOfExternalMembers attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -4713,7 +4713,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#totalCostOfExternalMembersBase name="totalCostOfExternalMembersBase">totalCostOfExternalMembersBase</a>
 
 Value of the Total cost of External Members in base currency.  
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4722,7 +4722,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  totalCostOfExternalMembersBase  attribute are listed below.</summary>
+<summary>List of traits for the totalCostOfExternalMembersBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -4756,7 +4756,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#totalRegistrationFee name="totalRegistrationFee">totalRegistrationFee</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4765,7 +4765,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  totalRegistrationFee  attribute are listed below.</summary>
+<summary>List of traits for the totalRegistrationFee attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -4794,7 +4794,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#totalRegistrationFeeBase name="totalRegistrationFeeBase">totalRegistrationFeeBase</a>
 
 Value of the Total Registration Fee in base currency.  
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4803,7 +4803,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  totalRegistrationFeeBase  attribute are listed below.</summary>
+<summary>List of traits for the totalRegistrationFeeBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -4837,7 +4837,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#totalRevenueFromTheEvent name="totalRevenueFromTheEvent">totalRevenueFromTheEvent</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4846,7 +4846,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  totalRevenueFromTheEvent  attribute are listed below.</summary>
+<summary>List of traits for the totalRevenueFromTheEvent attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -4875,7 +4875,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#totalRevenueFromTheEventBase name="totalRevenueFromTheEventBase">totalRevenueFromTheEventBase</a>
 
 Value of the Total Revenue from the event in base currency.  
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4884,7 +4884,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  totalRevenueFromTheEventBase  attribute are listed below.</summary>
+<summary>List of traits for the totalRevenueFromTheEventBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -4919,7 +4919,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#waitlistStartingPoint name="waitlistStartingPoint">waitlistStartingPoint</a>
 
 Waitlist Starting Point  
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4928,7 +4928,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  waitlistStartingPoint  attribute are listed below.</summary>
+<summary>List of traits for the waitlistStartingPoint attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -4956,7 +4956,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#waitlistthisEvent name="waitlistthisEvent">waitlistthisEvent</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4965,11 +4965,11 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  waitlistthisEvent  attribute are listed below.</summary>
+<summary>List of traits for the waitlistthisEvent attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Yes</td><td>100000002</td></tr><tr><td>en</td><td>No</td><td>100000001</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No</td><td>100000001</td></tr><tr><td>en</td><td>Yes</td><td>100000002</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -4993,7 +4993,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#waitlistthisEvent_display name="waitlistthisEvent_display">waitlistthisEvent_display</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -5002,7 +5002,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  waitlistthisEvent_display  attribute are listed below.</summary>
+<summary>List of traits for the waitlistthisEvent_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5017,7 +5017,7 @@ First included in: eventManagement/Event  (this entity)
 ### <a href=#webinarConfigurationId name="webinarConfigurationId">webinarConfigurationId</a>
 
 Webinar Configuration  
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -5026,7 +5026,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  webinarConfigurationId  attribute are listed below.</summary>
+<summary>List of traits for the webinarConfigurationId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5059,7 +5059,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#webinarID name="webinarID">webinarID</a>
 
 Webinar ID of the Event.  
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -5068,7 +5068,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  webinarID  attribute are listed below.</summary>
+<summary>List of traits for the webinarID attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5099,7 +5099,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#webinarNotificationSeen name="webinarNotificationSeen">webinarNotificationSeen</a>
 
 Whether the webinar creation notification has been seen or not  
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -5108,7 +5108,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  webinarNotificationSeen  attribute are listed below.</summary>
+<summary>List of traits for the webinarNotificationSeen attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -5133,7 +5133,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#webinarOperation name="webinarOperation">webinarOperation</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -5142,7 +5142,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  webinarOperation  attribute are listed below.</summary>
+<summary>List of traits for the webinarOperation attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5169,7 +5169,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#webinarStatus name="webinarStatus">webinarStatus</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -5178,7 +5178,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  webinarStatus  attribute are listed below.</summary>
+<summary>List of traits for the webinarStatus attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5205,7 +5205,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#webinarStatusReason name="webinarStatusReason">webinarStatusReason</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -5214,7 +5214,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  webinarStatusReason  attribute are listed below.</summary>
+<summary>List of traits for the webinarStatusReason attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5241,7 +5241,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#webinarType name="webinarType">webinarType</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -5250,7 +5250,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  webinarType  attribute are listed below.</summary>
+<summary>List of traits for the webinarType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5280,7 +5280,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#webinarURL name="webinarURL">webinarURL</a>
 
 URL of the webinar. This might be URL of external webinar provider.  
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -5289,7 +5289,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  webinarURL  attribute are listed below.</summary>
+<summary>List of traits for the webinarURL attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5320,7 +5320,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#sendSurveys name="sendSurveys">sendSurveys</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -5329,11 +5329,11 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  sendSurveys  attribute are listed below.</summary>
+<summary>List of traits for the sendSurveys attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -5357,7 +5357,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#sendSurveys_display name="sendSurveys_display">sendSurveys_display</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -5366,7 +5366,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  sendSurveys_display  attribute are listed below.</summary>
+<summary>List of traits for the sendSurveys_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5381,7 +5381,7 @@ First included in: eventManagement/Event  (this entity)
 ### <a href=#eventURLspecified name="eventURLspecified">eventURLspecified</a>
 
 Determines whether an event URL is specified.  
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -5390,7 +5390,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  eventURLspecified  attribute are listed below.</summary>
+<summary>List of traits for the eventURLspecified attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -5416,7 +5416,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#sessionsCount name="sessionsCount">sessionsCount</a>
 
 The number of sessions in this event  
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -5425,7 +5425,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  sessionsCount  attribute are listed below.</summary>
+<summary>List of traits for the sessionsCount attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -5454,7 +5454,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#sessionsCountDate name="sessionsCountDate">sessionsCountDate</a>
 
 Last Updated time of rollup field Session count.  
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -5463,7 +5463,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  sessionsCountDate  attribute are listed below.</summary>
+<summary>List of traits for the sessionsCountDate attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -5495,7 +5495,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#sessionsCountState name="sessionsCountState">sessionsCountState</a>
 
 State of rollup field Session count.  
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -5504,7 +5504,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  sessionsCountState  attribute are listed below.</summary>
+<summary>List of traits for the sessionsCountState attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.calculationOf**  
@@ -5535,7 +5535,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#allowAnonymousRegistrations name="allowAnonymousRegistrations">allowAnonymousRegistrations</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -5544,7 +5544,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  allowAnonymousRegistrations  attribute are listed below.</summary>
+<summary>List of traits for the allowAnonymousRegistrations attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -5567,7 +5567,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#portalBannerImage name="portalBannerImage">portalBannerImage</a>
 
 The portal banner image.  
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -5576,7 +5576,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  portalBannerImage  attribute are listed below.</summary>
+<summary>List of traits for the portalBannerImage attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5608,7 +5608,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#eventURL name="eventURL">eventURL</a>
 
-First included in: eventManagement/Event  (this entity)  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -5617,7 +5617,7 @@ First included in: eventManagement/Event  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  eventURL  attribute are listed below.</summary>
+<summary>List of traits for the eventURL attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  

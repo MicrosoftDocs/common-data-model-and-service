@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/13/2019
+ms.date: 2/15/2019
 ms.author: tpalmer
 ---
 
@@ -12,13 +12,13 @@ ms.author: tpalmer
 
 Formal offer for products and/or services, proposed at specific prices and related payment terms, which is sent to a prospective customer.  
   
-Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json" target="_blank">GitHub</a>.  
+Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
-Instances of this entity are listed below:  
+Instances of this entity are listed below.  
 
-sales/Quote  
+/core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
 
 ## Traits
 
@@ -158,7 +158,7 @@ sales/Quote
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -167,7 +167,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOn  attribute are listed below.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -197,7 +197,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -206,7 +206,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdBy  attribute are listed below.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -242,7 +242,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -251,7 +251,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -281,7 +281,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -290,7 +290,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -326,7 +326,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -335,7 +335,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -371,7 +371,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -380,7 +380,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -416,7 +416,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -425,7 +425,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -455,7 +455,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -464,7 +464,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -490,7 +490,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -499,7 +499,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerIdType  attribute are listed below.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -529,7 +529,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -538,7 +538,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerId  attribute are listed below.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -574,7 +574,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -583,7 +583,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningBusinessUnit  attribute are listed below.</summary>
+<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -616,7 +616,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -625,7 +625,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningUser  attribute are listed below.</summary>
+<summary>List of traits for the owningUser attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -661,7 +661,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -670,7 +670,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningTeam  attribute are listed below.</summary>
+<summary>List of traits for the owningTeam attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -703,7 +703,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -712,7 +712,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  timeZoneRuleVersionNumber  attribute are listed below.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -741,7 +741,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -750,7 +750,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  UTCConversionTimeZoneCode  attribute are listed below.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -779,7 +779,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -788,7 +788,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -816,7 +816,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#quoteId name="quoteId">quoteId</a>
 
 Unique identifier of the quote.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -825,7 +825,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  quoteId  attribute are listed below.</summary>
+<summary>List of traits for the quoteId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -855,7 +855,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#emailAddress name="emailAddress">emailAddress</a>
 
 The primary email address for the entity.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -864,7 +864,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  emailAddress  attribute are listed below.</summary>
+<summary>List of traits for the emailAddress attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -896,7 +896,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#name name="name">name</a>
 
 Type a descriptive name for the quote.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -905,7 +905,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  name  attribute are listed below.</summary>
+<summary>List of traits for the name attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -937,7 +937,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#processId name="processId">processId</a>
 
 Contains the id of the process associated with the entity.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -946,7 +946,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  processId  attribute are listed below.</summary>
+<summary>List of traits for the processId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -975,7 +975,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stageId name="stageId">stageId</a>
 
 Contains the id of the stage where the entity is located.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -984,7 +984,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  stageId  attribute are listed below.</summary>
+<summary>List of traits for the stageId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1013,7 +1013,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#traversedPath name="traversedPath">traversedPath</a>
 
 A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -1022,7 +1022,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  traversedPath  attribute are listed below.</summary>
+<summary>List of traits for the traversedPath attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1053,7 +1053,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#billToAddressId name="billToAddressId">billToAddressId</a>
 
 Unique identifier of the billing address.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -1062,7 +1062,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  billToAddressId  attribute are listed below.</summary>
+<summary>List of traits for the billToAddressId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1091,7 +1091,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#billToCity name="billToCity">billToCity</a>
 
 Type the city for the customer's billing address.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -1100,7 +1100,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  billToCity  attribute are listed below.</summary>
+<summary>List of traits for the billToCity attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1132,7 +1132,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#billToComposite name="billToComposite">billToComposite</a>
 
 Shows the complete Bill To address.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -1141,7 +1141,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  billToComposite  attribute are listed below.</summary>
+<summary>List of traits for the billToComposite attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1172,7 +1172,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#billToContactName name="billToContactName">billToContactName</a>
 
 Type the primary contact name at the customer's billing address.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -1181,7 +1181,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  billToContactName  attribute are listed below.</summary>
+<summary>List of traits for the billToContactName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1213,7 +1213,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#billToCountry name="billToCountry">billToCountry</a>
 
 Type the country or region for the customer's billing address.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -1222,7 +1222,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  billToCountry  attribute are listed below.</summary>
+<summary>List of traits for the billToCountry attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1254,7 +1254,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#billToFax name="billToFax">billToFax</a>
 
 Type the fax number for the customer's billing address.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -1263,7 +1263,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  billToFax  attribute are listed below.</summary>
+<summary>List of traits for the billToFax attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1294,7 +1294,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#billToLine1 name="billToLine1">billToLine1</a>
 
 Type the first line of the customer's billing address.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -1303,7 +1303,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  billToLine1  attribute are listed below.</summary>
+<summary>List of traits for the billToLine1 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1335,7 +1335,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#billToLine2 name="billToLine2">billToLine2</a>
 
 Type the second line of the customer's billing address.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -1344,7 +1344,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  billToLine2  attribute are listed below.</summary>
+<summary>List of traits for the billToLine2 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1376,7 +1376,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#billToLine3 name="billToLine3">billToLine3</a>
 
 Type the third line of the billing address.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -1385,7 +1385,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  billToLine3  attribute are listed below.</summary>
+<summary>List of traits for the billToLine3 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1417,7 +1417,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#billToName name="billToName">billToName</a>
 
 Type a name for the customer's billing address, such as "Headquarters" or "Field office", to identify the address.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -1426,7 +1426,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  billToName  attribute are listed below.</summary>
+<summary>List of traits for the billToName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1458,7 +1458,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#billToPostalCode name="billToPostalCode">billToPostalCode</a>
 
 Type the ZIP Code or postal code for the billing address.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -1467,7 +1467,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  billToPostalCode  attribute are listed below.</summary>
+<summary>List of traits for the billToPostalCode attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1499,7 +1499,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#billToStateOrProvince name="billToStateOrProvince">billToStateOrProvince</a>
 
 Type the state or province for the billing address.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -1508,7 +1508,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  billToStateOrProvince  attribute are listed below.</summary>
+<summary>List of traits for the billToStateOrProvince attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1540,7 +1540,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#billToTelephone name="billToTelephone">billToTelephone</a>
 
 Type the phone number for the customer's billing address.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -1549,7 +1549,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  billToTelephone  attribute are listed below.</summary>
+<summary>List of traits for the billToTelephone attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1581,7 +1581,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#closedOn name="closedOn">closedOn</a>
 
 Enter the date when the quote was closed to indicate the expiration, revision, or cancellation date.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -1590,7 +1590,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  closedOn  attribute are listed below.</summary>
+<summary>List of traits for the closedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1619,7 +1619,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#customerIdType name="customerIdType">customerIdType</a>
 
 The type of customer, either Account or Contact.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -1628,7 +1628,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  customerIdType  attribute are listed below.</summary>
+<summary>List of traits for the customerIdType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1655,7 +1655,7 @@ contains an Account or Contact ID
 ### <a href=#customerId name="customerId">customerId</a>
 
 The customer account or contact to provide a quick link to additional customer details, such as account information, activities, and opportunities.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -1664,7 +1664,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  customerId  attribute are listed below.</summary>
+<summary>List of traits for the customerId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1700,7 +1700,7 @@ contains an Account or Contact ID
 ### <a href=#description name="description">description</a>
 
 Type additional information to describe the quote, such as the products or services offered or details about the customer's product preferences.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -1709,7 +1709,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  description  attribute are listed below.</summary>
+<summary>List of traits for the description attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1740,7 +1740,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#discountAmount name="discountAmount">discountAmount</a>
 
 Type the discount amount for the quote if the customer is eligible for special savings.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -1749,7 +1749,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  discountAmount  attribute are listed below.</summary>
+<summary>List of traits for the discountAmount attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1781,7 +1781,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Choose the local currency for the record to make sure budgets are reported in the correct currency.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -1790,7 +1790,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  transactionCurrencyId  attribute are listed below.</summary>
+<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1823,7 +1823,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -1832,7 +1832,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  exchangeRate  attribute are listed below.</summary>
+<summary>List of traits for the exchangeRate attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1863,7 +1863,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#discountAmountBase name="discountAmountBase">discountAmountBase</a>
 
 Value of the Quote Discount Amount in base currency.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -1872,7 +1872,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  discountAmountBase  attribute are listed below.</summary>
+<summary>List of traits for the discountAmountBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1907,7 +1907,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#discountPercentage name="discountPercentage">discountPercentage</a>
 
 Type the discount rate that should be applied to the Detail Amount field to include additional savings for the customer in the quote.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -1916,7 +1916,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  discountPercentage  attribute are listed below.</summary>
+<summary>List of traits for the discountPercentage attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1947,7 +1947,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#effectiveFrom name="effectiveFrom">effectiveFrom</a>
 
 Enter the date when the quote pricing is effective or was first communicated to the customer.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -1956,7 +1956,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  effectiveFrom  attribute are listed below.</summary>
+<summary>List of traits for the effectiveFrom attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1985,7 +1985,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#effectiveTo name="effectiveTo">effectiveTo</a>
 
 Enter the expiration date or last day the quote pricing is effective for the customer.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -1994,7 +1994,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  effectiveTo  attribute are listed below.</summary>
+<summary>List of traits for the effectiveTo attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -2023,7 +2023,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#expiresOn name="expiresOn">expiresOn</a>
 
 Enter the date a decision or order is due from the customer to indicate the expiration date of the quote.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -2032,7 +2032,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  expiresOn  attribute are listed below.</summary>
+<summary>List of traits for the expiresOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -2061,7 +2061,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#freightAmount name="freightAmount">freightAmount</a>
 
 Type the cost of freight or shipping for the products included in the quote for use in calculating the Total Amount field.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -2070,7 +2070,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  freightAmount  attribute are listed below.</summary>
+<summary>List of traits for the freightAmount attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -2102,7 +2102,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#freightAmountBase name="freightAmountBase">freightAmountBase</a>
 
 Value of the Freight Amount in base currency.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -2111,7 +2111,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  freightAmountBase  attribute are listed below.</summary>
+<summary>List of traits for the freightAmountBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -2146,7 +2146,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#freightTermsCode name="freightTermsCode">freightTermsCode</a>
 
 Select the freight terms to make sure shipping charges are processed correctly.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -2155,11 +2155,11 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  freightTermsCode  attribute are listed below.</summary>
+<summary>List of traits for the freightTermsCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No Charge</td><td>2</td></tr><tr><td>en</td><td>FOB</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>FOB</td><td>1</td></tr><tr><td>en</td><td>No Charge</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2186,7 +2186,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#freightTermsCode_display name="freightTermsCode_display">freightTermsCode_display</a>
 
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -2195,7 +2195,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  freightTermsCode_display  attribute are listed below.</summary>
+<summary>List of traits for the freightTermsCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2210,7 +2210,7 @@ First included in: sales/Quote  (this entity)
 ### <a href=#opportunityId name="opportunityId">opportunityId</a>
 
 Choose the opportunity that the quote is related to for reporting and analytics.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -2219,7 +2219,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  opportunityId  attribute are listed below.</summary>
+<summary>List of traits for the opportunityId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2252,7 +2252,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#paymentTermsCode name="paymentTermsCode">paymentTermsCode</a>
 
 Select the payment terms to indicate when the customer needs to pay the total amount.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -2261,11 +2261,11 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  paymentTermsCode  attribute are listed below.</summary>
+<summary>List of traits for the paymentTermsCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Net 60</td><td>4</td></tr><tr><td>en</td><td>Net 45</td><td>3</td></tr><tr><td>en</td><td>2% 10, Net 30</td><td>2</td></tr><tr><td>en</td><td>Net 30</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Net 30</td><td>1</td></tr><tr><td>en</td><td>2% 10, Net 30</td><td>2</td></tr><tr><td>en</td><td>Net 45</td><td>3</td></tr><tr><td>en</td><td>Net 60</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2292,7 +2292,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#paymentTermsCode_display name="paymentTermsCode_display">paymentTermsCode_display</a>
 
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -2301,7 +2301,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  paymentTermsCode_display  attribute are listed below.</summary>
+<summary>List of traits for the paymentTermsCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2316,7 +2316,7 @@ First included in: sales/Quote  (this entity)
 ### <a href=#priceLevelId name="priceLevelId">priceLevelId</a>
 
 Choose the price list associated with this record to make sure the products associated with the campaign are offered at the correct prices.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -2325,7 +2325,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  priceLevelId  attribute are listed below.</summary>
+<summary>List of traits for the priceLevelId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2358,20 +2358,20 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#pricingErrorCode name="pricingErrorCode">pricingErrorCode</a>
 
 Pricing error for the quote.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Pricing Error </td></tr><tr><td>description</td><td>Pricing error for the quote.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>pricingerrorcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>None</td><td>0</td></tr><tr><td>en</td><td>Base Currency Attribute Underflow</td><td>37</td></tr><tr><td>en</td><td>Missing Price Level</td><td>2</td></tr><tr><td>en</td><td>Inactive Price Level</td><td>3</td></tr><tr><td>en</td><td>Missing Quantity</td><td>4</td></tr><tr><td>en</td><td>Missing Unit Price</td><td>5</td></tr><tr><td>en</td><td>Missing Product</td><td>6</td></tr><tr><td>en</td><td>Invalid Product</td><td>7</td></tr><tr><td>en</td><td>Missing Pricing Code</td><td>8</td></tr><tr><td>en</td><td>Invalid Pricing Code</td><td>9</td></tr><tr><td>en</td><td>Missing UOM</td><td>10</td></tr><tr><td>en</td><td>Product Not In Price Level</td><td>11</td></tr><tr><td>en</td><td>Missing Price Level Amount</td><td>12</td></tr><tr><td>en</td><td>Missing Price Level Percentage</td><td>13</td></tr><tr><td>en</td><td>Missing Price</td><td>14</td></tr><tr><td>en</td><td>Missing Current Cost</td><td>15</td></tr><tr><td>en</td><td>Missing Standard Cost</td><td>16</td></tr><tr><td>en</td><td>Invalid Price Level Amount</td><td>17</td></tr><tr><td>en</td><td>Invalid Price Level Percentage</td><td>18</td></tr><tr><td>en</td><td>Detail Error</td><td>1</td></tr><tr><td>en</td><td>Invalid Current Cost</td><td>20</td></tr><tr><td>en</td><td>Invalid Standard Cost</td><td>21</td></tr><tr><td>en</td><td>Invalid Rounding Policy</td><td>22</td></tr><tr><td>en</td><td>Invalid Rounding Option</td><td>23</td></tr><tr><td>en</td><td>Invalid Rounding Amount</td><td>24</td></tr><tr><td>en</td><td>Price Calculation Error</td><td>25</td></tr><tr><td>en</td><td>Invalid Discount Type</td><td>26</td></tr><tr><td>en</td><td>Discount Type Invalid State</td><td>27</td></tr><tr><td>en</td><td>Invalid Discount</td><td>28</td></tr><tr><td>en</td><td>Invalid Quantity</td><td>29</td></tr><tr><td>en</td><td>Invalid Pricing Precision</td><td>30</td></tr><tr><td>en</td><td>Missing Product Default UOM</td><td>31</td></tr><tr><td>en</td><td>Missing Product UOM Schedule </td><td>32</td></tr><tr><td>en</td><td>Inactive Discount Type</td><td>33</td></tr><tr><td>en</td><td>Invalid Price Level Currency</td><td>34</td></tr><tr><td>en</td><td>Price Attribute Out Of Range</td><td>35</td></tr><tr><td>en</td><td>Base Currency Attribute Overflow</td><td>36</td></tr><tr><td>en</td><td>Invalid Price</td><td>19</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Pricing Error </td></tr><tr><td>description</td><td>Pricing error for the quote.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>pricingerrorcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>None</td><td>0</td></tr><tr><td>en</td><td>Detail Error</td><td>1</td></tr><tr><td>en</td><td>Missing Price Level</td><td>2</td></tr><tr><td>en</td><td>Inactive Price Level</td><td>3</td></tr><tr><td>en</td><td>Missing Quantity</td><td>4</td></tr><tr><td>en</td><td>Missing Unit Price</td><td>5</td></tr><tr><td>en</td><td>Missing Product</td><td>6</td></tr><tr><td>en</td><td>Invalid Product</td><td>7</td></tr><tr><td>en</td><td>Missing Pricing Code</td><td>8</td></tr><tr><td>en</td><td>Invalid Pricing Code</td><td>9</td></tr><tr><td>en</td><td>Missing UOM</td><td>10</td></tr><tr><td>en</td><td>Product Not In Price Level</td><td>11</td></tr><tr><td>en</td><td>Missing Price Level Amount</td><td>12</td></tr><tr><td>en</td><td>Missing Price Level Percentage</td><td>13</td></tr><tr><td>en</td><td>Missing Price</td><td>14</td></tr><tr><td>en</td><td>Missing Current Cost</td><td>15</td></tr><tr><td>en</td><td>Missing Standard Cost</td><td>16</td></tr><tr><td>en</td><td>Invalid Price Level Amount</td><td>17</td></tr><tr><td>en</td><td>Invalid Price Level Percentage</td><td>18</td></tr><tr><td>en</td><td>Invalid Price</td><td>19</td></tr><tr><td>en</td><td>Invalid Current Cost</td><td>20</td></tr><tr><td>en</td><td>Invalid Standard Cost</td><td>21</td></tr><tr><td>en</td><td>Invalid Rounding Policy</td><td>22</td></tr><tr><td>en</td><td>Invalid Rounding Option</td><td>23</td></tr><tr><td>en</td><td>Invalid Rounding Amount</td><td>24</td></tr><tr><td>en</td><td>Price Calculation Error</td><td>25</td></tr><tr><td>en</td><td>Invalid Discount Type</td><td>26</td></tr><tr><td>en</td><td>Discount Type Invalid State</td><td>27</td></tr><tr><td>en</td><td>Invalid Discount</td><td>28</td></tr><tr><td>en</td><td>Invalid Quantity</td><td>29</td></tr><tr><td>en</td><td>Invalid Pricing Precision</td><td>30</td></tr><tr><td>en</td><td>Missing Product Default UOM</td><td>31</td></tr><tr><td>en</td><td>Missing Product UOM Schedule </td><td>32</td></tr><tr><td>en</td><td>Inactive Discount Type</td><td>33</td></tr><tr><td>en</td><td>Invalid Price Level Currency</td><td>34</td></tr><tr><td>en</td><td>Price Attribute Out Of Range</td><td>35</td></tr><tr><td>en</td><td>Base Currency Attribute Overflow</td><td>36</td></tr><tr><td>en</td><td>Base Currency Attribute Underflow</td><td>37</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  pricingErrorCode  attribute are listed below.</summary>
+<summary>List of traits for the pricingErrorCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Base Currency Attribute Underflow</td><td>37</td></tr><tr><td>en</td><td>Base Currency Attribute Overflow</td><td>36</td></tr><tr><td>en</td><td>Price Attribute Out Of Range</td><td>35</td></tr><tr><td>en</td><td>Invalid Price Level Currency</td><td>34</td></tr><tr><td>en</td><td>Inactive Discount Type</td><td>33</td></tr><tr><td>en</td><td>Missing Product UOM Schedule </td><td>32</td></tr><tr><td>en</td><td>Missing Product Default UOM</td><td>31</td></tr><tr><td>en</td><td>Invalid Pricing Precision</td><td>30</td></tr><tr><td>en</td><td>Invalid Quantity</td><td>29</td></tr><tr><td>en</td><td>Invalid Discount</td><td>28</td></tr><tr><td>en</td><td>Discount Type Invalid State</td><td>27</td></tr><tr><td>en</td><td>Invalid Discount Type</td><td>26</td></tr><tr><td>en</td><td>Price Calculation Error</td><td>25</td></tr><tr><td>en</td><td>Invalid Rounding Amount</td><td>24</td></tr><tr><td>en</td><td>Invalid Rounding Option</td><td>23</td></tr><tr><td>en</td><td>Invalid Rounding Policy</td><td>22</td></tr><tr><td>en</td><td>Invalid Standard Cost</td><td>21</td></tr><tr><td>en</td><td>Invalid Current Cost</td><td>20</td></tr><tr><td>en</td><td>Invalid Price</td><td>19</td></tr><tr><td>en</td><td>Invalid Price Level Percentage</td><td>18</td></tr><tr><td>en</td><td>Invalid Price Level Amount</td><td>17</td></tr><tr><td>en</td><td>Missing Standard Cost</td><td>16</td></tr><tr><td>en</td><td>Missing Current Cost</td><td>15</td></tr><tr><td>en</td><td>Missing Price</td><td>14</td></tr><tr><td>en</td><td>Missing Price Level Percentage</td><td>13</td></tr><tr><td>en</td><td>Missing Price Level Amount</td><td>12</td></tr><tr><td>en</td><td>Product Not In Price Level</td><td>11</td></tr><tr><td>en</td><td>Missing UOM</td><td>10</td></tr><tr><td>en</td><td>Invalid Pricing Code</td><td>9</td></tr><tr><td>en</td><td>Missing Pricing Code</td><td>8</td></tr><tr><td>en</td><td>Invalid Product</td><td>7</td></tr><tr><td>en</td><td>Missing Product</td><td>6</td></tr><tr><td>en</td><td>Missing Unit Price</td><td>5</td></tr><tr><td>en</td><td>Missing Quantity</td><td>4</td></tr><tr><td>en</td><td>Inactive Price Level</td><td>3</td></tr><tr><td>en</td><td>Missing Price Level</td><td>2</td></tr><tr><td>en</td><td>Detail Error</td><td>1</td></tr><tr><td>en</td><td>None</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>None</td><td>0</td></tr><tr><td>en</td><td>Detail Error</td><td>1</td></tr><tr><td>en</td><td>Missing Price Level</td><td>2</td></tr><tr><td>en</td><td>Inactive Price Level</td><td>3</td></tr><tr><td>en</td><td>Missing Quantity</td><td>4</td></tr><tr><td>en</td><td>Missing Unit Price</td><td>5</td></tr><tr><td>en</td><td>Missing Product</td><td>6</td></tr><tr><td>en</td><td>Invalid Product</td><td>7</td></tr><tr><td>en</td><td>Missing Pricing Code</td><td>8</td></tr><tr><td>en</td><td>Invalid Pricing Code</td><td>9</td></tr><tr><td>en</td><td>Missing UOM</td><td>10</td></tr><tr><td>en</td><td>Product Not In Price Level</td><td>11</td></tr><tr><td>en</td><td>Missing Price Level Amount</td><td>12</td></tr><tr><td>en</td><td>Missing Price Level Percentage</td><td>13</td></tr><tr><td>en</td><td>Missing Price</td><td>14</td></tr><tr><td>en</td><td>Missing Current Cost</td><td>15</td></tr><tr><td>en</td><td>Missing Standard Cost</td><td>16</td></tr><tr><td>en</td><td>Invalid Price Level Amount</td><td>17</td></tr><tr><td>en</td><td>Invalid Price Level Percentage</td><td>18</td></tr><tr><td>en</td><td>Invalid Price</td><td>19</td></tr><tr><td>en</td><td>Invalid Current Cost</td><td>20</td></tr><tr><td>en</td><td>Invalid Standard Cost</td><td>21</td></tr><tr><td>en</td><td>Invalid Rounding Policy</td><td>22</td></tr><tr><td>en</td><td>Invalid Rounding Option</td><td>23</td></tr><tr><td>en</td><td>Invalid Rounding Amount</td><td>24</td></tr><tr><td>en</td><td>Price Calculation Error</td><td>25</td></tr><tr><td>en</td><td>Invalid Discount Type</td><td>26</td></tr><tr><td>en</td><td>Discount Type Invalid State</td><td>27</td></tr><tr><td>en</td><td>Invalid Discount</td><td>28</td></tr><tr><td>en</td><td>Invalid Quantity</td><td>29</td></tr><tr><td>en</td><td>Invalid Pricing Precision</td><td>30</td></tr><tr><td>en</td><td>Missing Product Default UOM</td><td>31</td></tr><tr><td>en</td><td>Missing Product UOM Schedule </td><td>32</td></tr><tr><td>en</td><td>Inactive Discount Type</td><td>33</td></tr><tr><td>en</td><td>Invalid Price Level Currency</td><td>34</td></tr><tr><td>en</td><td>Price Attribute Out Of Range</td><td>35</td></tr><tr><td>en</td><td>Base Currency Attribute Overflow</td><td>36</td></tr><tr><td>en</td><td>Base Currency Attribute Underflow</td><td>37</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2398,7 +2398,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#pricingErrorCode_display name="pricingErrorCode_display">pricingErrorCode_display</a>
 
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -2407,7 +2407,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  pricingErrorCode_display  attribute are listed below.</summary>
+<summary>List of traits for the pricingErrorCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2422,7 +2422,7 @@ First included in: sales/Quote  (this entity)
 ### <a href=#quoteNumber name="quoteNumber">quoteNumber</a>
 
 Shows the quote number for customer reference and searching capabilities. The number cannot be modified.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -2431,7 +2431,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  quoteNumber  attribute are listed below.</summary>
+<summary>List of traits for the quoteNumber attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2459,7 +2459,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#requestDeliveryBy name="requestDeliveryBy">requestDeliveryBy</a>
 
 Enter the delivery date requested by the customer for all products in the quote.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -2468,7 +2468,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  requestDeliveryBy  attribute are listed below.</summary>
+<summary>List of traits for the requestDeliveryBy attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -2497,7 +2497,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#revisionNumber name="revisionNumber">revisionNumber</a>
 
 Shows the version number of the quote for revision history tracking.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -2506,7 +2506,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  revisionNumber  attribute are listed below.</summary>
+<summary>List of traits for the revisionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -2532,7 +2532,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#shippingMethodCode name="shippingMethodCode">shippingMethodCode</a>
 
 Select a shipping method for deliveries sent to this address.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -2541,11 +2541,11 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  shippingMethodCode  attribute are listed below.</summary>
+<summary>List of traits for the shippingMethodCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Will Call</td><td>7</td></tr><tr><td>en</td><td>Full Load</td><td>6</td></tr><tr><td>en</td><td>Postal Mail</td><td>5</td></tr><tr><td>en</td><td>UPS</td><td>4</td></tr><tr><td>en</td><td>FedEx</td><td>3</td></tr><tr><td>en</td><td>DHL</td><td>2</td></tr><tr><td>en</td><td>Airborne</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Airborne</td><td>1</td></tr><tr><td>en</td><td>DHL</td><td>2</td></tr><tr><td>en</td><td>FedEx</td><td>3</td></tr><tr><td>en</td><td>UPS</td><td>4</td></tr><tr><td>en</td><td>Postal Mail</td><td>5</td></tr><tr><td>en</td><td>Full Load</td><td>6</td></tr><tr><td>en</td><td>Will Call</td><td>7</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2572,7 +2572,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#shippingMethodCode_display name="shippingMethodCode_display">shippingMethodCode_display</a>
 
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -2581,7 +2581,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  shippingMethodCode_display  attribute are listed below.</summary>
+<summary>List of traits for the shippingMethodCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2596,7 +2596,7 @@ First included in: sales/Quote  (this entity)
 ### <a href=#shipToAddressId name="shipToAddressId">shipToAddressId</a>
 
 Unique identifier of the shipping address.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -2605,7 +2605,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  shipToAddressId  attribute are listed below.</summary>
+<summary>List of traits for the shipToAddressId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2634,7 +2634,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#shipToCity name="shipToCity">shipToCity</a>
 
 Type the city for the customer's shipping address.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -2643,7 +2643,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  shipToCity  attribute are listed below.</summary>
+<summary>List of traits for the shipToCity attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2675,7 +2675,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#shipToComposite name="shipToComposite">shipToComposite</a>
 
 Shows the complete Ship To address.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -2684,7 +2684,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  shipToComposite  attribute are listed below.</summary>
+<summary>List of traits for the shipToComposite attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2715,7 +2715,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#shipToContactName name="shipToContactName">shipToContactName</a>
 
 Type the primary contact name at the customer's shipping address.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -2724,7 +2724,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  shipToContactName  attribute are listed below.</summary>
+<summary>List of traits for the shipToContactName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2756,7 +2756,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#shipToCountry name="shipToCountry">shipToCountry</a>
 
 Type the country or region for the customer's shipping address.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -2765,7 +2765,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  shipToCountry  attribute are listed below.</summary>
+<summary>List of traits for the shipToCountry attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2797,7 +2797,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#shipToFax name="shipToFax">shipToFax</a>
 
 Type the fax number for the customer's shipping address.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -2806,7 +2806,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  shipToFax  attribute are listed below.</summary>
+<summary>List of traits for the shipToFax attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2837,7 +2837,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#shipToFreightTermsCode name="shipToFreightTermsCode">shipToFreightTermsCode</a>
 
 Select the freight terms to make sure shipping orders are processed correctly.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -2846,7 +2846,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  shipToFreightTermsCode  attribute are listed below.</summary>
+<summary>List of traits for the shipToFreightTermsCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -2877,7 +2877,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#shipToFreightTermsCode_display name="shipToFreightTermsCode_display">shipToFreightTermsCode_display</a>
 
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -2886,7 +2886,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  shipToFreightTermsCode_display  attribute are listed below.</summary>
+<summary>List of traits for the shipToFreightTermsCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2901,7 +2901,7 @@ First included in: sales/Quote  (this entity)
 ### <a href=#shipToLine1 name="shipToLine1">shipToLine1</a>
 
 Type the first line of the customer's shipping address.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -2910,7 +2910,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  shipToLine1  attribute are listed below.</summary>
+<summary>List of traits for the shipToLine1 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2942,7 +2942,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#shipToLine2 name="shipToLine2">shipToLine2</a>
 
 Type the second line of the customer's shipping address.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -2951,7 +2951,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  shipToLine2  attribute are listed below.</summary>
+<summary>List of traits for the shipToLine2 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2983,7 +2983,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#shipToLine3 name="shipToLine3">shipToLine3</a>
 
 Type the third line of the shipping address.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -2992,7 +2992,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  shipToLine3  attribute are listed below.</summary>
+<summary>List of traits for the shipToLine3 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3024,7 +3024,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#shipToName name="shipToName">shipToName</a>
 
 Type a name for the customer's shipping address, such as "Headquarters" or "Field office",  to identify the address.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -3033,7 +3033,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  shipToName  attribute are listed below.</summary>
+<summary>List of traits for the shipToName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3065,7 +3065,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#shipToPostalCode name="shipToPostalCode">shipToPostalCode</a>
 
 Type the ZIP Code or postal code for the shipping address.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -3074,7 +3074,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  shipToPostalCode  attribute are listed below.</summary>
+<summary>List of traits for the shipToPostalCode attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3106,7 +3106,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#shipToStateOrProvince name="shipToStateOrProvince">shipToStateOrProvince</a>
 
 Type the state or province for the shipping address.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -3115,7 +3115,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  shipToStateOrProvince  attribute are listed below.</summary>
+<summary>List of traits for the shipToStateOrProvince attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3147,7 +3147,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#shipToTelephone name="shipToTelephone">shipToTelephone</a>
 
 Type the phone number for the customer's shipping address.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -3156,7 +3156,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  shipToTelephone  attribute are listed below.</summary>
+<summary>List of traits for the shipToTelephone attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3188,7 +3188,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Shows whether the quote is draft, active, won, or closed. Only draft quotes can be edited.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -3197,11 +3197,11 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode  attribute are listed below.</summary>
+<summary>List of traits for the stateCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Closed</td><td>3</td></tr><tr><td>en</td><td>Won</td><td>2</td></tr><tr><td>en</td><td>Active</td><td>1</td></tr><tr><td>en</td><td>Draft</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Draft</td><td>0</td></tr><tr><td>en</td><td>Active</td><td>1</td></tr><tr><td>en</td><td>Won</td><td>2</td></tr><tr><td>en</td><td>Closed</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3228,7 +3228,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -3237,7 +3237,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode_display  attribute are listed below.</summary>
+<summary>List of traits for the stateCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3252,20 +3252,20 @@ First included in: sales/Quote  (this entity)
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Select the quote's status.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the quote's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>In Progress</td><td>2</td><td>0</td><td>1</td></tr><tr><td>en</td><td>Open</td><td>3</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Won</td><td>4</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Lost</td><td>5</td><td>3</td><td>3</td></tr><tr><td>en</td><td>Canceled</td><td>6</td><td>4</td><td>3</td></tr><tr><td>en</td><td>Revised</td><td>7</td><td>5</td><td>3</td></tr><tr><td>en</td><td>In Progress</td><td>1</td><td>6</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the quote's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>In Progress</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Open</td><td>3</td><td>1</td></tr><tr><td>en</td><td>Won</td><td>4</td><td>2</td></tr><tr><td>en</td><td>Lost</td><td>5</td><td>3</td></tr><tr><td>en</td><td>Canceled</td><td>6</td><td>3</td></tr><tr><td>en</td><td>Revised</td><td>7</td><td>3</td></tr><tr><td>en</td><td>In Progress</td><td>1</td><td>0</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode  attribute are listed below.</summary>
+<summary>List of traits for the statusCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>In Progress</td><td>2</td><td>0</td><td>1</td></tr><tr><td>en</td><td>Open</td><td>3</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Won</td><td>4</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Lost</td><td>5</td><td>3</td><td>3</td></tr><tr><td>en</td><td>Canceled</td><td>6</td><td>4</td><td>3</td></tr><tr><td>en</td><td>Revised</td><td>7</td><td>5</td><td>3</td></tr><tr><td>en</td><td>In Progress</td><td>1</td><td>6</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>In Progress</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Open</td><td>3</td><td>1</td></tr><tr><td>en</td><td>Won</td><td>4</td><td>2</td></tr><tr><td>en</td><td>Lost</td><td>5</td><td>3</td></tr><tr><td>en</td><td>Canceled</td><td>6</td><td>3</td></tr><tr><td>en</td><td>Revised</td><td>7</td><td>3</td></tr><tr><td>en</td><td>In Progress</td><td>1</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3295,7 +3295,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -3304,7 +3304,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode_display  attribute are listed below.</summary>
+<summary>List of traits for the statusCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3319,7 +3319,7 @@ First included in: sales/Quote  (this entity)
 ### <a href=#totalAmount name="totalAmount">totalAmount</a>
 
 Shows the total amount due, calculated as the sum of the products, discounts, freight, and taxes for the quote.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -3328,7 +3328,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  totalAmount  attribute are listed below.</summary>
+<summary>List of traits for the totalAmount attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3360,7 +3360,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#totalAmountBase name="totalAmountBase">totalAmountBase</a>
 
 Value of the Total Amount in base currency.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -3369,7 +3369,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  totalAmountBase  attribute are listed below.</summary>
+<summary>List of traits for the totalAmountBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3404,7 +3404,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#totalAmountLessFreight name="totalAmountLessFreight">totalAmountLessFreight</a>
 
 Shows the total product amount for the quote, minus any discounts. This value is added to freight and tax amounts in the calculation for the total amount due for the quote.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -3413,7 +3413,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  totalAmountLessFreight  attribute are listed below.</summary>
+<summary>List of traits for the totalAmountLessFreight attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3445,7 +3445,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#totalAmountLessFreightBase name="totalAmountLessFreightBase">totalAmountLessFreightBase</a>
 
 Value of the Total Pre-Freight Amount in base currency.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -3454,7 +3454,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  totalAmountLessFreightBase  attribute are listed below.</summary>
+<summary>List of traits for the totalAmountLessFreightBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3489,7 +3489,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#totalDiscountAmount name="totalDiscountAmount">totalDiscountAmount</a>
 
 Shows the total discount amount, based on the discount price and rate entered on the quote.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -3498,7 +3498,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  totalDiscountAmount  attribute are listed below.</summary>
+<summary>List of traits for the totalDiscountAmount attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3530,7 +3530,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#totalDiscountAmountBase name="totalDiscountAmountBase">totalDiscountAmountBase</a>
 
 Value of the Total Discount Amount in base currency.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -3539,7 +3539,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  totalDiscountAmountBase  attribute are listed below.</summary>
+<summary>List of traits for the totalDiscountAmountBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3574,7 +3574,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#totalLineItemAmount name="totalLineItemAmount">totalLineItemAmount</a>
 
 Shows the sum of all existing and write-in products included on the quote, based on the specified price list and quantities.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -3583,7 +3583,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  totalLineItemAmount  attribute are listed below.</summary>
+<summary>List of traits for the totalLineItemAmount attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3615,7 +3615,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#totalLineItemAmountBase name="totalLineItemAmountBase">totalLineItemAmountBase</a>
 
 Value of the Total Detail Amount in base currency.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -3624,7 +3624,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  totalLineItemAmountBase  attribute are listed below.</summary>
+<summary>List of traits for the totalLineItemAmountBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3659,7 +3659,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#totalLineItemDiscountAmount name="totalLineItemDiscountAmount">totalLineItemDiscountAmount</a>
 
 Shows the total of the Manual Discount amounts specified on all products included in the quote. This value is reflected in the Detail Amount field on the quote and is added to any discount amount or rate specified on the quote  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -3668,7 +3668,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  totalLineItemDiscountAmount  attribute are listed below.</summary>
+<summary>List of traits for the totalLineItemDiscountAmount attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3700,7 +3700,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#totalLineItemDiscountAmountBase name="totalLineItemDiscountAmountBase">totalLineItemDiscountAmountBase</a>
 
 Value of the Total Line Item Discount Amount in base currency.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -3709,7 +3709,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  totalLineItemDiscountAmountBase  attribute are listed below.</summary>
+<summary>List of traits for the totalLineItemDiscountAmountBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3744,7 +3744,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#totalTax name="totalTax">totalTax</a>
 
 Shows the total of the Tax amounts specified on all products included in the quote, included in the Total Amount due calculation for the quote.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -3753,7 +3753,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  totalTax  attribute are listed below.</summary>
+<summary>List of traits for the totalTax attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3785,7 +3785,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#totalTaxBase name="totalTaxBase">totalTaxBase</a>
 
 Value of the Total Tax in base currency.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -3794,7 +3794,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  totalTaxBase  attribute are listed below.</summary>
+<summary>List of traits for the totalTaxBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3829,7 +3829,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#willCall name="willCall">willCall</a>
 
 Select whether the products included in the quote should be shipped to the specified address or held until the customer calls with further pick up or delivery instructions.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -3838,7 +3838,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  willCall  attribute are listed below.</summary>
+<summary>List of traits for the willCall attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -3864,7 +3864,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#onHoldTime name="onHoldTime">onHoldTime</a>
 
 Shows the duration in minutes for which the quote was on hold.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -3873,7 +3873,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  onHoldTime  attribute are listed below.</summary>
+<summary>List of traits for the onHoldTime attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -3902,7 +3902,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#lastOnHoldTime name="lastOnHoldTime">lastOnHoldTime</a>
 
 Contains the date time stamp of the last on hold time.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -3911,7 +3911,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  lastOnHoldTime  attribute are listed below.</summary>
+<summary>List of traits for the lastOnHoldTime attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -3940,7 +3940,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#SLAId name="SLAId">SLAId</a>
 
 Choose the service level agreement (SLA) that you want to apply to the quote record.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -3949,7 +3949,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  SLAId  attribute are listed below.</summary>
+<summary>List of traits for the SLAId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3982,7 +3982,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#SLAInvokedId name="SLAInvokedId">SLAInvokedId</a>
 
 Last SLA that was applied to this quote. This field is for internal use only.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -3991,7 +3991,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  SLAInvokedId  attribute are listed below.</summary>
+<summary>List of traits for the SLAInvokedId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4024,7 +4024,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#accountId name="accountId">accountId</a>
 
 Unique identifier of the account with which the quote is associated.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -4033,7 +4033,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  accountId  attribute are listed below.</summary>
+<summary>List of traits for the accountId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4066,7 +4066,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#contactId name="contactId">contactId</a>
 
 Unique identifier of the contact associated with the quote.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -4075,7 +4075,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  contactId  attribute are listed below.</summary>
+<summary>List of traits for the contactId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4108,7 +4108,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#campaignId name="campaignId">campaignId</a>
 
 Shows the campaign that the order was created from.  
-First included in: sales/Quote  (this entity)  
+First included in: sales/Quote (this entity)  
 
 #### Properties
 
@@ -4117,7 +4117,7 @@ First included in: sales/Quote  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  campaignId  attribute are listed below.</summary>
+<summary>List of traits for the campaignId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  

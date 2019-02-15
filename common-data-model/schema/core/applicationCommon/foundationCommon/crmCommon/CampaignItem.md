@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/13/2019
+ms.date: 2/15/2019
 ms.author: tpalmer
 ---
 
@@ -12,13 +12,13 @@ ms.author: tpalmer
 
 Work item in a campaign, a list or sales literature.  
   
-Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/CampaignItem.cdm.json" target="_blank">GitHub</a>.  
+Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/CampaignItem.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
-Instances of this entity are listed below:  
+Instances of this entity are listed below.  
 
-crmCommon/CampaignItem  
+/core/applicationCommon/foundationCommon/crmCommon/CampaignItem.cdm.json/CampaignItem  
 
 ## Traits
 
@@ -68,7 +68,7 @@ crmCommon/CampaignItem
 ### <a href=#campaignItemId name="campaignItemId">campaignItemId</a>
 
 Unique identifier of the campaign item.  
-First included in: crmCommon/CampaignItem  (this entity)  
+First included in: crmCommon/CampaignItem (this entity)  
 
 #### Properties
 
@@ -77,7 +77,7 @@ First included in: crmCommon/CampaignItem  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  campaignItemId  attribute are listed below.</summary>
+<summary>List of traits for the campaignItemId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -104,7 +104,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: crmCommon/CampaignItem  (this entity)  
+First included in: crmCommon/CampaignItem (this entity)  
 
 #### Properties
 
@@ -113,7 +113,7 @@ First included in: crmCommon/CampaignItem  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -140,7 +140,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: crmCommon/CampaignItem  (this entity)  
+First included in: crmCommon/CampaignItem (this entity)  
 
 #### Properties
 
@@ -149,7 +149,7 @@ First included in: crmCommon/CampaignItem  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -178,7 +178,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: crmCommon/CampaignItem  (this entity)  
+First included in: crmCommon/CampaignItem (this entity)  
 
 #### Properties
 
@@ -187,7 +187,7 @@ First included in: crmCommon/CampaignItem  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -217,7 +217,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: crmCommon/CampaignItem  (this entity)  
+First included in: crmCommon/CampaignItem (this entity)  
 
 #### Properties
 
@@ -226,7 +226,7 @@ First included in: crmCommon/CampaignItem  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  timeZoneRuleVersionNumber  attribute are listed below.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -255,7 +255,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: crmCommon/CampaignItem  (this entity)  
+First included in: crmCommon/CampaignItem (this entity)  
 
 #### Properties
 
@@ -264,7 +264,7 @@ First included in: crmCommon/CampaignItem  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  UTCConversionTimeZoneCode  attribute are listed below.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -293,7 +293,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#name name="name">name</a>
 
 name  
-First included in: crmCommon/CampaignItem  (this entity)  
+First included in: crmCommon/CampaignItem (this entity)  
 
 #### Properties
 
@@ -302,7 +302,7 @@ First included in: crmCommon/CampaignItem  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  name  attribute are listed below.</summary>
+<summary>List of traits for the name attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -334,7 +334,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#campaignId name="campaignId">campaignId</a>
 
 Unique identifier of the campaign that is associated with the individual item.  
-First included in: crmCommon/CampaignItem  (this entity)  
+First included in: crmCommon/CampaignItem (this entity)  
 
 #### Properties
 
@@ -343,7 +343,7 @@ First included in: crmCommon/CampaignItem  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  campaignId  attribute are listed below.</summary>
+<summary>List of traits for the campaignId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -370,7 +370,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#entityId name="entityId">entityId</a>
 
 Unique identifier of the entity for the campaign item.  
-First included in: crmCommon/CampaignItem  (this entity)  
+First included in: crmCommon/CampaignItem (this entity)  
 
 #### Properties
 
@@ -379,7 +379,7 @@ First included in: crmCommon/CampaignItem  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  entityId  attribute are listed below.</summary>
+<summary>List of traits for the entityId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -402,7 +402,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#entityType name="entityType">entityType</a>
 
 Object type of entity for the campaign item.  
-First included in: crmCommon/CampaignItem  (this entity)  
+First included in: crmCommon/CampaignItem (this entity)  
 
 #### Properties
 
@@ -411,7 +411,7 @@ First included in: crmCommon/CampaignItem  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  entityType  attribute are listed below.</summary>
+<summary>List of traits for the entityType attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -434,7 +434,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: crmCommon/CampaignItem  (this entity)  
+First included in: crmCommon/CampaignItem (this entity)  
 
 #### Properties
 
@@ -443,7 +443,7 @@ First included in: crmCommon/CampaignItem  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerIdType  attribute are listed below.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -473,7 +473,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: crmCommon/CampaignItem  (this entity)  
+First included in: crmCommon/CampaignItem (this entity)  
 
 #### Properties
 
@@ -482,7 +482,7 @@ First included in: crmCommon/CampaignItem  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerId  attribute are listed below.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -518,7 +518,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier of the business unit that owns the campaign item.  
-First included in: crmCommon/CampaignItem  (this entity)  
+First included in: crmCommon/CampaignItem (this entity)  
 
 #### Properties
 
@@ -527,7 +527,7 @@ First included in: crmCommon/CampaignItem  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningBusinessUnit  attribute are listed below.</summary>
+<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -553,7 +553,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the campaign item.  
-First included in: crmCommon/CampaignItem  (this entity)  
+First included in: crmCommon/CampaignItem (this entity)  
 
 #### Properties
 
@@ -562,7 +562,7 @@ First included in: crmCommon/CampaignItem  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningUser  attribute are listed below.</summary>
+<summary>List of traits for the owningUser attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  

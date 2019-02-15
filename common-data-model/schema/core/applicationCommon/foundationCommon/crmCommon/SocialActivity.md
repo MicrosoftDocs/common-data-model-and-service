@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/13/2019
+ms.date: 2/15/2019
 ms.author: tpalmer
 ---
 
@@ -12,14 +12,14 @@ ms.author: tpalmer
 
 For internal use only.  
   
-Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/SocialActivity.cdm.json" target="_blank">GitHub</a>.  
+Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/SocialActivity.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
-Instances of this entity are listed below:  
+Instances of this entity are listed below.  
 
 [applicationCommon/SocialActivity](../../SocialActivity.md "/core/applicationCommon/SocialActivity.cdm.json/SocialActivity")  
-crmCommon/SocialActivity  
+/core/applicationCommon/foundationCommon/crmCommon/SocialActivity.cdm.json/SocialActivity  
 
 ## Traits
 
@@ -137,7 +137,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOn  attribute are listed below.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -176,7 +176,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  createdBy  attribute are listed below.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -221,7 +221,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -260,7 +260,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -305,7 +305,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -350,7 +350,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -395,7 +395,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -434,7 +434,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -469,7 +469,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerIdType  attribute are listed below.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -508,7 +508,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerId  attribute are listed below.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -553,7 +553,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  owningBusinessUnit  attribute are listed below.</summary>
+<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -595,7 +595,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  owningUser  attribute are listed below.</summary>
+<summary>List of traits for the owningUser attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -640,7 +640,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  owningTeam  attribute are listed below.</summary>
+<summary>List of traits for the owningTeam attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -682,7 +682,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  timeZoneRuleVersionNumber  attribute are listed below.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -720,7 +720,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  UTCConversionTimeZoneCode  attribute are listed below.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -758,7 +758,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -795,7 +795,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  activityTypeCode  attribute are listed below.</summary>
+<summary>List of traits for the activityTypeCode attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -834,7 +834,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  activityId  attribute are listed below.</summary>
+<summary>List of traits for the activityId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -873,7 +873,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  isBilled  attribute are listed below.</summary>
+<summary>List of traits for the isBilled attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -905,7 +905,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  isRegularActivity  attribute are listed below.</summary>
+<summary>List of traits for the isRegularActivity attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -934,7 +934,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  isWorkflowCreated  attribute are listed below.</summary>
+<summary>List of traits for the isWorkflowCreated attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -961,16 +961,16 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Priority</td></tr><tr><td>description</td><td>Priority of the activity.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>prioritycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>High</td><td>2</td></tr><tr><td>en</td><td>Normal</td><td>1</td></tr><tr><td>en</td><td>Low</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Priority</td></tr><tr><td>description</td><td>Priority of the activity.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>prioritycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Low</td><td>0</td></tr><tr><td>en</td><td>Normal</td><td>1</td></tr><tr><td>en</td><td>High</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  priorityCode  attribute are listed below.</summary>
+<summary>List of traits for the priorityCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>High</td><td>2</td></tr><tr><td>en</td><td>Normal</td><td>1</td></tr><tr><td>en</td><td>Low</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Low</td><td>0</td></tr><tr><td>en</td><td>Normal</td><td>1</td></tr><tr><td>en</td><td>High</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1003,7 +1003,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  priorityCode_display  attribute are listed below.</summary>
+<summary>List of traits for the priorityCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1027,7 +1027,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  regardingObjectTypeCode  attribute are listed below.</summary>
+<summary>List of traits for the regardingObjectTypeCode attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1060,7 +1060,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  regardingObjectId  attribute are listed below.</summary>
+<summary>List of traits for the regardingObjectId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1102,7 +1102,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  scheduledEnd  attribute are listed below.</summary>
+<summary>List of traits for the scheduledEnd attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1137,7 +1137,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  scheduledStart  attribute are listed below.</summary>
+<summary>List of traits for the scheduledStart attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1172,7 +1172,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  sortDate  attribute are listed below.</summary>
+<summary>List of traits for the sortDate attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1210,7 +1210,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  subject  attribute are listed below.</summary>
+<summary>List of traits for the subject attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1247,7 +1247,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  scheduledDurationMinutes  attribute are listed below.</summary>
+<summary>List of traits for the scheduledDurationMinutes attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **means.measurement.duration.minutes**  
@@ -1283,7 +1283,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  actualDurationMinutes  attribute are listed below.</summary>
+<summary>List of traits for the actualDurationMinutes attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **means.measurement.duration.minutes**  
@@ -1319,7 +1319,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  actualEnd  attribute are listed below.</summary>
+<summary>List of traits for the actualEnd attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1355,7 +1355,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  actualStart  attribute are listed below.</summary>
+<summary>List of traits for the actualStart attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1391,7 +1391,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  activityAdditionalParams  attribute are listed below.</summary>
+<summary>List of traits for the activityAdditionalParams attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1429,7 +1429,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  to  attribute are listed below.</summary>
+<summary>List of traits for the to attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1473,7 +1473,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  from  attribute are listed below.</summary>
+<summary>List of traits for the from attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1517,7 +1517,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  resources  attribute are listed below.</summary>
+<summary>List of traits for the resources attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1556,16 +1556,16 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Social Channel</td></tr><tr><td>description</td><td>Shows how contact about the activity originated, such as from Twitter or Facebook. This field is read-only.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>community</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Other</td><td>0</td></tr><tr><td>en</td><td>Twitter</td><td>2</td></tr><tr><td>en</td><td>Facebook</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Social Channel</td></tr><tr><td>description</td><td>Shows how contact about the activity originated, such as from Twitter or Facebook. This field is read-only.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>community</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Facebook</td><td>1</td></tr><tr><td>en</td><td>Twitter</td><td>2</td></tr><tr><td>en</td><td>Other</td><td>0</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  community  attribute are listed below.</summary>
+<summary>List of traits for the community attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Other</td><td>0</td></tr><tr><td>en</td><td>Twitter</td><td>2</td></tr><tr><td>en</td><td>Facebook</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Facebook</td><td>1</td></tr><tr><td>en</td><td>Twitter</td><td>2</td></tr><tr><td>en</td><td>Other</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1598,7 +1598,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  community_display  attribute are listed below.</summary>
+<summary>List of traits for the community_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1622,7 +1622,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  directionCode  attribute are listed below.</summary>
+<summary>List of traits for the directionCode attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1654,7 +1654,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  description  attribute are listed below.</summary>
+<summary>List of traits for the description attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1694,7 +1694,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  traversedPath  attribute are listed below.</summary>
+<summary>List of traits for the traversedPath attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1734,7 +1734,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  processId  attribute are listed below.</summary>
+<summary>List of traits for the processId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1772,7 +1772,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  stageId  attribute are listed below.</summary>
+<summary>List of traits for the stageId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1805,16 +1805,16 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Shows whether the social activity completed. This field is read-only.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Canceled</td><td>2</td></tr><tr><td>en</td><td>Completed</td><td>1</td></tr><tr><td>en</td><td>Open</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Shows whether the social activity completed. This field is read-only.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Open</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode  attribute are listed below.</summary>
+<summary>List of traits for the stateCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Canceled</td><td>2</td></tr><tr><td>en</td><td>Completed</td><td>1</td></tr><tr><td>en</td><td>Open</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Open</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1853,7 +1853,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode_display  attribute are listed below.</summary>
+<summary>List of traits for the stateCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1872,16 +1872,16 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Shows whether the social activity is completed, failed, or processing. This field is read-only.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Completed</td><td>1</td><td>0</td><td>1</td></tr><tr><td>en</td><td>Failed</td><td>2</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Processing</td><td>3</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Open</td><td>4</td><td>3</td><td>0</td></tr><tr><td>en</td><td>Canceled</td><td>5</td><td>4</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Shows whether the social activity is completed, failed, or processing. This field is read-only.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Completed</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Failed</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Processing</td><td>3</td><td>1</td></tr><tr><td>en</td><td>Open</td><td>4</td><td>0</td></tr><tr><td>en</td><td>Canceled</td><td>5</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode  attribute are listed below.</summary>
+<summary>List of traits for the statusCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Completed</td><td>1</td><td>0</td><td>1</td></tr><tr><td>en</td><td>Failed</td><td>2</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Processing</td><td>3</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Open</td><td>4</td><td>3</td><td>0</td></tr><tr><td>en</td><td>Canceled</td><td>5</td><td>4</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Completed</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Failed</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Processing</td><td>3</td><td>1</td></tr><tr><td>en</td><td>Open</td><td>4</td><td>0</td></tr><tr><td>en</td><td>Canceled</td><td>5</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1920,7 +1920,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode_display  attribute are listed below.</summary>
+<summary>List of traits for the statusCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1944,7 +1944,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  transactionCurrencyId  attribute are listed below.</summary>
+<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1986,7 +1986,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  exchangeRate  attribute are listed below.</summary>
+<summary>List of traits for the exchangeRate attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -2026,7 +2026,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  sentimentValue  attribute are listed below.</summary>
+<summary>List of traits for the sentimentValue attribute are listed below.</summary>
 
 - **is.dataFormat.floatingPoint**  
 - **is.dataFormat.big**  
@@ -2065,7 +2065,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  postedOn  attribute are listed below.</summary>
+<summary>List of traits for the postedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -2103,7 +2103,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  postURL  attribute are listed below.</summary>
+<summary>List of traits for the postURL attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2144,7 +2144,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  inResponseTo  attribute are listed below.</summary>
+<summary>List of traits for the inResponseTo attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2179,16 +2179,16 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Received As</td></tr><tr><td>description</td><td>Shows if the social post originated as a private or public message.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>postmessagetype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Private Message</td><td>1</td></tr><tr><td>en</td><td>Public Message</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Received As</td></tr><tr><td>description</td><td>Shows if the social post originated as a private or public message.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>postmessagetype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Public Message</td><td>0</td></tr><tr><td>en</td><td>Private Message</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  postMessageType  attribute are listed below.</summary>
+<summary>List of traits for the postMessageType attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Private Message</td><td>1</td></tr><tr><td>en</td><td>Public Message</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Public Message</td><td>0</td></tr><tr><td>en</td><td>Private Message</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2224,7 +2224,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  postMessageType_display  attribute are listed below.</summary>
+<summary>List of traits for the postMessageType_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2248,7 +2248,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  postId  attribute are listed below.</summary>
+<summary>List of traits for the postId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2288,7 +2288,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  threadId  attribute are listed below.</summary>
+<summary>List of traits for the threadId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2328,7 +2328,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  SLAInvokedId  attribute are listed below.</summary>
+<summary>List of traits for the SLAInvokedId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2370,7 +2370,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  postFromProfileId  attribute are listed below.</summary>
+<summary>List of traits for the postFromProfileId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2412,7 +2412,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  postToProfileId  attribute are listed below.</summary>
+<summary>List of traits for the postToProfileId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2452,7 +2452,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  postAuthorAccountType  attribute are listed below.</summary>
+<summary>List of traits for the postAuthorAccountType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2488,7 +2488,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  postAuthorAccount  attribute are listed below.</summary>
+<summary>List of traits for the postAuthorAccount attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2536,7 +2536,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  postAuthorType  attribute are listed below.</summary>
+<summary>List of traits for the postAuthorType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2572,7 +2572,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  postAuthor  attribute are listed below.</summary>
+<summary>List of traits for the postAuthor attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2620,7 +2620,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  socialAdditionalParams  attribute are listed below.</summary>
+<summary>List of traits for the socialAdditionalParams attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2660,7 +2660,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  SLAId  attribute are listed below.</summary>
+<summary>List of traits for the SLAId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2702,7 +2702,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  onHoldTime  attribute are listed below.</summary>
+<summary>List of traits for the onHoldTime attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -2740,7 +2740,7 @@ First included in: <a href="../../SocialActivity.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  lastOnHoldTime  attribute are listed below.</summary>
+<summary>List of traits for the lastOnHoldTime attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -2769,7 +2769,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#serviceId name="serviceId">serviceId</a>
 
 Unique identifier for the associated service.  
-First included in: crmCommon/SocialActivity  (this entity)  
+First included in: crmCommon/SocialActivity (this entity)  
 
 #### Properties
 
@@ -2778,7 +2778,7 @@ First included in: crmCommon/SocialActivity  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  serviceId  attribute are listed below.</summary>
+<summary>List of traits for the serviceId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  

@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/13/2019
+ms.date: 2/15/2019
 ms.author: tpalmer
 ---
 
@@ -12,13 +12,13 @@ ms.author: tpalmer
 
 Provides categorization of main accounts  
   
-Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/financialCommon/MainAccountCategory.cdm.json" target="_blank">GitHub</a>.  
+Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/financialCommon/MainAccountCategory.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
-Instances of this entity are listed below:  
+Instances of this entity are listed below.  
 
-financialCommon/MainAccountCategory  
+/core/applicationCommon/foundationCommon/financialCommon/MainAccountCategory.cdm.json/MainAccountCategory  
 
 ## Traits
 
@@ -57,7 +57,7 @@ financialCommon/MainAccountCategory
 ### <a href=#mainAccountCategoryId name="mainAccountCategoryId">mainAccountCategoryId</a>
 
 The surrogate key of the main account category record  
-First included in: financialCommon/MainAccountCategory  (this entity)  
+First included in: financialCommon/MainAccountCategory (this entity)  
 
 #### Properties
 
@@ -66,7 +66,7 @@ First included in: financialCommon/MainAccountCategory  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  mainAccountCategoryId  attribute are listed below.</summary>
+<summary>List of traits for the mainAccountCategoryId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -85,7 +85,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 ### <a href=#name name="name">name</a>
 
 The display name of the main account category  
-First included in: financialCommon/MainAccountCategory  (this entity)  
+First included in: financialCommon/MainAccountCategory (this entity)  
 
 #### Properties
 
@@ -94,7 +94,7 @@ First included in: financialCommon/MainAccountCategory  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  name  attribute are listed below.</summary>
+<summary>List of traits for the name attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -110,7 +110,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 ### <a href=#description name="description">description</a>
 
 The description of the main account category  
-First included in: financialCommon/MainAccountCategory  (this entity)  
+First included in: financialCommon/MainAccountCategory (this entity)  
 
 #### Properties
 
@@ -119,7 +119,7 @@ First included in: financialCommon/MainAccountCategory  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  description  attribute are listed below.</summary>
+<summary>List of traits for the description attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -136,7 +136,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 ### <a href=#isClosed name="isClosed">isClosed</a>
 
 Determines whether accounts of this category are closed for new transactions  
-First included in: financialCommon/MainAccountCategory  (this entity)  
+First included in: financialCommon/MainAccountCategory (this entity)  
 
 #### Properties
 
@@ -145,7 +145,7 @@ First included in: financialCommon/MainAccountCategory  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  isClosed  attribute are listed below.</summary>
+<summary>List of traits for the isClosed attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.localized.displayedAs**  
@@ -159,7 +159,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 ### <a href=#accountType name="accountType">accountType</a>
 
 The common account type for accounts in this category, such as revenue or liability  
-First included in: financialCommon/MainAccountCategory  (this entity)  
+First included in: financialCommon/MainAccountCategory (this entity)  
 
 #### Properties
 
@@ -168,11 +168,11 @@ First included in: financialCommon/MainAccountCategory  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  accountType  attribute are listed below.</summary>
+<summary>List of traits for the accountType attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Equity</td><td>6</td></tr><tr><td>en</td><td>Liability</td><td>5</td></tr><tr><td>en</td><td>Asset</td><td>4</td></tr><tr><td>en</td><td>BalanceSheet</td><td>3</td></tr><tr><td>en</td><td>Expense</td><td>2</td></tr><tr><td>en</td><td>Revenue</td><td>1</td></tr><tr><td>en</td><td>ProfitAndLoss</td><td>0</td></tr><tr><td>en</td><td>Blank</td><td>50</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Blank</td><td>50</td></tr><tr><td>en</td><td>ProfitAndLoss</td><td>0</td></tr><tr><td>en</td><td>Revenue</td><td>1</td></tr><tr><td>en</td><td>Expense</td><td>2</td></tr><tr><td>en</td><td>BalanceSheet</td><td>3</td></tr><tr><td>en</td><td>Asset</td><td>4</td></tr><tr><td>en</td><td>Liability</td><td>5</td></tr><tr><td>en</td><td>Equity</td><td>6</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -187,7 +187,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 
 ### <a href=#accountType_display name="accountType_display">accountType_display</a>
 
-First included in: financialCommon/MainAccountCategory  (this entity)  
+First included in: financialCommon/MainAccountCategory (this entity)  
 
 #### Properties
 
@@ -196,7 +196,7 @@ First included in: financialCommon/MainAccountCategory  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  accountType_display  attribute are listed below.</summary>
+<summary>List of traits for the accountType_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  

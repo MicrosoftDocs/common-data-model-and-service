@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/13/2019
+ms.date: 2/15/2019
 ms.author: tpalmer
 ---
 
@@ -12,14 +12,14 @@ ms.author: tpalmer
 
 Person or group associated with an activity. An activity can have multiple activity parties.  
   
-Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/ActivityParty.cdm.json" target="_blank">GitHub</a>.  
+Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/ActivityParty.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
-Instances of this entity are listed below:  
+Instances of this entity are listed below.  
 
 [applicationCommon/ActivityParty](../../../ActivityParty.md "/core/applicationCommon/ActivityParty.cdm.json/ActivityParty")  
-service/ActivityParty  
+/core/applicationCommon/foundationCommon/crmCommon/service/ActivityParty.cdm.json/ActivityParty  
 
 ## Traits
 
@@ -87,7 +87,7 @@ First included in: <a href="../../../ActivityParty.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  activityId  attribute are listed below.</summary>
+<summary>List of traits for the activityId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -126,7 +126,7 @@ First included in: <a href="../../../ActivityParty.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  activityPartyId  attribute are listed below.</summary>
+<summary>List of traits for the activityPartyId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -165,7 +165,7 @@ First included in: <a href="../../../ActivityParty.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  partyObjectTypeCode  attribute are listed below.</summary>
+<summary>List of traits for the partyObjectTypeCode attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -198,7 +198,7 @@ First included in: <a href="../../../ActivityParty.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  partyId  attribute are listed below.</summary>
+<summary>List of traits for the partyId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -238,16 +238,16 @@ First included in: <a href="../../../ActivityParty.md" target="_blank">applicati
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Participation Type</td></tr><tr><td>description</td><td>Role of the person in the activity, such as sender, to, cc, bcc, required, optional, organizer, regarding, or owner.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>participationtypemask</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Customer</td><td>11</td></tr><tr><td>en</td><td>Sender</td><td>1</td></tr><tr><td>en</td><td>Owner</td><td>9</td></tr><tr><td>en</td><td>Regarding</td><td>8</td></tr><tr><td>en</td><td>Organizer</td><td>7</td></tr><tr><td>en</td><td>Resource</td><td>10</td></tr><tr><td>en</td><td>Required attendee</td><td>5</td></tr><tr><td>en</td><td>BCC Recipient</td><td>4</td></tr><tr><td>en</td><td>CC Recipient</td><td>3</td></tr><tr><td>en</td><td>To Recipient</td><td>2</td></tr><tr><td>en</td><td>Optional attendee</td><td>6</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Participation Type</td></tr><tr><td>description</td><td>Role of the person in the activity, such as sender, to, cc, bcc, required, optional, organizer, regarding, or owner.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>participationtypemask</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Sender</td><td>1</td></tr><tr><td>en</td><td>To Recipient</td><td>2</td></tr><tr><td>en</td><td>CC Recipient</td><td>3</td></tr><tr><td>en</td><td>BCC Recipient</td><td>4</td></tr><tr><td>en</td><td>Required attendee</td><td>5</td></tr><tr><td>en</td><td>Optional attendee</td><td>6</td></tr><tr><td>en</td><td>Organizer</td><td>7</td></tr><tr><td>en</td><td>Regarding</td><td>8</td></tr><tr><td>en</td><td>Owner</td><td>9</td></tr><tr><td>en</td><td>Resource</td><td>10</td></tr><tr><td>en</td><td>Customer</td><td>11</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  participationTypeMask  attribute are listed below.</summary>
+<summary>List of traits for the participationTypeMask attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Customer</td><td>11</td></tr><tr><td>en</td><td>Resource</td><td>10</td></tr><tr><td>en</td><td>Owner</td><td>9</td></tr><tr><td>en</td><td>Regarding</td><td>8</td></tr><tr><td>en</td><td>Organizer</td><td>7</td></tr><tr><td>en</td><td>Optional attendee</td><td>6</td></tr><tr><td>en</td><td>Required attendee</td><td>5</td></tr><tr><td>en</td><td>BCC Recipient</td><td>4</td></tr><tr><td>en</td><td>CC Recipient</td><td>3</td></tr><tr><td>en</td><td>To Recipient</td><td>2</td></tr><tr><td>en</td><td>Sender</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Sender</td><td>1</td></tr><tr><td>en</td><td>To Recipient</td><td>2</td></tr><tr><td>en</td><td>CC Recipient</td><td>3</td></tr><tr><td>en</td><td>BCC Recipient</td><td>4</td></tr><tr><td>en</td><td>Required attendee</td><td>5</td></tr><tr><td>en</td><td>Optional attendee</td><td>6</td></tr><tr><td>en</td><td>Organizer</td><td>7</td></tr><tr><td>en</td><td>Regarding</td><td>8</td></tr><tr><td>en</td><td>Owner</td><td>9</td></tr><tr><td>en</td><td>Resource</td><td>10</td></tr><tr><td>en</td><td>Customer</td><td>11</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -280,7 +280,7 @@ First included in: <a href="../../../ActivityParty.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  participationTypeMask_display  attribute are listed below.</summary>
+<summary>List of traits for the participationTypeMask_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -304,7 +304,7 @@ First included in: <a href="../../../ActivityParty.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  addressUsed  attribute are listed below.</summary>
+<summary>List of traits for the addressUsed attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -344,7 +344,7 @@ First included in: <a href="../../../ActivityParty.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  doNotFax  attribute are listed below.</summary>
+<summary>List of traits for the doNotFax attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -379,7 +379,7 @@ First included in: <a href="../../../ActivityParty.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  scheduledStart  attribute are listed below.</summary>
+<summary>List of traits for the scheduledStart attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -417,7 +417,7 @@ First included in: <a href="../../../ActivityParty.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  scheduledEnd  attribute are listed below.</summary>
+<summary>List of traits for the scheduledEnd attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -455,7 +455,7 @@ First included in: <a href="../../../ActivityParty.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  effort  attribute are listed below.</summary>
+<summary>List of traits for the effort attribute are listed below.</summary>
 
 - **is.dataFormat.floatingPoint**  
 - **is.dataFormat.big**  
@@ -494,7 +494,7 @@ First included in: <a href="../../../ActivityParty.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  doNotEMail  attribute are listed below.</summary>
+<summary>List of traits for the doNotEMail attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -529,7 +529,7 @@ First included in: <a href="../../../ActivityParty.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  exchangeEntryId  attribute are listed below.</summary>
+<summary>List of traits for the exchangeEntryId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -568,7 +568,7 @@ First included in: <a href="../../../ActivityParty.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -598,7 +598,7 @@ First included in: <a href="../../../ActivityParty.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  doNotPostalMail  attribute are listed below.</summary>
+<summary>List of traits for the doNotPostalMail attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -633,7 +633,7 @@ First included in: <a href="../../../ActivityParty.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  doNotPhone  attribute are listed below.</summary>
+<summary>List of traits for the doNotPhone attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -668,7 +668,7 @@ First included in: <a href="../../../ActivityParty.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerIdType  attribute are listed below.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -707,7 +707,7 @@ First included in: <a href="../../../ActivityParty.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerId  attribute are listed below.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -747,16 +747,16 @@ First included in: <a href="../../../ActivityParty.md" target="_blank">applicati
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Appointment Type</td></tr><tr><td>description</td><td>Type of instance of a recurring series.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>instancetypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Recurring Future Exception</td><td>4</td></tr><tr><td>en</td><td>Recurring Exception</td><td>3</td></tr><tr><td>en</td><td>Recurring Instance</td><td>2</td></tr><tr><td>en</td><td>Recurring Master</td><td>1</td></tr><tr><td>en</td><td>Not Recurring</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Appointment Type</td></tr><tr><td>description</td><td>Type of instance of a recurring series.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>instancetypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not Recurring</td><td>0</td></tr><tr><td>en</td><td>Recurring Master</td><td>1</td></tr><tr><td>en</td><td>Recurring Instance</td><td>2</td></tr><tr><td>en</td><td>Recurring Exception</td><td>3</td></tr><tr><td>en</td><td>Recurring Future Exception</td><td>4</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  instanceTypeCode  attribute are listed below.</summary>
+<summary>List of traits for the instanceTypeCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Recurring Future Exception</td><td>4</td></tr><tr><td>en</td><td>Recurring Exception</td><td>3</td></tr><tr><td>en</td><td>Recurring Instance</td><td>2</td></tr><tr><td>en</td><td>Recurring Master</td><td>1</td></tr><tr><td>en</td><td>Not Recurring</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not Recurring</td><td>0</td></tr><tr><td>en</td><td>Recurring Master</td><td>1</td></tr><tr><td>en</td><td>Recurring Instance</td><td>2</td></tr><tr><td>en</td><td>Recurring Exception</td><td>3</td></tr><tr><td>en</td><td>Recurring Future Exception</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -789,7 +789,7 @@ First included in: <a href="../../../ActivityParty.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  instanceTypeCode_display  attribute are listed below.</summary>
+<summary>List of traits for the instanceTypeCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -813,7 +813,7 @@ First included in: <a href="../../../ActivityParty.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  isPartyDeleted  attribute are listed below.</summary>
+<summary>List of traits for the isPartyDeleted attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -845,7 +845,7 @@ First included in: <a href="../../../ActivityParty.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  addressUsedEmailColumnNumber  attribute are listed below.</summary>
+<summary>List of traits for the addressUsedEmailColumnNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -874,7 +874,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#resourceSpecId name="resourceSpecId">resourceSpecId</a>
 
 Unique identifier of the resource specification for the activity party.  
-First included in: service/ActivityParty  (this entity)  
+First included in: service/ActivityParty (this entity)  
 
 #### Properties
 
@@ -883,7 +883,7 @@ First included in: service/ActivityParty  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  resourceSpecId  attribute are listed below.</summary>
+<summary>List of traits for the resourceSpecId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  

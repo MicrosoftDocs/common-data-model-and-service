@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/13/2019
+ms.date: 2/15/2019
 ms.author: tpalmer
 ---
 
@@ -12,15 +12,15 @@ ms.author: tpalmer
 
 Potential revenue-generating event, or sale to an account, which needs to be tracked through a sales process to completion.  
   
-Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Opportunity.cdm.json" target="_blank">GitHub</a>.  
+Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Opportunity.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
-Instances of this entity are listed below:  
+Instances of this entity are listed below.  
 
 [nonProfit/Opportunity](../../accelerators/nonProfit/Opportunity.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Opportunity.cdm.json/Opportunity")  
 [sales/Opportunity](../../sales/Opportunity.md "/core/applicationCommon/foundationCommon/crmCommon/sales/Opportunity.cdm.json/Opportunity")  
-portals/Opportunity  
+/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Opportunity.cdm.json/Opportunity  
 
 ## Traits
 
@@ -191,7 +191,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOn  attribute are listed below.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -230,7 +230,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  createdBy  attribute are listed below.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -275,7 +275,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -314,7 +314,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -359,7 +359,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -404,7 +404,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -449,7 +449,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -488,7 +488,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -523,7 +523,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerIdType  attribute are listed below.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -562,7 +562,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerId  attribute are listed below.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -607,7 +607,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  owningBusinessUnit  attribute are listed below.</summary>
+<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -649,7 +649,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  owningUser  attribute are listed below.</summary>
+<summary>List of traits for the owningUser attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -694,7 +694,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  owningTeam  attribute are listed below.</summary>
+<summary>List of traits for the owningTeam attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -736,7 +736,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  timeZoneRuleVersionNumber  attribute are listed below.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -774,7 +774,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  UTCConversionTimeZoneCode  attribute are listed below.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -812,7 +812,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -849,7 +849,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  opportunityId  attribute are listed below.</summary>
+<summary>List of traits for the opportunityId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -888,7 +888,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  emailAddress  attribute are listed below.</summary>
+<summary>List of traits for the emailAddress attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -929,7 +929,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  name  attribute are listed below.</summary>
+<summary>List of traits for the name attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -970,7 +970,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  processId  attribute are listed below.</summary>
+<summary>List of traits for the processId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1008,7 +1008,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  stageId  attribute are listed below.</summary>
+<summary>List of traits for the stageId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1046,7 +1046,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  traversedPath  attribute are listed below.</summary>
+<summary>List of traits for the traversedPath attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1086,7 +1086,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  actualCloseDate  attribute are listed below.</summary>
+<summary>List of traits for the actualCloseDate attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1124,7 +1124,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  actualValue  attribute are listed below.</summary>
+<summary>List of traits for the actualValue attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1165,7 +1165,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  transactionCurrencyId  attribute are listed below.</summary>
+<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1207,7 +1207,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  exchangeRate  attribute are listed below.</summary>
+<summary>List of traits for the exchangeRate attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1247,7 +1247,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  actualValueBase  attribute are listed below.</summary>
+<summary>List of traits for the actualValueBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1291,7 +1291,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  budgetAmount  attribute are listed below.</summary>
+<summary>List of traits for the budgetAmount attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1332,7 +1332,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  budgetAmountBase  attribute are listed below.</summary>
+<summary>List of traits for the budgetAmountBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1376,7 +1376,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  budgetStatus  attribute are listed below.</summary>
+<summary>List of traits for the budgetStatus attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -1416,7 +1416,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  budgetStatus_display  attribute are listed below.</summary>
+<summary>List of traits for the budgetStatus_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1440,7 +1440,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  closeProbability  attribute are listed below.</summary>
+<summary>List of traits for the closeProbability attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1478,7 +1478,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  completeInternalReview  attribute are listed below.</summary>
+<summary>List of traits for the completeInternalReview attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1513,7 +1513,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  confirmInterest  attribute are listed below.</summary>
+<summary>List of traits for the confirmInterest attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1548,7 +1548,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  currentSituation  attribute are listed below.</summary>
+<summary>List of traits for the currentSituation attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1588,7 +1588,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  customerIdType  attribute are listed below.</summary>
+<summary>List of traits for the customerIdType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1624,7 +1624,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  customerId  attribute are listed below.</summary>
+<summary>List of traits for the customerId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1669,7 +1669,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  customerNeed  attribute are listed below.</summary>
+<summary>List of traits for the customerNeed attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1709,7 +1709,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  customerPainPoints  attribute are listed below.</summary>
+<summary>List of traits for the customerPainPoints attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1749,7 +1749,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  decisionMaker  attribute are listed below.</summary>
+<summary>List of traits for the decisionMaker attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1784,7 +1784,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  description  attribute are listed below.</summary>
+<summary>List of traits for the description attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1824,7 +1824,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  developProposal  attribute are listed below.</summary>
+<summary>List of traits for the developProposal attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1859,7 +1859,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  discountAmount  attribute are listed below.</summary>
+<summary>List of traits for the discountAmount attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1900,7 +1900,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  discountAmountBase  attribute are listed below.</summary>
+<summary>List of traits for the discountAmountBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1944,7 +1944,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  discountPercentage  attribute are listed below.</summary>
+<summary>List of traits for the discountPercentage attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1984,7 +1984,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  estimatedCloseDate  attribute are listed below.</summary>
+<summary>List of traits for the estimatedCloseDate attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -2022,7 +2022,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  estimatedValue  attribute are listed below.</summary>
+<summary>List of traits for the estimatedValue attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -2063,7 +2063,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  estimatedValueBase  attribute are listed below.</summary>
+<summary>List of traits for the estimatedValueBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -2107,7 +2107,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  evaluateFit  attribute are listed below.</summary>
+<summary>List of traits for the evaluateFit attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -2142,7 +2142,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  resolveFeedback  attribute are listed below.</summary>
+<summary>List of traits for the resolveFeedback attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -2177,7 +2177,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  fileDebrief  attribute are listed below.</summary>
+<summary>List of traits for the fileDebrief attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -2212,7 +2212,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  completeFinalProposal  attribute are listed below.</summary>
+<summary>List of traits for the completeFinalProposal attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -2247,7 +2247,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  finalDecisionDate  attribute are listed below.</summary>
+<summary>List of traits for the finalDecisionDate attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -2285,7 +2285,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  freightAmount  attribute are listed below.</summary>
+<summary>List of traits for the freightAmount attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -2326,7 +2326,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  freightAmountBase  attribute are listed below.</summary>
+<summary>List of traits for the freightAmountBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -2370,7 +2370,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  initialCommunication  attribute are listed below.</summary>
+<summary>List of traits for the initialCommunication attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -2410,7 +2410,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  initialCommunication_display  attribute are listed below.</summary>
+<summary>List of traits for the initialCommunication_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2434,7 +2434,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  isRevenueSystemCalculated  attribute are listed below.</summary>
+<summary>List of traits for the isRevenueSystemCalculated attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -2469,7 +2469,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  need  attribute are listed below.</summary>
+<summary>List of traits for the need attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -2509,7 +2509,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  need_display  attribute are listed below.</summary>
+<summary>List of traits for the need_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2528,16 +2528,16 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Rating</td></tr><tr><td>description</td><td>Select the expected value or priority of the opportunity based on revenue, customer status, or closing probability.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>opportunityratingcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Cold</td><td>3</td></tr><tr><td>en</td><td>Warm</td><td>2</td></tr><tr><td>en</td><td>Hot</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Rating</td></tr><tr><td>description</td><td>Select the expected value or priority of the opportunity based on revenue, customer status, or closing probability.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>opportunityratingcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Hot</td><td>1</td></tr><tr><td>en</td><td>Warm</td><td>2</td></tr><tr><td>en</td><td>Cold</td><td>3</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  opportunityRatingCode  attribute are listed below.</summary>
+<summary>List of traits for the opportunityRatingCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Cold</td><td>3</td></tr><tr><td>en</td><td>Warm</td><td>2</td></tr><tr><td>en</td><td>Hot</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Hot</td><td>1</td></tr><tr><td>en</td><td>Warm</td><td>2</td></tr><tr><td>en</td><td>Cold</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2573,7 +2573,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  opportunityRatingCode_display  attribute are listed below.</summary>
+<summary>List of traits for the opportunityRatingCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2597,7 +2597,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  parentAccountId  attribute are listed below.</summary>
+<summary>List of traits for the parentAccountId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2639,7 +2639,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  parentContactId  attribute are listed below.</summary>
+<summary>List of traits for the parentContactId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2681,7 +2681,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  participatesInWorkflow  attribute are listed below.</summary>
+<summary>List of traits for the participatesInWorkflow attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -2716,7 +2716,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  priceLevelId  attribute are listed below.</summary>
+<summary>List of traits for the priceLevelId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2753,16 +2753,16 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Pricing Error </td></tr><tr><td>description</td><td>Pricing error for the opportunity.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>pricingerrorcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Base Currency Attribute Underflow</td><td>37</td></tr><tr><td>en</td><td>None</td><td>0</td></tr><tr><td>en</td><td>Price Attribute Out Of Range</td><td>35</td></tr><tr><td>en</td><td>Invalid Price Level Currency</td><td>34</td></tr><tr><td>en</td><td>Inactive Discount Type</td><td>33</td></tr><tr><td>en</td><td>Missing Product UOM Schedule </td><td>32</td></tr><tr><td>en</td><td>Missing Product Default UOM</td><td>31</td></tr><tr><td>en</td><td>Invalid Pricing Precision</td><td>30</td></tr><tr><td>en</td><td>Invalid Quantity</td><td>29</td></tr><tr><td>en</td><td>Invalid Discount</td><td>28</td></tr><tr><td>en</td><td>Discount Type Invalid State</td><td>27</td></tr><tr><td>en</td><td>Invalid Discount Type</td><td>26</td></tr><tr><td>en</td><td>Price Calculation Error</td><td>25</td></tr><tr><td>en</td><td>Invalid Rounding Amount</td><td>24</td></tr><tr><td>en</td><td>Invalid Rounding Option</td><td>23</td></tr><tr><td>en</td><td>Invalid Rounding Policy</td><td>22</td></tr><tr><td>en</td><td>Invalid Standard Cost</td><td>21</td></tr><tr><td>en</td><td>Invalid Current Cost</td><td>20</td></tr><tr><td>en</td><td>Invalid Price</td><td>19</td></tr><tr><td>en</td><td>Base Currency Attribute Overflow</td><td>36</td></tr><tr><td>en</td><td>Invalid Price Level Amount</td><td>17</td></tr><tr><td>en</td><td>Missing Standard Cost</td><td>16</td></tr><tr><td>en</td><td>Missing Current Cost</td><td>15</td></tr><tr><td>en</td><td>Missing Price</td><td>14</td></tr><tr><td>en</td><td>Missing Price Level Percentage</td><td>13</td></tr><tr><td>en</td><td>Missing Price Level Amount</td><td>12</td></tr><tr><td>en</td><td>Product Not In Price Level</td><td>11</td></tr><tr><td>en</td><td>Missing UOM</td><td>10</td></tr><tr><td>en</td><td>Invalid Pricing Code</td><td>9</td></tr><tr><td>en</td><td>Missing Pricing Code</td><td>8</td></tr><tr><td>en</td><td>Invalid Product</td><td>7</td></tr><tr><td>en</td><td>Missing Product</td><td>6</td></tr><tr><td>en</td><td>Missing Unit Price</td><td>5</td></tr><tr><td>en</td><td>Missing Quantity</td><td>4</td></tr><tr><td>en</td><td>Inactive Price Level</td><td>3</td></tr><tr><td>en</td><td>Missing Price Level</td><td>2</td></tr><tr><td>en</td><td>Detail Error</td><td>1</td></tr><tr><td>en</td><td>Invalid Price Level Percentage</td><td>18</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Pricing Error </td></tr><tr><td>description</td><td>Pricing error for the opportunity.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>pricingerrorcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>None</td><td>0</td></tr><tr><td>en</td><td>Detail Error</td><td>1</td></tr><tr><td>en</td><td>Missing Price Level</td><td>2</td></tr><tr><td>en</td><td>Inactive Price Level</td><td>3</td></tr><tr><td>en</td><td>Missing Quantity</td><td>4</td></tr><tr><td>en</td><td>Missing Unit Price</td><td>5</td></tr><tr><td>en</td><td>Missing Product</td><td>6</td></tr><tr><td>en</td><td>Invalid Product</td><td>7</td></tr><tr><td>en</td><td>Missing Pricing Code</td><td>8</td></tr><tr><td>en</td><td>Invalid Pricing Code</td><td>9</td></tr><tr><td>en</td><td>Missing UOM</td><td>10</td></tr><tr><td>en</td><td>Product Not In Price Level</td><td>11</td></tr><tr><td>en</td><td>Missing Price Level Amount</td><td>12</td></tr><tr><td>en</td><td>Missing Price Level Percentage</td><td>13</td></tr><tr><td>en</td><td>Missing Price</td><td>14</td></tr><tr><td>en</td><td>Missing Current Cost</td><td>15</td></tr><tr><td>en</td><td>Missing Standard Cost</td><td>16</td></tr><tr><td>en</td><td>Invalid Price Level Amount</td><td>17</td></tr><tr><td>en</td><td>Invalid Price Level Percentage</td><td>18</td></tr><tr><td>en</td><td>Invalid Price</td><td>19</td></tr><tr><td>en</td><td>Invalid Current Cost</td><td>20</td></tr><tr><td>en</td><td>Invalid Standard Cost</td><td>21</td></tr><tr><td>en</td><td>Invalid Rounding Policy</td><td>22</td></tr><tr><td>en</td><td>Invalid Rounding Option</td><td>23</td></tr><tr><td>en</td><td>Invalid Rounding Amount</td><td>24</td></tr><tr><td>en</td><td>Price Calculation Error</td><td>25</td></tr><tr><td>en</td><td>Invalid Discount Type</td><td>26</td></tr><tr><td>en</td><td>Discount Type Invalid State</td><td>27</td></tr><tr><td>en</td><td>Invalid Discount</td><td>28</td></tr><tr><td>en</td><td>Invalid Quantity</td><td>29</td></tr><tr><td>en</td><td>Invalid Pricing Precision</td><td>30</td></tr><tr><td>en</td><td>Missing Product Default UOM</td><td>31</td></tr><tr><td>en</td><td>Missing Product UOM Schedule </td><td>32</td></tr><tr><td>en</td><td>Inactive Discount Type</td><td>33</td></tr><tr><td>en</td><td>Invalid Price Level Currency</td><td>34</td></tr><tr><td>en</td><td>Price Attribute Out Of Range</td><td>35</td></tr><tr><td>en</td><td>Base Currency Attribute Overflow</td><td>36</td></tr><tr><td>en</td><td>Base Currency Attribute Underflow</td><td>37</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  pricingErrorCode  attribute are listed below.</summary>
+<summary>List of traits for the pricingErrorCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Base Currency Attribute Underflow</td><td>37</td></tr><tr><td>en</td><td>Base Currency Attribute Overflow</td><td>36</td></tr><tr><td>en</td><td>Price Attribute Out Of Range</td><td>35</td></tr><tr><td>en</td><td>Invalid Price Level Currency</td><td>34</td></tr><tr><td>en</td><td>Inactive Discount Type</td><td>33</td></tr><tr><td>en</td><td>Missing Product UOM Schedule </td><td>32</td></tr><tr><td>en</td><td>Missing Product Default UOM</td><td>31</td></tr><tr><td>en</td><td>Invalid Pricing Precision</td><td>30</td></tr><tr><td>en</td><td>Invalid Quantity</td><td>29</td></tr><tr><td>en</td><td>Invalid Discount</td><td>28</td></tr><tr><td>en</td><td>Discount Type Invalid State</td><td>27</td></tr><tr><td>en</td><td>Invalid Discount Type</td><td>26</td></tr><tr><td>en</td><td>Price Calculation Error</td><td>25</td></tr><tr><td>en</td><td>Invalid Rounding Amount</td><td>24</td></tr><tr><td>en</td><td>Invalid Rounding Option</td><td>23</td></tr><tr><td>en</td><td>Invalid Rounding Policy</td><td>22</td></tr><tr><td>en</td><td>Invalid Standard Cost</td><td>21</td></tr><tr><td>en</td><td>Invalid Current Cost</td><td>20</td></tr><tr><td>en</td><td>Invalid Price</td><td>19</td></tr><tr><td>en</td><td>Invalid Price Level Percentage</td><td>18</td></tr><tr><td>en</td><td>Invalid Price Level Amount</td><td>17</td></tr><tr><td>en</td><td>Missing Standard Cost</td><td>16</td></tr><tr><td>en</td><td>Missing Current Cost</td><td>15</td></tr><tr><td>en</td><td>Missing Price</td><td>14</td></tr><tr><td>en</td><td>Missing Price Level Percentage</td><td>13</td></tr><tr><td>en</td><td>Missing Price Level Amount</td><td>12</td></tr><tr><td>en</td><td>Product Not In Price Level</td><td>11</td></tr><tr><td>en</td><td>Missing UOM</td><td>10</td></tr><tr><td>en</td><td>Invalid Pricing Code</td><td>9</td></tr><tr><td>en</td><td>Missing Pricing Code</td><td>8</td></tr><tr><td>en</td><td>Invalid Product</td><td>7</td></tr><tr><td>en</td><td>Missing Product</td><td>6</td></tr><tr><td>en</td><td>Missing Unit Price</td><td>5</td></tr><tr><td>en</td><td>Missing Quantity</td><td>4</td></tr><tr><td>en</td><td>Inactive Price Level</td><td>3</td></tr><tr><td>en</td><td>Missing Price Level</td><td>2</td></tr><tr><td>en</td><td>Detail Error</td><td>1</td></tr><tr><td>en</td><td>None</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>None</td><td>0</td></tr><tr><td>en</td><td>Detail Error</td><td>1</td></tr><tr><td>en</td><td>Missing Price Level</td><td>2</td></tr><tr><td>en</td><td>Inactive Price Level</td><td>3</td></tr><tr><td>en</td><td>Missing Quantity</td><td>4</td></tr><tr><td>en</td><td>Missing Unit Price</td><td>5</td></tr><tr><td>en</td><td>Missing Product</td><td>6</td></tr><tr><td>en</td><td>Invalid Product</td><td>7</td></tr><tr><td>en</td><td>Missing Pricing Code</td><td>8</td></tr><tr><td>en</td><td>Invalid Pricing Code</td><td>9</td></tr><tr><td>en</td><td>Missing UOM</td><td>10</td></tr><tr><td>en</td><td>Product Not In Price Level</td><td>11</td></tr><tr><td>en</td><td>Missing Price Level Amount</td><td>12</td></tr><tr><td>en</td><td>Missing Price Level Percentage</td><td>13</td></tr><tr><td>en</td><td>Missing Price</td><td>14</td></tr><tr><td>en</td><td>Missing Current Cost</td><td>15</td></tr><tr><td>en</td><td>Missing Standard Cost</td><td>16</td></tr><tr><td>en</td><td>Invalid Price Level Amount</td><td>17</td></tr><tr><td>en</td><td>Invalid Price Level Percentage</td><td>18</td></tr><tr><td>en</td><td>Invalid Price</td><td>19</td></tr><tr><td>en</td><td>Invalid Current Cost</td><td>20</td></tr><tr><td>en</td><td>Invalid Standard Cost</td><td>21</td></tr><tr><td>en</td><td>Invalid Rounding Policy</td><td>22</td></tr><tr><td>en</td><td>Invalid Rounding Option</td><td>23</td></tr><tr><td>en</td><td>Invalid Rounding Amount</td><td>24</td></tr><tr><td>en</td><td>Price Calculation Error</td><td>25</td></tr><tr><td>en</td><td>Invalid Discount Type</td><td>26</td></tr><tr><td>en</td><td>Discount Type Invalid State</td><td>27</td></tr><tr><td>en</td><td>Invalid Discount</td><td>28</td></tr><tr><td>en</td><td>Invalid Quantity</td><td>29</td></tr><tr><td>en</td><td>Invalid Pricing Precision</td><td>30</td></tr><tr><td>en</td><td>Missing Product Default UOM</td><td>31</td></tr><tr><td>en</td><td>Missing Product UOM Schedule </td><td>32</td></tr><tr><td>en</td><td>Inactive Discount Type</td><td>33</td></tr><tr><td>en</td><td>Invalid Price Level Currency</td><td>34</td></tr><tr><td>en</td><td>Price Attribute Out Of Range</td><td>35</td></tr><tr><td>en</td><td>Base Currency Attribute Overflow</td><td>36</td></tr><tr><td>en</td><td>Base Currency Attribute Underflow</td><td>37</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2798,7 +2798,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  pricingErrorCode_display  attribute are listed below.</summary>
+<summary>List of traits for the pricingErrorCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2822,7 +2822,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  priorityCode  attribute are listed below.</summary>
+<summary>List of traits for the priorityCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -2862,7 +2862,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  priorityCode_display  attribute are listed below.</summary>
+<summary>List of traits for the priorityCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2886,7 +2886,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  purchaseProcess  attribute are listed below.</summary>
+<summary>List of traits for the purchaseProcess attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -2926,7 +2926,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  purchaseProcess_display  attribute are listed below.</summary>
+<summary>List of traits for the purchaseProcess_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2950,7 +2950,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  purchaseTimeFrame  attribute are listed below.</summary>
+<summary>List of traits for the purchaseTimeFrame attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -2990,7 +2990,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  purchaseTimeFrame_display  attribute are listed below.</summary>
+<summary>List of traits for the purchaseTimeFrame_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3009,16 +3009,16 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Sales Stage</td></tr><tr><td>description</td><td>Select the sales stage of this opportunity to aid the sales team in their efforts to win this opportunity.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>salesstage</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Close</td><td>3</td></tr><tr><td>en</td><td>Propose</td><td>2</td></tr><tr><td>en</td><td>Develop</td><td>1</td></tr><tr><td>en</td><td>Qualify</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Sales Stage</td></tr><tr><td>description</td><td>Select the sales stage of this opportunity to aid the sales team in their efforts to win this opportunity.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>salesstage</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Qualify</td><td>0</td></tr><tr><td>en</td><td>Develop</td><td>1</td></tr><tr><td>en</td><td>Propose</td><td>2</td></tr><tr><td>en</td><td>Close</td><td>3</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  salesStage  attribute are listed below.</summary>
+<summary>List of traits for the salesStage attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Close</td><td>3</td></tr><tr><td>en</td><td>Propose</td><td>2</td></tr><tr><td>en</td><td>Develop</td><td>1</td></tr><tr><td>en</td><td>Qualify</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Qualify</td><td>0</td></tr><tr><td>en</td><td>Develop</td><td>1</td></tr><tr><td>en</td><td>Propose</td><td>2</td></tr><tr><td>en</td><td>Close</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3054,7 +3054,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  salesStage_display  attribute are listed below.</summary>
+<summary>List of traits for the salesStage_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3078,7 +3078,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  salesStageCode  attribute are listed below.</summary>
+<summary>List of traits for the salesStageCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -3118,7 +3118,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  salesStageCode_display  attribute are listed below.</summary>
+<summary>List of traits for the salesStageCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3142,7 +3142,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  presentProposal  attribute are listed below.</summary>
+<summary>List of traits for the presentProposal attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -3177,7 +3177,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  captureProposalFeedback  attribute are listed below.</summary>
+<summary>List of traits for the captureProposalFeedback attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -3212,7 +3212,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  proposedSolution  attribute are listed below.</summary>
+<summary>List of traits for the proposedSolution attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3252,7 +3252,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  pursuitDecision  attribute are listed below.</summary>
+<summary>List of traits for the pursuitDecision attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -3287,7 +3287,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  qualificationComments  attribute are listed below.</summary>
+<summary>List of traits for the qualificationComments attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3327,7 +3327,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  quoteComments  attribute are listed below.</summary>
+<summary>List of traits for the quoteComments attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3367,7 +3367,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  sendThankYouNote  attribute are listed below.</summary>
+<summary>List of traits for the sendThankYouNote attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -3402,7 +3402,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  scheduleFollowupProspect  attribute are listed below.</summary>
+<summary>List of traits for the scheduleFollowupProspect attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -3440,7 +3440,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  scheduleFollowUpQualify  attribute are listed below.</summary>
+<summary>List of traits for the scheduleFollowUpQualify attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -3478,7 +3478,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  scheduleProposalMeeting  attribute are listed below.</summary>
+<summary>List of traits for the scheduleProposalMeeting attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -3511,16 +3511,16 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Shows whether the opportunity is open, won, or lost. Won and lost opportunities are read-only and can't be edited until they are reactivated.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Lost</td><td>2</td></tr><tr><td>en</td><td>Won</td><td>1</td></tr><tr><td>en</td><td>Open</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Shows whether the opportunity is open, won, or lost. Won and lost opportunities are read-only and can't be edited until they are reactivated.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Open</td><td>0</td></tr><tr><td>en</td><td>Won</td><td>1</td></tr><tr><td>en</td><td>Lost</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode  attribute are listed below.</summary>
+<summary>List of traits for the stateCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Lost</td><td>2</td></tr><tr><td>en</td><td>Won</td><td>1</td></tr><tr><td>en</td><td>Open</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Open</td><td>0</td></tr><tr><td>en</td><td>Won</td><td>1</td></tr><tr><td>en</td><td>Lost</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3556,7 +3556,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode_display  attribute are listed below.</summary>
+<summary>List of traits for the stateCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3575,16 +3575,16 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the opportunity's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>In Progress</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>On Hold</td><td>2</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Won</td><td>3</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>4</td><td>3</td><td>2</td></tr><tr><td>en</td><td>Out-Sold</td><td>5</td><td>4</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the opportunity's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>In Progress</td><td>1</td><td>0</td></tr><tr><td>en</td><td>On Hold</td><td>2</td><td>0</td></tr><tr><td>en</td><td>Won</td><td>3</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>4</td><td>2</td></tr><tr><td>en</td><td>Out-Sold</td><td>5</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode  attribute are listed below.</summary>
+<summary>List of traits for the statusCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>In Progress</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>On Hold</td><td>2</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Won</td><td>3</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>4</td><td>3</td><td>2</td></tr><tr><td>en</td><td>Out-Sold</td><td>5</td><td>4</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>In Progress</td><td>1</td><td>0</td></tr><tr><td>en</td><td>On Hold</td><td>2</td><td>0</td></tr><tr><td>en</td><td>Won</td><td>3</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>4</td><td>2</td></tr><tr><td>en</td><td>Out-Sold</td><td>5</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3623,7 +3623,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode_display  attribute are listed below.</summary>
+<summary>List of traits for the statusCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3647,7 +3647,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  stepId  attribute are listed below.</summary>
+<summary>List of traits for the stepId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3685,7 +3685,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  stepName  attribute are listed below.</summary>
+<summary>List of traits for the stepName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3721,16 +3721,16 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Timeline</td></tr><tr><td>description</td><td>Select when the opportunity is likely to be closed.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>timeline</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not known</td><td>4</td></tr><tr><td>en</td><td>This Year</td><td>3</td></tr><tr><td>en</td><td>Next Quarter</td><td>2</td></tr><tr><td>en</td><td>This Quarter</td><td>1</td></tr><tr><td>en</td><td>Immediate</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Timeline</td></tr><tr><td>description</td><td>Select when the opportunity is likely to be closed.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>timeline</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Immediate</td><td>0</td></tr><tr><td>en</td><td>This Quarter</td><td>1</td></tr><tr><td>en</td><td>Next Quarter</td><td>2</td></tr><tr><td>en</td><td>This Year</td><td>3</td></tr><tr><td>en</td><td>Not known</td><td>4</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  timeLine  attribute are listed below.</summary>
+<summary>List of traits for the timeLine attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not known</td><td>4</td></tr><tr><td>en</td><td>This Year</td><td>3</td></tr><tr><td>en</td><td>Next Quarter</td><td>2</td></tr><tr><td>en</td><td>This Quarter</td><td>1</td></tr><tr><td>en</td><td>Immediate</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Immediate</td><td>0</td></tr><tr><td>en</td><td>This Quarter</td><td>1</td></tr><tr><td>en</td><td>Next Quarter</td><td>2</td></tr><tr><td>en</td><td>This Year</td><td>3</td></tr><tr><td>en</td><td>Not known</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3766,7 +3766,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  timeLine_display  attribute are listed below.</summary>
+<summary>List of traits for the timeLine_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3790,7 +3790,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  totalAmount  attribute are listed below.</summary>
+<summary>List of traits for the totalAmount attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3831,7 +3831,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  totalAmountBase  attribute are listed below.</summary>
+<summary>List of traits for the totalAmountBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3875,7 +3875,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  totalAmountLessFreight  attribute are listed below.</summary>
+<summary>List of traits for the totalAmountLessFreight attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3916,7 +3916,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  totalAmountLessFreightBase  attribute are listed below.</summary>
+<summary>List of traits for the totalAmountLessFreightBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3960,7 +3960,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  totalDiscountAmount  attribute are listed below.</summary>
+<summary>List of traits for the totalDiscountAmount attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -4001,7 +4001,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  totalDiscountAmountBase  attribute are listed below.</summary>
+<summary>List of traits for the totalDiscountAmountBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -4045,7 +4045,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  totalLineItemAmount  attribute are listed below.</summary>
+<summary>List of traits for the totalLineItemAmount attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -4086,7 +4086,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  totalLineItemAmountBase  attribute are listed below.</summary>
+<summary>List of traits for the totalLineItemAmountBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -4130,7 +4130,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  totalLineItemDiscountAmount  attribute are listed below.</summary>
+<summary>List of traits for the totalLineItemDiscountAmount attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -4171,7 +4171,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  totalLineItemDiscountAmountBase  attribute are listed below.</summary>
+<summary>List of traits for the totalLineItemDiscountAmountBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -4215,7 +4215,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  totalTax  attribute are listed below.</summary>
+<summary>List of traits for the totalTax attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -4256,7 +4256,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  totalTaxBase  attribute are listed below.</summary>
+<summary>List of traits for the totalTaxBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -4300,7 +4300,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  identifyCustomerContacts  attribute are listed below.</summary>
+<summary>List of traits for the identifyCustomerContacts attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -4335,7 +4335,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  identifyCompetitors  attribute are listed below.</summary>
+<summary>List of traits for the identifyCompetitors attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -4370,7 +4370,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  identifyPursuitTeam  attribute are listed below.</summary>
+<summary>List of traits for the identifyPursuitTeam attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -4405,7 +4405,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  presentFinalProposal  attribute are listed below.</summary>
+<summary>List of traits for the presentFinalProposal attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -4440,7 +4440,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  onHoldTime  attribute are listed below.</summary>
+<summary>List of traits for the onHoldTime attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -4478,7 +4478,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  lastOnHoldTime  attribute are listed below.</summary>
+<summary>List of traits for the lastOnHoldTime attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -4516,7 +4516,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  SLAId  attribute are listed below.</summary>
+<summary>List of traits for the SLAId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4558,7 +4558,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  SLAInvokedId  attribute are listed below.</summary>
+<summary>List of traits for the SLAInvokedId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4600,7 +4600,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  timeSpentByMeOnEmailAndMeetings  attribute are listed below.</summary>
+<summary>List of traits for the timeSpentByMeOnEmailAndMeetings attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4641,7 +4641,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  originatingLeadId  attribute are listed below.</summary>
+<summary>List of traits for the originatingLeadId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4683,7 +4683,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  accountId  attribute are listed below.</summary>
+<summary>List of traits for the accountId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4722,7 +4722,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  contactId  attribute are listed below.</summary>
+<summary>List of traits for the contactId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4761,7 +4761,7 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 #### Traits
 
 <details>
-<summary>List of traits for the  campaignId  attribute are listed below.</summary>
+<summary>List of traits for the campaignId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4794,7 +4794,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#partnerid name="partnerid">partnerid</a>
 
 Unique identifier for Account associated with Opportunity.  
-First included in: portals/Opportunity  (this entity)  
+First included in: portals/Opportunity (this entity)  
 
 #### Properties
 
@@ -4803,7 +4803,7 @@ First included in: portals/Opportunity  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  partnerid  attribute are listed below.</summary>
+<summary>List of traits for the partnerid attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4836,7 +4836,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#partnerContact name="partnerContact">partnerContact</a>
 
 Unique identifier for Contact associated with Opportunity.  
-First included in: portals/Opportunity  (this entity)  
+First included in: portals/Opportunity (this entity)  
 
 #### Properties
 
@@ -4845,7 +4845,7 @@ First included in: portals/Opportunity  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  partnerContact  attribute are listed below.</summary>
+<summary>List of traits for the partnerContact attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  

@@ -4,20 +4,20 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/13/2019
+ms.date: 2/15/2019
 ms.author: tpalmer
 ---
 
 # Email feedback loop
 
   
-Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/EmailFeedbackLoop.cdm.json" target="_blank">GitHub</a>.  
+Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/EmailFeedbackLoop.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
-Instances of this entity are listed below:  
+Instances of this entity are listed below.  
 
-interactions/EmailFeedbackLoop  
+/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/EmailFeedbackLoop.cdm.json/EmailFeedbackLoop  
 
 ## Traits
 
@@ -55,7 +55,7 @@ interactions/EmailFeedbackLoop
 ### <a href=#interactionId name="interactionId">interactionId</a>
 
 Unique identifier of the interaction.  
-First included in: interactions/EmailFeedbackLoop  (this entity)  
+First included in: interactions/EmailFeedbackLoop (this entity)  
 
 #### Properties
 
@@ -64,7 +64,7 @@ First included in: interactions/EmailFeedbackLoop  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  interactionId  attribute are listed below.</summary>
+<summary>List of traits for the interactionId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -92,7 +92,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#contactId name="contactId">contactId</a>
 
 Contact  
-First included in: interactions/EmailFeedbackLoop  (this entity)  
+First included in: interactions/EmailFeedbackLoop (this entity)  
 
 #### Properties
 
@@ -101,7 +101,7 @@ First included in: interactions/EmailFeedbackLoop  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  contactId  attribute are listed below.</summary>
+<summary>List of traits for the contactId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -131,7 +131,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#accountId name="accountId">accountId</a>
 
 Account  
-First included in: interactions/EmailFeedbackLoop  (this entity)  
+First included in: interactions/EmailFeedbackLoop (this entity)  
 
 #### Properties
 
@@ -140,7 +140,7 @@ First included in: interactions/EmailFeedbackLoop  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  accountId  attribute are listed below.</summary>
+<summary>List of traits for the accountId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -170,7 +170,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#messageId name="messageId">messageId</a>
 
 Message  
-First included in: interactions/EmailFeedbackLoop  (this entity)  
+First included in: interactions/EmailFeedbackLoop (this entity)  
 
 #### Properties
 
@@ -179,7 +179,7 @@ First included in: interactions/EmailFeedbackLoop  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  messageId  attribute are listed below.</summary>
+<summary>List of traits for the messageId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -209,7 +209,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#customerJourneyId name="customerJourneyId">customerJourneyId</a>
 
 Customer journey  
-First included in: interactions/EmailFeedbackLoop  (this entity)  
+First included in: interactions/EmailFeedbackLoop (this entity)  
 
 #### Properties
 
@@ -218,7 +218,7 @@ First included in: interactions/EmailFeedbackLoop  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  customerJourneyId  attribute are listed below.</summary>
+<summary>List of traits for the customerJourneyId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -248,7 +248,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#organizationId name="organizationId">organizationId</a>
 
 Organization ID  
-First included in: interactions/EmailFeedbackLoop  (this entity)  
+First included in: interactions/EmailFeedbackLoop (this entity)  
 
 #### Properties
 
@@ -257,7 +257,7 @@ First included in: interactions/EmailFeedbackLoop  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  organizationId  attribute are listed below.</summary>
+<summary>List of traits for the organizationId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -279,7 +279,7 @@ The attribute value may be set to NULL.
 ### <a href=#sendingId name="sendingId">sendingId</a>
 
 Sending ID  
-First included in: interactions/EmailFeedbackLoop  (this entity)  
+First included in: interactions/EmailFeedbackLoop (this entity)  
 
 #### Properties
 
@@ -288,7 +288,7 @@ First included in: interactions/EmailFeedbackLoop  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  sendingId  attribute are listed below.</summary>
+<summary>List of traits for the sendingId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -310,7 +310,7 @@ The attribute value may be set to NULL.
 ### <a href=#customerJourneyIterationId name="customerJourneyIterationId">customerJourneyIterationId</a>
 
 Customer journey iteration ID  
-First included in: interactions/EmailFeedbackLoop  (this entity)  
+First included in: interactions/EmailFeedbackLoop (this entity)  
 
 #### Properties
 
@@ -319,7 +319,7 @@ First included in: interactions/EmailFeedbackLoop  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  customerJourneyIterationId  attribute are listed below.</summary>
+<summary>List of traits for the customerJourneyIterationId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -341,7 +341,7 @@ The attribute value may be set to NULL.
 ### <a href=#usageType name="usageType">usageType</a>
 
 Usage type  
-First included in: interactions/EmailFeedbackLoop  (this entity)  
+First included in: interactions/EmailFeedbackLoop (this entity)  
 
 #### Properties
 
@@ -350,7 +350,7 @@ First included in: interactions/EmailFeedbackLoop  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  usageType  attribute are listed below.</summary>
+<summary>List of traits for the usageType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -372,7 +372,7 @@ The attribute value may be set to NULL.
 ### <a href=#interactionType name="interactionType">interactionType</a>
 
 Interaction type  
-First included in: interactions/EmailFeedbackLoop  (this entity)  
+First included in: interactions/EmailFeedbackLoop (this entity)  
 
 #### Properties
 
@@ -381,7 +381,7 @@ First included in: interactions/EmailFeedbackLoop  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  interactionType  attribute are listed below.</summary>
+<summary>List of traits for the interactionType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -403,7 +403,7 @@ The attribute value may be set to NULL.
 ### <a href=#timestamp name="timestamp">timestamp</a>
 
 Timestamp  
-First included in: interactions/EmailFeedbackLoop  (this entity)  
+First included in: interactions/EmailFeedbackLoop (this entity)  
 
 #### Properties
 
@@ -412,7 +412,7 @@ First included in: interactions/EmailFeedbackLoop  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  timestamp  attribute are listed below.</summary>
+<summary>List of traits for the timestamp attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  

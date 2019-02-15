@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/13/2019
+ms.date: 2/15/2019
 ms.author: tpalmer
 ---
 
@@ -12,13 +12,13 @@ ms.author: tpalmer
 
 Measurements and simple assertions made about a patient, device or other subject.  
   
-Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json" target="_blank">GitHub</a>.  
+Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
-Instances of this entity are listed below:  
+Instances of this entity are listed below.  
 
-electronicMedicalRecords/Observation  
+/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
 
 ## Traits
 
@@ -147,7 +147,7 @@ electronicMedicalRecords/Observation
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -156,7 +156,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOn  attribute are listed below.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -186,7 +186,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -195,7 +195,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdBy  attribute are listed below.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -231,7 +231,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -240,7 +240,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -270,7 +270,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -279,7 +279,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -315,7 +315,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -324,7 +324,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -360,7 +360,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -369,7 +369,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -405,7 +405,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -414,7 +414,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -444,7 +444,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -453,7 +453,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -479,7 +479,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -488,7 +488,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerIdType  attribute are listed below.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -518,7 +518,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -527,7 +527,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerId  attribute are listed below.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -563,7 +563,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -572,7 +572,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningBusinessUnit  attribute are listed below.</summary>
+<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -605,7 +605,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -614,7 +614,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningUser  attribute are listed below.</summary>
+<summary>List of traits for the owningUser attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -650,7 +650,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -659,7 +659,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningTeam  attribute are listed below.</summary>
+<summary>List of traits for the owningTeam attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -692,7 +692,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -701,7 +701,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  timeZoneRuleVersionNumber  attribute are listed below.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -730,7 +730,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -739,7 +739,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  UTCConversionTimeZoneCode  attribute are listed below.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -768,7 +768,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -777,7 +777,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -805,7 +805,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#observationId name="observationId">observationId</a>
 
 Unique identifier for entity instances  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -814,7 +814,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  observationId  attribute are listed below.</summary>
+<summary>List of traits for the observationId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -844,7 +844,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Status of the Observation  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -853,11 +853,11 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode  attribute are listed below.</summary>
+<summary>List of traits for the stateCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr><tr><td>en</td><td>Active</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -884,7 +884,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -893,7 +893,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode_display  attribute are listed below.</summary>
+<summary>List of traits for the stateCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -908,20 +908,20 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Reason for the status of the Observation  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Observation Status</td></tr><tr><td>description</td><td>Reason for the status of the Observation</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>6</td><td>1</td></tr><tr><td>en</td><td>Registered</td><td>935000001</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Preliminary</td><td>935000002</td><td>2</td><td>0</td></tr><tr><td>en</td><td>Final</td><td>935000003</td><td>3</td><td>0</td></tr><tr><td>en</td><td>Amended</td><td>935000004</td><td>4</td><td>0</td></tr><tr><td>en</td><td>Corrected</td><td>935000005</td><td>5</td><td>0</td></tr><tr><td>en</td><td>Cancelled</td><td>935000006</td><td>7</td><td>1</td></tr><tr><td>en</td><td>Entered in Error</td><td>935000007</td><td>8</td><td>1</td></tr><tr><td>en</td><td>Unknown</td><td>935000008</td><td>9</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Observation Status</td></tr><tr><td>description</td><td>Reason for the status of the Observation</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Registered</td><td>935000001</td><td>0</td></tr><tr><td>en</td><td>Preliminary</td><td>935000002</td><td>0</td></tr><tr><td>en</td><td>Final</td><td>935000003</td><td>0</td></tr><tr><td>en</td><td>Amended</td><td>935000004</td><td>0</td></tr><tr><td>en</td><td>Corrected</td><td>935000005</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Cancelled</td><td>935000006</td><td>1</td></tr><tr><td>en</td><td>Entered in Error</td><td>935000007</td><td>1</td></tr><tr><td>en</td><td>Unknown</td><td>935000008</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode  attribute are listed below.</summary>
+<summary>List of traits for the statusCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>6</td><td>1</td></tr><tr><td>en</td><td>Registered</td><td>935000001</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Preliminary</td><td>935000002</td><td>2</td><td>0</td></tr><tr><td>en</td><td>Final</td><td>935000003</td><td>3</td><td>0</td></tr><tr><td>en</td><td>Amended</td><td>935000004</td><td>4</td><td>0</td></tr><tr><td>en</td><td>Corrected</td><td>935000005</td><td>5</td><td>0</td></tr><tr><td>en</td><td>Cancelled</td><td>935000006</td><td>7</td><td>1</td></tr><tr><td>en</td><td>Entered in Error</td><td>935000007</td><td>8</td><td>1</td></tr><tr><td>en</td><td>Unknown</td><td>935000008</td><td>9</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Registered</td><td>935000001</td><td>0</td></tr><tr><td>en</td><td>Preliminary</td><td>935000002</td><td>0</td></tr><tr><td>en</td><td>Final</td><td>935000003</td><td>0</td></tr><tr><td>en</td><td>Amended</td><td>935000004</td><td>0</td></tr><tr><td>en</td><td>Corrected</td><td>935000005</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Cancelled</td><td>935000006</td><td>1</td></tr><tr><td>en</td><td>Entered in Error</td><td>935000007</td><td>1</td></tr><tr><td>en</td><td>Unknown</td><td>935000008</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -951,7 +951,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -960,7 +960,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode_display  attribute are listed below.</summary>
+<summary>List of traits for the statusCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -975,7 +975,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 ### <a href=#description name="description">description</a>
 
 The name of the custom entity.  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -984,7 +984,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  description  attribute are listed below.</summary>
+<summary>List of traits for the description attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1015,7 +1015,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#bodySite name="bodySite">bodySite</a>
 
 Indicates the site on the subject's body where the observation was made (i.e. the target site).  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -1024,7 +1024,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  bodySite  attribute are listed below.</summary>
+<summary>List of traits for the bodySite attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1057,7 +1057,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#code name="code">code</a>
 
 Describes what was observed. Sometimes this is called the observation "name".  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -1066,7 +1066,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  code  attribute are listed below.</summary>
+<summary>List of traits for the code attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1099,7 +1099,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#comment name="comment">comment</a>
 
 May include statements about significant, unexpected or unreliable values, or information about the source of the value where this may be relevant to the interpretation of the result.  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -1108,7 +1108,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  comment  attribute are listed below.</summary>
+<summary>List of traits for the comment attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1139,7 +1139,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#conextTypeEncounter name="conextTypeEncounter">conextTypeEncounter</a>
 
 The healthcare event (e.g. a patient and healthcare provider interaction) during which this observation is made.  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -1148,7 +1148,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  conextTypeEncounter  attribute are listed below.</summary>
+<summary>List of traits for the conextTypeEncounter attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1181,7 +1181,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#conextTypeEpisodeOfCare name="conextTypeEpisodeOfCare">conextTypeEpisodeOfCare</a>
 
 The healthcare event (e.g. a patient and healthcare provider interaction) during which this observation is made.  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -1190,7 +1190,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  conextTypeEpisodeOfCare  attribute are listed below.</summary>
+<summary>List of traits for the conextTypeEpisodeOfCare attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1223,7 +1223,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#contextType name="contextType">contextType</a>
 
 The healthcare event (e.g. a patient and healthcare provider interaction) during which this observation is made.  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -1232,11 +1232,11 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  contextType  attribute are listed below.</summary>
+<summary>List of traits for the contextType attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Episode Of Care</td><td>935000001</td></tr><tr><td>en</td><td>Encounter</td><td>935000000</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Encounter</td><td>935000000</td></tr><tr><td>en</td><td>Episode Of Care</td><td>935000001</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1263,7 +1263,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#contextType_display name="contextType_display">contextType_display</a>
 
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -1272,7 +1272,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  contextType_display  attribute are listed below.</summary>
+<summary>List of traits for the contextType_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1287,7 +1287,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 ### <a href=#dataAbsentReason name="dataAbsentReason">dataAbsentReason</a>
 
 Provides a reason why the expected value in the element Observation.value[x] is missing.  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -1296,7 +1296,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  dataAbsentReason  attribute are listed below.</summary>
+<summary>List of traits for the dataAbsentReason attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1329,7 +1329,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#device name="device">device</a>
 
 The device whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -1338,7 +1338,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  device  attribute are listed below.</summary>
+<summary>List of traits for the device attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1371,7 +1371,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#deviceType name="deviceType">deviceType</a>
 
 The device used to generate the observation data.  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -1380,11 +1380,11 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  deviceType  attribute are listed below.</summary>
+<summary>List of traits for the deviceType attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Device Metric</td><td>935000001</td></tr><tr><td>en</td><td>Device</td><td>935000000</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Device</td><td>935000000</td></tr><tr><td>en</td><td>Device Metric</td><td>935000001</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1411,7 +1411,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#deviceType_display name="deviceType_display">deviceType_display</a>
 
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -1420,7 +1420,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  deviceType_display  attribute are listed below.</summary>
+<summary>List of traits for the deviceType_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1435,7 +1435,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 ### <a href=#deviceTypeDevice name="deviceTypeDevice">deviceTypeDevice</a>
 
 The device used to generate the observation data.  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -1444,7 +1444,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  deviceTypeDevice  attribute are listed below.</summary>
+<summary>List of traits for the deviceTypeDevice attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1477,7 +1477,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#deviceTypeDeviceMetric name="deviceTypeDeviceMetric">deviceTypeDeviceMetric</a>
 
 The device  metric used to generate the observation data.  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -1486,7 +1486,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  deviceTypeDeviceMetric  attribute are listed below.</summary>
+<summary>List of traits for the deviceTypeDeviceMetric attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1519,7 +1519,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#effectiveEnd name="effectiveEnd">effectiveEnd</a>
 
 The  End time-period the observed value is asserted as being true. For biological subjects  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -1528,7 +1528,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  effectiveEnd  attribute are listed below.</summary>
+<summary>List of traits for the effectiveEnd attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1557,7 +1557,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#effectiveStart name="effectiveStart">effectiveStart</a>
 
 The start time-period the observed value is asserted as being true. For biological subjects  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -1566,7 +1566,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  effectiveStart  attribute are listed below.</summary>
+<summary>List of traits for the effectiveStart attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1595,7 +1595,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#effectiveType name="effectiveType">effectiveType</a>
 
 Clinically relevant time/time-period for observation.  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -1604,11 +1604,11 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  effectiveType  attribute are listed below.</summary>
+<summary>List of traits for the effectiveType attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Period</td><td>935000001</td></tr><tr><td>en</td><td>Date time</td><td>935000000</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Date time</td><td>935000000</td></tr><tr><td>en</td><td>Period</td><td>935000001</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1635,7 +1635,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#effectiveType_display name="effectiveType_display">effectiveType_display</a>
 
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -1644,7 +1644,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  effectiveType_display  attribute are listed below.</summary>
+<summary>List of traits for the effectiveType_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1659,7 +1659,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 ### <a href=#effectiveTypeDateTime name="effectiveTypeDateTime">effectiveTypeDateTime</a>
 
 Enable this field if the Effective type field is Date time.  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -1668,7 +1668,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  effectiveTypeDateTime  attribute are listed below.</summary>
+<summary>List of traits for the effectiveTypeDateTime attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1697,7 +1697,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#episodeOfCare name="episodeOfCare">episodeOfCare</a>
 
 The healthcare event (e.g. a patient and healthcare provider interaction) during which this observation is made.  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -1706,7 +1706,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  episodeOfCare  attribute are listed below.</summary>
+<summary>List of traits for the episodeOfCare attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1739,7 +1739,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#identifier name="identifier">identifier</a>
 
 A unique identifier assigned to this observation.  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -1748,7 +1748,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  identifier  attribute are listed below.</summary>
+<summary>List of traits for the identifier attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1779,7 +1779,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#interpretation name="interpretation">interpretation</a>
 
 The assessment made based on the result of the observation. Intended as a simple compact code often placed adjacent to the result value in reports and flow sheets to signal the meaning/normalcy status  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -1788,7 +1788,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  interpretation  attribute are listed below.</summary>
+<summary>List of traits for the interpretation attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1821,7 +1821,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#issuedDate name="issuedDate">issuedDate</a>
 
 The date and time this observation was made available to providers, typically after the results have been reviewed and verified.  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -1830,7 +1830,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  issuedDate  attribute are listed below.</summary>
+<summary>List of traits for the issuedDate attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1859,7 +1859,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#method name="method">method</a>
 
 Indicates the mechanism used to perform the observation.  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -1868,7 +1868,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  method  attribute are listed below.</summary>
+<summary>List of traits for the method attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1901,7 +1901,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#observationNumber name="observationNumber">observationNumber</a>
 
 A unique identifier assigned to this observation.  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -1910,7 +1910,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  observationNumber  attribute are listed below.</summary>
+<summary>List of traits for the observationNumber attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1941,7 +1941,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#specimen name="specimen">specimen</a>
 
 The specimen that was used when this observation was made.  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -1950,7 +1950,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  specimen  attribute are listed below.</summary>
+<summary>List of traits for the specimen attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1983,20 +1983,20 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#status name="status">status</a>
 
 The status of the result value.  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>The status of the result value.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_status</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Corrected</td><td>935000004</td></tr><tr><td>en</td><td>Cancelled</td><td>935000005</td></tr><tr><td>en</td><td>Entered in Error</td><td>935000006</td></tr><tr><td>en</td><td>Unknown</td><td>935000007</td></tr><tr><td>en</td><td>Registered</td><td>935000000</td></tr><tr><td>en</td><td>Preliminary</td><td>935000001</td></tr><tr><td>en</td><td>Final</td><td>935000002</td></tr><tr><td>en</td><td>Amended</td><td>935000003</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>The status of the result value.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_status</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Registered</td><td>935000000</td></tr><tr><td>en</td><td>Preliminary</td><td>935000001</td></tr><tr><td>en</td><td>Final</td><td>935000002</td></tr><tr><td>en</td><td>Amended</td><td>935000003</td></tr><tr><td>en</td><td>Corrected</td><td>935000004</td></tr><tr><td>en</td><td>Cancelled</td><td>935000005</td></tr><tr><td>en</td><td>Entered in Error</td><td>935000006</td></tr><tr><td>en</td><td>Unknown</td><td>935000007</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  status  attribute are listed below.</summary>
+<summary>List of traits for the status attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Unknown</td><td>935000007</td></tr><tr><td>en</td><td>Entered in Error</td><td>935000006</td></tr><tr><td>en</td><td>Cancelled</td><td>935000005</td></tr><tr><td>en</td><td>Corrected</td><td>935000004</td></tr><tr><td>en</td><td>Amended</td><td>935000003</td></tr><tr><td>en</td><td>Final</td><td>935000002</td></tr><tr><td>en</td><td>Preliminary</td><td>935000001</td></tr><tr><td>en</td><td>Registered</td><td>935000000</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Registered</td><td>935000000</td></tr><tr><td>en</td><td>Preliminary</td><td>935000001</td></tr><tr><td>en</td><td>Final</td><td>935000002</td></tr><tr><td>en</td><td>Amended</td><td>935000003</td></tr><tr><td>en</td><td>Corrected</td><td>935000004</td></tr><tr><td>en</td><td>Cancelled</td><td>935000005</td></tr><tr><td>en</td><td>Entered in Error</td><td>935000006</td></tr><tr><td>en</td><td>Unknown</td><td>935000007</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2023,7 +2023,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#status_display name="status_display">status_display</a>
 
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -2032,7 +2032,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  status_display  attribute are listed below.</summary>
+<summary>List of traits for the status_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2047,20 +2047,20 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 ### <a href=#subjectType name="subjectType">subjectType</a>
 
 The patient, or group of patients, location, or device whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Subject Type</td></tr><tr><td>description</td><td>The patient, or group of patients, location, or device whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_subjecttype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Patient</td><td>935000000</td></tr><tr><td>en</td><td>Group</td><td>935000001</td></tr><tr><td>en</td><td>Device</td><td>935000002</td></tr><tr><td>en</td><td>Location</td><td>935000003</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Subject Type</td></tr><tr><td>description</td><td>The patient, or group of patients, location, or device whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_subjecttype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Device</td><td>935000002</td></tr><tr><td>en</td><td>Group</td><td>935000001</td></tr><tr><td>en</td><td>Location</td><td>935000003</td></tr><tr><td>en</td><td>Patient</td><td>935000000</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  subjectType  attribute are listed below.</summary>
+<summary>List of traits for the subjectType attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Patient</td><td>935000000</td></tr><tr><td>en</td><td>Location</td><td>935000003</td></tr><tr><td>en</td><td>Group</td><td>935000001</td></tr><tr><td>en</td><td>Device</td><td>935000002</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Device</td><td>935000002</td></tr><tr><td>en</td><td>Group</td><td>935000001</td></tr><tr><td>en</td><td>Location</td><td>935000003</td></tr><tr><td>en</td><td>Patient</td><td>935000000</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2087,7 +2087,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#subjectType_display name="subjectType_display">subjectType_display</a>
 
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -2096,7 +2096,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  subjectType_display  attribute are listed below.</summary>
+<summary>List of traits for the subjectType_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2111,7 +2111,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 ### <a href=#subjectTypeDevice name="subjectTypeDevice">subjectTypeDevice</a>
 
 The  device whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -2120,7 +2120,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  subjectTypeDevice  attribute are listed below.</summary>
+<summary>List of traits for the subjectTypeDevice attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2153,7 +2153,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#subjectTypeGroup name="subjectTypeGroup">subjectTypeGroup</a>
 
 The group whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -2162,7 +2162,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  subjectTypeGroup  attribute are listed below.</summary>
+<summary>List of traits for the subjectTypeGroup attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2195,7 +2195,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#subjectTypeLocation name="subjectTypeLocation">subjectTypeLocation</a>
 
 The location whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -2204,7 +2204,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  subjectTypeLocation  attribute are listed below.</summary>
+<summary>List of traits for the subjectTypeLocation attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2237,7 +2237,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#subjectTypePatient name="subjectTypePatient">subjectTypePatient</a>
 
 The patient whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -2246,7 +2246,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  subjectTypePatient  attribute are listed below.</summary>
+<summary>List of traits for the subjectTypePatient attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2279,7 +2279,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#valueBoolean name="valueBoolean">valueBoolean</a>
 
 The boolean information determined as a result of making the observation, if the information has a simple value.  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -2288,7 +2288,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  valueBoolean  attribute are listed below.</summary>
+<summary>List of traits for the valueBoolean attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -2314,7 +2314,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#valueCodeableConcept name="valueCodeableConcept">valueCodeableConcept</a>
 
 The codeable concept information determined as a result of making the observation, if the information has a simple value.  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -2323,7 +2323,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  valueCodeableConcept  attribute are listed below.</summary>
+<summary>List of traits for the valueCodeableConcept attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2356,7 +2356,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#valueDateType name="valueDateType">valueDateType</a>
 
 The date and time  information determined as a result of making the observation, if the information has a simple value.  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -2365,7 +2365,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  valueDateType  attribute are listed below.</summary>
+<summary>List of traits for the valueDateType attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -2394,7 +2394,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#valuePeriodEndDate name="valuePeriodEndDate">valuePeriodEndDate</a>
 
 The period end date information determined as a result of making the observation, if the information has a simple value.  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -2403,7 +2403,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  valuePeriodEndDate  attribute are listed below.</summary>
+<summary>List of traits for the valuePeriodEndDate attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -2432,7 +2432,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#valuePeriodStartDate name="valuePeriodStartDate">valuePeriodStartDate</a>
 
 The period start date information determined as a result of making the observation, if the information has a simple value.  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -2441,7 +2441,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  valuePeriodStartDate  attribute are listed below.</summary>
+<summary>List of traits for the valuePeriodStartDate attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -2470,7 +2470,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#valueQuantityCode name="valueQuantityCode">valueQuantityCode</a>
 
 Coded form of the unit.  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -2479,7 +2479,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  valueQuantityCode  attribute are listed below.</summary>
+<summary>List of traits for the valueQuantityCode attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2512,7 +2512,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#valueQuantitySystem name="valueQuantitySystem">valueQuantitySystem</a>
 
 System that defines coded unit form.  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -2521,7 +2521,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  valueQuantitySystem  attribute are listed below.</summary>
+<summary>List of traits for the valueQuantitySystem attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2552,7 +2552,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#valueQuantityUnit name="valueQuantityUnit">valueQuantityUnit</a>
 
 Unit representation.  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -2561,7 +2561,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  valueQuantityUnit  attribute are listed below.</summary>
+<summary>List of traits for the valueQuantityUnit attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2592,7 +2592,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#valueRangeHighLimit name="valueRangeHighLimit">valueRangeHighLimit</a>
 
 The value high range information determined as a result of making the observation, if the information has a simple value.  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -2601,7 +2601,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  valueRangeHighLimit  attribute are listed below.</summary>
+<summary>List of traits for the valueRangeHighLimit attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -2630,7 +2630,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#valueRangeLowLimit name="valueRangeLowLimit">valueRangeLowLimit</a>
 
 The range low value information determined as a result of making the observation, if the information has a simple value.  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -2639,7 +2639,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  valueRangeLowLimit  attribute are listed below.</summary>
+<summary>List of traits for the valueRangeLowLimit attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -2668,7 +2668,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#valueRatioDenominatorCode name="valueRatioDenominatorCode">valueRatioDenominatorCode</a>
 
 The denominator code information determined as a result of making the observation, if the information has a simple value.  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -2677,7 +2677,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  valueRatioDenominatorCode  attribute are listed below.</summary>
+<summary>List of traits for the valueRatioDenominatorCode attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2710,7 +2710,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#valueRatioDenominatorComparator name="valueRatioDenominatorComparator">valueRatioDenominatorComparator</a>
 
 The denominator comparator information determined as a result of making the observation, if the information has a simple value.  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -2719,11 +2719,11 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  valueRatioDenominatorComparator  attribute are listed below.</summary>
+<summary>List of traits for the valueRatioDenominatorComparator attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>>=</td><td>935000003</td></tr><tr><td>en</td><td>></td><td>935000002</td></tr><tr><td>en</td><td><=</td><td>935000001</td></tr><tr><td>en</td><td><</td><td>935000000</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td><</td><td>935000000</td></tr><tr><td>en</td><td><=</td><td>935000001</td></tr><tr><td>en</td><td>></td><td>935000002</td></tr><tr><td>en</td><td>>=</td><td>935000003</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2750,7 +2750,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#valueRatioDenominatorComparator_display name="valueRatioDenominatorComparator_display">valueRatioDenominatorComparator_display</a>
 
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -2759,7 +2759,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  valueRatioDenominatorComparator_display  attribute are listed below.</summary>
+<summary>List of traits for the valueRatioDenominatorComparator_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2774,7 +2774,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 ### <a href=#valueratioDenominatorSystem name="valueratioDenominatorSystem">valueratioDenominatorSystem</a>
 
 The denominator system information determined as a result of making the observation, if the information has a simple value.  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -2783,7 +2783,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  valueratioDenominatorSystem  attribute are listed below.</summary>
+<summary>List of traits for the valueratioDenominatorSystem attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2813,7 +2813,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#valueRatioDenominatorUnit name="valueRatioDenominatorUnit">valueRatioDenominatorUnit</a>
 
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -2822,7 +2822,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  valueRatioDenominatorUnit  attribute are listed below.</summary>
+<summary>List of traits for the valueRatioDenominatorUnit attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2849,7 +2849,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#valueratioDenominatorvalue name="valueratioDenominatorvalue">valueratioDenominatorvalue</a>
 
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -2858,7 +2858,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  valueratioDenominatorvalue  attribute are listed below.</summary>
+<summary>List of traits for the valueratioDenominatorvalue attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -2885,7 +2885,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#valueRatioNumeratorCode name="valueRatioNumeratorCode">valueRatioNumeratorCode</a>
 
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -2894,7 +2894,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  valueRatioNumeratorCode  attribute are listed below.</summary>
+<summary>List of traits for the valueRatioNumeratorCode attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2923,7 +2923,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#valueRatioNumeratorComparator name="valueRatioNumeratorComparator">valueRatioNumeratorComparator</a>
 
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -2932,11 +2932,11 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  valueRatioNumeratorComparator  attribute are listed below.</summary>
+<summary>List of traits for the valueRatioNumeratorComparator attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>>=</td><td>935000003</td></tr><tr><td>en</td><td>></td><td>935000002</td></tr><tr><td>en</td><td><=</td><td>935000001</td></tr><tr><td>en</td><td><</td><td>935000000</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td><</td><td>935000000</td></tr><tr><td>en</td><td><=</td><td>935000001</td></tr><tr><td>en</td><td>></td><td>935000002</td></tr><tr><td>en</td><td>>=</td><td>935000003</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2960,7 +2960,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#valueRatioNumeratorComparator_display name="valueRatioNumeratorComparator_display">valueRatioNumeratorComparator_display</a>
 
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -2969,7 +2969,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  valueRatioNumeratorComparator_display  attribute are listed below.</summary>
+<summary>List of traits for the valueRatioNumeratorComparator_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2983,7 +2983,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 
 ### <a href=#valueRatioNumeratorSystem name="valueRatioNumeratorSystem">valueRatioNumeratorSystem</a>
 
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -2992,7 +2992,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  valueRatioNumeratorSystem  attribute are listed below.</summary>
+<summary>List of traits for the valueRatioNumeratorSystem attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3019,7 +3019,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#valueRatioNumeratorUnit name="valueRatioNumeratorUnit">valueRatioNumeratorUnit</a>
 
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -3028,7 +3028,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  valueRatioNumeratorUnit  attribute are listed below.</summary>
+<summary>List of traits for the valueRatioNumeratorUnit attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3055,7 +3055,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#valueRatioNumeratorValue name="valueRatioNumeratorValue">valueRatioNumeratorValue</a>
 
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -3064,7 +3064,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  valueRatioNumeratorValue  attribute are listed below.</summary>
+<summary>List of traits for the valueRatioNumeratorValue attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3092,7 +3092,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#valueSampledDataTypeData name="valueSampledDataTypeData">valueSampledDataTypeData</a>
 
 Decimal values with spaces, or "E" | "U" | "L"  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -3101,7 +3101,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  valueSampledDataTypeData  attribute are listed below.</summary>
+<summary>List of traits for the valueSampledDataTypeData attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3132,7 +3132,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#valueSampledDataTypeDimension name="valueSampledDataTypeDimension">valueSampledDataTypeDimension</a>
 
 Number of sample points at each time point.  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -3141,7 +3141,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  valueSampledDataTypeDimension  attribute are listed below.</summary>
+<summary>List of traits for the valueSampledDataTypeDimension attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -3170,7 +3170,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#valueSampledDataTypeFactor name="valueSampledDataTypeFactor">valueSampledDataTypeFactor</a>
 
 Multiply data by this before adding to origin.  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -3179,7 +3179,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  valueSampledDataTypeFactor  attribute are listed below.</summary>
+<summary>List of traits for the valueSampledDataTypeFactor attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3210,7 +3210,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#valueSampledDataTypeLowerLimit name="valueSampledDataTypeLowerLimit">valueSampledDataTypeLowerLimit</a>
 
 Lower limit of detection  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -3219,7 +3219,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  valueSampledDataTypeLowerLimit  attribute are listed below.</summary>
+<summary>List of traits for the valueSampledDataTypeLowerLimit attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3250,7 +3250,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#valueSampledDataTypeOrigin name="valueSampledDataTypeOrigin">valueSampledDataTypeOrigin</a>
 
 Zero value and units.  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -3259,7 +3259,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  valueSampledDataTypeOrigin  attribute are listed below.</summary>
+<summary>List of traits for the valueSampledDataTypeOrigin attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -3288,7 +3288,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#valueSampledDataTypePeriod name="valueSampledDataTypePeriod">valueSampledDataTypePeriod</a>
 
 Number of milliseconds between samples.  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -3297,7 +3297,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  valueSampledDataTypePeriod  attribute are listed below.</summary>
+<summary>List of traits for the valueSampledDataTypePeriod attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3328,7 +3328,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#valueSampledDataTypeUpperLimit name="valueSampledDataTypeUpperLimit">valueSampledDataTypeUpperLimit</a>
 
 Upper limit of detection.  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -3337,7 +3337,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  valueSampledDataTypeUpperLimit  attribute are listed below.</summary>
+<summary>List of traits for the valueSampledDataTypeUpperLimit attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3367,7 +3367,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#valueString name="valueString">valueString</a>
 
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -3376,7 +3376,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  valueString  attribute are listed below.</summary>
+<summary>List of traits for the valueString attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3404,20 +3404,20 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#valueType name="valueType">valueType</a>
 
 The information determined as a result of making the observation, if the information has a simple value.  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Type</td></tr><tr><td>description</td><td>The information determined as a result of making the observation, if the information has a simple value.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuetype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Boolean</td><td>935000003</td></tr><tr><td>en</td><td>String</td><td>935000002</td></tr><tr><td>en</td><td>Ratio</td><td>935000005</td></tr><tr><td>en</td><td>Sample Data</td><td>935000006</td></tr><tr><td>en</td><td>Attachment</td><td>935000007</td></tr><tr><td>en</td><td>Range</td><td>935000004</td></tr><tr><td>en</td><td>Codeable Concept</td><td>935000001</td></tr><tr><td>en</td><td>Time</td><td>935000008</td></tr><tr><td>en</td><td>Date Time</td><td>935000009</td></tr><tr><td>en</td><td>Period</td><td>935000010</td></tr><tr><td>en</td><td>Quantity</td><td>935000000</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Type</td></tr><tr><td>description</td><td>The information determined as a result of making the observation, if the information has a simple value.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuetype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Quantity</td><td>935000000</td></tr><tr><td>en</td><td>Codeable Concept</td><td>935000001</td></tr><tr><td>en</td><td>String</td><td>935000002</td></tr><tr><td>en</td><td>Boolean</td><td>935000003</td></tr><tr><td>en</td><td>Range</td><td>935000004</td></tr><tr><td>en</td><td>Ratio</td><td>935000005</td></tr><tr><td>en</td><td>Sample Data</td><td>935000006</td></tr><tr><td>en</td><td>Attachment</td><td>935000007</td></tr><tr><td>en</td><td>Time</td><td>935000008</td></tr><tr><td>en</td><td>Date Time</td><td>935000009</td></tr><tr><td>en</td><td>Period</td><td>935000010</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  valueType  attribute are listed below.</summary>
+<summary>List of traits for the valueType attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Period</td><td>935000010</td></tr><tr><td>en</td><td>Date Time</td><td>935000009</td></tr><tr><td>en</td><td>Time</td><td>935000008</td></tr><tr><td>en</td><td>Attachment</td><td>935000007</td></tr><tr><td>en</td><td>Sample Data</td><td>935000006</td></tr><tr><td>en</td><td>Ratio</td><td>935000005</td></tr><tr><td>en</td><td>Range</td><td>935000004</td></tr><tr><td>en</td><td>Boolean</td><td>935000003</td></tr><tr><td>en</td><td>String</td><td>935000002</td></tr><tr><td>en</td><td>Codeable Concept</td><td>935000001</td></tr><tr><td>en</td><td>Quantity</td><td>935000000</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Quantity</td><td>935000000</td></tr><tr><td>en</td><td>Codeable Concept</td><td>935000001</td></tr><tr><td>en</td><td>String</td><td>935000002</td></tr><tr><td>en</td><td>Boolean</td><td>935000003</td></tr><tr><td>en</td><td>Range</td><td>935000004</td></tr><tr><td>en</td><td>Ratio</td><td>935000005</td></tr><tr><td>en</td><td>Sample Data</td><td>935000006</td></tr><tr><td>en</td><td>Attachment</td><td>935000007</td></tr><tr><td>en</td><td>Time</td><td>935000008</td></tr><tr><td>en</td><td>Date Time</td><td>935000009</td></tr><tr><td>en</td><td>Period</td><td>935000010</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3444,7 +3444,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#valueType_display name="valueType_display">valueType_display</a>
 
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -3453,7 +3453,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  valueType_display  attribute are listed below.</summary>
+<summary>List of traits for the valueType_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3468,20 +3468,20 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 ### <a href=#valueTypeQuantityComparator name="valueTypeQuantityComparator">valueTypeQuantityComparator</a>
 
 How the Quantity should be understood and represented.  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Quantity Comparator</td></tr><tr><td>description</td><td>How the Quantity should be understood and represented.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuetypequantitycomparator</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td><=</td><td>935000001</td></tr><tr><td>en</td><td>>=</td><td>935000002</td></tr><tr><td>en</td><td>></td><td>935000003</td></tr><tr><td>en</td><td><</td><td>935000000</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Quantity Comparator</td></tr><tr><td>description</td><td>How the Quantity should be understood and represented.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuetypequantitycomparator</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td><</td><td>935000000</td></tr><tr><td>en</td><td><=</td><td>935000001</td></tr><tr><td>en</td><td>>=</td><td>935000002</td></tr><tr><td>en</td><td>></td><td>935000003</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  valueTypeQuantityComparator  attribute are listed below.</summary>
+<summary>List of traits for the valueTypeQuantityComparator attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>></td><td>935000003</td></tr><tr><td>en</td><td>>=</td><td>935000002</td></tr><tr><td>en</td><td><=</td><td>935000001</td></tr><tr><td>en</td><td><</td><td>935000000</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td><</td><td>935000000</td></tr><tr><td>en</td><td><=</td><td>935000001</td></tr><tr><td>en</td><td>>=</td><td>935000002</td></tr><tr><td>en</td><td>></td><td>935000003</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3508,7 +3508,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#valueTypeQuantityComparator_display name="valueTypeQuantityComparator_display">valueTypeQuantityComparator_display</a>
 
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -3517,7 +3517,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  valueTypeQuantityComparator_display  attribute are listed below.</summary>
+<summary>List of traits for the valueTypeQuantityComparator_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3532,7 +3532,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 ### <a href=#valueTypeQuantityValue name="valueTypeQuantityValue">valueTypeQuantityValue</a>
 
 Numerical value (with implicit precision).  
-First included in: electronicMedicalRecords/Observation  (this entity)  
+First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
@@ -3541,7 +3541,7 @@ First included in: electronicMedicalRecords/Observation  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  valueTypeQuantityValue  attribute are listed below.</summary>
+<summary>List of traits for the valueTypeQuantityValue attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  

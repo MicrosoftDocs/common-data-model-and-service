@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/13/2019
+ms.date: 2/15/2019
 ms.author: tpalmer
 ---
 
@@ -12,13 +12,13 @@ ms.author: tpalmer
 
 Represents the period in which financial activity occurred, as defined by a fiscal calendar.  
   
-Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/financialCommon/FiscalCalendarPeriod.cdm.json" target="_blank">GitHub</a>.  
+Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/financialCommon/FiscalCalendarPeriod.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
-Instances of this entity are listed below:  
+Instances of this entity are listed below.  
 
-financialCommon/FiscalCalendarPeriod  
+/core/applicationCommon/foundationCommon/financialCommon/FiscalCalendarPeriod.cdm.json/FiscalCalendarPeriod  
 
 ## Traits
 
@@ -60,7 +60,7 @@ financialCommon/FiscalCalendarPeriod
 ### <a href=#fiscalCalendarPeriodId name="fiscalCalendarPeriodId">fiscalCalendarPeriodId</a>
 
 The surrogate key of the record  
-First included in: financialCommon/FiscalCalendarPeriod  (this entity)  
+First included in: financialCommon/FiscalCalendarPeriod (this entity)  
 
 #### Properties
 
@@ -69,7 +69,7 @@ First included in: financialCommon/FiscalCalendarPeriod  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  fiscalCalendarPeriodId  attribute are listed below.</summary>
+<summary>List of traits for the fiscalCalendarPeriodId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -88,7 +88,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 ### <a href=#fiscalCalendarName name="fiscalCalendarName">fiscalCalendarName</a>
 
 The name of the calendar containing this period  
-First included in: financialCommon/FiscalCalendarPeriod  (this entity)  
+First included in: financialCommon/FiscalCalendarPeriod (this entity)  
 
 #### Properties
 
@@ -97,7 +97,7 @@ First included in: financialCommon/FiscalCalendarPeriod  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  fiscalCalendarName  attribute are listed below.</summary>
+<summary>List of traits for the fiscalCalendarName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -113,7 +113,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 ### <a href=#periodName name="periodName">periodName</a>
 
 The name of the period  
-First included in: financialCommon/FiscalCalendarPeriod  (this entity)  
+First included in: financialCommon/FiscalCalendarPeriod (this entity)  
 
 #### Properties
 
@@ -122,7 +122,7 @@ First included in: financialCommon/FiscalCalendarPeriod  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  periodName  attribute are listed below.</summary>
+<summary>List of traits for the periodName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -138,7 +138,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 ### <a href=#periodOffset name="periodOffset">periodOffset</a>
 
 The number of periods this period is offset from the current period for use in computations such as previous period  
-First included in: financialCommon/FiscalCalendarPeriod  (this entity)  
+First included in: financialCommon/FiscalCalendarPeriod (this entity)  
 
 #### Properties
 
@@ -147,7 +147,7 @@ First included in: financialCommon/FiscalCalendarPeriod  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  periodOffset  attribute are listed below.</summary>
+<summary>List of traits for the periodOffset attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.localized.displayedAs**  
@@ -161,7 +161,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 ### <a href=#yearName name="yearName">yearName</a>
 
 The name of the year containing the period  
-First included in: financialCommon/FiscalCalendarPeriod  (this entity)  
+First included in: financialCommon/FiscalCalendarPeriod (this entity)  
 
 #### Properties
 
@@ -170,7 +170,7 @@ First included in: financialCommon/FiscalCalendarPeriod  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  yearName  attribute are listed below.</summary>
+<summary>List of traits for the yearName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -187,7 +187,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 ### <a href=#yearOffset name="yearOffset">yearOffset</a>
 
 The number of years this year is offset from the current year for use in computations such as prior year  
-First included in: financialCommon/FiscalCalendarPeriod  (this entity)  
+First included in: financialCommon/FiscalCalendarPeriod (this entity)  
 
 #### Properties
 
@@ -196,7 +196,7 @@ First included in: financialCommon/FiscalCalendarPeriod  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  yearOffset  attribute are listed below.</summary>
+<summary>List of traits for the yearOffset attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.localized.displayedAs**  
@@ -210,7 +210,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 ### <a href=#quarter name="quarter">quarter</a>
 
 The name of the quarter containing the period  
-First included in: financialCommon/FiscalCalendarPeriod  (this entity)  
+First included in: financialCommon/FiscalCalendarPeriod (this entity)  
 
 #### Properties
 
@@ -219,7 +219,7 @@ First included in: financialCommon/FiscalCalendarPeriod  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  quarter  attribute are listed below.</summary>
+<summary>List of traits for the quarter attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -236,7 +236,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 ### <a href=#quarterOffset name="quarterOffset">quarterOffset</a>
 
 The number of quarters this quarter is offset from the current quarter for use in computations such as same quarter previous year  
-First included in: financialCommon/FiscalCalendarPeriod  (this entity)  
+First included in: financialCommon/FiscalCalendarPeriod (this entity)  
 
 #### Properties
 
@@ -245,7 +245,7 @@ First included in: financialCommon/FiscalCalendarPeriod  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  quarterOffset  attribute are listed below.</summary>
+<summary>List of traits for the quarterOffset attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.localized.displayedAs**  
@@ -259,7 +259,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 ### <a href=#month name="month">month</a>
 
 The month containing the period.  
-First included in: financialCommon/FiscalCalendarPeriod  (this entity)  
+First included in: financialCommon/FiscalCalendarPeriod (this entity)  
 
 #### Properties
 
@@ -268,7 +268,7 @@ First included in: financialCommon/FiscalCalendarPeriod  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  month  attribute are listed below.</summary>
+<summary>List of traits for the month attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **means.calendar**  

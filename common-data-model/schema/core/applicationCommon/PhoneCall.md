@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/13/2019
+ms.date: 2/15/2019
 ms.author: tpalmer
 ---
 
@@ -12,13 +12,13 @@ ms.author: tpalmer
 
 Activity to track a telephone call.  
   
-Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/PhoneCall.cdm.json" target="_blank">GitHub</a>.  
+Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/PhoneCall.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
-Instances of this entity are listed below:  
+Instances of this entity are listed below.  
 
-applicationCommon/PhoneCall  
+/core/applicationCommon/PhoneCall.cdm.json/PhoneCall  
 [crmCommon/PhoneCall](foundationCommon/crmCommon/PhoneCall.md "/core/applicationCommon/foundationCommon/crmCommon/PhoneCall.cdm.json/PhoneCall")  
 [marketing/PhoneCall](foundationCommon/crmCommon/solutions/marketing/PhoneCall.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/PhoneCall.cdm.json/PhoneCall")  
 
@@ -114,7 +114,7 @@ applicationCommon/PhoneCall
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: applicationCommon/PhoneCall  (this entity)  
+First included in: applicationCommon/PhoneCall (this entity)  
 
 #### Properties
 
@@ -123,7 +123,7 @@ First included in: applicationCommon/PhoneCall  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOn  attribute are listed below.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -153,7 +153,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: applicationCommon/PhoneCall  (this entity)  
+First included in: applicationCommon/PhoneCall (this entity)  
 
 #### Properties
 
@@ -162,7 +162,7 @@ First included in: applicationCommon/PhoneCall  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdBy  attribute are listed below.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -198,7 +198,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: applicationCommon/PhoneCall  (this entity)  
+First included in: applicationCommon/PhoneCall (this entity)  
 
 #### Properties
 
@@ -207,7 +207,7 @@ First included in: applicationCommon/PhoneCall  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -237,7 +237,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: applicationCommon/PhoneCall  (this entity)  
+First included in: applicationCommon/PhoneCall (this entity)  
 
 #### Properties
 
@@ -246,7 +246,7 @@ First included in: applicationCommon/PhoneCall  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -282,7 +282,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: applicationCommon/PhoneCall  (this entity)  
+First included in: applicationCommon/PhoneCall (this entity)  
 
 #### Properties
 
@@ -291,7 +291,7 @@ First included in: applicationCommon/PhoneCall  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -327,7 +327,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: applicationCommon/PhoneCall  (this entity)  
+First included in: applicationCommon/PhoneCall (this entity)  
 
 #### Properties
 
@@ -336,7 +336,7 @@ First included in: applicationCommon/PhoneCall  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -372,7 +372,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: applicationCommon/PhoneCall  (this entity)  
+First included in: applicationCommon/PhoneCall (this entity)  
 
 #### Properties
 
@@ -381,7 +381,7 @@ First included in: applicationCommon/PhoneCall  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -411,7 +411,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: applicationCommon/PhoneCall  (this entity)  
+First included in: applicationCommon/PhoneCall (this entity)  
 
 #### Properties
 
@@ -420,7 +420,7 @@ First included in: applicationCommon/PhoneCall  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -446,7 +446,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: applicationCommon/PhoneCall  (this entity)  
+First included in: applicationCommon/PhoneCall (this entity)  
 
 #### Properties
 
@@ -455,7 +455,7 @@ First included in: applicationCommon/PhoneCall  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerIdType  attribute are listed below.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -485,7 +485,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: applicationCommon/PhoneCall  (this entity)  
+First included in: applicationCommon/PhoneCall (this entity)  
 
 #### Properties
 
@@ -494,7 +494,7 @@ First included in: applicationCommon/PhoneCall  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerId  attribute are listed below.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -530,7 +530,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: applicationCommon/PhoneCall  (this entity)  
+First included in: applicationCommon/PhoneCall (this entity)  
 
 #### Properties
 
@@ -539,7 +539,7 @@ First included in: applicationCommon/PhoneCall  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningBusinessUnit  attribute are listed below.</summary>
+<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -572,7 +572,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: applicationCommon/PhoneCall  (this entity)  
+First included in: applicationCommon/PhoneCall (this entity)  
 
 #### Properties
 
@@ -581,7 +581,7 @@ First included in: applicationCommon/PhoneCall  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningUser  attribute are listed below.</summary>
+<summary>List of traits for the owningUser attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -617,7 +617,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: applicationCommon/PhoneCall  (this entity)  
+First included in: applicationCommon/PhoneCall (this entity)  
 
 #### Properties
 
@@ -626,7 +626,7 @@ First included in: applicationCommon/PhoneCall  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningTeam  attribute are listed below.</summary>
+<summary>List of traits for the owningTeam attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -659,7 +659,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: applicationCommon/PhoneCall  (this entity)  
+First included in: applicationCommon/PhoneCall (this entity)  
 
 #### Properties
 
@@ -668,7 +668,7 @@ First included in: applicationCommon/PhoneCall  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  timeZoneRuleVersionNumber  attribute are listed below.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -697,7 +697,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: applicationCommon/PhoneCall  (this entity)  
+First included in: applicationCommon/PhoneCall (this entity)  
 
 #### Properties
 
@@ -706,7 +706,7 @@ First included in: applicationCommon/PhoneCall  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  UTCConversionTimeZoneCode  attribute are listed below.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -735,7 +735,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: applicationCommon/PhoneCall  (this entity)  
+First included in: applicationCommon/PhoneCall (this entity)  
 
 #### Properties
 
@@ -744,7 +744,7 @@ First included in: applicationCommon/PhoneCall  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -772,7 +772,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#activityTypeCode name="activityTypeCode">activityTypeCode</a>
 
 Type of activity.  
-First included in: applicationCommon/PhoneCall  (this entity)  
+First included in: applicationCommon/PhoneCall (this entity)  
 
 #### Properties
 
@@ -781,7 +781,7 @@ First included in: applicationCommon/PhoneCall  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  activityTypeCode  attribute are listed below.</summary>
+<summary>List of traits for the activityTypeCode attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -811,7 +811,7 @@ Marks an attribute that contains the entity name or 'class' for the situation wh
 ### <a href=#activityId name="activityId">activityId</a>
 
 Unique identifier of the activity.  
-First included in: applicationCommon/PhoneCall  (this entity)  
+First included in: applicationCommon/PhoneCall (this entity)  
 
 #### Properties
 
@@ -820,7 +820,7 @@ First included in: applicationCommon/PhoneCall  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  activityId  attribute are listed below.</summary>
+<summary>List of traits for the activityId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -850,7 +850,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#isBilled name="isBilled">isBilled</a>
 
 Information regarding whether the fax activity was billed as part of resolving a case.  
-First included in: applicationCommon/PhoneCall  (this entity)  
+First included in: applicationCommon/PhoneCall (this entity)  
 
 #### Properties
 
@@ -859,7 +859,7 @@ First included in: applicationCommon/PhoneCall  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  isBilled  attribute are listed below.</summary>
+<summary>List of traits for the isBilled attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -882,7 +882,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#isRegularActivity name="isRegularActivity">isRegularActivity</a>
 
 Information regarding whether the activity is a regular activity type or event type.  
-First included in: applicationCommon/PhoneCall  (this entity)  
+First included in: applicationCommon/PhoneCall (this entity)  
 
 #### Properties
 
@@ -891,7 +891,7 @@ First included in: applicationCommon/PhoneCall  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  isRegularActivity  attribute are listed below.</summary>
+<summary>List of traits for the isRegularActivity attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -911,7 +911,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#isWorkflowCreated name="isWorkflowCreated">isWorkflowCreated</a>
 
 Information regarding whether the activity was created from a workflow rule.  
-First included in: applicationCommon/PhoneCall  (this entity)  
+First included in: applicationCommon/PhoneCall (this entity)  
 
 #### Properties
 
@@ -920,7 +920,7 @@ First included in: applicationCommon/PhoneCall  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  isWorkflowCreated  attribute are listed below.</summary>
+<summary>List of traits for the isWorkflowCreated attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -943,20 +943,20 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#priorityCode name="priorityCode">priorityCode</a>
 
 Priority of the activity.  
-First included in: applicationCommon/PhoneCall  (this entity)  
+First included in: applicationCommon/PhoneCall (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Priority</td></tr><tr><td>description</td><td>Priority of the activity.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>prioritycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>High</td><td>2</td></tr><tr><td>en</td><td>Normal</td><td>1</td></tr><tr><td>en</td><td>Low</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Priority</td></tr><tr><td>description</td><td>Priority of the activity.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>prioritycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Low</td><td>0</td></tr><tr><td>en</td><td>Normal</td><td>1</td></tr><tr><td>en</td><td>High</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  priorityCode  attribute are listed below.</summary>
+<summary>List of traits for the priorityCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>High</td><td>2</td></tr><tr><td>en</td><td>Normal</td><td>1</td></tr><tr><td>en</td><td>Low</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Low</td><td>0</td></tr><tr><td>en</td><td>Normal</td><td>1</td></tr><tr><td>en</td><td>High</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -980,7 +980,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 
 ### <a href=#priorityCode_display name="priorityCode_display">priorityCode_display</a>
 
-First included in: applicationCommon/PhoneCall  (this entity)  
+First included in: applicationCommon/PhoneCall (this entity)  
 
 #### Properties
 
@@ -989,7 +989,7 @@ First included in: applicationCommon/PhoneCall  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  priorityCode_display  attribute are listed below.</summary>
+<summary>List of traits for the priorityCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1004,7 +1004,7 @@ First included in: applicationCommon/PhoneCall  (this entity)
 ### <a href=#regardingObjectTypeCode name="regardingObjectTypeCode">regardingObjectTypeCode</a>
 
 The name of the entity linked by regardingObjectId  
-First included in: applicationCommon/PhoneCall  (this entity)  
+First included in: applicationCommon/PhoneCall (this entity)  
 
 #### Properties
 
@@ -1013,7 +1013,7 @@ First included in: applicationCommon/PhoneCall  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  regardingObjectTypeCode  attribute are listed below.</summary>
+<summary>List of traits for the regardingObjectTypeCode attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1037,7 +1037,7 @@ Marks an attribute that contains the entity name or 'class' for the situation wh
 ### <a href=#regardingObjectId name="regardingObjectId">regardingObjectId</a>
 
 Unique identifier of the object with which the activity is associated.  
-First included in: applicationCommon/PhoneCall  (this entity)  
+First included in: applicationCommon/PhoneCall (this entity)  
 
 #### Properties
 
@@ -1046,7 +1046,7 @@ First included in: applicationCommon/PhoneCall  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  regardingObjectId  attribute are listed below.</summary>
+<summary>List of traits for the regardingObjectId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1079,7 +1079,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#scheduledEnd name="scheduledEnd">scheduledEnd</a>
 
 Scheduled end time of the activity.  
-First included in: applicationCommon/PhoneCall  (this entity)  
+First included in: applicationCommon/PhoneCall (this entity)  
 
 #### Properties
 
@@ -1088,7 +1088,7 @@ First included in: applicationCommon/PhoneCall  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  scheduledEnd  attribute are listed below.</summary>
+<summary>List of traits for the scheduledEnd attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1114,7 +1114,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#scheduledStart name="scheduledStart">scheduledStart</a>
 
 Scheduled start time of the activity.  
-First included in: applicationCommon/PhoneCall  (this entity)  
+First included in: applicationCommon/PhoneCall (this entity)  
 
 #### Properties
 
@@ -1123,7 +1123,7 @@ First included in: applicationCommon/PhoneCall  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  scheduledStart  attribute are listed below.</summary>
+<summary>List of traits for the scheduledStart attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1149,7 +1149,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#sortDate name="sortDate">sortDate</a>
 
 Shows the date and time by which the activities are sorted.  
-First included in: applicationCommon/PhoneCall  (this entity)  
+First included in: applicationCommon/PhoneCall (this entity)  
 
 #### Properties
 
@@ -1158,7 +1158,7 @@ First included in: applicationCommon/PhoneCall  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  sortDate  attribute are listed below.</summary>
+<summary>List of traits for the sortDate attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1187,7 +1187,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#subject name="subject">subject</a>
 
 Subject associated with the activity.  
-First included in: applicationCommon/PhoneCall  (this entity)  
+First included in: applicationCommon/PhoneCall (this entity)  
 
 #### Properties
 
@@ -1196,7 +1196,7 @@ First included in: applicationCommon/PhoneCall  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  subject  attribute are listed below.</summary>
+<summary>List of traits for the subject attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1224,7 +1224,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#scheduledDurationMinutes name="scheduledDurationMinutes">scheduledDurationMinutes</a>
 
 Scheduled duration of the activity, specified in minutes.  
-First included in: applicationCommon/PhoneCall  (this entity)  
+First included in: applicationCommon/PhoneCall (this entity)  
 
 #### Properties
 
@@ -1233,7 +1233,7 @@ First included in: applicationCommon/PhoneCall  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  scheduledDurationMinutes  attribute are listed below.</summary>
+<summary>List of traits for the scheduledDurationMinutes attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **means.measurement.duration.minutes**  
@@ -1260,7 +1260,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#actualDurationMinutes name="actualDurationMinutes">actualDurationMinutes</a>
 
 Actual duration of the activity in minutes.  
-First included in: applicationCommon/PhoneCall  (this entity)  
+First included in: applicationCommon/PhoneCall (this entity)  
 
 #### Properties
 
@@ -1269,7 +1269,7 @@ First included in: applicationCommon/PhoneCall  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  actualDurationMinutes  attribute are listed below.</summary>
+<summary>List of traits for the actualDurationMinutes attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **means.measurement.duration.minutes**  
@@ -1296,7 +1296,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#actualEnd name="actualEnd">actualEnd</a>
 
 Actual end time of the activity.  
-First included in: applicationCommon/PhoneCall  (this entity)  
+First included in: applicationCommon/PhoneCall (this entity)  
 
 #### Properties
 
@@ -1305,7 +1305,7 @@ First included in: applicationCommon/PhoneCall  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  actualEnd  attribute are listed below.</summary>
+<summary>List of traits for the actualEnd attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1332,7 +1332,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#actualStart name="actualStart">actualStart</a>
 
 Actual start time of the activity.  
-First included in: applicationCommon/PhoneCall  (this entity)  
+First included in: applicationCommon/PhoneCall (this entity)  
 
 #### Properties
 
@@ -1341,7 +1341,7 @@ First included in: applicationCommon/PhoneCall  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  actualStart  attribute are listed below.</summary>
+<summary>List of traits for the actualStart attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1368,7 +1368,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#category name="category">category</a>
 
 Type a category to identify the activity type, such as lead outreach, customer follow-up, or service alert, to tie the eactivity to a business group or function.  
-First included in: applicationCommon/PhoneCall  (this entity)  
+First included in: applicationCommon/PhoneCall (this entity)  
 
 #### Properties
 
@@ -1377,7 +1377,7 @@ First included in: applicationCommon/PhoneCall  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  category  attribute are listed below.</summary>
+<summary>List of traits for the category attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1406,7 +1406,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#subcategory name="subcategory">subcategory</a>
 
 Type a subcategory to identify the activity type and relate the activity to a specific product, sales region, business group, or other function.  
-First included in: applicationCommon/PhoneCall  (this entity)  
+First included in: applicationCommon/PhoneCall (this entity)  
 
 #### Properties
 
@@ -1415,7 +1415,7 @@ First included in: applicationCommon/PhoneCall  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  subcategory  attribute are listed below.</summary>
+<summary>List of traits for the subcategory attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1443,7 +1443,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#activityAdditionalParams name="activityAdditionalParams">activityAdditionalParams</a>
 
 Additional information provided by the external application as JSON. For internal use only.  
-First included in: applicationCommon/PhoneCall  (this entity)  
+First included in: applicationCommon/PhoneCall (this entity)  
 
 #### Properties
 
@@ -1452,7 +1452,7 @@ First included in: applicationCommon/PhoneCall  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  activityAdditionalParams  attribute are listed below.</summary>
+<summary>List of traits for the activityAdditionalParams attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1481,7 +1481,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#to name="to">to</a>
 
 Enter the account, contact, lead, or user recipients of the phone call.  
-First included in: applicationCommon/PhoneCall  (this entity)  
+First included in: applicationCommon/PhoneCall (this entity)  
 
 #### Properties
 
@@ -1490,7 +1490,7 @@ First included in: applicationCommon/PhoneCall  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  to  attribute are listed below.</summary>
+<summary>List of traits for the to attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1525,7 +1525,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#from name="from">from</a>
 
 Enter the account, contact, lead, or user who made the phone call.  
-First included in: applicationCommon/PhoneCall  (this entity)  
+First included in: applicationCommon/PhoneCall (this entity)  
 
 #### Properties
 
@@ -1534,7 +1534,7 @@ First included in: applicationCommon/PhoneCall  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  from  attribute are listed below.</summary>
+<summary>List of traits for the from attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1566,7 +1566,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#leftVoiceMail name="leftVoiceMail">leftVoiceMail</a>
 
 Left the voice mail  
-First included in: applicationCommon/PhoneCall  (this entity)  
+First included in: applicationCommon/PhoneCall (this entity)  
 
 #### Properties
 
@@ -1575,7 +1575,7 @@ First included in: applicationCommon/PhoneCall  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  leftVoiceMail  attribute are listed below.</summary>
+<summary>List of traits for the leftVoiceMail attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1598,7 +1598,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#directionCode name="directionCode">directionCode</a>
 
 Select the direction of the activity as incoming or outbound.  
-First included in: applicationCommon/PhoneCall  (this entity)  
+First included in: applicationCommon/PhoneCall (this entity)  
 
 #### Properties
 
@@ -1607,7 +1607,7 @@ First included in: applicationCommon/PhoneCall  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  directionCode  attribute are listed below.</summary>
+<summary>List of traits for the directionCode attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1630,7 +1630,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#phoneNumber name="phoneNumber">phoneNumber</a>
 
 Type the phone number.  
-First included in: applicationCommon/PhoneCall  (this entity)  
+First included in: applicationCommon/PhoneCall (this entity)  
 
 #### Properties
 
@@ -1639,7 +1639,7 @@ First included in: applicationCommon/PhoneCall  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  phoneNumber  attribute are listed below.</summary>
+<summary>List of traits for the phoneNumber attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1671,7 +1671,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#description name="description">description</a>
 
 Additional information to describe the phone call, such as the primary message or the products and services discussed.  
-First included in: applicationCommon/PhoneCall  (this entity)  
+First included in: applicationCommon/PhoneCall (this entity)  
 
 #### Properties
 
@@ -1680,7 +1680,7 @@ First included in: applicationCommon/PhoneCall  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  description  attribute are listed below.</summary>
+<summary>List of traits for the description attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1712,7 +1712,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Shows whether the phone call is open, completed, or canceled. Completed and canceled phone calls are read-only and can't be edited.  
-First included in: applicationCommon/PhoneCall  (this entity)  
+First included in: applicationCommon/PhoneCall (this entity)  
 
 #### Properties
 
@@ -1721,11 +1721,11 @@ First included in: applicationCommon/PhoneCall  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode  attribute are listed below.</summary>
+<summary>List of traits for the stateCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Canceled</td><td>2</td></tr><tr><td>en</td><td>Completed</td><td>1</td></tr><tr><td>en</td><td>Open</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Open</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1752,7 +1752,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: applicationCommon/PhoneCall  (this entity)  
+First included in: applicationCommon/PhoneCall (this entity)  
 
 #### Properties
 
@@ -1761,7 +1761,7 @@ First included in: applicationCommon/PhoneCall  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode_display  attribute are listed below.</summary>
+<summary>List of traits for the stateCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1776,20 +1776,20 @@ First included in: applicationCommon/PhoneCall  (this entity)
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Select the phone call's status.  
-First included in: applicationCommon/PhoneCall  (this entity)  
+First included in: applicationCommon/PhoneCall (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the phone call's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Open</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Made</td><td>2</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>3</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Received</td><td>4</td><td>3</td><td>1</td></tr><tr><td>en</td><td>Open</td><td>1</td><td>4</td><td>0</td></tr><tr><td>en</td><td>Made</td><td>2</td><td>5</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>3</td><td>6</td><td>2</td></tr><tr><td>en</td><td>Received</td><td>4</td><td>7</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the phone call's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Open</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Made</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>3</td><td>2</td></tr><tr><td>en</td><td>Received</td><td>4</td><td>1</td></tr><tr><td>en</td><td>Open</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Made</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>3</td><td>2</td></tr><tr><td>en</td><td>Received</td><td>4</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode  attribute are listed below.</summary>
+<summary>List of traits for the statusCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Open</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Made</td><td>2</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>3</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Received</td><td>4</td><td>3</td><td>1</td></tr><tr><td>en</td><td>Open</td><td>1</td><td>4</td><td>0</td></tr><tr><td>en</td><td>Made</td><td>2</td><td>5</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>3</td><td>6</td><td>2</td></tr><tr><td>en</td><td>Received</td><td>4</td><td>7</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Open</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Made</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>3</td><td>2</td></tr><tr><td>en</td><td>Received</td><td>4</td><td>1</td></tr><tr><td>en</td><td>Open</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Made</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>3</td><td>2</td></tr><tr><td>en</td><td>Received</td><td>4</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1819,7 +1819,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: applicationCommon/PhoneCall  (this entity)  
+First included in: applicationCommon/PhoneCall (this entity)  
 
 #### Properties
 
@@ -1828,7 +1828,7 @@ First included in: applicationCommon/PhoneCall  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode_display  attribute are listed below.</summary>
+<summary>List of traits for the statusCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1843,7 +1843,7 @@ First included in: applicationCommon/PhoneCall  (this entity)
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Choose the local currency for the record to make sure budgets are reported in the correct currency.  
-First included in: applicationCommon/PhoneCall  (this entity)  
+First included in: applicationCommon/PhoneCall (this entity)  
 
 #### Properties
 
@@ -1852,7 +1852,7 @@ First included in: applicationCommon/PhoneCall  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  transactionCurrencyId  attribute are listed below.</summary>
+<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1885,7 +1885,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.  
-First included in: applicationCommon/PhoneCall  (this entity)  
+First included in: applicationCommon/PhoneCall (this entity)  
 
 #### Properties
 
@@ -1894,7 +1894,7 @@ First included in: applicationCommon/PhoneCall  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  exchangeRate  attribute are listed below.</summary>
+<summary>List of traits for the exchangeRate attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1925,7 +1925,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#processId name="processId">processId</a>
 
 Shows the ID of the process.  
-First included in: applicationCommon/PhoneCall  (this entity)  
+First included in: applicationCommon/PhoneCall (this entity)  
 
 #### Properties
 
@@ -1934,7 +1934,7 @@ First included in: applicationCommon/PhoneCall  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  processId  attribute are listed below.</summary>
+<summary>List of traits for the processId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1963,7 +1963,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stageId name="stageId">stageId</a>
 
 Shows the ID of the stage.  
-First included in: applicationCommon/PhoneCall  (this entity)  
+First included in: applicationCommon/PhoneCall (this entity)  
 
 #### Properties
 
@@ -1972,7 +1972,7 @@ First included in: applicationCommon/PhoneCall  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  stageId  attribute are listed below.</summary>
+<summary>List of traits for the stageId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2001,7 +2001,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#traversedPath name="traversedPath">traversedPath</a>
 
 For internal use only.  
-First included in: applicationCommon/PhoneCall  (this entity)  
+First included in: applicationCommon/PhoneCall (this entity)  
 
 #### Properties
 
@@ -2010,7 +2010,7 @@ First included in: applicationCommon/PhoneCall  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  traversedPath  attribute are listed below.</summary>
+<summary>List of traits for the traversedPath attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2041,7 +2041,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#SLAInvokedId name="SLAInvokedId">SLAInvokedId</a>
 
 Last SLA that was applied to this Phone Call. This field is for internal use only.  
-First included in: applicationCommon/PhoneCall  (this entity)  
+First included in: applicationCommon/PhoneCall (this entity)  
 
 #### Properties
 
@@ -2050,7 +2050,7 @@ First included in: applicationCommon/PhoneCall  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  SLAInvokedId  attribute are listed below.</summary>
+<summary>List of traits for the SLAInvokedId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2083,7 +2083,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#onHoldTime name="onHoldTime">onHoldTime</a>
 
 Shows how long, in minutes, that the record was on hold.  
-First included in: applicationCommon/PhoneCall  (this entity)  
+First included in: applicationCommon/PhoneCall (this entity)  
 
 #### Properties
 
@@ -2092,7 +2092,7 @@ First included in: applicationCommon/PhoneCall  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  onHoldTime  attribute are listed below.</summary>
+<summary>List of traits for the onHoldTime attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -2121,7 +2121,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#lastOnHoldTime name="lastOnHoldTime">lastOnHoldTime</a>
 
 Contains the date and time stamp of the last on hold time.  
-First included in: applicationCommon/PhoneCall  (this entity)  
+First included in: applicationCommon/PhoneCall (this entity)  
 
 #### Properties
 
@@ -2130,7 +2130,7 @@ First included in: applicationCommon/PhoneCall  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  lastOnHoldTime  attribute are listed below.</summary>
+<summary>List of traits for the lastOnHoldTime attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -2159,7 +2159,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#SLAId name="SLAId">SLAId</a>
 
 Choose the service level agreement (SLA) that you want to apply to the Phone Call record.  
-First included in: applicationCommon/PhoneCall  (this entity)  
+First included in: applicationCommon/PhoneCall (this entity)  
 
 #### Properties
 
@@ -2168,7 +2168,7 @@ First included in: applicationCommon/PhoneCall  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  SLAId  attribute are listed below.</summary>
+<summary>List of traits for the SLAId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  

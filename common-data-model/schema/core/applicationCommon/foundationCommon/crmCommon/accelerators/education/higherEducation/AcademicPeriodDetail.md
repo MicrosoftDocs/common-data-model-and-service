@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/13/2019
+ms.date: 2/15/2019
 ms.author: tpalmer
 ---
 
@@ -12,13 +12,13 @@ ms.author: tpalmer
 
 Status between student and their academic periods.  
   
-Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/AcademicPeriodDetail.cdm.json" target="_blank">GitHub</a>.  
+Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/AcademicPeriodDetail.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
-Instances of this entity are listed below:  
+Instances of this entity are listed below.  
 
-higherEducation/AcademicPeriodDetail  
+/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/AcademicPeriodDetail.cdm.json/AcademicPeriodDetail  
 
 ## Traits
 
@@ -97,7 +97,7 @@ higherEducation/AcademicPeriodDetail
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: higherEducation/AcademicPeriodDetail  (this entity)  
+First included in: higherEducation/AcademicPeriodDetail (this entity)  
 
 #### Properties
 
@@ -106,7 +106,7 @@ First included in: higherEducation/AcademicPeriodDetail  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOn  attribute are listed below.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -136,7 +136,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: higherEducation/AcademicPeriodDetail  (this entity)  
+First included in: higherEducation/AcademicPeriodDetail (this entity)  
 
 #### Properties
 
@@ -145,7 +145,7 @@ First included in: higherEducation/AcademicPeriodDetail  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdBy  attribute are listed below.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -181,7 +181,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: higherEducation/AcademicPeriodDetail  (this entity)  
+First included in: higherEducation/AcademicPeriodDetail (this entity)  
 
 #### Properties
 
@@ -190,7 +190,7 @@ First included in: higherEducation/AcademicPeriodDetail  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -220,7 +220,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: higherEducation/AcademicPeriodDetail  (this entity)  
+First included in: higherEducation/AcademicPeriodDetail (this entity)  
 
 #### Properties
 
@@ -229,7 +229,7 @@ First included in: higherEducation/AcademicPeriodDetail  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -265,7 +265,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: higherEducation/AcademicPeriodDetail  (this entity)  
+First included in: higherEducation/AcademicPeriodDetail (this entity)  
 
 #### Properties
 
@@ -274,7 +274,7 @@ First included in: higherEducation/AcademicPeriodDetail  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -310,7 +310,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: higherEducation/AcademicPeriodDetail  (this entity)  
+First included in: higherEducation/AcademicPeriodDetail (this entity)  
 
 #### Properties
 
@@ -319,7 +319,7 @@ First included in: higherEducation/AcademicPeriodDetail  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -355,7 +355,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: higherEducation/AcademicPeriodDetail  (this entity)  
+First included in: higherEducation/AcademicPeriodDetail (this entity)  
 
 #### Properties
 
@@ -364,7 +364,7 @@ First included in: higherEducation/AcademicPeriodDetail  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -394,7 +394,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: higherEducation/AcademicPeriodDetail  (this entity)  
+First included in: higherEducation/AcademicPeriodDetail (this entity)  
 
 #### Properties
 
@@ -403,7 +403,7 @@ First included in: higherEducation/AcademicPeriodDetail  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -429,7 +429,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: higherEducation/AcademicPeriodDetail  (this entity)  
+First included in: higherEducation/AcademicPeriodDetail (this entity)  
 
 #### Properties
 
@@ -438,7 +438,7 @@ First included in: higherEducation/AcademicPeriodDetail  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerIdType  attribute are listed below.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -468,7 +468,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: higherEducation/AcademicPeriodDetail  (this entity)  
+First included in: higherEducation/AcademicPeriodDetail (this entity)  
 
 #### Properties
 
@@ -477,7 +477,7 @@ First included in: higherEducation/AcademicPeriodDetail  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerId  attribute are listed below.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -513,7 +513,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: higherEducation/AcademicPeriodDetail  (this entity)  
+First included in: higherEducation/AcademicPeriodDetail (this entity)  
 
 #### Properties
 
@@ -522,7 +522,7 @@ First included in: higherEducation/AcademicPeriodDetail  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningBusinessUnit  attribute are listed below.</summary>
+<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -555,7 +555,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: higherEducation/AcademicPeriodDetail  (this entity)  
+First included in: higherEducation/AcademicPeriodDetail (this entity)  
 
 #### Properties
 
@@ -564,7 +564,7 @@ First included in: higherEducation/AcademicPeriodDetail  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningUser  attribute are listed below.</summary>
+<summary>List of traits for the owningUser attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -600,7 +600,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: higherEducation/AcademicPeriodDetail  (this entity)  
+First included in: higherEducation/AcademicPeriodDetail (this entity)  
 
 #### Properties
 
@@ -609,7 +609,7 @@ First included in: higherEducation/AcademicPeriodDetail  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningTeam  attribute are listed below.</summary>
+<summary>List of traits for the owningTeam attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -642,7 +642,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: higherEducation/AcademicPeriodDetail  (this entity)  
+First included in: higherEducation/AcademicPeriodDetail (this entity)  
 
 #### Properties
 
@@ -651,7 +651,7 @@ First included in: higherEducation/AcademicPeriodDetail  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  timeZoneRuleVersionNumber  attribute are listed below.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -680,7 +680,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: higherEducation/AcademicPeriodDetail  (this entity)  
+First included in: higherEducation/AcademicPeriodDetail (this entity)  
 
 #### Properties
 
@@ -689,7 +689,7 @@ First included in: higherEducation/AcademicPeriodDetail  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  UTCConversionTimeZoneCode  attribute are listed below.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -718,7 +718,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: higherEducation/AcademicPeriodDetail  (this entity)  
+First included in: higherEducation/AcademicPeriodDetail (this entity)  
 
 #### Properties
 
@@ -727,7 +727,7 @@ First included in: higherEducation/AcademicPeriodDetail  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -755,7 +755,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#academicPeriodDetailsId name="academicPeriodDetailsId">academicPeriodDetailsId</a>
 
 Unique identifier for entity instances  
-First included in: higherEducation/AcademicPeriodDetail  (this entity)  
+First included in: higherEducation/AcademicPeriodDetail (this entity)  
 
 #### Properties
 
@@ -764,7 +764,7 @@ First included in: higherEducation/AcademicPeriodDetail  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  academicPeriodDetailsId  attribute are listed below.</summary>
+<summary>List of traits for the academicPeriodDetailsId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -794,7 +794,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Status of the Academic Period Detail  
-First included in: higherEducation/AcademicPeriodDetail  (this entity)  
+First included in: higherEducation/AcademicPeriodDetail (this entity)  
 
 #### Properties
 
@@ -803,11 +803,11 @@ First included in: higherEducation/AcademicPeriodDetail  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode  attribute are listed below.</summary>
+<summary>List of traits for the stateCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr><tr><td>en</td><td>Active</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -834,7 +834,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: higherEducation/AcademicPeriodDetail  (this entity)  
+First included in: higherEducation/AcademicPeriodDetail (this entity)  
 
 #### Properties
 
@@ -843,7 +843,7 @@ First included in: higherEducation/AcademicPeriodDetail  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode_display  attribute are listed below.</summary>
+<summary>List of traits for the stateCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -858,20 +858,20 @@ First included in: higherEducation/AcademicPeriodDetail  (this entity)
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Reason for the status of the Academic Period Detail  
-First included in: higherEducation/AcademicPeriodDetail  (this entity)  
+First included in: higherEducation/AcademicPeriodDetail (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Academic Period Detail</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Academic Period Detail</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode  attribute are listed below.</summary>
+<summary>List of traits for the statusCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -901,7 +901,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: higherEducation/AcademicPeriodDetail  (this entity)  
+First included in: higherEducation/AcademicPeriodDetail (this entity)  
 
 #### Properties
 
@@ -910,7 +910,7 @@ First included in: higherEducation/AcademicPeriodDetail  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode_display  attribute are listed below.</summary>
+<summary>List of traits for the statusCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -925,7 +925,7 @@ First included in: higherEducation/AcademicPeriodDetail  (this entity)
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: higherEducation/AcademicPeriodDetail  (this entity)  
+First included in: higherEducation/AcademicPeriodDetail (this entity)  
 
 #### Properties
 
@@ -934,7 +934,7 @@ First included in: higherEducation/AcademicPeriodDetail  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  name  attribute are listed below.</summary>
+<summary>List of traits for the name attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -965,7 +965,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#academicPeriodID name="academicPeriodID">academicPeriodID</a>
 
-First included in: higherEducation/AcademicPeriodDetail  (this entity)  
+First included in: higherEducation/AcademicPeriodDetail (this entity)  
 
 #### Properties
 
@@ -974,7 +974,7 @@ First included in: higherEducation/AcademicPeriodDetail  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  academicPeriodID  attribute are listed below.</summary>
+<summary>List of traits for the academicPeriodID attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1007,7 +1007,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#attendanceType name="attendanceType">attendanceType</a>
 
 The enrollment attendance type for the student.  
-First included in: higherEducation/AcademicPeriodDetail  (this entity)  
+First included in: higherEducation/AcademicPeriodDetail (this entity)  
 
 #### Properties
 
@@ -1016,11 +1016,11 @@ First included in: higherEducation/AcademicPeriodDetail  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  attendanceType  attribute are listed below.</summary>
+<summary>List of traits for the attendanceType attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>False</td><td>100000002</td></tr><tr><td>en</td><td>2</td><td>100000001</td></tr><tr><td>en</td><td>1</td><td>100000000</td></tr><tr><td>en</td><td>Part TIme</td><td>494280001</td></tr><tr><td>en</td><td>Full Time</td><td>494280000</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Full Time</td><td>494280000</td></tr><tr><td>en</td><td>Part TIme</td><td>494280001</td></tr><tr><td>en</td><td>1</td><td>100000000</td></tr><tr><td>en</td><td>2</td><td>100000001</td></tr><tr><td>en</td><td>False</td><td>100000002</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1047,7 +1047,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#attendanceType_display name="attendanceType_display">attendanceType_display</a>
 
-First included in: higherEducation/AcademicPeriodDetail  (this entity)  
+First included in: higherEducation/AcademicPeriodDetail (this entity)  
 
 #### Properties
 
@@ -1056,7 +1056,7 @@ First included in: higherEducation/AcademicPeriodDetail  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  attendanceType_display  attribute are listed below.</summary>
+<summary>List of traits for the attendanceType_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1071,7 +1071,7 @@ First included in: higherEducation/AcademicPeriodDetail  (this entity)
 ### <a href=#creditLoad name="creditLoad">creditLoad</a>
 
 Assigned credit load for academic period  
-First included in: higherEducation/AcademicPeriodDetail  (this entity)  
+First included in: higherEducation/AcademicPeriodDetail (this entity)  
 
 #### Properties
 
@@ -1080,7 +1080,7 @@ First included in: higherEducation/AcademicPeriodDetail  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  creditLoad  attribute are listed below.</summary>
+<summary>List of traits for the creditLoad attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1109,7 +1109,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#educationLevelId name="educationLevelId">educationLevelId</a>
 
 The education level for the student.  
-First included in: higherEducation/AcademicPeriodDetail  (this entity)  
+First included in: higherEducation/AcademicPeriodDetail (this entity)  
 
 #### Properties
 
@@ -1118,7 +1118,7 @@ First included in: higherEducation/AcademicPeriodDetail  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  educationLevelId  attribute are listed below.</summary>
+<summary>List of traits for the educationLevelId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1154,7 +1154,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#employedHoursPerWeek name="employedHoursPerWeek">employedHoursPerWeek</a>
 
 Employed for how many hours/week?  
-First included in: higherEducation/AcademicPeriodDetail  (this entity)  
+First included in: higherEducation/AcademicPeriodDetail (this entity)  
 
 #### Properties
 
@@ -1163,7 +1163,7 @@ First included in: higherEducation/AcademicPeriodDetail  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  employedHoursPerWeek  attribute are listed below.</summary>
+<summary>List of traits for the employedHoursPerWeek attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1192,7 +1192,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#isAthlete name="isAthlete">isAthlete</a>
 
 Athlete  
-First included in: higherEducation/AcademicPeriodDetail  (this entity)  
+First included in: higherEducation/AcademicPeriodDetail (this entity)  
 
 #### Properties
 
@@ -1201,7 +1201,7 @@ First included in: higherEducation/AcademicPeriodDetail  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  isAthlete  attribute are listed below.</summary>
+<summary>List of traits for the isAthlete attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1227,7 +1227,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isEmployed name="isEmployed">isEmployed</a>
 
 Employed  
-First included in: higherEducation/AcademicPeriodDetail  (this entity)  
+First included in: higherEducation/AcademicPeriodDetail (this entity)  
 
 #### Properties
 
@@ -1236,7 +1236,7 @@ First included in: higherEducation/AcademicPeriodDetail  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  isEmployed  attribute are listed below.</summary>
+<summary>List of traits for the isEmployed attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1262,7 +1262,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isInternationalStudent name="isInternationalStudent">isInternationalStudent</a>
 
 International Student  
-First included in: higherEducation/AcademicPeriodDetail  (this entity)  
+First included in: higherEducation/AcademicPeriodDetail (this entity)  
 
 #### Properties
 
@@ -1271,7 +1271,7 @@ First included in: higherEducation/AcademicPeriodDetail  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  isInternationalStudent  attribute are listed below.</summary>
+<summary>List of traits for the isInternationalStudent attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1297,7 +1297,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#ISIRonFIle name="ISIRonFIle">ISIRonFIle</a>
 
 ISIR received and on file?  
-First included in: higherEducation/AcademicPeriodDetail  (this entity)  
+First included in: higherEducation/AcademicPeriodDetail (this entity)  
 
 #### Properties
 
@@ -1306,7 +1306,7 @@ First included in: higherEducation/AcademicPeriodDetail  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ISIRonFIle  attribute are listed below.</summary>
+<summary>List of traits for the ISIRonFIle attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1332,7 +1332,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isTransferStudent name="isTransferStudent">isTransferStudent</a>
 
 Transfer Student  
-First included in: higherEducation/AcademicPeriodDetail  (this entity)  
+First included in: higherEducation/AcademicPeriodDetail (this entity)  
 
 #### Properties
 
@@ -1341,7 +1341,7 @@ First included in: higherEducation/AcademicPeriodDetail  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  isTransferStudent  attribute are listed below.</summary>
+<summary>List of traits for the isTransferStudent attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1367,7 +1367,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#majorCreditEarned name="majorCreditEarned">majorCreditEarned</a>
 
 Major Credit Earned  
-First included in: higherEducation/AcademicPeriodDetail  (this entity)  
+First included in: higherEducation/AcademicPeriodDetail (this entity)  
 
 #### Properties
 
@@ -1376,7 +1376,7 @@ First included in: higherEducation/AcademicPeriodDetail  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  majorCreditEarned  attribute are listed below.</summary>
+<summary>List of traits for the majorCreditEarned attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1405,7 +1405,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#majorGPA name="majorGPA">majorGPA</a>
 
 Major GPA  
-First included in: higherEducation/AcademicPeriodDetail  (this entity)  
+First included in: higherEducation/AcademicPeriodDetail (this entity)  
 
 #### Properties
 
@@ -1414,7 +1414,7 @@ First included in: higherEducation/AcademicPeriodDetail  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  majorGPA  attribute are listed below.</summary>
+<summary>List of traits for the majorGPA attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1445,7 +1445,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#midTermDeficiency name="midTermDeficiency">midTermDeficiency</a>
 
 Mid-Term Deficiency  
-First included in: higherEducation/AcademicPeriodDetail  (this entity)  
+First included in: higherEducation/AcademicPeriodDetail (this entity)  
 
 #### Properties
 
@@ -1454,7 +1454,7 @@ First included in: higherEducation/AcademicPeriodDetail  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  midTermDeficiency  attribute are listed below.</summary>
+<summary>List of traits for the midTermDeficiency attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1480,7 +1480,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#programId name="programId">programId</a>
 
 The program for the student.  
-First included in: higherEducation/AcademicPeriodDetail  (this entity)  
+First included in: higherEducation/AcademicPeriodDetail (this entity)  
 
 #### Properties
 
@@ -1489,7 +1489,7 @@ First included in: higherEducation/AcademicPeriodDetail  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  programId  attribute are listed below.</summary>
+<summary>List of traits for the programId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1525,7 +1525,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#studentId name="studentId">studentId</a>
 
 Lookup to Student (Contact).  
-First included in: higherEducation/AcademicPeriodDetail  (this entity)  
+First included in: higherEducation/AcademicPeriodDetail (this entity)  
 
 #### Properties
 
@@ -1534,7 +1534,7 @@ First included in: higherEducation/AcademicPeriodDetail  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  studentId  attribute are listed below.</summary>
+<summary>List of traits for the studentId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1570,7 +1570,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#termCreditsEarned name="termCreditsEarned">termCreditsEarned</a>
 
 Term Credits Earned  
-First included in: higherEducation/AcademicPeriodDetail  (this entity)  
+First included in: higherEducation/AcademicPeriodDetail (this entity)  
 
 #### Properties
 
@@ -1579,7 +1579,7 @@ First included in: higherEducation/AcademicPeriodDetail  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  termCreditsEarned  attribute are listed below.</summary>
+<summary>List of traits for the termCreditsEarned attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1608,7 +1608,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#termGPA name="termGPA">termGPA</a>
 
 Term GPA  
-First included in: higherEducation/AcademicPeriodDetail  (this entity)  
+First included in: higherEducation/AcademicPeriodDetail (this entity)  
 
 #### Properties
 
@@ -1617,7 +1617,7 @@ First included in: higherEducation/AcademicPeriodDetail  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  termGPA  attribute are listed below.</summary>
+<summary>List of traits for the termGPA attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  

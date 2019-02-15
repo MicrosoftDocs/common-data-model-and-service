@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/13/2019
+ms.date: 2/15/2019
 ms.author: tpalmer
 ---
 
@@ -12,13 +12,13 @@ ms.author: tpalmer
 
 Selection rule that allows the scheduling engine to select a number of resources from a pool of resources. The rules can be associated with a service.  
   
-Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/ResourceSpecification.cdm.json" target="_blank">GitHub</a>.  
+Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/ResourceSpecification.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
-Instances of this entity are listed below:  
+Instances of this entity are listed below.  
 
-service/ResourceSpecification  
+/core/applicationCommon/foundationCommon/crmCommon/service/ResourceSpecification.cdm.json/ResourceSpecification  
 
 ## Traits
 
@@ -77,7 +77,7 @@ service/ResourceSpecification
 ### <a href=#resourceSpecId name="resourceSpecId">resourceSpecId</a>
 
 Unique identifier of the resource specification.  
-First included in: service/ResourceSpecification  (this entity)  
+First included in: service/ResourceSpecification (this entity)  
 
 #### Properties
 
@@ -86,7 +86,7 @@ First included in: service/ResourceSpecification  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  resourceSpecId  attribute are listed below.</summary>
+<summary>List of traits for the resourceSpecId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -116,7 +116,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the resource specification was created.  
-First included in: service/ResourceSpecification  (this entity)  
+First included in: service/ResourceSpecification (this entity)  
 
 #### Properties
 
@@ -125,7 +125,7 @@ First included in: service/ResourceSpecification  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOn  attribute are listed below.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -155,7 +155,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Unique identifier of the user who created the resource specification.  
-First included in: service/ResourceSpecification  (this entity)  
+First included in: service/ResourceSpecification (this entity)  
 
 #### Properties
 
@@ -164,7 +164,7 @@ First included in: service/ResourceSpecification  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdBy  attribute are listed below.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -197,7 +197,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the resource specification was last modified.  
-First included in: service/ResourceSpecification  (this entity)  
+First included in: service/ResourceSpecification (this entity)  
 
 #### Properties
 
@@ -206,7 +206,7 @@ First included in: service/ResourceSpecification  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -236,7 +236,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Unique identifier of the user who last modified the resource specification.  
-First included in: service/ResourceSpecification  (this entity)  
+First included in: service/ResourceSpecification (this entity)  
 
 #### Properties
 
@@ -245,7 +245,7 @@ First included in: service/ResourceSpecification  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -278,7 +278,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Unique identifier of the delegate user who created the resourcespec.  
-First included in: service/ResourceSpecification  (this entity)  
+First included in: service/ResourceSpecification (this entity)  
 
 #### Properties
 
@@ -287,7 +287,7 @@ First included in: service/ResourceSpecification  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -320,7 +320,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Unique identifier of the delegate user who last modified the resourcespec.  
-First included in: service/ResourceSpecification  (this entity)  
+First included in: service/ResourceSpecification (this entity)  
 
 #### Properties
 
@@ -329,7 +329,7 @@ First included in: service/ResourceSpecification  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -362,7 +362,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#businessUnitId name="businessUnitId">businessUnitId</a>
 
 Unique identifier of the business unit with which the resource specification is associated.  
-First included in: service/ResourceSpecification  (this entity)  
+First included in: service/ResourceSpecification (this entity)  
 
 #### Properties
 
@@ -371,7 +371,7 @@ First included in: service/ResourceSpecification  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  businessUnitId  attribute are listed below.</summary>
+<summary>List of traits for the businessUnitId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -401,7 +401,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: service/ResourceSpecification  (this entity)  
+First included in: service/ResourceSpecification (this entity)  
 
 #### Properties
 
@@ -410,7 +410,7 @@ First included in: service/ResourceSpecification  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -437,7 +437,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: service/ResourceSpecification  (this entity)  
+First included in: service/ResourceSpecification (this entity)  
 
 #### Properties
 
@@ -446,7 +446,7 @@ First included in: service/ResourceSpecification  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -475,7 +475,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: service/ResourceSpecification  (this entity)  
+First included in: service/ResourceSpecification (this entity)  
 
 #### Properties
 
@@ -484,7 +484,7 @@ First included in: service/ResourceSpecification  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -514,7 +514,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: service/ResourceSpecification  (this entity)  
+First included in: service/ResourceSpecification (this entity)  
 
 #### Properties
 
@@ -523,7 +523,7 @@ First included in: service/ResourceSpecification  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  timeZoneRuleVersionNumber  attribute are listed below.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -552,7 +552,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: service/ResourceSpecification  (this entity)  
+First included in: service/ResourceSpecification (this entity)  
 
 #### Properties
 
@@ -561,7 +561,7 @@ First included in: service/ResourceSpecification  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  UTCConversionTimeZoneCode  attribute are listed below.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -590,7 +590,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#name name="name">name</a>
 
 Name of the resource specification.  
-First included in: service/ResourceSpecification  (this entity)  
+First included in: service/ResourceSpecification (this entity)  
 
 #### Properties
 
@@ -599,7 +599,7 @@ First included in: service/ResourceSpecification  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  name  attribute are listed below.</summary>
+<summary>List of traits for the name attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -628,7 +628,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#constraints name="constraints">constraints</a>
 
 Additional constraints, specified as expressions, which are used to filter a set of valid resources.  
-First included in: service/ResourceSpecification  (this entity)  
+First included in: service/ResourceSpecification (this entity)  
 
 #### Properties
 
@@ -637,7 +637,7 @@ First included in: service/ResourceSpecification  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  constraints  attribute are listed below.</summary>
+<summary>List of traits for the constraints attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -668,7 +668,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#description name="description">description</a>
 
 Selection rule that allows the scheduling engine to select a number of resources from a pool of resources. The rules can be associated with a service.  
-First included in: service/ResourceSpecification  (this entity)  
+First included in: service/ResourceSpecification (this entity)  
 
 #### Properties
 
@@ -677,7 +677,7 @@ First included in: service/ResourceSpecification  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  description  attribute are listed below.</summary>
+<summary>List of traits for the description attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -708,7 +708,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#effortRequired name="effortRequired">effortRequired</a>
 
 Number that specifies the minimal effort required from resources.  
-First included in: service/ResourceSpecification  (this entity)  
+First included in: service/ResourceSpecification (this entity)  
 
 #### Properties
 
@@ -717,7 +717,7 @@ First included in: service/ResourceSpecification  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  effortRequired  attribute are listed below.</summary>
+<summary>List of traits for the effortRequired attribute are listed below.</summary>
 
 - **is.dataFormat.floatingPoint**  
 - **is.dataFormat.big**  
@@ -744,7 +744,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#groupObjectId name="groupObjectId">groupObjectId</a>
 
 Unique identifier of the scheduling group with which the resource specification is associated.  
-First included in: service/ResourceSpecification  (this entity)  
+First included in: service/ResourceSpecification (this entity)  
 
 #### Properties
 
@@ -753,7 +753,7 @@ First included in: service/ResourceSpecification  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  groupObjectId  attribute are listed below.</summary>
+<summary>List of traits for the groupObjectId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -779,7 +779,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#objectiveExpression name="objectiveExpression">objectiveExpression</a>
 
 Search strategy to use for the resource specification.  
-First included in: service/ResourceSpecification  (this entity)  
+First included in: service/ResourceSpecification (this entity)  
 
 #### Properties
 
@@ -788,7 +788,7 @@ First included in: service/ResourceSpecification  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  objectiveExpression  attribute are listed below.</summary>
+<summary>List of traits for the objectiveExpression attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -816,7 +816,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#objectTypeCode name="objectTypeCode">objectTypeCode</a>
 
 Type of entity with which the resource specification is associated.  
-First included in: service/ResourceSpecification  (this entity)  
+First included in: service/ResourceSpecification (this entity)  
 
 #### Properties
 
@@ -825,7 +825,7 @@ First included in: service/ResourceSpecification  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  objectTypeCode  attribute are listed below.</summary>
+<summary>List of traits for the objectTypeCode attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -851,7 +851,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#organizationId name="organizationId">organizationId</a>
 
 Unique identifier of the organization with which the resource specification is associated.  
-First included in: service/ResourceSpecification  (this entity)  
+First included in: service/ResourceSpecification (this entity)  
 
 #### Properties
 
@@ -860,7 +860,7 @@ First included in: service/ResourceSpecification  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  organizationId  attribute are listed below.</summary>
+<summary>List of traits for the organizationId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -890,7 +890,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#requiredCount name="requiredCount">requiredCount</a>
 
 Required number of resources that must be available. Use -1 to indicate all resources.  
-First included in: service/ResourceSpecification  (this entity)  
+First included in: service/ResourceSpecification (this entity)  
 
 #### Properties
 
@@ -899,7 +899,7 @@ First included in: service/ResourceSpecification  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  requiredCount  attribute are listed below.</summary>
+<summary>List of traits for the requiredCount attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -925,7 +925,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#sameSite name="sameSite">sameSite</a>
 
 Value that specifies that all valid and available resources must be in the same site.  
-First included in: service/ResourceSpecification  (this entity)  
+First included in: service/ResourceSpecification (this entity)  
 
 #### Properties
 
@@ -934,7 +934,7 @@ First included in: service/ResourceSpecification  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  sameSite  attribute are listed below.</summary>
+<summary>List of traits for the sameSite attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  

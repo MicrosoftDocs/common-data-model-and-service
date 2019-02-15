@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/13/2019
+ms.date: 2/15/2019
 ms.author: tpalmer
 ---
 
@@ -12,13 +12,13 @@ ms.author: tpalmer
 
 Person or group associated with an activity. An activity can have multiple activity parties.  
   
-Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/ActivityParty.cdm.json" target="_blank">GitHub</a>.  
+Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/ActivityParty.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
-Instances of this entity are listed below:  
+Instances of this entity are listed below.  
 
-applicationCommon/ActivityParty  
+/core/applicationCommon/ActivityParty.cdm.json/ActivityParty  
 [service/ActivityParty](foundationCommon/crmCommon/service/ActivityParty.md "/core/applicationCommon/foundationCommon/crmCommon/service/ActivityParty.cdm.json/ActivityParty")  
 
 ## Traits
@@ -77,7 +77,7 @@ applicationCommon/ActivityParty
 ### <a href=#activityId name="activityId">activityId</a>
 
 Unique identifier of the activity associated with the activity party. (A "party" is any person who is associated with an activity.)  
-First included in: applicationCommon/ActivityParty  (this entity)  
+First included in: applicationCommon/ActivityParty (this entity)  
 
 #### Properties
 
@@ -86,7 +86,7 @@ First included in: applicationCommon/ActivityParty  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  activityId  attribute are listed below.</summary>
+<summary>List of traits for the activityId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -116,7 +116,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#activityPartyId name="activityPartyId">activityPartyId</a>
 
 Unique identifier of the activity party.  
-First included in: applicationCommon/ActivityParty  (this entity)  
+First included in: applicationCommon/ActivityParty (this entity)  
 
 #### Properties
 
@@ -125,7 +125,7 @@ First included in: applicationCommon/ActivityParty  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  activityPartyId  attribute are listed below.</summary>
+<summary>List of traits for the activityPartyId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -155,7 +155,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#partyObjectTypeCode name="partyObjectTypeCode">partyObjectTypeCode</a>
 
 The name of the entity linked by partyId  
-First included in: applicationCommon/ActivityParty  (this entity)  
+First included in: applicationCommon/ActivityParty (this entity)  
 
 #### Properties
 
@@ -164,7 +164,7 @@ First included in: applicationCommon/ActivityParty  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  partyObjectTypeCode  attribute are listed below.</summary>
+<summary>List of traits for the partyObjectTypeCode attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -188,7 +188,7 @@ Marks an attribute that contains the entity name or 'class' for the situation wh
 ### <a href=#partyId name="partyId">partyId</a>
 
 Unique identifier of the party associated with the activity.  
-First included in: applicationCommon/ActivityParty  (this entity)  
+First included in: applicationCommon/ActivityParty (this entity)  
 
 #### Properties
 
@@ -197,7 +197,7 @@ First included in: applicationCommon/ActivityParty  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  partyId  attribute are listed below.</summary>
+<summary>List of traits for the partyId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -233,20 +233,20 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#participationTypeMask name="participationTypeMask">participationTypeMask</a>
 
 Role of the person in the activity, such as sender, to, cc, bcc, required, optional, organizer, regarding, or owner.  
-First included in: applicationCommon/ActivityParty  (this entity)  
+First included in: applicationCommon/ActivityParty (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Participation Type</td></tr><tr><td>description</td><td>Role of the person in the activity, such as sender, to, cc, bcc, required, optional, organizer, regarding, or owner.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>participationtypemask</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Sender</td><td>1</td></tr><tr><td>en</td><td>Customer</td><td>11</td></tr><tr><td>en</td><td>CC Recipient</td><td>3</td></tr><tr><td>en</td><td>BCC Recipient</td><td>4</td></tr><tr><td>en</td><td>Required attendee</td><td>5</td></tr><tr><td>en</td><td>To Recipient</td><td>2</td></tr><tr><td>en</td><td>Organizer</td><td>7</td></tr><tr><td>en</td><td>Regarding</td><td>8</td></tr><tr><td>en</td><td>Owner</td><td>9</td></tr><tr><td>en</td><td>Resource</td><td>10</td></tr><tr><td>en</td><td>Optional attendee</td><td>6</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Participation Type</td></tr><tr><td>description</td><td>Role of the person in the activity, such as sender, to, cc, bcc, required, optional, organizer, regarding, or owner.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>participationtypemask</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Sender</td><td>1</td></tr><tr><td>en</td><td>To Recipient</td><td>2</td></tr><tr><td>en</td><td>CC Recipient</td><td>3</td></tr><tr><td>en</td><td>BCC Recipient</td><td>4</td></tr><tr><td>en</td><td>Required attendee</td><td>5</td></tr><tr><td>en</td><td>Optional attendee</td><td>6</td></tr><tr><td>en</td><td>Organizer</td><td>7</td></tr><tr><td>en</td><td>Regarding</td><td>8</td></tr><tr><td>en</td><td>Owner</td><td>9</td></tr><tr><td>en</td><td>Resource</td><td>10</td></tr><tr><td>en</td><td>Customer</td><td>11</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  participationTypeMask  attribute are listed below.</summary>
+<summary>List of traits for the participationTypeMask attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Customer</td><td>11</td></tr><tr><td>en</td><td>Resource</td><td>10</td></tr><tr><td>en</td><td>Owner</td><td>9</td></tr><tr><td>en</td><td>Regarding</td><td>8</td></tr><tr><td>en</td><td>Organizer</td><td>7</td></tr><tr><td>en</td><td>Optional attendee</td><td>6</td></tr><tr><td>en</td><td>Required attendee</td><td>5</td></tr><tr><td>en</td><td>BCC Recipient</td><td>4</td></tr><tr><td>en</td><td>CC Recipient</td><td>3</td></tr><tr><td>en</td><td>To Recipient</td><td>2</td></tr><tr><td>en</td><td>Sender</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Sender</td><td>1</td></tr><tr><td>en</td><td>To Recipient</td><td>2</td></tr><tr><td>en</td><td>CC Recipient</td><td>3</td></tr><tr><td>en</td><td>BCC Recipient</td><td>4</td></tr><tr><td>en</td><td>Required attendee</td><td>5</td></tr><tr><td>en</td><td>Optional attendee</td><td>6</td></tr><tr><td>en</td><td>Organizer</td><td>7</td></tr><tr><td>en</td><td>Regarding</td><td>8</td></tr><tr><td>en</td><td>Owner</td><td>9</td></tr><tr><td>en</td><td>Resource</td><td>10</td></tr><tr><td>en</td><td>Customer</td><td>11</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -270,7 +270,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#participationTypeMask_display name="participationTypeMask_display">participationTypeMask_display</a>
 
-First included in: applicationCommon/ActivityParty  (this entity)  
+First included in: applicationCommon/ActivityParty (this entity)  
 
 #### Properties
 
@@ -279,7 +279,7 @@ First included in: applicationCommon/ActivityParty  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  participationTypeMask_display  attribute are listed below.</summary>
+<summary>List of traits for the participationTypeMask_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -294,7 +294,7 @@ First included in: applicationCommon/ActivityParty  (this entity)
 ### <a href=#addressUsed name="addressUsed">addressUsed</a>
 
 Email address to which an email is delivered, and which is associated with the target entity.  
-First included in: applicationCommon/ActivityParty  (this entity)  
+First included in: applicationCommon/ActivityParty (this entity)  
 
 #### Properties
 
@@ -303,7 +303,7 @@ First included in: applicationCommon/ActivityParty  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  addressUsed  attribute are listed below.</summary>
+<summary>List of traits for the addressUsed attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -334,7 +334,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#doNotFax name="doNotFax">doNotFax</a>
 
 Information about whether to allow sending faxes to the activity party.  
-First included in: applicationCommon/ActivityParty  (this entity)  
+First included in: applicationCommon/ActivityParty (this entity)  
 
 #### Properties
 
@@ -343,7 +343,7 @@ First included in: applicationCommon/ActivityParty  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  doNotFax  attribute are listed below.</summary>
+<summary>List of traits for the doNotFax attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -369,7 +369,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#scheduledStart name="scheduledStart">scheduledStart</a>
 
 Scheduled start time of the activity.  
-First included in: applicationCommon/ActivityParty  (this entity)  
+First included in: applicationCommon/ActivityParty (this entity)  
 
 #### Properties
 
@@ -378,7 +378,7 @@ First included in: applicationCommon/ActivityParty  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  scheduledStart  attribute are listed below.</summary>
+<summary>List of traits for the scheduledStart attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -407,7 +407,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#scheduledEnd name="scheduledEnd">scheduledEnd</a>
 
 Scheduled end time of the activity.  
-First included in: applicationCommon/ActivityParty  (this entity)  
+First included in: applicationCommon/ActivityParty (this entity)  
 
 #### Properties
 
@@ -416,7 +416,7 @@ First included in: applicationCommon/ActivityParty  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  scheduledEnd  attribute are listed below.</summary>
+<summary>List of traits for the scheduledEnd attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -445,7 +445,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#effort name="effort">effort</a>
 
 Amount of effort used by the resource in a service appointment activity.  
-First included in: applicationCommon/ActivityParty  (this entity)  
+First included in: applicationCommon/ActivityParty (this entity)  
 
 #### Properties
 
@@ -454,7 +454,7 @@ First included in: applicationCommon/ActivityParty  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  effort  attribute are listed below.</summary>
+<summary>List of traits for the effort attribute are listed below.</summary>
 
 - **is.dataFormat.floatingPoint**  
 - **is.dataFormat.big**  
@@ -484,7 +484,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#doNotEMail name="doNotEMail">doNotEMail</a>
 
 Information about whether to allow sending email to the activity party.  
-First included in: applicationCommon/ActivityParty  (this entity)  
+First included in: applicationCommon/ActivityParty (this entity)  
 
 #### Properties
 
@@ -493,7 +493,7 @@ First included in: applicationCommon/ActivityParty  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  doNotEMail  attribute are listed below.</summary>
+<summary>List of traits for the doNotEMail attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -519,7 +519,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#exchangeEntryId name="exchangeEntryId">exchangeEntryId</a>
 
 For internal use only.  
-First included in: applicationCommon/ActivityParty  (this entity)  
+First included in: applicationCommon/ActivityParty (this entity)  
 
 #### Properties
 
@@ -528,7 +528,7 @@ First included in: applicationCommon/ActivityParty  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  exchangeEntryId  attribute are listed below.</summary>
+<summary>List of traits for the exchangeEntryId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -558,7 +558,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
-First included in: applicationCommon/ActivityParty  (this entity)  
+First included in: applicationCommon/ActivityParty (this entity)  
 
 #### Properties
 
@@ -567,7 +567,7 @@ First included in: applicationCommon/ActivityParty  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -588,7 +588,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#doNotPostalMail name="doNotPostalMail">doNotPostalMail</a>
 
 Information about whether to allow sending postal mail to the lead.  
-First included in: applicationCommon/ActivityParty  (this entity)  
+First included in: applicationCommon/ActivityParty (this entity)  
 
 #### Properties
 
@@ -597,7 +597,7 @@ First included in: applicationCommon/ActivityParty  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  doNotPostalMail  attribute are listed below.</summary>
+<summary>List of traits for the doNotPostalMail attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -623,7 +623,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#doNotPhone name="doNotPhone">doNotPhone</a>
 
 Information about whether to allow phone calls to the lead.  
-First included in: applicationCommon/ActivityParty  (this entity)  
+First included in: applicationCommon/ActivityParty (this entity)  
 
 #### Properties
 
@@ -632,7 +632,7 @@ First included in: applicationCommon/ActivityParty  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  doNotPhone  attribute are listed below.</summary>
+<summary>List of traits for the doNotPhone attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -658,7 +658,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: applicationCommon/ActivityParty  (this entity)  
+First included in: applicationCommon/ActivityParty (this entity)  
 
 #### Properties
 
@@ -667,7 +667,7 @@ First included in: applicationCommon/ActivityParty  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerIdType  attribute are listed below.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -697,7 +697,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: applicationCommon/ActivityParty  (this entity)  
+First included in: applicationCommon/ActivityParty (this entity)  
 
 #### Properties
 
@@ -706,7 +706,7 @@ First included in: applicationCommon/ActivityParty  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerId  attribute are listed below.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -742,7 +742,7 @@ contains a User or Team ID
 ### <a href=#instanceTypeCode name="instanceTypeCode">instanceTypeCode</a>
 
 Type of instance of a recurring series.  
-First included in: applicationCommon/ActivityParty  (this entity)  
+First included in: applicationCommon/ActivityParty (this entity)  
 
 #### Properties
 
@@ -751,11 +751,11 @@ First included in: applicationCommon/ActivityParty  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  instanceTypeCode  attribute are listed below.</summary>
+<summary>List of traits for the instanceTypeCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Recurring Future Exception</td><td>4</td></tr><tr><td>en</td><td>Recurring Exception</td><td>3</td></tr><tr><td>en</td><td>Recurring Instance</td><td>2</td></tr><tr><td>en</td><td>Recurring Master</td><td>1</td></tr><tr><td>en</td><td>Not Recurring</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not Recurring</td><td>0</td></tr><tr><td>en</td><td>Recurring Master</td><td>1</td></tr><tr><td>en</td><td>Recurring Instance</td><td>2</td></tr><tr><td>en</td><td>Recurring Exception</td><td>3</td></tr><tr><td>en</td><td>Recurring Future Exception</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -779,7 +779,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#instanceTypeCode_display name="instanceTypeCode_display">instanceTypeCode_display</a>
 
-First included in: applicationCommon/ActivityParty  (this entity)  
+First included in: applicationCommon/ActivityParty (this entity)  
 
 #### Properties
 
@@ -788,7 +788,7 @@ First included in: applicationCommon/ActivityParty  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  instanceTypeCode_display  attribute are listed below.</summary>
+<summary>List of traits for the instanceTypeCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -803,7 +803,7 @@ First included in: applicationCommon/ActivityParty  (this entity)
 ### <a href=#isPartyDeleted name="isPartyDeleted">isPartyDeleted</a>
 
 Information about whether the underlying entity record is deleted.  
-First included in: applicationCommon/ActivityParty  (this entity)  
+First included in: applicationCommon/ActivityParty (this entity)  
 
 #### Properties
 
@@ -812,7 +812,7 @@ First included in: applicationCommon/ActivityParty  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  isPartyDeleted  attribute are listed below.</summary>
+<summary>List of traits for the isPartyDeleted attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -835,7 +835,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#addressUsedEmailColumnNumber name="addressUsedEmailColumnNumber">addressUsedEmailColumnNumber</a>
 
 Email address column number from associated party.  
-First included in: applicationCommon/ActivityParty  (this entity)  
+First included in: applicationCommon/ActivityParty (this entity)  
 
 #### Properties
 
@@ -844,7 +844,7 @@ First included in: applicationCommon/ActivityParty  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  addressUsedEmailColumnNumber  attribute are listed below.</summary>
+<summary>List of traits for the addressUsedEmailColumnNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  

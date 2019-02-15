@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/13/2019
+ms.date: 2/15/2019
 ms.author: tpalmer
 ---
 
@@ -12,13 +12,13 @@ ms.author: tpalmer
 
 The Master appointment of a recurring appointment series.  
   
-Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/RecurringAppointment.cdm.json" target="_blank">GitHub</a>.  
+Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/RecurringAppointment.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
-Instances of this entity are listed below:  
+Instances of this entity are listed below.  
 
-applicationCommon/RecurringAppointment  
+/core/applicationCommon/RecurringAppointment.cdm.json/RecurringAppointment  
 [crmCommon/RecurringAppointment](foundationCommon/crmCommon/RecurringAppointment.md "/core/applicationCommon/foundationCommon/crmCommon/RecurringAppointment.cdm.json/RecurringAppointment")  
 
 ## Traits
@@ -142,7 +142,7 @@ applicationCommon/RecurringAppointment
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -151,7 +151,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOn  attribute are listed below.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -181,7 +181,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -190,7 +190,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdBy  attribute are listed below.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -226,7 +226,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -235,7 +235,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -265,7 +265,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -274,7 +274,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -310,7 +310,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -319,7 +319,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -355,7 +355,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -364,7 +364,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -400,7 +400,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -409,7 +409,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -439,7 +439,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -448,7 +448,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -474,7 +474,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -483,7 +483,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerIdType  attribute are listed below.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -513,7 +513,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -522,7 +522,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerId  attribute are listed below.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -558,7 +558,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -567,7 +567,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningBusinessUnit  attribute are listed below.</summary>
+<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -600,7 +600,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -609,7 +609,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningUser  attribute are listed below.</summary>
+<summary>List of traits for the owningUser attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -645,7 +645,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -654,7 +654,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningTeam  attribute are listed below.</summary>
+<summary>List of traits for the owningTeam attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -687,7 +687,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -696,7 +696,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  timeZoneRuleVersionNumber  attribute are listed below.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -725,7 +725,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -734,7 +734,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  UTCConversionTimeZoneCode  attribute are listed below.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -763,7 +763,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -772,7 +772,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -800,7 +800,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#activityTypeCode name="activityTypeCode">activityTypeCode</a>
 
 Type of activity.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -809,7 +809,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  activityTypeCode  attribute are listed below.</summary>
+<summary>List of traits for the activityTypeCode attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -839,7 +839,7 @@ Marks an attribute that contains the entity name or 'class' for the situation wh
 ### <a href=#activityId name="activityId">activityId</a>
 
 Unique identifier of the activity.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -848,7 +848,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  activityId  attribute are listed below.</summary>
+<summary>List of traits for the activityId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -878,7 +878,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#isBilled name="isBilled">isBilled</a>
 
 Information regarding whether the fax activity was billed as part of resolving a case.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -887,7 +887,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  isBilled  attribute are listed below.</summary>
+<summary>List of traits for the isBilled attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -910,7 +910,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#isRegularActivity name="isRegularActivity">isRegularActivity</a>
 
 Information regarding whether the activity is a regular activity type or event type.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -919,7 +919,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  isRegularActivity  attribute are listed below.</summary>
+<summary>List of traits for the isRegularActivity attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -939,7 +939,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#isWorkflowCreated name="isWorkflowCreated">isWorkflowCreated</a>
 
 Information regarding whether the activity was created from a workflow rule.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -948,7 +948,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  isWorkflowCreated  attribute are listed below.</summary>
+<summary>List of traits for the isWorkflowCreated attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -971,20 +971,20 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#priorityCode name="priorityCode">priorityCode</a>
 
 Priority of the activity.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Priority</td></tr><tr><td>description</td><td>Priority of the activity.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>prioritycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>High</td><td>2</td></tr><tr><td>en</td><td>Normal</td><td>1</td></tr><tr><td>en</td><td>Low</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Priority</td></tr><tr><td>description</td><td>Priority of the activity.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>prioritycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Low</td><td>0</td></tr><tr><td>en</td><td>Normal</td><td>1</td></tr><tr><td>en</td><td>High</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  priorityCode  attribute are listed below.</summary>
+<summary>List of traits for the priorityCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>High</td><td>2</td></tr><tr><td>en</td><td>Normal</td><td>1</td></tr><tr><td>en</td><td>Low</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Low</td><td>0</td></tr><tr><td>en</td><td>Normal</td><td>1</td></tr><tr><td>en</td><td>High</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1008,7 +1008,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 
 ### <a href=#priorityCode_display name="priorityCode_display">priorityCode_display</a>
 
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -1017,7 +1017,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  priorityCode_display  attribute are listed below.</summary>
+<summary>List of traits for the priorityCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1032,7 +1032,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 ### <a href=#regardingObjectTypeCode name="regardingObjectTypeCode">regardingObjectTypeCode</a>
 
 The name of the entity linked by regardingObjectId  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -1041,7 +1041,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  regardingObjectTypeCode  attribute are listed below.</summary>
+<summary>List of traits for the regardingObjectTypeCode attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1065,7 +1065,7 @@ Marks an attribute that contains the entity name or 'class' for the situation wh
 ### <a href=#regardingObjectId name="regardingObjectId">regardingObjectId</a>
 
 Unique identifier of the object with which the activity is associated.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -1074,7 +1074,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  regardingObjectId  attribute are listed below.</summary>
+<summary>List of traits for the regardingObjectId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1107,7 +1107,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#scheduledEnd name="scheduledEnd">scheduledEnd</a>
 
 Scheduled end time of the activity.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -1116,7 +1116,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  scheduledEnd  attribute are listed below.</summary>
+<summary>List of traits for the scheduledEnd attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1142,7 +1142,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#scheduledStart name="scheduledStart">scheduledStart</a>
 
 Scheduled start time of the activity.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -1151,7 +1151,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  scheduledStart  attribute are listed below.</summary>
+<summary>List of traits for the scheduledStart attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1177,7 +1177,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#sortDate name="sortDate">sortDate</a>
 
 Shows the date and time by which the activities are sorted.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -1186,7 +1186,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  sortDate  attribute are listed below.</summary>
+<summary>List of traits for the sortDate attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1215,7 +1215,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#subject name="subject">subject</a>
 
 Subject associated with the activity.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -1224,7 +1224,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  subject  attribute are listed below.</summary>
+<summary>List of traits for the subject attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1252,7 +1252,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#category name="category">category</a>
 
 Type a category to identify the activity type, such as lead outreach, customer follow-up, or service alert, to tie the eactivity to a business group or function.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -1261,7 +1261,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  category  attribute are listed below.</summary>
+<summary>List of traits for the category attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1290,7 +1290,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#subcategory name="subcategory">subcategory</a>
 
 Type a subcategory to identify the activity type and relate the activity to a specific product, sales region, business group, or other function.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -1299,7 +1299,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  subcategory  attribute are listed below.</summary>
+<summary>List of traits for the subcategory attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1327,20 +1327,20 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#instanceTypeCode name="instanceTypeCode">instanceTypeCode</a>
 
 Type of instance of a recurring series.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Recurring Instance Type</td></tr><tr><td>description</td><td>Type of instance of a recurring series.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>instancetypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Recurring Future Exception</td><td>4</td></tr><tr><td>en</td><td>Recurring Exception</td><td>3</td></tr><tr><td>en</td><td>Recurring Instance</td><td>2</td></tr><tr><td>en</td><td>Recurring Master</td><td>1</td></tr><tr><td>en</td><td>Not Recurring</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Recurring Instance Type</td></tr><tr><td>description</td><td>Type of instance of a recurring series.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>instancetypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not Recurring</td><td>0</td></tr><tr><td>en</td><td>Recurring Master</td><td>1</td></tr><tr><td>en</td><td>Recurring Instance</td><td>2</td></tr><tr><td>en</td><td>Recurring Exception</td><td>3</td></tr><tr><td>en</td><td>Recurring Future Exception</td><td>4</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  instanceTypeCode  attribute are listed below.</summary>
+<summary>List of traits for the instanceTypeCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Recurring Future Exception</td><td>4</td></tr><tr><td>en</td><td>Recurring Exception</td><td>3</td></tr><tr><td>en</td><td>Recurring Instance</td><td>2</td></tr><tr><td>en</td><td>Recurring Master</td><td>1</td></tr><tr><td>en</td><td>Not Recurring</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not Recurring</td><td>0</td></tr><tr><td>en</td><td>Recurring Master</td><td>1</td></tr><tr><td>en</td><td>Recurring Instance</td><td>2</td></tr><tr><td>en</td><td>Recurring Exception</td><td>3</td></tr><tr><td>en</td><td>Recurring Future Exception</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1361,7 +1361,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 
 ### <a href=#instanceTypeCode_display name="instanceTypeCode_display">instanceTypeCode_display</a>
 
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -1370,7 +1370,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  instanceTypeCode_display  attribute are listed below.</summary>
+<summary>List of traits for the instanceTypeCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1385,7 +1385,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 ### <a href=#isMapiPrivate name="isMapiPrivate">isMapiPrivate</a>
 
 For internal use only.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -1394,7 +1394,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  isMapiPrivate  attribute are listed below.</summary>
+<summary>List of traits for the isMapiPrivate attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1417,7 +1417,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#organizer name="organizer">organizer</a>
 
 The user who is in charge of coordinating or leading the activity.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -1426,7 +1426,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  organizer  attribute are listed below.</summary>
+<summary>List of traits for the organizer attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1458,7 +1458,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#requiredAttendees name="requiredAttendees">requiredAttendees</a>
 
 Enter the account, contact, lead, user, or other equipment resources that are required to attend the appointment.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -1467,7 +1467,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  requiredAttendees  attribute are listed below.</summary>
+<summary>List of traits for the requiredAttendees attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1499,7 +1499,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#optionalAttendees name="optionalAttendees">optionalAttendees</a>
 
 Enter the account, contact, lead, user, or other equipment resources that are not needed at the appointment, but can optionally attend.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -1508,7 +1508,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  optionalAttendees  attribute are listed below.</summary>
+<summary>List of traits for the optionalAttendees attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1540,7 +1540,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#isWeekDayPattern name="isWeekDayPattern">isWeekDayPattern</a>
 
 Indicates whether the weekly recurrence pattern is a daily weekday pattern. Valid for weekly recurrence pattern only.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -1549,7 +1549,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  isWeekDayPattern  attribute are listed below.</summary>
+<summary>List of traits for the isWeekDayPattern attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1572,7 +1572,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#ruleId name="ruleId">ruleId</a>
 
 Unique identifier of the recurrence rule that is associated with the recurring appointment series.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -1581,7 +1581,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ruleId  attribute are listed below.</summary>
+<summary>List of traits for the ruleId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1614,7 +1614,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isNthYearly name="isNthYearly">isNthYearly</a>
 
 Indicates whether the recurring appointment series should occur after every N years. Valid for yearly recurrence pattern only.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -1623,7 +1623,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  isNthYearly  attribute are listed below.</summary>
+<summary>List of traits for the isNthYearly attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1646,7 +1646,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Shows whether the recurring appointment is open, scheduled, completed, or canceled. Completed and canceled appointments are read-only and can't be edited.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -1655,11 +1655,11 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode  attribute are listed below.</summary>
+<summary>List of traits for the stateCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Scheduled</td><td>3</td></tr><tr><td>en</td><td>Canceled</td><td>2</td></tr><tr><td>en</td><td>Completed</td><td>1</td></tr><tr><td>en</td><td>Open</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Open</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>2</td></tr><tr><td>en</td><td>Scheduled</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1686,7 +1686,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -1695,7 +1695,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode_display  attribute are listed below.</summary>
+<summary>List of traits for the stateCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1710,7 +1710,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 ### <a href=#groupId name="groupId">groupId</a>
 
 Unique identifier of the recurring appointment series for which the recurrence information was updated.   
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -1719,7 +1719,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  groupId  attribute are listed below.</summary>
+<summary>List of traits for the groupId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1752,7 +1752,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#lastExpandedInstanceDate name="lastExpandedInstanceDate">lastExpandedInstanceDate</a>
 
 Date of last expanded instance of a recurring appointment series.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -1761,7 +1761,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  lastExpandedInstanceDate  attribute are listed below.</summary>
+<summary>List of traits for the lastExpandedInstanceDate attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1790,7 +1790,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#effectiveEndDate name="effectiveEndDate">effectiveEndDate</a>
 
 Actual end date of the recurring appointment series based on the specified end date and recurrence pattern.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -1799,7 +1799,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  effectiveEndDate  attribute are listed below.</summary>
+<summary>List of traits for the effectiveEndDate attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1828,7 +1828,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#patternStartDate name="patternStartDate">patternStartDate</a>
 
 Start date of the recurrence range.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -1837,7 +1837,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  patternStartDate  attribute are listed below.</summary>
+<summary>List of traits for the patternStartDate attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1866,7 +1866,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isRegenerate name="isRegenerate">isRegenerate</a>
 
 For internal use only.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -1875,7 +1875,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  isRegenerate  attribute are listed below.</summary>
+<summary>List of traits for the isRegenerate attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1898,7 +1898,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#firstDayOfWeek name="firstDayOfWeek">firstDayOfWeek</a>
 
 First day of week for the recurrence pattern.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -1907,7 +1907,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  firstDayOfWeek  attribute are listed below.</summary>
+<summary>List of traits for the firstDayOfWeek attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1936,7 +1936,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#outlookOwnerApptId name="outlookOwnerApptId">outlookOwnerApptId</a>
 
 Unique identifier of the Microsoft Office Outlook recurring appointment series owner that correlates to the PR_OWNER_APPT_ID MAPI property.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -1945,7 +1945,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  outlookOwnerApptId  attribute are listed below.</summary>
+<summary>List of traits for the outlookOwnerApptId attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1974,7 +1974,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#recurrencePatternType name="recurrencePatternType">recurrencePatternType</a>
 
 Select the pattern type for the recurring appointment to indicate whether the appointment occurs daily, weekly, monthly, or yearly.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -1983,11 +1983,11 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  recurrencePatternType  attribute are listed below.</summary>
+<summary>List of traits for the recurrencePatternType attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Yearly</td><td>3</td></tr><tr><td>en</td><td>Monthly</td><td>2</td></tr><tr><td>en</td><td>Weekly</td><td>1</td></tr><tr><td>en</td><td>Daily</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Daily</td><td>0</td></tr><tr><td>en</td><td>Weekly</td><td>1</td></tr><tr><td>en</td><td>Monthly</td><td>2</td></tr><tr><td>en</td><td>Yearly</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2011,7 +2011,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#recurrencePatternType_display name="recurrencePatternType_display">recurrencePatternType_display</a>
 
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -2020,7 +2020,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  recurrencePatternType_display  attribute are listed below.</summary>
+<summary>List of traits for the recurrencePatternType_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2035,7 +2035,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 ### <a href=#nextExpansionInstanceDate name="nextExpansionInstanceDate">nextExpansionInstanceDate</a>
 
 Date of the next expanded instance of a recurring appointment series.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -2044,7 +2044,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  nextExpansionInstanceDate  attribute are listed below.</summary>
+<summary>List of traits for the nextExpansionInstanceDate attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -2073,7 +2073,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#expansionStateCode name="expansionStateCode">expansionStateCode</a>
 
 State code to indicate whether the recurring appointment series is expanded fully or partially.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -2082,11 +2082,11 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  expansionStateCode  attribute are listed below.</summary>
+<summary>List of traits for the expansionStateCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Full</td><td>2</td></tr><tr><td>en</td><td>Partial</td><td>1</td></tr><tr><td>en</td><td>Unexpanded</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Unexpanded</td><td>0</td></tr><tr><td>en</td><td>Partial</td><td>1</td></tr><tr><td>en</td><td>Full</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2113,7 +2113,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#expansionStateCode_display name="expansionStateCode_display">expansionStateCode_display</a>
 
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -2122,7 +2122,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  expansionStateCode_display  attribute are listed below.</summary>
+<summary>List of traits for the expansionStateCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2137,7 +2137,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 ### <a href=#patternEndDate name="patternEndDate">patternEndDate</a>
 
 End date of the recurrence range.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -2146,7 +2146,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  patternEndDate  attribute are listed below.</summary>
+<summary>List of traits for the patternEndDate attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -2175,7 +2175,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#globalObjectId name="globalObjectId">globalObjectId</a>
 
 Unique Outlook identifier to correlate recurring appointment series across Exchange mailboxes.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -2184,7 +2184,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  globalObjectId  attribute are listed below.</summary>
+<summary>List of traits for the globalObjectId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2215,7 +2215,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#effectiveStartDate name="effectiveStartDate">effectiveStartDate</a>
 
 Actual start date of the recurring appointment series based on the specified start date and recurrence pattern.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -2224,7 +2224,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  effectiveStartDate  attribute are listed below.</summary>
+<summary>List of traits for the effectiveStartDate attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -2253,7 +2253,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#dayOfMonth name="dayOfMonth">dayOfMonth</a>
 
 The day of the month on which the recurring appointment occurs.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -2262,7 +2262,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  dayOfMonth  attribute are listed below.</summary>
+<summary>List of traits for the dayOfMonth attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -2291,20 +2291,20 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Select the recurring appointment's status.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the recurring appointment's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Free</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Tentative</td><td>2</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>3</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>4</td><td>3</td><td>2</td></tr><tr><td>en</td><td>Busy</td><td>5</td><td>4</td><td>3</td></tr><tr><td>en</td><td>Out of Office</td><td>6</td><td>5</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the recurring appointment's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Free</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Tentative</td><td>2</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>3</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>4</td><td>2</td></tr><tr><td>en</td><td>Busy</td><td>5</td><td>3</td></tr><tr><td>en</td><td>Out of Office</td><td>6</td><td>3</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode  attribute are listed below.</summary>
+<summary>List of traits for the statusCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Free</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Tentative</td><td>2</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>3</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>4</td><td>3</td><td>2</td></tr><tr><td>en</td><td>Busy</td><td>5</td><td>4</td><td>3</td></tr><tr><td>en</td><td>Out of Office</td><td>6</td><td>5</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Free</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Tentative</td><td>2</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>3</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>4</td><td>2</td></tr><tr><td>en</td><td>Busy</td><td>5</td><td>3</td></tr><tr><td>en</td><td>Out of Office</td><td>6</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2334,7 +2334,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -2343,7 +2343,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode_display  attribute are listed below.</summary>
+<summary>List of traits for the statusCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2358,7 +2358,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 ### <a href=#startTime name="startTime">startTime</a>
 
 Start time of the recurring appointment series.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -2367,7 +2367,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  startTime  attribute are listed below.</summary>
+<summary>List of traits for the startTime attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -2396,7 +2396,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#occurrences name="occurrences">occurrences</a>
 
 Number of appointment occurrences in a recurring appointment series.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -2405,7 +2405,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  occurrences  attribute are listed below.</summary>
+<summary>List of traits for the occurrences attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -2434,7 +2434,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#isAllDayEvent name="isAllDayEvent">isAllDayEvent</a>
 
 Select whether the recurring appointment is an all-day event to make sure that the required resources are scheduled for the full day.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -2443,7 +2443,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  isAllDayEvent  attribute are listed below.</summary>
+<summary>List of traits for the isAllDayEvent attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -2469,7 +2469,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#seriesStatus name="seriesStatus">seriesStatus</a>
 
 Indicates whether the recurring appointment series is active or inactive.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -2478,7 +2478,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  seriesStatus  attribute are listed below.</summary>
+<summary>List of traits for the seriesStatus attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -2504,7 +2504,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isNthMonthly name="isNthMonthly">isNthMonthly</a>
 
 Indicates whether the recurring appointment series should occur after every N months. Valid for monthly recurrence pattern only.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -2513,7 +2513,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  isNthMonthly  attribute are listed below.</summary>
+<summary>List of traits for the isNthMonthly attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -2536,7 +2536,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#endTime name="endTime">endTime</a>
 
 End time of the associated activity.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -2545,7 +2545,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  endTime  attribute are listed below.</summary>
+<summary>List of traits for the endTime attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -2574,7 +2574,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#daysOfWeekMask name="daysOfWeekMask">daysOfWeekMask</a>
 
 Bitmask that represents the days of the week on which the recurring appointment occurs.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -2583,7 +2583,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  daysOfWeekMask  attribute are listed below.</summary>
+<summary>List of traits for the daysOfWeekMask attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -2612,7 +2612,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#description name="description">description</a>
 
 Type additional information to describe the recurring appointment, such as key talking points or objectives.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -2621,7 +2621,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  description  attribute are listed below.</summary>
+<summary>List of traits for the description attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2652,7 +2652,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#instance name="instance">instance</a>
 
 Specifies the recurring appointment series to occur on every Nth day of a month. Valid for monthly and yearly recurrence patterns only.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -2661,11 +2661,11 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  instance  attribute are listed below.</summary>
+<summary>List of traits for the instance attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Last</td><td>5</td></tr><tr><td>en</td><td>Fourth</td><td>4</td></tr><tr><td>en</td><td>Third</td><td>3</td></tr><tr><td>en</td><td>Second</td><td>2</td></tr><tr><td>en</td><td>First</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>First</td><td>1</td></tr><tr><td>en</td><td>Second</td><td>2</td></tr><tr><td>en</td><td>Third</td><td>3</td></tr><tr><td>en</td><td>Fourth</td><td>4</td></tr><tr><td>en</td><td>Last</td><td>5</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2692,7 +2692,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#instance_display name="instance_display">instance_display</a>
 
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -2701,7 +2701,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  instance_display  attribute are listed below.</summary>
+<summary>List of traits for the instance_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2716,7 +2716,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 ### <a href=#deletedExceptionsList name="deletedExceptionsList">deletedExceptionsList</a>
 
 List of deleted instances of the recurring appointment series.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -2725,7 +2725,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  deletedExceptionsList  attribute are listed below.</summary>
+<summary>List of traits for the deletedExceptionsList attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2756,7 +2756,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#interval name="interval">interval</a>
 
 Number of units of a given recurrence type between occurrences.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -2765,7 +2765,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  interval  attribute are listed below.</summary>
+<summary>List of traits for the interval attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -2794,7 +2794,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#duration name="duration">duration</a>
 
 Duration of the recurring appointment series in minutes.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -2803,7 +2803,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  duration  attribute are listed below.</summary>
+<summary>List of traits for the duration attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **means.measurement.duration**  
@@ -2833,20 +2833,20 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#monthOfYear name="monthOfYear">monthOfYear</a>
 
 Indicates the month of the year for the recurrence pattern.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Month Of Year</td></tr><tr><td>description</td><td>Indicates the month of the year for the recurrence pattern.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>monthofyear</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Invalid Month Of Year</td><td>0</td></tr><tr><td>en</td><td>December</td><td>12</td></tr><tr><td>en</td><td>February</td><td>2</td></tr><tr><td>en</td><td>March</td><td>3</td></tr><tr><td>en</td><td>April</td><td>4</td></tr><tr><td>en</td><td>May</td><td>5</td></tr><tr><td>en</td><td>January</td><td>1</td></tr><tr><td>en</td><td>July</td><td>7</td></tr><tr><td>en</td><td>August</td><td>8</td></tr><tr><td>en</td><td>September</td><td>9</td></tr><tr><td>en</td><td>October</td><td>10</td></tr><tr><td>en</td><td>November</td><td>11</td></tr><tr><td>en</td><td>June</td><td>6</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Month Of Year</td></tr><tr><td>description</td><td>Indicates the month of the year for the recurrence pattern.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>monthofyear</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Invalid Month Of Year</td><td>0</td></tr><tr><td>en</td><td>January</td><td>1</td></tr><tr><td>en</td><td>February</td><td>2</td></tr><tr><td>en</td><td>March</td><td>3</td></tr><tr><td>en</td><td>April</td><td>4</td></tr><tr><td>en</td><td>May</td><td>5</td></tr><tr><td>en</td><td>June</td><td>6</td></tr><tr><td>en</td><td>July</td><td>7</td></tr><tr><td>en</td><td>August</td><td>8</td></tr><tr><td>en</td><td>September</td><td>9</td></tr><tr><td>en</td><td>October</td><td>10</td></tr><tr><td>en</td><td>November</td><td>11</td></tr><tr><td>en</td><td>December</td><td>12</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  monthOfYear  attribute are listed below.</summary>
+<summary>List of traits for the monthOfYear attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>December</td><td>12</td></tr><tr><td>en</td><td>November</td><td>11</td></tr><tr><td>en</td><td>October</td><td>10</td></tr><tr><td>en</td><td>September</td><td>9</td></tr><tr><td>en</td><td>August</td><td>8</td></tr><tr><td>en</td><td>July</td><td>7</td></tr><tr><td>en</td><td>June</td><td>6</td></tr><tr><td>en</td><td>May</td><td>5</td></tr><tr><td>en</td><td>April</td><td>4</td></tr><tr><td>en</td><td>March</td><td>3</td></tr><tr><td>en</td><td>February</td><td>2</td></tr><tr><td>en</td><td>January</td><td>1</td></tr><tr><td>en</td><td>Invalid Month Of Year</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Invalid Month Of Year</td><td>0</td></tr><tr><td>en</td><td>January</td><td>1</td></tr><tr><td>en</td><td>February</td><td>2</td></tr><tr><td>en</td><td>March</td><td>3</td></tr><tr><td>en</td><td>April</td><td>4</td></tr><tr><td>en</td><td>May</td><td>5</td></tr><tr><td>en</td><td>June</td><td>6</td></tr><tr><td>en</td><td>July</td><td>7</td></tr><tr><td>en</td><td>August</td><td>8</td></tr><tr><td>en</td><td>September</td><td>9</td></tr><tr><td>en</td><td>October</td><td>10</td></tr><tr><td>en</td><td>November</td><td>11</td></tr><tr><td>en</td><td>December</td><td>12</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2873,7 +2873,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#monthOfYear_display name="monthOfYear_display">monthOfYear_display</a>
 
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -2882,7 +2882,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  monthOfYear_display  attribute are listed below.</summary>
+<summary>List of traits for the monthOfYear_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2897,7 +2897,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 ### <a href=#location name="location">location</a>
 
 Type the location where the recurring appointment will take place, such as a conference room or customer office.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -2906,7 +2906,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  location  attribute are listed below.</summary>
+<summary>List of traits for the location attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2937,7 +2937,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#patternEndType name="patternEndType">patternEndType</a>
 
 Select the type of end date for the recurring appointment, such as no end date or the number of occurrences.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -2946,11 +2946,11 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  patternEndType  attribute are listed below.</summary>
+<summary>List of traits for the patternEndType attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Pattern End Date</td><td>3</td></tr><tr><td>en</td><td>Occurrences</td><td>2</td></tr><tr><td>en</td><td>No End Date</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No End Date</td><td>1</td></tr><tr><td>en</td><td>Occurrences</td><td>2</td></tr><tr><td>en</td><td>Pattern End Date</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2974,7 +2974,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#patternEndType_display name="patternEndType_display">patternEndType_display</a>
 
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -2983,7 +2983,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  patternEndType_display  attribute are listed below.</summary>
+<summary>List of traits for the patternEndType_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2998,7 +2998,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Choose the local currency for the record to make sure budgets are reported in the correct currency.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -3007,7 +3007,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  transactionCurrencyId  attribute are listed below.</summary>
+<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3040,7 +3040,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -3049,7 +3049,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  exchangeRate  attribute are listed below.</summary>
+<summary>List of traits for the exchangeRate attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3080,7 +3080,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#processId name="processId">processId</a>
 
 Shows the ID of the process.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -3089,7 +3089,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  processId  attribute are listed below.</summary>
+<summary>List of traits for the processId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3118,7 +3118,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stageId name="stageId">stageId</a>
 
 Shows the ID of the stage.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -3127,7 +3127,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  stageId  attribute are listed below.</summary>
+<summary>List of traits for the stageId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3156,7 +3156,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#traversedPath name="traversedPath">traversedPath</a>
 
 For internal use only.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -3165,7 +3165,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  traversedPath  attribute are listed below.</summary>
+<summary>List of traits for the traversedPath attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3196,7 +3196,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#isUnsafe name="isUnsafe">isUnsafe</a>
 
 For internal use only.  
-First included in: applicationCommon/RecurringAppointment  (this entity)  
+First included in: applicationCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -3205,7 +3205,7 @@ First included in: applicationCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  isUnsafe  attribute are listed below.</summary>
+<summary>List of traits for the isUnsafe attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  

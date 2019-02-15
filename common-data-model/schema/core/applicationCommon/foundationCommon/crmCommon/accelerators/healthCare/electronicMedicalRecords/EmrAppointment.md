@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/13/2019
+ms.date: 2/15/2019
 ms.author: tpalmer
 ---
 
@@ -12,13 +12,13 @@ ms.author: tpalmer
 
 A booking of a healthcare event among patient(s), practitioner(s), related person(s) and/or device(s) for a specific date/time. This may result in one or more Encounter(s).  
   
-Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json" target="_blank">GitHub</a>.  
+Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
-Instances of this entity are listed below:  
+Instances of this entity are listed below.  
 
-electronicMedicalRecords/EmrAppointment  
+/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
 
 ## Traits
 
@@ -152,7 +152,7 @@ electronicMedicalRecords/EmrAppointment
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -161,7 +161,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOn  attribute are listed below.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -191,7 +191,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -200,7 +200,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdBy  attribute are listed below.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -236,7 +236,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -245,7 +245,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -275,7 +275,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -284,7 +284,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -320,7 +320,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -329,7 +329,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -365,7 +365,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -374,7 +374,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -410,7 +410,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -419,7 +419,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -449,7 +449,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -458,7 +458,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -484,7 +484,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -493,7 +493,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerIdType  attribute are listed below.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -523,7 +523,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -532,7 +532,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerId  attribute are listed below.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -568,7 +568,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -577,7 +577,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningBusinessUnit  attribute are listed below.</summary>
+<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -610,7 +610,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -619,7 +619,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningUser  attribute are listed below.</summary>
+<summary>List of traits for the owningUser attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -655,7 +655,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -664,7 +664,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningTeam  attribute are listed below.</summary>
+<summary>List of traits for the owningTeam attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -697,7 +697,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -706,7 +706,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  timeZoneRuleVersionNumber  attribute are listed below.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -735,7 +735,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -744,7 +744,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  UTCConversionTimeZoneCode  attribute are listed below.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -773,7 +773,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -782,7 +782,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -810,7 +810,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#actualEnd name="actualEnd">actualEnd</a>
 
 Actual end time of the activity.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -819,7 +819,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  actualEnd  attribute are listed below.</summary>
+<summary>List of traits for the actualEnd attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -848,7 +848,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#activityId name="activityId">activityId</a>
 
 Unique identifier of the activity.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -857,7 +857,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  activityId  attribute are listed below.</summary>
+<summary>List of traits for the activityId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -887,7 +887,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isBilled name="isBilled">isBilled</a>
 
 Information regarding whether the activity was billed as part of resolving a case.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -896,7 +896,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  isBilled  attribute are listed below.</summary>
+<summary>List of traits for the isBilled attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -922,7 +922,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#description name="description">description</a>
 
 Description of the activity.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -931,7 +931,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  description  attribute are listed below.</summary>
+<summary>List of traits for the description attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -962,7 +962,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#activityTypeCode name="activityTypeCode">activityTypeCode</a>
 
 Type of activity.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -971,7 +971,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  activityTypeCode  attribute are listed below.</summary>
+<summary>List of traits for the activityTypeCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -999,7 +999,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#activityTypeCode_display name="activityTypeCode_display">activityTypeCode_display</a>
 
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -1008,7 +1008,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  activityTypeCode_display  attribute are listed below.</summary>
+<summary>List of traits for the activityTypeCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1023,7 +1023,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Status of the activity.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -1032,11 +1032,11 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode  attribute are listed below.</summary>
+<summary>List of traits for the stateCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Scheduled</td><td>3</td></tr><tr><td>en</td><td>Canceled</td><td>2</td></tr><tr><td>en</td><td>Completed</td><td>1</td></tr><tr><td>en</td><td>Open</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Open</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>2</td></tr><tr><td>en</td><td>Scheduled</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1063,7 +1063,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -1072,7 +1072,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode_display  attribute are listed below.</summary>
+<summary>List of traits for the stateCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1087,7 +1087,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 ### <a href=#scheduledEnd name="scheduledEnd">scheduledEnd</a>
 
 Scheduled end time of the activity.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -1096,7 +1096,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  scheduledEnd  attribute are listed below.</summary>
+<summary>List of traits for the scheduledEnd attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1125,7 +1125,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#scheduledDurationMinutes name="scheduledDurationMinutes">scheduledDurationMinutes</a>
 
 Scheduled duration of the activity, specified in minutes.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -1134,7 +1134,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  scheduledDurationMinutes  attribute are listed below.</summary>
+<summary>List of traits for the scheduledDurationMinutes attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **means.measurement.duration.minutes**  
@@ -1164,7 +1164,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#actualDurationMinutes name="actualDurationMinutes">actualDurationMinutes</a>
 
 Actual duration of the activity in minutes.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -1173,7 +1173,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  actualDurationMinutes  attribute are listed below.</summary>
+<summary>List of traits for the actualDurationMinutes attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **means.measurement.duration.minutes**  
@@ -1203,20 +1203,20 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Reason for the status of the activity.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the activity.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Pending</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Fulfilled</td><td>2</td><td>4</td><td>1</td></tr><tr><td>en</td><td>Cancelled</td><td>3</td><td>7</td><td>2</td></tr><tr><td>en</td><td>Scheduled</td><td>4</td><td>9</td><td>3</td></tr><tr><td>en</td><td>Proposed</td><td>935000000</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Booked</td><td>935000001</td><td>2</td><td>0</td></tr><tr><td>en</td><td>Arrived</td><td>935000002</td><td>3</td><td>0</td></tr><tr><td>en</td><td>Booked</td><td>935000003</td><td>8</td><td>3</td></tr><tr><td>en</td><td>No Show</td><td>935000004</td><td>5</td><td>1</td></tr><tr><td>en</td><td>Entered in error</td><td>935000005</td><td>6</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the activity.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Pending</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Proposed</td><td>935000000</td><td>0</td></tr><tr><td>en</td><td>Booked</td><td>935000001</td><td>0</td></tr><tr><td>en</td><td>Arrived</td><td>935000002</td><td>0</td></tr><tr><td>en</td><td>Fulfilled</td><td>2</td><td>1</td></tr><tr><td>en</td><td>No Show</td><td>935000004</td><td>1</td></tr><tr><td>en</td><td>Entered in error</td><td>935000005</td><td>1</td></tr><tr><td>en</td><td>Cancelled</td><td>3</td><td>2</td></tr><tr><td>en</td><td>Booked</td><td>935000003</td><td>3</td></tr><tr><td>en</td><td>Scheduled</td><td>4</td><td>3</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode  attribute are listed below.</summary>
+<summary>List of traits for the statusCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Pending</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Fulfilled</td><td>2</td><td>4</td><td>1</td></tr><tr><td>en</td><td>Cancelled</td><td>3</td><td>7</td><td>2</td></tr><tr><td>en</td><td>Scheduled</td><td>4</td><td>9</td><td>3</td></tr><tr><td>en</td><td>Proposed</td><td>935000000</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Booked</td><td>935000001</td><td>2</td><td>0</td></tr><tr><td>en</td><td>Arrived</td><td>935000002</td><td>3</td><td>0</td></tr><tr><td>en</td><td>Booked</td><td>935000003</td><td>8</td><td>3</td></tr><tr><td>en</td><td>No Show</td><td>935000004</td><td>5</td><td>1</td></tr><tr><td>en</td><td>Entered in error</td><td>935000005</td><td>6</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Pending</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Proposed</td><td>935000000</td><td>0</td></tr><tr><td>en</td><td>Booked</td><td>935000001</td><td>0</td></tr><tr><td>en</td><td>Arrived</td><td>935000002</td><td>0</td></tr><tr><td>en</td><td>Fulfilled</td><td>2</td><td>1</td></tr><tr><td>en</td><td>No Show</td><td>935000004</td><td>1</td></tr><tr><td>en</td><td>Entered in error</td><td>935000005</td><td>1</td></tr><tr><td>en</td><td>Cancelled</td><td>3</td><td>2</td></tr><tr><td>en</td><td>Booked</td><td>935000003</td><td>3</td></tr><tr><td>en</td><td>Scheduled</td><td>4</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1246,7 +1246,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -1255,7 +1255,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode_display  attribute are listed below.</summary>
+<summary>List of traits for the statusCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1270,7 +1270,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 ### <a href=#actualStart name="actualStart">actualStart</a>
 
 Actual start time of the activity.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -1279,7 +1279,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  actualStart  attribute are listed below.</summary>
+<summary>List of traits for the actualStart attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1308,7 +1308,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#priorityCode name="priorityCode">priorityCode</a>
 
 Priority of the activity.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -1317,11 +1317,11 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  priorityCode  attribute are listed below.</summary>
+<summary>List of traits for the priorityCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>High</td><td>2</td></tr><tr><td>en</td><td>Normal</td><td>1</td></tr><tr><td>en</td><td>Low</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Low</td><td>0</td></tr><tr><td>en</td><td>Normal</td><td>1</td></tr><tr><td>en</td><td>High</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1348,7 +1348,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#priorityCode_display name="priorityCode_display">priorityCode_display</a>
 
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -1357,7 +1357,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  priorityCode_display  attribute are listed below.</summary>
+<summary>List of traits for the priorityCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1372,7 +1372,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 ### <a href=#regardingObjectId name="regardingObjectId">regardingObjectId</a>
 
 Unique identifier of the object with which the activity is associated.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -1381,7 +1381,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  regardingObjectId  attribute are listed below.</summary>
+<summary>List of traits for the regardingObjectId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1414,7 +1414,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#subject name="subject">subject</a>
 
 Subject associated with the activity.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -1423,7 +1423,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  subject  attribute are listed below.</summary>
+<summary>List of traits for the subject attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1454,7 +1454,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#isWorkflowCreated name="isWorkflowCreated">isWorkflowCreated</a>
 
 Information regarding whether the activity was created from a workflow rule.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -1463,7 +1463,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  isWorkflowCreated  attribute are listed below.</summary>
+<summary>List of traits for the isWorkflowCreated attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1489,7 +1489,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#scheduledStart name="scheduledStart">scheduledStart</a>
 
 Scheduled start time of the activity.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -1498,7 +1498,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  scheduledStart  attribute are listed below.</summary>
+<summary>List of traits for the scheduledStart attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1527,7 +1527,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#instanceTypeCode name="instanceTypeCode">instanceTypeCode</a>
 
 Type of instance of a recurring series.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -1536,11 +1536,11 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  instanceTypeCode  attribute are listed below.</summary>
+<summary>List of traits for the instanceTypeCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Recurring Future Exception</td><td>4</td></tr><tr><td>en</td><td>Recurring Exception</td><td>3</td></tr><tr><td>en</td><td>Recurring Instance</td><td>2</td></tr><tr><td>en</td><td>Recurring Master</td><td>1</td></tr><tr><td>en</td><td>Not Recurring</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not Recurring</td><td>0</td></tr><tr><td>en</td><td>Recurring Master</td><td>1</td></tr><tr><td>en</td><td>Recurring Instance</td><td>2</td></tr><tr><td>en</td><td>Recurring Exception</td><td>3</td></tr><tr><td>en</td><td>Recurring Future Exception</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1564,7 +1564,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#instanceTypeCode_display name="instanceTypeCode_display">instanceTypeCode_display</a>
 
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -1573,7 +1573,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  instanceTypeCode_display  attribute are listed below.</summary>
+<summary>List of traits for the instanceTypeCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1588,7 +1588,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 ### <a href=#seriesId name="seriesId">seriesId</a>
 
 Uniqueidentifier specifying the id of recurring series of an instance.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -1597,7 +1597,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  seriesId  attribute are listed below.</summary>
+<summary>List of traits for the seriesId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1626,7 +1626,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isRegularActivity name="isRegularActivity">isRegularActivity</a>
 
 Information regarding whether the activity is a regular activity type or event type.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -1635,7 +1635,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  isRegularActivity  attribute are listed below.</summary>
+<summary>List of traits for the isRegularActivity attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1658,7 +1658,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Unique identifier of the currency associated with the activitypointer.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -1667,7 +1667,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  transactionCurrencyId  attribute are listed below.</summary>
+<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1700,7 +1700,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Exchange rate for the currency associated with the activitypointer with respect to the base currency.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -1709,7 +1709,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  exchangeRate  attribute are listed below.</summary>
+<summary>List of traits for the exchangeRate attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1740,7 +1740,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#leftVoiceMail name="leftVoiceMail">leftVoiceMail</a>
 
 Left the voice mail  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -1749,7 +1749,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  leftVoiceMail  attribute are listed below.</summary>
+<summary>List of traits for the leftVoiceMail attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1775,7 +1775,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#community name="community">community</a>
 
 Shows how contact about the social activity originated, such as from Twitter or Facebook. This field is read-only.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -1784,7 +1784,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  community  attribute are listed below.</summary>
+<summary>List of traits for the community attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -1815,7 +1815,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#community_display name="community_display">community_display</a>
 
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -1824,7 +1824,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  community_display  attribute are listed below.</summary>
+<summary>List of traits for the community_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1839,7 +1839,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 ### <a href=#traversedPath name="traversedPath">traversedPath</a>
 
 For internal use only.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -1848,7 +1848,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  traversedPath  attribute are listed below.</summary>
+<summary>List of traits for the traversedPath attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1879,7 +1879,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#isMapiPrivate name="isMapiPrivate">isMapiPrivate</a>
 
 For internal use only.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -1888,7 +1888,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  isMapiPrivate  attribute are listed below.</summary>
+<summary>List of traits for the isMapiPrivate attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1914,7 +1914,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#exchangeWebLink name="exchangeWebLink">exchangeWebLink</a>
 
 Shows the web link of Activity of type email.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -1923,7 +1923,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  exchangeWebLink  attribute are listed below.</summary>
+<summary>List of traits for the exchangeWebLink attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1954,7 +1954,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#exchangeItemId name="exchangeItemId">exchangeItemId</a>
 
 The message id of activity which is returned from Exchange Server.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -1963,7 +1963,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  exchangeItemId  attribute are listed below.</summary>
+<summary>List of traits for the exchangeItemId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1994,7 +1994,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#deliveryPriorityCode name="deliveryPriorityCode">deliveryPriorityCode</a>
 
 Priority of delivery of the activity to the email server.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -2003,7 +2003,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  deliveryPriorityCode  attribute are listed below.</summary>
+<summary>List of traits for the deliveryPriorityCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -2034,7 +2034,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#deliveryPriorityCode_display name="deliveryPriorityCode_display">deliveryPriorityCode_display</a>
 
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -2043,7 +2043,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  deliveryPriorityCode_display  attribute are listed below.</summary>
+<summary>List of traits for the deliveryPriorityCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2058,7 +2058,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 ### <a href=#sentOn name="sentOn">sentOn</a>
 
 Date and time when the activity was sent.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -2067,7 +2067,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  sentOn  attribute are listed below.</summary>
+<summary>List of traits for the sentOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -2096,7 +2096,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#deliveryLastAttemptedOn name="deliveryLastAttemptedOn">deliveryLastAttemptedOn</a>
 
 Date and time when the delivery of the activity was last attempted.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -2105,7 +2105,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  deliveryLastAttemptedOn  attribute are listed below.</summary>
+<summary>List of traits for the deliveryLastAttemptedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -2134,7 +2134,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#senderMailboxId name="senderMailboxId">senderMailboxId</a>
 
 Unique identifier of the mailbox associated with the sender of the email message.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -2143,7 +2143,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  senderMailboxId  attribute are listed below.</summary>
+<summary>List of traits for the senderMailboxId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2176,7 +2176,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#postponeActivityProcessingUntil name="postponeActivityProcessingUntil">postponeActivityProcessingUntil</a>
 
 For internal use only.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -2185,7 +2185,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  postponeActivityProcessingUntil  attribute are listed below.</summary>
+<summary>List of traits for the postponeActivityProcessingUntil attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -2214,7 +2214,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#processId name="processId">processId</a>
 
 Unique identifier of the Process.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -2223,7 +2223,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  processId  attribute are listed below.</summary>
+<summary>List of traits for the processId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2252,7 +2252,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stageId name="stageId">stageId</a>
 
 Unique identifier of the Stage.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -2261,7 +2261,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  stageId  attribute are listed below.</summary>
+<summary>List of traits for the stageId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2290,7 +2290,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#activityAdditionalParams name="activityAdditionalParams">activityAdditionalParams</a>
 
 Additional information provided by the external application as JSON. For internal use only.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -2299,7 +2299,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  activityAdditionalParams  attribute are listed below.</summary>
+<summary>List of traits for the activityAdditionalParams attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2330,7 +2330,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#SLAId name="SLAId">SLAId</a>
 
 Choose the service level agreement (SLA) that you want to apply to the case record.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -2339,7 +2339,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  SLAId  attribute are listed below.</summary>
+<summary>List of traits for the SLAId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2372,7 +2372,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#SLAInvokedId name="SLAInvokedId">SLAInvokedId</a>
 
 Last SLA that was applied to this case. This field is for internal use only.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -2381,7 +2381,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  SLAInvokedId  attribute are listed below.</summary>
+<summary>List of traits for the SLAInvokedId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2414,7 +2414,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#onHoldTime name="onHoldTime">onHoldTime</a>
 
 Shows how long, in minutes, that the record was on hold.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -2423,7 +2423,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  onHoldTime  attribute are listed below.</summary>
+<summary>List of traits for the onHoldTime attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -2452,7 +2452,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#lastOnHoldTime name="lastOnHoldTime">lastOnHoldTime</a>
 
 Contains the date and time stamp of the last on hold time.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -2461,7 +2461,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  lastOnHoldTime  attribute are listed below.</summary>
+<summary>List of traits for the lastOnHoldTime attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -2490,7 +2490,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#sortDate name="sortDate">sortDate</a>
 
 Shows the date and time by which the activities are sorted.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -2499,7 +2499,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  sortDate  attribute are listed below.</summary>
+<summary>List of traits for the sortDate attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -2528,7 +2528,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#serviceId name="serviceId">serviceId</a>
 
 Unique identifier of an associated service.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -2537,7 +2537,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  serviceId  attribute are listed below.</summary>
+<summary>List of traits for the serviceId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2570,7 +2570,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#from name="from">from</a>
 
 Person who the activity is from.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -2579,7 +2579,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  from  attribute are listed below.</summary>
+<summary>List of traits for the from attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2614,7 +2614,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#to name="to">to</a>
 
 Person who is the receiver of the activity.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -2623,7 +2623,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  to  attribute are listed below.</summary>
+<summary>List of traits for the to attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2658,7 +2658,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#CC name="CC">CC</a>
 
 Carbon-copy (cc) recipients of the activity.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -2667,7 +2667,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  CC  attribute are listed below.</summary>
+<summary>List of traits for the CC attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2702,7 +2702,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#BCC name="BCC">BCC</a>
 
 Blind Carbon-copy (bcc) recipients of the activity.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -2711,7 +2711,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  BCC  attribute are listed below.</summary>
+<summary>List of traits for the BCC attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2746,7 +2746,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#requiredAttendees name="requiredAttendees">requiredAttendees</a>
 
 List of required attendees for the activity.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -2755,7 +2755,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  requiredAttendees  attribute are listed below.</summary>
+<summary>List of traits for the requiredAttendees attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2790,7 +2790,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#optionalAttendees name="optionalAttendees">optionalAttendees</a>
 
 List of optional attendees for the activity.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -2799,7 +2799,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  optionalAttendees  attribute are listed below.</summary>
+<summary>List of traits for the optionalAttendees attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2834,7 +2834,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#organizer name="organizer">organizer</a>
 
 Person who organized the activity.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -2843,7 +2843,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  organizer  attribute are listed below.</summary>
+<summary>List of traits for the organizer attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2878,7 +2878,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#resources name="resources">resources</a>
 
 Users or facility/equipment that are required for the activity.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -2887,7 +2887,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  resources  attribute are listed below.</summary>
+<summary>List of traits for the resources attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2922,7 +2922,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#customers name="customers">customers</a>
 
 Customer with which the activity is associated.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -2931,7 +2931,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  customers  attribute are listed below.</summary>
+<summary>List of traits for the customers attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2966,7 +2966,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#partners name="partners">partners</a>
 
 Outsource vendor with which activity is associated.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -2975,7 +2975,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  partners  attribute are listed below.</summary>
+<summary>List of traits for the partners attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3010,7 +3010,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#actorDevice name="actorDevice">actorDevice</a>
 
 Name of the Person, Location/HealthcareService or Device.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -3019,7 +3019,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  actorDevice  attribute are listed below.</summary>
+<summary>List of traits for the actorDevice attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3052,7 +3052,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#actorLocation name="actorLocation">actorLocation</a>
 
 Name of the Person, Location/HealthcareService or Device.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -3061,7 +3061,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  actorLocation  attribute are listed below.</summary>
+<summary>List of traits for the actorLocation attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3094,7 +3094,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#actorPatient name="actorPatient">actorPatient</a>
 
 Name of the Person, Location/HealthcareService or Device.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -3103,7 +3103,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  actorPatient  attribute are listed below.</summary>
+<summary>List of traits for the actorPatient attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3136,7 +3136,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#actorPractitioner name="actorPractitioner">actorPractitioner</a>
 
 Name of the Person, Location/HealthcareService or Device.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -3145,7 +3145,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  actorPractitioner  attribute are listed below.</summary>
+<summary>List of traits for the actorPractitioner attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3178,7 +3178,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#actorRelatedPerson name="actorRelatedPerson">actorRelatedPerson</a>
 
 Name of the Person, Location/HealthcareService or Device.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -3187,7 +3187,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  actorRelatedPerson  attribute are listed below.</summary>
+<summary>List of traits for the actorRelatedPerson attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3220,7 +3220,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#appointmentCreationDate name="appointmentCreationDate">appointmentCreationDate</a>
 
 When appointment is to take place  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -3229,7 +3229,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  appointmentCreationDate  attribute are listed below.</summary>
+<summary>List of traits for the appointmentCreationDate attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -3259,7 +3259,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#appointmentType name="appointmentType">appointmentType</a>
 
 The style of appointment or patient that has been booked in the slot.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -3268,7 +3268,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  appointmentType  attribute are listed below.</summary>
+<summary>List of traits for the appointmentType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3301,7 +3301,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#comment name="comment">comment</a>
 
 Additional comments about the appointment.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -3310,7 +3310,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  comment  attribute are listed below.</summary>
+<summary>List of traits for the comment attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3341,7 +3341,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#emrDescription name="emrDescription">emrDescription</a>
 
 The brief description of the appointment as would be shown on a subject line in a meeting request, or appointment list. Detailed or expanded information should be put in the comment field.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -3350,7 +3350,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  emrDescription  attribute are listed below.</summary>
+<summary>List of traits for the emrDescription attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3381,7 +3381,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#endTime name="endTime">endTime</a>
 
 End time of an appointment.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -3390,7 +3390,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  endTime  attribute are listed below.</summary>
+<summary>List of traits for the endTime attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -3419,7 +3419,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#minutesDuration name="minutesDuration">minutesDuration</a>
 
 Number of minutes that the appointment is to take. This can be less than the duration between the start and end times (where actual time of appointment is only an estimate or is a planned appointment.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -3428,7 +3428,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  minutesDuration  attribute are listed below.</summary>
+<summary>List of traits for the minutesDuration attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -3457,20 +3457,20 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#participantActorType name="participantActorType">participantActorType</a>
 
 Type of appointment participant.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Participant Actor Type</td></tr><tr><td>description</td><td>Type of appointment participant.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_participantactortype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Practitioner</td><td>935000001</td></tr><tr><td>en</td><td>RelatedPerson</td><td>935000002</td></tr><tr><td>en</td><td>Device</td><td>935000003</td></tr><tr><td>en</td><td>HealthcareService</td><td>935000004</td></tr><tr><td>en</td><td>Location</td><td>935000005</td></tr><tr><td>en</td><td>Patient</td><td>935000000</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Participant Actor Type</td></tr><tr><td>description</td><td>Type of appointment participant.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_participantactortype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Patient</td><td>935000000</td></tr><tr><td>en</td><td>Practitioner</td><td>935000001</td></tr><tr><td>en</td><td>RelatedPerson</td><td>935000002</td></tr><tr><td>en</td><td>Device</td><td>935000003</td></tr><tr><td>en</td><td>HealthcareService</td><td>935000004</td></tr><tr><td>en</td><td>Location</td><td>935000005</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  participantActorType  attribute are listed below.</summary>
+<summary>List of traits for the participantActorType attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Location</td><td>935000005</td></tr><tr><td>en</td><td>HealthcareService</td><td>935000004</td></tr><tr><td>en</td><td>Device</td><td>935000003</td></tr><tr><td>en</td><td>RelatedPerson</td><td>935000002</td></tr><tr><td>en</td><td>Practitioner</td><td>935000001</td></tr><tr><td>en</td><td>Patient</td><td>935000000</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Patient</td><td>935000000</td></tr><tr><td>en</td><td>Practitioner</td><td>935000001</td></tr><tr><td>en</td><td>RelatedPerson</td><td>935000002</td></tr><tr><td>en</td><td>Device</td><td>935000003</td></tr><tr><td>en</td><td>HealthcareService</td><td>935000004</td></tr><tr><td>en</td><td>Location</td><td>935000005</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3497,7 +3497,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#participantActorType_display name="participantActorType_display">participantActorType_display</a>
 
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -3506,7 +3506,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  participantActorType_display  attribute are listed below.</summary>
+<summary>List of traits for the participantActorType_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3521,20 +3521,20 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 ### <a href=#participantStatus name="participantStatus">participantStatus</a>
 
 The Participation status of an appointment.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Participant Status</td></tr><tr><td>description</td><td>The Participation status of an appointment.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_participantstatus</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Tentative</td><td>935000002</td></tr><tr><td>en</td><td>Needs Action</td><td>935000003</td></tr><tr><td>en</td><td>Accepted</td><td>935000000</td></tr><tr><td>en</td><td>Declined</td><td>935000001</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Participant Status</td></tr><tr><td>description</td><td>The Participation status of an appointment.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_participantstatus</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Accepted</td><td>935000000</td></tr><tr><td>en</td><td>Declined</td><td>935000001</td></tr><tr><td>en</td><td>Tentative</td><td>935000002</td></tr><tr><td>en</td><td>Needs Action</td><td>935000003</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  participantStatus  attribute are listed below.</summary>
+<summary>List of traits for the participantStatus attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Needs Action</td><td>935000003</td></tr><tr><td>en</td><td>Tentative</td><td>935000002</td></tr><tr><td>en</td><td>Declined</td><td>935000001</td></tr><tr><td>en</td><td>Accepted</td><td>935000000</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Accepted</td><td>935000000</td></tr><tr><td>en</td><td>Declined</td><td>935000001</td></tr><tr><td>en</td><td>Tentative</td><td>935000002</td></tr><tr><td>en</td><td>Needs Action</td><td>935000003</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3561,7 +3561,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#participantStatus_display name="participantStatus_display">participantStatus_display</a>
 
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -3570,7 +3570,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  participantStatus_display  attribute are listed below.</summary>
+<summary>List of traits for the participantStatus_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3585,7 +3585,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 ### <a href=#particpantType name="particpantType">particpantType</a>
 
 Role of the participant in the appointment.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -3594,7 +3594,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  particpantType  attribute are listed below.</summary>
+<summary>List of traits for the particpantType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3627,7 +3627,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#patientInstruction name="patientInstruction">patientInstruction</a>
 
 Detailed information and instructions for the patient.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -3636,7 +3636,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  patientInstruction  attribute are listed below.</summary>
+<summary>List of traits for the patientInstruction attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3667,7 +3667,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#priority name="priority">priority</a>
 
 The priority of the appointment. Can be used to make informed decisions if needing to re-prioritize appointments. (The iCal Standard specifies 0 as undefined, 1 as highest, 9 as lowest priority).  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -3676,7 +3676,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  priority  attribute are listed below.</summary>
+<summary>List of traits for the priority attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -3705,7 +3705,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#required name="required">required</a>
 
 Is the Participant required to attend the appointment.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -3714,11 +3714,11 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  required  attribute are listed below.</summary>
+<summary>List of traits for the required attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Information Only</td><td>935000002</td></tr><tr><td>en</td><td>Optional</td><td>935000001</td></tr><tr><td>en</td><td>Required</td><td>935000000</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Required</td><td>935000000</td></tr><tr><td>en</td><td>Optional</td><td>935000001</td></tr><tr><td>en</td><td>Information Only</td><td>935000002</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3745,7 +3745,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#required_display name="required_display">required_display</a>
 
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -3754,7 +3754,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  required_display  attribute are listed below.</summary>
+<summary>List of traits for the required_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3769,7 +3769,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 ### <a href=#serviceCategory name="serviceCategory">serviceCategory</a>
 
 A broad categorization of the service that is to be performed during this appointment.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -3778,7 +3778,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  serviceCategory  attribute are listed below.</summary>
+<summary>List of traits for the serviceCategory attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3811,7 +3811,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#startTime name="startTime">startTime</a>
 
 Start time of an appointment.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -3820,7 +3820,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  startTime  attribute are listed below.</summary>
+<summary>List of traits for the startTime attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -3849,7 +3849,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#status name="status">status</a>
 
 Codes providing the status of an appointment.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -3858,7 +3858,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  status  attribute are listed below.</summary>
+<summary>List of traits for the status attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3891,7 +3891,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#supportingInformation name="supportingInformation">supportingInformation</a>
 
 Additional information may be attachments to support or provide more insight for an appointment.  
-First included in: electronicMedicalRecords/EmrAppointment  (this entity)  
+First included in: electronicMedicalRecords/EmrAppointment (this entity)  
 
 #### Properties
 
@@ -3900,7 +3900,7 @@ First included in: electronicMedicalRecords/EmrAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  supportingInformation  attribute are listed below.</summary>
+<summary>List of traits for the supportingInformation attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  

@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/13/2019
+ms.date: 2/15/2019
 ms.author: tpalmer
 ---
 
@@ -12,14 +12,14 @@ ms.author: tpalmer
 
 The Master appointment of a recurring appointment series.  
   
-Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/RecurringAppointment.cdm.json" target="_blank">GitHub</a>.  
+Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/RecurringAppointment.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
-Instances of this entity are listed below:  
+Instances of this entity are listed below.  
 
 [applicationCommon/RecurringAppointment](../../RecurringAppointment.md "/core/applicationCommon/RecurringAppointment.cdm.json/RecurringAppointment")  
-crmCommon/RecurringAppointment  
+/core/applicationCommon/foundationCommon/crmCommon/RecurringAppointment.cdm.json/RecurringAppointment  
 
 ## Traits
 
@@ -152,7 +152,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOn  attribute are listed below.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -191,7 +191,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  createdBy  attribute are listed below.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -236,7 +236,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -275,7 +275,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -320,7 +320,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -365,7 +365,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -410,7 +410,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -449,7 +449,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -484,7 +484,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerIdType  attribute are listed below.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -523,7 +523,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerId  attribute are listed below.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -568,7 +568,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  owningBusinessUnit  attribute are listed below.</summary>
+<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -610,7 +610,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  owningUser  attribute are listed below.</summary>
+<summary>List of traits for the owningUser attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -655,7 +655,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  owningTeam  attribute are listed below.</summary>
+<summary>List of traits for the owningTeam attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -697,7 +697,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  timeZoneRuleVersionNumber  attribute are listed below.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -735,7 +735,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  UTCConversionTimeZoneCode  attribute are listed below.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -773,7 +773,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -810,7 +810,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  activityTypeCode  attribute are listed below.</summary>
+<summary>List of traits for the activityTypeCode attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -849,7 +849,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  activityId  attribute are listed below.</summary>
+<summary>List of traits for the activityId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -888,7 +888,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  isBilled  attribute are listed below.</summary>
+<summary>List of traits for the isBilled attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -920,7 +920,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  isRegularActivity  attribute are listed below.</summary>
+<summary>List of traits for the isRegularActivity attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -949,7 +949,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  isWorkflowCreated  attribute are listed below.</summary>
+<summary>List of traits for the isWorkflowCreated attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -976,16 +976,16 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Priority</td></tr><tr><td>description</td><td>Priority of the activity.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>prioritycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>High</td><td>2</td></tr><tr><td>en</td><td>Normal</td><td>1</td></tr><tr><td>en</td><td>Low</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Priority</td></tr><tr><td>description</td><td>Priority of the activity.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>prioritycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Low</td><td>0</td></tr><tr><td>en</td><td>Normal</td><td>1</td></tr><tr><td>en</td><td>High</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  priorityCode  attribute are listed below.</summary>
+<summary>List of traits for the priorityCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>High</td><td>2</td></tr><tr><td>en</td><td>Normal</td><td>1</td></tr><tr><td>en</td><td>Low</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Low</td><td>0</td></tr><tr><td>en</td><td>Normal</td><td>1</td></tr><tr><td>en</td><td>High</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1018,7 +1018,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  priorityCode_display  attribute are listed below.</summary>
+<summary>List of traits for the priorityCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1042,7 +1042,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  regardingObjectTypeCode  attribute are listed below.</summary>
+<summary>List of traits for the regardingObjectTypeCode attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1075,7 +1075,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  regardingObjectId  attribute are listed below.</summary>
+<summary>List of traits for the regardingObjectId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1117,7 +1117,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  scheduledEnd  attribute are listed below.</summary>
+<summary>List of traits for the scheduledEnd attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1152,7 +1152,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  scheduledStart  attribute are listed below.</summary>
+<summary>List of traits for the scheduledStart attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1187,7 +1187,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  sortDate  attribute are listed below.</summary>
+<summary>List of traits for the sortDate attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1225,7 +1225,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  subject  attribute are listed below.</summary>
+<summary>List of traits for the subject attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1262,7 +1262,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  category  attribute are listed below.</summary>
+<summary>List of traits for the category attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1300,7 +1300,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  subcategory  attribute are listed below.</summary>
+<summary>List of traits for the subcategory attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1332,16 +1332,16 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Recurring Instance Type</td></tr><tr><td>description</td><td>Type of instance of a recurring series.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>instancetypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Recurring Future Exception</td><td>4</td></tr><tr><td>en</td><td>Recurring Exception</td><td>3</td></tr><tr><td>en</td><td>Recurring Instance</td><td>2</td></tr><tr><td>en</td><td>Recurring Master</td><td>1</td></tr><tr><td>en</td><td>Not Recurring</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Recurring Instance Type</td></tr><tr><td>description</td><td>Type of instance of a recurring series.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>instancetypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not Recurring</td><td>0</td></tr><tr><td>en</td><td>Recurring Master</td><td>1</td></tr><tr><td>en</td><td>Recurring Instance</td><td>2</td></tr><tr><td>en</td><td>Recurring Exception</td><td>3</td></tr><tr><td>en</td><td>Recurring Future Exception</td><td>4</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  instanceTypeCode  attribute are listed below.</summary>
+<summary>List of traits for the instanceTypeCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Recurring Future Exception</td><td>4</td></tr><tr><td>en</td><td>Recurring Exception</td><td>3</td></tr><tr><td>en</td><td>Recurring Instance</td><td>2</td></tr><tr><td>en</td><td>Recurring Master</td><td>1</td></tr><tr><td>en</td><td>Not Recurring</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not Recurring</td><td>0</td></tr><tr><td>en</td><td>Recurring Master</td><td>1</td></tr><tr><td>en</td><td>Recurring Instance</td><td>2</td></tr><tr><td>en</td><td>Recurring Exception</td><td>3</td></tr><tr><td>en</td><td>Recurring Future Exception</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1371,7 +1371,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  instanceTypeCode_display  attribute are listed below.</summary>
+<summary>List of traits for the instanceTypeCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1395,7 +1395,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  isMapiPrivate  attribute are listed below.</summary>
+<summary>List of traits for the isMapiPrivate attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1427,7 +1427,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  organizer  attribute are listed below.</summary>
+<summary>List of traits for the organizer attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1468,7 +1468,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  requiredAttendees  attribute are listed below.</summary>
+<summary>List of traits for the requiredAttendees attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1512,7 +1512,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  optionalAttendees  attribute are listed below.</summary>
+<summary>List of traits for the optionalAttendees attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1556,7 +1556,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  isWeekDayPattern  attribute are listed below.</summary>
+<summary>List of traits for the isWeekDayPattern attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1588,7 +1588,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  ruleId  attribute are listed below.</summary>
+<summary>List of traits for the ruleId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1630,7 +1630,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  isNthYearly  attribute are listed below.</summary>
+<summary>List of traits for the isNthYearly attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1657,16 +1657,16 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Shows whether the recurring appointment is open, scheduled, completed, or canceled. Completed and canceled appointments are read-only and can't be edited.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Scheduled</td><td>3</td></tr><tr><td>en</td><td>Canceled</td><td>2</td></tr><tr><td>en</td><td>Completed</td><td>1</td></tr><tr><td>en</td><td>Open</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Shows whether the recurring appointment is open, scheduled, completed, or canceled. Completed and canceled appointments are read-only and can't be edited.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Open</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>2</td></tr><tr><td>en</td><td>Scheduled</td><td>3</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode  attribute are listed below.</summary>
+<summary>List of traits for the stateCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Scheduled</td><td>3</td></tr><tr><td>en</td><td>Canceled</td><td>2</td></tr><tr><td>en</td><td>Completed</td><td>1</td></tr><tr><td>en</td><td>Open</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Open</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>2</td></tr><tr><td>en</td><td>Scheduled</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1702,7 +1702,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode_display  attribute are listed below.</summary>
+<summary>List of traits for the stateCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1726,7 +1726,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  groupId  attribute are listed below.</summary>
+<summary>List of traits for the groupId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1768,7 +1768,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  lastExpandedInstanceDate  attribute are listed below.</summary>
+<summary>List of traits for the lastExpandedInstanceDate attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1806,7 +1806,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  effectiveEndDate  attribute are listed below.</summary>
+<summary>List of traits for the effectiveEndDate attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1844,7 +1844,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  patternStartDate  attribute are listed below.</summary>
+<summary>List of traits for the patternStartDate attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1882,7 +1882,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  isRegenerate  attribute are listed below.</summary>
+<summary>List of traits for the isRegenerate attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1914,7 +1914,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  firstDayOfWeek  attribute are listed below.</summary>
+<summary>List of traits for the firstDayOfWeek attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1952,7 +1952,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  outlookOwnerApptId  attribute are listed below.</summary>
+<summary>List of traits for the outlookOwnerApptId attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1985,16 +1985,16 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Recurrence Frequency</td></tr><tr><td>description</td><td>Select the pattern type for the recurring appointment to indicate whether the appointment occurs daily, weekly, monthly, or yearly.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>recurrencepatterntype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Yearly</td><td>3</td></tr><tr><td>en</td><td>Monthly</td><td>2</td></tr><tr><td>en</td><td>Weekly</td><td>1</td></tr><tr><td>en</td><td>Daily</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Recurrence Frequency</td></tr><tr><td>description</td><td>Select the pattern type for the recurring appointment to indicate whether the appointment occurs daily, weekly, monthly, or yearly.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>recurrencepatterntype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Daily</td><td>0</td></tr><tr><td>en</td><td>Weekly</td><td>1</td></tr><tr><td>en</td><td>Monthly</td><td>2</td></tr><tr><td>en</td><td>Yearly</td><td>3</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  recurrencePatternType  attribute are listed below.</summary>
+<summary>List of traits for the recurrencePatternType attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Yearly</td><td>3</td></tr><tr><td>en</td><td>Monthly</td><td>2</td></tr><tr><td>en</td><td>Weekly</td><td>1</td></tr><tr><td>en</td><td>Daily</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Daily</td><td>0</td></tr><tr><td>en</td><td>Weekly</td><td>1</td></tr><tr><td>en</td><td>Monthly</td><td>2</td></tr><tr><td>en</td><td>Yearly</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2027,7 +2027,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  recurrencePatternType_display  attribute are listed below.</summary>
+<summary>List of traits for the recurrencePatternType_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2051,7 +2051,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  nextExpansionInstanceDate  attribute are listed below.</summary>
+<summary>List of traits for the nextExpansionInstanceDate attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -2084,16 +2084,16 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Expansion State Code</td></tr><tr><td>description</td><td>State code to indicate whether the recurring appointment series is expanded fully or partially.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>expansionstatecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Full</td><td>2</td></tr><tr><td>en</td><td>Partial</td><td>1</td></tr><tr><td>en</td><td>Unexpanded</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Expansion State Code</td></tr><tr><td>description</td><td>State code to indicate whether the recurring appointment series is expanded fully or partially.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>expansionstatecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Unexpanded</td><td>0</td></tr><tr><td>en</td><td>Partial</td><td>1</td></tr><tr><td>en</td><td>Full</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  expansionStateCode  attribute are listed below.</summary>
+<summary>List of traits for the expansionStateCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Full</td><td>2</td></tr><tr><td>en</td><td>Partial</td><td>1</td></tr><tr><td>en</td><td>Unexpanded</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Unexpanded</td><td>0</td></tr><tr><td>en</td><td>Partial</td><td>1</td></tr><tr><td>en</td><td>Full</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2129,7 +2129,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  expansionStateCode_display  attribute are listed below.</summary>
+<summary>List of traits for the expansionStateCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2153,7 +2153,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  patternEndDate  attribute are listed below.</summary>
+<summary>List of traits for the patternEndDate attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -2191,7 +2191,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  globalObjectId  attribute are listed below.</summary>
+<summary>List of traits for the globalObjectId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2231,7 +2231,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  effectiveStartDate  attribute are listed below.</summary>
+<summary>List of traits for the effectiveStartDate attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -2269,7 +2269,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  dayOfMonth  attribute are listed below.</summary>
+<summary>List of traits for the dayOfMonth attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -2302,16 +2302,16 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the recurring appointment's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Free</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Tentative</td><td>2</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>3</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>4</td><td>3</td><td>2</td></tr><tr><td>en</td><td>Busy</td><td>5</td><td>4</td><td>3</td></tr><tr><td>en</td><td>Out of Office</td><td>6</td><td>5</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the recurring appointment's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Free</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Tentative</td><td>2</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>3</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>4</td><td>2</td></tr><tr><td>en</td><td>Busy</td><td>5</td><td>3</td></tr><tr><td>en</td><td>Out of Office</td><td>6</td><td>3</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode  attribute are listed below.</summary>
+<summary>List of traits for the statusCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Free</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Tentative</td><td>2</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>3</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>4</td><td>3</td><td>2</td></tr><tr><td>en</td><td>Busy</td><td>5</td><td>4</td><td>3</td></tr><tr><td>en</td><td>Out of Office</td><td>6</td><td>5</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Free</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Tentative</td><td>2</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>3</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>4</td><td>2</td></tr><tr><td>en</td><td>Busy</td><td>5</td><td>3</td></tr><tr><td>en</td><td>Out of Office</td><td>6</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2350,7 +2350,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode_display  attribute are listed below.</summary>
+<summary>List of traits for the statusCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2374,7 +2374,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  startTime  attribute are listed below.</summary>
+<summary>List of traits for the startTime attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -2412,7 +2412,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  occurrences  attribute are listed below.</summary>
+<summary>List of traits for the occurrences attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -2450,7 +2450,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  isAllDayEvent  attribute are listed below.</summary>
+<summary>List of traits for the isAllDayEvent attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -2485,7 +2485,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  seriesStatus  attribute are listed below.</summary>
+<summary>List of traits for the seriesStatus attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -2520,7 +2520,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  isNthMonthly  attribute are listed below.</summary>
+<summary>List of traits for the isNthMonthly attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -2552,7 +2552,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  endTime  attribute are listed below.</summary>
+<summary>List of traits for the endTime attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -2590,7 +2590,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  daysOfWeekMask  attribute are listed below.</summary>
+<summary>List of traits for the daysOfWeekMask attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -2628,7 +2628,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  description  attribute are listed below.</summary>
+<summary>List of traits for the description attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2663,16 +2663,16 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Instance</td></tr><tr><td>description</td><td>Specifies the recurring appointment series to occur on every Nth day of a month. Valid for monthly and yearly recurrence patterns only.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>instance</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Last</td><td>5</td></tr><tr><td>en</td><td>Fourth</td><td>4</td></tr><tr><td>en</td><td>Third</td><td>3</td></tr><tr><td>en</td><td>Second</td><td>2</td></tr><tr><td>en</td><td>First</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Instance</td></tr><tr><td>description</td><td>Specifies the recurring appointment series to occur on every Nth day of a month. Valid for monthly and yearly recurrence patterns only.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>instance</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>First</td><td>1</td></tr><tr><td>en</td><td>Second</td><td>2</td></tr><tr><td>en</td><td>Third</td><td>3</td></tr><tr><td>en</td><td>Fourth</td><td>4</td></tr><tr><td>en</td><td>Last</td><td>5</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  instance  attribute are listed below.</summary>
+<summary>List of traits for the instance attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Last</td><td>5</td></tr><tr><td>en</td><td>Fourth</td><td>4</td></tr><tr><td>en</td><td>Third</td><td>3</td></tr><tr><td>en</td><td>Second</td><td>2</td></tr><tr><td>en</td><td>First</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>First</td><td>1</td></tr><tr><td>en</td><td>Second</td><td>2</td></tr><tr><td>en</td><td>Third</td><td>3</td></tr><tr><td>en</td><td>Fourth</td><td>4</td></tr><tr><td>en</td><td>Last</td><td>5</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2708,7 +2708,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  instance_display  attribute are listed below.</summary>
+<summary>List of traits for the instance_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2732,7 +2732,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  deletedExceptionsList  attribute are listed below.</summary>
+<summary>List of traits for the deletedExceptionsList attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2772,7 +2772,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  interval  attribute are listed below.</summary>
+<summary>List of traits for the interval attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -2810,7 +2810,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  duration  attribute are listed below.</summary>
+<summary>List of traits for the duration attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **means.measurement.duration**  
@@ -2844,16 +2844,16 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Month Of Year</td></tr><tr><td>description</td><td>Indicates the month of the year for the recurrence pattern.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>monthofyear</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>December</td><td>12</td></tr><tr><td>en</td><td>Invalid Month Of Year</td><td>0</td></tr><tr><td>en</td><td>October</td><td>10</td></tr><tr><td>en</td><td>September</td><td>9</td></tr><tr><td>en</td><td>August</td><td>8</td></tr><tr><td>en</td><td>July</td><td>7</td></tr><tr><td>en</td><td>November</td><td>11</td></tr><tr><td>en</td><td>May</td><td>5</td></tr><tr><td>en</td><td>April</td><td>4</td></tr><tr><td>en</td><td>March</td><td>3</td></tr><tr><td>en</td><td>February</td><td>2</td></tr><tr><td>en</td><td>January</td><td>1</td></tr><tr><td>en</td><td>June</td><td>6</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Month Of Year</td></tr><tr><td>description</td><td>Indicates the month of the year for the recurrence pattern.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>monthofyear</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Invalid Month Of Year</td><td>0</td></tr><tr><td>en</td><td>January</td><td>1</td></tr><tr><td>en</td><td>February</td><td>2</td></tr><tr><td>en</td><td>March</td><td>3</td></tr><tr><td>en</td><td>April</td><td>4</td></tr><tr><td>en</td><td>May</td><td>5</td></tr><tr><td>en</td><td>June</td><td>6</td></tr><tr><td>en</td><td>July</td><td>7</td></tr><tr><td>en</td><td>August</td><td>8</td></tr><tr><td>en</td><td>September</td><td>9</td></tr><tr><td>en</td><td>October</td><td>10</td></tr><tr><td>en</td><td>November</td><td>11</td></tr><tr><td>en</td><td>December</td><td>12</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  monthOfYear  attribute are listed below.</summary>
+<summary>List of traits for the monthOfYear attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>December</td><td>12</td></tr><tr><td>en</td><td>November</td><td>11</td></tr><tr><td>en</td><td>October</td><td>10</td></tr><tr><td>en</td><td>September</td><td>9</td></tr><tr><td>en</td><td>August</td><td>8</td></tr><tr><td>en</td><td>July</td><td>7</td></tr><tr><td>en</td><td>June</td><td>6</td></tr><tr><td>en</td><td>May</td><td>5</td></tr><tr><td>en</td><td>April</td><td>4</td></tr><tr><td>en</td><td>March</td><td>3</td></tr><tr><td>en</td><td>February</td><td>2</td></tr><tr><td>en</td><td>January</td><td>1</td></tr><tr><td>en</td><td>Invalid Month Of Year</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Invalid Month Of Year</td><td>0</td></tr><tr><td>en</td><td>January</td><td>1</td></tr><tr><td>en</td><td>February</td><td>2</td></tr><tr><td>en</td><td>March</td><td>3</td></tr><tr><td>en</td><td>April</td><td>4</td></tr><tr><td>en</td><td>May</td><td>5</td></tr><tr><td>en</td><td>June</td><td>6</td></tr><tr><td>en</td><td>July</td><td>7</td></tr><tr><td>en</td><td>August</td><td>8</td></tr><tr><td>en</td><td>September</td><td>9</td></tr><tr><td>en</td><td>October</td><td>10</td></tr><tr><td>en</td><td>November</td><td>11</td></tr><tr><td>en</td><td>December</td><td>12</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2889,7 +2889,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  monthOfYear_display  attribute are listed below.</summary>
+<summary>List of traits for the monthOfYear_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2913,7 +2913,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  location  attribute are listed below.</summary>
+<summary>List of traits for the location attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2948,16 +2948,16 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Pattern End Type</td></tr><tr><td>description</td><td>Select the type of end date for the recurring appointment, such as no end date or the number of occurrences.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>patternendtype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Pattern End Date</td><td>3</td></tr><tr><td>en</td><td>Occurrences</td><td>2</td></tr><tr><td>en</td><td>No End Date</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Pattern End Type</td></tr><tr><td>description</td><td>Select the type of end date for the recurring appointment, such as no end date or the number of occurrences.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>patternendtype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No End Date</td><td>1</td></tr><tr><td>en</td><td>Occurrences</td><td>2</td></tr><tr><td>en</td><td>Pattern End Date</td><td>3</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  patternEndType  attribute are listed below.</summary>
+<summary>List of traits for the patternEndType attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Pattern End Date</td><td>3</td></tr><tr><td>en</td><td>Occurrences</td><td>2</td></tr><tr><td>en</td><td>No End Date</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No End Date</td><td>1</td></tr><tr><td>en</td><td>Occurrences</td><td>2</td></tr><tr><td>en</td><td>Pattern End Date</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2990,7 +2990,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  patternEndType_display  attribute are listed below.</summary>
+<summary>List of traits for the patternEndType_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3014,7 +3014,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  transactionCurrencyId  attribute are listed below.</summary>
+<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3056,7 +3056,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  exchangeRate  attribute are listed below.</summary>
+<summary>List of traits for the exchangeRate attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3096,7 +3096,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  processId  attribute are listed below.</summary>
+<summary>List of traits for the processId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3134,7 +3134,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  stageId  attribute are listed below.</summary>
+<summary>List of traits for the stageId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3172,7 +3172,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  traversedPath  attribute are listed below.</summary>
+<summary>List of traits for the traversedPath attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3212,7 +3212,7 @@ First included in: <a href="../../RecurringAppointment.md" target="_blank">appli
 #### Traits
 
 <details>
-<summary>List of traits for the  isUnsafe  attribute are listed below.</summary>
+<summary>List of traits for the isUnsafe attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -3241,7 +3241,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#serviceId name="serviceId">serviceId</a>
 
 Unique identifier for an associated service.  
-First included in: crmCommon/RecurringAppointment  (this entity)  
+First included in: crmCommon/RecurringAppointment (this entity)  
 
 #### Properties
 
@@ -3250,7 +3250,7 @@ First included in: crmCommon/RecurringAppointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  serviceId  attribute are listed below.</summary>
+<summary>List of traits for the serviceId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  

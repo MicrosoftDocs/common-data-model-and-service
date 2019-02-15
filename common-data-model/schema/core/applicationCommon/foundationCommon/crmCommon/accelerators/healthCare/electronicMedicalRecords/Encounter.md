@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/13/2019
+ms.date: 2/15/2019
 ms.author: tpalmer
 ---
 
@@ -12,13 +12,13 @@ ms.author: tpalmer
 
 An interaction between a patient and healthcare provider(s) for the purpose of providing healthcare service(s) or assessing the health status of a patient.  
   
-Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json" target="_blank">GitHub</a>.  
+Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
-Instances of this entity are listed below:  
+Instances of this entity are listed below.  
 
-electronicMedicalRecords/Encounter  
+/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json/Encounter  
 
 ## Traits
 
@@ -109,7 +109,7 @@ electronicMedicalRecords/Encounter
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: electronicMedicalRecords/Encounter  (this entity)  
+First included in: electronicMedicalRecords/Encounter (this entity)  
 
 #### Properties
 
@@ -118,7 +118,7 @@ First included in: electronicMedicalRecords/Encounter  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOn  attribute are listed below.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -148,7 +148,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: electronicMedicalRecords/Encounter  (this entity)  
+First included in: electronicMedicalRecords/Encounter (this entity)  
 
 #### Properties
 
@@ -157,7 +157,7 @@ First included in: electronicMedicalRecords/Encounter  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdBy  attribute are listed below.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -193,7 +193,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: electronicMedicalRecords/Encounter  (this entity)  
+First included in: electronicMedicalRecords/Encounter (this entity)  
 
 #### Properties
 
@@ -202,7 +202,7 @@ First included in: electronicMedicalRecords/Encounter  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -232,7 +232,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: electronicMedicalRecords/Encounter  (this entity)  
+First included in: electronicMedicalRecords/Encounter (this entity)  
 
 #### Properties
 
@@ -241,7 +241,7 @@ First included in: electronicMedicalRecords/Encounter  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -277,7 +277,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: electronicMedicalRecords/Encounter  (this entity)  
+First included in: electronicMedicalRecords/Encounter (this entity)  
 
 #### Properties
 
@@ -286,7 +286,7 @@ First included in: electronicMedicalRecords/Encounter  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -322,7 +322,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: electronicMedicalRecords/Encounter  (this entity)  
+First included in: electronicMedicalRecords/Encounter (this entity)  
 
 #### Properties
 
@@ -331,7 +331,7 @@ First included in: electronicMedicalRecords/Encounter  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -367,7 +367,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: electronicMedicalRecords/Encounter  (this entity)  
+First included in: electronicMedicalRecords/Encounter (this entity)  
 
 #### Properties
 
@@ -376,7 +376,7 @@ First included in: electronicMedicalRecords/Encounter  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -406,7 +406,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: electronicMedicalRecords/Encounter  (this entity)  
+First included in: electronicMedicalRecords/Encounter (this entity)  
 
 #### Properties
 
@@ -415,7 +415,7 @@ First included in: electronicMedicalRecords/Encounter  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -441,7 +441,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: electronicMedicalRecords/Encounter  (this entity)  
+First included in: electronicMedicalRecords/Encounter (this entity)  
 
 #### Properties
 
@@ -450,7 +450,7 @@ First included in: electronicMedicalRecords/Encounter  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerIdType  attribute are listed below.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -480,7 +480,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: electronicMedicalRecords/Encounter  (this entity)  
+First included in: electronicMedicalRecords/Encounter (this entity)  
 
 #### Properties
 
@@ -489,7 +489,7 @@ First included in: electronicMedicalRecords/Encounter  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerId  attribute are listed below.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -525,7 +525,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: electronicMedicalRecords/Encounter  (this entity)  
+First included in: electronicMedicalRecords/Encounter (this entity)  
 
 #### Properties
 
@@ -534,7 +534,7 @@ First included in: electronicMedicalRecords/Encounter  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningBusinessUnit  attribute are listed below.</summary>
+<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -567,7 +567,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: electronicMedicalRecords/Encounter  (this entity)  
+First included in: electronicMedicalRecords/Encounter (this entity)  
 
 #### Properties
 
@@ -576,7 +576,7 @@ First included in: electronicMedicalRecords/Encounter  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningUser  attribute are listed below.</summary>
+<summary>List of traits for the owningUser attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -612,7 +612,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: electronicMedicalRecords/Encounter  (this entity)  
+First included in: electronicMedicalRecords/Encounter (this entity)  
 
 #### Properties
 
@@ -621,7 +621,7 @@ First included in: electronicMedicalRecords/Encounter  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningTeam  attribute are listed below.</summary>
+<summary>List of traits for the owningTeam attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -654,7 +654,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: electronicMedicalRecords/Encounter  (this entity)  
+First included in: electronicMedicalRecords/Encounter (this entity)  
 
 #### Properties
 
@@ -663,7 +663,7 @@ First included in: electronicMedicalRecords/Encounter  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  timeZoneRuleVersionNumber  attribute are listed below.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -692,7 +692,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: electronicMedicalRecords/Encounter  (this entity)  
+First included in: electronicMedicalRecords/Encounter (this entity)  
 
 #### Properties
 
@@ -701,7 +701,7 @@ First included in: electronicMedicalRecords/Encounter  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  UTCConversionTimeZoneCode  attribute are listed below.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -730,7 +730,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: electronicMedicalRecords/Encounter  (this entity)  
+First included in: electronicMedicalRecords/Encounter (this entity)  
 
 #### Properties
 
@@ -739,7 +739,7 @@ First included in: electronicMedicalRecords/Encounter  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -767,7 +767,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#encounterId name="encounterId">encounterId</a>
 
 Unique identifier for entity instances  
-First included in: electronicMedicalRecords/Encounter  (this entity)  
+First included in: electronicMedicalRecords/Encounter (this entity)  
 
 #### Properties
 
@@ -776,7 +776,7 @@ First included in: electronicMedicalRecords/Encounter  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  encounterId  attribute are listed below.</summary>
+<summary>List of traits for the encounterId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -806,7 +806,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Status of the Encounter  
-First included in: electronicMedicalRecords/Encounter  (this entity)  
+First included in: electronicMedicalRecords/Encounter (this entity)  
 
 #### Properties
 
@@ -815,11 +815,11 @@ First included in: electronicMedicalRecords/Encounter  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode  attribute are listed below.</summary>
+<summary>List of traits for the stateCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr><tr><td>en</td><td>Active</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -846,7 +846,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: electronicMedicalRecords/Encounter  (this entity)  
+First included in: electronicMedicalRecords/Encounter (this entity)  
 
 #### Properties
 
@@ -855,7 +855,7 @@ First included in: electronicMedicalRecords/Encounter  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode_display  attribute are listed below.</summary>
+<summary>List of traits for the stateCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -870,20 +870,20 @@ First included in: electronicMedicalRecords/Encounter  (this entity)
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Reason for the status of the Encounter  
-First included in: electronicMedicalRecords/Encounter  (this entity)  
+First included in: electronicMedicalRecords/Encounter (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Encounter</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Planned</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>5</td><td>1</td></tr><tr><td>en</td><td>Arrived</td><td>935000000</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Triaged</td><td>935000001</td><td>2</td><td>0</td></tr><tr><td>en</td><td>In Progress</td><td>935000002</td><td>3</td><td>0</td></tr><tr><td>en</td><td>On Leave</td><td>935000003</td><td>4</td><td>0</td></tr><tr><td>en</td><td>Finished</td><td>935000004</td><td>6</td><td>1</td></tr><tr><td>en</td><td>Cancelled</td><td>935000005</td><td>7</td><td>1</td></tr><tr><td>en</td><td>Entered in Error</td><td>935000006</td><td>8</td><td>1</td></tr><tr><td>en</td><td>Unknown</td><td>935000007</td><td>9</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Encounter</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Planned</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Arrived</td><td>935000000</td><td>0</td></tr><tr><td>en</td><td>Triaged</td><td>935000001</td><td>0</td></tr><tr><td>en</td><td>In Progress</td><td>935000002</td><td>0</td></tr><tr><td>en</td><td>On Leave</td><td>935000003</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Finished</td><td>935000004</td><td>1</td></tr><tr><td>en</td><td>Cancelled</td><td>935000005</td><td>1</td></tr><tr><td>en</td><td>Entered in Error</td><td>935000006</td><td>1</td></tr><tr><td>en</td><td>Unknown</td><td>935000007</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode  attribute are listed below.</summary>
+<summary>List of traits for the statusCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Planned</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>5</td><td>1</td></tr><tr><td>en</td><td>Arrived</td><td>935000000</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Triaged</td><td>935000001</td><td>2</td><td>0</td></tr><tr><td>en</td><td>In Progress</td><td>935000002</td><td>3</td><td>0</td></tr><tr><td>en</td><td>On Leave</td><td>935000003</td><td>4</td><td>0</td></tr><tr><td>en</td><td>Finished</td><td>935000004</td><td>6</td><td>1</td></tr><tr><td>en</td><td>Cancelled</td><td>935000005</td><td>7</td><td>1</td></tr><tr><td>en</td><td>Entered in Error</td><td>935000006</td><td>8</td><td>1</td></tr><tr><td>en</td><td>Unknown</td><td>935000007</td><td>9</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Planned</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Arrived</td><td>935000000</td><td>0</td></tr><tr><td>en</td><td>Triaged</td><td>935000001</td><td>0</td></tr><tr><td>en</td><td>In Progress</td><td>935000002</td><td>0</td></tr><tr><td>en</td><td>On Leave</td><td>935000003</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Finished</td><td>935000004</td><td>1</td></tr><tr><td>en</td><td>Cancelled</td><td>935000005</td><td>1</td></tr><tr><td>en</td><td>Entered in Error</td><td>935000006</td><td>1</td></tr><tr><td>en</td><td>Unknown</td><td>935000007</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -913,7 +913,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: electronicMedicalRecords/Encounter  (this entity)  
+First included in: electronicMedicalRecords/Encounter (this entity)  
 
 #### Properties
 
@@ -922,7 +922,7 @@ First included in: electronicMedicalRecords/Encounter  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode_display  attribute are listed below.</summary>
+<summary>List of traits for the statusCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -937,7 +937,7 @@ First included in: electronicMedicalRecords/Encounter  (this entity)
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: electronicMedicalRecords/Encounter  (this entity)  
+First included in: electronicMedicalRecords/Encounter (this entity)  
 
 #### Properties
 
@@ -946,7 +946,7 @@ First included in: electronicMedicalRecords/Encounter  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  name  attribute are listed below.</summary>
+<summary>List of traits for the name attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -978,7 +978,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#emrAppointment name="emrAppointment">emrAppointment</a>
 
 A booking of a healthcare event among patient(s), practitioner(s), related person(s) and/or device(s) for a specific date/time. This may result in one or more Encounter(s).  
-First included in: electronicMedicalRecords/Encounter  (this entity)  
+First included in: electronicMedicalRecords/Encounter (this entity)  
 
 #### Properties
 
@@ -987,7 +987,7 @@ First included in: electronicMedicalRecords/Encounter  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  emrAppointment  attribute are listed below.</summary>
+<summary>List of traits for the emrAppointment attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1020,20 +1020,20 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#class name="class">class</a>
 
 Type of: inpatient | outpatient | ambulatory | emergency +.  
-First included in: electronicMedicalRecords/Encounter  (this entity)  
+First included in: electronicMedicalRecords/Encounter (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Class</td></tr><tr><td>description</td><td>Type of: inpatient | outpatient | ambulatory | emergency +.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_class</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>ambulatory</td><td>935000000</td></tr><tr><td>en</td><td>emergency</td><td>935000001</td></tr><tr><td>en</td><td>short stay</td><td>935000008</td></tr><tr><td>en</td><td>virtual</td><td>935000009</td></tr><tr><td>en</td><td>field</td><td>935000002</td></tr><tr><td>en</td><td>home health</td><td>935000003</td></tr><tr><td>en</td><td>inpatient encounter</td><td>935000004</td></tr><tr><td>en</td><td>inpatient acute</td><td>935000005</td></tr><tr><td>en</td><td>inpatient non-acute</td><td>935000006</td></tr><tr><td>en</td><td>pre-admission</td><td>935000007</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Class</td></tr><tr><td>description</td><td>Type of: inpatient | outpatient | ambulatory | emergency +.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_class</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>ambulatory</td><td>935000000</td></tr><tr><td>en</td><td>emergency</td><td>935000001</td></tr><tr><td>en</td><td>field</td><td>935000002</td></tr><tr><td>en</td><td>home health</td><td>935000003</td></tr><tr><td>en</td><td>inpatient encounter</td><td>935000004</td></tr><tr><td>en</td><td>inpatient acute</td><td>935000005</td></tr><tr><td>en</td><td>inpatient non-acute</td><td>935000006</td></tr><tr><td>en</td><td>pre-admission</td><td>935000007</td></tr><tr><td>en</td><td>short stay</td><td>935000008</td></tr><tr><td>en</td><td>virtual</td><td>935000009</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  class  attribute are listed below.</summary>
+<summary>List of traits for the class attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>virtual</td><td>935000009</td></tr><tr><td>en</td><td>short stay</td><td>935000008</td></tr><tr><td>en</td><td>pre-admission</td><td>935000007</td></tr><tr><td>en</td><td>inpatient non-acute</td><td>935000006</td></tr><tr><td>en</td><td>inpatient acute</td><td>935000005</td></tr><tr><td>en</td><td>inpatient encounter</td><td>935000004</td></tr><tr><td>en</td><td>home health</td><td>935000003</td></tr><tr><td>en</td><td>field</td><td>935000002</td></tr><tr><td>en</td><td>emergency</td><td>935000001</td></tr><tr><td>en</td><td>ambulatory</td><td>935000000</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>ambulatory</td><td>935000000</td></tr><tr><td>en</td><td>emergency</td><td>935000001</td></tr><tr><td>en</td><td>field</td><td>935000002</td></tr><tr><td>en</td><td>home health</td><td>935000003</td></tr><tr><td>en</td><td>inpatient encounter</td><td>935000004</td></tr><tr><td>en</td><td>inpatient acute</td><td>935000005</td></tr><tr><td>en</td><td>inpatient non-acute</td><td>935000006</td></tr><tr><td>en</td><td>pre-admission</td><td>935000007</td></tr><tr><td>en</td><td>short stay</td><td>935000008</td></tr><tr><td>en</td><td>virtual</td><td>935000009</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1060,7 +1060,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#class_display name="class_display">class_display</a>
 
-First included in: electronicMedicalRecords/Encounter  (this entity)  
+First included in: electronicMedicalRecords/Encounter (this entity)  
 
 #### Properties
 
@@ -1069,7 +1069,7 @@ First included in: electronicMedicalRecords/Encounter  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  class_display  attribute are listed below.</summary>
+<summary>List of traits for the class_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1083,7 +1083,7 @@ First included in: electronicMedicalRecords/Encounter  (this entity)
 
 ### <a href=#contextEncounter name="contextEncounter">contextEncounter</a>
 
-First included in: electronicMedicalRecords/Encounter  (this entity)  
+First included in: electronicMedicalRecords/Encounter (this entity)  
 
 #### Properties
 
@@ -1092,7 +1092,7 @@ First included in: electronicMedicalRecords/Encounter  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  contextEncounter  attribute are listed below.</summary>
+<summary>List of traits for the contextEncounter attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1121,7 +1121,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#contextEpisodeofCare name="contextEpisodeofCare">contextEpisodeofCare</a>
 
-First included in: electronicMedicalRecords/Encounter  (this entity)  
+First included in: electronicMedicalRecords/Encounter (this entity)  
 
 #### Properties
 
@@ -1130,7 +1130,7 @@ First included in: electronicMedicalRecords/Encounter  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  contextEpisodeofCare  attribute are listed below.</summary>
+<summary>List of traits for the contextEpisodeofCare attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1160,7 +1160,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#duration name="duration">duration</a>
 
 Quantity of time the encounter lasted. This excludes the time during leaves of absence.  
-First included in: electronicMedicalRecords/Encounter  (this entity)  
+First included in: electronicMedicalRecords/Encounter (this entity)  
 
 #### Properties
 
@@ -1169,7 +1169,7 @@ First included in: electronicMedicalRecords/Encounter  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  duration  attribute are listed below.</summary>
+<summary>List of traits for the duration attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1198,20 +1198,20 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#encounterClass name="encounterClass">encounterClass</a>
 
 Refers to the class of encounter.  
-First included in: electronicMedicalRecords/Encounter  (this entity)  
+First included in: electronicMedicalRecords/Encounter (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Class</td></tr><tr><td>description</td><td>Refers to the class of encounter.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_encounterclass</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Outpatient</td><td>935000001</td></tr><tr><td>en</td><td>Ambulatory</td><td>935000002</td></tr><tr><td>en</td><td>Emergency</td><td>935000003</td></tr><tr><td>en</td><td>Inpatient</td><td>935000000</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Class</td></tr><tr><td>description</td><td>Refers to the class of encounter.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_encounterclass</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Inpatient</td><td>935000000</td></tr><tr><td>en</td><td>Outpatient</td><td>935000001</td></tr><tr><td>en</td><td>Ambulatory</td><td>935000002</td></tr><tr><td>en</td><td>Emergency</td><td>935000003</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  encounterClass  attribute are listed below.</summary>
+<summary>List of traits for the encounterClass attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Emergency</td><td>935000003</td></tr><tr><td>en</td><td>Ambulatory</td><td>935000002</td></tr><tr><td>en</td><td>Outpatient</td><td>935000001</td></tr><tr><td>en</td><td>Inpatient</td><td>935000000</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Inpatient</td><td>935000000</td></tr><tr><td>en</td><td>Outpatient</td><td>935000001</td></tr><tr><td>en</td><td>Ambulatory</td><td>935000002</td></tr><tr><td>en</td><td>Emergency</td><td>935000003</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1238,7 +1238,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#encounterClass_display name="encounterClass_display">encounterClass_display</a>
 
-First included in: electronicMedicalRecords/Encounter  (this entity)  
+First included in: electronicMedicalRecords/Encounter (this entity)  
 
 #### Properties
 
@@ -1247,7 +1247,7 @@ First included in: electronicMedicalRecords/Encounter  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  encounterClass_display  attribute are listed below.</summary>
+<summary>List of traits for the encounterClass_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1262,7 +1262,7 @@ First included in: electronicMedicalRecords/Encounter  (this entity)
 ### <a href=#encounterEndDate name="encounterEndDate">encounterEndDate</a>
 
 The start and end time of the encounter.  
-First included in: electronicMedicalRecords/Encounter  (this entity)  
+First included in: electronicMedicalRecords/Encounter (this entity)  
 
 #### Properties
 
@@ -1271,7 +1271,7 @@ First included in: electronicMedicalRecords/Encounter  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  encounterEndDate  attribute are listed below.</summary>
+<summary>List of traits for the encounterEndDate attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1300,7 +1300,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#encounterGroupIdentifier name="encounterGroupIdentifier">encounterGroupIdentifier</a>
 
 The group present at the encounter  
-First included in: electronicMedicalRecords/Encounter  (this entity)  
+First included in: electronicMedicalRecords/Encounter (this entity)  
 
 #### Properties
 
@@ -1309,7 +1309,7 @@ First included in: electronicMedicalRecords/Encounter  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  encounterGroupIdentifier  attribute are listed below.</summary>
+<summary>List of traits for the encounterGroupIdentifier attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1342,7 +1342,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#encounterIdentifier name="encounterIdentifier">encounterIdentifier</a>
 
 Identifier(s) by which this encounter is known.  
-First included in: electronicMedicalRecords/Encounter  (this entity)  
+First included in: electronicMedicalRecords/Encounter (this entity)  
 
 #### Properties
 
@@ -1351,7 +1351,7 @@ First included in: electronicMedicalRecords/Encounter  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  encounterIdentifier  attribute are listed below.</summary>
+<summary>List of traits for the encounterIdentifier attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1382,7 +1382,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#encounterLength name="encounterLength">encounterLength</a>
 
 Quantity of time the encounter lasted. This excludes the time during leaves of absence.  
-First included in: electronicMedicalRecords/Encounter  (this entity)  
+First included in: electronicMedicalRecords/Encounter (this entity)  
 
 #### Properties
 
@@ -1391,7 +1391,7 @@ First included in: electronicMedicalRecords/Encounter  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  encounterLength  attribute are listed below.</summary>
+<summary>List of traits for the encounterLength attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1422,7 +1422,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#encounterParentEncounterIdentifier name="encounterParentEncounterIdentifier">encounterParentEncounterIdentifier</a>
 
 Another Encounter of which this encounter is a part of (administratively or in time).  
-First included in: electronicMedicalRecords/Encounter  (this entity)  
+First included in: electronicMedicalRecords/Encounter (this entity)  
 
 #### Properties
 
@@ -1431,7 +1431,7 @@ First included in: electronicMedicalRecords/Encounter  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  encounterParentEncounterIdentifier  attribute are listed below.</summary>
+<summary>List of traits for the encounterParentEncounterIdentifier attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1464,7 +1464,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#encounterPatientIdentifier name="encounterPatientIdentifier">encounterPatientIdentifier</a>
 
 The patient present at the encounter.  
-First included in: electronicMedicalRecords/Encounter  (this entity)  
+First included in: electronicMedicalRecords/Encounter (this entity)  
 
 #### Properties
 
@@ -1473,7 +1473,7 @@ First included in: electronicMedicalRecords/Encounter  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  encounterPatientIdentifier  attribute are listed below.</summary>
+<summary>List of traits for the encounterPatientIdentifier attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1506,7 +1506,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#encounterPriority name="encounterPriority">encounterPriority</a>
 
 Indicates the urgency of the encounter.  
-First included in: electronicMedicalRecords/Encounter  (this entity)  
+First included in: electronicMedicalRecords/Encounter (this entity)  
 
 #### Properties
 
@@ -1515,7 +1515,7 @@ First included in: electronicMedicalRecords/Encounter  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  encounterPriority  attribute are listed below.</summary>
+<summary>List of traits for the encounterPriority attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1548,7 +1548,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#encounterStartDate name="encounterStartDate">encounterStartDate</a>
 
 The start and end time of the encounter.  
-First included in: electronicMedicalRecords/Encounter  (this entity)  
+First included in: electronicMedicalRecords/Encounter (this entity)  
 
 #### Properties
 
@@ -1557,7 +1557,7 @@ First included in: electronicMedicalRecords/Encounter  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  encounterStartDate  attribute are listed below.</summary>
+<summary>List of traits for the encounterStartDate attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1586,20 +1586,20 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#encounterStatus name="encounterStatus">encounterStatus</a>
 
 Refers to the status of encounter.  
-First included in: electronicMedicalRecords/Encounter  (this entity)  
+First included in: electronicMedicalRecords/Encounter (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Refers to the status of encounter.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_encounterstatus</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Planned</td><td>935000000</td></tr><tr><td>en</td><td>Arrived</td><td>935000001</td></tr><tr><td>en</td><td>Unknown</td><td>935000008</td></tr><tr><td>en</td><td>Triaged</td><td>935000002</td></tr><tr><td>en</td><td>In Progress</td><td>935000003</td></tr><tr><td>en</td><td>On Leave</td><td>935000004</td></tr><tr><td>en</td><td>Finished</td><td>935000005</td></tr><tr><td>en</td><td>Cancelled</td><td>935000006</td></tr><tr><td>en</td><td>Entered in Error</td><td>935000007</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Refers to the status of encounter.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_encounterstatus</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Planned</td><td>935000000</td></tr><tr><td>en</td><td>Arrived</td><td>935000001</td></tr><tr><td>en</td><td>Triaged</td><td>935000002</td></tr><tr><td>en</td><td>In Progress</td><td>935000003</td></tr><tr><td>en</td><td>On Leave</td><td>935000004</td></tr><tr><td>en</td><td>Finished</td><td>935000005</td></tr><tr><td>en</td><td>Cancelled</td><td>935000006</td></tr><tr><td>en</td><td>Entered in Error</td><td>935000007</td></tr><tr><td>en</td><td>Unknown</td><td>935000008</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  encounterStatus  attribute are listed below.</summary>
+<summary>List of traits for the encounterStatus attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Unknown</td><td>935000008</td></tr><tr><td>en</td><td>Entered in Error</td><td>935000007</td></tr><tr><td>en</td><td>Cancelled</td><td>935000006</td></tr><tr><td>en</td><td>Finished</td><td>935000005</td></tr><tr><td>en</td><td>On Leave</td><td>935000004</td></tr><tr><td>en</td><td>In Progress</td><td>935000003</td></tr><tr><td>en</td><td>Triaged</td><td>935000002</td></tr><tr><td>en</td><td>Arrived</td><td>935000001</td></tr><tr><td>en</td><td>Planned</td><td>935000000</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Planned</td><td>935000000</td></tr><tr><td>en</td><td>Arrived</td><td>935000001</td></tr><tr><td>en</td><td>Triaged</td><td>935000002</td></tr><tr><td>en</td><td>In Progress</td><td>935000003</td></tr><tr><td>en</td><td>On Leave</td><td>935000004</td></tr><tr><td>en</td><td>Finished</td><td>935000005</td></tr><tr><td>en</td><td>Cancelled</td><td>935000006</td></tr><tr><td>en</td><td>Entered in Error</td><td>935000007</td></tr><tr><td>en</td><td>Unknown</td><td>935000008</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1626,7 +1626,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#encounterStatus_display name="encounterStatus_display">encounterStatus_display</a>
 
-First included in: electronicMedicalRecords/Encounter  (this entity)  
+First included in: electronicMedicalRecords/Encounter (this entity)  
 
 #### Properties
 
@@ -1635,7 +1635,7 @@ First included in: electronicMedicalRecords/Encounter  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  encounterStatus_display  attribute are listed below.</summary>
+<summary>List of traits for the encounterStatus_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1650,7 +1650,7 @@ First included in: electronicMedicalRecords/Encounter  (this entity)
 ### <a href=#hospitalizationAdmitSource name="hospitalizationAdmitSource">hospitalizationAdmitSource</a>
 
 From where patient was admitted (physician referral, transfer).  
-First included in: electronicMedicalRecords/Encounter  (this entity)  
+First included in: electronicMedicalRecords/Encounter (this entity)  
 
 #### Properties
 
@@ -1659,7 +1659,7 @@ First included in: electronicMedicalRecords/Encounter  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  hospitalizationAdmitSource  attribute are listed below.</summary>
+<summary>List of traits for the hospitalizationAdmitSource attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1692,7 +1692,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#hospitalizationDestination name="hospitalizationDestination">hospitalizationDestination</a>
 
 Location to which the patient is discharged.  
-First included in: electronicMedicalRecords/Encounter  (this entity)  
+First included in: electronicMedicalRecords/Encounter (this entity)  
 
 #### Properties
 
@@ -1701,7 +1701,7 @@ First included in: electronicMedicalRecords/Encounter  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  hospitalizationDestination  attribute are listed below.</summary>
+<summary>List of traits for the hospitalizationDestination attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1734,7 +1734,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#hospitalizationDischargeDisposition name="hospitalizationDischargeDisposition">hospitalizationDischargeDisposition</a>
 
 Category or kind of location after discharge.  
-First included in: electronicMedicalRecords/Encounter  (this entity)  
+First included in: electronicMedicalRecords/Encounter (this entity)  
 
 #### Properties
 
@@ -1743,7 +1743,7 @@ First included in: electronicMedicalRecords/Encounter  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  hospitalizationDischargeDisposition  attribute are listed below.</summary>
+<summary>List of traits for the hospitalizationDischargeDisposition attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1776,7 +1776,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#hospitalizationOrigin name="hospitalizationOrigin">hospitalizationOrigin</a>
 
 The location from which the patient came before admission.  
-First included in: electronicMedicalRecords/Encounter  (this entity)  
+First included in: electronicMedicalRecords/Encounter (this entity)  
 
 #### Properties
 
@@ -1785,7 +1785,7 @@ First included in: electronicMedicalRecords/Encounter  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  hospitalizationOrigin  attribute are listed below.</summary>
+<summary>List of traits for the hospitalizationOrigin attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1818,7 +1818,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#hospitalizationPreAdmissionNumber name="hospitalizationPreAdmissionNumber">hospitalizationPreAdmissionNumber</a>
 
 Pre-admission identifier.  
-First included in: electronicMedicalRecords/Encounter  (this entity)  
+First included in: electronicMedicalRecords/Encounter (this entity)  
 
 #### Properties
 
@@ -1827,7 +1827,7 @@ First included in: electronicMedicalRecords/Encounter  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  hospitalizationPreAdmissionNumber  attribute are listed below.</summary>
+<summary>List of traits for the hospitalizationPreAdmissionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1858,7 +1858,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#hospitalizationReadmission name="hospitalizationReadmission">hospitalizationReadmission</a>
 
 Whether this hospitalization is a readmission and why if known.  
-First included in: electronicMedicalRecords/Encounter  (this entity)  
+First included in: electronicMedicalRecords/Encounter (this entity)  
 
 #### Properties
 
@@ -1867,7 +1867,7 @@ First included in: electronicMedicalRecords/Encounter  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  hospitalizationReadmission  attribute are listed below.</summary>
+<summary>List of traits for the hospitalizationReadmission attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1899,7 +1899,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#onBehalfOf name="onBehalfOf">onBehalfOf</a>
 
-First included in: electronicMedicalRecords/Encounter  (this entity)  
+First included in: electronicMedicalRecords/Encounter (this entity)  
 
 #### Properties
 
@@ -1908,7 +1908,7 @@ First included in: electronicMedicalRecords/Encounter  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  onBehalfOf  attribute are listed below.</summary>
+<summary>List of traits for the onBehalfOf attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1938,7 +1938,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#periodEnd name="periodEnd">periodEnd</a>
 
 The start and end time of the encounter.  
-First included in: electronicMedicalRecords/Encounter  (this entity)  
+First included in: electronicMedicalRecords/Encounter (this entity)  
 
 #### Properties
 
@@ -1947,7 +1947,7 @@ First included in: electronicMedicalRecords/Encounter  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  periodEnd  attribute are listed below.</summary>
+<summary>List of traits for the periodEnd attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1976,7 +1976,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#periodStart name="periodStart">periodStart</a>
 
 The start and end time of the encounter.  
-First included in: electronicMedicalRecords/Encounter  (this entity)  
+First included in: electronicMedicalRecords/Encounter (this entity)  
 
 #### Properties
 
@@ -1985,7 +1985,7 @@ First included in: electronicMedicalRecords/Encounter  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  periodStart  attribute are listed below.</summary>
+<summary>List of traits for the periodStart attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -2014,20 +2014,20 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#priority name="priority">priority</a>
 
 Indicates the urgency of the encounter.  
-First included in: electronicMedicalRecords/Encounter  (this entity)  
+First included in: electronicMedicalRecords/Encounter (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Priority</td></tr><tr><td>description</td><td>Indicates the urgency of the encounter.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_priority</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>timing critical</td><td>935000012</td></tr><tr><td>en</td><td>elective</td><td>935000005</td></tr><tr><td>en</td><td>urgent</td><td>935000014</td></tr><tr><td>en</td><td>emergency</td><td>935000006</td></tr><tr><td>en</td><td>preop</td><td>935000007</td></tr><tr><td>en</td><td>as needed</td><td>935000008</td></tr><tr><td>en</td><td>routine</td><td>935000009</td></tr><tr><td>en</td><td>use as directed</td><td>935000013</td></tr><tr><td>en</td><td>stat</td><td>935000011</td></tr><tr><td>en</td><td>ASAP</td><td>935000000</td></tr><tr><td>en</td><td>callback results</td><td>935000001</td></tr><tr><td>en</td><td>callback for scheduling</td><td>935000002</td></tr><tr><td>en</td><td>callback placer for scheduling</td><td>935000003</td></tr><tr><td>en</td><td>contact recipient for scheduling</td><td>935000004</td></tr><tr><td>en</td><td>rush reporting</td><td>935000010</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Priority</td></tr><tr><td>description</td><td>Indicates the urgency of the encounter.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_priority</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>ASAP</td><td>935000000</td></tr><tr><td>en</td><td>callback results</td><td>935000001</td></tr><tr><td>en</td><td>callback for scheduling</td><td>935000002</td></tr><tr><td>en</td><td>callback placer for scheduling</td><td>935000003</td></tr><tr><td>en</td><td>contact recipient for scheduling</td><td>935000004</td></tr><tr><td>en</td><td>elective</td><td>935000005</td></tr><tr><td>en</td><td>emergency</td><td>935000006</td></tr><tr><td>en</td><td>preop</td><td>935000007</td></tr><tr><td>en</td><td>as needed</td><td>935000008</td></tr><tr><td>en</td><td>routine</td><td>935000009</td></tr><tr><td>en</td><td>rush reporting</td><td>935000010</td></tr><tr><td>en</td><td>stat</td><td>935000011</td></tr><tr><td>en</td><td>timing critical</td><td>935000012</td></tr><tr><td>en</td><td>use as directed</td><td>935000013</td></tr><tr><td>en</td><td>urgent</td><td>935000014</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  priority  attribute are listed below.</summary>
+<summary>List of traits for the priority attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>urgent</td><td>935000014</td></tr><tr><td>en</td><td>use as directed</td><td>935000013</td></tr><tr><td>en</td><td>timing critical</td><td>935000012</td></tr><tr><td>en</td><td>stat</td><td>935000011</td></tr><tr><td>en</td><td>rush reporting</td><td>935000010</td></tr><tr><td>en</td><td>routine</td><td>935000009</td></tr><tr><td>en</td><td>as needed</td><td>935000008</td></tr><tr><td>en</td><td>preop</td><td>935000007</td></tr><tr><td>en</td><td>emergency</td><td>935000006</td></tr><tr><td>en</td><td>elective</td><td>935000005</td></tr><tr><td>en</td><td>contact recipient for scheduling</td><td>935000004</td></tr><tr><td>en</td><td>callback placer for scheduling</td><td>935000003</td></tr><tr><td>en</td><td>callback for scheduling</td><td>935000002</td></tr><tr><td>en</td><td>callback results</td><td>935000001</td></tr><tr><td>en</td><td>ASAP</td><td>935000000</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>ASAP</td><td>935000000</td></tr><tr><td>en</td><td>callback results</td><td>935000001</td></tr><tr><td>en</td><td>callback for scheduling</td><td>935000002</td></tr><tr><td>en</td><td>callback placer for scheduling</td><td>935000003</td></tr><tr><td>en</td><td>contact recipient for scheduling</td><td>935000004</td></tr><tr><td>en</td><td>elective</td><td>935000005</td></tr><tr><td>en</td><td>emergency</td><td>935000006</td></tr><tr><td>en</td><td>preop</td><td>935000007</td></tr><tr><td>en</td><td>as needed</td><td>935000008</td></tr><tr><td>en</td><td>routine</td><td>935000009</td></tr><tr><td>en</td><td>rush reporting</td><td>935000010</td></tr><tr><td>en</td><td>stat</td><td>935000011</td></tr><tr><td>en</td><td>timing critical</td><td>935000012</td></tr><tr><td>en</td><td>use as directed</td><td>935000013</td></tr><tr><td>en</td><td>urgent</td><td>935000014</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2054,7 +2054,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#priority_display name="priority_display">priority_display</a>
 
-First included in: electronicMedicalRecords/Encounter  (this entity)  
+First included in: electronicMedicalRecords/Encounter (this entity)  
 
 #### Properties
 
@@ -2063,7 +2063,7 @@ First included in: electronicMedicalRecords/Encounter  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  priority_display  attribute are listed below.</summary>
+<summary>List of traits for the priority_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2078,7 +2078,7 @@ First included in: electronicMedicalRecords/Encounter  (this entity)
 ### <a href=#subjectPatient name="subjectPatient">subjectPatient</a>
 
 The patient or group present at the encounter.  
-First included in: electronicMedicalRecords/Encounter  (this entity)  
+First included in: electronicMedicalRecords/Encounter (this entity)  
 
 #### Properties
 
@@ -2087,7 +2087,7 @@ First included in: electronicMedicalRecords/Encounter  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  subjectPatient  attribute are listed below.</summary>
+<summary>List of traits for the subjectPatient attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  

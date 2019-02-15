@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/13/2019
+ms.date: 2/15/2019
 ms.author: tpalmer
 ---
 
@@ -12,13 +12,13 @@ ms.author: tpalmer
 
 Prospect or potential sales opportunity. Leads are converted into accounts, contacts, or opportunities when they are qualified. Otherwise, they are deleted or archived.  
   
-Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.json" target="_blank">GitHub</a>.  
+Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
-Instances of this entity are listed below:  
+Instances of this entity are listed below.  
 
-crmCommon/Lead  
+/core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.json/Lead  
 [nonProfit/Lead](accelerators/nonProfit/Lead.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Lead.cdm.json/Lead")  
 [marketing/Lead](solutions/marketing/Lead.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Lead.cdm.json/Lead")  
 
@@ -224,7 +224,7 @@ crmCommon/Lead
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -233,7 +233,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOn  attribute are listed below.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -263,7 +263,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -272,7 +272,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdBy  attribute are listed below.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -308,7 +308,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -317,7 +317,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -347,7 +347,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -356,7 +356,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -392,7 +392,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -401,7 +401,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -437,7 +437,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -446,7 +446,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -482,7 +482,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -491,7 +491,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -521,7 +521,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -530,7 +530,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -556,7 +556,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -565,7 +565,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerIdType  attribute are listed below.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -595,7 +595,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -604,7 +604,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerId  attribute are listed below.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -640,7 +640,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -649,7 +649,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningBusinessUnit  attribute are listed below.</summary>
+<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -682,7 +682,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -691,7 +691,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningUser  attribute are listed below.</summary>
+<summary>List of traits for the owningUser attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -727,7 +727,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -736,7 +736,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningTeam  attribute are listed below.</summary>
+<summary>List of traits for the owningTeam attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -769,7 +769,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -778,7 +778,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  timeZoneRuleVersionNumber  attribute are listed below.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -807,7 +807,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -816,7 +816,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  UTCConversionTimeZoneCode  attribute are listed below.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -845,7 +845,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -854,7 +854,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -882,7 +882,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#leadId name="leadId">leadId</a>
 
 Unique identifier of the lead.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -891,7 +891,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  leadId  attribute are listed below.</summary>
+<summary>List of traits for the leadId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -921,7 +921,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#fullName name="fullName">fullName</a>
 
 Combines and shows the lead's first and last names so the full name can be displayed in views and reports.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -930,7 +930,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  fullName  attribute are listed below.</summary>
+<summary>List of traits for the fullName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -962,7 +962,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#processId name="processId">processId</a>
 
 Contains the id of the process associated with the entity.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -971,7 +971,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  processId  attribute are listed below.</summary>
+<summary>List of traits for the processId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1000,7 +1000,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stageId name="stageId">stageId</a>
 
 Contains the id of the stage where the entity is located.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -1009,7 +1009,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  stageId  attribute are listed below.</summary>
+<summary>List of traits for the stageId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1038,7 +1038,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#traversedPath name="traversedPath">traversedPath</a>
 
 A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -1047,7 +1047,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  traversedPath  attribute are listed below.</summary>
+<summary>List of traits for the traversedPath attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1078,7 +1078,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#parentAccountId name="parentAccountId">parentAccountId</a>
 
 Choose an account to connect this lead to, so that the relationship is visible in reports and analytics.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -1087,7 +1087,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  parentAccountId  attribute are listed below.</summary>
+<summary>List of traits for the parentAccountId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1120,7 +1120,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#parentContactId name="parentContactId">parentContactId</a>
 
 Choose a contact to connect this lead to, so that the relationship is visible in reports and analytics.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -1129,7 +1129,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  parentContactId  attribute are listed below.</summary>
+<summary>List of traits for the parentContactId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1162,7 +1162,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#address1AddressId name="address1AddressId">address1AddressId</a>
 
 Unique identifier for address 1.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -1171,7 +1171,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1AddressId  attribute are listed below.</summary>
+<summary>List of traits for the address1AddressId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1201,7 +1201,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#address1AddressTypeCode name="address1AddressTypeCode">address1AddressTypeCode</a>
 
 Select the primary address type.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -1210,7 +1210,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1AddressTypeCode  attribute are listed below.</summary>
+<summary>List of traits for the address1AddressTypeCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -1241,7 +1241,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#address1AddressTypeCode_display name="address1AddressTypeCode_display">address1AddressTypeCode_display</a>
 
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -1250,7 +1250,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1AddressTypeCode_display  attribute are listed below.</summary>
+<summary>List of traits for the address1AddressTypeCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1265,7 +1265,7 @@ First included in: crmCommon/Lead  (this entity)
 ### <a href=#address1City name="address1City">address1City</a>
 
 Type the city for the primary address.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -1274,7 +1274,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1City  attribute are listed below.</summary>
+<summary>List of traits for the address1City attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1306,7 +1306,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Composite name="address1Composite">address1Composite</a>
 
 Shows the complete primary address.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -1315,7 +1315,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Composite  attribute are listed below.</summary>
+<summary>List of traits for the address1Composite attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1346,7 +1346,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Country name="address1Country">address1Country</a>
 
 Type the country or region for the primary address.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -1355,7 +1355,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Country  attribute are listed below.</summary>
+<summary>List of traits for the address1Country attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1387,7 +1387,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1County name="address1County">address1County</a>
 
 Type the county for the primary address.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -1396,7 +1396,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1County  attribute are listed below.</summary>
+<summary>List of traits for the address1County attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1428,7 +1428,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Fax name="address1Fax">address1Fax</a>
 
 Type the fax number associated with the primary address.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -1437,7 +1437,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Fax  attribute are listed below.</summary>
+<summary>List of traits for the address1Fax attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1468,7 +1468,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Latitude name="address1Latitude">address1Latitude</a>
 
 Type the latitude value for the primary address for use in mapping and other applications.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -1477,7 +1477,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Latitude  attribute are listed below.</summary>
+<summary>List of traits for the address1Latitude attribute are listed below.</summary>
 
 - **is.dataFormat.floatingPoint**  
 - **is.dataFormat.big**  
@@ -1508,7 +1508,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Line1 name="address1Line1">address1Line1</a>
 
 Type the first line of the primary address.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -1517,7 +1517,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Line1  attribute are listed below.</summary>
+<summary>List of traits for the address1Line1 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1549,7 +1549,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Line2 name="address1Line2">address1Line2</a>
 
 Type the second line of the primary address.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -1558,7 +1558,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Line2  attribute are listed below.</summary>
+<summary>List of traits for the address1Line2 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1590,7 +1590,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Line3 name="address1Line3">address1Line3</a>
 
 Type the third line of the primary address.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -1599,7 +1599,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Line3  attribute are listed below.</summary>
+<summary>List of traits for the address1Line3 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1631,7 +1631,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Longitude name="address1Longitude">address1Longitude</a>
 
 Type the longitude value for the primary address for use in mapping and other applications.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -1640,7 +1640,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Longitude  attribute are listed below.</summary>
+<summary>List of traits for the address1Longitude attribute are listed below.</summary>
 
 - **is.dataFormat.floatingPoint**  
 - **is.dataFormat.big**  
@@ -1671,7 +1671,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Name name="address1Name">address1Name</a>
 
 Type a descriptive name for the primary address, such as Corporate Headquarters.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -1680,7 +1680,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Name  attribute are listed below.</summary>
+<summary>List of traits for the address1Name attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1712,7 +1712,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1PostalCode name="address1PostalCode">address1PostalCode</a>
 
 Type the ZIP Code or postal code for the primary address.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -1721,7 +1721,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1PostalCode  attribute are listed below.</summary>
+<summary>List of traits for the address1PostalCode attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1753,7 +1753,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1PostOfficeBox name="address1PostOfficeBox">address1PostOfficeBox</a>
 
 Type the post office box number of the primary address.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -1762,7 +1762,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1PostOfficeBox  attribute are listed below.</summary>
+<summary>List of traits for the address1PostOfficeBox attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1793,7 +1793,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1ShippingMethodCode name="address1ShippingMethodCode">address1ShippingMethodCode</a>
 
 Select a shipping method for deliveries sent to this address.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -1802,7 +1802,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1ShippingMethodCode  attribute are listed below.</summary>
+<summary>List of traits for the address1ShippingMethodCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -1833,7 +1833,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#address1ShippingMethodCode_display name="address1ShippingMethodCode_display">address1ShippingMethodCode_display</a>
 
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -1842,7 +1842,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1ShippingMethodCode_display  attribute are listed below.</summary>
+<summary>List of traits for the address1ShippingMethodCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1857,7 +1857,7 @@ First included in: crmCommon/Lead  (this entity)
 ### <a href=#address1StateOrProvince name="address1StateOrProvince">address1StateOrProvince</a>
 
 Type the state or province of the primary address.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -1866,7 +1866,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1StateOrProvince  attribute are listed below.</summary>
+<summary>List of traits for the address1StateOrProvince attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1898,7 +1898,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Telephone1 name="address1Telephone1">address1Telephone1</a>
 
 Type the main phone number associated with the primary address.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -1907,7 +1907,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Telephone1  attribute are listed below.</summary>
+<summary>List of traits for the address1Telephone1 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1939,7 +1939,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Telephone2 name="address1Telephone2">address1Telephone2</a>
 
 Type a second phone number associated with the primary address.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -1948,7 +1948,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Telephone2  attribute are listed below.</summary>
+<summary>List of traits for the address1Telephone2 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1980,7 +1980,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Telephone3 name="address1Telephone3">address1Telephone3</a>
 
 Type a third phone number associated with the primary address.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -1989,7 +1989,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Telephone3  attribute are listed below.</summary>
+<summary>List of traits for the address1Telephone3 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2021,7 +2021,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1UPSZone name="address1UPSZone">address1UPSZone</a>
 
 Type the UPS zone of the primary address to make sure shipping charges are calculated correctly and deliveries are made promptly, if shipped by UPS.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -2030,7 +2030,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1UPSZone  attribute are listed below.</summary>
+<summary>List of traits for the address1UPSZone attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2061,7 +2061,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1UTCOffset name="address1UTCOffset">address1UTCOffset</a>
 
 Select the time zone, or UTC offset, for this address so that other people can reference it when they contact someone at this address.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -2070,7 +2070,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1UTCOffset  attribute are listed below.</summary>
+<summary>List of traits for the address1UTCOffset attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2102,7 +2102,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2AddressId name="address2AddressId">address2AddressId</a>
 
 Unique identifier for address 2.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -2111,7 +2111,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2AddressId  attribute are listed below.</summary>
+<summary>List of traits for the address2AddressId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2141,7 +2141,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#address2AddressTypeCode name="address2AddressTypeCode">address2AddressTypeCode</a>
 
 Select the secondary address type.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -2150,7 +2150,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2AddressTypeCode  attribute are listed below.</summary>
+<summary>List of traits for the address2AddressTypeCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -2181,7 +2181,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#address2AddressTypeCode_display name="address2AddressTypeCode_display">address2AddressTypeCode_display</a>
 
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -2190,7 +2190,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2AddressTypeCode_display  attribute are listed below.</summary>
+<summary>List of traits for the address2AddressTypeCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2205,7 +2205,7 @@ First included in: crmCommon/Lead  (this entity)
 ### <a href=#address2City name="address2City">address2City</a>
 
 Type the city for the secondary address.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -2214,7 +2214,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2City  attribute are listed below.</summary>
+<summary>List of traits for the address2City attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2246,7 +2246,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Composite name="address2Composite">address2Composite</a>
 
 Shows the complete secondary address.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -2255,7 +2255,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Composite  attribute are listed below.</summary>
+<summary>List of traits for the address2Composite attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2286,7 +2286,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Country name="address2Country">address2Country</a>
 
 Type the country or region for the secondary address.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -2295,7 +2295,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Country  attribute are listed below.</summary>
+<summary>List of traits for the address2Country attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2327,7 +2327,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2County name="address2County">address2County</a>
 
 Type the county for the secondary address.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -2336,7 +2336,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2County  attribute are listed below.</summary>
+<summary>List of traits for the address2County attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2368,7 +2368,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Fax name="address2Fax">address2Fax</a>
 
 Type the fax number associated with the secondary address.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -2377,7 +2377,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Fax  attribute are listed below.</summary>
+<summary>List of traits for the address2Fax attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2408,7 +2408,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Latitude name="address2Latitude">address2Latitude</a>
 
 Type the latitude value for the secondary address for use in mapping and other applications.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -2417,7 +2417,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Latitude  attribute are listed below.</summary>
+<summary>List of traits for the address2Latitude attribute are listed below.</summary>
 
 - **is.dataFormat.floatingPoint**  
 - **is.dataFormat.big**  
@@ -2448,7 +2448,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Line1 name="address2Line1">address2Line1</a>
 
 Type the first line of the secondary address.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -2457,7 +2457,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Line1  attribute are listed below.</summary>
+<summary>List of traits for the address2Line1 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2489,7 +2489,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Line2 name="address2Line2">address2Line2</a>
 
 Type the second line of the secondary address.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -2498,7 +2498,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Line2  attribute are listed below.</summary>
+<summary>List of traits for the address2Line2 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2530,7 +2530,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Line3 name="address2Line3">address2Line3</a>
 
 Type the third line of the secondary address.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -2539,7 +2539,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Line3  attribute are listed below.</summary>
+<summary>List of traits for the address2Line3 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2571,7 +2571,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Longitude name="address2Longitude">address2Longitude</a>
 
 Type the longitude value for the secondary address for use in mapping and other applications.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -2580,7 +2580,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Longitude  attribute are listed below.</summary>
+<summary>List of traits for the address2Longitude attribute are listed below.</summary>
 
 - **is.dataFormat.floatingPoint**  
 - **is.dataFormat.big**  
@@ -2611,7 +2611,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Name name="address2Name">address2Name</a>
 
 Type a descriptive name for the secondary address, such as Corporate Headquarters.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -2620,7 +2620,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Name  attribute are listed below.</summary>
+<summary>List of traits for the address2Name attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2652,7 +2652,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2PostalCode name="address2PostalCode">address2PostalCode</a>
 
 Type the ZIP Code or postal code for the secondary address.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -2661,7 +2661,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2PostalCode  attribute are listed below.</summary>
+<summary>List of traits for the address2PostalCode attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2693,7 +2693,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2PostOfficeBox name="address2PostOfficeBox">address2PostOfficeBox</a>
 
 Type the post office box number of the secondary address.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -2702,7 +2702,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2PostOfficeBox  attribute are listed below.</summary>
+<summary>List of traits for the address2PostOfficeBox attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2733,7 +2733,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2ShippingMethodCode name="address2ShippingMethodCode">address2ShippingMethodCode</a>
 
 Select a shipping method for deliveries sent to this address.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -2742,7 +2742,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2ShippingMethodCode  attribute are listed below.</summary>
+<summary>List of traits for the address2ShippingMethodCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -2773,7 +2773,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#address2ShippingMethodCode_display name="address2ShippingMethodCode_display">address2ShippingMethodCode_display</a>
 
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -2782,7 +2782,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2ShippingMethodCode_display  attribute are listed below.</summary>
+<summary>List of traits for the address2ShippingMethodCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2797,7 +2797,7 @@ First included in: crmCommon/Lead  (this entity)
 ### <a href=#address2StateOrProvince name="address2StateOrProvince">address2StateOrProvince</a>
 
 Type the state or province of the secondary address.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -2806,7 +2806,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2StateOrProvince  attribute are listed below.</summary>
+<summary>List of traits for the address2StateOrProvince attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2838,7 +2838,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Telephone1 name="address2Telephone1">address2Telephone1</a>
 
 Type the main phone number associated with the secondary address.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -2847,7 +2847,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Telephone1  attribute are listed below.</summary>
+<summary>List of traits for the address2Telephone1 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2879,7 +2879,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Telephone2 name="address2Telephone2">address2Telephone2</a>
 
 Type a second phone number associated with the secondary address.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -2888,7 +2888,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Telephone2  attribute are listed below.</summary>
+<summary>List of traits for the address2Telephone2 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2920,7 +2920,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Telephone3 name="address2Telephone3">address2Telephone3</a>
 
 Type a third phone number associated with the secondary address.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -2929,7 +2929,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Telephone3  attribute are listed below.</summary>
+<summary>List of traits for the address2Telephone3 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2961,7 +2961,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2UPSZone name="address2UPSZone">address2UPSZone</a>
 
 Type the UPS zone of the secondary address to make sure shipping charges are calculated correctly and deliveries are made promptly, if shipped by UPS.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -2970,7 +2970,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2UPSZone  attribute are listed below.</summary>
+<summary>List of traits for the address2UPSZone attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3001,7 +3001,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2UTCOffset name="address2UTCOffset">address2UTCOffset</a>
 
 Select the time zone, or UTC offset, for this address so that other people can reference it when they contact someone at this address.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -3010,7 +3010,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2UTCOffset  attribute are listed below.</summary>
+<summary>List of traits for the address2UTCOffset attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3042,7 +3042,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#budgetAmount name="budgetAmount">budgetAmount</a>
 
 Information about the budget amount of the lead's company or organization.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -3051,7 +3051,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  budgetAmount  attribute are listed below.</summary>
+<summary>List of traits for the budgetAmount attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3083,7 +3083,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Choose the local currency for the record to make sure budgets are reported in the correct currency.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -3092,7 +3092,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  transactionCurrencyId  attribute are listed below.</summary>
+<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3125,7 +3125,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -3134,7 +3134,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  exchangeRate  attribute are listed below.</summary>
+<summary>List of traits for the exchangeRate attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3165,7 +3165,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#budgetAmountBase name="budgetAmountBase">budgetAmountBase</a>
 
 Value of the Budget Amount in base currency.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -3174,7 +3174,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  budgetAmountBase  attribute are listed below.</summary>
+<summary>List of traits for the budgetAmountBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3209,7 +3209,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#budgetStatus name="budgetStatus">budgetStatus</a>
 
 Information about the budget status of the lead's company or organization.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -3218,11 +3218,11 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  budgetStatus  attribute are listed below.</summary>
+<summary>List of traits for the budgetStatus attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Will Buy</td><td>3</td></tr><tr><td>en</td><td>Can Buy</td><td>2</td></tr><tr><td>en</td><td>May Buy</td><td>1</td></tr><tr><td>en</td><td>No Committed Budget</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No Committed Budget</td><td>0</td></tr><tr><td>en</td><td>May Buy</td><td>1</td></tr><tr><td>en</td><td>Can Buy</td><td>2</td></tr><tr><td>en</td><td>Will Buy</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3249,7 +3249,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#budgetStatus_display name="budgetStatus_display">budgetStatus_display</a>
 
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -3258,7 +3258,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  budgetStatus_display  attribute are listed below.</summary>
+<summary>List of traits for the budgetStatus_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3273,7 +3273,7 @@ First included in: crmCommon/Lead  (this entity)
 ### <a href=#companyName name="companyName">companyName</a>
 
 Type the name of the company associated with the lead. This becomes the account name when the lead is qualified and converted to a customer account.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -3282,7 +3282,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  companyName  attribute are listed below.</summary>
+<summary>List of traits for the companyName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3314,7 +3314,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#confirmInterest name="confirmInterest">confirmInterest</a>
 
 Select whether the lead confirmed interest in your offerings. This helps in determining the lead quality.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -3323,7 +3323,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  confirmInterest  attribute are listed below.</summary>
+<summary>List of traits for the confirmInterest attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -3349,7 +3349,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#customerIdType name="customerIdType">customerIdType</a>
 
 The type of customer, either Account or Contact.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -3358,7 +3358,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  customerIdType  attribute are listed below.</summary>
+<summary>List of traits for the customerIdType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3385,7 +3385,7 @@ contains an Account or Contact ID
 ### <a href=#customerId name="customerId">customerId</a>
 
 The customer account or contact to provide a quick link to additional customer details, such as account information, activities, and opportunities.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -3394,7 +3394,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  customerId  attribute are listed below.</summary>
+<summary>List of traits for the customerId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3430,7 +3430,7 @@ contains an Account or Contact ID
 ### <a href=#decisionMaker name="decisionMaker">decisionMaker</a>
 
 Select whether your notes include information about who makes the purchase decisions at the lead's company.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -3439,7 +3439,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  decisionMaker  attribute are listed below.</summary>
+<summary>List of traits for the decisionMaker attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -3465,7 +3465,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#description name="description">description</a>
 
 Type additional information to describe the lead, such as an excerpt from the company's website.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -3474,7 +3474,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  description  attribute are listed below.</summary>
+<summary>List of traits for the description attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3505,7 +3505,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#doNotBulkEMail name="doNotBulkEMail">doNotBulkEMail</a>
 
 Select whether the lead accepts bulk email sent through marketing campaigns or quick campaigns. If Do Not Allow is selected, the lead can be added to marketing lists, but will be excluded from the email.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -3514,7 +3514,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  doNotBulkEMail  attribute are listed below.</summary>
+<summary>List of traits for the doNotBulkEMail attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -3540,7 +3540,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#doNotEMail name="doNotEMail">doNotEMail</a>
 
 Select whether the lead allows direct email sent from Microsoft Dynamics 365.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -3549,7 +3549,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  doNotEMail  attribute are listed below.</summary>
+<summary>List of traits for the doNotEMail attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -3575,7 +3575,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#doNotFax name="doNotFax">doNotFax</a>
 
 Select whether the lead allows faxes.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -3584,7 +3584,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  doNotFax  attribute are listed below.</summary>
+<summary>List of traits for the doNotFax attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -3610,7 +3610,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#doNotPhone name="doNotPhone">doNotPhone</a>
 
 Select whether the lead allows phone calls.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -3619,7 +3619,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  doNotPhone  attribute are listed below.</summary>
+<summary>List of traits for the doNotPhone attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -3645,7 +3645,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#doNotPostalMail name="doNotPostalMail">doNotPostalMail</a>
 
 Select whether the lead allows direct mail.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -3654,7 +3654,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  doNotPostalMail  attribute are listed below.</summary>
+<summary>List of traits for the doNotPostalMail attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -3680,7 +3680,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#doNotSendMM name="doNotSendMM">doNotSendMM</a>
 
 Select whether the lead accepts marketing materials, such as brochures or catalogs. Leads that opt out can be excluded from marketing initiatives.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -3689,7 +3689,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  doNotSendMM  attribute are listed below.</summary>
+<summary>List of traits for the doNotSendMM attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -3715,7 +3715,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#EMailAddress1 name="EMailAddress1">EMailAddress1</a>
 
 Type the primary email address for the lead.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -3724,7 +3724,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  EMailAddress1  attribute are listed below.</summary>
+<summary>List of traits for the EMailAddress1 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3756,7 +3756,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#EMailAddress2 name="EMailAddress2">EMailAddress2</a>
 
 Type the secondary email address for the lead.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -3765,7 +3765,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  EMailAddress2  attribute are listed below.</summary>
+<summary>List of traits for the EMailAddress2 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3797,7 +3797,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#EMailAddress3 name="EMailAddress3">EMailAddress3</a>
 
 Type a third email address for the lead.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -3806,7 +3806,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  EMailAddress3  attribute are listed below.</summary>
+<summary>List of traits for the EMailAddress3 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3838,7 +3838,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#estimatedAmount name="estimatedAmount">estimatedAmount</a>
 
 Type the estimated revenue value that this lead will generate to assist in sales forecasting and planning.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -3847,7 +3847,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  estimatedAmount  attribute are listed below.</summary>
+<summary>List of traits for the estimatedAmount attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3879,7 +3879,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#estimatedAmountBase name="estimatedAmountBase">estimatedAmountBase</a>
 
 Value of the Est. Value in base currency.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -3888,7 +3888,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  estimatedAmountBase  attribute are listed below.</summary>
+<summary>List of traits for the estimatedAmountBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3923,7 +3923,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#estimatedCloseDate name="estimatedCloseDate">estimatedCloseDate</a>
 
 Enter the expected close date for the lead, so that the sales team can schedule timely follow-up meetings to move the prospect to the next sales stage.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -3932,7 +3932,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  estimatedCloseDate  attribute are listed below.</summary>
+<summary>List of traits for the estimatedCloseDate attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -3961,7 +3961,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#estimatedValue name="estimatedValue">estimatedValue</a>
 
 Type a numeric value of the lead's estimated value, such as a product quantity, if no revenue amount can be specified in the Est. Value field. This can be used for sales forecasting and planning.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -3970,7 +3970,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  estimatedValue  attribute are listed below.</summary>
+<summary>List of traits for the estimatedValue attribute are listed below.</summary>
 
 - **is.dataFormat.floatingPoint**  
 - **is.dataFormat.big**  
@@ -4000,7 +4000,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#evaluateFit name="evaluateFit">evaluateFit</a>
 
 Select whether the fit between the lead's requirements and your offerings was evaluated.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -4009,7 +4009,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  evaluateFit  attribute are listed below.</summary>
+<summary>List of traits for the evaluateFit attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -4035,7 +4035,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#fax name="fax">fax</a>
 
 Type the fax number for the primary contact for the lead.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -4044,7 +4044,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  fax  attribute are listed below.</summary>
+<summary>List of traits for the fax attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4075,7 +4075,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#firstName name="firstName">firstName</a>
 
 Type the first name of the primary contact for the lead to make sure the prospect is addressed correctly in sales calls, email, and marketing campaigns.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -4084,7 +4084,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  firstName  attribute are listed below.</summary>
+<summary>List of traits for the firstName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4116,20 +4116,20 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#industryCode name="industryCode">industryCode</a>
 
 Select the primary industry in which the lead's business is focused, for use in marketing segmentation and demographic analysis.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Industry</td></tr><tr><td>description</td><td>Select the primary industry in which the lead's business is focused, for use in marketing segmentation and demographic analysis.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>industrycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Accounting</td><td>1</td></tr><tr><td>en</td><td>Wholesale</td><td>33</td></tr><tr><td>en</td><td>Broadcasting Printing and Publishing</td><td>3</td></tr><tr><td>en</td><td>Brokers</td><td>4</td></tr><tr><td>en</td><td>Building Supply Retail</td><td>5</td></tr><tr><td>en</td><td>Business Services</td><td>6</td></tr><tr><td>en</td><td>Consulting</td><td>7</td></tr><tr><td>en</td><td>Consumer Services</td><td>8</td></tr><tr><td>en</td><td>Design, Direction and Creative Management</td><td>9</td></tr><tr><td>en</td><td>Distributors, Dispatchers and Processors</td><td>10</td></tr><tr><td>en</td><td>Doctor's Offices and Clinics</td><td>11</td></tr><tr><td>en</td><td>Durable Manufacturing</td><td>12</td></tr><tr><td>en</td><td>Eating and Drinking Places</td><td>13</td></tr><tr><td>en</td><td>Entertainment Retail</td><td>14</td></tr><tr><td>en</td><td>Equipment Rental and Leasing</td><td>15</td></tr><tr><td>en</td><td>Financial</td><td>16</td></tr><tr><td>en</td><td>Agriculture and Non-petrol Natural Resource Extraction</td><td>2</td></tr><tr><td>en</td><td>Inbound Capital Intensive Processing</td><td>18</td></tr><tr><td>en</td><td>Inbound Repair and Services</td><td>19</td></tr><tr><td>en</td><td>Insurance</td><td>20</td></tr><tr><td>en</td><td>Legal Services</td><td>21</td></tr><tr><td>en</td><td>Non-Durable Merchandise Retail</td><td>22</td></tr><tr><td>en</td><td>Outbound Consumer Service</td><td>23</td></tr><tr><td>en</td><td>Petrochemical Extraction and Distribution</td><td>24</td></tr><tr><td>en</td><td>Service Retail</td><td>25</td></tr><tr><td>en</td><td>SIG Affiliations</td><td>26</td></tr><tr><td>en</td><td>Social Services</td><td>27</td></tr><tr><td>en</td><td>Special Outbound Trade Contractors</td><td>28</td></tr><tr><td>en</td><td>Specialty Realty</td><td>29</td></tr><tr><td>en</td><td>Transportation</td><td>30</td></tr><tr><td>en</td><td>Utility Creation and Distribution</td><td>31</td></tr><tr><td>en</td><td>Vehicle Retail</td><td>32</td></tr><tr><td>en</td><td>Food and Tobacco Processing</td><td>17</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Industry</td></tr><tr><td>description</td><td>Select the primary industry in which the lead's business is focused, for use in marketing segmentation and demographic analysis.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>industrycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Accounting</td><td>1</td></tr><tr><td>en</td><td>Agriculture and Non-petrol Natural Resource Extraction</td><td>2</td></tr><tr><td>en</td><td>Broadcasting Printing and Publishing</td><td>3</td></tr><tr><td>en</td><td>Brokers</td><td>4</td></tr><tr><td>en</td><td>Building Supply Retail</td><td>5</td></tr><tr><td>en</td><td>Business Services</td><td>6</td></tr><tr><td>en</td><td>Consulting</td><td>7</td></tr><tr><td>en</td><td>Consumer Services</td><td>8</td></tr><tr><td>en</td><td>Design, Direction and Creative Management</td><td>9</td></tr><tr><td>en</td><td>Distributors, Dispatchers and Processors</td><td>10</td></tr><tr><td>en</td><td>Doctor's Offices and Clinics</td><td>11</td></tr><tr><td>en</td><td>Durable Manufacturing</td><td>12</td></tr><tr><td>en</td><td>Eating and Drinking Places</td><td>13</td></tr><tr><td>en</td><td>Entertainment Retail</td><td>14</td></tr><tr><td>en</td><td>Equipment Rental and Leasing</td><td>15</td></tr><tr><td>en</td><td>Financial</td><td>16</td></tr><tr><td>en</td><td>Food and Tobacco Processing</td><td>17</td></tr><tr><td>en</td><td>Inbound Capital Intensive Processing</td><td>18</td></tr><tr><td>en</td><td>Inbound Repair and Services</td><td>19</td></tr><tr><td>en</td><td>Insurance</td><td>20</td></tr><tr><td>en</td><td>Legal Services</td><td>21</td></tr><tr><td>en</td><td>Non-Durable Merchandise Retail</td><td>22</td></tr><tr><td>en</td><td>Outbound Consumer Service</td><td>23</td></tr><tr><td>en</td><td>Petrochemical Extraction and Distribution</td><td>24</td></tr><tr><td>en</td><td>Service Retail</td><td>25</td></tr><tr><td>en</td><td>SIG Affiliations</td><td>26</td></tr><tr><td>en</td><td>Social Services</td><td>27</td></tr><tr><td>en</td><td>Special Outbound Trade Contractors</td><td>28</td></tr><tr><td>en</td><td>Specialty Realty</td><td>29</td></tr><tr><td>en</td><td>Transportation</td><td>30</td></tr><tr><td>en</td><td>Utility Creation and Distribution</td><td>31</td></tr><tr><td>en</td><td>Vehicle Retail</td><td>32</td></tr><tr><td>en</td><td>Wholesale</td><td>33</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  industryCode  attribute are listed below.</summary>
+<summary>List of traits for the industryCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Wholesale</td><td>33</td></tr><tr><td>en</td><td>Vehicle Retail</td><td>32</td></tr><tr><td>en</td><td>Utility Creation and Distribution</td><td>31</td></tr><tr><td>en</td><td>Transportation</td><td>30</td></tr><tr><td>en</td><td>Specialty Realty</td><td>29</td></tr><tr><td>en</td><td>Special Outbound Trade Contractors</td><td>28</td></tr><tr><td>en</td><td>Social Services</td><td>27</td></tr><tr><td>en</td><td>SIG Affiliations</td><td>26</td></tr><tr><td>en</td><td>Service Retail</td><td>25</td></tr><tr><td>en</td><td>Petrochemical Extraction and Distribution</td><td>24</td></tr><tr><td>en</td><td>Outbound Consumer Service</td><td>23</td></tr><tr><td>en</td><td>Non-Durable Merchandise Retail</td><td>22</td></tr><tr><td>en</td><td>Legal Services</td><td>21</td></tr><tr><td>en</td><td>Insurance</td><td>20</td></tr><tr><td>en</td><td>Inbound Repair and Services</td><td>19</td></tr><tr><td>en</td><td>Inbound Capital Intensive Processing</td><td>18</td></tr><tr><td>en</td><td>Food and Tobacco Processing</td><td>17</td></tr><tr><td>en</td><td>Financial</td><td>16</td></tr><tr><td>en</td><td>Equipment Rental and Leasing</td><td>15</td></tr><tr><td>en</td><td>Entertainment Retail</td><td>14</td></tr><tr><td>en</td><td>Eating and Drinking Places</td><td>13</td></tr><tr><td>en</td><td>Durable Manufacturing</td><td>12</td></tr><tr><td>en</td><td>Doctor's Offices and Clinics</td><td>11</td></tr><tr><td>en</td><td>Distributors, Dispatchers and Processors</td><td>10</td></tr><tr><td>en</td><td>Design, Direction and Creative Management</td><td>9</td></tr><tr><td>en</td><td>Consumer Services</td><td>8</td></tr><tr><td>en</td><td>Consulting</td><td>7</td></tr><tr><td>en</td><td>Business Services</td><td>6</td></tr><tr><td>en</td><td>Building Supply Retail</td><td>5</td></tr><tr><td>en</td><td>Brokers</td><td>4</td></tr><tr><td>en</td><td>Broadcasting Printing and Publishing</td><td>3</td></tr><tr><td>en</td><td>Agriculture and Non-petrol Natural Resource Extraction</td><td>2</td></tr><tr><td>en</td><td>Accounting</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Accounting</td><td>1</td></tr><tr><td>en</td><td>Agriculture and Non-petrol Natural Resource Extraction</td><td>2</td></tr><tr><td>en</td><td>Broadcasting Printing and Publishing</td><td>3</td></tr><tr><td>en</td><td>Brokers</td><td>4</td></tr><tr><td>en</td><td>Building Supply Retail</td><td>5</td></tr><tr><td>en</td><td>Business Services</td><td>6</td></tr><tr><td>en</td><td>Consulting</td><td>7</td></tr><tr><td>en</td><td>Consumer Services</td><td>8</td></tr><tr><td>en</td><td>Design, Direction and Creative Management</td><td>9</td></tr><tr><td>en</td><td>Distributors, Dispatchers and Processors</td><td>10</td></tr><tr><td>en</td><td>Doctor's Offices and Clinics</td><td>11</td></tr><tr><td>en</td><td>Durable Manufacturing</td><td>12</td></tr><tr><td>en</td><td>Eating and Drinking Places</td><td>13</td></tr><tr><td>en</td><td>Entertainment Retail</td><td>14</td></tr><tr><td>en</td><td>Equipment Rental and Leasing</td><td>15</td></tr><tr><td>en</td><td>Financial</td><td>16</td></tr><tr><td>en</td><td>Food and Tobacco Processing</td><td>17</td></tr><tr><td>en</td><td>Inbound Capital Intensive Processing</td><td>18</td></tr><tr><td>en</td><td>Inbound Repair and Services</td><td>19</td></tr><tr><td>en</td><td>Insurance</td><td>20</td></tr><tr><td>en</td><td>Legal Services</td><td>21</td></tr><tr><td>en</td><td>Non-Durable Merchandise Retail</td><td>22</td></tr><tr><td>en</td><td>Outbound Consumer Service</td><td>23</td></tr><tr><td>en</td><td>Petrochemical Extraction and Distribution</td><td>24</td></tr><tr><td>en</td><td>Service Retail</td><td>25</td></tr><tr><td>en</td><td>SIG Affiliations</td><td>26</td></tr><tr><td>en</td><td>Social Services</td><td>27</td></tr><tr><td>en</td><td>Special Outbound Trade Contractors</td><td>28</td></tr><tr><td>en</td><td>Specialty Realty</td><td>29</td></tr><tr><td>en</td><td>Transportation</td><td>30</td></tr><tr><td>en</td><td>Utility Creation and Distribution</td><td>31</td></tr><tr><td>en</td><td>Vehicle Retail</td><td>32</td></tr><tr><td>en</td><td>Wholesale</td><td>33</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -4156,7 +4156,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#industryCode_display name="industryCode_display">industryCode_display</a>
 
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -4165,7 +4165,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  industryCode_display  attribute are listed below.</summary>
+<summary>List of traits for the industryCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4180,7 +4180,7 @@ First included in: crmCommon/Lead  (this entity)
 ### <a href=#initialCommunication name="initialCommunication">initialCommunication</a>
 
 Choose whether someone from the sales team contacted this lead earlier.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -4189,11 +4189,11 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  initialCommunication  attribute are listed below.</summary>
+<summary>List of traits for the initialCommunication attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not Contacted</td><td>1</td></tr><tr><td>en</td><td>Contacted</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Contacted</td><td>0</td></tr><tr><td>en</td><td>Not Contacted</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -4220,7 +4220,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#initialCommunication_display name="initialCommunication_display">initialCommunication_display</a>
 
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -4229,7 +4229,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  initialCommunication_display  attribute are listed below.</summary>
+<summary>List of traits for the initialCommunication_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4244,7 +4244,7 @@ First included in: crmCommon/Lead  (this entity)
 ### <a href=#jobTitle name="jobTitle">jobTitle</a>
 
 Type the job title of the primary contact for this lead to make sure the prospect is addressed correctly in sales calls, email, and marketing campaigns.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -4253,7 +4253,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  jobTitle  attribute are listed below.</summary>
+<summary>List of traits for the jobTitle attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4284,7 +4284,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#lastName name="lastName">lastName</a>
 
 Type the last name of the primary contact for the lead to make sure the prospect is addressed correctly in sales calls, email, and marketing campaigns.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -4293,7 +4293,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  lastName  attribute are listed below.</summary>
+<summary>List of traits for the lastName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4325,7 +4325,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#lastUsedInCampaign name="lastUsedInCampaign">lastUsedInCampaign</a>
 
 Shows the date when the lead was last included in a marketing campaign or quick campaign.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -4334,7 +4334,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  lastUsedInCampaign  attribute are listed below.</summary>
+<summary>List of traits for the lastUsedInCampaign attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -4363,7 +4363,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#leadQualityCode name="leadQualityCode">leadQualityCode</a>
 
 Select a rating value to indicate the lead's potential to become a customer.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -4372,11 +4372,11 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  leadQualityCode  attribute are listed below.</summary>
+<summary>List of traits for the leadQualityCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Cold</td><td>3</td></tr><tr><td>en</td><td>Warm</td><td>2</td></tr><tr><td>en</td><td>Hot</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Hot</td><td>1</td></tr><tr><td>en</td><td>Warm</td><td>2</td></tr><tr><td>en</td><td>Cold</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -4403,7 +4403,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#leadQualityCode_display name="leadQualityCode_display">leadQualityCode_display</a>
 
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -4412,7 +4412,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  leadQualityCode_display  attribute are listed below.</summary>
+<summary>List of traits for the leadQualityCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4427,7 +4427,7 @@ First included in: crmCommon/Lead  (this entity)
 ### <a href=#leadSourceCode name="leadSourceCode">leadSourceCode</a>
 
 Select the primary marketing source that prompted the lead to contact you.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -4436,11 +4436,11 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  leadSourceCode  attribute are listed below.</summary>
+<summary>List of traits for the leadSourceCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Other</td><td>10</td></tr><tr><td>en</td><td>Word of Mouth</td><td>9</td></tr><tr><td>en</td><td>Web</td><td>8</td></tr><tr><td>en</td><td>Trade Show</td><td>7</td></tr><tr><td>en</td><td>Seminar</td><td>6</td></tr><tr><td>en</td><td>Public Relations</td><td>5</td></tr><tr><td>en</td><td>Partner</td><td>4</td></tr><tr><td>en</td><td>External Referral</td><td>3</td></tr><tr><td>en</td><td>Employee Referral</td><td>2</td></tr><tr><td>en</td><td>Advertisement</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Advertisement</td><td>1</td></tr><tr><td>en</td><td>Employee Referral</td><td>2</td></tr><tr><td>en</td><td>External Referral</td><td>3</td></tr><tr><td>en</td><td>Partner</td><td>4</td></tr><tr><td>en</td><td>Public Relations</td><td>5</td></tr><tr><td>en</td><td>Seminar</td><td>6</td></tr><tr><td>en</td><td>Trade Show</td><td>7</td></tr><tr><td>en</td><td>Web</td><td>8</td></tr><tr><td>en</td><td>Word of Mouth</td><td>9</td></tr><tr><td>en</td><td>Other</td><td>10</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -4467,7 +4467,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#leadSourceCode_display name="leadSourceCode_display">leadSourceCode_display</a>
 
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -4476,7 +4476,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  leadSourceCode_display  attribute are listed below.</summary>
+<summary>List of traits for the leadSourceCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4491,7 +4491,7 @@ First included in: crmCommon/Lead  (this entity)
 ### <a href=#masterId name="masterId">masterId</a>
 
 Unique identifier of the master lead for merge.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -4500,7 +4500,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  masterId  attribute are listed below.</summary>
+<summary>List of traits for the masterId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4533,7 +4533,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#merged name="merged">merged</a>
 
 Tells whether the lead has been merged with another lead.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -4542,7 +4542,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  merged  attribute are listed below.</summary>
+<summary>List of traits for the merged attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -4568,7 +4568,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#middleName name="middleName">middleName</a>
 
 Type the middle name or initial of the primary contact for the lead to make sure the prospect is addressed correctly.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -4577,7 +4577,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  middleName  attribute are listed below.</summary>
+<summary>List of traits for the middleName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4609,7 +4609,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#mobilePhone name="mobilePhone">mobilePhone</a>
 
 Type the mobile phone number for the primary contact for the lead.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -4618,7 +4618,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  mobilePhone  attribute are listed below.</summary>
+<summary>List of traits for the mobilePhone attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4650,7 +4650,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#need name="need">need</a>
 
 Choose how high the level of need is for the lead's company.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -4659,11 +4659,11 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  need  attribute are listed below.</summary>
+<summary>List of traits for the need attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No need</td><td>3</td></tr><tr><td>en</td><td>Good to have</td><td>2</td></tr><tr><td>en</td><td>Should have</td><td>1</td></tr><tr><td>en</td><td>Must have</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Must have</td><td>0</td></tr><tr><td>en</td><td>Should have</td><td>1</td></tr><tr><td>en</td><td>Good to have</td><td>2</td></tr><tr><td>en</td><td>No need</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -4690,7 +4690,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#need_display name="need_display">need_display</a>
 
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -4699,7 +4699,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  need_display  attribute are listed below.</summary>
+<summary>List of traits for the need_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4714,7 +4714,7 @@ First included in: crmCommon/Lead  (this entity)
 ### <a href=#numberOfEmployees name="numberOfEmployees">numberOfEmployees</a>
 
 Type the number of employees that work at the company associated with the lead, for use in marketing segmentation and demographic analysis.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -4723,7 +4723,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  numberOfEmployees  attribute are listed below.</summary>
+<summary>List of traits for the numberOfEmployees attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -4752,7 +4752,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#pager name="pager">pager</a>
 
 Type the pager number for the primary contact for the lead.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -4761,7 +4761,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  pager  attribute are listed below.</summary>
+<summary>List of traits for the pager attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4792,7 +4792,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#participatesInWorkflow name="participatesInWorkflow">participatesInWorkflow</a>
 
 Shows whether the lead participates in workflow rules.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -4801,7 +4801,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  participatesInWorkflow  attribute are listed below.</summary>
+<summary>List of traits for the participatesInWorkflow attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -4827,7 +4827,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#preferredContactMethodCode name="preferredContactMethodCode">preferredContactMethodCode</a>
 
 Select the preferred method of contact.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -4836,11 +4836,11 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  preferredContactMethodCode  attribute are listed below.</summary>
+<summary>List of traits for the preferredContactMethodCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Mail</td><td>5</td></tr><tr><td>en</td><td>Fax</td><td>4</td></tr><tr><td>en</td><td>Phone</td><td>3</td></tr><tr><td>en</td><td>Email</td><td>2</td></tr><tr><td>en</td><td>Any</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Any</td><td>1</td></tr><tr><td>en</td><td>Email</td><td>2</td></tr><tr><td>en</td><td>Phone</td><td>3</td></tr><tr><td>en</td><td>Fax</td><td>4</td></tr><tr><td>en</td><td>Mail</td><td>5</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -4867,7 +4867,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#preferredContactMethodCode_display name="preferredContactMethodCode_display">preferredContactMethodCode_display</a>
 
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -4876,7 +4876,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  preferredContactMethodCode_display  attribute are listed below.</summary>
+<summary>List of traits for the preferredContactMethodCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4891,7 +4891,7 @@ First included in: crmCommon/Lead  (this entity)
 ### <a href=#priorityCode name="priorityCode">priorityCode</a>
 
 Select the priority so that preferred customers or critical issues are handled quickly.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -4900,7 +4900,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  priorityCode  attribute are listed below.</summary>
+<summary>List of traits for the priorityCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -4931,7 +4931,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#priorityCode_display name="priorityCode_display">priorityCode_display</a>
 
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -4940,7 +4940,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  priorityCode_display  attribute are listed below.</summary>
+<summary>List of traits for the priorityCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4955,7 +4955,7 @@ First included in: crmCommon/Lead  (this entity)
 ### <a href=#purchaseProcess name="purchaseProcess">purchaseProcess</a>
 
 Choose whether an individual or a committee will be involved in the  purchase process for the lead.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -4964,11 +4964,11 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  purchaseProcess  attribute are listed below.</summary>
+<summary>List of traits for the purchaseProcess attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Unknown</td><td>2</td></tr><tr><td>en</td><td>Committee</td><td>1</td></tr><tr><td>en</td><td>Individual</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Individual</td><td>0</td></tr><tr><td>en</td><td>Committee</td><td>1</td></tr><tr><td>en</td><td>Unknown</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -4995,7 +4995,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#purchaseProcess_display name="purchaseProcess_display">purchaseProcess_display</a>
 
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -5004,7 +5004,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  purchaseProcess_display  attribute are listed below.</summary>
+<summary>List of traits for the purchaseProcess_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5019,7 +5019,7 @@ First included in: crmCommon/Lead  (this entity)
 ### <a href=#qualificationComments name="qualificationComments">qualificationComments</a>
 
 Type comments about the qualification or scoring of the lead.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -5028,7 +5028,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  qualificationComments  attribute are listed below.</summary>
+<summary>List of traits for the qualificationComments attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5059,7 +5059,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#revenue name="revenue">revenue</a>
 
 Type the annual revenue of the company associated with the lead to provide an understanding of the prospect's business.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -5068,7 +5068,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  revenue  attribute are listed below.</summary>
+<summary>List of traits for the revenue attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -5100,7 +5100,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#revenueBase name="revenueBase">revenueBase</a>
 
 Value of the Annual Revenue in base currency.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -5109,7 +5109,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  revenueBase  attribute are listed below.</summary>
+<summary>List of traits for the revenueBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -5144,7 +5144,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#salesStage name="salesStage">salesStage</a>
 
 Select the sales stage of this lead to aid the sales team in their efforts to convert this lead to an opportunity.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -5153,7 +5153,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  salesStage  attribute are listed below.</summary>
+<summary>List of traits for the salesStage attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -5184,7 +5184,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#salesStage_display name="salesStage_display">salesStage_display</a>
 
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -5193,7 +5193,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  salesStage_display  attribute are listed below.</summary>
+<summary>List of traits for the salesStage_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5208,7 +5208,7 @@ First included in: crmCommon/Lead  (this entity)
 ### <a href=#salesStageCode name="salesStageCode">salesStageCode</a>
 
 Select the sales process stage for the lead to help determine the probability of the lead converting to an opportunity.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -5217,7 +5217,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  salesStageCode  attribute are listed below.</summary>
+<summary>List of traits for the salesStageCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -5248,7 +5248,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#salesStageCode_display name="salesStageCode_display">salesStageCode_display</a>
 
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -5257,7 +5257,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  salesStageCode_display  attribute are listed below.</summary>
+<summary>List of traits for the salesStageCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5272,7 +5272,7 @@ First included in: crmCommon/Lead  (this entity)
 ### <a href=#salutation name="salutation">salutation</a>
 
 Type the salutation of the primary contact for this lead to make sure the prospect is addressed correctly in sales calls, email messages, and marketing campaigns.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -5281,7 +5281,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  salutation  attribute are listed below.</summary>
+<summary>List of traits for the salutation attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5312,7 +5312,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#scheduleFollowupProspect name="scheduleFollowupProspect">scheduleFollowupProspect</a>
 
 Enter the date and time of the prospecting follow-up meeting with the lead.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -5321,7 +5321,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  scheduleFollowupProspect  attribute are listed below.</summary>
+<summary>List of traits for the scheduleFollowupProspect attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -5350,7 +5350,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#scheduleFollowUpQualify name="scheduleFollowUpQualify">scheduleFollowUpQualify</a>
 
 Enter the date and time of the qualifying follow-up meeting with the lead.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -5359,7 +5359,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  scheduleFollowUpQualify  attribute are listed below.</summary>
+<summary>List of traits for the scheduleFollowUpQualify attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -5388,7 +5388,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#SIC name="SIC">SIC</a>
 
 Type the Standard Industrial Classification (SIC) code that indicates the lead's primary industry of business for use in marketing segmentation and demographic analysis.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -5397,7 +5397,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  SIC  attribute are listed below.</summary>
+<summary>List of traits for the SIC attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5428,7 +5428,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Shows whether the lead is open, qualified, or disqualified. Qualified and disqualified leads are read-only and can't be edited unless they are reactivated.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -5437,11 +5437,11 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode  attribute are listed below.</summary>
+<summary>List of traits for the stateCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Disqualified</td><td>2</td></tr><tr><td>en</td><td>Qualified</td><td>1</td></tr><tr><td>en</td><td>Open</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Open</td><td>0</td></tr><tr><td>en</td><td>Qualified</td><td>1</td></tr><tr><td>en</td><td>Disqualified</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -5468,7 +5468,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -5477,7 +5477,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode_display  attribute are listed below.</summary>
+<summary>List of traits for the stateCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5492,20 +5492,20 @@ First included in: crmCommon/Lead  (this entity)
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Select the lead's status.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the lead's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>New</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Contacted</td><td>2</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Qualified</td><td>3</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Lost</td><td>4</td><td>3</td><td>2</td></tr><tr><td>en</td><td>Cannot Contact</td><td>5</td><td>4</td><td>2</td></tr><tr><td>en</td><td>No Longer Interested</td><td>6</td><td>5</td><td>2</td></tr><tr><td>en</td><td>Canceled</td><td>7</td><td>6</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the lead's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>New</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Contacted</td><td>2</td><td>0</td></tr><tr><td>en</td><td>Qualified</td><td>3</td><td>1</td></tr><tr><td>en</td><td>Lost</td><td>4</td><td>2</td></tr><tr><td>en</td><td>Cannot Contact</td><td>5</td><td>2</td></tr><tr><td>en</td><td>No Longer Interested</td><td>6</td><td>2</td></tr><tr><td>en</td><td>Canceled</td><td>7</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode  attribute are listed below.</summary>
+<summary>List of traits for the statusCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>New</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Contacted</td><td>2</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Qualified</td><td>3</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Lost</td><td>4</td><td>3</td><td>2</td></tr><tr><td>en</td><td>Cannot Contact</td><td>5</td><td>4</td><td>2</td></tr><tr><td>en</td><td>No Longer Interested</td><td>6</td><td>5</td><td>2</td></tr><tr><td>en</td><td>Canceled</td><td>7</td><td>6</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>New</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Contacted</td><td>2</td><td>0</td></tr><tr><td>en</td><td>Qualified</td><td>3</td><td>1</td></tr><tr><td>en</td><td>Lost</td><td>4</td><td>2</td></tr><tr><td>en</td><td>Cannot Contact</td><td>5</td><td>2</td></tr><tr><td>en</td><td>No Longer Interested</td><td>6</td><td>2</td></tr><tr><td>en</td><td>Canceled</td><td>7</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -5535,7 +5535,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -5544,7 +5544,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode_display  attribute are listed below.</summary>
+<summary>List of traits for the statusCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5559,7 +5559,7 @@ First included in: crmCommon/Lead  (this entity)
 ### <a href=#subject name="subject">subject</a>
 
 Type a subject or descriptive name, such as the expected order, company name, or marketing source list, to identify the lead.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -5568,7 +5568,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  subject  attribute are listed below.</summary>
+<summary>List of traits for the subject attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5599,7 +5599,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#telephone1 name="telephone1">telephone1</a>
 
 Type the work phone number for the primary contact for the lead.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -5608,7 +5608,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  telephone1  attribute are listed below.</summary>
+<summary>List of traits for the telephone1 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5640,7 +5640,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#telephone2 name="telephone2">telephone2</a>
 
 Type the home phone number for the primary contact for the lead.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -5649,7 +5649,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  telephone2  attribute are listed below.</summary>
+<summary>List of traits for the telephone2 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5681,7 +5681,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#telephone3 name="telephone3">telephone3</a>
 
 Type an alternate phone number for the primary contact for the lead.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -5690,7 +5690,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  telephone3  attribute are listed below.</summary>
+<summary>List of traits for the telephone3 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5722,7 +5722,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#purchaseTimeFrame name="purchaseTimeFrame">purchaseTimeFrame</a>
 
 Choose how long the lead will likely take to make the purchase, so the sales team will be aware.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -5731,11 +5731,11 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  purchaseTimeFrame  attribute are listed below.</summary>
+<summary>List of traits for the purchaseTimeFrame attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Unknown</td><td>4</td></tr><tr><td>en</td><td>This Year</td><td>3</td></tr><tr><td>en</td><td>Next Quarter</td><td>2</td></tr><tr><td>en</td><td>This Quarter</td><td>1</td></tr><tr><td>en</td><td>Immediate</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Immediate</td><td>0</td></tr><tr><td>en</td><td>This Quarter</td><td>1</td></tr><tr><td>en</td><td>Next Quarter</td><td>2</td></tr><tr><td>en</td><td>This Year</td><td>3</td></tr><tr><td>en</td><td>Unknown</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -5762,7 +5762,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#purchaseTimeFrame_display name="purchaseTimeFrame_display">purchaseTimeFrame_display</a>
 
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -5771,7 +5771,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  purchaseTimeFrame_display  attribute are listed below.</summary>
+<summary>List of traits for the purchaseTimeFrame_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5786,7 +5786,7 @@ First included in: crmCommon/Lead  (this entity)
 ### <a href=#webSiteUrl name="webSiteUrl">webSiteUrl</a>
 
 Type the website URL for the company associated with this lead.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -5795,7 +5795,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  webSiteUrl  attribute are listed below.</summary>
+<summary>List of traits for the webSiteUrl attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5827,7 +5827,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#SLAId name="SLAId">SLAId</a>
 
 Choose the service level agreement (SLA) that you want to apply to the Lead record.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -5836,7 +5836,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  SLAId  attribute are listed below.</summary>
+<summary>List of traits for the SLAId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5869,7 +5869,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#SLAInvokedId name="SLAInvokedId">SLAInvokedId</a>
 
 Last SLA that was applied to this case. This field is for internal use only.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -5878,7 +5878,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  SLAInvokedId  attribute are listed below.</summary>
+<summary>List of traits for the SLAInvokedId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5911,7 +5911,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#onHoldTime name="onHoldTime">onHoldTime</a>
 
 Shows how long, in minutes, that the record was on hold.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -5920,7 +5920,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  onHoldTime  attribute are listed below.</summary>
+<summary>List of traits for the onHoldTime attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -5949,7 +5949,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#lastOnHoldTime name="lastOnHoldTime">lastOnHoldTime</a>
 
 Contains the date and time stamp of the last on hold time.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -5958,7 +5958,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  lastOnHoldTime  attribute are listed below.</summary>
+<summary>List of traits for the lastOnHoldTime attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -5987,7 +5987,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#followEmail name="followEmail">followEmail</a>
 
 Information about whether to allow following email activity like opens, attachment views and link clicks for emails sent to the lead.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -5996,7 +5996,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  followEmail  attribute are listed below.</summary>
+<summary>List of traits for the followEmail attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -6022,7 +6022,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#timeSpentByMeOnEmailAndMeetings name="timeSpentByMeOnEmailAndMeetings">timeSpentByMeOnEmailAndMeetings</a>
 
 Total time spent for emails (read and write) and meetings by me in relation to the lead record.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -6031,7 +6031,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  timeSpentByMeOnEmailAndMeetings  attribute are listed below.</summary>
+<summary>List of traits for the timeSpentByMeOnEmailAndMeetings attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6062,7 +6062,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#entityImageId name="entityImageId">entityImageId</a>
 
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -6071,7 +6071,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  entityImageId  attribute are listed below.</summary>
+<summary>List of traits for the entityImageId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6094,7 +6094,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#accountId name="accountId">accountId</a>
 
 Unique identifier of the account with which the lead is associated.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -6103,7 +6103,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  accountId  attribute are listed below.</summary>
+<summary>List of traits for the accountId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6136,7 +6136,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#contactId name="contactId">contactId</a>
 
 Unique identifier of the contact with which the lead is associated.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -6145,7 +6145,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  contactId  attribute are listed below.</summary>
+<summary>List of traits for the contactId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6178,7 +6178,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#yomiCompanyName name="yomiCompanyName">yomiCompanyName</a>
 
 Type the phonetic spelling of the lead's company name, if the name is specified in Japanese, to make sure the name is pronounced correctly in phone calls with the prospect.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -6187,7 +6187,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  yomiCompanyName  attribute are listed below.</summary>
+<summary>List of traits for the yomiCompanyName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6220,7 +6220,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#yomiFirstName name="yomiFirstName">yomiFirstName</a>
 
 Type the phonetic spelling of the lead's first name, if the name is specified in Japanese, to make sure the name is pronounced correctly in phone calls with the prospect.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -6229,7 +6229,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  yomiFirstName  attribute are listed below.</summary>
+<summary>List of traits for the yomiFirstName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6262,7 +6262,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#yomiFullName name="yomiFullName">yomiFullName</a>
 
 Combines and shows the lead's Yomi first and last names so the full phonetic name can be displayed in views and reports.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -6271,7 +6271,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  yomiFullName  attribute are listed below.</summary>
+<summary>List of traits for the yomiFullName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6304,7 +6304,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#yomiLastName name="yomiLastName">yomiLastName</a>
 
 Type the phonetic spelling of the lead's last name, if the name is specified in Japanese, to make sure the name is pronounced correctly in phone calls with the prospect.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -6313,7 +6313,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  yomiLastName  attribute are listed below.</summary>
+<summary>List of traits for the yomiLastName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6346,7 +6346,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#yomiMiddleName name="yomiMiddleName">yomiMiddleName</a>
 
 Type the phonetic spelling of the lead's middle name, if the name is specified in Japanese, to make sure the name is pronounced correctly in phone calls with the prospect.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -6355,7 +6355,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  yomiMiddleName  attribute are listed below.</summary>
+<summary>List of traits for the yomiMiddleName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6388,7 +6388,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#campaignId name="campaignId">campaignId</a>
 
 Choose the campaign that the lead was generated from to track the effectiveness of marketing campaigns and identify  communications received by the lead.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -6397,7 +6397,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  campaignId  attribute are listed below.</summary>
+<summary>List of traits for the campaignId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6430,7 +6430,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#relatedObjectId name="relatedObjectId">relatedObjectId</a>
 
 Related Campaign Response.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -6439,7 +6439,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  relatedObjectId  attribute are listed below.</summary>
+<summary>List of traits for the relatedObjectId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6472,7 +6472,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#originatingCaseId name="originatingCaseId">originatingCaseId</a>
 
 This attribute is used for Sample Service Business Processes.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -6481,7 +6481,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  originatingCaseId  attribute are listed below.</summary>
+<summary>List of traits for the originatingCaseId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6514,7 +6514,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#qualifyingOpportunityId name="qualifyingOpportunityId">qualifyingOpportunityId</a>
 
 Choose the opportunity that the lead was qualified on and then converted to.  
-First included in: crmCommon/Lead  (this entity)  
+First included in: crmCommon/Lead (this entity)  
 
 #### Properties
 
@@ -6523,7 +6523,7 @@ First included in: crmCommon/Lead  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  qualifyingOpportunityId  attribute are listed below.</summary>
+<summary>List of traits for the qualifyingOpportunityId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  

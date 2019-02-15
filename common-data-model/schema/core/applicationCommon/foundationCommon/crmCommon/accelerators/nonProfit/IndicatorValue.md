@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/13/2019
+ms.date: 2/15/2019
 ms.author: tpalmer
 ---
 
@@ -12,13 +12,13 @@ ms.author: tpalmer
 
 A quantitative or qualitative value of measurement of an Indicator  
   
-Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/IndicatorValue.cdm.json" target="_blank">GitHub</a>.  
+Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/IndicatorValue.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
-Instances of this entity are listed below:  
+Instances of this entity are listed below.  
 
-nonProfit/IndicatorValue  
+/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/IndicatorValue.cdm.json/IndicatorValue  
 
 ## Traits
 
@@ -93,7 +93,7 @@ nonProfit/IndicatorValue
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: nonProfit/IndicatorValue  (this entity)  
+First included in: nonProfit/IndicatorValue (this entity)  
 
 #### Properties
 
@@ -102,7 +102,7 @@ First included in: nonProfit/IndicatorValue  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOn  attribute are listed below.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -132,7 +132,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: nonProfit/IndicatorValue  (this entity)  
+First included in: nonProfit/IndicatorValue (this entity)  
 
 #### Properties
 
@@ -141,7 +141,7 @@ First included in: nonProfit/IndicatorValue  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdBy  attribute are listed below.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -177,7 +177,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: nonProfit/IndicatorValue  (this entity)  
+First included in: nonProfit/IndicatorValue (this entity)  
 
 #### Properties
 
@@ -186,7 +186,7 @@ First included in: nonProfit/IndicatorValue  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -216,7 +216,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: nonProfit/IndicatorValue  (this entity)  
+First included in: nonProfit/IndicatorValue (this entity)  
 
 #### Properties
 
@@ -225,7 +225,7 @@ First included in: nonProfit/IndicatorValue  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -261,7 +261,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: nonProfit/IndicatorValue  (this entity)  
+First included in: nonProfit/IndicatorValue (this entity)  
 
 #### Properties
 
@@ -270,7 +270,7 @@ First included in: nonProfit/IndicatorValue  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -306,7 +306,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: nonProfit/IndicatorValue  (this entity)  
+First included in: nonProfit/IndicatorValue (this entity)  
 
 #### Properties
 
@@ -315,7 +315,7 @@ First included in: nonProfit/IndicatorValue  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -351,7 +351,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: nonProfit/IndicatorValue  (this entity)  
+First included in: nonProfit/IndicatorValue (this entity)  
 
 #### Properties
 
@@ -360,7 +360,7 @@ First included in: nonProfit/IndicatorValue  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -390,7 +390,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: nonProfit/IndicatorValue  (this entity)  
+First included in: nonProfit/IndicatorValue (this entity)  
 
 #### Properties
 
@@ -399,7 +399,7 @@ First included in: nonProfit/IndicatorValue  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -425,7 +425,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: nonProfit/IndicatorValue  (this entity)  
+First included in: nonProfit/IndicatorValue (this entity)  
 
 #### Properties
 
@@ -434,7 +434,7 @@ First included in: nonProfit/IndicatorValue  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerIdType  attribute are listed below.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -464,7 +464,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: nonProfit/IndicatorValue  (this entity)  
+First included in: nonProfit/IndicatorValue (this entity)  
 
 #### Properties
 
@@ -473,7 +473,7 @@ First included in: nonProfit/IndicatorValue  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerId  attribute are listed below.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -509,7 +509,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: nonProfit/IndicatorValue  (this entity)  
+First included in: nonProfit/IndicatorValue (this entity)  
 
 #### Properties
 
@@ -518,7 +518,7 @@ First included in: nonProfit/IndicatorValue  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningBusinessUnit  attribute are listed below.</summary>
+<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -551,7 +551,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: nonProfit/IndicatorValue  (this entity)  
+First included in: nonProfit/IndicatorValue (this entity)  
 
 #### Properties
 
@@ -560,7 +560,7 @@ First included in: nonProfit/IndicatorValue  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningUser  attribute are listed below.</summary>
+<summary>List of traits for the owningUser attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -596,7 +596,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: nonProfit/IndicatorValue  (this entity)  
+First included in: nonProfit/IndicatorValue (this entity)  
 
 #### Properties
 
@@ -605,7 +605,7 @@ First included in: nonProfit/IndicatorValue  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningTeam  attribute are listed below.</summary>
+<summary>List of traits for the owningTeam attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -638,7 +638,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: nonProfit/IndicatorValue  (this entity)  
+First included in: nonProfit/IndicatorValue (this entity)  
 
 #### Properties
 
@@ -647,7 +647,7 @@ First included in: nonProfit/IndicatorValue  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  timeZoneRuleVersionNumber  attribute are listed below.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -676,7 +676,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: nonProfit/IndicatorValue  (this entity)  
+First included in: nonProfit/IndicatorValue (this entity)  
 
 #### Properties
 
@@ -685,7 +685,7 @@ First included in: nonProfit/IndicatorValue  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  UTCConversionTimeZoneCode  attribute are listed below.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -714,7 +714,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: nonProfit/IndicatorValue  (this entity)  
+First included in: nonProfit/IndicatorValue (this entity)  
 
 #### Properties
 
@@ -723,7 +723,7 @@ First included in: nonProfit/IndicatorValue  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -751,7 +751,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#indicatorValueId name="indicatorValueId">indicatorValueId</a>
 
 Unique identifier for entity instances  
-First included in: nonProfit/IndicatorValue  (this entity)  
+First included in: nonProfit/IndicatorValue (this entity)  
 
 #### Properties
 
@@ -760,7 +760,7 @@ First included in: nonProfit/IndicatorValue  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  indicatorValueId  attribute are listed below.</summary>
+<summary>List of traits for the indicatorValueId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -790,7 +790,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Status of the Indicator Value  
-First included in: nonProfit/IndicatorValue  (this entity)  
+First included in: nonProfit/IndicatorValue (this entity)  
 
 #### Properties
 
@@ -799,11 +799,11 @@ First included in: nonProfit/IndicatorValue  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode  attribute are listed below.</summary>
+<summary>List of traits for the stateCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr><tr><td>en</td><td>Active</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -830,7 +830,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: nonProfit/IndicatorValue  (this entity)  
+First included in: nonProfit/IndicatorValue (this entity)  
 
 #### Properties
 
@@ -839,7 +839,7 @@ First included in: nonProfit/IndicatorValue  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode_display  attribute are listed below.</summary>
+<summary>List of traits for the stateCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -854,20 +854,20 @@ First included in: nonProfit/IndicatorValue  (this entity)
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Reason for the status of the Indicator Value  
-First included in: nonProfit/IndicatorValue  (this entity)  
+First included in: nonProfit/IndicatorValue (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Indicator Value</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Indicator Value</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode  attribute are listed below.</summary>
+<summary>List of traits for the statusCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -897,7 +897,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: nonProfit/IndicatorValue  (this entity)  
+First included in: nonProfit/IndicatorValue (this entity)  
 
 #### Properties
 
@@ -906,7 +906,7 @@ First included in: nonProfit/IndicatorValue  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode_display  attribute are listed below.</summary>
+<summary>List of traits for the statusCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -921,7 +921,7 @@ First included in: nonProfit/IndicatorValue  (this entity)
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: nonProfit/IndicatorValue  (this entity)  
+First included in: nonProfit/IndicatorValue (this entity)  
 
 #### Properties
 
@@ -930,7 +930,7 @@ First included in: nonProfit/IndicatorValue  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  name  attribute are listed below.</summary>
+<summary>List of traits for the name attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -962,7 +962,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#amount name="amount">amount</a>
 
 Indicates the actual value reported, expressed as a currency.  
-First included in: nonProfit/IndicatorValue  (this entity)  
+First included in: nonProfit/IndicatorValue (this entity)  
 
 #### Properties
 
@@ -971,7 +971,7 @@ First included in: nonProfit/IndicatorValue  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  amount  attribute are listed below.</summary>
+<summary>List of traits for the amount attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1003,7 +1003,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Unique identifier of the currency associated with the entity.  
-First included in: nonProfit/IndicatorValue  (this entity)  
+First included in: nonProfit/IndicatorValue (this entity)  
 
 #### Properties
 
@@ -1012,7 +1012,7 @@ First included in: nonProfit/IndicatorValue  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  transactionCurrencyId  attribute are listed below.</summary>
+<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1048,7 +1048,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Exchange rate for the currency associated with the entity with respect to the base currency.  
-First included in: nonProfit/IndicatorValue  (this entity)  
+First included in: nonProfit/IndicatorValue (this entity)  
 
 #### Properties
 
@@ -1057,7 +1057,7 @@ First included in: nonProfit/IndicatorValue  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  exchangeRate  attribute are listed below.</summary>
+<summary>List of traits for the exchangeRate attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1088,7 +1088,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#amountBase name="amountBase">amountBase</a>
 
 Value of the Amount in base currency.  
-First included in: nonProfit/IndicatorValue  (this entity)  
+First included in: nonProfit/IndicatorValue (this entity)  
 
 #### Properties
 
@@ -1097,7 +1097,7 @@ First included in: nonProfit/IndicatorValue  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  amountBase  attribute are listed below.</summary>
+<summary>List of traits for the amountBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1132,7 +1132,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#baselineValue name="baselineValue">baselineValue</a>
 
 An IATI string definining the Baseline value for the value being reported.  
-First included in: nonProfit/IndicatorValue  (this entity)  
+First included in: nonProfit/IndicatorValue (this entity)  
 
 #### Properties
 
@@ -1141,7 +1141,7 @@ First included in: nonProfit/IndicatorValue  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  baselineValue  attribute are listed below.</summary>
+<summary>List of traits for the baselineValue attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1172,7 +1172,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#description name="description">description</a>
 
 Description  
-First included in: nonProfit/IndicatorValue  (this entity)  
+First included in: nonProfit/IndicatorValue (this entity)  
 
 #### Properties
 
@@ -1181,7 +1181,7 @@ First included in: nonProfit/IndicatorValue  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  description  attribute are listed below.</summary>
+<summary>List of traits for the description attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1212,7 +1212,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#endDate name="endDate">endDate</a>
 
 End date of the Indicator Value.  
-First included in: nonProfit/IndicatorValue  (this entity)  
+First included in: nonProfit/IndicatorValue (this entity)  
 
 #### Properties
 
@@ -1221,7 +1221,7 @@ First included in: nonProfit/IndicatorValue  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  endDate  attribute are listed below.</summary>
+<summary>List of traits for the endDate attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1250,7 +1250,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#indicatorId name="indicatorId">indicatorId</a>
 
 Indicator  
-First included in: nonProfit/IndicatorValue  (this entity)  
+First included in: nonProfit/IndicatorValue (this entity)  
 
 #### Properties
 
@@ -1259,7 +1259,7 @@ First included in: nonProfit/IndicatorValue  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  indicatorId  attribute are listed below.</summary>
+<summary>List of traits for the indicatorId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1295,7 +1295,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#number name="number">number</a>
 
 Indicates the actual value reported, expressed as a whole number.  
-First included in: nonProfit/IndicatorValue  (this entity)  
+First included in: nonProfit/IndicatorValue (this entity)  
 
 #### Properties
 
@@ -1304,7 +1304,7 @@ First included in: nonProfit/IndicatorValue  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  number  attribute are listed below.</summary>
+<summary>List of traits for the number attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1333,7 +1333,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#parentIndicatorValueId name="parentIndicatorValueId">parentIndicatorValueId</a>
 
 Parent IndicatorValue  
-First included in: nonProfit/IndicatorValue  (this entity)  
+First included in: nonProfit/IndicatorValue (this entity)  
 
 #### Properties
 
@@ -1342,7 +1342,7 @@ First included in: nonProfit/IndicatorValue  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  parentIndicatorValueId  attribute are listed below.</summary>
+<summary>List of traits for the parentIndicatorValueId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1378,7 +1378,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#percentage name="percentage">percentage</a>
 
 Indicates the actual value reported, expressed as a decimal.  
-First included in: nonProfit/IndicatorValue  (this entity)  
+First included in: nonProfit/IndicatorValue (this entity)  
 
 #### Properties
 
@@ -1387,7 +1387,7 @@ First included in: nonProfit/IndicatorValue  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  percentage  attribute are listed below.</summary>
+<summary>List of traits for the percentage attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1418,7 +1418,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#startDate name="startDate">startDate</a>
 
 Start date of the Indicator Value.  
-First included in: nonProfit/IndicatorValue  (this entity)  
+First included in: nonProfit/IndicatorValue (this entity)  
 
 #### Properties
 
@@ -1427,7 +1427,7 @@ First included in: nonProfit/IndicatorValue  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  startDate  attribute are listed below.</summary>
+<summary>List of traits for the startDate attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1456,7 +1456,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#valueType name="valueType">valueType</a>
 
 Defines the Value Type of the Indicator Value  
-First included in: nonProfit/IndicatorValue  (this entity)  
+First included in: nonProfit/IndicatorValue (this entity)  
 
 #### Properties
 
@@ -1465,11 +1465,11 @@ First included in: nonProfit/IndicatorValue  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  valueType  attribute are listed below.</summary>
+<summary>List of traits for the valueType attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Actual</td><td>844060002</td></tr><tr><td>en</td><td>Target</td><td>844060001</td></tr><tr><td>en</td><td>Baseline</td><td>844060000</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Baseline</td><td>844060000</td></tr><tr><td>en</td><td>Target</td><td>844060001</td></tr><tr><td>en</td><td>Actual</td><td>844060002</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1496,7 +1496,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#valueType_display name="valueType_display">valueType_display</a>
 
-First included in: nonProfit/IndicatorValue  (this entity)  
+First included in: nonProfit/IndicatorValue (this entity)  
 
 #### Properties
 
@@ -1505,7 +1505,7 @@ First included in: nonProfit/IndicatorValue  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  valueType_display  attribute are listed below.</summary>
+<summary>List of traits for the valueType_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  

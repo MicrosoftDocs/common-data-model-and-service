@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/13/2019
+ms.date: 2/15/2019
 ms.author: tpalmer
 ---
 
@@ -12,14 +12,14 @@ ms.author: tpalmer
 
 Person with access to the Microsoft CRM system and who owns objects in the Microsoft CRM database.  
   
-Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json" target="_blank">GitHub</a>.  
+Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
-Instances of this entity are listed below:  
+Instances of this entity are listed below.  
 
 [applicationCommon/User](../../../User.md "/core/applicationCommon/User.cdm.json/User")  
-service/User  
+/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User  
 
 ## Traits
 
@@ -201,7 +201,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  systemUserId  attribute are listed below.</summary>
+<summary>List of traits for the systemUserId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -240,7 +240,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  organizationId  attribute are listed below.</summary>
+<summary>List of traits for the organizationId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -275,7 +275,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  businessUnitId  attribute are listed below.</summary>
+<summary>List of traits for the businessUnitId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -314,7 +314,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  parentSystemUserId  attribute are listed below.</summary>
+<summary>List of traits for the parentSystemUserId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -356,7 +356,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  firstName  attribute are listed below.</summary>
+<summary>List of traits for the firstName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -397,7 +397,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  salutation  attribute are listed below.</summary>
+<summary>List of traits for the salutation attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -437,7 +437,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  middleName  attribute are listed below.</summary>
+<summary>List of traits for the middleName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -478,7 +478,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  lastName  attribute are listed below.</summary>
+<summary>List of traits for the lastName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -519,7 +519,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  personalEMailAddress  attribute are listed below.</summary>
+<summary>List of traits for the personalEMailAddress attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -560,7 +560,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  fullName  attribute are listed below.</summary>
+<summary>List of traits for the fullName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -601,7 +601,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  nickName  attribute are listed below.</summary>
+<summary>List of traits for the nickName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -642,7 +642,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  title  attribute are listed below.</summary>
+<summary>List of traits for the title attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -682,7 +682,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  internalEMailAddress  attribute are listed below.</summary>
+<summary>List of traits for the internalEMailAddress attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -723,7 +723,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  jobTitle  attribute are listed below.</summary>
+<summary>List of traits for the jobTitle attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -763,7 +763,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  mobileAlertEMail  attribute are listed below.</summary>
+<summary>List of traits for the mobileAlertEMail attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -804,7 +804,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  preferredEmailCode  attribute are listed below.</summary>
+<summary>List of traits for the preferredEmailCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -844,7 +844,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  preferredEmailCode_display  attribute are listed below.</summary>
+<summary>List of traits for the preferredEmailCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -868,7 +868,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  homePhone  attribute are listed below.</summary>
+<summary>List of traits for the homePhone attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -909,7 +909,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  mobilePhone  attribute are listed below.</summary>
+<summary>List of traits for the mobilePhone attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -945,16 +945,16 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Preferred Phone</td></tr><tr><td>description</td><td>Preferred phone number for the user.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>preferredphonecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Mobile Phone</td><td>4</td></tr><tr><td>en</td><td>Home Phone</td><td>3</td></tr><tr><td>en</td><td>Other Phone</td><td>2</td></tr><tr><td>en</td><td>Main Phone</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Preferred Phone</td></tr><tr><td>description</td><td>Preferred phone number for the user.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>preferredphonecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Main Phone</td><td>1</td></tr><tr><td>en</td><td>Other Phone</td><td>2</td></tr><tr><td>en</td><td>Home Phone</td><td>3</td></tr><tr><td>en</td><td>Mobile Phone</td><td>4</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  preferredPhoneCode  attribute are listed below.</summary>
+<summary>List of traits for the preferredPhoneCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Mobile Phone</td><td>4</td></tr><tr><td>en</td><td>Home Phone</td><td>3</td></tr><tr><td>en</td><td>Other Phone</td><td>2</td></tr><tr><td>en</td><td>Main Phone</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Main Phone</td><td>1</td></tr><tr><td>en</td><td>Other Phone</td><td>2</td></tr><tr><td>en</td><td>Home Phone</td><td>3</td></tr><tr><td>en</td><td>Mobile Phone</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -990,7 +990,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  preferredPhoneCode_display  attribute are listed below.</summary>
+<summary>List of traits for the preferredPhoneCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1009,16 +1009,16 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Preferred Address</td></tr><tr><td>description</td><td>Preferred address for the user.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>preferredaddresscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Other Address</td><td>2</td></tr><tr><td>en</td><td>Mailing Address</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Preferred Address</td></tr><tr><td>description</td><td>Preferred address for the user.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>preferredaddresscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Mailing Address</td><td>1</td></tr><tr><td>en</td><td>Other Address</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  preferredAddressCode  attribute are listed below.</summary>
+<summary>List of traits for the preferredAddressCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Other Address</td><td>2</td></tr><tr><td>en</td><td>Mailing Address</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Mailing Address</td><td>1</td></tr><tr><td>en</td><td>Other Address</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1054,7 +1054,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  preferredAddressCode_display  attribute are listed below.</summary>
+<summary>List of traits for the preferredAddressCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1078,7 +1078,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  photoUrl  attribute are listed below.</summary>
+<summary>List of traits for the photoUrl attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1119,7 +1119,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  domainName  attribute are listed below.</summary>
+<summary>List of traits for the domainName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1157,7 +1157,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  passportLo  attribute are listed below.</summary>
+<summary>List of traits for the passportLo attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1195,7 +1195,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOn  attribute are listed below.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1234,7 +1234,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  passportHi  attribute are listed below.</summary>
+<summary>List of traits for the passportHi attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1272,7 +1272,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  disabledReason  attribute are listed below.</summary>
+<summary>List of traits for the disabledReason attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1312,7 +1312,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1351,7 +1351,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  createdBy  attribute are listed below.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1393,7 +1393,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  employeeId  attribute are listed below.</summary>
+<summary>List of traits for the employeeId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1433,7 +1433,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1475,7 +1475,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  isDisabled  attribute are listed below.</summary>
+<summary>List of traits for the isDisabled attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1510,7 +1510,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  governmentId  attribute are listed below.</summary>
+<summary>List of traits for the governmentId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1551,7 +1551,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -1587,7 +1587,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  address1AddressId  attribute are listed below.</summary>
+<summary>List of traits for the address1AddressId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1626,7 +1626,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  address1AddressTypeCode  attribute are listed below.</summary>
+<summary>List of traits for the address1AddressTypeCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -1666,7 +1666,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  address1AddressTypeCode_display  attribute are listed below.</summary>
+<summary>List of traits for the address1AddressTypeCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1690,7 +1690,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Name  attribute are listed below.</summary>
+<summary>List of traits for the address1Name attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1731,7 +1731,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Line1  attribute are listed below.</summary>
+<summary>List of traits for the address1Line1 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1772,7 +1772,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Line2  attribute are listed below.</summary>
+<summary>List of traits for the address1Line2 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1813,7 +1813,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Line3  attribute are listed below.</summary>
+<summary>List of traits for the address1Line3 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1854,7 +1854,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  address1City  attribute are listed below.</summary>
+<summary>List of traits for the address1City attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1895,7 +1895,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  address1StateOrProvince  attribute are listed below.</summary>
+<summary>List of traits for the address1StateOrProvince attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1936,7 +1936,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  address1County  attribute are listed below.</summary>
+<summary>List of traits for the address1County attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1977,7 +1977,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Country  attribute are listed below.</summary>
+<summary>List of traits for the address1Country attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2018,7 +2018,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  address1PostOfficeBox  attribute are listed below.</summary>
+<summary>List of traits for the address1PostOfficeBox attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2058,7 +2058,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  address1PostalCode  attribute are listed below.</summary>
+<summary>List of traits for the address1PostalCode attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2099,7 +2099,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  address1UTCOffset  attribute are listed below.</summary>
+<summary>List of traits for the address1UTCOffset attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2140,7 +2140,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  address1UPSZone  attribute are listed below.</summary>
+<summary>List of traits for the address1UPSZone attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2180,7 +2180,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Latitude  attribute are listed below.</summary>
+<summary>List of traits for the address1Latitude attribute are listed below.</summary>
 
 - **is.dataFormat.floatingPoint**  
 - **is.dataFormat.big**  
@@ -2220,7 +2220,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Telephone1  attribute are listed below.</summary>
+<summary>List of traits for the address1Telephone1 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2261,7 +2261,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Longitude  attribute are listed below.</summary>
+<summary>List of traits for the address1Longitude attribute are listed below.</summary>
 
 - **is.dataFormat.floatingPoint**  
 - **is.dataFormat.big**  
@@ -2301,7 +2301,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  address1ShippingMethodCode  attribute are listed below.</summary>
+<summary>List of traits for the address1ShippingMethodCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -2341,7 +2341,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  address1ShippingMethodCode_display  attribute are listed below.</summary>
+<summary>List of traits for the address1ShippingMethodCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2365,7 +2365,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Telephone2  attribute are listed below.</summary>
+<summary>List of traits for the address1Telephone2 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2406,7 +2406,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Telephone3  attribute are listed below.</summary>
+<summary>List of traits for the address1Telephone3 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2447,7 +2447,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Fax  attribute are listed below.</summary>
+<summary>List of traits for the address1Fax attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2487,7 +2487,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  address2AddressId  attribute are listed below.</summary>
+<summary>List of traits for the address2AddressId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2526,7 +2526,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  address2AddressTypeCode  attribute are listed below.</summary>
+<summary>List of traits for the address2AddressTypeCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -2566,7 +2566,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  address2AddressTypeCode_display  attribute are listed below.</summary>
+<summary>List of traits for the address2AddressTypeCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2590,7 +2590,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Name  attribute are listed below.</summary>
+<summary>List of traits for the address2Name attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2631,7 +2631,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Line1  attribute are listed below.</summary>
+<summary>List of traits for the address2Line1 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2672,7 +2672,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Line2  attribute are listed below.</summary>
+<summary>List of traits for the address2Line2 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2713,7 +2713,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Line3  attribute are listed below.</summary>
+<summary>List of traits for the address2Line3 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2754,7 +2754,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  address2City  attribute are listed below.</summary>
+<summary>List of traits for the address2City attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2795,7 +2795,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  address2StateOrProvince  attribute are listed below.</summary>
+<summary>List of traits for the address2StateOrProvince attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2836,7 +2836,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  address2County  attribute are listed below.</summary>
+<summary>List of traits for the address2County attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2877,7 +2877,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Country  attribute are listed below.</summary>
+<summary>List of traits for the address2Country attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2918,7 +2918,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  address2PostOfficeBox  attribute are listed below.</summary>
+<summary>List of traits for the address2PostOfficeBox attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2958,7 +2958,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  address2PostalCode  attribute are listed below.</summary>
+<summary>List of traits for the address2PostalCode attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2999,7 +2999,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  address2UTCOffset  attribute are listed below.</summary>
+<summary>List of traits for the address2UTCOffset attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3040,7 +3040,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  address2UPSZone  attribute are listed below.</summary>
+<summary>List of traits for the address2UPSZone attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3080,7 +3080,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Latitude  attribute are listed below.</summary>
+<summary>List of traits for the address2Latitude attribute are listed below.</summary>
 
 - **is.dataFormat.floatingPoint**  
 - **is.dataFormat.big**  
@@ -3120,7 +3120,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Telephone1  attribute are listed below.</summary>
+<summary>List of traits for the address2Telephone1 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3161,7 +3161,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Longitude  attribute are listed below.</summary>
+<summary>List of traits for the address2Longitude attribute are listed below.</summary>
 
 - **is.dataFormat.floatingPoint**  
 - **is.dataFormat.big**  
@@ -3201,7 +3201,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  address2ShippingMethodCode  attribute are listed below.</summary>
+<summary>List of traits for the address2ShippingMethodCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -3241,7 +3241,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  address2ShippingMethodCode_display  attribute are listed below.</summary>
+<summary>List of traits for the address2ShippingMethodCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3265,7 +3265,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Telephone2  attribute are listed below.</summary>
+<summary>List of traits for the address2Telephone2 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3306,7 +3306,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Telephone3  attribute are listed below.</summary>
+<summary>List of traits for the address2Telephone3 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3347,7 +3347,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Fax  attribute are listed below.</summary>
+<summary>List of traits for the address2Fax attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3387,7 +3387,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  skills  attribute are listed below.</summary>
+<summary>List of traits for the skills attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3427,7 +3427,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  displayInServiceViews  attribute are listed below.</summary>
+<summary>List of traits for the displayInServiceViews attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -3462,7 +3462,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  calendarId  attribute are listed below.</summary>
+<summary>List of traits for the calendarId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3504,7 +3504,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  setupUser  attribute are listed below.</summary>
+<summary>List of traits for the setupUser attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -3536,7 +3536,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  windowsLiveID  attribute are listed below.</summary>
+<summary>List of traits for the windowsLiveID attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3572,16 +3572,16 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Incoming Email Delivery Method</td></tr><tr><td>description</td><td>Incoming email delivery method for the user.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>incomingemaildeliverymethod</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Forward Mailbox</td><td>3</td></tr><tr><td>en</td><td>Server-Side Synchronization or Email Router</td><td>2</td></tr><tr><td>en</td><td>Microsoft Dynamics 365 for Outlook</td><td>1</td></tr><tr><td>en</td><td>None</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Incoming Email Delivery Method</td></tr><tr><td>description</td><td>Incoming email delivery method for the user.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>incomingemaildeliverymethod</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>None</td><td>0</td></tr><tr><td>en</td><td>Microsoft Dynamics 365 for Outlook</td><td>1</td></tr><tr><td>en</td><td>Server-Side Synchronization or Email Router</td><td>2</td></tr><tr><td>en</td><td>Forward Mailbox</td><td>3</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  incomingEmailDeliveryMethod  attribute are listed below.</summary>
+<summary>List of traits for the incomingEmailDeliveryMethod attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Forward Mailbox</td><td>3</td></tr><tr><td>en</td><td>Server-Side Synchronization or Email Router</td><td>2</td></tr><tr><td>en</td><td>Microsoft Dynamics 365 for Outlook</td><td>1</td></tr><tr><td>en</td><td>None</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>None</td><td>0</td></tr><tr><td>en</td><td>Microsoft Dynamics 365 for Outlook</td><td>1</td></tr><tr><td>en</td><td>Server-Side Synchronization or Email Router</td><td>2</td></tr><tr><td>en</td><td>Forward Mailbox</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3614,7 +3614,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  incomingEmailDeliveryMethod_display  attribute are listed below.</summary>
+<summary>List of traits for the incomingEmailDeliveryMethod_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3633,16 +3633,16 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Outgoing Email Delivery Method</td></tr><tr><td>description</td><td>Outgoing email delivery method for the user.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>outgoingemaildeliverymethod</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Server-Side Synchronization or Email Router</td><td>2</td></tr><tr><td>en</td><td>Microsoft Dynamics 365 for Outlook</td><td>1</td></tr><tr><td>en</td><td>None</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Outgoing Email Delivery Method</td></tr><tr><td>description</td><td>Outgoing email delivery method for the user.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>outgoingemaildeliverymethod</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>None</td><td>0</td></tr><tr><td>en</td><td>Microsoft Dynamics 365 for Outlook</td><td>1</td></tr><tr><td>en</td><td>Server-Side Synchronization or Email Router</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  outgoingEmailDeliveryMethod  attribute are listed below.</summary>
+<summary>List of traits for the outgoingEmailDeliveryMethod attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Server-Side Synchronization or Email Router</td><td>2</td></tr><tr><td>en</td><td>Microsoft Dynamics 365 for Outlook</td><td>1</td></tr><tr><td>en</td><td>None</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>None</td><td>0</td></tr><tr><td>en</td><td>Microsoft Dynamics 365 for Outlook</td><td>1</td></tr><tr><td>en</td><td>Server-Side Synchronization or Email Router</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3675,7 +3675,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  outgoingEmailDeliveryMethod_display  attribute are listed below.</summary>
+<summary>List of traits for the outgoingEmailDeliveryMethod_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3699,7 +3699,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -3732,16 +3732,16 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Access Mode</td></tr><tr><td>description</td><td>Type of user.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>accessmode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Delegated Admin</td><td>5</td></tr><tr><td>en</td><td>Non-interactive</td><td>4</td></tr><tr><td>en</td><td>Support User</td><td>3</td></tr><tr><td>en</td><td>Read</td><td>2</td></tr><tr><td>en</td><td>Administrative</td><td>1</td></tr><tr><td>en</td><td>Read-Write</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Access Mode</td></tr><tr><td>description</td><td>Type of user.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>accessmode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Read-Write</td><td>0</td></tr><tr><td>en</td><td>Administrative</td><td>1</td></tr><tr><td>en</td><td>Read</td><td>2</td></tr><tr><td>en</td><td>Support User</td><td>3</td></tr><tr><td>en</td><td>Non-interactive</td><td>4</td></tr><tr><td>en</td><td>Delegated Admin</td><td>5</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  accessMode  attribute are listed below.</summary>
+<summary>List of traits for the accessMode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Delegated Admin</td><td>5</td></tr><tr><td>en</td><td>Non-interactive</td><td>4</td></tr><tr><td>en</td><td>Support User</td><td>3</td></tr><tr><td>en</td><td>Read</td><td>2</td></tr><tr><td>en</td><td>Administrative</td><td>1</td></tr><tr><td>en</td><td>Read-Write</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Read-Write</td><td>0</td></tr><tr><td>en</td><td>Administrative</td><td>1</td></tr><tr><td>en</td><td>Read</td><td>2</td></tr><tr><td>en</td><td>Support User</td><td>3</td></tr><tr><td>en</td><td>Non-interactive</td><td>4</td></tr><tr><td>en</td><td>Delegated Admin</td><td>5</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3774,7 +3774,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  accessMode_display  attribute are listed below.</summary>
+<summary>List of traits for the accessMode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3793,16 +3793,16 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Invitation Status</td></tr><tr><td>description</td><td>User invitation status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>invitestatuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Invitation Revoked</td><td>6</td></tr><tr><td>en</td><td>Invitation Rejected</td><td>5</td></tr><tr><td>en</td><td>Invitation Accepted</td><td>4</td></tr><tr><td>en</td><td>Invitation Expired</td><td>3</td></tr><tr><td>en</td><td>Invitation Near Expired</td><td>2</td></tr><tr><td>en</td><td>Invited</td><td>1</td></tr><tr><td>en</td><td>Invitation Not Sent</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Invitation Status</td></tr><tr><td>description</td><td>User invitation status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>invitestatuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Invitation Not Sent</td><td>0</td></tr><tr><td>en</td><td>Invited</td><td>1</td></tr><tr><td>en</td><td>Invitation Near Expired</td><td>2</td></tr><tr><td>en</td><td>Invitation Expired</td><td>3</td></tr><tr><td>en</td><td>Invitation Accepted</td><td>4</td></tr><tr><td>en</td><td>Invitation Rejected</td><td>5</td></tr><tr><td>en</td><td>Invitation Revoked</td><td>6</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  inviteStatusCode  attribute are listed below.</summary>
+<summary>List of traits for the inviteStatusCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Invitation Revoked</td><td>6</td></tr><tr><td>en</td><td>Invitation Rejected</td><td>5</td></tr><tr><td>en</td><td>Invitation Accepted</td><td>4</td></tr><tr><td>en</td><td>Invitation Expired</td><td>3</td></tr><tr><td>en</td><td>Invitation Near Expired</td><td>2</td></tr><tr><td>en</td><td>Invited</td><td>1</td></tr><tr><td>en</td><td>Invitation Not Sent</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Invitation Not Sent</td><td>0</td></tr><tr><td>en</td><td>Invited</td><td>1</td></tr><tr><td>en</td><td>Invitation Near Expired</td><td>2</td></tr><tr><td>en</td><td>Invitation Expired</td><td>3</td></tr><tr><td>en</td><td>Invitation Accepted</td><td>4</td></tr><tr><td>en</td><td>Invitation Rejected</td><td>5</td></tr><tr><td>en</td><td>Invitation Revoked</td><td>6</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3838,7 +3838,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  inviteStatusCode_display  attribute are listed below.</summary>
+<summary>List of traits for the inviteStatusCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3862,7 +3862,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -3901,7 +3901,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  UTCConversionTimeZoneCode  attribute are listed below.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -3939,7 +3939,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  timeZoneRuleVersionNumber  attribute are listed below.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -3977,7 +3977,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  yomiFullName  attribute are listed below.</summary>
+<summary>List of traits for the yomiFullName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4019,7 +4019,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  yomiLastName  attribute are listed below.</summary>
+<summary>List of traits for the yomiLastName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4061,7 +4061,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  yomiMiddleName  attribute are listed below.</summary>
+<summary>List of traits for the yomiMiddleName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4103,7 +4103,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  yomiFirstName  attribute are listed below.</summary>
+<summary>List of traits for the yomiFirstName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4145,7 +4145,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  isIntegrationUser  attribute are listed below.</summary>
+<summary>List of traits for the isIntegrationUser attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -4177,7 +4177,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  defaultFiltersPopulated  attribute are listed below.</summary>
+<summary>List of traits for the defaultFiltersPopulated attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -4209,7 +4209,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4251,7 +4251,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  queueId  attribute are listed below.</summary>
+<summary>List of traits for the queueId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4293,7 +4293,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4330,16 +4330,16 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Primary Email Status</td></tr><tr><td>description</td><td>Shows the status of the primary email address.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>emailrouteraccessapproval</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Rejected</td><td>3</td></tr><tr><td>en</td><td>Pending Approval</td><td>2</td></tr><tr><td>en</td><td>Approved</td><td>1</td></tr><tr><td>en</td><td>Empty</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Primary Email Status</td></tr><tr><td>description</td><td>Shows the status of the primary email address.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>emailrouteraccessapproval</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Empty</td><td>0</td></tr><tr><td>en</td><td>Approved</td><td>1</td></tr><tr><td>en</td><td>Pending Approval</td><td>2</td></tr><tr><td>en</td><td>Rejected</td><td>3</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  emailRouterAccessApproval  attribute are listed below.</summary>
+<summary>List of traits for the emailRouterAccessApproval attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Rejected</td><td>3</td></tr><tr><td>en</td><td>Pending Approval</td><td>2</td></tr><tr><td>en</td><td>Approved</td><td>1</td></tr><tr><td>en</td><td>Empty</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Empty</td><td>0</td></tr><tr><td>en</td><td>Approved</td><td>1</td></tr><tr><td>en</td><td>Pending Approval</td><td>2</td></tr><tr><td>en</td><td>Rejected</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -4372,7 +4372,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  emailRouterAccessApproval_display  attribute are listed below.</summary>
+<summary>List of traits for the emailRouterAccessApproval_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4396,7 +4396,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  transactionCurrencyId  attribute are listed below.</summary>
+<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4438,7 +4438,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  exchangeRate  attribute are listed below.</summary>
+<summary>List of traits for the exchangeRate attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -4473,16 +4473,16 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>License Type</td></tr><tr><td>description</td><td>License type of user.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>caltype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Project Service</td><td>12</td></tr><tr><td>en</td><td>Professional</td><td>0</td></tr><tr><td>en</td><td>Service</td><td>10</td></tr><tr><td>en</td><td>Sales</td><td>9</td></tr><tr><td>en</td><td>Device Enterprise</td><td>8</td></tr><tr><td>en</td><td>Enterprise</td><td>7</td></tr><tr><td>en</td><td>Field Service</td><td>11</td></tr><tr><td>en</td><td>Essential</td><td>5</td></tr><tr><td>en</td><td>Device Basic</td><td>4</td></tr><tr><td>en</td><td>Device Professional</td><td>3</td></tr><tr><td>en</td><td>Basic</td><td>2</td></tr><tr><td>en</td><td>Administrative</td><td>1</td></tr><tr><td>en</td><td>Device Essential</td><td>6</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>License Type</td></tr><tr><td>description</td><td>License type of user.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>caltype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Professional</td><td>0</td></tr><tr><td>en</td><td>Administrative</td><td>1</td></tr><tr><td>en</td><td>Basic</td><td>2</td></tr><tr><td>en</td><td>Device Professional</td><td>3</td></tr><tr><td>en</td><td>Device Basic</td><td>4</td></tr><tr><td>en</td><td>Essential</td><td>5</td></tr><tr><td>en</td><td>Device Essential</td><td>6</td></tr><tr><td>en</td><td>Enterprise</td><td>7</td></tr><tr><td>en</td><td>Device Enterprise</td><td>8</td></tr><tr><td>en</td><td>Sales</td><td>9</td></tr><tr><td>en</td><td>Service</td><td>10</td></tr><tr><td>en</td><td>Field Service</td><td>11</td></tr><tr><td>en</td><td>Project Service</td><td>12</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  CALType  attribute are listed below.</summary>
+<summary>List of traits for the CALType attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Project Service</td><td>12</td></tr><tr><td>en</td><td>Field Service</td><td>11</td></tr><tr><td>en</td><td>Service</td><td>10</td></tr><tr><td>en</td><td>Sales</td><td>9</td></tr><tr><td>en</td><td>Device Enterprise</td><td>8</td></tr><tr><td>en</td><td>Enterprise</td><td>7</td></tr><tr><td>en</td><td>Device Essential</td><td>6</td></tr><tr><td>en</td><td>Essential</td><td>5</td></tr><tr><td>en</td><td>Device Basic</td><td>4</td></tr><tr><td>en</td><td>Device Professional</td><td>3</td></tr><tr><td>en</td><td>Basic</td><td>2</td></tr><tr><td>en</td><td>Administrative</td><td>1</td></tr><tr><td>en</td><td>Professional</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Professional</td><td>0</td></tr><tr><td>en</td><td>Administrative</td><td>1</td></tr><tr><td>en</td><td>Basic</td><td>2</td></tr><tr><td>en</td><td>Device Professional</td><td>3</td></tr><tr><td>en</td><td>Device Basic</td><td>4</td></tr><tr><td>en</td><td>Essential</td><td>5</td></tr><tr><td>en</td><td>Device Essential</td><td>6</td></tr><tr><td>en</td><td>Enterprise</td><td>7</td></tr><tr><td>en</td><td>Device Enterprise</td><td>8</td></tr><tr><td>en</td><td>Sales</td><td>9</td></tr><tr><td>en</td><td>Service</td><td>10</td></tr><tr><td>en</td><td>Field Service</td><td>11</td></tr><tr><td>en</td><td>Project Service</td><td>12</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -4515,7 +4515,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  CALType_display  attribute are listed below.</summary>
+<summary>List of traits for the CALType_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4539,7 +4539,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  isLicensed  attribute are listed below.</summary>
+<summary>List of traits for the isLicensed attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -4571,7 +4571,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  isSyncWithDirectory  attribute are listed below.</summary>
+<summary>List of traits for the isSyncWithDirectory attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -4603,7 +4603,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  yammerEmailAddress  attribute are listed below.</summary>
+<summary>List of traits for the yammerEmailAddress attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4644,7 +4644,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  yammerUserId  attribute are listed below.</summary>
+<summary>List of traits for the yammerUserId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4684,7 +4684,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  defaultMailbox  attribute are listed below.</summary>
+<summary>List of traits for the defaultMailbox attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4726,7 +4726,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  userLicenseType  attribute are listed below.</summary>
+<summary>List of traits for the userLicenseType attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -4761,7 +4761,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  entityImageId  attribute are listed below.</summary>
+<summary>List of traits for the entityImageId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4799,7 +4799,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Composite  attribute are listed below.</summary>
+<summary>List of traits for the address2Composite attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4839,7 +4839,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Composite  attribute are listed below.</summary>
+<summary>List of traits for the address1Composite attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4879,7 +4879,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  processId  attribute are listed below.</summary>
+<summary>List of traits for the processId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4917,7 +4917,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  stageId  attribute are listed below.</summary>
+<summary>List of traits for the stageId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4955,7 +4955,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  isEmailAddressApprovedByO365Admin  attribute are listed below.</summary>
+<summary>List of traits for the isEmailAddressApprovedByO365Admin attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -4987,7 +4987,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  positionId  attribute are listed below.</summary>
+<summary>List of traits for the positionId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5029,7 +5029,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  traversedPath  attribute are listed below.</summary>
+<summary>List of traits for the traversedPath attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5069,7 +5069,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  sharePointEmailAddress  attribute are listed below.</summary>
+<summary>List of traits for the sharePointEmailAddress attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5110,7 +5110,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  mobileOfflineProfileId  attribute are listed below.</summary>
+<summary>List of traits for the mobileOfflineProfileId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5152,7 +5152,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  defaultOdbFolderName  attribute are listed below.</summary>
+<summary>List of traits for the defaultOdbFolderName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5190,7 +5190,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  applicationId  attribute are listed below.</summary>
+<summary>List of traits for the applicationId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5228,7 +5228,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  applicationIdUri  attribute are listed below.</summary>
+<summary>List of traits for the applicationIdUri attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5268,7 +5268,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  azureActiveDirectoryObjectId  attribute are listed below.</summary>
+<summary>List of traits for the azureActiveDirectoryObjectId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5306,7 +5306,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  identityId  attribute are listed below.</summary>
+<summary>List of traits for the identityId attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -5341,7 +5341,7 @@ First included in: <a href="../../../User.md" target="_blank">applicationCommon/
 #### Traits
 
 <details>
-<summary>List of traits for the  territoryId  attribute are listed below.</summary>
+<summary>List of traits for the territoryId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5374,7 +5374,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#siteId name="siteId">siteId</a>
 
 Site at which the user is located.  
-First included in: service/User  (this entity)  
+First included in: service/User (this entity)  
 
 #### Properties
 
@@ -5383,7 +5383,7 @@ First included in: service/User  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  siteId  attribute are listed below.</summary>
+<summary>List of traits for the siteId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  

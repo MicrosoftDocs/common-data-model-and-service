@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/13/2019
+ms.date: 2/15/2019
 ms.author: tpalmer
 ---
 
@@ -12,13 +12,13 @@ ms.author: tpalmer
 
 The contact, donor or constitiuent who receives "credit" for the hard or soft cleared payment.  A credit plan is always tied to a recipient in order to ensure full reconciliation and accounting of donations.  All nonprofits have business rules in place to govern how hard and soft credits are applied, but these rules are notoriously inconsistent from organization to organization.  For example, 6 of 12 enterprise nonprofits we recently surveyed about how they handle third party (corporate) giving crediting soft credit the corporation and hard credit the individual donors, whereas the other 6 surveyed nonprofits hard credit the third party providing the matching gift payments (i.e., Benevity is an example of a third party gift management company).  Still other organizations hard credit the corporation themselves.  For example, if Jane Smith donates $50 through her company Microsoft, and Microsoft matches the gift dollar for dollar, but Benevity collects and distributes the gift to Oxfam International, where is hard and soft credit applied?  Some organizations hard credit Jane Smith $100 ($50 donated plus the $50 match).  Some organizations hard credit Jane Smith $50 and Microsoft $50.  Some orgs hard credit Microsoft $100. And still more orgs hard credit Benevity some or all of the $100 donation.  
   
-Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/CreditRecipient.cdm.json" target="_blank">GitHub</a>.  
+Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/CreditRecipient.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
-Instances of this entity are listed below:  
+Instances of this entity are listed below.  
 
-nonProfit/CreditRecipient  
+/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/CreditRecipient.cdm.json/CreditRecipient  
 
 ## Traits
 
@@ -84,7 +84,7 @@ nonProfit/CreditRecipient
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: nonProfit/CreditRecipient  (this entity)  
+First included in: nonProfit/CreditRecipient (this entity)  
 
 #### Properties
 
@@ -93,7 +93,7 @@ First included in: nonProfit/CreditRecipient  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOn  attribute are listed below.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -123,7 +123,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: nonProfit/CreditRecipient  (this entity)  
+First included in: nonProfit/CreditRecipient (this entity)  
 
 #### Properties
 
@@ -132,7 +132,7 @@ First included in: nonProfit/CreditRecipient  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdBy  attribute are listed below.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -168,7 +168,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: nonProfit/CreditRecipient  (this entity)  
+First included in: nonProfit/CreditRecipient (this entity)  
 
 #### Properties
 
@@ -177,7 +177,7 @@ First included in: nonProfit/CreditRecipient  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -207,7 +207,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: nonProfit/CreditRecipient  (this entity)  
+First included in: nonProfit/CreditRecipient (this entity)  
 
 #### Properties
 
@@ -216,7 +216,7 @@ First included in: nonProfit/CreditRecipient  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -252,7 +252,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: nonProfit/CreditRecipient  (this entity)  
+First included in: nonProfit/CreditRecipient (this entity)  
 
 #### Properties
 
@@ -261,7 +261,7 @@ First included in: nonProfit/CreditRecipient  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -297,7 +297,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: nonProfit/CreditRecipient  (this entity)  
+First included in: nonProfit/CreditRecipient (this entity)  
 
 #### Properties
 
@@ -306,7 +306,7 @@ First included in: nonProfit/CreditRecipient  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -342,7 +342,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: nonProfit/CreditRecipient  (this entity)  
+First included in: nonProfit/CreditRecipient (this entity)  
 
 #### Properties
 
@@ -351,7 +351,7 @@ First included in: nonProfit/CreditRecipient  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -381,7 +381,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: nonProfit/CreditRecipient  (this entity)  
+First included in: nonProfit/CreditRecipient (this entity)  
 
 #### Properties
 
@@ -390,7 +390,7 @@ First included in: nonProfit/CreditRecipient  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -416,7 +416,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: nonProfit/CreditRecipient  (this entity)  
+First included in: nonProfit/CreditRecipient (this entity)  
 
 #### Properties
 
@@ -425,7 +425,7 @@ First included in: nonProfit/CreditRecipient  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerIdType  attribute are listed below.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -455,7 +455,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: nonProfit/CreditRecipient  (this entity)  
+First included in: nonProfit/CreditRecipient (this entity)  
 
 #### Properties
 
@@ -464,7 +464,7 @@ First included in: nonProfit/CreditRecipient  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerId  attribute are listed below.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -500,7 +500,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: nonProfit/CreditRecipient  (this entity)  
+First included in: nonProfit/CreditRecipient (this entity)  
 
 #### Properties
 
@@ -509,7 +509,7 @@ First included in: nonProfit/CreditRecipient  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningBusinessUnit  attribute are listed below.</summary>
+<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -542,7 +542,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: nonProfit/CreditRecipient  (this entity)  
+First included in: nonProfit/CreditRecipient (this entity)  
 
 #### Properties
 
@@ -551,7 +551,7 @@ First included in: nonProfit/CreditRecipient  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningUser  attribute are listed below.</summary>
+<summary>List of traits for the owningUser attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -587,7 +587,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: nonProfit/CreditRecipient  (this entity)  
+First included in: nonProfit/CreditRecipient (this entity)  
 
 #### Properties
 
@@ -596,7 +596,7 @@ First included in: nonProfit/CreditRecipient  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningTeam  attribute are listed below.</summary>
+<summary>List of traits for the owningTeam attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -629,7 +629,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: nonProfit/CreditRecipient  (this entity)  
+First included in: nonProfit/CreditRecipient (this entity)  
 
 #### Properties
 
@@ -638,7 +638,7 @@ First included in: nonProfit/CreditRecipient  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  timeZoneRuleVersionNumber  attribute are listed below.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -667,7 +667,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: nonProfit/CreditRecipient  (this entity)  
+First included in: nonProfit/CreditRecipient (this entity)  
 
 #### Properties
 
@@ -676,7 +676,7 @@ First included in: nonProfit/CreditRecipient  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  UTCConversionTimeZoneCode  attribute are listed below.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -705,7 +705,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: nonProfit/CreditRecipient  (this entity)  
+First included in: nonProfit/CreditRecipient (this entity)  
 
 #### Properties
 
@@ -714,7 +714,7 @@ First included in: nonProfit/CreditRecipient  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -742,7 +742,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#creditRecipientId name="creditRecipientId">creditRecipientId</a>
 
 Unique identifier for entity instances  
-First included in: nonProfit/CreditRecipient  (this entity)  
+First included in: nonProfit/CreditRecipient (this entity)  
 
 #### Properties
 
@@ -751,7 +751,7 @@ First included in: nonProfit/CreditRecipient  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  creditRecipientId  attribute are listed below.</summary>
+<summary>List of traits for the creditRecipientId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -781,7 +781,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Status of the Credit Plan Recipient  
-First included in: nonProfit/CreditRecipient  (this entity)  
+First included in: nonProfit/CreditRecipient (this entity)  
 
 #### Properties
 
@@ -790,11 +790,11 @@ First included in: nonProfit/CreditRecipient  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode  attribute are listed below.</summary>
+<summary>List of traits for the stateCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr><tr><td>en</td><td>Active</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -821,7 +821,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: nonProfit/CreditRecipient  (this entity)  
+First included in: nonProfit/CreditRecipient (this entity)  
 
 #### Properties
 
@@ -830,7 +830,7 @@ First included in: nonProfit/CreditRecipient  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode_display  attribute are listed below.</summary>
+<summary>List of traits for the stateCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -845,20 +845,20 @@ First included in: nonProfit/CreditRecipient  (this entity)
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Reason for the status of the Credit Plan Recipient  
-First included in: nonProfit/CreditRecipient  (this entity)  
+First included in: nonProfit/CreditRecipient (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Credit Plan Recipient</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Credit Plan Recipient</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode  attribute are listed below.</summary>
+<summary>List of traits for the statusCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -888,7 +888,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: nonProfit/CreditRecipient  (this entity)  
+First included in: nonProfit/CreditRecipient (this entity)  
 
 #### Properties
 
@@ -897,7 +897,7 @@ First included in: nonProfit/CreditRecipient  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode_display  attribute are listed below.</summary>
+<summary>List of traits for the statusCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -911,7 +911,7 @@ First included in: nonProfit/CreditRecipient  (this entity)
 
 ### <a href=#name name="name">name</a>
 
-First included in: nonProfit/CreditRecipient  (this entity)  
+First included in: nonProfit/CreditRecipient (this entity)  
 
 #### Properties
 
@@ -920,7 +920,7 @@ First included in: nonProfit/CreditRecipient  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  name  attribute are listed below.</summary>
+<summary>List of traits for the name attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -948,7 +948,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#creditPlanRecipientCustomer name="creditPlanRecipientCustomer">creditPlanRecipientCustomer</a>
 
-First included in: nonProfit/CreditRecipient  (this entity)  
+First included in: nonProfit/CreditRecipient (this entity)  
 
 #### Properties
 
@@ -957,7 +957,7 @@ First included in: nonProfit/CreditRecipient  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  creditPlanRecipientCustomer  attribute are listed below.</summary>
+<summary>List of traits for the creditPlanRecipientCustomer attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -993,7 +993,7 @@ contains an Account or Contact ID
 ### <a href=#creditRecipientCreditPlanId name="creditRecipientCreditPlanId">creditRecipientCreditPlanId</a>
 
 Credit Plan  
-First included in: nonProfit/CreditRecipient  (this entity)  
+First included in: nonProfit/CreditRecipient (this entity)  
 
 #### Properties
 
@@ -1002,7 +1002,7 @@ First included in: nonProfit/CreditRecipient  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  creditRecipientCreditPlanId  attribute are listed below.</summary>
+<summary>List of traits for the creditRecipientCreditPlanId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1037,7 +1037,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 
 ### <a href=#percentageOfPayment name="percentageOfPayment">percentageOfPayment</a>
 
-First included in: nonProfit/CreditRecipient  (this entity)  
+First included in: nonProfit/CreditRecipient (this entity)  
 
 #### Properties
 
@@ -1046,7 +1046,7 @@ First included in: nonProfit/CreditRecipient  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  percentageOfPayment  attribute are listed below.</summary>
+<summary>List of traits for the percentageOfPayment attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1073,7 +1073,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#softCreditReason name="softCreditReason">softCreditReason</a>
 
-First included in: nonProfit/CreditRecipient  (this entity)  
+First included in: nonProfit/CreditRecipient (this entity)  
 
 #### Properties
 
@@ -1082,7 +1082,7 @@ First included in: nonProfit/CreditRecipient  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  softCreditReason  attribute are listed below.</summary>
+<summary>List of traits for the softCreditReason attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -1110,7 +1110,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#softCreditReason_display name="softCreditReason_display">softCreditReason_display</a>
 
-First included in: nonProfit/CreditRecipient  (this entity)  
+First included in: nonProfit/CreditRecipient (this entity)  
 
 #### Properties
 
@@ -1119,7 +1119,7 @@ First included in: nonProfit/CreditRecipient  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  softCreditReason_display  attribute are listed below.</summary>
+<summary>List of traits for the softCreditReason_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  

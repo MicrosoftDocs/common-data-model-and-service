@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/13/2019
+ms.date: 2/15/2019
 ms.author: tpalmer
 ---
 
@@ -12,14 +12,14 @@ ms.author: tpalmer
 
 Organizational knowledge for internal and external use.  
   
-Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/KnowledgeArticle.cdm.json" target="_blank">GitHub</a>.  
+Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/KnowledgeArticle.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
-Instances of this entity are listed below:  
+Instances of this entity are listed below.  
 
 [applicationCommon/KnowledgeArticle](../KnowledgeArticle.md "/core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle")  
-foundationCommon/KnowledgeArticle  
+/core/applicationCommon/foundationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
 
 ## Traits
 
@@ -132,7 +132,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOn  attribute are listed below.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -171,7 +171,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  createdBy  attribute are listed below.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -216,7 +216,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -255,7 +255,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -300,7 +300,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -345,7 +345,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -390,7 +390,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -429,7 +429,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -464,7 +464,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerIdType  attribute are listed below.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -503,7 +503,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerId  attribute are listed below.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -548,7 +548,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  owningBusinessUnit  attribute are listed below.</summary>
+<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -590,7 +590,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  owningUser  attribute are listed below.</summary>
+<summary>List of traits for the owningUser attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -635,7 +635,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  owningTeam  attribute are listed below.</summary>
+<summary>List of traits for the owningTeam attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -677,7 +677,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  timeZoneRuleVersionNumber  attribute are listed below.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -715,7 +715,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  UTCConversionTimeZoneCode  attribute are listed below.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -753,7 +753,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -790,7 +790,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  knowledgearticleId  attribute are listed below.</summary>
+<summary>List of traits for the knowledgearticleId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -824,16 +824,16 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Shows whether the article is a draft or is published, archived, or discarded. Draft articles aren't available externally and can be edited. Published articles are available externally, based on applicable permissions, but can't be edited. All metadata changes are reflected in the published version. Archived and discarded articles aren't available externally and can't be edited.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Discarded</td><td>6</td></tr><tr><td>en</td><td>Archived</td><td>5</td></tr><tr><td>en</td><td>Expired</td><td>4</td></tr><tr><td>en</td><td>Published</td><td>3</td></tr><tr><td>en</td><td>Scheduled</td><td>2</td></tr><tr><td>en</td><td>Approved</td><td>1</td></tr><tr><td>en</td><td>Draft</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Shows whether the article is a draft or is published, archived, or discarded. Draft articles aren't available externally and can be edited. Published articles are available externally, based on applicable permissions, but can't be edited. All metadata changes are reflected in the published version. Archived and discarded articles aren't available externally and can't be edited.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Draft</td><td>0</td></tr><tr><td>en</td><td>Approved</td><td>1</td></tr><tr><td>en</td><td>Scheduled</td><td>2</td></tr><tr><td>en</td><td>Published</td><td>3</td></tr><tr><td>en</td><td>Expired</td><td>4</td></tr><tr><td>en</td><td>Archived</td><td>5</td></tr><tr><td>en</td><td>Discarded</td><td>6</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode  attribute are listed below.</summary>
+<summary>List of traits for the stateCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Discarded</td><td>6</td></tr><tr><td>en</td><td>Archived</td><td>5</td></tr><tr><td>en</td><td>Expired</td><td>4</td></tr><tr><td>en</td><td>Published</td><td>3</td></tr><tr><td>en</td><td>Scheduled</td><td>2</td></tr><tr><td>en</td><td>Approved</td><td>1</td></tr><tr><td>en</td><td>Draft</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Draft</td><td>0</td></tr><tr><td>en</td><td>Approved</td><td>1</td></tr><tr><td>en</td><td>Scheduled</td><td>2</td></tr><tr><td>en</td><td>Published</td><td>3</td></tr><tr><td>en</td><td>Expired</td><td>4</td></tr><tr><td>en</td><td>Archived</td><td>5</td></tr><tr><td>en</td><td>Discarded</td><td>6</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -869,7 +869,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode_display  attribute are listed below.</summary>
+<summary>List of traits for the stateCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -888,16 +888,16 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the article's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Proposed</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Draft</td><td>2</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Needs review</td><td>3</td><td>2</td><td>0</td></tr><tr><td>en</td><td>In review</td><td>4</td><td>3</td><td>0</td></tr><tr><td>en</td><td>Approved</td><td>5</td><td>4</td><td>1</td></tr><tr><td>en</td><td>Scheduled</td><td>6</td><td>5</td><td>2</td></tr><tr><td>en</td><td>Published</td><td>7</td><td>6</td><td>3</td></tr><tr><td>en</td><td>Needs review</td><td>8</td><td>7</td><td>3</td></tr><tr><td>en</td><td>Updating</td><td>9</td><td>8</td><td>3</td></tr><tr><td>en</td><td>Expired</td><td>10</td><td>9</td><td>4</td></tr><tr><td>en</td><td>Rejected</td><td>11</td><td>10</td><td>4</td></tr><tr><td>en</td><td>Archived</td><td>12</td><td>11</td><td>5</td></tr><tr><td>en</td><td>Discarded</td><td>13</td><td>12</td><td>6</td></tr><tr><td>en</td><td>Rejected</td><td>14</td><td>13</td><td>6</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the article's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Proposed</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Draft</td><td>2</td><td>0</td></tr><tr><td>en</td><td>Needs review</td><td>3</td><td>0</td></tr><tr><td>en</td><td>In review</td><td>4</td><td>0</td></tr><tr><td>en</td><td>Approved</td><td>5</td><td>1</td></tr><tr><td>en</td><td>Scheduled</td><td>6</td><td>2</td></tr><tr><td>en</td><td>Published</td><td>7</td><td>3</td></tr><tr><td>en</td><td>Needs review</td><td>8</td><td>3</td></tr><tr><td>en</td><td>Updating</td><td>9</td><td>3</td></tr><tr><td>en</td><td>Expired</td><td>10</td><td>4</td></tr><tr><td>en</td><td>Rejected</td><td>11</td><td>4</td></tr><tr><td>en</td><td>Archived</td><td>12</td><td>5</td></tr><tr><td>en</td><td>Discarded</td><td>13</td><td>6</td></tr><tr><td>en</td><td>Rejected</td><td>14</td><td>6</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode  attribute are listed below.</summary>
+<summary>List of traits for the statusCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Proposed</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Draft</td><td>2</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Needs review</td><td>3</td><td>2</td><td>0</td></tr><tr><td>en</td><td>In review</td><td>4</td><td>3</td><td>0</td></tr><tr><td>en</td><td>Approved</td><td>5</td><td>4</td><td>1</td></tr><tr><td>en</td><td>Scheduled</td><td>6</td><td>5</td><td>2</td></tr><tr><td>en</td><td>Published</td><td>7</td><td>6</td><td>3</td></tr><tr><td>en</td><td>Needs review</td><td>8</td><td>7</td><td>3</td></tr><tr><td>en</td><td>Updating</td><td>9</td><td>8</td><td>3</td></tr><tr><td>en</td><td>Expired</td><td>10</td><td>9</td><td>4</td></tr><tr><td>en</td><td>Rejected</td><td>11</td><td>10</td><td>4</td></tr><tr><td>en</td><td>Archived</td><td>12</td><td>11</td><td>5</td></tr><tr><td>en</td><td>Discarded</td><td>13</td><td>12</td><td>6</td></tr><tr><td>en</td><td>Rejected</td><td>14</td><td>13</td><td>6</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Proposed</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Draft</td><td>2</td><td>0</td></tr><tr><td>en</td><td>Needs review</td><td>3</td><td>0</td></tr><tr><td>en</td><td>In review</td><td>4</td><td>0</td></tr><tr><td>en</td><td>Approved</td><td>5</td><td>1</td></tr><tr><td>en</td><td>Scheduled</td><td>6</td><td>2</td></tr><tr><td>en</td><td>Published</td><td>7</td><td>3</td></tr><tr><td>en</td><td>Needs review</td><td>8</td><td>3</td></tr><tr><td>en</td><td>Updating</td><td>9</td><td>3</td></tr><tr><td>en</td><td>Expired</td><td>10</td><td>4</td></tr><tr><td>en</td><td>Rejected</td><td>11</td><td>4</td></tr><tr><td>en</td><td>Archived</td><td>12</td><td>5</td></tr><tr><td>en</td><td>Discarded</td><td>13</td><td>6</td></tr><tr><td>en</td><td>Rejected</td><td>14</td><td>6</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -936,7 +936,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode_display  attribute are listed below.</summary>
+<summary>List of traits for the statusCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -960,7 +960,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  processId  attribute are listed below.</summary>
+<summary>List of traits for the processId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -998,7 +998,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  stageId  attribute are listed below.</summary>
+<summary>List of traits for the stageId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1036,7 +1036,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  traversedPath  attribute are listed below.</summary>
+<summary>List of traits for the traversedPath attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1076,7 +1076,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  exchangeRate  attribute are listed below.</summary>
+<summary>List of traits for the exchangeRate attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1116,7 +1116,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  transactionCurrencyId  attribute are listed below.</summary>
+<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1158,7 +1158,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  title  attribute are listed below.</summary>
+<summary>List of traits for the title attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1198,7 +1198,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  content  attribute are listed below.</summary>
+<summary>List of traits for the content attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1238,7 +1238,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  keyWords  attribute are listed below.</summary>
+<summary>List of traits for the keyWords attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1278,7 +1278,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  publishOn  attribute are listed below.</summary>
+<summary>List of traits for the publishOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1316,7 +1316,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  expirationDate  attribute are listed below.</summary>
+<summary>List of traits for the expirationDate attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1354,7 +1354,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  parentArticleContentId  attribute are listed below.</summary>
+<summary>List of traits for the parentArticleContentId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1396,7 +1396,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  knowledgeArticleViews  attribute are listed below.</summary>
+<summary>List of traits for the knowledgeArticleViews attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1434,7 +1434,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  description  attribute are listed below.</summary>
+<summary>List of traits for the description attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1474,7 +1474,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  majorVersionNumber  attribute are listed below.</summary>
+<summary>List of traits for the majorVersionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1509,7 +1509,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  minorVersionNumber  attribute are listed below.</summary>
+<summary>List of traits for the minorVersionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1544,7 +1544,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  languageLocaleId  attribute are listed below.</summary>
+<summary>List of traits for the languageLocaleId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1586,7 +1586,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  scheduledStatusId  attribute are listed below.</summary>
+<summary>List of traits for the scheduledStatusId attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1624,7 +1624,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  expirationStatusId  attribute are listed below.</summary>
+<summary>List of traits for the expirationStatusId attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1662,7 +1662,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  publishStatusId  attribute are listed below.</summary>
+<summary>List of traits for the publishStatusId attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1700,7 +1700,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  isPrimary  attribute are listed below.</summary>
+<summary>List of traits for the isPrimary attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1735,7 +1735,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  readyForReview  attribute are listed below.</summary>
+<summary>List of traits for the readyForReview attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1765,16 +1765,16 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Review</td></tr><tr><td>description</td><td>Review</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>review</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Rejected</td><td>1</td></tr><tr><td>en</td><td>Approved</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Review</td></tr><tr><td>description</td><td>Review</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>review</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Approved</td><td>0</td></tr><tr><td>en</td><td>Rejected</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  review  attribute are listed below.</summary>
+<summary>List of traits for the review attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Rejected</td><td>1</td></tr><tr><td>en</td><td>Approved</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Approved</td><td>0</td></tr><tr><td>en</td><td>Rejected</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1810,7 +1810,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  review_display  attribute are listed below.</summary>
+<summary>List of traits for the review_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1834,7 +1834,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  updateContent  attribute are listed below.</summary>
+<summary>List of traits for the updateContent attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1864,16 +1864,16 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Expired Review Options</td></tr><tr><td>description</td><td>Expired Review Options</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>expiredreviewoptions</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Archive</td><td>2</td></tr><tr><td>en</td><td>Republish</td><td>1</td></tr><tr><td>en</td><td>Needs Updating</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Expired Review Options</td></tr><tr><td>description</td><td>Expired Review Options</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>expiredreviewoptions</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Needs Updating</td><td>0</td></tr><tr><td>en</td><td>Republish</td><td>1</td></tr><tr><td>en</td><td>Archive</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  expiredReviewOptions  attribute are listed below.</summary>
+<summary>List of traits for the expiredReviewOptions attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Archive</td><td>2</td></tr><tr><td>en</td><td>Republish</td><td>1</td></tr><tr><td>en</td><td>Needs Updating</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Needs Updating</td><td>0</td></tr><tr><td>en</td><td>Republish</td><td>1</td></tr><tr><td>en</td><td>Archive</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1909,7 +1909,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  expiredReviewOptions_display  attribute are listed below.</summary>
+<summary>List of traits for the expiredReviewOptions_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1933,7 +1933,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  subjectId  attribute are listed below.</summary>
+<summary>List of traits for the subjectId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1975,7 +1975,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  primaryAuthorId  attribute are listed below.</summary>
+<summary>List of traits for the primaryAuthorId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2017,7 +2017,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  isRootArticle  attribute are listed below.</summary>
+<summary>List of traits for the isRootArticle attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -2049,7 +2049,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  previousArticleContentId  attribute are listed below.</summary>
+<summary>List of traits for the previousArticleContentId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2091,7 +2091,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  articlePublicNumber  attribute are listed below.</summary>
+<summary>List of traits for the articlePublicNumber attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2128,7 +2128,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  isLatestVersion  attribute are listed below.</summary>
+<summary>List of traits for the isLatestVersion attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -2160,7 +2160,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  rootArticleId  attribute are listed below.</summary>
+<summary>List of traits for the rootArticleId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2202,7 +2202,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  knowledgeArticleViewsDate  attribute are listed below.</summary>
+<summary>List of traits for the knowledgeArticleViewsDate attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -2243,7 +2243,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  knowledgeArticleViewsState  attribute are listed below.</summary>
+<summary>List of traits for the knowledgeArticleViewsState attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.calculationOf**  
@@ -2284,7 +2284,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  rating  attribute are listed below.</summary>
+<summary>List of traits for the rating attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -2324,7 +2324,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  ratingDate  attribute are listed below.</summary>
+<summary>List of traits for the ratingDate attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -2365,7 +2365,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  ratingState  attribute are listed below.</summary>
+<summary>List of traits for the ratingState attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.calculationOf**  
@@ -2406,7 +2406,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  ratingSum  attribute are listed below.</summary>
+<summary>List of traits for the ratingSum attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -2449,7 +2449,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  ratingCount  attribute are listed below.</summary>
+<summary>List of traits for the ratingCount attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.calculationOf**  
@@ -2490,7 +2490,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  isInternal  attribute are listed below.</summary>
+<summary>List of traits for the isInternal attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -2525,7 +2525,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  setCategoryAssociations  attribute are listed below.</summary>
+<summary>List of traits for the setCategoryAssociations attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -2560,7 +2560,7 @@ First included in: <a href="../KnowledgeArticle.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  expirationStateId  attribute are listed below.</summary>
+<summary>List of traits for the expirationStateId attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -2589,7 +2589,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#setProductAssociations name="setProductAssociations">setProductAssociations</a>
 
 Set Product Associations  
-First included in: foundationCommon/KnowledgeArticle  (this entity)  
+First included in: foundationCommon/KnowledgeArticle (this entity)  
 
 #### Properties
 
@@ -2598,7 +2598,7 @@ First included in: foundationCommon/KnowledgeArticle  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  setProductAssociations  attribute are listed below.</summary>
+<summary>List of traits for the setProductAssociations attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  

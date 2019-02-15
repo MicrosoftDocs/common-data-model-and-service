@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/13/2019
+ms.date: 2/15/2019
 ms.author: tpalmer
 ---
 
@@ -12,14 +12,14 @@ ms.author: tpalmer
 
 Commitment representing a time interval with start/end times and duration.  
   
-Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/Appointment.cdm.json" target="_blank">GitHub</a>.  
+Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/Appointment.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
-Instances of this entity are listed below:  
+Instances of this entity are listed below.  
 
 [applicationCommon/Appointment](../../Appointment.md "/core/applicationCommon/Appointment.cdm.json/Appointment")  
-crmCommon/Appointment  
+/core/applicationCommon/foundationCommon/crmCommon/Appointment.cdm.json/Appointment  
 [marketing/Appointment](solutions/marketing/Appointment.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Appointment.cdm.json/Appointment")  
 
 ## Traits
@@ -137,7 +137,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOn  attribute are listed below.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -176,7 +176,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  createdBy  attribute are listed below.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -221,7 +221,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -260,7 +260,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -305,7 +305,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -350,7 +350,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -395,7 +395,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -434,7 +434,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -469,7 +469,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerIdType  attribute are listed below.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -508,7 +508,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerId  attribute are listed below.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -553,7 +553,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  owningBusinessUnit  attribute are listed below.</summary>
+<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -595,7 +595,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  owningUser  attribute are listed below.</summary>
+<summary>List of traits for the owningUser attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -640,7 +640,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  owningTeam  attribute are listed below.</summary>
+<summary>List of traits for the owningTeam attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -682,7 +682,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  timeZoneRuleVersionNumber  attribute are listed below.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -720,7 +720,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  UTCConversionTimeZoneCode  attribute are listed below.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -758,7 +758,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -795,7 +795,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  activityTypeCode  attribute are listed below.</summary>
+<summary>List of traits for the activityTypeCode attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -834,7 +834,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  activityId  attribute are listed below.</summary>
+<summary>List of traits for the activityId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -873,7 +873,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  isBilled  attribute are listed below.</summary>
+<summary>List of traits for the isBilled attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -905,7 +905,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  isRegularActivity  attribute are listed below.</summary>
+<summary>List of traits for the isRegularActivity attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -934,7 +934,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  isWorkflowCreated  attribute are listed below.</summary>
+<summary>List of traits for the isWorkflowCreated attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -961,16 +961,16 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Priority</td></tr><tr><td>description</td><td>Priority of the activity.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>prioritycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>High</td><td>2</td></tr><tr><td>en</td><td>Normal</td><td>1</td></tr><tr><td>en</td><td>Low</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Priority</td></tr><tr><td>description</td><td>Priority of the activity.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>prioritycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Low</td><td>0</td></tr><tr><td>en</td><td>Normal</td><td>1</td></tr><tr><td>en</td><td>High</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  priorityCode  attribute are listed below.</summary>
+<summary>List of traits for the priorityCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>High</td><td>2</td></tr><tr><td>en</td><td>Normal</td><td>1</td></tr><tr><td>en</td><td>Low</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Low</td><td>0</td></tr><tr><td>en</td><td>Normal</td><td>1</td></tr><tr><td>en</td><td>High</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1003,7 +1003,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  priorityCode_display  attribute are listed below.</summary>
+<summary>List of traits for the priorityCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1027,7 +1027,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  regardingObjectTypeCode  attribute are listed below.</summary>
+<summary>List of traits for the regardingObjectTypeCode attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1060,7 +1060,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  regardingObjectId  attribute are listed below.</summary>
+<summary>List of traits for the regardingObjectId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1102,7 +1102,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  scheduledEnd  attribute are listed below.</summary>
+<summary>List of traits for the scheduledEnd attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1137,7 +1137,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  scheduledStart  attribute are listed below.</summary>
+<summary>List of traits for the scheduledStart attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1172,7 +1172,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  sortDate  attribute are listed below.</summary>
+<summary>List of traits for the sortDate attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1210,7 +1210,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  subject  attribute are listed below.</summary>
+<summary>List of traits for the subject attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1247,7 +1247,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  scheduledDurationMinutes  attribute are listed below.</summary>
+<summary>List of traits for the scheduledDurationMinutes attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **means.measurement.duration.minutes**  
@@ -1283,7 +1283,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  actualDurationMinutes  attribute are listed below.</summary>
+<summary>List of traits for the actualDurationMinutes attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **means.measurement.duration.minutes**  
@@ -1319,7 +1319,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  actualEnd  attribute are listed below.</summary>
+<summary>List of traits for the actualEnd attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1355,7 +1355,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  actualStart  attribute are listed below.</summary>
+<summary>List of traits for the actualStart attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1391,7 +1391,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  category  attribute are listed below.</summary>
+<summary>List of traits for the category attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1429,7 +1429,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  subcategory  attribute are listed below.</summary>
+<summary>List of traits for the subcategory attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1466,7 +1466,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  activityAdditionalParams  attribute are listed below.</summary>
+<summary>List of traits for the activityAdditionalParams attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1499,16 +1499,16 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Recurring Instance Type</td></tr><tr><td>description</td><td>Type of instance of a recurring series.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>instancetypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Recurring Future Exception</td><td>4</td></tr><tr><td>en</td><td>Recurring Exception</td><td>3</td></tr><tr><td>en</td><td>Recurring Instance</td><td>2</td></tr><tr><td>en</td><td>Recurring Master</td><td>1</td></tr><tr><td>en</td><td>Not Recurring</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Recurring Instance Type</td></tr><tr><td>description</td><td>Type of instance of a recurring series.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>instancetypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not Recurring</td><td>0</td></tr><tr><td>en</td><td>Recurring Master</td><td>1</td></tr><tr><td>en</td><td>Recurring Instance</td><td>2</td></tr><tr><td>en</td><td>Recurring Exception</td><td>3</td></tr><tr><td>en</td><td>Recurring Future Exception</td><td>4</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  instanceTypeCode  attribute are listed below.</summary>
+<summary>List of traits for the instanceTypeCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Recurring Future Exception</td><td>4</td></tr><tr><td>en</td><td>Recurring Exception</td><td>3</td></tr><tr><td>en</td><td>Recurring Instance</td><td>2</td></tr><tr><td>en</td><td>Recurring Master</td><td>1</td></tr><tr><td>en</td><td>Not Recurring</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not Recurring</td><td>0</td></tr><tr><td>en</td><td>Recurring Master</td><td>1</td></tr><tr><td>en</td><td>Recurring Instance</td><td>2</td></tr><tr><td>en</td><td>Recurring Exception</td><td>3</td></tr><tr><td>en</td><td>Recurring Future Exception</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1538,7 +1538,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  instanceTypeCode_display  attribute are listed below.</summary>
+<summary>List of traits for the instanceTypeCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1562,7 +1562,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  isMapiPrivate  attribute are listed below.</summary>
+<summary>List of traits for the isMapiPrivate attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1594,7 +1594,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  organizer  attribute are listed below.</summary>
+<summary>List of traits for the organizer attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1635,7 +1635,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  requiredAttendees  attribute are listed below.</summary>
+<summary>List of traits for the requiredAttendees attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1679,7 +1679,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  optionalAttendees  attribute are listed below.</summary>
+<summary>List of traits for the optionalAttendees attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1723,7 +1723,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  isAllDayEvent  attribute are listed below.</summary>
+<summary>List of traits for the isAllDayEvent attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1758,7 +1758,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  description  attribute are listed below.</summary>
+<summary>List of traits for the description attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1798,7 +1798,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  globalObjectId  attribute are listed below.</summary>
+<summary>List of traits for the globalObjectId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1833,16 +1833,16 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the appointment's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Free</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Tentative</td><td>2</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>3</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>4</td><td>3</td><td>2</td></tr><tr><td>en</td><td>Busy</td><td>5</td><td>4</td><td>3</td></tr><tr><td>en</td><td>Out of Office</td><td>6</td><td>5</td><td>3</td></tr><tr><td>en</td><td>Free</td><td>1</td><td>6</td><td>0</td></tr><tr><td>en</td><td>Tentative</td><td>2</td><td>7</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>3</td><td>8</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>4</td><td>9</td><td>2</td></tr><tr><td>en</td><td>Busy</td><td>5</td><td>10</td><td>3</td></tr><tr><td>en</td><td>Out of Office</td><td>6</td><td>11</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the appointment's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Free</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Tentative</td><td>2</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>3</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>4</td><td>2</td></tr><tr><td>en</td><td>Busy</td><td>5</td><td>3</td></tr><tr><td>en</td><td>Out of Office</td><td>6</td><td>3</td></tr><tr><td>en</td><td>Free</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Tentative</td><td>2</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>3</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>4</td><td>2</td></tr><tr><td>en</td><td>Busy</td><td>5</td><td>3</td></tr><tr><td>en</td><td>Out of Office</td><td>6</td><td>3</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode  attribute are listed below.</summary>
+<summary>List of traits for the statusCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Free</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Tentative</td><td>2</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>3</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>4</td><td>3</td><td>2</td></tr><tr><td>en</td><td>Busy</td><td>5</td><td>4</td><td>3</td></tr><tr><td>en</td><td>Out of Office</td><td>6</td><td>5</td><td>3</td></tr><tr><td>en</td><td>Free</td><td>1</td><td>6</td><td>0</td></tr><tr><td>en</td><td>Tentative</td><td>2</td><td>7</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>3</td><td>8</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>4</td><td>9</td><td>2</td></tr><tr><td>en</td><td>Busy</td><td>5</td><td>10</td><td>3</td></tr><tr><td>en</td><td>Out of Office</td><td>6</td><td>11</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Free</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Tentative</td><td>2</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>3</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>4</td><td>2</td></tr><tr><td>en</td><td>Busy</td><td>5</td><td>3</td></tr><tr><td>en</td><td>Out of Office</td><td>6</td><td>3</td></tr><tr><td>en</td><td>Free</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Tentative</td><td>2</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>3</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>4</td><td>2</td></tr><tr><td>en</td><td>Busy</td><td>5</td><td>3</td></tr><tr><td>en</td><td>Out of Office</td><td>6</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1881,7 +1881,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode_display  attribute are listed below.</summary>
+<summary>List of traits for the statusCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1905,7 +1905,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  outlookOwnerApptId  attribute are listed below.</summary>
+<summary>List of traits for the outlookOwnerApptId attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1943,7 +1943,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  location  attribute are listed below.</summary>
+<summary>List of traits for the location attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1978,16 +1978,16 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Shows whether the appointment is open, completed, or canceled. Completed and canceled appointments are read-only and can't be edited.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Scheduled</td><td>3</td></tr><tr><td>en</td><td>Canceled</td><td>2</td></tr><tr><td>en</td><td>Completed</td><td>1</td></tr><tr><td>en</td><td>Open</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Shows whether the appointment is open, completed, or canceled. Completed and canceled appointments are read-only and can't be edited.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Open</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>2</td></tr><tr><td>en</td><td>Scheduled</td><td>3</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode  attribute are listed below.</summary>
+<summary>List of traits for the stateCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Scheduled</td><td>3</td></tr><tr><td>en</td><td>Canceled</td><td>2</td></tr><tr><td>en</td><td>Completed</td><td>1</td></tr><tr><td>en</td><td>Open</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Open</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>2</td></tr><tr><td>en</td><td>Scheduled</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2023,7 +2023,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode_display  attribute are listed below.</summary>
+<summary>List of traits for the stateCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2047,7 +2047,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  traversedPath  attribute are listed below.</summary>
+<summary>List of traits for the traversedPath attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2087,7 +2087,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedFieldsMask  attribute are listed below.</summary>
+<summary>List of traits for the modifiedFieldsMask attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2127,7 +2127,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  seriesId  attribute are listed below.</summary>
+<summary>List of traits for the seriesId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2165,7 +2165,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  originalStartDate  attribute are listed below.</summary>
+<summary>List of traits for the originalStartDate attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -2203,7 +2203,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  transactionCurrencyId  attribute are listed below.</summary>
+<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2245,7 +2245,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  exchangeRate  attribute are listed below.</summary>
+<summary>List of traits for the exchangeRate attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -2285,7 +2285,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  processId  attribute are listed below.</summary>
+<summary>List of traits for the processId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2323,7 +2323,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  stageId  attribute are listed below.</summary>
+<summary>List of traits for the stageId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2356,16 +2356,16 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>AttachmentErrors</td></tr><tr><td>description</td><td>Select the error code to identify issues with the outlook item recipients or attachments, such as blocked attachments.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>attachmenterrors</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>The appointment was saved as a Microsoft Dynamics 365 appointment record, but not all the attachments could be saved with it. An attachment cannot be saved if it is blocked or if its file type is invalid.</td><td>1</td></tr><tr><td>en</td><td>None</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>AttachmentErrors</td></tr><tr><td>description</td><td>Select the error code to identify issues with the outlook item recipients or attachments, such as blocked attachments.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>attachmenterrors</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>None</td><td>0</td></tr><tr><td>en</td><td>The appointment was saved as a Microsoft Dynamics 365 appointment record, but not all the attachments could be saved with it. An attachment cannot be saved if it is blocked or if its file type is invalid.</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  attachmentErrors  attribute are listed below.</summary>
+<summary>List of traits for the attachmentErrors attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>The appointment was saved as a Microsoft Dynamics 365 appointment record, but not all the attachments could be saved with it. An attachment cannot be saved if it is blocked or if its file type is invalid.</td><td>1</td></tr><tr><td>en</td><td>None</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>None</td><td>0</td></tr><tr><td>en</td><td>The appointment was saved as a Microsoft Dynamics 365 appointment record, but not all the attachments could be saved with it. An attachment cannot be saved if it is blocked or if its file type is invalid.</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2401,7 +2401,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  attachmentErrors_display  attribute are listed below.</summary>
+<summary>List of traits for the attachmentErrors_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2425,7 +2425,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  attachmentCount  attribute are listed below.</summary>
+<summary>List of traits for the attachmentCount attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -2460,7 +2460,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  SLAId  attribute are listed below.</summary>
+<summary>List of traits for the SLAId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2502,7 +2502,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  SLAInvokedId  attribute are listed below.</summary>
+<summary>List of traits for the SLAInvokedId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2544,7 +2544,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  onHoldTime  attribute are listed below.</summary>
+<summary>List of traits for the onHoldTime attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -2582,7 +2582,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  lastOnHoldTime  attribute are listed below.</summary>
+<summary>List of traits for the lastOnHoldTime attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -2620,7 +2620,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  isUnsafe  attribute are listed below.</summary>
+<summary>List of traits for the isUnsafe attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -2658,7 +2658,7 @@ First included in: <a href="../../Appointment.md" target="_blank">applicationCom
 #### Traits
 
 <details>
-<summary>List of traits for the  isDraft  attribute are listed below.</summary>
+<summary>List of traits for the isDraft attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -2681,7 +2681,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#serviceId name="serviceId">serviceId</a>
 
 Unique identifier for an associated service.  
-First included in: crmCommon/Appointment  (this entity)  
+First included in: crmCommon/Appointment (this entity)  
 
 #### Properties
 
@@ -2690,7 +2690,7 @@ First included in: crmCommon/Appointment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  serviceId  attribute are listed below.</summary>
+<summary>List of traits for the serviceId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  

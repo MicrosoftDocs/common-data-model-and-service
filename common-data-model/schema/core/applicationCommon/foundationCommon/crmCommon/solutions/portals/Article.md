@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/13/2019
+ms.date: 2/15/2019
 ms.author: tpalmer
 ---
 
@@ -12,14 +12,14 @@ ms.author: tpalmer
 
 Structured content that is part of the knowledge base.  
   
-Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Article.cdm.json" target="_blank">GitHub</a>.  
+Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Article.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
-Instances of this entity are listed below:  
+Instances of this entity are listed below.  
 
 [applicationCommon/Article](../../../../Article.md "/core/applicationCommon/Article.cdm.json/Article")  
-portals/Article  
+/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Article.cdm.json/Article  
 
 ## Traits
 
@@ -102,7 +102,7 @@ First included in: <a href="../../../../Article.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  kbArticleId  attribute are listed below.</summary>
+<summary>List of traits for the kbArticleId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -141,7 +141,7 @@ First included in: <a href="../../../../Article.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  kbArticleTemplateId  attribute are listed below.</summary>
+<summary>List of traits for the kbArticleTemplateId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -180,7 +180,7 @@ First included in: <a href="../../../../Article.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  organizationId  attribute are listed below.</summary>
+<summary>List of traits for the organizationId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -219,7 +219,7 @@ First included in: <a href="../../../../Article.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  subjectId  attribute are listed below.</summary>
+<summary>List of traits for the subjectId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -258,7 +258,7 @@ First included in: <a href="../../../../Article.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  articleXml  attribute are listed below.</summary>
+<summary>List of traits for the articleXml attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -298,7 +298,7 @@ First included in: <a href="../../../../Article.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  title  attribute are listed below.</summary>
+<summary>List of traits for the title attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -338,7 +338,7 @@ First included in: <a href="../../../../Article.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  number  attribute are listed below.</summary>
+<summary>List of traits for the number attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -378,7 +378,7 @@ First included in: <a href="../../../../Article.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  content  attribute are listed below.</summary>
+<summary>List of traits for the content attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -418,7 +418,7 @@ First included in: <a href="../../../../Article.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  description  attribute are listed below.</summary>
+<summary>List of traits for the description attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -458,7 +458,7 @@ First included in: <a href="../../../../Article.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  comments  attribute are listed below.</summary>
+<summary>List of traits for the comments attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -498,7 +498,7 @@ First included in: <a href="../../../../Article.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOn  attribute are listed below.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -537,7 +537,7 @@ First included in: <a href="../../../../Article.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  createdBy  attribute are listed below.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -579,7 +579,7 @@ First included in: <a href="../../../../Article.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -621,7 +621,7 @@ First included in: <a href="../../../../Article.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -655,16 +655,16 @@ First included in: <a href="../../../../Article.md" target="_blank">applicationC
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status </td></tr><tr><td>description</td><td>Shows whether the knowledge base article is in draft, unapproved, or published status. Published articles are read-only and can't be edited unless they are unpublished.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Published</td><td>3</td></tr><tr><td>en</td><td>Unapproved</td><td>2</td></tr><tr><td>en</td><td>Draft</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status </td></tr><tr><td>description</td><td>Shows whether the knowledge base article is in draft, unapproved, or published status. Published articles are read-only and can't be edited unless they are unpublished.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Draft</td><td>1</td></tr><tr><td>en</td><td>Unapproved</td><td>2</td></tr><tr><td>en</td><td>Published</td><td>3</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode  attribute are listed below.</summary>
+<summary>List of traits for the stateCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Published</td><td>3</td></tr><tr><td>en</td><td>Unapproved</td><td>2</td></tr><tr><td>en</td><td>Draft</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Draft</td><td>1</td></tr><tr><td>en</td><td>Unapproved</td><td>2</td></tr><tr><td>en</td><td>Published</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -700,7 +700,7 @@ First included in: <a href="../../../../Article.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode_display  attribute are listed below.</summary>
+<summary>List of traits for the stateCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -719,16 +719,16 @@ First included in: <a href="../../../../Article.md" target="_blank">applicationC
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the article's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Draft</td><td>1</td><td>0</td><td>1</td></tr><tr><td>en</td><td>Unapproved</td><td>2</td><td>1</td><td>2</td></tr><tr><td>en</td><td>Published</td><td>3</td><td>2</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the article's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Draft</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Unapproved</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Published</td><td>3</td><td>3</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode  attribute are listed below.</summary>
+<summary>List of traits for the statusCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Draft</td><td>1</td><td>0</td><td>1</td></tr><tr><td>en</td><td>Unapproved</td><td>2</td><td>1</td><td>2</td></tr><tr><td>en</td><td>Published</td><td>3</td><td>2</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Draft</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Unapproved</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Published</td><td>3</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -767,7 +767,7 @@ First included in: <a href="../../../../Article.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode_display  attribute are listed below.</summary>
+<summary>List of traits for the statusCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -791,7 +791,7 @@ First included in: <a href="../../../../Article.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -827,7 +827,7 @@ First included in: <a href="../../../../Article.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  keyWords  attribute are listed below.</summary>
+<summary>List of traits for the keyWords attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -867,7 +867,7 @@ First included in: <a href="../../../../Article.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -905,7 +905,7 @@ First included in: <a href="../../../../Article.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -944,7 +944,7 @@ First included in: <a href="../../../../Article.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -986,7 +986,7 @@ First included in: <a href="../../../../Article.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1028,7 +1028,7 @@ First included in: <a href="../../../../Article.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  languageCode  attribute are listed below.</summary>
+<summary>List of traits for the languageCode attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1069,7 +1069,7 @@ First included in: <a href="../../../../Article.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  exchangeRate  attribute are listed below.</summary>
+<summary>List of traits for the exchangeRate attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1109,7 +1109,7 @@ First included in: <a href="../../../../Article.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  transactionCurrencyId  attribute are listed below.</summary>
+<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1151,7 +1151,7 @@ First included in: <a href="../../../../Article.md" target="_blank">applicationC
 #### Traits
 
 <details>
-<summary>List of traits for the  entityImageId  attribute are listed below.</summary>
+<summary>List of traits for the entityImageId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1180,7 +1180,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#publishToWeb name="publishToWeb">publishToWeb</a>
 
 If set to Yes, the article will be visible and searchable on portals connected to this organization.  
-First included in: portals/Article  (this entity)  
+First included in: portals/Article (this entity)  
 
 #### Properties
 
@@ -1189,7 +1189,7 @@ First included in: portals/Article  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  publishToWeb  attribute are listed below.</summary>
+<summary>List of traits for the publishToWeb attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1215,7 +1215,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#averageRating name="averageRating">averageRating</a>
 
 The average rating of this article.  
-First included in: portals/Article  (this entity)  
+First included in: portals/Article (this entity)  
 
 #### Properties
 
@@ -1224,7 +1224,7 @@ First included in: portals/Article  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  averageRating  attribute are listed below.</summary>
+<summary>List of traits for the averageRating attribute are listed below.</summary>
 
 - **is.dataFormat.floatingPoint**  
 - **is.dataFormat.big**  
@@ -1254,7 +1254,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#averageRatingWholeNumber name="averageRatingWholeNumber">averageRatingWholeNumber</a>
 
 The average rating of this article, rounded to a whole number (positive integer).  
-First included in: portals/Article  (this entity)  
+First included in: portals/Article (this entity)  
 
 #### Properties
 
@@ -1263,7 +1263,7 @@ First included in: portals/Article  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  averageRatingWholeNumber  attribute are listed below.</summary>
+<summary>List of traits for the averageRatingWholeNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1292,7 +1292,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#downvotes name="downvotes">downvotes</a>
 
 The number of negative vote ratings applied to this article.  
-First included in: portals/Article  (this entity)  
+First included in: portals/Article (this entity)  
 
 #### Properties
 
@@ -1301,7 +1301,7 @@ First included in: portals/Article  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  downvotes  attribute are listed below.</summary>
+<summary>List of traits for the downvotes attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1329,7 +1329,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#ratingCount name="ratingCount">ratingCount</a>
 
-First included in: portals/Article  (this entity)  
+First included in: portals/Article (this entity)  
 
 #### Properties
 
@@ -1338,7 +1338,7 @@ First included in: portals/Article  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ratingCount  attribute are listed below.</summary>
+<summary>List of traits for the ratingCount attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1364,7 +1364,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ratingSum name="ratingSum">ratingSum</a>
 
 The sum of the values of all ratings applied to this article.  
-First included in: portals/Article  (this entity)  
+First included in: portals/Article (this entity)  
 
 #### Properties
 
@@ -1373,7 +1373,7 @@ First included in: portals/Article  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ratingSum  attribute are listed below.</summary>
+<summary>List of traits for the ratingSum attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1402,7 +1402,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#upvotes name="upvotes">upvotes</a>
 
 The number of positive vote ratings applied to this article.  
-First included in: portals/Article  (this entity)  
+First included in: portals/Article (this entity)  
 
 #### Properties
 
@@ -1411,7 +1411,7 @@ First included in: portals/Article  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  upvotes  attribute are listed below.</summary>
+<summary>List of traits for the upvotes attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  

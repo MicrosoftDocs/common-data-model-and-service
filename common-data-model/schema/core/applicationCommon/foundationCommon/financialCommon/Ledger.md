@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/13/2019
+ms.date: 2/15/2019
 ms.author: tpalmer
 ---
 
@@ -12,13 +12,13 @@ ms.author: tpalmer
 
 The collection of all accounts making up the central repository of accounting data for a company.  
   
-Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/financialCommon/Ledger.cdm.json" target="_blank">GitHub</a>.  
+Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/financialCommon/Ledger.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
-Instances of this entity are listed below:  
+Instances of this entity are listed below.  
 
-financialCommon/Ledger  
+/core/applicationCommon/foundationCommon/financialCommon/Ledger.cdm.json/Ledger  
 
 ## Traits
 
@@ -56,7 +56,7 @@ financialCommon/Ledger
 ### <a href=#ledgerId name="ledgerId">ledgerId</a>
 
 The surrogate key of the ledger record  
-First included in: financialCommon/Ledger  (this entity)  
+First included in: financialCommon/Ledger (this entity)  
 
 #### Properties
 
@@ -65,7 +65,7 @@ First included in: financialCommon/Ledger  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ledgerId  attribute are listed below.</summary>
+<summary>List of traits for the ledgerId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -84,7 +84,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 ### <a href=#name name="name">name</a>
 
 The user-readable name of the ledger  
-First included in: financialCommon/Ledger  (this entity)  
+First included in: financialCommon/Ledger (this entity)  
 
 #### Properties
 
@@ -93,7 +93,7 @@ First included in: financialCommon/Ledger  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  name  attribute are listed below.</summary>
+<summary>List of traits for the name attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -110,7 +110,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 ### <a href=#description name="description">description</a>
 
 The description of the ledger  
-First included in: financialCommon/Ledger  (this entity)  
+First included in: financialCommon/Ledger (this entity)  
 
 #### Properties
 
@@ -119,7 +119,7 @@ First included in: financialCommon/Ledger  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  description  attribute are listed below.</summary>
+<summary>List of traits for the description attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -136,7 +136,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 ### <a href=#companyKey name="companyKey">companyKey</a>
 
 The company for which the ledger stores financial information  
-First included in: financialCommon/Ledger  (this entity)  
+First included in: financialCommon/Ledger (this entity)  
 
 #### Properties
 
@@ -145,7 +145,7 @@ First included in: financialCommon/Ledger  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  companyKey  attribute are listed below.</summary>
+<summary>List of traits for the companyKey attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -164,7 +164,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#accountingCurrencyKey name="accountingCurrencyKey">accountingCurrencyKey</a>
 
 The currency in which all amounts in the ledger are expressed  
-First included in: financialCommon/Ledger  (this entity)  
+First included in: financialCommon/Ledger (this entity)  
 
 #### Properties
 
@@ -173,7 +173,7 @@ First included in: financialCommon/Ledger  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  accountingCurrencyKey  attribute are listed below.</summary>
+<summary>List of traits for the accountingCurrencyKey attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  

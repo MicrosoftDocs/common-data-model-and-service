@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/13/2019
+ms.date: 2/15/2019
 ms.author: tpalmer
 ---
 
@@ -12,13 +12,13 @@ ms.author: tpalmer
 
 Role describing a relationship between a two records.  
   
-Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/ConnectionRole.cdm.json" target="_blank">GitHub</a>.  
+Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/ConnectionRole.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
-Instances of this entity are listed below:  
+Instances of this entity are listed below.  
 
-applicationCommon/ConnectionRole  
+/core/applicationCommon/ConnectionRole.cdm.json/ConnectionRole  
 
 ## Traits
 
@@ -83,7 +83,7 @@ applicationCommon/ConnectionRole
 ### <a href=#connectionRoleId name="connectionRoleId">connectionRoleId</a>
 
 Unique identifier of the connection role.  
-First included in: applicationCommon/ConnectionRole  (this entity)  
+First included in: applicationCommon/ConnectionRole (this entity)  
 
 #### Properties
 
@@ -92,7 +92,7 @@ First included in: applicationCommon/ConnectionRole  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  connectionRoleId  attribute are listed below.</summary>
+<summary>List of traits for the connectionRoleId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -122,7 +122,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Unique identifier of the user who last modified the connection role.  
-First included in: applicationCommon/ConnectionRole  (this entity)  
+First included in: applicationCommon/ConnectionRole (this entity)  
 
 #### Properties
 
@@ -131,7 +131,7 @@ First included in: applicationCommon/ConnectionRole  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -164,7 +164,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the connection role was last modified.  
-First included in: applicationCommon/ConnectionRole  (this entity)  
+First included in: applicationCommon/ConnectionRole (this entity)  
 
 #### Properties
 
@@ -173,7 +173,7 @@ First included in: applicationCommon/ConnectionRole  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -203,7 +203,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#name name="name">name</a>
 
 Name of the connection role.  
-First included in: applicationCommon/ConnectionRole  (this entity)  
+First included in: applicationCommon/ConnectionRole (this entity)  
 
 #### Properties
 
@@ -212,7 +212,7 @@ First included in: applicationCommon/ConnectionRole  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  name  attribute are listed below.</summary>
+<summary>List of traits for the name attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -241,7 +241,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: applicationCommon/ConnectionRole  (this entity)  
+First included in: applicationCommon/ConnectionRole (this entity)  
 
 #### Properties
 
@@ -250,7 +250,7 @@ First included in: applicationCommon/ConnectionRole  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -279,7 +279,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Status of the connection role.  
-First included in: applicationCommon/ConnectionRole  (this entity)  
+First included in: applicationCommon/ConnectionRole (this entity)  
 
 #### Properties
 
@@ -288,11 +288,11 @@ First included in: applicationCommon/ConnectionRole  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode  attribute are listed below.</summary>
+<summary>List of traits for the stateCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr><tr><td>en</td><td>Active</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -319,7 +319,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: applicationCommon/ConnectionRole  (this entity)  
+First included in: applicationCommon/ConnectionRole (this entity)  
 
 #### Properties
 
@@ -328,7 +328,7 @@ First included in: applicationCommon/ConnectionRole  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode_display  attribute are listed below.</summary>
+<summary>List of traits for the stateCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -343,20 +343,20 @@ First included in: applicationCommon/ConnectionRole  (this entity)
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Reason for the status of the connection role.  
-First included in: applicationCommon/ConnectionRole  (this entity)  
+First included in: applicationCommon/ConnectionRole (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the connection role.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the connection role.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode  attribute are listed below.</summary>
+<summary>List of traits for the statusCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -386,7 +386,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: applicationCommon/ConnectionRole  (this entity)  
+First included in: applicationCommon/ConnectionRole (this entity)  
 
 #### Properties
 
@@ -395,7 +395,7 @@ First included in: applicationCommon/ConnectionRole  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode_display  attribute are listed below.</summary>
+<summary>List of traits for the statusCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -410,7 +410,7 @@ First included in: applicationCommon/ConnectionRole  (this entity)
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Unique identifier of the user who created the relationship role.  
-First included in: applicationCommon/ConnectionRole  (this entity)  
+First included in: applicationCommon/ConnectionRole (this entity)  
 
 #### Properties
 
@@ -419,7 +419,7 @@ First included in: applicationCommon/ConnectionRole  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdBy  attribute are listed below.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -452,7 +452,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#category name="category">category</a>
 
 Categories for connection roles.  
-First included in: applicationCommon/ConnectionRole  (this entity)  
+First included in: applicationCommon/ConnectionRole (this entity)  
 
 #### Properties
 
@@ -461,11 +461,11 @@ First included in: applicationCommon/ConnectionRole  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  category  attribute are listed below.</summary>
+<summary>List of traits for the category attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Service</td><td>1002</td></tr><tr><td>en</td><td>Sales Team</td><td>1001</td></tr><tr><td>en</td><td>Stakeholder</td><td>1000</td></tr><tr><td>en</td><td>Other</td><td>5</td></tr><tr><td>en</td><td>Sales</td><td>4</td></tr><tr><td>en</td><td>Social</td><td>3</td></tr><tr><td>en</td><td>Family</td><td>2</td></tr><tr><td>en</td><td>Business</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Business</td><td>1</td></tr><tr><td>en</td><td>Family</td><td>2</td></tr><tr><td>en</td><td>Social</td><td>3</td></tr><tr><td>en</td><td>Sales</td><td>4</td></tr><tr><td>en</td><td>Other</td><td>5</td></tr><tr><td>en</td><td>Stakeholder</td><td>1000</td></tr><tr><td>en</td><td>Sales Team</td><td>1001</td></tr><tr><td>en</td><td>Service</td><td>1002</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -492,7 +492,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#category_display name="category_display">category_display</a>
 
-First included in: applicationCommon/ConnectionRole  (this entity)  
+First included in: applicationCommon/ConnectionRole (this entity)  
 
 #### Properties
 
@@ -501,7 +501,7 @@ First included in: applicationCommon/ConnectionRole  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  category_display  attribute are listed below.</summary>
+<summary>List of traits for the category_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -516,7 +516,7 @@ First included in: applicationCommon/ConnectionRole  (this entity)
 ### <a href=#organizationId name="organizationId">organizationId</a>
 
 Unique identifier of the organization that this connection role belongs to.  
-First included in: applicationCommon/ConnectionRole  (this entity)  
+First included in: applicationCommon/ConnectionRole (this entity)  
 
 #### Properties
 
@@ -525,7 +525,7 @@ First included in: applicationCommon/ConnectionRole  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  organizationId  attribute are listed below.</summary>
+<summary>List of traits for the organizationId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -555,7 +555,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#description name="description">description</a>
 
 Description of the connection role.  
-First included in: applicationCommon/ConnectionRole  (this entity)  
+First included in: applicationCommon/ConnectionRole (this entity)  
 
 #### Properties
 
@@ -564,7 +564,7 @@ First included in: applicationCommon/ConnectionRole  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  description  attribute are listed below.</summary>
+<summary>List of traits for the description attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -595,7 +595,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the connection role was created.  
-First included in: applicationCommon/ConnectionRole  (this entity)  
+First included in: applicationCommon/ConnectionRole (this entity)  
 
 #### Properties
 
@@ -604,7 +604,7 @@ First included in: applicationCommon/ConnectionRole  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOn  attribute are listed below.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -634,7 +634,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version number of the connection role.  
-First included in: applicationCommon/ConnectionRole  (this entity)  
+First included in: applicationCommon/ConnectionRole (this entity)  
 
 #### Properties
 
@@ -643,7 +643,7 @@ First included in: applicationCommon/ConnectionRole  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -670,7 +670,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#solutionId name="solutionId">solutionId</a>
 
 Unique identifier of the associated solution.  
-First included in: applicationCommon/ConnectionRole  (this entity)  
+First included in: applicationCommon/ConnectionRole (this entity)  
 
 #### Properties
 
@@ -679,7 +679,7 @@ First included in: applicationCommon/ConnectionRole  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  solutionId  attribute are listed below.</summary>
+<summary>List of traits for the solutionId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -705,7 +705,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#componentState name="componentState">componentState</a>
 
 State of the component.  
-First included in: applicationCommon/ConnectionRole  (this entity)  
+First included in: applicationCommon/ConnectionRole (this entity)  
 
 #### Properties
 
@@ -714,11 +714,11 @@ First included in: applicationCommon/ConnectionRole  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  componentState  attribute are listed below.</summary>
+<summary>List of traits for the componentState attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Deleted Unpublished</td><td>3</td></tr><tr><td>en</td><td>Deleted</td><td>2</td></tr><tr><td>en</td><td>Unpublished</td><td>1</td></tr><tr><td>en</td><td>Published</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Published</td><td>0</td></tr><tr><td>en</td><td>Unpublished</td><td>1</td></tr><tr><td>en</td><td>Deleted</td><td>2</td></tr><tr><td>en</td><td>Deleted Unpublished</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -742,7 +742,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#componentState_display name="componentState_display">componentState_display</a>
 
-First included in: applicationCommon/ConnectionRole  (this entity)  
+First included in: applicationCommon/ConnectionRole (this entity)  
 
 #### Properties
 
@@ -751,7 +751,7 @@ First included in: applicationCommon/ConnectionRole  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  componentState_display  attribute are listed below.</summary>
+<summary>List of traits for the componentState_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -766,7 +766,7 @@ First included in: applicationCommon/ConnectionRole  (this entity)
 ### <a href=#overwriteTime name="overwriteTime">overwriteTime</a>
 
 Date and time when the record was last overwritten.  
-First included in: applicationCommon/ConnectionRole  (this entity)  
+First included in: applicationCommon/ConnectionRole (this entity)  
 
 #### Properties
 
@@ -775,7 +775,7 @@ First included in: applicationCommon/ConnectionRole  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  overwriteTime  attribute are listed below.</summary>
+<summary>List of traits for the overwriteTime attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -801,7 +801,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#connectionRoleIdUnique name="connectionRoleIdUnique">connectionRoleIdUnique</a>
 
 Unique identifier of the published or unpublished connection role record.  
-First included in: applicationCommon/ConnectionRole  (this entity)  
+First included in: applicationCommon/ConnectionRole (this entity)  
 
 #### Properties
 
@@ -810,7 +810,7 @@ First included in: applicationCommon/ConnectionRole  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  connectionRoleIdUnique  attribute are listed below.</summary>
+<summary>List of traits for the connectionRoleIdUnique attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -836,7 +836,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Unique identifier of the delegate user who modified the relationship role.  
-First included in: applicationCommon/ConnectionRole  (this entity)  
+First included in: applicationCommon/ConnectionRole (this entity)  
 
 #### Properties
 
@@ -845,7 +845,7 @@ First included in: applicationCommon/ConnectionRole  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -878,7 +878,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Unique identifier of the delegate user who created the relationship role.  
-First included in: applicationCommon/ConnectionRole  (this entity)  
+First included in: applicationCommon/ConnectionRole (this entity)  
 
 #### Properties
 
@@ -887,7 +887,7 @@ First included in: applicationCommon/ConnectionRole  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -920,7 +920,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isManaged name="isManaged">isManaged</a>
 
 Indicates whether the solution component is part of a managed solution.  
-First included in: applicationCommon/ConnectionRole  (this entity)  
+First included in: applicationCommon/ConnectionRole (this entity)  
 
 #### Properties
 
@@ -929,7 +929,7 @@ First included in: applicationCommon/ConnectionRole  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  isManaged  attribute are listed below.</summary>
+<summary>List of traits for the isManaged attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -952,7 +952,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isCustomizable name="isCustomizable">isCustomizable</a>
 
 Information that specifies whether this component can be customized.  
-First included in: applicationCommon/ConnectionRole  (this entity)  
+First included in: applicationCommon/ConnectionRole (this entity)  
 
 #### Properties
 
@@ -961,7 +961,7 @@ First included in: applicationCommon/ConnectionRole  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  isCustomizable  attribute are listed below.</summary>
+<summary>List of traits for the isCustomizable attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -984,7 +984,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#introducedVersion name="introducedVersion">introducedVersion</a>
 
 Version in which the form is introduced.  
-First included in: applicationCommon/ConnectionRole  (this entity)  
+First included in: applicationCommon/ConnectionRole (this entity)  
 
 #### Properties
 
@@ -993,7 +993,7 @@ First included in: applicationCommon/ConnectionRole  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  introducedVersion  attribute are listed below.</summary>
+<summary>List of traits for the introducedVersion attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  

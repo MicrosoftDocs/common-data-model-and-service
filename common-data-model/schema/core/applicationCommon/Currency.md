@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/13/2019
+ms.date: 2/15/2019
 ms.author: tpalmer
 ---
 
@@ -12,13 +12,13 @@ ms.author: tpalmer
 
 Currency in which a financial transaction is carried out.  
   
-Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/Currency.cdm.json" target="_blank">GitHub</a>.  
+Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/Currency.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
-Instances of this entity are listed below:  
+Instances of this entity are listed below.  
 
-applicationCommon/Currency  
+/core/applicationCommon/Currency.cdm.json/Currency  
 
 ## Traits
 
@@ -78,20 +78,20 @@ applicationCommon/Currency
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Reason for the status of the transaction currency.  
-First included in: applicationCommon/Currency  (this entity)  
+First included in: applicationCommon/Currency (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the transaction currency.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the transaction currency.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode  attribute are listed below.</summary>
+<summary>List of traits for the statusCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -121,7 +121,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: applicationCommon/Currency  (this entity)  
+First included in: applicationCommon/Currency (this entity)  
 
 #### Properties
 
@@ -130,7 +130,7 @@ First included in: applicationCommon/Currency  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode_display  attribute are listed below.</summary>
+<summary>List of traits for the statusCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -145,7 +145,7 @@ First included in: applicationCommon/Currency  (this entity)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the transaction currency was last modified.  
-First included in: applicationCommon/Currency  (this entity)  
+First included in: applicationCommon/Currency (this entity)  
 
 #### Properties
 
@@ -154,7 +154,7 @@ First included in: applicationCommon/Currency  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -184,7 +184,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Status of the transaction currency.  
-First included in: applicationCommon/Currency  (this entity)  
+First included in: applicationCommon/Currency (this entity)  
 
 #### Properties
 
@@ -193,11 +193,11 @@ First included in: applicationCommon/Currency  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode  attribute are listed below.</summary>
+<summary>List of traits for the stateCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr><tr><td>en</td><td>Active</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -224,7 +224,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: applicationCommon/Currency  (this entity)  
+First included in: applicationCommon/Currency (this entity)  
 
 #### Properties
 
@@ -233,7 +233,7 @@ First included in: applicationCommon/Currency  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode_display  attribute are listed below.</summary>
+<summary>List of traits for the stateCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -248,7 +248,7 @@ First included in: applicationCommon/Currency  (this entity)
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version number of the transaction currency.  
-First included in: applicationCommon/Currency  (this entity)  
+First included in: applicationCommon/Currency (this entity)  
 
 #### Properties
 
@@ -257,7 +257,7 @@ First included in: applicationCommon/Currency  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -284,7 +284,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Unique identifier of the user who last modified the transaction currency.  
-First included in: applicationCommon/Currency  (this entity)  
+First included in: applicationCommon/Currency (this entity)  
 
 #### Properties
 
@@ -293,7 +293,7 @@ First included in: applicationCommon/Currency  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -326,7 +326,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: applicationCommon/Currency  (this entity)  
+First included in: applicationCommon/Currency (this entity)  
 
 #### Properties
 
@@ -335,7 +335,7 @@ First included in: applicationCommon/Currency  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -364,7 +364,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: applicationCommon/Currency  (this entity)  
+First included in: applicationCommon/Currency (this entity)  
 
 #### Properties
 
@@ -373,7 +373,7 @@ First included in: applicationCommon/Currency  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -403,7 +403,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the transaction currency was created.  
-First included in: applicationCommon/Currency  (this entity)  
+First included in: applicationCommon/Currency (this entity)  
 
 #### Properties
 
@@ -412,7 +412,7 @@ First included in: applicationCommon/Currency  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOn  attribute are listed below.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -442,7 +442,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Unique identifier of the transaction currency.  
-First included in: applicationCommon/Currency  (this entity)  
+First included in: applicationCommon/Currency (this entity)  
 
 #### Properties
 
@@ -451,7 +451,7 @@ First included in: applicationCommon/Currency  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  transactionCurrencyId  attribute are listed below.</summary>
+<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -481,7 +481,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Exchange rate between the transaction currency and the base currency.  
-First included in: applicationCommon/Currency  (this entity)  
+First included in: applicationCommon/Currency (this entity)  
 
 #### Properties
 
@@ -490,7 +490,7 @@ First included in: applicationCommon/Currency  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  exchangeRate  attribute are listed below.</summary>
+<summary>List of traits for the exchangeRate attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -518,7 +518,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#currencySymbol name="currencySymbol">currencySymbol</a>
 
 Symbol for the transaction currency.  
-First included in: applicationCommon/Currency  (this entity)  
+First included in: applicationCommon/Currency (this entity)  
 
 #### Properties
 
@@ -527,7 +527,7 @@ First included in: applicationCommon/Currency  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  currencySymbol  attribute are listed below.</summary>
+<summary>List of traits for the currencySymbol attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -555,7 +555,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#currencyName name="currencyName">currencyName</a>
 
 Name of the transaction currency.  
-First included in: applicationCommon/Currency  (this entity)  
+First included in: applicationCommon/Currency (this entity)  
 
 #### Properties
 
@@ -564,7 +564,7 @@ First included in: applicationCommon/Currency  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  currencyName  attribute are listed below.</summary>
+<summary>List of traits for the currencyName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -593,7 +593,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Unique identifier of the user who created the transaction currency.  
-First included in: applicationCommon/Currency  (this entity)  
+First included in: applicationCommon/Currency (this entity)  
 
 #### Properties
 
@@ -602,7 +602,7 @@ First included in: applicationCommon/Currency  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdBy  attribute are listed below.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -635,7 +635,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#ISOCurrencyCode name="ISOCurrencyCode">ISOCurrencyCode</a>
 
 ISO currency code for the transaction currency.  
-First included in: applicationCommon/Currency  (this entity)  
+First included in: applicationCommon/Currency (this entity)  
 
 #### Properties
 
@@ -644,7 +644,7 @@ First included in: applicationCommon/Currency  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ISOCurrencyCode  attribute are listed below.</summary>
+<summary>List of traits for the ISOCurrencyCode attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -672,7 +672,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#organizationId name="organizationId">organizationId</a>
 
 Unique identifier of the organization associated with the transaction currency.  
-First included in: applicationCommon/Currency  (this entity)  
+First included in: applicationCommon/Currency (this entity)  
 
 #### Properties
 
@@ -681,7 +681,7 @@ First included in: applicationCommon/Currency  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  organizationId  attribute are listed below.</summary>
+<summary>List of traits for the organizationId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -711,7 +711,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#currencyPrecision name="currencyPrecision">currencyPrecision</a>
 
 Number of decimal places that can be used for currency.  
-First included in: applicationCommon/Currency  (this entity)  
+First included in: applicationCommon/Currency (this entity)  
 
 #### Properties
 
@@ -720,7 +720,7 @@ First included in: applicationCommon/Currency  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  currencyPrecision  attribute are listed below.</summary>
+<summary>List of traits for the currencyPrecision attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -746,7 +746,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Unique identifier of the delegate user who created the transactioncurrency.  
-First included in: applicationCommon/Currency  (this entity)  
+First included in: applicationCommon/Currency (this entity)  
 
 #### Properties
 
@@ -755,7 +755,7 @@ First included in: applicationCommon/Currency  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -788,7 +788,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Unique identifier of the delegate user who last modified the transactioncurrency.  
-First included in: applicationCommon/Currency  (this entity)  
+First included in: applicationCommon/Currency (this entity)  
 
 #### Properties
 
@@ -797,7 +797,7 @@ First included in: applicationCommon/Currency  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -830,7 +830,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#entityImageId name="entityImageId">entityImageId</a>
 
 For internal use only.  
-First included in: applicationCommon/Currency  (this entity)  
+First included in: applicationCommon/Currency (this entity)  
 
 #### Properties
 
@@ -839,7 +839,7 @@ First included in: applicationCommon/Currency  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  entityImageId  attribute are listed below.</summary>
+<summary>List of traits for the entityImageId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  

@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/13/2019
+ms.date: 2/15/2019
 ms.author: tpalmer
 ---
 
@@ -12,13 +12,13 @@ ms.author: tpalmer
 
 Business that represents a customer or potential customer. The company that is billed in business transactions.  
   
-Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/Account.cdm.json" target="_blank">GitHub</a>.  
+Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/Account.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
-Instances of this entity are listed below:  
+Instances of this entity are listed below.  
 
-applicationCommon/Account  
+/core/applicationCommon/Account.cdm.json/Account  
 [foundationCommon/Account](foundationCommon/Account.md "/core/applicationCommon/foundationCommon/Account.cdm.json/Account")  
 [crmCommon/Account](foundationCommon/crmCommon/Account.md "/core/applicationCommon/foundationCommon/crmCommon/Account.cdm.json/Account")  
 [higherEducation/Account](foundationCommon/crmCommon/accelerators/education/higherEducation/Account.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Account.cdm.json/Account")  
@@ -229,7 +229,7 @@ applicationCommon/Account
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -238,7 +238,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOn  attribute are listed below.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -268,7 +268,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -277,7 +277,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdBy  attribute are listed below.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -313,7 +313,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -322,7 +322,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -352,7 +352,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -361,7 +361,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -397,7 +397,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -406,7 +406,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -442,7 +442,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -451,7 +451,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -487,7 +487,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -496,7 +496,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -526,7 +526,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -535,7 +535,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -560,7 +560,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -569,7 +569,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerIdType  attribute are listed below.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -589,7 +589,7 @@ contains a User or Team ID
 
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -598,7 +598,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerId  attribute are listed below.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -625,7 +625,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -634,7 +634,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningBusinessUnit  attribute are listed below.</summary>
+<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -667,7 +667,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -676,7 +676,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningUser  attribute are listed below.</summary>
+<summary>List of traits for the owningUser attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -712,7 +712,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -721,7 +721,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningTeam  attribute are listed below.</summary>
+<summary>List of traits for the owningTeam attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -754,7 +754,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -763,7 +763,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  timeZoneRuleVersionNumber  attribute are listed below.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -792,7 +792,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -801,7 +801,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  UTCConversionTimeZoneCode  attribute are listed below.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -830,7 +830,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -839,7 +839,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -867,7 +867,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#accountId name="accountId">accountId</a>
 
 Unique identifier of the account.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -876,7 +876,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  accountId  attribute are listed below.</summary>
+<summary>List of traits for the accountId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -906,7 +906,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#accountCategoryCode name="accountCategoryCode">accountCategoryCode</a>
 
 Select a category to indicate whether the customer account is standard or preferred.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -915,11 +915,11 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  accountCategoryCode  attribute are listed below.</summary>
+<summary>List of traits for the accountCategoryCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Standard</td><td>2</td></tr><tr><td>en</td><td>Preferred Customer</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Preferred Customer</td><td>1</td></tr><tr><td>en</td><td>Standard</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -946,7 +946,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#accountCategoryCode_display name="accountCategoryCode_display">accountCategoryCode_display</a>
 
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -955,7 +955,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  accountCategoryCode_display  attribute are listed below.</summary>
+<summary>List of traits for the accountCategoryCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -970,7 +970,7 @@ First included in: applicationCommon/Account  (this entity)
 ### <a href=#customerSizeCode name="customerSizeCode">customerSizeCode</a>
 
 Select the size category or range of the account for segmentation and reporting purposes.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -979,7 +979,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  customerSizeCode  attribute are listed below.</summary>
+<summary>List of traits for the customerSizeCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -1010,7 +1010,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#customerSizeCode_display name="customerSizeCode_display">customerSizeCode_display</a>
 
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -1019,7 +1019,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  customerSizeCode_display  attribute are listed below.</summary>
+<summary>List of traits for the customerSizeCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1034,7 +1034,7 @@ First included in: applicationCommon/Account  (this entity)
 ### <a href=#preferredContactMethodCode name="preferredContactMethodCode">preferredContactMethodCode</a>
 
 Select the preferred method of contact.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -1043,11 +1043,11 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  preferredContactMethodCode  attribute are listed below.</summary>
+<summary>List of traits for the preferredContactMethodCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Mail</td><td>5</td></tr><tr><td>en</td><td>Fax</td><td>4</td></tr><tr><td>en</td><td>Phone</td><td>3</td></tr><tr><td>en</td><td>Email</td><td>2</td></tr><tr><td>en</td><td>Any</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Any</td><td>1</td></tr><tr><td>en</td><td>Email</td><td>2</td></tr><tr><td>en</td><td>Phone</td><td>3</td></tr><tr><td>en</td><td>Fax</td><td>4</td></tr><tr><td>en</td><td>Mail</td><td>5</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1074,7 +1074,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#preferredContactMethodCode_display name="preferredContactMethodCode_display">preferredContactMethodCode_display</a>
 
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -1083,7 +1083,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  preferredContactMethodCode_display  attribute are listed below.</summary>
+<summary>List of traits for the preferredContactMethodCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1098,20 +1098,20 @@ First included in: applicationCommon/Account  (this entity)
 ### <a href=#customerTypeCode name="customerTypeCode">customerTypeCode</a>
 
 Select the category that best describes the relationship between the account and your organization.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Relationship Type</td></tr><tr><td>description</td><td>Select the category that best describes the relationship between the account and your organization.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>customertypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Competitor</td><td>1</td></tr><tr><td>en</td><td>Other</td><td>12</td></tr><tr><td>en</td><td>Customer</td><td>3</td></tr><tr><td>en</td><td>Investor</td><td>4</td></tr><tr><td>en</td><td>Partner</td><td>5</td></tr><tr><td>en</td><td>Influencer</td><td>6</td></tr><tr><td>en</td><td>Consultant</td><td>2</td></tr><tr><td>en</td><td>Prospect</td><td>8</td></tr><tr><td>en</td><td>Reseller</td><td>9</td></tr><tr><td>en</td><td>Supplier</td><td>10</td></tr><tr><td>en</td><td>Vendor</td><td>11</td></tr><tr><td>en</td><td>Press</td><td>7</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Relationship Type</td></tr><tr><td>description</td><td>Select the category that best describes the relationship between the account and your organization.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>customertypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Competitor</td><td>1</td></tr><tr><td>en</td><td>Consultant</td><td>2</td></tr><tr><td>en</td><td>Customer</td><td>3</td></tr><tr><td>en</td><td>Investor</td><td>4</td></tr><tr><td>en</td><td>Partner</td><td>5</td></tr><tr><td>en</td><td>Influencer</td><td>6</td></tr><tr><td>en</td><td>Press</td><td>7</td></tr><tr><td>en</td><td>Prospect</td><td>8</td></tr><tr><td>en</td><td>Reseller</td><td>9</td></tr><tr><td>en</td><td>Supplier</td><td>10</td></tr><tr><td>en</td><td>Vendor</td><td>11</td></tr><tr><td>en</td><td>Other</td><td>12</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  customerTypeCode  attribute are listed below.</summary>
+<summary>List of traits for the customerTypeCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Other</td><td>12</td></tr><tr><td>en</td><td>Vendor</td><td>11</td></tr><tr><td>en</td><td>Supplier</td><td>10</td></tr><tr><td>en</td><td>Reseller</td><td>9</td></tr><tr><td>en</td><td>Prospect</td><td>8</td></tr><tr><td>en</td><td>Press</td><td>7</td></tr><tr><td>en</td><td>Influencer</td><td>6</td></tr><tr><td>en</td><td>Partner</td><td>5</td></tr><tr><td>en</td><td>Investor</td><td>4</td></tr><tr><td>en</td><td>Customer</td><td>3</td></tr><tr><td>en</td><td>Consultant</td><td>2</td></tr><tr><td>en</td><td>Competitor</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Competitor</td><td>1</td></tr><tr><td>en</td><td>Consultant</td><td>2</td></tr><tr><td>en</td><td>Customer</td><td>3</td></tr><tr><td>en</td><td>Investor</td><td>4</td></tr><tr><td>en</td><td>Partner</td><td>5</td></tr><tr><td>en</td><td>Influencer</td><td>6</td></tr><tr><td>en</td><td>Press</td><td>7</td></tr><tr><td>en</td><td>Prospect</td><td>8</td></tr><tr><td>en</td><td>Reseller</td><td>9</td></tr><tr><td>en</td><td>Supplier</td><td>10</td></tr><tr><td>en</td><td>Vendor</td><td>11</td></tr><tr><td>en</td><td>Other</td><td>12</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1138,7 +1138,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#customerTypeCode_display name="customerTypeCode_display">customerTypeCode_display</a>
 
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -1147,7 +1147,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  customerTypeCode_display  attribute are listed below.</summary>
+<summary>List of traits for the customerTypeCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1162,7 +1162,7 @@ First included in: applicationCommon/Account  (this entity)
 ### <a href=#accountRatingCode name="accountRatingCode">accountRatingCode</a>
 
 Select a rating to indicate the value of the customer account.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -1171,7 +1171,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  accountRatingCode  attribute are listed below.</summary>
+<summary>List of traits for the accountRatingCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -1202,7 +1202,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#accountRatingCode_display name="accountRatingCode_display">accountRatingCode_display</a>
 
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -1211,7 +1211,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  accountRatingCode_display  attribute are listed below.</summary>
+<summary>List of traits for the accountRatingCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1226,20 +1226,20 @@ First included in: applicationCommon/Account  (this entity)
 ### <a href=#industryCode name="industryCode">industryCode</a>
 
 Select the account's primary industry for use in marketing segmentation and demographic analysis.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Industry</td></tr><tr><td>description</td><td>Select the account's primary industry for use in marketing segmentation and demographic analysis.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>industrycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Accounting</td><td>1</td></tr><tr><td>en</td><td>Wholesale</td><td>33</td></tr><tr><td>en</td><td>Broadcasting Printing and Publishing</td><td>3</td></tr><tr><td>en</td><td>Brokers</td><td>4</td></tr><tr><td>en</td><td>Building Supply Retail</td><td>5</td></tr><tr><td>en</td><td>Business Services</td><td>6</td></tr><tr><td>en</td><td>Consulting</td><td>7</td></tr><tr><td>en</td><td>Consumer Services</td><td>8</td></tr><tr><td>en</td><td>Design, Direction and Creative Management</td><td>9</td></tr><tr><td>en</td><td>Distributors, Dispatchers and Processors</td><td>10</td></tr><tr><td>en</td><td>Doctor's Offices and Clinics</td><td>11</td></tr><tr><td>en</td><td>Durable Manufacturing</td><td>12</td></tr><tr><td>en</td><td>Eating and Drinking Places</td><td>13</td></tr><tr><td>en</td><td>Entertainment Retail</td><td>14</td></tr><tr><td>en</td><td>Equipment Rental and Leasing</td><td>15</td></tr><tr><td>en</td><td>Financial</td><td>16</td></tr><tr><td>en</td><td>Agriculture and Non-petrol Natural Resource Extraction</td><td>2</td></tr><tr><td>en</td><td>Inbound Capital Intensive Processing</td><td>18</td></tr><tr><td>en</td><td>Inbound Repair and Services</td><td>19</td></tr><tr><td>en</td><td>Insurance</td><td>20</td></tr><tr><td>en</td><td>Legal Services</td><td>21</td></tr><tr><td>en</td><td>Non-Durable Merchandise Retail</td><td>22</td></tr><tr><td>en</td><td>Outbound Consumer Service</td><td>23</td></tr><tr><td>en</td><td>Petrochemical Extraction and Distribution</td><td>24</td></tr><tr><td>en</td><td>Service Retail</td><td>25</td></tr><tr><td>en</td><td>SIG Affiliations</td><td>26</td></tr><tr><td>en</td><td>Social Services</td><td>27</td></tr><tr><td>en</td><td>Special Outbound Trade Contractors</td><td>28</td></tr><tr><td>en</td><td>Specialty Realty</td><td>29</td></tr><tr><td>en</td><td>Transportation</td><td>30</td></tr><tr><td>en</td><td>Utility Creation and Distribution</td><td>31</td></tr><tr><td>en</td><td>Vehicle Retail</td><td>32</td></tr><tr><td>en</td><td>Food and Tobacco Processing</td><td>17</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Industry</td></tr><tr><td>description</td><td>Select the account's primary industry for use in marketing segmentation and demographic analysis.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>industrycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Accounting</td><td>1</td></tr><tr><td>en</td><td>Agriculture and Non-petrol Natural Resource Extraction</td><td>2</td></tr><tr><td>en</td><td>Broadcasting Printing and Publishing</td><td>3</td></tr><tr><td>en</td><td>Brokers</td><td>4</td></tr><tr><td>en</td><td>Building Supply Retail</td><td>5</td></tr><tr><td>en</td><td>Business Services</td><td>6</td></tr><tr><td>en</td><td>Consulting</td><td>7</td></tr><tr><td>en</td><td>Consumer Services</td><td>8</td></tr><tr><td>en</td><td>Design, Direction and Creative Management</td><td>9</td></tr><tr><td>en</td><td>Distributors, Dispatchers and Processors</td><td>10</td></tr><tr><td>en</td><td>Doctor's Offices and Clinics</td><td>11</td></tr><tr><td>en</td><td>Durable Manufacturing</td><td>12</td></tr><tr><td>en</td><td>Eating and Drinking Places</td><td>13</td></tr><tr><td>en</td><td>Entertainment Retail</td><td>14</td></tr><tr><td>en</td><td>Equipment Rental and Leasing</td><td>15</td></tr><tr><td>en</td><td>Financial</td><td>16</td></tr><tr><td>en</td><td>Food and Tobacco Processing</td><td>17</td></tr><tr><td>en</td><td>Inbound Capital Intensive Processing</td><td>18</td></tr><tr><td>en</td><td>Inbound Repair and Services</td><td>19</td></tr><tr><td>en</td><td>Insurance</td><td>20</td></tr><tr><td>en</td><td>Legal Services</td><td>21</td></tr><tr><td>en</td><td>Non-Durable Merchandise Retail</td><td>22</td></tr><tr><td>en</td><td>Outbound Consumer Service</td><td>23</td></tr><tr><td>en</td><td>Petrochemical Extraction and Distribution</td><td>24</td></tr><tr><td>en</td><td>Service Retail</td><td>25</td></tr><tr><td>en</td><td>SIG Affiliations</td><td>26</td></tr><tr><td>en</td><td>Social Services</td><td>27</td></tr><tr><td>en</td><td>Special Outbound Trade Contractors</td><td>28</td></tr><tr><td>en</td><td>Specialty Realty</td><td>29</td></tr><tr><td>en</td><td>Transportation</td><td>30</td></tr><tr><td>en</td><td>Utility Creation and Distribution</td><td>31</td></tr><tr><td>en</td><td>Vehicle Retail</td><td>32</td></tr><tr><td>en</td><td>Wholesale</td><td>33</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  industryCode  attribute are listed below.</summary>
+<summary>List of traits for the industryCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Wholesale</td><td>33</td></tr><tr><td>en</td><td>Vehicle Retail</td><td>32</td></tr><tr><td>en</td><td>Utility Creation and Distribution</td><td>31</td></tr><tr><td>en</td><td>Transportation</td><td>30</td></tr><tr><td>en</td><td>Specialty Realty</td><td>29</td></tr><tr><td>en</td><td>Special Outbound Trade Contractors</td><td>28</td></tr><tr><td>en</td><td>Social Services</td><td>27</td></tr><tr><td>en</td><td>SIG Affiliations</td><td>26</td></tr><tr><td>en</td><td>Service Retail</td><td>25</td></tr><tr><td>en</td><td>Petrochemical Extraction and Distribution</td><td>24</td></tr><tr><td>en</td><td>Outbound Consumer Service</td><td>23</td></tr><tr><td>en</td><td>Non-Durable Merchandise Retail</td><td>22</td></tr><tr><td>en</td><td>Legal Services</td><td>21</td></tr><tr><td>en</td><td>Insurance</td><td>20</td></tr><tr><td>en</td><td>Inbound Repair and Services</td><td>19</td></tr><tr><td>en</td><td>Inbound Capital Intensive Processing</td><td>18</td></tr><tr><td>en</td><td>Food and Tobacco Processing</td><td>17</td></tr><tr><td>en</td><td>Financial</td><td>16</td></tr><tr><td>en</td><td>Equipment Rental and Leasing</td><td>15</td></tr><tr><td>en</td><td>Entertainment Retail</td><td>14</td></tr><tr><td>en</td><td>Eating and Drinking Places</td><td>13</td></tr><tr><td>en</td><td>Durable Manufacturing</td><td>12</td></tr><tr><td>en</td><td>Doctor's Offices and Clinics</td><td>11</td></tr><tr><td>en</td><td>Distributors, Dispatchers and Processors</td><td>10</td></tr><tr><td>en</td><td>Design, Direction and Creative Management</td><td>9</td></tr><tr><td>en</td><td>Consumer Services</td><td>8</td></tr><tr><td>en</td><td>Consulting</td><td>7</td></tr><tr><td>en</td><td>Business Services</td><td>6</td></tr><tr><td>en</td><td>Building Supply Retail</td><td>5</td></tr><tr><td>en</td><td>Brokers</td><td>4</td></tr><tr><td>en</td><td>Broadcasting Printing and Publishing</td><td>3</td></tr><tr><td>en</td><td>Agriculture and Non-petrol Natural Resource Extraction</td><td>2</td></tr><tr><td>en</td><td>Accounting</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Accounting</td><td>1</td></tr><tr><td>en</td><td>Agriculture and Non-petrol Natural Resource Extraction</td><td>2</td></tr><tr><td>en</td><td>Broadcasting Printing and Publishing</td><td>3</td></tr><tr><td>en</td><td>Brokers</td><td>4</td></tr><tr><td>en</td><td>Building Supply Retail</td><td>5</td></tr><tr><td>en</td><td>Business Services</td><td>6</td></tr><tr><td>en</td><td>Consulting</td><td>7</td></tr><tr><td>en</td><td>Consumer Services</td><td>8</td></tr><tr><td>en</td><td>Design, Direction and Creative Management</td><td>9</td></tr><tr><td>en</td><td>Distributors, Dispatchers and Processors</td><td>10</td></tr><tr><td>en</td><td>Doctor's Offices and Clinics</td><td>11</td></tr><tr><td>en</td><td>Durable Manufacturing</td><td>12</td></tr><tr><td>en</td><td>Eating and Drinking Places</td><td>13</td></tr><tr><td>en</td><td>Entertainment Retail</td><td>14</td></tr><tr><td>en</td><td>Equipment Rental and Leasing</td><td>15</td></tr><tr><td>en</td><td>Financial</td><td>16</td></tr><tr><td>en</td><td>Food and Tobacco Processing</td><td>17</td></tr><tr><td>en</td><td>Inbound Capital Intensive Processing</td><td>18</td></tr><tr><td>en</td><td>Inbound Repair and Services</td><td>19</td></tr><tr><td>en</td><td>Insurance</td><td>20</td></tr><tr><td>en</td><td>Legal Services</td><td>21</td></tr><tr><td>en</td><td>Non-Durable Merchandise Retail</td><td>22</td></tr><tr><td>en</td><td>Outbound Consumer Service</td><td>23</td></tr><tr><td>en</td><td>Petrochemical Extraction and Distribution</td><td>24</td></tr><tr><td>en</td><td>Service Retail</td><td>25</td></tr><tr><td>en</td><td>SIG Affiliations</td><td>26</td></tr><tr><td>en</td><td>Social Services</td><td>27</td></tr><tr><td>en</td><td>Special Outbound Trade Contractors</td><td>28</td></tr><tr><td>en</td><td>Specialty Realty</td><td>29</td></tr><tr><td>en</td><td>Transportation</td><td>30</td></tr><tr><td>en</td><td>Utility Creation and Distribution</td><td>31</td></tr><tr><td>en</td><td>Vehicle Retail</td><td>32</td></tr><tr><td>en</td><td>Wholesale</td><td>33</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1266,7 +1266,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#industryCode_display name="industryCode_display">industryCode_display</a>
 
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -1275,7 +1275,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  industryCode_display  attribute are listed below.</summary>
+<summary>List of traits for the industryCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1290,7 +1290,7 @@ First included in: applicationCommon/Account  (this entity)
 ### <a href=#territoryCode name="territoryCode">territoryCode</a>
 
 Select a region or territory for the account for use in segmentation and analysis.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -1299,7 +1299,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  territoryCode  attribute are listed below.</summary>
+<summary>List of traits for the territoryCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -1330,7 +1330,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#territoryCode_display name="territoryCode_display">territoryCode_display</a>
 
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -1339,7 +1339,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  territoryCode_display  attribute are listed below.</summary>
+<summary>List of traits for the territoryCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1354,7 +1354,7 @@ First included in: applicationCommon/Account  (this entity)
 ### <a href=#accountClassificationCode name="accountClassificationCode">accountClassificationCode</a>
 
 Select a classification code to indicate the potential value of the customer account based on the projected return on investment, cooperation level, sales cycle length or other criteria.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -1363,7 +1363,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  accountClassificationCode  attribute are listed below.</summary>
+<summary>List of traits for the accountClassificationCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -1394,7 +1394,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#accountClassificationCode_display name="accountClassificationCode_display">accountClassificationCode_display</a>
 
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -1403,7 +1403,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  accountClassificationCode_display  attribute are listed below.</summary>
+<summary>List of traits for the accountClassificationCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1418,7 +1418,7 @@ First included in: applicationCommon/Account  (this entity)
 ### <a href=#businessTypeCode name="businessTypeCode">businessTypeCode</a>
 
 Select the legal designation or other business type of the account for contracts or reporting purposes.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -1427,7 +1427,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  businessTypeCode  attribute are listed below.</summary>
+<summary>List of traits for the businessTypeCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -1458,7 +1458,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#businessTypeCode_display name="businessTypeCode_display">businessTypeCode_display</a>
 
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -1467,7 +1467,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  businessTypeCode_display  attribute are listed below.</summary>
+<summary>List of traits for the businessTypeCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1482,7 +1482,7 @@ First included in: applicationCommon/Account  (this entity)
 ### <a href=#traversedPath name="traversedPath">traversedPath</a>
 
 For internal use only.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -1491,7 +1491,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  traversedPath  attribute are listed below.</summary>
+<summary>List of traits for the traversedPath attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1522,7 +1522,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#paymentTermsCode name="paymentTermsCode">paymentTermsCode</a>
 
 Select the payment terms to indicate when the customer needs to pay the total amount.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -1531,11 +1531,11 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  paymentTermsCode  attribute are listed below.</summary>
+<summary>List of traits for the paymentTermsCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Net 60</td><td>4</td></tr><tr><td>en</td><td>Net 45</td><td>3</td></tr><tr><td>en</td><td>2% 10, Net 30</td><td>2</td></tr><tr><td>en</td><td>Net 30</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Net 30</td><td>1</td></tr><tr><td>en</td><td>2% 10, Net 30</td><td>2</td></tr><tr><td>en</td><td>Net 45</td><td>3</td></tr><tr><td>en</td><td>Net 60</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1562,7 +1562,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#paymentTermsCode_display name="paymentTermsCode_display">paymentTermsCode_display</a>
 
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -1571,7 +1571,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  paymentTermsCode_display  attribute are listed below.</summary>
+<summary>List of traits for the paymentTermsCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1586,7 +1586,7 @@ First included in: applicationCommon/Account  (this entity)
 ### <a href=#shippingMethodCode name="shippingMethodCode">shippingMethodCode</a>
 
 Select a shipping method for deliveries sent to the account's address to designate the preferred carrier or other delivery option.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -1595,7 +1595,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  shippingMethodCode  attribute are listed below.</summary>
+<summary>List of traits for the shippingMethodCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -1626,7 +1626,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#shippingMethodCode_display name="shippingMethodCode_display">shippingMethodCode_display</a>
 
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -1635,7 +1635,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  shippingMethodCode_display  attribute are listed below.</summary>
+<summary>List of traits for the shippingMethodCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1650,7 +1650,7 @@ First included in: applicationCommon/Account  (this entity)
 ### <a href=#primaryContactId name="primaryContactId">primaryContactId</a>
 
 Choose the primary contact for the account to provide quick access to contact details.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -1659,7 +1659,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  primaryContactId  attribute are listed below.</summary>
+<summary>List of traits for the primaryContactId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1692,7 +1692,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#participatesInWorkflow name="participatesInWorkflow">participatesInWorkflow</a>
 
 For system use only. Legacy Microsoft Dynamics CRM 3.0 workflow data.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -1701,7 +1701,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  participatesInWorkflow  attribute are listed below.</summary>
+<summary>List of traits for the participatesInWorkflow attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1727,7 +1727,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#name name="name">name</a>
 
 Type the company or business name.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -1736,7 +1736,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  name  attribute are listed below.</summary>
+<summary>List of traits for the name attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1768,7 +1768,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#accountNumber name="accountNumber">accountNumber</a>
 
 Type an ID number or code for the account to quickly search and identify the account in system views.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -1777,7 +1777,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  accountNumber  attribute are listed below.</summary>
+<summary>List of traits for the accountNumber attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1808,7 +1808,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#revenue name="revenue">revenue</a>
 
 Type the annual revenue for the account, used as an indicator in financial performance analysis.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -1817,7 +1817,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  revenue  attribute are listed below.</summary>
+<summary>List of traits for the revenue attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1849,7 +1849,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#numberOfEmployees name="numberOfEmployees">numberOfEmployees</a>
 
 Type the number of employees that work at the account for use in marketing segmentation and demographic analysis.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -1858,7 +1858,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  numberOfEmployees  attribute are listed below.</summary>
+<summary>List of traits for the numberOfEmployees attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1887,7 +1887,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#description name="description">description</a>
 
 Type additional information to describe the account, such as an excerpt from the company's website.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -1896,7 +1896,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  description  attribute are listed below.</summary>
+<summary>List of traits for the description attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1927,7 +1927,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#SIC name="SIC">SIC</a>
 
 Type the Standard Industrial Classification (SIC) code that indicates the account's primary industry of business, for use in marketing segmentation and demographic analysis.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -1936,7 +1936,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  SIC  attribute are listed below.</summary>
+<summary>List of traits for the SIC attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1967,7 +1967,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownershipCode name="ownershipCode">ownershipCode</a>
 
 Select the account's ownership structure, such as public or private.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -1976,11 +1976,11 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ownershipCode  attribute are listed below.</summary>
+<summary>List of traits for the ownershipCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Other</td><td>4</td></tr><tr><td>en</td><td>Subsidiary</td><td>3</td></tr><tr><td>en</td><td>Private</td><td>2</td></tr><tr><td>en</td><td>Public</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Public</td><td>1</td></tr><tr><td>en</td><td>Private</td><td>2</td></tr><tr><td>en</td><td>Subsidiary</td><td>3</td></tr><tr><td>en</td><td>Other</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2007,7 +2007,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#ownershipCode_display name="ownershipCode_display">ownershipCode_display</a>
 
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -2016,7 +2016,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ownershipCode_display  attribute are listed below.</summary>
+<summary>List of traits for the ownershipCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2031,7 +2031,7 @@ First included in: applicationCommon/Account  (this entity)
 ### <a href=#marketCap name="marketCap">marketCap</a>
 
 Type the market capitalization of the account to identify the company's equity, used as an indicator in financial performance analysis.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -2040,7 +2040,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  marketCap  attribute are listed below.</summary>
+<summary>List of traits for the marketCap attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -2072,7 +2072,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#sharesOutstanding name="sharesOutstanding">sharesOutstanding</a>
 
 Type the number of shares available to the public for the account. This number is used as an indicator in financial performance analysis.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -2081,7 +2081,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  sharesOutstanding  attribute are listed below.</summary>
+<summary>List of traits for the sharesOutstanding attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -2110,7 +2110,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#tickerSymbol name="tickerSymbol">tickerSymbol</a>
 
 Type the stock exchange symbol for the account to track financial performance of the company. You can click the code entered in this field to access the latest trading information from MSN Money.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -2119,7 +2119,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  tickerSymbol  attribute are listed below.</summary>
+<summary>List of traits for the tickerSymbol attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2151,7 +2151,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#stockExchange name="stockExchange">stockExchange</a>
 
 Type the stock exchange at which the account is listed to track their stock and financial performance of the company.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -2160,7 +2160,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  stockExchange  attribute are listed below.</summary>
+<summary>List of traits for the stockExchange attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2191,7 +2191,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#webSiteUrl name="webSiteUrl">webSiteUrl</a>
 
 Type the account's website URL to get quick details about the company profile.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -2200,7 +2200,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  webSiteUrl  attribute are listed below.</summary>
+<summary>List of traits for the webSiteUrl attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2232,7 +2232,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ftpSiteUrl name="ftpSiteUrl">ftpSiteUrl</a>
 
 Type the URL for the account's FTP site to enable users to access data and share documents.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -2241,7 +2241,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ftpSiteUrl  attribute are listed below.</summary>
+<summary>List of traits for the ftpSiteUrl attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2273,7 +2273,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#EMailAddress1 name="EMailAddress1">EMailAddress1</a>
 
 Type the primary email address for the account.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -2282,7 +2282,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  EMailAddress1  attribute are listed below.</summary>
+<summary>List of traits for the EMailAddress1 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2314,7 +2314,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#EMailAddress2 name="EMailAddress2">EMailAddress2</a>
 
 Type the secondary email address for the account.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -2323,7 +2323,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  EMailAddress2  attribute are listed below.</summary>
+<summary>List of traits for the EMailAddress2 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2355,7 +2355,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#EMailAddress3 name="EMailAddress3">EMailAddress3</a>
 
 Type an alternate email address for the account.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -2364,7 +2364,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  EMailAddress3  attribute are listed below.</summary>
+<summary>List of traits for the EMailAddress3 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2396,7 +2396,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#doNotPhone name="doNotPhone">doNotPhone</a>
 
 Select whether the account allows phone calls. If Do Not Allow is selected, the account will be excluded from phone call activities distributed in marketing campaigns.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -2405,7 +2405,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  doNotPhone  attribute are listed below.</summary>
+<summary>List of traits for the doNotPhone attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -2431,7 +2431,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#doNotFax name="doNotFax">doNotFax</a>
 
 Select whether the account allows faxes. If Do Not Allow is selected, the account will be excluded from fax activities distributed in marketing campaigns.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -2440,7 +2440,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  doNotFax  attribute are listed below.</summary>
+<summary>List of traits for the doNotFax attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -2466,7 +2466,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#telephone1 name="telephone1">telephone1</a>
 
 Type the main phone number for this account.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -2475,7 +2475,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  telephone1  attribute are listed below.</summary>
+<summary>List of traits for the telephone1 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2507,7 +2507,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#doNotEMail name="doNotEMail">doNotEMail</a>
 
 Select whether the account allows direct email sent from Microsoft Dynamics 365.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -2516,7 +2516,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  doNotEMail  attribute are listed below.</summary>
+<summary>List of traits for the doNotEMail attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -2542,7 +2542,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#telephone2 name="telephone2">telephone2</a>
 
 Type a second phone number for this account.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -2551,7 +2551,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  telephone2  attribute are listed below.</summary>
+<summary>List of traits for the telephone2 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2583,7 +2583,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#fax name="fax">fax</a>
 
 Type the fax number for the account.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -2592,7 +2592,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  fax  attribute are listed below.</summary>
+<summary>List of traits for the fax attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2623,7 +2623,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#telephone3 name="telephone3">telephone3</a>
 
 Type a third phone number for this account.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -2632,7 +2632,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  telephone3  attribute are listed below.</summary>
+<summary>List of traits for the telephone3 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2664,7 +2664,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#doNotPostalMail name="doNotPostalMail">doNotPostalMail</a>
 
 Select whether the account allows direct mail. If Do Not Allow is selected, the account will be excluded from letter activities distributed in marketing campaigns.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -2673,7 +2673,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  doNotPostalMail  attribute are listed below.</summary>
+<summary>List of traits for the doNotPostalMail attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -2699,7 +2699,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#doNotBulkEMail name="doNotBulkEMail">doNotBulkEMail</a>
 
 Select whether the account allows bulk email sent through campaigns. If Do Not Allow is selected, the account can be added to marketing lists, but is excluded from email.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -2708,7 +2708,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  doNotBulkEMail  attribute are listed below.</summary>
+<summary>List of traits for the doNotBulkEMail attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -2734,7 +2734,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#doNotBulkPostalMail name="doNotBulkPostalMail">doNotBulkPostalMail</a>
 
 Select whether the account allows bulk postal mail sent through marketing campaigns or quick campaigns. If Do Not Allow is selected, the account can be added to marketing lists, but will be excluded from the postal mail.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -2743,7 +2743,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  doNotBulkPostalMail  attribute are listed below.</summary>
+<summary>List of traits for the doNotBulkPostalMail attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -2769,7 +2769,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#creditLimit name="creditLimit">creditLimit</a>
 
 Type the credit limit of the account. This is a useful reference when you address invoice and accounting issues with the customer.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -2778,7 +2778,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  creditLimit  attribute are listed below.</summary>
+<summary>List of traits for the creditLimit attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -2810,7 +2810,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#creditOnHold name="creditOnHold">creditOnHold</a>
 
 Select whether the credit for the account is on hold. This is a useful reference while addressing the invoice and accounting issues with the customer.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -2819,7 +2819,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  creditOnHold  attribute are listed below.</summary>
+<summary>List of traits for the creditOnHold attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -2845,7 +2845,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#parentAccountId name="parentAccountId">parentAccountId</a>
 
 Choose the parent account associated with this account to show parent and child businesses in reporting and analytics.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -2854,7 +2854,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  parentAccountId  attribute are listed below.</summary>
+<summary>List of traits for the parentAccountId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2887,7 +2887,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#aging30 name="aging30">aging30</a>
 
 For system use only.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -2896,7 +2896,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  aging30  attribute are listed below.</summary>
+<summary>List of traits for the aging30 attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -2928,7 +2928,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Shows whether the account is active or inactive. Inactive accounts are read-only and can't be edited unless they are reactivated.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -2937,11 +2937,11 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode  attribute are listed below.</summary>
+<summary>List of traits for the stateCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr><tr><td>en</td><td>Active</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2968,7 +2968,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -2977,7 +2977,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode_display  attribute are listed below.</summary>
+<summary>List of traits for the stateCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2992,7 +2992,7 @@ First included in: applicationCommon/Account  (this entity)
 ### <a href=#aging60 name="aging60">aging60</a>
 
 For system use only.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -3001,7 +3001,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  aging60  attribute are listed below.</summary>
+<summary>List of traits for the aging60 attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3033,20 +3033,20 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Select the account's status.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the account's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the account's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode  attribute are listed below.</summary>
+<summary>List of traits for the statusCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3076,7 +3076,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -3085,7 +3085,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode_display  attribute are listed below.</summary>
+<summary>List of traits for the statusCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3100,7 +3100,7 @@ First included in: applicationCommon/Account  (this entity)
 ### <a href=#aging90 name="aging90">aging90</a>
 
 For system use only.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -3109,7 +3109,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  aging90  attribute are listed below.</summary>
+<summary>List of traits for the aging90 attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3141,7 +3141,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1AddressId name="address1AddressId">address1AddressId</a>
 
 Unique identifier for address 1.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -3150,7 +3150,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1AddressId  attribute are listed below.</summary>
+<summary>List of traits for the address1AddressId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3180,7 +3180,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#address1AddressTypeCode name="address1AddressTypeCode">address1AddressTypeCode</a>
 
 Select the address type, such as primary or billing.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -3189,11 +3189,11 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1AddressTypeCode  attribute are listed below.</summary>
+<summary>List of traits for the address1AddressTypeCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Other</td><td>4</td></tr><tr><td>en</td><td>Primary</td><td>3</td></tr><tr><td>en</td><td>Ship To</td><td>2</td></tr><tr><td>en</td><td>Bill To</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Bill To</td><td>1</td></tr><tr><td>en</td><td>Ship To</td><td>2</td></tr><tr><td>en</td><td>Primary</td><td>3</td></tr><tr><td>en</td><td>Other</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3220,7 +3220,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#address1AddressTypeCode_display name="address1AddressTypeCode_display">address1AddressTypeCode_display</a>
 
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -3229,7 +3229,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1AddressTypeCode_display  attribute are listed below.</summary>
+<summary>List of traits for the address1AddressTypeCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3244,7 +3244,7 @@ First included in: applicationCommon/Account  (this entity)
 ### <a href=#address1Name name="address1Name">address1Name</a>
 
 Type a descriptive name for the customer's address, such as Corporate Headquarters.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -3253,7 +3253,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Name  attribute are listed below.</summary>
+<summary>List of traits for the address1Name attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3285,7 +3285,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1PrimaryContactName name="address1PrimaryContactName">address1PrimaryContactName</a>
 
 Type the name of the primary contact person for the customer's address.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -3294,7 +3294,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1PrimaryContactName  attribute are listed below.</summary>
+<summary>List of traits for the address1PrimaryContactName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3326,7 +3326,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Line1 name="address1Line1">address1Line1</a>
 
 Type the first line of the customer's address to help identify the location.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -3335,7 +3335,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Line1  attribute are listed below.</summary>
+<summary>List of traits for the address1Line1 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3367,7 +3367,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Line2 name="address1Line2">address1Line2</a>
 
 Type the second line of the customer's address.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -3376,7 +3376,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Line2  attribute are listed below.</summary>
+<summary>List of traits for the address1Line2 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3408,7 +3408,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Line3 name="address1Line3">address1Line3</a>
 
 Type the third line of the customer's address.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -3417,7 +3417,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Line3  attribute are listed below.</summary>
+<summary>List of traits for the address1Line3 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3449,7 +3449,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1City name="address1City">address1City</a>
 
 Type the city for the customer's address to help identify the location.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -3458,7 +3458,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1City  attribute are listed below.</summary>
+<summary>List of traits for the address1City attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3490,7 +3490,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1StateOrProvince name="address1StateOrProvince">address1StateOrProvince</a>
 
 Type the state or province of the customer's address.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -3499,7 +3499,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1StateOrProvince  attribute are listed below.</summary>
+<summary>List of traits for the address1StateOrProvince attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3531,7 +3531,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1County name="address1County">address1County</a>
 
 Type the county for the customer's address.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -3540,7 +3540,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1County  attribute are listed below.</summary>
+<summary>List of traits for the address1County attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3572,7 +3572,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Country name="address1Country">address1Country</a>
 
 Type the country or region for the customer's address.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -3581,7 +3581,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Country  attribute are listed below.</summary>
+<summary>List of traits for the address1Country attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3613,7 +3613,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1PostOfficeBox name="address1PostOfficeBox">address1PostOfficeBox</a>
 
 Type the post office box number of the customer's address.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -3622,7 +3622,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1PostOfficeBox  attribute are listed below.</summary>
+<summary>List of traits for the address1PostOfficeBox attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3653,7 +3653,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1PostalCode name="address1PostalCode">address1PostalCode</a>
 
 Type the ZIP Code or postal code for the address.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -3662,7 +3662,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1PostalCode  attribute are listed below.</summary>
+<summary>List of traits for the address1PostalCode attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3694,7 +3694,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1UTCOffset name="address1UTCOffset">address1UTCOffset</a>
 
 Select the time zone for the address.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -3703,7 +3703,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1UTCOffset  attribute are listed below.</summary>
+<summary>List of traits for the address1UTCOffset attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3735,7 +3735,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1FreightTermsCode name="address1FreightTermsCode">address1FreightTermsCode</a>
 
 Select the freight terms to make sure shipping charges are processed correctly.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -3744,11 +3744,11 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1FreightTermsCode  attribute are listed below.</summary>
+<summary>List of traits for the address1FreightTermsCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No Charge</td><td>2</td></tr><tr><td>en</td><td>FOB</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>FOB</td><td>1</td></tr><tr><td>en</td><td>No Charge</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3775,7 +3775,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#address1FreightTermsCode_display name="address1FreightTermsCode_display">address1FreightTermsCode_display</a>
 
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -3784,7 +3784,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1FreightTermsCode_display  attribute are listed below.</summary>
+<summary>List of traits for the address1FreightTermsCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3799,7 +3799,7 @@ First included in: applicationCommon/Account  (this entity)
 ### <a href=#address1UPSZone name="address1UPSZone">address1UPSZone</a>
 
 Type the UPS zone of the customer's address to make sure shipping charges are calculated correctly and deliveries are made promptly, if shipped by UPS.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -3808,7 +3808,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1UPSZone  attribute are listed below.</summary>
+<summary>List of traits for the address1UPSZone attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3839,7 +3839,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Latitude name="address1Latitude">address1Latitude</a>
 
 Type the latitude value for the customer's address, for use in mapping and other applications.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -3848,7 +3848,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Latitude  attribute are listed below.</summary>
+<summary>List of traits for the address1Latitude attribute are listed below.</summary>
 
 - **is.dataFormat.floatingPoint**  
 - **is.dataFormat.big**  
@@ -3879,7 +3879,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Telephone1 name="address1Telephone1">address1Telephone1</a>
 
 Type the primary phone number for the customer's address.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -3888,7 +3888,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Telephone1  attribute are listed below.</summary>
+<summary>List of traits for the address1Telephone1 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -3920,7 +3920,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Longitude name="address1Longitude">address1Longitude</a>
 
 Type the longitude value for the customer's address, for use in mapping and other applications.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -3929,7 +3929,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Longitude  attribute are listed below.</summary>
+<summary>List of traits for the address1Longitude attribute are listed below.</summary>
 
 - **is.dataFormat.floatingPoint**  
 - **is.dataFormat.big**  
@@ -3960,7 +3960,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1ShippingMethodCode name="address1ShippingMethodCode">address1ShippingMethodCode</a>
 
 Select a shipping method for deliveries sent to this address.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -3969,11 +3969,11 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1ShippingMethodCode  attribute are listed below.</summary>
+<summary>List of traits for the address1ShippingMethodCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Will Call</td><td>7</td></tr><tr><td>en</td><td>Full Load</td><td>6</td></tr><tr><td>en</td><td>Postal Mail</td><td>5</td></tr><tr><td>en</td><td>UPS</td><td>4</td></tr><tr><td>en</td><td>FedEx</td><td>3</td></tr><tr><td>en</td><td>DHL</td><td>2</td></tr><tr><td>en</td><td>Airborne</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Airborne</td><td>1</td></tr><tr><td>en</td><td>DHL</td><td>2</td></tr><tr><td>en</td><td>FedEx</td><td>3</td></tr><tr><td>en</td><td>UPS</td><td>4</td></tr><tr><td>en</td><td>Postal Mail</td><td>5</td></tr><tr><td>en</td><td>Full Load</td><td>6</td></tr><tr><td>en</td><td>Will Call</td><td>7</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -4000,7 +4000,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#address1ShippingMethodCode_display name="address1ShippingMethodCode_display">address1ShippingMethodCode_display</a>
 
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -4009,7 +4009,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1ShippingMethodCode_display  attribute are listed below.</summary>
+<summary>List of traits for the address1ShippingMethodCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4024,7 +4024,7 @@ First included in: applicationCommon/Account  (this entity)
 ### <a href=#address1Telephone2 name="address1Telephone2">address1Telephone2</a>
 
 Type a second phone number for the customer's address.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -4033,7 +4033,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Telephone2  attribute are listed below.</summary>
+<summary>List of traits for the address1Telephone2 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4065,7 +4065,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Telephone3 name="address1Telephone3">address1Telephone3</a>
 
 Type a third phone number for the customer's address.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -4074,7 +4074,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Telephone3  attribute are listed below.</summary>
+<summary>List of traits for the address1Telephone3 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4106,7 +4106,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Fax name="address1Fax">address1Fax</a>
 
 Type the fax number associated with the customer's address.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -4115,7 +4115,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Fax  attribute are listed below.</summary>
+<summary>List of traits for the address1Fax attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4147,7 +4147,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Composite name="address1Composite">address1Composite</a>
 
 Shows the complete address.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -4156,7 +4156,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address1Composite  attribute are listed below.</summary>
+<summary>List of traits for the address1Composite attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4188,7 +4188,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2AddressId name="address2AddressId">address2AddressId</a>
 
 Unique identifier for address 1.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -4197,7 +4197,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2AddressId  attribute are listed below.</summary>
+<summary>List of traits for the address2AddressId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4227,20 +4227,20 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#address2AddressTypeCode name="address2AddressTypeCode">address2AddressTypeCode</a>
 
 Select the address type, such as primary or billing.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Address Type</td></tr><tr><td>description</td><td>Select the address type, such as primary or billing.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>addresstypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Other</td><td>4</td></tr><tr><td>en</td><td>Primary</td><td>3</td></tr><tr><td>en</td><td>Ship To</td><td>2</td></tr><tr><td>en</td><td>Bill To</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Address Type</td></tr><tr><td>description</td><td>Select the address type, such as primary or billing.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>addresstypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Bill To</td><td>1</td></tr><tr><td>en</td><td>Ship To</td><td>2</td></tr><tr><td>en</td><td>Primary</td><td>3</td></tr><tr><td>en</td><td>Other</td><td>4</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  address2AddressTypeCode  attribute are listed below.</summary>
+<summary>List of traits for the address2AddressTypeCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Other</td><td>4</td></tr><tr><td>en</td><td>Primary</td><td>3</td></tr><tr><td>en</td><td>Ship To</td><td>2</td></tr><tr><td>en</td><td>Bill To</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Bill To</td><td>1</td></tr><tr><td>en</td><td>Ship To</td><td>2</td></tr><tr><td>en</td><td>Primary</td><td>3</td></tr><tr><td>en</td><td>Other</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -4267,7 +4267,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#address2AddressTypeCode_display name="address2AddressTypeCode_display">address2AddressTypeCode_display</a>
 
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -4276,7 +4276,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2AddressTypeCode_display  attribute are listed below.</summary>
+<summary>List of traits for the address2AddressTypeCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4291,7 +4291,7 @@ First included in: applicationCommon/Account  (this entity)
 ### <a href=#address2Name name="address2Name">address2Name</a>
 
 Type a descriptive name for the customer's address, such as Corporate Headquarters.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -4300,7 +4300,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Name  attribute are listed below.</summary>
+<summary>List of traits for the address2Name attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4332,7 +4332,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2PrimaryContactName name="address2PrimaryContactName">address2PrimaryContactName</a>
 
 Type the name of the primary contact person for the customer's address.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -4341,7 +4341,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2PrimaryContactName  attribute are listed below.</summary>
+<summary>List of traits for the address2PrimaryContactName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4373,7 +4373,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Line1 name="address2Line1">address2Line1</a>
 
 Type the first line of the customer's address to help identify the location.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -4382,7 +4382,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Line1  attribute are listed below.</summary>
+<summary>List of traits for the address2Line1 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4414,7 +4414,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Line2 name="address2Line2">address2Line2</a>
 
 Type the second line of the customer's address.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -4423,7 +4423,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Line2  attribute are listed below.</summary>
+<summary>List of traits for the address2Line2 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4455,7 +4455,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Line3 name="address2Line3">address2Line3</a>
 
 Type the third line of the customer's address.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -4464,7 +4464,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Line3  attribute are listed below.</summary>
+<summary>List of traits for the address2Line3 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4496,7 +4496,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2City name="address2City">address2City</a>
 
 Type the city for the customer's address to help identify the location.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -4505,7 +4505,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2City  attribute are listed below.</summary>
+<summary>List of traits for the address2City attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4537,7 +4537,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2StateOrProvince name="address2StateOrProvince">address2StateOrProvince</a>
 
 Type the state or province of the customer's address.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -4546,7 +4546,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2StateOrProvince  attribute are listed below.</summary>
+<summary>List of traits for the address2StateOrProvince attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4578,7 +4578,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2County name="address2County">address2County</a>
 
 Type the county for the customer's address.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -4587,7 +4587,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2County  attribute are listed below.</summary>
+<summary>List of traits for the address2County attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4619,7 +4619,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Country name="address2Country">address2Country</a>
 
 Type the country or region for the customer's address.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -4628,7 +4628,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Country  attribute are listed below.</summary>
+<summary>List of traits for the address2Country attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4660,7 +4660,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2PostOfficeBox name="address2PostOfficeBox">address2PostOfficeBox</a>
 
 Type the post office box number of the customer's address.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -4669,7 +4669,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2PostOfficeBox  attribute are listed below.</summary>
+<summary>List of traits for the address2PostOfficeBox attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4700,7 +4700,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2PostalCode name="address2PostalCode">address2PostalCode</a>
 
 Type the ZIP Code or postal code for the address.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -4709,7 +4709,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2PostalCode  attribute are listed below.</summary>
+<summary>List of traits for the address2PostalCode attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4741,7 +4741,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2UTCOffset name="address2UTCOffset">address2UTCOffset</a>
 
 Select the time zone for the address.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -4750,7 +4750,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2UTCOffset  attribute are listed below.</summary>
+<summary>List of traits for the address2UTCOffset attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4782,20 +4782,20 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2FreightTermsCode name="address2FreightTermsCode">address2FreightTermsCode</a>
 
 Select the freight terms to make sure shipping charges are processed correctly.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Freight Terms</td></tr><tr><td>description</td><td>Select the freight terms to make sure shipping charges are processed correctly.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>freighttermscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No Charge</td><td>2</td></tr><tr><td>en</td><td>FOB</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Freight Terms</td></tr><tr><td>description</td><td>Select the freight terms to make sure shipping charges are processed correctly.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>freighttermscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>FOB</td><td>1</td></tr><tr><td>en</td><td>No Charge</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  address2FreightTermsCode  attribute are listed below.</summary>
+<summary>List of traits for the address2FreightTermsCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No Charge</td><td>2</td></tr><tr><td>en</td><td>FOB</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>FOB</td><td>1</td></tr><tr><td>en</td><td>No Charge</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -4822,7 +4822,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#address2FreightTermsCode_display name="address2FreightTermsCode_display">address2FreightTermsCode_display</a>
 
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -4831,7 +4831,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2FreightTermsCode_display  attribute are listed below.</summary>
+<summary>List of traits for the address2FreightTermsCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4846,7 +4846,7 @@ First included in: applicationCommon/Account  (this entity)
 ### <a href=#address2UPSZone name="address2UPSZone">address2UPSZone</a>
 
 Type the UPS zone of the customer's address to make sure shipping charges are calculated correctly and deliveries are made promptly, if shipped by UPS.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -4855,7 +4855,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2UPSZone  attribute are listed below.</summary>
+<summary>List of traits for the address2UPSZone attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4886,7 +4886,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Latitude name="address2Latitude">address2Latitude</a>
 
 Type the latitude value for the customer's address, for use in mapping and other applications.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -4895,7 +4895,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Latitude  attribute are listed below.</summary>
+<summary>List of traits for the address2Latitude attribute are listed below.</summary>
 
 - **is.dataFormat.floatingPoint**  
 - **is.dataFormat.big**  
@@ -4926,7 +4926,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Telephone1 name="address2Telephone1">address2Telephone1</a>
 
 Type the primary phone number for the customer's address.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -4935,7 +4935,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Telephone1  attribute are listed below.</summary>
+<summary>List of traits for the address2Telephone1 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -4967,7 +4967,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Longitude name="address2Longitude">address2Longitude</a>
 
 Type the longitude value for the customer's address, for use in mapping and other applications.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -4976,7 +4976,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Longitude  attribute are listed below.</summary>
+<summary>List of traits for the address2Longitude attribute are listed below.</summary>
 
 - **is.dataFormat.floatingPoint**  
 - **is.dataFormat.big**  
@@ -5007,20 +5007,20 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2ShippingMethodCode name="address2ShippingMethodCode">address2ShippingMethodCode</a>
 
 Select a shipping method for deliveries sent to this address.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Shipping Method</td></tr><tr><td>description</td><td>Select a shipping method for deliveries sent to this address.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>shippingmethodcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Will Call</td><td>7</td></tr><tr><td>en</td><td>Full Load</td><td>6</td></tr><tr><td>en</td><td>Postal Mail</td><td>5</td></tr><tr><td>en</td><td>UPS</td><td>4</td></tr><tr><td>en</td><td>FedEx</td><td>3</td></tr><tr><td>en</td><td>DHL</td><td>2</td></tr><tr><td>en</td><td>Airborne</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Shipping Method</td></tr><tr><td>description</td><td>Select a shipping method for deliveries sent to this address.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>shippingmethodcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Airborne</td><td>1</td></tr><tr><td>en</td><td>DHL</td><td>2</td></tr><tr><td>en</td><td>FedEx</td><td>3</td></tr><tr><td>en</td><td>UPS</td><td>4</td></tr><tr><td>en</td><td>Postal Mail</td><td>5</td></tr><tr><td>en</td><td>Full Load</td><td>6</td></tr><tr><td>en</td><td>Will Call</td><td>7</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  address2ShippingMethodCode  attribute are listed below.</summary>
+<summary>List of traits for the address2ShippingMethodCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Will Call</td><td>7</td></tr><tr><td>en</td><td>Full Load</td><td>6</td></tr><tr><td>en</td><td>Postal Mail</td><td>5</td></tr><tr><td>en</td><td>UPS</td><td>4</td></tr><tr><td>en</td><td>FedEx</td><td>3</td></tr><tr><td>en</td><td>DHL</td><td>2</td></tr><tr><td>en</td><td>Airborne</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Airborne</td><td>1</td></tr><tr><td>en</td><td>DHL</td><td>2</td></tr><tr><td>en</td><td>FedEx</td><td>3</td></tr><tr><td>en</td><td>UPS</td><td>4</td></tr><tr><td>en</td><td>Postal Mail</td><td>5</td></tr><tr><td>en</td><td>Full Load</td><td>6</td></tr><tr><td>en</td><td>Will Call</td><td>7</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -5047,7 +5047,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#address2ShippingMethodCode_display name="address2ShippingMethodCode_display">address2ShippingMethodCode_display</a>
 
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -5056,7 +5056,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2ShippingMethodCode_display  attribute are listed below.</summary>
+<summary>List of traits for the address2ShippingMethodCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5071,7 +5071,7 @@ First included in: applicationCommon/Account  (this entity)
 ### <a href=#address2Telephone2 name="address2Telephone2">address2Telephone2</a>
 
 Type a second phone number for the customer's address.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -5080,7 +5080,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Telephone2  attribute are listed below.</summary>
+<summary>List of traits for the address2Telephone2 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5112,7 +5112,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Telephone3 name="address2Telephone3">address2Telephone3</a>
 
 Type a third phone number for the customer's address.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -5121,7 +5121,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Telephone3  attribute are listed below.</summary>
+<summary>List of traits for the address2Telephone3 attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5153,7 +5153,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Fax name="address2Fax">address2Fax</a>
 
 Type the fax number associated with the customer's address.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -5162,7 +5162,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Fax  attribute are listed below.</summary>
+<summary>List of traits for the address2Fax attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5194,7 +5194,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Composite name="address2Composite">address2Composite</a>
 
 Shows the complete address.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -5203,7 +5203,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  address2Composite  attribute are listed below.</summary>
+<summary>List of traits for the address2Composite attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5235,7 +5235,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#preferredAppointmentDayCode name="preferredAppointmentDayCode">preferredAppointmentDayCode</a>
 
 Select the preferred day of the week for service appointments.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -5244,11 +5244,11 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  preferredAppointmentDayCode  attribute are listed below.</summary>
+<summary>List of traits for the preferredAppointmentDayCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Saturday</td><td>6</td></tr><tr><td>en</td><td>Friday</td><td>5</td></tr><tr><td>en</td><td>Thursday</td><td>4</td></tr><tr><td>en</td><td>Wednesday</td><td>3</td></tr><tr><td>en</td><td>Tuesday</td><td>2</td></tr><tr><td>en</td><td>Monday</td><td>1</td></tr><tr><td>en</td><td>Sunday</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Sunday</td><td>0</td></tr><tr><td>en</td><td>Monday</td><td>1</td></tr><tr><td>en</td><td>Tuesday</td><td>2</td></tr><tr><td>en</td><td>Wednesday</td><td>3</td></tr><tr><td>en</td><td>Thursday</td><td>4</td></tr><tr><td>en</td><td>Friday</td><td>5</td></tr><tr><td>en</td><td>Saturday</td><td>6</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -5275,7 +5275,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#preferredAppointmentDayCode_display name="preferredAppointmentDayCode_display">preferredAppointmentDayCode_display</a>
 
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -5284,7 +5284,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  preferredAppointmentDayCode_display  attribute are listed below.</summary>
+<summary>List of traits for the preferredAppointmentDayCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5299,7 +5299,7 @@ First included in: applicationCommon/Account  (this entity)
 ### <a href=#preferredSystemUserId name="preferredSystemUserId">preferredSystemUserId</a>
 
 Choose the preferred service representative for reference when you schedule service activities for the account.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -5308,7 +5308,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  preferredSystemUserId  attribute are listed below.</summary>
+<summary>List of traits for the preferredSystemUserId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5341,7 +5341,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#preferredAppointmentTimeCode name="preferredAppointmentTimeCode">preferredAppointmentTimeCode</a>
 
 Select the preferred time of day for service appointments.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -5350,11 +5350,11 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  preferredAppointmentTimeCode  attribute are listed below.</summary>
+<summary>List of traits for the preferredAppointmentTimeCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Evening</td><td>3</td></tr><tr><td>en</td><td>Afternoon</td><td>2</td></tr><tr><td>en</td><td>Morning</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Morning</td><td>1</td></tr><tr><td>en</td><td>Afternoon</td><td>2</td></tr><tr><td>en</td><td>Evening</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -5381,7 +5381,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#preferredAppointmentTimeCode_display name="preferredAppointmentTimeCode_display">preferredAppointmentTimeCode_display</a>
 
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -5390,7 +5390,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  preferredAppointmentTimeCode_display  attribute are listed below.</summary>
+<summary>List of traits for the preferredAppointmentTimeCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5405,7 +5405,7 @@ First included in: applicationCommon/Account  (this entity)
 ### <a href=#merged name="merged">merged</a>
 
 Shows whether the account has been merged with another account.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -5414,7 +5414,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  merged  attribute are listed below.</summary>
+<summary>List of traits for the merged attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -5440,7 +5440,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#doNotSendMM name="doNotSendMM">doNotSendMM</a>
 
 Select whether the account accepts marketing materials, such as brochures or catalogs.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -5449,7 +5449,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  doNotSendMM  attribute are listed below.</summary>
+<summary>List of traits for the doNotSendMM attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -5475,7 +5475,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#masterId name="masterId">masterId</a>
 
 Shows the master account that the account was merged with.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -5484,7 +5484,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  masterId  attribute are listed below.</summary>
+<summary>List of traits for the masterId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5517,7 +5517,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#lastUsedInCampaign name="lastUsedInCampaign">lastUsedInCampaign</a>
 
 Shows the date when the account was last included in a marketing campaign or quick campaign.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -5526,7 +5526,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  lastUsedInCampaign  attribute are listed below.</summary>
+<summary>List of traits for the lastUsedInCampaign attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -5555,7 +5555,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -5564,7 +5564,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  exchangeRate  attribute are listed below.</summary>
+<summary>List of traits for the exchangeRate attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -5595,7 +5595,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Choose the local currency for the record to make sure budgets are reported in the correct currency.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -5604,7 +5604,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  transactionCurrencyId  attribute are listed below.</summary>
+<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5637,7 +5637,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#creditLimitBase name="creditLimitBase">creditLimitBase</a>
 
 Shows the credit limit converted to the system's default base currency for reporting purposes.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -5646,7 +5646,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  creditLimitBase  attribute are listed below.</summary>
+<summary>List of traits for the creditLimitBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -5681,7 +5681,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#aging30Base name="aging30Base">aging30Base</a>
 
 The base currency equivalent of the aging 30 field.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -5690,7 +5690,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  aging30Base  attribute are listed below.</summary>
+<summary>List of traits for the aging30Base attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -5725,7 +5725,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#revenueBase name="revenueBase">revenueBase</a>
 
 Shows the annual revenue converted to the system's default base currency. The calculations use the exchange rate specified in the Currencies area.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -5734,7 +5734,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  revenueBase  attribute are listed below.</summary>
+<summary>List of traits for the revenueBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -5769,7 +5769,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#aging90Base name="aging90Base">aging90Base</a>
 
 The base currency equivalent of the aging 90 field.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -5778,7 +5778,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  aging90Base  attribute are listed below.</summary>
+<summary>List of traits for the aging90Base attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -5813,7 +5813,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#marketCapBase name="marketCapBase">marketCapBase</a>
 
 Shows the market capitalization converted to the system's default base currency.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -5822,7 +5822,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  marketCapBase  attribute are listed below.</summary>
+<summary>List of traits for the marketCapBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -5857,7 +5857,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#aging60Base name="aging60Base">aging60Base</a>
 
 The base currency equivalent of the aging 60 field.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -5866,7 +5866,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  aging60Base  attribute are listed below.</summary>
+<summary>List of traits for the aging60Base attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -5901,7 +5901,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#yomiName name="yomiName">yomiName</a>
 
 Type the phonetic spelling of the company name, if specified in Japanese, to make sure the name is pronounced correctly in phone calls and other communications.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -5910,7 +5910,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  yomiName  attribute are listed below.</summary>
+<summary>List of traits for the yomiName attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5943,7 +5943,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#stageId name="stageId">stageId</a>
 
 Shows the ID of the stage.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -5952,7 +5952,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  stageId  attribute are listed below.</summary>
+<summary>List of traits for the stageId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -5981,7 +5981,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#processId name="processId">processId</a>
 
 Shows the ID of the process.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -5990,7 +5990,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  processId  attribute are listed below.</summary>
+<summary>List of traits for the processId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6019,7 +6019,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#entityImageId name="entityImageId">entityImageId</a>
 
 For internal use only.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -6028,7 +6028,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  entityImageId  attribute are listed below.</summary>
+<summary>List of traits for the entityImageId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6057,7 +6057,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#timeSpentByMeOnEmailAndMeetings name="timeSpentByMeOnEmailAndMeetings">timeSpentByMeOnEmailAndMeetings</a>
 
 Total time spent for emails (read and write) and meetings by me in relation to account record.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -6066,7 +6066,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  timeSpentByMeOnEmailAndMeetings  attribute are listed below.</summary>
+<summary>List of traits for the timeSpentByMeOnEmailAndMeetings attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6098,7 +6098,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#createdByExternalParty name="createdByExternalParty">createdByExternalParty</a>
 
 Shows the external party who created the record.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -6107,7 +6107,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdByExternalParty  attribute are listed below.</summary>
+<summary>List of traits for the createdByExternalParty attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6140,7 +6140,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedByExternalParty name="modifiedByExternalParty">modifiedByExternalParty</a>
 
 Shows the external party who modified the record.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -6149,7 +6149,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedByExternalParty  attribute are listed below.</summary>
+<summary>List of traits for the modifiedByExternalParty attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6182,7 +6182,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#primarySatoriId name="primarySatoriId">primarySatoriId</a>
 
 Primary Satori ID for Account  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -6191,7 +6191,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  primarySatoriId  attribute are listed below.</summary>
+<summary>List of traits for the primarySatoriId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6222,7 +6222,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#primaryTwitterId name="primaryTwitterId">primaryTwitterId</a>
 
 Primary Twitter ID for Account  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -6231,7 +6231,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  primaryTwitterId  attribute are listed below.</summary>
+<summary>List of traits for the primaryTwitterId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6262,7 +6262,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#SLAId name="SLAId">SLAId</a>
 
 Choose the service level agreement (SLA) that you want to apply to the Account record.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -6271,7 +6271,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  SLAId  attribute are listed below.</summary>
+<summary>List of traits for the SLAId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6304,7 +6304,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#SLAInvokedId name="SLAInvokedId">SLAInvokedId</a>
 
 Last SLA that was applied to this case. This field is for internal use only.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -6313,7 +6313,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  SLAInvokedId  attribute are listed below.</summary>
+<summary>List of traits for the SLAInvokedId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -6346,7 +6346,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#onHoldTime name="onHoldTime">onHoldTime</a>
 
 Shows how long, in minutes, that the record was on hold.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -6355,7 +6355,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  onHoldTime  attribute are listed below.</summary>
+<summary>List of traits for the onHoldTime attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -6384,7 +6384,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#lastOnHoldTime name="lastOnHoldTime">lastOnHoldTime</a>
 
 Contains the date and time stamp of the last on hold time.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -6393,7 +6393,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  lastOnHoldTime  attribute are listed below.</summary>
+<summary>List of traits for the lastOnHoldTime attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -6422,7 +6422,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#followEmail name="followEmail">followEmail</a>
 
 Information about whether to allow following email activity like opens, attachment views and link clicks for emails sent to the account.  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -6431,7 +6431,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  followEmail  attribute are listed below.</summary>
+<summary>List of traits for the followEmail attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -6457,7 +6457,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#marketingOnly name="marketingOnly">marketingOnly</a>
 
 Whether is only for marketing  
-First included in: applicationCommon/Account  (this entity)  
+First included in: applicationCommon/Account (this entity)  
 
 #### Properties
 
@@ -6466,7 +6466,7 @@ First included in: applicationCommon/Account  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  marketingOnly  attribute are listed below.</summary>
+<summary>List of traits for the marketingOnly attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  

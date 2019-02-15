@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/13/2019
+ms.date: 2/15/2019
 ms.author: tpalmer
 ---
 
@@ -12,14 +12,14 @@ ms.author: tpalmer
 
 Container for feedback and ratings for knowledge articles.  
   
-Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Feedback.cdm.json" target="_blank">GitHub</a>.  
+Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Feedback.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
-Instances of this entity are listed below:  
+Instances of this entity are listed below.  
 
 [applicationCommon/Feedback](../../../../Feedback.md "/core/applicationCommon/Feedback.cdm.json/Feedback")  
-portals/Feedback  
+/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Feedback.cdm.json/Feedback  
 
 ## Traits
 
@@ -106,7 +106,7 @@ First included in: <a href="../../../../Feedback.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  feedbackId  attribute are listed below.</summary>
+<summary>List of traits for the feedbackId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -145,7 +145,7 @@ First included in: <a href="../../../../Feedback.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  rating  attribute are listed below.</summary>
+<summary>List of traits for the rating attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -183,7 +183,7 @@ First included in: <a href="../../../../Feedback.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  minRating  attribute are listed below.</summary>
+<summary>List of traits for the minRating attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -221,7 +221,7 @@ First included in: <a href="../../../../Feedback.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  maxRating  attribute are listed below.</summary>
+<summary>List of traits for the maxRating attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -259,7 +259,7 @@ First included in: <a href="../../../../Feedback.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  normalizedRating  attribute are listed below.</summary>
+<summary>List of traits for the normalizedRating attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -299,7 +299,7 @@ First included in: <a href="../../../../Feedback.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  comments  attribute are listed below.</summary>
+<summary>List of traits for the comments attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -334,16 +334,16 @@ First included in: <a href="../../../../Feedback.md" target="_blank">application
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Source</td></tr><tr><td>description</td><td>Shows where the feedback was submitted from.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>source</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Portal</td><td>1</td></tr><tr><td>en</td><td>Internal</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Source</td></tr><tr><td>description</td><td>Shows where the feedback was submitted from.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>source</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Internal</td><td>0</td></tr><tr><td>en</td><td>Portal</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  source  attribute are listed below.</summary>
+<summary>List of traits for the source attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Portal</td><td>1</td></tr><tr><td>en</td><td>Internal</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Internal</td><td>0</td></tr><tr><td>en</td><td>Portal</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -379,7 +379,7 @@ First included in: <a href="../../../../Feedback.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  source_display  attribute are listed below.</summary>
+<summary>List of traits for the source_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -398,16 +398,16 @@ First included in: <a href="../../../../Feedback.md" target="_blank">application
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Shows whether the feedback is open, rejected or closed.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Closed</td><td>1</td></tr><tr><td>en</td><td>Open</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Shows whether the feedback is open, rejected or closed.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Open</td><td>0</td></tr><tr><td>en</td><td>Closed</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode  attribute are listed below.</summary>
+<summary>List of traits for the stateCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Closed</td><td>1</td></tr><tr><td>en</td><td>Open</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Open</td><td>0</td></tr><tr><td>en</td><td>Closed</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -443,7 +443,7 @@ First included in: <a href="../../../../Feedback.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode_display  attribute are listed below.</summary>
+<summary>List of traits for the stateCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -462,16 +462,16 @@ First included in: <a href="../../../../Feedback.md" target="_blank">application
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the feedback's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Proposed</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Accepted</td><td>2</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Closed</td><td>3</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Rejected</td><td>4</td><td>3</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the feedback's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Proposed</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Accepted</td><td>2</td><td>0</td></tr><tr><td>en</td><td>Closed</td><td>3</td><td>1</td></tr><tr><td>en</td><td>Rejected</td><td>4</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode  attribute are listed below.</summary>
+<summary>List of traits for the statusCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Proposed</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Accepted</td><td>2</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Closed</td><td>3</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Rejected</td><td>4</td><td>3</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Proposed</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Accepted</td><td>2</td><td>0</td></tr><tr><td>en</td><td>Closed</td><td>3</td><td>1</td></tr><tr><td>en</td><td>Rejected</td><td>4</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -510,7 +510,7 @@ First included in: <a href="../../../../Feedback.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode_display  attribute are listed below.</summary>
+<summary>List of traits for the statusCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -534,7 +534,7 @@ First included in: <a href="../../../../Feedback.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -570,7 +570,7 @@ First included in: <a href="../../../../Feedback.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  regardingObjectId  attribute are listed below.</summary>
+<summary>List of traits for the regardingObjectId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -612,7 +612,7 @@ First included in: <a href="../../../../Feedback.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  createdBy  attribute are listed below.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -654,7 +654,7 @@ First included in: <a href="../../../../Feedback.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOn  attribute are listed below.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -693,7 +693,7 @@ First included in: <a href="../../../../Feedback.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -735,7 +735,7 @@ First included in: <a href="../../../../Feedback.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -777,7 +777,7 @@ First included in: <a href="../../../../Feedback.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -816,7 +816,7 @@ First included in: <a href="../../../../Feedback.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -858,7 +858,7 @@ First included in: <a href="../../../../Feedback.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerIdType  attribute are listed below.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -897,7 +897,7 @@ First included in: <a href="../../../../Feedback.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerId  attribute are listed below.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -942,7 +942,7 @@ First included in: <a href="../../../../Feedback.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  owningBusinessUnit  attribute are listed below.</summary>
+<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -984,7 +984,7 @@ First included in: <a href="../../../../Feedback.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  owningUser  attribute are listed below.</summary>
+<summary>List of traits for the owningUser attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1026,7 +1026,7 @@ First included in: <a href="../../../../Feedback.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  owningTeam  attribute are listed below.</summary>
+<summary>List of traits for the owningTeam attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1068,7 +1068,7 @@ First included in: <a href="../../../../Feedback.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  closedBy  attribute are listed below.</summary>
+<summary>List of traits for the closedBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1110,7 +1110,7 @@ First included in: <a href="../../../../Feedback.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  closedOn  attribute are listed below.</summary>
+<summary>List of traits for the closedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1148,7 +1148,7 @@ First included in: <a href="../../../../Feedback.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1186,7 +1186,7 @@ First included in: <a href="../../../../Feedback.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1225,7 +1225,7 @@ First included in: <a href="../../../../Feedback.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  transactionCurrencyId  attribute are listed below.</summary>
+<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1267,7 +1267,7 @@ First included in: <a href="../../../../Feedback.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  exchangeRate  attribute are listed below.</summary>
+<summary>List of traits for the exchangeRate attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1307,7 +1307,7 @@ First included in: <a href="../../../../Feedback.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  title  attribute are listed below.</summary>
+<summary>List of traits for the title attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1347,7 +1347,7 @@ First included in: <a href="../../../../Feedback.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  createdByContact  attribute are listed below.</summary>
+<summary>List of traits for the createdByContact attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1389,7 +1389,7 @@ First included in: <a href="../../../../Feedback.md" target="_blank">application
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOnBehalfByContact  attribute are listed below.</summary>
+<summary>List of traits for the createdOnBehalfByContact attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1422,7 +1422,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#publishedToWeb name="publishedToWeb">publishedToWeb</a>
 
 Shows whether the feedback is approved for display.  
-First included in: portals/Feedback  (this entity)  
+First included in: portals/Feedback (this entity)  
 
 #### Properties
 
@@ -1431,7 +1431,7 @@ First included in: portals/Feedback  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  publishedToWeb  attribute are listed below.</summary>
+<summary>List of traits for the publishedToWeb attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -1457,7 +1457,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#authorURL name="authorURL">authorURL</a>
 
 The URL of the author’s home page/blog.  
-First included in: portals/Feedback  (this entity)  
+First included in: portals/Feedback (this entity)  
 
 #### Properties
 
@@ -1466,7 +1466,7 @@ First included in: portals/Feedback  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  authorURL  attribute are listed below.</summary>
+<summary>List of traits for the authorURL attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1498,7 +1498,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#adxContactEmail name="adxContactEmail">adxContactEmail</a>
 
 Email of the contact who created the record.  
-First included in: portals/Feedback  (this entity)  
+First included in: portals/Feedback (this entity)  
 
 #### Properties
 
@@ -1507,7 +1507,7 @@ First included in: portals/Feedback  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  adxContactEmail  attribute are listed below.</summary>
+<summary>List of traits for the adxContactEmail attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1539,7 +1539,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#adxContactUsername name="adxContactUsername">adxContactUsername</a>
 
 Username of the contact who created the record.  
-First included in: portals/Feedback  (this entity)  
+First included in: portals/Feedback (this entity)  
 
 #### Properties
 
@@ -1548,7 +1548,7 @@ First included in: portals/Feedback  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  adxContactUsername  attribute are listed below.</summary>
+<summary>List of traits for the adxContactUsername attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1580,7 +1580,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#adxCreatedByContact name="adxCreatedByContact">adxCreatedByContact</a>
 
 Name of the contact who created the record.  
-First included in: portals/Feedback  (this entity)  
+First included in: portals/Feedback (this entity)  
 
 #### Properties
 
@@ -1589,7 +1589,7 @@ First included in: portals/Feedback  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  adxCreatedByContact  attribute are listed below.</summary>
+<summary>List of traits for the adxCreatedByContact attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  

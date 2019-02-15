@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/13/2019
+ms.date: 2/15/2019
 ms.author: tpalmer
 ---
 
@@ -12,14 +12,14 @@ ms.author: tpalmer
 
 Relationship between two entities.  
   
-Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Connection.cdm.json" target="_blank">GitHub</a>.  
+Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Connection.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
-Instances of this entity are listed below:  
+Instances of this entity are listed below.  
 
 [applicationCommon/Connection](../../../../Connection.md "/core/applicationCommon/Connection.cdm.json/Connection")  
-marketing/Connection  
+/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Connection.cdm.json/Connection  
 
 ## Traits
 
@@ -105,7 +105,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -147,7 +147,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  owningUser  attribute are listed below.</summary>
+<summary>List of traits for the owningUser attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -184,16 +184,16 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the connection.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the connection.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode  attribute are listed below.</summary>
+<summary>List of traits for the statusCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -232,7 +232,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode_display  attribute are listed below.</summary>
+<summary>List of traits for the statusCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -256,7 +256,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -294,7 +294,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  connectionId  attribute are listed below.</summary>
+<summary>List of traits for the connectionId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -333,7 +333,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -369,7 +369,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  effectiveStart  attribute are listed below.</summary>
+<summary>List of traits for the effectiveStart attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -407,7 +407,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  isMaster  attribute are listed below.</summary>
+<summary>List of traits for the isMaster attribute are listed below.</summary>
 
 - **is.dataFormat.boolean**  
 - **is.requiredAtLevel**  
@@ -439,7 +439,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerIdType  attribute are listed below.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -478,7 +478,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerId  attribute are listed below.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -523,7 +523,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  relatedConnectionId  attribute are listed below.</summary>
+<summary>List of traits for the relatedConnectionId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -565,7 +565,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  description  attribute are listed below.</summary>
+<summary>List of traits for the description attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -605,7 +605,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  owningBusinessUnit  attribute are listed below.</summary>
+<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -647,7 +647,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -686,7 +686,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  record2IdObjectTypeCode  attribute are listed below.</summary>
+<summary>List of traits for the record2IdObjectTypeCode attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -719,7 +719,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  record2Id  attribute are listed below.</summary>
+<summary>List of traits for the record2Id attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -764,7 +764,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  createdBy  attribute are listed below.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -806,7 +806,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  record2RoleId  attribute are listed below.</summary>
+<summary>List of traits for the record2RoleId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -848,7 +848,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  effectiveEnd  attribute are listed below.</summary>
+<summary>List of traits for the effectiveEnd attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -886,7 +886,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  record1RoleId  attribute are listed below.</summary>
+<summary>List of traits for the record1RoleId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -928,7 +928,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOn  attribute are listed below.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -967,7 +967,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1006,7 +1006,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  record1IdObjectTypeCode  attribute are listed below.</summary>
+<summary>List of traits for the record1IdObjectTypeCode attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1039,7 +1039,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  record1Id  attribute are listed below.</summary>
+<summary>List of traits for the record1Id attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1079,16 +1079,16 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Shows whether the connection is active or inactive. Inactive connections are read-only and can't be edited unless they are reactivated.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr><tr><td>en</td><td>Active</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Shows whether the connection is active or inactive. Inactive connections are read-only and can't be edited unless they are reactivated.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode  attribute are listed below.</summary>
+<summary>List of traits for the stateCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr><tr><td>en</td><td>Active</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1124,7 +1124,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode_display  attribute are listed below.</summary>
+<summary>List of traits for the stateCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1148,7 +1148,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1190,7 +1190,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1232,7 +1232,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  owningTeam  attribute are listed below.</summary>
+<summary>List of traits for the owningTeam attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1274,7 +1274,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  transactionCurrencyId  attribute are listed below.</summary>
+<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1316,7 +1316,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  exchangeRate  attribute are listed below.</summary>
+<summary>List of traits for the exchangeRate attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1356,7 +1356,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  record2ObjectTypeCode  attribute are listed below.</summary>
+<summary>List of traits for the record2ObjectTypeCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -1396,7 +1396,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  record2ObjectTypeCode_display  attribute are listed below.</summary>
+<summary>List of traits for the record2ObjectTypeCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1420,7 +1420,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  record1ObjectTypeCode  attribute are listed below.</summary>
+<summary>List of traits for the record1ObjectTypeCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
@@ -1460,7 +1460,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  record1ObjectTypeCode_display  attribute are listed below.</summary>
+<summary>List of traits for the record1ObjectTypeCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1484,7 +1484,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  name  attribute are listed below.</summary>
+<summary>List of traits for the name attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1525,7 +1525,7 @@ First included in: <a href="../../../../Connection.md" target="_blank">applicati
 #### Traits
 
 <details>
-<summary>List of traits for the  entityImageId  attribute are listed below.</summary>
+<summary>List of traits for the entityImageId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  

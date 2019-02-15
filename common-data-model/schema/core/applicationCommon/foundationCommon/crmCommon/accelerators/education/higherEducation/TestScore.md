@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/13/2019
+ms.date: 2/15/2019
 ms.author: tpalmer
 ---
 
@@ -12,13 +12,13 @@ ms.author: tpalmer
 
 Test scores for a Student Contact  
   
-Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/TestScore.cdm.json" target="_blank">GitHub</a>.  
+Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/TestScore.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
-Instances of this entity are listed below:  
+Instances of this entity are listed below.  
 
-higherEducation/TestScore  
+/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/TestScore.cdm.json/TestScore  
 
 ## Traits
 
@@ -123,7 +123,7 @@ higherEducation/TestScore
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -132,7 +132,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOn  attribute are listed below.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -162,7 +162,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -171,7 +171,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdBy  attribute are listed below.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -207,7 +207,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -216,7 +216,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -246,7 +246,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -255,7 +255,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -291,7 +291,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -300,7 +300,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -336,7 +336,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -345,7 +345,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -381,7 +381,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -390,7 +390,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -420,7 +420,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -429,7 +429,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -455,7 +455,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -464,7 +464,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerIdType  attribute are listed below.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -494,7 +494,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -503,7 +503,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerId  attribute are listed below.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -539,7 +539,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -548,7 +548,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningBusinessUnit  attribute are listed below.</summary>
+<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -581,7 +581,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -590,7 +590,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningUser  attribute are listed below.</summary>
+<summary>List of traits for the owningUser attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -626,7 +626,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -635,7 +635,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningTeam  attribute are listed below.</summary>
+<summary>List of traits for the owningTeam attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -668,7 +668,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -677,7 +677,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  timeZoneRuleVersionNumber  attribute are listed below.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -706,7 +706,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -715,7 +715,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  UTCConversionTimeZoneCode  attribute are listed below.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -744,7 +744,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -753,7 +753,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -781,7 +781,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#testScoreId name="testScoreId">testScoreId</a>
 
 Unique identifier for entity instances  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -790,7 +790,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  testScoreId  attribute are listed below.</summary>
+<summary>List of traits for the testScoreId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -820,7 +820,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Status of the Test Score  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -829,11 +829,11 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode  attribute are listed below.</summary>
+<summary>List of traits for the stateCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr><tr><td>en</td><td>Active</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -860,7 +860,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -869,7 +869,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode_display  attribute are listed below.</summary>
+<summary>List of traits for the stateCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -884,20 +884,20 @@ First included in: higherEducation/TestScore  (this entity)
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Reason for the status of the Test Score  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Test Score</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Test Score</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode  attribute are listed below.</summary>
+<summary>List of traits for the statusCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -927,7 +927,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -936,7 +936,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode_display  attribute are listed below.</summary>
+<summary>List of traits for the statusCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -951,7 +951,7 @@ First included in: higherEducation/TestScore  (this entity)
 ### <a href=#name name="name">name</a>
 
 The name of the Test Score.  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -960,7 +960,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  name  attribute are listed below.</summary>
+<summary>List of traits for the name attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -992,7 +992,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ACTComposite name="ACTComposite">ACTComposite</a>
 
 ACT - Composite Score  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -1001,7 +1001,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ACTComposite  attribute are listed below.</summary>
+<summary>List of traits for the ACTComposite attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1030,7 +1030,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ACTELA name="ACTELA">ACTELA</a>
 
 ACT - ELA Score  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -1039,7 +1039,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ACTELA  attribute are listed below.</summary>
+<summary>List of traits for the ACTELA attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1068,7 +1068,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ACTEnglish name="ACTEnglish">ACTEnglish</a>
 
 ACT - English Score  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -1077,7 +1077,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ACTEnglish  attribute are listed below.</summary>
+<summary>List of traits for the ACTEnglish attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1106,7 +1106,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ACTEquivalentScore name="ACTEquivalentScore">ACTEquivalentScore</a>
 
 ACT equivalent score for a given SAT Score  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -1115,7 +1115,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ACTEquivalentScore  attribute are listed below.</summary>
+<summary>List of traits for the ACTEquivalentScore attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1144,7 +1144,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ACTMath name="ACTMath">ACTMath</a>
 
 ACT - Math Score  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -1153,7 +1153,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ACTMath  attribute are listed below.</summary>
+<summary>List of traits for the ACTMath attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1182,7 +1182,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ACTReading name="ACTReading">ACTReading</a>
 
 ACT - Reading Score  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -1191,7 +1191,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ACTReading  attribute are listed below.</summary>
+<summary>List of traits for the ACTReading attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1220,7 +1220,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ACTScience name="ACTScience">ACTScience</a>
 
 ACT - Science Score  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -1229,7 +1229,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ACTScience  attribute are listed below.</summary>
+<summary>List of traits for the ACTScience attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1258,7 +1258,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ACTSTEM name="ACTSTEM">ACTSTEM</a>
 
 ACT - STEM Score  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -1267,7 +1267,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ACTSTEM  attribute are listed below.</summary>
+<summary>List of traits for the ACTSTEM attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1296,7 +1296,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ACTWriting name="ACTWriting">ACTWriting</a>
 
 ACT - Writing Score  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -1305,7 +1305,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ACTWriting  attribute are listed below.</summary>
+<summary>List of traits for the ACTWriting attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1334,7 +1334,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#alevelArt name="alevelArt">alevelArt</a>
 
 A-level Art  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -1343,7 +1343,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  alevelArt  attribute are listed below.</summary>
+<summary>List of traits for the alevelArt attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1374,7 +1374,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#GMATAnalyticalWriting name="GMATAnalyticalWriting">GMATAnalyticalWriting</a>
 
 GMAT - Analytical Writing Score  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -1383,7 +1383,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  GMATAnalyticalWriting  attribute are listed below.</summary>
+<summary>List of traits for the GMATAnalyticalWriting attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1414,7 +1414,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#GMATIntegratedReasoning name="GMATIntegratedReasoning">GMATIntegratedReasoning</a>
 
 GMAT - Integrated Reasoning Score  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -1423,7 +1423,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  GMATIntegratedReasoning  attribute are listed below.</summary>
+<summary>List of traits for the GMATIntegratedReasoning attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1452,7 +1452,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#GMATQuantitativeReasoning name="GMATQuantitativeReasoning">GMATQuantitativeReasoning</a>
 
 GMAT - Quantitative Reasoning Score  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -1461,7 +1461,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  GMATQuantitativeReasoning  attribute are listed below.</summary>
+<summary>List of traits for the GMATQuantitativeReasoning attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1490,7 +1490,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#GMATTotal name="GMATTotal">GMATTotal</a>
 
 GMAT - Total Score  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -1499,7 +1499,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  GMATTotal  attribute are listed below.</summary>
+<summary>List of traits for the GMATTotal attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1528,7 +1528,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#GMATVerbalReasoning name="GMATVerbalReasoning">GMATVerbalReasoning</a>
 
 GMAT - Verbal Reasoning Score  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -1537,7 +1537,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  GMATVerbalReasoning  attribute are listed below.</summary>
+<summary>List of traits for the GMATVerbalReasoning attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1566,7 +1566,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#GREAnalyticalReasoning name="GREAnalyticalReasoning">GREAnalyticalReasoning</a>
 
 GRE - Analytical Reasoning Score  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -1575,7 +1575,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  GREAnalyticalReasoning  attribute are listed below.</summary>
+<summary>List of traits for the GREAnalyticalReasoning attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1606,7 +1606,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#GREQuantitativeReasoning name="GREQuantitativeReasoning">GREQuantitativeReasoning</a>
 
 GRE - Quantitative Reasoning Score  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -1615,7 +1615,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  GREQuantitativeReasoning  attribute are listed below.</summary>
+<summary>List of traits for the GREQuantitativeReasoning attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1644,7 +1644,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#GRETotalScore name="GRETotalScore">GRETotalScore</a>
 
 GRE - Total Score  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -1653,7 +1653,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  GRETotalScore  attribute are listed below.</summary>
+<summary>List of traits for the GRETotalScore attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1682,7 +1682,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#GREVerbalReasoning name="GREVerbalReasoning">GREVerbalReasoning</a>
 
 GRE - Verbal Reasoning Score  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -1691,7 +1691,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  GREVerbalReasoning  attribute are listed below.</summary>
+<summary>List of traits for the GREVerbalReasoning attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -1720,7 +1720,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#IELTSCEFR name="IELTSCEFR">IELTSCEFR</a>
 
 IELTS - CEFR  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -1729,11 +1729,11 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  IELTSCEFR  attribute are listed below.</summary>
+<summary>List of traits for the IELTSCEFR attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>C2</td><td>494280005</td></tr><tr><td>en</td><td>C1</td><td>494280004</td></tr><tr><td>en</td><td>B2</td><td>494280003</td></tr><tr><td>en</td><td>B1</td><td>494280002</td></tr><tr><td>en</td><td>A2</td><td>494280001</td></tr><tr><td>en</td><td>A1</td><td>494280000</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>A1</td><td>494280000</td></tr><tr><td>en</td><td>A2</td><td>494280001</td></tr><tr><td>en</td><td>B1</td><td>494280002</td></tr><tr><td>en</td><td>B2</td><td>494280003</td></tr><tr><td>en</td><td>C1</td><td>494280004</td></tr><tr><td>en</td><td>C2</td><td>494280005</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1760,7 +1760,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#IELTSCEFR_display name="IELTSCEFR_display">IELTSCEFR_display</a>
 
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -1769,7 +1769,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  IELTSCEFR_display  attribute are listed below.</summary>
+<summary>List of traits for the IELTSCEFR_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1784,7 +1784,7 @@ First included in: higherEducation/TestScore  (this entity)
 ### <a href=#IELTSListening name="IELTSListening">IELTSListening</a>
 
 IELTS - Listening score  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -1793,7 +1793,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  IELTSListening  attribute are listed below.</summary>
+<summary>List of traits for the IELTSListening attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1824,7 +1824,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#IELTSOverallBandScore name="IELTSOverallBandScore">IELTSOverallBandScore</a>
 
 IELTS - Overall Band Score  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -1833,7 +1833,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  IELTSOverallBandScore  attribute are listed below.</summary>
+<summary>List of traits for the IELTSOverallBandScore attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1864,7 +1864,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#IELTSReading name="IELTSReading">IELTSReading</a>
 
 IELTS - Reading Score  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -1873,7 +1873,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  IELTSReading  attribute are listed below.</summary>
+<summary>List of traits for the IELTSReading attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1904,7 +1904,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#IELTSSpeakingScore name="IELTSSpeakingScore">IELTSSpeakingScore</a>
 
 IELTS - Speaking Score  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -1913,7 +1913,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  IELTSSpeakingScore  attribute are listed below.</summary>
+<summary>List of traits for the IELTSSpeakingScore attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1944,7 +1944,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#IELTSWriting name="IELTSWriting">IELTSWriting</a>
 
 IELTS - Writing Score  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -1953,7 +1953,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  IELTSWriting  attribute are listed below.</summary>
+<summary>List of traits for the IELTSWriting attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1984,7 +1984,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#SATEssayAnalysis name="SATEssayAnalysis">SATEssayAnalysis</a>
 
 SAT - SAT Essay - Analysis Score  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -1993,7 +1993,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  SATEssayAnalysis  attribute are listed below.</summary>
+<summary>List of traits for the SATEssayAnalysis attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -2022,7 +2022,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#SATEssayReading name="SATEssayReading">SATEssayReading</a>
 
 SAT - SAT Essay - Reading Score  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -2031,7 +2031,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  SATEssayReading  attribute are listed below.</summary>
+<summary>List of traits for the SATEssayReading attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -2060,7 +2060,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#SATEssayWriting name="SATEssayWriting">SATEssayWriting</a>
 
 SAT - SAT Essay - Writing Score  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -2069,7 +2069,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  SATEssayWriting  attribute are listed below.</summary>
+<summary>List of traits for the SATEssayWriting attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -2098,7 +2098,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#SATEvidenceBasedReadingandWritingSection name="SATEvidenceBasedReadingandWritingSection">SATEvidenceBasedReadingandWritingSection</a>
 
 SAT - Evidence-Based Reading and Writing Section Score  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -2107,7 +2107,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  SATEvidenceBasedReadingandWritingSection  attribute are listed below.</summary>
+<summary>List of traits for the SATEvidenceBasedReadingandWritingSection attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -2136,7 +2136,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#SATMathSection name="SATMathSection">SATMathSection</a>
 
 SAT - Math Section Score  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -2145,7 +2145,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  SATMathSection  attribute are listed below.</summary>
+<summary>List of traits for the SATMathSection attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -2174,7 +2174,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#SATTotalScore name="SATTotalScore">SATTotalScore</a>
 
 SAT - Total Score  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -2183,7 +2183,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  SATTotalScore  attribute are listed below.</summary>
+<summary>List of traits for the SATTotalScore attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -2212,7 +2212,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#studentID name="studentID">studentID</a>
 
 Lookup to the Student (Contact Id)  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -2221,7 +2221,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  studentID  attribute are listed below.</summary>
+<summary>List of traits for the studentID attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2257,7 +2257,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#testDate name="testDate">testDate</a>
 
 Date when test was taken  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -2266,7 +2266,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  testDate  attribute are listed below.</summary>
+<summary>List of traits for the testDate attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -2295,7 +2295,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#testLocation name="testLocation">testLocation</a>
 
 Location where the test was taken  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -2304,7 +2304,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  testLocation  attribute are listed below.</summary>
+<summary>List of traits for the testLocation attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2335,7 +2335,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#testScoreValue name="testScoreValue">testScoreValue</a>
 
 Test Score Value  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -2344,7 +2344,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  testScoreValue  attribute are listed below.</summary>
+<summary>List of traits for the testScoreValue attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2375,7 +2375,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#testSource name="testSource">testSource</a>
 
 Source of Test score  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -2384,11 +2384,11 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  testSource  attribute are listed below.</summary>
+<summary>List of traits for the testSource attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Self - Reported</td><td>494280003</td></tr><tr><td>en</td><td>Official - SIS</td><td>494280002</td></tr><tr><td>en</td><td>Official - Testing Agency</td><td>494280001</td></tr><tr><td>en</td><td>Official - Transcript</td><td>494280000</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Official - Transcript</td><td>494280000</td></tr><tr><td>en</td><td>Official - Testing Agency</td><td>494280001</td></tr><tr><td>en</td><td>Official - SIS</td><td>494280002</td></tr><tr><td>en</td><td>Self - Reported</td><td>494280003</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2415,7 +2415,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#testSource_display name="testSource_display">testSource_display</a>
 
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -2424,7 +2424,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  testSource_display  attribute are listed below.</summary>
+<summary>List of traits for the testSource_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2439,7 +2439,7 @@ First included in: higherEducation/TestScore  (this entity)
 ### <a href=#testTypeId name="testTypeId">testTypeId</a>
 
 List of test types  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -2448,7 +2448,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  testTypeId  attribute are listed below.</summary>
+<summary>List of traits for the testTypeId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -2484,7 +2484,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#TOEFLListeningSection name="TOEFLListeningSection">TOEFLListeningSection</a>
 
 TOEFL - Listening Section Score  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -2493,7 +2493,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  TOEFLListeningSection  attribute are listed below.</summary>
+<summary>List of traits for the TOEFLListeningSection attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -2522,7 +2522,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#TOEFLReadingSection name="TOEFLReadingSection">TOEFLReadingSection</a>
 
 TOEFL - Reading Section Score  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -2531,7 +2531,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  TOEFLReadingSection  attribute are listed below.</summary>
+<summary>List of traits for the TOEFLReadingSection attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -2560,7 +2560,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#TOEFLSpeakingSection name="TOEFLSpeakingSection">TOEFLSpeakingSection</a>
 
 TOEFL - Speaking Section Score  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -2569,7 +2569,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  TOEFLSpeakingSection  attribute are listed below.</summary>
+<summary>List of traits for the TOEFLSpeakingSection attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -2598,7 +2598,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#TOEFLTotalScore name="TOEFLTotalScore">TOEFLTotalScore</a>
 
 TOEFL - Total Score  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -2607,7 +2607,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  TOEFLTotalScore  attribute are listed below.</summary>
+<summary>List of traits for the TOEFLTotalScore attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -2638,7 +2638,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#TOEFLWritingSection name="TOEFLWritingSection">TOEFLWritingSection</a>
 
 TOEFL - Writing Section Score  
-First included in: higherEducation/TestScore  (this entity)  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -2647,7 +2647,7 @@ First included in: higherEducation/TestScore  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  TOEFLWritingSection  attribute are listed below.</summary>
+<summary>List of traits for the TOEFLWritingSection attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  

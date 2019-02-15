@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/13/2019
+ms.date: 2/15/2019
 ms.author: tpalmer
 ---
 
@@ -12,13 +12,13 @@ ms.author: tpalmer
 
 Describes the intention of how one or more practitioners intend to deliver care for a particular patient, group or community for a period of time, possibly limited to care for a specific condition  
   
-Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlan.cdm.json" target="_blank">GitHub</a>.  
+Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlan.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
-Instances of this entity are listed below:  
+Instances of this entity are listed below.  
 
-electronicMedicalRecords/CarePlan  
+/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlan.cdm.json/CarePlan  
 
 ## Traits
 
@@ -95,7 +95,7 @@ electronicMedicalRecords/CarePlan
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: electronicMedicalRecords/CarePlan  (this entity)  
+First included in: electronicMedicalRecords/CarePlan (this entity)  
 
 #### Properties
 
@@ -104,7 +104,7 @@ First included in: electronicMedicalRecords/CarePlan  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOn  attribute are listed below.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -134,7 +134,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: electronicMedicalRecords/CarePlan  (this entity)  
+First included in: electronicMedicalRecords/CarePlan (this entity)  
 
 #### Properties
 
@@ -143,7 +143,7 @@ First included in: electronicMedicalRecords/CarePlan  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdBy  attribute are listed below.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -179,7 +179,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: electronicMedicalRecords/CarePlan  (this entity)  
+First included in: electronicMedicalRecords/CarePlan (this entity)  
 
 #### Properties
 
@@ -188,7 +188,7 @@ First included in: electronicMedicalRecords/CarePlan  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -218,7 +218,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: electronicMedicalRecords/CarePlan  (this entity)  
+First included in: electronicMedicalRecords/CarePlan (this entity)  
 
 #### Properties
 
@@ -227,7 +227,7 @@ First included in: electronicMedicalRecords/CarePlan  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -263,7 +263,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: electronicMedicalRecords/CarePlan  (this entity)  
+First included in: electronicMedicalRecords/CarePlan (this entity)  
 
 #### Properties
 
@@ -272,7 +272,7 @@ First included in: electronicMedicalRecords/CarePlan  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -308,7 +308,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: electronicMedicalRecords/CarePlan  (this entity)  
+First included in: electronicMedicalRecords/CarePlan (this entity)  
 
 #### Properties
 
@@ -317,7 +317,7 @@ First included in: electronicMedicalRecords/CarePlan  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -353,7 +353,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: electronicMedicalRecords/CarePlan  (this entity)  
+First included in: electronicMedicalRecords/CarePlan (this entity)  
 
 #### Properties
 
@@ -362,7 +362,7 @@ First included in: electronicMedicalRecords/CarePlan  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -392,7 +392,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: electronicMedicalRecords/CarePlan  (this entity)  
+First included in: electronicMedicalRecords/CarePlan (this entity)  
 
 #### Properties
 
@@ -401,7 +401,7 @@ First included in: electronicMedicalRecords/CarePlan  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -427,7 +427,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: electronicMedicalRecords/CarePlan  (this entity)  
+First included in: electronicMedicalRecords/CarePlan (this entity)  
 
 #### Properties
 
@@ -436,7 +436,7 @@ First included in: electronicMedicalRecords/CarePlan  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerIdType  attribute are listed below.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -466,7 +466,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: electronicMedicalRecords/CarePlan  (this entity)  
+First included in: electronicMedicalRecords/CarePlan (this entity)  
 
 #### Properties
 
@@ -475,7 +475,7 @@ First included in: electronicMedicalRecords/CarePlan  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ownerId  attribute are listed below.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -511,7 +511,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: electronicMedicalRecords/CarePlan  (this entity)  
+First included in: electronicMedicalRecords/CarePlan (this entity)  
 
 #### Properties
 
@@ -520,7 +520,7 @@ First included in: electronicMedicalRecords/CarePlan  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningBusinessUnit  attribute are listed below.</summary>
+<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -553,7 +553,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: electronicMedicalRecords/CarePlan  (this entity)  
+First included in: electronicMedicalRecords/CarePlan (this entity)  
 
 #### Properties
 
@@ -562,7 +562,7 @@ First included in: electronicMedicalRecords/CarePlan  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningUser  attribute are listed below.</summary>
+<summary>List of traits for the owningUser attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -598,7 +598,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: electronicMedicalRecords/CarePlan  (this entity)  
+First included in: electronicMedicalRecords/CarePlan (this entity)  
 
 #### Properties
 
@@ -607,7 +607,7 @@ First included in: electronicMedicalRecords/CarePlan  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  owningTeam  attribute are listed below.</summary>
+<summary>List of traits for the owningTeam attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -640,7 +640,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: electronicMedicalRecords/CarePlan  (this entity)  
+First included in: electronicMedicalRecords/CarePlan (this entity)  
 
 #### Properties
 
@@ -649,7 +649,7 @@ First included in: electronicMedicalRecords/CarePlan  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  timeZoneRuleVersionNumber  attribute are listed below.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -678,7 +678,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: electronicMedicalRecords/CarePlan  (this entity)  
+First included in: electronicMedicalRecords/CarePlan (this entity)  
 
 #### Properties
 
@@ -687,7 +687,7 @@ First included in: electronicMedicalRecords/CarePlan  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  UTCConversionTimeZoneCode  attribute are listed below.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.CDS.standard**  
@@ -716,7 +716,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: electronicMedicalRecords/CarePlan  (this entity)  
+First included in: electronicMedicalRecords/CarePlan (this entity)  
 
 #### Properties
 
@@ -725,7 +725,7 @@ First included in: electronicMedicalRecords/CarePlan  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -753,7 +753,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#carePlanId name="carePlanId">carePlanId</a>
 
 Unique identifier for entity instances  
-First included in: electronicMedicalRecords/CarePlan  (this entity)  
+First included in: electronicMedicalRecords/CarePlan (this entity)  
 
 #### Properties
 
@@ -762,7 +762,7 @@ First included in: electronicMedicalRecords/CarePlan  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  carePlanId  attribute are listed below.</summary>
+<summary>List of traits for the carePlanId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -792,7 +792,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Status of the Care Plan  
-First included in: electronicMedicalRecords/CarePlan  (this entity)  
+First included in: electronicMedicalRecords/CarePlan (this entity)  
 
 #### Properties
 
@@ -801,11 +801,11 @@ First included in: electronicMedicalRecords/CarePlan  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode  attribute are listed below.</summary>
+<summary>List of traits for the stateCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr><tr><td>en</td><td>Active</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -832,7 +832,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: electronicMedicalRecords/CarePlan  (this entity)  
+First included in: electronicMedicalRecords/CarePlan (this entity)  
 
 #### Properties
 
@@ -841,7 +841,7 @@ First included in: electronicMedicalRecords/CarePlan  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  stateCode_display  attribute are listed below.</summary>
+<summary>List of traits for the stateCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -856,20 +856,20 @@ First included in: electronicMedicalRecords/CarePlan  (this entity)
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Reason for the status of the Care Plan  
-First included in: electronicMedicalRecords/CarePlan  (this entity)  
+First included in: electronicMedicalRecords/CarePlan (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Care Plan</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Care Plan</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode  attribute are listed below.</summary>
+<summary>List of traits for the statusCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -899,7 +899,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: electronicMedicalRecords/CarePlan  (this entity)  
+First included in: electronicMedicalRecords/CarePlan (this entity)  
 
 #### Properties
 
@@ -908,7 +908,7 @@ First included in: electronicMedicalRecords/CarePlan  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  statusCode_display  attribute are listed below.</summary>
+<summary>List of traits for the statusCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -923,7 +923,7 @@ First included in: electronicMedicalRecords/CarePlan  (this entity)
 ### <a href=#title name="title">title</a>
 
 The name of the custom entity.  
-First included in: electronicMedicalRecords/CarePlan  (this entity)  
+First included in: electronicMedicalRecords/CarePlan (this entity)  
 
 #### Properties
 
@@ -932,7 +932,7 @@ First included in: electronicMedicalRecords/CarePlan  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  title  attribute are listed below.</summary>
+<summary>List of traits for the title attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -963,7 +963,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#carePlanIdentifier name="carePlanIdentifier">carePlanIdentifier</a>
 
 This records identifiers associated with this care plan that are defined by business processes and/or used to refer to it when a direct URL reference to the resource itself is not appropriate.  
-First included in: electronicMedicalRecords/CarePlan  (this entity)  
+First included in: electronicMedicalRecords/CarePlan (this entity)  
 
 #### Properties
 
@@ -972,7 +972,7 @@ First included in: electronicMedicalRecords/CarePlan  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  carePlanIdentifier  attribute are listed below.</summary>
+<summary>List of traits for the carePlanIdentifier attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1003,7 +1003,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#contextType name="contextType">contextType</a>
 
 Type of the context care plan is created for  
-First included in: electronicMedicalRecords/CarePlan  (this entity)  
+First included in: electronicMedicalRecords/CarePlan (this entity)  
 
 #### Properties
 
@@ -1012,11 +1012,11 @@ First included in: electronicMedicalRecords/CarePlan  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  contextType  attribute are listed below.</summary>
+<summary>List of traits for the contextType attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Episode Of Care</td><td>935000001</td></tr><tr><td>en</td><td>Encounter</td><td>935000000</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Encounter</td><td>935000000</td></tr><tr><td>en</td><td>Episode Of Care</td><td>935000001</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1043,7 +1043,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#contextType_display name="contextType_display">contextType_display</a>
 
-First included in: electronicMedicalRecords/CarePlan  (this entity)  
+First included in: electronicMedicalRecords/CarePlan (this entity)  
 
 #### Properties
 
@@ -1052,7 +1052,7 @@ First included in: electronicMedicalRecords/CarePlan  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  contextType_display  attribute are listed below.</summary>
+<summary>List of traits for the contextType_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1067,7 +1067,7 @@ First included in: electronicMedicalRecords/CarePlan  (this entity)
 ### <a href=#encounterIdentifier name="encounterIdentifier">encounterIdentifier</a>
 
 Identifies the original context in which this particular CarePlan was created.  
-First included in: electronicMedicalRecords/CarePlan  (this entity)  
+First included in: electronicMedicalRecords/CarePlan (this entity)  
 
 #### Properties
 
@@ -1076,7 +1076,7 @@ First included in: electronicMedicalRecords/CarePlan  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  encounterIdentifier  attribute are listed below.</summary>
+<summary>List of traits for the encounterIdentifier attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1109,7 +1109,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#episodeOfCare name="episodeOfCare">episodeOfCare</a>
 
 Identifies the original context in which this particular CarePlan was created.  
-First included in: electronicMedicalRecords/CarePlan  (this entity)  
+First included in: electronicMedicalRecords/CarePlan (this entity)  
 
 #### Properties
 
@@ -1118,7 +1118,7 @@ First included in: electronicMedicalRecords/CarePlan  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  episodeOfCare  attribute are listed below.</summary>
+<summary>List of traits for the episodeOfCare attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1151,7 +1151,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#groupIdentifier name="groupIdentifier">groupIdentifier</a>
 
 Identifies the patient or group whose intended care is described by the plan.  
-First included in: electronicMedicalRecords/CarePlan  (this entity)  
+First included in: electronicMedicalRecords/CarePlan (this entity)  
 
 #### Properties
 
@@ -1160,7 +1160,7 @@ First included in: electronicMedicalRecords/CarePlan  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  groupIdentifier  attribute are listed below.</summary>
+<summary>List of traits for the groupIdentifier attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1193,7 +1193,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#patientIdentifier name="patientIdentifier">patientIdentifier</a>
 
 Identifies the patient or group whose intended care is described by the plan.  
-First included in: electronicMedicalRecords/CarePlan  (this entity)  
+First included in: electronicMedicalRecords/CarePlan (this entity)  
 
 #### Properties
 
@@ -1202,7 +1202,7 @@ First included in: electronicMedicalRecords/CarePlan  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  patientIdentifier  attribute are listed below.</summary>
+<summary>List of traits for the patientIdentifier attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1235,7 +1235,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#planDescription name="planDescription">planDescription</a>
 
 A description of the scope and nature of the plan.  
-First included in: electronicMedicalRecords/CarePlan  (this entity)  
+First included in: electronicMedicalRecords/CarePlan (this entity)  
 
 #### Properties
 
@@ -1244,7 +1244,7 @@ First included in: electronicMedicalRecords/CarePlan  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  planDescription  attribute are listed below.</summary>
+<summary>List of traits for the planDescription attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1275,7 +1275,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#planEndDate name="planEndDate">planEndDate</a>
 
 Indicates when the plan did (or is intended to) come into effect and end.  
-First included in: electronicMedicalRecords/CarePlan  (this entity)  
+First included in: electronicMedicalRecords/CarePlan (this entity)  
 
 #### Properties
 
@@ -1284,7 +1284,7 @@ First included in: electronicMedicalRecords/CarePlan  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  planEndDate  attribute are listed below.</summary>
+<summary>List of traits for the planEndDate attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1313,7 +1313,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#planIntent name="planIntent">planIntent</a>
 
 Indicates the level of authority/intentionality associated with the care plan and where the care plan fits into the workflow chain.  
-First included in: electronicMedicalRecords/CarePlan  (this entity)  
+First included in: electronicMedicalRecords/CarePlan (this entity)  
 
 #### Properties
 
@@ -1322,11 +1322,11 @@ First included in: electronicMedicalRecords/CarePlan  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  planIntent  attribute are listed below.</summary>
+<summary>List of traits for the planIntent attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Option</td><td>935000003</td></tr><tr><td>en</td><td>Order</td><td>935000002</td></tr><tr><td>en</td><td>Plan</td><td>935000001</td></tr><tr><td>en</td><td>Proposal</td><td>935000000</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Proposal</td><td>935000000</td></tr><tr><td>en</td><td>Plan</td><td>935000001</td></tr><tr><td>en</td><td>Order</td><td>935000002</td></tr><tr><td>en</td><td>Option</td><td>935000003</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1353,7 +1353,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#planIntent_display name="planIntent_display">planIntent_display</a>
 
-First included in: electronicMedicalRecords/CarePlan  (this entity)  
+First included in: electronicMedicalRecords/CarePlan (this entity)  
 
 #### Properties
 
@@ -1362,7 +1362,7 @@ First included in: electronicMedicalRecords/CarePlan  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  planIntent_display  attribute are listed below.</summary>
+<summary>List of traits for the planIntent_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1377,7 +1377,7 @@ First included in: electronicMedicalRecords/CarePlan  (this entity)
 ### <a href=#planStartDate name="planStartDate">planStartDate</a>
 
 Indicates when the plan did (or is intended to) come into effect and end.  
-First included in: electronicMedicalRecords/CarePlan  (this entity)  
+First included in: electronicMedicalRecords/CarePlan (this entity)  
 
 #### Properties
 
@@ -1386,7 +1386,7 @@ First included in: electronicMedicalRecords/CarePlan  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  planStartDate  attribute are listed below.</summary>
+<summary>List of traits for the planStartDate attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -1415,7 +1415,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#planStatus name="planStatus">planStatus</a>
 
 Indicates whether the plan is currently being acted upon, represents future intentions or is now a historical record.  
-First included in: electronicMedicalRecords/CarePlan  (this entity)  
+First included in: electronicMedicalRecords/CarePlan (this entity)  
 
 #### Properties
 
@@ -1424,11 +1424,11 @@ First included in: electronicMedicalRecords/CarePlan  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  planStatus  attribute are listed below.</summary>
+<summary>List of traits for the planStatus attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Unknown</td><td>935000006</td></tr><tr><td>en</td><td>Cancelled</td><td>935000005</td></tr><tr><td>en</td><td>Entered In Error</td><td>935000004</td></tr><tr><td>en</td><td>Completed</td><td>935000003</td></tr><tr><td>en</td><td>Suspended</td><td>935000002</td></tr><tr><td>en</td><td>Active</td><td>935000001</td></tr><tr><td>en</td><td>Pending</td><td>935000000</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Pending</td><td>935000000</td></tr><tr><td>en</td><td>Active</td><td>935000001</td></tr><tr><td>en</td><td>Suspended</td><td>935000002</td></tr><tr><td>en</td><td>Completed</td><td>935000003</td></tr><tr><td>en</td><td>Entered In Error</td><td>935000004</td></tr><tr><td>en</td><td>Cancelled</td><td>935000005</td></tr><tr><td>en</td><td>Unknown</td><td>935000006</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1455,7 +1455,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#planStatus_display name="planStatus_display">planStatus_display</a>
 
-First included in: electronicMedicalRecords/CarePlan  (this entity)  
+First included in: electronicMedicalRecords/CarePlan (this entity)  
 
 #### Properties
 
@@ -1464,7 +1464,7 @@ First included in: electronicMedicalRecords/CarePlan  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  planStatus_display  attribute are listed below.</summary>
+<summary>List of traits for the planStatus_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1479,7 +1479,7 @@ First included in: electronicMedicalRecords/CarePlan  (this entity)
 ### <a href=#subjectType name="subjectType">subjectType</a>
 
 Type of subject of the care plan  
-First included in: electronicMedicalRecords/CarePlan  (this entity)  
+First included in: electronicMedicalRecords/CarePlan (this entity)  
 
 #### Properties
 
@@ -1488,11 +1488,11 @@ First included in: electronicMedicalRecords/CarePlan  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  subjectType  attribute are listed below.</summary>
+<summary>List of traits for the subjectType attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Group</td><td>935000001</td></tr><tr><td>en</td><td>Patient</td><td>935000000</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Patient</td><td>935000000</td></tr><tr><td>en</td><td>Group</td><td>935000001</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1519,7 +1519,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#subjectType_display name="subjectType_display">subjectType_display</a>
 
-First included in: electronicMedicalRecords/CarePlan  (this entity)  
+First included in: electronicMedicalRecords/CarePlan (this entity)  
 
 #### Properties
 
@@ -1528,7 +1528,7 @@ First included in: electronicMedicalRecords/CarePlan  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  subjectType_display  attribute are listed below.</summary>
+<summary>List of traits for the subjectType_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  

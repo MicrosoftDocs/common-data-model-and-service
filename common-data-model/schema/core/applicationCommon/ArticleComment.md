@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/13/2019
+ms.date: 2/15/2019
 ms.author: tpalmer
 ---
 
@@ -12,13 +12,13 @@ ms.author: tpalmer
 
 Comment on a knowledge base article.  
   
-Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/ArticleComment.cdm.json" target="_blank">GitHub</a>.  
+Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/ArticleComment.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
-Instances of this entity are listed below:  
+Instances of this entity are listed below.  
 
-applicationCommon/ArticleComment  
+/core/applicationCommon/ArticleComment.cdm.json/ArticleComment  
 
 ## Traits
 
@@ -66,7 +66,7 @@ applicationCommon/ArticleComment
 ### <a href=#kbArticleCommentId name="kbArticleCommentId">kbArticleCommentId</a>
 
 Unique identifier of the knowledge base article comment.  
-First included in: applicationCommon/ArticleComment  (this entity)  
+First included in: applicationCommon/ArticleComment (this entity)  
 
 #### Properties
 
@@ -75,7 +75,7 @@ First included in: applicationCommon/ArticleComment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  kbArticleCommentId  attribute are listed below.</summary>
+<summary>List of traits for the kbArticleCommentId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -105,7 +105,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#kbArticleId name="kbArticleId">kbArticleId</a>
 
 Unique identifier of the knowledge base article to which the comment applies.  
-First included in: applicationCommon/ArticleComment  (this entity)  
+First included in: applicationCommon/ArticleComment (this entity)  
 
 #### Properties
 
@@ -114,7 +114,7 @@ First included in: applicationCommon/ArticleComment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  kbArticleId  attribute are listed below.</summary>
+<summary>List of traits for the kbArticleId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -144,7 +144,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#title name="title">title</a>
 
 Title of the knowledge base article comment.  
-First included in: applicationCommon/ArticleComment  (this entity)  
+First included in: applicationCommon/ArticleComment (this entity)  
 
 #### Properties
 
@@ -153,7 +153,7 @@ First included in: applicationCommon/ArticleComment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  title  attribute are listed below.</summary>
+<summary>List of traits for the title attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -184,7 +184,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#commentText name="commentText">commentText</a>
 
 Comment text for the knowledge base article.  
-First included in: applicationCommon/ArticleComment  (this entity)  
+First included in: applicationCommon/ArticleComment (this entity)  
 
 #### Properties
 
@@ -193,7 +193,7 @@ First included in: applicationCommon/ArticleComment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  commentText  attribute are listed below.</summary>
+<summary>List of traits for the commentText attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -224,7 +224,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the knowledge base article comment was created.  
-First included in: applicationCommon/ArticleComment  (this entity)  
+First included in: applicationCommon/ArticleComment (this entity)  
 
 #### Properties
 
@@ -233,7 +233,7 @@ First included in: applicationCommon/ArticleComment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOn  attribute are listed below.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -263,7 +263,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Unique identifier of the user who created the knowledge base article comment.  
-First included in: applicationCommon/ArticleComment  (this entity)  
+First included in: applicationCommon/ArticleComment (this entity)  
 
 #### Properties
 
@@ -272,7 +272,7 @@ First included in: applicationCommon/ArticleComment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdBy  attribute are listed below.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -305,7 +305,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the knowledge base article comment was last modified.  
-First included in: applicationCommon/ArticleComment  (this entity)  
+First included in: applicationCommon/ArticleComment (this entity)  
 
 #### Properties
 
@@ -314,7 +314,7 @@ First included in: applicationCommon/ArticleComment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -344,7 +344,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Unique identifier of the user who last modified the knowledge base article comment.  
-First included in: applicationCommon/ArticleComment  (this entity)  
+First included in: applicationCommon/ArticleComment (this entity)  
 
 #### Properties
 
@@ -353,7 +353,7 @@ First included in: applicationCommon/ArticleComment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -385,7 +385,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
-First included in: applicationCommon/ArticleComment  (this entity)  
+First included in: applicationCommon/ArticleComment (this entity)  
 
 #### Properties
 
@@ -394,7 +394,7 @@ First included in: applicationCommon/ArticleComment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -415,7 +415,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#organizationId name="organizationId">organizationId</a>
 
 Unique identifier of the organization with which the article comment is associated.  
-First included in: applicationCommon/ArticleComment  (this entity)  
+First included in: applicationCommon/ArticleComment (this entity)  
 
 #### Properties
 
@@ -424,7 +424,7 @@ First included in: applicationCommon/ArticleComment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  organizationId  attribute are listed below.</summary>
+<summary>List of traits for the organizationId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -450,7 +450,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Unique identifier of the delegate user who created the kbarticlecomment.  
-First included in: applicationCommon/ArticleComment  (this entity)  
+First included in: applicationCommon/ArticleComment (this entity)  
 
 #### Properties
 
@@ -459,7 +459,7 @@ First included in: applicationCommon/ArticleComment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -492,7 +492,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Unique identifier of the delegate user who last modified the kbarticlecomment.  
-First included in: applicationCommon/ArticleComment  (this entity)  
+First included in: applicationCommon/ArticleComment (this entity)  
 
 #### Properties
 
@@ -501,7 +501,7 @@ First included in: applicationCommon/ArticleComment  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  

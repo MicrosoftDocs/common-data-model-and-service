@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/13/2019
+ms.date: 2/15/2019
 ms.author: tpalmer
 ---
 
@@ -12,13 +12,13 @@ ms.author: tpalmer
 
 Information about how to price a product in the specified price level, including pricing method, rounding option, and discount type based on a specified product unit.  
   
-Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/PriceListItem.cdm.json" target="_blank">GitHub</a>.  
+Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/PriceListItem.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
-Instances of this entity are listed below:  
+Instances of this entity are listed below.  
 
-foundationCommon/PriceListItem  
+/core/applicationCommon/foundationCommon/PriceListItem.cdm.json/PriceListItem  
 [sales/PriceListItem](crmCommon/sales/PriceListItem.md "/core/applicationCommon/foundationCommon/crmCommon/sales/PriceListItem.cdm.json/PriceListItem")  
 
 ## Traits
@@ -91,7 +91,7 @@ foundationCommon/PriceListItem
 ### <a href=#productPriceLevelId name="productPriceLevelId">productPriceLevelId</a>
 
 Unique identifier of the price list.  
-First included in: foundationCommon/PriceListItem  (this entity)  
+First included in: foundationCommon/PriceListItem (this entity)  
 
 #### Properties
 
@@ -100,7 +100,7 @@ First included in: foundationCommon/PriceListItem  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  productPriceLevelId  attribute are listed below.</summary>
+<summary>List of traits for the productPriceLevelId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -130,7 +130,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the price list was created.  
-First included in: foundationCommon/PriceListItem  (this entity)  
+First included in: foundationCommon/PriceListItem (this entity)  
 
 #### Properties
 
@@ -139,7 +139,7 @@ First included in: foundationCommon/PriceListItem  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOn  attribute are listed below.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -169,7 +169,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Unique identifier of the user who created the price list.  
-First included in: foundationCommon/PriceListItem  (this entity)  
+First included in: foundationCommon/PriceListItem (this entity)  
 
 #### Properties
 
@@ -178,7 +178,7 @@ First included in: foundationCommon/PriceListItem  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdBy  attribute are listed below.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -211,7 +211,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the price list was last modified.  
-First included in: foundationCommon/PriceListItem  (this entity)  
+First included in: foundationCommon/PriceListItem (this entity)  
 
 #### Properties
 
@@ -220,7 +220,7 @@ First included in: foundationCommon/PriceListItem  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOn  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -250,7 +250,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Unique identifier of the user who last modified the price list.  
-First included in: foundationCommon/PriceListItem  (this entity)  
+First included in: foundationCommon/PriceListItem (this entity)  
 
 #### Properties
 
@@ -259,7 +259,7 @@ First included in: foundationCommon/PriceListItem  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -292,7 +292,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: foundationCommon/PriceListItem  (this entity)  
+First included in: foundationCommon/PriceListItem (this entity)  
 
 #### Properties
 
@@ -301,7 +301,7 @@ First included in: foundationCommon/PriceListItem  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  createdOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -334,7 +334,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: foundationCommon/PriceListItem  (this entity)  
+First included in: foundationCommon/PriceListItem (this entity)  
 
 #### Properties
 
@@ -343,7 +343,7 @@ First included in: foundationCommon/PriceListItem  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  modifiedOnBehalfBy  attribute are listed below.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -376,7 +376,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: foundationCommon/PriceListItem  (this entity)  
+First included in: foundationCommon/PriceListItem (this entity)  
 
 #### Properties
 
@@ -385,7 +385,7 @@ First included in: foundationCommon/PriceListItem  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  versionNumber  attribute are listed below.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.dataFormat.big**  
@@ -412,7 +412,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: foundationCommon/PriceListItem  (this entity)  
+First included in: foundationCommon/PriceListItem (this entity)  
 
 #### Properties
 
@@ -421,7 +421,7 @@ First included in: foundationCommon/PriceListItem  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  importSequenceNumber  attribute are listed below.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -450,7 +450,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: foundationCommon/PriceListItem  (this entity)  
+First included in: foundationCommon/PriceListItem (this entity)  
 
 #### Properties
 
@@ -459,7 +459,7 @@ First included in: foundationCommon/PriceListItem  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  overriddenCreatedOn  attribute are listed below.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -489,7 +489,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: foundationCommon/PriceListItem  (this entity)  
+First included in: foundationCommon/PriceListItem (this entity)  
 
 #### Properties
 
@@ -498,7 +498,7 @@ First included in: foundationCommon/PriceListItem  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  timeZoneRuleVersionNumber  attribute are listed below.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -527,7 +527,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: foundationCommon/PriceListItem  (this entity)  
+First included in: foundationCommon/PriceListItem (this entity)  
 
 #### Properties
 
@@ -536,7 +536,7 @@ First included in: foundationCommon/PriceListItem  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  UTCConversionTimeZoneCode  attribute are listed below.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **is.requiredAtLevel**  
@@ -565,7 +565,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#processId name="processId">processId</a>
 
 Contains the id of the process associated with the entity.  
-First included in: foundationCommon/PriceListItem  (this entity)  
+First included in: foundationCommon/PriceListItem (this entity)  
 
 #### Properties
 
@@ -574,7 +574,7 @@ First included in: foundationCommon/PriceListItem  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  processId  attribute are listed below.</summary>
+<summary>List of traits for the processId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -603,7 +603,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stageId name="stageId">stageId</a>
 
 Contains the id of the stage where the entity is located.  
-First included in: foundationCommon/PriceListItem  (this entity)  
+First included in: foundationCommon/PriceListItem (this entity)  
 
 #### Properties
 
@@ -612,7 +612,7 @@ First included in: foundationCommon/PriceListItem  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  stageId  attribute are listed below.</summary>
+<summary>List of traits for the stageId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -641,7 +641,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#traversedPath name="traversedPath">traversedPath</a>
 
 A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.  
-First included in: foundationCommon/PriceListItem  (this entity)  
+First included in: foundationCommon/PriceListItem (this entity)  
 
 #### Properties
 
@@ -650,7 +650,7 @@ First included in: foundationCommon/PriceListItem  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  traversedPath  attribute are listed below.</summary>
+<summary>List of traits for the traversedPath attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -681,7 +681,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#amount name="amount">amount</a>
 
 Monetary amount for the price list.  
-First included in: foundationCommon/PriceListItem  (this entity)  
+First included in: foundationCommon/PriceListItem (this entity)  
 
 #### Properties
 
@@ -690,7 +690,7 @@ First included in: foundationCommon/PriceListItem  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  amount  attribute are listed below.</summary>
+<summary>List of traits for the amount attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -722,7 +722,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Choose the local currency for the record to make sure budgets are reported in the correct currency.  
-First included in: foundationCommon/PriceListItem  (this entity)  
+First included in: foundationCommon/PriceListItem (this entity)  
 
 #### Properties
 
@@ -731,7 +731,7 @@ First included in: foundationCommon/PriceListItem  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  transactionCurrencyId  attribute are listed below.</summary>
+<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -764,7 +764,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.  
-First included in: foundationCommon/PriceListItem  (this entity)  
+First included in: foundationCommon/PriceListItem (this entity)  
 
 #### Properties
 
@@ -773,7 +773,7 @@ First included in: foundationCommon/PriceListItem  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  exchangeRate  attribute are listed below.</summary>
+<summary>List of traits for the exchangeRate attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -804,7 +804,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#amountBase name="amountBase">amountBase</a>
 
 Value of the Amount in base currency.  
-First included in: foundationCommon/PriceListItem  (this entity)  
+First included in: foundationCommon/PriceListItem (this entity)  
 
 #### Properties
 
@@ -813,7 +813,7 @@ First included in: foundationCommon/PriceListItem  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  amountBase  attribute are listed below.</summary>
+<summary>List of traits for the amountBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -848,7 +848,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#organizationId name="organizationId">organizationId</a>
 
 Unique identifier of the organization associated with the price list.  
-First included in: foundationCommon/PriceListItem  (this entity)  
+First included in: foundationCommon/PriceListItem (this entity)  
 
 #### Properties
 
@@ -857,7 +857,7 @@ First included in: foundationCommon/PriceListItem  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  organizationId  attribute are listed below.</summary>
+<summary>List of traits for the organizationId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -883,7 +883,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#percentage name="percentage">percentage</a>
 
 Percentage for the price list.  
-First included in: foundationCommon/PriceListItem  (this entity)  
+First included in: foundationCommon/PriceListItem (this entity)  
 
 #### Properties
 
@@ -892,7 +892,7 @@ First included in: foundationCommon/PriceListItem  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  percentage  attribute are listed below.</summary>
+<summary>List of traits for the percentage attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -923,7 +923,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#priceLevelId name="priceLevelId">priceLevelId</a>
 
 Unique identifier of the price level associated with this price list.  
-First included in: foundationCommon/PriceListItem  (this entity)  
+First included in: foundationCommon/PriceListItem (this entity)  
 
 #### Properties
 
@@ -932,7 +932,7 @@ First included in: foundationCommon/PriceListItem  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  priceLevelId  attribute are listed below.</summary>
+<summary>List of traits for the priceLevelId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -962,7 +962,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#pricingMethodCode name="pricingMethodCode">pricingMethodCode</a>
 
 Pricing method applied to the price list.  
-First included in: foundationCommon/PriceListItem  (this entity)  
+First included in: foundationCommon/PriceListItem (this entity)  
 
 #### Properties
 
@@ -971,11 +971,11 @@ First included in: foundationCommon/PriceListItem  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  pricingMethodCode  attribute are listed below.</summary>
+<summary>List of traits for the pricingMethodCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Percent Margin - Standard Cost</td><td>6</td></tr><tr><td>en</td><td>Percent Markup - Standard Cost</td><td>5</td></tr><tr><td>en</td><td>Percent Margin - Current Cost</td><td>4</td></tr><tr><td>en</td><td>Percent Markup - Current Cost</td><td>3</td></tr><tr><td>en</td><td>Percent of List</td><td>2</td></tr><tr><td>en</td><td>Currency Amount</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Currency Amount</td><td>1</td></tr><tr><td>en</td><td>Percent of List</td><td>2</td></tr><tr><td>en</td><td>Percent Markup - Current Cost</td><td>3</td></tr><tr><td>en</td><td>Percent Margin - Current Cost</td><td>4</td></tr><tr><td>en</td><td>Percent Markup - Standard Cost</td><td>5</td></tr><tr><td>en</td><td>Percent Margin - Standard Cost</td><td>6</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1002,7 +1002,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#pricingMethodCode_display name="pricingMethodCode_display">pricingMethodCode_display</a>
 
-First included in: foundationCommon/PriceListItem  (this entity)  
+First included in: foundationCommon/PriceListItem (this entity)  
 
 #### Properties
 
@@ -1011,7 +1011,7 @@ First included in: foundationCommon/PriceListItem  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  pricingMethodCode_display  attribute are listed below.</summary>
+<summary>List of traits for the pricingMethodCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1026,7 +1026,7 @@ First included in: foundationCommon/PriceListItem  (this entity)
 ### <a href=#productId name="productId">productId</a>
 
 Product associated with the price list.  
-First included in: foundationCommon/PriceListItem  (this entity)  
+First included in: foundationCommon/PriceListItem (this entity)  
 
 #### Properties
 
@@ -1035,7 +1035,7 @@ First included in: foundationCommon/PriceListItem  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  productId  attribute are listed below.</summary>
+<summary>List of traits for the productId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1065,7 +1065,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#productNumber name="productNumber">productNumber</a>
 
 User-defined product number.  
-First included in: foundationCommon/PriceListItem  (this entity)  
+First included in: foundationCommon/PriceListItem (this entity)  
 
 #### Properties
 
@@ -1074,7 +1074,7 @@ First included in: foundationCommon/PriceListItem  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  productNumber  attribute are listed below.</summary>
+<summary>List of traits for the productNumber attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1102,7 +1102,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#quantitySellingCode name="quantitySellingCode">quantitySellingCode</a>
 
 Quantity of the product that must be sold for a given price level.  
-First included in: foundationCommon/PriceListItem  (this entity)  
+First included in: foundationCommon/PriceListItem (this entity)  
 
 #### Properties
 
@@ -1111,11 +1111,11 @@ First included in: foundationCommon/PriceListItem  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  quantitySellingCode  attribute are listed below.</summary>
+<summary>List of traits for the quantitySellingCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Whole and Fractional</td><td>3</td></tr><tr><td>en</td><td>Whole</td><td>2</td></tr><tr><td>en</td><td>No Control</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No Control</td><td>1</td></tr><tr><td>en</td><td>Whole</td><td>2</td></tr><tr><td>en</td><td>Whole and Fractional</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1142,7 +1142,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#quantitySellingCode_display name="quantitySellingCode_display">quantitySellingCode_display</a>
 
-First included in: foundationCommon/PriceListItem  (this entity)  
+First included in: foundationCommon/PriceListItem (this entity)  
 
 #### Properties
 
@@ -1151,7 +1151,7 @@ First included in: foundationCommon/PriceListItem  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  quantitySellingCode_display  attribute are listed below.</summary>
+<summary>List of traits for the quantitySellingCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1166,7 +1166,7 @@ First included in: foundationCommon/PriceListItem  (this entity)
 ### <a href=#roundingOptionAmount name="roundingOptionAmount">roundingOptionAmount</a>
 
 Rounding option amount for the price list.  
-First included in: foundationCommon/PriceListItem  (this entity)  
+First included in: foundationCommon/PriceListItem (this entity)  
 
 #### Properties
 
@@ -1175,7 +1175,7 @@ First included in: foundationCommon/PriceListItem  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  roundingOptionAmount  attribute are listed below.</summary>
+<summary>List of traits for the roundingOptionAmount attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1207,7 +1207,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#roundingOptionAmountBase name="roundingOptionAmountBase">roundingOptionAmountBase</a>
 
 Value of the Rounding Amount in base currency.  
-First included in: foundationCommon/PriceListItem  (this entity)  
+First included in: foundationCommon/PriceListItem (this entity)  
 
 #### Properties
 
@@ -1216,7 +1216,7 @@ First included in: foundationCommon/PriceListItem  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  roundingOptionAmountBase  attribute are listed below.</summary>
+<summary>List of traits for the roundingOptionAmountBase attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1251,7 +1251,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#roundingOptionCode name="roundingOptionCode">roundingOptionCode</a>
 
 Option for rounding the price list.  
-First included in: foundationCommon/PriceListItem  (this entity)  
+First included in: foundationCommon/PriceListItem (this entity)  
 
 #### Properties
 
@@ -1260,11 +1260,11 @@ First included in: foundationCommon/PriceListItem  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  roundingOptionCode  attribute are listed below.</summary>
+<summary>List of traits for the roundingOptionCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Multiple of</td><td>2</td></tr><tr><td>en</td><td>Ends in</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Ends in</td><td>1</td></tr><tr><td>en</td><td>Multiple of</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1291,7 +1291,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#roundingOptionCode_display name="roundingOptionCode_display">roundingOptionCode_display</a>
 
-First included in: foundationCommon/PriceListItem  (this entity)  
+First included in: foundationCommon/PriceListItem (this entity)  
 
 #### Properties
 
@@ -1300,7 +1300,7 @@ First included in: foundationCommon/PriceListItem  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  roundingOptionCode_display  attribute are listed below.</summary>
+<summary>List of traits for the roundingOptionCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1315,7 +1315,7 @@ First included in: foundationCommon/PriceListItem  (this entity)
 ### <a href=#roundingPolicyCode name="roundingPolicyCode">roundingPolicyCode</a>
 
 Policy for rounding the price list.  
-First included in: foundationCommon/PriceListItem  (this entity)  
+First included in: foundationCommon/PriceListItem (this entity)  
 
 #### Properties
 
@@ -1324,11 +1324,11 @@ First included in: foundationCommon/PriceListItem  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  roundingPolicyCode  attribute are listed below.</summary>
+<summary>List of traits for the roundingPolicyCode attribute are listed below.</summary>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>To Nearest</td><td>4</td></tr><tr><td>en</td><td>Down</td><td>3</td></tr><tr><td>en</td><td>Up</td><td>2</td></tr><tr><td>en</td><td>None</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>None</td><td>1</td></tr><tr><td>en</td><td>Up</td><td>2</td></tr><tr><td>en</td><td>Down</td><td>3</td></tr><tr><td>en</td><td>To Nearest</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1355,7 +1355,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#roundingPolicyCode_display name="roundingPolicyCode_display">roundingPolicyCode_display</a>
 
-First included in: foundationCommon/PriceListItem  (this entity)  
+First included in: foundationCommon/PriceListItem (this entity)  
 
 #### Properties
 
@@ -1364,7 +1364,7 @@ First included in: foundationCommon/PriceListItem  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  roundingPolicyCode_display  attribute are listed below.</summary>
+<summary>List of traits for the roundingPolicyCode_display attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1379,7 +1379,7 @@ First included in: foundationCommon/PriceListItem  (this entity)
 ### <a href=#uoMId name="uoMId">uoMId</a>
 
 Unique identifier of the unit for the price list.  
-First included in: foundationCommon/PriceListItem  (this entity)  
+First included in: foundationCommon/PriceListItem (this entity)  
 
 #### Properties
 
@@ -1388,7 +1388,7 @@ First included in: foundationCommon/PriceListItem  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  uoMId  attribute are listed below.</summary>
+<summary>List of traits for the uoMId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -1421,7 +1421,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#uoMScheduleId name="uoMScheduleId">uoMScheduleId</a>
 
 Unique identifier of the unit schedule for the price list.  
-First included in: foundationCommon/PriceListItem  (this entity)  
+First included in: foundationCommon/PriceListItem (this entity)  
 
 #### Properties
 
@@ -1430,7 +1430,7 @@ First included in: foundationCommon/PriceListItem  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  uoMScheduleId  attribute are listed below.</summary>
+<summary>List of traits for the uoMScheduleId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  

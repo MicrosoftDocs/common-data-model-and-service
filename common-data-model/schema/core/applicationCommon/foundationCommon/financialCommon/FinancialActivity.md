@@ -4,7 +4,7 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/13/2019
+ms.date: 2/15/2019
 ms.author: tpalmer
 ---
 
@@ -12,13 +12,13 @@ ms.author: tpalmer
 
 Summarization of financial activity for a ledger, date, account, and dimension combination  
   
-Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/financialCommon/FinancialActivity.cdm.json" target="_blank">GitHub</a>.  
+Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/financialCommon/FinancialActivity.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
-Instances of this entity are listed below:  
+Instances of this entity are listed below.  
 
-financialCommon/FinancialActivity  
+/core/applicationCommon/foundationCommon/financialCommon/FinancialActivity.cdm.json/FinancialActivity  
 
 ## Traits
 
@@ -62,7 +62,7 @@ financialCommon/FinancialActivity
 ### <a href=#financialActivityId name="financialActivityId">financialActivityId</a>
 
 The surrogate key of the record  
-First included in: financialCommon/FinancialActivity  (this entity)  
+First included in: financialCommon/FinancialActivity (this entity)  
 
 #### Properties
 
@@ -71,7 +71,7 @@ First included in: financialCommon/FinancialActivity  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  financialActivityId  attribute are listed below.</summary>
+<summary>List of traits for the financialActivityId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -90,7 +90,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 ### <a href=#mainAccountCategoryKey name="mainAccountCategoryKey">mainAccountCategoryKey</a>
 
 The category of the main account for this activity, denormalized for reporting  
-First included in: financialCommon/FinancialActivity  (this entity)  
+First included in: financialCommon/FinancialActivity (this entity)  
 
 #### Properties
 
@@ -99,7 +99,7 @@ First included in: financialCommon/FinancialActivity  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  mainAccountCategoryKey  attribute are listed below.</summary>
+<summary>List of traits for the mainAccountCategoryKey attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -118,7 +118,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#mainAccountKey name="mainAccountKey">mainAccountKey</a>
 
 The main account containing this financial activity  
-First included in: financialCommon/FinancialActivity  (this entity)  
+First included in: financialCommon/FinancialActivity (this entity)  
 
 #### Properties
 
@@ -127,7 +127,7 @@ First included in: financialCommon/FinancialActivity  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  mainAccountKey  attribute are listed below.</summary>
+<summary>List of traits for the mainAccountKey attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -146,7 +146,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#companyKey name="companyKey">companyKey</a>
 
 The company for which this financial activity occurred  
-First included in: financialCommon/FinancialActivity  (this entity)  
+First included in: financialCommon/FinancialActivity (this entity)  
 
 #### Properties
 
@@ -155,7 +155,7 @@ First included in: financialCommon/FinancialActivity  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  companyKey  attribute are listed below.</summary>
+<summary>List of traits for the companyKey attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -174,7 +174,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#transactionCurrencyKey name="transactionCurrencyKey">transactionCurrencyKey</a>
 
 The currency in which the source transaction occurred  
-First included in: financialCommon/FinancialActivity  (this entity)  
+First included in: financialCommon/FinancialActivity (this entity)  
 
 #### Properties
 
@@ -183,7 +183,7 @@ First included in: financialCommon/FinancialActivity  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  transactionCurrencyKey  attribute are listed below.</summary>
+<summary>List of traits for the transactionCurrencyKey attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -202,7 +202,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#fiscalCalendarPeriodKey name="fiscalCalendarPeriodKey">fiscalCalendarPeriodKey</a>
 
 The fiscal period in which the financial activity occurred  
-First included in: financialCommon/FinancialActivity  (this entity)  
+First included in: financialCommon/FinancialActivity (this entity)  
 
 #### Properties
 
@@ -211,7 +211,7 @@ First included in: financialCommon/FinancialActivity  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  fiscalCalendarPeriodKey  attribute are listed below.</summary>
+<summary>List of traits for the fiscalCalendarPeriodKey attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -230,7 +230,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#ledgerDimensionDisplayValue name="ledgerDimensionDisplayValue">ledgerDimensionDisplayValue</a>
 
 A denormalization of the full string representing the main account plus additional dimension values  
-First included in: financialCommon/FinancialActivity  (this entity)  
+First included in: financialCommon/FinancialActivity (this entity)  
 
 #### Properties
 
@@ -239,7 +239,7 @@ First included in: financialCommon/FinancialActivity  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ledgerDimensionDisplayValue  attribute are listed below.</summary>
+<summary>List of traits for the ledgerDimensionDisplayValue attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -255,7 +255,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 ### <a href=#transactionCurrencyCode name="transactionCurrencyCode">transactionCurrencyCode</a>
 
 A denormalization of the currency code in which the source transaction occurred  
-First included in: financialCommon/FinancialActivity  (this entity)  
+First included in: financialCommon/FinancialActivity (this entity)  
 
 #### Properties
 
@@ -264,7 +264,7 @@ First included in: financialCommon/FinancialActivity  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  transactionCurrencyCode  attribute are listed below.</summary>
+<summary>List of traits for the transactionCurrencyCode attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
@@ -280,7 +280,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 ### <a href=#accountingCurrencyAmount name="accountingCurrencyAmount">accountingCurrencyAmount</a>
 
 The amount of the financial activity expressed in the accounting currency  
-First included in: financialCommon/FinancialActivity  (this entity)  
+First included in: financialCommon/FinancialActivity (this entity)  
 
 #### Properties
 
@@ -289,7 +289,7 @@ First included in: financialCommon/FinancialActivity  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  accountingCurrencyAmount  attribute are listed below.</summary>
+<summary>List of traits for the accountingCurrencyAmount attribute are listed below.</summary>
 
 - **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -306,7 +306,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 ### <a href=#accountingDate name="accountingDate">accountingDate</a>
 
 The date on which the financial activity was recognized  
-First included in: financialCommon/FinancialActivity  (this entity)  
+First included in: financialCommon/FinancialActivity (this entity)  
 
 #### Properties
 
@@ -315,7 +315,7 @@ First included in: financialCommon/FinancialActivity  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  accountingDate  attribute are listed below.</summary>
+<summary>List of traits for the accountingDate attribute are listed below.</summary>
 
 - **is.dataFormat.date**  
 - **means.measurement.date**  
@@ -330,7 +330,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 ### <a href=#ledgerId name="ledgerId">ledgerId</a>
 
 The ledger containing this financial activity  
-First included in: financialCommon/FinancialActivity  (this entity)  
+First included in: financialCommon/FinancialActivity (this entity)  
 
 #### Properties
 
@@ -339,7 +339,7 @@ First included in: financialCommon/FinancialActivity  (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the  ledgerId  attribute are listed below.</summary>
+<summary>List of traits for the ledgerId attribute are listed below.</summary>
 
 - **is.dataFormat.character**  
 - **is.dataFormat.big**  
