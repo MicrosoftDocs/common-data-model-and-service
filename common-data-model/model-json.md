@@ -283,15 +283,15 @@ Sample:
 ```
     "relationships": [
         {
-            "$type": " SingleKeyRelationship ",
-            "fromAttribute": [
+            "$type": "SingleKeyRelationship",
+            "fromAttribute": {
                 "entityName": "Account",
                 "attributeName": "ContactId",
-           ],
-            "toAttribute": [ 
+           },
+            "toAttribute": { 
                 "entityName": "Contact",
                 "attributeName": "Id",
-           ]
+           }
         },
     ]
 ```
