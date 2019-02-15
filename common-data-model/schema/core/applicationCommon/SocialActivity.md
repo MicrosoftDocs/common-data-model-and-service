@@ -19,7 +19,7 @@ Latest version (0.8.1) of the JSON entity definition is available on <a href="ht
 Instances of this entity are listed below.  
 
 - /core/applicationCommon/SocialActivity.cdm.json/SocialActivity  
-[- /core/applicationCommon/foundationCommon/crmCommon/SocialActivity.cdm.json/SocialActivity](foundationCommon/crmCommon/SocialActivity.md "/core/applicationCommon/foundationCommon/crmCommon/SocialActivity.cdm.json/SocialActivity")  
+- [/core/applicationCommon/foundationCommon/crmCommon/SocialActivity.cdm.json/SocialActivity](foundationCommon/crmCommon/SocialActivity.md "/core/applicationCommon/foundationCommon/crmCommon/SocialActivity.cdm.json/SocialActivity")  
 
 ## Traits
 

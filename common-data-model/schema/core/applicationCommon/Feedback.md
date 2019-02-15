@@ -19,7 +19,7 @@ Latest version (0.8.1) of the JSON entity definition is available on <a href="ht
 Instances of this entity are listed below.  
 
 - /core/applicationCommon/Feedback.cdm.json/Feedback  
-[- /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Feedback.cdm.json/Feedback](foundationCommon/crmCommon/solutions/portals/Feedback.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Feedback.cdm.json/Feedback")  
+- [/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Feedback.cdm.json/Feedback](foundationCommon/crmCommon/solutions/portals/Feedback.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Feedback.cdm.json/Feedback")  
 
 ## Traits
 

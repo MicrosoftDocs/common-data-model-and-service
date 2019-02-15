@@ -18,7 +18,7 @@ Latest version (0.8.1) of the JSON entity definition is available on <a href="ht
 
 Instances of this entity are listed below.  
 
-[- /core/applicationCommon/Email.cdm.json/Email](../../Email.md "/core/applicationCommon/Email.cdm.json/Email")  
+- [/core/applicationCommon/Email.cdm.json/Email](../../Email.md "/core/applicationCommon/Email.cdm.json/Email")  
 - /core/applicationCommon/foundationCommon/crmCommon/Email.cdm.json/Email  
 
 ## Traits

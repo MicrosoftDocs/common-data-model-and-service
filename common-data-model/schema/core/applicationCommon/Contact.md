@@ -19,13 +19,13 @@ Latest version (0.8.1) of the JSON entity definition is available on <a href="ht
 Instances of this entity are listed below.  
 
 - /core/applicationCommon/Contact.cdm.json/Contact  
-[- /core/applicationCommon/foundationCommon/Contact.cdm.json/Contact](foundationCommon/Contact.md "/core/applicationCommon/foundationCommon/Contact.cdm.json/Contact")  
-[- /core/applicationCommon/foundationCommon/crmCommon/Contact.cdm.json/Contact](foundationCommon/crmCommon/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/Contact.cdm.json/Contact")  
-[- /core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Contact.cdm.json/Contact](foundationCommon/crmCommon/accelerators/education/higherEducation/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Contact.cdm.json/Contact")  
-[- /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Contact.cdm.json/Contact](foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Contact.cdm.json/Contact")  
-[- /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Contact.cdm.json/Contact](foundationCommon/crmCommon/accelerators/nonProfit/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Contact.cdm.json/Contact")  
-[- /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Contact.cdm.json/Contact](foundationCommon/crmCommon/solutions/marketing/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Contact.cdm.json/Contact")  
-[- /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Contact.cdm.json/Contact](foundationCommon/crmCommon/solutions/portals/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Contact.cdm.json/Contact")  
+- [/core/applicationCommon/foundationCommon/Contact.cdm.json/Contact](foundationCommon/Contact.md "/core/applicationCommon/foundationCommon/Contact.cdm.json/Contact")  
+- [/core/applicationCommon/foundationCommon/crmCommon/Contact.cdm.json/Contact](foundationCommon/crmCommon/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/Contact.cdm.json/Contact")  
+- [/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Contact.cdm.json/Contact](foundationCommon/crmCommon/accelerators/education/higherEducation/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Contact.cdm.json/Contact")  
+- [/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Contact.cdm.json/Contact](foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Contact.cdm.json/Contact")  
+- [/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Contact.cdm.json/Contact](foundationCommon/crmCommon/accelerators/nonProfit/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Contact.cdm.json/Contact")  
+- [/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Contact.cdm.json/Contact](foundationCommon/crmCommon/solutions/marketing/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Contact.cdm.json/Contact")  
+- [/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Contact.cdm.json/Contact](foundationCommon/crmCommon/solutions/portals/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Contact.cdm.json/Contact")  
 
 ## Traits
 

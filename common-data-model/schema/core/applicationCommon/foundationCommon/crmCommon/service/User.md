@@ -18,7 +18,7 @@ Latest version (0.8.1) of the JSON entity definition is available on <a href="ht
 
 Instances of this entity are listed below.  
 
-[- /core/applicationCommon/User.cdm.json/User](../../../User.md "/core/applicationCommon/User.cdm.json/User")  
+- [/core/applicationCommon/User.cdm.json/User](../../../User.md "/core/applicationCommon/User.cdm.json/User")  
 - /core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User  
 
 ## Traits

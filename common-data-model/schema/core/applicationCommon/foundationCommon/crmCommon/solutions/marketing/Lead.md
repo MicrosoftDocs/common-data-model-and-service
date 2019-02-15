@@ -18,8 +18,8 @@ Latest version (0.8.1) of the JSON entity definition is available on <a href="ht
 
 Instances of this entity are listed below.  
 
-[- /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.json/Lead](../../Lead.md "/core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.json/Lead")  
-[- /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Lead.cdm.json/Lead](../../accelerators/nonProfit/Lead.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Lead.cdm.json/Lead")  
+- [/core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.json/Lead](../../Lead.md "/core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.json/Lead")  
+- [/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Lead.cdm.json/Lead](../../accelerators/nonProfit/Lead.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Lead.cdm.json/Lead")  
 - /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Lead.cdm.json/Lead  
 
 ## Traits

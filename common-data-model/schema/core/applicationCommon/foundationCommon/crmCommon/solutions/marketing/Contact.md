@@ -18,14 +18,14 @@ Latest version (0.8.1) of the JSON entity definition is available on <a href="ht
 
 Instances of this entity are listed below.  
 
-[- /core/applicationCommon/Contact.cdm.json/Contact](../../../../Contact.md "/core/applicationCommon/Contact.cdm.json/Contact")  
-[- /core/applicationCommon/foundationCommon/Contact.cdm.json/Contact](../../../Contact.md "/core/applicationCommon/foundationCommon/Contact.cdm.json/Contact")  
-[- /core/applicationCommon/foundationCommon/crmCommon/Contact.cdm.json/Contact](../../Contact.md "/core/applicationCommon/foundationCommon/crmCommon/Contact.cdm.json/Contact")  
-[- /core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Contact.cdm.json/Contact](../../accelerators/education/higherEducation/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Contact.cdm.json/Contact")  
-[- /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Contact.cdm.json/Contact](../../accelerators/healthCare/electronicMedicalRecords/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Contact.cdm.json/Contact")  
-[- /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Contact.cdm.json/Contact](../../accelerators/nonProfit/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Contact.cdm.json/Contact")  
+- [/core/applicationCommon/Contact.cdm.json/Contact](../../../../Contact.md "/core/applicationCommon/Contact.cdm.json/Contact")  
+- [/core/applicationCommon/foundationCommon/Contact.cdm.json/Contact](../../../Contact.md "/core/applicationCommon/foundationCommon/Contact.cdm.json/Contact")  
+- [/core/applicationCommon/foundationCommon/crmCommon/Contact.cdm.json/Contact](../../Contact.md "/core/applicationCommon/foundationCommon/crmCommon/Contact.cdm.json/Contact")  
+- [/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Contact.cdm.json/Contact](../../accelerators/education/higherEducation/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Contact.cdm.json/Contact")  
+- [/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Contact.cdm.json/Contact](../../accelerators/healthCare/electronicMedicalRecords/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Contact.cdm.json/Contact")  
+- [/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Contact.cdm.json/Contact](../../accelerators/nonProfit/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Contact.cdm.json/Contact")  
 - /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Contact.cdm.json/Contact  
-[- /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Contact.cdm.json/Contact](../portals/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Contact.cdm.json/Contact")  
+- [/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Contact.cdm.json/Contact](../portals/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Contact.cdm.json/Contact")  
 
 ## Traits
 

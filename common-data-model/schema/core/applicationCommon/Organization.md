@@ -19,7 +19,7 @@ Latest version (0.8.1) of the JSON entity definition is available on <a href="ht
 Instances of this entity are listed below.  
 
 - /core/applicationCommon/Organization.cdm.json/Organization  
-[- /core/applicationCommon/foundationCommon/Organization.cdm.json/Organization](foundationCommon/Organization.md "/core/applicationCommon/foundationCommon/Organization.cdm.json/Organization")  
+- [/core/applicationCommon/foundationCommon/Organization.cdm.json/Organization](foundationCommon/Organization.md "/core/applicationCommon/foundationCommon/Organization.cdm.json/Organization")  
 
 ## Traits
 
