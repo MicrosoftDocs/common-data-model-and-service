@@ -1,7 +1,7 @@
 ---
 title: Review
-description: some description
-ms.service:: common-data-model
+description: The internal assessment of a Request made by a staff member (or team) and all of the relevant information that needs to be tracked at the "review" stage of an application.
+ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/15/2019
@@ -18,7 +18,7 @@ Latest version (0.8.1) of the JSON entity definition is available on <a href="ht
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Review.cdm.json/Review  
+- /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Review.cdm.json/Review  
 
 ## Traits
 

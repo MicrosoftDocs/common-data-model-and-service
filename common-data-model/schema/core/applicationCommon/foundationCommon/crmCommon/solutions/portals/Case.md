@@ -1,7 +1,7 @@
 ---
 title: Case
-description: some description
-ms.service:: common-data-model
+description: Service request case associated with a contract.
+ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/15/2019
@@ -18,8 +18,8 @@ Latest version (0.8.1) of the JSON entity definition is available on <a href="ht
 
 Instances of this entity are listed below.  
 
-[/core/applicationCommon/foundationCommon/crmCommon/service/Case.cdm.json/Case](../../service/Case.md "/core/applicationCommon/foundationCommon/crmCommon/service/Case.cdm.json/Case")  
-/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Case.cdm.json/Case  
+[- /core/applicationCommon/foundationCommon/crmCommon/service/Case.cdm.json/Case](../../service/Case.md "/core/applicationCommon/foundationCommon/crmCommon/service/Case.cdm.json/Case")  
+- /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Case.cdm.json/Case  
 
 ## Traits
 

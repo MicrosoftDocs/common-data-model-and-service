@@ -1,7 +1,7 @@
 ---
 title: Speaker
-description: some description
-ms.service:: common-data-model
+description: Speaker bios of individuals speaking at an event
+ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/15/2019
@@ -18,7 +18,7 @@ Latest version (0.8.1) of the JSON entity definition is available on <a href="ht
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Speaker.cdm.json/Speaker  
+- /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Speaker.cdm.json/Speaker  
 
 ## Traits
 

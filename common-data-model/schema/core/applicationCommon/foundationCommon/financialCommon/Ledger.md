@@ -1,7 +1,7 @@
 ---
 title: Ledger
-description: some description
-ms.service:: common-data-model
+description: The collection of all accounts making up the central repository of accounting data for a company.
+ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/15/2019
@@ -18,7 +18,7 @@ Latest version (0.8.1) of the JSON entity definition is available on <a href="ht
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/financialCommon/Ledger.cdm.json/Ledger  
+- /core/applicationCommon/foundationCommon/financialCommon/Ledger.cdm.json/Ledger  
 
 ## Traits
 

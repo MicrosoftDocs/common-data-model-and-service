@@ -1,7 +1,7 @@
 ---
 title: Report
-description: some description
-ms.service:: common-data-model
+description: A status report submitted by an awardee to the granting entity (i.e., a Foundation) to report on what impact has been accomplished to date through the funds awarded to them.
+ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/15/2019
@@ -18,7 +18,7 @@ Latest version (0.8.1) of the JSON entity definition is available on <a href="ht
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Report.cdm.json/Report  
+- /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Report.cdm.json/Report  
 
 ## Traits
 

@@ -1,7 +1,7 @@
 ---
 title: PractitionerRole
-description: some description
-ms.service:: common-data-model
+description: A specific set of Roles/Locations/specialties/services that a practitioner may perform at an organization for a period of time.
+ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/15/2019
@@ -18,7 +18,7 @@ Latest version (0.8.1) of the JSON entity definition is available on <a href="ht
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PractitionerRole.cdm.json/PractitionerRole  
+- /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PractitionerRole.cdm.json/PractitionerRole  
 
 ## Traits
 

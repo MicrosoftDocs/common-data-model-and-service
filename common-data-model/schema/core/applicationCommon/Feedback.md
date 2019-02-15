@@ -1,7 +1,7 @@
 ---
 title: Feedback
-description: some description
-ms.service:: common-data-model
+description: Container for feedback and ratings for knowledge articles.
+ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/15/2019
@@ -18,8 +18,8 @@ Latest version (0.8.1) of the JSON entity definition is available on <a href="ht
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/Feedback.cdm.json/Feedback  
-[/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Feedback.cdm.json/Feedback](foundationCommon/crmCommon/solutions/portals/Feedback.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Feedback.cdm.json/Feedback")  
+- /core/applicationCommon/Feedback.cdm.json/Feedback  
+[- /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Feedback.cdm.json/Feedback](foundationCommon/crmCommon/solutions/portals/Feedback.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Feedback.cdm.json/Feedback")  
 
 ## Traits
 

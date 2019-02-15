@@ -1,7 +1,7 @@
 ---
 title: DesignationPlan
-description: some description
-ms.service:: common-data-model
+description: A line item attached to a Pledge, Payment Schedule, or Campaign indicating how associated payments should be designated.  Sometimes, 100% of a donation is designated to a single fund (ideally, to an unrestricted fund that the nonprofit can use any way they wish).  Other times, a donor has specified a desire that the donation be "split designated" among two or more funds.  For example, a donor giving $5,000 might specify that $1000 goes to the unrestricted fund $1000 to the new building fund and $3000 to building water wells Sub-saharan Africa.
+ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/15/2019
@@ -18,7 +18,7 @@ Latest version (0.8.1) of the JSON entity definition is available on <a href="ht
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/DesignationPlan.cdm.json/DesignationPlan  
+- /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/DesignationPlan.cdm.json/DesignationPlan  
 
 ## Traits
 

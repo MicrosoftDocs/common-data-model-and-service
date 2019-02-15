@@ -1,7 +1,7 @@
 ---
 title: DisbursementDistribution
-description: some description
-ms.service:: common-data-model
+description: Defines the Delivery Framework(s) - i.e. Program, Project, Initiative - that contribute to funding an Award Disbursement.
+ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/15/2019
@@ -18,7 +18,7 @@ Latest version (0.8.1) of the JSON entity definition is available on <a href="ht
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/DisbursementDistribution.cdm.json/DisbursementDistribution  
+- /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/DisbursementDistribution.cdm.json/DisbursementDistribution  
 
 ## Traits
 

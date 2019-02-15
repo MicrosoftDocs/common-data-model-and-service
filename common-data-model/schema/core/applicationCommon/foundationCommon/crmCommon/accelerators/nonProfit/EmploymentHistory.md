@@ -1,7 +1,7 @@
 ---
 title: EmploymentHistory
-description: some description
-ms.service:: common-data-model
+description: Historical and/or current information about where a contact works, volunteers or serves in some capacity at an organization.  For nonprofits, tracking employer information is critical for a few reasons: it is important to understand if the employee is part of a eligible matching gift program, to have visibility into an employee's "network" and to visualize the degrees of separation between an employee and other prospective donors that the organization wants to solicit, and more.
+ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/15/2019
@@ -18,7 +18,7 @@ Latest version (0.8.1) of the JSON entity definition is available on <a href="ht
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/EmploymentHistory.cdm.json/EmploymentHistory  
+- /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/EmploymentHistory.cdm.json/EmploymentHistory  
 
 ## Traits
 

@@ -1,7 +1,7 @@
 ---
 title: MarketingList
-description: some description
-ms.service:: common-data-model
+description: Group of existing or potential customers created for a marketing campaign or other sales purposes.
+ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/15/2019
@@ -18,8 +18,8 @@ Latest version (0.8.1) of the JSON entity definition is available on <a href="ht
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/MarketingList.cdm.json/MarketingList  
-[/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/MarketingList.cdm.json/MarketingList](solutions/marketing/MarketingList.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/MarketingList.cdm.json/MarketingList")  
+- /core/applicationCommon/foundationCommon/crmCommon/MarketingList.cdm.json/MarketingList  
+[- /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/MarketingList.cdm.json/MarketingList](solutions/marketing/MarketingList.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/MarketingList.cdm.json/MarketingList")  
 
 ## Traits
 

@@ -1,7 +1,7 @@
 ---
 title: SLA
-description: some description
-ms.service:: common-data-model
+description: Contains information about the tracked service-level KPIs for cases that belong to different customers.
+ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/15/2019
@@ -18,7 +18,7 @@ Latest version (0.8.1) of the JSON entity definition is available on <a href="ht
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/SLA.cdm.json/SLA  
+- /core/applicationCommon/SLA.cdm.json/SLA  
 
 ## Traits
 

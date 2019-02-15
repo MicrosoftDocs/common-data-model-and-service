@@ -1,7 +1,7 @@
 ---
 title: PractitionerQualification
-description: some description
-ms.service:: common-data-model
+description: Qualifications obtained by training and certification.
+ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/15/2019
@@ -18,7 +18,7 @@ Latest version (0.8.1) of the JSON entity definition is available on <a href="ht
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PractitionerQualification.cdm.json/PractitionerQualification  
+- /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PractitionerQualification.cdm.json/PractitionerQualification  
 
 ## Traits
 

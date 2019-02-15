@@ -1,7 +1,7 @@
 ---
 title: CareTeamParticipant
-description: some description
-ms.service:: common-data-model
+description: Identifies all people and organizations who are expected to be involved in the care team.
+ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/15/2019
@@ -18,7 +18,7 @@ Latest version (0.8.1) of the JSON entity definition is available on <a href="ht
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CareTeamParticipant.cdm.json/CareTeamParticipant  
+- /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CareTeamParticipant.cdm.json/CareTeamParticipant  
 
 ## Traits
 

@@ -1,7 +1,7 @@
 ---
 title: Budget
-description: some description
-ms.service:: common-data-model
+description: Amount of funds that can be designated for an Objective and/or Delivery Framework (i.e. Program, Project) for a given period of time.
+ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/15/2019
@@ -18,7 +18,7 @@ Latest version (0.8.1) of the JSON entity definition is available on <a href="ht
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Budget.cdm.json/Budget  
+- /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Budget.cdm.json/Budget  
 
 ## Traits
 

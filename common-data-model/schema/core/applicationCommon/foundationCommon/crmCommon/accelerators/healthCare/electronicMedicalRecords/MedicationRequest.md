@@ -1,7 +1,7 @@
 ---
 title: MedicationRequest
-description: some description
-ms.service:: common-data-model
+description: An order or request for both supply of the medication and the instructions for administration of the medication to a patient.
+ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/15/2019
@@ -18,7 +18,7 @@ Latest version (0.8.1) of the JSON entity definition is available on <a href="ht
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+- /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
 
 ## Traits
 

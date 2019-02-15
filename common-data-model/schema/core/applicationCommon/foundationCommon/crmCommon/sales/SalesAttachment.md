@@ -1,7 +1,7 @@
 ---
 title: SalesAttachment
-description: some description
-ms.service:: common-data-model
+description: Item in the sales literature collection.
+ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/15/2019
@@ -18,7 +18,7 @@ Latest version (0.8.1) of the JSON entity definition is available on <a href="ht
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/sales/SalesAttachment.cdm.json/SalesAttachment  
+- /core/applicationCommon/foundationCommon/crmCommon/sales/SalesAttachment.cdm.json/SalesAttachment  
 
 ## Traits
 

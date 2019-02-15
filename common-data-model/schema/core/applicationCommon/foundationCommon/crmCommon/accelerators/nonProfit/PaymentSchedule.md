@@ -1,7 +1,7 @@
 ---
 title: PaymentSchedule
-description: some description
-ms.service:: common-data-model
+description: A gift transaction can be a one-time payment or a recurring payment (ie, monthly/sustainer giving). In addition, it can be a pledge (ie, promise) of a future payment or a current/received payment.
+ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/15/2019
@@ -18,7 +18,7 @@ Latest version (0.8.1) of the JSON entity definition is available on <a href="ht
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/PaymentSchedule.cdm.json/PaymentSchedule  
+- /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/PaymentSchedule.cdm.json/PaymentSchedule  
 
 ## Traits
 

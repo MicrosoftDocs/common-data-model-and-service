@@ -1,7 +1,7 @@
 ---
 title: Salutation
-description: some description
-ms.service:: common-data-model
+description: The way a donor or prospect is commonly addressed via written communication (lhard-copy letters, emails, etc.).  It is typical for nonprofits and foundations to address major donors by different salutations depending on the scenario.  A Medical Doctor could be addressed as "Doctor" when the organization reaches out regarding in-country field volunteerism the person performs.  On the other hand, the same individual might be referred to as Mrs. Smith as part of her household being solicited for a major gift.
+ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/15/2019
@@ -18,7 +18,7 @@ Latest version (0.8.1) of the JSON entity definition is available on <a href="ht
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Salutation.cdm.json/Salutation  
+- /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Salutation.cdm.json/Salutation  
 
 ## Traits
 

@@ -1,7 +1,7 @@
 ---
 title: RecurringAppointment
-description: some description
-ms.service:: common-data-model
+description: The Master appointment of a recurring appointment series.
+ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/15/2019
@@ -18,8 +18,8 @@ Latest version (0.8.1) of the JSON entity definition is available on <a href="ht
 
 Instances of this entity are listed below.  
 
-[/core/applicationCommon/RecurringAppointment.cdm.json/RecurringAppointment](../../RecurringAppointment.md "/core/applicationCommon/RecurringAppointment.cdm.json/RecurringAppointment")  
-/core/applicationCommon/foundationCommon/crmCommon/RecurringAppointment.cdm.json/RecurringAppointment  
+[- /core/applicationCommon/RecurringAppointment.cdm.json/RecurringAppointment](../../RecurringAppointment.md "/core/applicationCommon/RecurringAppointment.cdm.json/RecurringAppointment")  
+- /core/applicationCommon/foundationCommon/crmCommon/RecurringAppointment.cdm.json/RecurringAppointment  
 
 ## Traits
 

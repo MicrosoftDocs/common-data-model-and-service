@@ -1,7 +1,7 @@
 ---
 title: Quote
-description: some description
-ms.service:: common-data-model
+description: Formal offer for products and/or services, proposed at specific prices and related payment terms, which is sent to a prospective customer.
+ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/15/2019
@@ -18,7 +18,7 @@ Latest version (0.8.1) of the JSON entity definition is available on <a href="ht
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+- /core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
 
 ## Traits
 

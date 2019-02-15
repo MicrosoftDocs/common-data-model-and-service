@@ -1,7 +1,7 @@
 ---
 title: PaymentMethod
-description: some description
-ms.service:: common-data-model
+description: This is a parent entity for Payment Method customizations that may be supported by an application.  Possible extensions could be to support credit cards, EFT, cryptocurrency, mobile payments, or rewards points.
+ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/15/2019
@@ -18,7 +18,7 @@ Latest version (0.8.1) of the JSON entity definition is available on <a href="ht
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/PaymentMethod.cdm.json/PaymentMethod  
+- /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/PaymentMethod.cdm.json/PaymentMethod  
 
 ## Traits
 

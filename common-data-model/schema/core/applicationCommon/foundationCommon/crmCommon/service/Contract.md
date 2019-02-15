@@ -1,7 +1,7 @@
 ---
 title: Contract
-description: some description
-ms.service:: common-data-model
+description: Agreement to provide customer service during a specified amount of time or number of cases.
+ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/15/2019
@@ -18,7 +18,7 @@ Latest version (0.8.1) of the JSON entity definition is available on <a href="ht
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/service/Contract.cdm.json/Contract  
+- /core/applicationCommon/foundationCommon/crmCommon/service/Contract.cdm.json/Contract  
 
 ## Traits
 

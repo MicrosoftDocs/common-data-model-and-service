@@ -1,7 +1,7 @@
 ---
 title: AllergyIntolerance
-description: some description
-ms.service:: common-data-model
+description: Risk of harmful or undesirable, physiological response which is unique to an individual and associated with exposure to a substance.
+ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/15/2019
@@ -18,7 +18,7 @@ Latest version (0.8.1) of the JSON entity definition is available on <a href="ht
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/AllergyIntolerance.cdm.json/AllergyIntolerance  
+- /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/AllergyIntolerance.cdm.json/AllergyIntolerance  
 
 ## Traits
 

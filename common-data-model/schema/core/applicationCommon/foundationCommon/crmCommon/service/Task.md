@@ -1,7 +1,7 @@
 ---
 title: Task
-description: some description
-ms.service:: common-data-model
+description: Generic activity representing work needed to be done.
+ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/15/2019
@@ -18,10 +18,10 @@ Latest version (0.8.1) of the JSON entity definition is available on <a href="ht
 
 Instances of this entity are listed below.  
 
-[/core/applicationCommon/Task.cdm.json/Task](../../../Task.md "/core/applicationCommon/Task.cdm.json/Task")  
-[/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.cdm.json/Task](../accelerators/healthCare/electronicMedicalRecords/Task.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.cdm.json/Task")  
-/core/applicationCommon/foundationCommon/crmCommon/service/Task.cdm.json/Task  
-[/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Task.cdm.json/Task](../solutions/marketing/Task.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Task.cdm.json/Task")  
+[- /core/applicationCommon/Task.cdm.json/Task](../../../Task.md "/core/applicationCommon/Task.cdm.json/Task")  
+[- /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.cdm.json/Task](../accelerators/healthCare/electronicMedicalRecords/Task.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.cdm.json/Task")  
+- /core/applicationCommon/foundationCommon/crmCommon/service/Task.cdm.json/Task  
+[- /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Task.cdm.json/Task](../solutions/marketing/Task.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Task.cdm.json/Task")  
 
 ## Traits
 

@@ -1,7 +1,7 @@
 ---
 title: Fax
-description: some description
-ms.service:: common-data-model
+description: Activity that tracks call outcome and number of pages for a fax and optionally stores an electronic copy of the document.
+ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/15/2019
@@ -18,8 +18,8 @@ Latest version (0.8.1) of the JSON entity definition is available on <a href="ht
 
 Instances of this entity are listed below.  
 
-[/core/applicationCommon/Fax.cdm.json/Fax](../../Fax.md "/core/applicationCommon/Fax.cdm.json/Fax")  
-/core/applicationCommon/foundationCommon/crmCommon/Fax.cdm.json/Fax  
+[- /core/applicationCommon/Fax.cdm.json/Fax](../../Fax.md "/core/applicationCommon/Fax.cdm.json/Fax")  
+- /core/applicationCommon/foundationCommon/crmCommon/Fax.cdm.json/Fax  
 
 ## Traits
 

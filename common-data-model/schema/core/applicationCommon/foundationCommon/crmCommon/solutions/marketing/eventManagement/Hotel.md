@@ -1,7 +1,7 @@
 ---
 title: Hotel
-description: some description
-ms.service:: common-data-model
+description: This represents a single hotel property (for e.g, Marriott in Bellevue). Each individual property belongs to a Hotel Group (e.g., Marriott) which is represented by an Account
+ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/15/2019
@@ -18,7 +18,7 @@ Latest version (0.8.1) of the JSON entity definition is available on <a href="ht
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Hotel.cdm.json/Hotel  
+- /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Hotel.cdm.json/Hotel  
 
 ## Traits
 

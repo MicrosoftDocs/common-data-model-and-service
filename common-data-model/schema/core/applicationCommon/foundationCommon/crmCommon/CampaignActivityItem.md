@@ -1,7 +1,7 @@
 ---
 title: CampaignActivityItem
-description: some description
-ms.service:: common-data-model
+description: Work item of a campaign activity, such as a list or sales literature.
+ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/15/2019
@@ -18,7 +18,7 @@ Latest version (0.8.1) of the JSON entity definition is available on <a href="ht
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/CampaignActivityItem.cdm.json/CampaignActivityItem  
+- /core/applicationCommon/foundationCommon/crmCommon/CampaignActivityItem.cdm.json/CampaignActivityItem  
 
 ## Traits
 

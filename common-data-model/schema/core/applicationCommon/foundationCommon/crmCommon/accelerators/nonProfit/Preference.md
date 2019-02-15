@@ -1,7 +1,9 @@
 ---
 title: Preference
-description: some description
-ms.service:: common-data-model
+description: Typically tracks an abundance of constituent or organization information that doesn't live cleanly on an account or contact record, or that can be associated with both an Account and a Contact.  Examples:  personal interests, additional communication preferences like desire to receive a newsletter, specific outreach the constituent wants, and additional affiliation information like Constituent Type associations and ratings.
+
+Preferences also typically store demographic information in a series of dependent picklists: Category, Subcategory, Type, Subtype. Most commonly, only two or three of the fields in this dependent hierarchy will be used.
+ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/15/2019
@@ -20,7 +22,7 @@ Latest version (0.8.1) of the JSON entity definition is available on <a href="ht
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Preference.cdm.json/Preference  
+- /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Preference.cdm.json/Preference  
 
 ## Traits
 

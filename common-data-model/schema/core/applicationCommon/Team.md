@@ -1,7 +1,7 @@
 ---
 title: Team
-description: some description
-ms.service:: common-data-model
+description: Collection of system users that routinely collaborate. Teams can be used to simplify record sharing and provide team members with common access to organization data when team members belong to different Business Units.
+ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/15/2019
@@ -18,7 +18,7 @@ Latest version (0.8.1) of the JSON entity definition is available on <a href="ht
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/Team.cdm.json/Team  
+- /core/applicationCommon/Team.cdm.json/Team  
 
 ## Traits
 

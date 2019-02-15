@@ -1,7 +1,7 @@
 ---
 title: Request
-description: some description
-ms.service:: common-data-model
+description: Represents a request from an individual or institution for funding or support. A request is more formal than an inquiry (LOI) and typically happens after an inquiry has already occurred.
+ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/15/2019
@@ -18,7 +18,7 @@ Latest version (0.8.1) of the JSON entity definition is available on <a href="ht
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Request.cdm.json/Request  
+- /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Request.cdm.json/Request  
 
 ## Traits
 

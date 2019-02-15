@@ -1,7 +1,7 @@
 ---
 title: Building
-description: some description
-ms.service:: common-data-model
+description: A single venue can be comprised of zero or more buildings where event activities are held. Each building in turn is comprised of zero or more rooms where event activities are held.
+ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/15/2019
@@ -18,7 +18,7 @@ Latest version (0.8.1) of the JSON entity definition is available on <a href="ht
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Building.cdm.json/Building  
+- /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Building.cdm.json/Building  
 
 ## Traits
 

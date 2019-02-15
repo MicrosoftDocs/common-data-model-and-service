@@ -1,7 +1,7 @@
 ---
 title: Docket
-description: some description
-ms.service:: common-data-model
+description: A Docket is used to associate inquiries (LOIs) and requests with a specific grant/award cycle or date (usually a review/board meeting) on which a foundation will make final decisions on applications.
+ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/15/2019
@@ -18,7 +18,7 @@ Latest version (0.8.1) of the JSON entity definition is available on <a href="ht
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Docket.cdm.json/Docket  
+- /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Docket.cdm.json/Docket  
 
 ## Traits
 

@@ -1,7 +1,7 @@
 ---
 title: Account
-description: some description
-ms.service:: common-data-model
+description: Business that represents a customer or potential customer. The company that is billed in business transactions.
+ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/15/2019
@@ -18,14 +18,14 @@ Latest version (0.8.1) of the JSON entity definition is available on <a href="ht
 
 Instances of this entity are listed below.  
 
-[/core/applicationCommon/Account.cdm.json/Account](../Account.md "/core/applicationCommon/Account.cdm.json/Account")  
-/core/applicationCommon/foundationCommon/Account.cdm.json/Account  
-[/core/applicationCommon/foundationCommon/crmCommon/Account.cdm.json/Account](crmCommon/Account.md "/core/applicationCommon/foundationCommon/crmCommon/Account.cdm.json/Account")  
-[/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Account.cdm.json/Account](crmCommon/accelerators/education/higherEducation/Account.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Account.cdm.json/Account")  
-[/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Account.cdm.json/Account](crmCommon/accelerators/healthCare/electronicMedicalRecords/Account.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Account.cdm.json/Account")  
-[/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Account.cdm.json/Account](crmCommon/accelerators/nonProfit/Account.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Account.cdm.json/Account")  
-[/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Account.cdm.json/Account](crmCommon/solutions/marketing/eventManagement/Account.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Account.cdm.json/Account")  
-[/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Account.cdm.json/Account](crmCommon/solutions/portals/Account.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Account.cdm.json/Account")  
+[- /core/applicationCommon/Account.cdm.json/Account](../Account.md "/core/applicationCommon/Account.cdm.json/Account")  
+- /core/applicationCommon/foundationCommon/Account.cdm.json/Account  
+[- /core/applicationCommon/foundationCommon/crmCommon/Account.cdm.json/Account](crmCommon/Account.md "/core/applicationCommon/foundationCommon/crmCommon/Account.cdm.json/Account")  
+[- /core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Account.cdm.json/Account](crmCommon/accelerators/education/higherEducation/Account.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Account.cdm.json/Account")  
+[- /core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Account.cdm.json/Account](crmCommon/accelerators/healthCare/electronicMedicalRecords/Account.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Account.cdm.json/Account")  
+[- /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Account.cdm.json/Account](crmCommon/accelerators/nonProfit/Account.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Account.cdm.json/Account")  
+[- /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Account.cdm.json/Account](crmCommon/solutions/marketing/eventManagement/Account.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Account.cdm.json/Account")  
+[- /core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Account.cdm.json/Account](crmCommon/solutions/portals/Account.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Account.cdm.json/Account")  
 
 ## Traits
 

@@ -1,7 +1,7 @@
 ---
 title: Appointment
-description: some description
-ms.service:: common-data-model
+description: Commitment representing a time interval with start/end times and duration.
+ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/15/2019
@@ -18,9 +18,9 @@ Latest version (0.8.1) of the JSON entity definition is available on <a href="ht
 
 Instances of this entity are listed below.  
 
-[/core/applicationCommon/Appointment.cdm.json/Appointment](../../Appointment.md "/core/applicationCommon/Appointment.cdm.json/Appointment")  
-/core/applicationCommon/foundationCommon/crmCommon/Appointment.cdm.json/Appointment  
-[/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Appointment.cdm.json/Appointment](solutions/marketing/Appointment.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Appointment.cdm.json/Appointment")  
+[- /core/applicationCommon/Appointment.cdm.json/Appointment](../../Appointment.md "/core/applicationCommon/Appointment.cdm.json/Appointment")  
+- /core/applicationCommon/foundationCommon/crmCommon/Appointment.cdm.json/Appointment  
+[- /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Appointment.cdm.json/Appointment](solutions/marketing/Appointment.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Appointment.cdm.json/Appointment")  
 
 ## Traits
 

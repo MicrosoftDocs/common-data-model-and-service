@@ -1,7 +1,7 @@
 ---
 title: PhoneCall
-description: some description
-ms.service:: common-data-model
+description: Activity to track a telephone call.
+ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/15/2019
@@ -18,9 +18,9 @@ Latest version (0.8.1) of the JSON entity definition is available on <a href="ht
 
 Instances of this entity are listed below.  
 
-[/core/applicationCommon/PhoneCall.cdm.json/PhoneCall](../../PhoneCall.md "/core/applicationCommon/PhoneCall.cdm.json/PhoneCall")  
-/core/applicationCommon/foundationCommon/crmCommon/PhoneCall.cdm.json/PhoneCall  
-[/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/PhoneCall.cdm.json/PhoneCall](solutions/marketing/PhoneCall.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/PhoneCall.cdm.json/PhoneCall")  
+[- /core/applicationCommon/PhoneCall.cdm.json/PhoneCall](../../PhoneCall.md "/core/applicationCommon/PhoneCall.cdm.json/PhoneCall")  
+- /core/applicationCommon/foundationCommon/crmCommon/PhoneCall.cdm.json/PhoneCall  
+[- /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/PhoneCall.cdm.json/PhoneCall](solutions/marketing/PhoneCall.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/PhoneCall.cdm.json/PhoneCall")  
 
 ## Traits
 
