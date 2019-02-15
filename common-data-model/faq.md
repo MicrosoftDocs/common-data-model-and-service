@@ -11,7 +11,7 @@ ms.author: tpalmer
 
 # Frequently asked questions about the Common Data Model
 
-his topic contains frequently asked questions and best practices around a variety of areas related to the Common Data Model (CDM), including general topics, Common Data Service (CDS) for Apps, and Azure Data Lake Storage Gen2 Preview. If you have more questions or comments on the Common Data Model and related topics, we recommend that you [submit an issue in Git](https://github.com/microsoft/cdm/issues).
+This topic contains frequently asked questions and best practices around a variety of areas related to the Common Data Model (CDM), including general topics, Common Data Service (CDS) for Apps, and Azure Data Lake Storage Gen2 Preview. If you have more questions or comments on the Common Data Model and related topics, we recommend that you [submit an issue in Git](https://github.com/microsoft/cdm/issues).
 
 - General
   - [What is the Common Data Model?](#what-is-the-common-data-model)
