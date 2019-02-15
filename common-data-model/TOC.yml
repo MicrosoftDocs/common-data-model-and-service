@@ -20,3 +20,5 @@
   - name: Entity Reference
     href: schema/toc.yml
     topicHref: schema/overview.md
+  - name: Frequently asked questions
+    href: faq.md
