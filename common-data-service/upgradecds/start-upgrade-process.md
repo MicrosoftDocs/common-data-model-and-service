@@ -3,7 +3,7 @@ title: "Upgrade to Common Data Service for Apps | Microsoft Docs"
 description: "Provides instructions on how to upgrade from previous version of Common Data Service to CDS for Apps"
 author: "JimDaly"
 manager: "ryjones"
-ms.date: "01/24/2019"
+ms.date: "02/18/2019"
 ms.topic: "article"
 ms.custom: ""
 ms.service: "CommonDataService"
@@ -28,12 +28,13 @@ These are some frequently asked questions (FAQs) before upgrading your database.
 - [How long will this take?](#how-long-will-this-take)
 - [Can I cancel the upgrade process once it’s initiated?](#can-i-cancel-the-upgrade-process-once-its-initiated)
 - [Will there be any downtime of the database or apps in production during the upgrade?](#will-there-be-any-downtime-of-the-database-or-apps-in-production-during-the-upgrade-process)
+- [Are there any steps I should take before I start the upgrade?](#are-there-any-steps-i-should-take-before-i-start-the-upgrade)
 
 ### Which databases do I need to upgrade? 
 
-- Databases on the previous version of CDS. 
+- Databases on the previous version of CDS.
 
-- Databases containing vital data for your organization. 
+- Databases containing vital data for your organization.
 
 You do not need to upgrade test environments and databases created while trying
 out the product. Any databases that you choose not to upgrade will eventually be
@@ -71,6 +72,10 @@ to it. We encourage admins to communicate to users when step 3 is planned to be
 > You can get an approximate duration of the downtime in step 3 by capturing the amount of time for step 1.
 > 
 > Note the time when you start step 1. When step 1 completes it will provide the time it completed. Compare the difference. This represents a minimum amount of downtime you can expect in step 3. Step 3 may be slightly longer under some circumstances.
+
+### Are there any steps I should take before I start the upgrade?
+
+You should check to see if the previous version CDS database security settings refer to any people who are no longer with your company and remove them. This can help avoid the `Can't find XRM ID for user with oid <value> when assigning to role <value> (source role <value>) in environment <value>` error mentioned in [Errors and resolutions](errors-resolutions.md).
 
 ## Start the database upgrade process
 

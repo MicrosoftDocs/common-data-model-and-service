@@ -3,7 +3,7 @@ title: "What to expect on upgrading to CDS for Apps | Microsoft Docs"
 description: "The topic provides information about things to expect and consider when upgrading from previous version of Common Data Service to CDS for Apps."
 author: "JimDaly"
 manager: "ryjones"
-ms.date: "12/09/2018"
+ms.date: "02/18/2019"
 ms.topic: "topic"
 ms.prod: ""
 ms.service: "CommonDataService"
@@ -157,7 +157,7 @@ installed in the upgraded database.
 
 ### Users and security
 
-Security principals (users) represented in CDM will not be directly copied
+Security principals (users) represented in the previous version of CDS will not be directly copied
 during the upgrade process. Current users with licenses will be synchronized to
 the CDS for Apps database and granted the privileges they had previously. There
 are some cases where a user’s privileges cannot be mapped precisely. An
@@ -237,7 +237,7 @@ release of CDS. The image field represents a small, cropped image that appears
 in the top left corner of the model-based forms to represent a row, commonly
 referred to an entity image. For more information about image fields in CDS for
 Apps, see [Image
-fields](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/types-of-fields#BKMK_ImageFields).
+fields](/dynamics365/customer-engagement/customize/types-of-fields#BKMK_ImageFields).
 
 If you have more than one image field on an entity and to preserve the original
 image quality, the image files are also stored in related Note record(s).
