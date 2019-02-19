@@ -4,7 +4,7 @@ description: This is a placeholder entity referenced by the Payment Method objec
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/15/2019
+ms.date: 2/19/2019
 ms.author: tpalmer
 ---
 
@@ -12,13 +12,13 @@ ms.author: tpalmer
 
 This is a placeholder entity referenced by the Payment Method object.  It is intended to be customized with configuration data necessary to connect to a payment processor and authorize payments.  
   
-Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/PaymentProcessor.cdm.json" target="_blank">GitHub</a>.  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/PaymentProcessor.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
 Instances of this entity are listed below.  
 
-- /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/PaymentProcessor.cdm.json/PaymentProcessor  
+/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/PaymentProcessor.cdm.json/PaymentProcessor  
 
 ## Traits
 

@@ -4,7 +4,7 @@ description: This represents a single hotel property (for e.g, Marriott in Belle
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/15/2019
+ms.date: 2/19/2019
 ms.author: tpalmer
 ---
 
@@ -12,13 +12,13 @@ ms.author: tpalmer
 
 This represents a single hotel property (for e.g, Marriott in Bellevue). Each individual property belongs to a Hotel Group (e.g., Marriott) which is represented by an Account  
   
-Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Hotel.cdm.json" target="_blank">GitHub</a>.  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Hotel.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
 Instances of this entity are listed below.  
 
-- /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Hotel.cdm.json/Hotel  
+/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Hotel.cdm.json/Hotel  
 
 ## Traits
 

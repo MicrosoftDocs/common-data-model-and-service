@@ -4,7 +4,7 @@ description: Commitment representing a time interval with start/end times and du
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/15/2019
+ms.date: 2/19/2019
 ms.author: tpalmer
 ---
 
@@ -12,15 +12,15 @@ ms.author: tpalmer
 
 Commitment representing a time interval with start/end times and duration.  
   
-Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Appointment.cdm.json" target="_blank">GitHub</a>.  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Appointment.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
 Instances of this entity are listed below.  
 
-- [/core/applicationCommon/Appointment.cdm.json/Appointment](../../../../Appointment.md "/core/applicationCommon/Appointment.cdm.json/Appointment")  
-- [/core/applicationCommon/foundationCommon/crmCommon/Appointment.cdm.json/Appointment](../../Appointment.md "/core/applicationCommon/foundationCommon/crmCommon/Appointment.cdm.json/Appointment")  
-- /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Appointment.cdm.json/Appointment  
+[/core/applicationCommon/Appointment.cdm.json/Appointment](../../../../Appointment.md "/core/applicationCommon/Appointment.cdm.json/Appointment")  
+[/core/applicationCommon/foundationCommon/crmCommon/Appointment.cdm.json/Appointment](../../Appointment.md "/core/applicationCommon/foundationCommon/crmCommon/Appointment.cdm.json/Appointment")  
+/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Appointment.cdm.json/Appointment  
 
 ## Traits
 

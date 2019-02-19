@@ -4,7 +4,7 @@ description: A segment of a donation payment or in-kind gift that indicating the
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/15/2019
+ms.date: 2/19/2019
 ms.author: tpalmer
 ---
 
@@ -12,13 +12,13 @@ ms.author: tpalmer
 
 A segment of a donation payment or in-kind gift that indicating the partial amount that is hard- or soft-credited to a Customer and allocated to one Designation.  
   
-Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/DesignatedCredit.cdm.json" target="_blank">GitHub</a>.  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/DesignatedCredit.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
 Instances of this entity are listed below.  
 
-- /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/DesignatedCredit.cdm.json/DesignatedCredit  
+/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/DesignatedCredit.cdm.json/DesignatedCredit  
 
 ## Traits
 

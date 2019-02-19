@@ -4,7 +4,7 @@ description: Person with access to the Microsoft CRM system and who owns objects
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/15/2019
+ms.date: 2/19/2019
 ms.author: tpalmer
 ---
 
@@ -12,14 +12,14 @@ ms.author: tpalmer
 
 Person with access to the Microsoft CRM system and who owns objects in the Microsoft CRM database.  
   
-Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/User.cdm.json" target="_blank">GitHub</a>.  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/User.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
 Instances of this entity are listed below.  
 
-- /core/applicationCommon/User.cdm.json/User  
-- [/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User](foundationCommon/crmCommon/service/User.md "/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User")  
+/core/applicationCommon/User.cdm.json/User  
+[/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User](foundationCommon/crmCommon/service/User.md "/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User")  
 
 ## Traits
 

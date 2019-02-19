@@ -4,7 +4,7 @@ description: Task performed, or to be performed, by a user. An activity is any a
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/15/2019
+ms.date: 2/19/2019
 ms.author: tpalmer
 ---
 
@@ -12,14 +12,14 @@ ms.author: tpalmer
 
 Task performed, or to be performed, by a user. An activity is any action for which an entry can be made on a calendar.  
   
-Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/Activity.cdm.json" target="_blank">GitHub</a>.  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/Activity.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
 Instances of this entity are listed below.  
 
-- /core/applicationCommon/Activity.cdm.json/Activity  
-- [/core/applicationCommon/foundationCommon/crmCommon/Activity.cdm.json/Activity](foundationCommon/crmCommon/Activity.md "/core/applicationCommon/foundationCommon/crmCommon/Activity.cdm.json/Activity")  
+/core/applicationCommon/Activity.cdm.json/Activity  
+[/core/applicationCommon/foundationCommon/crmCommon/Activity.cdm.json/Activity](foundationCommon/crmCommon/Activity.md "/core/applicationCommon/foundationCommon/crmCommon/Activity.cdm.json/Activity")  
 
 ## Traits
 

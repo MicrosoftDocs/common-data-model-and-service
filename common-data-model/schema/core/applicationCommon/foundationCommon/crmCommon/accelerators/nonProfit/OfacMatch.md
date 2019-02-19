@@ -4,7 +4,7 @@ description: Prospective, pending and closed "deals" or gifts.  This entity all
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/15/2019
+ms.date: 2/19/2019
 ms.author: tpalmer
 ---
 
@@ -12,13 +12,13 @@ ms.author: tpalmer
 
 Prospective, pending and closed "deals" or gifts.  This entity allows nonprofit organizations to track their efforts to build relationships with prospective donors.   The following information is commonly tracked on opportunities:  assigned fundraiser(s), ask amounts, campaigns designated funds given to, etc.   Opportunity pipeline management allows development and gift officers to forecast likely gifts by when they are going to close, very similar to the way a salesperson tracks and manages sales opportunities.  It must be possible in a CRM or application to associate an opportunity to a campaign to measure the ROI of specific marketing programs.  
   
-Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/OfacMatch.cdm.json" target="_blank">GitHub</a>.  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/OfacMatch.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
 Instances of this entity are listed below.  
 
-- /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/OfacMatch.cdm.json/OfacMatch  
+/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/OfacMatch.cdm.json/OfacMatch  
 
 ## Traits
 

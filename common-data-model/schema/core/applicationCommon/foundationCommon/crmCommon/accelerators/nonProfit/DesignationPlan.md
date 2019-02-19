@@ -4,7 +4,7 @@ description: A line item attached to a Pledge, Payment Schedule, or Campaign ind
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/15/2019
+ms.date: 2/19/2019
 ms.author: tpalmer
 ---
 
@@ -12,13 +12,13 @@ ms.author: tpalmer
 
 A line item attached to a Pledge, Payment Schedule, or Campaign indicating how associated payments should be designated.  Sometimes, 100% of a donation is designated to a single fund (ideally, to an unrestricted fund that the nonprofit can use any way they wish).  Other times, a donor has specified a desire that the donation be "split designated" among two or more funds.  For example, a donor giving $5,000 might specify that $1000 goes to the unrestricted fund $1000 to the new building fund and $3000 to building water wells Sub-saharan Africa.  
   
-Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/DesignationPlan.cdm.json" target="_blank">GitHub</a>.  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/DesignationPlan.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
 Instances of this entity are listed below.  
 
-- /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/DesignationPlan.cdm.json/DesignationPlan  
+/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/DesignationPlan.cdm.json/DesignationPlan  
 
 ## Traits
 

@@ -4,7 +4,7 @@ description: An area to which funds may be allocated, including a GL-relevant ac
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/15/2019
+ms.date: 2/19/2019
 ms.author: tpalmer
 ---
 
@@ -12,13 +12,13 @@ ms.author: tpalmer
 
 An area to which funds may be allocated, including a GL-relevant accounting code.  Designations are the way a donor instructs an organization about how their donation should be spent or earmarked.  All nonprofit organizations strive to secure the largest % of unrestricted or undesignated funds possible so they can use this money at their own discretion toward the areas of greatest need, including the ability to pay down their operating costs.  Direct marketing-oriented nonprofits, and nonprofits with missions aligned to cause, cure, and global issues (like Oxfam) tend to have as few designations as they possibly can (~100-200 total designations) because they derive the majority of their funds from donors giving small gift amounts.  They also focus on recurring giving programs, which have a high administration cost if gifts are permitted to be designated or split designated across multiple funds.  A Higher Education organization, on the other hand, derives a large % of its annual fundraising from major donors, who typically want much more control about where they are directing their gifts.  
   
-Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Designation.cdm.json" target="_blank">GitHub</a>.  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Designation.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
 Instances of this entity are listed below.  
 
-- /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Designation.cdm.json/Designation  
+/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Designation.cdm.json/Designation  
 
 ## Traits
 

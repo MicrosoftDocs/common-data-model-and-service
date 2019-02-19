@@ -4,7 +4,7 @@ description: Person with whom a business unit has a relationship, such as custom
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/15/2019
+ms.date: 2/19/2019
 ms.author: tpalmer
 ---
 
@@ -12,20 +12,20 @@ ms.author: tpalmer
 
 Person with whom a business unit has a relationship, such as customer, supplier, and colleague.  
   
-Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Contact.cdm.json" target="_blank">GitHub</a>.  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Contact.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
 Instances of this entity are listed below.  
 
-- [/core/applicationCommon/Contact.cdm.json/Contact](../../../../../Contact.md "/core/applicationCommon/Contact.cdm.json/Contact")  
-- [/core/applicationCommon/foundationCommon/Contact.cdm.json/Contact](../../../../Contact.md "/core/applicationCommon/foundationCommon/Contact.cdm.json/Contact")  
-- [/core/applicationCommon/foundationCommon/crmCommon/Contact.cdm.json/Contact](../../../Contact.md "/core/applicationCommon/foundationCommon/crmCommon/Contact.cdm.json/Contact")  
-- /core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Contact.cdm.json/Contact  
-- [/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Contact.cdm.json/Contact](../../healthCare/electronicMedicalRecords/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Contact.cdm.json/Contact")  
-- [/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Contact.cdm.json/Contact](../../nonProfit/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Contact.cdm.json/Contact")  
-- [/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Contact.cdm.json/Contact](../../../solutions/marketing/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Contact.cdm.json/Contact")  
-- [/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Contact.cdm.json/Contact](../../../solutions/portals/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Contact.cdm.json/Contact")  
+[/core/applicationCommon/Contact.cdm.json/Contact](../../../../../Contact.md "/core/applicationCommon/Contact.cdm.json/Contact")  
+[/core/applicationCommon/foundationCommon/Contact.cdm.json/Contact](../../../../Contact.md "/core/applicationCommon/foundationCommon/Contact.cdm.json/Contact")  
+[/core/applicationCommon/foundationCommon/crmCommon/Contact.cdm.json/Contact](../../../Contact.md "/core/applicationCommon/foundationCommon/crmCommon/Contact.cdm.json/Contact")  
+/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Contact.cdm.json/Contact  
+[/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Contact.cdm.json/Contact](../../healthCare/electronicMedicalRecords/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Contact.cdm.json/Contact")  
+[/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Contact.cdm.json/Contact](../../nonProfit/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Contact.cdm.json/Contact")  
+[/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Contact.cdm.json/Contact](../../../solutions/marketing/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Contact.cdm.json/Contact")  
+[/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Contact.cdm.json/Contact](../../../solutions/portals/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Contact.cdm.json/Contact")  
 
 ## Traits
 

@@ -6,7 +6,7 @@ Preferences also typically store demographic information in a series of dependen
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/15/2019
+ms.date: 2/19/2019
 ms.author: tpalmer
 ---
 
@@ -16,13 +16,13 @@ Typically tracks an abundance of constituent or organization information that do
 
 Preferences also typically store demographic information in a series of dependent picklists: Category, Subcategory, Type, Subtype. Most commonly, only two or three of the fields in this dependent hierarchy will be used.  
   
-Latest version (0.8.1) of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Preference.cdm.json" target="_blank">GitHub</a>.  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Preference.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
 Instances of this entity are listed below.  
 
-- /core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Preference.cdm.json/Preference  
+/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Preference.cdm.json/Preference  
 
 ## Traits
 
