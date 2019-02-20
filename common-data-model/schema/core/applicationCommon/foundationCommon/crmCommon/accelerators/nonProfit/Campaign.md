@@ -19,14 +19,13 @@ Container for campaign activities and responses, sales literature, products, and
 Instances of this entity are listed below.  
 
 [applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign](../../Campaign.md "/core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign")  
-applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Campaign.cdm.json/Campaign  
+/foundationCommon/crmCommon/accelerators/nonProfit/Campaign.cdm.json/Campaign  
 
 ## Traits
 
 <details>
-<summary>Traits for this entity are listed below.  
-</summary>
-
+Traits for this entity are listed below.  
+  
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 

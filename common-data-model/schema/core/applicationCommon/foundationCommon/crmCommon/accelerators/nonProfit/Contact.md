@@ -23,16 +23,15 @@ Instances of this entity are listed below.
 [applicationCommon/foundationCommon/crmCommon/Contact.cdm.json/Contact](../../Contact.md "/core/applicationCommon/foundationCommon/crmCommon/Contact.cdm.json/Contact")  
 [applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Contact.cdm.json/Contact](../education/higherEducation/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Contact.cdm.json/Contact")  
 [applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Contact.cdm.json/Contact](../healthCare/electronicMedicalRecords/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Contact.cdm.json/Contact")  
-applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Contact.cdm.json/Contact  
+/foundationCommon/crmCommon/accelerators/nonProfit/Contact.cdm.json/Contact  
 [applicationCommon/foundationCommon/crmCommon/solutions/marketing/Contact.cdm.json/Contact](../../solutions/marketing/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Contact.cdm.json/Contact")  
 [applicationCommon/foundationCommon/crmCommon/solutions/portals/Contact.cdm.json/Contact](../../solutions/portals/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Contact.cdm.json/Contact")  
 
 ## Traits
 
 <details>
-<summary>Traits for this entity are listed below.  
-</summary>
-
+Traits for this entity are listed below.  
+  
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 

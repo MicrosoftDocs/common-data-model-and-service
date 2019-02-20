@@ -18,14 +18,13 @@ This entity identifies an instance or a type of a manufactured item that is used
 
 Instances of this entity are listed below.  
 
-applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device.cdm.json/Device  
+/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device.cdm.json/Device  
 
 ## Traits
 
 <details>
-<summary>Traits for this entity are listed below.  
-</summary>
-
+Traits for this entity are listed below.  
+  
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 

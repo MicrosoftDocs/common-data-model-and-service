@@ -18,15 +18,14 @@ Activity that tracks call outcome and number of pages for a fax and optionally s
 
 Instances of this entity are listed below.  
 
-applicationCommon/Fax.cdm.json/Fax  
+/Fax.cdm.json/Fax  
 [applicationCommon/foundationCommon/crmCommon/Fax.cdm.json/Fax](foundationCommon/crmCommon/Fax.md "/core/applicationCommon/foundationCommon/crmCommon/Fax.cdm.json/Fax")  
 
 ## Traits
 
 <details>
-<summary>Traits for this entity are listed below.  
-</summary>
-
+Traits for this entity are listed below.  
+  
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 

@@ -18,14 +18,13 @@ Target objective for a user or a team for a specified time period.
 
 Instances of this entity are listed below.  
 
-applicationCommon/Goal.cdm.json/Goal  
+/Goal.cdm.json/Goal  
 
 ## Traits
 
 <details>
-<summary>Traits for this entity are listed below.  
-</summary>
-
+Traits for this entity are listed below.  
+  
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 

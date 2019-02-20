@@ -19,14 +19,13 @@ Structured content that is part of the knowledge base.
 Instances of this entity are listed below.  
 
 [applicationCommon/Article.cdm.json/Article](../../../../Article.md "/core/applicationCommon/Article.cdm.json/Article")  
-applicationCommon/foundationCommon/crmCommon/solutions/portals/Article.cdm.json/Article  
+/foundationCommon/crmCommon/solutions/portals/Article.cdm.json/Article  
 
 ## Traits
 
 <details>
-<summary>Traits for this entity are listed below.  
-</summary>
-
+Traits for this entity are listed below.  
+  
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 

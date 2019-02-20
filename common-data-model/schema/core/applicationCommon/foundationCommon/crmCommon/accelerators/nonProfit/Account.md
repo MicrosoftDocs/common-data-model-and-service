@@ -23,16 +23,15 @@ Instances of this entity are listed below.
 [applicationCommon/foundationCommon/crmCommon/Account.cdm.json/Account](../../Account.md "/core/applicationCommon/foundationCommon/crmCommon/Account.cdm.json/Account")  
 [applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Account.cdm.json/Account](../education/higherEducation/Account.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Account.cdm.json/Account")  
 [applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Account.cdm.json/Account](../healthCare/electronicMedicalRecords/Account.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Account.cdm.json/Account")  
-applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Account.cdm.json/Account  
+/foundationCommon/crmCommon/accelerators/nonProfit/Account.cdm.json/Account  
 [applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Account.cdm.json/Account](../../solutions/marketing/eventManagement/Account.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Account.cdm.json/Account")  
 [applicationCommon/foundationCommon/crmCommon/solutions/portals/Account.cdm.json/Account](../../solutions/portals/Account.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Account.cdm.json/Account")  
 
 ## Traits
 
 <details>
-<summary>Traits for this entity are listed below.  
-</summary>
-
+Traits for this entity are listed below.  
+  
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 

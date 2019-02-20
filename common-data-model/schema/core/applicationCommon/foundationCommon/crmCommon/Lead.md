@@ -18,16 +18,15 @@ Prospect or potential sales opportunity. Leads are converted into accounts, cont
 
 Instances of this entity are listed below.  
 
-applicationCommon/foundationCommon/crmCommon/Lead.cdm.json/Lead  
+/foundationCommon/crmCommon/Lead.cdm.json/Lead  
 [applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Lead.cdm.json/Lead](accelerators/nonProfit/Lead.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Lead.cdm.json/Lead")  
 [applicationCommon/foundationCommon/crmCommon/solutions/marketing/Lead.cdm.json/Lead](solutions/marketing/Lead.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Lead.cdm.json/Lead")  
 
 ## Traits
 
 <details>
-<summary>Traits for this entity are listed below.  
-</summary>
-
+Traits for this entity are listed below.  
+  
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 

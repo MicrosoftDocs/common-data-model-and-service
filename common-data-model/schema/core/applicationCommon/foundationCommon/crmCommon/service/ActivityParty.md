@@ -19,14 +19,13 @@ Person or group associated with an activity. An activity can have multiple activ
 Instances of this entity are listed below.  
 
 [applicationCommon/ActivityParty.cdm.json/ActivityParty](../../../ActivityParty.md "/core/applicationCommon/ActivityParty.cdm.json/ActivityParty")  
-applicationCommon/foundationCommon/crmCommon/service/ActivityParty.cdm.json/ActivityParty  
+/foundationCommon/crmCommon/service/ActivityParty.cdm.json/ActivityParty  
 
 ## Traits
 
 <details>
-<summary>Traits for this entity are listed below.  
-</summary>
-
+Traits for this entity are listed below.  
+  
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 

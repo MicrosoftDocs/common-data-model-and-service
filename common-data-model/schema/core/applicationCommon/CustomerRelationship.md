@@ -18,14 +18,13 @@ Relationship between a customer and a partner in which either can be an account 
 
 Instances of this entity are listed below.  
 
-applicationCommon/CustomerRelationship.cdm.json/CustomerRelationship  
+/CustomerRelationship.cdm.json/CustomerRelationship  
 
 ## Traits
 
 <details>
-<summary>Traits for this entity are listed below.  
-</summary>
-
+Traits for this entity are listed below.  
+  
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 

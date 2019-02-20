@@ -18,15 +18,14 @@ No of times an article is viewed per day
 
 Instances of this entity are listed below.  
 
-applicationCommon/KnowledgeArticleViews.cdm.json/KnowledgeArticleViews  
+/KnowledgeArticleViews.cdm.json/KnowledgeArticleViews  
 [applicationCommon/foundationCommon/crmCommon/solutions/portals/KnowledgeArticleViews.cdm.json/KnowledgeArticleViews](foundationCommon/crmCommon/solutions/portals/KnowledgeArticleViews.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/KnowledgeArticleViews.cdm.json/KnowledgeArticleViews")  
 
 ## Traits
 
 <details>
-<summary>Traits for this entity are listed below.  
-</summary>
-
+Traits for this entity are listed below.  
+  
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
