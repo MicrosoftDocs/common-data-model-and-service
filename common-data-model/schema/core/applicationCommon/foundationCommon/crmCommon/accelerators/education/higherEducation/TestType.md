@@ -18,7 +18,7 @@ Type of test taken by a Student Contact
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/education/higherEducation/TestType.cdm.json/TestType  
+/foundationCommon/crmCommon/accelerators/education/higherEducation/TestType  
 
 ## Traits
 

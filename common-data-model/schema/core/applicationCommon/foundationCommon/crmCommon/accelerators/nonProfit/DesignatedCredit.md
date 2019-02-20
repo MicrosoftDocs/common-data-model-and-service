@@ -18,7 +18,7 @@ A segment of a donation payment or in-kind gift that indicating the partial amou
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/nonProfit/DesignatedCredit.cdm.json/DesignatedCredit  
+/foundationCommon/crmCommon/accelerators/nonProfit/DesignatedCredit  
 
 ## Traits
 

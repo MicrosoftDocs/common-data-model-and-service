@@ -18,8 +18,8 @@ Person or group associated with an activity. An activity can have multiple activ
 
 Instances of this entity are listed below.  
 
-[/ActivityParty.cdm.json/ActivityParty](../../../ActivityParty.md "/core/applicationCommon/ActivityParty.cdm.json/ActivityParty")  
-/foundationCommon/crmCommon/service/ActivityParty.cdm.json/ActivityParty  
+[/ActivityParty](../../../ActivityParty.md "/core/applicationCommon/ActivityParty.cdm.json/ActivityParty")  
+/foundationCommon/crmCommon/service/ActivityParty  
 
 ## Traits
 

@@ -18,7 +18,7 @@ An association between a patient and an organization / healthcare provider(s) du
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EpisodeOfCare.cdm.json/EpisodeOfCare  
+/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EpisodeOfCare  
 
 ## Traits
 

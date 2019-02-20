@@ -18,7 +18,7 @@ Grouping of units.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/UnitGroup.cdm.json/UnitGroup  
+/foundationCommon/UnitGroup  
 
 ## Traits
 

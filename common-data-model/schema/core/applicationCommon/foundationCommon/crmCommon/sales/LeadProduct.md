@@ -17,7 +17,7 @@ ms.author: tpalmer
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/sales/LeadProduct.cdm.json/LeadProduct  
+/foundationCommon/crmCommon/sales/LeadProduct  
 
 ## Traits
 

@@ -17,7 +17,7 @@ ms.author: tpalmer
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/marketing/interactions/EmailFeedbackLoop.cdm.json/EmailFeedbackLoop  
+/foundationCommon/crmCommon/solutions/marketing/interactions/EmailFeedbackLoop  
 
 ## Traits
 

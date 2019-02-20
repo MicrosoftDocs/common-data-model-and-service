@@ -18,7 +18,7 @@ A list of records that require action, such as accounts, activities, and cases.
 
 Instances of this entity are listed below.  
 
-/Queue.cdm.json/Queue  
+/Queue  
 
 ## Traits
 

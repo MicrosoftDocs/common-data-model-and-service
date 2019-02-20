@@ -18,7 +18,7 @@ A post belonging to a portal blog.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/portals/BlogPost.cdm.json/BlogPost  
+/foundationCommon/crmCommon/solutions/portals/BlogPost  
 
 ## Traits
 

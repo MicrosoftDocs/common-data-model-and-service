@@ -18,7 +18,7 @@ Category for a Knowledge Article.
 
 Instances of this entity are listed below.  
 
-/KnowledgeArticleCategory.cdm.json/KnowledgeArticleCategory  
+/KnowledgeArticleCategory  
 
 ## Traits
 

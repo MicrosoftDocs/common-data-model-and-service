@@ -18,7 +18,7 @@ Relationship between a customer and a partner in which either can be an account 
 
 Instances of this entity are listed below.  
 
-/CustomerRelationship.cdm.json/CustomerRelationship  
+/CustomerRelationship  
 
 ## Traits
 

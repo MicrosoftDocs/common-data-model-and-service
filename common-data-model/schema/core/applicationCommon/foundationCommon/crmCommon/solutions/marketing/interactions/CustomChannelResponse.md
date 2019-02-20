@@ -17,7 +17,7 @@ ms.author: tpalmer
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/marketing/interactions/CustomChannelResponse.cdm.json/CustomChannelResponse  
+/foundationCommon/crmCommon/solutions/marketing/interactions/CustomChannelResponse  
 
 ## Traits
 

@@ -18,7 +18,7 @@ An item or a group of items that can be sponsored
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/marketing/eventManagement/SponsorableArticle.cdm.json/SponsorableArticle  
+/foundationCommon/crmCommon/solutions/marketing/eventManagement/SponsorableArticle  
 
 ## Traits
 

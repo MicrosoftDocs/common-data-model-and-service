@@ -18,8 +18,8 @@ Service level agreement (SLA) key performance indicator (KPI) instance that is t
 
 Instances of this entity are listed below.  
 
-[/SLAKPIInstance.cdm.json/SLAKPIInstance](../../../SLAKPIInstance.md "/core/applicationCommon/SLAKPIInstance.cdm.json/SLAKPIInstance")  
-/foundationCommon/crmCommon/service/SLAKPIInstance.cdm.json/SLAKPIInstance  
+[/SLAKPIInstance](../../../SLAKPIInstance.md "/core/applicationCommon/SLAKPIInstance.cdm.json/SLAKPIInstance")  
+/foundationCommon/crmCommon/service/SLAKPIInstance  
 
 ## Traits
 

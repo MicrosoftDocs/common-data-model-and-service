@@ -18,7 +18,7 @@ A specific set of Roles/Locations/specialties/services that a practitioner may p
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PractitionerRole.cdm.json/PractitionerRole  
+/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PractitionerRole  
 
 ## Traits
 

@@ -18,7 +18,7 @@ An interaction between a patient and healthcare provider(s) for the purpose of p
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json/Encounter  
+/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter  
 
 ## Traits
 

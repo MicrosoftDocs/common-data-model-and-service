@@ -17,7 +17,7 @@ ms.author: tpalmer
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/portals/Poll.cdm.json/Poll  
+/foundationCommon/crmCommon/solutions/portals/Poll  
 
 ## Traits
 

@@ -17,7 +17,7 @@ ms.author: tpalmer
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/marketing/interactions/EmailSent.cdm.json/EmailSent  
+/foundationCommon/crmCommon/solutions/marketing/interactions/EmailSent  
 
 ## Traits
 

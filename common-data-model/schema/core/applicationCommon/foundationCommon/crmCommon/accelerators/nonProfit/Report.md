@@ -18,7 +18,7 @@ A status report submitted by an awardee to the granting entity (i.e., a Foundati
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/nonProfit/Report.cdm.json/Report  
+/foundationCommon/crmCommon/accelerators/nonProfit/Report  
 
 ## Traits
 

@@ -18,8 +18,8 @@ Instance of a property with its value.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/PropertyInstance.cdm.json/PropertyInstance  
-[/foundationCommon/crmCommon/sales/PropertyInstance.cdm.json/PropertyInstance](crmCommon/sales/PropertyInstance.md "/core/applicationCommon/foundationCommon/crmCommon/sales/PropertyInstance.cdm.json/PropertyInstance")  
+/foundationCommon/PropertyInstance  
+[/foundationCommon/crmCommon/sales/PropertyInstance](crmCommon/sales/PropertyInstance.md "/core/applicationCommon/foundationCommon/crmCommon/sales/PropertyInstance.cdm.json/PropertyInstance")  
 
 ## Traits
 

@@ -18,7 +18,7 @@ Note that is attached to one or more objects, including other notes.
 
 Instances of this entity are listed below.  
 
-/Note.cdm.json/Note  
+/Note  
 
 ## Traits
 

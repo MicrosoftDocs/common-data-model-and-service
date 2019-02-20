@@ -17,7 +17,7 @@ ms.author: tpalmer
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/service/IncidentKnowledgeBaseRecord.cdm.json/IncidentKnowledgeBaseRecord  
+/foundationCommon/crmCommon/service/IncidentKnowledgeBaseRecord  
 
 ## Traits
 

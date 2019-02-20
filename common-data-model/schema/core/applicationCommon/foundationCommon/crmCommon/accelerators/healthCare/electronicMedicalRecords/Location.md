@@ -18,7 +18,7 @@ Details and position information for a physical place where services are provide
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Location.cdm.json/Location  
+/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Location  
 
 ## Traits
 

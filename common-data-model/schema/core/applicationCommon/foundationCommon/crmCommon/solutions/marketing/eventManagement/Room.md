@@ -18,7 +18,7 @@ A room is where a session may be held. A single room can be used in multiple dif
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/marketing/eventManagement/Room.cdm.json/Room  
+/foundationCommon/crmCommon/solutions/marketing/eventManagement/Room  
 
 ## Traits
 

@@ -18,7 +18,7 @@ Agreement to provide customer service during a specified amount of time or numbe
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/service/Contract.cdm.json/Contract  
+/foundationCommon/crmCommon/service/Contract  
 
 ## Traits
 

@@ -18,7 +18,7 @@ Task performed, or to be performed, by a user for planning or running a campaign
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/CampaignActivity.cdm.json/CampaignActivity  
+/foundationCommon/crmCommon/CampaignActivity  
 
 ## Traits
 

@@ -18,7 +18,7 @@ Line item in an invoice containing detailed billing information for a product.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+/foundationCommon/crmCommon/sales/InvoiceProduct  
 
 ## Traits
 

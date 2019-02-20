@@ -18,7 +18,7 @@ Entity that defines pricing levels.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/PriceList.cdm.json/PriceList  
+/foundationCommon/PriceList  
 
 ## Traits
 

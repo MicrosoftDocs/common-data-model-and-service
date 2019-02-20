@@ -18,7 +18,7 @@ An order or request for both supply of the medication and the instructions for a
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest  
 
 ## Traits
 

@@ -18,7 +18,7 @@ Information about the selling relationship between two products, including the r
 
 Instances of this entity are listed below.  
 
-/foundationCommon/ProductRelationship.cdm.json/ProductRelationship  
+/foundationCommon/ProductRelationship  
 
 ## Traits
 

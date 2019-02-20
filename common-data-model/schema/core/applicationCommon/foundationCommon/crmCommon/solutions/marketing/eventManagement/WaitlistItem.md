@@ -17,7 +17,7 @@ ms.author: tpalmer
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/marketing/eventManagement/WaitlistItem.cdm.json/WaitlistItem  
+/foundationCommon/crmCommon/solutions/marketing/eventManagement/WaitlistItem  
 
 ## Traits
 

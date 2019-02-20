@@ -18,7 +18,7 @@ A specific item in a queue, such as a case record or an activity record.
 
 Instances of this entity are listed below.  
 
-/QueueItem.cdm.json/QueueItem  
+/QueueItem  
 
 ## Traits
 

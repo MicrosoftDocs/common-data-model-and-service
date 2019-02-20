@@ -18,7 +18,7 @@ Container to manage and plan marketing activities that take place at a specific 
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event  
+/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event  
 
 ## Traits
 

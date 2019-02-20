@@ -18,7 +18,7 @@ Resource Expansions.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/service/ResourceExpansion.cdm.json/ResourceExpansion  
+/foundationCommon/crmCommon/service/ResourceExpansion  
 
 ## Traits
 

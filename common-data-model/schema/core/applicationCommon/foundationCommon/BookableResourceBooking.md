@@ -18,7 +18,7 @@ Represents the line details of a resource booking.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/BookableResourceBooking.cdm.json/BookableResourceBooking  
+/foundationCommon/BookableResourceBooking  
 
 ## Traits
 

@@ -18,7 +18,7 @@ The previous education history for a student.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/education/higherEducation/PreviousEducation.cdm.json/PreviousEducation  
+/foundationCommon/crmCommon/accelerators/education/higherEducation/PreviousEducation  
 
 ## Traits
 

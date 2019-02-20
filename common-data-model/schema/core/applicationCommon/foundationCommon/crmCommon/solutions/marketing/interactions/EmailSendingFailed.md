@@ -17,7 +17,7 @@ ms.author: tpalmer
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/marketing/interactions/EmailSendingFailed.cdm.json/EmailSendingFailed  
+/foundationCommon/crmCommon/solutions/marketing/interactions/EmailSendingFailed  
 
 ## Traits
 

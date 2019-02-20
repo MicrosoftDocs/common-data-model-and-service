@@ -18,7 +18,7 @@ Activity that represents work done to satisfy a customer's need.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/service/Service.cdm.json/Service  
+/foundationCommon/crmCommon/service/Service  
 
 ## Traits
 

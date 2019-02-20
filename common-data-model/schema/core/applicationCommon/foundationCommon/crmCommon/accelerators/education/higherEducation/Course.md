@@ -18,7 +18,7 @@ The master list of all courses offered by an institution.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/education/higherEducation/Course.cdm.json/Course  
+/foundationCommon/crmCommon/accelerators/education/higherEducation/Course  
 
 ## Traits
 

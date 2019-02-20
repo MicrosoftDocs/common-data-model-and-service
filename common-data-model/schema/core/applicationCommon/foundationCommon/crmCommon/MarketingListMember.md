@@ -18,7 +18,7 @@ Item in a marketing list.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/MarketingListMember.cdm.json/MarketingListMember  
+/foundationCommon/crmCommon/MarketingListMember  
 
 ## Traits
 

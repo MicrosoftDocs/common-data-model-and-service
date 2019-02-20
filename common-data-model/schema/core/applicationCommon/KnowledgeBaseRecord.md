@@ -18,7 +18,7 @@ Metadata of knowledge base (KB) articles associated with Microsoft Dynamics 365 
 
 Instances of this entity are listed below.  
 
-/KnowledgeBaseRecord.cdm.json/KnowledgeBaseRecord  
+/KnowledgeBaseRecord  
 
 ## Traits
 

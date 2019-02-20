@@ -18,7 +18,7 @@ Business competing for the sale represented by a lead or opportunity.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/sales/Competitor.cdm.json/Competitor  
+/foundationCommon/crmCommon/sales/Competitor  
 
 ## Traits
 

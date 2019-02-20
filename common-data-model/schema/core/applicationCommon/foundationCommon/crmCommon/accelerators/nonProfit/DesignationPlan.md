@@ -18,7 +18,7 @@ A line item attached to a Pledge, Payment Schedule, or Campaign indicating how a
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/nonProfit/DesignationPlan.cdm.json/DesignationPlan  
+/foundationCommon/crmCommon/accelerators/nonProfit/DesignationPlan  
 
 ## Traits
 

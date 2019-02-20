@@ -18,7 +18,7 @@ Represents a model to evaluate skills or other related entities.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/RatingModel.cdm.json/RatingModel  
+/foundationCommon/RatingModel  
 
 ## Traits
 

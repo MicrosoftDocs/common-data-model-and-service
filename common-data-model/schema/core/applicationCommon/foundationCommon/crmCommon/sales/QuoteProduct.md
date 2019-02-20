@@ -18,7 +18,7 @@ Product line item in a quote. The details include such information as product ID
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/sales/QuoteProduct.cdm.json/QuoteProduct  
+/foundationCommon/crmCommon/sales/QuoteProduct  
 
 ## Traits
 

@@ -18,7 +18,7 @@ An idea belonging to a portal Idea Forum.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/portals/Idea.cdm.json/Idea  
+/foundationCommon/crmCommon/solutions/portals/Idea  
 
 ## Traits
 

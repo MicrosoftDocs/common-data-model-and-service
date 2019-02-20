@@ -18,7 +18,7 @@ Measurements and simple assertions made about a patient, device or other subject
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json/Observation  
+/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation  
 
 ## Traits
 

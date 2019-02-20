@@ -18,7 +18,7 @@ Each record of this type tracks a single request made by an event attendee (thro
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomReservation.cdm.json/HotelRoomReservation  
+/foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomReservation  
 
 ## Traits
 

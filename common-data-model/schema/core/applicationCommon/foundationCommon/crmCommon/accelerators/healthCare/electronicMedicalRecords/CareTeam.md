@@ -18,7 +18,7 @@ The Care Team includes all the people and organizations who plan to participate 
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CareTeam.cdm.json/CareTeam  
+/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CareTeam  
 
 ## Traits
 

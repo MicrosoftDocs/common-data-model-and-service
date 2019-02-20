@@ -18,7 +18,7 @@ The layout entity is to provide users a quick way to specify the various differe
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/marketing/eventManagement/Layout.cdm.json/Layout  
+/foundationCommon/crmCommon/solutions/marketing/eventManagement/Layout  
 
 ## Traits
 

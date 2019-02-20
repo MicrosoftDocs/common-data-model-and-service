@@ -18,7 +18,7 @@ The master list of program types defined by the institution, such as major, mino
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/education/higherEducation/StudentProgramType.cdm.json/StudentProgramType  
+/foundationCommon/crmCommon/accelerators/education/higherEducation/StudentProgramType  
 
 ## Traits
 

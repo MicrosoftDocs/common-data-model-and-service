@@ -18,7 +18,7 @@ Amount of funds that can be designated for an Objective and/or Delivery Framewor
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/nonProfit/Budget.cdm.json/Budget  
+/foundationCommon/crmCommon/accelerators/nonProfit/Budget  
 
 ## Traits
 

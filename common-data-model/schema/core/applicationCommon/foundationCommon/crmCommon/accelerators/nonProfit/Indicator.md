@@ -18,7 +18,7 @@ An Indicator describes what will be measured to track evidence of a Result. Indi
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/nonProfit/Indicator.cdm.json/Indicator  
+/foundationCommon/crmCommon/accelerators/nonProfit/Indicator  
 
 ## Traits
 

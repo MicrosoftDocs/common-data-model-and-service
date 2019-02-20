@@ -18,7 +18,7 @@ Contains information about the tracked service-level KPIs for cases that belong 
 
 Instances of this entity are listed below.  
 
-/SLA.cdm.json/SLA  
+/SLA  
 
 ## Traits
 

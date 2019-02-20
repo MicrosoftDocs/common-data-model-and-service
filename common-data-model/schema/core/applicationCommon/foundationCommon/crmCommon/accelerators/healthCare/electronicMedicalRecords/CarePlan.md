@@ -18,7 +18,7 @@ Describes the intention of how one or more practitioners intend to deliver care 
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlan.cdm.json/CarePlan  
+/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlan  
 
 ## Traits
 

@@ -18,7 +18,7 @@ A gift transaction can be a one-time payment or a recurring payment (ie, monthly
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/nonProfit/PaymentSchedule.cdm.json/PaymentSchedule  
+/foundationCommon/crmCommon/accelerators/nonProfit/PaymentSchedule  
 
 ## Traits
 

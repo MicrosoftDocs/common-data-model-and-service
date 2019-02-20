@@ -18,7 +18,7 @@ An assessment of the likely outcome(s) for a patient or other subject as well as
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/RiskAssessment.cdm.json/RiskAssessment  
+/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/RiskAssessment  
 
 ## Traits
 

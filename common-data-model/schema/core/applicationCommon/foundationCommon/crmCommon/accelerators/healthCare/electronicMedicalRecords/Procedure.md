@@ -18,7 +18,7 @@ An action that is or was performed on a patient. This can be a physical interven
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Procedure.cdm.json/Procedure  
+/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Procedure  
 
 ## Traits
 

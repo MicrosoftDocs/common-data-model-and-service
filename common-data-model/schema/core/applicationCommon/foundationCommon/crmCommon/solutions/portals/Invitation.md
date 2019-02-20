@@ -18,8 +18,8 @@ Send invitations to existing contacts or email addresses and assign them to web 
 
 Instances of this entity are listed below.  
 
-[/foundationCommon/crmCommon/solutions/marketing/eventManagement/Invitation.cdm.json/Invitation](../marketing/eventManagement/Invitation.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Invitation.cdm.json/Invitation")  
-/foundationCommon/crmCommon/solutions/portals/Invitation.cdm.json/Invitation  
+[/foundationCommon/crmCommon/solutions/marketing/eventManagement/Invitation](../marketing/eventManagement/Invitation.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Invitation.cdm.json/Invitation")  
+/foundationCommon/crmCommon/solutions/portals/Invitation  
 
 ## Traits
 

@@ -18,7 +18,7 @@ This entity records the number of rooms that are allocated from a single hotel f
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomAllocation.cdm.json/HotelRoomAllocation  
+/foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomAllocation  
 
 ## Traits
 

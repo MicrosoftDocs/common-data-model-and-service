@@ -18,7 +18,7 @@ The periods of time in which courses are offered by the institution,  such as a 
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/education/higherEducation/AcademicPeriod.cdm.json/AcademicPeriod  
+/foundationCommon/crmCommon/accelerators/education/higherEducation/AcademicPeriod  
 
 ## Traits
 

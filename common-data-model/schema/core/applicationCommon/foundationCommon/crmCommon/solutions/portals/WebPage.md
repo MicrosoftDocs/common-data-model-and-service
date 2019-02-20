@@ -18,7 +18,7 @@ Webpage
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage  
+/foundationCommon/crmCommon/solutions/portals/WebPage  
 
 ## Traits
 

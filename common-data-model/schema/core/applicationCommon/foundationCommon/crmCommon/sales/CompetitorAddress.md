@@ -18,7 +18,7 @@ Additional addresses for a competitor. The first two addresses are stored in the
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/sales/CompetitorAddress.cdm.json/CompetitorAddress  
+/foundationCommon/crmCommon/sales/CompetitorAddress  
 
 ## Traits
 

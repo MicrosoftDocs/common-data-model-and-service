@@ -18,7 +18,7 @@ Comment on a knowledge base article.
 
 Instances of this entity are listed below.  
 
-/ArticleComment.cdm.json/ArticleComment  
+/ArticleComment  
 
 ## Traits
 

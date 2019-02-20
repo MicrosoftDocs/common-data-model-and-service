@@ -18,7 +18,7 @@ Work item in a campaign, a list or sales literature.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/CampaignItem.cdm.json/CampaignItem  
+/foundationCommon/crmCommon/CampaignItem  
 
 ## Traits
 

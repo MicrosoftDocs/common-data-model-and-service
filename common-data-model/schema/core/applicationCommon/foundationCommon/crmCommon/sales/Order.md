@@ -18,7 +18,7 @@ Quote that has been accepted.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/sales/Order.cdm.json/Order  
+/foundationCommon/crmCommon/sales/Order  
 
 ## Traits
 

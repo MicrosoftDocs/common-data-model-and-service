@@ -18,7 +18,7 @@ Information about a product property.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/Property.cdm.json/Property  
+/foundationCommon/Property  
 
 ## Traits
 

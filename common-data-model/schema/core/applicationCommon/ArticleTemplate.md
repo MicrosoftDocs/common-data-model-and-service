@@ -18,7 +18,7 @@ Template for a knowledge base article that contains the standard attributes of a
 
 Instances of this entity are listed below.  
 
-/ArticleTemplate.cdm.json/ArticleTemplate  
+/ArticleTemplate  
 
 ## Traits
 

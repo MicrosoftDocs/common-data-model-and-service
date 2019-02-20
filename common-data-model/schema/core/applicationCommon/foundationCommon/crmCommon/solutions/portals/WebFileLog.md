@@ -18,7 +18,7 @@ A record of the download of a web file
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/portals/WebFileLog.cdm.json/WebFileLog  
+/foundationCommon/crmCommon/solutions/portals/WebFileLog  
 
 ## Traits
 

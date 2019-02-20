@@ -18,7 +18,7 @@ Qualifications obtained by training and certification.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PractitionerQualification.cdm.json/PractitionerQualification  
+/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PractitionerQualification  
 
 ## Traits
 

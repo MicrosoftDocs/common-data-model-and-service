@@ -18,7 +18,7 @@ The way a donor or prospect is commonly addressed via written communication (lha
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/nonProfit/Salutation.cdm.json/Salutation  
+/foundationCommon/crmCommon/accelerators/nonProfit/Salutation  
 
 ## Traits
 

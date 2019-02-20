@@ -18,7 +18,7 @@ Signature for email message
 
 Instances of this entity are listed below.  
 
-/EmailSignature.cdm.json/EmailSignature  
+/EmailSignature  
 
 ## Traits
 

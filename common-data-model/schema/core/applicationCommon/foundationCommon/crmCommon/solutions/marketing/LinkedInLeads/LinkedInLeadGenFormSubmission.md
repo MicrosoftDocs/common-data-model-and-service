@@ -18,7 +18,7 @@ Submissions from prospects on LinkedIn
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/marketing/LinkedInLeads/LinkedInLeadGenFormSubmission.cdm.json/LinkedInLeadGenFormSubmission  
+/foundationCommon/crmCommon/solutions/marketing/LinkedInLeads/LinkedInLeadGenFormSubmission  
 
 ## Traits
 

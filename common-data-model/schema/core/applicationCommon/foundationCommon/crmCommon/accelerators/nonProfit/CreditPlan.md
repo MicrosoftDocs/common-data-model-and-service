@@ -18,7 +18,7 @@ Credit Plans control who will be credited with hard or soft credits after a paym
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/nonProfit/CreditPlan.cdm.json/CreditPlan  
+/foundationCommon/crmCommon/accelerators/nonProfit/CreditPlan  
 
 ## Traits
 

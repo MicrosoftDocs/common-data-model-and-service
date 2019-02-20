@@ -18,7 +18,7 @@ Activity generated automatically when an order is closed.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/sales/OrderClose.cdm.json/OrderClose  
+/foundationCommon/crmCommon/sales/OrderClose  
 
 ## Traits
 

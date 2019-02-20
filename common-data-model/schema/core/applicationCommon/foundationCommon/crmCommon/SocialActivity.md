@@ -18,8 +18,8 @@ For internal use only.
 
 Instances of this entity are listed below.  
 
-[/SocialActivity.cdm.json/SocialActivity](../../SocialActivity.md "/core/applicationCommon/SocialActivity.cdm.json/SocialActivity")  
-/foundationCommon/crmCommon/SocialActivity.cdm.json/SocialActivity  
+[/SocialActivity](../../SocialActivity.md "/core/applicationCommon/SocialActivity.cdm.json/SocialActivity")  
+/foundationCommon/crmCommon/SocialActivity  
 
 ## Traits
 

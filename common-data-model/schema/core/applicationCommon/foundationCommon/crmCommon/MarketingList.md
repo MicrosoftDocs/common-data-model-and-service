@@ -18,8 +18,8 @@ Group of existing or potential customers created for a marketing campaign or oth
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/MarketingList.cdm.json/MarketingList  
-[/foundationCommon/crmCommon/solutions/marketing/MarketingList.cdm.json/MarketingList](solutions/marketing/MarketingList.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/MarketingList.cdm.json/MarketingList")  
+/foundationCommon/crmCommon/MarketingList  
+[/foundationCommon/crmCommon/solutions/marketing/MarketingList](solutions/marketing/MarketingList.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/MarketingList.cdm.json/MarketingList")  
 
 ## Traits
 

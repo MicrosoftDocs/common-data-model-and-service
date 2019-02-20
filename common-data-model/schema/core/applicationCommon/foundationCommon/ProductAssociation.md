@@ -18,7 +18,7 @@ Instance of a product added to a bundle or kit.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/ProductAssociation.cdm.json/ProductAssociation  
+/foundationCommon/ProductAssociation  
 
 ## Traits
 

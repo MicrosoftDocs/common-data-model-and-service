@@ -18,7 +18,7 @@ Used to record and send details about a request for referral service or transfer
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest  
 
 ## Traits
 

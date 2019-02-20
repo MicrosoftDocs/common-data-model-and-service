@@ -18,7 +18,7 @@ A booking of a healthcare event among patient(s), practitioner(s), related perso
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment  
 
 ## Traits
 

@@ -18,7 +18,7 @@ Contains information about a tracked support KPI for a specific customer.
 
 Instances of this entity are listed below.  
 
-/SLAItem.cdm.json/SLAItem  
+/SLAItem  
 
 ## Traits
 

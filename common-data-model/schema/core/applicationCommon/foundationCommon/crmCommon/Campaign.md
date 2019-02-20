@@ -18,8 +18,8 @@ Container for campaign activities and responses, sales literature, products, and
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/Campaign.cdm.json/Campaign  
-[/foundationCommon/crmCommon/accelerators/nonProfit/Campaign.cdm.json/Campaign](accelerators/nonProfit/Campaign.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Campaign.cdm.json/Campaign")  
+/foundationCommon/crmCommon/Campaign  
+[/foundationCommon/crmCommon/accelerators/nonProfit/Campaign](accelerators/nonProfit/Campaign.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Campaign.cdm.json/Campaign")  
 
 ## Traits
 

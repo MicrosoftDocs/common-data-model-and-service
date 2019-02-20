@@ -18,8 +18,8 @@ Structured content that is part of the knowledge base.
 
 Instances of this entity are listed below.  
 
-/Article.cdm.json/Article  
-[/foundationCommon/crmCommon/solutions/portals/Article.cdm.json/Article](foundationCommon/crmCommon/solutions/portals/Article.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Article.cdm.json/Article")  
+/Article  
+[/foundationCommon/crmCommon/solutions/portals/Article](foundationCommon/crmCommon/solutions/portals/Article.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Article.cdm.json/Article")  
 
 ## Traits
 

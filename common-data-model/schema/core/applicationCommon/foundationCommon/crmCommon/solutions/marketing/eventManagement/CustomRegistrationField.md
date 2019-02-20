@@ -17,7 +17,7 @@ ms.author: tpalmer
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/marketing/eventManagement/CustomRegistrationField.cdm.json/CustomRegistrationField  
+/foundationCommon/crmCommon/solutions/marketing/eventManagement/CustomRegistrationField  
 
 ## Traits
 

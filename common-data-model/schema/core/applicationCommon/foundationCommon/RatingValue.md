@@ -18,7 +18,7 @@ A unique value associated with a rating model that allows providing a user frien
 
 Instances of this entity are listed below.  
 
-/foundationCommon/RatingValue.cdm.json/RatingValue  
+/foundationCommon/RatingValue  
 
 ## Traits
 

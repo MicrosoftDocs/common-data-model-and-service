@@ -17,7 +17,7 @@ ms.author: tpalmer
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/portals/Forum.cdm.json/Forum  
+/foundationCommon/crmCommon/solutions/portals/Forum  
 
 ## Traits
 

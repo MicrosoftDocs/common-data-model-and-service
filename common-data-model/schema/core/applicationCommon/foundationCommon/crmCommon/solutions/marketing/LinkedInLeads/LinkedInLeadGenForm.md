@@ -18,7 +18,7 @@ Form shown to prospects on LinkedIn
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/marketing/LinkedInLeads/LinkedInLeadGenForm.cdm.json/LinkedInLeadGenForm  
+/foundationCommon/crmCommon/solutions/marketing/LinkedInLeads/LinkedInLeadGenForm  
 
 ## Traits
 

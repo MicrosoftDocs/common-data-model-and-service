@@ -18,7 +18,7 @@ Order that has been billed.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/sales/Invoice.cdm.json/Invoice  
+/foundationCommon/crmCommon/sales/Invoice  
 
 ## Traits
 

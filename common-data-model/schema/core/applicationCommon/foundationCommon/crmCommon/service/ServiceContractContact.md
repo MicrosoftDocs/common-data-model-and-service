@@ -18,7 +18,7 @@ Item in a Service contract.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/service/ServiceContractContact.cdm.json/ServiceContractContact  
+/foundationCommon/crmCommon/service/ServiceContractContact  
 
 ## Traits
 

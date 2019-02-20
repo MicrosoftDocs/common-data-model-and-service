@@ -18,7 +18,7 @@ Activity offered by the organization to satisfy its customer's needs. Each servi
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/service/ServiceActivity.cdm.json/ServiceActivity  
+/foundationCommon/crmCommon/service/ServiceActivity  
 
 ## Traits
 

@@ -18,7 +18,7 @@ Answers to individual questions on a form submitted by a LinkedIn member
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/marketing/LinkedInLeads/LinkedInFormSubmissionAnswer.cdm.json/LinkedInFormSubmissionAnswer  
+/foundationCommon/crmCommon/solutions/marketing/LinkedInLeads/LinkedInFormSubmissionAnswer  
 
 ## Traits
 

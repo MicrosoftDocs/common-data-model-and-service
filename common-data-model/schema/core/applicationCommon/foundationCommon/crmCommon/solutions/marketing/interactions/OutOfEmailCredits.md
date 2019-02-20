@@ -17,7 +17,7 @@ ms.author: tpalmer
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/marketing/interactions/OutOfEmailCredits.cdm.json/OutOfEmailCredits  
+/foundationCommon/crmCommon/solutions/marketing/interactions/OutOfEmailCredits  
 
 ## Traits
 

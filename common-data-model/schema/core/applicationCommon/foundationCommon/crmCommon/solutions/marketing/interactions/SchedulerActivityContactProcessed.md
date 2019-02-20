@@ -17,7 +17,7 @@ ms.author: tpalmer
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/marketing/interactions/SchedulerActivityContactProcessed.cdm.json/SchedulerActivityContactProcessed  
+/foundationCommon/crmCommon/solutions/marketing/interactions/SchedulerActivityContactProcessed  
 
 ## Traits
 

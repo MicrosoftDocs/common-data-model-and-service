@@ -18,7 +18,7 @@ This represents a single hotel property (for e.g, Marriott in Bellevue). Each in
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/marketing/eventManagement/Hotel.cdm.json/Hotel  
+/foundationCommon/crmCommon/solutions/marketing/eventManagement/Hotel  
 
 ## Traits
 

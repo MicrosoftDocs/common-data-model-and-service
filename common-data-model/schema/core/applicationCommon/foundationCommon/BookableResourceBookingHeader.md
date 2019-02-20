@@ -18,7 +18,7 @@ Reservation entity representing the summary of the associated resource bookings.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/BookableResourceBookingHeader.cdm.json/BookableResourceBookingHeader  
+/foundationCommon/BookableResourceBookingHeader  
 
 ## Traits
 

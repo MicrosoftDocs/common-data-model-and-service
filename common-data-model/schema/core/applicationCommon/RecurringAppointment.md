@@ -18,8 +18,8 @@ The Master appointment of a recurring appointment series.
 
 Instances of this entity are listed below.  
 
-/RecurringAppointment.cdm.json/RecurringAppointment  
-[/foundationCommon/crmCommon/RecurringAppointment.cdm.json/RecurringAppointment](foundationCommon/crmCommon/RecurringAppointment.md "/core/applicationCommon/foundationCommon/crmCommon/RecurringAppointment.cdm.json/RecurringAppointment")  
+/RecurringAppointment  
+[/foundationCommon/crmCommon/RecurringAppointment](foundationCommon/crmCommon/RecurringAppointment.md "/core/applicationCommon/foundationCommon/crmCommon/RecurringAppointment.cdm.json/RecurringAppointment")  
 
 ## Traits
 

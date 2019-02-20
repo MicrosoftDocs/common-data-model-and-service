@@ -18,7 +18,7 @@ Uniquely identifies a Company by name and type
 
 Instances of this entity are listed below.  
 
-/foundationCommon/Company.cdm.json/Company  
+/foundationCommon/Company  
 
 ## Traits
 

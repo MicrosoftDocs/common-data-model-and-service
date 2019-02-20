@@ -18,7 +18,7 @@ The master list of all program versions defined by the institution.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/education/higherEducation/ProgramVersion.cdm.json/ProgramVersion  
+/foundationCommon/crmCommon/accelerators/education/higherEducation/ProgramVersion  
 
 ## Traits
 

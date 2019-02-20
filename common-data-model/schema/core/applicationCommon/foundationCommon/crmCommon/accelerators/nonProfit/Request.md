@@ -18,7 +18,7 @@ Represents a request from an individual or institution for funding or support. A
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/nonProfit/Request.cdm.json/Request  
+/foundationCommon/crmCommon/accelerators/nonProfit/Request  
 
 ## Traits
 

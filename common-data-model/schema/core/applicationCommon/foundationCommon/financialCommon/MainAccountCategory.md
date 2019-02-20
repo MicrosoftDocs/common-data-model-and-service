@@ -18,7 +18,7 @@ Provides categorization of main accounts
 
 Instances of this entity are listed below.  
 
-/foundationCommon/financialCommon/MainAccountCategory.cdm.json/MainAccountCategory  
+/foundationCommon/financialCommon/MainAccountCategory  
 
 ## Traits
 

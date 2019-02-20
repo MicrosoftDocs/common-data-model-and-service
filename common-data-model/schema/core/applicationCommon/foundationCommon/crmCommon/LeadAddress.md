@@ -18,7 +18,7 @@ Address information for a lead.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/LeadAddress.cdm.json/LeadAddress  
+/foundationCommon/crmCommon/LeadAddress  
 
 ## Traits
 

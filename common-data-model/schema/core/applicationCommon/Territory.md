@@ -18,7 +18,7 @@ Territory represents sales regions.
 
 Instances of this entity are listed below.  
 
-/Territory.cdm.json/Territory  
+/Territory  
 
 ## Traits
 

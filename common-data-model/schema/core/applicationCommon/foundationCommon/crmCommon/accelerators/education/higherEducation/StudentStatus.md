@@ -18,7 +18,7 @@ The master list of student statuses defined by the institution.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/education/higherEducation/StudentStatus.cdm.json/StudentStatus  
+/foundationCommon/crmCommon/accelerators/education/higherEducation/StudentStatus  
 
 ## Traits
 

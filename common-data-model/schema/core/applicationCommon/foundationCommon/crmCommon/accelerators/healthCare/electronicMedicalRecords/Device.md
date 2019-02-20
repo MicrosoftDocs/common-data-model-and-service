@@ -18,7 +18,7 @@ This entity identifies an instance or a type of a manufactured item that is used
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device.cdm.json/Device  
+/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device  
 
 ## Traits
 

@@ -17,7 +17,7 @@ ms.author: tpalmer
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/marketing/eventManagement/CheckIn.cdm.json/CheckIn  
+/foundationCommon/crmCommon/solutions/marketing/eventManagement/CheckIn  
 
 ## Traits
 

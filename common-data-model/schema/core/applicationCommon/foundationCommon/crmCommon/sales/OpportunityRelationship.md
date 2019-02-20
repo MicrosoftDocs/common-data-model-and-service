@@ -18,7 +18,7 @@ Relationship between an account or contact and an opportunity.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/sales/OpportunityRelationship.cdm.json/OpportunityRelationship  
+/foundationCommon/crmCommon/sales/OpportunityRelationship  
 
 ## Traits
 

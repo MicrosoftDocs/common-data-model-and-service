@@ -18,7 +18,7 @@ A point in time snapshot of the attributes of an Award.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/nonProfit/AwardVersion.cdm.json/AwardVersion  
+/foundationCommon/crmCommon/accelerators/nonProfit/AwardVersion  
 
 ## Traits
 

@@ -18,7 +18,7 @@ Summarization of financial activity for a ledger, date, account, and dimension c
 
 Instances of this entity are listed below.  
 
-/foundationCommon/financialCommon/FinancialActivity.cdm.json/FinancialActivity  
+/foundationCommon/financialCommon/FinancialActivity  
 
 ## Traits
 

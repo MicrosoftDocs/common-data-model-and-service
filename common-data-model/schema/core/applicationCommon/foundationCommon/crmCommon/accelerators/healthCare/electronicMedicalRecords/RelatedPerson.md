@@ -18,7 +18,7 @@ Information about a person that is involved in the care for a patient, but who i
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/RelatedPerson.cdm.json/RelatedPerson  
+/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/RelatedPerson  
 
 ## Traits
 

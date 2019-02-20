@@ -18,7 +18,7 @@ Specific types of payments, including in-kind gifts, stock and securities that a
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/nonProfit/PaymentAsset.cdm.json/PaymentAsset  
+/foundationCommon/crmCommon/accelerators/nonProfit/PaymentAsset  
 
 ## Traits
 

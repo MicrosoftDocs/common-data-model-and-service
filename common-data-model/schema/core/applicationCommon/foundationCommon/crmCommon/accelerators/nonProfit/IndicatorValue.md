@@ -18,7 +18,7 @@ A quantitative or qualitative value of measurement of an Indicator
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/nonProfit/IndicatorValue.cdm.json/IndicatorValue  
+/foundationCommon/crmCommon/accelerators/nonProfit/IndicatorValue  
 
 ## Traits
 

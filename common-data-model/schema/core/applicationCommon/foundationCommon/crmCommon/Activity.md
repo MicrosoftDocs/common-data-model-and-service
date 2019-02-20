@@ -18,8 +18,8 @@ Task performed, or to be performed, by a user. An activity is any action for whi
 
 Instances of this entity are listed below.  
 
-[/Activity.cdm.json/Activity](../../Activity.md "/core/applicationCommon/Activity.cdm.json/Activity")  
-/foundationCommon/crmCommon/Activity.cdm.json/Activity  
+[/Activity](../../Activity.md "/core/applicationCommon/Activity.cdm.json/Activity")  
+/foundationCommon/crmCommon/Activity  
 
 ## Traits
 

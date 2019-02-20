@@ -18,7 +18,7 @@ Associates resources with their characteristics and specifies the proficiency le
 
 Instances of this entity are listed below.  
 
-/foundationCommon/BookableResourceCharacteristic.cdm.json/BookableResourceCharacteristic  
+/foundationCommon/BookableResourceCharacteristic  
 
 ## Traits
 

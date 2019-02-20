@@ -18,7 +18,7 @@ Location or branch office where an organization does business. An organization c
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/service/Site.cdm.json/Site  
+/foundationCommon/crmCommon/service/Site  
 
 ## Traits
 

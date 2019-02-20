@@ -18,7 +18,7 @@ A clinical condition, problem, diagnosis, or other event, situation, issue, or c
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition  
 
 ## Traits
 

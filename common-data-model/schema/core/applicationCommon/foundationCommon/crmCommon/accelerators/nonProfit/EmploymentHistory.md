@@ -18,7 +18,7 @@ Historical and/or current information about where a contact works, volunteers or
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/nonProfit/EmploymentHistory.cdm.json/EmploymentHistory  
+/foundationCommon/crmCommon/accelerators/nonProfit/EmploymentHistory  
 
 ## Traits
 

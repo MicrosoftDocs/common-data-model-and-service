@@ -18,7 +18,7 @@ Activity generated when a quote is closed.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/sales/QuoteClose.cdm.json/QuoteClose  
+/foundationCommon/crmCommon/sales/QuoteClose  
 
 ## Traits
 

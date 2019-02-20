@@ -17,7 +17,7 @@ ms.author: tpalmer
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/marketing/marketingLeads/LeadScoringModel.cdm.json/LeadScoringModel  
+/foundationCommon/crmCommon/solutions/marketing/marketingLeads/LeadScoringModel  
 
 ## Traits
 

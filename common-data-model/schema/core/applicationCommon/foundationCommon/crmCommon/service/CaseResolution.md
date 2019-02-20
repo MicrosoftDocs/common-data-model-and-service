@@ -18,7 +18,7 @@ Special type of activity that includes description of the resolution, billing st
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/service/CaseResolution.cdm.json/CaseResolution  
+/foundationCommon/crmCommon/service/CaseResolution  
 
 ## Traits
 

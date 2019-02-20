@@ -17,7 +17,7 @@ ms.author: tpalmer
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/marketing/ContentSettings.cdm.json/ContentSettings  
+/foundationCommon/crmCommon/solutions/marketing/ContentSettings  
 
 ## Traits
 

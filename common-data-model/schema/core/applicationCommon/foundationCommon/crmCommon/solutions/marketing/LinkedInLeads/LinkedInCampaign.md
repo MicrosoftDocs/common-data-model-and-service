@@ -18,7 +18,7 @@ Campaign used to capture submissions from prospects.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/marketing/LinkedInLeads/LinkedInCampaign.cdm.json/LinkedInCampaign  
+/foundationCommon/crmCommon/solutions/marketing/LinkedInLeads/LinkedInCampaign  
 
 ## Traits
 

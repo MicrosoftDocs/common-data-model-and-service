@@ -18,9 +18,9 @@ Potential revenue-generating event, or sale to an account, which needs to be tra
 
 Instances of this entity are listed below.  
 
-[/foundationCommon/crmCommon/accelerators/nonProfit/Opportunity.cdm.json/Opportunity](../../accelerators/nonProfit/Opportunity.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Opportunity.cdm.json/Opportunity")  
-[/foundationCommon/crmCommon/sales/Opportunity.cdm.json/Opportunity](../../sales/Opportunity.md "/core/applicationCommon/foundationCommon/crmCommon/sales/Opportunity.cdm.json/Opportunity")  
-/foundationCommon/crmCommon/solutions/portals/Opportunity.cdm.json/Opportunity  
+[/foundationCommon/crmCommon/accelerators/nonProfit/Opportunity](../../accelerators/nonProfit/Opportunity.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Opportunity.cdm.json/Opportunity")  
+[/foundationCommon/crmCommon/sales/Opportunity](../../sales/Opportunity.md "/core/applicationCommon/foundationCommon/crmCommon/sales/Opportunity.cdm.json/Opportunity")  
+/foundationCommon/crmCommon/solutions/portals/Opportunity  
 
 ## Traits
 

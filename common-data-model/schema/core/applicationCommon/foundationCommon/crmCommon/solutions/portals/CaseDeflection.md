@@ -18,7 +18,7 @@ Captures the number of Found My Answer clicks in the portal.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/portals/CaseDeflection.cdm.json/CaseDeflection  
+/foundationCommon/crmCommon/solutions/portals/CaseDeflection  
 
 ## Traits
 

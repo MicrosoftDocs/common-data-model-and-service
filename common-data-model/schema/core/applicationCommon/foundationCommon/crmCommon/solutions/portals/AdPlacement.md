@@ -17,7 +17,7 @@ ms.author: tpalmer
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/portals/AdPlacement.cdm.json/AdPlacement  
+/foundationCommon/crmCommon/solutions/portals/AdPlacement  
 
 ## Traits
 

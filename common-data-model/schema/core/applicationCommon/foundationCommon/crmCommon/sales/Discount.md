@@ -18,7 +18,7 @@ Price reduction made from the list price of a product or service based on the qu
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/sales/Discount.cdm.json/Discount  
+/foundationCommon/crmCommon/sales/Discount  
 
 ## Traits
 

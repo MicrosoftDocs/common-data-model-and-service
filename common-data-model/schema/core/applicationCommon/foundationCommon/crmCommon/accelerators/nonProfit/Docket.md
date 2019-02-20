@@ -18,7 +18,7 @@ A Docket is used to associate inquiries (LOIs) and requests with a specific gran
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/nonProfit/Docket.cdm.json/Docket  
+/foundationCommon/crmCommon/accelerators/nonProfit/Docket  
 
 ## Traits
 

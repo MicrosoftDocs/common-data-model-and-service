@@ -18,7 +18,7 @@ This entity is used to store social profile information of its associated accoun
 
 Instances of this entity are listed below.  
 
-/SocialProfile.cdm.json/SocialProfile  
+/SocialProfile  
 
 ## Traits
 

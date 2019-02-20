@@ -17,7 +17,7 @@ ms.author: tpalmer
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/marketing/Website.cdm.json/Website  
+/foundationCommon/crmCommon/solutions/marketing/Website  
 
 ## Traits
 

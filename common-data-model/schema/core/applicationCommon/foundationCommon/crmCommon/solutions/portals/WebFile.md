@@ -18,7 +18,7 @@ Storage of files used in the web Portals.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/portals/WebFile.cdm.json/WebFile  
+/foundationCommon/crmCommon/solutions/portals/WebFile  
 
 ## Traits
 

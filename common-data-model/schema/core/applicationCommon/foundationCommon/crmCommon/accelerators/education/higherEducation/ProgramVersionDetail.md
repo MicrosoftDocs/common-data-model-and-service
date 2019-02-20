@@ -18,7 +18,7 @@ The master list of program versions start dates defined by the institution.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/education/higherEducation/ProgramVersionDetail.cdm.json/ProgramVersionDetail  
+/foundationCommon/crmCommon/accelerators/education/higherEducation/ProgramVersionDetail  
 
 ## Traits
 

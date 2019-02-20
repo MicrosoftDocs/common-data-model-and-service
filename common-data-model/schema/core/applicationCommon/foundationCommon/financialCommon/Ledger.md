@@ -18,7 +18,7 @@ The collection of all accounts making up the central repository of accounting da
 
 Instances of this entity are listed below.  
 
-/foundationCommon/financialCommon/Ledger.cdm.json/Ledger  
+/foundationCommon/financialCommon/Ledger  
 
 ## Traits
 

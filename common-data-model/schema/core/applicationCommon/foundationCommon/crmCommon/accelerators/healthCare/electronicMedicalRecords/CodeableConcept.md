@@ -18,7 +18,7 @@ A Codeable Concept represents a value that is usually supplied by providing a re
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CodeableConcept.cdm.json/CodeableConcept  
+/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CodeableConcept  
 
 ## Traits
 

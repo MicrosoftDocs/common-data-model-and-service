@@ -18,7 +18,7 @@ Languages supported and publishing status for the portal
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/portals/WebsiteLanguage.cdm.json/WebsiteLanguage  
+/foundationCommon/crmCommon/solutions/portals/WebsiteLanguage  
 
 ## Traits
 

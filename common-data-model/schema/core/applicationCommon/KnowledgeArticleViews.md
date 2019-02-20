@@ -18,8 +18,8 @@ No of times an article is viewed per day
 
 Instances of this entity are listed below.  
 
-/KnowledgeArticleViews.cdm.json/KnowledgeArticleViews  
-[/foundationCommon/crmCommon/solutions/portals/KnowledgeArticleViews.cdm.json/KnowledgeArticleViews](foundationCommon/crmCommon/solutions/portals/KnowledgeArticleViews.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/KnowledgeArticleViews.cdm.json/KnowledgeArticleViews")  
+/KnowledgeArticleViews  
+[/foundationCommon/crmCommon/solutions/portals/KnowledgeArticleViews](foundationCommon/crmCommon/solutions/portals/KnowledgeArticleViews.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/KnowledgeArticleViews.cdm.json/KnowledgeArticleViews")  
 
 ## Traits
 

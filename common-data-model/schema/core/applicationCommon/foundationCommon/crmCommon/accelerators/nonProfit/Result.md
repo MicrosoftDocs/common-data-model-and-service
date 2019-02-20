@@ -18,7 +18,7 @@ A Result is a container that represents the changes in the context in which an o
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/nonProfit/Result.cdm.json/Result  
+/foundationCommon/crmCommon/accelerators/nonProfit/Result  
 
 ## Traits
 

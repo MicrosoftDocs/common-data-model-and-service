@@ -17,7 +17,7 @@ ms.author: tpalmer
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/marketing/interactions/EmailBlocked.cdm.json/EmailBlocked  
+/foundationCommon/crmCommon/solutions/marketing/interactions/EmailBlocked  
 
 ## Traits
 

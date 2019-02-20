@@ -18,7 +18,7 @@ Collection of system users that routinely collaborate. Teams can be used to simp
 
 Instances of this entity are listed below.  
 
-/Team.cdm.json/Team  
+/Team  
 
 ## Traits
 

@@ -18,7 +18,7 @@ The Venue describes the location at which all event sessions and activities take
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/marketing/eventManagement/Venue.cdm.json/Venue  
+/foundationCommon/crmCommon/solutions/marketing/eventManagement/Venue  
 
 ## Traits
 

@@ -18,7 +18,7 @@ Formal offer for products and/or services, proposed at specific prices and relat
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+/foundationCommon/crmCommon/sales/Quote  
 
 ## Traits
 

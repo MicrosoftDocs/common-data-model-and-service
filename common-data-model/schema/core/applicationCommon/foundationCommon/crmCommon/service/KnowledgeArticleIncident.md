@@ -18,7 +18,7 @@ Association between an knowledge article and incident.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/service/KnowledgeArticleIncident.cdm.json/KnowledgeArticleIncident  
+/foundationCommon/crmCommon/service/KnowledgeArticleIncident  
 
 ## Traits
 

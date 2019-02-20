@@ -18,7 +18,7 @@ The LinkedIn account where forms are created and published.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/marketing/LinkedInLeads/LinkedInAccount.cdm.json/LinkedInAccount  
+/foundationCommon/crmCommon/solutions/marketing/LinkedInLeads/LinkedInAccount  
 
 ## Traits
 

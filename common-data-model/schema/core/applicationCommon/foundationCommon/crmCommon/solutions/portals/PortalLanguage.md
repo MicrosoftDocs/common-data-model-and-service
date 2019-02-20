@@ -18,7 +18,7 @@ Lists the languages supported by the Portal
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/portals/PortalLanguage.cdm.json/PortalLanguage  
+/foundationCommon/crmCommon/solutions/portals/PortalLanguage  
 
 ## Traits
 

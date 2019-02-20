@@ -18,7 +18,7 @@ The master list of all education levels mapped in the external system, such as A
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/education/higherEducation/EducationLevel.cdm.json/EducationLevel  
+/foundationCommon/crmCommon/accelerators/education/higherEducation/EducationLevel  
 
 ## Traits
 

@@ -18,7 +18,7 @@ The master list of all extra curricular activities tracked by the institution.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/education/higherEducation/ExtraCurricularActivity.cdm.json/ExtraCurricularActivity  
+/foundationCommon/crmCommon/accelerators/education/higherEducation/ExtraCurricularActivity  
 
 ## Traits
 

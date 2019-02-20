@@ -18,7 +18,7 @@ The master list of all area of studies offered by an institution.  Areas of stud
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/education/higherEducation/AreaOfStudy.cdm.json/AreaOfStudy  
+/foundationCommon/crmCommon/accelerators/education/higherEducation/AreaOfStudy  
 
 ## Traits
 

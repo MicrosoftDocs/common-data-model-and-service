@@ -18,7 +18,7 @@ Selection rule that allows the scheduling engine to select a number of resources
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/service/ResourceSpecification.cdm.json/ResourceSpecification  
+/foundationCommon/crmCommon/service/ResourceSpecification  
 
 ## Traits
 

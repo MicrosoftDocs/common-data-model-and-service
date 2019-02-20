@@ -17,7 +17,7 @@ ms.author: tpalmer
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/marketing/CustomerJourney.cdm.json/CustomerJourney  
+/foundationCommon/crmCommon/solutions/marketing/CustomerJourney  
 
 ## Traits
 

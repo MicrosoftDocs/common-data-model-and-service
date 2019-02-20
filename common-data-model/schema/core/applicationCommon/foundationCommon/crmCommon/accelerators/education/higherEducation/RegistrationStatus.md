@@ -18,7 +18,7 @@ The master list of registration statuses tracked by the institution. The registr
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/education/higherEducation/RegistrationStatus.cdm.json/RegistrationStatus  
+/foundationCommon/crmCommon/accelerators/education/higherEducation/RegistrationStatus  
 
 ## Traits
 

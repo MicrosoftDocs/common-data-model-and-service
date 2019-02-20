@@ -18,7 +18,7 @@ Response from an existing or a potential new customer for a campaign.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/CampaignResponse.cdm.json/CampaignResponse  
+/foundationCommon/crmCommon/CampaignResponse  
 
 ## Traits
 

@@ -18,7 +18,7 @@ Speaker bios of individuals speaking at an event
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/marketing/eventManagement/Speaker.cdm.json/Speaker  
+/foundationCommon/crmCommon/solutions/marketing/eventManagement/Speaker  
 
 ## Traits
 

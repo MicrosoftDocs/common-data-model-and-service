@@ -17,7 +17,7 @@ ms.author: tpalmer
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/portals/Badge.cdm.json/Badge  
+/foundationCommon/crmCommon/solutions/portals/Badge  
 
 ## Traits
 

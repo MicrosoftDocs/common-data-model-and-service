@@ -18,7 +18,7 @@ Activity that is created automatically when an opportunity is closed, containing
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/sales/OpportunityClose.cdm.json/OpportunityClose  
+/foundationCommon/crmCommon/sales/OpportunityClose  
 
 ## Traits
 

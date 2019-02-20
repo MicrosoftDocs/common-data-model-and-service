@@ -18,7 +18,7 @@ Represents the period in which financial activity occurred, as defined by a fisc
 
 Instances of this entity are listed below.  
 
-/foundationCommon/financialCommon/FiscalCalendarPeriod.cdm.json/FiscalCalendarPeriod  
+/foundationCommon/financialCommon/FiscalCalendarPeriod  
 
 ## Traits
 

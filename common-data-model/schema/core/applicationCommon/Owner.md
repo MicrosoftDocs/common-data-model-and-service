@@ -18,7 +18,7 @@ Group of undeleted system users and undeleted teams. Owners can be used to contr
 
 Instances of this entity are listed below.  
 
-/Owner.cdm.json/Owner  
+/Owner  
 
 ## Traits
 

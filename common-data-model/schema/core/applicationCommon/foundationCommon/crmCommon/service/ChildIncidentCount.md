@@ -18,7 +18,7 @@ For internal use only.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/service/ChildIncidentCount.cdm.json/ChildIncidentCount  
+/foundationCommon/crmCommon/service/ChildIncidentCount  
 
 ## Traits
 

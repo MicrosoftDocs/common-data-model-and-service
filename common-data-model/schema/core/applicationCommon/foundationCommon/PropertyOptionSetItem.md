@@ -18,7 +18,7 @@ Item with a name and value in a property option set type.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/PropertyOptionSetItem.cdm.json/PropertyOptionSetItem  
+/foundationCommon/PropertyOptionSetItem  
 
 ## Traits
 

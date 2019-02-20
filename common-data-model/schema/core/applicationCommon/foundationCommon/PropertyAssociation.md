@@ -18,7 +18,7 @@ Association of a property definition with another entity in the system.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/PropertyAssociation.cdm.json/PropertyAssociation  
+/foundationCommon/PropertyAssociation  
 
 ## Traits
 

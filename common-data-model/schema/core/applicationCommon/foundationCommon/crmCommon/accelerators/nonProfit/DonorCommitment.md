@@ -18,7 +18,7 @@ Donor commitments track the frequency with which constituents donate funds to a 
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/nonProfit/DonorCommitment.cdm.json/DonorCommitment  
+/foundationCommon/crmCommon/accelerators/nonProfit/DonorCommitment  
 
 ## Traits
 

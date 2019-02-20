@@ -18,7 +18,7 @@ Describes the intended objective(s) of carrying out the care plan.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlanGoal.cdm.json/CarePlanGoal  
+/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlanGoal  
 
 ## Traits
 

@@ -18,7 +18,7 @@ Associates resources with resource groups that they are a member of.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/BookableResourceGroup.cdm.json/BookableResourceGroup  
+/foundationCommon/BookableResourceGroup  
 
 ## Traits
 

@@ -17,7 +17,7 @@ ms.author: tpalmer
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/marketing/LinkedInLeads/LinkedInFormQuestion.cdm.json/LinkedInFormQuestion  
+/foundationCommon/crmCommon/solutions/marketing/LinkedInLeads/LinkedInFormQuestion  
 
 ## Traits
 

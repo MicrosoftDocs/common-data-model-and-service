@@ -18,7 +18,7 @@ An area to which funds may be allocated, including a GL-relevant accounting code
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/nonProfit/Designation.cdm.json/Designation  
+/foundationCommon/crmCommon/accelerators/nonProfit/Designation  
 
 ## Traits
 

@@ -17,7 +17,7 @@ ms.author: tpalmer
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/marketing/interactions/ContactRegisteredToEvent.cdm.json/ContactRegisteredToEvent  
+/foundationCommon/crmCommon/solutions/marketing/interactions/ContactRegisteredToEvent  
 
 ## Traits
 

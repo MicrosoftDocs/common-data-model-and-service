@@ -18,7 +18,7 @@ System operation used to perform lengthy and asynchronous operations on large da
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+/foundationCommon/crmCommon/QuickCampaign  
 
 ## Traits
 

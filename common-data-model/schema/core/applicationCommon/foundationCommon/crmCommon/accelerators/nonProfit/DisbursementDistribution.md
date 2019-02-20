@@ -18,7 +18,7 @@ Defines the Delivery Framework(s) - i.e. Program, Project, Initiative - that con
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/nonProfit/DisbursementDistribution.cdm.json/DisbursementDistribution  
+/foundationCommon/crmCommon/accelerators/nonProfit/DisbursementDistribution  
 
 ## Traits
 

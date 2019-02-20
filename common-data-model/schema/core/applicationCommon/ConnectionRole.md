@@ -18,7 +18,7 @@ Role describing a relationship between a two records.
 
 Instances of this entity are listed below.  
 
-/ConnectionRole.cdm.json/ConnectionRole  
+/ConnectionRole  
 
 ## Traits
 

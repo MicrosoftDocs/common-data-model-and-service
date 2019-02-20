@@ -18,7 +18,7 @@ Type of measurement for a goal, such as money amount or count.
 
 Instances of this entity are listed below.  
 
-/GoalMetric.cdm.json/GoalMetric  
+/GoalMetric  
 
 ## Traits
 

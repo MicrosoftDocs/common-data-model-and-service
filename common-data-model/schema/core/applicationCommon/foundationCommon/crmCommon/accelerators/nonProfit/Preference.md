@@ -22,7 +22,7 @@ Preferences also typically store demographic information in a series of dependen
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/nonProfit/Preference.cdm.json/Preference  
+/foundationCommon/crmCommon/accelerators/nonProfit/Preference  
 
 ## Traits
 

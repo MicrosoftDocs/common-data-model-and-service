@@ -18,7 +18,7 @@ Biographical information about the education institutions a contact attended or 
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/nonProfit/Education.cdm.json/Education  
+/foundationCommon/crmCommon/accelerators/nonProfit/Education  
 
 ## Traits
 

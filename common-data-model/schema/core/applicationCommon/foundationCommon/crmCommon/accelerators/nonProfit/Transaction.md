@@ -18,7 +18,7 @@ Transactions (also referred to as donations) represent payments from the donor, 
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/nonProfit/Transaction.cdm.json/Transaction  
+/foundationCommon/crmCommon/accelerators/nonProfit/Transaction  
 
 ## Traits
 

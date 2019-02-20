@@ -18,7 +18,7 @@ User or facility/equipment that can be scheduled for a service.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/service/Resource.cdm.json/Resource  
+/foundationCommon/crmCommon/service/Resource  
 
 ## Traits
 

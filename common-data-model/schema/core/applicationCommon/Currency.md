@@ -18,7 +18,7 @@ Currency in which a financial transaction is carried out.
 
 Instances of this entity are listed below.  
 
-/Currency.cdm.json/Currency  
+/Currency  
 
 ## Traits
 

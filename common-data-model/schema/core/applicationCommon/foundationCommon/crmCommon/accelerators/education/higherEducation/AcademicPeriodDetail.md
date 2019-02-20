@@ -18,7 +18,7 @@ Status between student and their academic periods.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/education/higherEducation/AcademicPeriodDetail.cdm.json/AcademicPeriodDetail  
+/foundationCommon/crmCommon/accelerators/education/higherEducation/AcademicPeriodDetail  
 
 ## Traits
 

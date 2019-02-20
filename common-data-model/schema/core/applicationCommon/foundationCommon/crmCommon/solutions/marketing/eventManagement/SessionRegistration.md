@@ -17,7 +17,7 @@ ms.author: tpalmer
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/marketing/eventManagement/SessionRegistration.cdm.json/SessionRegistration  
+/foundationCommon/crmCommon/solutions/marketing/eventManagement/SessionRegistration  
 
 ## Traits
 

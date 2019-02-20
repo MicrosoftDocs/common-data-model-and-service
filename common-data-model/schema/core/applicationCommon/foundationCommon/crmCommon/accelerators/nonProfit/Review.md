@@ -18,7 +18,7 @@ The internal assessment of a Request made by a staff member (or team) and all of
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/nonProfit/Review.cdm.json/Review  
+/foundationCommon/crmCommon/accelerators/nonProfit/Review  
 
 ## Traits
 

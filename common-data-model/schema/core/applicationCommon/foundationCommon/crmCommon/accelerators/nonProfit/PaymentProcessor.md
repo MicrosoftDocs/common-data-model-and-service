@@ -18,7 +18,7 @@ This is a placeholder entity referenced by the Payment Method object.  It is int
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/nonProfit/PaymentProcessor.cdm.json/PaymentProcessor  
+/foundationCommon/crmCommon/accelerators/nonProfit/PaymentProcessor  
 
 ## Traits
 

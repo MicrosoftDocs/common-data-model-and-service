@@ -17,7 +17,7 @@ ms.author: tpalmer
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/service/EntitlementProduct.cdm.json/EntitlementProduct  
+/foundationCommon/crmCommon/service/EntitlementProduct  
 
 ## Traits
 

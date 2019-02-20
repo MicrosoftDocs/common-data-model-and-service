@@ -18,7 +18,7 @@ Web Portal
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/portals/Website.cdm.json/Website  
+/foundationCommon/crmCommon/solutions/portals/Website  
 
 ## Traits
 

@@ -18,7 +18,7 @@ The contact, donor or constitiuent who receives "credit" for the hard or soft cl
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/nonProfit/CreditRecipient.cdm.json/CreditRecipient  
+/foundationCommon/crmCommon/accelerators/nonProfit/CreditRecipient  
 
 ## Traits
 

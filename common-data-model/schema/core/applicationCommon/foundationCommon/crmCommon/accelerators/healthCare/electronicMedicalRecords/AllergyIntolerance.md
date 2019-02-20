@@ -18,7 +18,7 @@ Risk of harmful or undesirable, physiological response which is unique to an ind
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/AllergyIntolerance.cdm.json/AllergyIntolerance  
+/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/AllergyIntolerance  
 
 ## Traits
 

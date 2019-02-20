@@ -18,7 +18,7 @@ This is a parent entity for Payment Method customizations that may be supported 
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/nonProfit/PaymentMethod.cdm.json/PaymentMethod  
+/foundationCommon/crmCommon/accelerators/nonProfit/PaymentMethod  
 
 ## Traits
 

@@ -18,7 +18,7 @@ The details of a healthcare service available at a location.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/HealthcareService.cdm.json/HealthcareService  
+/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/HealthcareService  
 
 ## Traits
 

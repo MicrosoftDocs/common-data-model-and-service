@@ -18,7 +18,7 @@ An account whose balance is displayed in major financial statements
 
 Instances of this entity are listed below.  
 
-/foundationCommon/financialCommon/MainAccount.cdm.json/MainAccount  
+/foundationCommon/financialCommon/MainAccount  
 
 ## Traits
 

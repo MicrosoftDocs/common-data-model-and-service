@@ -17,7 +17,7 @@ ms.author: tpalmer
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/sales/OpportunityCompetitors.cdm.json/OpportunityCompetitors  
+/foundationCommon/crmCommon/sales/OpportunityCompetitors  
 
 ## Traits
 

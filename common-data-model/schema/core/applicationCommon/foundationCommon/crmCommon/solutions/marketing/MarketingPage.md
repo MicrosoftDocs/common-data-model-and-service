@@ -17,7 +17,7 @@ ms.author: tpalmer
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/marketing/MarketingPage.cdm.json/MarketingPage  
+/foundationCommon/crmCommon/solutions/marketing/MarketingPage  
 
 ## Traits
 

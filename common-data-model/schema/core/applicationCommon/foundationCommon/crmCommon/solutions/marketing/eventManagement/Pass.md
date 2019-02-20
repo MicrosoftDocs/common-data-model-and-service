@@ -18,7 +18,7 @@ Information about passes.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/marketing/eventManagement/Pass.cdm.json/Pass  
+/foundationCommon/crmCommon/solutions/marketing/eventManagement/Pass  
 
 ## Traits
 

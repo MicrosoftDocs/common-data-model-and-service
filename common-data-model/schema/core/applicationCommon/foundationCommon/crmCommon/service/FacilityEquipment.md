@@ -18,7 +18,7 @@ Resource that can be scheduled.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/service/FacilityEquipment.cdm.json/FacilityEquipment  
+/foundationCommon/crmCommon/service/FacilityEquipment  
 
 ## Traits
 

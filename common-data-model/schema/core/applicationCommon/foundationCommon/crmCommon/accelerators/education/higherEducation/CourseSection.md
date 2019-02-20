@@ -18,7 +18,7 @@ The relationship between an instructor and a specific course.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/education/higherEducation/CourseSection.cdm.json/CourseSection  
+/foundationCommon/crmCommon/accelerators/education/higherEducation/CourseSection  
 
 ## Traits
 

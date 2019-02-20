@@ -17,7 +17,7 @@ ms.author: tpalmer
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/marketing/Segment.cdm.json/Segment  
+/foundationCommon/crmCommon/solutions/marketing/Segment  
 
 ## Traits
 

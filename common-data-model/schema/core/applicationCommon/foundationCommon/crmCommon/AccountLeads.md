@@ -18,7 +18,7 @@ description.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/AccountLeads.cdm.json/AccountLeads  
+/foundationCommon/crmCommon/AccountLeads  
 
 ## Traits
 

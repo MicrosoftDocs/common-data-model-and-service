@@ -18,7 +18,7 @@ URL of the .aspx page used to create new webpages.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/portals/PageTemplate.cdm.json/PageTemplate  
+/foundationCommon/crmCommon/solutions/portals/PageTemplate  
 
 ## Traits
 

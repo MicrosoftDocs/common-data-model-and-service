@@ -18,7 +18,7 @@ The total amount of funding that has been agreed to be awarded to an individual 
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/nonProfit/Award.cdm.json/Award  
+/foundationCommon/crmCommon/accelerators/nonProfit/Award  
 
 ## Traits
 

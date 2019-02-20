@@ -18,7 +18,7 @@ Line item in a sales order.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/sales/OrderProduct.cdm.json/OrderProduct  
+/foundationCommon/crmCommon/sales/OrderProduct  
 
 ## Traits
 

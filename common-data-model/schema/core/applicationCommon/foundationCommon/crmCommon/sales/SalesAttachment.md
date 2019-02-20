@@ -18,7 +18,7 @@ Item in the sales literature collection.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/sales/SalesAttachment.cdm.json/SalesAttachment  
+/foundationCommon/crmCommon/sales/SalesAttachment  
 
 ## Traits
 

@@ -18,7 +18,7 @@ Resource that has capacity which can be allocated to work.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/BookableResource.cdm.json/BookableResource  
+/foundationCommon/BookableResource  
 
 ## Traits
 

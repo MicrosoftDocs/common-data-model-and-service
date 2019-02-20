@@ -18,7 +18,7 @@ Association between an opportunity and a product.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/sales/OpportunityProduct.cdm.json/OpportunityProduct  
+/foundationCommon/crmCommon/sales/OpportunityProduct  
 
 ## Traits
 

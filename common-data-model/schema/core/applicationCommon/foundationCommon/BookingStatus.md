@@ -18,7 +18,7 @@ Allows creation of multiple sub statuses mapped to a booking status option.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/BookingStatus.cdm.json/BookingStatus  
+/foundationCommon/BookingStatus  
 
 ## Traits
 

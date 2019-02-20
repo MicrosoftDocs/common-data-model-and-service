@@ -18,7 +18,7 @@ Position of a user in the hierarchy
 
 Instances of this entity are listed below.  
 
-/Position.cdm.json/Position  
+/Position  
 
 ## Traits
 

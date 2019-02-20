@@ -18,7 +18,7 @@ Storage of sales literature, which may contain one or more documents.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/sales/SalesLiterature.cdm.json/SalesLiterature  
+/foundationCommon/crmCommon/sales/SalesLiterature  
 
 ## Traits
 

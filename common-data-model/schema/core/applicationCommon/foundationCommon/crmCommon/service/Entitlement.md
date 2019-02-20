@@ -18,7 +18,7 @@ Defines the amount and type of support a customer should receive.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/service/Entitlement.cdm.json/Entitlement  
+/foundationCommon/crmCommon/service/Entitlement  
 
 ## Traits
 

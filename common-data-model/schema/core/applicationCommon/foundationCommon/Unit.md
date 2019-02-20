@@ -18,7 +18,7 @@ Unit of measure.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/Unit.cdm.json/Unit  
+/foundationCommon/Unit  
 
 ## Traits
 

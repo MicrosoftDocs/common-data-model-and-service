@@ -18,7 +18,7 @@ Prospective, pending and closed "deals" or gifts.  This entity allows nonprofit
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/nonProfit/OfacMatch.cdm.json/OfacMatch  
+/foundationCommon/crmCommon/accelerators/nonProfit/OfacMatch  
 
 ## Traits
 

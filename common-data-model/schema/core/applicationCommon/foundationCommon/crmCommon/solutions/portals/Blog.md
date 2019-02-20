@@ -18,7 +18,7 @@ The root entity for a portal blog.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/portals/Blog.cdm.json/Blog  
+/foundationCommon/crmCommon/solutions/portals/Blog  
 
 ## Traits
 

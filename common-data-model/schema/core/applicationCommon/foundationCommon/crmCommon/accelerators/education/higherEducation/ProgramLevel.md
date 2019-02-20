@@ -18,7 +18,7 @@ Collection of all Program Levels offered by the institution
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/education/higherEducation/ProgramLevel.cdm.json/ProgramLevel  
+/foundationCommon/crmCommon/accelerators/education/higherEducation/ProgramLevel  
 
 ## Traits
 

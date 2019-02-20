@@ -18,7 +18,7 @@ Association entity to model the categorization of resources.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/BookableResourceCategoryAssn.cdm.json/BookableResourceCategoryAssn  
+/foundationCommon/BookableResourceCategoryAssn  
 
 ## Traits
 

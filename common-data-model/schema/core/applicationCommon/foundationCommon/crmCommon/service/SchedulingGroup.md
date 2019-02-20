@@ -18,7 +18,7 @@ Resource group or team whose members can be scheduled for a service.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/service/SchedulingGroup.cdm.json/SchedulingGroup  
+/foundationCommon/crmCommon/service/SchedulingGroup  
 
 ## Traits
 

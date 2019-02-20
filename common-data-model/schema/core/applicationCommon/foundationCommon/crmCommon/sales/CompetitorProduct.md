@@ -18,7 +18,7 @@ Association between a competitor and a product offered by the competitor.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/sales/CompetitorProduct.cdm.json/CompetitorProduct  
+/foundationCommon/crmCommon/sales/CompetitorProduct  
 
 ## Traits
 

@@ -18,7 +18,7 @@ Holds information about the redemption of an invite.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/portals/InviteRedemption.cdm.json/InviteRedemption  
+/foundationCommon/crmCommon/solutions/portals/InviteRedemption  
 
 ## Traits
 

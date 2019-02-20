@@ -17,7 +17,7 @@ ms.author: tpalmer
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/sales/ContactQuotes.cdm.json/ContactQuotes  
+/foundationCommon/crmCommon/sales/ContactQuotes  
 
 ## Traits
 

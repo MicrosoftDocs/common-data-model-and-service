@@ -18,7 +18,7 @@ Describes the event of a patient consuming or otherwise being administered a med
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration  
 
 ## Traits
 

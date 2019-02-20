@@ -18,7 +18,7 @@ Type of discount specified as either a percentage or an amount.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/sales/DiscountList.cdm.json/DiscountList  
+/foundationCommon/crmCommon/sales/DiscountList  
 
 ## Traits
 

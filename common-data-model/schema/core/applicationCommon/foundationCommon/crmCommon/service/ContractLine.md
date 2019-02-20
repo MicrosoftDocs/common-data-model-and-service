@@ -18,7 +18,7 @@ Line item in a contract that specifies the type of service a customer is entitle
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/service/ContractLine.cdm.json/ContractLine  
+/foundationCommon/crmCommon/service/ContractLine  
 
 ## Traits
 

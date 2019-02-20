@@ -18,7 +18,7 @@ The root entity for portal Ideas.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/portals/IdeaForum.cdm.json/IdeaForum  
+/foundationCommon/crmCommon/solutions/portals/IdeaForum  
 
 ## Traits
 

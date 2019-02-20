@@ -18,7 +18,7 @@ The relationship between a Contact and a specific Extra Curricular Activity.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/education/higherEducation/ExtraCurricularParticipant.cdm.json/ExtraCurricularParticipant  
+/foundationCommon/crmCommon/accelerators/education/higherEducation/ExtraCurricularParticipant  
 
 ## Traits
 

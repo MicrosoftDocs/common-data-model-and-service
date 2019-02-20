@@ -18,7 +18,7 @@ This is the mechanism through which Foundations provide recommendations back to 
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/nonProfit/Recommendation.cdm.json/Recommendation  
+/foundationCommon/crmCommon/accelerators/nonProfit/Recommendation  
 
 ## Traits
 

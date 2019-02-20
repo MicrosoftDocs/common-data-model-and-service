@@ -18,8 +18,8 @@ Activity that tracks the delivery of a letter. The activity can contain the elec
 
 Instances of this entity are listed below.  
 
-/Letter.cdm.json/Letter  
-[/foundationCommon/crmCommon/Letter.cdm.json/Letter](foundationCommon/crmCommon/Letter.md "/core/applicationCommon/foundationCommon/crmCommon/Letter.cdm.json/Letter")  
+/Letter  
+[/foundationCommon/crmCommon/Letter](foundationCommon/crmCommon/Letter.md "/core/applicationCommon/foundationCommon/crmCommon/Letter.cdm.json/Letter")  
 
 ## Traits
 

@@ -17,7 +17,7 @@ ms.author: tpalmer
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/marketing/ListForm.cdm.json/ListForm  
+/foundationCommon/crmCommon/solutions/marketing/ListForm  
 
 ## Traits
 

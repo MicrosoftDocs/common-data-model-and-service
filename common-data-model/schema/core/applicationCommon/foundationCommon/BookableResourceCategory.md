@@ -18,7 +18,7 @@ Categorize resources that have capacity into categories such as roles.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/BookableResourceCategory.cdm.json/BookableResourceCategory  
+/foundationCommon/BookableResourceCategory  
 
 ## Traits
 

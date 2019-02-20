@@ -18,7 +18,7 @@ Sets the user's role for the Portal.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/portals/WebRole.cdm.json/WebRole  
+/foundationCommon/crmCommon/solutions/portals/WebRole  
 
 ## Traits
 

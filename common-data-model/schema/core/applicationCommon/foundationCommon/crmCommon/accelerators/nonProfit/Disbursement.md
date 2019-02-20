@@ -18,7 +18,7 @@ A Disbursement represents an Award disbursement to an individual or organization
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/nonProfit/Disbursement.cdm.json/Disbursement  
+/foundationCommon/crmCommon/accelerators/nonProfit/Disbursement  
 
 ## Traits
 

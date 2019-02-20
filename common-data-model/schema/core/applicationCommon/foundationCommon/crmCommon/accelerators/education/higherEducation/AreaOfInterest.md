@@ -18,7 +18,7 @@ The master list of all area of interests offered by an institution.  Areas of in
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/education/higherEducation/AreaOfInterest.cdm.json/AreaOfInterest  
+/foundationCommon/crmCommon/accelerators/education/higherEducation/AreaOfInterest  
 
 ## Traits
 

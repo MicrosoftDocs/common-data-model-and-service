@@ -17,7 +17,7 @@ ms.author: tpalmer
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/sales/CompetitorSalesLiterature.cdm.json/CompetitorSalesLiterature  
+/foundationCommon/crmCommon/sales/CompetitorSalesLiterature  
 
 ## Traits
 

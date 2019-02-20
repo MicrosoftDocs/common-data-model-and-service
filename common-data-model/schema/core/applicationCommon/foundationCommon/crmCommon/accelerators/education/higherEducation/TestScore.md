@@ -18,7 +18,7 @@ Test scores for a Student Contact
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/education/higherEducation/TestScore.cdm.json/TestScore  
+/foundationCommon/crmCommon/accelerators/education/higherEducation/TestScore  
 
 ## Traits
 

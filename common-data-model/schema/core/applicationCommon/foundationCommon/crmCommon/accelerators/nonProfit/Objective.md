@@ -18,7 +18,7 @@ Used for the purpose of reporting on goals or strategies outside of program boun
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/nonProfit/Objective.cdm.json/Objective  
+/foundationCommon/crmCommon/accelerators/nonProfit/Objective  
 
 ## Traits
 

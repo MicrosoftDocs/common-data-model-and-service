@@ -17,7 +17,7 @@ ms.author: tpalmer
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/portals/Tag.cdm.json/Tag  
+/foundationCommon/crmCommon/solutions/portals/Tag  
 
 ## Traits
 
