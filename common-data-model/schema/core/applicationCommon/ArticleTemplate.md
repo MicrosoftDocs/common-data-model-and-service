@@ -4,7 +4,7 @@ description: Template for a knowledge base article that contains the standard at
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Template for a knowledge base article that contains the standard attributes of a
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/ArticleTemplate.cdm.json/ArticleTemplate  
+applicationCommon/ArticleTemplate.cdm.json/ArticleTemplate  
 
 ## Traits
 

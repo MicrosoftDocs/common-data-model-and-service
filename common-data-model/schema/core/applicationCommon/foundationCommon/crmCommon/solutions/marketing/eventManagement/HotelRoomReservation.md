@@ -4,7 +4,7 @@ description: Each record of this type tracks a single request made by an event a
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Each record of this type tracks a single request made by an event attendee (thro
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomReservation.cdm.json/HotelRoomReservation  
+applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomReservation.cdm.json/HotelRoomReservation  
 
 ## Traits
 

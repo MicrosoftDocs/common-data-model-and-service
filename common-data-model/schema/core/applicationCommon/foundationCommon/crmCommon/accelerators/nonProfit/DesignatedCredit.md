@@ -4,7 +4,7 @@ description: A segment of a donation payment or in-kind gift that indicating the
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ A segment of a donation payment or in-kind gift that indicating the partial amou
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/DesignatedCredit.cdm.json/DesignatedCredit  
+applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/DesignatedCredit.cdm.json/DesignatedCredit  
 
 ## Traits
 

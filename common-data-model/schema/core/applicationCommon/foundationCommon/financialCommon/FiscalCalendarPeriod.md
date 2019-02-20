@@ -4,7 +4,7 @@ description: Represents the period in which financial activity occurred, as defi
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Represents the period in which financial activity occurred, as defined by a fisc
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/financialCommon/FiscalCalendarPeriod.cdm.json/FiscalCalendarPeriod  
+applicationCommon/foundationCommon/financialCommon/FiscalCalendarPeriod.cdm.json/FiscalCalendarPeriod  
 
 ## Traits
 

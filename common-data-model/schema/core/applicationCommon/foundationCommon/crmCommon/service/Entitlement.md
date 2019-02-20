@@ -4,7 +4,7 @@ description: Defines the amount and type of support a customer should receive.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Defines the amount and type of support a customer should receive.
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/service/Entitlement.cdm.json/Entitlement  
+applicationCommon/foundationCommon/crmCommon/service/Entitlement.cdm.json/Entitlement  
 
 ## Traits
 

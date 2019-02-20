@@ -4,7 +4,7 @@ description: A clinical condition, problem, diagnosis, or other event, situation
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ A clinical condition, problem, diagnosis, or other event, situation, issue, or c
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
 
 ## Traits
 

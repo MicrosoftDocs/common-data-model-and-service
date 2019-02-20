@@ -4,7 +4,7 @@ description: Answers to individual questions on a form submitted by a LinkedIn m
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Answers to individual questions on a form submitted by a LinkedIn member
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/LinkedInLeads/LinkedInFormSubmissionAnswer.cdm.json/LinkedInFormSubmissionAnswer  
+applicationCommon/foundationCommon/crmCommon/solutions/marketing/LinkedInLeads/LinkedInFormSubmissionAnswer.cdm.json/LinkedInFormSubmissionAnswer  
 
 ## Traits
 

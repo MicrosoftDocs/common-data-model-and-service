@@ -4,7 +4,7 @@ description: Prospective, pending and closed "deals" or gifts.  This entity all
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Prospective, pending and closed "deals" or gifts.  This entity allows nonprofit
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/OfacMatch.cdm.json/OfacMatch  
+applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/OfacMatch.cdm.json/OfacMatch  
 
 ## Traits
 

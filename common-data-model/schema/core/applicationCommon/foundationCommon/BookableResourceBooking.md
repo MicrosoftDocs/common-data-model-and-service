@@ -4,7 +4,7 @@ description: Represents the line details of a resource booking.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Represents the line details of a resource booking.
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/BookableResourceBooking.cdm.json/BookableResourceBooking  
+applicationCommon/foundationCommon/BookableResourceBooking.cdm.json/BookableResourceBooking  
 
 ## Traits
 

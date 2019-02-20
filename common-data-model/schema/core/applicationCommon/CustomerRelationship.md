@@ -4,7 +4,7 @@ description: Relationship between a customer and a partner in which either can b
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Relationship between a customer and a partner in which either can be an account 
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/CustomerRelationship.cdm.json/CustomerRelationship  
+applicationCommon/CustomerRelationship.cdm.json/CustomerRelationship  
 
 ## Traits
 

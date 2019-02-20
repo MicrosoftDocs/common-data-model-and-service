@@ -4,7 +4,7 @@ description: Provides categorization of main accounts
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Provides categorization of main accounts
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/financialCommon/MainAccountCategory.cdm.json/MainAccountCategory  
+applicationCommon/foundationCommon/financialCommon/MainAccountCategory.cdm.json/MainAccountCategory  
 
 ## Traits
 

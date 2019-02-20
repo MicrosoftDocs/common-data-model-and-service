@@ -4,7 +4,7 @@ description: Address and shipping information. Used to store additional addresse
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,10 +18,10 @@ Address and shipping information. Used to store additional addresses for an acco
 
 Instances of this entity are listed below.  
 
-[/core/applicationCommon/Address.cdm.json/Address](../../../../../Address.md "/core/applicationCommon/Address.cdm.json/Address")  
-[/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Address.cdm.json/Address](../../education/higherEducation/Address.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Address.cdm.json/Address")  
-/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Address.cdm.json/Address  
-[/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Address.cdm.json/Address](../../nonProfit/Address.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Address.cdm.json/Address")  
+[applicationCommon/Address.cdm.json/Address](../../../../../Address.md "/core/applicationCommon/Address.cdm.json/Address")  
+[applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Address.cdm.json/Address](../../education/higherEducation/Address.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Address.cdm.json/Address")  
+applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Address.cdm.json/Address  
+[applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Address.cdm.json/Address](../../nonProfit/Address.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Address.cdm.json/Address")  
 
 ## Traits
 

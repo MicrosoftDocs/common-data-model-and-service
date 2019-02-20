@@ -4,7 +4,7 @@ description: Used for the purpose of reporting on goals or strategies outside of
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Used for the purpose of reporting on goals or strategies outside of program boun
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Objective.cdm.json/Objective  
+applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Objective.cdm.json/Objective  
 
 ## Traits
 

@@ -4,7 +4,7 @@ description: Position of a user in the hierarchy
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Position of a user in the hierarchy
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/Position.cdm.json/Position  
+applicationCommon/Position.cdm.json/Position  
 
 ## Traits
 

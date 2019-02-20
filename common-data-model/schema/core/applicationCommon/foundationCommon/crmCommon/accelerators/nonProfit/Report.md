@@ -4,7 +4,7 @@ description: A status report submitted by an awardee to the granting entity (i.e
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ A status report submitted by an awardee to the granting entity (i.e., a Foundati
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Report.cdm.json/Report  
+applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Report.cdm.json/Report  
 
 ## Traits
 

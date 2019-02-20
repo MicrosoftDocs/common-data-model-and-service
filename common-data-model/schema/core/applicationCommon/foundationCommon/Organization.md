@@ -4,7 +4,7 @@ description: Top level of the Microsoft Dynamics 365 business hierarchy. The org
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,8 +18,8 @@ Top level of the Microsoft Dynamics 365 business hierarchy. The organization can
 
 Instances of this entity are listed below.  
 
-[/core/applicationCommon/Organization.cdm.json/Organization](../Organization.md "/core/applicationCommon/Organization.cdm.json/Organization")  
-/core/applicationCommon/foundationCommon/Organization.cdm.json/Organization  
+[applicationCommon/Organization.cdm.json/Organization](../Organization.md "/core/applicationCommon/Organization.cdm.json/Organization")  
+applicationCommon/foundationCommon/Organization.cdm.json/Organization  
 
 ## Traits
 

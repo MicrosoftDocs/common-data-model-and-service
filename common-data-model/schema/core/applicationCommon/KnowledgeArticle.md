@@ -4,7 +4,7 @@ description: Organizational knowledge for internal and external use.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,8 +18,8 @@ Organizational knowledge for internal and external use.
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
-[/core/applicationCommon/foundationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle](foundationCommon/KnowledgeArticle.md "/core/applicationCommon/foundationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle")  
+applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
+[applicationCommon/foundationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle](foundationCommon/KnowledgeArticle.md "/core/applicationCommon/foundationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle")  
 
 ## Traits
 

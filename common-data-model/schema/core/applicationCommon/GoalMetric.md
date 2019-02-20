@@ -4,7 +4,7 @@ description: Type of measurement for a goal, such as money amount or count.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Type of measurement for a goal, such as money amount or count.
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/GoalMetric.cdm.json/GoalMetric  
+applicationCommon/GoalMetric.cdm.json/GoalMetric  
 
 ## Traits
 

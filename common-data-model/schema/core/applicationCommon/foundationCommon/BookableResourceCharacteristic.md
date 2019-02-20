@@ -4,7 +4,7 @@ description: Associates resources with their characteristics and specifies the p
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Associates resources with their characteristics and specifies the proficiency le
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/BookableResourceCharacteristic.cdm.json/BookableResourceCharacteristic  
+applicationCommon/foundationCommon/BookableResourceCharacteristic.cdm.json/BookableResourceCharacteristic  
 
 ## Traits
 

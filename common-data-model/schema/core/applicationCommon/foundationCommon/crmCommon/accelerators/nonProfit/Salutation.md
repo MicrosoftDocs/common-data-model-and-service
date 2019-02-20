@@ -4,7 +4,7 @@ description: The way a donor or prospect is commonly addressed via written commu
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ The way a donor or prospect is commonly addressed via written communication (lha
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Salutation.cdm.json/Salutation  
+applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Salutation.cdm.json/Salutation  
 
 ## Traits
 

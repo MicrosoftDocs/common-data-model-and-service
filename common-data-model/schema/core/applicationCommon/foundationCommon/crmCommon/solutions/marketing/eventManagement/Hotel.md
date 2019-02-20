@@ -4,7 +4,7 @@ description: This represents a single hotel property (for e.g, Marriott in Belle
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ This represents a single hotel property (for e.g, Marriott in Bellevue). Each in
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Hotel.cdm.json/Hotel  
+applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Hotel.cdm.json/Hotel  
 
 ## Traits
 

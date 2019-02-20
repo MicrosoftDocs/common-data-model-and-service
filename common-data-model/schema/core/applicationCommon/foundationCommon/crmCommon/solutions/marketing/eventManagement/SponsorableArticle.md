@@ -4,7 +4,7 @@ description: An item or a group of items that can be sponsored
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ An item or a group of items that can be sponsored
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/SponsorableArticle.cdm.json/SponsorableArticle  
+applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/SponsorableArticle.cdm.json/SponsorableArticle  
 
 ## Traits
 

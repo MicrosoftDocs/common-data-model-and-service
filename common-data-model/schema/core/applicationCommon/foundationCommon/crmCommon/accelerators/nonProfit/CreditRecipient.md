@@ -4,7 +4,7 @@ description: The contact, donor or constitiuent who receives "credit" for the ha
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ The contact, donor or constitiuent who receives "credit" for the hard or soft cl
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/CreditRecipient.cdm.json/CreditRecipient  
+applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/CreditRecipient.cdm.json/CreditRecipient  
 
 ## Traits
 

@@ -4,7 +4,7 @@ description: Quote that has been accepted.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Quote that has been accepted.
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/sales/Order.cdm.json/Order  
+applicationCommon/foundationCommon/crmCommon/sales/Order.cdm.json/Order  
 
 ## Traits
 

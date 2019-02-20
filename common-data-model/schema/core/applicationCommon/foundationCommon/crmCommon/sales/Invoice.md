@@ -4,7 +4,7 @@ description: Order that has been billed.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Order that has been billed.
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/sales/Invoice.cdm.json/Invoice  
+applicationCommon/foundationCommon/crmCommon/sales/Invoice.cdm.json/Invoice  
 
 ## Traits
 

@@ -4,7 +4,7 @@ description: A Result is a container that represents the changes in the context 
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ A Result is a container that represents the changes in the context in which an o
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Result.cdm.json/Result  
+applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Result.cdm.json/Result  
 
 ## Traits
 

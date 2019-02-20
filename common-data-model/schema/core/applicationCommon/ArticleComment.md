@@ -4,7 +4,7 @@ description: Comment on a knowledge base article.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Comment on a knowledge base article.
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/ArticleComment.cdm.json/ArticleComment  
+applicationCommon/ArticleComment.cdm.json/ArticleComment  
 
 ## Traits
 

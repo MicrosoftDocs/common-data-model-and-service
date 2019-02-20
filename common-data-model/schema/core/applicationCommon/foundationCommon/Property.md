@@ -4,7 +4,7 @@ description: Information about a product property.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Information about a product property.
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/Property.cdm.json/Property  
+applicationCommon/foundationCommon/Property.cdm.json/Property  
 
 ## Traits
 

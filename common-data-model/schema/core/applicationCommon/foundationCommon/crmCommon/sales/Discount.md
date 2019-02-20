@@ -4,7 +4,7 @@ description: Price reduction made from the list price of a product or service ba
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Price reduction made from the list price of a product or service based on the qu
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/sales/Discount.cdm.json/Discount  
+applicationCommon/foundationCommon/crmCommon/sales/Discount.cdm.json/Discount  
 
 ## Traits
 

@@ -4,7 +4,7 @@ description: Categorize resources that have capacity into categories such as rol
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Categorize resources that have capacity into categories such as roles.
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/BookableResourceCategory.cdm.json/BookableResourceCategory  
+applicationCommon/foundationCommon/BookableResourceCategory.cdm.json/BookableResourceCategory  
 
 ## Traits
 

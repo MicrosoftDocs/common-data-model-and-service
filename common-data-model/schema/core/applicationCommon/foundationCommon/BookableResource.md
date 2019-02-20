@@ -4,7 +4,7 @@ description: Resource that has capacity which can be allocated to work.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Resource that has capacity which can be allocated to work.
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/BookableResource.cdm.json/BookableResource  
+applicationCommon/foundationCommon/BookableResource.cdm.json/BookableResource  
 
 ## Traits
 

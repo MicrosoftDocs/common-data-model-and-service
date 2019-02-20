@@ -4,7 +4,7 @@ description: The master list of program types defined by the institution, such a
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ The master list of program types defined by the institution, such as major, mino
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/StudentProgramType.cdm.json/StudentProgramType  
+applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/StudentProgramType.cdm.json/StudentProgramType  
 
 ## Traits
 

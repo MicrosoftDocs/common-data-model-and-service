@@ -4,7 +4,7 @@ description: Risk of harmful or undesirable, physiological response which is uni
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Risk of harmful or undesirable, physiological response which is unique to an ind
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/AllergyIntolerance.cdm.json/AllergyIntolerance  
+applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/AllergyIntolerance.cdm.json/AllergyIntolerance  
 
 ## Traits
 

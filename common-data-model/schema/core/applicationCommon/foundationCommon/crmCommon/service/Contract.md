@@ -4,7 +4,7 @@ description: Agreement to provide customer service during a specified amount of 
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Agreement to provide customer service during a specified amount of time or numbe
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/service/Contract.cdm.json/Contract  
+applicationCommon/foundationCommon/crmCommon/service/Contract.cdm.json/Contract  
 
 ## Traits
 

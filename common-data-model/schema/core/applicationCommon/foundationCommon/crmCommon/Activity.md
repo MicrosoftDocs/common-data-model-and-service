@@ -4,7 +4,7 @@ description: Task performed, or to be performed, by a user. An activity is any a
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,8 +18,8 @@ Task performed, or to be performed, by a user. An activity is any action for whi
 
 Instances of this entity are listed below.  
 
-[/core/applicationCommon/Activity.cdm.json/Activity](../../Activity.md "/core/applicationCommon/Activity.cdm.json/Activity")  
-/core/applicationCommon/foundationCommon/crmCommon/Activity.cdm.json/Activity  
+[applicationCommon/Activity.cdm.json/Activity](../../Activity.md "/core/applicationCommon/Activity.cdm.json/Activity")  
+applicationCommon/foundationCommon/crmCommon/Activity.cdm.json/Activity  
 
 ## Traits
 

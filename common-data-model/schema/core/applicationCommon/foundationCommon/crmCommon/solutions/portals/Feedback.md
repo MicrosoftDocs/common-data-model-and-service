@@ -4,7 +4,7 @@ description: Container for feedback and ratings for knowledge articles.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,8 +18,8 @@ Container for feedback and ratings for knowledge articles.
 
 Instances of this entity are listed below.  
 
-[/core/applicationCommon/Feedback.cdm.json/Feedback](../../../../Feedback.md "/core/applicationCommon/Feedback.cdm.json/Feedback")  
-/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Feedback.cdm.json/Feedback  
+[applicationCommon/Feedback.cdm.json/Feedback](../../../../Feedback.md "/core/applicationCommon/Feedback.cdm.json/Feedback")  
+applicationCommon/foundationCommon/crmCommon/solutions/portals/Feedback.cdm.json/Feedback  
 
 ## Traits
 

@@ -4,7 +4,7 @@ description: Amount of funds that can be designated for an Objective and/or Deli
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Amount of funds that can be designated for an Objective and/or Delivery Framewor
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Budget.cdm.json/Budget  
+applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Budget.cdm.json/Budget  
 
 ## Traits
 

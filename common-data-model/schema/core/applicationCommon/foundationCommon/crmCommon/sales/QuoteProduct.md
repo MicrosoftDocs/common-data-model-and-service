@@ -4,7 +4,7 @@ description: Product line item in a quote. The details include such information 
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Product line item in a quote. The details include such information as product ID
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/sales/QuoteProduct.cdm.json/QuoteProduct  
+applicationCommon/foundationCommon/crmCommon/sales/QuoteProduct.cdm.json/QuoteProduct  
 
 ## Traits
 

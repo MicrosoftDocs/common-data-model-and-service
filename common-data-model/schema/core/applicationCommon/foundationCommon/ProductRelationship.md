@@ -4,7 +4,7 @@ description: Information about the selling relationship between two products, in
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Information about the selling relationship between two products, including the r
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/ProductRelationship.cdm.json/ProductRelationship  
+applicationCommon/foundationCommon/ProductRelationship.cdm.json/ProductRelationship  
 
 ## Traits
 

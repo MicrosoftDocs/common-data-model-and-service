@@ -4,7 +4,7 @@ description: Information about products and their pricing information.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,8 +18,8 @@ Information about products and their pricing information.
 
 Instances of this entity are listed below.  
 
-[/core/applicationCommon/foundationCommon/Product.cdm.json/Product](../../../../Product.md "/core/applicationCommon/foundationCommon/Product.cdm.json/Product")  
-/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Product.cdm.json/Product  
+[applicationCommon/foundationCommon/Product.cdm.json/Product](../../../../Product.md "/core/applicationCommon/foundationCommon/Product.cdm.json/Product")  
+applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Product.cdm.json/Product  
 
 ## Traits
 

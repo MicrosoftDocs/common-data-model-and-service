@@ -4,7 +4,7 @@ description: Instance of a property with its value.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,8 +18,8 @@ Instance of a property with its value.
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/PropertyInstance.cdm.json/PropertyInstance  
-[/core/applicationCommon/foundationCommon/crmCommon/sales/PropertyInstance.cdm.json/PropertyInstance](crmCommon/sales/PropertyInstance.md "/core/applicationCommon/foundationCommon/crmCommon/sales/PropertyInstance.cdm.json/PropertyInstance")  
+applicationCommon/foundationCommon/PropertyInstance.cdm.json/PropertyInstance  
+[applicationCommon/foundationCommon/crmCommon/sales/PropertyInstance.cdm.json/PropertyInstance](crmCommon/sales/PropertyInstance.md "/core/applicationCommon/foundationCommon/crmCommon/sales/PropertyInstance.cdm.json/PropertyInstance")  
 
 ## Traits
 

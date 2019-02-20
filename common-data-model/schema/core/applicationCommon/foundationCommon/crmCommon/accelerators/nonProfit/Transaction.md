@@ -4,7 +4,7 @@ description: Transactions (also referred to as donations) represent payments fro
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Transactions (also referred to as donations) represent payments from the donor, 
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Transaction.cdm.json/Transaction  
+applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Transaction.cdm.json/Transaction  
 
 ## Traits
 

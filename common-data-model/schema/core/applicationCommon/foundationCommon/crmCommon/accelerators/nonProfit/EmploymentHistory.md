@@ -4,7 +4,7 @@ description: Historical and/or current information about where a contact works, 
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Historical and/or current information about where a contact works, volunteers or
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/EmploymentHistory.cdm.json/EmploymentHistory  
+applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/EmploymentHistory.cdm.json/EmploymentHistory  
 
 ## Traits
 

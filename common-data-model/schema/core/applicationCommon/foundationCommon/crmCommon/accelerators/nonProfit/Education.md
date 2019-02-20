@@ -4,7 +4,7 @@ description: Biographical information about the education institutions a contact
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Biographical information about the education institutions a contact attended or 
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Education.cdm.json/Education  
+applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Education.cdm.json/Education  
 
 ## Traits
 

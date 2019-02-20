@@ -4,7 +4,7 @@ description: Submissions from prospects on LinkedIn
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Submissions from prospects on LinkedIn
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/LinkedInLeads/LinkedInLeadGenFormSubmission.cdm.json/LinkedInLeadGenFormSubmission  
+applicationCommon/foundationCommon/crmCommon/solutions/marketing/LinkedInLeads/LinkedInLeadGenFormSubmission.cdm.json/LinkedInLeadGenFormSubmission  
 
 ## Traits
 

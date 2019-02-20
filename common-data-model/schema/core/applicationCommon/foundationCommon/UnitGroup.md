@@ -4,7 +4,7 @@ description: Grouping of units.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Grouping of units.
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/UnitGroup.cdm.json/UnitGroup  
+applicationCommon/foundationCommon/UnitGroup.cdm.json/UnitGroup  
 
 ## Traits
 

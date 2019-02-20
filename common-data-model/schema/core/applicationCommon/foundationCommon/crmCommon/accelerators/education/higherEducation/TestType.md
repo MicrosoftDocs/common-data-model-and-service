@@ -4,7 +4,7 @@ description: Type of test taken by a Student Contact
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Type of test taken by a Student Contact
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/TestType.cdm.json/TestType  
+applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/TestType.cdm.json/TestType  
 
 ## Traits
 

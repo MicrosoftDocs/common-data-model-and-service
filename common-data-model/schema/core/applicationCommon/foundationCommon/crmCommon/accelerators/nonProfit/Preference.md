@@ -6,7 +6,7 @@ Preferences also typically store demographic information in a series of dependen
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -22,7 +22,7 @@ Preferences also typically store demographic information in a series of dependen
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Preference.cdm.json/Preference  
+applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Preference.cdm.json/Preference  
 
 ## Traits
 

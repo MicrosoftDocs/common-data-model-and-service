@@ -4,7 +4,7 @@ description: Business competing for the sale represented by a lead or opportunit
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Business competing for the sale represented by a lead or opportunity.
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/sales/Competitor.cdm.json/Competitor  
+applicationCommon/foundationCommon/crmCommon/sales/Competitor.cdm.json/Competitor  
 
 ## Traits
 

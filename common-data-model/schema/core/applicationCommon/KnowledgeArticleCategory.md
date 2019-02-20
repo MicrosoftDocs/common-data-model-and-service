@@ -4,7 +4,7 @@ description: Category for a Knowledge Article.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Category for a Knowledge Article.
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/KnowledgeArticleCategory.cdm.json/KnowledgeArticleCategory  
+applicationCommon/KnowledgeArticleCategory.cdm.json/KnowledgeArticleCategory  
 
 ## Traits
 

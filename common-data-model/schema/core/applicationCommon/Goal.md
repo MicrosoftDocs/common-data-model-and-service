@@ -4,7 +4,7 @@ description: Target objective for a user or a team for a specified time period.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Target objective for a user or a team for a specified time period.
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/Goal.cdm.json/Goal  
+applicationCommon/Goal.cdm.json/Goal  
 
 ## Traits
 

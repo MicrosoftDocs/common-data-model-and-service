@@ -4,7 +4,7 @@ description: Donor commitments track the frequency with which constituents donat
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Donor commitments track the frequency with which constituents donate funds to a 
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/DonorCommitment.cdm.json/DonorCommitment  
+applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/DonorCommitment.cdm.json/DonorCommitment  
 
 ## Traits
 

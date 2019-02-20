@@ -4,7 +4,7 @@ description: Commitment representing a time interval with start/end times and du
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,9 +18,9 @@ Commitment representing a time interval with start/end times and duration.
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/Appointment.cdm.json/Appointment  
-[/core/applicationCommon/foundationCommon/crmCommon/Appointment.cdm.json/Appointment](foundationCommon/crmCommon/Appointment.md "/core/applicationCommon/foundationCommon/crmCommon/Appointment.cdm.json/Appointment")  
-[/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Appointment.cdm.json/Appointment](foundationCommon/crmCommon/solutions/marketing/Appointment.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Appointment.cdm.json/Appointment")  
+applicationCommon/Appointment.cdm.json/Appointment  
+[applicationCommon/foundationCommon/crmCommon/Appointment.cdm.json/Appointment](foundationCommon/crmCommon/Appointment.md "/core/applicationCommon/foundationCommon/crmCommon/Appointment.cdm.json/Appointment")  
+[applicationCommon/foundationCommon/crmCommon/solutions/marketing/Appointment.cdm.json/Appointment](foundationCommon/crmCommon/solutions/marketing/Appointment.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Appointment.cdm.json/Appointment")  
 
 ## Traits
 

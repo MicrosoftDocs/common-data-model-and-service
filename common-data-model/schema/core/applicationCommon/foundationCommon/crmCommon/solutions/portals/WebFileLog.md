@@ -4,7 +4,7 @@ description: A record of the download of a web file
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ A record of the download of a web file
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebFileLog.cdm.json/WebFileLog  
+applicationCommon/foundationCommon/crmCommon/solutions/portals/WebFileLog.cdm.json/WebFileLog  
 
 ## Traits
 

@@ -4,7 +4,7 @@ description: Service level agreement (SLA) key performance indicator (KPI) insta
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,8 +18,8 @@ Service level agreement (SLA) key performance indicator (KPI) instance that is t
 
 Instances of this entity are listed below.  
 
-[/core/applicationCommon/SLAKPIInstance.cdm.json/SLAKPIInstance](../../../SLAKPIInstance.md "/core/applicationCommon/SLAKPIInstance.cdm.json/SLAKPIInstance")  
-/core/applicationCommon/foundationCommon/crmCommon/service/SLAKPIInstance.cdm.json/SLAKPIInstance  
+[applicationCommon/SLAKPIInstance.cdm.json/SLAKPIInstance](../../../SLAKPIInstance.md "/core/applicationCommon/SLAKPIInstance.cdm.json/SLAKPIInstance")  
+applicationCommon/foundationCommon/crmCommon/service/SLAKPIInstance.cdm.json/SLAKPIInstance  
 
 ## Traits
 

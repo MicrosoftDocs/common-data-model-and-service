@@ -4,7 +4,7 @@ description: The collection of all accounts making up the central repository of 
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ The collection of all accounts making up the central repository of accounting da
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/financialCommon/Ledger.cdm.json/Ledger  
+applicationCommon/foundationCommon/financialCommon/Ledger.cdm.json/Ledger  
 
 ## Traits
 

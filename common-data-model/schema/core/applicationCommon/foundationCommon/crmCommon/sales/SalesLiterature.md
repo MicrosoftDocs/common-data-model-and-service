@@ -4,7 +4,7 @@ description: Storage of sales literature, which may contain one or more document
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Storage of sales literature, which may contain one or more documents.
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/sales/SalesLiterature.cdm.json/SalesLiterature  
+applicationCommon/foundationCommon/crmCommon/sales/SalesLiterature.cdm.json/SalesLiterature  
 
 ## Traits
 

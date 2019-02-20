@@ -4,7 +4,7 @@ description: This is the mechanism through which Foundations provide recommendat
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ This is the mechanism through which Foundations provide recommendations back to 
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Recommendation.cdm.json/Recommendation  
+applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Recommendation.cdm.json/Recommendation  
 
 ## Traits
 

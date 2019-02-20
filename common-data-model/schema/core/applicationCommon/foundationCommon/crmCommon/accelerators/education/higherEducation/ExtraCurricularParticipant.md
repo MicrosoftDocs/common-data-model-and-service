@@ -4,7 +4,7 @@ description: The relationship between a Contact and a specific Extra Curricular 
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ The relationship between a Contact and a specific Extra Curricular Activity.
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/ExtraCurricularParticipant.cdm.json/ExtraCurricularParticipant  
+applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/ExtraCurricularParticipant.cdm.json/ExtraCurricularParticipant  
 
 ## Traits
 

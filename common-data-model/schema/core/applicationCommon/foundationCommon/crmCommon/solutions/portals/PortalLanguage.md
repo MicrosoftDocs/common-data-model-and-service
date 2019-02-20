@@ -4,7 +4,7 @@ description: Lists the languages supported by the Portal
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Lists the languages supported by the Portal
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/PortalLanguage.cdm.json/PortalLanguage  
+applicationCommon/foundationCommon/crmCommon/solutions/portals/PortalLanguage.cdm.json/PortalLanguage  
 
 ## Traits
 

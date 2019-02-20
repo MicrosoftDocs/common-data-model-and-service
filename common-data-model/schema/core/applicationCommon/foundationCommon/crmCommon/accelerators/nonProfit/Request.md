@@ -4,7 +4,7 @@ description: Represents a request from an individual or institution for funding 
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Represents a request from an individual or institution for funding or support. A
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Request.cdm.json/Request  
+applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Request.cdm.json/Request  
 
 ## Traits
 

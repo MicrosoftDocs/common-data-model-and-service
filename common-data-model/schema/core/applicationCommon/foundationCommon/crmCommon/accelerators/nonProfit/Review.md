@@ -4,7 +4,7 @@ description: The internal assessment of a Request made by a staff member (or tea
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/19/2019
+ms.date: 2/20/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ The internal assessment of a Request made by a staff member (or team) and all of
 
 Instances of this entity are listed below.  
 
-/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Review.cdm.json/Review  
+applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Review.cdm.json/Review  
 
 ## Traits
 
