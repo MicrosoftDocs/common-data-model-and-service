@@ -19,14 +19,14 @@ Potential revenue-generating event, or sale to an account, which needs to be tra
 Instances of this entity are listed below.  
 
 /foundationCommon/crmCommon/accelerators/nonProfit/Opportunity.cdm.json/Opportunity  
-[applicationCommon/foundationCommon/crmCommon/sales/Opportunity.cdm.json/Opportunity](../../sales/Opportunity.md "/core/applicationCommon/foundationCommon/crmCommon/sales/Opportunity.cdm.json/Opportunity")  
-[applicationCommon/foundationCommon/crmCommon/solutions/portals/Opportunity.cdm.json/Opportunity](../../solutions/portals/Opportunity.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Opportunity.cdm.json/Opportunity")  
+[/foundationCommon/crmCommon/sales/Opportunity.cdm.json/Opportunity](../../sales/Opportunity.md "/core/applicationCommon/foundationCommon/crmCommon/sales/Opportunity.cdm.json/Opportunity")  
+[/foundationCommon/crmCommon/solutions/portals/Opportunity.cdm.json/Opportunity](../../solutions/portals/Opportunity.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Opportunity.cdm.json/Opportunity")  
 
 ## Traits
 
 <details>
-Traits for this entity are listed below.  
-  
+<summary>Traits for this entity are listed below.</summary>
+
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 

@@ -18,14 +18,14 @@ Service request case associated with a contract.
 
 Instances of this entity are listed below.  
 
-[applicationCommon/foundationCommon/crmCommon/service/Case.cdm.json/Case](../../service/Case.md "/core/applicationCommon/foundationCommon/crmCommon/service/Case.cdm.json/Case")  
+[/foundationCommon/crmCommon/service/Case.cdm.json/Case](../../service/Case.md "/core/applicationCommon/foundationCommon/crmCommon/service/Case.cdm.json/Case")  
 /foundationCommon/crmCommon/solutions/portals/Case.cdm.json/Case  
 
 ## Traits
 
 <details>
-Traits for this entity are listed below.  
-  
+<summary>Traits for this entity are listed below.</summary>
+
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 

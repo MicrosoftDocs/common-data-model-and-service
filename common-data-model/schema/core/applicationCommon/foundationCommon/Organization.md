@@ -18,14 +18,14 @@ Top level of the Microsoft Dynamics 365 business hierarchy. The organization can
 
 Instances of this entity are listed below.  
 
-[applicationCommon/Organization.cdm.json/Organization](../Organization.md "/core/applicationCommon/Organization.cdm.json/Organization")  
+[/Organization.cdm.json/Organization](../Organization.md "/core/applicationCommon/Organization.cdm.json/Organization")  
 /foundationCommon/Organization.cdm.json/Organization  
 
 ## Traits
 
 <details>
-Traits for this entity are listed below.  
-  
+<summary>Traits for this entity are listed below.</summary>
+
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 

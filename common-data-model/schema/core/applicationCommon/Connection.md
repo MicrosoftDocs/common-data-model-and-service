@@ -19,13 +19,13 @@ Relationship between two entities.
 Instances of this entity are listed below.  
 
 /Connection.cdm.json/Connection  
-[applicationCommon/foundationCommon/crmCommon/solutions/marketing/Connection.cdm.json/Connection](foundationCommon/crmCommon/solutions/marketing/Connection.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Connection.cdm.json/Connection")  
+[/foundationCommon/crmCommon/solutions/marketing/Connection.cdm.json/Connection](foundationCommon/crmCommon/solutions/marketing/Connection.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Connection.cdm.json/Connection")  
 
 ## Traits
 
 <details>
-Traits for this entity are listed below.  
-  
+<summary>Traits for this entity are listed below.</summary>
+
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 

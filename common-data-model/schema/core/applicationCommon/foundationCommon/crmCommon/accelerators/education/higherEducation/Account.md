@@ -18,20 +18,20 @@ Business that represents a customer or potential customer. The company that is b
 
 Instances of this entity are listed below.  
 
-[applicationCommon/Account.cdm.json/Account](../../../../../Account.md "/core/applicationCommon/Account.cdm.json/Account")  
-[applicationCommon/foundationCommon/Account.cdm.json/Account](../../../../Account.md "/core/applicationCommon/foundationCommon/Account.cdm.json/Account")  
-[applicationCommon/foundationCommon/crmCommon/Account.cdm.json/Account](../../../Account.md "/core/applicationCommon/foundationCommon/crmCommon/Account.cdm.json/Account")  
+[/Account.cdm.json/Account](../../../../../Account.md "/core/applicationCommon/Account.cdm.json/Account")  
+[/foundationCommon/Account.cdm.json/Account](../../../../Account.md "/core/applicationCommon/foundationCommon/Account.cdm.json/Account")  
+[/foundationCommon/crmCommon/Account.cdm.json/Account](../../../Account.md "/core/applicationCommon/foundationCommon/crmCommon/Account.cdm.json/Account")  
 /foundationCommon/crmCommon/accelerators/education/higherEducation/Account.cdm.json/Account  
-[applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Account.cdm.json/Account](../../healthCare/electronicMedicalRecords/Account.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Account.cdm.json/Account")  
-[applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Account.cdm.json/Account](../../nonProfit/Account.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Account.cdm.json/Account")  
-[applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Account.cdm.json/Account](../../../solutions/marketing/eventManagement/Account.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Account.cdm.json/Account")  
-[applicationCommon/foundationCommon/crmCommon/solutions/portals/Account.cdm.json/Account](../../../solutions/portals/Account.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Account.cdm.json/Account")  
+[/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Account.cdm.json/Account](../../healthCare/electronicMedicalRecords/Account.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Account.cdm.json/Account")  
+[/foundationCommon/crmCommon/accelerators/nonProfit/Account.cdm.json/Account](../../nonProfit/Account.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Account.cdm.json/Account")  
+[/foundationCommon/crmCommon/solutions/marketing/eventManagement/Account.cdm.json/Account](../../../solutions/marketing/eventManagement/Account.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Account.cdm.json/Account")  
+[/foundationCommon/crmCommon/solutions/portals/Account.cdm.json/Account](../../../solutions/portals/Account.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Account.cdm.json/Account")  
 
 ## Traits
 
 <details>
-Traits for this entity are listed below.  
-  
+<summary>Traits for this entity are listed below.</summary>
+
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 

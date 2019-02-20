@@ -18,14 +18,14 @@ Information about how to price a product in the specified price level, including
 
 Instances of this entity are listed below.  
 
-[applicationCommon/foundationCommon/PriceListItem.cdm.json/PriceListItem](../../PriceListItem.md "/core/applicationCommon/foundationCommon/PriceListItem.cdm.json/PriceListItem")  
+[/foundationCommon/PriceListItem.cdm.json/PriceListItem](../../PriceListItem.md "/core/applicationCommon/foundationCommon/PriceListItem.cdm.json/PriceListItem")  
 /foundationCommon/crmCommon/sales/PriceListItem.cdm.json/PriceListItem  
 
 ## Traits
 
 <details>
-Traits for this entity are listed below.  
-  
+<summary>Traits for this entity are listed below.</summary>
+
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 

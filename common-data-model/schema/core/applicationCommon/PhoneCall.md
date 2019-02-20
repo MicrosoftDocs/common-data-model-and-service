@@ -19,14 +19,14 @@ Activity to track a telephone call.
 Instances of this entity are listed below.  
 
 /PhoneCall.cdm.json/PhoneCall  
-[applicationCommon/foundationCommon/crmCommon/PhoneCall.cdm.json/PhoneCall](foundationCommon/crmCommon/PhoneCall.md "/core/applicationCommon/foundationCommon/crmCommon/PhoneCall.cdm.json/PhoneCall")  
-[applicationCommon/foundationCommon/crmCommon/solutions/marketing/PhoneCall.cdm.json/PhoneCall](foundationCommon/crmCommon/solutions/marketing/PhoneCall.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/PhoneCall.cdm.json/PhoneCall")  
+[/foundationCommon/crmCommon/PhoneCall.cdm.json/PhoneCall](foundationCommon/crmCommon/PhoneCall.md "/core/applicationCommon/foundationCommon/crmCommon/PhoneCall.cdm.json/PhoneCall")  
+[/foundationCommon/crmCommon/solutions/marketing/PhoneCall.cdm.json/PhoneCall](foundationCommon/crmCommon/solutions/marketing/PhoneCall.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/PhoneCall.cdm.json/PhoneCall")  
 
 ## Traits
 
 <details>
-Traits for this entity are listed below.  
-  
+<summary>Traits for this entity are listed below.</summary>
+
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 

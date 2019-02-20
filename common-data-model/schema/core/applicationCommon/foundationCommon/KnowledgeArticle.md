@@ -18,14 +18,14 @@ Organizational knowledge for internal and external use.
 
 Instances of this entity are listed below.  
 
-[applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle](../KnowledgeArticle.md "/core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle")  
+[/KnowledgeArticle.cdm.json/KnowledgeArticle](../KnowledgeArticle.md "/core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle")  
 /foundationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle  
 
 ## Traits
 
 <details>
-Traits for this entity are listed below.  
-  
+<summary>Traits for this entity are listed below.</summary>
+
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 

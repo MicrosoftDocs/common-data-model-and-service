@@ -19,14 +19,14 @@ Commitment representing a time interval with start/end times and duration.
 Instances of this entity are listed below.  
 
 /Appointment.cdm.json/Appointment  
-[applicationCommon/foundationCommon/crmCommon/Appointment.cdm.json/Appointment](foundationCommon/crmCommon/Appointment.md "/core/applicationCommon/foundationCommon/crmCommon/Appointment.cdm.json/Appointment")  
-[applicationCommon/foundationCommon/crmCommon/solutions/marketing/Appointment.cdm.json/Appointment](foundationCommon/crmCommon/solutions/marketing/Appointment.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Appointment.cdm.json/Appointment")  
+[/foundationCommon/crmCommon/Appointment.cdm.json/Appointment](foundationCommon/crmCommon/Appointment.md "/core/applicationCommon/foundationCommon/crmCommon/Appointment.cdm.json/Appointment")  
+[/foundationCommon/crmCommon/solutions/marketing/Appointment.cdm.json/Appointment](foundationCommon/crmCommon/solutions/marketing/Appointment.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Appointment.cdm.json/Appointment")  
 
 ## Traits
 
 <details>
-Traits for this entity are listed below.  
-  
+<summary>Traits for this entity are listed below.</summary>
+
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 

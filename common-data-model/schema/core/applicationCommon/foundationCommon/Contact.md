@@ -18,20 +18,20 @@ Person with whom a business unit has a relationship, such as customer, supplier,
 
 Instances of this entity are listed below.  
 
-[applicationCommon/Contact.cdm.json/Contact](../Contact.md "/core/applicationCommon/Contact.cdm.json/Contact")  
+[/Contact.cdm.json/Contact](../Contact.md "/core/applicationCommon/Contact.cdm.json/Contact")  
 /foundationCommon/Contact.cdm.json/Contact  
-[applicationCommon/foundationCommon/crmCommon/Contact.cdm.json/Contact](crmCommon/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/Contact.cdm.json/Contact")  
-[applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Contact.cdm.json/Contact](crmCommon/accelerators/education/higherEducation/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Contact.cdm.json/Contact")  
-[applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Contact.cdm.json/Contact](crmCommon/accelerators/healthCare/electronicMedicalRecords/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Contact.cdm.json/Contact")  
-[applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Contact.cdm.json/Contact](crmCommon/accelerators/nonProfit/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Contact.cdm.json/Contact")  
-[applicationCommon/foundationCommon/crmCommon/solutions/marketing/Contact.cdm.json/Contact](crmCommon/solutions/marketing/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Contact.cdm.json/Contact")  
-[applicationCommon/foundationCommon/crmCommon/solutions/portals/Contact.cdm.json/Contact](crmCommon/solutions/portals/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Contact.cdm.json/Contact")  
+[/foundationCommon/crmCommon/Contact.cdm.json/Contact](crmCommon/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/Contact.cdm.json/Contact")  
+[/foundationCommon/crmCommon/accelerators/education/higherEducation/Contact.cdm.json/Contact](crmCommon/accelerators/education/higherEducation/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Contact.cdm.json/Contact")  
+[/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Contact.cdm.json/Contact](crmCommon/accelerators/healthCare/electronicMedicalRecords/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Contact.cdm.json/Contact")  
+[/foundationCommon/crmCommon/accelerators/nonProfit/Contact.cdm.json/Contact](crmCommon/accelerators/nonProfit/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Contact.cdm.json/Contact")  
+[/foundationCommon/crmCommon/solutions/marketing/Contact.cdm.json/Contact](crmCommon/solutions/marketing/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Contact.cdm.json/Contact")  
+[/foundationCommon/crmCommon/solutions/portals/Contact.cdm.json/Contact](crmCommon/solutions/portals/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Contact.cdm.json/Contact")  
 
 ## Traits
 
 <details>
-Traits for this entity are listed below.  
-  
+<summary>Traits for this entity are listed below.</summary>
+
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 

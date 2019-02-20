@@ -18,16 +18,16 @@ Generic activity representing work needed to be done.
 
 Instances of this entity are listed below.  
 
-[applicationCommon/Task.cdm.json/Task](../../../Task.md "/core/applicationCommon/Task.cdm.json/Task")  
-[applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.cdm.json/Task](../accelerators/healthCare/electronicMedicalRecords/Task.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.cdm.json/Task")  
+[/Task.cdm.json/Task](../../../Task.md "/core/applicationCommon/Task.cdm.json/Task")  
+[/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.cdm.json/Task](../accelerators/healthCare/electronicMedicalRecords/Task.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.cdm.json/Task")  
 /foundationCommon/crmCommon/service/Task.cdm.json/Task  
-[applicationCommon/foundationCommon/crmCommon/solutions/marketing/Task.cdm.json/Task](../solutions/marketing/Task.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Task.cdm.json/Task")  
+[/foundationCommon/crmCommon/solutions/marketing/Task.cdm.json/Task](../solutions/marketing/Task.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Task.cdm.json/Task")  
 
 ## Traits
 
 <details>
-Traits for this entity are listed below.  
-  
+<summary>Traits for this entity are listed below.</summary>
+
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
