@@ -3,7 +3,7 @@ title: "Upgrade to Common Data Service for Apps | Microsoft Docs"
 description: "Provides instructions on how to upgrade from previous version of Common Data Service to CDS for Apps"
 author: "JimDaly"
 manager: "ryjones"
-ms.date: "02/05/2019"
+ms.date: "02/20/2019"
 ms.topic: "article"
 ms.custom: ""
 ms.service: "CommonDataService"
@@ -34,7 +34,7 @@ To use the new capabilities in CDS for Apps, existing users on the previous vers
 
     - More information: [Delete your previous version Common Data Service database](delete-legacy-cds-database.md)
 - **Do nothing**
-    - When the previous version of CDS is discontinued on March 15, 2019, all remaining previous version CDS databases will be deleted.
+    - When the previous version of CDS is discontinued on March 15, 2019, all remaining previous version CDS databases will be not be available through the service. On request, data from these databases can be recovered for 30 days after the service is discontinued. Open a request via support to get the data.
 
 
 > [!WARNING]
