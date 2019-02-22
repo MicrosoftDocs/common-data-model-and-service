@@ -1,6 +1,6 @@
 ---
 title: RegistrationStatus
-description: The master list of registration statuses tracked by the institution. The registration status is associated to the student course history.
+description: This describes the RegistrationStatus_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

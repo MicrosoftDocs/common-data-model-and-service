@@ -1,6 +1,6 @@
 ---
 title: Transaction
-description: Transactions (also referred to as donations) represent payments from the donor, contact, account or organization to the nonprofit.  Transaction records must track valuable information about the gift or items transferred from a constituent to a nonprofit organization.  Critical transaction information to capture and provide audit capabilities around include what payment method was used, what channel the gift came in through, whether an adjustment was made (and on what date for what amount?), when was the transaction received vs. processed vs. reconciled and more.
+description: This describes the Transaction_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

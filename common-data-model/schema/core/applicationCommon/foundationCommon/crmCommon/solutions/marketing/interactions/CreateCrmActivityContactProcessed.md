@@ -1,6 +1,6 @@
 ---
 title: CreateCrmActivityContactProcessed
-description: undefined
+description: This describes the CreateCrmActivityContactProcessed_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

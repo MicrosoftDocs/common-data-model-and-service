@@ -1,6 +1,6 @@
 ---
 title: CareTeam
-description: The Care Team includes all the people and organizations who plan to participate in the coordination and delivery of care for a patient.
+description: This describes the CareTeam_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

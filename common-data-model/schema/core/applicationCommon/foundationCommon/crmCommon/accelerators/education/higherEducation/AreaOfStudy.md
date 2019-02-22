@@ -1,6 +1,6 @@
 ---
 title: AreaOfStudy
-description: The master list of all area of studies offered by an institution.  Areas of studies are more specific program offerings, such as Master's of Public Administration - Emergency Management.
+description: This describes the AreaOfStudy_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

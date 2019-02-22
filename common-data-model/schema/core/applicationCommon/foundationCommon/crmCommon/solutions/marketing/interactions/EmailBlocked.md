@@ -1,6 +1,6 @@
 ---
 title: EmailBlocked
-description: undefined
+description: This describes the EmailBlocked_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

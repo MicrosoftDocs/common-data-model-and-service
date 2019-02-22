@@ -1,6 +1,6 @@
 ---
 title: ResourceSpecification
-description: Selection rule that allows the scheduling engine to select a number of resources from a pool of resources. The rules can be associated with a service.
+description: This describes the ResourceSpecification_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

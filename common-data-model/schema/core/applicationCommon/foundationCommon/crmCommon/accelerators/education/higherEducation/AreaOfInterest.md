@@ -1,6 +1,6 @@
 ---
 title: AreaOfInterest
-description: The master list of all area of interests offered by an institution.  Areas of interest are higher level subject groupings like astronomy, or business.
+description: This describes the AreaOfInterest_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

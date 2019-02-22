@@ -1,6 +1,6 @@
 ---
 title: Result
-description: A Result is a container that represents the changes in the context in which an organization operates Delivery Frameworks (i.e. Programs, Projects).
+description: This describes the Result_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

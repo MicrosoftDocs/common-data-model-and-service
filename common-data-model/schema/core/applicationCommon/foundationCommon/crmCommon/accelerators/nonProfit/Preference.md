@@ -1,8 +1,6 @@
 ---
 title: Preference
-description: Typically tracks an abundance of constituent or organization information that doesn't live cleanly on an account or contact record, or that can be associated with both an Account and a Contact.  Examples:  personal interests, additional communication preferences like desire to receive a newsletter, specific outreach the constituent wants, and additional affiliation information like Constituent Type associations and ratings.
-
-Preferences also typically store demographic information in a series of dependent picklists: Category, Subcategory, Type, Subtype. Most commonly, only two or three of the fields in this dependent hierarchy will be used.
+description: This describes the Preference_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

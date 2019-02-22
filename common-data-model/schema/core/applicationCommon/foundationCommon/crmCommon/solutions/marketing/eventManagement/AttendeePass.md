@@ -1,6 +1,6 @@
 ---
 title: AttendeePass
-description: undefined
+description: This describes the AttendeePass_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

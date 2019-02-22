@@ -1,6 +1,6 @@
 ---
 title: Fax
-description: Activity that tracks call outcome and number of pages for a fax and optionally stores an electronic copy of the document.
+description: This describes the Fax_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

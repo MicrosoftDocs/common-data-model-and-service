@@ -1,6 +1,6 @@
 ---
 title: Quote
-description: Formal offer for products and/or services, proposed at specific prices and related payment terms, which is sent to a prospective customer.
+description: This describes the Quote_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

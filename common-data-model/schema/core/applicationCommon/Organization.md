@@ -1,6 +1,6 @@
 ---
 title: Organization
-description: Top level of the Microsoft Dynamics 365 business hierarchy. The organization can be a specific business, holding company, or corporation.
+description: This describes the Organization_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

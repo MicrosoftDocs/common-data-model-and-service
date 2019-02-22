@@ -1,6 +1,6 @@
 ---
 title: Room
-description: A room is where a session may be held. A single room can be used in multiple different layouts which has a direct impact on the max. occupancy of the room.
+description: This describes the Room_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

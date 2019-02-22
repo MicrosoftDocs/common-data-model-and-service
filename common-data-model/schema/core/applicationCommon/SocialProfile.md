@@ -1,6 +1,6 @@
 ---
 title: SocialProfile
-description: This entity is used to store social profile information of its associated account and contacts on different social channels.
+description: This describes the SocialProfile_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

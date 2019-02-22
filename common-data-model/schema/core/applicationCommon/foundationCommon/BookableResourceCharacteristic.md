@@ -1,6 +1,6 @@
 ---
 title: BookableResourceCharacteristic
-description: Associates resources with their characteristics and specifies the proficiency level of a resource for that characteristic.
+description: This describes the BookableResourceCharacteristic_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

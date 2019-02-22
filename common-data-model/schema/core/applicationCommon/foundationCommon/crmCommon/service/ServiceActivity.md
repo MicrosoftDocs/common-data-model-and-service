@@ -1,6 +1,6 @@
 ---
 title: ServiceActivity
-description: Activity offered by the organization to satisfy its customer's needs. Each service activity includes date, time, duration, and required resources.
+description: This describes the ServiceActivity_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

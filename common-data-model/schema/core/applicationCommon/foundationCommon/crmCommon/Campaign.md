@@ -1,6 +1,6 @@
 ---
 title: Campaign
-description: Container for campaign activities and responses, sales literature, products, and lists to create, plan, execute, and track the results of a specific marketing campaign through its life.
+description: This describes the Campaign_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

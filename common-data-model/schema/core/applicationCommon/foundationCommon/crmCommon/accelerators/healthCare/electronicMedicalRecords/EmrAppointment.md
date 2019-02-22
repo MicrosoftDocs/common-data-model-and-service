@@ -1,6 +1,6 @@
 ---
 title: EmrAppointment
-description: A booking of a healthcare event among patient(s), practitioner(s), related person(s) and/or device(s) for a specific date/time. This may result in one or more Encounter(s).
+description: This describes the EmrAppointment_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: DonorCommitment
-description: Donor commitments track the frequency with which constituents donate funds to a nonprofit or Foundation.  All nonprofits and Foundations seek to attract as many monthly/recurring/sustaining gifts or donor commitments that they can.  Other donors routinely give on a one-time basis.  Monthly givers require additional payment and transaction information tracking including payment method, schedules, in-kind pledge relevance, and more.
+description: This describes the DonorCommitment_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

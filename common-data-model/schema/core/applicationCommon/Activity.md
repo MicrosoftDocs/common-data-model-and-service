@@ -1,6 +1,6 @@
 ---
 title: Activity
-description: Task performed, or to be performed, by a user. An activity is any action for which an entry can be made on a calendar.
+description: This describes the Activity_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: ContactQuotes
-description: undefined
+description: This describes the ContactQuotes_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

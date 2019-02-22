@@ -1,6 +1,6 @@
 ---
 title: RiskAssessment
-description: An assessment of the likely outcome(s) for a patient or other subject as well as the likelihood of each outcome.
+description: This describes the RiskAssessment_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

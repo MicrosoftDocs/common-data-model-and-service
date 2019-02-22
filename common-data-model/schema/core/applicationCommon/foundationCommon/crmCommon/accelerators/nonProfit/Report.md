@@ -1,6 +1,6 @@
 ---
 title: Report
-description: A status report submitted by an awardee to the granting entity (i.e., a Foundation) to report on what impact has been accomplished to date through the funds awarded to them.
+description: This describes the Report_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

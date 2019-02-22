@@ -1,6 +1,6 @@
 ---
 title: Indicator
-description: An Indicator describes what will be measured to track evidence of a Result. Indicators can be qualitative or quantitative and may or may not be aggregable.
+description: This describes the Indicator_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

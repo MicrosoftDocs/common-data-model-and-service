@@ -1,5 +1,5 @@
 ---
-title: nonProfit
+title: NonProfit
 description: 'nonProfit' is a folder that contains standard entities related to the Common Data Model.
 ms.service: common-data-model
 ms.reviewer: anneta
@@ -45,7 +45,7 @@ ms.author: tpalmer
 |[PaymentProcessor](PaymentProcessor.md)|This is a placeholder entity referenced by the Payment Method object.  It is intended to be customized with configuration data necessary to connect to a payment processor and authorize payments.  |
 |[PaymentSchedule](PaymentSchedule.md)|A gift transaction can be a one-time payment or a recurring payment (ie, monthly/sustainer giving). In addition, it can be a pledge (ie, promise) of a future payment or a current/received payment.  |
 |[PlannedGiving](PlannedGiving.md)|A planned gift is a major gift made during a donor's lifetime or at the time of their death that involves their estate and tax planning.  There are many forms of planned giving, but the three most common vehicles are CRTs (Charitable Remainder Trusts), Bequests and Annuities, which all have different tax benefits and financial reconciliation guidelines for the nonprofit organization. Planned gifts are in contrast to annual gifts, which are made through a donor's discretionary income and not tied to an estate.  |
-|[Preference](Preference.md)|# Preference|
+|[Preference](Preference.md)|Typically tracks an abundance of constituent or organization information that doesn't live cleanly on an account or contact record, or that can be associated with both an Account and a Contact.  Examples:  personal interests, additional communication preferences like desire to receive a newsletter, specific outreach the constituent wants, and additional affiliation information like Constituent Type associations and ratings.|
 |[Recommendation](Recommendation.md)|This is the mechanism through which Foundations provide recommendations back to a grant applicant.  |
 |[Report](Report.md)|A status report submitted by an awardee to the granting entity (i.e., a Foundation) to report on what impact has been accomplished to date through the funds awarded to them.  |
 |[Request](Request.md)|Represents a request from an individual or institution for funding or support. A request is more formal than an inquiry (LOI) and typically happens after an inquiry has already occurred.  |

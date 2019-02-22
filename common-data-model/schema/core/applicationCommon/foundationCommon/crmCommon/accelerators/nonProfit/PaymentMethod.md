@@ -1,6 +1,6 @@
 ---
 title: PaymentMethod
-description: This is a parent entity for Payment Method customizations that may be supported by an application.  Possible extensions could be to support credit cards, EFT, cryptocurrency, mobile payments, or rewards points.
+description: This describes the PaymentMethod_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

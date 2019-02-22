@@ -1,6 +1,6 @@
 ---
 title: Objective
-description: Used for the purpose of reporting on goals or strategies outside of program boundaries.  For example, "Advocacy" may be an objective of both "Health Care" and "Education". An objective is often a step above program in terms of hierarchy.  So, a Foundation may have 5 key objectives to fund for a particular fiscal year.  Related and underneath objectives like Advocacy, Job Training, and Literarcy might be any number of additional, related programs, all of which are seeking to award grants to qualified grant seekers.
+description: This describes the Objective_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

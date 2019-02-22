@@ -1,6 +1,6 @@
 ---
 title: Location
-description: Details and position information for a physical place where services are provided and resources and participants may be stored, found, contained or accommodated.
+description: This describes the Location_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

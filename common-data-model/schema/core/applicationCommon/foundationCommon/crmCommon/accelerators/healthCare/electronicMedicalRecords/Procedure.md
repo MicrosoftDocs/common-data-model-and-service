@@ -1,6 +1,6 @@
 ---
 title: Procedure
-description: An action that is or was performed on a patient. This can be a physical intervention like an operation, or less invasive like counseling or hypnotherapy.
+description: This describes the Procedure_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

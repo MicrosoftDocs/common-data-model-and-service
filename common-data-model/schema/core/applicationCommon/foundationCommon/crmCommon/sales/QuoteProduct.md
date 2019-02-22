@@ -1,6 +1,6 @@
 ---
 title: QuoteProduct
-description: Product line item in a quote. The details include such information as product ID, description, quantity, and cost.
+description: This describes the QuoteProduct_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

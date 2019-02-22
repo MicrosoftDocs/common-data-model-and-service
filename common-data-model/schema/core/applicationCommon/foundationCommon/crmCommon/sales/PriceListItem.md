@@ -1,6 +1,6 @@
 ---
 title: PriceListItem
-description: Information about how to price a product in the specified price level, including pricing method, rounding option, and discount type based on a specified product unit.
+description: This describes the PriceListItem_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

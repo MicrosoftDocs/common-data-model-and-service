@@ -1,6 +1,6 @@
 ---
 title: Website
-description: undefined
+description: This describes the Website_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

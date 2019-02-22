@@ -1,6 +1,6 @@
 ---
 title: DesignatedCredit
-description: A segment of a donation payment or in-kind gift that indicating the partial amount that is hard- or soft-credited to a Customer and allocated to one Designation.
+description: This describes the DesignatedCredit_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

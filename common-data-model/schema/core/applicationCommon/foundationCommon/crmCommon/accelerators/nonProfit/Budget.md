@@ -1,6 +1,6 @@
 ---
 title: Budget
-description: Amount of funds that can be designated for an Objective and/or Delivery Framework (i.e. Program, Project) for a given period of time.
+description: This describes the Budget_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Layout
-description: The layout entity is to provide users a quick way to specify the various different layouts that a single room can be arranged in and the maximum capacity of the room as a result of the change.
+description: This describes the Layout_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

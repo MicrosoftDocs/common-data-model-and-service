@@ -1,6 +1,6 @@
 ---
 title: EventVendor
-description: undefined
+description: This describes the EventVendor_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

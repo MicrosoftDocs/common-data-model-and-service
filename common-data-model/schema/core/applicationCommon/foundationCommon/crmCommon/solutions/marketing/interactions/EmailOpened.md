@@ -1,6 +1,6 @@
 ---
 title: EmailOpened
-description: undefined
+description: This describes the EmailOpened_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

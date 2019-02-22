@@ -1,6 +1,6 @@
 ---
 title: PaymentProcessor
-description: This is a placeholder entity referenced by the Payment Method object.  It is intended to be customized with configuration data necessary to connect to a payment processor and authorize payments.
+description: This describes the PaymentProcessor_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

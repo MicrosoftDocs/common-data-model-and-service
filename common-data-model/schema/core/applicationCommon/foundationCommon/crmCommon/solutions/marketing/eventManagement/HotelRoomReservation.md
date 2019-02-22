@@ -1,6 +1,6 @@
 ---
 title: HotelRoomReservation
-description: Each record of this type tracks a single request made by an event attendee (through the registration portal) to reserve a hotel room from the available hotel allocations
+description: This describes the HotelRoomReservation_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

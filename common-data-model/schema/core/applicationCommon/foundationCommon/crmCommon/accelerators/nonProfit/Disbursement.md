@@ -1,6 +1,6 @@
 ---
 title: Disbursement
-description: A Disbursement represents an Award disbursement to an individual or organizational awardee.  A Disbursement is related to a specific Award and Budget through a Disbursement Distribution.
+description: This describes the Disbursement_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

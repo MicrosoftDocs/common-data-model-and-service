@@ -1,6 +1,6 @@
 ---
 title: AllergyIntolerance
-description: Risk of harmful or undesirable, physiological response which is unique to an individual and associated with exposure to a substance.
+description: This describes the AllergyIntolerance_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

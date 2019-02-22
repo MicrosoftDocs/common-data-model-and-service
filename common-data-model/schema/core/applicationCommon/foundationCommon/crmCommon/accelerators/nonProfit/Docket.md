@@ -1,6 +1,6 @@
 ---
 title: Docket
-description: A Docket is used to associate inquiries (LOIs) and requests with a specific grant/award cycle or date (usually a review/board meeting) on which a foundation will make final decisions on applications.
+description: This describes the Docket_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

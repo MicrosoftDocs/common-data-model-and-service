@@ -1,6 +1,6 @@
 ---
 title: EducationLevel
-description: The master list of all education levels mapped in the external system, such as Associate of Arts, Bachelor, Certificate.
+description: This describes the EducationLevel_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

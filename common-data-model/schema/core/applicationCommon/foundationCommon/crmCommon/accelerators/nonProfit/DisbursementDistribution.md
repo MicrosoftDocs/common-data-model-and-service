@@ -1,6 +1,6 @@
 ---
 title: DisbursementDistribution
-description: Defines the Delivery Framework(s) - i.e. Program, Project, Initiative - that contribute to funding an Award Disbursement.
+description: This describes the DisbursementDistribution_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

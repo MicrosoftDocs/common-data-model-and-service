@@ -1,6 +1,6 @@
 ---
 title: Device
-description: This entity identifies an instance or a type of a manufactured item that is used in the provision of healthcare without being substantially changed through that activity.
+description: This describes the Device_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

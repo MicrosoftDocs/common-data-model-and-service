@@ -1,6 +1,6 @@
 ---
 title: Award
-description: The total amount of funding that has been agreed to be awarded to an individual or institution and related data, including but not limited to the recipient, date of the award, and purpose of the award
+description: This describes the Award_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

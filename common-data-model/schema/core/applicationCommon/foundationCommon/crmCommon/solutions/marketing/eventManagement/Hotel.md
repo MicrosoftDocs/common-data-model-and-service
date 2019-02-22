@@ -1,6 +1,6 @@
 ---
 title: Hotel
-description: This represents a single hotel property (for e.g, Marriott in Bellevue). Each individual property belongs to a Hotel Group (e.g., Marriott) which is represented by an Account
+description: This describes the Hotel_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Building
-description: A single venue can be comprised of zero or more buildings where event activities are held. Each building in turn is comprised of zero or more rooms where event activities are held.
+description: This describes the Building_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: PaymentSchedule
-description: A gift transaction can be a one-time payment or a recurring payment (ie, monthly/sustainer giving). In addition, it can be a pledge (ie, promise) of a future payment or a current/received payment.
+description: This describes the PaymentSchedule_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

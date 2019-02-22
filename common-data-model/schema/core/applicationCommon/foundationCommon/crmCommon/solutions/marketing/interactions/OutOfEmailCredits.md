@@ -1,6 +1,6 @@
 ---
 title: OutOfEmailCredits
-description: undefined
+description: This describes the OutOfEmailCredits_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

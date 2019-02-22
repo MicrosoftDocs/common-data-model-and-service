@@ -1,6 +1,6 @@
 ---
 title: QuickCampaign
-description: System operation used to perform lengthy and asynchronous operations on large data sets, such as distributing a campaign activity or quick campaign.
+description: This describes the QuickCampaign_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

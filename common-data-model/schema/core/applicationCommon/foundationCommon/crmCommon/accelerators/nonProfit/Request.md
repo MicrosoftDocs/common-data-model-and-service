@@ -1,6 +1,6 @@
 ---
 title: Request
-description: Represents a request from an individual or institution for funding or support. A request is more formal than an inquiry (LOI) and typically happens after an inquiry has already occurred.
+description: This describes the Request_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

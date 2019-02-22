@@ -1,6 +1,6 @@
 ---
 title: ProductRelationship
-description: Information about the selling relationship between two products, including the relationship type, such as up-sell, cross-sell, substitute, or accessory.
+description: This describes the ProductRelationship_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

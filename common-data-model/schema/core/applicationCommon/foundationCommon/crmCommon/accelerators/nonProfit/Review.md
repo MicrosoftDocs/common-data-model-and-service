@@ -1,6 +1,6 @@
 ---
 title: Review
-description: The internal assessment of a Request made by a staff member (or team) and all of the relevant information that needs to be tracked at the "review" stage of an application.
+description: This describes the Review_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Account
-description: Business that represents a customer or potential customer. The company that is billed in business transactions.
+description: This describes the Account_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Salutation
-description: The way a donor or prospect is commonly addressed via written communication (lhard-copy letters, emails, etc.).  It is typical for nonprofits and foundations to address major donors by different salutations depending on the scenario.  A Medical Doctor could be addressed as "Doctor" when the organization reaches out regarding in-country field volunteerism the person performs.  On the other hand, the same individual might be referred to as Mrs. Smith as part of her household being solicited for a major gift.
+description: This describes the Salutation_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

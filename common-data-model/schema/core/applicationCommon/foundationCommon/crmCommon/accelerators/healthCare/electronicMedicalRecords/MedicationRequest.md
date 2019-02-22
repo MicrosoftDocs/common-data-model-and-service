@@ -1,6 +1,6 @@
 ---
 title: MedicationRequest
-description: An order or request for both supply of the medication and the instructions for administration of the medication to a patient.
+description: This describes the MedicationRequest_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Team
-description: Collection of system users that routinely collaborate. Teams can be used to simplify record sharing and provide team members with common access to organization data when team members belong to different Business Units.
+description: This describes the Team_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

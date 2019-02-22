@@ -1,6 +1,6 @@
 ---
 title: SegmentSubscribed
-description: undefined
+description: This describes the SegmentSubscribed_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

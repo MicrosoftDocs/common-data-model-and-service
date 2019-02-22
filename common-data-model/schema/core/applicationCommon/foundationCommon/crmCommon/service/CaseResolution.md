@@ -1,6 +1,6 @@
 ---
 title: CaseResolution
-description: Special type of activity that includes description of the resolution, billing status, and the duration of the case.
+description: This describes the CaseResolution_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

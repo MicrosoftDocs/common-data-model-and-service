@@ -1,6 +1,6 @@
 ---
 title: TriggerActivityContactProcessed
-description: undefined
+description: This describes the TriggerActivityContactProcessed_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

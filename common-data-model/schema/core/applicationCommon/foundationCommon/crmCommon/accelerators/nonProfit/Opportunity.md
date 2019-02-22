@@ -1,6 +1,6 @@
 ---
 title: Opportunity
-description: Potential revenue-generating event, or sale to an account, which needs to be tracked through a sales process to completion.
+description: This describes the Opportunity_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

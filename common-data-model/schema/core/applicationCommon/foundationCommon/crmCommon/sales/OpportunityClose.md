@@ -1,6 +1,6 @@
 ---
 title: OpportunityClose
-description: Activity that is created automatically when an opportunity is closed, containing information such as the description of the closing and actual revenue.
+description: This describes the OpportunityClose_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

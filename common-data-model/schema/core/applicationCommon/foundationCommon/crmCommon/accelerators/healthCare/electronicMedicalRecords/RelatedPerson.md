@@ -1,6 +1,6 @@
 ---
 title: RelatedPerson
-description: Information about a person that is involved in the care for a patient, but who is not the target of healthcare, nor has a formal responsibility in the care process.
+description: This describes the RelatedPerson_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

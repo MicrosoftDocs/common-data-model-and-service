@@ -1,6 +1,6 @@
 ---
 title: FormVisited
-description: undefined
+description: This describes the FormVisited_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

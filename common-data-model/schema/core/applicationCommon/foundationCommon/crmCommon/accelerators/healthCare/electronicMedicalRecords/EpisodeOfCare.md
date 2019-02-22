@@ -1,6 +1,6 @@
 ---
 title: EpisodeOfCare
-description: An association between a patient and an organization / healthcare provider(s) during which time encounters may occur.
+description: This describes the EpisodeOfCare_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

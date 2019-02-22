@@ -1,6 +1,6 @@
 ---
 title: PractitionerRole
-description: A specific set of Roles/Locations/specialties/services that a practitioner may perform at an organization for a period of time.
+description: This describes the PractitionerRole_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

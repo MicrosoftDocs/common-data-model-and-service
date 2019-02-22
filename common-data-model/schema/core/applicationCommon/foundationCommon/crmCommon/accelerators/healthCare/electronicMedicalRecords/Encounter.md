@@ -1,6 +1,6 @@
 ---
 title: Encounter
-description: An interaction between a patient and healthcare provider(s) for the purpose of providing healthcare service(s) or assessing the health status of a patient.
+description: This describes the Encounter_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Lead
-description: Prospect or potential sales opportunity. Leads are converted into accounts, contacts, or opportunities when they are qualified. Otherwise, they are deleted or archived.
+description: This describes the Lead_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

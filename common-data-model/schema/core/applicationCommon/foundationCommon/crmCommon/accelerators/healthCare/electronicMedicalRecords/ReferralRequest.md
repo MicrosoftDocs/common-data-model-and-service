@@ -1,6 +1,6 @@
 ---
 title: ReferralRequest
-description: Used to record and send details about a request for referral service or transfer of a patient to the care of another provider or provider organization.
+description: This describes the ReferralRequest_ entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
