@@ -5,7 +5,7 @@ author: theresapalmer
 ms.service: common data model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 11/21/2019
+ms.date: 11/21/2018
 ms.author: tpalmer
 ---
 
