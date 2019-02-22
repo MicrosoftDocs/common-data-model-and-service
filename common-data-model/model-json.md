@@ -2,7 +2,7 @@
 title: Metadata format - Common Data Model| Microsoft Docs
 description: How you can use the Common Data Model to develop apps and solutions.
 author: theresapalmer
-ms.service: common data model
+ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 11/21/2018
