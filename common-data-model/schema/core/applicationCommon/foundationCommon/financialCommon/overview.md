@@ -1,6 +1,6 @@
 ---
 title: overview
-description: 'financialCommon' is a folder that contains standard entities related to the Common Data Model.
+description: financialCommon is a folder that contains standard entities related to the Common Data Model.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

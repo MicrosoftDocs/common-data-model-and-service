@@ -1,6 +1,6 @@
 ---
 title: overview
-description: 'service' is a folder that contains standard entities related to the Common Data Model.
+description: service is a folder that contains standard entities related to the Common Data Model.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
