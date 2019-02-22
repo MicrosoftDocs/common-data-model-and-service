@@ -4,7 +4,7 @@ description: Response from an existing or a potential new customer for a campaig
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Response from an existing or a potential new customer for a campaign.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/CampaignResponse  
+- /foundationCommon/crmCommon/CampaignResponse  
 
 ## Traits
 

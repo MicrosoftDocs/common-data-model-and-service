@@ -4,7 +4,7 @@ description: An assessment of the likely outcome(s) for a patient or other subje
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ An assessment of the likely outcome(s) for a patient or other subject as well as
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/RiskAssessment  
+- /foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/RiskAssessment  
 
 ## Traits
 

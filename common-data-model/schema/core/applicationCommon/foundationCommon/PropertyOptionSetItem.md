@@ -4,7 +4,7 @@ description: Item with a name and value in a property option set type.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Item with a name and value in a property option set type.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/PropertyOptionSetItem  
+- /foundationCommon/PropertyOptionSetItem  
 
 ## Traits
 

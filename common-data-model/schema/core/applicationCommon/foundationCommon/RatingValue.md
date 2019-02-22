@@ -4,7 +4,7 @@ description: A unique value associated with a rating model that allows providing
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ A unique value associated with a rating model that allows providing a user frien
 
 Instances of this entity are listed below.  
 
-/foundationCommon/RatingValue  
+- /foundationCommon/RatingValue  
 
 ## Traits
 

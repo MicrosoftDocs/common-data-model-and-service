@@ -4,7 +4,7 @@ description: A single venue can be comprised of zero or more buildings where eve
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ A single venue can be comprised of zero or more buildings where event activities
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/marketing/eventManagement/Building  
+- /foundationCommon/crmCommon/solutions/marketing/eventManagement/Building  
 
 ## Traits
 

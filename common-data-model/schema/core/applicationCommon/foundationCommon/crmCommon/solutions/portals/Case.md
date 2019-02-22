@@ -4,7 +4,7 @@ description: Service request case associated with a contract.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,8 +18,8 @@ Service request case associated with a contract.
 
 Instances of this entity are listed below.  
 
-[/foundationCommon/crmCommon/service/Case](../../service/Case.md "/core/applicationCommon/foundationCommon/crmCommon/service/Case.cdm.json/Case")  
-/foundationCommon/crmCommon/solutions/portals/Case  
+[- /foundationCommon/crmCommon/service/Case](../../service/Case.md "/core/applicationCommon/foundationCommon/crmCommon/service/Case.cdm.json/Case")  
+- /foundationCommon/crmCommon/solutions/portals/Case  
 
 ## Traits
 

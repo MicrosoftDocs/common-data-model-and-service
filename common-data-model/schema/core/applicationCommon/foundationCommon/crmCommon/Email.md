@@ -4,7 +4,7 @@ description: Activity that is delivered using email protocols.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,8 +18,8 @@ Activity that is delivered using email protocols.
 
 Instances of this entity are listed below.  
 
-[/Email](../../Email.md "/core/applicationCommon/Email.cdm.json/Email")  
-/foundationCommon/crmCommon/Email  
+[- /Email](../../Email.md "/core/applicationCommon/Email.cdm.json/Email")  
+- /foundationCommon/crmCommon/Email  
 
 ## Traits
 

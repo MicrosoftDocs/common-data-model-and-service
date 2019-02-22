@@ -4,7 +4,7 @@ description: Describes the event of a patient consuming or otherwise being admin
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Describes the event of a patient consuming or otherwise being administered a med
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration  
+- /foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration  
 
 ## Traits
 

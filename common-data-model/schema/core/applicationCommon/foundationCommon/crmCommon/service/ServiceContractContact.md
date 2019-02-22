@@ -4,7 +4,7 @@ description: Item in a Service contract.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Item in a Service contract.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/service/ServiceContractContact  
+- /foundationCommon/crmCommon/service/ServiceContractContact  
 
 ## Traits
 

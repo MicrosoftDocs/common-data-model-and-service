@@ -4,7 +4,7 @@ description: Line item in a contract that specifies the type of service a custom
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Line item in a contract that specifies the type of service a customer is entitle
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/service/ContractLine  
+- /foundationCommon/crmCommon/service/ContractLine  
 
 ## Traits
 

@@ -4,7 +4,7 @@ description: An Indicator describes what will be measured to track evidence of a
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ An Indicator describes what will be measured to track evidence of a Result. Indi
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/nonProfit/Indicator  
+- /foundationCommon/crmCommon/accelerators/nonProfit/Indicator  
 
 ## Traits
 

@@ -4,7 +4,7 @@ description: Send invitations to existing contacts or email addresses and assign
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,8 +18,8 @@ Send invitations to existing contacts or email addresses and assign them to web 
 
 Instances of this entity are listed below.  
 
-[/foundationCommon/crmCommon/solutions/marketing/eventManagement/Invitation](../marketing/eventManagement/Invitation.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Invitation.cdm.json/Invitation")  
-/foundationCommon/crmCommon/solutions/portals/Invitation  
+[- /foundationCommon/crmCommon/solutions/marketing/eventManagement/Invitation](../marketing/eventManagement/Invitation.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Invitation.cdm.json/Invitation")  
+- /foundationCommon/crmCommon/solutions/portals/Invitation  
 
 ## Traits
 

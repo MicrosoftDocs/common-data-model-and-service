@@ -4,7 +4,7 @@ description: Contains information about a tracked support KPI for a specific cus
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Contains information about a tracked support KPI for a specific customer.
 
 Instances of this entity are listed below.  
 
-/SLAItem  
+- /SLAItem  
 
 ## Traits
 

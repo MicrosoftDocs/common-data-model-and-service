@@ -4,7 +4,7 @@ description: Person with access to the Microsoft CRM system and who owns objects
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,8 +18,8 @@ Person with access to the Microsoft CRM system and who owns objects in the Micro
 
 Instances of this entity are listed below.  
 
-[/User](../../../User.md "/core/applicationCommon/User.cdm.json/User")  
-/foundationCommon/crmCommon/service/User  
+[- /User](../../../User.md "/core/applicationCommon/User.cdm.json/User")  
+- /foundationCommon/crmCommon/service/User  
 
 ## Traits
 

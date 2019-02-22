@@ -4,7 +4,7 @@ description: Special type of activity that includes description of the resolutio
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Special type of activity that includes description of the resolution, billing st
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/service/CaseResolution  
+- /foundationCommon/crmCommon/service/CaseResolution  
 
 ## Traits
 

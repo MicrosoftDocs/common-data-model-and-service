@@ -4,7 +4,7 @@ description: 'eventManagement' is a folder that contains standard entities relat
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 

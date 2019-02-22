@@ -4,7 +4,7 @@ description: A list of records that require action, such as accounts, activities
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ A list of records that require action, such as accounts, activities, and cases.
 
 Instances of this entity are listed below.  
 
-/Queue  
+- /Queue  
 
 ## Traits
 

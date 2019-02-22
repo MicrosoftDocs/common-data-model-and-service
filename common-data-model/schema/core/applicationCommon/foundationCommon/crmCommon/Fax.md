@@ -4,7 +4,7 @@ description: Activity that tracks call outcome and number of pages for a fax and
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,8 +18,8 @@ Activity that tracks call outcome and number of pages for a fax and optionally s
 
 Instances of this entity are listed below.  
 
-[/Fax](../../Fax.md "/core/applicationCommon/Fax.cdm.json/Fax")  
-/foundationCommon/crmCommon/Fax  
+[- /Fax](../../Fax.md "/core/applicationCommon/Fax.cdm.json/Fax")  
+- /foundationCommon/crmCommon/Fax  
 
 ## Traits
 

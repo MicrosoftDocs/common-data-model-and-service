@@ -4,7 +4,7 @@ description: A planned gift is a major gift made during a donor's lifetime or at
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ A planned gift is a major gift made during a donor's lifetime or at the time of 
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/nonProfit/PlannedGiving  
+- /foundationCommon/crmCommon/accelerators/nonProfit/PlannedGiving  
 
 ## Traits
 

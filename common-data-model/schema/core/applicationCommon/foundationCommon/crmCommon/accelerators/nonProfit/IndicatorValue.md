@@ -4,7 +4,7 @@ description: A quantitative or qualitative value of measurement of an Indicator
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ A quantitative or qualitative value of measurement of an Indicator
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/nonProfit/IndicatorValue  
+- /foundationCommon/crmCommon/accelerators/nonProfit/IndicatorValue  
 
 ## Traits
 

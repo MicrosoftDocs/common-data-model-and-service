@@ -4,7 +4,7 @@ description: This entity records the number of rooms that are allocated from a s
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ This entity records the number of rooms that are allocated from a single hotel f
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomAllocation  
+- /foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomAllocation  
 
 ## Traits
 

@@ -4,7 +4,7 @@ description: An area to which funds may be allocated, including a GL-relevant ac
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ An area to which funds may be allocated, including a GL-relevant accounting code
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/nonProfit/Designation  
+- /foundationCommon/crmCommon/accelerators/nonProfit/Designation  
 
 ## Traits
 

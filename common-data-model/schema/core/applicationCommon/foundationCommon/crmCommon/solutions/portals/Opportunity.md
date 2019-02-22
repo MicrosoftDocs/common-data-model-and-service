@@ -4,7 +4,7 @@ description: Potential revenue-generating event, or sale to an account, which ne
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,9 +18,9 @@ Potential revenue-generating event, or sale to an account, which needs to be tra
 
 Instances of this entity are listed below.  
 
-[/foundationCommon/crmCommon/accelerators/nonProfit/Opportunity](../../accelerators/nonProfit/Opportunity.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Opportunity.cdm.json/Opportunity")  
-[/foundationCommon/crmCommon/sales/Opportunity](../../sales/Opportunity.md "/core/applicationCommon/foundationCommon/crmCommon/sales/Opportunity.cdm.json/Opportunity")  
-/foundationCommon/crmCommon/solutions/portals/Opportunity  
+[- /foundationCommon/crmCommon/accelerators/nonProfit/Opportunity](../../accelerators/nonProfit/Opportunity.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Opportunity.cdm.json/Opportunity")  
+[- /foundationCommon/crmCommon/sales/Opportunity](../../sales/Opportunity.md "/core/applicationCommon/foundationCommon/crmCommon/sales/Opportunity.cdm.json/Opportunity")  
+- /foundationCommon/crmCommon/solutions/portals/Opportunity  
 
 ## Traits
 

@@ -4,7 +4,7 @@ description: Business, division, or department in the Microsoft Dynamics 365 dat
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Business, division, or department in the Microsoft Dynamics 365 database.
 
 Instances of this entity are listed below.  
 
-/BusinessUnit  
+- /BusinessUnit  
 
 ## Traits
 

@@ -4,7 +4,7 @@ description: Summarization of financial activity for a ledger, date, account, an
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Summarization of financial activity for a ledger, date, account, and dimension c
 
 Instances of this entity are listed below.  
 
-/foundationCommon/financialCommon/FinancialActivity  
+- /foundationCommon/financialCommon/FinancialActivity  
 
 ## Traits
 

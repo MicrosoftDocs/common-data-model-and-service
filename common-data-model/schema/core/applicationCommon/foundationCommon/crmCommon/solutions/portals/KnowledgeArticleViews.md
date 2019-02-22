@@ -4,7 +4,7 @@ description: No of times an article is viewed per day
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,8 +18,8 @@ No of times an article is viewed per day
 
 Instances of this entity are listed below.  
 
-[/KnowledgeArticleViews](../../../../KnowledgeArticleViews.md "/core/applicationCommon/KnowledgeArticleViews.cdm.json/KnowledgeArticleViews")  
-/foundationCommon/crmCommon/solutions/portals/KnowledgeArticleViews  
+[- /KnowledgeArticleViews](../../../../KnowledgeArticleViews.md "/core/applicationCommon/KnowledgeArticleViews.cdm.json/KnowledgeArticleViews")  
+- /foundationCommon/crmCommon/solutions/portals/KnowledgeArticleViews  
 
 ## Traits
 

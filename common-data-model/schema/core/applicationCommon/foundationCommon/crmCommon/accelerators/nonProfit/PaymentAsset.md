@@ -4,7 +4,7 @@ description: Specific types of payments, including in-kind gifts, stock and secu
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Specific types of payments, including in-kind gifts, stock and securities that a
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/nonProfit/PaymentAsset  
+- /foundationCommon/crmCommon/accelerators/nonProfit/PaymentAsset  
 
 ## Traits
 

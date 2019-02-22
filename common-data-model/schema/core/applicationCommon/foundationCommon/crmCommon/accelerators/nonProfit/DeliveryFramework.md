@@ -4,7 +4,7 @@ description: A Delivery Framework is a Management Unit of work defined by the or
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ A Delivery Framework is a Management Unit of work defined by the organization or
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/nonProfit/DeliveryFramework  
+- /foundationCommon/crmCommon/accelerators/nonProfit/DeliveryFramework  
 
 ## Traits
 

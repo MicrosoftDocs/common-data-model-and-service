@@ -4,7 +4,7 @@ description: Group of existing or potential customers created for a marketing ca
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,8 +18,8 @@ Group of existing or potential customers created for a marketing campaign or oth
 
 Instances of this entity are listed below.  
 
-[/foundationCommon/crmCommon/MarketingList](../../MarketingList.md "/core/applicationCommon/foundationCommon/crmCommon/MarketingList.cdm.json/MarketingList")  
-/foundationCommon/crmCommon/solutions/marketing/MarketingList  
+[- /foundationCommon/crmCommon/MarketingList](../../MarketingList.md "/core/applicationCommon/foundationCommon/crmCommon/MarketingList.cdm.json/MarketingList")  
+- /foundationCommon/crmCommon/solutions/marketing/MarketingList  
 
 ## Traits
 

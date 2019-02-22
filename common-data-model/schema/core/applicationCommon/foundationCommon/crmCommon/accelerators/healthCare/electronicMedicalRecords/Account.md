@@ -4,7 +4,7 @@ description: Business that represents a customer or potential customer. The comp
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,14 +18,14 @@ Business that represents a customer or potential customer. The company that is b
 
 Instances of this entity are listed below.  
 
-[/Account](../../../../../Account.md "/core/applicationCommon/Account.cdm.json/Account")  
-[/foundationCommon/Account](../../../../Account.md "/core/applicationCommon/foundationCommon/Account.cdm.json/Account")  
-[/foundationCommon/crmCommon/Account](../../../Account.md "/core/applicationCommon/foundationCommon/crmCommon/Account.cdm.json/Account")  
-[/foundationCommon/crmCommon/accelerators/education/higherEducation/Account](../../education/higherEducation/Account.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Account.cdm.json/Account")  
-/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Account  
-[/foundationCommon/crmCommon/accelerators/nonProfit/Account](../../nonProfit/Account.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Account.cdm.json/Account")  
-[/foundationCommon/crmCommon/solutions/marketing/eventManagement/Account](../../../solutions/marketing/eventManagement/Account.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Account.cdm.json/Account")  
-[/foundationCommon/crmCommon/solutions/portals/Account](../../../solutions/portals/Account.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Account.cdm.json/Account")  
+[- /Account](../../../../../Account.md "/core/applicationCommon/Account.cdm.json/Account")  
+[- /foundationCommon/Account](../../../../Account.md "/core/applicationCommon/foundationCommon/Account.cdm.json/Account")  
+[- /foundationCommon/crmCommon/Account](../../../Account.md "/core/applicationCommon/foundationCommon/crmCommon/Account.cdm.json/Account")  
+[- /foundationCommon/crmCommon/accelerators/education/higherEducation/Account](../../education/higherEducation/Account.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Account.cdm.json/Account")  
+- /foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Account  
+[- /foundationCommon/crmCommon/accelerators/nonProfit/Account](../../nonProfit/Account.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Account.cdm.json/Account")  
+[- /foundationCommon/crmCommon/solutions/marketing/eventManagement/Account](../../../solutions/marketing/eventManagement/Account.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Account.cdm.json/Account")  
+[- /foundationCommon/crmCommon/solutions/portals/Account](../../../solutions/portals/Account.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Account.cdm.json/Account")  
 
 ## Traits
 

@@ -4,7 +4,7 @@ description: Activity offered by the organization to satisfy its customer's need
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Activity offered by the organization to satisfy its customer's needs. Each servi
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/service/ServiceActivity  
+- /foundationCommon/crmCommon/service/ServiceActivity  
 
 ## Traits
 

@@ -4,7 +4,7 @@ description: Person or group associated with an activity. An activity can have m
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,8 +18,8 @@ Person or group associated with an activity. An activity can have multiple activ
 
 Instances of this entity are listed below.  
 
-[/ActivityParty](../../../ActivityParty.md "/core/applicationCommon/ActivityParty.cdm.json/ActivityParty")  
-/foundationCommon/crmCommon/service/ActivityParty  
+[- /ActivityParty](../../../ActivityParty.md "/core/applicationCommon/ActivityParty.cdm.json/ActivityParty")  
+- /foundationCommon/crmCommon/service/ActivityParty  
 
 ## Traits
 

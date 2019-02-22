@@ -4,7 +4,7 @@ description: Note that is attached to one or more objects, including other notes
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Note that is attached to one or more objects, including other notes.
 
 Instances of this entity are listed below.  
 
-/Note  
+- /Note  
 
 ## Traits
 

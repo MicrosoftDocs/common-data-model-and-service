@@ -4,7 +4,7 @@ description: An account whose balance is displayed in major financial statements
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ An account whose balance is displayed in major financial statements
 
 Instances of this entity are listed below.  
 
-/foundationCommon/financialCommon/MainAccount  
+- /foundationCommon/financialCommon/MainAccount  
 
 ## Traits
 

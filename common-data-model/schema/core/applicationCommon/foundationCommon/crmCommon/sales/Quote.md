@@ -4,7 +4,7 @@ description: Formal offer for products and/or services, proposed at specific pri
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Formal offer for products and/or services, proposed at specific prices and relat
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/sales/Quote  
+- /foundationCommon/crmCommon/sales/Quote  
 
 ## Traits
 

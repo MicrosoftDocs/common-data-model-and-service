@@ -4,7 +4,7 @@ description: This entity identifies an instance or a type of a manufactured item
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ This entity identifies an instance or a type of a manufactured item that is used
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device  
+- /foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device  
 
 ## Traits
 

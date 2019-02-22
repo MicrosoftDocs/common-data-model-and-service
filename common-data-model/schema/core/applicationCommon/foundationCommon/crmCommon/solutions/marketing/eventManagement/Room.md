@@ -4,7 +4,7 @@ description: A room is where a session may be held. A single room can be used in
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ A room is where a session may be held. A single room can be used in multiple dif
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/marketing/eventManagement/Room  
+- /foundationCommon/crmCommon/solutions/marketing/eventManagement/Room  
 
 ## Traits
 

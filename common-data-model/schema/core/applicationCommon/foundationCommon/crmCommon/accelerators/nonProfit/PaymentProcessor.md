@@ -4,7 +4,7 @@ description: This is a placeholder entity referenced by the Payment Method objec
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ This is a placeholder entity referenced by the Payment Method object.  It is int
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/nonProfit/PaymentProcessor  
+- /foundationCommon/crmCommon/accelerators/nonProfit/PaymentProcessor  
 
 ## Traits
 

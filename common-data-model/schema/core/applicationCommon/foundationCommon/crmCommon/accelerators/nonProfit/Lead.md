@@ -4,7 +4,7 @@ description: Prospect or potential sales opportunity. Leads are converted into a
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,9 +18,9 @@ Prospect or potential sales opportunity. Leads are converted into accounts, cont
 
 Instances of this entity are listed below.  
 
-[/foundationCommon/crmCommon/Lead](../../Lead.md "/core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.json/Lead")  
-/foundationCommon/crmCommon/accelerators/nonProfit/Lead  
-[/foundationCommon/crmCommon/solutions/marketing/Lead](../../solutions/marketing/Lead.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Lead.cdm.json/Lead")  
+[- /foundationCommon/crmCommon/Lead](../../Lead.md "/core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.json/Lead")  
+- /foundationCommon/crmCommon/accelerators/nonProfit/Lead  
+[- /foundationCommon/crmCommon/solutions/marketing/Lead](../../solutions/marketing/Lead.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Lead.cdm.json/Lead")  
 
 ## Traits
 

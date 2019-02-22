@@ -4,7 +4,7 @@ description: Activity that tracks the delivery of a letter. The activity can con
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,8 +18,8 @@ Activity that tracks the delivery of a letter. The activity can contain the elec
 
 Instances of this entity are listed below.  
 
-[/Letter](../../Letter.md "/core/applicationCommon/Letter.cdm.json/Letter")  
-/foundationCommon/crmCommon/Letter  
+[- /Letter](../../Letter.md "/core/applicationCommon/Letter.cdm.json/Letter")  
+- /foundationCommon/crmCommon/Letter  
 
 ## Traits
 

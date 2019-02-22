@@ -4,7 +4,7 @@ description: Type of discount specified as either a percentage or an amount.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Type of discount specified as either a percentage or an amount.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/sales/DiscountList  
+- /foundationCommon/crmCommon/sales/DiscountList  
 
 ## Traits
 

@@ -4,7 +4,7 @@ description: Work item in a campaign, a list or sales literature.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Work item in a campaign, a list or sales literature.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/CampaignItem  
+- /foundationCommon/crmCommon/CampaignItem  
 
 ## Traits
 

@@ -4,7 +4,7 @@ description: Additional addresses for a competitor. The first two addresses are 
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Additional addresses for a competitor. The first two addresses are stored in the
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/sales/CompetitorAddress  
+- /foundationCommon/crmCommon/sales/CompetitorAddress  
 
 ## Traits
 

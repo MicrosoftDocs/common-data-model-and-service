@@ -4,7 +4,7 @@ description: An action that is or was performed on a patient. This can be a phys
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ An action that is or was performed on a patient. This can be a physical interven
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Procedure  
+- /foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Procedure  
 
 ## Traits
 

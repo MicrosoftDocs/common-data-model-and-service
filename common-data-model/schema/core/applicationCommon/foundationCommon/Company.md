@@ -4,7 +4,7 @@ description: Uniquely identifies a Company by name and type
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Uniquely identifies a Company by name and type
 
 Instances of this entity are listed below.  
 
-/foundationCommon/Company  
+- /foundationCommon/Company  
 
 ## Traits
 

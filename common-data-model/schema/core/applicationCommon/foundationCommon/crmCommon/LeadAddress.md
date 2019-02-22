@@ -4,7 +4,7 @@ description: Address information for a lead.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Address information for a lead.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/LeadAddress  
+- /foundationCommon/crmCommon/LeadAddress  
 
 ## Traits
 

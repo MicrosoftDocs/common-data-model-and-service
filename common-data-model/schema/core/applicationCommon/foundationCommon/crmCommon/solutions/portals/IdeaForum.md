@@ -4,7 +4,7 @@ description: The root entity for portal Ideas.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ The root entity for portal Ideas.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/portals/IdeaForum  
+- /foundationCommon/crmCommon/solutions/portals/IdeaForum  
 
 ## Traits
 

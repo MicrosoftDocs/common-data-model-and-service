@@ -4,7 +4,7 @@ description: A specific item in a queue, such as a case record or an activity re
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ A specific item in a queue, such as a case record or an activity record.
 
 Instances of this entity are listed below.  
 
-/QueueItem  
+- /QueueItem  
 
 ## Traits
 

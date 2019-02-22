@@ -4,7 +4,7 @@ description: This entity is used to store social profile information of its asso
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ This entity is used to store social profile information of its associated accoun
 
 Instances of this entity are listed below.  
 
-/SocialProfile  
+- /SocialProfile  
 
 ## Traits
 

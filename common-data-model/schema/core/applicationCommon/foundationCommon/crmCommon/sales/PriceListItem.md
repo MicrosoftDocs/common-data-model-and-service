@@ -4,7 +4,7 @@ description: Information about how to price a product in the specified price lev
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,8 +18,8 @@ Information about how to price a product in the specified price level, including
 
 Instances of this entity are listed below.  
 
-[/foundationCommon/PriceListItem](../../PriceListItem.md "/core/applicationCommon/foundationCommon/PriceListItem.cdm.json/PriceListItem")  
-/foundationCommon/crmCommon/sales/PriceListItem  
+[- /foundationCommon/PriceListItem](../../PriceListItem.md "/core/applicationCommon/foundationCommon/PriceListItem.cdm.json/PriceListItem")  
+- /foundationCommon/crmCommon/sales/PriceListItem  
 
 ## Traits
 

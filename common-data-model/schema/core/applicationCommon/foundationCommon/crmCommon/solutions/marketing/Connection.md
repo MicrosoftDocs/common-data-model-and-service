@@ -4,7 +4,7 @@ description: Relationship between two entities.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,8 +18,8 @@ Relationship between two entities.
 
 Instances of this entity are listed below.  
 
-[/Connection](../../../../Connection.md "/core/applicationCommon/Connection.cdm.json/Connection")  
-/foundationCommon/crmCommon/solutions/marketing/Connection  
+[- /Connection](../../../../Connection.md "/core/applicationCommon/Connection.cdm.json/Connection")  
+- /foundationCommon/crmCommon/solutions/marketing/Connection  
 
 ## Traits
 

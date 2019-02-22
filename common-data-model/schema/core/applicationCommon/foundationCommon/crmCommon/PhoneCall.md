@@ -4,7 +4,7 @@ description: Activity to track a telephone call.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,9 +18,9 @@ Activity to track a telephone call.
 
 Instances of this entity are listed below.  
 
-[/PhoneCall](../../PhoneCall.md "/core/applicationCommon/PhoneCall.cdm.json/PhoneCall")  
-/foundationCommon/crmCommon/PhoneCall  
-[/foundationCommon/crmCommon/solutions/marketing/PhoneCall](solutions/marketing/PhoneCall.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/PhoneCall.cdm.json/PhoneCall")  
+[- /PhoneCall](../../PhoneCall.md "/core/applicationCommon/PhoneCall.cdm.json/PhoneCall")  
+- /foundationCommon/crmCommon/PhoneCall  
+[- /foundationCommon/crmCommon/solutions/marketing/PhoneCall](solutions/marketing/PhoneCall.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/PhoneCall.cdm.json/PhoneCall")  
 
 ## Traits
 

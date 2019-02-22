@@ -4,7 +4,7 @@ description: Territory represents sales regions.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Territory represents sales regions.
 
 Instances of this entity are listed below.  
 
-/Territory  
+- /Territory  
 
 ## Traits
 

@@ -4,7 +4,7 @@ description: A line item attached to a Pledge, Payment Schedule, or Campaign ind
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ A line item attached to a Pledge, Payment Schedule, or Campaign indicating how a
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/nonProfit/DesignationPlan  
+- /foundationCommon/crmCommon/accelerators/nonProfit/DesignationPlan  
 
 ## Traits
 

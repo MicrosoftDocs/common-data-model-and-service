@@ -4,7 +4,7 @@ description: The periods of time in which courses are offered by the institution
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ The periods of time in which courses are offered by the institution,  such as a 
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/education/higherEducation/AcademicPeriod  
+- /foundationCommon/crmCommon/accelerators/education/higherEducation/AcademicPeriod  
 
 ## Traits
 

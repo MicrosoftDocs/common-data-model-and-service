@@ -4,7 +4,7 @@ description: An order or request for both supply of the medication and the instr
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ An order or request for both supply of the medication and the instructions for a
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest  
+- /foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest  
 
 ## Traits
 

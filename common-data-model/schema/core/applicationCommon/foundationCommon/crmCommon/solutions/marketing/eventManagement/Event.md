@@ -4,7 +4,7 @@ description: Container to manage and plan marketing activities that take place a
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Container to manage and plan marketing activities that take place at a specific 
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event  
+- /foundationCommon/crmCommon/solutions/marketing/eventManagement/Event  
 
 ## Traits
 

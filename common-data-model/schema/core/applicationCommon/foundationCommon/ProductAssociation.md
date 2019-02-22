@@ -4,7 +4,7 @@ description: Instance of a product added to a bundle or kit.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Instance of a product added to a bundle or kit.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/ProductAssociation  
+- /foundationCommon/ProductAssociation  
 
 ## Traits
 

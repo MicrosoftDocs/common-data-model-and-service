@@ -4,7 +4,7 @@ description: The total amount of funding that has been agreed to be awarded to a
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ The total amount of funding that has been agreed to be awarded to an individual 
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/nonProfit/Award  
+- /foundationCommon/crmCommon/accelerators/nonProfit/Award  
 
 ## Traits
 

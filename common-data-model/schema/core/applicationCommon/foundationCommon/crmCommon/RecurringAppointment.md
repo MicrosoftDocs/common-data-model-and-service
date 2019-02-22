@@ -4,7 +4,7 @@ description: The Master appointment of a recurring appointment series.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,8 +18,8 @@ The Master appointment of a recurring appointment series.
 
 Instances of this entity are listed below.  
 
-[/RecurringAppointment](../../RecurringAppointment.md "/core/applicationCommon/RecurringAppointment.cdm.json/RecurringAppointment")  
-/foundationCommon/crmCommon/RecurringAppointment  
+[- /RecurringAppointment](../../RecurringAppointment.md "/core/applicationCommon/RecurringAppointment.cdm.json/RecurringAppointment")  
+- /foundationCommon/crmCommon/RecurringAppointment  
 
 ## Traits
 

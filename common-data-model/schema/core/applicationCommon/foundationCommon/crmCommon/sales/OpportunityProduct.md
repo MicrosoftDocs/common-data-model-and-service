@@ -4,7 +4,7 @@ description: Association between an opportunity and a product.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Association between an opportunity and a product.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/sales/OpportunityProduct  
+- /foundationCommon/crmCommon/sales/OpportunityProduct  
 
 ## Traits
 

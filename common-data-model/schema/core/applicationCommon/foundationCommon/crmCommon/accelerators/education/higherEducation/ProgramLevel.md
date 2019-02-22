@@ -4,7 +4,7 @@ description: Collection of all Program Levels offered by the institution
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Collection of all Program Levels offered by the institution
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/accelerators/education/higherEducation/ProgramLevel  
+- /foundationCommon/crmCommon/accelerators/education/higherEducation/ProgramLevel  
 
 ## Traits
 

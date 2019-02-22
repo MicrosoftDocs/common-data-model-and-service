@@ -4,7 +4,7 @@ description: Campaign used to capture submissions from prospects.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/20/2019
+ms.date: 2/22/2019
 ms.author: tpalmer
 ---
 
@@ -18,7 +18,7 @@ Campaign used to capture submissions from prospects.
 
 Instances of this entity are listed below.  
 
-/foundationCommon/crmCommon/solutions/marketing/LinkedInLeads/LinkedInCampaign  
+- /foundationCommon/crmCommon/solutions/marketing/LinkedInLeads/LinkedInCampaign  
 
 ## Traits
 
