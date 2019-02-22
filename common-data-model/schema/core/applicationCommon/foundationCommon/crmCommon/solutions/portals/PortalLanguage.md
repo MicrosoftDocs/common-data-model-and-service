@@ -1,11 +1,12 @@
 ---
-title: PortalLanguage
+title: PortalLanguage – Common Data Model | Microsoft Docs
 description: Lists the languages supported by the Portal
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/22/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Portal Language

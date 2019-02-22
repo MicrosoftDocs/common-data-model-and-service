@@ -1,11 +1,12 @@
 ---
-title: CourseSection
+title: CourseSection – Common Data Model | Microsoft Docs
 description: The relationship between an instructor and a specific course.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/22/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Course Section

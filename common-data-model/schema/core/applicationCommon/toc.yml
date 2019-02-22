@@ -13,51 +13,51 @@
         - name: higherEducation
           href:  foundationCommon/crmCommon/accelerators/education/higherEducation/overview.md
           items: 
-          - name: AcademicPeriod
+          - name: AcademicPeriod – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/accelerators/education/higherEducation/AcademicPeriod.md
-          - name: AcademicPeriodDetail
+          - name: AcademicPeriodDetail – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/accelerators/education/higherEducation/AcademicPeriodDetail.md
-          - name: Account
+          - name: Account – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/accelerators/education/higherEducation/Account.md
-          - name: Address
+          - name: Address – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/accelerators/education/higherEducation/Address.md
-          - name: AreaOfInterest
+          - name: AreaOfInterest – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/accelerators/education/higherEducation/AreaOfInterest.md
-          - name: AreaOfStudy
+          - name: AreaOfStudy – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/accelerators/education/higherEducation/AreaOfStudy.md
-          - name: Contact
+          - name: Contact – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/accelerators/education/higherEducation/Contact.md
-          - name: Course
+          - name: Course – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/accelerators/education/higherEducation/Course.md
-          - name: CourseHistory
+          - name: CourseHistory – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/accelerators/education/higherEducation/CourseHistory.md
-          - name: CourseSection
+          - name: CourseSection – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/accelerators/education/higherEducation/CourseSection.md
-          - name: EducationLevel
+          - name: EducationLevel – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/accelerators/education/higherEducation/EducationLevel.md
-          - name: ExtraCurricularActivity
+          - name: ExtraCurricularActivity – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/accelerators/education/higherEducation/ExtraCurricularActivity.md
-          - name: ExtraCurricularParticipant
+          - name: ExtraCurricularParticipant – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/accelerators/education/higherEducation/ExtraCurricularParticipant.md
-          - name: PreviousEducation
+          - name: PreviousEducation – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/accelerators/education/higherEducation/PreviousEducation.md
-          - name: Program
+          - name: Program – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/accelerators/education/higherEducation/Program.md
-          - name: ProgramLevel
+          - name: ProgramLevel – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/accelerators/education/higherEducation/ProgramLevel.md
-          - name: ProgramVersion
+          - name: ProgramVersion – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/accelerators/education/higherEducation/ProgramVersion.md
-          - name: ProgramVersionDetail
+          - name: ProgramVersionDetail – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/accelerators/education/higherEducation/ProgramVersionDetail.md
-          - name: RegistrationStatus
+          - name: RegistrationStatus – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/accelerators/education/higherEducation/RegistrationStatus.md
-          - name: StudentProgramType
+          - name: StudentProgramType – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/accelerators/education/higherEducation/StudentProgramType.md
-          - name: StudentStatus
+          - name: StudentStatus – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/accelerators/education/higherEducation/StudentStatus.md
-          - name: TestScore
+          - name: TestScore – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/accelerators/education/higherEducation/TestScore.md
-          - name: TestType
+          - name: TestType – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/accelerators/education/higherEducation/TestType.md
       - name: healthCare
         href:  foundationCommon/crmCommon/accelerators/healthCare/overview.md
@@ -65,248 +65,248 @@
         - name: electronicMedicalRecords
           href:  foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/overview.md
           items: 
-          - name: Account
+          - name: Account – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Account.md
-          - name: Address
+          - name: Address – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Address.md
-          - name: AllergyIntolerance
+          - name: AllergyIntolerance – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/AllergyIntolerance.md
-          - name: CarePlan
+          - name: CarePlan – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlan.md
-          - name: CarePlanGoal
+          - name: CarePlanGoal – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlanGoal.md
-          - name: CareTeam
+          - name: CareTeam – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CareTeam.md
-          - name: CareTeamParticipant
+          - name: CareTeamParticipant – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CareTeamParticipant.md
-          - name: CodeableConcept
+          - name: CodeableConcept – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CodeableConcept.md
-          - name: Condition
+          - name: Condition – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.md
-          - name: Contact
+          - name: Contact – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Contact.md
-          - name: Device
+          - name: Device – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device.md
-          - name: EmrAppointment
+          - name: EmrAppointment – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.md
-          - name: Encounter
+          - name: Encounter – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.md
-          - name: EpisodeOfCare
+          - name: EpisodeOfCare – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EpisodeOfCare.md
-          - name: HealthcareService
+          - name: HealthcareService – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/HealthcareService.md
-          - name: Location
+          - name: Location – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Location.md
-          - name: MedicationAdministration
+          - name: MedicationAdministration – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.md
-          - name: MedicationRequest
+          - name: MedicationRequest – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.md
-          - name: Observation
+          - name: Observation – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.md
-          - name: PractitionerQualification
+          - name: PractitionerQualification – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PractitionerQualification.md
-          - name: PractitionerRole
+          - name: PractitionerRole – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PractitionerRole.md
-          - name: Procedure
+          - name: Procedure – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Procedure.md
-          - name: Product
+          - name: Product – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Product.md
-          - name: ReferralRequest
+          - name: ReferralRequest – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.md
-          - name: RelatedPerson
+          - name: RelatedPerson – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/RelatedPerson.md
-          - name: RiskAssessment
+          - name: RiskAssessment – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/RiskAssessment.md
-          - name: Task
+          - name: Task – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.md
       - name: nonProfit
         href:  foundationCommon/crmCommon/accelerators/nonProfit/overview.md
         items: 
-        - name: Account
+        - name: Account – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/accelerators/nonProfit/Account.md
-        - name: Address
+        - name: Address – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/accelerators/nonProfit/Address.md
-        - name: Award
+        - name: Award – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/accelerators/nonProfit/Award.md
-        - name: AwardVersion
+        - name: AwardVersion – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/accelerators/nonProfit/AwardVersion.md
-        - name: Budget
+        - name: Budget – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/accelerators/nonProfit/Budget.md
-        - name: Campaign
+        - name: Campaign – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/accelerators/nonProfit/Campaign.md
-        - name: Contact
+        - name: Contact – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/accelerators/nonProfit/Contact.md
-        - name: CreditPlan
+        - name: CreditPlan – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/accelerators/nonProfit/CreditPlan.md
-        - name: CreditRecipient
+        - name: CreditRecipient – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/accelerators/nonProfit/CreditRecipient.md
-        - name: DeliveryFramework
+        - name: DeliveryFramework – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/accelerators/nonProfit/DeliveryFramework.md
-        - name: DesignatedCredit
+        - name: DesignatedCredit – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/accelerators/nonProfit/DesignatedCredit.md
-        - name: Designation
+        - name: Designation – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/accelerators/nonProfit/Designation.md
-        - name: DesignationPlan
+        - name: DesignationPlan – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/accelerators/nonProfit/DesignationPlan.md
-        - name: Disbursement
+        - name: Disbursement – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/accelerators/nonProfit/Disbursement.md
-        - name: DisbursementDistribution
+        - name: DisbursementDistribution – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/accelerators/nonProfit/DisbursementDistribution.md
-        - name: Docket
+        - name: Docket – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/accelerators/nonProfit/Docket.md
-        - name: DonorCommitment
+        - name: DonorCommitment – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/accelerators/nonProfit/DonorCommitment.md
-        - name: Education
+        - name: Education – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/accelerators/nonProfit/Education.md
-        - name: EmploymentHistory
+        - name: EmploymentHistory – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/accelerators/nonProfit/EmploymentHistory.md
-        - name: Indicator
+        - name: Indicator – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/accelerators/nonProfit/Indicator.md
-        - name: IndicatorValue
+        - name: IndicatorValue – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/accelerators/nonProfit/IndicatorValue.md
-        - name: Lead
+        - name: Lead – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/accelerators/nonProfit/Lead.md
-        - name: Objective
+        - name: Objective – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/accelerators/nonProfit/Objective.md
-        - name: OfacMatch
+        - name: OfacMatch – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/accelerators/nonProfit/OfacMatch.md
-        - name: Opportunity
+        - name: Opportunity – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/accelerators/nonProfit/Opportunity.md
-        - name: PaymentAsset
+        - name: PaymentAsset – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/accelerators/nonProfit/PaymentAsset.md
-        - name: PaymentMethod
+        - name: PaymentMethod – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/accelerators/nonProfit/PaymentMethod.md
-        - name: PaymentProcessor
+        - name: PaymentProcessor – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/accelerators/nonProfit/PaymentProcessor.md
-        - name: PaymentSchedule
+        - name: PaymentSchedule – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/accelerators/nonProfit/PaymentSchedule.md
-        - name: PlannedGiving
+        - name: PlannedGiving – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/accelerators/nonProfit/PlannedGiving.md
-        - name: Preference
+        - name: Preference – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/accelerators/nonProfit/Preference.md
-        - name: Recommendation
+        - name: Recommendation – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/accelerators/nonProfit/Recommendation.md
-        - name: Report
+        - name: Report – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/accelerators/nonProfit/Report.md
-        - name: Request
+        - name: Request – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/accelerators/nonProfit/Request.md
-        - name: Result
+        - name: Result – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/accelerators/nonProfit/Result.md
-        - name: Review
+        - name: Review – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/accelerators/nonProfit/Review.md
-        - name: Salutation
+        - name: Salutation – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/accelerators/nonProfit/Salutation.md
-        - name: Transaction
+        - name: Transaction – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/accelerators/nonProfit/Transaction.md
     - name: sales
       href:  foundationCommon/crmCommon/sales/overview.md
       items: 
-      - name: Competitor
+      - name: Competitor – Common Data Model | Microsoft Docs
         href: foundationCommon/crmCommon/sales/Competitor.md
-      - name: CompetitorAddress
+      - name: CompetitorAddress – Common Data Model | Microsoft Docs
         href: foundationCommon/crmCommon/sales/CompetitorAddress.md
-      - name: CompetitorProduct
+      - name: CompetitorProduct – Common Data Model | Microsoft Docs
         href: foundationCommon/crmCommon/sales/CompetitorProduct.md
-      - name: CompetitorSalesLiterature
+      - name: CompetitorSalesLiterature – Common Data Model | Microsoft Docs
         href: foundationCommon/crmCommon/sales/CompetitorSalesLiterature.md
-      - name: ContactInvoices
+      - name: ContactInvoices – Common Data Model | Microsoft Docs
         href: foundationCommon/crmCommon/sales/ContactInvoices.md
-      - name: ContactOrders
+      - name: ContactOrders – Common Data Model | Microsoft Docs
         href: foundationCommon/crmCommon/sales/ContactOrders.md
-      - name: ContactQuotes
+      - name: ContactQuotes – Common Data Model | Microsoft Docs
         href: foundationCommon/crmCommon/sales/ContactQuotes.md
-      - name: Discount
+      - name: Discount – Common Data Model | Microsoft Docs
         href: foundationCommon/crmCommon/sales/Discount.md
-      - name: DiscountList
+      - name: DiscountList – Common Data Model | Microsoft Docs
         href: foundationCommon/crmCommon/sales/DiscountList.md
-      - name: Invoice
+      - name: Invoice – Common Data Model | Microsoft Docs
         href: foundationCommon/crmCommon/sales/Invoice.md
-      - name: InvoiceProduct
+      - name: InvoiceProduct – Common Data Model | Microsoft Docs
         href: foundationCommon/crmCommon/sales/InvoiceProduct.md
-      - name: LeadCompetitors
+      - name: LeadCompetitors – Common Data Model | Microsoft Docs
         href: foundationCommon/crmCommon/sales/LeadCompetitors.md
-      - name: LeadProduct
+      - name: LeadProduct – Common Data Model | Microsoft Docs
         href: foundationCommon/crmCommon/sales/LeadProduct.md
-      - name: Opportunity
+      - name: Opportunity – Common Data Model | Microsoft Docs
         href: foundationCommon/crmCommon/sales/Opportunity.md
-      - name: OpportunityClose
+      - name: OpportunityClose – Common Data Model | Microsoft Docs
         href: foundationCommon/crmCommon/sales/OpportunityClose.md
-      - name: OpportunityCompetitors
+      - name: OpportunityCompetitors – Common Data Model | Microsoft Docs
         href: foundationCommon/crmCommon/sales/OpportunityCompetitors.md
-      - name: OpportunityProduct
+      - name: OpportunityProduct – Common Data Model | Microsoft Docs
         href: foundationCommon/crmCommon/sales/OpportunityProduct.md
-      - name: OpportunityRelationship
+      - name: OpportunityRelationship – Common Data Model | Microsoft Docs
         href: foundationCommon/crmCommon/sales/OpportunityRelationship.md
-      - name: Order
+      - name: Order – Common Data Model | Microsoft Docs
         href: foundationCommon/crmCommon/sales/Order.md
-      - name: OrderClose
+      - name: OrderClose – Common Data Model | Microsoft Docs
         href: foundationCommon/crmCommon/sales/OrderClose.md
-      - name: OrderProduct
+      - name: OrderProduct – Common Data Model | Microsoft Docs
         href: foundationCommon/crmCommon/sales/OrderProduct.md
-      - name: PriceListItem
+      - name: PriceListItem – Common Data Model | Microsoft Docs
         href: foundationCommon/crmCommon/sales/PriceListItem.md
-      - name: ProductSalesLiterature
+      - name: ProductSalesLiterature – Common Data Model | Microsoft Docs
         href: foundationCommon/crmCommon/sales/ProductSalesLiterature.md
-      - name: PropertyInstance
+      - name: PropertyInstance – Common Data Model | Microsoft Docs
         href: foundationCommon/crmCommon/sales/PropertyInstance.md
-      - name: Quote
+      - name: Quote – Common Data Model | Microsoft Docs
         href: foundationCommon/crmCommon/sales/Quote.md
-      - name: QuoteClose
+      - name: QuoteClose – Common Data Model | Microsoft Docs
         href: foundationCommon/crmCommon/sales/QuoteClose.md
-      - name: QuoteProduct
+      - name: QuoteProduct – Common Data Model | Microsoft Docs
         href: foundationCommon/crmCommon/sales/QuoteProduct.md
-      - name: SalesAttachment
+      - name: SalesAttachment – Common Data Model | Microsoft Docs
         href: foundationCommon/crmCommon/sales/SalesAttachment.md
-      - name: SalesLiterature
+      - name: SalesLiterature – Common Data Model | Microsoft Docs
         href: foundationCommon/crmCommon/sales/SalesLiterature.md
     - name: service
       href:  foundationCommon/crmCommon/service/overview.md
       items: 
-      - name: ActivityParty
+      - name: ActivityParty – Common Data Model | Microsoft Docs
         href: foundationCommon/crmCommon/service/ActivityParty.md
-      - name: Case
+      - name: Case – Common Data Model | Microsoft Docs
         href: foundationCommon/crmCommon/service/Case.md
-      - name: CaseResolution
+      - name: CaseResolution – Common Data Model | Microsoft Docs
         href: foundationCommon/crmCommon/service/CaseResolution.md
-      - name: ChildIncidentCount
+      - name: ChildIncidentCount – Common Data Model | Microsoft Docs
         href: foundationCommon/crmCommon/service/ChildIncidentCount.md
-      - name: Contract
+      - name: Contract – Common Data Model | Microsoft Docs
         href: foundationCommon/crmCommon/service/Contract.md
-      - name: ContractLine
+      - name: ContractLine – Common Data Model | Microsoft Docs
         href: foundationCommon/crmCommon/service/ContractLine.md
-      - name: Entitlement
+      - name: Entitlement – Common Data Model | Microsoft Docs
         href: foundationCommon/crmCommon/service/Entitlement.md
-      - name: EntitlementContact
+      - name: EntitlementContact – Common Data Model | Microsoft Docs
         href: foundationCommon/crmCommon/service/EntitlementContact.md
-      - name: EntitlementProduct
+      - name: EntitlementProduct – Common Data Model | Microsoft Docs
         href: foundationCommon/crmCommon/service/EntitlementProduct.md
-      - name: FacilityEquipment
+      - name: FacilityEquipment – Common Data Model | Microsoft Docs
         href: foundationCommon/crmCommon/service/FacilityEquipment.md
-      - name: IncidentKnowledgeBaseRecord
+      - name: IncidentKnowledgeBaseRecord – Common Data Model | Microsoft Docs
         href: foundationCommon/crmCommon/service/IncidentKnowledgeBaseRecord.md
-      - name: KnowledgeArticleIncident
+      - name: KnowledgeArticleIncident – Common Data Model | Microsoft Docs
         href: foundationCommon/crmCommon/service/KnowledgeArticleIncident.md
-      - name: Resource
+      - name: Resource – Common Data Model | Microsoft Docs
         href: foundationCommon/crmCommon/service/Resource.md
-      - name: ResourceExpansion
+      - name: ResourceExpansion – Common Data Model | Microsoft Docs
         href: foundationCommon/crmCommon/service/ResourceExpansion.md
-      - name: ResourceSpecification
+      - name: ResourceSpecification – Common Data Model | Microsoft Docs
         href: foundationCommon/crmCommon/service/ResourceSpecification.md
-      - name: SchedulingGroup
+      - name: SchedulingGroup – Common Data Model | Microsoft Docs
         href: foundationCommon/crmCommon/service/SchedulingGroup.md
-      - name: Service
+      - name: Service – Common Data Model | Microsoft Docs
         href: foundationCommon/crmCommon/service/Service.md
-      - name: ServiceActivity
+      - name: ServiceActivity – Common Data Model | Microsoft Docs
         href: foundationCommon/crmCommon/service/ServiceActivity.md
-      - name: ServiceContractContact
+      - name: ServiceContractContact – Common Data Model | Microsoft Docs
         href: foundationCommon/crmCommon/service/ServiceContractContact.md
-      - name: Site
+      - name: Site – Common Data Model | Microsoft Docs
         href: foundationCommon/crmCommon/service/Site.md
-      - name: SLAKPIInstance
+      - name: SLAKPIInstance – Common Data Model | Microsoft Docs
         href: foundationCommon/crmCommon/service/SLAKPIInstance.md
-      - name: Task
+      - name: Task – Common Data Model | Microsoft Docs
         href: foundationCommon/crmCommon/service/Task.md
-      - name: User
+      - name: User – Common Data Model | Microsoft Docs
         href: foundationCommon/crmCommon/service/User.md
     - name: solutions
       href:  foundationCommon/crmCommon/solutions/overview.md
@@ -317,470 +317,470 @@
         - name: eventManagement
           href:  foundationCommon/crmCommon/solutions/marketing/eventManagement/overview.md
           items: 
-          - name: Account
+          - name: Account – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/eventManagement/Account.md
-          - name: AttendeePass
+          - name: AttendeePass – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/eventManagement/AttendeePass.md
-          - name: Building
+          - name: Building – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/eventManagement/Building.md
-          - name: CheckIn
+          - name: CheckIn – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/eventManagement/CheckIn.md
-          - name: CustomRegistrationField
+          - name: CustomRegistrationField – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/eventManagement/CustomRegistrationField.md
-          - name: Event
+          - name: Event – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.md
-          - name: EventCustomRegistrationField
+          - name: EventCustomRegistrationField – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/eventManagement/EventCustomRegistrationField.md
-          - name: EventRegistration
+          - name: EventRegistration – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/eventManagement/EventRegistration.md
-          - name: EventTeamMember
+          - name: EventTeamMember – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/eventManagement/EventTeamMember.md
-          - name: EventVendor
+          - name: EventVendor – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/eventManagement/EventVendor.md
-          - name: Hotel
+          - name: Hotel – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/eventManagement/Hotel.md
-          - name: HotelRoomAllocation
+          - name: HotelRoomAllocation – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomAllocation.md
-          - name: HotelRoomReservation
+          - name: HotelRoomReservation – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomReservation.md
-          - name: Invitation
+          - name: Invitation – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/eventManagement/Invitation.md
-          - name: Layout
+          - name: Layout – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/eventManagement/Layout.md
-          - name: Pass
+          - name: Pass – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/eventManagement/Pass.md
-          - name: RegistrationResponse
+          - name: RegistrationResponse – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/eventManagement/RegistrationResponse.md
-          - name: Room
+          - name: Room – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/eventManagement/Room.md
-          - name: Session
+          - name: Session – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/eventManagement/Session.md
-          - name: SessionRegistration
+          - name: SessionRegistration – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/eventManagement/SessionRegistration.md
-          - name: SessionTrack
+          - name: SessionTrack – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/eventManagement/SessionTrack.md
-          - name: Speaker
+          - name: Speaker – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/eventManagement/Speaker.md
-          - name: SpeakerEngagement
+          - name: SpeakerEngagement – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/eventManagement/SpeakerEngagement.md
-          - name: SponsorableArticle
+          - name: SponsorableArticle – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/eventManagement/SponsorableArticle.md
-          - name: Sponsorship
+          - name: Sponsorship – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/eventManagement/Sponsorship.md
-          - name: Venue
+          - name: Venue – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/eventManagement/Venue.md
-          - name: WaitlistItem
+          - name: WaitlistItem – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/eventManagement/WaitlistItem.md
         - name: interactions
           href:  foundationCommon/crmCommon/solutions/marketing/interactions/overview.md
           items: 
-          - name: ActivityContactDispatched
+          - name: ActivityContactDispatched – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/interactions/ActivityContactDispatched.md
-          - name: ActivityContactProcessingFailed
+          - name: ActivityContactProcessingFailed – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/interactions/ActivityContactProcessingFailed.md
-          - name: ContactCheckedIntoEvent
+          - name: ContactCheckedIntoEvent – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/interactions/ContactCheckedIntoEvent.md
-          - name: ContactRegisteredToEvent
+          - name: ContactRegisteredToEvent – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/interactions/ContactRegisteredToEvent.md
-          - name: CreateCrmActivityContactProcessed
+          - name: CreateCrmActivityContactProcessed – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/interactions/CreateCrmActivityContactProcessed.md
-          - name: CreateCustomChannelActivityContactProcessed
+          - name: CreateCustomChannelActivityContactProcessed – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/interactions/CreateCustomChannelActivityContactProcessed.md
-          - name: CustomChannelResponse
+          - name: CustomChannelResponse – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/interactions/CustomChannelResponse.md
-          - name: CustomerJourneyContactRecordUpdated
+          - name: CustomerJourneyContactRecordUpdated – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/interactions/CustomerJourneyContactRecordUpdated.md
-          - name: EmailBlockBounced
+          - name: EmailBlockBounced – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/interactions/EmailBlockBounced.md
-          - name: EmailBlocked
+          - name: EmailBlocked – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/interactions/EmailBlocked.md
-          - name: EmailClicked
+          - name: EmailClicked – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/interactions/EmailClicked.md
-          - name: EmailContainsBlacklistedLinks
+          - name: EmailContainsBlacklistedLinks – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/interactions/EmailContainsBlacklistedLinks.md
-          - name: EmailDelivered
+          - name: EmailDelivered – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/interactions/EmailDelivered.md
-          - name: EmailFeedbackLoop
+          - name: EmailFeedbackLoop – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/interactions/EmailFeedbackLoop.md
-          - name: EmailForwarded
+          - name: EmailForwarded – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/interactions/EmailForwarded.md
-          - name: EmailHardBounced
+          - name: EmailHardBounced – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/interactions/EmailHardBounced.md
-          - name: EmailOpened
+          - name: EmailOpened – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/interactions/EmailOpened.md
-          - name: EmailSendingFailed
+          - name: EmailSendingFailed – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/interactions/EmailSendingFailed.md
-          - name: EmailSent
+          - name: EmailSent – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/interactions/EmailSent.md
-          - name: EmailSoftBounced
+          - name: EmailSoftBounced – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/interactions/EmailSoftBounced.md
-          - name: EmailSubscriptionSubmit
+          - name: EmailSubscriptionSubmit – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/interactions/EmailSubscriptionSubmit.md
-          - name: FormSubmitted
+          - name: FormSubmitted – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/interactions/FormSubmitted.md
-          - name: FormVisited
+          - name: FormVisited – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/interactions/FormVisited.md
-          - name: InvalidRecipientAddress
+          - name: InvalidRecipientAddress – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/interactions/InvalidRecipientAddress.md
-          - name: InvalidSenderAddress
+          - name: InvalidSenderAddress – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/interactions/InvalidSenderAddress.md
-          - name: LeadScoreBoost
+          - name: LeadScoreBoost – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/interactions/LeadScoreBoost.md
-          - name: OutOfEmailCredits
+          - name: OutOfEmailCredits – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/interactions/OutOfEmailCredits.md
-          - name: PassThroughActivityContactProcessed
+          - name: PassThroughActivityContactProcessed – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/interactions/PassThroughActivityContactProcessed.md
-          - name: RedirectLinkClicked
+          - name: RedirectLinkClicked – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/interactions/RedirectLinkClicked.md
-          - name: SchedulerActivityContactProcessed
+          - name: SchedulerActivityContactProcessed – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/interactions/SchedulerActivityContactProcessed.md
-          - name: SegmentRelationshipEdited
+          - name: SegmentRelationshipEdited – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/interactions/SegmentRelationshipEdited.md
-          - name: SegmentSubscribed
+          - name: SegmentSubscribed – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/interactions/SegmentSubscribed.md
-          - name: SegmentUnsubscribed
+          - name: SegmentUnsubscribed – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/interactions/SegmentUnsubscribed.md
-          - name: SplitterActivityContactProcessed
+          - name: SplitterActivityContactProcessed – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/interactions/SplitterActivityContactProcessed.md
-          - name: SurveyResponse
+          - name: SurveyResponse – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/interactions/SurveyResponse.md
-          - name: TriggerActivityContactProcessed
+          - name: TriggerActivityContactProcessed – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/interactions/TriggerActivityContactProcessed.md
-          - name: TriggerCrmWorkflowActivityContactProcessed
+          - name: TriggerCrmWorkflowActivityContactProcessed – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/interactions/TriggerCrmWorkflowActivityContactProcessed.md
-          - name: WebsiteClicked
+          - name: WebsiteClicked – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/interactions/WebsiteClicked.md
-          - name: WebsiteVisited
+          - name: WebsiteVisited – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/interactions/WebsiteVisited.md
         - name: LinkedInLeads
           href:  foundationCommon/crmCommon/solutions/marketing/LinkedInLeads/overview.md
           items: 
-          - name: LinkedInAccount
+          - name: LinkedInAccount – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/LinkedInLeads/LinkedInAccount.md
-          - name: LinkedInCampaign
+          - name: LinkedInCampaign – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/LinkedInLeads/LinkedInCampaign.md
-          - name: LinkedInFormQuestion
+          - name: LinkedInFormQuestion – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/LinkedInLeads/LinkedInFormQuestion.md
-          - name: LinkedInFormSubmissionAnswer
+          - name: LinkedInFormSubmissionAnswer – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/LinkedInLeads/LinkedInFormSubmissionAnswer.md
-          - name: LinkedInLeadGenForm
+          - name: LinkedInLeadGenForm – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/LinkedInLeads/LinkedInLeadGenForm.md
-          - name: LinkedInLeadGenFormSubmission
+          - name: LinkedInLeadGenFormSubmission – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/LinkedInLeads/LinkedInLeadGenFormSubmission.md
         - name: marketingLeads
           href:  foundationCommon/crmCommon/solutions/marketing/marketingLeads/overview.md
           items: 
-          - name: LeadScoringModel
+          - name: LeadScoringModel – Common Data Model | Microsoft Docs
             href: foundationCommon/crmCommon/solutions/marketing/marketingLeads/LeadScoringModel.md
-        - name: Appointment
+        - name: Appointment – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/solutions/marketing/Appointment.md
-        - name: Connection
+        - name: Connection – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/solutions/marketing/Connection.md
-        - name: Contact
+        - name: Contact – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/solutions/marketing/Contact.md
-        - name: ContentSettings
+        - name: ContentSettings – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/solutions/marketing/ContentSettings.md
-        - name: CustomerJourney
+        - name: CustomerJourney – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/solutions/marketing/CustomerJourney.md
-        - name: FormPage
+        - name: FormPage – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/solutions/marketing/FormPage.md
-        - name: GeoPin
+        - name: GeoPin – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/solutions/marketing/GeoPin.md
-        - name: Lead
+        - name: Lead – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/solutions/marketing/Lead.md
-        - name: ListForm
+        - name: ListForm – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/solutions/marketing/ListForm.md
-        - name: MarketingEmail
+        - name: MarketingEmail – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/solutions/marketing/MarketingEmail.md
-        - name: MarketingForm
+        - name: MarketingForm – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/solutions/marketing/MarketingForm.md
-        - name: MarketingList
+        - name: MarketingList – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/solutions/marketing/MarketingList.md
-        - name: MarketingPage
+        - name: MarketingPage – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/solutions/marketing/MarketingPage.md
-        - name: MarketingWebsite
+        - name: MarketingWebsite – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/solutions/marketing/MarketingWebsite.md
-        - name: PhoneCall
+        - name: PhoneCall – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/solutions/marketing/PhoneCall.md
-        - name: Segment
+        - name: Segment – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/solutions/marketing/Segment.md
-        - name: Task
+        - name: Task – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/solutions/marketing/Task.md
-        - name: Website
+        - name: Website – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/solutions/marketing/Website.md
       - name: portals
         href:  foundationCommon/crmCommon/solutions/portals/overview.md
         items: 
-        - name: Account
+        - name: Account – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/solutions/portals/Account.md
-        - name: Ad
+        - name: Ad – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/solutions/portals/Ad.md
-        - name: AdPlacement
+        - name: AdPlacement – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/solutions/portals/AdPlacement.md
-        - name: Article
+        - name: Article – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/solutions/portals/Article.md
-        - name: Badge
+        - name: Badge – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/solutions/portals/Badge.md
-        - name: BadgeType
+        - name: BadgeType – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/solutions/portals/BadgeType.md
-        - name: Blog
+        - name: Blog – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/solutions/portals/Blog.md
-        - name: BlogPost
+        - name: BlogPost – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/solutions/portals/BlogPost.md
-        - name: Case
+        - name: Case – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/solutions/portals/Case.md
-        - name: CaseDeflection
+        - name: CaseDeflection – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/solutions/portals/CaseDeflection.md
-        - name: Contact
+        - name: Contact – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/solutions/portals/Contact.md
-        - name: ExternalIdentity
+        - name: ExternalIdentity – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/solutions/portals/ExternalIdentity.md
-        - name: Feedback
+        - name: Feedback – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/solutions/portals/Feedback.md
-        - name: Forum
+        - name: Forum – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/solutions/portals/Forum.md
-        - name: ForumPost
+        - name: ForumPost – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/solutions/portals/ForumPost.md
-        - name: ForumThread
+        - name: ForumThread – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/solutions/portals/ForumThread.md
-        - name: ForumThreadType
+        - name: ForumThreadType – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/solutions/portals/ForumThreadType.md
-        - name: Idea
+        - name: Idea – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/solutions/portals/Idea.md
-        - name: IdeaForum
+        - name: IdeaForum – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/solutions/portals/IdeaForum.md
-        - name: Invitation
+        - name: Invitation – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/solutions/portals/Invitation.md
-        - name: InviteRedemption
+        - name: InviteRedemption – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/solutions/portals/InviteRedemption.md
-        - name: KnowledgeArticleViews
+        - name: KnowledgeArticleViews – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/solutions/portals/KnowledgeArticleViews.md
-        - name: Opportunity
+        - name: Opportunity – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/solutions/portals/Opportunity.md
-        - name: PageTemplate
+        - name: PageTemplate – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/solutions/portals/PageTemplate.md
-        - name: Poll
+        - name: Poll – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/solutions/portals/Poll.md
-        - name: PollOption
+        - name: PollOption – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/solutions/portals/PollOption.md
-        - name: PollPlacement
+        - name: PollPlacement – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/solutions/portals/PollPlacement.md
-        - name: PollSubmission
+        - name: PollSubmission – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/solutions/portals/PollSubmission.md
-        - name: PortalLanguage
+        - name: PortalLanguage – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/solutions/portals/PortalLanguage.md
-        - name: PublishingState
+        - name: PublishingState – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/solutions/portals/PublishingState.md
-        - name: Tag
+        - name: Tag – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/solutions/portals/Tag.md
-        - name: WebFile
+        - name: WebFile – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/solutions/portals/WebFile.md
-        - name: WebFileLog
+        - name: WebFileLog – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/solutions/portals/WebFileLog.md
-        - name: WebPage
+        - name: WebPage – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/solutions/portals/WebPage.md
-        - name: WebPageLog
+        - name: WebPageLog – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/solutions/portals/WebPageLog.md
-        - name: WebRole
+        - name: WebRole – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/solutions/portals/WebRole.md
-        - name: Website
+        - name: Website – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/solutions/portals/Website.md
-        - name: WebsiteLanguage
+        - name: WebsiteLanguage – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/solutions/portals/WebsiteLanguage.md
-        - name: WebTemplate
+        - name: WebTemplate – Common Data Model | Microsoft Docs
           href: foundationCommon/crmCommon/solutions/portals/WebTemplate.md
-    - name: Account
+    - name: Account – Common Data Model | Microsoft Docs
       href: foundationCommon/crmCommon/Account.md
-    - name: AccountLeads
+    - name: AccountLeads – Common Data Model | Microsoft Docs
       href: foundationCommon/crmCommon/AccountLeads.md
-    - name: Activity
+    - name: Activity – Common Data Model | Microsoft Docs
       href: foundationCommon/crmCommon/Activity.md
-    - name: Appointment
+    - name: Appointment – Common Data Model | Microsoft Docs
       href: foundationCommon/crmCommon/Appointment.md
-    - name: Campaign
+    - name: Campaign – Common Data Model | Microsoft Docs
       href: foundationCommon/crmCommon/Campaign.md
-    - name: CampaignActivity
+    - name: CampaignActivity – Common Data Model | Microsoft Docs
       href: foundationCommon/crmCommon/CampaignActivity.md
-    - name: CampaignActivityItem
+    - name: CampaignActivityItem – Common Data Model | Microsoft Docs
       href: foundationCommon/crmCommon/CampaignActivityItem.md
-    - name: CampaignItem
+    - name: CampaignItem – Common Data Model | Microsoft Docs
       href: foundationCommon/crmCommon/CampaignItem.md
-    - name: CampaignResponse
+    - name: CampaignResponse – Common Data Model | Microsoft Docs
       href: foundationCommon/crmCommon/CampaignResponse.md
-    - name: Contact
+    - name: Contact – Common Data Model | Microsoft Docs
       href: foundationCommon/crmCommon/Contact.md
-    - name: ContactLeads
+    - name: ContactLeads – Common Data Model | Microsoft Docs
       href: foundationCommon/crmCommon/ContactLeads.md
-    - name: Email
+    - name: Email – Common Data Model | Microsoft Docs
       href: foundationCommon/crmCommon/Email.md
-    - name: Fax
+    - name: Fax – Common Data Model | Microsoft Docs
       href: foundationCommon/crmCommon/Fax.md
-    - name: Lead
+    - name: Lead – Common Data Model | Microsoft Docs
       href: foundationCommon/crmCommon/Lead.md
-    - name: LeadAddress
+    - name: LeadAddress – Common Data Model | Microsoft Docs
       href: foundationCommon/crmCommon/LeadAddress.md
-    - name: Letter
+    - name: Letter – Common Data Model | Microsoft Docs
       href: foundationCommon/crmCommon/Letter.md
-    - name: MarketingList
+    - name: MarketingList – Common Data Model | Microsoft Docs
       href: foundationCommon/crmCommon/MarketingList.md
-    - name: MarketingListMember
+    - name: MarketingListMember – Common Data Model | Microsoft Docs
       href: foundationCommon/crmCommon/MarketingListMember.md
-    - name: PhoneCall
+    - name: PhoneCall – Common Data Model | Microsoft Docs
       href: foundationCommon/crmCommon/PhoneCall.md
-    - name: QuickCampaign
+    - name: QuickCampaign – Common Data Model | Microsoft Docs
       href: foundationCommon/crmCommon/QuickCampaign.md
-    - name: RecurringAppointment
+    - name: RecurringAppointment – Common Data Model | Microsoft Docs
       href: foundationCommon/crmCommon/RecurringAppointment.md
-    - name: SocialActivity
+    - name: SocialActivity – Common Data Model | Microsoft Docs
       href: foundationCommon/crmCommon/SocialActivity.md
   - name: financialCommon
     href:  foundationCommon/financialCommon/overview.md
     items: 
-    - name: FinancialActivity
+    - name: FinancialActivity – Common Data Model | Microsoft Docs
       href: foundationCommon/financialCommon/FinancialActivity.md
-    - name: FiscalCalendarPeriod
+    - name: FiscalCalendarPeriod – Common Data Model | Microsoft Docs
       href: foundationCommon/financialCommon/FiscalCalendarPeriod.md
-    - name: Ledger
+    - name: Ledger – Common Data Model | Microsoft Docs
       href: foundationCommon/financialCommon/Ledger.md
-    - name: MainAccount
+    - name: MainAccount – Common Data Model | Microsoft Docs
       href: foundationCommon/financialCommon/MainAccount.md
-    - name: MainAccountCategory
+    - name: MainAccountCategory – Common Data Model | Microsoft Docs
       href: foundationCommon/financialCommon/MainAccountCategory.md
-  - name: Account
+  - name: Account – Common Data Model | Microsoft Docs
     href: foundationCommon/Account.md
-  - name: BookableResource
+  - name: BookableResource – Common Data Model | Microsoft Docs
     href: foundationCommon/BookableResource.md
-  - name: BookableResourceBooking
+  - name: BookableResourceBooking – Common Data Model | Microsoft Docs
     href: foundationCommon/BookableResourceBooking.md
-  - name: BookableResourceBookingHeader
+  - name: BookableResourceBookingHeader – Common Data Model | Microsoft Docs
     href: foundationCommon/BookableResourceBookingHeader.md
-  - name: BookableResourceCategory
+  - name: BookableResourceCategory – Common Data Model | Microsoft Docs
     href: foundationCommon/BookableResourceCategory.md
-  - name: BookableResourceCategoryAssn
+  - name: BookableResourceCategoryAssn – Common Data Model | Microsoft Docs
     href: foundationCommon/BookableResourceCategoryAssn.md
-  - name: BookableResourceCharacteristic
+  - name: BookableResourceCharacteristic – Common Data Model | Microsoft Docs
     href: foundationCommon/BookableResourceCharacteristic.md
-  - name: BookableResourceGroup
+  - name: BookableResourceGroup – Common Data Model | Microsoft Docs
     href: foundationCommon/BookableResourceGroup.md
-  - name: BookingStatus
+  - name: BookingStatus – Common Data Model | Microsoft Docs
     href: foundationCommon/BookingStatus.md
-  - name: Characteristic
+  - name: Characteristic – Common Data Model | Microsoft Docs
     href: foundationCommon/Characteristic.md
-  - name: Company
+  - name: Company – Common Data Model | Microsoft Docs
     href: foundationCommon/Company.md
-  - name: Contact
+  - name: Contact – Common Data Model | Microsoft Docs
     href: foundationCommon/Contact.md
-  - name: KnowledgeArticle
+  - name: KnowledgeArticle – Common Data Model | Microsoft Docs
     href: foundationCommon/KnowledgeArticle.md
-  - name: Organization
+  - name: Organization – Common Data Model | Microsoft Docs
     href: foundationCommon/Organization.md
-  - name: PriceList
+  - name: PriceList – Common Data Model | Microsoft Docs
     href: foundationCommon/PriceList.md
-  - name: PriceListItem
+  - name: PriceListItem – Common Data Model | Microsoft Docs
     href: foundationCommon/PriceListItem.md
-  - name: Product
+  - name: Product – Common Data Model | Microsoft Docs
     href: foundationCommon/Product.md
-  - name: ProductAssociation
+  - name: ProductAssociation – Common Data Model | Microsoft Docs
     href: foundationCommon/ProductAssociation.md
-  - name: ProductRelationship
+  - name: ProductRelationship – Common Data Model | Microsoft Docs
     href: foundationCommon/ProductRelationship.md
-  - name: Property
+  - name: Property – Common Data Model | Microsoft Docs
     href: foundationCommon/Property.md
-  - name: PropertyAssociation
+  - name: PropertyAssociation – Common Data Model | Microsoft Docs
     href: foundationCommon/PropertyAssociation.md
-  - name: PropertyInstance
+  - name: PropertyInstance – Common Data Model | Microsoft Docs
     href: foundationCommon/PropertyInstance.md
-  - name: PropertyOptionSetItem
+  - name: PropertyOptionSetItem – Common Data Model | Microsoft Docs
     href: foundationCommon/PropertyOptionSetItem.md
-  - name: RatingModel
+  - name: RatingModel – Common Data Model | Microsoft Docs
     href: foundationCommon/RatingModel.md
-  - name: RatingValue
+  - name: RatingValue – Common Data Model | Microsoft Docs
     href: foundationCommon/RatingValue.md
-  - name: Unit
+  - name: Unit – Common Data Model | Microsoft Docs
     href: foundationCommon/Unit.md
-  - name: UnitGroup
+  - name: UnitGroup – Common Data Model | Microsoft Docs
     href: foundationCommon/UnitGroup.md
-- name: Account
+- name: Account – Common Data Model | Microsoft Docs
   href: Account.md
-- name: Activity
+- name: Activity – Common Data Model | Microsoft Docs
   href: Activity.md
-- name: ActivityParty
+- name: ActivityParty – Common Data Model | Microsoft Docs
   href: ActivityParty.md
-- name: Address
+- name: Address – Common Data Model | Microsoft Docs
   href: Address.md
-- name: Appointment
+- name: Appointment – Common Data Model | Microsoft Docs
   href: Appointment.md
-- name: Article
+- name: Article – Common Data Model | Microsoft Docs
   href: Article.md
-- name: ArticleComment
+- name: ArticleComment – Common Data Model | Microsoft Docs
   href: ArticleComment.md
-- name: ArticleTemplate
+- name: ArticleTemplate – Common Data Model | Microsoft Docs
   href: ArticleTemplate.md
-- name: BusinessUnit
+- name: BusinessUnit – Common Data Model | Microsoft Docs
   href: BusinessUnit.md
-- name: Connection
+- name: Connection – Common Data Model | Microsoft Docs
   href: Connection.md
-- name: ConnectionRole
+- name: ConnectionRole – Common Data Model | Microsoft Docs
   href: ConnectionRole.md
-- name: Contact
+- name: Contact – Common Data Model | Microsoft Docs
   href: Contact.md
-- name: Currency
+- name: Currency – Common Data Model | Microsoft Docs
   href: Currency.md
-- name: CustomerRelationship
+- name: CustomerRelationship – Common Data Model | Microsoft Docs
   href: CustomerRelationship.md
-- name: Email
+- name: Email – Common Data Model | Microsoft Docs
   href: Email.md
-- name: EmailSignature
+- name: EmailSignature – Common Data Model | Microsoft Docs
   href: EmailSignature.md
-- name: Fax
+- name: Fax – Common Data Model | Microsoft Docs
   href: Fax.md
-- name: Feedback
+- name: Feedback – Common Data Model | Microsoft Docs
   href: Feedback.md
-- name: Goal
+- name: Goal – Common Data Model | Microsoft Docs
   href: Goal.md
-- name: GoalMetric
+- name: GoalMetric – Common Data Model | Microsoft Docs
   href: GoalMetric.md
-- name: KnowledgeArticle
+- name: KnowledgeArticle – Common Data Model | Microsoft Docs
   href: KnowledgeArticle.md
-- name: KnowledgeArticleCategory
+- name: KnowledgeArticleCategory – Common Data Model | Microsoft Docs
   href: KnowledgeArticleCategory.md
-- name: KnowledgeArticleViews
+- name: KnowledgeArticleViews – Common Data Model | Microsoft Docs
   href: KnowledgeArticleViews.md
-- name: KnowledgeBaseRecord
+- name: KnowledgeBaseRecord – Common Data Model | Microsoft Docs
   href: KnowledgeBaseRecord.md
-- name: Letter
+- name: Letter – Common Data Model | Microsoft Docs
   href: Letter.md
-- name: Note
+- name: Note – Common Data Model | Microsoft Docs
   href: Note.md
-- name: Organization
+- name: Organization – Common Data Model | Microsoft Docs
   href: Organization.md
-- name: Owner
+- name: Owner – Common Data Model | Microsoft Docs
   href: Owner.md
-- name: PhoneCall
+- name: PhoneCall – Common Data Model | Microsoft Docs
   href: PhoneCall.md
-- name: Position
+- name: Position – Common Data Model | Microsoft Docs
   href: Position.md
-- name: Queue
+- name: Queue – Common Data Model | Microsoft Docs
   href: Queue.md
-- name: QueueItem
+- name: QueueItem – Common Data Model | Microsoft Docs
   href: QueueItem.md
-- name: RecurringAppointment
+- name: RecurringAppointment – Common Data Model | Microsoft Docs
   href: RecurringAppointment.md
-- name: SLA
+- name: SLA – Common Data Model | Microsoft Docs
   href: SLA.md
-- name: SLAItem
+- name: SLAItem – Common Data Model | Microsoft Docs
   href: SLAItem.md
-- name: SLAKPIInstance
+- name: SLAKPIInstance – Common Data Model | Microsoft Docs
   href: SLAKPIInstance.md
-- name: SocialActivity
+- name: SocialActivity – Common Data Model | Microsoft Docs
   href: SocialActivity.md
-- name: SocialProfile
+- name: SocialProfile – Common Data Model | Microsoft Docs
   href: SocialProfile.md
-- name: Task
+- name: Task – Common Data Model | Microsoft Docs
   href: Task.md
-- name: Team
+- name: Team – Common Data Model | Microsoft Docs
   href: Team.md
-- name: Territory
+- name: Territory – Common Data Model | Microsoft Docs
   href: Territory.md
-- name: User
+- name: User – Common Data Model | Microsoft Docs
   href: User.md

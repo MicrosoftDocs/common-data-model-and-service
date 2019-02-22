@@ -1,11 +1,12 @@
 ---
-title: IndicatorValue
+title: IndicatorValue – Common Data Model | Microsoft Docs
 description: A quantitative or qualitative value of measurement of an Indicator
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/22/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Indicator Value

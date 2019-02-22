@@ -1,11 +1,12 @@
 ---
-title: DeliveryFramework
+title: DeliveryFramework – Common Data Model | Microsoft Docs
 description: A Delivery Framework is a Management Unit of work defined by the organization or entity doing the work.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/22/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Delivery Framework

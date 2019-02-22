@@ -1,11 +1,12 @@
 ---
-title: Company
+title: Company – Common Data Model | Microsoft Docs
 description: Uniquely identifies a Company by name and type
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/22/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Company

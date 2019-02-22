@@ -1,11 +1,12 @@
 ---
-title: KnowledgeArticleCategory
+title: KnowledgeArticleCategory – Common Data Model | Microsoft Docs
 description: Category for a Knowledge Article.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/22/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Knowledge Article Category

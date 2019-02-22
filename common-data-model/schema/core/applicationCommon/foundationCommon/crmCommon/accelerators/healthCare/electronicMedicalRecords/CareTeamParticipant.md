@@ -1,11 +1,12 @@
 ---
-title: CareTeamParticipant
+title: CareTeamParticipant – Common Data Model | Microsoft Docs
 description: Identifies all people and organizations who are expected to be involved in the care team.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/22/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Care Team Participant

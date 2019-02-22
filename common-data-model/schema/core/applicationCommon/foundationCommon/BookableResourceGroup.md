@@ -1,11 +1,12 @@
 ---
-title: BookableResourceGroup
+title: BookableResourceGroup – Common Data Model | Microsoft Docs
 description: Associates resources with resource groups that they are a member of.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/22/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Bookable Resource Group

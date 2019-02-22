@@ -1,11 +1,12 @@
 ---
-title: FinancialActivity
+title: FinancialActivity – Common Data Model | Microsoft Docs
 description: Summarization of financial activity for a ledger, date, account, and dimension combination
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/22/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Financial Activity

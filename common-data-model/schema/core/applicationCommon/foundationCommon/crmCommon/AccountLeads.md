@@ -1,11 +1,12 @@
 ---
-title: AccountLeads
+title: AccountLeads – Common Data Model | Microsoft Docs
 description: description.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/22/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # AccountLeads

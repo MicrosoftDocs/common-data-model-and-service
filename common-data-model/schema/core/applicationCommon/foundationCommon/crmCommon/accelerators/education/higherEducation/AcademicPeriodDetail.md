@@ -1,11 +1,12 @@
 ---
-title: AcademicPeriodDetail
+title: AcademicPeriodDetail – Common Data Model | Microsoft Docs
 description: Status between student and their academic periods.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/22/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Academic Period Detail

@@ -1,11 +1,12 @@
 ---
-title: Contract
+title: Contract – Common Data Model | Microsoft Docs
 description: Agreement to provide customer service during a specified amount of time or number of cases.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/22/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Contract

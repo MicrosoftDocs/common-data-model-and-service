@@ -1,11 +1,12 @@
 ---
-title: CampaignActivityItem
+title: CampaignActivityItem – Common Data Model | Microsoft Docs
 description: Work item of a campaign activity, such as a list or sales literature.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/22/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Campaign Activity Item

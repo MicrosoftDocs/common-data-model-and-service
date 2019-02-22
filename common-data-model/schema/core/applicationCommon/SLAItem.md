@@ -1,11 +1,12 @@
 ---
-title: SLAItem
+title: SLAItem – Common Data Model | Microsoft Docs
 description: Contains information about a tracked support KPI for a specific customer.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/22/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # SLA Item

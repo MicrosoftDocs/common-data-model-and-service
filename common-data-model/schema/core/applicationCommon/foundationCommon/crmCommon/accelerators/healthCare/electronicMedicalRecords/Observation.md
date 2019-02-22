@@ -1,11 +1,12 @@
 ---
-title: Observation
+title: Observation – Common Data Model | Microsoft Docs
 description: Measurements and simple assertions made about a patient, device or other subject.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/22/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Observation

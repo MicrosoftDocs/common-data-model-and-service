@@ -1,11 +1,12 @@
 ---
-title: CustomerJourneyContactRecordUpdated
+title: CustomerJourneyContactRecordUpdated – Common Data Model | Microsoft Docs
 description: This describes the CustomerJourneyContactRecordUpdated entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/22/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Customer journey contact record updated

@@ -1,11 +1,12 @@
 ---
-title: BookingStatus
+title: BookingStatus – Common Data Model | Microsoft Docs
 description: Allows creation of multiple sub statuses mapped to a booking status option.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/22/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Booking Status

@@ -1,11 +1,12 @@
 ---
-title: InviteRedemption
+title: InviteRedemption – Common Data Model | Microsoft Docs
 description: Holds information about the redemption of an invite.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/22/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Invite Redemption

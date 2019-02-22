@@ -1,11 +1,12 @@
 ---
-title: AwardVersion
+title: AwardVersion – Common Data Model | Microsoft Docs
 description: A point in time snapshot of the attributes of an Award.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/22/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Award Version

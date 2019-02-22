@@ -1,11 +1,12 @@
 ---
-title: Recommendation
+title: Recommendation – Common Data Model | Microsoft Docs
 description: This is the mechanism through which Foundations provide recommendations back to a grant applicant.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/22/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Recommendation

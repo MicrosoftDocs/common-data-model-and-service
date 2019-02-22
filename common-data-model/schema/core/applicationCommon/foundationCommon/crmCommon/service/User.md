@@ -1,11 +1,12 @@
 ---
-title: User
+title: User – Common Data Model | Microsoft Docs
 description: Person with access to the Microsoft CRM system and who owns objects in the Microsoft CRM database.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/22/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # User

@@ -1,11 +1,12 @@
 ---
-title: PropertyOptionSetItem
+title: PropertyOptionSetItem – Common Data Model | Microsoft Docs
 description: Item with a name and value in a property option set type.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/22/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Property Option Set Item

@@ -1,11 +1,12 @@
 ---
-title: Discount
+title: Discount – Common Data Model | Microsoft Docs
 description: Price reduction made from the list price of a product or service based on the quantity purchased.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 2/22/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Discount
