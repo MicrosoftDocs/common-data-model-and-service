@@ -1,6 +1,6 @@
 ---
 title: EmailSubscriptionSubmit
-description: This describes the EmailSubscriptionSubmit_ entitity.
+description: This describes the EmailSubscriptionSubmit entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

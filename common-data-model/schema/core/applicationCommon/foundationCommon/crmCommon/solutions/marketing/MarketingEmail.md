@@ -1,6 +1,6 @@
 ---
 title: MarketingEmail
-description: This describes the MarketingEmail_ entitity.
+description: This describes the MarketingEmail entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: DesignationPlan
-description: This describes the DesignationPlan_ entitity.
+description: This describes the DesignationPlan entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

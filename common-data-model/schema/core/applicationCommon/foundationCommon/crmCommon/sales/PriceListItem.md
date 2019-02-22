@@ -1,6 +1,6 @@
 ---
 title: PriceListItem
-description: This describes the PriceListItem_ entitity.
+description: This describes the PriceListItem entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

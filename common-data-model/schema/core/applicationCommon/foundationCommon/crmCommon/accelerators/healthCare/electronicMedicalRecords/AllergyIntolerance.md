@@ -1,6 +1,6 @@
 ---
 title: AllergyIntolerance
-description: This describes the AllergyIntolerance_ entitity.
+description: This describes the AllergyIntolerance entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

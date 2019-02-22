@@ -1,6 +1,6 @@
 ---
 title: EmailHardBounced
-description: This describes the EmailHardBounced_ entitity.
+description: This describes the EmailHardBounced entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Preference
-description: This describes the Preference_ entitity.
+description: This describes the Preference entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

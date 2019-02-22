@@ -1,6 +1,6 @@
 ---
 title: ProductRelationship
-description: This describes the ProductRelationship_ entitity.
+description: This describes the ProductRelationship entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

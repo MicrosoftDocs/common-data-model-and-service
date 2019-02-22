@@ -1,6 +1,6 @@
 ---
 title: ContactOrders
-description: This describes the ContactOrders_ entitity.
+description: This describes the ContactOrders entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

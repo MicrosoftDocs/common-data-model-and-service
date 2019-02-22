@@ -1,6 +1,6 @@
 ---
 title: LeadCompetitors
-description: This describes the LeadCompetitors_ entitity.
+description: This describes the LeadCompetitors entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

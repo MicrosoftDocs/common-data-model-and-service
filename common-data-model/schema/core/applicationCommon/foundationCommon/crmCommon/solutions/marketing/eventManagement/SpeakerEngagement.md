@@ -1,6 +1,6 @@
 ---
 title: SpeakerEngagement
-description: This describes the SpeakerEngagement_ entitity.
+description: This describes the SpeakerEngagement entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

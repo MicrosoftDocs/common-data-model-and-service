@@ -1,6 +1,6 @@
 ---
 title: EmploymentHistory
-description: This describes the EmploymentHistory_ entitity.
+description: This describes the EmploymentHistory entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: EntitlementProduct
-description: This describes the EntitlementProduct_ entitity.
+description: This describes the EntitlementProduct entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

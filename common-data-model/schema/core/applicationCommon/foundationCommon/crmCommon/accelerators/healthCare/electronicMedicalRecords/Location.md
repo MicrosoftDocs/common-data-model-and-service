@@ -1,6 +1,6 @@
 ---
 title: Location
-description: This describes the Location_ entitity.
+description: This describes the Location entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

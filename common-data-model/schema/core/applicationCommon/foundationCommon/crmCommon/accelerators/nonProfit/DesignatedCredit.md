@@ -1,6 +1,6 @@
 ---
 title: DesignatedCredit
-description: This describes the DesignatedCredit_ entitity.
+description: This describes the DesignatedCredit entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

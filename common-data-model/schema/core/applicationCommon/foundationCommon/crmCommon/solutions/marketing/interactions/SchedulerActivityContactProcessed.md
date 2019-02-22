@@ -1,6 +1,6 @@
 ---
 title: SchedulerActivityContactProcessed
-description: This describes the SchedulerActivityContactProcessed_ entitity.
+description: This describes the SchedulerActivityContactProcessed entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

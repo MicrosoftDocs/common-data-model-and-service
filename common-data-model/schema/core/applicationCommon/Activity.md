@@ -1,6 +1,6 @@
 ---
 title: Activity
-description: This describes the Activity_ entitity.
+description: This describes the Activity entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

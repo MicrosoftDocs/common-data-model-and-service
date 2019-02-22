@@ -1,6 +1,6 @@
 ---
 title: AreaOfStudy
-description: This describes the AreaOfStudy_ entitity.
+description: This describes the AreaOfStudy entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

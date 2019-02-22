@@ -1,6 +1,6 @@
 ---
 title: RegistrationStatus
-description: This describes the RegistrationStatus_ entitity.
+description: This describes the RegistrationStatus entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

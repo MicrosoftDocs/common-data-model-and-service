@@ -1,6 +1,6 @@
 ---
 title: EmailDelivered
-description: This describes the EmailDelivered_ entitity.
+description: This describes the EmailDelivered entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

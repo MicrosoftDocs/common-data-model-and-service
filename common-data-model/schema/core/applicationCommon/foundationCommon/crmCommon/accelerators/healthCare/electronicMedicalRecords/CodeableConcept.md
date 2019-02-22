@@ -1,6 +1,6 @@
 ---
 title: CodeableConcept
-description: This describes the CodeableConcept_ entitity.
+description: This describes the CodeableConcept entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

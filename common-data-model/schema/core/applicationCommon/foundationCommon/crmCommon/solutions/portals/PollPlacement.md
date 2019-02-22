@@ -1,6 +1,6 @@
 ---
 title: PollPlacement
-description: This describes the PollPlacement_ entitity.
+description: This describes the PollPlacement entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

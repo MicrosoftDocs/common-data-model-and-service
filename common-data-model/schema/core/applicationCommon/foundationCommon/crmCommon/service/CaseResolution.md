@@ -1,6 +1,6 @@
 ---
 title: CaseResolution
-description: This describes the CaseResolution_ entitity.
+description: This describes the CaseResolution entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

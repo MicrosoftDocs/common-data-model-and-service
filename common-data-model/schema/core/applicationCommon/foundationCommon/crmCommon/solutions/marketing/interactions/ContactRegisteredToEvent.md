@@ -1,6 +1,6 @@
 ---
 title: ContactRegisteredToEvent
-description: This describes the ContactRegisteredToEvent_ entitity.
+description: This describes the ContactRegisteredToEvent entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

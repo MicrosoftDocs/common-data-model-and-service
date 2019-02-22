@@ -1,6 +1,6 @@
 ---
 title: EmailSendingFailed
-description: This describes the EmailSendingFailed_ entitity.
+description: This describes the EmailSendingFailed entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

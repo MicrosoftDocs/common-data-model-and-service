@@ -1,6 +1,6 @@
 ---
 title: Sponsorship
-description: This describes the Sponsorship_ entitity.
+description: This describes the Sponsorship entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

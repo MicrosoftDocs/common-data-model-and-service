@@ -1,6 +1,6 @@
 ---
 title: LeadScoreBoost
-description: This describes the LeadScoreBoost_ entitity.
+description: This describes the LeadScoreBoost entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

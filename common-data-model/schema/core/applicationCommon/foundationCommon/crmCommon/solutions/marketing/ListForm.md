@@ -1,6 +1,6 @@
 ---
 title: ListForm
-description: This describes the ListForm_ entitity.
+description: This describes the ListForm entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

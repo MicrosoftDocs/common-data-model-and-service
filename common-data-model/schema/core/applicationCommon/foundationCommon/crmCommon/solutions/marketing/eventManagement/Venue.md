@@ -1,6 +1,6 @@
 ---
 title: Venue
-description: This describes the Venue_ entitity.
+description: This describes the Venue entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

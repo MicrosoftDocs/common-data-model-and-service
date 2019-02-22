@@ -1,6 +1,6 @@
 ---
 title: PractitionerRole
-description: This describes the PractitionerRole_ entitity.
+description: This describes the PractitionerRole entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

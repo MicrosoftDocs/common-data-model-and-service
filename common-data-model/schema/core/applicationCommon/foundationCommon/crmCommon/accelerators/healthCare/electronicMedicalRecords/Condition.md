@@ -1,6 +1,6 @@
 ---
 title: Condition
-description: This describes the Condition_ entitity.
+description: This describes the Condition entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

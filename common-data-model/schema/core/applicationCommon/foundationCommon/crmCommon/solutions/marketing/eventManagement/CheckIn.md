@@ -1,6 +1,6 @@
 ---
 title: CheckIn
-description: This describes the CheckIn_ entitity.
+description: This describes the CheckIn entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

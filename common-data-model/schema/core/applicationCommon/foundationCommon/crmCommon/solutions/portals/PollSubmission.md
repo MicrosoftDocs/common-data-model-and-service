@@ -1,6 +1,6 @@
 ---
 title: PollSubmission
-description: This describes the PollSubmission_ entitity.
+description: This describes the PollSubmission entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

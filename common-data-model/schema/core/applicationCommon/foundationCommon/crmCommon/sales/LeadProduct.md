@@ -1,6 +1,6 @@
 ---
 title: LeadProduct
-description: This describes the LeadProduct_ entitity.
+description: This describes the LeadProduct entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

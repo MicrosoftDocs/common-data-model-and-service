@@ -1,6 +1,6 @@
 ---
 title: Result
-description: This describes the Result_ entitity.
+description: This describes the Result entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

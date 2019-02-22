@@ -1,6 +1,6 @@
 ---
 title: QuoteProduct
-description: This describes the QuoteProduct_ entitity.
+description: This describes the QuoteProduct entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

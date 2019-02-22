@@ -1,6 +1,6 @@
 ---
 title: ResourceSpecification
-description: This describes the ResourceSpecification_ entitity.
+description: This describes the ResourceSpecification entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: ForumThreadType
-description: This describes the ForumThreadType_ entitity.
+description: This describes the ForumThreadType entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

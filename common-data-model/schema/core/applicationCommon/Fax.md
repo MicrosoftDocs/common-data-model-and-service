@@ -1,6 +1,6 @@
 ---
 title: Fax
-description: This describes the Fax_ entitity.
+description: This describes the Fax entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

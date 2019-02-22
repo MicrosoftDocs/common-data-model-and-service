@@ -1,6 +1,6 @@
 ---
 title: AreaOfInterest
-description: This describes the AreaOfInterest_ entitity.
+description: This describes the AreaOfInterest entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

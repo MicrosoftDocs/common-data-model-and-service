@@ -1,6 +1,6 @@
 ---
 title: QuickCampaign
-description: This describes the QuickCampaign_ entitity.
+description: This describes the QuickCampaign entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

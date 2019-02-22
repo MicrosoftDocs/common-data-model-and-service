@@ -1,6 +1,6 @@
 ---
 title: Lead
-description: This describes the Lead_ entitity.
+description: This describes the Lead entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

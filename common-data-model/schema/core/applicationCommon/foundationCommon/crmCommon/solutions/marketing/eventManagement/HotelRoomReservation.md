@@ -1,6 +1,6 @@
 ---
 title: HotelRoomReservation
-description: This describes the HotelRoomReservation_ entitity.
+description: This describes the HotelRoomReservation entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: EmailClicked
-description: This describes the EmailClicked_ entitity.
+description: This describes the EmailClicked entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

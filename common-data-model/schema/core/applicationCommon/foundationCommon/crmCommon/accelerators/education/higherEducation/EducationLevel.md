@@ -1,6 +1,6 @@
 ---
 title: EducationLevel
-description: This describes the EducationLevel_ entitity.
+description: This describes the EducationLevel entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

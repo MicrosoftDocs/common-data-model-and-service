@@ -1,6 +1,6 @@
 ---
 title: CustomChannelResponse
-description: This describes the CustomChannelResponse_ entitity.
+description: This describes the CustomChannelResponse entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

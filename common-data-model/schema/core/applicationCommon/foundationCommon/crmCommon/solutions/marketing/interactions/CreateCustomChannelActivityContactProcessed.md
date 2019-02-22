@@ -1,6 +1,6 @@
 ---
 title: CreateCustomChannelActivityContactProcessed
-description: This describes the CreateCustomChannelActivityContactProcessed_ entitity.
+description: This describes the CreateCustomChannelActivityContactProcessed entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

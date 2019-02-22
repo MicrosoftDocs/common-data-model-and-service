@@ -1,6 +1,6 @@
 ---
 title: EpisodeOfCare
-description: This describes the EpisodeOfCare_ entitity.
+description: This describes the EpisodeOfCare entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

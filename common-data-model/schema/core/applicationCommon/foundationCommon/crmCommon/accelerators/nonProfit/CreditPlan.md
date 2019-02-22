@@ -1,6 +1,6 @@
 ---
 title: CreditPlan
-description: This describes the CreditPlan_ entitity.
+description: This describes the CreditPlan entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

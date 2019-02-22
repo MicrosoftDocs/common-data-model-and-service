@@ -1,6 +1,6 @@
 ---
 title: WebsiteClicked
-description: This describes the WebsiteClicked_ entitity.
+description: This describes the WebsiteClicked entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

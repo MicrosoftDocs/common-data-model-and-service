@@ -1,6 +1,6 @@
 ---
 title: WebTemplate
-description: This describes the WebTemplate_ entitity.
+description: This describes the WebTemplate entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

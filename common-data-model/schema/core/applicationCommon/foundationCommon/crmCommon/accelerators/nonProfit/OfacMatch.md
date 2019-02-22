@@ -1,6 +1,6 @@
 ---
 title: OfacMatch
-description: This describes the OfacMatch_ entitity.
+description: This describes the OfacMatch entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

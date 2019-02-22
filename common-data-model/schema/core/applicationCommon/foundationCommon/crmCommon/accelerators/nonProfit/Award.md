@@ -1,6 +1,6 @@
 ---
 title: Award
-description: This describes the Award_ entitity.
+description: This describes the Award entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

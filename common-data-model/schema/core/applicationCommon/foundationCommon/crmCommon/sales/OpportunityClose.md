@@ -1,6 +1,6 @@
 ---
 title: OpportunityClose
-description: This describes the OpportunityClose_ entitity.
+description: This describes the OpportunityClose entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

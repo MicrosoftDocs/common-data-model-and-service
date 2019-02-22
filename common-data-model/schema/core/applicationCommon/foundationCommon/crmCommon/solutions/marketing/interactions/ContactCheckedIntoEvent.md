@@ -1,6 +1,6 @@
 ---
 title: ContactCheckedIntoEvent
-description: This describes the ContactCheckedIntoEvent_ entitity.
+description: This describes the ContactCheckedIntoEvent entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

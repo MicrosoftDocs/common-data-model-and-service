@@ -1,6 +1,6 @@
 ---
 title: ServiceActivity
-description: This describes the ServiceActivity_ entitity.
+description: This describes the ServiceActivity entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

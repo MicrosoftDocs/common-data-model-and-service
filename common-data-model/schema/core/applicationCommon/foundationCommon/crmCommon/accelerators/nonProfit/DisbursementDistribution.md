@@ -1,6 +1,6 @@
 ---
 title: DisbursementDistribution
-description: This describes the DisbursementDistribution_ entitity.
+description: This describes the DisbursementDistribution entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

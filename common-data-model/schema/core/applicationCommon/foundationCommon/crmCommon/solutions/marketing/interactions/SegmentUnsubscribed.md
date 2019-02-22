@@ -1,6 +1,6 @@
 ---
 title: SegmentUnsubscribed
-description: This describes the SegmentUnsubscribed_ entitity.
+description: This describes the SegmentUnsubscribed entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

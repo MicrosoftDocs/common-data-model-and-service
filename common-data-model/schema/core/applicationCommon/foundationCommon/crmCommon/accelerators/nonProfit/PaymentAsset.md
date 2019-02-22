@@ -1,6 +1,6 @@
 ---
 title: PaymentAsset
-description: This describes the PaymentAsset_ entitity.
+description: This describes the PaymentAsset entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

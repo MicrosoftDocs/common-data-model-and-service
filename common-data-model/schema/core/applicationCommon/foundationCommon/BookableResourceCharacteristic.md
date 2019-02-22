@@ -1,6 +1,6 @@
 ---
 title: BookableResourceCharacteristic
-description: This describes the BookableResourceCharacteristic_ entitity.
+description: This describes the BookableResourceCharacteristic entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

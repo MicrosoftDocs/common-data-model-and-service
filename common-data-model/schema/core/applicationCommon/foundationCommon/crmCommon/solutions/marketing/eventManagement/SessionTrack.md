@@ -1,6 +1,6 @@
 ---
 title: SessionTrack
-description: This describes the SessionTrack_ entitity.
+description: This describes the SessionTrack entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

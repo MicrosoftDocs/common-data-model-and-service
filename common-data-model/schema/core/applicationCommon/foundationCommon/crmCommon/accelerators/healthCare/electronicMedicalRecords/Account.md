@@ -1,6 +1,6 @@
 ---
 title: Account
-description: This describes the Account_ entitity.
+description: This describes the Account entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

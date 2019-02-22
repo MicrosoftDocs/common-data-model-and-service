@@ -1,6 +1,6 @@
 ---
 title: TriggerCrmWorkflowActivityContactProcessed
-description: This describes the TriggerCrmWorkflowActivityContactProcessed_ entitity.
+description: This describes the TriggerCrmWorkflowActivityContactProcessed entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

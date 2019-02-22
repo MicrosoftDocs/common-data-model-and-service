@@ -1,6 +1,6 @@
 ---
 title: SurveyResponse
-description: This describes the SurveyResponse_ entitity.
+description: This describes the SurveyResponse entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

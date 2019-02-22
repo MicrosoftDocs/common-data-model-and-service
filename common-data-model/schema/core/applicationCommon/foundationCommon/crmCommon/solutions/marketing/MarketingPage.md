@@ -1,6 +1,6 @@
 ---
 title: MarketingPage
-description: This describes the MarketingPage_ entitity.
+description: This describes the MarketingPage entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

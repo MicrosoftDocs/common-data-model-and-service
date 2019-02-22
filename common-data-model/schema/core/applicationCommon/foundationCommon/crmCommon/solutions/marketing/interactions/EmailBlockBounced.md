@@ -1,6 +1,6 @@
 ---
 title: EmailBlockBounced
-description: This describes the EmailBlockBounced_ entitity.
+description: This describes the EmailBlockBounced entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

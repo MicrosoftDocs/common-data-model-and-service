@@ -1,6 +1,6 @@
 ---
 title: LinkedInFormQuestion
-description: This describes the LinkedInFormQuestion_ entitity.
+description: This describes the LinkedInFormQuestion entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

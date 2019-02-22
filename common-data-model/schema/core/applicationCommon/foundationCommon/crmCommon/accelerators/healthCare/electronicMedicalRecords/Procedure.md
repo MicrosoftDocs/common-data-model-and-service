@@ -1,6 +1,6 @@
 ---
 title: Procedure
-description: This describes the Procedure_ entitity.
+description: This describes the Procedure entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

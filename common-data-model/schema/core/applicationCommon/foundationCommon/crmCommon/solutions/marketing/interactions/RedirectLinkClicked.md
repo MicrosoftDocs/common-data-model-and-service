@@ -1,6 +1,6 @@
 ---
 title: RedirectLinkClicked
-description: This describes the RedirectLinkClicked_ entitity.
+description: This describes the RedirectLinkClicked entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: ForumThread
-description: This describes the ForumThread_ entitity.
+description: This describes the ForumThread entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

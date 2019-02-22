@@ -1,6 +1,6 @@
 ---
 title: DonorCommitment
-description: This describes the DonorCommitment_ entitity.
+description: This describes the DonorCommitment entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

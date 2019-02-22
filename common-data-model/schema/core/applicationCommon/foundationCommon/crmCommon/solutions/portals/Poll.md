@@ -1,6 +1,6 @@
 ---
 title: Poll
-description: This describes the Poll_ entitity.
+description: This describes the Poll entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

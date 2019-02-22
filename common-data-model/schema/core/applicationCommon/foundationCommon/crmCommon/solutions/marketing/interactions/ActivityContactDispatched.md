@@ -1,6 +1,6 @@
 ---
 title: ActivityContactDispatched
-description: This describes the ActivityContactDispatched_ entitity.
+description: This describes the ActivityContactDispatched entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

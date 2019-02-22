@@ -1,6 +1,6 @@
 ---
 title: Segment
-description: This describes the Segment_ entitity.
+description: This describes the Segment entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

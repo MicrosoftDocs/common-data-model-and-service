@@ -1,6 +1,6 @@
 ---
 title: Objective
-description: This describes the Objective_ entitity.
+description: This describes the Objective entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

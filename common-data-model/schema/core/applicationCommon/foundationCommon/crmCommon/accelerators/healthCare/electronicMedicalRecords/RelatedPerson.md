@@ -1,6 +1,6 @@
 ---
 title: RelatedPerson
-description: This describes the RelatedPerson_ entitity.
+description: This describes the RelatedPerson entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

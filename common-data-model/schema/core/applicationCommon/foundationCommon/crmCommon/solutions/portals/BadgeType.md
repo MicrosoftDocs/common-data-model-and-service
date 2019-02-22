@@ -1,6 +1,6 @@
 ---
 title: BadgeType
-description: This describes the BadgeType_ entitity.
+description: This describes the BadgeType entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

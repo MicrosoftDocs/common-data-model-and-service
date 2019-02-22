@@ -1,6 +1,6 @@
 ---
 title: PublishingState
-description: This describes the PublishingState_ entitity.
+description: This describes the PublishingState entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

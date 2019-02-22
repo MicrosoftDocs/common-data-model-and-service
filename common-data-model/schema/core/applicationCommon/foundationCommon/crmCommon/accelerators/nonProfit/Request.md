@@ -1,6 +1,6 @@
 ---
 title: Request
-description: This describes the Request_ entitity.
+description: This describes the Request entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

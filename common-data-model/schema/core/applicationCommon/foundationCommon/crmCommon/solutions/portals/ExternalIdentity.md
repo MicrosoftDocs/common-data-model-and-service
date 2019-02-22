@@ -1,6 +1,6 @@
 ---
 title: ExternalIdentity
-description: This describes the ExternalIdentity_ entitity.
+description: This describes the ExternalIdentity entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

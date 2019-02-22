@@ -1,6 +1,6 @@
 ---
 title: Education
-description: This describes the Education_ entitity.
+description: This describes the Education entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

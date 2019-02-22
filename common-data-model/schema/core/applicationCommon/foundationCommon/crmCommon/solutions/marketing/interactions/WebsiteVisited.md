@@ -1,6 +1,6 @@
 ---
 title: WebsiteVisited
-description: This describes the WebsiteVisited_ entitity.
+description: This describes the WebsiteVisited entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

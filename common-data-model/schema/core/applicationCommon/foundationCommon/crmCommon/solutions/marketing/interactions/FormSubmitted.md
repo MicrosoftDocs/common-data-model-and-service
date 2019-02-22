@@ -1,6 +1,6 @@
 ---
 title: FormSubmitted
-description: This describes the FormSubmitted_ entitity.
+description: This describes the FormSubmitted entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

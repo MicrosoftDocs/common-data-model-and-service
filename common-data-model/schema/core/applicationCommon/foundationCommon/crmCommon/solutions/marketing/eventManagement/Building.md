@@ -1,6 +1,6 @@
 ---
 title: Building
-description: This describes the Building_ entitity.
+description: This describes the Building entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Encounter
-description: This describes the Encounter_ entitity.
+description: This describes the Encounter entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: ContactLeads
-description: This describes the ContactLeads_ entitity.
+description: This describes the ContactLeads entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

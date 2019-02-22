@@ -1,6 +1,6 @@
 ---
 title: RegistrationResponse
-description: This describes the RegistrationResponse_ entitity.
+description: This describes the RegistrationResponse entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

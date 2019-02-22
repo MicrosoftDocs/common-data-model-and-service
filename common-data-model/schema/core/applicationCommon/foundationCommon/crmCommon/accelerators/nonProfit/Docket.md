@@ -1,6 +1,6 @@
 ---
 title: Docket
-description: This describes the Docket_ entitity.
+description: This describes the Docket entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

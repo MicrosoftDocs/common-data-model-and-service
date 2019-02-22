@@ -1,6 +1,6 @@
 ---
 title: InvalidRecipientAddress
-description: This describes the InvalidRecipientAddress_ entitity.
+description: This describes the InvalidRecipientAddress entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

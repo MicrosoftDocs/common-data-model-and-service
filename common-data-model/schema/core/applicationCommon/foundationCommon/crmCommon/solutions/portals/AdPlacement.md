@@ -1,6 +1,6 @@
 ---
 title: AdPlacement
-description: This describes the AdPlacement_ entitity.
+description: This describes the AdPlacement entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

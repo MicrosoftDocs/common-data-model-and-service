@@ -1,6 +1,6 @@
 ---
 title: Team
-description: This describes the Team_ entitity.
+description: This describes the Team entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

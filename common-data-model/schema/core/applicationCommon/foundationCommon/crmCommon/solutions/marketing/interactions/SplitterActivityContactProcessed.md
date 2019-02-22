@@ -1,6 +1,6 @@
 ---
 title: SplitterActivityContactProcessed
-description: This describes the SplitterActivityContactProcessed_ entitity.
+description: This describes the SplitterActivityContactProcessed entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

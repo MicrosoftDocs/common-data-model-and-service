@@ -1,6 +1,6 @@
 ---
 title: EventTeamMember
-description: This describes the EventTeamMember_ entitity.
+description: This describes the EventTeamMember entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

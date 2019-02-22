@@ -1,6 +1,6 @@
 ---
 title: PaymentProcessor
-description: This describes the PaymentProcessor_ entitity.
+description: This describes the PaymentProcessor entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

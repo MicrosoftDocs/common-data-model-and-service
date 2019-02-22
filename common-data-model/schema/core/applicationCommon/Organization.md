@@ -1,6 +1,6 @@
 ---
 title: Organization
-description: This describes the Organization_ entitity.
+description: This describes the Organization entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Review
-description: This describes the Review_ entitity.
+description: This describes the Review entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

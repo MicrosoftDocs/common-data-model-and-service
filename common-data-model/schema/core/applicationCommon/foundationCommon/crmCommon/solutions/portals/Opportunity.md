@@ -1,6 +1,6 @@
 ---
 title: Opportunity
-description: This describes the Opportunity_ entitity.
+description: This describes the Opportunity entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

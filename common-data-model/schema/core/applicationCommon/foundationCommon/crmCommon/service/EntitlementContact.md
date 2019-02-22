@@ -1,6 +1,6 @@
 ---
 title: EntitlementContact
-description: This describes the EntitlementContact_ entitity.
+description: This describes the EntitlementContact entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

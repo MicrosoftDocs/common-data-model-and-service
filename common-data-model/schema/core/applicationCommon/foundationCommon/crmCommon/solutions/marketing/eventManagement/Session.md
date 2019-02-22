@@ -1,6 +1,6 @@
 ---
 title: Session
-description: This describes the Session_ entitity.
+description: This describes the Session entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

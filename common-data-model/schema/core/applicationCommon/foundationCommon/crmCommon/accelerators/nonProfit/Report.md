@@ -1,6 +1,6 @@
 ---
 title: Report
-description: This describes the Report_ entitity.
+description: This describes the Report entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Campaign
-description: This describes the Campaign_ entitity.
+description: This describes the Campaign entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

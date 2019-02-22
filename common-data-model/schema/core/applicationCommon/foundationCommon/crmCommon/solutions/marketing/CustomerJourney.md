@@ -1,6 +1,6 @@
 ---
 title: CustomerJourney
-description: This describes the CustomerJourney_ entitity.
+description: This describes the CustomerJourney entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Room
-description: This describes the Room_ entitity.
+description: This describes the Room entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Quote
-description: This describes the Quote_ entitity.
+description: This describes the Quote entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

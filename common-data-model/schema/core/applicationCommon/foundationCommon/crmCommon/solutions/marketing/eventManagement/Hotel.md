@@ -1,6 +1,6 @@
 ---
 title: Hotel
-description: This describes the Hotel_ entitity.
+description: This describes the Hotel entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

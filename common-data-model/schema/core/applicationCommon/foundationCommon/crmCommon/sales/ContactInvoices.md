@@ -1,6 +1,6 @@
 ---
 title: ContactInvoices
-description: This describes the ContactInvoices_ entitity.
+description: This describes the ContactInvoices entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

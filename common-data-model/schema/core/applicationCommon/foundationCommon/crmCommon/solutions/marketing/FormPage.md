@@ -1,6 +1,6 @@
 ---
 title: FormPage
-description: This describes the FormPage_ entitity.
+description: This describes the FormPage entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

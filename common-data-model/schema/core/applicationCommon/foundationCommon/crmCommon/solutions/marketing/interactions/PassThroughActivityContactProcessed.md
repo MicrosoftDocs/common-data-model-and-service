@@ -1,6 +1,6 @@
 ---
 title: PassThroughActivityContactProcessed
-description: This describes the PassThroughActivityContactProcessed_ entitity.
+description: This describes the PassThroughActivityContactProcessed entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

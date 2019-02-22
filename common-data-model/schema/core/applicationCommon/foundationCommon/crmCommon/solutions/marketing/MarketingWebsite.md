@@ -1,6 +1,6 @@
 ---
 title: MarketingWebsite
-description: This describes the MarketingWebsite_ entitity.
+description: This describes the MarketingWebsite entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

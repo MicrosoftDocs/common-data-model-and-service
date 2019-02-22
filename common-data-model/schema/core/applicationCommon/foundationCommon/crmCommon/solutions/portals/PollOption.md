@@ -1,6 +1,6 @@
 ---
 title: PollOption
-description: This describes the PollOption_ entitity.
+description: This describes the PollOption entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

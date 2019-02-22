@@ -1,6 +1,6 @@
 ---
 title: EmailSoftBounced
-description: This describes the EmailSoftBounced_ entitity.
+description: This describes the EmailSoftBounced entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

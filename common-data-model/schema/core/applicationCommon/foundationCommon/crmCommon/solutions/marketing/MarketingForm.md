@@ -1,6 +1,6 @@
 ---
 title: MarketingForm
-description: This describes the MarketingForm_ entitity.
+description: This describes the MarketingForm entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

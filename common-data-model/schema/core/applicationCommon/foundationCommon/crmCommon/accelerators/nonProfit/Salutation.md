@@ -1,6 +1,6 @@
 ---
 title: Salutation
-description: This describes the Salutation_ entitity.
+description: This describes the Salutation entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

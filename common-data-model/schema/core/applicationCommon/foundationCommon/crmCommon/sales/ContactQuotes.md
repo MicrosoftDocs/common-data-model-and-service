@@ -1,6 +1,6 @@
 ---
 title: ContactQuotes
-description: This describes the ContactQuotes_ entitity.
+description: This describes the ContactQuotes entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

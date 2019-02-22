@@ -1,6 +1,6 @@
 ---
 title: SessionRegistration
-description: This describes the SessionRegistration_ entitity.
+description: This describes the SessionRegistration entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: CareTeam
-description: This describes the CareTeam_ entitity.
+description: This describes the CareTeam entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

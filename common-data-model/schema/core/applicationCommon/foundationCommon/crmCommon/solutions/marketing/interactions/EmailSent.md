@@ -1,6 +1,6 @@
 ---
 title: EmailSent
-description: This describes the EmailSent_ entitity.
+description: This describes the EmailSent entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

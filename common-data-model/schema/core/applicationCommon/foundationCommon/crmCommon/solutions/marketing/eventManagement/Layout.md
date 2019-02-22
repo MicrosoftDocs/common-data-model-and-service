@@ -1,6 +1,6 @@
 ---
 title: Layout
-description: This describes the Layout_ entitity.
+description: This describes the Layout entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

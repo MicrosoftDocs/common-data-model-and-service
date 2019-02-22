@@ -1,6 +1,6 @@
 ---
 title: ActivityContactProcessingFailed
-description: This describes the ActivityContactProcessingFailed_ entitity.
+description: This describes the ActivityContactProcessingFailed entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

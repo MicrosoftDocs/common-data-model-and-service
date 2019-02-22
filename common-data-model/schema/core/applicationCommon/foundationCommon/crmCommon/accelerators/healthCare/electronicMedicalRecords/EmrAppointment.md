@@ -1,6 +1,6 @@
 ---
 title: EmrAppointment
-description: This describes the EmrAppointment_ entitity.
+description: This describes the EmrAppointment entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

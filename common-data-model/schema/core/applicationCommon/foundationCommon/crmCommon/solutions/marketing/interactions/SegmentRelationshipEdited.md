@@ -1,6 +1,6 @@
 ---
 title: SegmentRelationshipEdited
-description: This describes the SegmentRelationshipEdited_ entitity.
+description: This describes the SegmentRelationshipEdited entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

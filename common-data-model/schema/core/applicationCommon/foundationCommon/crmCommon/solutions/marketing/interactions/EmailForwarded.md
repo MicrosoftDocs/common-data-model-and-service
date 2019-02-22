@@ -1,6 +1,6 @@
 ---
 title: EmailForwarded
-description: This describes the EmailForwarded_ entitity.
+description: This describes the EmailForwarded entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

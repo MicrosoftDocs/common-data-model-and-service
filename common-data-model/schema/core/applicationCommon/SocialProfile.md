@@ -1,6 +1,6 @@
 ---
 title: SocialProfile
-description: This describes the SocialProfile_ entitity.
+description: This describes the SocialProfile entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

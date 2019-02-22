@@ -1,6 +1,6 @@
 ---
 title: Ad
-description: This describes the Ad_ entitity.
+description: This describes the Ad entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

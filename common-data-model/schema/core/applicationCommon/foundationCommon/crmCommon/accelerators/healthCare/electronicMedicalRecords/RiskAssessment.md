@@ -1,6 +1,6 @@
 ---
 title: RiskAssessment
-description: This describes the RiskAssessment_ entitity.
+description: This describes the RiskAssessment entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

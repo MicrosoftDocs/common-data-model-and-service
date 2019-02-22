@@ -1,5 +1,5 @@
 ---
-title: Docs
+title: overview
 description: 'docs' is a folder that contains standard entities related to the Common Data Model.
 ms.service: common-data-model
 ms.reviewer: anneta

@@ -1,6 +1,6 @@
 ---
 title: ReferralRequest
-description: This describes the ReferralRequest_ entitity.
+description: This describes the ReferralRequest entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

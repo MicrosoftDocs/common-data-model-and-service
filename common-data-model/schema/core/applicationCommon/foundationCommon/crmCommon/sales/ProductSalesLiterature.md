@@ -1,6 +1,6 @@
 ---
 title: ProductSalesLiterature
-description: This describes the ProductSalesLiterature_ entitity.
+description: This describes the ProductSalesLiterature entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

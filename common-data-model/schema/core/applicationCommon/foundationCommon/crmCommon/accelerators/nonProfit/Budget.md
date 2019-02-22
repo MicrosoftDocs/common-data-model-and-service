@@ -1,6 +1,6 @@
 ---
 title: Budget
-description: This describes the Budget_ entitity.
+description: This describes the Budget entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: MedicationRequest
-description: This describes the MedicationRequest_ entitity.
+description: This describes the MedicationRequest entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

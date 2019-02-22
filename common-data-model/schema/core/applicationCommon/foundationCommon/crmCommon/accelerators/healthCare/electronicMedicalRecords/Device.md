@@ -1,6 +1,6 @@
 ---
 title: Device
-description: This describes the Device_ entitity.
+description: This describes the Device entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article

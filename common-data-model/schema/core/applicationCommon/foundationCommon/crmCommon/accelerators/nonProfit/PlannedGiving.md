@@ -1,6 +1,6 @@
 ---
 title: PlannedGiving
-description: This describes the PlannedGiving_ entitity.
+description: This describes the PlannedGiving entitity.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
