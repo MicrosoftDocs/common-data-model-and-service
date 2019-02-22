@@ -18,10 +18,10 @@ Generic activity representing work needed to be done.
 
 Instances of this entity are listed below.  
 
-[- /Task](../../../Task.md "/core/applicationCommon/Task.cdm.json/Task")  
-[- /foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task](../accelerators/healthCare/electronicMedicalRecords/Task.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.cdm.json/Task")  
+- [/Task](../../../Task.md "/core/applicationCommon/Task.cdm.json/Task")  
+- [/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task](../accelerators/healthCare/electronicMedicalRecords/Task.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.cdm.json/Task")  
 - /foundationCommon/crmCommon/service/Task  
-[- /foundationCommon/crmCommon/solutions/marketing/Task](../solutions/marketing/Task.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Task.cdm.json/Task")  
+- [/foundationCommon/crmCommon/solutions/marketing/Task](../solutions/marketing/Task.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Task.cdm.json/Task")  
 
 ## Traits
 

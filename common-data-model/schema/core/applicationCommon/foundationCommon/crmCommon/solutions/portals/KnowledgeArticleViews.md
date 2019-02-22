@@ -18,7 +18,7 @@ No of times an article is viewed per day
 
 Instances of this entity are listed below.  
 
-[- /KnowledgeArticleViews](../../../../KnowledgeArticleViews.md "/core/applicationCommon/KnowledgeArticleViews.cdm.json/KnowledgeArticleViews")  
+- [/KnowledgeArticleViews](../../../../KnowledgeArticleViews.md "/core/applicationCommon/KnowledgeArticleViews.cdm.json/KnowledgeArticleViews")  
 - /foundationCommon/crmCommon/solutions/portals/KnowledgeArticleViews  
 
 ## Traits

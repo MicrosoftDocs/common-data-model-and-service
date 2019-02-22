@@ -18,7 +18,7 @@ Organizational knowledge for internal and external use.
 
 Instances of this entity are listed below.  
 
-[- /KnowledgeArticle](../KnowledgeArticle.md "/core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle")  
+- [/KnowledgeArticle](../KnowledgeArticle.md "/core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle")  
 - /foundationCommon/KnowledgeArticle  
 
 ## Traits

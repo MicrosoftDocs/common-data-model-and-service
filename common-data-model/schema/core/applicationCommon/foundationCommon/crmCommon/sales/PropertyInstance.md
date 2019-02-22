@@ -18,7 +18,7 @@ Instance of a property with its value.
 
 Instances of this entity are listed below.  
 
-[- /foundationCommon/PropertyInstance](../../PropertyInstance.md "/core/applicationCommon/foundationCommon/PropertyInstance.cdm.json/PropertyInstance")  
+- [/foundationCommon/PropertyInstance](../../PropertyInstance.md "/core/applicationCommon/foundationCommon/PropertyInstance.cdm.json/PropertyInstance")  
 - /foundationCommon/crmCommon/sales/PropertyInstance  
 
 ## Traits

@@ -18,7 +18,7 @@ Activity that tracks call outcome and number of pages for a fax and optionally s
 
 Instances of this entity are listed below.  
 
-[- /Fax](../../Fax.md "/core/applicationCommon/Fax.cdm.json/Fax")  
+- [/Fax](../../Fax.md "/core/applicationCommon/Fax.cdm.json/Fax")  
 - /foundationCommon/crmCommon/Fax  
 
 ## Traits

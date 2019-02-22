@@ -18,13 +18,13 @@ Person with whom a business unit has a relationship, such as customer, supplier,
 
 Instances of this entity are listed below.  
 
-[- /Contact](../../../../Contact.md "/core/applicationCommon/Contact.cdm.json/Contact")  
-[- /foundationCommon/Contact](../../../Contact.md "/core/applicationCommon/foundationCommon/Contact.cdm.json/Contact")  
-[- /foundationCommon/crmCommon/Contact](../../Contact.md "/core/applicationCommon/foundationCommon/crmCommon/Contact.cdm.json/Contact")  
-[- /foundationCommon/crmCommon/accelerators/education/higherEducation/Contact](../../accelerators/education/higherEducation/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Contact.cdm.json/Contact")  
-[- /foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Contact](../../accelerators/healthCare/electronicMedicalRecords/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Contact.cdm.json/Contact")  
-[- /foundationCommon/crmCommon/accelerators/nonProfit/Contact](../../accelerators/nonProfit/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Contact.cdm.json/Contact")  
-[- /foundationCommon/crmCommon/solutions/marketing/Contact](../marketing/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Contact.cdm.json/Contact")  
+- [/Contact](../../../../Contact.md "/core/applicationCommon/Contact.cdm.json/Contact")  
+- [/foundationCommon/Contact](../../../Contact.md "/core/applicationCommon/foundationCommon/Contact.cdm.json/Contact")  
+- [/foundationCommon/crmCommon/Contact](../../Contact.md "/core/applicationCommon/foundationCommon/crmCommon/Contact.cdm.json/Contact")  
+- [/foundationCommon/crmCommon/accelerators/education/higherEducation/Contact](../../accelerators/education/higherEducation/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Contact.cdm.json/Contact")  
+- [/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Contact](../../accelerators/healthCare/electronicMedicalRecords/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Contact.cdm.json/Contact")  
+- [/foundationCommon/crmCommon/accelerators/nonProfit/Contact](../../accelerators/nonProfit/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Contact.cdm.json/Contact")  
+- [/foundationCommon/crmCommon/solutions/marketing/Contact](../marketing/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Contact.cdm.json/Contact")  
 - /foundationCommon/crmCommon/solutions/portals/Contact  
 
 ## Traits

@@ -19,7 +19,7 @@ Activity that is delivered using email protocols.
 Instances of this entity are listed below.  
 
 - /Email  
-[- /foundationCommon/crmCommon/Email](foundationCommon/crmCommon/Email.md "/core/applicationCommon/foundationCommon/crmCommon/Email.cdm.json/Email")  
+- [/foundationCommon/crmCommon/Email](foundationCommon/crmCommon/Email.md "/core/applicationCommon/foundationCommon/crmCommon/Email.cdm.json/Email")  
 
 ## Traits
 

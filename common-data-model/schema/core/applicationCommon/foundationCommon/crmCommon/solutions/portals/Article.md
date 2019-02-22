@@ -18,7 +18,7 @@ Structured content that is part of the knowledge base.
 
 Instances of this entity are listed below.  
 
-[- /Article](../../../../Article.md "/core/applicationCommon/Article.cdm.json/Article")  
+- [/Article](../../../../Article.md "/core/applicationCommon/Article.cdm.json/Article")  
 - /foundationCommon/crmCommon/solutions/portals/Article  
 
 ## Traits

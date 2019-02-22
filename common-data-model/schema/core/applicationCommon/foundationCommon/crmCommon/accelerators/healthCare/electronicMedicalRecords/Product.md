@@ -18,7 +18,7 @@ Information about products and their pricing information.
 
 Instances of this entity are listed below.  
 
-[- /foundationCommon/Product](../../../../Product.md "/core/applicationCommon/foundationCommon/Product.cdm.json/Product")  
+- [/foundationCommon/Product](../../../../Product.md "/core/applicationCommon/foundationCommon/Product.cdm.json/Product")  
 - /foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Product  
 
 ## Traits

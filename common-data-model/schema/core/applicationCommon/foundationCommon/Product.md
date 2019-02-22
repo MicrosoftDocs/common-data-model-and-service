@@ -19,7 +19,7 @@ Information about products and their pricing information.
 Instances of this entity are listed below.  
 
 - /foundationCommon/Product  
-[- /foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Product](crmCommon/accelerators/healthCare/electronicMedicalRecords/Product.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Product.cdm.json/Product")  
+- [/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Product](crmCommon/accelerators/healthCare/electronicMedicalRecords/Product.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Product.cdm.json/Product")  
 
 ## Traits
 

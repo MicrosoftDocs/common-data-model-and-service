@@ -18,14 +18,14 @@ Business that represents a customer or potential customer. The company that is b
 
 Instances of this entity are listed below.  
 
-[- /Account](../Account.md "/core/applicationCommon/Account.cdm.json/Account")  
+- [/Account](../Account.md "/core/applicationCommon/Account.cdm.json/Account")  
 - /foundationCommon/Account  
-[- /foundationCommon/crmCommon/Account](crmCommon/Account.md "/core/applicationCommon/foundationCommon/crmCommon/Account.cdm.json/Account")  
-[- /foundationCommon/crmCommon/accelerators/education/higherEducation/Account](crmCommon/accelerators/education/higherEducation/Account.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Account.cdm.json/Account")  
-[- /foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Account](crmCommon/accelerators/healthCare/electronicMedicalRecords/Account.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Account.cdm.json/Account")  
-[- /foundationCommon/crmCommon/accelerators/nonProfit/Account](crmCommon/accelerators/nonProfit/Account.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Account.cdm.json/Account")  
-[- /foundationCommon/crmCommon/solutions/marketing/eventManagement/Account](crmCommon/solutions/marketing/eventManagement/Account.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Account.cdm.json/Account")  
-[- /foundationCommon/crmCommon/solutions/portals/Account](crmCommon/solutions/portals/Account.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Account.cdm.json/Account")  
+- [/foundationCommon/crmCommon/Account](crmCommon/Account.md "/core/applicationCommon/foundationCommon/crmCommon/Account.cdm.json/Account")  
+- [/foundationCommon/crmCommon/accelerators/education/higherEducation/Account](crmCommon/accelerators/education/higherEducation/Account.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Account.cdm.json/Account")  
+- [/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Account](crmCommon/accelerators/healthCare/electronicMedicalRecords/Account.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Account.cdm.json/Account")  
+- [/foundationCommon/crmCommon/accelerators/nonProfit/Account](crmCommon/accelerators/nonProfit/Account.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Account.cdm.json/Account")  
+- [/foundationCommon/crmCommon/solutions/marketing/eventManagement/Account](crmCommon/solutions/marketing/eventManagement/Account.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Account.cdm.json/Account")  
+- [/foundationCommon/crmCommon/solutions/portals/Account](crmCommon/solutions/portals/Account.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Account.cdm.json/Account")  
 
 ## Traits
 

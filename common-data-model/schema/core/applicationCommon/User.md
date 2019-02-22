@@ -19,7 +19,7 @@ Person with access to the Microsoft CRM system and who owns objects in the Micro
 Instances of this entity are listed below.  
 
 - /User  
-[- /foundationCommon/crmCommon/service/User](foundationCommon/crmCommon/service/User.md "/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User")  
+- [/foundationCommon/crmCommon/service/User](foundationCommon/crmCommon/service/User.md "/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User")  
 
 ## Traits
 

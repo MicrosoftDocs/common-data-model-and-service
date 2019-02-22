@@ -18,8 +18,8 @@ Activity to track a telephone call.
 
 Instances of this entity are listed below.  
 
-[- /PhoneCall](../../../../PhoneCall.md "/core/applicationCommon/PhoneCall.cdm.json/PhoneCall")  
-[- /foundationCommon/crmCommon/PhoneCall](../../PhoneCall.md "/core/applicationCommon/foundationCommon/crmCommon/PhoneCall.cdm.json/PhoneCall")  
+- [/PhoneCall](../../../../PhoneCall.md "/core/applicationCommon/PhoneCall.cdm.json/PhoneCall")  
+- [/foundationCommon/crmCommon/PhoneCall](../../PhoneCall.md "/core/applicationCommon/foundationCommon/crmCommon/PhoneCall.cdm.json/PhoneCall")  
 - /foundationCommon/crmCommon/solutions/marketing/PhoneCall  
 
 ## Traits

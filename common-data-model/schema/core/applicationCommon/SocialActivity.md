@@ -19,7 +19,7 @@ For internal use only.
 Instances of this entity are listed below.  
 
 - /SocialActivity  
-[- /foundationCommon/crmCommon/SocialActivity](foundationCommon/crmCommon/SocialActivity.md "/core/applicationCommon/foundationCommon/crmCommon/SocialActivity.cdm.json/SocialActivity")  
+- [/foundationCommon/crmCommon/SocialActivity](foundationCommon/crmCommon/SocialActivity.md "/core/applicationCommon/foundationCommon/crmCommon/SocialActivity.cdm.json/SocialActivity")  
 
 ## Traits
 

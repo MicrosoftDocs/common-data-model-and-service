@@ -18,7 +18,7 @@ Service request case associated with a contract.
 
 Instances of this entity are listed below.  
 
-[- /foundationCommon/crmCommon/service/Case](../../service/Case.md "/core/applicationCommon/foundationCommon/crmCommon/service/Case.cdm.json/Case")  
+- [/foundationCommon/crmCommon/service/Case](../../service/Case.md "/core/applicationCommon/foundationCommon/crmCommon/service/Case.cdm.json/Case")  
 - /foundationCommon/crmCommon/solutions/portals/Case  
 
 ## Traits

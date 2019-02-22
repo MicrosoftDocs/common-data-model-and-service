@@ -18,10 +18,10 @@ Address and shipping information. Used to store additional addresses for an acco
 
 Instances of this entity are listed below.  
 
-[- /Address](../../../../../Address.md "/core/applicationCommon/Address.cdm.json/Address")  
-[- /foundationCommon/crmCommon/accelerators/education/higherEducation/Address](../../education/higherEducation/Address.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Address.cdm.json/Address")  
+- [/Address](../../../../../Address.md "/core/applicationCommon/Address.cdm.json/Address")  
+- [/foundationCommon/crmCommon/accelerators/education/higherEducation/Address](../../education/higherEducation/Address.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Address.cdm.json/Address")  
 - /foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Address  
-[- /foundationCommon/crmCommon/accelerators/nonProfit/Address](../../nonProfit/Address.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Address.cdm.json/Address")  
+- [/foundationCommon/crmCommon/accelerators/nonProfit/Address](../../nonProfit/Address.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Address.cdm.json/Address")  
 
 ## Traits
 

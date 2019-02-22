@@ -19,7 +19,7 @@ Container for feedback and ratings for knowledge articles.
 Instances of this entity are listed below.  
 
 - /Feedback  
-[- /foundationCommon/crmCommon/solutions/portals/Feedback](foundationCommon/crmCommon/solutions/portals/Feedback.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Feedback.cdm.json/Feedback")  
+- [/foundationCommon/crmCommon/solutions/portals/Feedback](foundationCommon/crmCommon/solutions/portals/Feedback.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Feedback.cdm.json/Feedback")  
 
 ## Traits
 

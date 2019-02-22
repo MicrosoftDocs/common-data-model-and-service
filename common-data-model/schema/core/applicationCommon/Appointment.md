@@ -19,8 +19,8 @@ Commitment representing a time interval with start/end times and duration.
 Instances of this entity are listed below.  
 
 - /Appointment  
-[- /foundationCommon/crmCommon/Appointment](foundationCommon/crmCommon/Appointment.md "/core/applicationCommon/foundationCommon/crmCommon/Appointment.cdm.json/Appointment")  
-[- /foundationCommon/crmCommon/solutions/marketing/Appointment](foundationCommon/crmCommon/solutions/marketing/Appointment.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Appointment.cdm.json/Appointment")  
+- [/foundationCommon/crmCommon/Appointment](foundationCommon/crmCommon/Appointment.md "/core/applicationCommon/foundationCommon/crmCommon/Appointment.cdm.json/Appointment")  
+- [/foundationCommon/crmCommon/solutions/marketing/Appointment](foundationCommon/crmCommon/solutions/marketing/Appointment.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Appointment.cdm.json/Appointment")  
 
 ## Traits
 

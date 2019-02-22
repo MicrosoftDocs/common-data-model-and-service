@@ -19,7 +19,7 @@ Relationship between two entities.
 Instances of this entity are listed below.  
 
 - /Connection  
-[- /foundationCommon/crmCommon/solutions/marketing/Connection](foundationCommon/crmCommon/solutions/marketing/Connection.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Connection.cdm.json/Connection")  
+- [/foundationCommon/crmCommon/solutions/marketing/Connection](foundationCommon/crmCommon/solutions/marketing/Connection.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Connection.cdm.json/Connection")  
 
 ## Traits
 

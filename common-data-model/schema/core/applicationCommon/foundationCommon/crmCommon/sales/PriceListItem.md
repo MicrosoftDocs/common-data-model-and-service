@@ -18,7 +18,7 @@ Information about how to price a product in the specified price level, including
 
 Instances of this entity are listed below.  
 
-[- /foundationCommon/PriceListItem](../../PriceListItem.md "/core/applicationCommon/foundationCommon/PriceListItem.cdm.json/PriceListItem")  
+- [/foundationCommon/PriceListItem](../../PriceListItem.md "/core/applicationCommon/foundationCommon/PriceListItem.cdm.json/PriceListItem")  
 - /foundationCommon/crmCommon/sales/PriceListItem  
 
 ## Traits
