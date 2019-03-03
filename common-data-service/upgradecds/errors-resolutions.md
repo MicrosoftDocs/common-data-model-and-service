@@ -3,7 +3,7 @@ title: "Errors and resolutions when upgrading previous version of Common Data Se
 description: "Provides known errors and resolutions when upgrading from previous version of Common Data Service to CDS for Apps"
 author: "JimDaly"
 manager: "ryjones"
-ms.date: "02/04/2019"
+ms.date: "03/03/2019"
 ms.topic: "article"
 ms.custom: ""
 ms.service: "CommonDataService"
@@ -45,5 +45,8 @@ More information: [Use Postman with Web API](/dynamics365/customer-engagement/de
 ## No environments visible
 
 If you go to the [PowerApps admin center](https://admin.powerapps.com/) as described in [Start the database upgrade process](start-upgrade-process.md#start-the-database-upgrade-process) and you cannot see any environments, it may be that you don't have the required PowerApps Plan 2 license.
+
+> [!IMPORTANT]
+> You are not required to purchase a PowerApps Plan 2 license. A trial license will be sufficient for you to complete the upgrade process.
 
 Go to [https://powerapps.microsoft.com/pricing/](https://powerapps.microsoft.com/pricing/) and request a PowerApps Plan 2 license. A free trial should be enough to provide the privileges you will need to complete the upgrade steps. 
