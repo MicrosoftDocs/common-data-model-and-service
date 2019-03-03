@@ -39,7 +39,7 @@ To use the new capabilities in CDS for Apps, existing users on the previous vers
     - If you haven't used the previous version CDS database or you don't care to preserve any apps for flows that used it. This is a simple option that will allow you to use CDS for Apps right away with a minimum amount of time.
 
     > [!IMPORTANT]
-    > Do not delete a database if you have started the upgrade process.
+    > Do not delete a database if you have started the upgrade process. Contact support to request your database be deleted.
 
     - More information: [Delete your previous version Common Data Service database](delete-legacy-cds-database.md)
 - **Do nothing**
