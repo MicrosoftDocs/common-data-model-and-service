@@ -27,7 +27,7 @@ database. 
 
 > [!NOTE]
 > Emails are not sent to security groups. An administrator should
-[determine](https://docs.microsoft.com/en-us/powerapps/administrator/admin-manage-apps)
+[determine](/powerapps/administrator/admin-manage-apps)
 from the PowerApps admin center whether any security groups have edit
 permissions on an app, and then reach out to those users separately.
 >
@@ -99,7 +99,7 @@ To make the flow-upgrade process seamless, you will find that the affected flows
 have already been cloned and prefixed with the word "[Upgraded]". To ensure that
 your flows are upgraded correctly, do the following:
 
-1.  Navigate to the Microsoft Flow Portal and select the environment in
+1.  Navigate to the [Microsoft Flow Portal](https://flow.microsoft.com) and select the environment in
     which your CDS database is being upgraded.
 
 2.  Edit the "[Upgraded]" flow to ensure that the flow definition looks

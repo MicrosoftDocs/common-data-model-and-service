@@ -3,7 +3,7 @@ title: "What to expect on upgrading to CDS for Apps | Microsoft Docs"
 description: "The topic provides information about things to expect and consider when upgrading from previous version of Common Data Service to CDS for Apps."
 author: "JimDaly"
 manager: "ryjones"
-ms.date: "02/18/2019"
+ms.date: "03/03/2019"
 ms.topic: "topic"
 ms.prod: ""
 ms.service: "CommonDataService"
@@ -33,7 +33,7 @@ the upgrade process installs a *solution* in CDS for Apps that contains your
 schema, including standard entities in the CDM and customizations, and then
 copies data from your existing previous version CDS database into these entities. For information
 about solutions, see [Solutions
-overview](https://docs.microsoft.com/dynamics365/customer-engagement/customize/solutions-overview).
+overview](/powerapps/maker/common-data-service/solutions-overview).
 
 The following solutions are installed in an upgraded CDS for Apps database:
 
@@ -146,7 +146,7 @@ unique. Logical, that is, unique names, will now contain a customization prefix.
 Canvas applications that reference these names will also be updated to use the
 new name after you go through the upgrade process. More information: [Customization prefix](/powerapps/maker/common-data-service/change-solution-publisher-prefix)
 
-CDS for Apps has a primary name field, which is used in applications to easily
+CDS for Apps has a *primary name* field, which is used in applications to easily
 identify a row. For custom entities, the business key is used if it is a string.
 Otherwise, a new, empty primary name field is created, and you can decide to
 move data into this field to use as required.
@@ -237,7 +237,7 @@ release of CDS. The image field represents a small, cropped image that appears
 in the top left corner of the model-based forms to represent a row, commonly
 referred to an entity image. For more information about image fields in CDS for
 Apps, see [Image
-fields](/dynamics365/customer-engagement/customize/types-of-fields#BKMK_ImageFields).
+fields](/powerapps/maker/common-data-service/types-of-fields#image-fields).
 
 If you have more than one image field on an entity and to preserve the original
 image quality, the image files are also stored in related Note record(s).
