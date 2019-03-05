@@ -1,11 +1,12 @@
 ---
-title: Quote
-description: Formal offer for products and/or services, proposed at specific prices and related payment terms, which is sent to a prospective customer.
+title: Quote - Common Data Model | Microsoft Docs
+description: This describes the Quote entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Quote
@@ -18,7 +19,7 @@ Formal offer for products and/or services, proposed at specific prices and relat
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/sales/Quote.cdm.json/Quote  
+- /foundationCommon/crmCommon/sales/Quote  
 
 ## Traits
 

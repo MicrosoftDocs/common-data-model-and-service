@@ -1,11 +1,12 @@
 ---
-title: Case
+title: Case - Common Data Model | Microsoft Docs
 description: Service request case associated with a contract.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Case
@@ -18,8 +19,8 @@ Service request case associated with a contract.
 
 Instances of this entity are listed below.  
 
-[/foundationCommon/crmCommon/service/Case.cdm.json/Case](../../service/Case.md "/core/applicationCommon/foundationCommon/crmCommon/service/Case.cdm.json/Case")  
-- /foundationCommon/crmCommon/solutions/portals/Case.cdm.json/Case  
+- [/foundationCommon/crmCommon/service/Case](../../service/Case.md "/core/applicationCommon/foundationCommon/crmCommon/service/Case.cdm.json/Case")  
+- /foundationCommon/crmCommon/solutions/portals/Case  
 
 ## Traits
 

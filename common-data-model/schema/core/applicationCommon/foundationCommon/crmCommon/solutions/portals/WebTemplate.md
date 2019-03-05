@@ -1,11 +1,12 @@
 ---
-title: WebTemplate
-description: undefined
+title: WebTemplate - Common Data Model | Microsoft Docs
+description: This describes the WebTemplate entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Web Template
@@ -17,7 +18,7 @@ ms.author: tpalmer
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/solutions/portals/WebTemplate.cdm.json/WebTemplate  
+- /foundationCommon/crmCommon/solutions/portals/WebTemplate  
 
 ## Traits
 

@@ -1,11 +1,12 @@
 ---
-title: PropertyOptionSetItem
+title: PropertyOptionSetItem - Common Data Model | Microsoft Docs
 description: Item with a name and value in a property option set type.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Property Option Set Item
@@ -18,7 +19,7 @@ Item with a name and value in a property option set type.
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/PropertyOptionSetItem.cdm.json/PropertyOptionSetItem  
+- /foundationCommon/PropertyOptionSetItem  
 
 ## Traits
 

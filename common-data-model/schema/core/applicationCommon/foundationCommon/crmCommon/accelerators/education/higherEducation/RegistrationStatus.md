@@ -1,11 +1,12 @@
 ---
-title: RegistrationStatus
-description: The master list of registration statuses tracked by the institution. The registration status is associated to the student course history.
+title: RegistrationStatus - Common Data Model | Microsoft Docs
+description: This describes the RegistrationStatus entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Registration Status
@@ -18,7 +19,7 @@ The master list of registration statuses tracked by the institution. The registr
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/accelerators/education/higherEducation/RegistrationStatus.cdm.json/RegistrationStatus  
+- /foundationCommon/crmCommon/accelerators/education/higherEducation/RegistrationStatus  
 
 ## Traits
 

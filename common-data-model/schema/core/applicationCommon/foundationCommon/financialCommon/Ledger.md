@@ -1,11 +1,12 @@
 ---
-title: Ledger
+title: Ledger - Common Data Model | Microsoft Docs
 description: The collection of all accounts making up the central repository of accounting data for a company.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Ledger
@@ -18,7 +19,7 @@ The collection of all accounts making up the central repository of accounting da
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/financialCommon/Ledger.cdm.json/Ledger  
+- /foundationCommon/financialCommon/Ledger  
 
 ## Traits
 

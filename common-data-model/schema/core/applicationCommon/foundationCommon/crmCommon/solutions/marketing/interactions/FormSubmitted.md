@@ -1,11 +1,12 @@
 ---
-title: FormSubmitted
-description: undefined
+title: FormSubmitted - Common Data Model | Microsoft Docs
+description: This describes the FormSubmitted entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Form submitted
@@ -17,7 +18,7 @@ ms.author: tpalmer
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/solutions/marketing/interactions/FormSubmitted.cdm.json/FormSubmitted  
+- /foundationCommon/crmCommon/solutions/marketing/interactions/FormSubmitted  
 
 ## Traits
 

@@ -1,11 +1,12 @@
 ---
-title: CareTeamParticipant
+title: CareTeamParticipant - Common Data Model | Microsoft Docs
 description: Identifies all people and organizations who are expected to be involved in the care team.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Care Team Participant
@@ -18,7 +19,7 @@ Identifies all people and organizations who are expected to be involved in the c
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CareTeamParticipant.cdm.json/CareTeamParticipant  
+- /foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CareTeamParticipant  
 
 ## Traits
 

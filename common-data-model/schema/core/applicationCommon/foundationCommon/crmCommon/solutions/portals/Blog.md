@@ -1,11 +1,12 @@
 ---
-title: Blog
+title: Blog - Common Data Model | Microsoft Docs
 description: The root entity for a portal blog.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Blog
@@ -18,7 +19,7 @@ The root entity for a portal blog.
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/solutions/portals/Blog.cdm.json/Blog  
+- /foundationCommon/crmCommon/solutions/portals/Blog  
 
 ## Traits
 

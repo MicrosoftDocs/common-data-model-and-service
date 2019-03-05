@@ -1,11 +1,12 @@
 ---
-title: Position
+title: Position - Common Data Model | Microsoft Docs
 description: Position of a user in the hierarchy
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Position
@@ -18,7 +19,7 @@ Position of a user in the hierarchy
 
 Instances of this entity are listed below.  
 
-- /Position.cdm.json/Position  
+- /Position  
 
 ## Traits
 

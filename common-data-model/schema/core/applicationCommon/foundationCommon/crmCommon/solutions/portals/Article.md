@@ -1,11 +1,12 @@
 ---
-title: Article
+title: Article - Common Data Model | Microsoft Docs
 description: Structured content that is part of the knowledge base.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Article
@@ -18,8 +19,8 @@ Structured content that is part of the knowledge base.
 
 Instances of this entity are listed below.  
 
-[/Article.cdm.json/Article](../../../../Article.md "/core/applicationCommon/Article.cdm.json/Article")  
-- /foundationCommon/crmCommon/solutions/portals/Article.cdm.json/Article  
+- [/Article](../../../../Article.md "/core/applicationCommon/Article.cdm.json/Article")  
+- /foundationCommon/crmCommon/solutions/portals/Article  
 
 ## Traits
 

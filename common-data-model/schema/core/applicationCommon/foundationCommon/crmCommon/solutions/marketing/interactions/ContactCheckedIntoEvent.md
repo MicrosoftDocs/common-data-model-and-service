@@ -1,11 +1,12 @@
 ---
-title: ContactCheckedIntoEvent
-description: undefined
+title: ContactCheckedIntoEvent - Common Data Model | Microsoft Docs
+description: This describes the ContactCheckedIntoEvent entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Event check-in
@@ -17,7 +18,7 @@ ms.author: tpalmer
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/solutions/marketing/interactions/ContactCheckedIntoEvent.cdm.json/ContactCheckedIntoEvent  
+- /foundationCommon/crmCommon/solutions/marketing/interactions/ContactCheckedIntoEvent  
 
 ## Traits
 

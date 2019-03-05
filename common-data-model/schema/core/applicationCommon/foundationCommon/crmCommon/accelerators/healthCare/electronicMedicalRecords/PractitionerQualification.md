@@ -1,11 +1,12 @@
 ---
-title: PractitionerQualification
+title: PractitionerQualification - Common Data Model | Microsoft Docs
 description: Qualifications obtained by training and certification.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Practitioner Qualification
@@ -18,7 +19,7 @@ Qualifications obtained by training and certification.
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PractitionerQualification.cdm.json/PractitionerQualification  
+- /foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PractitionerQualification  
 
 ## Traits
 

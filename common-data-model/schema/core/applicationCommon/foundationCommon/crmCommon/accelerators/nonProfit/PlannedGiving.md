@@ -1,11 +1,12 @@
 ---
-title: PlannedGiving
-description: A planned gift is a major gift made during a donor's lifetime or at the time of their death that involves their estate and tax planning.  There are many forms of planned giving, but the three most common vehicles are CRTs (Charitable Remainder Trusts), Bequests and Annuities, which all have different tax benefits and financial reconciliation guidelines for the nonprofit organization. Planned gifts are in contrast to annual gifts, which are made through a donor's discretionary income and not tied to an estate.
+title: PlannedGiving - Common Data Model | Microsoft Docs
+description: This describes the PlannedGiving entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Planned Giving
@@ -18,7 +19,7 @@ A planned gift is a major gift made during a donor's lifetime or at the time of 
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/accelerators/nonProfit/PlannedGiving.cdm.json/PlannedGiving  
+- /foundationCommon/crmCommon/accelerators/nonProfit/PlannedGiving  
 
 ## Traits
 

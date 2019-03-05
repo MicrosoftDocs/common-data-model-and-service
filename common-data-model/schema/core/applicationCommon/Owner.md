@@ -1,11 +1,12 @@
 ---
-title: Owner
+title: Owner - Common Data Model | Microsoft Docs
 description: Group of undeleted system users and undeleted teams. Owners can be used to control access to specific objects.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Owner
@@ -18,7 +19,7 @@ Group of undeleted system users and undeleted teams. Owners can be used to contr
 
 Instances of this entity are listed below.  
 
-- /Owner.cdm.json/Owner  
+- /Owner  
 
 ## Traits
 

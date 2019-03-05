@@ -1,11 +1,12 @@
 ---
-title: Device
-description: This entity identifies an instance or a type of a manufactured item that is used in the provision of healthcare without being substantially changed through that activity.
+title: Device - Common Data Model | Microsoft Docs
+description: This describes the Device entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Device
@@ -18,7 +19,7 @@ This entity identifies an instance or a type of a manufactured item that is used
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device.cdm.json/Device  
+- /foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device  
 
 ## Traits
 

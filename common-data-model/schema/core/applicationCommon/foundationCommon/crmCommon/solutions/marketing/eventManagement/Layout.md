@@ -1,11 +1,12 @@
 ---
-title: Layout
-description: The layout entity is to provide users a quick way to specify the various different layouts that a single room can be arranged in and the maximum capacity of the room as a result of the change.
+title: Layout - Common Data Model | Microsoft Docs
+description: This describes the Layout entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Layout
@@ -18,7 +19,7 @@ The layout entity is to provide users a quick way to specify the various differe
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/solutions/marketing/eventManagement/Layout.cdm.json/Layout  
+- /foundationCommon/crmCommon/solutions/marketing/eventManagement/Layout  
 
 ## Traits
 

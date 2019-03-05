@@ -1,11 +1,12 @@
 ---
-title: DiscountList
+title: DiscountList - Common Data Model | Microsoft Docs
 description: Type of discount specified as either a percentage or an amount.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Discount List
@@ -18,7 +19,7 @@ Type of discount specified as either a percentage or an amount.
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/sales/DiscountList.cdm.json/DiscountList  
+- /foundationCommon/crmCommon/sales/DiscountList  
 
 ## Traits
 

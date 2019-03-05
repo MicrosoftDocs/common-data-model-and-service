@@ -1,11 +1,12 @@
 ---
-title: OpportunityClose
-description: Activity that is created automatically when an opportunity is closed, containing information such as the description of the closing and actual revenue.
+title: OpportunityClose - Common Data Model | Microsoft Docs
+description: This describes the OpportunityClose entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Opportunity Close
@@ -18,7 +19,7 @@ Activity that is created automatically when an opportunity is closed, containing
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/sales/OpportunityClose.cdm.json/OpportunityClose  
+- /foundationCommon/crmCommon/sales/OpportunityClose  
 
 ## Traits
 

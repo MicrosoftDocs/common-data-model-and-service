@@ -1,11 +1,12 @@
 ---
-title: LeadProduct
-description: undefined
+title: LeadProduct - Common Data Model | Microsoft Docs
+description: This describes the LeadProduct entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # LeadProduct
@@ -17,7 +18,7 @@ ms.author: tpalmer
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/sales/LeadProduct.cdm.json/LeadProduct  
+- /foundationCommon/crmCommon/sales/LeadProduct  
 
 ## Traits
 

@@ -1,11 +1,12 @@
 ---
-title: CreditRecipient
-description: The contact, donor or constitiuent who receives "credit" for the hard or soft cleared payment.  A credit plan is always tied to a recipient in order to ensure full reconciliation and accounting of donations.  All nonprofits have business rules in place to govern how hard and soft credits are applied, but these rules are notoriously inconsistent from organization to organization.  For example, 6 of 12 enterprise nonprofits we recently surveyed about how they handle third party (corporate) giving crediting soft credit the corporation and hard credit the individual donors, whereas the other 6 surveyed nonprofits hard credit the third party providing the matching gift payments (i.e., Benevity is an example of a third party gift management company).  Still other organizations hard credit the corporation themselves.  For example, if Jane Smith donates $50 through her company Microsoft, and Microsoft matches the gift dollar for dollar, but Benevity collects and distributes the gift to Oxfam International, where is hard and soft credit applied?  Some organizations hard credit Jane Smith $100 ($50 donated plus the $50 match).  Some organizations hard credit Jane Smith $50 and Microsoft $50.  Some orgs hard credit Microsoft $100. And still more orgs hard credit Benevity some or all of the $100 donation.
+title: CreditRecipient - Common Data Model | Microsoft Docs
+description: This describes the CreditRecipient entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Credit Plan Recipient
@@ -18,7 +19,7 @@ The contact, donor or constitiuent who receives "credit" for the hard or soft cl
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/accelerators/nonProfit/CreditRecipient.cdm.json/CreditRecipient  
+- /foundationCommon/crmCommon/accelerators/nonProfit/CreditRecipient  
 
 ## Traits
 

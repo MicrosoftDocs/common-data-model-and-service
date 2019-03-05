@@ -1,11 +1,12 @@
 ---
-title: ProductAssociation
+title: ProductAssociation - Common Data Model | Microsoft Docs
 description: Instance of a product added to a bundle or kit.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Product Association
@@ -18,7 +19,7 @@ Instance of a product added to a bundle or kit.
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/ProductAssociation.cdm.json/ProductAssociation  
+- /foundationCommon/ProductAssociation  
 
 ## Traits
 

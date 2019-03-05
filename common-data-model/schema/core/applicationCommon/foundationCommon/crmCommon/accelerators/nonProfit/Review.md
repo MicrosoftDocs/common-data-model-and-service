@@ -1,11 +1,12 @@
 ---
-title: Review
-description: The internal assessment of a Request made by a staff member (or team) and all of the relevant information that needs to be tracked at the "review" stage of an application.
+title: Review - Common Data Model | Microsoft Docs
+description: This describes the Review entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Review
@@ -18,7 +19,7 @@ The internal assessment of a Request made by a staff member (or team) and all of
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/accelerators/nonProfit/Review.cdm.json/Review  
+- /foundationCommon/crmCommon/accelerators/nonProfit/Review  
 
 ## Traits
 

@@ -1,11 +1,12 @@
 ---
-title: Location
-description: Details and position information for a physical place where services are provided and resources and participants may be stored, found, contained or accommodated.
+title: Location - Common Data Model | Microsoft Docs
+description: This describes the Location entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Location
@@ -18,7 +19,7 @@ Details and position information for a physical place where services are provide
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Location.cdm.json/Location  
+- /foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Location  
 
 ## Traits
 

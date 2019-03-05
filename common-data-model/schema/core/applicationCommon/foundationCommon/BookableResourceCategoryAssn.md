@@ -1,11 +1,12 @@
 ---
-title: BookableResourceCategoryAssn
+title: BookableResourceCategoryAssn - Common Data Model | Microsoft Docs
 description: Association entity to model the categorization of resources.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Bookable Resource Category Assn
@@ -18,7 +19,7 @@ Association entity to model the categorization of resources.
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/BookableResourceCategoryAssn.cdm.json/BookableResourceCategoryAssn  
+- /foundationCommon/BookableResourceCategoryAssn  
 
 ## Traits
 

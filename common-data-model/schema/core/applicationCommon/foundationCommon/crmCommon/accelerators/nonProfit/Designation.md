@@ -1,11 +1,12 @@
 ---
-title: Designation
-description: An area to which funds may be allocated, including a GL-relevant accounting code.  Designations are the way a donor instructs an organization about how their donation should be spent or earmarked.  All nonprofit organizations strive to secure the largest % of unrestricted or undesignated funds possible so they can use this money at their own discretion toward the areas of greatest need, including the ability to pay down their operating costs.  Direct marketing-oriented nonprofits, and nonprofits with missions aligned to cause, cure, and global issues (like Oxfam) tend to have as few designations as they possibly can (~100-200 total designations) because they derive the majority of their funds from donors giving small gift amounts.  They also focus on recurring giving programs, which have a high administration cost if gifts are permitted to be designated or split designated across multiple funds.  A Higher Education organization, on the other hand, derives a large % of its annual fundraising from major donors, who typically want much more control about where they are directing their gifts.
+title: Designation - Common Data Model | Microsoft Docs
+description: This describes the Designation entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Designation
@@ -18,7 +19,7 @@ An area to which funds may be allocated, including a GL-relevant accounting code
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/accelerators/nonProfit/Designation.cdm.json/Designation  
+- /foundationCommon/crmCommon/accelerators/nonProfit/Designation  
 
 ## Traits
 

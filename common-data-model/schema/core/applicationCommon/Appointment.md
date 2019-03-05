@@ -1,11 +1,12 @@
 ---
-title: Appointment
+title: Appointment - Common Data Model | Microsoft Docs
 description: Commitment representing a time interval with start/end times and duration.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Appointment
@@ -18,9 +19,9 @@ Commitment representing a time interval with start/end times and duration.
 
 Instances of this entity are listed below.  
 
-- /Appointment.cdm.json/Appointment  
-[/foundationCommon/crmCommon/Appointment.cdm.json/Appointment](foundationCommon/crmCommon/Appointment.md "/core/applicationCommon/foundationCommon/crmCommon/Appointment.cdm.json/Appointment")  
-[/foundationCommon/crmCommon/solutions/marketing/Appointment.cdm.json/Appointment](foundationCommon/crmCommon/solutions/marketing/Appointment.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Appointment.cdm.json/Appointment")  
+- /Appointment  
+- [/foundationCommon/crmCommon/Appointment](foundationCommon/crmCommon/Appointment.md "/core/applicationCommon/foundationCommon/crmCommon/Appointment.cdm.json/Appointment")  
+- [/foundationCommon/crmCommon/solutions/marketing/Appointment](foundationCommon/crmCommon/solutions/marketing/Appointment.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Appointment.cdm.json/Appointment")  
 
 ## Traits
 

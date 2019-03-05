@@ -1,11 +1,12 @@
 ---
-title: Connection
+title: Connection - Common Data Model | Microsoft Docs
 description: Relationship between two entities.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Connection
@@ -18,8 +19,8 @@ Relationship between two entities.
 
 Instances of this entity are listed below.  
 
-[/Connection.cdm.json/Connection](../../../../Connection.md "/core/applicationCommon/Connection.cdm.json/Connection")  
-- /foundationCommon/crmCommon/solutions/marketing/Connection.cdm.json/Connection  
+- [/Connection](../../../../Connection.md "/core/applicationCommon/Connection.cdm.json/Connection")  
+- /foundationCommon/crmCommon/solutions/marketing/Connection  
 
 ## Traits
 

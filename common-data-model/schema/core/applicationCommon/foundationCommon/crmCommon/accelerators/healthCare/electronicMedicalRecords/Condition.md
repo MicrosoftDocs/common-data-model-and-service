@@ -1,11 +1,12 @@
 ---
-title: Condition
-description: A clinical condition, problem, diagnosis, or other event, situation, issue, or clinical concept that has risen to a level of concern.
+title: Condition - Common Data Model | Microsoft Docs
+description: This describes the Condition entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Condition
@@ -18,7 +19,7 @@ A clinical condition, problem, diagnosis, or other event, situation, issue, or c
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json/Condition  
+- /foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition  
 
 ## Traits
 

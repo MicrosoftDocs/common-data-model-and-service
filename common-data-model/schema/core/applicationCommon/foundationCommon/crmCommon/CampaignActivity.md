@@ -1,11 +1,12 @@
 ---
-title: CampaignActivity
+title: CampaignActivity - Common Data Model | Microsoft Docs
 description: Task performed, or to be performed, by a user for planning or running a campaign.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Campaign Activity
@@ -18,7 +19,7 @@ Task performed, or to be performed, by a user for planning or running a campaign
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/CampaignActivity.cdm.json/CampaignActivity  
+- /foundationCommon/crmCommon/CampaignActivity  
 
 ## Traits
 

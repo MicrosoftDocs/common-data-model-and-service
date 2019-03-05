@@ -1,11 +1,12 @@
 ---
-title: PreviousEducation
+title: PreviousEducation - Common Data Model | Microsoft Docs
 description: The previous education history for a student.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Previous Education
@@ -18,7 +19,7 @@ The previous education history for a student.
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/accelerators/education/higherEducation/PreviousEducation.cdm.json/PreviousEducation  
+- /foundationCommon/crmCommon/accelerators/education/higherEducation/PreviousEducation  
 
 ## Traits
 

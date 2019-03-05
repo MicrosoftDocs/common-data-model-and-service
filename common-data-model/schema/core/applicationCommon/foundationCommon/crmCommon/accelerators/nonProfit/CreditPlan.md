@@ -1,11 +1,12 @@
 ---
-title: CreditPlan
-description: Credit Plans control who will be credited with hard or soft credits after a payment clears. A credit plan could "counted" for membership or other benefit prior to a payment actually being cleared. A Credit Plan shows up as a A line item attached to a Pledge, Payment Schedule, or Account .  The goal of a credit plan is to avoid the double counting of hard, soft and split crediting.  The most elegant way to manage Credit Plan is by ensuring there are business rules in place like an "auto" soft credit rule attached to Accounts, Contacts, Opportunities or Donor Commitments depending on the conditions met.  Credit Plans can be countable toward fulfilling a benefit even if they are never fully realized as a hard or soft credit.
+title: CreditPlan - Common Data Model | Microsoft Docs
+description: This describes the CreditPlan entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Credit Plan
@@ -18,7 +19,7 @@ Credit Plans control who will be credited with hard or soft credits after a paym
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/accelerators/nonProfit/CreditPlan.cdm.json/CreditPlan  
+- /foundationCommon/crmCommon/accelerators/nonProfit/CreditPlan  
 
 ## Traits
 

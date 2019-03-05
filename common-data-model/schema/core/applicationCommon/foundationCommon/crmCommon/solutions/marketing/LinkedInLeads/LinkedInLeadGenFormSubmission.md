@@ -1,11 +1,12 @@
 ---
-title: LinkedInLeadGenFormSubmission
+title: LinkedInLeadGenFormSubmission - Common Data Model | Microsoft Docs
 description: Submissions from prospects on LinkedIn
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # LinkedIn Lead Gen Form Submission
@@ -18,7 +19,7 @@ Submissions from prospects on LinkedIn
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/solutions/marketing/LinkedInLeads/LinkedInLeadGenFormSubmission.cdm.json/LinkedInLeadGenFormSubmission  
+- /foundationCommon/crmCommon/solutions/marketing/LinkedInLeads/LinkedInLeadGenFormSubmission  
 
 ## Traits
 

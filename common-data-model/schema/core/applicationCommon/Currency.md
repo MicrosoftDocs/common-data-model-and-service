@@ -1,11 +1,12 @@
 ---
-title: Currency
+title: Currency - Common Data Model | Microsoft Docs
 description: Currency in which a financial transaction is carried out.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Currency
@@ -18,7 +19,7 @@ Currency in which a financial transaction is carried out.
 
 Instances of this entity are listed below.  
 
-- /Currency.cdm.json/Currency  
+- /Currency  
 
 ## Traits
 

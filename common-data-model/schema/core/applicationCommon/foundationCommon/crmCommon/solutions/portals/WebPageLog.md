@@ -1,11 +1,12 @@
 ---
-title: WebPageLog
+title: WebPageLog - Common Data Model | Microsoft Docs
 description: A record of a user viewing a Web Page
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Web Page Log
@@ -18,7 +19,7 @@ A record of a user viewing a Web Page
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/solutions/portals/WebPageLog.cdm.json/WebPageLog  
+- /foundationCommon/crmCommon/solutions/portals/WebPageLog  
 
 ## Traits
 

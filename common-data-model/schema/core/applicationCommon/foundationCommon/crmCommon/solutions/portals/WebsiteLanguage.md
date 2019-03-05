@@ -1,11 +1,12 @@
 ---
-title: WebsiteLanguage
+title: WebsiteLanguage - Common Data Model | Microsoft Docs
 description: Languages supported and publishing status for the portal
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Website Language
@@ -18,7 +19,7 @@ Languages supported and publishing status for the portal
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/solutions/portals/WebsiteLanguage.cdm.json/WebsiteLanguage  
+- /foundationCommon/crmCommon/solutions/portals/WebsiteLanguage  
 
 ## Traits
 

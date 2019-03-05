@@ -1,11 +1,12 @@
 ---
-title: ActivityParty
+title: ActivityParty - Common Data Model | Microsoft Docs
 description: Person or group associated with an activity. An activity can have multiple activity parties.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Activity Party
@@ -18,8 +19,8 @@ Person or group associated with an activity. An activity can have multiple activ
 
 Instances of this entity are listed below.  
 
-- /ActivityParty.cdm.json/ActivityParty  
-[/foundationCommon/crmCommon/service/ActivityParty.cdm.json/ActivityParty](foundationCommon/crmCommon/service/ActivityParty.md "/core/applicationCommon/foundationCommon/crmCommon/service/ActivityParty.cdm.json/ActivityParty")  
+- /ActivityParty  
+- [/foundationCommon/crmCommon/service/ActivityParty](foundationCommon/crmCommon/service/ActivityParty.md "/core/applicationCommon/foundationCommon/crmCommon/service/ActivityParty.cdm.json/ActivityParty")  
 
 ## Traits
 

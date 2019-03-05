@@ -1,11 +1,12 @@
 ---
-title: FormPage
-description: undefined
+title: FormPage - Common Data Model | Microsoft Docs
+description: This describes the FormPage entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Form Page
@@ -17,7 +18,7 @@ ms.author: tpalmer
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/solutions/marketing/FormPage.cdm.json/FormPage  
+- /foundationCommon/crmCommon/solutions/marketing/FormPage  
 
 ## Traits
 

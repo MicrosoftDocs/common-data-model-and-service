@@ -1,11 +1,12 @@
 ---
-title: ReferralRequest
-description: Used to record and send details about a request for referral service or transfer of a patient to the care of another provider or provider organization.
+title: ReferralRequest - Common Data Model | Microsoft Docs
+description: This describes the ReferralRequest entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Referral Request
@@ -18,7 +19,7 @@ Used to record and send details about a request for referral service or transfer
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest  
+- /foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest  
 
 ## Traits
 

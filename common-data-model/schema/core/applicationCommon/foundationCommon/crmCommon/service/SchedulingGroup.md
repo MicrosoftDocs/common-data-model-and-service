@@ -1,11 +1,12 @@
 ---
-title: SchedulingGroup
+title: SchedulingGroup - Common Data Model | Microsoft Docs
 description: Resource group or team whose members can be scheduled for a service.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Scheduling Group
@@ -18,7 +19,7 @@ Resource group or team whose members can be scheduled for a service.
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/service/SchedulingGroup.cdm.json/SchedulingGroup  
+- /foundationCommon/crmCommon/service/SchedulingGroup  
 
 ## Traits
 

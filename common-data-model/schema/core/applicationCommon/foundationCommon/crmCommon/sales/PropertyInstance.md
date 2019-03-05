@@ -1,11 +1,12 @@
 ---
-title: PropertyInstance
+title: PropertyInstance - Common Data Model | Microsoft Docs
 description: Instance of a property with its value.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Property Instance
@@ -18,8 +19,8 @@ Instance of a property with its value.
 
 Instances of this entity are listed below.  
 
-[/foundationCommon/PropertyInstance.cdm.json/PropertyInstance](../../PropertyInstance.md "/core/applicationCommon/foundationCommon/PropertyInstance.cdm.json/PropertyInstance")  
-- /foundationCommon/crmCommon/sales/PropertyInstance.cdm.json/PropertyInstance  
+- [/foundationCommon/PropertyInstance](../../PropertyInstance.md "/core/applicationCommon/foundationCommon/PropertyInstance.cdm.json/PropertyInstance")  
+- /foundationCommon/crmCommon/sales/PropertyInstance  
 
 ## Traits
 

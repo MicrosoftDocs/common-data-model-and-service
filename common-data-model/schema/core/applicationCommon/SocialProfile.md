@@ -1,11 +1,12 @@
 ---
-title: SocialProfile
-description: This entity is used to store social profile information of its associated account and contacts on different social channels.
+title: SocialProfile - Common Data Model | Microsoft Docs
+description: This describes the SocialProfile entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Social Profile
@@ -18,7 +19,7 @@ This entity is used to store social profile information of its associated accoun
 
 Instances of this entity are listed below.  
 
-- /SocialProfile.cdm.json/SocialProfile  
+- /SocialProfile  
 
 ## Traits
 

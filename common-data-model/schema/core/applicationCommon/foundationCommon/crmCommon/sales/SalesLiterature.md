@@ -1,11 +1,12 @@
 ---
-title: SalesLiterature
+title: SalesLiterature - Common Data Model | Microsoft Docs
 description: Storage of sales literature, which may contain one or more documents.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Sales Literature
@@ -18,7 +19,7 @@ Storage of sales literature, which may contain one or more documents.
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/sales/SalesLiterature.cdm.json/SalesLiterature  
+- /foundationCommon/crmCommon/sales/SalesLiterature  
 
 ## Traits
 

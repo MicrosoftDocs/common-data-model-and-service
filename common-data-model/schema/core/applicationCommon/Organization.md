@@ -1,11 +1,12 @@
 ---
-title: Organization
-description: Top level of the Microsoft Dynamics 365 business hierarchy. The organization can be a specific business, holding company, or corporation.
+title: Organization - Common Data Model | Microsoft Docs
+description: This describes the Organization entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Organization
@@ -18,8 +19,8 @@ Top level of the Microsoft Dynamics 365 business hierarchy. The organization can
 
 Instances of this entity are listed below.  
 
-- /Organization.cdm.json/Organization  
-[/foundationCommon/Organization.cdm.json/Organization](foundationCommon/Organization.md "/core/applicationCommon/foundationCommon/Organization.cdm.json/Organization")  
+- /Organization  
+- [/foundationCommon/Organization](foundationCommon/Organization.md "/core/applicationCommon/foundationCommon/Organization.cdm.json/Organization")  
 
 ## Traits
 

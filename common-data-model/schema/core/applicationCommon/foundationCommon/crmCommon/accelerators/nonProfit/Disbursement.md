@@ -1,11 +1,12 @@
 ---
-title: Disbursement
-description: A Disbursement represents an Award disbursement to an individual or organizational awardee.  A Disbursement is related to a specific Award and Budget through a Disbursement Distribution.
+title: Disbursement - Common Data Model | Microsoft Docs
+description: This describes the Disbursement entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Disbursement
@@ -18,7 +19,7 @@ A Disbursement represents an Award disbursement to an individual or organization
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/accelerators/nonProfit/Disbursement.cdm.json/Disbursement  
+- /foundationCommon/crmCommon/accelerators/nonProfit/Disbursement  
 
 ## Traits
 

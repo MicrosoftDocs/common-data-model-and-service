@@ -1,11 +1,12 @@
 ---
-title: AcademicPeriodDetail
+title: AcademicPeriodDetail - Common Data Model | Microsoft Docs
 description: Status between student and their academic periods.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Academic Period Detail
@@ -18,7 +19,7 @@ Status between student and their academic periods.
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/accelerators/education/higherEducation/AcademicPeriodDetail.cdm.json/AcademicPeriodDetail  
+- /foundationCommon/crmCommon/accelerators/education/higherEducation/AcademicPeriodDetail  
 
 ## Traits
 

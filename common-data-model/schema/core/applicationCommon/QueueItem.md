@@ -1,11 +1,12 @@
 ---
-title: QueueItem
+title: QueueItem - Common Data Model | Microsoft Docs
 description: A specific item in a queue, such as a case record or an activity record.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Queue Item
@@ -18,7 +19,7 @@ A specific item in a queue, such as a case record or an activity record.
 
 Instances of this entity are listed below.  
 
-- /QueueItem.cdm.json/QueueItem  
+- /QueueItem  
 
 ## Traits
 

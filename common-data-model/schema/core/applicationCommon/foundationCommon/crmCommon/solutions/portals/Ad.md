@@ -1,11 +1,12 @@
 ---
-title: Ad
-description: undefined
+title: Ad - Common Data Model | Microsoft Docs
+description: This describes the Ad entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Ad
@@ -17,7 +18,7 @@ ms.author: tpalmer
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/solutions/portals/Ad.cdm.json/Ad  
+- /foundationCommon/crmCommon/solutions/portals/Ad  
 
 ## Traits
 

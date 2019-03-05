@@ -1,11 +1,12 @@
 ---
-title: WebRole
+title: WebRole - Common Data Model | Microsoft Docs
 description: Sets the user's role for the Portal.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Web Role
@@ -18,7 +19,7 @@ Sets the user's role for the Portal.
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/solutions/portals/WebRole.cdm.json/WebRole  
+- /foundationCommon/crmCommon/solutions/portals/WebRole  
 
 ## Traits
 

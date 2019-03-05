@@ -1,11 +1,12 @@
 ---
-title: Award
-description: The total amount of funding that has been agreed to be awarded to an individual or institution and related data, including but not limited to the recipient, date of the award, and purpose of the award
+title: Award - Common Data Model | Microsoft Docs
+description: This describes the Award entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Award
@@ -18,7 +19,7 @@ The total amount of funding that has been agreed to be awarded to an individual 
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/accelerators/nonProfit/Award.cdm.json/Award  
+- /foundationCommon/crmCommon/accelerators/nonProfit/Award  
 
 ## Traits
 

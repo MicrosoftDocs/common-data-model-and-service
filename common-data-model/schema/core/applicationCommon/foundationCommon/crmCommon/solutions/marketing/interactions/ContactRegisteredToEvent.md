@@ -1,11 +1,12 @@
 ---
-title: ContactRegisteredToEvent
-description: undefined
+title: ContactRegisteredToEvent - Common Data Model | Microsoft Docs
+description: This describes the ContactRegisteredToEvent entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Event registration
@@ -17,7 +18,7 @@ ms.author: tpalmer
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/solutions/marketing/interactions/ContactRegisteredToEvent.cdm.json/ContactRegisteredToEvent  
+- /foundationCommon/crmCommon/solutions/marketing/interactions/ContactRegisteredToEvent  
 
 ## Traits
 

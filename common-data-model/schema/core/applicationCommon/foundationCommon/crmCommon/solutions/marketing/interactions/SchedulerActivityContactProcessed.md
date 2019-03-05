@@ -1,11 +1,12 @@
 ---
-title: SchedulerActivityContactProcessed
-description: undefined
+title: SchedulerActivityContactProcessed - Common Data Model | Microsoft Docs
+description: This describes the SchedulerActivityContactProcessed entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Scheduler activity contact processed
@@ -17,7 +18,7 @@ ms.author: tpalmer
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/solutions/marketing/interactions/SchedulerActivityContactProcessed.cdm.json/SchedulerActivityContactProcessed  
+- /foundationCommon/crmCommon/solutions/marketing/interactions/SchedulerActivityContactProcessed  
 
 ## Traits
 

@@ -1,11 +1,12 @@
 ---
-title: CompetitorAddress
+title: CompetitorAddress - Common Data Model | Microsoft Docs
 description: Additional addresses for a competitor. The first two addresses are stored in the competitor object.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Competitor Address
@@ -18,7 +19,7 @@ Additional addresses for a competitor. The first two addresses are stored in the
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/sales/CompetitorAddress.cdm.json/CompetitorAddress  
+- /foundationCommon/crmCommon/sales/CompetitorAddress  
 
 ## Traits
 

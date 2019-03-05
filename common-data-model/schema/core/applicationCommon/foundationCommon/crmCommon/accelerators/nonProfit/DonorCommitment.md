@@ -1,11 +1,12 @@
 ---
-title: DonorCommitment
-description: Donor commitments track the frequency with which constituents donate funds to a nonprofit or Foundation.  All nonprofits and Foundations seek to attract as many monthly/recurring/sustaining gifts or donor commitments that they can.  Other donors routinely give on a one-time basis.  Monthly givers require additional payment and transaction information tracking including payment method, schedules, in-kind pledge relevance, and more.
+title: DonorCommitment - Common Data Model | Microsoft Docs
+description: This describes the DonorCommitment entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Donor Commitment
@@ -18,7 +19,7 @@ Donor commitments track the frequency with which constituents donate funds to a 
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/accelerators/nonProfit/DonorCommitment.cdm.json/DonorCommitment  
+- /foundationCommon/crmCommon/accelerators/nonProfit/DonorCommitment  
 
 ## Traits
 

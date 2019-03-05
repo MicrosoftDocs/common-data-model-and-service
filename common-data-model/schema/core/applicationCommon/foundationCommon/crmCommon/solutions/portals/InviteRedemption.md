@@ -1,11 +1,12 @@
 ---
-title: InviteRedemption
+title: InviteRedemption - Common Data Model | Microsoft Docs
 description: Holds information about the redemption of an invite.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Invite Redemption
@@ -18,7 +19,7 @@ Holds information about the redemption of an invite.
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/solutions/portals/InviteRedemption.cdm.json/InviteRedemption  
+- /foundationCommon/crmCommon/solutions/portals/InviteRedemption  
 
 ## Traits
 

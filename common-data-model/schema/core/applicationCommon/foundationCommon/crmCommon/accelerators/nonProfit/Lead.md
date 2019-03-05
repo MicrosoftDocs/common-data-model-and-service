@@ -1,11 +1,12 @@
 ---
-title: Lead
-description: Prospect or potential sales opportunity. Leads are converted into accounts, contacts, or opportunities when they are qualified. Otherwise, they are deleted or archived.
+title: Lead - Common Data Model | Microsoft Docs
+description: This describes the Lead entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Lead
@@ -18,9 +19,9 @@ Prospect or potential sales opportunity. Leads are converted into accounts, cont
 
 Instances of this entity are listed below.  
 
-[/foundationCommon/crmCommon/Lead.cdm.json/Lead](../../Lead.md "/core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.json/Lead")  
-- /foundationCommon/crmCommon/accelerators/nonProfit/Lead.cdm.json/Lead  
-[/foundationCommon/crmCommon/solutions/marketing/Lead.cdm.json/Lead](../../solutions/marketing/Lead.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Lead.cdm.json/Lead")  
+- [/foundationCommon/crmCommon/Lead](../../Lead.md "/core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.json/Lead")  
+- /foundationCommon/crmCommon/accelerators/nonProfit/Lead  
+- [/foundationCommon/crmCommon/solutions/marketing/Lead](../../solutions/marketing/Lead.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Lead.cdm.json/Lead")  
 
 ## Traits
 

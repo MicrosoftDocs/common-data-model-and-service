@@ -1,11 +1,12 @@
 ---
-title: Building
-description: A single venue can be comprised of zero or more buildings where event activities are held. Each building in turn is comprised of zero or more rooms where event activities are held.
+title: Building - Common Data Model | Microsoft Docs
+description: This describes the Building entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Building
@@ -18,7 +19,7 @@ A single venue can be comprised of zero or more buildings where event activities
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/solutions/marketing/eventManagement/Building.cdm.json/Building  
+- /foundationCommon/crmCommon/solutions/marketing/eventManagement/Building  
 
 ## Traits
 

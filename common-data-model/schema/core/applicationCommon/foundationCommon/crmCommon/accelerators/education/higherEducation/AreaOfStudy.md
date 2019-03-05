@@ -1,11 +1,12 @@
 ---
-title: AreaOfStudy
-description: The master list of all area of studies offered by an institution.  Areas of studies are more specific program offerings, such as Master's of Public Administration - Emergency Management.
+title: AreaOfStudy - Common Data Model | Microsoft Docs
+description: This describes the AreaOfStudy entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Area of Study
@@ -18,7 +19,7 @@ The master list of all area of studies offered by an institution.  Areas of stud
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/accelerators/education/higherEducation/AreaOfStudy.cdm.json/AreaOfStudy  
+- /foundationCommon/crmCommon/accelerators/education/higherEducation/AreaOfStudy  
 
 ## Traits
 

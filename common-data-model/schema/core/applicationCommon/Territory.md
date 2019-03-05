@@ -1,11 +1,12 @@
 ---
-title: Territory
+title: Territory - Common Data Model | Microsoft Docs
 description: Territory represents sales regions.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Territory
@@ -18,7 +19,7 @@ Territory represents sales regions.
 
 Instances of this entity are listed below.  
 
-- /Territory.cdm.json/Territory  
+- /Territory  
 
 ## Traits
 

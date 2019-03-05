@@ -1,11 +1,12 @@
 ---
-title: Product
+title: Product - Common Data Model | Microsoft Docs
 description: Information about products and their pricing information.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Product
@@ -18,8 +19,8 @@ Information about products and their pricing information.
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/Product.cdm.json/Product  
-[/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Product.cdm.json/Product](crmCommon/accelerators/healthCare/electronicMedicalRecords/Product.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Product.cdm.json/Product")  
+- /foundationCommon/Product  
+- [/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Product](crmCommon/accelerators/healthCare/electronicMedicalRecords/Product.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Product.cdm.json/Product")  
 
 ## Traits
 

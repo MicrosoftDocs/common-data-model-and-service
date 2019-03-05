@@ -1,11 +1,12 @@
 ---
-title: TestType
+title: TestType - Common Data Model | Microsoft Docs
 description: Type of test taken by a Student Contact
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Test Type
@@ -18,7 +19,7 @@ Type of test taken by a Student Contact
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/accelerators/education/higherEducation/TestType.cdm.json/TestType  
+- /foundationCommon/crmCommon/accelerators/education/higherEducation/TestType  
 
 ## Traits
 

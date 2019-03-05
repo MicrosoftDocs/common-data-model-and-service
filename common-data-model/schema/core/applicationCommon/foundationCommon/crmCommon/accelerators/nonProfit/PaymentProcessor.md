@@ -1,11 +1,12 @@
 ---
-title: PaymentProcessor
-description: This is a placeholder entity referenced by the Payment Method object.  It is intended to be customized with configuration data necessary to connect to a payment processor and authorize payments.
+title: PaymentProcessor - Common Data Model | Microsoft Docs
+description: This describes the PaymentProcessor entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Payment Processor
@@ -18,7 +19,7 @@ This is a placeholder entity referenced by the Payment Method object.  It is int
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/accelerators/nonProfit/PaymentProcessor.cdm.json/PaymentProcessor  
+- /foundationCommon/crmCommon/accelerators/nonProfit/PaymentProcessor  
 
 ## Traits
 

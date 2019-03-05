@@ -1,11 +1,12 @@
 ---
-title: Fax
-description: Activity that tracks call outcome and number of pages for a fax and optionally stores an electronic copy of the document.
+title: Fax - Common Data Model | Microsoft Docs
+description: This describes the Fax entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Fax
@@ -18,8 +19,8 @@ Activity that tracks call outcome and number of pages for a fax and optionally s
 
 Instances of this entity are listed below.  
 
-[/Fax.cdm.json/Fax](../../Fax.md "/core/applicationCommon/Fax.cdm.json/Fax")  
-- /foundationCommon/crmCommon/Fax.cdm.json/Fax  
+- [/Fax](../../Fax.md "/core/applicationCommon/Fax.cdm.json/Fax")  
+- /foundationCommon/crmCommon/Fax  
 
 ## Traits
 

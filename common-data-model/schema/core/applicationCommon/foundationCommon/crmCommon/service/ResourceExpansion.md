@@ -1,11 +1,12 @@
 ---
-title: ResourceExpansion
+title: ResourceExpansion - Common Data Model | Microsoft Docs
 description: Resource Expansions.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Resource Expansion
@@ -18,7 +19,7 @@ Resource Expansions.
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/service/ResourceExpansion.cdm.json/ResourceExpansion  
+- /foundationCommon/crmCommon/service/ResourceExpansion  
 
 ## Traits
 

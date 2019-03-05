@@ -1,11 +1,12 @@
 ---
-title: BookableResourceCategory
+title: BookableResourceCategory - Common Data Model | Microsoft Docs
 description: Categorize resources that have capacity into categories such as roles.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Bookable Resource Category
@@ -18,7 +19,7 @@ Categorize resources that have capacity into categories such as roles.
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/BookableResourceCategory.cdm.json/BookableResourceCategory  
+- /foundationCommon/BookableResourceCategory  
 
 ## Traits
 

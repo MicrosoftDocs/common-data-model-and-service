@@ -1,11 +1,12 @@
 ---
-title: Idea
+title: Idea - Common Data Model | Microsoft Docs
 description: An idea belonging to a portal Idea Forum.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Idea
@@ -18,7 +19,7 @@ An idea belonging to a portal Idea Forum.
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/solutions/portals/Idea.cdm.json/Idea  
+- /foundationCommon/crmCommon/solutions/portals/Idea  
 
 ## Traits
 

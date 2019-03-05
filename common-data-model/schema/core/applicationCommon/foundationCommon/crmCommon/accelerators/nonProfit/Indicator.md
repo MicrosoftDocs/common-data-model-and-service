@@ -1,11 +1,12 @@
 ---
-title: Indicator
-description: An Indicator describes what will be measured to track evidence of a Result. Indicators can be qualitative or quantitative and may or may not be aggregable.
+title: Indicator - Common Data Model | Microsoft Docs
+description: This describes the Indicator entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Indicator
@@ -18,7 +19,7 @@ An Indicator describes what will be measured to track evidence of a Result. Indi
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/accelerators/nonProfit/Indicator.cdm.json/Indicator  
+- /foundationCommon/crmCommon/accelerators/nonProfit/Indicator  
 
 ## Traits
 

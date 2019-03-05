@@ -1,11 +1,12 @@
 ---
-title: UnitGroup
+title: UnitGroup - Common Data Model | Microsoft Docs
 description: Grouping of units.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Unit Group
@@ -18,7 +19,7 @@ Grouping of units.
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/UnitGroup.cdm.json/UnitGroup  
+- /foundationCommon/UnitGroup  
 
 ## Traits
 

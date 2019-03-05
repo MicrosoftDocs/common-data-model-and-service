@@ -1,11 +1,12 @@
 ---
-title: FiscalCalendarPeriod
+title: FiscalCalendarPeriod - Common Data Model | Microsoft Docs
 description: Represents the period in which financial activity occurred, as defined by a fiscal calendar.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Fiscal Calendar Period
@@ -18,7 +19,7 @@ Represents the period in which financial activity occurred, as defined by a fisc
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/financialCommon/FiscalCalendarPeriod.cdm.json/FiscalCalendarPeriod  
+- /foundationCommon/financialCommon/FiscalCalendarPeriod  
 
 ## Traits
 

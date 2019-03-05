@@ -1,11 +1,12 @@
 ---
-title: Invitation
+title: Invitation - Common Data Model | Microsoft Docs
 description: Send invitations to existing contacts or email addresses and assign them to web roles upon redemption.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Invitation
@@ -18,8 +19,8 @@ Send invitations to existing contacts or email addresses and assign them to web 
 
 Instances of this entity are listed below.  
 
-[/foundationCommon/crmCommon/solutions/marketing/eventManagement/Invitation.cdm.json/Invitation](../marketing/eventManagement/Invitation.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Invitation.cdm.json/Invitation")  
-- /foundationCommon/crmCommon/solutions/portals/Invitation.cdm.json/Invitation  
+- [/foundationCommon/crmCommon/solutions/marketing/eventManagement/Invitation](../marketing/eventManagement/Invitation.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Invitation.cdm.json/Invitation")  
+- /foundationCommon/crmCommon/solutions/portals/Invitation  
 
 ## Traits
 

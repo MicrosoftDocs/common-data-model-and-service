@@ -1,11 +1,12 @@
 ---
-title: Competitor
+title: Competitor - Common Data Model | Microsoft Docs
 description: Business competing for the sale represented by a lead or opportunity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Competitor
@@ -18,7 +19,7 @@ Business competing for the sale represented by a lead or opportunity.
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/sales/Competitor.cdm.json/Competitor  
+- /foundationCommon/crmCommon/sales/Competitor  
 
 ## Traits
 

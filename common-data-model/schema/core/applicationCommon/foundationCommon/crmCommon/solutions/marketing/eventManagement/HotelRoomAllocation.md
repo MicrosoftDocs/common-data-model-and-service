@@ -1,11 +1,12 @@
 ---
-title: HotelRoomAllocation
+title: HotelRoomAllocation - Common Data Model | Microsoft Docs
 description: This entity records the number of rooms that are allocated from a single hotel for guests of a single event.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Hotel Room Allocation
@@ -18,7 +19,7 @@ This entity records the number of rooms that are allocated from a single hotel f
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomAllocation.cdm.json/HotelRoomAllocation  
+- /foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomAllocation  
 
 ## Traits
 

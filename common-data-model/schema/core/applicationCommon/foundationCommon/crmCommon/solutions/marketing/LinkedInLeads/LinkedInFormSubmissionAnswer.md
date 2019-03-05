@@ -1,11 +1,12 @@
 ---
-title: LinkedInFormSubmissionAnswer
+title: LinkedInFormSubmissionAnswer - Common Data Model | Microsoft Docs
 description: Answers to individual questions on a form submitted by a LinkedIn member
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # LinkedIn Form Submission Answer
@@ -18,7 +19,7 @@ Answers to individual questions on a form submitted by a LinkedIn member
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/solutions/marketing/LinkedInLeads/LinkedInFormSubmissionAnswer.cdm.json/LinkedInFormSubmissionAnswer  
+- /foundationCommon/crmCommon/solutions/marketing/LinkedInLeads/LinkedInFormSubmissionAnswer  
 
 ## Traits
 

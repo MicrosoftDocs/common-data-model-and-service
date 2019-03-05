@@ -1,11 +1,12 @@
 ---
-title: Email
+title: Email - Common Data Model | Microsoft Docs
 description: Activity that is delivered using email protocols.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Email
@@ -18,8 +19,8 @@ Activity that is delivered using email protocols.
 
 Instances of this entity are listed below.  
 
-- /Email.cdm.json/Email  
-[/foundationCommon/crmCommon/Email.cdm.json/Email](foundationCommon/crmCommon/Email.md "/core/applicationCommon/foundationCommon/crmCommon/Email.cdm.json/Email")  
+- /Email  
+- [/foundationCommon/crmCommon/Email](foundationCommon/crmCommon/Email.md "/core/applicationCommon/foundationCommon/crmCommon/Email.cdm.json/Email")  
 
 ## Traits
 

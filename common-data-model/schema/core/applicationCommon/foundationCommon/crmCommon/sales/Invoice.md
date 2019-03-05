@@ -1,11 +1,12 @@
 ---
-title: Invoice
+title: Invoice - Common Data Model | Microsoft Docs
 description: Order that has been billed.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Invoice
@@ -18,7 +19,7 @@ Order that has been billed.
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/sales/Invoice.cdm.json/Invoice  
+- /foundationCommon/crmCommon/sales/Invoice  
 
 ## Traits
 

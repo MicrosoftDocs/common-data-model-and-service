@@ -1,11 +1,12 @@
 ---
-title: AcademicPeriod
+title: AcademicPeriod - Common Data Model | Microsoft Docs
 description: The periods of time in which courses are offered by the institution,  such as a term or semester.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Academic Period
@@ -18,7 +19,7 @@ The periods of time in which courses are offered by the institution,  such as a 
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/accelerators/education/higherEducation/AcademicPeriod.cdm.json/AcademicPeriod  
+- /foundationCommon/crmCommon/accelerators/education/higherEducation/AcademicPeriod  
 
 ## Traits
 

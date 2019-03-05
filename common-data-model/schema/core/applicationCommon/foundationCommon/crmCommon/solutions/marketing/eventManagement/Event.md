@@ -1,11 +1,12 @@
 ---
-title: Event
+title: Event - Common Data Model | Microsoft Docs
 description: Container to manage and plan marketing activities that take place at a specific venue or location.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Event
@@ -18,7 +19,7 @@ Container to manage and plan marketing activities that take place at a specific 
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event  
+- /foundationCommon/crmCommon/solutions/marketing/eventManagement/Event  
 
 ## Traits
 

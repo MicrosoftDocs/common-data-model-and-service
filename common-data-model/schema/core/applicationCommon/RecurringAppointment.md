@@ -1,11 +1,12 @@
 ---
-title: RecurringAppointment
+title: RecurringAppointment - Common Data Model | Microsoft Docs
 description: The Master appointment of a recurring appointment series.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Recurring Appointment
@@ -18,8 +19,8 @@ The Master appointment of a recurring appointment series.
 
 Instances of this entity are listed below.  
 
-- /RecurringAppointment.cdm.json/RecurringAppointment  
-[/foundationCommon/crmCommon/RecurringAppointment.cdm.json/RecurringAppointment](foundationCommon/crmCommon/RecurringAppointment.md "/core/applicationCommon/foundationCommon/crmCommon/RecurringAppointment.cdm.json/RecurringAppointment")  
+- /RecurringAppointment  
+- [/foundationCommon/crmCommon/RecurringAppointment](foundationCommon/crmCommon/RecurringAppointment.md "/core/applicationCommon/foundationCommon/crmCommon/RecurringAppointment.cdm.json/RecurringAppointment")  
 
 ## Traits
 

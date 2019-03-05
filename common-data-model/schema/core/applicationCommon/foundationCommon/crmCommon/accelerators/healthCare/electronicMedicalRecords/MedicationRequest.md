@@ -1,11 +1,12 @@
 ---
-title: MedicationRequest
-description: An order or request for both supply of the medication and the instructions for administration of the medication to a patient.
+title: MedicationRequest - Common Data Model | Microsoft Docs
+description: This describes the MedicationRequest entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Medication Request
@@ -18,7 +19,7 @@ An order or request for both supply of the medication and the instructions for a
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json/MedicationRequest  
+- /foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest  
 
 ## Traits
 

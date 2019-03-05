@@ -1,11 +1,12 @@
 ---
-title: DesignatedCredit
-description: A segment of a donation payment or in-kind gift that indicating the partial amount that is hard- or soft-credited to a Customer and allocated to one Designation.
+title: DesignatedCredit - Common Data Model | Microsoft Docs
+description: This describes the DesignatedCredit entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Designated Credit
@@ -18,7 +19,7 @@ A segment of a donation payment or in-kind gift that indicating the partial amou
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/accelerators/nonProfit/DesignatedCredit.cdm.json/DesignatedCredit  
+- /foundationCommon/crmCommon/accelerators/nonProfit/DesignatedCredit  
 
 ## Traits
 

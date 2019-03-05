@@ -1,11 +1,12 @@
 ---
-title: Pass
+title: Pass - Common Data Model | Microsoft Docs
 description: Information about passes.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Pass
@@ -18,7 +19,7 @@ Information about passes.
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/solutions/marketing/eventManagement/Pass.cdm.json/Pass  
+- /foundationCommon/crmCommon/solutions/marketing/eventManagement/Pass  
 
 ## Traits
 

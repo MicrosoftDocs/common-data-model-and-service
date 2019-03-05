@@ -1,11 +1,12 @@
 ---
-title: MainAccountCategory
+title: MainAccountCategory - Common Data Model | Microsoft Docs
 description: Provides categorization of main accounts
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Main Account Category
@@ -18,7 +19,7 @@ Provides categorization of main accounts
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/financialCommon/MainAccountCategory.cdm.json/MainAccountCategory  
+- /foundationCommon/financialCommon/MainAccountCategory  
 
 ## Traits
 

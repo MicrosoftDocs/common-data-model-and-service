@@ -1,11 +1,12 @@
 ---
-title: Speaker
+title: Speaker - Common Data Model | Microsoft Docs
 description: Speaker bios of individuals speaking at an event
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Speaker
@@ -18,7 +19,7 @@ Speaker bios of individuals speaking at an event
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/solutions/marketing/eventManagement/Speaker.cdm.json/Speaker  
+- /foundationCommon/crmCommon/solutions/marketing/eventManagement/Speaker  
 
 ## Traits
 

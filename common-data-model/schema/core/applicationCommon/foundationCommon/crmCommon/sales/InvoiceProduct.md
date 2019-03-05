@@ -1,11 +1,12 @@
 ---
-title: InvoiceProduct
+title: InvoiceProduct - Common Data Model | Microsoft Docs
 description: Line item in an invoice containing detailed billing information for a product.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Invoice Product
@@ -18,7 +19,7 @@ Line item in an invoice containing detailed billing information for a product.
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json/InvoiceProduct  
+- /foundationCommon/crmCommon/sales/InvoiceProduct  
 
 ## Traits
 

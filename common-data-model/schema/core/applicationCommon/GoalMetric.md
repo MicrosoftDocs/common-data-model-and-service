@@ -1,11 +1,12 @@
 ---
-title: GoalMetric
+title: GoalMetric - Common Data Model | Microsoft Docs
 description: Type of measurement for a goal, such as money amount or count.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Goal Metric
@@ -18,7 +19,7 @@ Type of measurement for a goal, such as money amount or count.
 
 Instances of this entity are listed below.  
 
-- /GoalMetric.cdm.json/GoalMetric  
+- /GoalMetric  
 
 ## Traits
 

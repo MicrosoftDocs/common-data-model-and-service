@@ -1,11 +1,12 @@
 ---
-title: Queue
+title: Queue - Common Data Model | Microsoft Docs
 description: A list of records that require action, such as accounts, activities, and cases.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Queue
@@ -18,7 +19,7 @@ A list of records that require action, such as accounts, activities, and cases.
 
 Instances of this entity are listed below.  
 
-- /Queue.cdm.json/Queue  
+- /Queue  
 
 ## Traits
 

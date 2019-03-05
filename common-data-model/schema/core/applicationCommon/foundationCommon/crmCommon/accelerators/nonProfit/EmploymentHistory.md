@@ -1,11 +1,12 @@
 ---
-title: EmploymentHistory
-description: Historical and/or current information about where a contact works, volunteers or serves in some capacity at an organization.  For nonprofits, tracking employer information is critical for a few reasons: it is important to understand if the employee is part of a eligible matching gift program, to have visibility into an employee's "network" and to visualize the degrees of separation between an employee and other prospective donors that the organization wants to solicit, and more.
+title: EmploymentHistory - Common Data Model | Microsoft Docs
+description: This describes the EmploymentHistory entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Employment History
@@ -18,7 +19,7 @@ Historical and/or current information about where a contact works, volunteers or
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/accelerators/nonProfit/EmploymentHistory.cdm.json/EmploymentHistory  
+- /foundationCommon/crmCommon/accelerators/nonProfit/EmploymentHistory  
 
 ## Traits
 

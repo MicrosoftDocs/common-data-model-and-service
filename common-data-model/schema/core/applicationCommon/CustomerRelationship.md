@@ -1,11 +1,12 @@
 ---
-title: CustomerRelationship
+title: CustomerRelationship - Common Data Model | Microsoft Docs
 description: Relationship between a customer and a partner in which either can be an account or contact.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Customer Relationship
@@ -18,7 +19,7 @@ Relationship between a customer and a partner in which either can be an account 
 
 Instances of this entity are listed below.  
 
-- /CustomerRelationship.cdm.json/CustomerRelationship  
+- /CustomerRelationship  
 
 ## Traits
 

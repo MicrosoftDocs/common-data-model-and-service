@@ -1,11 +1,12 @@
 ---
-title: Characteristic
+title: Characteristic - Common Data Model | Microsoft Docs
 description: Skills, education and certifications of resources.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Characteristic
@@ -18,7 +19,7 @@ Skills, education and certifications of resources.
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/Characteristic.cdm.json/Characteristic  
+- /foundationCommon/Characteristic  
 
 ## Traits
 

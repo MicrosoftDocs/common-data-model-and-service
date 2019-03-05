@@ -1,11 +1,12 @@
 ---
-title: Campaign
-description: Container for campaign activities and responses, sales literature, products, and lists to create, plan, execute, and track the results of a specific marketing campaign through its life.
+title: Campaign - Common Data Model | Microsoft Docs
+description: This describes the Campaign entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Campaign
@@ -18,8 +19,8 @@ Container for campaign activities and responses, sales literature, products, and
 
 Instances of this entity are listed below.  
 
-[/foundationCommon/crmCommon/Campaign.cdm.json/Campaign](../../Campaign.md "/core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign")  
-- /foundationCommon/crmCommon/accelerators/nonProfit/Campaign.cdm.json/Campaign  
+- [/foundationCommon/crmCommon/Campaign](../../Campaign.md "/core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign")  
+- /foundationCommon/crmCommon/accelerators/nonProfit/Campaign  
 
 ## Traits
 

@@ -1,11 +1,12 @@
 ---
-title: Team
-description: Collection of system users that routinely collaborate. Teams can be used to simplify record sharing and provide team members with common access to organization data when team members belong to different Business Units.
+title: Team - Common Data Model | Microsoft Docs
+description: This describes the Team entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Team
@@ -18,7 +19,7 @@ Collection of system users that routinely collaborate. Teams can be used to simp
 
 Instances of this entity are listed below.  
 
-- /Team.cdm.json/Team  
+- /Team  
 
 ## Traits
 

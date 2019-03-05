@@ -1,11 +1,12 @@
 ---
-title: ServiceContractContact
+title: ServiceContractContact - Common Data Model | Microsoft Docs
 description: Item in a Service contract.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Service Contract Contact
@@ -18,7 +19,7 @@ Item in a Service contract.
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/service/ServiceContractContact.cdm.json/ServiceContractContact  
+- /foundationCommon/crmCommon/service/ServiceContractContact  
 
 ## Traits
 

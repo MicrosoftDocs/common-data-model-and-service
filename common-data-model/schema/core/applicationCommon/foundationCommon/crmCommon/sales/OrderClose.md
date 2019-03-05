@@ -1,11 +1,12 @@
 ---
-title: OrderClose
+title: OrderClose - Common Data Model | Microsoft Docs
 description: Activity generated automatically when an order is closed.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Order Close
@@ -18,7 +19,7 @@ Activity generated automatically when an order is closed.
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/sales/OrderClose.cdm.json/OrderClose  
+- /foundationCommon/crmCommon/sales/OrderClose  
 
 ## Traits
 

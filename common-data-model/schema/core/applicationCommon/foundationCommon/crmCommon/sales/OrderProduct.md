@@ -1,11 +1,12 @@
 ---
-title: OrderProduct
+title: OrderProduct - Common Data Model | Microsoft Docs
 description: Line item in a sales order.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Order Product
@@ -18,7 +19,7 @@ Line item in a sales order.
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/sales/OrderProduct.cdm.json/OrderProduct  
+- /foundationCommon/crmCommon/sales/OrderProduct  
 
 ## Traits
 

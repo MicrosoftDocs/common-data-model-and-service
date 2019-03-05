@@ -1,11 +1,12 @@
 ---
-title: Activity
-description: Task performed, or to be performed, by a user. An activity is any action for which an entry can be made on a calendar.
+title: Activity - Common Data Model | Microsoft Docs
+description: This describes the Activity entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Activity
@@ -18,8 +19,8 @@ Task performed, or to be performed, by a user. An activity is any action for whi
 
 Instances of this entity are listed below.  
 
-[/Activity.cdm.json/Activity](../../Activity.md "/core/applicationCommon/Activity.cdm.json/Activity")  
-- /foundationCommon/crmCommon/Activity.cdm.json/Activity  
+- [/Activity](../../Activity.md "/core/applicationCommon/Activity.cdm.json/Activity")  
+- /foundationCommon/crmCommon/Activity  
 
 ## Traits
 

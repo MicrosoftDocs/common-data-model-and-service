@@ -1,11 +1,12 @@
 ---
-title: CampaignResponse
+title: CampaignResponse - Common Data Model | Microsoft Docs
 description: Response from an existing or a potential new customer for a campaign.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Campaign Response
@@ -18,7 +19,7 @@ Response from an existing or a potential new customer for a campaign.
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/CampaignResponse.cdm.json/CampaignResponse  
+- /foundationCommon/crmCommon/CampaignResponse  
 
 ## Traits
 

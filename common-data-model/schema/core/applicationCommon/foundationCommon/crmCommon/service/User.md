@@ -1,11 +1,12 @@
 ---
-title: User
+title: User - Common Data Model | Microsoft Docs
 description: Person with access to the Microsoft CRM system and who owns objects in the Microsoft CRM database.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # User
@@ -18,8 +19,8 @@ Person with access to the Microsoft CRM system and who owns objects in the Micro
 
 Instances of this entity are listed below.  
 
-[/User.cdm.json/User](../../../User.md "/core/applicationCommon/User.cdm.json/User")  
-- /foundationCommon/crmCommon/service/User.cdm.json/User  
+- [/User](../../../User.md "/core/applicationCommon/User.cdm.json/User")  
+- /foundationCommon/crmCommon/service/User  
 
 ## Traits
 

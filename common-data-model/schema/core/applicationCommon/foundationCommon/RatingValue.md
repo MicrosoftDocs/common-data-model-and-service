@@ -1,11 +1,12 @@
 ---
-title: RatingValue
+title: RatingValue - Common Data Model | Microsoft Docs
 description: A unique value associated with a rating model that allows providing a user friendly rating value.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Rating Value
@@ -18,7 +19,7 @@ A unique value associated with a rating model that allows providing a user frien
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/RatingValue.cdm.json/RatingValue  
+- /foundationCommon/RatingValue  
 
 ## Traits
 

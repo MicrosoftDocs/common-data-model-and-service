@@ -1,11 +1,12 @@
 ---
-title: ProgramVersionDetail
+title: ProgramVersionDetail - Common Data Model | Microsoft Docs
 description: The master list of program versions start dates defined by the institution.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Program Version Detail
@@ -18,7 +19,7 @@ The master list of program versions start dates defined by the institution.
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/accelerators/education/higherEducation/ProgramVersionDetail.cdm.json/ProgramVersionDetail  
+- /foundationCommon/crmCommon/accelerators/education/higherEducation/ProgramVersionDetail  
 
 ## Traits
 

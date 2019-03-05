@@ -1,11 +1,12 @@
 ---
-title: KnowledgeBaseRecord
+title: KnowledgeBaseRecord - Common Data Model | Microsoft Docs
 description: Metadata of knowledge base (KB) articles associated with Microsoft Dynamics 365 entities.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Knowledge Base Record
@@ -18,7 +19,7 @@ Metadata of knowledge base (KB) articles associated with Microsoft Dynamics 365 
 
 Instances of this entity are listed below.  
 
-- /KnowledgeBaseRecord.cdm.json/KnowledgeBaseRecord  
+- /KnowledgeBaseRecord  
 
 ## Traits
 

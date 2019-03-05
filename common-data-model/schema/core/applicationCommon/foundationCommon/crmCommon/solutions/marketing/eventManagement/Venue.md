@@ -1,11 +1,12 @@
 ---
-title: Venue
-description: The Venue describes the location at which all event sessions and activities take place. A single event venue can be comprised of zero or more buildings, each of which can have zero or more rooms where sessions take place.
+title: Venue - Common Data Model | Microsoft Docs
+description: This describes the Venue entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Venue
@@ -18,7 +19,7 @@ The Venue describes the location at which all event sessions and activities take
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/solutions/marketing/eventManagement/Venue.cdm.json/Venue  
+- /foundationCommon/crmCommon/solutions/marketing/eventManagement/Venue  
 
 ## Traits
 

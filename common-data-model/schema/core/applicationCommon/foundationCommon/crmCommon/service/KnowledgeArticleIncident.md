@@ -1,11 +1,12 @@
 ---
-title: KnowledgeArticleIncident
+title: KnowledgeArticleIncident - Common Data Model | Microsoft Docs
 description: Association between an knowledge article and incident.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Knowledge Article Incident
@@ -18,7 +19,7 @@ Association between an knowledge article and incident.
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/service/KnowledgeArticleIncident.cdm.json/KnowledgeArticleIncident  
+- /foundationCommon/crmCommon/service/KnowledgeArticleIncident  
 
 ## Traits
 

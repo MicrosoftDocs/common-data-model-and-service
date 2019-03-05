@@ -1,11 +1,12 @@
 ---
-title: EventCustomRegistrationField
-description: undefined
+title: EventCustomRegistrationField - Common Data Model | Microsoft Docs
+description: This describes the EventCustomRegistrationField entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Event Custom Registration Field
@@ -17,7 +18,7 @@ ms.author: tpalmer
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/solutions/marketing/eventManagement/EventCustomRegistrationField.cdm.json/EventCustomRegistrationField  
+- /foundationCommon/crmCommon/solutions/marketing/eventManagement/EventCustomRegistrationField  
 
 ## Traits
 

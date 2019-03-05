@@ -1,11 +1,12 @@
 ---
-title: BusinessUnit
+title: BusinessUnit - Common Data Model | Microsoft Docs
 description: Business, division, or department in the Microsoft Dynamics 365 database.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Business Unit
@@ -18,7 +19,7 @@ Business, division, or department in the Microsoft Dynamics 365 database.
 
 Instances of this entity are listed below.  
 
-- /BusinessUnit.cdm.json/BusinessUnit  
+- /BusinessUnit  
 
 ## Traits
 

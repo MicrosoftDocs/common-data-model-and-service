@@ -1,11 +1,12 @@
 ---
-title: Opportunity
-description: Potential revenue-generating event, or sale to an account, which needs to be tracked through a sales process to completion.
+title: Opportunity - Common Data Model | Microsoft Docs
+description: This describes the Opportunity entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Opportunity
@@ -18,9 +19,9 @@ Potential revenue-generating event, or sale to an account, which needs to be tra
 
 Instances of this entity are listed below.  
 
-[/foundationCommon/crmCommon/accelerators/nonProfit/Opportunity.cdm.json/Opportunity](../accelerators/nonProfit/Opportunity.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Opportunity.cdm.json/Opportunity")  
-- /foundationCommon/crmCommon/sales/Opportunity.cdm.json/Opportunity  
-[/foundationCommon/crmCommon/solutions/portals/Opportunity.cdm.json/Opportunity](../solutions/portals/Opportunity.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Opportunity.cdm.json/Opportunity")  
+- [/foundationCommon/crmCommon/accelerators/nonProfit/Opportunity](../accelerators/nonProfit/Opportunity.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Opportunity.cdm.json/Opportunity")  
+- /foundationCommon/crmCommon/sales/Opportunity  
+- [/foundationCommon/crmCommon/solutions/portals/Opportunity](../solutions/portals/Opportunity.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Opportunity.cdm.json/Opportunity")  
 
 ## Traits
 

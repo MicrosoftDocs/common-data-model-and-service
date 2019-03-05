@@ -1,11 +1,12 @@
 ---
-title: MarketingListMember
+title: MarketingListMember - Common Data Model | Microsoft Docs
 description: Item in a marketing list.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Marketing List Member
@@ -18,7 +19,7 @@ Item in a marketing list.
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/MarketingListMember.cdm.json/MarketingListMember  
+- /foundationCommon/crmCommon/MarketingListMember  
 
 ## Traits
 

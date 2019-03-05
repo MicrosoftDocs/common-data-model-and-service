@@ -1,11 +1,12 @@
 ---
-title: HealthcareService
+title: HealthcareService - Common Data Model | Microsoft Docs
 description: The details of a healthcare service available at a location.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Healthcare Service
@@ -18,7 +19,7 @@ The details of a healthcare service available at a location.
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/HealthcareService.cdm.json/HealthcareService  
+- /foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/HealthcareService  
 
 ## Traits
 

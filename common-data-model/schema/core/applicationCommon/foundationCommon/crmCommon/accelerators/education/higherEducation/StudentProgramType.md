@@ -1,11 +1,12 @@
 ---
-title: StudentProgramType
+title: StudentProgramType - Common Data Model | Microsoft Docs
 description: The master list of program types defined by the institution, such as major, minor, or concentration.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Student Program Type
@@ -18,7 +19,7 @@ The master list of program types defined by the institution, such as major, mino
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/accelerators/education/higherEducation/StudentProgramType.cdm.json/StudentProgramType  
+- /foundationCommon/crmCommon/accelerators/education/higherEducation/StudentProgramType  
 
 ## Traits
 

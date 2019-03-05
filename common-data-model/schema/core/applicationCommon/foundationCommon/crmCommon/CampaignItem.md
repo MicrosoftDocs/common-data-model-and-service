@@ -1,11 +1,12 @@
 ---
-title: CampaignItem
+title: CampaignItem - Common Data Model | Microsoft Docs
 description: Work item in a campaign, a list or sales literature.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Campaign Item
@@ -18,7 +19,7 @@ Work item in a campaign, a list or sales literature.
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/CampaignItem.cdm.json/CampaignItem  
+- /foundationCommon/crmCommon/CampaignItem  
 
 ## Traits
 

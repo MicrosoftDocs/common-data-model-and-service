@@ -1,11 +1,12 @@
 ---
-title: CarePlan
-description: Describes the intention of how one or more practitioners intend to deliver care for a particular patient, group or community for a period of time, possibly limited to care for a specific condition
+title: CarePlan - Common Data Model | Microsoft Docs
+description: This describes the CarePlan entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Care Plan
@@ -18,7 +19,7 @@ Describes the intention of how one or more practitioners intend to deliver care 
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlan.cdm.json/CarePlan  
+- /foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlan  
 
 ## Traits
 

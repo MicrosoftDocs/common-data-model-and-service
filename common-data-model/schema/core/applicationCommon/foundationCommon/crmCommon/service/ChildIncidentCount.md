@@ -1,11 +1,12 @@
 ---
-title: ChildIncidentCount
+title: ChildIncidentCount - Common Data Model | Microsoft Docs
 description: For internal use only.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Child Incident Count
@@ -18,7 +19,7 @@ For internal use only.
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/service/ChildIncidentCount.cdm.json/ChildIncidentCount  
+- /foundationCommon/crmCommon/service/ChildIncidentCount  
 
 ## Traits
 

@@ -1,11 +1,12 @@
 ---
-title: Address
+title: Address - Common Data Model | Microsoft Docs
 description: Address and shipping information. Used to store additional addresses for an account or contact.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Address
@@ -18,10 +19,10 @@ Address and shipping information. Used to store additional addresses for an acco
 
 Instances of this entity are listed below.  
 
-[/Address.cdm.json/Address](../../../../../Address.md "/core/applicationCommon/Address.cdm.json/Address")  
-[/foundationCommon/crmCommon/accelerators/education/higherEducation/Address.cdm.json/Address](../../education/higherEducation/Address.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Address.cdm.json/Address")  
-- /foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Address.cdm.json/Address  
-[/foundationCommon/crmCommon/accelerators/nonProfit/Address.cdm.json/Address](../../nonProfit/Address.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Address.cdm.json/Address")  
+- [/Address](../../../../../Address.md "/core/applicationCommon/Address.cdm.json/Address")  
+- [/foundationCommon/crmCommon/accelerators/education/higherEducation/Address](../../education/higherEducation/Address.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Address.cdm.json/Address")  
+- /foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Address  
+- [/foundationCommon/crmCommon/accelerators/nonProfit/Address](../../nonProfit/Address.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Address.cdm.json/Address")  
 
 ## Traits
 

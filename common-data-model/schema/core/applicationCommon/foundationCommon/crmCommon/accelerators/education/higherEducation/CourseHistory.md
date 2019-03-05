@@ -1,11 +1,12 @@
 ---
-title: CourseHistory
+title: CourseHistory - Common Data Model | Microsoft Docs
 description: The course history for a student.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Course History
@@ -18,7 +19,7 @@ The course history for a student.
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/accelerators/education/higherEducation/CourseHistory.cdm.json/CourseHistory  
+- /foundationCommon/crmCommon/accelerators/education/higherEducation/CourseHistory  
 
 ## Traits
 

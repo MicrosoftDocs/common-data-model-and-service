@@ -1,11 +1,12 @@
 ---
-title: RelatedPerson
-description: Information about a person that is involved in the care for a patient, but who is not the target of healthcare, nor has a formal responsibility in the care process.
+title: RelatedPerson - Common Data Model | Microsoft Docs
+description: This describes the RelatedPerson entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Related Person
@@ -18,7 +19,7 @@ Information about a person that is involved in the care for a patient, but who i
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/RelatedPerson.cdm.json/RelatedPerson  
+- /foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/RelatedPerson  
 
 ## Traits
 

@@ -1,11 +1,12 @@
 ---
-title: BookableResourceBooking
+title: BookableResourceBooking - Common Data Model | Microsoft Docs
 description: Represents the line details of a resource booking.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Bookable Resource Booking
@@ -18,7 +19,7 @@ Represents the line details of a resource booking.
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/BookableResourceBooking.cdm.json/BookableResourceBooking  
+- /foundationCommon/BookableResourceBooking  
 
 ## Traits
 

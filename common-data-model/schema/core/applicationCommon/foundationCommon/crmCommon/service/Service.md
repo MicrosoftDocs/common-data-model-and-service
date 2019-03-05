@@ -1,11 +1,12 @@
 ---
-title: Service
+title: Service - Common Data Model | Microsoft Docs
 description: Activity that represents work done to satisfy a customer's need.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Service
@@ -18,7 +19,7 @@ Activity that represents work done to satisfy a customer's need.
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/service/Service.cdm.json/Service  
+- /foundationCommon/crmCommon/service/Service  
 
 ## Traits
 

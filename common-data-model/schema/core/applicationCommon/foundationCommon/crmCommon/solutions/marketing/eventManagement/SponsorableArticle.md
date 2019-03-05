@@ -1,11 +1,12 @@
 ---
-title: SponsorableArticle
+title: SponsorableArticle - Common Data Model | Microsoft Docs
 description: An item or a group of items that can be sponsored
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Sponsorable Article
@@ -18,7 +19,7 @@ An item or a group of items that can be sponsored
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/solutions/marketing/eventManagement/SponsorableArticle.cdm.json/SponsorableArticle  
+- /foundationCommon/crmCommon/solutions/marketing/eventManagement/SponsorableArticle  
 
 ## Traits
 

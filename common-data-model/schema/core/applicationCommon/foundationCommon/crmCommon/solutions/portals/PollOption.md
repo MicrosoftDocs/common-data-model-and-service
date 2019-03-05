@@ -1,11 +1,12 @@
 ---
-title: PollOption
-description: undefined
+title: PollOption - Common Data Model | Microsoft Docs
+description: This describes the PollOption entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Poll Option
@@ -17,7 +18,7 @@ ms.author: tpalmer
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/solutions/portals/PollOption.cdm.json/PollOption  
+- /foundationCommon/crmCommon/solutions/portals/PollOption  
 
 ## Traits
 

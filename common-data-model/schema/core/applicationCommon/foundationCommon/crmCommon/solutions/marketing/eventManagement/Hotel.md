@@ -1,11 +1,12 @@
 ---
-title: Hotel
-description: This represents a single hotel property (for e.g, Marriott in Bellevue). Each individual property belongs to a Hotel Group (e.g., Marriott) which is represented by an Account
+title: Hotel - Common Data Model | Microsoft Docs
+description: This describes the Hotel entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Hotel
@@ -18,7 +19,7 @@ This represents a single hotel property (for e.g, Marriott in Bellevue). Each in
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/solutions/marketing/eventManagement/Hotel.cdm.json/Hotel  
+- /foundationCommon/crmCommon/solutions/marketing/eventManagement/Hotel  
 
 ## Traits
 

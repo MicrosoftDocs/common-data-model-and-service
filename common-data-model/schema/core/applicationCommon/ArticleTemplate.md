@@ -1,11 +1,12 @@
 ---
-title: ArticleTemplate
+title: ArticleTemplate - Common Data Model | Microsoft Docs
 description: Template for a knowledge base article that contains the standard attributes of an article.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Article Template
@@ -18,7 +19,7 @@ Template for a knowledge base article that contains the standard attributes of a
 
 Instances of this entity are listed below.  
 
-- /ArticleTemplate.cdm.json/ArticleTemplate  
+- /ArticleTemplate  
 
 ## Traits
 

@@ -1,11 +1,12 @@
 ---
-title: Task
+title: Task - Common Data Model | Microsoft Docs
 description: Generic activity representing work needed to be done.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Task
@@ -18,10 +19,10 @@ Generic activity representing work needed to be done.
 
 Instances of this entity are listed below.  
 
-[/Task.cdm.json/Task](../../../../../Task.md "/core/applicationCommon/Task.cdm.json/Task")  
-- /foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.cdm.json/Task  
-[/foundationCommon/crmCommon/service/Task.cdm.json/Task](../../../service/Task.md "/core/applicationCommon/foundationCommon/crmCommon/service/Task.cdm.json/Task")  
-[/foundationCommon/crmCommon/solutions/marketing/Task.cdm.json/Task](../../../solutions/marketing/Task.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Task.cdm.json/Task")  
+- [/Task](../../../../../Task.md "/core/applicationCommon/Task.cdm.json/Task")  
+- /foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task  
+- [/foundationCommon/crmCommon/service/Task](../../../service/Task.md "/core/applicationCommon/foundationCommon/crmCommon/service/Task.cdm.json/Task")  
+- [/foundationCommon/crmCommon/solutions/marketing/Task](../../../solutions/marketing/Task.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Task.cdm.json/Task")  
 
 ## Traits
 

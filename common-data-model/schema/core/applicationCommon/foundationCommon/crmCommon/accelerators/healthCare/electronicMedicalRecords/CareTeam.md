@@ -1,11 +1,12 @@
 ---
-title: CareTeam
-description: The Care Team includes all the people and organizations who plan to participate in the coordination and delivery of care for a patient.
+title: CareTeam - Common Data Model | Microsoft Docs
+description: This describes the CareTeam entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Care Team
@@ -18,7 +19,7 @@ The Care Team includes all the people and organizations who plan to participate 
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CareTeam.cdm.json/CareTeam  
+- /foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CareTeam  
 
 ## Traits
 

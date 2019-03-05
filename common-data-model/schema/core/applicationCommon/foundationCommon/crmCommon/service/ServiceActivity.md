@@ -1,11 +1,12 @@
 ---
-title: ServiceActivity
-description: Activity offered by the organization to satisfy its customer's needs. Each service activity includes date, time, duration, and required resources.
+title: ServiceActivity - Common Data Model | Microsoft Docs
+description: This describes the ServiceActivity entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Service Activity
@@ -18,7 +19,7 @@ Activity offered by the organization to satisfy its customer's needs. Each servi
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/service/ServiceActivity.cdm.json/ServiceActivity  
+- /foundationCommon/crmCommon/service/ServiceActivity  
 
 ## Traits
 

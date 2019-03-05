@@ -1,11 +1,12 @@
 ---
-title: MarketingEmail
-description: undefined
+title: MarketingEmail - Common Data Model | Microsoft Docs
+description: This describes the MarketingEmail entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Marketing Email
@@ -17,7 +18,7 @@ ms.author: tpalmer
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/solutions/marketing/MarketingEmail.cdm.json/MarketingEmail  
+- /foundationCommon/crmCommon/solutions/marketing/MarketingEmail  
 
 ## Traits
 

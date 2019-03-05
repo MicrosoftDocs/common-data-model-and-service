@@ -1,11 +1,12 @@
 ---
-title: Encounter
-description: An interaction between a patient and healthcare provider(s) for the purpose of providing healthcare service(s) or assessing the health status of a patient.
+title: Encounter - Common Data Model | Microsoft Docs
+description: This describes the Encounter entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Encounter
@@ -18,7 +19,7 @@ An interaction between a patient and healthcare provider(s) for the purpose of p
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json/Encounter  
+- /foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter  
 
 ## Traits
 

@@ -1,11 +1,12 @@
 ---
-title: DisbursementDistribution
-description: Defines the Delivery Framework(s) - i.e. Program, Project, Initiative - that contribute to funding an Award Disbursement.
+title: DisbursementDistribution - Common Data Model | Microsoft Docs
+description: This describes the DisbursementDistribution entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Disbursement Distribution
@@ -18,7 +19,7 @@ Defines the Delivery Framework(s) - i.e. Program, Project, Initiative - that con
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/accelerators/nonProfit/DisbursementDistribution.cdm.json/DisbursementDistribution  
+- /foundationCommon/crmCommon/accelerators/nonProfit/DisbursementDistribution  
 
 ## Traits
 

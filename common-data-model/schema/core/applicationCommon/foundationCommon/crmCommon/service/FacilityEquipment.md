@@ -1,11 +1,12 @@
 ---
-title: FacilityEquipment
+title: FacilityEquipment - Common Data Model | Microsoft Docs
 description: Resource that can be scheduled.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Facility/Equipment
@@ -18,7 +19,7 @@ Resource that can be scheduled.
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/service/FacilityEquipment.cdm.json/FacilityEquipment  
+- /foundationCommon/crmCommon/service/FacilityEquipment  
 
 ## Traits
 

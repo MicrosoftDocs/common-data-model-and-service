@@ -1,11 +1,12 @@
 ---
-title: BookableResourceCharacteristic
-description: Associates resources with their characteristics and specifies the proficiency level of a resource for that characteristic.
+title: BookableResourceCharacteristic - Common Data Model | Microsoft Docs
+description: This describes the BookableResourceCharacteristic entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Bookable Resource Characteristic
@@ -18,7 +19,7 @@ Associates resources with their characteristics and specifies the proficiency le
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/BookableResourceCharacteristic.cdm.json/BookableResourceCharacteristic  
+- /foundationCommon/BookableResourceCharacteristic  
 
 ## Traits
 

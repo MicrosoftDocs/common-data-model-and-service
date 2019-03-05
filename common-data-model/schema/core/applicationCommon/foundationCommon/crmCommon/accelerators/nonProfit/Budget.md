@@ -1,11 +1,12 @@
 ---
-title: Budget
-description: Amount of funds that can be designated for an Objective and/or Delivery Framework (i.e. Program, Project) for a given period of time.
+title: Budget - Common Data Model | Microsoft Docs
+description: This describes the Budget entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Budget
@@ -18,7 +19,7 @@ Amount of funds that can be designated for an Objective and/or Delivery Framewor
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/accelerators/nonProfit/Budget.cdm.json/Budget  
+- /foundationCommon/crmCommon/accelerators/nonProfit/Budget  
 
 ## Traits
 

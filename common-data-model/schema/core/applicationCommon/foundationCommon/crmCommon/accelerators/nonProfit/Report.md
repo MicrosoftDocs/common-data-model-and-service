@@ -1,11 +1,12 @@
 ---
-title: Report
-description: A status report submitted by an awardee to the granting entity (i.e., a Foundation) to report on what impact has been accomplished to date through the funds awarded to them.
+title: Report - Common Data Model | Microsoft Docs
+description: This describes the Report entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Report
@@ -18,7 +19,7 @@ A status report submitted by an awardee to the granting entity (i.e., a Foundati
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/accelerators/nonProfit/Report.cdm.json/Report  
+- /foundationCommon/crmCommon/accelerators/nonProfit/Report  
 
 ## Traits
 

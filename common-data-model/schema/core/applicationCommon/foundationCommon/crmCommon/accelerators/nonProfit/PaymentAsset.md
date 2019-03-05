@@ -1,11 +1,12 @@
 ---
-title: PaymentAsset
-description: Specific types of payments, including in-kind gifts, stock and securities that are classified as assets require non-profits to follow specific reporting rules.  Managing these gifts tends to be very manual work for nonprofit development operations staff.  These gifts come in through a bank, must be manually reviewed and entered into a batch.  Often there are questions that need to be answered before a gift entry can be completed with ease.
+title: PaymentAsset - Common Data Model | Microsoft Docs
+description: This describes the PaymentAsset entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Payment Asset
@@ -18,7 +19,7 @@ Specific types of payments, including in-kind gifts, stock and securities that a
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/accelerators/nonProfit/PaymentAsset.cdm.json/PaymentAsset  
+- /foundationCommon/crmCommon/accelerators/nonProfit/PaymentAsset  
 
 ## Traits
 

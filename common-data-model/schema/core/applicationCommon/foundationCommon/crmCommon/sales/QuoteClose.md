@@ -1,11 +1,12 @@
 ---
-title: QuoteClose
+title: QuoteClose - Common Data Model | Microsoft Docs
 description: Activity generated when a quote is closed.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Quote Close
@@ -18,7 +19,7 @@ Activity generated when a quote is closed.
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/sales/QuoteClose.cdm.json/QuoteClose  
+- /foundationCommon/crmCommon/sales/QuoteClose  
 
 ## Traits
 

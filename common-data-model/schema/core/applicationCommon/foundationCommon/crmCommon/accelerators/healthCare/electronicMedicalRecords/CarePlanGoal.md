@@ -1,11 +1,12 @@
 ---
-title: CarePlanGoal
+title: CarePlanGoal - Common Data Model | Microsoft Docs
 description: Describes the intended objective(s) of carrying out the care plan.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Care Plan Goal
@@ -18,7 +19,7 @@ Describes the intended objective(s) of carrying out the care plan.
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlanGoal.cdm.json/CarePlanGoal  
+- /foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlanGoal  
 
 ## Traits
 

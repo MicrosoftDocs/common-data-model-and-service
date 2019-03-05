@@ -1,11 +1,12 @@
 ---
-title: SocialActivity
+title: SocialActivity - Common Data Model | Microsoft Docs
 description: For internal use only.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Social Activity
@@ -18,8 +19,8 @@ For internal use only.
 
 Instances of this entity are listed below.  
 
-- /SocialActivity.cdm.json/SocialActivity  
-[/foundationCommon/crmCommon/SocialActivity.cdm.json/SocialActivity](foundationCommon/crmCommon/SocialActivity.md "/core/applicationCommon/foundationCommon/crmCommon/SocialActivity.cdm.json/SocialActivity")  
+- /SocialActivity  
+- [/foundationCommon/crmCommon/SocialActivity](foundationCommon/crmCommon/SocialActivity.md "/core/applicationCommon/foundationCommon/crmCommon/SocialActivity.cdm.json/SocialActivity")  
 
 ## Traits
 

@@ -1,11 +1,12 @@
 ---
-title: LinkedInLeadGenForm
+title: LinkedInLeadGenForm - Common Data Model | Microsoft Docs
 description: Form shown to prospects on LinkedIn
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # LinkedIn Lead Gen Form
@@ -18,7 +19,7 @@ Form shown to prospects on LinkedIn
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/solutions/marketing/LinkedInLeads/LinkedInLeadGenForm.cdm.json/LinkedInLeadGenForm  
+- /foundationCommon/crmCommon/solutions/marketing/LinkedInLeads/LinkedInLeadGenForm  
 
 ## Traits
 

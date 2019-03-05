@@ -1,11 +1,12 @@
 ---
-title: RiskAssessment
-description: An assessment of the likely outcome(s) for a patient or other subject as well as the likelihood of each outcome.
+title: RiskAssessment - Common Data Model | Microsoft Docs
+description: This describes the RiskAssessment entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Risk Assessment
@@ -18,7 +19,7 @@ An assessment of the likely outcome(s) for a patient or other subject as well as
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/RiskAssessment.cdm.json/RiskAssessment  
+- /foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/RiskAssessment  
 
 ## Traits
 

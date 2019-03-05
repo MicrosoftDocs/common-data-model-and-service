@@ -1,11 +1,12 @@
 ---
-title: ForumPost
-description: undefined
+title: ForumPost - Common Data Model | Microsoft Docs
+description: This describes the ForumPost entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Forum Post
@@ -17,7 +18,7 @@ ms.author: tpalmer
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/solutions/portals/ForumPost.cdm.json/ForumPost  
+- /foundationCommon/crmCommon/solutions/portals/ForumPost  
 
 ## Traits
 

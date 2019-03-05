@@ -1,11 +1,12 @@
 ---
-title: Feedback
+title: Feedback - Common Data Model | Microsoft Docs
 description: Container for feedback and ratings for knowledge articles.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Feedback
@@ -18,8 +19,8 @@ Container for feedback and ratings for knowledge articles.
 
 Instances of this entity are listed below.  
 
-- /Feedback.cdm.json/Feedback  
-[/foundationCommon/crmCommon/solutions/portals/Feedback.cdm.json/Feedback](foundationCommon/crmCommon/solutions/portals/Feedback.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Feedback.cdm.json/Feedback")  
+- /Feedback  
+- [/foundationCommon/crmCommon/solutions/portals/Feedback](foundationCommon/crmCommon/solutions/portals/Feedback.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Feedback.cdm.json/Feedback")  
 
 ## Traits
 

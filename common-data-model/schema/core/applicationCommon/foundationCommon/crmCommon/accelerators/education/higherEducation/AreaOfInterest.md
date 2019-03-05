@@ -1,11 +1,12 @@
 ---
-title: AreaOfInterest
-description: The master list of all area of interests offered by an institution.  Areas of interest are higher level subject groupings like astronomy, or business.
+title: AreaOfInterest - Common Data Model | Microsoft Docs
+description: This describes the AreaOfInterest entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Area of Interest
@@ -18,7 +19,7 @@ The master list of all area of interests offered by an institution.  Areas of in
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/accelerators/education/higherEducation/AreaOfInterest.cdm.json/AreaOfInterest  
+- /foundationCommon/crmCommon/accelerators/education/higherEducation/AreaOfInterest  
 
 ## Traits
 

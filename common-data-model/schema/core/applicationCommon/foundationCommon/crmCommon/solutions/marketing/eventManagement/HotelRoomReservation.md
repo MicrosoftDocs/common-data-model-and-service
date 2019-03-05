@@ -1,11 +1,12 @@
 ---
-title: HotelRoomReservation
-description: Each record of this type tracks a single request made by an event attendee (through the registration portal) to reserve a hotel room from the available hotel allocations
+title: HotelRoomReservation - Common Data Model | Microsoft Docs
+description: This describes the HotelRoomReservation entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Hotel Room Reservation
@@ -18,7 +19,7 @@ Each record of this type tracks a single request made by an event attendee (thro
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomReservation.cdm.json/HotelRoomReservation  
+- /foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomReservation  
 
 ## Traits
 

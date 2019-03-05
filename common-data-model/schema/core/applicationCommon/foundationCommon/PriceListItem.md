@@ -1,11 +1,12 @@
 ---
-title: PriceListItem
-description: Information about how to price a product in the specified price level, including pricing method, rounding option, and discount type based on a specified product unit.
+title: PriceListItem - Common Data Model | Microsoft Docs
+description: This describes the PriceListItem entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Price List Item
@@ -18,8 +19,8 @@ Information about how to price a product in the specified price level, including
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/PriceListItem.cdm.json/PriceListItem  
-[/foundationCommon/crmCommon/sales/PriceListItem.cdm.json/PriceListItem](crmCommon/sales/PriceListItem.md "/core/applicationCommon/foundationCommon/crmCommon/sales/PriceListItem.cdm.json/PriceListItem")  
+- /foundationCommon/PriceListItem  
+- [/foundationCommon/crmCommon/sales/PriceListItem](crmCommon/sales/PriceListItem.md "/core/applicationCommon/foundationCommon/crmCommon/sales/PriceListItem.cdm.json/PriceListItem")  
 
 ## Traits
 

@@ -1,11 +1,12 @@
 ---
-title: RatingModel
+title: RatingModel - Common Data Model | Microsoft Docs
 description: Represents a model to evaluate skills or other related entities.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Rating Model
@@ -18,7 +19,7 @@ Represents a model to evaluate skills or other related entities.
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/RatingModel.cdm.json/RatingModel  
+- /foundationCommon/RatingModel  
 
 ## Traits
 

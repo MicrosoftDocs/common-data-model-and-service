@@ -1,11 +1,12 @@
 ---
-title: BlogPost
+title: BlogPost - Common Data Model | Microsoft Docs
 description: A post belonging to a portal blog.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Blog Post
@@ -18,7 +19,7 @@ A post belonging to a portal blog.
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/solutions/portals/BlogPost.cdm.json/BlogPost  
+- /foundationCommon/crmCommon/solutions/portals/BlogPost  
 
 ## Traits
 

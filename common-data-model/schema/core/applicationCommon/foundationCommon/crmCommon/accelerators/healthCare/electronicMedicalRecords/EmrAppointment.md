@@ -1,11 +1,12 @@
 ---
-title: EmrAppointment
-description: A booking of a healthcare event among patient(s), practitioner(s), related person(s) and/or device(s) for a specific date/time. This may result in one or more Encounter(s).
+title: EmrAppointment - Common Data Model | Microsoft Docs
+description: This describes the EmrAppointment entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Appointment (EMR)
@@ -18,7 +19,7 @@ A booking of a healthcare event among patient(s), practitioner(s), related perso
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment  
+- /foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment  
 
 ## Traits
 

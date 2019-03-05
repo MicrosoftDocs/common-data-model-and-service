@@ -1,11 +1,12 @@
 ---
-title: LeadScoringModel
-description: undefined
+title: LeadScoringModel - Common Data Model | Microsoft Docs
+description: This describes the LeadScoringModel entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Lead Scoring Model
@@ -17,7 +18,7 @@ ms.author: tpalmer
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/solutions/marketing/marketingLeads/LeadScoringModel.cdm.json/LeadScoringModel  
+- /foundationCommon/crmCommon/solutions/marketing/marketingLeads/LeadScoringModel  
 
 ## Traits
 

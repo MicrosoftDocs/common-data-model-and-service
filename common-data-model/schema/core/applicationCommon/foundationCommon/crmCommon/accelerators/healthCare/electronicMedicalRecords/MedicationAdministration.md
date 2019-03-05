@@ -1,11 +1,12 @@
 ---
-title: MedicationAdministration
+title: MedicationAdministration - Common Data Model | Microsoft Docs
 description: Describes the event of a patient consuming or otherwise being administered a medication.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Medication Administration
@@ -18,7 +19,7 @@ Describes the event of a patient consuming or otherwise being administered a med
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json/MedicationAdministration  
+- /foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration  
 
 ## Traits
 

@@ -1,11 +1,12 @@
 ---
-title: RedirectLinkClicked
-description: undefined
+title: RedirectLinkClicked - Common Data Model | Microsoft Docs
+description: This describes the RedirectLinkClicked entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Redirect link clicked
@@ -17,7 +18,7 @@ ms.author: tpalmer
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/solutions/marketing/interactions/RedirectLinkClicked.cdm.json/RedirectLinkClicked  
+- /foundationCommon/crmCommon/solutions/marketing/interactions/RedirectLinkClicked  
 
 ## Traits
 

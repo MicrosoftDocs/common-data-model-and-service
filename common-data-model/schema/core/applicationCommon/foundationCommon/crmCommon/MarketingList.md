@@ -1,11 +1,12 @@
 ---
-title: MarketingList
+title: MarketingList - Common Data Model | Microsoft Docs
 description: Group of existing or potential customers created for a marketing campaign or other sales purposes.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Marketing List
@@ -18,8 +19,8 @@ Group of existing or potential customers created for a marketing campaign or oth
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/MarketingList.cdm.json/MarketingList  
-[/foundationCommon/crmCommon/solutions/marketing/MarketingList.cdm.json/MarketingList](solutions/marketing/MarketingList.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/MarketingList.cdm.json/MarketingList")  
+- /foundationCommon/crmCommon/MarketingList  
+- [/foundationCommon/crmCommon/solutions/marketing/MarketingList](solutions/marketing/MarketingList.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/MarketingList.cdm.json/MarketingList")  
 
 ## Traits
 

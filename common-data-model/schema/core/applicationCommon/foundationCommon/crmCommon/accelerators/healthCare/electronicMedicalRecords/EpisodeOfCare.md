@@ -1,11 +1,12 @@
 ---
-title: EpisodeOfCare
-description: An association between a patient and an organization / healthcare provider(s) during which time encounters may occur.
+title: EpisodeOfCare - Common Data Model | Microsoft Docs
+description: This describes the EpisodeOfCare entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Episode of Care
@@ -18,7 +19,7 @@ An association between a patient and an organization / healthcare provider(s) du
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EpisodeOfCare.cdm.json/EpisodeOfCare  
+- /foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EpisodeOfCare  
 
 ## Traits
 

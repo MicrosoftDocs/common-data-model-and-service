@@ -1,11 +1,12 @@
 ---
-title: CodeableConcept
-description: A Codeable Concept represents a value that is usually supplied by providing a reference to one or more terminologies, but may also be defined by the provision of text.
+title: CodeableConcept - Common Data Model | Microsoft Docs
+description: This describes the CodeableConcept entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Codeable Concept
@@ -18,7 +19,7 @@ A Codeable Concept represents a value that is usually supplied by providing a re
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CodeableConcept.cdm.json/CodeableConcept  
+- /foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CodeableConcept  
 
 ## Traits
 

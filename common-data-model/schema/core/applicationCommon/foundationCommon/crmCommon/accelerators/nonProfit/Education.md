@@ -1,11 +1,12 @@
 ---
-title: Education
-description: Biographical information about the education institutions a contact attended or is attending, the areas of study (major/minor) concentrated on, activities and roles served, preferences (football booster, patron of the on-campus art museum, etc.), and the start and end dates associated with this information.  It's particularly important for mid-level and major gift fundraisers based in the United States to understand someone's university/college alumni/alumnae network and peers in order to build a bigger qualified prospect pipeline.  University/college association is not as relevant or important in the UK, for example, compared to the US.  Nonprofit organizations with a bigger focus on major gifts care more about tracking educational information at a deeper level.
+title: Education - Common Data Model | Microsoft Docs
+description: This describes the Education entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Education
@@ -18,7 +19,7 @@ Biographical information about the education institutions a contact attended or 
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/accelerators/nonProfit/Education.cdm.json/Education  
+- /foundationCommon/crmCommon/accelerators/nonProfit/Education  
 
 ## Traits
 

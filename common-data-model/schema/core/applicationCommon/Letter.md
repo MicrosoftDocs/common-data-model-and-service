@@ -1,11 +1,12 @@
 ---
-title: Letter
+title: Letter - Common Data Model | Microsoft Docs
 description: Activity that tracks the delivery of a letter. The activity can contain the electronic copy of the letter.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Letter
@@ -18,8 +19,8 @@ Activity that tracks the delivery of a letter. The activity can contain the elec
 
 Instances of this entity are listed below.  
 
-- /Letter.cdm.json/Letter  
-[/foundationCommon/crmCommon/Letter.cdm.json/Letter](foundationCommon/crmCommon/Letter.md "/core/applicationCommon/foundationCommon/crmCommon/Letter.cdm.json/Letter")  
+- /Letter  
+- [/foundationCommon/crmCommon/Letter](foundationCommon/crmCommon/Letter.md "/core/applicationCommon/foundationCommon/crmCommon/Letter.cdm.json/Letter")  
 
 ## Traits
 

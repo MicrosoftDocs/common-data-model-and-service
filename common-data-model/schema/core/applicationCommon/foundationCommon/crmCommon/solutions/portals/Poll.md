@@ -1,11 +1,12 @@
 ---
-title: Poll
-description: undefined
+title: Poll - Common Data Model | Microsoft Docs
+description: This describes the Poll entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Poll
@@ -17,7 +18,7 @@ ms.author: tpalmer
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/solutions/portals/Poll.cdm.json/Poll  
+- /foundationCommon/crmCommon/solutions/portals/Poll  
 
 ## Traits
 

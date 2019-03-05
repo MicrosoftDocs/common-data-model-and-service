@@ -1,11 +1,12 @@
 ---
-title: TestScore
+title: TestScore - Common Data Model | Microsoft Docs
 description: Test scores for a Student Contact
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Test Score
@@ -18,7 +19,7 @@ Test scores for a Student Contact
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/accelerators/education/higherEducation/TestScore.cdm.json/TestScore  
+- /foundationCommon/crmCommon/accelerators/education/higherEducation/TestScore  
 
 ## Traits
 

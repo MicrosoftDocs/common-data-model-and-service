@@ -1,11 +1,12 @@
 ---
-title: MainAccount
+title: MainAccount - Common Data Model | Microsoft Docs
 description: An account whose balance is displayed in major financial statements
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Main Account
@@ -18,7 +19,7 @@ An account whose balance is displayed in major financial statements
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/financialCommon/MainAccount.cdm.json/MainAccount  
+- /foundationCommon/financialCommon/MainAccount  
 
 ## Traits
 

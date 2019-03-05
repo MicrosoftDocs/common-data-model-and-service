@@ -1,11 +1,12 @@
 ---
-title: AllergyIntolerance
-description: Risk of harmful or undesirable, physiological response which is unique to an individual and associated with exposure to a substance.
+title: AllergyIntolerance - Common Data Model | Microsoft Docs
+description: This describes the AllergyIntolerance entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Allergy Intolerance
@@ -18,7 +19,7 @@ Risk of harmful or undesirable, physiological response which is unique to an ind
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/AllergyIntolerance.cdm.json/AllergyIntolerance  
+- /foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/AllergyIntolerance  
 
 ## Traits
 

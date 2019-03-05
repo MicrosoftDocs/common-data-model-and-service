@@ -1,11 +1,12 @@
 ---
-title: TriggerCrmWorkflowActivityContactProcessed
-description: undefined
+title: TriggerCrmWorkflowActivityContactProcessed - Common Data Model | Microsoft Docs
+description: This describes the TriggerCrmWorkflowActivityContactProcessed entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Trigger workflow activity contact processed
@@ -17,7 +18,7 @@ ms.author: tpalmer
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/solutions/marketing/interactions/TriggerCrmWorkflowActivityContactProcessed.cdm.json/TriggerCrmWorkflowActivityContactProcessed  
+- /foundationCommon/crmCommon/solutions/marketing/interactions/TriggerCrmWorkflowActivityContactProcessed  
 
 ## Traits
 

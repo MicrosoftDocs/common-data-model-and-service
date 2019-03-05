@@ -1,11 +1,12 @@
 ---
-title: SLAKPIInstance
+title: SLAKPIInstance - Common Data Model | Microsoft Docs
 description: Service level agreement (SLA) key performance indicator (KPI) instance that is tracked for an individual case
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # SLA KPI Instance
@@ -18,8 +19,8 @@ Service level agreement (SLA) key performance indicator (KPI) instance that is t
 
 Instances of this entity are listed below.  
 
-- /SLAKPIInstance.cdm.json/SLAKPIInstance  
-[/foundationCommon/crmCommon/service/SLAKPIInstance.cdm.json/SLAKPIInstance](foundationCommon/crmCommon/service/SLAKPIInstance.md "/core/applicationCommon/foundationCommon/crmCommon/service/SLAKPIInstance.cdm.json/SLAKPIInstance")  
+- /SLAKPIInstance  
+- [/foundationCommon/crmCommon/service/SLAKPIInstance](foundationCommon/crmCommon/service/SLAKPIInstance.md "/core/applicationCommon/foundationCommon/crmCommon/service/SLAKPIInstance.cdm.json/SLAKPIInstance")  
 
 ## Traits
 

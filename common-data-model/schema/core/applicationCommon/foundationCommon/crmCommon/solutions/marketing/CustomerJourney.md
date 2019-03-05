@@ -1,11 +1,12 @@
 ---
-title: CustomerJourney
-description: undefined
+title: CustomerJourney - Common Data Model | Microsoft Docs
+description: This describes the CustomerJourney entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Customer Journey
@@ -17,7 +18,7 @@ ms.author: tpalmer
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/solutions/marketing/CustomerJourney.cdm.json/CustomerJourney  
+- /foundationCommon/crmCommon/solutions/marketing/CustomerJourney  
 
 ## Traits
 

@@ -1,11 +1,12 @@
 ---
-title: WebFileLog
+title: WebFileLog - Common Data Model | Microsoft Docs
 description: A record of the download of a web file
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Web File Log
@@ -18,7 +19,7 @@ A record of the download of a web file
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/solutions/portals/WebFileLog.cdm.json/WebFileLog  
+- /foundationCommon/crmCommon/solutions/portals/WebFileLog  
 
 ## Traits
 

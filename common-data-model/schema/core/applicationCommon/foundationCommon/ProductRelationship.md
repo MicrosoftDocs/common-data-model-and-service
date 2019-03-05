@@ -1,11 +1,12 @@
 ---
-title: ProductRelationship
-description: Information about the selling relationship between two products, including the relationship type, such as up-sell, cross-sell, substitute, or accessory.
+title: ProductRelationship - Common Data Model | Microsoft Docs
+description: This describes the ProductRelationship entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Product Relationship
@@ -18,7 +19,7 @@ Information about the selling relationship between two products, including the r
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/ProductRelationship.cdm.json/ProductRelationship  
+- /foundationCommon/ProductRelationship  
 
 ## Traits
 

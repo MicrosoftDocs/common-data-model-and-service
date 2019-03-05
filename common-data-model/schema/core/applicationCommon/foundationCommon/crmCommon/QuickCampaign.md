@@ -1,11 +1,12 @@
 ---
-title: QuickCampaign
-description: System operation used to perform lengthy and asynchronous operations on large data sets, such as distributing a campaign activity or quick campaign.
+title: QuickCampaign - Common Data Model | Microsoft Docs
+description: This describes the QuickCampaign entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Quick Campaign
@@ -18,7 +19,7 @@ System operation used to perform lengthy and asynchronous operations on large da
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign  
+- /foundationCommon/crmCommon/QuickCampaign  
 
 ## Traits
 

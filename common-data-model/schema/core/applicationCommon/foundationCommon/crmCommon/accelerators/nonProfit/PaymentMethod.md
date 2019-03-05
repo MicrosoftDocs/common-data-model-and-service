@@ -1,11 +1,12 @@
 ---
-title: PaymentMethod
-description: This is a parent entity for Payment Method customizations that may be supported by an application.  Possible extensions could be to support credit cards, EFT, cryptocurrency, mobile payments, or rewards points.
+title: PaymentMethod - Common Data Model | Microsoft Docs
+description: This describes the PaymentMethod entitity.
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Payment Method
@@ -18,7 +19,7 @@ This is a parent entity for Payment Method customizations that may be supported 
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/accelerators/nonProfit/PaymentMethod.cdm.json/PaymentMethod  
+- /foundationCommon/crmCommon/accelerators/nonProfit/PaymentMethod  
 
 ## Traits
 

@@ -1,11 +1,12 @@
 ---
-title: KnowledgeArticleViews
+title: KnowledgeArticleViews - Common Data Model | Microsoft Docs
 description: No of times an article is viewed per day
+author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 3/5/2019
-ms.author: tpalmer
+ms.author: nebanfic
 ---
 
 # Knowledge Article Views
@@ -18,8 +19,8 @@ No of times an article is viewed per day
 
 Instances of this entity are listed below.  
 
-- /KnowledgeArticleViews.cdm.json/KnowledgeArticleViews  
-[/foundationCommon/crmCommon/solutions/portals/KnowledgeArticleViews.cdm.json/KnowledgeArticleViews](foundationCommon/crmCommon/solutions/portals/KnowledgeArticleViews.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/KnowledgeArticleViews.cdm.json/KnowledgeArticleViews")  
+- /KnowledgeArticleViews  
+- [/foundationCommon/crmCommon/solutions/portals/KnowledgeArticleViews](foundationCommon/crmCommon/solutions/portals/KnowledgeArticleViews.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/KnowledgeArticleViews.cdm.json/KnowledgeArticleViews")  
 
 ## Traits
 
