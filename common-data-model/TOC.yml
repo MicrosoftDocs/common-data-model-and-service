@@ -17,5 +17,8 @@
     items:
       - name: Model metadata
         href: model-json.md
+  - name: Entity reference
+    href: schema/core/applicationCommon/toc.yml
+    topicHref: schema/core/applicationCommon/overview.md
   - name: Frequently asked questions
     href: faq.md
