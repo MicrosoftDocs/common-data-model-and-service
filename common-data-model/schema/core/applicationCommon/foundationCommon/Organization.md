@@ -376,36 +376,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Organization</td></tr><tr><td>description</td><td>Unique identifier of the organization.</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>sourceName</td><td>organizationid</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the organizationId attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.dataFormat.guid**  
-- **means.identity.entityId**  
-- **is.identifiedBy**  
-names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Organization/hasAttributes/organizationId](#organizationId)</td><td>attribute</td><td></td></tr></table>
-
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Organization</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the organization.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>organizationid</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>1</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#name name="name">name</a>
 
 Name of the organization. The name is set when Microsoft CRM is installed and should not be changed.  
@@ -414,35 +384,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Organization Name</td></tr><tr><td>description</td><td>Name of the organization. The name is set when Microsoft CRM is installed and should not be changed.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>160</td></tr><tr><td>sourceName</td><td>name</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the name attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **means.identity.name**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Organization Name</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Name of the organization. The name is set when Microsoft CRM is installed and should not be changed.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>name</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>2</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>160</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#userGroupId name="userGroupId">userGroupId</a>
 
@@ -453,35 +394,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>User Group</td></tr><tr><td>description</td><td>Unique identifier of the default group of users in the organization.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>usergroupid</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the userGroupId attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.dataFormat.guid**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>User Group</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the default group of users in the organization.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>usergroupid</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>3</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#privilegeUserGroupId name="privilegeUserGroupId">privilegeUserGroupId</a>
 
 Unique identifier of the default privilege for users in the organization.  
@@ -490,35 +402,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Privilege User Group</td></tr><tr><td>description</td><td>Unique identifier of the default privilege for users in the organization.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>privilegeusergroupid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the privilegeUserGroupId attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.dataFormat.guid**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Privilege User Group</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the default privilege for users in the organization.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>privilegeusergroupid</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>4</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#recurrenceExpansionJobBatchSize name="recurrenceExpansionJobBatchSize">recurrenceExpansionJobBatchSize</a>
 
@@ -529,32 +412,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Recurrence Expansion On Demand Job Batch Size</td></tr><tr><td>description</td><td>Specifies the value for number of instances created in on demand job in one shot.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>recurrenceexpansionjobbatchsize</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the recurrenceExpansionJobBatchSize attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Recurrence Expansion On Demand Job Batch Size</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Specifies the value for number of instances created in on demand job in one shot.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>recurrenceexpansionjobbatchsize</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>5</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#recurrenceExpansionJobBatchInterval name="recurrenceExpansionJobBatchInterval">recurrenceExpansionJobBatchInterval</a>
 
 Specifies the interval (in seconds) for pausing expansion job.  
@@ -563,32 +420,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Recurrence Expansion Job Batch Interval</td></tr><tr><td>description</td><td>Specifies the interval (in seconds) for pausing expansion job.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>recurrenceexpansionjobbatchinterval</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the recurrenceExpansionJobBatchInterval attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Recurrence Expansion Job Batch Interval</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Specifies the interval (in seconds) for pausing expansion job.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>recurrenceexpansionjobbatchinterval</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>6</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#fiscalPeriodType name="fiscalPeriodType">fiscalPeriodType</a>
 
@@ -599,32 +430,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Fiscal Period Type</td></tr><tr><td>description</td><td>Type of fiscal period used throughout Microsoft CRM.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>sourceName</td><td>fiscalperiodtype</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the fiscalPeriodType attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Fiscal Period Type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Type of fiscal period used throughout Microsoft CRM.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>fiscalperiodtype</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>7</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>-2147483648</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#fiscalCalendarStart name="fiscalCalendarStart">fiscalCalendarStart</a>
 
 Start date for the fiscal period that is to be used throughout Microsoft CRM.  
@@ -633,35 +438,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Fiscal Calendar Start</td></tr><tr><td>description</td><td>Start date for the fiscal period that is to be used throughout Microsoft CRM.</td></tr><tr><td>dataFormat</td><td>DateTimeOffset</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>fiscalcalendarstart</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the fiscalCalendarStart attribute are listed below.</summary>
-
-- **is.dataFormat.date**  
-- **means.measurement.date**  
-- **is.dataFormat.time**  
-- **means.measurement.time**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Fiscal Calendar Start</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Start date for the fiscal period that is to be used throughout Microsoft CRM.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>fiscalcalendarstart</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>8</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#dateFormatCode name="dateFormatCode">dateFormatCode</a>
 
@@ -672,35 +448,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Date Format Code</td></tr><tr><td>description</td><td>Information about how the date is displayed throughout Microsoft CRM.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>dateformatcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td></td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the dateFormatCode attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr></table></td><td>any</td><td></td></tr></table>
-
-- **is.constrainedList**  
-the values of an attribute are taken from or looked up from a fixed list of possibilities  
-
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Date Format Code</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Information about how the date is displayed throughout Microsoft CRM.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>dateformatcode</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>9</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#dateFormatCode_display name="dateFormatCode_display">dateFormatCode_display</a>
 
 First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
@@ -708,21 +455,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the dateFormatCode_display attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **means.reference.displayText**  
-- **is.readOnly**  
-- **is.addedInSupportOf**  
-<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>dateFormatCode</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
-
-</details>
 
 ### <a href=#timeFormatCode name="timeFormatCode">timeFormatCode</a>
 
@@ -733,35 +465,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Time Format Code</td></tr><tr><td>description</td><td>Information that specifies how the time is displayed throughout Microsoft CRM.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>timeformatcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td></td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the timeFormatCode attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr></table></td><td>any</td><td></td></tr></table>
-
-- **is.constrainedList**  
-the values of an attribute are taken from or looked up from a fixed list of possibilities  
-
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Time Format Code</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Information that specifies how the time is displayed throughout Microsoft CRM.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>timeformatcode</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#timeFormatCode_display name="timeFormatCode_display">timeFormatCode_display</a>
 
 First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
@@ -769,21 +472,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the timeFormatCode_display attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **means.reference.displayText**  
-- **is.readOnly**  
-- **is.addedInSupportOf**  
-<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>timeFormatCode</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
-
-</details>
 
 ### <a href=#currencySymbol name="currencySymbol">currencySymbol</a>
 
@@ -794,37 +482,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Currency Symbol</td></tr><tr><td>description</td><td>Symbol used for currency throughout Microsoft Dynamics 365.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>currencysymbol</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the currencySymbol attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Currency Symbol</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Symbol used for currency throughout Microsoft Dynamics 365.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>currencysymbol</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>11</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>13</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#weekStartDayCode name="weekStartDayCode">weekStartDayCode</a>
 
 Designated first day of the week throughout Microsoft Dynamics 365.  
@@ -834,35 +491,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Week Start Day Code</td></tr><tr><td>description</td><td>Designated first day of the week throughout Microsoft Dynamics 365.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>weekstartdaycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td></td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the weekStartDayCode attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr></table></td><td>any</td><td></td></tr></table>
-
-- **is.constrainedList**  
-the values of an attribute are taken from or looked up from a fixed list of possibilities  
-
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Week Start Day Code</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Designated first day of the week throughout Microsoft Dynamics 365.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>weekstartdaycode</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>12</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#weekStartDayCode_display name="weekStartDayCode_display">weekStartDayCode_display</a>
 
 First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
@@ -870,21 +498,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the weekStartDayCode_display attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **means.reference.displayText**  
-- **is.readOnly**  
-- **is.addedInSupportOf**  
-<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>weekStartDayCode</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
-
-</details>
 
 ### <a href=#dateSeparator name="dateSeparator">dateSeparator</a>
 
@@ -895,37 +508,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Date Separator</td></tr><tr><td>description</td><td>Character used to separate the month, the day, and the year in dates throughout Microsoft Dynamics 365.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>5</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>dateseparator</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the dateSeparator attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Date Separator</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Character used to separate the month, the day, and the year in dates throughout Microsoft Dynamics 365.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>dateseparator</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>13</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>5</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#fullNameConventionCode name="fullNameConventionCode">fullNameConventionCode</a>
 
 Order in which names are to be displayed throughout Microsoft CRM.  
@@ -935,35 +517,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Full Name Display Order</td></tr><tr><td>description</td><td>Order in which names are to be displayed throughout Microsoft CRM.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>fullnameconventioncode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Last Name, First Name</td><td>0</td></tr><tr><td>en</td><td>First Name</td><td>1</td></tr><tr><td>en</td><td>Last Name, First Name, Middle Initial</td><td>2</td></tr><tr><td>en</td><td>First Name, Middle Initial, Last Name</td><td>3</td></tr><tr><td>en</td><td>Last Name, First Name, Middle Name</td><td>4</td></tr><tr><td>en</td><td>First Name, Middle Name, Last Name</td><td>5</td></tr><tr><td>en</td><td>Last Name, space, First Name</td><td>6</td></tr><tr><td>en</td><td>Last Name, no space, First Name</td><td>7</td></tr></table></td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the fullNameConventionCode attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Last Name, First Name</td><td>0</td></tr><tr><td>en</td><td>First Name</td><td>1</td></tr><tr><td>en</td><td>Last Name, First Name, Middle Initial</td><td>2</td></tr><tr><td>en</td><td>First Name, Middle Initial, Last Name</td><td>3</td></tr><tr><td>en</td><td>Last Name, First Name, Middle Name</td><td>4</td></tr><tr><td>en</td><td>First Name, Middle Name, Last Name</td><td>5</td></tr><tr><td>en</td><td>Last Name, space, First Name</td><td>6</td></tr><tr><td>en</td><td>Last Name, no space, First Name</td><td>7</td></tr></table></td><td>any</td><td></td></tr></table>
-
-- **is.constrainedList**  
-the values of an attribute are taken from or looked up from a fixed list of possibilities  
-
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Full Name Display Order</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Order in which names are to be displayed throughout Microsoft CRM.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>fullnameconventioncode</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>14</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#fullNameConventionCode_display name="fullNameConventionCode_display">fullNameConventionCode_display</a>
 
 First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
@@ -971,21 +524,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the fullNameConventionCode_display attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **means.reference.displayText**  
-- **is.readOnly**  
-- **is.addedInSupportOf**  
-<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>fullNameConventionCode</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
-
-</details>
 
 ### <a href=#negativeFormatCode name="negativeFormatCode">negativeFormatCode</a>
 
@@ -996,35 +534,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Negative Format</td></tr><tr><td>description</td><td>Information that specifies how negative numbers are displayed throughout Microsoft CRM.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>negativeformatcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Brackets</td><td>0</td></tr><tr><td>en</td><td>Dash</td><td>1</td></tr><tr><td>en</td><td>Dash plus Space</td><td>2</td></tr><tr><td>en</td><td>Trailing Dash</td><td>3</td></tr><tr><td>en</td><td>Space plus Trailing Dash</td><td>4</td></tr></table></td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the negativeFormatCode attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Brackets</td><td>0</td></tr><tr><td>en</td><td>Dash</td><td>1</td></tr><tr><td>en</td><td>Dash plus Space</td><td>2</td></tr><tr><td>en</td><td>Trailing Dash</td><td>3</td></tr><tr><td>en</td><td>Space plus Trailing Dash</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
-
-- **is.constrainedList**  
-the values of an attribute are taken from or looked up from a fixed list of possibilities  
-
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Negative Format</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Information that specifies how negative numbers are displayed throughout Microsoft CRM.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>negativeformatcode</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>15</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#negativeFormatCode_display name="negativeFormatCode_display">negativeFormatCode_display</a>
 
 First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
@@ -1032,21 +541,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the negativeFormatCode_display attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **means.reference.displayText**  
-- **is.readOnly**  
-- **is.addedInSupportOf**  
-<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>negativeFormatCode</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
-
-</details>
 
 ### <a href=#numberFormat name="numberFormat">numberFormat</a>
 
@@ -1057,37 +551,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Number Format</td></tr><tr><td>description</td><td>Specification of how numbers are displayed throughout Microsoft CRM.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>numberformat</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the numberFormat attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Number Format</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Specification of how numbers are displayed throughout Microsoft CRM.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>numberformat</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>16</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>2</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#isDisabled name="isDisabled">isDisabled</a>
 
 Information that specifies whether the organization is disabled.  
@@ -1096,32 +559,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Is Organization Disabled</td></tr><tr><td>description</td><td>Information that specifies whether the organization is disabled.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>isdisabled</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the isDisabled attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Is Organization Disabled</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Information that specifies whether the organization is disabled.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>isdisabled</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>17</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#disabledReason name="disabledReason">disabledReason</a>
 
@@ -1132,37 +569,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Disabled Reason</td></tr><tr><td>description</td><td>Reason for disabling the organization.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>500</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>disabledreason</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the disabledReason attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Disabled Reason</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reason for disabling the organization.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>disabledreason</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>18</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>500</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#kbPrefix name="kbPrefix">kbPrefix</a>
 
 Prefix to use for all articles in Microsoft Dynamics 365.  
@@ -1171,37 +577,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Article Prefix</td></tr><tr><td>description</td><td>Prefix to use for all articles in Microsoft Dynamics 365.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>20</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>kbprefix</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the kbPrefix attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Article Prefix</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Prefix to use for all articles in Microsoft Dynamics 365.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>kbprefix</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>19</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>20</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#currentKbNumber name="currentKbNumber">currentKbNumber</a>
 
@@ -1212,35 +587,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Current Article Number</td></tr><tr><td>description</td><td>First article number to use. Deprecated. Use SetAutoNumberSeed message.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>currentkbnumber</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the currentKbNumber attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Current Article Number</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>First article number to use. Deprecated. Use SetAutoNumberSeed message.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>currentkbnumber</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>20</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>-2147483648</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#casePrefix name="casePrefix">casePrefix</a>
 
 Prefix to use for all cases throughout Microsoft Dynamics 365.  
@@ -1249,37 +595,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Case Prefix</td></tr><tr><td>description</td><td>Prefix to use for all cases throughout Microsoft Dynamics 365.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>20</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>caseprefix</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the casePrefix attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Case Prefix</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Prefix to use for all cases throughout Microsoft Dynamics 365.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>caseprefix</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>21</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>20</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#currentCaseNumber name="currentCaseNumber">currentCaseNumber</a>
 
@@ -1290,35 +605,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Current Case Number</td></tr><tr><td>description</td><td>First case number to use. Deprecated. Use SetAutoNumberSeed message.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>currentcasenumber</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the currentCaseNumber attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Current Case Number</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>First case number to use. Deprecated. Use SetAutoNumberSeed message.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>currentcasenumber</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>22</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>-2147483648</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#contractPrefix name="contractPrefix">contractPrefix</a>
 
 Prefix to use for all contracts throughout Microsoft Dynamics 365.  
@@ -1327,37 +613,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Contract Prefix</td></tr><tr><td>description</td><td>Prefix to use for all contracts throughout Microsoft Dynamics 365.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>20</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>contractprefix</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the contractPrefix attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Contract Prefix</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Prefix to use for all contracts throughout Microsoft Dynamics 365.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>contractprefix</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>23</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>20</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#currentContractNumber name="currentContractNumber">currentContractNumber</a>
 
@@ -1368,35 +623,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Current Contract Number</td></tr><tr><td>description</td><td>First contract number to use. Deprecated. Use SetAutoNumberSeed message.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>currentcontractnumber</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the currentContractNumber attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Current Contract Number</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>First contract number to use. Deprecated. Use SetAutoNumberSeed message.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>currentcontractnumber</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>24</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>-2147483648</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#quotePrefix name="quotePrefix">quotePrefix</a>
 
 Prefix to use for all quotes throughout Microsoft Dynamics 365.  
@@ -1405,37 +631,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Quote Prefix</td></tr><tr><td>description</td><td>Prefix to use for all quotes throughout Microsoft Dynamics 365.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>20</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>quoteprefix</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the quotePrefix attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Quote Prefix</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Prefix to use for all quotes throughout Microsoft Dynamics 365.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>quoteprefix</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>25</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>20</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#currentQuoteNumber name="currentQuoteNumber">currentQuoteNumber</a>
 
@@ -1446,35 +641,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Current Quote Number</td></tr><tr><td>description</td><td>First quote number to use. Deprecated. Use SetAutoNumberSeed message.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>currentquotenumber</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the currentQuoteNumber attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Current Quote Number</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>First quote number to use. Deprecated. Use SetAutoNumberSeed message.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>currentquotenumber</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>26</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>-2147483648</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#orderPrefix name="orderPrefix">orderPrefix</a>
 
 Prefix to use for all orders throughout Microsoft Dynamics 365.  
@@ -1483,37 +649,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Order Prefix</td></tr><tr><td>description</td><td>Prefix to use for all orders throughout Microsoft Dynamics 365.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>20</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>orderprefix</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the orderPrefix attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Order Prefix</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Prefix to use for all orders throughout Microsoft Dynamics 365.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>orderprefix</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>27</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>20</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#currentOrderNumber name="currentOrderNumber">currentOrderNumber</a>
 
@@ -1524,35 +659,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Current Order Number</td></tr><tr><td>description</td><td>First order number to use. Deprecated. Use SetAutoNumberSeed message.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>currentordernumber</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the currentOrderNumber attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Current Order Number</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>First order number to use. Deprecated. Use SetAutoNumberSeed message.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>currentordernumber</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>28</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>-2147483648</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#invoicePrefix name="invoicePrefix">invoicePrefix</a>
 
 Prefix to use for all invoice numbers throughout Microsoft Dynamics 365.  
@@ -1561,37 +667,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Invoice Prefix</td></tr><tr><td>description</td><td>Prefix to use for all invoice numbers throughout Microsoft Dynamics 365.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>20</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>invoiceprefix</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the invoicePrefix attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Invoice Prefix</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Prefix to use for all invoice numbers throughout Microsoft Dynamics 365.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>invoiceprefix</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>29</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>20</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#currentInvoiceNumber name="currentInvoiceNumber">currentInvoiceNumber</a>
 
@@ -1602,35 +677,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Current Invoice Number</td></tr><tr><td>description</td><td>First invoice number to use. Deprecated. Use SetAutoNumberSeed message.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>currentinvoicenumber</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the currentInvoiceNumber attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Current Invoice Number</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>First invoice number to use. Deprecated. Use SetAutoNumberSeed message.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>currentinvoicenumber</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>30</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>-2147483648</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#uniqueSpecifierLength name="uniqueSpecifierLength">uniqueSpecifierLength</a>
 
 Number of characters appended to invoice, quote, and order numbers.  
@@ -1639,35 +685,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Unique String Length</td></tr><tr><td>description</td><td>Number of characters appended to invoice, quote, and order numbers.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>6</td></tr><tr><td>minimumValue</td><td>4</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>uniquespecifierlength</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the uniqueSpecifierLength attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique String Length</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Number of characters appended to invoice, quote, and order numbers.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>uniquespecifierlength</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>31</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>4</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>6</td><td>decimal</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
@@ -1678,36 +695,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created On</td></tr><tr><td>description</td><td>Date and time when the organization was created.</td></tr><tr><td>dataFormat</td><td>DateTimeOffset</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdon</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the createdOn attribute are listed below.</summary>
-
-- **is.dataFormat.date**  
-- **means.measurement.date**  
-- **is.dataFormat.time**  
-- **means.measurement.time**  
-- **means.measurement.date.creation**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Created On</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Date and time when the organization was created.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>createdon</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>32</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the organization was last modified.  
@@ -1716,36 +703,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified On</td></tr><tr><td>description</td><td>Date and time when the organization was last modified.</td></tr><tr><td>dataFormat</td><td>DateTimeOffset</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedon</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the modifiedOn attribute are listed below.</summary>
-
-- **is.dataFormat.date**  
-- **means.measurement.date**  
-- **is.dataFormat.time**  
-- **means.measurement.time**  
-- **means.measurement.date.modify**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Modified On</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Date and time when the organization was last modified.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>modifiedon</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>33</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#fiscalYearFormat name="fiscalYearFormat">fiscalYearFormat</a>
 
@@ -1756,37 +713,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Fiscal Year Format</td></tr><tr><td>description</td><td>Information that specifies how the name of the fiscal year is displayed throughout Microsoft CRM.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>25</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>fiscalyearformat</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the fiscalYearFormat attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Fiscal Year Format</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Information that specifies how the name of the fiscal year is displayed throughout Microsoft CRM.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>fiscalyearformat</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>34</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>25</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#fiscalPeriodFormat name="fiscalPeriodFormat">fiscalPeriodFormat</a>
 
 Information that specifies how the name of the fiscal period is displayed throughout Microsoft CRM.  
@@ -1795,37 +721,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Fiscal Period Format</td></tr><tr><td>description</td><td>Information that specifies how the name of the fiscal period is displayed throughout Microsoft CRM.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>25</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>fiscalperiodformat</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the fiscalPeriodFormat attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Fiscal Period Format</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Information that specifies how the name of the fiscal period is displayed throughout Microsoft CRM.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>fiscalperiodformat</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>35</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>25</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#fiscalYearPeriodConnect name="fiscalYearPeriodConnect">fiscalYearPeriodConnect</a>
 
@@ -1836,34 +731,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Fiscal Year Period Connector</td></tr><tr><td>description</td><td>Information that specifies how the names of the fiscal year and the fiscal period should be connected when displayed together.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>5</td></tr><tr><td>sourceName</td><td>fiscalyearperiodconnect</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the fiscalYearPeriodConnect attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Fiscal Year Period Connector</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Information that specifies how the names of the fiscal year and the fiscal period should be connected when displayed together.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>fiscalyearperiodconnect</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>36</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>5</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#languageCode name="languageCode">languageCode</a>
 
 Preferred language for the organization.  
@@ -1872,38 +739,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Language</td></tr><tr><td>description</td><td>Preferred language for the organization.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>languagecode</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the languageCode attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **means.reference.language**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Language</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Preferred language for the organization.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>languagecode</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>37</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#sortId name="sortId">sortId</a>
 
@@ -1914,35 +749,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Sort</td></tr><tr><td>description</td><td>For internal use only.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>sortid</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the sortId attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Sort</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>For internal use only.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>sortid</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>38</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>-2147483648</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#dateFormatString name="dateFormatString">dateFormatString</a>
 
 String showing how the date is displayed throughout Microsoft CRM.  
@@ -1951,37 +757,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Date Format String</td></tr><tr><td>description</td><td>String showing how the date is displayed throughout Microsoft CRM.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>255</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>dateformatstring</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the dateFormatString attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Date Format String</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>String showing how the date is displayed throughout Microsoft CRM.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>dateformatstring</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>39</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>255</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#timeFormatString name="timeFormatString">timeFormatString</a>
 
@@ -1992,37 +767,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Time Format String</td></tr><tr><td>description</td><td>Text for how time is displayed in Microsoft Dynamics 365.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>255</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>timeformatstring</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the timeFormatString attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Time Format String</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Text for how time is displayed in Microsoft Dynamics 365.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>timeformatstring</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>40</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>255</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#pricingDecimalPrecision name="pricingDecimalPrecision">pricingDecimalPrecision</a>
 
 Number of decimal places that can be used for prices.  
@@ -2031,32 +775,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Pricing Decimal Precision</td></tr><tr><td>description</td><td>Number of decimal places that can be used for prices.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>4</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>pricingdecimalprecision</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the pricingDecimalPrecision attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Pricing Decimal Precision</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Number of decimal places that can be used for prices.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>pricingdecimalprecision</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>41</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>4</td><td>decimal</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#showWeekNumber name="showWeekNumber">showWeekNumber</a>
 
@@ -2067,32 +785,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Show Week Number</td></tr><tr><td>description</td><td>Information that specifies whether to display the week number in calendar displays throughout Microsoft CRM.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>showweeknumber</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the showWeekNumber attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Show Week Number</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Information that specifies whether to display the week number in calendar displays throughout Microsoft CRM.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>showweeknumber</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>42</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#nextTrackingNumber name="nextTrackingNumber">nextTrackingNumber</a>
 
 Next token to be placed on the subject line of an email message.  
@@ -2101,35 +793,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Next Tracking Number</td></tr><tr><td>description</td><td>Next token to be placed on the subject line of an email message.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>nexttrackingnumber</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the nextTrackingNumber attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Next Tracking Number</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Next token to be placed on the subject line of an email message.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>nexttrackingnumber</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>51</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>-2147483648</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#tagMaxAggressiveCycles name="tagMaxAggressiveCycles">tagMaxAggressiveCycles</a>
 
@@ -2140,30 +803,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Auto-Tag Max Cycles</td></tr><tr><td>description</td><td>Maximum number of aggressive polling cycles executed for email auto-tagging when a new email is received.</td></tr><tr><td>dataFormat</td><td>Int16</td></tr><tr><td>sourceName</td><td>tagmaxaggressivecycles</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the tagMaxAggressiveCycles attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.dataFormat.small**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Auto-Tag Max Cycles</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Maximum number of aggressive polling cycles executed for email auto-tagging when a new email is received.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>tagmaxaggressivecycles</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>52</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#systemUserId name="systemUserId">systemUserId</a>
 
 Unique identifier of the system user for the organization.  
@@ -2172,35 +811,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>System User</td></tr><tr><td>description</td><td>Unique identifier of the system user for the organization.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>systemuserid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the systemUserId attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.dataFormat.guid**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>System User</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the system user for the organization.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>systemuserid</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>54</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
@@ -2211,42 +821,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By</td></tr><tr><td>description</td><td>Unique identifier of the user who created the organization.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdby</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the createdBy attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.dataFormat.guid**  
-- **means.identity.entityId**  
-- **is.CDS.lookup**  
-The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td></td></tr></table>
-
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Created By</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the user who created the organization.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>createdby</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>55</td><td>integer</td><td></td></tr></table>
-
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-</details>
-
 ### <a href=#grantAccessToNetworkService name="grantAccessToNetworkService">grantAccessToNetworkService</a>
 
 For internal use only.  
@@ -2255,32 +829,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Grant Access To Network Service</td></tr><tr><td>description</td><td>For internal use only.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>grantaccesstonetworkservice</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the grantAccessToNetworkService attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Grant Access To Network Service</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>For internal use only.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>grantaccesstonetworkservice</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>56</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#allowOutlookScheduledSyncs name="allowOutlookScheduledSyncs">allowOutlookScheduledSyncs</a>
 
@@ -2291,29 +839,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Allow Scheduled Synchronization</td></tr><tr><td>description</td><td>Indicates whether scheduled synchronizations to Outlook are allowed.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>allowoutlookscheduledsyncs</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the allowOutlookScheduledSyncs attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Allow Scheduled Synchronization</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether scheduled synchronizations to Outlook are allowed.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>allowoutlookscheduledsyncs</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>57</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#allowMarketingEmailExecution name="allowMarketingEmailExecution">allowMarketingEmailExecution</a>
 
 Indicates whether marketing emails execution is allowed.  
@@ -2322,29 +847,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Allow Marketing Email Execution</td></tr><tr><td>description</td><td>Indicates whether marketing emails execution is allowed.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>allowmarketingemailexecution</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the allowMarketingEmailExecution attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Allow Marketing Email Execution</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether marketing emails execution is allowed.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>allowmarketingemailexecution</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>58</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#sqlAccessGroupId name="sqlAccessGroupId">sqlAccessGroupId</a>
 
@@ -2355,35 +857,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>SQL Access Group</td></tr><tr><td>description</td><td>For internal use only.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>sqlaccessgroupid</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the sqlAccessGroupId attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.dataFormat.guid**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>SQL Access Group</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>For internal use only.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>sqlaccessgroupid</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>59</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#currencyFormatCode name="currencyFormatCode">currencyFormatCode</a>
 
 Information about how currency symbols are placed throughout Microsoft Dynamics CRM.  
@@ -2393,35 +866,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Currency Format Code</td></tr><tr><td>description</td><td>Information about how currency symbols are placed throughout Microsoft Dynamics CRM.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>currencyformatcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>$123</td><td>0</td></tr><tr><td>en</td><td>123$</td><td>1</td></tr><tr><td>en</td><td>$ 123</td><td>2</td></tr><tr><td>en</td><td>123 $</td><td>3</td></tr></table></td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the currencyFormatCode attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>$123</td><td>0</td></tr><tr><td>en</td><td>123$</td><td>1</td></tr><tr><td>en</td><td>$ 123</td><td>2</td></tr><tr><td>en</td><td>123 $</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
-
-- **is.constrainedList**  
-the values of an attribute are taken from or looked up from a fixed list of possibilities  
-
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Currency Format Code</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Information about how currency symbols are placed throughout Microsoft Dynamics CRM.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>currencyformatcode</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>60</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#currencyFormatCode_display name="currencyFormatCode_display">currencyFormatCode_display</a>
 
 First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
@@ -2429,21 +873,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the currencyFormatCode_display attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **means.reference.displayText**  
-- **is.readOnly**  
-- **is.addedInSupportOf**  
-<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>currencyFormatCode</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
-
-</details>
 
 ### <a href=#fiscalSettingsUpdated name="fiscalSettingsUpdated">fiscalSettingsUpdated</a>
 
@@ -2454,29 +883,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Is Fiscal Settings Updated</td></tr><tr><td>description</td><td>Information that specifies whether the fiscal settings have been updated.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>fiscalsettingsupdated</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the fiscalSettingsUpdated attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Is Fiscal Settings Updated</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Information that specifies whether the fiscal settings have been updated.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>fiscalsettingsupdated</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>61</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#reportingGroupId name="reportingGroupId">reportingGroupId</a>
 
 For internal use only.  
@@ -2485,35 +891,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Reporting Group</td></tr><tr><td>description</td><td>For internal use only.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>reportinggroupid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the reportingGroupId attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.dataFormat.guid**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reporting Group</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>For internal use only.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>reportinggroupid</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>62</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#tokenExpiry name="tokenExpiry">tokenExpiry</a>
 
@@ -2524,33 +901,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Token Expiration Duration</td></tr><tr><td>description</td><td>Duration used for token expiration.</td></tr><tr><td>dataFormat</td><td>Int16</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>tokenexpiry</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the tokenExpiry attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.dataFormat.small**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Token Expiration Duration</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Duration used for token expiration.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>tokenexpiry</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>63</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#shareToPreviousOwnerOnAssign name="shareToPreviousOwnerOnAssign">shareToPreviousOwnerOnAssign</a>
 
 Information that specifies whether to share to previous owner on assign.  
@@ -2559,29 +909,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Share To Previous Owner On Assign</td></tr><tr><td>description</td><td>Information that specifies whether to share to previous owner on assign.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>sharetopreviousowneronassign</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the shareToPreviousOwnerOnAssign attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Share To Previous Owner On Assign</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Information that specifies whether to share to previous owner on assign.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>sharetopreviousowneronassign</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>64</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#acknowledgementTemplateId name="acknowledgementTemplateId">acknowledgementTemplateId</a>
 
@@ -2592,39 +919,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Acknowledgement Template</td></tr><tr><td>description</td><td>Unique identifier of the template to be used for acknowledgement when a user unsubscribes.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>acknowledgementtemplateid</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the acknowledgementTemplateId attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.dataFormat.guid**  
-- **means.identity.entityId**  
-- **is.CDS.lookup**  
-The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td></td></tr></table>
-
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Acknowledgement Template</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the template to be used for acknowledgement when a user unsubscribes.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>acknowledgementtemplateid</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>65</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Unique identifier of the user who last modified the organization.  
@@ -2633,42 +927,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By</td></tr><tr><td>description</td><td>Unique identifier of the user who last modified the organization.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedby</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the modifiedBy attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.dataFormat.guid**  
-- **means.identity.entityId**  
-- **is.CDS.lookup**  
-The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td></td></tr></table>
-
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Modified By</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the user who last modified the organization.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>modifiedby</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>66</td><td>integer</td><td></td></tr></table>
-
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-</details>
 
 ### <a href=#integrationUserId name="integrationUserId">integrationUserId</a>
 
@@ -2679,35 +937,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Integration User</td></tr><tr><td>description</td><td>Unique identifier of the integration user for the organization.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>integrationuserid</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the integrationUserId attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.dataFormat.guid**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Integration User</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the integration user for the organization.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>integrationuserid</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>67</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#trackingTokenIdBase name="trackingTokenIdBase">trackingTokenIdBase</a>
 
 Base number used to provide separate tracking token identifiers to users belonging to different deployments.  
@@ -2716,35 +945,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Tracking Token Base</td></tr><tr><td>description</td><td>Base number used to provide separate tracking token identifiers to users belonging to different deployments.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>trackingtokenidbase</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the trackingTokenIdBase attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Tracking Token Base</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Base number used to provide separate tracking token identifiers to users belonging to different deployments.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>trackingtokenidbase</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>68</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#businessClosureCalendarId name="businessClosureCalendarId">businessClosureCalendarId</a>
 
@@ -2755,35 +955,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Business Closure Calendar</td></tr><tr><td>description</td><td>Unique identifier of the business closure calendar of organization.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>businessclosurecalendarid</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the businessClosureCalendarId attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.dataFormat.guid**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Business Closure Calendar</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the business closure calendar of organization.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>businessclosurecalendarid</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>69</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#allowAutoUnsubscribeAcknowledgement name="allowAutoUnsubscribeAcknowledgement">allowAutoUnsubscribeAcknowledgement</a>
 
 Indicates whether automatic unsubscribe acknowledgement email is allowed to send.  
@@ -2792,32 +963,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Allow Automatic Unsubscribe Acknowledgement</td></tr><tr><td>description</td><td>Indicates whether automatic unsubscribe acknowledgement email is allowed to send.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>allowautounsubscribeacknowledgement</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the allowAutoUnsubscribeAcknowledgement attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Allow Automatic Unsubscribe Acknowledgement</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether automatic unsubscribe acknowledgement email is allowed to send.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>allowautounsubscribeacknowledgement</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>70</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#allowAutoUnsubscribe name="allowAutoUnsubscribe">allowAutoUnsubscribe</a>
 
@@ -2828,32 +973,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Allow Automatic Unsubscribe</td></tr><tr><td>description</td><td>Indicates whether automatic unsubscribe is allowed.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>allowautounsubscribe</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the allowAutoUnsubscribe attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Allow Automatic Unsubscribe</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether automatic unsubscribe is allowed.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>allowautounsubscribe</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>71</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#picture name="picture">picture</a>
 
 For internal use only.  
@@ -2862,37 +981,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Picture</td></tr><tr><td>description</td><td>For internal use only.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>1073741823</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>picture</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the picture attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Picture</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>For internal use only.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>picture</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>73</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>1073741823</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
@@ -2903,33 +991,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Version Number</td></tr><tr><td>description</td><td>Version number of the organization.</td></tr><tr><td>dataFormat</td><td>Int64</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>versionnumber</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the versionNumber attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.dataFormat.big**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Version Number</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Version number of the organization.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>versionnumber</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>74</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#trackingPrefix name="trackingPrefix">trackingPrefix</a>
 
 History list of tracking token prefixes.  
@@ -2938,37 +999,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Tracking Prefix</td></tr><tr><td>description</td><td>History list of tracking token prefixes.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>256</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>trackingprefix</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the trackingPrefix attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Tracking Prefix</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>History list of tracking token prefixes.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>trackingprefix</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>75</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>256</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#minOutlookSyncInterval name="minOutlookSyncInterval">minOutlookSyncInterval</a>
 
@@ -2979,32 +1009,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Min Synchronization Frequency</td></tr><tr><td>description</td><td>Minimum allowed time between scheduled Outlook synchronizations.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>minoutlooksyncinterval</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the minOutlookSyncInterval attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Min Synchronization Frequency</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Minimum allowed time between scheduled Outlook synchronizations.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>minoutlooksyncinterval</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>76</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#bulkOperationPrefix name="bulkOperationPrefix">bulkOperationPrefix</a>
 
 Prefix used for bulk operation numbering.  
@@ -3013,34 +1017,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Bulk Operation Prefix</td></tr><tr><td>description</td><td>Prefix used for bulk operation numbering.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>20</td></tr><tr><td>sourceName</td><td>bulkoperationprefix</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the bulkOperationPrefix attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Bulk Operation Prefix</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Prefix used for bulk operation numbering.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>bulkoperationprefix</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>77</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>20</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#allowAutoResponseCreation name="allowAutoResponseCreation">allowAutoResponseCreation</a>
 
@@ -3051,32 +1027,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Allow Automatic Response Creation</td></tr><tr><td>description</td><td>Indicates whether automatic response creation is allowed.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>allowautoresponsecreation</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the allowAutoResponseCreation attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Allow Automatic Response Creation</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether automatic response creation is allowed.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>allowautoresponsecreation</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>78</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#maximumTrackingNumber name="maximumTrackingNumber">maximumTrackingNumber</a>
 
 Maximum tracking number before recycling takes place.  
@@ -3085,35 +1035,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Max Tracking Number</td></tr><tr><td>description</td><td>Maximum tracking number before recycling takes place.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>maximumtrackingnumber</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the maximumTrackingNumber attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Max Tracking Number</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Maximum tracking number before recycling takes place.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>maximumtrackingnumber</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>79</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#campaignPrefix name="campaignPrefix">campaignPrefix</a>
 
@@ -3124,34 +1045,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Campaign Prefix</td></tr><tr><td>description</td><td>Prefix used for campaign numbering.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>20</td></tr><tr><td>sourceName</td><td>campaignprefix</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the campaignPrefix attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Campaign Prefix</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Prefix used for campaign numbering.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>campaignprefix</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>80</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>20</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#sqlAccessGroupName name="sqlAccessGroupName">sqlAccessGroupName</a>
 
 For internal use only.  
@@ -3160,38 +1053,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>SQL Access Group Name</td></tr><tr><td>description</td><td>For internal use only.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>256</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>sqlaccessgroupname</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the sqlAccessGroupName attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **means.identity.name**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>SQL Access Group Name</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>For internal use only.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>sqlaccessgroupname</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>81</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>256</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#currentCampaignNumber name="currentCampaignNumber">currentCampaignNumber</a>
 
@@ -3202,35 +1063,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Current Campaign Number</td></tr><tr><td>description</td><td>Current campaign number. Deprecated. Use SetAutoNumberSeed message.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>currentcampaignnumber</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the currentCampaignNumber attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Current Campaign Number</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Current campaign number. Deprecated. Use SetAutoNumberSeed message.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>currentcampaignnumber</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>82</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>-2147483648</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#fiscalYearDisplayCode name="fiscalYearDisplayCode">fiscalYearDisplayCode</a>
 
 Information that specifies whether the fiscal year should be displayed based on the start date or the end date of the fiscal year.  
@@ -3239,30 +1071,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Fiscal Year Display</td></tr><tr><td>description</td><td>Information that specifies whether the fiscal year should be displayed based on the start date or the end date of the fiscal year.</td></tr><tr><td>dataFormat</td><td>Int16</td></tr><tr><td>sourceName</td><td>fiscalyeardisplaycode</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the fiscalYearDisplayCode attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.dataFormat.small**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Fiscal Year Display</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Information that specifies whether the fiscal year should be displayed based on the start date or the end date of the fiscal year.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>fiscalyeardisplaycode</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>83</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#siteMapXml name="siteMapXml">siteMapXml</a>
 
@@ -3273,37 +1081,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>SiteMap XML</td></tr><tr><td>description</td><td>XML string that defines the navigation structure for the application.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>1073741823</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>sitemapxml</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the siteMapXml attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>SiteMap XML</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>XML string that defines the navigation structure for the application.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>sitemapxml</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>84</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>1073741823</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#isRegistered name="isRegistered">isRegistered</a>
 
 For internal use only.  
@@ -3312,32 +1089,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Is Registered</td></tr><tr><td>description</td><td>For internal use only.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>isregistered</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the isRegistered attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Is Registered</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>For internal use only.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>isregistered</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>85</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#reportingGroupName name="reportingGroupName">reportingGroupName</a>
 
@@ -3348,38 +1099,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Reporting Group Name</td></tr><tr><td>description</td><td>For internal use only.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>256</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>reportinggroupname</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the reportingGroupName attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **means.identity.name**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reporting Group Name</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>For internal use only.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>reportinggroupname</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>86</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>256</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#currentBulkOperationNumber name="currentBulkOperationNumber">currentBulkOperationNumber</a>
 
 Current bulk operation number. Deprecated. Use SetAutoNumberSeed message.  
@@ -3388,35 +1107,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Current Bulk Operation Number</td></tr><tr><td>description</td><td>Current bulk operation number. Deprecated. Use SetAutoNumberSeed message.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>currentbulkoperationnumber</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the currentBulkOperationNumber attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Current Bulk Operation Number</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Current bulk operation number. Deprecated. Use SetAutoNumberSeed message.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>currentbulkoperationnumber</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>87</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#schemaNamePrefix name="schemaNamePrefix">schemaNamePrefix</a>
 
@@ -3427,38 +1117,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Customization Name Prefix</td></tr><tr><td>description</td><td>Prefix used for custom entities and attributes.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>8</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>schemanameprefix</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the schemaNamePrefix attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **means.identity.name**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Customization Name Prefix</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Prefix used for custom entities and attributes.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>schemanameprefix</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>88</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>8</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#ignoreInternalEmail name="ignoreInternalEmail">ignoreInternalEmail</a>
 
 Indicates whether incoming email sent by internal Microsoft Dynamics 365 users or queues should be tracked.  
@@ -3467,29 +1125,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Ignore Internal Email</td></tr><tr><td>description</td><td>Indicates whether incoming email sent by internal Microsoft Dynamics 365 users or queues should be tracked.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>ignoreinternalemail</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the ignoreInternalEmail attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Ignore Internal Email</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether incoming email sent by internal Microsoft Dynamics 365 users or queues should be tracked.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>ignoreinternalemail</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>89</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#tagPollingPeriod name="tagPollingPeriod">tagPollingPeriod</a>
 
@@ -3500,32 +1135,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Auto-Tag Interval</td></tr><tr><td>description</td><td>Normal polling frequency used for email receive auto-tagging in outlook.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>tagpollingperiod</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the tagPollingPeriod attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Auto-Tag Interval</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Normal polling frequency used for email receive auto-tagging in outlook.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>tagpollingperiod</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>90</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#trackingTokenIdDigits name="trackingTokenIdDigits">trackingTokenIdDigits</a>
 
 Number of digits used to represent a tracking token identifier.  
@@ -3534,33 +1143,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Tracking Token Digits</td></tr><tr><td>description</td><td>Number of digits used to represent a tracking token identifier.</td></tr><tr><td>dataFormat</td><td>Int16</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>trackingtokeniddigits</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the trackingTokenIdDigits attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.dataFormat.small**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Tracking Token Digits</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Number of digits used to represent a tracking token identifier.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>trackingtokeniddigits</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>91</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#numberGroupFormat name="numberGroupFormat">numberGroupFormat</a>
 
@@ -3571,37 +1153,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Number Grouping Format</td></tr><tr><td>description</td><td>Specifies how numbers are grouped in Microsoft Dynamics 365.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>50</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>numbergroupformat</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the numberGroupFormat attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Number Grouping Format</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Specifies how numbers are grouped in Microsoft Dynamics 365.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>numbergroupformat</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>101</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>50</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#longDateFormatCode name="longDateFormatCode">longDateFormatCode</a>
 
 Information that specifies how the Long Date format is displayed in Microsoft Dynamics 365.  
@@ -3610,32 +1161,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Long Date Format</td></tr><tr><td>description</td><td>Information that specifies how the Long Date format is displayed in Microsoft Dynamics 365.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>sourceName</td><td>longdateformatcode</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the longDateFormatCode attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Long Date Format</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Information that specifies how the Long Date format is displayed in Microsoft Dynamics 365.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>longdateformatcode</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>102</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>-2147483648</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
@@ -3646,35 +1171,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>UTC Conversion Time Zone Code</td></tr><tr><td>description</td><td>Time zone code that was in use when the record was created.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>utcconversiontimezonecode</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>UTC Conversion Time Zone Code</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Time zone code that was in use when the record was created.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>utcconversiontimezonecode</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>103</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>-1</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
@@ -3683,35 +1179,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Time Zone Rule Version Number</td></tr><tr><td>description</td><td>For internal use only.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>timezoneruleversionnumber</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Time Zone Rule Version Number</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>For internal use only.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>timezoneruleversionnumber</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>104</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>-1</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#currentImportSequenceNumber name="currentImportSequenceNumber">currentImportSequenceNumber</a>
 
@@ -3722,32 +1189,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Current Import Sequence Number</td></tr><tr><td>description</td><td>Import sequence to use.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>sourceName</td><td>currentimportsequencenumber</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the currentImportSequenceNumber attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Current Import Sequence Number</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Import sequence to use.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>currentimportsequencenumber</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>105</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>-2147483648</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#parsedTablePrefix name="parsedTablePrefix">parsedTablePrefix</a>
 
 Prefix used for parsed tables.  
@@ -3756,34 +1197,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Parsed Table Prefix</td></tr><tr><td>description</td><td>Prefix used for parsed tables.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>20</td></tr><tr><td>sourceName</td><td>parsedtableprefix</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the parsedTablePrefix attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Parsed Table Prefix</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Prefix used for parsed tables.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>parsedtableprefix</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>106</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>20</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#v3CalloutConfigHash name="v3CalloutConfigHash">v3CalloutConfigHash</a>
 
@@ -3794,37 +1207,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>V3 Callout Hash</td></tr><tr><td>description</td><td>Hash of the V3 callout configuration file.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>256</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>v3calloutconfighash</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the v3CalloutConfigHash attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>V3 Callout Hash</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Hash of the V3 callout configuration file.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>v3calloutconfighash</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>107</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>256</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#isFiscalPeriodMonthBased name="isFiscalPeriodMonthBased">isFiscalPeriodMonthBased</a>
 
 Indicates whether the fiscal period is displayed as the month number.  
@@ -3833,29 +1215,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Is Fiscal Period Monthly</td></tr><tr><td>description</td><td>Indicates whether the fiscal period is displayed as the month number.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>isfiscalperiodmonthbased</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the isFiscalPeriodMonthBased attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Is Fiscal Period Monthly</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether the fiscal period is displayed as the month number.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>isfiscalperiodmonthbased</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>108</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#localeId name="localeId">localeId</a>
 
@@ -3866,35 +1225,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Locale</td></tr><tr><td>description</td><td>Unique identifier of the locale of the organization.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>localeid</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the localeId attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **means.reference.language**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Locale</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the locale of the organization.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>localeid</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>109</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#parsedTableColumnPrefix name="parsedTableColumnPrefix">parsedTableColumnPrefix</a>
 
 Prefix used for parsed table columns.  
@@ -3903,34 +1233,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Parsed Table Column Prefix</td></tr><tr><td>description</td><td>Prefix used for parsed table columns.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>20</td></tr><tr><td>sourceName</td><td>parsedtablecolumnprefix</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the parsedTableColumnPrefix attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Parsed Table Column Prefix</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Prefix used for parsed table columns.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>parsedtablecolumnprefix</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>110</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>20</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#supportUserId name="supportUserId">supportUserId</a>
 
@@ -3941,35 +1243,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Support User</td></tr><tr><td>description</td><td>Unique identifier of the support user for the organization.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>supportuserid</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the supportUserId attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.dataFormat.guid**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Support User</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the support user for the organization.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>supportuserid</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>111</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#AMDesignator name="AMDesignator">AMDesignator</a>
 
 AM designator to use throughout Microsoft Dynamics CRM.  
@@ -3978,34 +1251,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>AM Designator</td></tr><tr><td>description</td><td>AM designator to use throughout Microsoft Dynamics CRM.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>25</td></tr><tr><td>sourceName</td><td>amdesignator</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the AMDesignator attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>AM Designator</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>AM designator to use throughout Microsoft Dynamics CRM.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>amdesignator</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>112</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>25</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#currencyDisplayOption name="currencyDisplayOption">currencyDisplayOption</a>
 
@@ -4016,35 +1261,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Display Currencies Using</td></tr><tr><td>description</td><td>Indicates whether to display money fields with currency code or currency symbol.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>currencydisplayoption</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Currency symbol</td><td>0</td></tr><tr><td>en</td><td>Currency code</td><td>1</td></tr></table></td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the currencyDisplayOption attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Currency symbol</td><td>0</td></tr><tr><td>en</td><td>Currency code</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
-
-- **is.constrainedList**  
-the values of an attribute are taken from or looked up from a fixed list of possibilities  
-
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Display Currencies Using</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether to display money fields with currency code or currency symbol.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>currencydisplayoption</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>113</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#currencyDisplayOption_display name="currencyDisplayOption_display">currencyDisplayOption_display</a>
 
 First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
@@ -4052,21 +1268,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the currencyDisplayOption_display attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **means.reference.displayText**  
-- **is.readOnly**  
-- **is.addedInSupportOf**  
-<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>currencyDisplayOption</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
-
-</details>
 
 ### <a href=#minAddressBookSyncInterval name="minAddressBookSyncInterval">minAddressBookSyncInterval</a>
 
@@ -4077,32 +1278,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Min Address Synchronization Frequency</td></tr><tr><td>description</td><td>Normal polling frequency used for address book synchronization in Microsoft Office Outlook.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>sourceName</td><td>minaddressbooksyncinterval</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the minAddressBookSyncInterval attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Min Address Synchronization Frequency</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Normal polling frequency used for address book synchronization in Microsoft Office Outlook.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>minaddressbooksyncinterval</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>114</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>-2147483648</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#isDuplicateDetectionEnabledForOnlineCreateUpdate name="isDuplicateDetectionEnabledForOnlineCreateUpdate">isDuplicateDetectionEnabledForOnlineCreateUpdate</a>
 
 Indicates whether duplicate detection during online create or update is enabled.  
@@ -4111,29 +1286,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Is Duplicate Detection Enabled for Online Create/Update</td></tr><tr><td>description</td><td>Indicates whether duplicate detection during online create or update is enabled.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>isduplicatedetectionenabledforonlinecreateupdate</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the isDuplicateDetectionEnabledForOnlineCreateUpdate attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Is Duplicate Detection Enabled for Online Create/Update</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether duplicate detection during online create or update is enabled.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>isduplicatedetectionenabledforonlinecreateupdate</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>115</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#featureSet name="featureSet">featureSet</a>
 
@@ -4144,37 +1296,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Feature Set</td></tr><tr><td>description</td><td>Features to be enabled as an XML BLOB.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>1073741823</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>featureset</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the featureSet attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Feature Set</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Features to be enabled as an XML BLOB.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>featureset</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>116</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>1073741823</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#blockedAttachments name="blockedAttachments">blockedAttachments</a>
 
 Prevent upload or download of certain attachment types that are considered dangerous.  
@@ -4183,37 +1304,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Block Attachments</td></tr><tr><td>description</td><td>Prevent upload or download of certain attachment types that are considered dangerous.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>1073741823</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>blockedattachments</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the blockedAttachments attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Block Attachments</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Prevent upload or download of certain attachment types that are considered dangerous.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>blockedattachments</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>117</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>1073741823</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#isDuplicateDetectionEnabledForOfflineSync name="isDuplicateDetectionEnabledForOfflineSync">isDuplicateDetectionEnabledForOfflineSync</a>
 
@@ -4224,29 +1314,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Is Duplicate Detection Enabled For Offline Synchronization</td></tr><tr><td>description</td><td>Indicates whether duplicate detection of records during offline synchronization is enabled.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>isduplicatedetectionenabledforofflinesync</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the isDuplicateDetectionEnabledForOfflineSync attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Is Duplicate Detection Enabled For Offline Synchronization</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether duplicate detection of records during offline synchronization is enabled.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>isduplicatedetectionenabledforofflinesync</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>118</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#allowOfflineScheduledSyncs name="allowOfflineScheduledSyncs">allowOfflineScheduledSyncs</a>
 
 Indicates whether background offline synchronization in Microsoft Office Outlook is allowed.  
@@ -4255,29 +1322,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Allow Offline Scheduled Synchronization</td></tr><tr><td>description</td><td>Indicates whether background offline synchronization in Microsoft Office Outlook is allowed.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>allowofflinescheduledsyncs</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the allowOfflineScheduledSyncs attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Allow Offline Scheduled Synchronization</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether background offline synchronization in Microsoft Office Outlook is allowed.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>allowofflinescheduledsyncs</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>119</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#allowUnresolvedPartiesOnEmailSend name="allowUnresolvedPartiesOnEmailSend">allowUnresolvedPartiesOnEmailSend</a>
 
@@ -4288,29 +1332,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Allow Unresolved Address Email Send</td></tr><tr><td>description</td><td>Indicates whether users are allowed to send email to unresolved parties (parties must still have an email address).</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>allowunresolvedpartiesonemailsend</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the allowUnresolvedPartiesOnEmailSend attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Allow Unresolved Address Email Send</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether users are allowed to send email to unresolved parties (parties must still have an email address).</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>allowunresolvedpartiesonemailsend</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>120</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#timeSeparator name="timeSeparator">timeSeparator</a>
 
 Text for how the time separator is displayed throughout Microsoft Dynamics 365.  
@@ -4319,37 +1340,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Time Separator</td></tr><tr><td>description</td><td>Text for how the time separator is displayed throughout Microsoft Dynamics 365.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>5</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>timeseparator</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the timeSeparator attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Time Separator</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Text for how the time separator is displayed throughout Microsoft Dynamics 365.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>timeseparator</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>121</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>5</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#currentParsedTableNumber name="currentParsedTableNumber">currentParsedTableNumber</a>
 
@@ -4360,32 +1350,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Current Parsed Table Number</td></tr><tr><td>description</td><td>First parsed table number to use.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>sourceName</td><td>currentparsedtablenumber</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the currentParsedTableNumber attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Current Parsed Table Number</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>First parsed table number to use.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>currentparsedtablenumber</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>122</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>-2147483648</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#minOfflineSyncInterval name="minOfflineSyncInterval">minOfflineSyncInterval</a>
 
 Normal polling frequency used for background offline synchronization in Microsoft Office Outlook.  
@@ -4394,32 +1358,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Min Offline Synchronization Frequency</td></tr><tr><td>description</td><td>Normal polling frequency used for background offline synchronization in Microsoft Office Outlook.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>sourceName</td><td>minofflinesyncinterval</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the minOfflineSyncInterval attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Min Offline Synchronization Frequency</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Normal polling frequency used for background offline synchronization in Microsoft Office Outlook.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>minofflinesyncinterval</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>123</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>-2147483648</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#allowWebExcelExport name="allowWebExcelExport">allowWebExcelExport</a>
 
@@ -4430,29 +1368,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Allow Export to Excel</td></tr><tr><td>description</td><td>Indicates whether Web-based export of grids to Microsoft Office Excel is allowed.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>allowwebexcelexport</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the allowWebExcelExport attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Allow Export to Excel</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether Web-based export of grids to Microsoft Office Excel is allowed.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>allowwebexcelexport</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>124</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#referenceSiteMapXml name="referenceSiteMapXml">referenceSiteMapXml</a>
 
 XML string that defines the navigation structure for the application. This is the site map from the previously upgraded build and is used in a 3-way merge during upgrade.  
@@ -4461,37 +1376,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Reference SiteMap XML</td></tr><tr><td>description</td><td>XML string that defines the navigation structure for the application. This is the site map from the previously upgraded build and is used in a 3-way merge during upgrade.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>1073741823</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>referencesitemapxml</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the referenceSiteMapXml attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reference SiteMap XML</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>XML string that defines the navigation structure for the application. This is the site map from the previously upgraded build and is used in a 3-way merge during upgrade.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>referencesitemapxml</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>125</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>1073741823</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#isDuplicateDetectionEnabledForImport name="isDuplicateDetectionEnabledForImport">isDuplicateDetectionEnabledForImport</a>
 
@@ -4502,29 +1386,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Is Duplicate Detection Enabled For Import</td></tr><tr><td>description</td><td>Indicates whether duplicate detection of records during import is enabled.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>isduplicatedetectionenabledforimport</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the isDuplicateDetectionEnabledForImport attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Is Duplicate Detection Enabled For Import</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether duplicate detection of records during import is enabled.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>isduplicatedetectionenabledforimport</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>126</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#calendarType name="calendarType">calendarType</a>
 
 Calendar type for the system. Set to Gregorian US by default.  
@@ -4533,35 +1394,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Calendar Type</td></tr><tr><td>description</td><td>Calendar type for the system. Set to Gregorian US by default.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>calendartype</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the calendarType attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Calendar Type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Calendar type for the system. Set to Gregorian US by default.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>calendartype</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>127</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>-2147483648</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#SQMEnabled name="SQMEnabled">SQMEnabled</a>
 
@@ -4572,32 +1404,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Is SQM Enabled</td></tr><tr><td>description</td><td>Setting for SQM data collection, 0 no, 1 yes enabled</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>sqmenabled</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the SQMEnabled attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Is SQM Enabled</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Setting for SQM data collection, 0 no, 1 yes enabled</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>sqmenabled</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>128</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#negativeCurrencyFormatCode name="negativeCurrencyFormatCode">negativeCurrencyFormatCode</a>
 
 Information that specifies how negative currency numbers are displayed throughout Microsoft Dynamics 365.  
@@ -4606,32 +1412,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Negative Currency Format</td></tr><tr><td>description</td><td>Information that specifies how negative currency numbers are displayed throughout Microsoft Dynamics 365.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>sourceName</td><td>negativecurrencyformatcode</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the negativeCurrencyFormatCode attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Negative Currency Format</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Information that specifies how negative currency numbers are displayed throughout Microsoft Dynamics 365.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>negativecurrencyformatcode</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>129</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>-2147483648</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#allowAddressBookSyncs name="allowAddressBookSyncs">allowAddressBookSyncs</a>
 
@@ -4642,29 +1422,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Allow Address Book Synchronization</td></tr><tr><td>description</td><td>Indicates whether background address book synchronization in Microsoft Office Outlook is allowed.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>allowaddressbooksyncs</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the allowAddressBookSyncs attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Allow Address Book Synchronization</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether background address book synchronization in Microsoft Office Outlook is allowed.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>allowaddressbooksyncs</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>130</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#ISVIntegrationCode name="ISVIntegrationCode">ISVIntegrationCode</a>
 
 Indicates whether loading of Microsoft Dynamics 365 in a browser window that does not have address, tool, and menu bars is enabled.  
@@ -4674,35 +1431,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>ISV Integration Mode</td></tr><tr><td>description</td><td>Indicates whether loading of Microsoft Dynamics 365 in a browser window that does not have address, tool, and menu bars is enabled.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>isvintegrationcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>None</td><td>0</td></tr><tr><td>en</td><td>Web</td><td>1</td></tr><tr><td>en</td><td>Outlook Workstation Client</td><td>2</td></tr><tr><td>en</td><td>Web; Outlook Workstation Client</td><td>3</td></tr><tr><td>en</td><td>Outlook Laptop Client</td><td>4</td></tr><tr><td>en</td><td>Web; Outlook Laptop Client</td><td>5</td></tr><tr><td>en</td><td>Outlook</td><td>6</td></tr><tr><td>en</td><td>All</td><td>7</td></tr></table></td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the ISVIntegrationCode attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>None</td><td>0</td></tr><tr><td>en</td><td>Web</td><td>1</td></tr><tr><td>en</td><td>Outlook Workstation Client</td><td>2</td></tr><tr><td>en</td><td>Web; Outlook Workstation Client</td><td>3</td></tr><tr><td>en</td><td>Outlook Laptop Client</td><td>4</td></tr><tr><td>en</td><td>Web; Outlook Laptop Client</td><td>5</td></tr><tr><td>en</td><td>Outlook</td><td>6</td></tr><tr><td>en</td><td>All</td><td>7</td></tr></table></td><td>any</td><td></td></tr></table>
-
-- **is.constrainedList**  
-the values of an attribute are taken from or looked up from a fixed list of possibilities  
-
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>ISV Integration Mode</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether loading of Microsoft Dynamics 365 in a browser window that does not have address, tool, and menu bars is enabled.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>isvintegrationcode</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>131</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#ISVIntegrationCode_display name="ISVIntegrationCode_display">ISVIntegrationCode_display</a>
 
 First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
@@ -4710,21 +1438,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the ISVIntegrationCode_display attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **means.reference.displayText**  
-- **is.readOnly**  
-- **is.addedInSupportOf**  
-<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>ISVIntegrationCode</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
-
-</details>
 
 ### <a href=#decimalSymbol name="decimalSymbol">decimalSymbol</a>
 
@@ -4735,34 +1448,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Decimal Symbol</td></tr><tr><td>description</td><td>Symbol used for decimal in Microsoft Dynamics 365.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>5</td></tr><tr><td>sourceName</td><td>decimalsymbol</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the decimalSymbol attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Decimal Symbol</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Symbol used for decimal in Microsoft Dynamics 365.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>decimalsymbol</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>132</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>5</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#maxUploadFileSize name="maxUploadFileSize">maxUploadFileSize</a>
 
 Maximum allowed size of an attachment.  
@@ -4771,32 +1456,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Max Upload File Size</td></tr><tr><td>description</td><td>Maximum allowed size of an attachment.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>maxuploadfilesize</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the maxUploadFileSize attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Max Upload File Size</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Maximum allowed size of an attachment.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>maxuploadfilesize</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>133</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#isAppMode name="isAppMode">isAppMode</a>
 
@@ -4807,29 +1466,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Is Application Mode Enabled</td></tr><tr><td>description</td><td>Indicates whether loading of Microsoft Dynamics 365 in a browser window that does not have address, tool, and menu bars is enabled.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>isappmode</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the isAppMode attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Is Application Mode Enabled</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether loading of Microsoft Dynamics 365 in a browser window that does not have address, tool, and menu bars is enabled.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>isappmode</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>134</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#enablePricingOnCreate name="enablePricingOnCreate">enablePricingOnCreate</a>
 
 Enable pricing calculations on a Create call.  
@@ -4838,29 +1474,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Enable Pricing On Create</td></tr><tr><td>description</td><td>Enable pricing calculations on a Create call.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>enablepricingoncreate</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the enablePricingOnCreate attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable Pricing On Create</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable pricing calculations on a Create call.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>enablepricingoncreate</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>135</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#isSOPIntegrationEnabled name="isSOPIntegrationEnabled">isSOPIntegrationEnabled</a>
 
@@ -4871,29 +1484,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Is Sales Order Integration Enabled</td></tr><tr><td>description</td><td>Enable sales order processing integration.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>issopintegrationenabled</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the isSOPIntegrationEnabled attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Is Sales Order Integration Enabled</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable sales order processing integration.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>issopintegrationenabled</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>136</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#PMDesignator name="PMDesignator">PMDesignator</a>
 
 PM designator to use throughout Microsoft Dynamics 365.  
@@ -4902,34 +1492,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>PM Designator</td></tr><tr><td>description</td><td>PM designator to use throughout Microsoft Dynamics 365.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>25</td></tr><tr><td>sourceName</td><td>pmdesignator</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the PMDesignator attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>PM Designator</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>PM designator to use throughout Microsoft Dynamics 365.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>pmdesignator</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>137</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>25</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#currencyDecimalPrecision name="currencyDecimalPrecision">currencyDecimalPrecision</a>
 
@@ -4940,32 +1502,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Currency Decimal Precision</td></tr><tr><td>description</td><td>Number of decimal places that can be used for currency.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>sourceName</td><td>currencydecimalprecision</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the currencyDecimalPrecision attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Currency Decimal Precision</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Number of decimal places that can be used for currency.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>currencydecimalprecision</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>138</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>-2147483648</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#maxAppointmentDurationDays name="maxAppointmentDurationDays">maxAppointmentDurationDays</a>
 
 Maximum number of days an appointment can last.  
@@ -4974,32 +1510,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Max Appointment Duration</td></tr><tr><td>description</td><td>Maximum number of days an appointment can last.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>maxappointmentdurationdays</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the maxAppointmentDurationDays attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Max Appointment Duration</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Maximum number of days an appointment can last.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>maxappointmentdurationdays</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>139</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#emailSendPollingPeriod name="emailSendPollingPeriod">emailSendPollingPeriod</a>
 
@@ -5010,32 +1520,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Email Send Polling Frequency</td></tr><tr><td>description</td><td>Normal polling frequency used for sending email in Microsoft Office Outlook.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>sourceName</td><td>emailsendpollingperiod</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the emailSendPollingPeriod attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Email Send Polling Frequency</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Normal polling frequency used for sending email in Microsoft Office Outlook.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>emailsendpollingperiod</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>140</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>-2147483648</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#renderSecureIFrameForEmail name="renderSecureIFrameForEmail">renderSecureIFrameForEmail</a>
 
 Flag to render the body of email in the Web form in an IFRAME with the security='restricted' attribute set. This is additional security but can cause a credentials prompt.  
@@ -5044,29 +1528,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Render Secure Frame For Email</td></tr><tr><td>description</td><td>Flag to render the body of email in the Web form in an IFRAME with the security='restricted' attribute set. This is additional security but can cause a credentials prompt.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>rendersecureiframeforemail</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the renderSecureIFrameForEmail attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Render Secure Frame For Email</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Flag to render the body of email in the Web form in an IFRAME with the security='restricted' attribute set. This is additional security but can cause a credentials prompt.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>rendersecureiframeforemail</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>141</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#numberSeparator name="numberSeparator">numberSeparator</a>
 
@@ -5077,34 +1538,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Number Separator</td></tr><tr><td>description</td><td>Symbol used for number separation in Microsoft Dynamics 365.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>5</td></tr><tr><td>sourceName</td><td>numberseparator</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the numberSeparator attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Number Separator</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Symbol used for number separation in Microsoft Dynamics 365.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>numberseparator</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>142</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>5</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#privReportingGroupId name="privReportingGroupId">privReportingGroupId</a>
 
 For internal use only.  
@@ -5113,35 +1546,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Privilege Reporting Group</td></tr><tr><td>description</td><td>For internal use only.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>privreportinggroupid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the privReportingGroupId attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.dataFormat.guid**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Privilege Reporting Group</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>For internal use only.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>privreportinggroupid</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>143</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#baseCurrencyId name="baseCurrencyId">baseCurrencyId</a>
 
@@ -5152,42 +1556,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Currency</td></tr><tr><td>description</td><td>Unique identifier of the base currency of the organization.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>basecurrencyid</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the baseCurrencyId attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.dataFormat.guid**  
-- **means.identity.entityId**  
-- **is.CDS.lookup**  
-The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td></td></tr></table>
-
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Currency</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the base currency of the organization.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>basecurrencyid</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>144</td><td>integer</td><td></td></tr></table>
-
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../Currency.md" target="_blank">/core/applicationCommon/Currency.cdm.json/Currency</a></td><td><a href="../Currency.md#transactionCurrencyId" target="_blank">transactionCurrencyId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-</details>
-
 ### <a href=#maxRecordsForExportToExcel name="maxRecordsForExportToExcel">maxRecordsForExportToExcel</a>
 
 Maximum number of records that will be exported to a static Microsoft Office Excel worksheet when exporting from the grid.  
@@ -5196,32 +1564,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Max Records For Excel Export</td></tr><tr><td>description</td><td>Maximum number of records that will be exported to a static Microsoft Office Excel worksheet when exporting from the grid.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>maxrecordsforexporttoexcel</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the maxRecordsForExportToExcel attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Max Records For Excel Export</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Maximum number of records that will be exported to a static Microsoft Office Excel worksheet when exporting from the grid.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>maxrecordsforexporttoexcel</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>145</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#privReportingGroupName name="privReportingGroupName">privReportingGroupName</a>
 
@@ -5232,38 +1574,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Privilege Reporting Group Name</td></tr><tr><td>description</td><td>For internal use only.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>256</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>privreportinggroupname</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the privReportingGroupName attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **means.identity.name**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Privilege Reporting Group Name</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>For internal use only.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>privreportinggroupname</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>146</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>256</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#yearStartWeekCode name="yearStartWeekCode">yearStartWeekCode</a>
 
 Information that specifies how the first week of the year is specified in Microsoft Dynamics 365.  
@@ -5272,32 +1582,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Year Start Week Code</td></tr><tr><td>description</td><td>Information that specifies how the first week of the year is specified in Microsoft Dynamics 365.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>sourceName</td><td>yearstartweekcode</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the yearStartWeekCode attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Year Start Week Code</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Information that specifies how the first week of the year is specified in Microsoft Dynamics 365.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>yearstartweekcode</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>147</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>-2147483648</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#isPresenceEnabled name="isPresenceEnabled">isPresenceEnabled</a>
 
@@ -5308,32 +1592,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Presence Enabled</td></tr><tr><td>description</td><td>Information on whether IM presence is enabled.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>ispresenceenabled</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the isPresenceEnabled attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Presence Enabled</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Information on whether IM presence is enabled.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>ispresenceenabled</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>148</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#isDuplicateDetectionEnabled name="isDuplicateDetectionEnabled">isDuplicateDetectionEnabled</a>
 
 Indicates whether duplicate detection of records is enabled.  
@@ -5342,29 +1600,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Is Duplicate Detection Enabled</td></tr><tr><td>description</td><td>Indicates whether duplicate detection of records is enabled.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>isduplicatedetectionenabled</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the isDuplicateDetectionEnabled attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Is Duplicate Detection Enabled</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether duplicate detection of records is enabled.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>isduplicatedetectionenabled</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>149</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#expireSubscriptionsInDays name="expireSubscriptionsInDays">expireSubscriptionsInDays</a>
 
@@ -5375,32 +1610,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Days to Expire Subscriptions</td></tr><tr><td>description</td><td>Maximum number of days before deleting inactive subscriptions.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>expiresubscriptionsindays</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the expireSubscriptionsInDays attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Days to Expire Subscriptions</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Maximum number of days before deleting inactive subscriptions.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>expiresubscriptionsindays</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>155</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#isAuditEnabled name="isAuditEnabled">isAuditEnabled</a>
 
 Enable or disable auditing of changes.  
@@ -5409,29 +1618,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Is Auditing Enabled</td></tr><tr><td>description</td><td>Enable or disable auditing of changes.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>isauditenabled</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the isAuditEnabled attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Is Auditing Enabled</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable or disable auditing of changes.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>isauditenabled</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>156</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#baseCurrencyPrecision name="baseCurrencyPrecision">baseCurrencyPrecision</a>
 
@@ -5442,32 +1628,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Base Currency Precision</td></tr><tr><td>description</td><td>Number of decimal places that can be used for the base currency.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>4</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>basecurrencyprecision</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the baseCurrencyPrecision attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Base Currency Precision</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Number of decimal places that can be used for the base currency.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>basecurrencyprecision</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>157</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>4</td><td>decimal</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#baseCurrencySymbol name="baseCurrencySymbol">baseCurrencySymbol</a>
 
 Symbol used for the base currency.  
@@ -5476,34 +1636,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Base Currency Symbol</td></tr><tr><td>description</td><td>Symbol used for the base currency.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>5</td></tr><tr><td>sourceName</td><td>basecurrencysymbol</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the baseCurrencySymbol attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Base Currency Symbol</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Symbol used for the base currency.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>basecurrencysymbol</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>158</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>5</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#maxRecordsForLookupFilters name="maxRecordsForLookupFilters">maxRecordsForLookupFilters</a>
 
@@ -5514,32 +1646,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Max Records Filter Selection</td></tr><tr><td>description</td><td>Maximum number of lookup and picklist records that can be selected by user for filtering.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>maxrecordsforlookupfilters</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the maxRecordsForLookupFilters attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Max Records Filter Selection</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Maximum number of lookup and picklist records that can be selected by user for filtering.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>maxrecordsforlookupfilters</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>162</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#allowEntityOnlyAudit name="allowEntityOnlyAudit">allowEntityOnlyAudit</a>
 
 Indicates whether auditing of changes to entity is allowed when no attributes have changed.  
@@ -5548,29 +1654,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Allow Entity Level Auditing</td></tr><tr><td>description</td><td>Indicates whether auditing of changes to entity is allowed when no attributes have changed.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>allowentityonlyaudit</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the allowEntityOnlyAudit attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Allow Entity Level Auditing</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether auditing of changes to entity is allowed when no attributes have changed.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>allowentityonlyaudit</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>165</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#defaultRecurrenceEndRangeType name="defaultRecurrenceEndRangeType">defaultRecurrenceEndRangeType</a>
 
@@ -5581,38 +1664,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Default Recurrence End Range Type</td></tr><tr><td>description</td><td>Type of default recurrence end range date.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>defaultrecurrenceendrangetype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No End Date</td><td>1</td></tr><tr><td>en</td><td>Number of Occurrences</td><td>2</td></tr><tr><td>en</td><td>End By Date</td><td>3</td></tr></table></td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the defaultRecurrenceEndRangeType attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No End Date</td><td>1</td></tr><tr><td>en</td><td>Number of Occurrences</td><td>2</td></tr><tr><td>en</td><td>End By Date</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
-
-- **is.constrainedList**  
-the values of an attribute are taken from or looked up from a fixed list of possibilities  
-
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Default Recurrence End Range Type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Type of default recurrence end range date.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>defaultrecurrenceendrangetype</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>166</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#defaultRecurrenceEndRangeType_display name="defaultRecurrenceEndRangeType_display">defaultRecurrenceEndRangeType_display</a>
 
 First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
@@ -5620,21 +1671,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the defaultRecurrenceEndRangeType_display attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **means.reference.displayText**  
-- **is.readOnly**  
-- **is.addedInSupportOf**  
-<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>defaultRecurrenceEndRangeType</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
-
-</details>
 
 ### <a href=#futureExpansionWindow name="futureExpansionWindow">futureExpansionWindow</a>
 
@@ -5645,32 +1681,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Future Expansion Window</td></tr><tr><td>description</td><td>Specifies the maximum number of months in future for which the recurring activities can be created.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>140</td></tr><tr><td>minimumValue</td><td>1</td></tr><tr><td>sourceName</td><td>futureexpansionwindow</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the futureExpansionWindow attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Future Expansion Window</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Specifies the maximum number of months in future for which the recurring activities can be created.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>futureexpansionwindow</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>168</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>1</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>140</td><td>decimal</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#pastExpansionWindow name="pastExpansionWindow">pastExpansionWindow</a>
 
 Specifies the maximum number of months in past for which the recurring activities can be created.  
@@ -5679,32 +1689,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Past Expansion Window</td></tr><tr><td>description</td><td>Specifies the maximum number of months in past for which the recurring activities can be created.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>120</td></tr><tr><td>minimumValue</td><td>1</td></tr><tr><td>sourceName</td><td>pastexpansionwindow</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the pastExpansionWindow attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Past Expansion Window</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Specifies the maximum number of months in past for which the recurring activities can be created.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>pastexpansionwindow</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>169</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>1</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>120</td><td>decimal</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#recurrenceExpansionSynchCreateMax name="recurrenceExpansionSynchCreateMax">recurrenceExpansionSynchCreateMax</a>
 
@@ -5715,32 +1699,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Recurrence Expansion Synchronization Create Maximum</td></tr><tr><td>description</td><td>Specifies the maximum number of instances to be created synchronously after creating a recurring appointment.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>1000</td></tr><tr><td>minimumValue</td><td>1</td></tr><tr><td>sourceName</td><td>recurrenceexpansionsynchcreatemax</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the recurrenceExpansionSynchCreateMax attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Recurrence Expansion Synchronization Create Maximum</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Specifies the maximum number of instances to be created synchronously after creating a recurring appointment.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>recurrenceexpansionsynchcreatemax</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>170</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>1</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>1000</td><td>decimal</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#recurrenceDefaultNumberOfOccurrences name="recurrenceDefaultNumberOfOccurrences">recurrenceDefaultNumberOfOccurrences</a>
 
 Specifies the default value for number of occurrences field in the recurrence dialog.  
@@ -5749,32 +1707,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Recurrence Default Number of Occurrences</td></tr><tr><td>description</td><td>Specifies the default value for number of occurrences field in the recurrence dialog.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>999</td></tr><tr><td>minimumValue</td><td>1</td></tr><tr><td>sourceName</td><td>recurrencedefaultnumberofoccurrences</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the recurrenceDefaultNumberOfOccurrences attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Recurrence Default Number of Occurrences</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Specifies the default value for number of occurrences field in the recurrence dialog.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>recurrencedefaultnumberofoccurrences</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>171</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>1</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>999</td><td>decimal</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
@@ -5785,42 +1717,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By (Delegate)</td></tr><tr><td>description</td><td>Unique identifier of the delegate user who created the organization.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdonbehalfby</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.dataFormat.guid**  
-- **means.identity.entityId**  
-- **is.CDS.lookup**  
-The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td></td></tr></table>
-
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Created By (Delegate)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the delegate user who created the organization.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>createdonbehalfby</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>172</td><td>integer</td><td></td></tr></table>
-
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-</details>
-
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Unique identifier of the delegate user who last modified the organization.  
@@ -5829,42 +1725,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By (Delegate)</td></tr><tr><td>description</td><td>Unique identifier of the delegate user who last modified the organization.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedonbehalfby</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.dataFormat.guid**  
-- **means.identity.entityId**  
-- **is.CDS.lookup**  
-The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td></td></tr></table>
-
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Modified By (Delegate)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the delegate user who last modified the organization.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>modifiedonbehalfby</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>176</td><td>integer</td><td></td></tr></table>
-
-- **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-</details>
 
 ### <a href=#getStartedPaneContentEnabled name="getStartedPaneContentEnabled">getStartedPaneContentEnabled</a>
 
@@ -5875,29 +1735,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Is Get Started Pane Content Enabled</td></tr><tr><td>description</td><td>Indicates whether Get Started content is enabled for this organization.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>getstartedpanecontentenabled</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the getStartedPaneContentEnabled attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Is Get Started Pane Content Enabled</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether Get Started content is enabled for this organization.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>getstartedpanecontentenabled</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>180</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#useReadForm name="useReadForm">useReadForm</a>
 
 Indicates whether the read-optimized form should be enabled for this organization.  
@@ -5906,29 +1743,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Use Read-Optimized Form</td></tr><tr><td>description</td><td>Indicates whether the read-optimized form should be enabled for this organization.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>usereadform</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the useReadForm attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Use Read-Optimized Form</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether the read-optimized form should be enabled for this organization.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>usereadform</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>181</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#initialVersion name="initialVersion">initialVersion</a>
 
@@ -5939,37 +1753,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Initial Version</td></tr><tr><td>description</td><td>Initial version of the organization.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>20</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>initialversion</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the initialVersion attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Initial Version</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Initial version of the organization.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>initialversion</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>182</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>20</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#sampleDataImportId name="sampleDataImportId">sampleDataImportId</a>
 
 Unique identifier of the sample data import job.  
@@ -5978,35 +1761,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Sample Data Import</td></tr><tr><td>description</td><td>Unique identifier of the sample data import job.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>sampledataimportid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the sampleDataImportId attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.dataFormat.guid**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Sample Data Import</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the sample data import job.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>sampledataimportid</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>183</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#reportScriptErrors name="reportScriptErrors">reportScriptErrors</a>
 
@@ -6017,35 +1771,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Report Script Errors</td></tr><tr><td>description</td><td>Picklist for selecting the organization preference for reporting scripting errors.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>reportscripterrors</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No preference for sending an error report to Microsoft about Microsoft Dynamics 365</td><td>0</td></tr><tr><td>en</td><td>Ask me for permission to send an error report to Microsoft</td><td>1</td></tr><tr><td>en</td><td>Automatically send an error report to Microsoft without asking me for permission</td><td>2</td></tr><tr><td>en</td><td>Never send an error report to Microsoft about Microsoft Dynamics 365</td><td>3</td></tr></table></td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the reportScriptErrors attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No preference for sending an error report to Microsoft about Microsoft Dynamics 365</td><td>0</td></tr><tr><td>en</td><td>Ask me for permission to send an error report to Microsoft</td><td>1</td></tr><tr><td>en</td><td>Automatically send an error report to Microsoft without asking me for permission</td><td>2</td></tr><tr><td>en</td><td>Never send an error report to Microsoft about Microsoft Dynamics 365</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
-
-- **is.constrainedList**  
-the values of an attribute are taken from or looked up from a fixed list of possibilities  
-
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Report Script Errors</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Picklist for selecting the organization preference for reporting scripting errors.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>reportscripterrors</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>184</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#reportScriptErrors_display name="reportScriptErrors_display">reportScriptErrors_display</a>
 
 First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
@@ -6053,21 +1778,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the reportScriptErrors_display attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **means.reference.displayText**  
-- **is.readOnly**  
-- **is.addedInSupportOf**  
-<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>reportScriptErrors</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
-
-</details>
 
 ### <a href=#requireApprovalForUserEmail name="requireApprovalForUserEmail">requireApprovalForUserEmail</a>
 
@@ -6078,29 +1788,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Is Approval For User Email Required</td></tr><tr><td>description</td><td>Indicates whether Send As Other User privilege is enabled.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>requireapprovalforuseremail</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the requireApprovalForUserEmail attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Is Approval For User Email Required</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether Send As Other User privilege is enabled.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>requireapprovalforuseremail</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>186</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#requireApprovalForQueueEmail name="requireApprovalForQueueEmail">requireApprovalForQueueEmail</a>
 
 Indicates whether Send As Other User privilege is enabled.  
@@ -6109,29 +1796,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Is Approval For Queue Email Required</td></tr><tr><td>description</td><td>Indicates whether Send As Other User privilege is enabled.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>requireapprovalforqueueemail</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the requireApprovalForQueueEmail attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Is Approval For Queue Email Required</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether Send As Other User privilege is enabled.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>requireapprovalforqueueemail</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>187</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#goalRollupExpiryTime name="goalRollupExpiryTime">goalRollupExpiryTime</a>
 
@@ -6142,32 +1806,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Rollup Expiration Time for Goal</td></tr><tr><td>description</td><td>Number of days after the goal's end date after which the rollup of the goal stops automatically.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>400</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>goalrollupexpirytime</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the goalRollupExpiryTime attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Rollup Expiration Time for Goal</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Number of days after the goal's end date after which the rollup of the goal stops automatically.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>goalrollupexpirytime</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>188</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>400</td><td>decimal</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#goalRollupFrequency name="goalRollupFrequency">goalRollupFrequency</a>
 
 Number of hours between automatic rollup jobs .  
@@ -6176,32 +1814,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Automatic Rollup Frequency for Goal</td></tr><tr><td>description</td><td>Number of hours between automatic rollup jobs .</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>1</td></tr><tr><td>sourceName</td><td>goalrollupfrequency</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the goalRollupFrequency attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Automatic Rollup Frequency for Goal</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Number of hours between automatic rollup jobs .</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>goalrollupfrequency</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>189</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>1</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#autoApplyDefaultonCaseCreate name="autoApplyDefaultonCaseCreate">autoApplyDefaultonCaseCreate</a>
 
@@ -6212,29 +1824,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Auto Apply Default Entitlement on Case Create</td></tr><tr><td>description</td><td>Select whether to auto apply the default customer entitlement on case creation.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>autoapplydefaultoncasecreate</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the autoApplyDefaultonCaseCreate attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Auto Apply Default Entitlement on Case Create</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Select whether to auto apply the default customer entitlement on case creation.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>autoapplydefaultoncasecreate</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>190</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#autoApplyDefaultonCaseUpdate name="autoApplyDefaultonCaseUpdate">autoApplyDefaultonCaseUpdate</a>
 
 Select whether to auto apply the default customer entitlement on case update.  
@@ -6243,29 +1832,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Auto Apply Default Entitlement on Case Update</td></tr><tr><td>description</td><td>Select whether to auto apply the default customer entitlement on case update.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>autoapplydefaultoncaseupdate</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the autoApplyDefaultonCaseUpdate attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Auto Apply Default Entitlement on Case Update</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Select whether to auto apply the default customer entitlement on case update.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>autoapplydefaultoncaseupdate</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>192</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#fiscalYearFormatPrefix name="fiscalYearFormatPrefix">fiscalYearFormatPrefix</a>
 
@@ -6276,38 +1842,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Prefix for Fiscal Year</td></tr><tr><td>description</td><td>Prefix for the display of the fiscal year.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>fiscalyearformatprefix</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>FY</td><td>1</td></tr><tr><td>en</td><td></td><td>2</td></tr></table></td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the fiscalYearFormatPrefix attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>FY</td><td>1</td></tr><tr><td>en</td><td></td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
-
-- **is.constrainedList**  
-the values of an attribute are taken from or looked up from a fixed list of possibilities  
-
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Prefix for Fiscal Year</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Prefix for the display of the fiscal year.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>fiscalyearformatprefix</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>194</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#fiscalYearFormatPrefix_display name="fiscalYearFormatPrefix_display">fiscalYearFormatPrefix_display</a>
 
 First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
@@ -6315,21 +1849,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the fiscalYearFormatPrefix_display attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **means.reference.displayText**  
-- **is.readOnly**  
-- **is.addedInSupportOf**  
-<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>fiscalYearFormatPrefix</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
-
-</details>
 
 ### <a href=#fiscalYearFormatSuffix name="fiscalYearFormatSuffix">fiscalYearFormatSuffix</a>
 
@@ -6340,38 +1859,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Suffix for Fiscal Year</td></tr><tr><td>description</td><td>Suffix for the display of the fiscal year.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>fiscalyearformatsuffix</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>FY</td><td>1</td></tr><tr><td>en</td><td> Fiscal Year</td><td>2</td></tr><tr><td>en</td><td></td><td>3</td></tr></table></td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the fiscalYearFormatSuffix attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>FY</td><td>1</td></tr><tr><td>en</td><td> Fiscal Year</td><td>2</td></tr><tr><td>en</td><td></td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
-
-- **is.constrainedList**  
-the values of an attribute are taken from or looked up from a fixed list of possibilities  
-
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Suffix for Fiscal Year</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Suffix for the display of the fiscal year.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>fiscalyearformatsuffix</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>196</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#fiscalYearFormatSuffix_display name="fiscalYearFormatSuffix_display">fiscalYearFormatSuffix_display</a>
 
 First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
@@ -6379,21 +1866,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the fiscalYearFormatSuffix_display attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **means.reference.displayText**  
-- **is.readOnly**  
-- **is.addedInSupportOf**  
-<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>fiscalYearFormatSuffix</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
-
-</details>
 
 ### <a href=#fiscalYearFormatYear name="fiscalYearFormatYear">fiscalYearFormatYear</a>
 
@@ -6404,38 +1876,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Fiscal Year Format Year</td></tr><tr><td>description</td><td>Format for the year.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>fiscalyearformatyear</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>YYYY</td><td>1</td></tr><tr><td>en</td><td>YY</td><td>2</td></tr><tr><td>en</td><td>GGYY</td><td>3</td></tr></table></td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the fiscalYearFormatYear attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>YYYY</td><td>1</td></tr><tr><td>en</td><td>YY</td><td>2</td></tr><tr><td>en</td><td>GGYY</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
-
-- **is.constrainedList**  
-the values of an attribute are taken from or looked up from a fixed list of possibilities  
-
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Fiscal Year Format Year</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Format for the year.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>fiscalyearformatyear</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>198</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#fiscalYearFormatYear_display name="fiscalYearFormatYear_display">fiscalYearFormatYear_display</a>
 
 First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
@@ -6443,21 +1883,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the fiscalYearFormatYear_display attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **means.reference.displayText**  
-- **is.readOnly**  
-- **is.addedInSupportOf**  
-<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>fiscalYearFormatYear</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
-
-</details>
 
 ### <a href=#discountCalculationMethod name="discountCalculationMethod">discountCalculationMethod</a>
 
@@ -6468,35 +1893,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Discount calculation method</td></tr><tr><td>description</td><td>Discount calculation method for the QOOI product.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>discountcalculationmethod</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Line item</td><td>0</td></tr><tr><td>en</td><td>Per unit</td><td>1</td></tr></table></td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the discountCalculationMethod attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Line item</td><td>0</td></tr><tr><td>en</td><td>Per unit</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
-
-- **is.constrainedList**  
-the values of an attribute are taken from or looked up from a fixed list of possibilities  
-
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Discount calculation method</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Discount calculation method for the QOOI product.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>discountcalculationmethod</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>200</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#discountCalculationMethod_display name="discountCalculationMethod_display">discountCalculationMethod_display</a>
 
 First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
@@ -6504,21 +1900,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the discountCalculationMethod_display attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **means.reference.displayText**  
-- **is.readOnly**  
-- **is.addedInSupportOf**  
-<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>discountCalculationMethod</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
-
-</details>
 
 ### <a href=#fiscalPeriodFormatPeriod name="fiscalPeriodFormatPeriod">fiscalPeriodFormatPeriod</a>
 
@@ -6529,38 +1910,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Format for Fiscal Period</td></tr><tr><td>description</td><td>Format in which the fiscal period will be displayed.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>fiscalperiodformatperiod</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Quarter {0}</td><td>1</td></tr><tr><td>en</td><td>Q{0}</td><td>2</td></tr><tr><td>en</td><td>P{0}</td><td>3</td></tr><tr><td>en</td><td>Month {0}</td><td>4</td></tr><tr><td>en</td><td>M{0}</td><td>5</td></tr><tr><td>en</td><td>Semester {0}</td><td>6</td></tr><tr><td>en</td><td>Month Name</td><td>7</td></tr></table></td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the fiscalPeriodFormatPeriod attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Quarter {0}</td><td>1</td></tr><tr><td>en</td><td>Q{0}</td><td>2</td></tr><tr><td>en</td><td>P{0}</td><td>3</td></tr><tr><td>en</td><td>Month {0}</td><td>4</td></tr><tr><td>en</td><td>M{0}</td><td>5</td></tr><tr><td>en</td><td>Semester {0}</td><td>6</td></tr><tr><td>en</td><td>Month Name</td><td>7</td></tr></table></td><td>any</td><td></td></tr></table>
-
-- **is.constrainedList**  
-the values of an attribute are taken from or looked up from a fixed list of possibilities  
-
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Format for Fiscal Period</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Format in which the fiscal period will be displayed.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>fiscalperiodformatperiod</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>208</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#fiscalPeriodFormatPeriod_display name="fiscalPeriodFormatPeriod_display">fiscalPeriodFormatPeriod_display</a>
 
 First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
@@ -6568,21 +1917,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the fiscalPeriodFormatPeriod_display attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **means.reference.displayText**  
-- **is.readOnly**  
-- **is.addedInSupportOf**  
-<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>fiscalPeriodFormatPeriod</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
-
-</details>
 
 ### <a href=#allowClientMessageBarAd name="allowClientMessageBarAd">allowClientMessageBarAd</a>
 
@@ -6593,29 +1927,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Allow Outlook Client Message Bar Advertisement</td></tr><tr><td>description</td><td>Indicates whether Outlook Client message bar advertisement is allowed.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>allowclientmessagebarad</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the allowClientMessageBarAd attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Allow Outlook Client Message Bar Advertisement</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether Outlook Client message bar advertisement is allowed.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>allowclientmessagebarad</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>210</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#allowUserFormModePreference name="allowUserFormModePreference">allowUserFormModePreference</a>
 
 Indicates whether individuals can select their form mode preference in their personal options.  
@@ -6624,29 +1935,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Allow User Form Mode Preference</td></tr><tr><td>description</td><td>Indicates whether individuals can select their form mode preference in their personal options.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>allowuserformmodepreference</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the allowUserFormModePreference attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Allow User Form Mode Preference</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether individuals can select their form mode preference in their personal options.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>allowuserformmodepreference</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>211</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#hashFilterKeywords name="hashFilterKeywords">hashFilterKeywords</a>
 
@@ -6657,37 +1945,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Hash Filter Keywords</td></tr><tr><td>description</td><td>Filter Subject Keywords</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>1073741823</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>hashfilterkeywords</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the hashFilterKeywords attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Hash Filter Keywords</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Filter Subject Keywords</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>hashfilterkeywords</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>212</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>1073741823</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#hashMaxCount name="hashMaxCount">hashMaxCount</a>
 
 Maximum number of subject keywords or recipients used for correlation  
@@ -6696,35 +1953,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Hash Max Count</td></tr><tr><td>description</td><td>Maximum number of subject keywords or recipients used for correlation</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>hashmaxcount</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the hashMaxCount attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Hash Max Count</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Maximum number of subject keywords or recipients used for correlation</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>hashmaxcount</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>213</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#hashDeltaSubjectCount name="hashDeltaSubjectCount">hashDeltaSubjectCount</a>
 
@@ -6735,35 +1963,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Hash Delta Subject Count</td></tr><tr><td>description</td><td>Maximum difference allowed between subject keywords count of the email messaged to be correlated</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>hashdeltasubjectcount</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the hashDeltaSubjectCount attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Hash Delta Subject Count</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Maximum difference allowed between subject keywords count of the email messaged to be correlated</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>hashdeltasubjectcount</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>214</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#hashMinAddressCount name="hashMinAddressCount">hashMinAddressCount</a>
 
 Minimum number of recipients required to match for email messaged to be correlated  
@@ -6772,35 +1971,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Hash Min Address Count</td></tr><tr><td>description</td><td>Minimum number of recipients required to match for email messaged to be correlated</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>hashminaddresscount</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the hashMinAddressCount attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Hash Min Address Count</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Minimum number of recipients required to match for email messaged to be correlated</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>hashminaddresscount</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>215</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#enableSmartMatching name="enableSmartMatching">enableSmartMatching</a>
 
@@ -6811,32 +1981,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Enable Smart Matching</td></tr><tr><td>description</td><td>Use Smart Matching.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>enablesmartmatching</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the enableSmartMatching attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable Smart Matching</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Use Smart Matching.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>enablesmartmatching</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>216</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#pinpointLanguageCode name="pinpointLanguageCode">pinpointLanguageCode</a>
 
 First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
@@ -6844,32 +1988,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>pinpointlanguagecode</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the pinpointLanguageCode attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **means.reference.language**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>pinpointlanguagecode</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>217</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#orgDbOrgSettings name="orgDbOrgSettings">orgDbOrgSettings</a>
 
@@ -6880,37 +1998,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Organization Database Organization Settings</td></tr><tr><td>description</td><td>Organization settings stored in Organization Database.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>1073741823</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>orgdborgsettings</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the orgDbOrgSettings attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Organization Database Organization Settings</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Organization settings stored in Organization Database.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>orgdborgsettings</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>218</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>1073741823</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#isUserAccessAuditEnabled name="isUserAccessAuditEnabled">isUserAccessAuditEnabled</a>
 
 Enable or disable auditing of user access.  
@@ -6919,29 +2006,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Is User Access Auditing Enabled</td></tr><tr><td>description</td><td>Enable or disable auditing of user access.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>isuseraccessauditenabled</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the isUserAccessAuditEnabled attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Is User Access Auditing Enabled</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable or disable auditing of user access.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>isuseraccessauditenabled</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>219</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#userAccessAuditingInterval name="userAccessAuditingInterval">userAccessAuditingInterval</a>
 
@@ -6952,32 +2016,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>User Authentication Auditing Interval</td></tr><tr><td>description</td><td>The interval at which user access is checked for auditing.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>useraccessauditinginterval</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the userAccessAuditingInterval attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>User Authentication Auditing Interval</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The interval at which user access is checked for auditing.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>useraccessauditinginterval</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>220</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#quickFindRecordLimitEnabled name="quickFindRecordLimitEnabled">quickFindRecordLimitEnabled</a>
 
 Indicates whether a quick find record limit should be enabled for this organization (allows for faster Quick Find queries but prevents overly broad searches).  
@@ -6986,29 +2024,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Quick Find Record Limit Enabled</td></tr><tr><td>description</td><td>Indicates whether a quick find record limit should be enabled for this organization (allows for faster Quick Find queries but prevents overly broad searches).</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>quickfindrecordlimitenabled</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the quickFindRecordLimitEnabled attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Quick Find Record Limit Enabled</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether a quick find record limit should be enabled for this organization (allows for faster Quick Find queries but prevents overly broad searches).</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>quickfindrecordlimitenabled</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>221</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#enableBingMapsIntegration name="enableBingMapsIntegration">enableBingMapsIntegration</a>
 
@@ -7019,29 +2034,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Enable Integration with Bing Maps</td></tr><tr><td>description</td><td>Enable Integration with Bing Maps</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>enablebingmapsintegration</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the enableBingMapsIntegration attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable Integration with Bing Maps</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable Integration with Bing Maps</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>enablebingmapsintegration</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>222</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#isDefaultCountryCodeCheckEnabled name="isDefaultCountryCodeCheckEnabled">isDefaultCountryCodeCheckEnabled</a>
 
 Enable or disable country code selection.  
@@ -7050,29 +2042,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Enable or disable country code selection</td></tr><tr><td>description</td><td>Enable or disable country code selection.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>isdefaultcountrycodecheckenabled</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the isDefaultCountryCodeCheckEnabled attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable or disable country code selection</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable or disable country code selection.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>isdefaultcountrycodecheckenabled</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>223</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#defaultCountryCode name="defaultCountryCode">defaultCountryCode</a>
 
@@ -7083,37 +2052,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Default Country Code</td></tr><tr><td>description</td><td>Text area to enter default country code.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>30</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>defaultcountrycode</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the defaultCountryCode attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Default Country Code</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Text area to enter default country code.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>defaultcountrycode</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>224</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>30</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#useSkypeProtocol name="useSkypeProtocol">useSkypeProtocol</a>
 
 Indicates default protocol selected for organization.  
@@ -7122,29 +2060,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>User Skype Protocol</td></tr><tr><td>description</td><td>Indicates default protocol selected for organization.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>useskypeprotocol</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the useSkypeProtocol attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>User Skype Protocol</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates default protocol selected for organization.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>useskypeprotocol</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>225</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#incomingEmailExchangeEmailRetrievalBatchSize name="incomingEmailExchangeEmailRetrievalBatchSize">incomingEmailExchangeEmailRetrievalBatchSize</a>
 
@@ -7155,35 +2070,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Exchange Email Retrieval Batch Size</td></tr><tr><td>description</td><td>Setting for the Async Service Mailbox Queue. Defines the retrieval batch size of exchange server.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>incomingemailexchangeemailretrievalbatchsize</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the incomingEmailExchangeEmailRetrievalBatchSize attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Exchange Email Retrieval Batch Size</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Setting for the Async Service Mailbox Queue. Defines the retrieval batch size of exchange server.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>incomingemailexchangeemailretrievalbatchsize</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>226</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>1</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#emailCorrelationEnabled name="emailCorrelationEnabled">emailCorrelationEnabled</a>
 
 Flag to turn email correlation on or off.  
@@ -7192,29 +2078,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Use Email Correlation</td></tr><tr><td>description</td><td>Flag to turn email correlation on or off.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>emailcorrelationenabled</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the emailCorrelationEnabled attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Use Email Correlation</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Flag to turn email correlation on or off.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>emailcorrelationenabled</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>227</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#yammerOAuthAccessTokenExpired name="yammerOAuthAccessTokenExpired">yammerOAuthAccessTokenExpired</a>
 
@@ -7225,32 +2088,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Yammer OAuth Access Token Expired</td></tr><tr><td>description</td><td>Denotes whether the OAuth access token for Yammer network has expired</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>yammeroauthaccesstokenexpired</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the yammerOAuthAccessTokenExpired attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Yammer OAuth Access Token Expired</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Denotes whether the OAuth access token for Yammer network has expired</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>yammeroauthaccesstokenexpired</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>230</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#defaultEmailSettings name="defaultEmailSettings">defaultEmailSettings</a>
 
 XML string containing the default email settings that are applied when a user or queue is created.  
@@ -7259,38 +2096,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Default Email Settings</td></tr><tr><td>description</td><td>XML string containing the default email settings that are applied when a user or queue is created.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>1073741823</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>defaultemailsettings</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the defaultEmailSettings attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **means.identity.service.email**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Default Email Settings</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>XML string containing the default email settings that are applied when a user or queue is created.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>defaultemailsettings</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>231</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>1073741823</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#yammerGroupId name="yammerGroupId">yammerGroupId</a>
 
@@ -7301,35 +2106,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Yammer Group Id</td></tr><tr><td>description</td><td>Denotes the Yammer group ID</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>yammergroupid</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the yammerGroupId attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Yammer Group Id</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Denotes the Yammer group ID</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>yammergroupid</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>232</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#yammerNetworkPermalink name="yammerNetworkPermalink">yammerNetworkPermalink</a>
 
 Denotes the Yammer network permalink  
@@ -7338,37 +2114,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Yammer Network Permalink</td></tr><tr><td>description</td><td>Denotes the Yammer network permalink</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>yammernetworkpermalink</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the yammerNetworkPermalink attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Yammer Network Permalink</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Denotes the Yammer network permalink</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>yammernetworkpermalink</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>233</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>100</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#yammerPostMethod name="yammerPostMethod">yammerPostMethod</a>
 
@@ -7379,38 +2124,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Internal Use Only</td></tr><tr><td>description</td><td>Internal Use Only</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>yammerpostmethod</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Public</td><td>0</td></tr><tr><td>en</td><td>Private</td><td>1</td></tr></table></td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the yammerPostMethod attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Public</td><td>0</td></tr><tr><td>en</td><td>Private</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
-
-- **is.constrainedList**  
-the values of an attribute are taken from or looked up from a fixed list of possibilities  
-
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Internal Use Only</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Internal Use Only</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>yammerpostmethod</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>234</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#yammerPostMethod_display name="yammerPostMethod_display">yammerPostMethod_display</a>
 
 First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
@@ -7418,21 +2131,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the yammerPostMethod_display attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **means.reference.displayText**  
-- **is.readOnly**  
-- **is.addedInSupportOf**  
-<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>yammerPostMethod</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
-
-</details>
 
 ### <a href=#emailConnectionChannel name="emailConnectionChannel">emailConnectionChannel</a>
 
@@ -7443,35 +2141,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Email Connection Channel</td></tr><tr><td>description</td><td>Select if you want to use the Email Router or server-side synchronization for email processing.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>emailconnectionchannel</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Server-Side Synchronization</td><td>0</td></tr><tr><td>en</td><td>Microsoft Dynamics 365 Email Router</td><td>1</td></tr></table></td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the emailConnectionChannel attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Server-Side Synchronization</td><td>0</td></tr><tr><td>en</td><td>Microsoft Dynamics 365 Email Router</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
-
-- **is.constrainedList**  
-the values of an attribute are taken from or looked up from a fixed list of possibilities  
-
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Email Connection Channel</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Select if you want to use the Email Router or server-side synchronization for email processing.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>emailconnectionchannel</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>236</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#emailConnectionChannel_display name="emailConnectionChannel_display">emailConnectionChannel_display</a>
 
 First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
@@ -7479,21 +2148,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the emailConnectionChannel_display attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **means.reference.displayText**  
-- **is.readOnly**  
-- **is.addedInSupportOf**  
-<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>emailConnectionChannel</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
-
-</details>
 
 ### <a href=#defaultEmailServerProfileId name="defaultEmailServerProfileId">defaultEmailServerProfileId</a>
 
@@ -7504,39 +2158,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Email Server Profile</td></tr><tr><td>description</td><td>Unique identifier of the default email server profile.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>defaultemailserverprofileid</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the defaultEmailServerProfileId attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.dataFormat.guid**  
-- **means.identity.entityId**  
-- **is.CDS.lookup**  
-The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td></td></tr></table>
-
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Email Server Profile</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the default email server profile.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>defaultemailserverprofileid</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>237</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#isAutoSaveEnabled name="isAutoSaveEnabled">isAutoSaveEnabled</a>
 
 Information on whether auto save is enabled.  
@@ -7545,29 +2166,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Auto Save Enabled</td></tr><tr><td>description</td><td>Information on whether auto save is enabled.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>isautosaveenabled</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the isAutoSaveEnabled attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Auto Save Enabled</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Information on whether auto save is enabled.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>isautosaveenabled</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>238</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#bingMapsApiKey name="bingMapsApiKey">bingMapsApiKey</a>
 
@@ -7578,37 +2176,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Bing Maps API Key</td></tr><tr><td>description</td><td>Api Key to be used in requests to Bing Maps services.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>1024</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>bingmapsapikey</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the bingMapsApiKey attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Bing Maps API Key</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Api Key to be used in requests to Bing Maps services.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>bingmapsapikey</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>239</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>1024</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#generateAlertsForErrors name="generateAlertsForErrors">generateAlertsForErrors</a>
 
 Indicates whether alerts will be generated for errors.  
@@ -7617,29 +2184,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Generate Alerts For Errors</td></tr><tr><td>description</td><td>Indicates whether alerts will be generated for errors.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>generatealertsforerrors</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the generateAlertsForErrors attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Generate Alerts For Errors</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether alerts will be generated for errors.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>generatealertsforerrors</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>240</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#generateAlertsForInformation name="generateAlertsForInformation">generateAlertsForInformation</a>
 
@@ -7650,29 +2194,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Generate Alerts For Information</td></tr><tr><td>description</td><td>Indicates whether alerts will be generated for information.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>generatealertsforinformation</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the generateAlertsForInformation attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Generate Alerts For Information</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether alerts will be generated for information.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>generatealertsforinformation</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>241</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#generateAlertsForWarnings name="generateAlertsForWarnings">generateAlertsForWarnings</a>
 
 Indicates whether alerts will be generated for warnings.  
@@ -7681,29 +2202,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Generate Alerts For Warnings</td></tr><tr><td>description</td><td>Indicates whether alerts will be generated for warnings.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>generatealertsforwarnings</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the generateAlertsForWarnings attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Generate Alerts For Warnings</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether alerts will be generated for warnings.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>generatealertsforwarnings</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>242</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#notifyMailboxOwnerOfEmailServerLevelAlerts name="notifyMailboxOwnerOfEmailServerLevelAlerts">notifyMailboxOwnerOfEmailServerLevelAlerts</a>
 
@@ -7714,29 +2212,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Notify Mailbox Owner Of Email Server Level Alerts</td></tr><tr><td>description</td><td>Indicates whether mailbox owners will be notified of email server profile level alerts.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>notifymailboxownerofemailserverlevelalerts</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the notifyMailboxOwnerOfEmailServerLevelAlerts attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Notify Mailbox Owner Of Email Server Level Alerts</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether mailbox owners will be notified of email server profile level alerts.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>notifymailboxownerofemailserverlevelalerts</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>243</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#maximumActiveBusinessProcessFlowsAllowedPerEntity name="maximumActiveBusinessProcessFlowsAllowedPerEntity">maximumActiveBusinessProcessFlowsAllowedPerEntity</a>
 
 Maximum number of active business process flows allowed per entity  
@@ -7745,35 +2220,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Maximum active business process flows per entity</td></tr><tr><td>description</td><td>Maximum number of active business process flows allowed per entity</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>maximumactivebusinessprocessflowsallowedperentity</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the maximumActiveBusinessProcessFlowsAllowedPerEntity attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Maximum active business process flows per entity</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Maximum number of active business process flows allowed per entity</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>maximumactivebusinessprocessflowsallowedperentity</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>244</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>1</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#entityImageId name="entityImageId">entityImageId</a>
 
@@ -7784,35 +2230,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Entity Image Id</td></tr><tr><td>description</td><td>For internal use only.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>entityimageid</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the entityImageId attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.dataFormat.guid**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Entity Image Id</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>For internal use only.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>entityimageid</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>245</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#allowUsersSeeAppdownloadMessage name="allowUsersSeeAppdownloadMessage">allowUsersSeeAppdownloadMessage</a>
 
 Indicates whether the showing tablet application notification bars in a browser is allowed.  
@@ -7821,29 +2238,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Allow the showing tablet application notification bars in a browser.</td></tr><tr><td>description</td><td>Indicates whether the showing tablet application notification bars in a browser is allowed.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>allowusersseeappdownloadmessage</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the allowUsersSeeAppdownloadMessage attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Allow the showing tablet application notification bars in a browser.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether the showing tablet application notification bars in a browser is allowed.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>allowusersseeappdownloadmessage</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>249</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#signupOutlookDownloadFWLink name="signupOutlookDownloadFWLink">signupOutlookDownloadFWLink</a>
 
@@ -7854,34 +2248,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>CRMForOutlookDownloadURL</td></tr><tr><td>description</td><td>CRM for Outlook Download URL</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>200</td></tr><tr><td>sourceName</td><td>signupoutlookdownloadfwlink</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the signupOutlookDownloadFWLink attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>CRMForOutlookDownloadURL</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>CRM for Outlook Download URL</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>signupoutlookdownloadfwlink</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>250</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>200</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#cascadeStatusUpdate name="cascadeStatusUpdate">cascadeStatusUpdate</a>
 
 Flag to cascade Update on incident.  
@@ -7890,32 +2256,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Cascade Status Update</td></tr><tr><td>description</td><td>Flag to cascade Update on incident.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>cascadestatusupdate</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the cascadeStatusUpdate attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Cascade Status Update</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Flag to cascade Update on incident.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>cascadestatusupdate</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>252</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#restrictStatusUpdate name="restrictStatusUpdate">restrictStatusUpdate</a>
 
@@ -7926,32 +2266,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Restrict Status Update</td></tr><tr><td>description</td><td>Flag to restrict Update on incident.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>restrictstatusupdate</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the restrictStatusUpdate attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Restrict Status Update</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Flag to restrict Update on incident.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>restrictstatusupdate</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>253</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#suppressSLA name="suppressSLA">suppressSLA</a>
 
 Indicates whether SLA is suppressed.  
@@ -7960,29 +2274,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Is SLA suppressed</td></tr><tr><td>description</td><td>Indicates whether SLA is suppressed.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>suppresssla</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the suppressSLA attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Is SLA suppressed</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether SLA is suppressed.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>suppresssla</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>254</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#socialInsightsTermsAccepted name="socialInsightsTermsAccepted">socialInsightsTermsAccepted</a>
 
@@ -7993,32 +2284,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Social Insights Terms of Use</td></tr><tr><td>description</td><td>Flag for whether the organization has accepted the Social Insights terms of use.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>socialinsightstermsaccepted</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the socialInsightsTermsAccepted attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Social Insights Terms of Use</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Flag for whether the organization has accepted the Social Insights terms of use.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>socialinsightstermsaccepted</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>255</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#socialInsightsInstance name="socialInsightsInstance">socialInsightsInstance</a>
 
 Identifier for the Social Insights instance for the organization.  
@@ -8027,37 +2292,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Social Insights instance identifier</td></tr><tr><td>description</td><td>Identifier for the Social Insights instance for the organization.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>2048</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>socialinsightsinstance</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the socialInsightsInstance attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Social Insights instance identifier</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Identifier for the Social Insights instance for the organization.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>socialinsightsinstance</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>256</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>2048</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#disableSocialCare name="disableSocialCare">disableSocialCare</a>
 
@@ -8068,29 +2302,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Is Social Care disabled</td></tr><tr><td>description</td><td>Indicates whether Social Care is disabled.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>disablesocialcare</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the disableSocialCare attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Is Social Care disabled</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether Social Care is disabled.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>disablesocialcare</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>257</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#maxProductsInBundle name="maxProductsInBundle">maxProductsInBundle</a>
 
 Restrict the maximum no of items in a bundle  
@@ -8099,32 +2310,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Bundle Item Limit</td></tr><tr><td>description</td><td>Restrict the maximum no of items in a bundle</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>maxproductsinbundle</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the maxProductsInBundle attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Bundle Item Limit</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Restrict the maximum no of items in a bundle</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>maxproductsinbundle</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>258</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#useInbuiltRuleForDefaultPricelistSelection name="useInbuiltRuleForDefaultPricelistSelection">useInbuiltRuleForDefaultPricelistSelection</a>
 
@@ -8135,32 +2320,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Use Inbuilt Rule For Default Pricelist Selection</td></tr><tr><td>description</td><td>Flag indicates whether to Use Inbuilt Rule For DefaultPricelist.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>useinbuiltrulefordefaultpricelistselection</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the useInbuiltRuleForDefaultPricelistSelection attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Use Inbuilt Rule For Default Pricelist Selection</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Flag indicates whether to Use Inbuilt Rule For DefaultPricelist.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>useinbuiltrulefordefaultpricelistselection</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>259</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#OOBPriceCalculationEnabled name="OOBPriceCalculationEnabled">OOBPriceCalculationEnabled</a>
 
 Enable OOB pricing calculation logic for Opportunity, Quote, Order and Invoice entities.  
@@ -8169,29 +2328,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Enable OOB Price calculation</td></tr><tr><td>description</td><td>Enable OOB pricing calculation logic for Opportunity, Quote, Order and Invoice entities.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>oobpricecalculationenabled</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the OOBPriceCalculationEnabled attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable OOB Price calculation</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable OOB pricing calculation logic for Opportunity, Quote, Order and Invoice entities.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>oobpricecalculationenabled</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>260</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#isHierarchicalSecurityModelEnabled name="isHierarchicalSecurityModelEnabled">isHierarchicalSecurityModelEnabled</a>
 
@@ -8202,29 +2338,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Enable Hierarchical Security Model</td></tr><tr><td>description</td><td>Enable Hierarchical Security Model</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>ishierarchicalsecuritymodelenabled</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the isHierarchicalSecurityModelEnabled attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable Hierarchical Security Model</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable Hierarchical Security Model</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>ishierarchicalsecuritymodelenabled</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>261</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#maximumDynamicPropertiesAllowed name="maximumDynamicPropertiesAllowed">maximumDynamicPropertiesAllowed</a>
 
 Restrict the maximum number of product properties for a product family/bundle  
@@ -8233,32 +2346,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Product Properties Item Limit</td></tr><tr><td>description</td><td>Restrict the maximum number of product properties for a product family/bundle</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>maximumdynamicpropertiesallowed</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the maximumDynamicPropertiesAllowed attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Product Properties Item Limit</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Restrict the maximum number of product properties for a product family/bundle</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>maximumdynamicpropertiesallowed</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>265</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#usePositionHierarchy name="usePositionHierarchy">usePositionHierarchy</a>
 
@@ -8269,29 +2356,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Use position hierarchy</td></tr><tr><td>description</td><td>Use position hierarchy</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>usepositionhierarchy</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the usePositionHierarchy attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Use position hierarchy</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Use position hierarchy</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>usepositionhierarchy</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>267</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#maxDepthForHierarchicalSecurityModel name="maxDepthForHierarchicalSecurityModel">maxDepthForHierarchicalSecurityModel</a>
 
 Maximum depth for hierarchy security propagation.  
@@ -8300,32 +2364,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Maximum depth for hierarchy security propagation.</td></tr><tr><td>description</td><td>Maximum depth for hierarchy security propagation.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>sourceName</td><td>maxdepthforhierarchicalsecuritymodel</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the maxDepthForHierarchicalSecurityModel attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Maximum depth for hierarchy security propagation.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Maximum depth for hierarchy security propagation.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>maxdepthforhierarchicalsecuritymodel</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>268</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>-2147483648</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#slaPauseStates name="slaPauseStates">slaPauseStates</a>
 
@@ -8336,37 +2374,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>SLA pause states</td></tr><tr><td>description</td><td>Contains the on hold case status values.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>1073741823</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>slapausestates</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the slaPauseStates attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>SLA pause states</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Contains the on hold case status values.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>slapausestates</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>270</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>1073741823</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#socialInsightsEnabled name="socialInsightsEnabled">socialInsightsEnabled</a>
 
 Flag for whether the organization is using Social Insights.  
@@ -8375,32 +2382,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Social Insights Enabled</td></tr><tr><td>description</td><td>Flag for whether the organization is using Social Insights.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>socialinsightsenabled</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the socialInsightsEnabled attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Social Insights Enabled</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Flag for whether the organization is using Social Insights.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>socialinsightsenabled</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>271</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#isAppointmentAttachmentSyncEnabled name="isAppointmentAttachmentSyncEnabled">isAppointmentAttachmentSyncEnabled</a>
 
@@ -8411,29 +2392,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Is Attachment Sync Enabled</td></tr><tr><td>description</td><td>Enable or disable attachments sync for outlook and exchange.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>isappointmentattachmentsyncenabled</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the isAppointmentAttachmentSyncEnabled attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Is Attachment Sync Enabled</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable or disable attachments sync for outlook and exchange.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>isappointmentattachmentsyncenabled</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>272</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#isAssignedTasksSyncEnabled name="isAssignedTasksSyncEnabled">isAssignedTasksSyncEnabled</a>
 
 Enable or disable assigned tasks sync for outlook and exchange.  
@@ -8442,29 +2400,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Is Assigned Tasks Sync Enabled</td></tr><tr><td>description</td><td>Enable or disable assigned tasks sync for outlook and exchange.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>isassignedtaskssyncenabled</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the isAssignedTasksSyncEnabled attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Is Assigned Tasks Sync Enabled</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable or disable assigned tasks sync for outlook and exchange.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>isassignedtaskssyncenabled</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>273</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#isContactMailingAddressSyncEnabled name="isContactMailingAddressSyncEnabled">isContactMailingAddressSyncEnabled</a>
 
@@ -8475,29 +2410,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Is Mailing Address Sync Enabled</td></tr><tr><td>description</td><td>Enable or disable mailing address sync for outlook and exchange.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>iscontactmailingaddresssyncenabled</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the isContactMailingAddressSyncEnabled attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Is Mailing Address Sync Enabled</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable or disable mailing address sync for outlook and exchange.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>iscontactmailingaddresssyncenabled</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>274</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#maxSupportedInternetExplorerVersion name="maxSupportedInternetExplorerVersion">maxSupportedInternetExplorerVersion</a>
 
 The maximum version of IE to run browser emulation for in Outlook client  
@@ -8506,32 +2418,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Max supported IE version</td></tr><tr><td>description</td><td>The maximum version of IE to run browser emulation for in Outlook client</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>maxsupportedinternetexplorerversion</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the maxSupportedInternetExplorerVersion attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Max supported IE version</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The maximum version of IE to run browser emulation for in Outlook client</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>maxsupportedinternetexplorerversion</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>275</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#globalHelpUrl name="globalHelpUrl">globalHelpUrl</a>
 
@@ -8542,38 +2428,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Global Help URL.</td></tr><tr><td>description</td><td>URL for the web page global help.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>500</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>globalhelpurl</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the globalHelpUrl attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **means.reference.URL**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Global Help URL.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>URL for the web page global help.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>globalhelpurl</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>276</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>500</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#globalHelpUrlEnabled name="globalHelpUrlEnabled">globalHelpUrlEnabled</a>
 
 Indicates whether the customizable global help is enabled.  
@@ -8582,29 +2436,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Is Customizable Global Help enabled</td></tr><tr><td>description</td><td>Indicates whether the customizable global help is enabled.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>globalhelpurlenabled</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the globalHelpUrlEnabled attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Is Customizable Global Help enabled</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether the customizable global help is enabled.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>globalhelpurlenabled</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>277</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#globalAppendUrlParametersEnabled name="globalAppendUrlParametersEnabled">globalAppendUrlParametersEnabled</a>
 
@@ -8615,29 +2446,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Is AppendUrl Parameters enabled</td></tr><tr><td>description</td><td>Indicates whether the append URL parameters is enabled.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>globalappendurlparametersenabled</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the globalAppendUrlParametersEnabled attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Is AppendUrl Parameters enabled</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether the append URL parameters is enabled.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>globalappendurlparametersenabled</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>278</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#KMSettings name="KMSettings">KMSettings</a>
 
 XML string containing the Knowledge Management settings that are applied in Knowledge Management Wizard.  
@@ -8646,37 +2454,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Knowledge Management Settings</td></tr><tr><td>description</td><td>XML string containing the Knowledge Management settings that are applied in Knowledge Management Wizard.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>1073741823</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>kmsettings</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the KMSettings attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Knowledge Management Settings</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>XML string containing the Knowledge Management settings that are applied in Knowledge Management Wizard.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>kmsettings</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>279</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>1073741823</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#createProductsWithoutParentInActiveState name="createProductsWithoutParentInActiveState">createProductsWithoutParentInActiveState</a>
 
@@ -8687,29 +2464,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Enable Active Initial Product State</td></tr><tr><td>description</td><td>Enable Initial state of newly created products to be Active instead of Draft</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>createproductswithoutparentinactivestate</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the createProductsWithoutParentInActiveState attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable Active Initial Product State</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable Initial state of newly created products to be Active instead of Draft</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>createproductswithoutparentinactivestate</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>281</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#isMailboxInactiveBackoffEnabled name="isMailboxInactiveBackoffEnabled">isMailboxInactiveBackoffEnabled</a>
 
 Enable or disable mailbox keep alive for Server Side Sync.  
@@ -8718,29 +2472,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Is Mailbox Keep Alive Enabled</td></tr><tr><td>description</td><td>Enable or disable mailbox keep alive for Server Side Sync.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>ismailboxinactivebackoffenabled</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the isMailboxInactiveBackoffEnabled attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Is Mailbox Keep Alive Enabled</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable or disable mailbox keep alive for Server Side Sync.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>ismailboxinactivebackoffenabled</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>282</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#isFullTextSearchEnabled name="isFullTextSearchEnabled">isFullTextSearchEnabled</a>
 
@@ -8751,29 +2482,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Enable Full-text search for Quick Find</td></tr><tr><td>description</td><td>Indicates whether full-text search for Quick Find entities should be enabled for the organization.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>isfulltextsearchenabled</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the isFullTextSearchEnabled attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable Full-text search for Quick Find</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether full-text search for Quick Find entities should be enabled for the organization.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>isfulltextsearchenabled</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>283</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#enforceReadOnlyPlugins name="enforceReadOnlyPlugins">enforceReadOnlyPlugins</a>
 
 Organization setting to enforce read only plugins.  
@@ -8782,29 +2490,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Organization setting to enforce read only plugins.</td></tr><tr><td>description</td><td>Organization setting to enforce read only plugins.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>enforcereadonlyplugins</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the enforceReadOnlyPlugins attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Organization setting to enforce read only plugins.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Organization setting to enforce read only plugins.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>enforcereadonlyplugins</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>290</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#sharePointDeploymentType name="sharePointDeploymentType">sharePointDeploymentType</a>
 
@@ -8815,38 +2500,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Choose SharePoint Deployment Type</td></tr><tr><td>description</td><td>Indicates which SharePoint deployment type is configured for Server to Server. (Online or On-Premises)</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>sharepointdeploymenttype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Online</td><td>0</td></tr><tr><td>en</td><td>On-Premises</td><td>1</td></tr></table></td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the sharePointDeploymentType attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Online</td><td>0</td></tr><tr><td>en</td><td>On-Premises</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
-
-- **is.constrainedList**  
-the values of an attribute are taken from or looked up from a fixed list of possibilities  
-
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Choose SharePoint Deployment Type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates which SharePoint deployment type is configured for Server to Server. (Online or On-Premises)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>sharepointdeploymenttype</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>291</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#sharePointDeploymentType_display name="sharePointDeploymentType_display">sharePointDeploymentType_display</a>
 
 First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
@@ -8854,21 +2507,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the sharePointDeploymentType_display attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **means.reference.displayText**  
-- **is.readOnly**  
-- **is.addedInSupportOf**  
-<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>sharePointDeploymentType</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
-
-</details>
 
 ### <a href=#organizationState name="organizationState">organizationState</a>
 
@@ -8879,38 +2517,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Organization State</td></tr><tr><td>description</td><td>Indicates the organization lifecycle state</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>organizationstate</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Creating</td><td>0</td></tr><tr><td>en</td><td>Upgrading</td><td>1</td></tr><tr><td>en</td><td>Updating</td><td>2</td></tr><tr><td>en</td><td>Active</td><td>3</td></tr></table></td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the organizationState attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Creating</td><td>0</td></tr><tr><td>en</td><td>Upgrading</td><td>1</td></tr><tr><td>en</td><td>Updating</td><td>2</td></tr><tr><td>en</td><td>Active</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
-
-- **is.constrainedList**  
-the values of an attribute are taken from or looked up from a fixed list of possibilities  
-
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Organization State</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates the organization lifecycle state</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>organizationstate</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>292</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#organizationState_display name="organizationState_display">organizationState_display</a>
 
 First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
@@ -8918,21 +2524,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the organizationState_display attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **means.reference.displayText**  
-- **is.readOnly**  
-- **is.addedInSupportOf**  
-<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>organizationState</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
-
-</details>
 
 ### <a href=#defaultThemeData name="defaultThemeData">defaultThemeData</a>
 
@@ -8943,37 +2534,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Default Theme Data</td></tr><tr><td>description</td><td>Default theme data for the organization.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>1073741823</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>defaultthemedata</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the defaultThemeData attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Default Theme Data</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Default theme data for the organization.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>defaultthemedata</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>295</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>1073741823</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#isFolderBasedTrackingEnabled name="isFolderBasedTrackingEnabled">isFolderBasedTrackingEnabled</a>
 
 Enable or disable folder based tracking for Server Side Sync.  
@@ -8982,29 +2542,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Is Folder Based Tracking Enabled</td></tr><tr><td>description</td><td>Enable or disable folder based tracking for Server Side Sync.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>isfolderbasedtrackingenabled</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the isFolderBasedTrackingEnabled attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Is Folder Based Tracking Enabled</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable or disable folder based tracking for Server Side Sync.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>isfolderbasedtrackingenabled</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>298</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#webResourceHash name="webResourceHash">webResourceHash</a>
 
@@ -9015,34 +2552,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Web resource hash</td></tr><tr><td>description</td><td>Hash value of web resources.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>webresourcehash</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the webResourceHash attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Web resource hash</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Hash value of web resources.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>webresourcehash</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>299</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>100</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#expireChangeTrackingInDays name="expireChangeTrackingInDays">expireChangeTrackingInDays</a>
 
 Maximum number of days to keep change tracking deleted records  
@@ -9051,32 +2560,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Days to Expire Change Tracking Deleted Records</td></tr><tr><td>description</td><td>Maximum number of days to keep change tracking deleted records</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>365</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>expirechangetrackingindays</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the expireChangeTrackingInDays attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Days to Expire Change Tracking Deleted Records</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Maximum number of days to keep change tracking deleted records</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>expirechangetrackingindays</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>300</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>365</td><td>decimal</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#maxFolderBasedTrackingMappings name="maxFolderBasedTrackingMappings">maxFolderBasedTrackingMappings</a>
 
@@ -9087,32 +2570,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Max Folder Based Tracking Mappings</td></tr><tr><td>description</td><td>Maximum number of Folder Based Tracking mappings user can add</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>25</td></tr><tr><td>minimumValue</td><td>1</td></tr><tr><td>sourceName</td><td>maxfolderbasedtrackingmappings</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the maxFolderBasedTrackingMappings attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Max Folder Based Tracking Mappings</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Maximum number of Folder Based Tracking mappings user can add</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>maxfolderbasedtrackingmappings</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>301</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>1</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>25</td><td>decimal</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#privacyStatementUrl name="privacyStatementUrl">privacyStatementUrl</a>
 
 Privacy Statement URL  
@@ -9121,38 +2578,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Privacy Statement URL</td></tr><tr><td>description</td><td>Privacy Statement URL</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>500</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>privacystatementurl</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the privacyStatementUrl attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **means.reference.URL**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Privacy Statement URL</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Privacy Statement URL</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>privacystatementurl</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>302</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>500</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#pluginTraceLogSetting name="pluginTraceLogSetting">pluginTraceLogSetting</a>
 
@@ -9163,35 +2588,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Plug-in Trace Log Setting</td></tr><tr><td>description</td><td>Plug-in Trace Log Setting for the Organization.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>plugintracelogsetting</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Off</td><td>0</td></tr><tr><td>en</td><td>Exception</td><td>1</td></tr><tr><td>en</td><td>All</td><td>2</td></tr></table></td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the pluginTraceLogSetting attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Off</td><td>0</td></tr><tr><td>en</td><td>Exception</td><td>1</td></tr><tr><td>en</td><td>All</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
-
-- **is.constrainedList**  
-the values of an attribute are taken from or looked up from a fixed list of possibilities  
-
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Plug-in Trace Log Setting</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Plug-in Trace Log Setting for the Organization.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>plugintracelogsetting</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>303</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#pluginTraceLogSetting_display name="pluginTraceLogSetting_display">pluginTraceLogSetting_display</a>
 
 First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
@@ -9199,21 +2595,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the pluginTraceLogSetting_display attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **means.reference.displayText**  
-- **is.readOnly**  
-- **is.addedInSupportOf**  
-<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>pluginTraceLogSetting</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
-
-</details>
 
 ### <a href=#isMailboxForcedUnlockingEnabled name="isMailboxForcedUnlockingEnabled">isMailboxForcedUnlockingEnabled</a>
 
@@ -9224,29 +2605,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Is Mailbox Forced Unlocking Enabled</td></tr><tr><td>description</td><td>Enable or disable forced unlocking for Server Side Sync mailboxes.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>ismailboxforcedunlockingenabled</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the isMailboxForcedUnlockingEnabled attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Is Mailbox Forced Unlocking Enabled</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable or disable forced unlocking for Server Side Sync mailboxes.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>ismailboxforcedunlockingenabled</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>305</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#mailboxIntermittentIssueMinRange name="mailboxIntermittentIssueMinRange">mailboxIntermittentIssueMinRange</a>
 
 Lower Threshold For Mailbox Intermittent Issue.  
@@ -9255,32 +2613,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Lower Threshold For Mailbox Intermittent Issue</td></tr><tr><td>description</td><td>Lower Threshold For Mailbox Intermittent Issue.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>sourceName</td><td>mailboxintermittentissueminrange</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the mailboxIntermittentIssueMinRange attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Lower Threshold For Mailbox Intermittent Issue</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Lower Threshold For Mailbox Intermittent Issue.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>mailboxintermittentissueminrange</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>306</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>-2147483648</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#mailboxPermanentIssueMinRange name="mailboxPermanentIssueMinRange">mailboxPermanentIssueMinRange</a>
 
@@ -9291,32 +2623,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Lower Threshold For Mailbox Permanent Issue.</td></tr><tr><td>description</td><td>Lower Threshold For Mailbox Permanent Issue.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>sourceName</td><td>mailboxpermanentissueminrange</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the mailboxPermanentIssueMinRange attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Lower Threshold For Mailbox Permanent Issue.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Lower Threshold For Mailbox Permanent Issue.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>mailboxpermanentissueminrange</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>307</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>-2147483648</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#highContrastThemeData name="highContrastThemeData">highContrastThemeData</a>
 
 High contrast theme data for the organization.  
@@ -9325,37 +2631,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>High contrast Theme Data</td></tr><tr><td>description</td><td>High contrast theme data for the organization.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>1073741823</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>highcontrastthemedata</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the highContrastThemeData attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>High contrast Theme Data</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>High contrast theme data for the organization.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>highcontrastthemedata</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>308</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>1073741823</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#delegatedAdminUserId name="delegatedAdminUserId">delegatedAdminUserId</a>
 
@@ -9366,35 +2641,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Delegated Admin</td></tr><tr><td>description</td><td>Unique identifier of the delegated admin user for the organization.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>delegatedadminuserid</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the delegatedAdminUserId attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.dataFormat.guid**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Delegated Admin</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the delegated admin user for the organization.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>delegatedadminuserid</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>309</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#isExternalSearchIndexEnabled name="isExternalSearchIndexEnabled">isExternalSearchIndexEnabled</a>
 
 Select whether data can be synchronized with an external search index.  
@@ -9403,29 +2649,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Enable external search data syncing</td></tr><tr><td>description</td><td>Select whether data can be synchronized with an external search index.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>isexternalsearchindexenabled</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the isExternalSearchIndexEnabled attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable external search data syncing</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Select whether data can be synchronized with an external search index.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>isexternalsearchindexenabled</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>310</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#isMobileOfflineEnabled name="isMobileOfflineEnabled">isMobileOfflineEnabled</a>
 
@@ -9436,29 +2659,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Enable MobileOffline for this Organization</td></tr><tr><td>description</td><td>Indicates whether the feature MobileOffline should be enabled for the organization.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>ismobileofflineenabled</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the isMobileOfflineEnabled attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable MobileOffline for this Organization</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether the feature MobileOffline should be enabled for the organization.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>ismobileofflineenabled</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>311</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#isOfficeGraphEnabled name="isOfficeGraphEnabled">isOfficeGraphEnabled</a>
 
 Indicates whether the feature OfficeGraph should be enabled for the organization.  
@@ -9467,29 +2667,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Enable OfficeGraph for this Organization</td></tr><tr><td>description</td><td>Indicates whether the feature OfficeGraph should be enabled for the organization.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>isofficegraphenabled</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the isOfficeGraphEnabled attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable OfficeGraph for this Organization</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether the feature OfficeGraph should be enabled for the organization.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>isofficegraphenabled</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>312</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#isOneDriveEnabled name="isOneDriveEnabled">isOneDriveEnabled</a>
 
@@ -9500,29 +2677,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Enable One Drive for this Organization</td></tr><tr><td>description</td><td>Indicates whether the feature One Drive should be enabled for the organization.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>isonedriveenabled</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the isOneDriveEnabled attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable One Drive for this Organization</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether the feature One Drive should be enabled for the organization.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>isonedriveenabled</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>313</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#externalPartyEntitySettings name="externalPartyEntitySettings">externalPartyEntitySettings</a>
 
 XML string containing the ExternalPartyEnabled entities settings.  
@@ -9531,37 +2685,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>ExternalPartyEnabled Entities Settings.For internal use only</td></tr><tr><td>description</td><td>XML string containing the ExternalPartyEnabled entities settings.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>1073741823</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>externalpartyentitysettings</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the externalPartyEntitySettings attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>ExternalPartyEnabled Entities Settings.For internal use only</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>XML string containing the ExternalPartyEnabled entities settings.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>externalpartyentitysettings</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>315</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>1073741823</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#externalPartyCorrelationKeys name="externalPartyCorrelationKeys">externalPartyCorrelationKeys</a>
 
@@ -9572,37 +2695,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>ExternalPartyEnabled Entities correlation Keys</td></tr><tr><td>description</td><td>XML string containing the ExternalPartyEnabled entities correlation keys for association of existing External Party instance entities to newly created IsExternalPartyEnabled entities.For internal use only</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>1073741823</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>externalpartycorrelationkeys</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the externalPartyCorrelationKeys attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>ExternalPartyEnabled Entities correlation Keys</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>XML string containing the ExternalPartyEnabled entities correlation keys for association of existing External Party instance entities to newly created IsExternalPartyEnabled entities.For internal use only</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>externalpartycorrelationkeys</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>316</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>1073741823</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#maxVerboseLoggingMailbox name="maxVerboseLoggingMailbox">maxVerboseLoggingMailbox</a>
 
 Maximum number of mailboxes that can be toggled for verbose logging  
@@ -9611,32 +2703,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Max No Of Mailboxes To Enable For Verbose Logging</td></tr><tr><td>description</td><td>Maximum number of mailboxes that can be toggled for verbose logging</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>sourceName</td><td>maxverboseloggingmailbox</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the maxVerboseLoggingMailbox attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Max No Of Mailboxes To Enable For Verbose Logging</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Maximum number of mailboxes that can be toggled for verbose logging</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>maxverboseloggingmailbox</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>317</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>-2147483648</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#maxVerboseLoggingSyncCycles name="maxVerboseLoggingSyncCycles">maxVerboseLoggingSyncCycles</a>
 
@@ -9647,32 +2713,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Maximum number of sync cycles for which verbose logging will be enabled by default</td></tr><tr><td>description</td><td>Maximum number of sync cycles for which verbose logging will be enabled by default</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>sourceName</td><td>maxverboseloggingsynccycles</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the maxVerboseLoggingSyncCycles attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Maximum number of sync cycles for which verbose logging will be enabled by default</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Maximum number of sync cycles for which verbose logging will be enabled by default</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>maxverboseloggingsynccycles</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>318</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>-2147483648</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#mobileOfflineSyncInterval name="mobileOfflineSyncInterval">mobileOfflineSyncInterval</a>
 
 Sync interval for mobile offline.  
@@ -9681,32 +2721,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Sync interval for mobile offline.</td></tr><tr><td>description</td><td>Sync interval for mobile offline.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>mobileofflinesyncinterval</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the mobileOfflineSyncInterval attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Sync interval for mobile offline.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Sync interval for mobile offline.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>mobileofflinesyncinterval</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>319</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#officeGraphDelveUrl name="officeGraphDelveUrl">officeGraphDelveUrl</a>
 
@@ -9717,38 +2731,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>The url to open the Delve</td></tr><tr><td>description</td><td>The url to open the Delve for the organization.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>1000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>officegraphdelveurl</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the officeGraphDelveUrl attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **means.reference.URL**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The url to open the Delve</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The url to open the Delve for the organization.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>officegraphdelveurl</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>320</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>1000</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#mobileOfflineMinLicenseTrial name="mobileOfflineMinLicenseTrial">mobileOfflineMinLicenseTrial</a>
 
 Minimum number of user license required for mobile offline service by trial organization  
@@ -9757,32 +2739,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Minimum number of user license required for mobile offline service by trial organization</td></tr><tr><td>description</td><td>Minimum number of user license required for mobile offline service by trial organization</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>sourceName</td><td>mobileofflineminlicensetrial</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the mobileOfflineMinLicenseTrial attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Minimum number of user license required for mobile offline service by trial organization</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Minimum number of user license required for mobile offline service by trial organization</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>mobileofflineminlicensetrial</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>321</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>-2147483648</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#mobileOfflineMinLicenseProd name="mobileOfflineMinLicenseProd">mobileOfflineMinLicenseProd</a>
 
@@ -9793,32 +2749,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Minimum number of user license required for mobile offline service by production/preview organization</td></tr><tr><td>description</td><td>Minimum number of user license required for mobile offline service by production/preview organization</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>sourceName</td><td>mobileofflineminlicenseprod</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the mobileOfflineMinLicenseProd attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Minimum number of user license required for mobile offline service by production/preview organization</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Minimum number of user license required for mobile offline service by production/preview organization</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>mobileofflineminlicenseprod</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>322</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>-2147483648</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#daysSinceRecordLastModifiedMaxValue name="daysSinceRecordLastModifiedMaxValue">daysSinceRecordLastModifiedMaxValue</a>
 
 The maximum value for the Mobile Offline setting Days since record last modified  
@@ -9827,32 +2757,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Max value of Days since record last modified</td></tr><tr><td>description</td><td>The maximum value for the Mobile Offline setting Days since record last modified</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>dayssincerecordlastmodifiedmaxvalue</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the daysSinceRecordLastModifiedMaxValue attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Max value of Days since record last modified</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The maximum value for the Mobile Offline setting Days since record last modified</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>dayssincerecordlastmodifiedmaxvalue</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>323</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#taskBasedFlowEnabled name="taskBasedFlowEnabled">taskBasedFlowEnabled</a>
 
@@ -9863,29 +2767,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Enable Task Flow processes for this Organization</td></tr><tr><td>description</td><td>Select whether to turn on task flows for the organization.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>taskbasedflowenabled</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the taskBasedFlowEnabled attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable Task Flow processes for this Organization</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Select whether to turn on task flows for the organization.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>taskbasedflowenabled</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>324</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#showKBArticleDeprecationNotification name="showKBArticleDeprecationNotification">showKBArticleDeprecationNotification</a>
 
 Select whether to display a KB article deprecation notification to the user.  
@@ -9894,29 +2775,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Show KBArticle deprecation message to user</td></tr><tr><td>description</td><td>Select whether to display a KB article deprecation notification to the user.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>showkbarticledeprecationnotification</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the showKBArticleDeprecationNotification attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Show KBArticle deprecation message to user</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Select whether to display a KB article deprecation notification to the user.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>showkbarticledeprecationnotification</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>325</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#azureSchedulerJobCollectionName name="azureSchedulerJobCollectionName">azureSchedulerJobCollectionName</a>
 
@@ -9927,38 +2785,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>For internal use only.</td></tr><tr><td>description</td><td>For internal use only.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>azureschedulerjobcollectionname</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the azureSchedulerJobCollectionName attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **means.identity.name**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>For internal use only.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>For internal use only.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>azureschedulerjobcollectionname</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>326</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>100</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#cortanaProactiveExperienceEnabled name="cortanaProactiveExperienceEnabled">cortanaProactiveExperienceEnabled</a>
 
 Indicates whether the feature CortanaProactiveExperience Flow processes should be enabled for the organization.  
@@ -9967,29 +2793,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Enable Cortana Proactive Experience Flow processes for this Organization</td></tr><tr><td>description</td><td>Indicates whether the feature CortanaProactiveExperience Flow processes should be enabled for the organization.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>cortanaproactiveexperienceenabled</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the cortanaProactiveExperienceEnabled attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable Cortana Proactive Experience Flow processes for this Organization</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether the feature CortanaProactiveExperience Flow processes should be enabled for the organization.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>cortanaproactiveexperienceenabled</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>327</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#officeAppsAutoDeploymentEnabled name="officeAppsAutoDeploymentEnabled">officeAppsAutoDeploymentEnabled</a>
 
@@ -10000,29 +2803,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Enable Office Apps Auto Deployment for this Organization</td></tr><tr><td>description</td><td>Indicates whether the Office Apps auto deployment is enabled for the organization.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>officeappsautodeploymentenabled</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the officeAppsAutoDeploymentEnabled attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable Office Apps Auto Deployment for this Organization</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether the Office Apps auto deployment is enabled for the organization.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>officeappsautodeploymentenabled</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>328</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#appDesignerExperienceEnabled name="appDesignerExperienceEnabled">appDesignerExperienceEnabled</a>
 
 Indicates whether the appDesignerExperience is enabled for the organization.  
@@ -10031,29 +2811,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Enable App Designer Experience for this Organization</td></tr><tr><td>description</td><td>Indicates whether the appDesignerExperience is enabled for the organization.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>appdesignerexperienceenabled</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the appDesignerExperienceEnabled attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable App Designer Experience for this Organization</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether the appDesignerExperience is enabled for the organization.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>appdesignerexperienceenabled</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>329</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#enableImmersiveSkypeIntegration name="enableImmersiveSkypeIntegration">enableImmersiveSkypeIntegration</a>
 
@@ -10064,29 +2821,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Enable Integration with Immersive Skype</td></tr><tr><td>description</td><td>Enable Integration with Immersive Skype</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>enableimmersiveskypeintegration</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the enableImmersiveSkypeIntegration attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable Integration with Immersive Skype</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable Integration with Immersive Skype</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>enableimmersiveskypeintegration</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>330</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#autoApplySLA name="autoApplySLA">autoApplySLA</a>
 
 Indicates whether to Auto-apply SLA on case record update after SLA was manually applied.  
@@ -10095,29 +2829,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Is Auto-apply SLA After Manually Over-riding</td></tr><tr><td>description</td><td>Indicates whether to Auto-apply SLA on case record update after SLA was manually applied.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>autoapplysla</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the autoApplySLA attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Is Auto-apply SLA After Manually Over-riding</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether to Auto-apply SLA on case record update after SLA was manually applied.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>autoapplysla</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>350</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#isEmailServerProfileContentFilteringEnabled name="isEmailServerProfileContentFilteringEnabled">isEmailServerProfileContentFilteringEnabled</a>
 
@@ -10128,29 +2839,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Is Email Server Profile Content Filtering Enabled</td></tr><tr><td>description</td><td>Enable Email Server Profile content filtering</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>isemailserverprofilecontentfilteringenabled</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the isEmailServerProfileContentFilteringEnabled attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Is Email Server Profile Content Filtering Enabled</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable Email Server Profile content filtering</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>isemailserverprofilecontentfilteringenabled</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>356</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#isDelegateAccessEnabled name="isDelegateAccessEnabled">isDelegateAccessEnabled</a>
 
 Enable Delegation Access content  
@@ -10159,29 +2847,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Is Delegation Access Enabled</td></tr><tr><td>description</td><td>Enable Delegation Access content</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>isdelegateaccessenabled</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the isDelegateAccessEnabled attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Is Delegation Access Enabled</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable Delegation Access content</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>isdelegateaccessenabled</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>357</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#displayNavigationTour name="displayNavigationTour">displayNavigationTour</a>
 
@@ -10192,29 +2857,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Display Navigation Tour</td></tr><tr><td>description</td><td>Indicates whether or not navigation tour is displayed.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>displaynavigationtour</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the displayNavigationTour attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Display Navigation Tour</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether or not navigation tour is displayed.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>displaynavigationtour</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>367</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#useLegacyRendering name="useLegacyRendering">useLegacyRendering</a>
 
 Select whether to use legacy form rendering.  
@@ -10223,29 +2865,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Legacy Form Rendering</td></tr><tr><td>description</td><td>Select whether to use legacy form rendering.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>uselegacyrendering</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the useLegacyRendering attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Legacy Form Rendering</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Select whether to use legacy form rendering.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>uselegacyrendering</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>368</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#defaultMobileOfflineProfileId name="defaultMobileOfflineProfileId">defaultMobileOfflineProfileId</a>
 
@@ -10256,39 +2875,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Default Mobile Offline Profile</td></tr><tr><td>description</td><td>Unique identifier of the default mobile offline profile.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>defaultmobileofflineprofileid</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the defaultMobileOfflineProfileId attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.dataFormat.guid**  
-- **means.identity.entityId**  
-- **is.CDS.lookup**  
-The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td></td></tr></table>
-
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Default Mobile Offline Profile</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the default mobile offline profile.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>defaultmobileofflineprofileid</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>369</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#kaPrefix name="kaPrefix">kaPrefix</a>
 
 Type the prefix to use for all knowledge articles in Microsoft Dynamics 365.  
@@ -10297,34 +2883,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Knowledge Article Prefix</td></tr><tr><td>description</td><td>Type the prefix to use for all knowledge articles in Microsoft Dynamics 365.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>20</td></tr><tr><td>sourceName</td><td>kaprefix</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the kaPrefix attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Knowledge Article Prefix</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Type the prefix to use for all knowledge articles in Microsoft Dynamics 365.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>kaprefix</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>371</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>20</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#currentKaNumber name="currentKaNumber">currentKaNumber</a>
 
@@ -10335,32 +2893,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Current Knowledge Article Number</td></tr><tr><td>description</td><td>Enter the first number to use for knowledge articles. Deprecated. Use SetAutoNumberSeed message.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>sourceName</td><td>currentkanumber</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the currentKaNumber attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Current Knowledge Article Number</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enter the first number to use for knowledge articles. Deprecated. Use SetAutoNumberSeed message.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>currentkanumber</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>372</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>-1</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#currentCategoryNumber name="currentCategoryNumber">currentCategoryNumber</a>
 
 Enter the first number to use for Categories. Deprecated. Use SetAutoNumberSeed message.  
@@ -10369,32 +2901,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Current Category Number</td></tr><tr><td>description</td><td>Enter the first number to use for Categories. Deprecated. Use SetAutoNumberSeed message.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>sourceName</td><td>currentcategorynumber</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the currentCategoryNumber attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Current Category Number</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enter the first number to use for Categories. Deprecated. Use SetAutoNumberSeed message.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>currentcategorynumber</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>373</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>-1</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#categoryPrefix name="categoryPrefix">categoryPrefix</a>
 
@@ -10405,34 +2911,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Category Prefix</td></tr><tr><td>description</td><td>Type the prefix to use for all categories in Microsoft Dynamics 365.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>20</td></tr><tr><td>sourceName</td><td>categoryprefix</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the categoryPrefix attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Category Prefix</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Type the prefix to use for all categories in Microsoft Dynamics 365.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>categoryprefix</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>374</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>20</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#maximumEntitiesWithActiveSLA name="maximumEntitiesWithActiveSLA">maximumEntitiesWithActiveSLA</a>
 
 Maximum number of active SLA allowed per entity in online  
@@ -10441,35 +2919,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Maximum number of active SLA allowed per entity in online</td></tr><tr><td>description</td><td>Maximum number of active SLA allowed per entity in online</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>maximumentitieswithactivesla</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the maximumEntitiesWithActiveSLA attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Maximum number of active SLA allowed per entity in online</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Maximum number of active SLA allowed per entity in online</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>maximumentitieswithactivesla</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>375</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#maximumSLAKPIPerEntityWithActiveSLA name="maximumSLAKPIPerEntityWithActiveSLA">maximumSLAKPIPerEntityWithActiveSLA</a>
 
@@ -10480,35 +2929,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Maximum number of active SLA KPI allowed per entity in online</td></tr><tr><td>description</td><td>Maximum number of SLA KPI per active SLA allowed for entity in online</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>maximumslakpiperentitywithactivesla</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the maximumSLAKPIPerEntityWithActiveSLA attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Maximum number of active SLA KPI allowed per entity in online</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Maximum number of SLA KPI per active SLA allowed for entity in online</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>maximumslakpiperentitywithactivesla</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>376</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#isConflictDetectionEnabledForMobileClient name="isConflictDetectionEnabledForMobileClient">isConflictDetectionEnabledForMobileClient</a>
 
 Information that specifies whether conflict detection for mobile client is enabled.  
@@ -10517,29 +2937,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Is Conflict Detection for Mobile Client enabled</td></tr><tr><td>description</td><td>Information that specifies whether conflict detection for mobile client is enabled.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>isconflictdetectionenabledformobileclient</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the isConflictDetectionEnabledForMobileClient attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Is Conflict Detection for Mobile Client enabled</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Information that specifies whether conflict detection for mobile client is enabled.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>isconflictdetectionenabledformobileclient</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>377</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#isDelveActionHubIntegrationEnabled name="isDelveActionHubIntegrationEnabled">isDelveActionHubIntegrationEnabled</a>
 
@@ -10550,32 +2947,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Enable Action Hub for this Organization</td></tr><tr><td>description</td><td>Indicates whether the feature Action Hub should be enabled for the organization.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>isdelveactionhubintegrationenabled</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the isDelveActionHubIntegrationEnabled attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable Action Hub for this Organization</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether the feature Action Hub should be enabled for the organization.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>isdelveactionhubintegrationenabled</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>378</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#orgInsightsEnabled name="orgInsightsEnabled">orgInsightsEnabled</a>
 
 Select whether to turn on OrgInsights for the organization.  
@@ -10584,29 +2955,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Enable OrgInsights for this Organization</td></tr><tr><td>description</td><td>Select whether to turn on OrgInsights for the organization.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>orginsightsenabled</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the orgInsightsEnabled attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable OrgInsights for this Organization</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Select whether to turn on OrgInsights for the organization.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>orginsightsenabled</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>379</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#productRecommendationsEnabled name="productRecommendationsEnabled">productRecommendationsEnabled</a>
 
@@ -10617,29 +2965,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Enable Product Recommendations for this Organization</td></tr><tr><td>description</td><td>Select whether to turn on product recommendations for the organization.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>productrecommendationsenabled</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the productRecommendationsEnabled attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable Product Recommendations for this Organization</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Select whether to turn on product recommendations for the organization.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>productrecommendationsenabled</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>380</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#textAnalyticsEnabled name="textAnalyticsEnabled">textAnalyticsEnabled</a>
 
 Select whether to turn on text analytics for the organization.  
@@ -10648,29 +2973,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Enable Text Analytics for this Organization</td></tr><tr><td>description</td><td>Select whether to turn on text analytics for the organization.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>textanalyticsenabled</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the textAnalyticsEnabled attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable Text Analytics for this Organization</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Select whether to turn on text analytics for the organization.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>textanalyticsenabled</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>381</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#maxConditionsForMobileOfflineFilters name="maxConditionsForMobileOfflineFilters">maxConditionsForMobileOfflineFilters</a>
 
@@ -10681,35 +2983,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Maximum number of conditions allowed for mobile offline filters</td></tr><tr><td>description</td><td>Maximum number of conditions allowed for mobile offline filters</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>maxconditionsformobileofflinefilters</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the maxConditionsForMobileOfflineFilters attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Maximum number of conditions allowed for mobile offline filters</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Maximum number of conditions allowed for mobile offline filters</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>maxconditionsformobileofflinefilters</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>382</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#isFolderAutoCreatedonSP name="isFolderAutoCreatedonSP">isFolderAutoCreatedonSP</a>
 
 Select whether folders should be automatically created on SharePoint.  
@@ -10718,29 +2991,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Automatically create folders</td></tr><tr><td>description</td><td>Select whether folders should be automatically created on SharePoint.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>isfolderautocreatedonsp</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the isFolderAutoCreatedonSP attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Automatically create folders</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Select whether folders should be automatically created on SharePoint.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>isfolderautocreatedonsp</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>383</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#powerBiFeatureEnabled name="powerBiFeatureEnabled">powerBiFeatureEnabled</a>
 
@@ -10751,29 +3001,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Enable Power BI feature for this Organization</td></tr><tr><td>description</td><td>Indicates whether the Power BI feature should be enabled for the organization.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>powerbifeatureenabled</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the powerBiFeatureEnabled attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable Power BI feature for this Organization</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether the Power BI feature should be enabled for the organization.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>powerbifeatureenabled</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>385</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#isActionCardEnabled name="isActionCardEnabled">isActionCardEnabled</a>
 
 Indicates whether the feature Action Card should be enabled for the organization.  
@@ -10782,29 +3009,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Enable Action Card for this Organization</td></tr><tr><td>description</td><td>Indicates whether the feature Action Card should be enabled for the organization.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>isactioncardenabled</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the isActionCardEnabled attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable Action Card for this Organization</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether the feature Action Card should be enabled for the organization.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>isactioncardenabled</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>386</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#isEmailMonitoringAllowed name="isEmailMonitoringAllowed">isEmailMonitoringAllowed</a>
 
@@ -10815,29 +3019,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Allow tracking recipient activity on sent emails</td></tr><tr><td>description</td><td>Allow tracking recipient activity on sent emails.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>isemailmonitoringallowed</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the isEmailMonitoringAllowed attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Allow tracking recipient activity on sent emails</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Allow tracking recipient activity on sent emails.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>isemailmonitoringallowed</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>388</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#isActivityAnalysisEnabled name="isActivityAnalysisEnabled">isActivityAnalysisEnabled</a>
 
 Indicates whether the feature Relationship Analytics should be enabled for the organization.  
@@ -10846,32 +3027,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Enable Relationship Analytics for this Organization</td></tr><tr><td>description</td><td>Indicates whether the feature Relationship Analytics should be enabled for the organization.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>isactivityanalysisenabled</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the isActivityAnalysisEnabled attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable Relationship Analytics for this Organization</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether the feature Relationship Analytics should be enabled for the organization.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>isactivityanalysisenabled</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>389</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#isAutoDataCaptureEnabled name="isAutoDataCaptureEnabled">isAutoDataCaptureEnabled</a>
 
@@ -10882,29 +3037,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Enable Auto Capture for this Organization</td></tr><tr><td>description</td><td>Indicates whether the feature Auto Capture should be enabled for the organization.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>isautodatacaptureenabled</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the isAutoDataCaptureEnabled attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable Auto Capture for this Organization</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether the feature Auto Capture should be enabled for the organization.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>isautodatacaptureenabled</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>390</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#externalBaseUrl name="externalBaseUrl">externalBaseUrl</a>
 
 Specify the base URL to use to look for external document suggestions.  
@@ -10913,38 +3045,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>External Base URL</td></tr><tr><td>description</td><td>Specify the base URL to use to look for external document suggestions.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>500</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>externalbaseurl</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the externalBaseUrl attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **means.reference.URL**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>External Base URL</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Specify the base URL to use to look for external document suggestions.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>externalbaseurl</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>391</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>500</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#isPreviewEnabledForActionCard name="isPreviewEnabledForActionCard">isPreviewEnabledForActionCard</a>
 
@@ -10955,29 +3055,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Enable Preview Action Card feature for this Organization</td></tr><tr><td>description</td><td>Indicates whether the Preview feature for Action Card should be enabled for the organization.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>ispreviewenabledforactioncard</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the isPreviewEnabledForActionCard attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable Preview Action Card feature for this Organization</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether the Preview feature for Action Card should be enabled for the organization.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>ispreviewenabledforactioncard</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>392</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#isPreviewForEmailMonitoringAllowed name="isPreviewForEmailMonitoringAllowed">isPreviewForEmailMonitoringAllowed</a>
 
 Is Preview For Email Monitoring Allowed.  
@@ -10986,29 +3063,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Allows Preview For Email Monitoring</td></tr><tr><td>description</td><td>Is Preview For Email Monitoring Allowed.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>ispreviewforemailmonitoringallowed</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the isPreviewForEmailMonitoringAllowed attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Allows Preview For Email Monitoring</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Is Preview For Email Monitoring Allowed.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>ispreviewforemailmonitoringallowed</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>393</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#unresolveEmailAddressIfMultipleMatch name="unresolveEmailAddressIfMultipleMatch">unresolveEmailAddressIfMultipleMatch</a>
 
@@ -11019,29 +3073,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Set To,cc,bcc fields as unresolved if multiple matches are found</td></tr><tr><td>description</td><td>Indicates whether email address should be unresolved if multiple matches are found</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>unresolveemailaddressifmultiplematch</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the unresolveEmailAddressIfMultipleMatch attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Set To,cc,bcc fields as unresolved if multiple matches are found</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether email address should be unresolved if multiple matches are found</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>unresolveemailaddressifmultiplematch</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>394</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#riErrorStatus name="riErrorStatus">riErrorStatus</a>
 
 Error status of Relationship Insights provisioning.  
@@ -11050,35 +3081,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Error status of Relationship Insights provisioning.</td></tr><tr><td>description</td><td>Error status of Relationship Insights provisioning.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>rierrorstatus</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the riErrorStatus attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Error status of Relationship Insights provisioning.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Error status of Relationship Insights provisioning.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>rierrorstatus</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>395</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#widgetProperties name="widgetProperties">widgetProperties</a>
 
@@ -11089,37 +3091,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>For Internal use only.</td></tr><tr><td>description</td><td>For Internal use only.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>widgetproperties</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the widgetProperties attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>For Internal use only.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>For Internal use only.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>widgetproperties</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>396</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>100</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#enableMicrosoftFlowIntegration name="enableMicrosoftFlowIntegration">enableMicrosoftFlowIntegration</a>
 
 Enable Integration with Microsoft Flow  
@@ -11128,29 +3099,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Enable Integration with Microsoft Flow</td></tr><tr><td>description</td><td>Enable Integration with Microsoft Flow</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>enablemicrosoftflowintegration</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the enableMicrosoftFlowIntegration attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable Integration with Microsoft Flow</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable Integration with Microsoft Flow</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>enablemicrosoftflowintegration</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>397</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#isEnabledForAllRoles name="isEnabledForAllRoles">isEnabledForAllRoles</a>
 
@@ -11161,29 +3109,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>option set values for isenabledforallroles</td></tr><tr><td>description</td><td>Indicates whether appmodule is enabled for all roles</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>isenabledforallroles</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the isEnabledForAllRoles attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>option set values for isenabledforallroles</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether appmodule is enabled for all roles</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>isenabledforallroles</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>398</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#isPreviewForAutoCaptureEnabled name="isPreviewForAutoCaptureEnabled">isPreviewForAutoCaptureEnabled</a>
 
 Indicates whether the feature Auto Capture should be enabled for the organization at Preview Settings.  
@@ -11192,29 +3117,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Enable Auto Capture for this Organization at Preview Settings</td></tr><tr><td>description</td><td>Indicates whether the feature Auto Capture should be enabled for the organization at Preview Settings.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>ispreviewforautocaptureenabled</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the isPreviewForAutoCaptureEnabled attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable Auto Capture for this Organization at Preview Settings</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether the feature Auto Capture should be enabled for the organization at Preview Settings.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>ispreviewforautocaptureenabled</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>399</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#defaultCrmCustomName name="defaultCrmCustomName">defaultCrmCustomName</a>
 
@@ -11225,35 +3127,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name of the default app</td></tr><tr><td>description</td><td>Name of the default crm custom.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>defaultcrmcustomname</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the defaultCrmCustomName attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **means.identity.name**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Name of the default app</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Name of the default crm custom.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>defaultcrmcustomname</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>400</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>100</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#ACIWebEndpointUrl name="ACIWebEndpointUrl">ACIWebEndpointUrl</a>
 
 ACI Web Endpoint URL.  
@@ -11262,38 +3135,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>ACI Tenant URL.</td></tr><tr><td>description</td><td>ACI Web Endpoint URL.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>500</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>aciwebendpointurl</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the ACIWebEndpointUrl attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **means.reference.URL**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>ACI Tenant URL.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>ACI Web Endpoint URL.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>aciwebendpointurl</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>401</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>500</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#enableLPAuthoring name="enableLPAuthoring">enableLPAuthoring</a>
 
@@ -11304,29 +3145,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Enable Learning Path Authoring</td></tr><tr><td>description</td><td>Select to enable learning path auhtoring.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>enablelpauthoring</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the enableLPAuthoring attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable Learning Path Authoring</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Select to enable learning path auhtoring.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>enablelpauthoring</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>402</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#isResourceBookingExchangeSyncEnabled name="isResourceBookingExchangeSyncEnabled">isResourceBookingExchangeSyncEnabled</a>
 
 Indicates if the synchronization of user resource booking with Exchange is enabled at organization level.  
@@ -11335,29 +3153,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Resource booking synchronization enabled</td></tr><tr><td>description</td><td>Indicates if the synchronization of user resource booking with Exchange is enabled at organization level.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>isresourcebookingexchangesyncenabled</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the isResourceBookingExchangeSyncEnabled attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Resource booking synchronization enabled</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates if the synchronization of user resource booking with Exchange is enabled at organization level.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>isresourcebookingexchangesyncenabled</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>403</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#isMobileClientOnDemandSyncEnabled name="isMobileClientOnDemandSyncEnabled">isMobileClientOnDemandSyncEnabled</a>
 
@@ -11368,29 +3163,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Is Mobile Client On Demand Sync enabled</td></tr><tr><td>description</td><td>Information that specifies whether mobile client on demand sync is enabled.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>ismobileclientondemandsyncenabled</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the isMobileClientOnDemandSyncEnabled attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Is Mobile Client On Demand Sync enabled</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Information that specifies whether mobile client on demand sync is enabled.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>ismobileclientondemandsyncenabled</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>404</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#postMessageWhitelistDomains name="postMessageWhitelistDomains">postMessageWhitelistDomains</a>
 
 For internal use only.  
@@ -11399,37 +3171,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>For internal use only.</td></tr><tr><td>description</td><td>For internal use only.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>500</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>postmessagewhitelistdomains</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the postMessageWhitelistDomains attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>For internal use only.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>For internal use only.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>postmessagewhitelistdomains</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>405</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>500</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#isRelationshipInsightsEnabled name="isRelationshipInsightsEnabled">isRelationshipInsightsEnabled</a>
 
@@ -11440,32 +3181,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Enable Relationship Insights for this Organization</td></tr><tr><td>description</td><td>Indicates whether the feature Relationship Insights should be enabled for the organization.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>isrelationshipinsightsenabled</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the isRelationshipInsightsEnabled attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable Relationship Insights for this Organization</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether the feature Relationship Insights should be enabled for the organization.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>isrelationshipinsightsenabled</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>406</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#resolveSimilarUnresolvedEmailAddress name="resolveSimilarUnresolvedEmailAddress">resolveSimilarUnresolvedEmailAddress</a>
 
 Apply same email address to all unresolved matches when you manually resolve it for one  
@@ -11474,29 +3189,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Apply same email address to all unresolved matches when you manually resolve it for one</td></tr><tr><td>description</td><td>Apply same email address to all unresolved matches when you manually resolve it for one</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>resolvesimilarunresolvedemailaddress</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the resolveSimilarUnresolvedEmailAddress attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Apply same email address to all unresolved matches when you manually resolve it for one</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Apply same email address to all unresolved matches when you manually resolve it for one</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>resolvesimilarunresolvedemailaddress</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>407</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#isTextWrapEnabled name="isTextWrapEnabled">isTextWrapEnabled</a>
 
@@ -11507,29 +3199,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Enable Text Wrap</td></tr><tr><td>description</td><td>Information on whether text wrap is enabled.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>istextwrapenabled</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the isTextWrapEnabled attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable Text Wrap</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Information on whether text wrap is enabled.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>istextwrapenabled</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>408</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#sessionTimeoutEnabled name="sessionTimeoutEnabled">sessionTimeoutEnabled</a>
 
 Information that specifies whether session timeout is enabled  
@@ -11538,29 +3207,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Session timeout enabled</td></tr><tr><td>description</td><td>Information that specifies whether session timeout is enabled</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>sessiontimeoutenabled</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the sessionTimeoutEnabled attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Session timeout enabled</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Information that specifies whether session timeout is enabled</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>sessiontimeoutenabled</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>409</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#sessionTimeoutInMins name="sessionTimeoutInMins">sessionTimeoutInMins</a>
 
@@ -11571,35 +3217,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Session timeout in minutes</td></tr><tr><td>description</td><td>Session timeout in minutes</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>sessiontimeoutinmins</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the sessionTimeoutInMins attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Session timeout in minutes</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Session timeout in minutes</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>sessiontimeoutinmins</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>410</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#sessionTimeoutReminderInMins name="sessionTimeoutReminderInMins">sessionTimeoutReminderInMins</a>
 
 Session timeout reminder in minutes  
@@ -11608,35 +3225,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Session timeout reminder in minutes</td></tr><tr><td>description</td><td>Session timeout reminder in minutes</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>sessiontimeoutreminderinmins</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the sessionTimeoutReminderInMins attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Session timeout reminder in minutes</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Session timeout reminder in minutes</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>sessiontimeoutreminderinmins</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>411</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#microsoftFlowEnvironment name="microsoftFlowEnvironment">microsoftFlowEnvironment</a>
 
@@ -11647,37 +3235,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Environment selected for Integration with Microsoft Flow</td></tr><tr><td>description</td><td>Environment selected for Integration with Microsoft Flow</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>1024</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>microsoftflowenvironment</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the microsoftFlowEnvironment attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Environment selected for Integration with Microsoft Flow</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Environment selected for Integration with Microsoft Flow</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>microsoftflowenvironment</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>412</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>1024</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#inactivityTimeoutEnabled name="inactivityTimeoutEnabled">inactivityTimeoutEnabled</a>
 
 Information that specifies whether Inactivity timeout is enabled  
@@ -11686,29 +3243,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Inactivity timeout enabled</td></tr><tr><td>description</td><td>Information that specifies whether Inactivity timeout is enabled</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>inactivitytimeoutenabled</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the inactivityTimeoutEnabled attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Inactivity timeout enabled</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Information that specifies whether Inactivity timeout is enabled</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>inactivitytimeoutenabled</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>413</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#inactivityTimeoutInMins name="inactivityTimeoutInMins">inactivityTimeoutInMins</a>
 
@@ -11719,35 +3253,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Inactivity timeout in minutes</td></tr><tr><td>description</td><td>Inactivity timeout in minutes</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>inactivitytimeoutinmins</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the inactivityTimeoutInMins attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Inactivity timeout in minutes</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Inactivity timeout in minutes</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>inactivitytimeoutinmins</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>414</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#inactivityTimeoutReminderInMins name="inactivityTimeoutReminderInMins">inactivityTimeoutReminderInMins</a>
 
 Inactivity timeout reminder in minutes  
@@ -11756,35 +3261,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Inactivity timeout reminder in minutes</td></tr><tr><td>description</td><td>Inactivity timeout reminder in minutes</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>inactivitytimeoutreminderinmins</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the inactivityTimeoutReminderInMins attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Inactivity timeout reminder in minutes</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Inactivity timeout reminder in minutes</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>inactivitytimeoutreminderinmins</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>415</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#syncOptInSelection name="syncOptInSelection">syncOptInSelection</a>
 
@@ -11795,29 +3271,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Enable dynamics 365 azure sync framework for this organization.</td></tr><tr><td>description</td><td>Indicates the selection to use the dynamics 365 azure sync framework or server side sync.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>syncoptinselection</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the syncOptInSelection attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable dynamics 365 azure sync framework for this organization.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates the selection to use the dynamics 365 azure sync framework or server side sync.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>syncoptinselection</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>416</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#syncOptInSelectionStatus name="syncOptInSelectionStatus">syncOptInSelectionStatus</a>
 
 Indicates the status of the opt-in or opt-out operation for dynamics 365 azure sync.  
@@ -11827,38 +3280,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status of opt-in or opt-out operation for dynamics 365 azure sync.</td></tr><tr><td>description</td><td>Indicates the status of the opt-in or opt-out operation for dynamics 365 azure sync.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>syncoptinselectionstatus</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Processing</td><td>1</td></tr><tr><td>en</td><td>Passed</td><td>2</td></tr><tr><td>en</td><td>Failed</td><td>3</td></tr></table></td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the syncOptInSelectionStatus attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Processing</td><td>1</td></tr><tr><td>en</td><td>Passed</td><td>2</td></tr><tr><td>en</td><td>Failed</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
-
-- **is.constrainedList**  
-the values of an attribute are taken from or looked up from a fixed list of possibilities  
-
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status of opt-in or opt-out operation for dynamics 365 azure sync.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates the status of the opt-in or opt-out operation for dynamics 365 azure sync.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>syncoptinselectionstatus</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>417</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#syncOptInSelectionStatus_display name="syncOptInSelectionStatus_display">syncOptInSelectionStatus_display</a>
 
 First included in: <a href="../Organization.md" target="_blank">applicationCommon/Organization</a>  
@@ -11866,21 +3287,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the syncOptInSelectionStatus_display attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **means.reference.displayText**  
-- **is.readOnly**  
-- **is.addedInSupportOf**  
-<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>syncOptInSelectionStatus</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
-
-</details>
 
 ### <a href=#isActionSupportFeatureEnabled name="isActionSupportFeatureEnabled">isActionSupportFeatureEnabled</a>
 
@@ -11891,29 +3297,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Action Support Feature enabled</td></tr><tr><td>description</td><td>Information that specifies whether Action Support Feature is enabled</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>isactionsupportfeatureenabled</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the isActionSupportFeatureEnabled attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Action Support Feature enabled</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Information that specifies whether Action Support Feature is enabled</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>isactionsupportfeatureenabled</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>418</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#isBPFEntityCustomizationFeatureEnabled name="isBPFEntityCustomizationFeatureEnabled">isBPFEntityCustomizationFeatureEnabled</a>
 
 Information that specifies whether BPF Entity Customization Feature is enabled  
@@ -11922,29 +3305,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>BPF Entity Customization Feature enabled</td></tr><tr><td>description</td><td>Information that specifies whether BPF Entity Customization Feature is enabled</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>isbpfentitycustomizationfeatureenabled</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the isBPFEntityCustomizationFeatureEnabled attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>BPF Entity Customization Feature enabled</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Information that specifies whether BPF Entity Customization Feature is enabled</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>isbpfentitycustomizationfeatureenabled</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>419</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#boundDashboardDefaultCardExpanded name="boundDashboardDefaultCardExpanded">boundDashboardDefaultCardExpanded</a>
 
@@ -11955,29 +3315,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Display cards in expanded state for Interactive Dashboard</td></tr><tr><td>description</td><td>Display cards in expanded state for interactive dashboard</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>bounddashboarddefaultcardexpanded</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the boundDashboardDefaultCardExpanded attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Display cards in expanded state for Interactive Dashboard</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Display cards in expanded state for interactive dashboard</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>bounddashboarddefaultcardexpanded</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>420</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#maxActionStepsInBPF name="maxActionStepsInBPF">maxActionStepsInBPF</a>
 
 Maximum number of actionsteps allowed in a BPF  
@@ -11986,32 +3323,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Maximum number of actionsteps allowed in a BPF</td></tr><tr><td>description</td><td>Maximum number of actionsteps allowed in a BPF</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>100</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>maxactionstepsinbpf</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the maxActionStepsInBPF attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Maximum number of actionsteps allowed in a BPF</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Maximum number of actionsteps allowed in a BPF</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>maxactionstepsinbpf</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>421</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>100</td><td>decimal</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#serveStaticResourcesFromAzureCDN name="serveStaticResourcesFromAzureCDN">serveStaticResourcesFromAzureCDN</a>
 
@@ -12022,29 +3333,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Serve Static Content From CDN</td></tr><tr><td>description</td><td>Serve Static Content From CDN</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>servestaticresourcesfromazurecdn</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the serveStaticResourcesFromAzureCDN attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Serve Static Content From CDN</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Serve Static Content From CDN</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>servestaticresourcesfromazurecdn</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>422</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#isExternalFileStorageEnabled name="isExternalFileStorageEnabled">isExternalFileStorageEnabled</a>
 
 Indicates whether the organization's files are being stored in Azure.  
@@ -12053,29 +3341,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Enable external file storage</td></tr><tr><td>description</td><td>Indicates whether the organization's files are being stored in Azure.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>isexternalfilestorageenabled</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the isExternalFileStorageEnabled attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable external file storage</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether the organization's files are being stored in Azure.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>isexternalfilestorageenabled</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>423</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#clientFeatureSet name="clientFeatureSet">clientFeatureSet</a>
 
@@ -12086,37 +3351,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Client Feature Set</td></tr><tr><td>description</td><td>Client Features to be enabled as an XML BLOB.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>1073741823</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>clientfeatureset</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the clientFeatureSet attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Client Feature Set</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Client Features to be enabled as an XML BLOB.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>clientfeatureset</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>424</td><td>integer</td><td></td></tr></table>
-
-- **is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>1073741823</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#isReadAuditEnabled name="isReadAuditEnabled">isReadAuditEnabled</a>
 
 Enable or disable auditing of read operations.  
@@ -12125,29 +3359,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Is Read Auditing Enabled</td></tr><tr><td>description</td><td>Enable or disable auditing of read operations.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>isreadauditenabled</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the isReadAuditEnabled attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Is Read Auditing Enabled</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable or disable auditing of read operations.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>isreadauditenabled</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>425</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#isNotesAnalysisEnabled name="isNotesAnalysisEnabled">isNotesAnalysisEnabled</a>
 
@@ -12158,32 +3369,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Enable Notes Analysis for this Organization</td></tr><tr><td>description</td><td>Indicates whether the feature Notes Analysis should be enabled for the organization.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>isnotesanalysisenabled</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the isNotesAnalysisEnabled attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable Notes Analysis for this Organization</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether the feature Notes Analysis should be enabled for the organization.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>isnotesanalysisenabled</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>426</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#allowLegacyDialogsEmbedding name="allowLegacyDialogsEmbedding">allowLegacyDialogsEmbedding</a>
 
 Enable embedding of certain legacy dialogs in Unified Interface browser client  
@@ -12192,29 +3377,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Enable embedding of certain legacy dialogs in Unified Interface browser client</td></tr><tr><td>description</td><td>Enable embedding of certain legacy dialogs in Unified Interface browser client</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>allowlegacydialogsembedding</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the allowLegacyDialogsEmbedding attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable embedding of certain legacy dialogs in Unified Interface browser client</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable embedding of certain legacy dialogs in Unified Interface browser client</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>allowlegacydialogsembedding</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>427</td><td>integer</td><td></td></tr></table>
-
-</details>
 
 ### <a href=#appointmentRichEditorExperience name="appointmentRichEditorExperience">appointmentRichEditorExperience</a>
 
@@ -12225,29 +3387,6 @@ First included in: <a href="../Organization.md" target="_blank">applicationCommo
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Enable Rich Editing Experience for Appointment</td></tr><tr><td>description</td><td>Information on whether rich editing experience for Appointment is enabled.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>appointmentricheditorexperience</td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the appointmentRichEditorExperience attribute are listed below.</summary>
-
-- **is.dataFormat.boolean**  
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable Rich Editing Experience for Appointment</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Information on whether rich editing experience for Appointment is enabled.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>appointmentricheditorexperience</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10000</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#schedulingEngine name="schedulingEngine">schedulingEngine</a>
 
 Scheduling engine for Appointments and Service Activities  
@@ -12257,38 +3396,6 @@ First included in: foundationCommon/Organization (this entity)
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Scheduling engine for Appointments and Service Activities</td></tr><tr><td>description</td><td>Scheduling engine for Appointments and Service Activities</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>schedulingengine</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Legacy Scheduling Engine</td><td>0</td></tr></table></td></tr></table>
 
-#### Traits
-
-<details>
-<summary>List of traits for the schedulingEngine attribute are listed below.</summary>
-
-- **is.dataFormat.integer**  
-- **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Legacy Scheduling Engine</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
-
-- **is.constrainedList**  
-the values of an attribute are taken from or looked up from a fixed list of possibilities  
-
-- **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-- **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Scheduling engine for Appointments and Service Activities</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Scheduling engine for Appointments and Service Activities</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.nullable**  
-The attribute value may be set to NULL.  
-
-- **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>schedulingengine</td><td>string</td><td></td></tr></table>
-
-- **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10002</td><td>integer</td><td></td></tr></table>
-
-</details>
-
 ### <a href=#schedulingEngine_display name="schedulingEngine_display">schedulingEngine_display</a>
 
 First included in: foundationCommon/Organization (this entity)  
@@ -12296,18 +3403,3 @@ First included in: foundationCommon/Organization (this entity)
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the schedulingEngine_display attribute are listed below.</summary>
-
-- **is.dataFormat.character**  
-- **is.dataFormat.big**  
-- **is.dataFormat.array**  
-- **means.reference.displayText**  
-- **is.readOnly**  
-- **is.addedInSupportOf**  
-<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>schedulingEngine</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
-
-</details>
