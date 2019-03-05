@@ -1,12 +1,11 @@
 ---
-title: overview – Common Data Model | Microsoft Docs
-description: LinkedInLeads is a folder that contains standard entities related to the Common Data Model.
-author: nenad1002
+title: LinkedInLeads
+description: 'LinkedInLeads' is a folder that contains standard entities related to the Common Data Model.
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/22/2019
-ms.author: nebanfic
+ms.date: 3/5/2019
+ms.author: tpalmer
 ---
 
 # LinkedInLeads
@@ -16,9 +15,9 @@ ms.author: nebanfic
 
 |Name|Description|
 |---|---|
-|[LinkedInAccount](LinkedInAccount.md)||
-|[LinkedInCampaign](LinkedInCampaign.md)||
-|[LinkedInFormQuestion](LinkedInFormQuestion.md)||
-|[LinkedInFormSubmissionAnswer](LinkedInFormSubmissionAnswer.md)||
-|[LinkedInLeadGenForm](LinkedInLeadGenForm.md)||
-|[LinkedInLeadGenFormSubmission](LinkedInLeadGenFormSubmission.md)||
+|[LinkedInAccount](LinkedInAccount.md)|The LinkedIn account where forms are created and published.  |
+|[LinkedInCampaign](LinkedInCampaign.md)|Campaign used to capture submissions from prospects.  |
+|[LinkedInFormQuestion](LinkedInFormQuestion.md)|  |
+|[LinkedInFormSubmissionAnswer](LinkedInFormSubmissionAnswer.md)|Answers to individual questions on a form submitted by a LinkedIn member  |
+|[LinkedInLeadGenForm](LinkedInLeadGenForm.md)|Form shown to prospects on LinkedIn  |
+|[LinkedInLeadGenFormSubmission](LinkedInLeadGenFormSubmission.md)|Submissions from prospects on LinkedIn  |

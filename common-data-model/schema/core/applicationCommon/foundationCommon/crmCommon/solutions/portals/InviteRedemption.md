@@ -1,12 +1,11 @@
 ---
-title: InviteRedemption – Common Data Model | Microsoft Docs
+title: InviteRedemption
 description: Holds information about the redemption of an invite.
-author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/22/2019
-ms.author: nebanfic
+ms.date: 3/5/2019
+ms.author: tpalmer
 ---
 
 # Invite Redemption
@@ -19,7 +18,7 @@ Holds information about the redemption of an invite.
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/solutions/portals/InviteRedemption  
+- /foundationCommon/crmCommon/solutions/portals/InviteRedemption.cdm.json/InviteRedemption  
 
 ## Traits
 
@@ -209,6 +208,9 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>createdby</td><td>string</td><td></td></tr></table>
 
+- **is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
 </details>
 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
@@ -293,6 +295,9 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>modifiedby</td><td>string</td><td></td></tr></table>
 
+- **is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
 </details>
 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
@@ -338,6 +343,9 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>createdonbehalfby</td><td>string</td><td></td></tr></table>
 
+- **is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
 </details>
 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
@@ -382,6 +390,9 @@ The attribute value may be set to NULL.
 
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>modifiedonbehalfby</td><td>string</td><td></td></tr></table>
+
+- **is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 </details>
 
@@ -536,7 +547,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>ownerid</td><td>string</td><td></td></tr></table>
 
 - **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="../../../../Team.md" target="_blank">/core/applicationCommon/Team.cdm.json/Team</a></td><td><a href="../../../../Team.md#teamId" target="_blank">teamId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 - **is.CDS.owner**  
 contains a User or Team ID  
@@ -583,6 +594,9 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>owningbusinessunit</td><td>string</td><td></td></tr></table>
 
+- **is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../BusinessUnit.md" target="_blank">/core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit</a></td><td><a href="../../../../BusinessUnit.md#businessUnitId" target="_blank">businessUnitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
 </details>
 
 ### <a href=#owningUser name="owningUser">owningUser</a>
@@ -628,6 +642,9 @@ The attribute value may be set to NULL.
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>owninguser</td><td>string</td><td></td></tr></table>
 
+- **is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="../../service/User.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User</a></td><td><a href="../../service/User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
 </details>
 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
@@ -669,6 +686,9 @@ The attribute value may be set to NULL.
 
 - **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>owningteam</td><td>string</td><td></td></tr></table>
+
+- **is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../Team.md" target="_blank">/core/applicationCommon/Team.cdm.json/Team</a></td><td><a href="../../../../Team.md#teamId" target="_blank">teamId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 </details>
 
@@ -859,6 +879,9 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>4</td><td>integer</td><td></td></tr></table>
+
+- **is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../Activity.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/Activity.cdm.json/Activity</a></td><td><a href="../../Activity.md#activityId" target="_blank">activityId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 </details>
 
@@ -1387,6 +1410,9 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>19</td><td>integer</td><td></td></tr></table>
 
+- **is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../sales/Quote.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json/Quote</a></td><td><a href="../../sales/Quote.md#quoteId" target="_blank">quoteId</a></td></tr><tr><td><a href="Case.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Case.cdm.json/Case</a></td><td><a href="Case.md#incidentId" target="_blank">incidentId</a></td></tr><tr><td><a href="WebPage.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json/WebPage</a></td><td><a href="WebPage.md#webpageId" target="_blank">webpageId</a></td></tr><tr><td><a href="../../../../KnowledgeBaseRecord.md" target="_blank">/core/applicationCommon/KnowledgeBaseRecord.cdm.json/KnowledgeBaseRecord</a></td><td><a href="../../../../KnowledgeBaseRecord.md#knowledgeBaseRecordId" target="_blank">knowledgeBaseRecordId</a></td></tr><tr><td><a href="../../Lead.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.json/Lead</a></td><td><a href="../../Lead.md#leadId" target="_blank">leadId</a></td></tr><tr><td><a href="../../../../KnowledgeArticle.md" target="_blank">/core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle</a></td><td><a href="../../../../KnowledgeArticle.md#knowledgearticleId" target="_blank">knowledgearticleId</a></td></tr><tr><td><a href="Poll.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Poll.cdm.json/Poll</a></td><td><a href="Poll.md#pollId" target="_blank">pollId</a></td></tr><tr><td><a href="PollSubmission.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/PollSubmission.cdm.json/PollSubmission</a></td><td><a href="PollSubmission.md#pollSubmissionId" target="_blank">pollSubmissionId</a></td></tr><tr><td><a href="CaseDeflection.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/CaseDeflection.cdm.json/CaseDeflection</a></td><td><a href="CaseDeflection.md#caseDeflectionId" target="_blank">caseDeflectionId</a></td></tr><tr><td><a href="Blog.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Blog.cdm.json/Blog</a></td><td><a href="Blog.md#blogId" target="_blank">blogId</a></td></tr><tr><td><a href="PollPlacement.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/PollPlacement.cdm.json/PollPlacement</a></td><td><a href="PollPlacement.md#pollPlacementId" target="_blank">pollPlacementId</a></td></tr><tr><td><a href="PollOption.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/PollOption.cdm.json/PollOption</a></td><td><a href="PollOption.md#pollOptionId" target="_blank">pollOptionId</a></td></tr><tr><td><a href="Opportunity.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Opportunity.cdm.json/Opportunity</a></td><td><a href="Opportunity.md#opportunityId" target="_blank">opportunityId</a></td></tr><tr><td><a href="Website.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Website.cdm.json/Website</a></td><td><a href="Website.md#websiteId" target="_blank">websiteId</a></td></tr><tr><td><a href="Invitation.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Invitation.cdm.json/Invitation</a></td><td><a href="Invitation.md#invitationId" target="_blank">invitationId</a></td></tr><tr><td><a href="Account.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Account.cdm.json/Account</a></td><td><a href="Account.md#accountId" target="_blank">accountId</a></td></tr><tr><td><a href="../../sales/Order.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/sales/Order.cdm.json/Order</a></td><td><a href="../../sales/Order.md#salesOrderId" target="_blank">salesOrderId</a></td></tr><tr><td><a href="BlogPost.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/BlogPost.cdm.json/BlogPost</a></td><td><a href="BlogPost.md#blogPostId" target="_blank">blogPostId</a></td></tr><tr><td><a href="Contact.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Contact.cdm.json/Contact</a></td><td><a href="Contact.md#contactId" target="_blank">contactId</a></td></tr><tr><td><a href="../../../BookableResourceBookingHeader.md" target="_blank">/core/applicationCommon/foundationCommon/BookableResourceBookingHeader.cdm.json/BookableResourceBookingHeader</a></td><td><a href="../../../BookableResourceBookingHeader.md#bookableResourceBookingHeaderId" target="_blank">bookableResourceBookingHeaderId</a></td></tr><tr><td><a href="../../service/Contract.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/Contract.cdm.json/Contract</a></td><td><a href="../../service/Contract.md#contractId" target="_blank">contractId</a></td></tr><tr><td><a href="../../service/Site.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/Site.cdm.json/Site</a></td><td><a href="../../service/Site.md#siteId" target="_blank">siteId</a></td></tr><tr><td><a href="AdPlacement.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/AdPlacement.cdm.json/AdPlacement</a></td><td><a href="AdPlacement.md#adPlacementId" target="_blank">adPlacementId</a></td></tr><tr><td><a href="../../QuickCampaign.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json/QuickCampaign</a></td><td><a href="../../QuickCampaign.md#activityId" target="_blank">activityId</a></td></tr><tr><td><a href="../../../BookableResourceBooking.md" target="_blank">/core/applicationCommon/foundationCommon/BookableResourceBooking.cdm.json/BookableResourceBooking</a></td><td><a href="../../../BookableResourceBooking.md#bookableResourceBookingId" target="_blank">bookableResourceBookingId</a></td></tr><tr><td><a href="../../CampaignActivity.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/CampaignActivity.cdm.json/CampaignActivity</a></td><td><a href="../../CampaignActivity.md#activityId" target="_blank">activityId</a></td></tr><tr><td><a href="../../sales/Invoice.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/sales/Invoice.cdm.json/Invoice</a></td><td><a href="../../sales/Invoice.md#invoiceId" target="_blank">invoiceId</a></td></tr><tr><td><a href="../../service/Entitlement.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/Entitlement.cdm.json/Entitlement</a></td><td><a href="../../service/Entitlement.md#entitlementId" target="_blank">entitlementId</a></td></tr><tr><td><a href="Ad.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Ad.cdm.json/Ad</a></td><td><a href="Ad.md#adId" target="_blank">adId</a></td></tr><tr><td><a href="../../Campaign.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign</a></td><td><a href="../../Campaign.md#campaignId" target="_blank">campaignId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
 </details>
 
 ### <a href=#subject name="subject">subject</a>
@@ -1672,6 +1698,9 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>33</td><td>integer</td><td></td></tr></table>
+
+- **is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../Currency.md" target="_blank">/core/applicationCommon/Currency.cdm.json/Currency</a></td><td><a href="../../../../Currency.md#transactionCurrencyId" target="_blank">transactionCurrencyId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 </details>
 
@@ -2345,6 +2374,9 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>49</td><td>integer</td><td></td></tr></table>
 
+- **is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../SLA.md" target="_blank">/core/applicationCommon/SLA.cdm.json/SLA</a></td><td><a href="../../../../SLA.md#SLAId" target="_blank">SLAId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
 </details>
 
 ### <a href=#SLAInvokedId name="SLAInvokedId">SLAInvokedId</a>
@@ -2386,6 +2418,9 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>50</td><td>integer</td><td></td></tr></table>
+
+- **is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../SLA.md" target="_blank">/core/applicationCommon/SLA.cdm.json/SLA</a></td><td><a href="../../../../SLA.md#SLAId" target="_blank">SLAId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 </details>
 
@@ -2542,6 +2577,9 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>54</td><td>integer</td><td></td></tr></table>
+
+- **is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../service/Service.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/Service.cdm.json/Service</a></td><td><a href="../../service/Service.md#serviceId" target="_blank">serviceId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 </details>
 

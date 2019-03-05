@@ -1,12 +1,11 @@
 ---
-title: ActivityParty – Common Data Model | Microsoft Docs
+title: ActivityParty
 description: Person or group associated with an activity. An activity can have multiple activity parties.
-author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/22/2019
-ms.author: nebanfic
+ms.date: 3/5/2019
+ms.author: tpalmer
 ---
 
 # Activity Party
@@ -19,8 +18,8 @@ Person or group associated with an activity. An activity can have multiple activ
 
 Instances of this entity are listed below.  
 
-- [/ActivityParty](../../../ActivityParty.md "/core/applicationCommon/ActivityParty.cdm.json/ActivityParty")  
-- /foundationCommon/crmCommon/service/ActivityParty  
+[/ActivityParty.cdm.json/ActivityParty](../../../ActivityParty.md "/core/applicationCommon/ActivityParty.cdm.json/ActivityParty")  
+- /foundationCommon/crmCommon/service/ActivityParty.cdm.json/ActivityParty  
 
 ## Traits
 
@@ -112,6 +111,9 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>1</td><td>integer</td><td></td></tr></table>
+
+- **is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Appointment.md" target="_blank">/core/applicationCommon/Appointment.cdm.json/Appointment</a></td><td><a href="../../../Appointment.md#activityId" target="_blank">activityId</a></td></tr><tr><td><a href="../../../Activity.md" target="_blank">/core/applicationCommon/Activity.cdm.json/Activity</a></td><td><a href="../../../Activity.md#activityId" target="_blank">activityId</a></td></tr><tr><td><a href="../../../Fax.md" target="_blank">/core/applicationCommon/Fax.cdm.json/Fax</a></td><td><a href="../../../Fax.md#activityId" target="_blank">activityId</a></td></tr><tr><td><a href="../../../Task.md" target="_blank">/core/applicationCommon/Task.cdm.json/Task</a></td><td><a href="../../../Task.md#activityId" target="_blank">activityId</a></td></tr><tr><td><a href="../../../SocialActivity.md" target="_blank">/core/applicationCommon/SocialActivity.cdm.json/SocialActivity</a></td><td><a href="../../../SocialActivity.md#activityId" target="_blank">activityId</a></td></tr><tr><td><a href="../../../Letter.md" target="_blank">/core/applicationCommon/Letter.cdm.json/Letter</a></td><td><a href="../../../Letter.md#activityId" target="_blank">activityId</a></td></tr><tr><td><a href="../../../Email.md" target="_blank">/core/applicationCommon/Email.cdm.json/Email</a></td><td><a href="../../../Email.md#activityId" target="_blank">activityId</a></td></tr><tr><td><a href="../../../PhoneCall.md" target="_blank">/core/applicationCommon/PhoneCall.cdm.json/PhoneCall</a></td><td><a href="../../../PhoneCall.md#activityId" target="_blank">activityId</a></td></tr><tr><td><a href="../../../RecurringAppointment.md" target="_blank">/core/applicationCommon/RecurringAppointment.cdm.json/RecurringAppointment</a></td><td><a href="../../../RecurringAppointment.md#activityId" target="_blank">activityId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 </details>
 
@@ -228,7 +230,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>3</td><td>integer</td><td></td></tr></table>
 
 - **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Contact.md" target="_blank">/core/applicationCommon/Contact.cdm.json/Contact</a></td><td><a href="../../../Contact.md#contactId" target="_blank">contactId</a></td></tr><tr><td><a href="../../../KnowledgeArticle.md" target="_blank">/core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle</a></td><td><a href="../../../KnowledgeArticle.md#knowledgearticleId" target="_blank">knowledgearticleId</a></td></tr><tr><td><a href="../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="../../../Account.md" target="_blank">/core/applicationCommon/Account.cdm.json/Account</a></td><td><a href="../../../Account.md#accountId" target="_blank">accountId</a></td></tr><tr><td><a href="../../../Queue.md" target="_blank">/core/applicationCommon/Queue.cdm.json/Queue</a></td><td><a href="../../../Queue.md#queueId" target="_blank">queueId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 </details>
 
@@ -734,7 +736,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>ownerid</td><td>string</td><td></td></tr></table>
 
 - **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="../../../Team.md" target="_blank">/core/applicationCommon/Team.cdm.json/Team</a></td><td><a href="../../../Team.md#teamId" target="_blank">teamId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 - **is.CDS.owner**  
 contains a User or Team ID  
@@ -911,5 +913,8 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 
 - **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>10000</td><td>integer</td><td></td></tr></table>
+
+- **is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="ResourceSpecification.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/ResourceSpecification.cdm.json/ResourceSpecification</a></td><td><a href="ResourceSpecification.md#resourceSpecId" target="_blank">resourceSpecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 </details>
