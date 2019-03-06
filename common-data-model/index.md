@@ -11,7 +11,7 @@ ms.author: tpalmer
 
 # The Common Data Model
 
-If you’ve ever had to use data from multiple systems and applications together, you know that common data elements can save effort, streamline development, and enable faster analytics. Without being able to share and understand the same data easily, each application or data integration project requires a custom implementation, which can consume a lot of time, costly a lot of money, and require repeated effort.
+If you’ve ever had to use data from multiple systems and applications together, you know that common data elements can save effort, streamline development, and enable faster analytics. Without being able to share and understand the same data easily, each application or data integration project requires a custom implementation, which can consume a lot of time, cost a lot of money, and require repeated effort.
 
 The Common Data Model (CDM) simplifies this process by providing a shared data language for business and analytical applications to use. The CDM metadata system enables consistency of data and its meaning across applications and business processes (such as PowerApps, Power BI, Dynamics 365, and Azure), which store data in conformance with the CDM.
 
