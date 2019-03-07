@@ -28,7 +28,7 @@ These are some frequently asked questions (FAQs) before upgrading your database.
 - [How do I know whether any apps or flows use this database?](#how-do-i-know-whether-any-apps-or-flows-use-this-database)
 - [How long will this take?](#how-long-will-this-take)
 - [Can I cancel the upgrade process once it’s initiated?](#can-i-cancel-the-upgrade-process-once-its-initiated)
-- [Will there be any downtime of the database or apps in production during the upgrade?](#will-there-be-any-downtime-of-the-database-or-apps-in-production-during-the-upgrade-process)
+- [Will there be any downtime of the database or apps in production during the upgrade?](#will-there-be-any-downtime-of-the-database-or-apps-in-production-during-the-upgrade)
 - [Are there any steps I should take before I start the upgrade?](#are-there-any-steps-i-should-take-before-i-start-the-upgrade)
 
 ### Which databases do I need to upgrade? 
@@ -90,7 +90,8 @@ to it. We encourage admins to communicate to users when step 3 is planned to be
 
 ### Are there any steps I should take before I start the upgrade?
 
-You should check to see if the previous version CDS database security settings refer to any people who are no longer with your company and remove them. This can help avoid the `Can't find XRM ID for user with oid <value> when assigning to role <value> (source role <value>) in environment <value>` error mentioned in [Errors and resolutions](errors-resolutions.md).
+- You should check to see if the previous version CDS database security settings refer to any people who are no longer with your company and remove them. This can help avoid the `Can't find XRM ID for user with oid <value> when assigning to role <value> (source role <value>) in environment <value>` error mentioned in [Errors and resolutions](errors-resolutions.md).
+- If you have any entities that you aren't using, or data that you don't care about, deleting that data will reduce the risk of errors. After you start the upgrade, you can't edit entities but you can delete data.
 
 ## Start the database upgrade process
 
