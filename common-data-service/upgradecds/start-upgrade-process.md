@@ -28,7 +28,7 @@ These are some frequently asked questions (FAQs) before upgrading your database.
 - [How do I know whether any apps or flows use this database?](#how-do-i-know-whether-any-apps-or-flows-use-this-database)
 - [How long will this take?](#how-long-will-this-take)
 - [Can I cancel the upgrade process once it’s initiated?](#can-i-cancel-the-upgrade-process-once-its-initiated)
-- [Will there be any downtime of the database or apps in production during the upgrade?](#will-there-be-any-downtime-of-the-database-or-apps-in-production-during-the-upgrade-process)
+- [Will there be any downtime of the database or apps in production during the upgrade?](#will-there-be-any-downtime-of-the-database-or-apps-in-production-during-the-upgrade)
 - [Are there any steps I should take before I start the upgrade?](#are-there-any-steps-i-should-take-before-i-start-the-upgrade)
 
 ### Which databases do I need to upgrade? 
@@ -46,10 +46,18 @@ production database.
 
 ### How do I know whether any apps or flows use this database?
 
-There are two ways to know if any apps or flows depend on a database.
+When you complete Step 1 you can view a list. More information see [View Apps and flows using the database](#view-apps-and-flows-using-the-database)
 
-1. When you complete Step 1 you can view a list. More information see [View Apps and flows using the database](#view-apps-and-flows-using-the-database)
-1. You can [contact support](https://powerapps.microsoft.com/support/) and provide the URL you use to view the environment. They can run a report on your behalf to return any apps and flows using the previous version CDS database for the environment.
+If you want to know before you start Step 1 you need to use a different procedure.
+
+#### For Apps
+
+Use the procedure described in [Download a list of apps created in your environments](/power-platform/admin/admin-view-apps). The list you will download includes a **Connection References** column. An app that depends on the previous version of CDS will have this value included: `Common Data Service`.
+
+#### For Flows
+
+You can [contact support](https://powerapps.microsoft.com/support/) and provide the URL you use to view the environment. They can run a report on your behalf to return any flows using the previous version CDS database for the environment.
+
 
 ### How long will this take?
 
@@ -82,7 +90,8 @@ to it. We encourage admins to communicate to users when step 3 is planned to be
 
 ### Are there any steps I should take before I start the upgrade?
 
-You should check to see if the previous version CDS database security settings refer to any people who are no longer with your company and remove them. This can help avoid the `Can't find XRM ID for user with oid <value> when assigning to role <value> (source role <value>) in environment <value>` error mentioned in [Errors and resolutions](errors-resolutions.md).
+- You should check to see if the previous version CDS database security settings refer to any people who are no longer with your company and remove them. This can help avoid the `Can't find XRM ID for user with oid <value> when assigning to role <value> (source role <value>) in environment <value>` error mentioned in [Errors and resolutions](errors-resolutions.md).
+- If you have any entities that you aren't using, or data that you don't care about, deleting that data will reduce the risk of errors. After you start the upgrade, you can't edit entities but you can delete data.
 
 ## Start the database upgrade process
 
