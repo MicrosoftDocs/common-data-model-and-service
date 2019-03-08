@@ -54,6 +54,25 @@ If you want to know before you start Step 1 you need to use a different procedur
 
 Use the procedure described in [Download a list of apps created in your environments](/power-platform/admin/admin-view-apps). The list you will download includes a **Connection References** column. An app that depends on the previous version of CDS will have this value included: `Common Data Service`.
 
+If you prefer to use PowerShell, you can use the following script to return a list of apps that use the previous version CDS connector.
+
+```powershell
+$apps = Get-AdminPowerApp
+
+foreach($app in $apps)
+{
+    $connections = Get-AdminPowerAppConnectionReferences -EnvironmentName $app.EnvironmentName -AppName $app.AppName
+    foreach($connection in $connections)
+    {
+        if ($connection.ConnectorName -eq "shared_runtimeservice – CDS 1.0")
+        {
+            Write-Host "App $($app.AppName) is using CDS 1.0."
+        }
+    }
+} 
+```
+For more information related to the PowerShell Cmdlets, see [PowerShell support for PowerApps (preview)](/power-platform/admin/powerapps-powershell)
+
 #### For Flows
 
 You can [contact support](https://powerapps.microsoft.com/support/) and provide the URL you use to view the environment. They can run a report on your behalf to return any flows using the previous version CDS database for the environment.
