@@ -3,7 +3,7 @@ title: "Overview of the upgrade process | Microsoft Docs"
 description: "Provides an overview of the upgrade process to CDS for Apps."
 author: "JimDaly"
 manager: "ryjones"
-ms.date: "12/09/2018"
+ms.date: "03/08/2019"
 ms.topic: "article"
 ms.custom: ""
 ms.service: "CommonDataService"
@@ -18,6 +18,8 @@ ms.author: jdaly
 
 > [!IMPORTANT]
 > Once you start the upgrade process you must not delete the database. This will leave your environment in an inconsistent state. If you choose to abandon the upgrade process after you have started, contact support for assistance.
+>
+> To perform the upgrade you will need a PowerApps P2 license, a trial license will work for this purpose if you don't already have a P2 license. More information: [No environments visible](errors-resolutions.md#no-environments-visible)
 
 The upgrade from previous version of CDS to CDS for Apps is a three-step process.
 
