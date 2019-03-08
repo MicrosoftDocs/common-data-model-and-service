@@ -58,7 +58,9 @@ If you prefer to use PowerShell, you can use the following script to return a li
 
 ```powershell
 <#  
-    Outputs a .csv file of records that represent a premium feature found in PowerApps throughout the tenant it is run in. Result feature records will include:
+    Outputs a .csv file of records that represent a premium feature found in 
+    PowerApps throughout the tenant it is run in. 
+    Result feature records will include:
         - Connections to the previous version Common Data Service Connector used in PowerApps
 #>
 
