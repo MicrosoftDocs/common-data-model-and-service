@@ -57,26 +57,132 @@ Use the procedure described in [Download a list of apps created in your environm
 If you prefer to use PowerShell, you can use the following script to return a list of apps that use the previous version CDS connector.
 
 ```powershell
-$apps = Get-AdminPowerApp
+<#  
+    Outputs a .csv file of records that represent a premium feature found in PowerApps throughout the tenant it is run in. Result feature records will include:
+        - Connections to the previous version Common Data Service Connector used in PowerApps
+#>
 
-foreach($app in $apps)
+param(
+    [string]$EnvironmentName,
+    [string]$Path = './powerAppsWithCommonDataService1.csv'
+)
+
+if (-not [string]::isNullOrEmpty($EnvironmentName))
 {
-    $connections = Get-AdminPowerAppConnectionReferences -EnvironmentName $app.EnvironmentName -AppName $app.AppName
-    foreach($connection in $connections)
+    $apps = Get-AdminPowerApp -EnvironmentName $EnvironmentName
+}
+else 
+{
+    $apps = Get-AdminPowerApp 
+}
+
+$premiumFeatures = @()
+
+# loop through each app
+foreach ($app in $apps)
+{
+    # loop through each connection reference
+    foreach($conRef in $app.Internal.properties.connectionReferences)
     {
-        if ($connection.ConnectorName -eq "shared_runtimeservice – CDS 1.0")
+        foreach($connection in $conRef)
         {
-            Write-Host "App $($app.AppName) is using CDS 1.0."
-        }
+            foreach ($connId in ($connection | Get-Member -MemberType NoteProperty).Name) 
+            {
+                $connDetails = $($connection.$connId)
+
+                # save connection details if the connector is premium
+                if ($connDetails.id -eq '/providers/Microsoft.PowerApps/scopes/admin/apis/shared_runtimeservice')
+                {
+                    $row = @{
+                        ResourceType = 'PowerApp'
+                        DisplayName = $app.displayName
+                        Name = $app.appName
+                        EnvironmentName = $app.environmentName
+                        ConnectorDisplayName = $connDetails.displayName
+                        ConnectionId = $connDetails.id
+                        ConnectionName = $connDetails.connectionName
+                        CreatedByObjectId = $app.owner.id
+                        CreatedByEmail = $app.owner.email
+                        IsPremiumConnector = $connDetails.apiTier -eq 'Premium'
+                    }
+                    $premiumFeatures += $(new-object psobject -Property $row)
+                }
+            }
+        }        
     }
-} 
+}
+
+# output to file
+$premiumFeatures | Export-Csv -Path $Path
 ```
-For more information related to the PowerShell Cmdlets, see [PowerShell support for PowerApps (preview)](/power-platform/admin/powerapps-powershell)
+> [!NOTE]
+> For more PowerApps Powershell installation instructions and documentation, see [PowerShell support for PowerApps (preview)](/power-platform/admin/powerapps-powershell)
 
 #### For Flows
 
 You can [contact support](https://powerapps.microsoft.com/support/) and provide the URL you use to view the environment. They can run a report on your behalf to return any flows using the previous version CDS database for the environment.
 
+If you prefer PowerShell, you can use the following script to return a list of flows that use the previous version CDS connector.
+
+```powershell
+<#  
+    Outputs a .csv file of records that represent a premium feature found in Flow 
+    throughout the tenant it is run in. Result feature records will include:
+        - Flows using previous version Common Data Service
+#>
+
+param(
+    [string]$EnvironmentName,
+    [string]$Path = './flowsWithCds1.csv'
+)
+
+if (-not [string]::isNullOrEmpty($EnvironmentName))
+{
+    $flows = Get-AdminFlow -EnvironmentName $EnvironmentName
+}
+else 
+{
+    $flows = Get-AdminFlow
+}
+
+$premiumFeatures = @()
+
+# loop through flows
+foreach ($flow in $flows)
+{
+    $flowDetails = $flow | Get-AdminFlow
+
+    # loop through each connection reference
+    foreach($conRef in $flowDetails.Internal.properties.connectionReferences)
+    {
+        foreach($connection in $conRef)
+        {
+            foreach ($connId in ($connection | Get-Member -MemberType NoteProperty).Name) 
+            {
+                $connDetails = $($connection.$connId)
+                if ($connDetails.id -eq '/providers/Microsoft.PowerApps/apis/shared_runtimeservice' )
+                {
+                    $row = @{
+                        AffectedResourceType = 'Flow'
+                        DisplayName = $flowDetails.displayName
+                        Name = $flowDetails.flowName
+                        EnvironmentName = $flowDetails.environmentName
+                        ConnectorDisplayName = $connDetails.displayName
+                        ConnectionId = $connDetails.id
+                        ConnectionName = $connDetails.connectionName
+                        CreatedByObjectId = $flowDetails.internal.properties.creator.objectId
+                    }
+                    $premiumFeatures += $(new-object psobject -Property $row)
+                }
+            }
+        }        
+    }
+}
+
+$premiumFeatures | Export-Csv -Path $Path
+```
+> [!NOTE]
+> For more PowerApps Powershell installation instructions and documentation, see [PowerShell support for PowerApps (preview)](/power-platform/admin/powerapps-powershell)
 
 ### How long will this take?
 
