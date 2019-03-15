@@ -6,7 +6,7 @@ manager: "ryjones"
 ms.date: "12/09/2018"
 ms.topic: "article"
 ms.custom: ""
-ms.service: "CommonDataService"
+ms.service: CommonDataService
 ms.technology: "CommonDataService"
 keywords: ""
 audience: "IT Pro"
