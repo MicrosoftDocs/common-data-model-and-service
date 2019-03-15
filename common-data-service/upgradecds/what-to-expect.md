@@ -6,7 +6,7 @@ manager: "ryjones"
 ms.date: "03/03/2019"
 ms.topic: "topic"
 ms.prod: ""
-ms.service: "CommonDataService"
+ms.service: CommonDataService
 ms.technology: "CommonDataService"
 keywords: "Common Data Service for Apps, CDS for Apps, Upgrade"
 audience: "Administrator"

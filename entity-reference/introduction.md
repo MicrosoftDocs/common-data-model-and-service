@@ -5,7 +5,7 @@ author: "KumarVivek"
 ms.date: 11/27/2018
 ms.topic: "topic"
 ms.prod: ""
-ms.service: "CommonDataService"
+ms.service: CommonDataService
 ms.technology: "CommonDataService"
 keywords: "overview, introduction"
 audience: "Developer, IT Pro"
