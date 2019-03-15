@@ -3,7 +3,7 @@ title: "Upgrade to Common Data Service for Apps | Microsoft Docs"
 description: "Provides instructions on how to upgrade from previous version of Common Data Service to CDS for Apps"
 author: "JimDaly"
 manager: "ryjones"
-ms.date: "03/03/2019"
+ms.date: "03/15/2019"
 ms.topic: "article"
 ms.custom: ""
 ms.service: CommonDataService
@@ -30,6 +30,8 @@ These are some frequently asked questions (FAQs) before upgrading your database.
 - [Can I cancel the upgrade process once it’s initiated?](#can-i-cancel-the-upgrade-process-once-its-initiated)
 - [Will there be any downtime of the database or apps in production during the upgrade?](#will-there-be-any-downtime-of-the-database-or-apps-in-production-during-the-upgrade)
 - [Are there any steps I should take before I start the upgrade?](#are-there-any-steps-i-should-take-before-i-start-the-upgrade)
+- [What impact will the upgrade have on Flow approvals?](#what-impact-will-the-upgrade-have-on-flow-approvals)
+- [Can I edit my database tables, fields, and relationships during the upgrade?](#can-i-edit-my-database-tables-fields-and-relationships-during-the-upgrade)
 
 ### Which databases do I need to upgrade? 
 
@@ -210,6 +212,9 @@ The upgrade process consists of three steps as described later. Only the third
 step involves downtime for the database as well as the apps and flows connecting
 to it. We encourage admins to communicate to users when step 3 is planned to be executed.
 
+> [!IMPORTANT]
+> One exception to this is flow approvals. More information: [What impact will the upgrade have on Flow approvals?](#what-impact-will-the-upgrade-have-on-flow-approvals)
+
 > [!TIP]
 > You can get an approximate duration of the downtime in step 3 by capturing the amount of time for step 1.
 > 
@@ -219,6 +224,20 @@ to it. We encourage admins to communicate to users when step 3 is planned to be
 
 - You should check to see if the previous version CDS database security settings refer to any people who are no longer with your company and remove them. This can help avoid the `Can't find XRM ID for user with oid <value> when assigning to role <value> (source role <value>) in environment <value>` error mentioned in [Errors and resolutions](errors-resolutions.md).
 - If you have any entities that you aren't using, or data that you don't care about, deleting that data will reduce the risk of errors. After you start the upgrade, you can't edit entities but you can delete data.
+
+### What impact will the upgrade have on Flow approvals?
+
+Flow approvals are a specific type of flow where data tracking approval requests and responses are stored in CDS. More information about Flow Approvals: [Learn more](https://flow.microsoft.com/connectors/shared_approvals/approvals/)
+
+- When you upgrade your database, the history of your approval requests and responses will be transferred over to the new CDS for Apps database to enable a mostly seamless transition to the new database.
+- If you choose to delete rather than upgrade, you will lose history of any previous approval requests or responses. If you don’t create a new CDS for Apps database to replace your deleted one, a new CDS for Apps database will be created automatically the next time any approval flow occurs and all the data about requests and responses will be kept from that time forward.
+
+The upgrade is *mostly* seamless for flow approvals because when you upgrade, during Step 1 and 3, there will be a period where actions like responding to an approval of viewing approvals history will be temporarily unavailable. When this happens, the user will receive a message saying that the flow approval is temporarily unavailable. Once the upgrade is finished, all actions will become available again.
+
+### Can I edit my database tables, fields, and relationships during the upgrade?
+
+During Step 1 and Step 3 you will not be able to make changes to your to the database tables, fields, and relationships. The database schema is locked during those steps. During Step 2, you can manually make such changes, but we don't recommend it since it will invalidate the programmatic changes that were made to apps and flows. If you make these kinds of changes in step 2, you must make corresponding changes in the generated apps and flows.
+
 
 ## Start the database upgrade process
 
