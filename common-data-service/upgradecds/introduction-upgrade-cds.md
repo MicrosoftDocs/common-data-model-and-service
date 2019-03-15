@@ -6,7 +6,7 @@ manager: "annbe"
 ms.date: "01/11/2018"
 ms.topic: "article"
 ms.custom: ""
-ms.service: "CommonDataService"
+ms.service: CommonDataService
 ms.technology: "CommonDataService"
 keywords: ""
 audience: "IT Pro"

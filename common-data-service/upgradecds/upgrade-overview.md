@@ -6,7 +6,7 @@ manager: "annbe"
 ms.date: "12/09/2018"
 ms.topic: "article"
 ms.custom: ""
-ms.service: "CommonDataService"
+ms.service: CommonDataService
 ms.technology: "CommonDataService"
 keywords: "Common Data Service for Apps, CDS for Apps, Upgrade"
 audience: "Administrator"
