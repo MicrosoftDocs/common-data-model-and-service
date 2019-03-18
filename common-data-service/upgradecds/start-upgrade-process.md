@@ -3,7 +3,7 @@ title: "Upgrade to Common Data Service for Apps | Microsoft Docs"
 description: "Provides instructions on how to upgrade from previous version of Common Data Service to CDS for Apps"
 author: "JimDaly"
 manager: "ryjones"
-ms.date: "03/15/2019"
+ms.date: "03/17/2019"
 ms.topic: "article"
 ms.custom: ""
 ms.service: CommonDataService
@@ -229,10 +229,19 @@ to it. We encourage admins to communicate to users when step 3 is planned to be
 
 Flow approvals are a specific type of flow where data tracking approval requests and responses are stored in CDS. More information about Flow Approvals: [Learn more](https://flow.microsoft.com/connectors/shared_approvals/approvals/)
 
-- When you upgrade your database, the history of your approval requests and responses will be transferred over to the new CDS for Apps database to enable a mostly seamless transition to the new database.
+- When you upgrade your database, the history of your approval requests and responses will be transferred over to the new CDS for Apps database to enable a *mostly* seamless transition to the new database.
 - If you choose to delete rather than upgrade, you will lose history of any previous approval requests or responses. If you don’t create a new CDS for Apps database to replace your deleted one, a new CDS for Apps database will be created automatically the next time any approval flow occurs and all the data about requests and responses will be kept from that time forward.
 
-The upgrade is *mostly* seamless for flow approvals because when you upgrade, during Step 1 and 3, there will be a period where actions like responding to an approval of viewing approvals history will be temporarily unavailable. When this happens, the user will receive a message saying that the flow approval is temporarily unavailable. Once the upgrade is finished, all actions will become available again.
+> [!IMPORTANT]
+> The upgrade is *mostly* seamless for flow approvals because when you upgrade, during Step 1 and 3, actions like responding to an approval of viewing approvals history will be unavailable while the step is running. When this happens, the user will receive a message saying that the flow approval is temporarily unavailable. Once the upgrade is finished, all actions will become available again.
+
+#### Approval data for people who have left the company
+
+When people leave your company their information is usually removed from the Azure Active Directory tenant. If there is no user information to associate with approval requests or responses, these records cannot be migrated.
+
+Unlike approval requests and responses, the actual approvals themselves will be migrated and the owner will be set to the Microsoft Flow service. Moving the approval records in this way allows for associated requests and responses that are owned by existing users to be migrated.
+
+On the approvals history page, approvals where requestors or requestees are no longer valid users will no longer show an **approved** or **rejected** status. This is to avoid confusion in case a key approver has left and their response is missing.
 
 ### Can I edit my database tables, fields, and relationships during the upgrade?
 
