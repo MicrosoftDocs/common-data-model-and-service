@@ -3,7 +3,7 @@ title: "Upgrade to Common Data Service for Apps | Microsoft Docs"
 description: "Provides instructions on how to upgrade from previous version of Common Data Service to CDS for Apps"
 author: "JimDaly"
 manager: "ryjones"
-ms.date: "03/03/2019"
+ms.date: "03/17/2019"
 ms.topic: "article"
 ms.custom: ""
 ms.service: CommonDataService
@@ -18,14 +18,20 @@ ms.author: jdaly
 
 The previous version of Common Data Service (CDS) was enhanced and released as **Common Data Service (CDS) for Apps** in March 2018 to offer significant new capabilities such as server-side logic, improved app-building experience, and a solid extensibility platform (based on the proven Dynamics 365 Customer Engagement platform) for developers and ISVs. More information: [New features in the Common Data Service for Apps and PowerApps Spring Update](https://powerapps.microsoft.com/en-us/blog/cds-for-apps-march/).
 
-## Deadline Extended
+## Is it too late to start an upgrade?
+
+Our goal is that everyone who wants to upgrade is able to upgrade. 
+
+The deadline to start an upgrade ended on March 15, 2019. We have started the process of disconnecting databases for everyone who did not start their upgrade before March 15, but the process will take several weeks.
+
+If you are still able to start an upgrade as described in [Start the database upgrade process](start-upgrade-process.md#start-the-database-upgrade-process), there is a very good chance you can proceed. Before we disconnect any database we will double-check to make sure no one has started an upgrade. *As we approach the end of March, the chance you can start an upgrade by yourself will decrease as more databases are disconnected.*
+
+If you cannot successfully start the upgrade process, we have probably already disconnected your database. If you wish to upgrade, please contact support and we can re-connect you so that you can start the upgrade.
 
 > [!IMPORTANT]
-> If you intend to upgrade your previous version CDS database you must start the first step before March 15, 2019.
-> 
-> If you begin Step 1 before March 15, 2019 you can continue to complete the upgrade until the service is discontinued. We intend to continue the service until April 15, 2019.
+>  We intend to discontinue the service on April 15, 2019.
 >
-> If you do not start Step 1 before March 15, 2019 we will disconnect your database and store your data for 30 days before deleting it. If you wish to reconnect a database, you must contact support before March 29.
+>  After a database is disconnected, we will keep the data for 30 days. If you want to request a copy of your data please contact support.
 
 ## Options
 
@@ -43,7 +49,7 @@ To use the new capabilities in CDS for Apps, existing users on the previous vers
 
     - More information: [Delete your previous version Common Data Service database](delete-legacy-cds-database.md)
 - **Do nothing**
-    - If you do not start Step 1 of the upgrade process before March 15, 2019, we will disconnect your database and store your data for 30 days before deleting it. If you wish to reconnect a database, you must contact support before March 29. If you want a copy of your data, you must contact support and request a copy before April 15, 2019.
+    - If you did not start Step 1 of the upgrade process before March 15, 2019, we will disconnect your database and store your data for 30 days before deleting it. If you wish to reconnect a database, you must contact support. If you want a copy of your data, you must contact support and request and request it.
 
 
 ## Next steps
