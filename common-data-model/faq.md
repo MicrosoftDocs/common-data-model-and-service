@@ -23,7 +23,7 @@ This topic contains frequently asked questions and best practices around a varie
 
 - Common Data Service
   - [How does the CDM relate to Common Data Service?](#how-does-the-cdm-relate-to-common-data-service)
-  - [How do I get all the standard entities in my Common Data Service database?](#how-do-i-get-all-the-standard-entities-in-my-cds-for-apps-database)
+  - [How do I get all the standard entities in my Common Data Service database?](#how-do-i-get-all-the-standard-entities-in-my-common-data-service-database)
 
 - Azure Data Lake Storage Gen2 Preview
   - [How do I discover CDM content in the lake?](#how-do-i-discover-cdm-content-in-the-lake)
