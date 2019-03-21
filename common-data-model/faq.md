@@ -22,7 +22,7 @@ This topic contains frequently asked questions and best practices around a varie
   - [Where can I find libraries to help read and write CDM metadata?](#where-can-i-find-libraries-to-help-read-and-write-cdm-metadata)
 
 - Common Data Service
-  - [How does the CDM relate to Common Data Service?](#how-does-the-cdm-relate-to-cds-for-apps)
+  - [How does the CDM relate to Common Data Service?](#how-does-the-cdm-relate-to-common-data-service)
   - [How do I get all the standard entities in my Common Data Service database?](#how-do-i-get-all-the-standard-entities-in-my-cds-for-apps-database)
 
 - Azure Data Lake Storage Gen2 Preview
