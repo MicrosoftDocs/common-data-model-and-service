@@ -21,7 +21,7 @@ This accelerator was announced in July 2018 at Ignite, and the initial release i
 - support for building canvas and model-driven apps in PowerApps
 - support for extending the model with custom entities, forms, and relationships that meet your business needs
 - support for analytics
-- a Common Data Service for Apps solution that you can install from AppSource
+- a Common Data Service solution that you can install from AppSource
 
 ## Site-map extensions
 

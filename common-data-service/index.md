@@ -1,12 +1,12 @@
 --- 
 layout: HubPage
 hide_bc: true
-title: Common Data Service for Apps Documentation | Microsoft Docs
-description: Common Data Service for Apps documentation
+title: Common Data Service Documentation | Microsoft Docs
+description: Common Data Service documentation
 ---
 <div id="main" class="v2">
     <div class="container">
-        <h1>Common Data Service for Apps</h1>
+        <h1>Common Data Service</h1>
         <ul class="pivots">
             <li>
                 <a href="#home"></a>
@@ -25,8 +25,8 @@ description: Common Data Service for Apps documentation
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Upgrade to Common Data Service for Apps</h3>
-                                                    <p>Learn how to upgrade from the previous version of Common Data Service to Common Data Service for Apps.</p>
+                                                    <h3>Upgrade to Common Data Service</h3>
+                                                    <p>Learn how to upgrade from the previous version of Common Data Service to Common Data Service.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -44,7 +44,7 @@ description: Common Data Service for Apps documentation
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Build Apps with Common Data Service for Apps</h3>
+                                                    <h3>Build Apps with Common Data Service</h3>
                                                     <p>Build compelling canvas or model-driven apps using PowerApps.</p>
                                                 </div>
                                             </div>

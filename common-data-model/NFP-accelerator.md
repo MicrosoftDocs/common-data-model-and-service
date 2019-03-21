@@ -29,7 +29,7 @@ at the [NetHope Global Summit](https://youtu.be/eV4N0mK0-so?t=2169). The initial
 
 - Support for analytics.
 
-- A solution that's based on Common Data Service (CDS) for Apps and that you can install from AppSource.
+- A solution that's based on Common Data Service and that you can install from AppSource.
 
 - Documentation that helps you adopt the accelerator.
 

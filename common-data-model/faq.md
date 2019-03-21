@@ -11,7 +11,7 @@ ms.author: tpalmer
 
 # Frequently asked questions about the Common Data Model
 
-This topic contains frequently asked questions and best practices around a variety of areas related to the Common Data Model (CDM), including general topics, Common Data Service (CDS) for Apps, and Azure Data Lake Storage Gen2 Preview. If you have more questions or comments on the Common Data Model and related topics, we recommend that you [submit an issue in Git](https://github.com/microsoft/cdm/issues).
+This topic contains frequently asked questions and best practices around a variety of areas related to the Common Data Model (CDM), including general topics, Common Data Service, and Azure Data Lake Storage Gen2 Preview. If you have more questions or comments on the Common Data Model and related topics, we recommend that you [submit an issue in Git](https://github.com/microsoft/cdm/issues).
 
 - General
   - [What is the Common Data Model?](#what-is-the-common-data-model)
@@ -21,9 +21,9 @@ This topic contains frequently asked questions and best practices around a varie
   - [How are schemas and other artifacts versioned?](#how-are-schemas-and-other-artifacts-versioned)
   - [Where can I find libraries to help read and write CDM metadata?](#where-can-i-find-libraries-to-help-read-and-write-cdm-metadata)
 
-- CDS for Apps
-  - [How does the CDM relate to CDS for Apps?](#how-does-the-cdm-relate-to-cds-for-apps)
-  - [How do I get all the standard entities in my CDS for Apps database?](#how-do-i-get-all-the-standard-entities-in-my-cds-for-apps-database)
+- Common Data Service
+  - [How does the CDM relate to Common Data Service?](#how-does-the-cdm-relate-to-cds-for-apps)
+  - [How do I get all the standard entities in my Common Data Service database?](#how-do-i-get-all-the-standard-entities-in-my-cds-for-apps-database)
 
 - Azure Data Lake Storage Gen2 Preview
   - [How do I discover CDM content in the lake?](#how-do-i-discover-cdm-content-in-the-lake)
@@ -64,15 +64,15 @@ There’s a major/minor versioning system in the standard-entity definitions, as
 
 You can find sample libraries to read CDM schema documents in [TypeScript](https://github.com/Microsoft/CDM/tree/master/src) as well as sample libraries in [.NET](https://aka.ms/AA39f6f) and [Python](https://aka.ms/AA39n1b) to read/write model.json files. More libraries are coming soon; please add your requests/comments at the library location in the GitHub repository.
 
-## CDS for Apps
+## Common Data Service
 
-### How does the CDM relate to CDS for Apps
+### How does the CDM relate to Common Data Service
 
-CDS for Apps implements the CDM standard entities, such as Account and Contact.
+Common Data Service implements the CDM standard entities, such as Account and Contact.
 
-### How do I get all the standard entities in my CDS for Apps database
+### How do I get all the standard entities in my Common Data Service database
 
-Some standard entities in the CDM are built in to each CDS for Apps database. Other standard entities are installed as part of a solution, including first-party applications (such as Dynamics 365 Field Service) or [industry accelerators](industry-accelerators.md) (such as the Dynamics 365 Healthcare Accelerator).
+Some standard entities in the CDM are built in to each Common Data Service database. Other standard entities are installed as part of a solution, including first-party applications (such as Dynamics 365 Field Service) or [industry accelerators](industry-accelerators.md) (such as the Dynamics 365 Healthcare Accelerator).
 
 ## Azure Data Lake Gen2 Storage Preview
 
