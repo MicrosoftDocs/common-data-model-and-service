@@ -26,7 +26,7 @@ description: Common Data Service documentation
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Upgrade to Common Data Service</h3>
-                                                    <p>Learn how to upgrade from the previous version of Common Data Service to Common Data Service.</p>
+                                                    <p>Learn how to upgrade from the previous version of Common Data Service to the latest version.</p>
                                                 </div>
                                             </div>
                                         </div>
