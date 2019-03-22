@@ -15,28 +15,28 @@ This topic contains frequently asked questions and best practices around a varie
 
 - General
   - [What is the Common Data Model?](#what-is-the-common-data-model)
-  - [How does the Common Data Model relate to the Open Data Initiative?](#how-does-the-cdm-relate-to-the-open-data-initiative)
-  - [How does the Common Data Model relate to other standard definitions?](#how-does-the-cdm-relate-to-other-standard-definitions)
-  - [What type of semantic information can be defined with the CDM?](#what-type-of-semantic-information-can-be-defined-with-the-cdm)
+  - [How does the Common Data Model relate to the Open Data Initiative?](#how-does-the-common-data-model-relate-to-the-open-data-initiative)
+  - [How does the Common Data Model relate to other standard definitions?](#how-does-the-common-data-model-relate-to-other-standard-definitions)
+  - [What type of semantic information can be defined with the CDM?](#what-type-of-semantic-information-can-be-defined-with-the-common-data-model)
   - [How are schemas and other artifacts versioned?](#how-are-schemas-and-other-artifacts-versioned)
-  - [Where can I find libraries to help read and write Common Data Model metadata?](#where-can-i-find-libraries-to-help-read-and-write-cdm-metadata)
+  - [Where can I find libraries to help read and write Common Data Model metadata?](#where-can-i-find-libraries-to-help-read-and-write-common-data-model-metadata)
 
 - Common Data Service
-  - [How does the Common Data Model relate to Common Data Service?](#how-does-the-cdm-relate-to-common-data-service)
+  - [How does the Common Data Model relate to Common Data Service?](#how-does-the-common-data-model-relate-to-common-data-service)
   - [How do I get all the standard entities in my Common Data Service database?](#how-do-i-get-all-the-standard-entities-in-my-common-data-service-database)
 
 - Azure Data Lake Storage Gen2 Preview
-  - [How do I discover Common Data Model content in the lake?](#how-do-i-discover-cdm-content-in-the-lake)
+  - [How do I discover Common Data Model content in the lake?](#how-do-i-discover-common-data-model-content-in-the-lake)
   - [How do I get started?](#how-do-i-get-started)
-  - [What are the correct authorization levels for Common Data Model folders?](#what-are-the-correct-authorization-levels-for-cdm-folders)
-  - [What are the expectations of a Common Data Model data producer?](#what-are-the-expectations-of-a-cdm-data-producer)
-  - [What are the expectations of a Common Data Model data consumer?](#what-are-the-expectations-of-a-cdm-data-consumer)
+  - [What are the correct authorization levels for Common Data Model folders?](#what-are-the-correct-authorization-levels-for-common-data-model-folders)
+  - [What are the expectations of a Common Data Model data producer?](#what-are-the-expectations-of-a-common-data-model-data-producer)
+  - [What are the expectations of a Common Data Model data consumer?](#what-are-the-expectations-of-a-common-data-model-data-consumer)
   - [What is the cost implication?](#what-is-the-cost-implication)
-  - [How do I access Common Data Model folders, model.json files, or data files?](#how-do-i-access-cdm-artifacts)
+  - [How do I access Common Data Model folders, model.json files, or data files?](#how-do-i-access-common-data-model-artifacts)
 
 - Power BI dataflows
-  - [How does the Common Data Model relate to Power BI dataflows?](#how-does-the-cdm-relate-to-power-bi-dataflows)
-  - [Will my dataflows be affected if the Common Data Model standard entities are revised?](#will-my-dataflows-be-affected-if-the-cdm-standard-entities-are-revised)
+  - [How does the Common Data Model relate to Power BI dataflows?](#how-does-the-common-data-model-relate-to-power-bi-dataflows)
+  - [Will my dataflows be affected if the Common Data Model standard entities are revised?](#will-my-dataflows-be-affected-if-the-common-data-model-standard-entities-are-revised)
 
 ## General
 
