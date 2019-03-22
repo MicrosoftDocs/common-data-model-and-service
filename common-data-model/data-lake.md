@@ -11,7 +11,7 @@ ms.author: tpalmer
 
 # The Common Data Model and Microsoft Azure Data Lake Storage Gen2
 
-Data stored in the Common Data Model (CDM) format provides semantic consistency across apps and deployments. With the evolution of the Common Data Model metadata system, the Common Data Model brings the same structural consistency and semantic meaning to the data stored in Azure Data Lake Storage Gen2 with hierarchical namespaces and folders that contain schematized data in standard Common Data Model format. The standardized metadata and self-describing data in an Azure data lake facilitates metadata discovery and interoperability between data producers and consumers such as Power BI, Azure Data Factory, Azure Databricks, and Azure Machine Learning service.
+Data stored in the Common Data Model format provides semantic consistency across apps and deployments. With the evolution of the Common Data Model metadata system, the Common Data Model brings the same structural consistency and semantic meaning to the data stored in Azure Data Lake Storage Gen2 with hierarchical namespaces and folders that contain schematized data in standard Common Data Model format. The standardized metadata and self-describing data in an Azure data lake facilitates metadata discovery and interoperability between data producers and consumers such as Power BI, Azure Data Factory, Azure Databricks, and Azure Machine Learning service.
 
 ![CDM data producers and consumers in ADLSg2](media/cdm-data-lake.png)
 
