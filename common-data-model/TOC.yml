@@ -1,7 +1,7 @@
-- name: The Common Data Model (CDM)
+- name: The Common Data Model
   href: index.md
   items:
-  - name: How to use the CDM
+  - name: How to use the Common Data Model
     href: use.md
   - name: Industry Accelerators
     href: industry-accelerators.md
@@ -12,7 +12,7 @@
         href: hied-accelerator.md
       - name: Nonprofit Accelerator
         href: NFP-accelerator.md
-  - name: Common Data Model in Azure Data Lake
+  - name: Azure Data Lake
     href: data-lake.md
     items:
       - name: Model metadata
