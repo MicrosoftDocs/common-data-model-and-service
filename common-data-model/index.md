@@ -57,7 +57,7 @@ Historically, the work to build an app has been tightly tied with data integrati
 Microsoft and its partners use the CDM for their own apps and offerings and are building additional services and offerings
 based on CDM schemas. These examples show how organizations use the CDM:
 
-- **Common Data Service (CDS) for Apps**, which supports Dynamics and PowerApps, stores data in conformance with the CDM definition. In fact, many of the original business entities in the CDM came from Dynamics offerings, such as Dynamics 365 for Sales and Dynamics 365 for Marketing.
+- **Common Data Service**, which supports Dynamics and PowerApps, stores data in conformance with the CDM definition. In fact, many of the original business entities in the CDM came from Dynamics offerings, such as Dynamics 365 for Sales and Dynamics 365 for Marketing.
 
 - **Industries** such as healthcare are working closely with Microsoft to extend the CDM to their specific business concepts, such as **Patient** and **Care Plan** through [Industry Accelerators](industry-accelerators.md). This extends the benefit of the CDM standard entities to these verticals so that industry solutions interoperate more easily. 
 

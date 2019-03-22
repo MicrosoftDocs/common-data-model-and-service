@@ -17,4 +17,4 @@ ms.author: kvivek
 
 The previous (legacy) version of Common Data Service documentation is available as a downloadable PDF ([here](https://go.microsoft.com/fwlink/?linkid=2043404)), and is no longer updated.
 
-For the latest documentation, see [What is Common Data Service for Apps?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro) 
+For the latest documentation, see [What is Common Data Service?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro) 
