@@ -27,10 +27,9 @@ current versions.
 
 ## General structure of your application
 
-There are extensive changes in the latest release of the [Common Data Model
-(CDM)](https://github.com/Microsoft/CDM). To maximize application compatibility,
+There are extensive changes in the latest release of the [Common Data Model](https://github.com/Microsoft/CDM). To maximize application compatibility,
 the upgrade process installs a *solution* in CDS for Apps that contains your
-schema, including standard entities in the CDM and customizations, and then
+schema, including standard entities in the Common Data Model and customizations, and then
 copies data from your existing previous version CDS database into these entities. For information
 about solutions, see [Solutions
 overview](/powerapps/maker/common-data-service/solutions-overview).
@@ -39,8 +38,8 @@ The following solutions are installed in an upgraded CDS for Apps database:
 
 | Solution                   | Description   |
 |----------------------------|---------------|
-|CDS Upgrade Foundation| This managed solution contains the upgraded schema of the previous release of the CDM. See the [considerations](#considerations-when-upgrading-your-environment) section below for information on the differences in the schema in this solution from the previous release. You can consider this solution to be temporary. Following upgrade, review the new standard schema in CDS for Apps and decide whether you want to manually move your data into these entities or continue to run your applications as upgraded if it suits your needs. |
-|CDS Upgrade Customizations | This unmanaged solution contains customizations to the standard entities. This includes new entities added to the database and changes to the CDM schema. |
+|CDS Upgrade Foundation| This managed solution contains the upgraded schema of the previous release of the Common Data Model. See the [considerations](#considerations-when-upgrading-your-environment) section below for information on the differences in the schema in this solution from the previous release. You can consider this solution to be temporary. Following upgrade, review the new standard schema in CDS for Apps and decide whether you want to manually move your data into these entities or continue to run your applications as upgraded if it suits your needs. |
+|CDS Upgrade Customizations | This unmanaged solution contains customizations to the standard entities. This includes new entities added to the database and changes to the Common Data Model schema. |
 |HCM Common|This managed solution contains entities for the Human Capital Management (HCM) application on CDS for Apps. This is a standard solution also installed as part of the [Dynamics 365 for Talent](https://dynamics.microsoft.com/talent/overview/) application. |
 |HCM Common Temp| This unmanaged solution contains customizations to the HCMCommon|
 
