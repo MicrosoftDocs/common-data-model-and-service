@@ -17,16 +17,16 @@ The model file enables:
 
 - Discoverability based on data-producer metadata
 - Obtaining semantic information about entity records / attributes and links to underlying data files
-- Indicates compliance with CDM standard entities
+- Indicates compliance with Common Data Model standard entities
 - Information about when entities were most recently updated
 
-![Model.json in CDM folder structure](media/cdm-folder.png)
+![Model.json in Common Data Model folder structure](media/cdm-folder.png)
 
 [Download](https://aka.ms/AA39f6l) the schema of the model.json file.
 
 ## Model-file contents
 
-The CDM folder contents are described by a standardized metadata .json file that contains these key categories of metadata:
+The Common Data Model folder contents are described by a standardized metadata .json file that contains these key categories of metadata:
 
 - Root elements
 
@@ -36,7 +36,7 @@ The CDM folder contents are described by a standardized metadata .json file that
 
   - General metadata such as type, description, etc.
   - Attributes, including metadata such as data types
-  - [optional] Compliance with CDM standard entity schema shapes
+  - [optional] Compliance with Common Data Model standard entity schema shapes
 
     For example, a given entity in the folder comply with all the attributes required for a ‘base’ Account entity
 
@@ -114,7 +114,7 @@ Sample:
 
 Property name: **referenceModels**
 
-Reference models are existing model.json files with entities and datafiles to which that this model.json file refers. This allows existing metadata and data to be reused without copying it into this CDM folder.
+Reference models are existing model.json files with entities and datafiles to which that this model.json file refers. This allows existing metadata and data to be reused without copying it into this Common Data Model folder.
 
 | Property | Type | Description | Required? |
 | ---------------- |---------------- |-------------------------------- |------------- |
@@ -136,9 +136,9 @@ Sample:
 
 Property name: **entities**
 
-An entity is a collection of attributes and metadata that defines a concept (such as Account or Contact) and can be defined by any data producer. An entity may match the schema of a standard entity, defined as part of the CDM and listed in the [GitHub repository](https://aka.ms/cdmrepo). Entities that don’t match one of the standard shapes are said to be custom entities.
+An entity is a collection of attributes and metadata that defines a concept (such as Account or Contact) and can be defined by any data producer. An entity may match the schema of a standard entity, defined as part of the Common Data Model and listed in the [GitHub repository](https://aka.ms/cdmrepo). Entities that don’t match one of the standard shapes are said to be custom entities.
 
-In the model.json file, you can specify local or reference entities. A local entity has the details about the entity (such as attributes, schemas, and partitions) defined within the model.json file, and the data files are expected to be within the same CDM folder. A referenced entity is pointer to an entity defined by a referenced model, where all the metadata and data files are defined.
+In the model.json file, you can specify local or reference entities. A local entity has the details about the entity (such as attributes, schemas, and partitions) defined within the model.json file, and the data files are expected to be within the same Common Data Model folder. A referenced entity is pointer to an entity defined by a referenced model, where all the metadata and data files are defined.
 
 Depending on the type of entity, you may find different fields defined:
 

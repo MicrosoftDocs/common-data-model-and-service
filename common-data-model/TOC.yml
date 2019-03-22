@@ -12,7 +12,7 @@
         href: hied-accelerator.md
       - name: Nonprofit Accelerator
         href: NFP-accelerator.md
-  - name: CDM in Azure Data Lake
+  - name: Common Data Model in Azure Data Lake
     href: data-lake.md
     items:
       - name: Model metadata
