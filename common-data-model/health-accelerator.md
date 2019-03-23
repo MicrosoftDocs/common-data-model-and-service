@@ -15,7 +15,7 @@ Rapidly develop healthcare solutions using [Fast Healthcare Interoperability Res
 
 This accelerator was announced in July 2018 at Ignite, and the initial release includes these features:
 
-- extension of the Common Data Model (CDM) to include concepts for health, including entity definitions and relationships
+- extension of the Common Data Model to include concepts for health, including entity definitions and relationships
 - **Patient**, **Practitioner**, **Related person**, and other customer-engagement forms that you can enhance or use out of the box
 - a sample app that demonstrates some possibilities of the Unified Interface
 - support for building canvas and model-driven apps in PowerApps
