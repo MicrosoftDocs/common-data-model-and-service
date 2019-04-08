@@ -127,7 +127,7 @@ New with Version 2.0 are model driven apps for Constituents, Fundraising, Awards
 - The nonprofit Common Data Model, solutions, data samples, Power BI examples,
     SDK extensions, and more are provided as part of the open-source creative
     license available on
-    [GitHub](https://github.com/Microsoft/Dynamics-365-Industry-Accelerators/tree/master/nfp).
+    [GitHub](https://github.com/Microsoft/Industry-Accelerator-Nonprofit).
 
 - First look at the [Nonprofit
     Accelerator](https://community.dynamics.com/365/b/dynamics365isvsuccess/archive/2018/11/08/a-first-look-at-the-dynamics-365-nonprofit-accelerator).
