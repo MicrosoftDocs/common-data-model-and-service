@@ -95,6 +95,30 @@ Program Delivery & Results entity that details what will be measured to track ev
 
 ![Indicators](media/NFP-Indicators4.png)
 
+### Volunteer Preferences, Skills & Availability
+
+Track volunteer preferences, skills and availability and establish Volunteer Projects leveraging Dynamics 365 Project Service Automation
+
+![Volunteers](media/NFP-VolunteersV2.png)
+
+### Membership
+
+Membership Category entity that establishes membership levels and Membership entity that links Constituents to Membership Category, enabling the creation and tracking of membership over time. 
+
+![Membership](media/NFP-MembershipV2.png)
+
+### IATI (Optional Add-On)
+
+[IATI](https://iatistandard.org/en/) is a global campaign to create transparency in the records of how aid money is spent. The initiative hopes to ensure that aid money reaches its intended recipients with the goal of improving standards of living worldwide and globally reduce poverty.  Nonprofits can now record their fundraising and programmatic activities according to the IATI Organizational and Activity Standards.    
+
+![IATI](media/NFP-IATIV2.png)
+
+### Model Driven Apps
+
+New with Version 2.0 are model driven apps for Constituents, Fundraising, Awards, Delivery Frameworks, Volunteer Management and Administration    
+
+![Model Driven Apps](media/ModelDrivenAppsV2.png)
+
 ## More resources
 
 - Download the Dynamics 365 Nonprofit Accelerator from
