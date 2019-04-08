@@ -5,7 +5,7 @@ author: smithy7
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 1/08/2019
+ms.date: 4/08/2019
 ms.author: smithc
 ---
 
@@ -44,26 +44,34 @@ standard](https://iatistandard.org/en/).
 
 ## Entities and workflows
 
-These entities are built in to the Nonprofit Accelerator:
+These entities are built in to the Nonprofit Accelerator (*New with version 2.0 - released March 2019):
 
-| **Constituent**  | **Fundraising**   | **Grants/Awards**         | **Program Delivery & Impact Tracking** |
-|------------------|-------------------|---------------------------|----------------------------------------|
-| Account          | Lead              | Lead                      | Objective                              |
-| Contact          | Opportunity       | Opportunity               | Delivery Framework                     |
-| Address          | Campaign          | Campaign                  | Budget                                 |
-| Connection       | Designation       | OFAC Match                | Result                                 |
-| Salutation       | Designation Plan  | Docket                    | Indicator                              |
-| Employment       | Credit Plan       | Recommendation            | Indicator Value                        |
-| Education        | Credit Recipient  | Request                   |                                        |
-| Preference       | Designated Credit | Report                    |                                        |
-|                  | Donor Commitment  | Award                     |                                        |
-|                  | Planned Giving    | Award Version             |                                        |
-|                  | Payment Schedule  | Review                    |                                        |
-|                  | Payment Asset     | Disbursement              |                                        |
-|                  | Transaction       | Objective                 |                                        |
-|                  | Payment Method    | Delivery Framework        |                                        |
-|                  | Payment Processor | Budget                    |                                        |
-|                  |                   | Disbursement Distribution |                                        |
+| **Constituent**  | **Fundraising**   | **Grants/Awards**         | **Program Delivery & Impact Tracking** | **Optional IATI Add-On**         |
+|------------------|-------------------|---------------------------|----------------------------------------|----------------------------------|
+| Account          | Lead              | Lead                      | Objective                              | Condition                        |
+| Contact          | Opportunity       | Opportunity               | Delivery Framework                     | Participating Org                |
+| Address          | Campaign          | Campaign                  | Budget                                 | Location                         |
+| Connection       | Designation       | OFAC Match                | Result                                 | Delivery Framework Contact       |
+| Salutation       | Designation Plan  | Docket                    | Indicator                              | Identifier                       |
+| Employment       | Credit Plan       | Recommendation            | Indicator Value                        | Delivery Framework Description   |
+| Education        | Credit Recipient  | Request                   |                                        | Recipient Country                |
+| Preference       | Designated Credit | Report                    |                                        | Recipient Region                 |
+| Volunteers*      | Donor Commitment  | Award                     |                                        | Sector                           |
+| Membership*      | Planned Giving    | Award Version             |                                        | Expenditure                      |
+| Connection*      | Payment Schedule  | Review                    |                                        | Humanitarian Scope               |
+| Connection Role* | Payment Asset     | Disbursement              |                                        | Policy Marker                    |
+|                  | Transaction       | Objective                 |                                        | Result Reference                 |
+|                  | Payment Method    | Delivery Framework        |                                        | Indicator Reference              |
+|                  | Payment Processor | Budget                    |                                        | Indicator Value Location         |
+|                  |                   | Disbursement Distribution |                                        | Dimension                        |
+|                  |                   |                           |                                        | Narrative Translation            |
+|                  |                   |                           |                                        | Non-Embedded Codelist            |
+|                  |                   |                           |                                        | Non-Embedded Codelist Vocabulary |
+|                  |                   |                           |                                        | Document Link                    |
+|                  |                   |                           |                                        | Document Category                |
+|                  |                   |                           |                                        | Document Language                |
+|                  |                   |                           |                                        | Document Country                 |
+|                  |                   |                           |                                        | Tag                              |
 
 ## Forms and dashboards
 
