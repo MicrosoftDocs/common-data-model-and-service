@@ -117,7 +117,7 @@ Membership Category entity that establishes membership levels and Membership ent
 
 New with Version 2.0 are model driven apps for Constituents, Fundraising, Awards, Delivery Frameworks, Volunteer Management and Administration    
 
-![Model Driven Apps](media/ModelDrivenAppsV2.png)
+![Model Driven Apps](media/NFP-ModelDrivenAppsV2.png)
 
 ## More resources
 
