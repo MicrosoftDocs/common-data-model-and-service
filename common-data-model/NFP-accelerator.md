@@ -40,7 +40,7 @@ With the Nonprofit Accelerator plugged in to the Dynamics 365 platform, you can 
 This accelerator adds a nonprofit layer to the rich feature set of the base Dynamics 365 functionality by adding nonprofit entities to record detailed constituent profiles for individuals, households, and organizations. The current data model supports end-to-end fundraising, grants/awards lifecycles, standards-based program delivery, and impact tracking based on the [IATI
 standard](https://iatistandard.org/en/).
 
-![](media/NFP-SitemapV1.png)
+![](media/NFP-SitemapV2.png)
 
 ## Entities and workflows
 
