@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 3/11/2019
+ms.date: 4/8/2019
 ms.author: nebanfic
 ---
 
@@ -29,7 +29,7 @@ ms.author: nebanfic
 |[InvoiceProduct](InvoiceProduct.md)|Line item in an invoice containing detailed billing information for a product.  |
 |[LeadCompetitors](LeadCompetitors.md)|  |
 |[LeadProduct](LeadProduct.md)|  |
-|[Opportunity](Opportunity.md)|Potential revenue-generating event, or sale to an account, which needs to be tracked through a sales process to completion.  |
+|[Opportunity](Opportunity.md)|Potential revenue-generating event or a sale to an account, which must be tracked through a sales process to completion.  |
 |[OpportunityClose](OpportunityClose.md)|Activity that is created automatically when an opportunity is closed, containing information such as the description of the closing and actual revenue.  |
 |[OpportunityCompetitors](OpportunityCompetitors.md)|  |
 |[OpportunityProduct](OpportunityProduct.md)|Association between an opportunity and a product.  |

@@ -1,17 +1,17 @@
 ---
 title: Task - Common Data Model | Microsoft Docs
-description: Generic activity representing work needed to be done.
+description: Generic activity that represents work to be done.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 3/11/2019
+ms.date: 4/8/2019
 ms.author: nebanfic
 ---
 
 # Task
 
-Generic activity representing work needed to be done.  
+Generic activity that represents work to be done.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.cdm.json" target="_blank">GitHub</a>.  
 
@@ -39,7 +39,7 @@ Instances of this entity are listed below.
 |[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
 |[ownerId](#ownerId)|Owner Id|<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
 |[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
+|[owningUser](#owningUser)|Unique identifier for the user that owns the record.|<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
 |[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
@@ -83,7 +83,7 @@ Instances of this entity are listed below.
 |[businessStatus](#businessStatus)|There's often a need to track substrates of a task - this is often variable by specific workflow implementation.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
 |[code](#code)|A name or code (or both) briefly describing what the task involves.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
 |[contextEncounter](#contextEncounter)|An interaction between a patient and healthcare provider(s) for the purpose of providing healthcare service(s) or assessing the health status of a patient|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
-|[contextEpisodeofCare](#contextEpisodeofCare)|An association between a patient and an organization / healthcare provider(s) during which time encounters may occur.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
+|[contextEpisodeofCare](#contextEpisodeofCare)|An association between a patient and an organization, healthcare provider(s), or both during which time encounters may occur.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
 |[contextType](#contextType)|The healthcare event (e.g. a patient and healthcare provider interaction) during which this task was created.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
 |[contextType_display](#contextType_display)||<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
 |[definitionUri](#definitionUri)|A reference to a formal or informal definition of the task. For example, a protocol, a step within a defined workflow definition, etc.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
@@ -96,7 +96,7 @@ Instances of this entity are listed below.
 |[performerOwnerOrganization](#performerOwnerOrganization)|A formally or informally recognized grouping of people or organizations formed for the purpose of achieving some form of collective action.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
 |[performerOwnerPatient](#performerOwnerPatient)|Demographics and other administrative information about an individual or animal receiving care or other health-related services.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
 |[performerOwnerPractitioner](#performerOwnerPractitioner)|A person who is directly or indirectly involved in the provisioning of healthcare.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
-|[performerOwnerRelatedPerson](#performerOwnerRelatedPerson)|Information about a person that is involved in the care for a patient, but who is not the target of healthcare, nor has a formal responsibility in the care process.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
+|[performerOwnerRelatedPerson](#performerOwnerRelatedPerson)|Information about a person who is involved in the care for a patient but who isn't the target of healthcare and has no formal responsibility in the care process.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
 |[performerOwnerType](#performerOwnerType)|The type for Individual organization or Device currently responsible for task execution.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
 |[performerOwnerType_display](#performerOwnerType_display)||<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
 |[reason](#reason)|A description or code indicating why this task needs to be performed.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
@@ -108,7 +108,7 @@ This resource identifies an instance or a type of a manufactured item that is us
 |[requesterAgentOrganization](#requesterAgentOrganization)|A formally or informally recognized grouping of people or organizations formed for the purpose of achieving some form of collective action.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
 |[requesterAgentPatient](#requesterAgentPatient)|Demographics and other administrative information about an individual or animal receiving care or other health-related services.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
 |[requesterAgentPractitioner](#requesterAgentPractitioner)|A person who is directly or indirectly involved in the provisioning of healthcare.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
-|[requesterAgentRelatedPerson](#requesterAgentRelatedPerson)|Information about a person that is involved in the care for a patient, but who is not the target of healthcare, nor has a formal responsibility in the care process.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
+|[requesterAgentRelatedPerson](#requesterAgentRelatedPerson)|Information about a person who is involved in the care for a patient but who isn't the target of healthcare and has no formal responsibility in the care process.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
 |[requesterOnBehalfOf](#requesterOnBehalfOf)|This resource identifies an instance or a type of a manufactured item that is used in the provision of healthcare without being substantially changed through that activity.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
 |[restrictionPeriodEndDate](#restrictionPeriodEndDate)|The end of the period. If the end of the period is missing, it means that the period is ongoing.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
 |[restrictionPeriodStartDate](#restrictionPeriodStartDate)|The start of the period. The boundary is inclusive.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
@@ -221,12 +221,12 @@ First included in: <a href="../../../../../Task.md" target="_blank">applicationC
 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
-Unique identifier of the user that owns the activity.  
+Unique identifier for the user that owns the record.  
 First included in: <a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier of the user that owns the activity.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier for the user that owns the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
@@ -614,12 +614,12 @@ First included in: electronicMedicalRecords/Task (this entity)
 
 ### <a href=#contextEpisodeofCare name="contextEpisodeofCare">contextEpisodeofCare</a>
 
-An association between a patient and an organization / healthcare provider(s) during which time encounters may occur.  
+An association between a patient and an organization, healthcare provider(s), or both during which time encounters may occur.  
 First included in: electronicMedicalRecords/Task (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Episode of Care</td></tr><tr><td>description</td><td>An association between a patient and an organization / healthcare provider(s) during which time encounters may occur.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_contextepisodeofcare</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Episode of Care</td></tr><tr><td>description</td><td>An association between a patient and an organization, healthcare provider(s), or both during which time encounters may occur.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_contextepisodeofcare</td></tr></table>
 
 ### <a href=#contextType name="contextType">contextType</a>
 
@@ -729,12 +729,12 @@ First included in: electronicMedicalRecords/Task (this entity)
 
 ### <a href=#performerOwnerRelatedPerson name="performerOwnerRelatedPerson">performerOwnerRelatedPerson</a>
 
-Information about a person that is involved in the care for a patient, but who is not the target of healthcare, nor has a formal responsibility in the care process.  
+Information about a person who is involved in the care for a patient but who isn't the target of healthcare and has no formal responsibility in the care process.  
 First included in: electronicMedicalRecords/Task (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Performer (Related Person)</td></tr><tr><td>description</td><td>Information about a person that is involved in the care for a patient, but who is not the target of healthcare, nor has a formal responsibility in the care process.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_performerownerrelatedperson</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Performer (Related Person)</td></tr><tr><td>description</td><td>Information about a person who is involved in the care for a patient but who isn't the target of healthcare and has no formal responsibility in the care process.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_performerownerrelatedperson</td></tr></table>
 
 ### <a href=#performerOwnerType name="performerOwnerType">performerOwnerType</a>
 
@@ -828,12 +828,12 @@ First included in: electronicMedicalRecords/Task (this entity)
 
 ### <a href=#requesterAgentRelatedPerson name="requesterAgentRelatedPerson">requesterAgentRelatedPerson</a>
 
-Information about a person that is involved in the care for a patient, but who is not the target of healthcare, nor has a formal responsibility in the care process.  
+Information about a person who is involved in the care for a patient but who isn't the target of healthcare and has no formal responsibility in the care process.  
 First included in: electronicMedicalRecords/Task (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Requester (Related Person)</td></tr><tr><td>description</td><td>Information about a person that is involved in the care for a patient, but who is not the target of healthcare, nor has a formal responsibility in the care process.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_requesteragentrelatedperson</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Requester (Related Person)</td></tr><tr><td>description</td><td>Information about a person who is involved in the care for a patient but who isn't the target of healthcare and has no formal responsibility in the care process.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_requesteragentrelatedperson</td></tr></table>
 
 ### <a href=#requesterOnBehalfOf name="requesterOnBehalfOf">requesterOnBehalfOf</a>
 

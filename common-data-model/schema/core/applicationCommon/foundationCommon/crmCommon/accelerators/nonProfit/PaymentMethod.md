@@ -5,13 +5,13 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 3/11/2019
+ms.date: 4/8/2019
 ms.author: nebanfic
 ---
 
 # Payment Method
 
-This is a parent entity for Payment Method customizations that may be supported by an application.  Possible extensions could be to support credit cards, EFT, cryptocurrency, mobile payments, or rewards points.  
+A parent entity for payment-method customizations that an application may support.  Extensions could support credit cards, EFT, cryptocurrency, mobile payments, or rewards points.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/PaymentMethod.cdm.json" target="_blank">GitHub</a>.  
 
@@ -36,7 +36,7 @@ Instances of this entity are listed below.
 |[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="PaymentMethod.md" target="_blank">nonProfit/PaymentMethod</a>|
 |[ownerId](#ownerId)|Owner Id|<a href="PaymentMethod.md" target="_blank">nonProfit/PaymentMethod</a>|
 |[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="PaymentMethod.md" target="_blank">nonProfit/PaymentMethod</a>|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="PaymentMethod.md" target="_blank">nonProfit/PaymentMethod</a>|
+|[owningUser](#owningUser)|Unique identifier for the user that owns the record.|<a href="PaymentMethod.md" target="_blank">nonProfit/PaymentMethod</a>|
 |[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="PaymentMethod.md" target="_blank">nonProfit/PaymentMethod</a>|
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="PaymentMethod.md" target="_blank">nonProfit/PaymentMethod</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="PaymentMethod.md" target="_blank">nonProfit/PaymentMethod</a>|
@@ -159,12 +159,12 @@ First included in: nonProfit/PaymentMethod (this entity)
 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
-Unique identifier of the user that owns the activity.  
+Unique identifier for the user that owns the record.  
 First included in: nonProfit/PaymentMethod (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier of the user that owns the activity.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier for the user that owns the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 

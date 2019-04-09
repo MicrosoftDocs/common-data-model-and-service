@@ -5,13 +5,13 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 3/11/2019
+ms.date: 4/8/2019
 ms.author: nebanfic
 ---
 
 # Salutation
 
-The way a donor or prospect is commonly addressed via written communication (lhard-copy letters, emails, etc.).  It is typical for nonprofits and foundations to address major donors by different salutations depending on the scenario.  A Medical Doctor could be addressed as "Doctor" when the organization reaches out regarding in-country field volunteerism the person performs.  On the other hand, the same individual might be referred to as Mrs. Smith as part of her household being solicited for a major gift.  
+The way a donor or prospect is commonly addressed via written communication, such as hard-copy letters and email messages.  Nonprofits and foundations typically address major donors by different salutations depending on the scenario.  A medical doctor could be addressed as "Doctor Smith" when the organization reaches out regarding in-country field volunteerism that the person performs.  On the other hand, the same individual might be referred to as "Mrs. Smith" as part of her household being solicited for a major gift.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Salutation.cdm.json" target="_blank">GitHub</a>.  
 
@@ -36,7 +36,7 @@ Instances of this entity are listed below.
 |[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
 |[ownerId](#ownerId)|Owner Id|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
 |[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
+|[owningUser](#owningUser)|Unique identifier for the user that owns the record.|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
 |[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
@@ -182,12 +182,12 @@ First included in: nonProfit/Salutation (this entity)
 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
-Unique identifier of the user that owns the activity.  
+Unique identifier for the user that owns the record.  
 First included in: nonProfit/Salutation (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier of the user that owns the activity.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier for the user that owns the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 

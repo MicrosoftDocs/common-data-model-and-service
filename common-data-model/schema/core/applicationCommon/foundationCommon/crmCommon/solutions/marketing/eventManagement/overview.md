@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 3/11/2019
+ms.date: 4/8/2019
 ms.author: nebanfic
 ---
 
@@ -16,7 +16,7 @@ ms.author: nebanfic
 
 |Name|Description|
 |---|---|
-|[Account](Account.md)|Business that represents a customer or potential customer. The company that is billed in business transactions.  |
+|[Account](Account.md)|Business that represents a customer or a potential customer. The company that's billed in business transactions.  |
 |[AttendeePass](AttendeePass.md)|  |
 |[Building](Building.md)|A single venue can be comprised of zero or more buildings where event activities are held. Each building in turn is comprised of zero or more rooms where event activities are held.  |
 |[CheckIn](CheckIn.md)|  |
@@ -26,7 +26,7 @@ ms.author: nebanfic
 |[EventRegistration](EventRegistration.md)|  |
 |[EventTeamMember](EventTeamMember.md)|  |
 |[EventVendor](EventVendor.md)|  |
-|[Hotel](Hotel.md)|This represents a single hotel property (for example, a hotel in a particular neighborhood). Each individual property belongs to a Hotel Group (for example, a hotel chain) which is represented by an Account  |
+|[Hotel](Hotel.md)|This represents a single hotel property (for e.g, Marriott in Bellevue). Each individual property belongs to a Hotel Group (e.g., Marriott) which is represented by an Account  |
 |[HotelRoomAllocation](HotelRoomAllocation.md)|This entity records the number of rooms that are allocated from a single hotel for guests of a single event.  |
 |[HotelRoomReservation](HotelRoomReservation.md)|Each record of this type tracks a single request made by an event attendee (through the registration portal) to reserve a hotel room from the available hotel allocations  |
 |[Invitation](Invitation.md)|Send invitations to existing contacts or email addresses and assign them to web roles upon redemption.  |

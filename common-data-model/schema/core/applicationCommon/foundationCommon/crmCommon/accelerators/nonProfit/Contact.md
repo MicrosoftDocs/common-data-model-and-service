@@ -1,17 +1,17 @@
 ---
 title: Contact - Common Data Model | Microsoft Docs
-description: Person with whom a business unit has a relationship, such as customer, supplier, and colleague.
+description: Person with whom a business unit has a relationship, such as a customer, a supplier, or a colleague.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 3/11/2019
+ms.date: 4/8/2019
 ms.author: nebanfic
 ---
 
 # Contact
 
-Person with whom a business unit has a relationship, such as customer, supplier, and colleague.  
+Person with whom a business unit has a relationship, such as a customer, a supplier, or a colleague.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Contact.cdm.json" target="_blank">GitHub</a>.  
 
@@ -40,10 +40,10 @@ Instances of this entity are listed below.
 |[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
 |[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[ownerIdType](#ownerIdType)||<a href="../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[ownerId](#ownerId)||<a href="../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
 |[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[owningUser](#owningUser)|Unique identifier for the user that owns the record.|<a href="../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
 |[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
@@ -337,19 +337,21 @@ First included in: <a href="../../../../Contact.md" target="_blank">applicationC
 
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
+The type of owner, either User or Team.  
 First included in: <a href="../../../../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owner Type</td></tr><tr><td>description</td><td>The type of owner, either User or Team.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>sourceName</td><td>owneridtype</td></tr></table>
 
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
+Owner Id  
 First included in: <a href="../../../../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>Guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owner</td></tr><tr><td>description</td><td>Owner Id</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>sourceName</td><td>ownerid</td></tr></table>
 
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
@@ -362,12 +364,12 @@ First included in: <a href="../../../../Contact.md" target="_blank">applicationC
 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
-Unique identifier of the user that owns the activity.  
+Unique identifier for the user that owns the record.  
 First included in: <a href="../../../../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier of the user that owns the activity.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier for the user that owns the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 

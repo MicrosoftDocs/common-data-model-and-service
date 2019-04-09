@@ -5,13 +5,13 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 3/11/2019
+ms.date: 4/8/2019
 ms.author: nebanfic
 ---
 
 # Transaction
 
-Transactions (also referred to as donations) represent payments from the donor, contact, account or organization to the nonprofit.  Transaction records must track valuable information about the gift or items transferred from a constituent to a nonprofit organization.  Critical transaction information to capture and provide audit capabilities around include what payment method was used, what channel the gift came in through, whether an adjustment was made (and on what date for what amount?), when was the transaction received vs. processed vs. reconciled and more.  
+Payments or donations from a donor, a contact, an account, or an organization to the nonprofit.  Transaction records must track valuable information about the gift or items transferred from a constituent to a nonprofit organization.  Critical transaction information to capture and provide audit capabilities around include what payment method was used; through what channel the gift came in; whether an adjustment was made, on what date, and for what amount; when the transaction was received, processed, and reconciled; and other data.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Transaction.cdm.json" target="_blank">GitHub</a>.  
 
@@ -36,7 +36,7 @@ Instances of this entity are listed below.
 |[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Transaction.md" target="_blank">nonProfit/Transaction</a>|
 |[ownerId](#ownerId)|Owner Id|<a href="Transaction.md" target="_blank">nonProfit/Transaction</a>|
 |[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Transaction.md" target="_blank">nonProfit/Transaction</a>|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Transaction.md" target="_blank">nonProfit/Transaction</a>|
+|[owningUser](#owningUser)|Unique identifier for the user that owns the record.|<a href="Transaction.md" target="_blank">nonProfit/Transaction</a>|
 |[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Transaction.md" target="_blank">nonProfit/Transaction</a>|
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Transaction.md" target="_blank">nonProfit/Transaction</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Transaction.md" target="_blank">nonProfit/Transaction</a>|
@@ -176,12 +176,12 @@ First included in: nonProfit/Transaction (this entity)
 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
-Unique identifier of the user that owns the activity.  
+Unique identifier for the user that owns the record.  
 First included in: nonProfit/Transaction (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier of the user that owns the activity.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier for the user that owns the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
