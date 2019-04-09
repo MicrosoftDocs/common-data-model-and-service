@@ -1,17 +1,17 @@
 ---
 title: Address - Common Data Model | Microsoft Docs
-description: Address and shipping information. Used to store additional addresses for an account or contact.
+description: Address and shipping information. Used to store additional addresses for an account or a contact.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 3/11/2019
+ms.date: 4/8/2019
 ms.author: nebanfic
 ---
 
 # Address
 
-Address and shipping information. Used to store additional addresses for an account or contact.  
+Address and shipping information. Used to store additional addresses for an account or a contact.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Address.cdm.json" target="_blank">GitHub</a>.  
 

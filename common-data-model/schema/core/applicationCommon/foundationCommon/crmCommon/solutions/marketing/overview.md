@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 3/11/2019
+ms.date: 4/8/2019
 ms.author: nebanfic
 ---
 
@@ -30,12 +30,12 @@ ms.author: nebanfic
 |---|---|
 |[Appointment](Appointment.md)|Commitment representing a time interval with start/end times and duration.  |
 |[Connection](Connection.md)|Relationship between two entities.  |
-|[Contact](Contact.md)|Person with whom a business unit has a relationship, such as customer, supplier, and colleague.  |
+|[Contact](Contact.md)|Person with whom a business unit has a relationship, such as a customer, a supplier, or a colleague.  |
 |[ContentSettings](ContentSettings.md)|  |
 |[CustomerJourney](CustomerJourney.md)|  |
 |[FormPage](FormPage.md)|  |
 |[GeoPin](GeoPin.md)|  |
-|[Lead](Lead.md)|Prospect or potential sales opportunity. Leads are converted into accounts, contacts, or opportunities when they are qualified. Otherwise, they are deleted or archived.  |
+|[Lead](Lead.md)|A prospect or a potential sales opportunity. Leads are converted into accounts, contacts, or opportunities when they're qualified. Otherwise, they're deleted or archived.  |
 |[ListForm](ListForm.md)|  |
 |[MarketingEmail](MarketingEmail.md)|  |
 |[MarketingForm](MarketingForm.md)|  |
@@ -44,5 +44,5 @@ ms.author: nebanfic
 |[MarketingWebsite](MarketingWebsite.md)|  |
 |[PhoneCall](PhoneCall.md)|Activity to track a telephone call.  |
 |[Segment](Segment.md)|  |
-|[Task](Task.md)|Generic activity representing work needed to be done.  |
+|[Task](Task.md)|Generic activity that represents work to be done.  |
 |[Website](Website.md)|  |

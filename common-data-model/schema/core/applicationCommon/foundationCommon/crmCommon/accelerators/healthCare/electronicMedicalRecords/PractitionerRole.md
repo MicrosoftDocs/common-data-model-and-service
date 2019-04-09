@@ -5,13 +5,13 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 3/11/2019
+ms.date: 4/8/2019
 ms.author: nebanfic
 ---
 
 # Practitioner Role
 
-A specific set of Roles/Locations/specialties/services that a practitioner may perform at an organization for a period of time.  
+A specific set of roles, locations, specialties, or services that a practitioner may perform at an organization for a period of time.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PractitionerRole.cdm.json" target="_blank">GitHub</a>.  
 
@@ -36,7 +36,7 @@ Instances of this entity are listed below.
 |[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="PractitionerRole.md" target="_blank">electronicMedicalRecords/PractitionerRole</a>|
 |[ownerId](#ownerId)|Owner Id|<a href="PractitionerRole.md" target="_blank">electronicMedicalRecords/PractitionerRole</a>|
 |[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="PractitionerRole.md" target="_blank">electronicMedicalRecords/PractitionerRole</a>|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="PractitionerRole.md" target="_blank">electronicMedicalRecords/PractitionerRole</a>|
+|[owningUser](#owningUser)|Unique identifier for the user that owns the record.|<a href="PractitionerRole.md" target="_blank">electronicMedicalRecords/PractitionerRole</a>|
 |[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="PractitionerRole.md" target="_blank">electronicMedicalRecords/PractitionerRole</a>|
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="PractitionerRole.md" target="_blank">electronicMedicalRecords/PractitionerRole</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="PractitionerRole.md" target="_blank">electronicMedicalRecords/PractitionerRole</a>|
@@ -55,7 +55,7 @@ Instances of this entity are listed below.
 |[periodEndDatetime](#periodEndDatetime)|End time with inclusive boundary, if not ongoing|<a href="PractitionerRole.md" target="_blank">electronicMedicalRecords/PractitionerRole</a>|
 |[periodStartDatetime](#periodStartDatetime)|Starting time with inclusive boundary|<a href="PractitionerRole.md" target="_blank">electronicMedicalRecords/PractitionerRole</a>|
 |[practitioner](#practitioner)|Practitioner that is able to provide the defined services for the organization.|<a href="PractitionerRole.md" target="_blank">electronicMedicalRecords/PractitionerRole</a>|
-|[practitionerRoleNumber](#practitionerRoleNumber)|A specific set of Roles/Locations/specialties/services that a practitioner may perform at an organization for a period of time.|<a href="PractitionerRole.md" target="_blank">electronicMedicalRecords/PractitionerRole</a>|
+|[practitionerRoleNumber](#practitionerRoleNumber)|A specific set of roles, locations, specialties, or services that a practitioner may perform at an organization for a period of time.|<a href="PractitionerRole.md" target="_blank">electronicMedicalRecords/PractitionerRole</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
@@ -158,12 +158,12 @@ First included in: electronicMedicalRecords/PractitionerRole (this entity)
 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
-Unique identifier of the user that owns the activity.  
+Unique identifier for the user that owns the record.  
 First included in: electronicMedicalRecords/PractitionerRole (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier of the user that owns the activity.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier for the user that owns the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
@@ -327,9 +327,9 @@ First included in: electronicMedicalRecords/PractitionerRole (this entity)
 
 ### <a href=#practitionerRoleNumber name="practitionerRoleNumber">practitionerRoleNumber</a>
 
-A specific set of Roles/Locations/specialties/services that a practitioner may perform at an organization for a period of time.  
+A specific set of roles, locations, specialties, or services that a practitioner may perform at an organization for a period of time.  
 First included in: electronicMedicalRecords/PractitionerRole (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Practitioner Role Number</td></tr><tr><td>description</td><td>A specific set of Roles/Locations/specialties/services that a practitioner may perform at an organization for a period of time.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_practitionerrolenumber</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Practitioner Role Number</td></tr><tr><td>description</td><td>A specific set of roles, locations, specialties, or services that a practitioner may perform at an organization for a period of time.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_practitionerrolenumber</td></tr></table>

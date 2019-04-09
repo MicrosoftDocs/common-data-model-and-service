@@ -5,13 +5,13 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 3/11/2019
+ms.date: 4/8/2019
 ms.author: nebanfic
 ---
 
 # Payment Schedule
 
-A gift transaction can be a one-time payment or a recurring payment (ie, monthly/sustainer giving). In addition, it can be a pledge (ie, promise) of a future payment or a current/received payment.  
+A gift transaction can be a one-time payment or a recurring payment (that is, monthly or sustainer giving). In addition, the gift can be a pledge (that is, a promise) of a future payment or a current/received payment.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/PaymentSchedule.cdm.json" target="_blank">GitHub</a>.  
 
@@ -36,7 +36,7 @@ Instances of this entity are listed below.
 |[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="PaymentSchedule.md" target="_blank">nonProfit/PaymentSchedule</a>|
 |[ownerId](#ownerId)|Owner Id|<a href="PaymentSchedule.md" target="_blank">nonProfit/PaymentSchedule</a>|
 |[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="PaymentSchedule.md" target="_blank">nonProfit/PaymentSchedule</a>|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="PaymentSchedule.md" target="_blank">nonProfit/PaymentSchedule</a>|
+|[owningUser](#owningUser)|Unique identifier for the user that owns the record.|<a href="PaymentSchedule.md" target="_blank">nonProfit/PaymentSchedule</a>|
 |[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="PaymentSchedule.md" target="_blank">nonProfit/PaymentSchedule</a>|
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="PaymentSchedule.md" target="_blank">nonProfit/PaymentSchedule</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="PaymentSchedule.md" target="_blank">nonProfit/PaymentSchedule</a>|
@@ -167,12 +167,12 @@ First included in: nonProfit/PaymentSchedule (this entity)
 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
-Unique identifier of the user that owns the activity.  
+Unique identifier for the user that owns the record.  
 First included in: nonProfit/PaymentSchedule (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier of the user that owns the activity.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier for the user that owns the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 

@@ -5,13 +5,13 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 3/11/2019
+ms.date: 4/8/2019
 ms.author: nebanfic
 ---
 
 # OFAC Match
 
-Prospective, pending and closed "deals" or gifts.  This entity allows nonprofit organizations to track their efforts to build relationships with prospective donors.   The following information is commonly tracked on opportunities:  assigned fundraiser(s), ask amounts, campaigns designated funds given to, etc.   Opportunity pipeline management allows development and gift officers to forecast likely gifts by when they are going to close, very similar to the way a salesperson tracks and manages sales opportunities.  It must be possible in a CRM or application to associate an opportunity to a campaign to measure the ROI of specific marketing programs.  
+Prospective, pending, and closed "deals" or gifts.  In this entity, nonprofit organizations can track their efforts to build relationships with prospective donors.  This information is commonly tracked on opportunities:  assigned fundraiser(s), ask amounts, and campaigns to which designated funds were given.  Opportunity-pipeline management allows development and gift officers to forecast likely gifts by when they're going to close, very similar to how a salesperson tracks and manages sales opportunities. To measure the ROI of specific marketing programs, it must be possible in a CRM product or application to associate an opportunity with a campaign.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/OfacMatch.cdm.json" target="_blank">GitHub</a>.  
 
@@ -36,7 +36,7 @@ Instances of this entity are listed below.
 |[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="OfacMatch.md" target="_blank">nonProfit/OfacMatch</a>|
 |[ownerId](#ownerId)|Owner Id|<a href="OfacMatch.md" target="_blank">nonProfit/OfacMatch</a>|
 |[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="OfacMatch.md" target="_blank">nonProfit/OfacMatch</a>|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="OfacMatch.md" target="_blank">nonProfit/OfacMatch</a>|
+|[owningUser](#owningUser)|Unique identifier for the user that owns the record.|<a href="OfacMatch.md" target="_blank">nonProfit/OfacMatch</a>|
 |[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="OfacMatch.md" target="_blank">nonProfit/OfacMatch</a>|
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="OfacMatch.md" target="_blank">nonProfit/OfacMatch</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="OfacMatch.md" target="_blank">nonProfit/OfacMatch</a>|
@@ -157,12 +157,12 @@ First included in: nonProfit/OfacMatch (this entity)
 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
-Unique identifier of the user that owns the activity.  
+Unique identifier for the user that owns the record.  
 First included in: nonProfit/OfacMatch (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier of the user that owns the activity.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier for the user that owns the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
