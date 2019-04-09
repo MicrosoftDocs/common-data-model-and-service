@@ -40,11 +40,14 @@ With the Nonprofit Accelerator plugged in to the Dynamics 365 platform, you can 
 This accelerator adds a nonprofit layer to the rich feature set of the base Dynamics 365 functionality by adding nonprofit entities to record detailed constituent profiles for individuals, households, and organizations. The current data model supports end-to-end fundraising, grants/awards lifecycles, standards-based program delivery, and impact tracking based on the [IATI
 standard](https://iatistandard.org/en/).
 
-![](media/NFP-SitemapV2.png)
+![](media/nfp-sitemap_v2.png)
+
+![](media/nfp-sitemap_v2a.png)
+![](media/nfp-sitemap_v2b.png)
 
 ## Entities and workflows
 
-These entities are built in to the Nonprofit Accelerator (*New with version 2.0 - released March 2019):
+These entities are built in to the Nonprofit Accelerator (\*New with version 2.0 - released March 2019):
 
 | **Constituent**  | **Fundraising**   | **Grants/Awards**         | **Program Delivery & Impact Tracking** | **Optional IATI Add-On**         |
 |------------------|-------------------|---------------------------|----------------------------------------|----------------------------------|
@@ -81,43 +84,43 @@ The Nonprofit Accelerator combines standard Dynamics 365 entities with entities 
 
 Complete constituent profiles for individuals, households, and organizations, including biographical details, communication methods, preferences, relationships, salutations, employment and education history, donations, and grants/awards.
 
-![Donor](media/NFP-ConstituentMgmt4.png)
+![Donor](media/nfp-constituent-mgmt4.png)
 
 ### Donation management
 
 The sample dashboard for donations includes gift acknowledgement, tracking of individual and organizational pledges and gifts, one-time and recurring gifts, gifts in kind, and grant disbursements.
 
-![Household Commitments](media/NFP-HouseholdsDashboard4.png)
+![Household Commitments](media/nfp-households-dashboard4.png)
 
 ### Indicators and indicator values
 
 Program Delivery & Results entity that details what will be measured to track evidence of impact and qualitative or quantitative measurements of evidence of impact.
 
-![Indicators](media/NFP-Indicators4.png)
+![Indicators](media/nfp-indicators_4.png)
 
-### Volunteer Preferences, Skills & Availability
+### Volunteer preferences, skills, and availability
 
 Track volunteer preferences, skills and availability and establish Volunteer Projects leveraging Dynamics 365 Project Service Automation
 
-![Volunteers](media/NFP-VolunteersV2.png)
+![Volunteers](media/nfp-volunteers_v2.png)
 
 ### Membership
 
-Membership Category entity that establishes membership levels and Membership entity that links Constituents to Membership Category, enabling the creation and tracking of membership over time. 
+Membership Category entity that establishes membership levels and Membership entity that links Constituents to Membership Category, enabling the creation and tracking of membership over time.
 
-![Membership](media/NFP-MembershipV2.png)
+![Membership](media/nfp-membership_v2.png)
 
-### IATI (Optional Add-On)
+### IATI (optional add-on)
 
-[IATI](https://iatistandard.org/en/) is a global campaign to create transparency in the records of how aid money is spent. The initiative hopes to ensure that aid money reaches its intended recipients with the goal of improving standards of living worldwide and globally reduce poverty.  Nonprofits can now record their fundraising and programmatic activities according to the IATI Organizational and Activity Standards.    
+[IATI](https://iatistandard.org/en/) is a global campaign to create transparency in the records of how aid money is spent. The initiative hopes to ensure that aid money reaches its intended recipients with the goal of improving standards of living worldwide and globally reduce poverty.  Nonprofits can now record their fundraising and programmatic activities according to the IATI Organizational and Activity Standards.
 
-![IATI](media/NFP-IATIV2.png)
+![IATI](media/nfp-iati_v2.png)
 
-### Model Driven Apps
+### Model-driven apps
 
-New with Version 2.0 are model driven apps for Constituents, Fundraising, Awards, Delivery Frameworks, Volunteer Management and Administration    
+New with Version 2.0 are model-driven apps for Constituents, Fundraising, Awards, Delivery Frameworks, Volunteer Management, and Administration.
 
-![Model Driven Apps](media/NFP-ModelDrivenAppsV2.png)
+![Model Driven Apps](media/nfp-model-driven-apps_v2.png)
 
 ## More resources
 
