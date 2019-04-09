@@ -98,25 +98,25 @@ Program Delivery & Results entity that details what will be measured to track ev
 
 ### Volunteer preferences, skills, and availability
 
-Track volunteer preferences, skills and availability and establish Volunteer Projects leveraging Dynamics 365 Project Service Automation
+Track volunteer preferences, skills, and availability, and establish Volunteer Projects that leverage Dynamics 365 Project Service Automation.
 
 ![Volunteers](media/nfp-volunteers_v2.png)
 
 ### Membership
 
-Membership Category entity that establishes membership levels and Membership entity that links Constituents to Membership Category, enabling the creation and tracking of membership over time.
+Establish membership levels in the Membership Category entity, and link constituents to those categories in the Membership entity so that your organization can create and track membership over time.
 
 ![Membership](media/nfp-membership_v2.png)
 
 ### IATI (optional add-on)
 
-[IATI](https://iatistandard.org/en/) is a global campaign to create transparency in the records of how aid money is spent. The initiative hopes to ensure that aid money reaches its intended recipients with the goal of improving standards of living worldwide and globally reduce poverty.  Nonprofits can now record their fundraising and programmatic activities according to the IATI Organizational and Activity Standards.
+[IATI](https://iatistandard.org/en/) is a global campaign to more transparently track how aid money is spent. The initiative is designed to ensure that aid money reaches its intended recipients, reduce poverty, and improve standards of living worldwide. Nonprofit organizations can record their fundraising and program-based activities according to the IATI Organizational and Activity Standards.
 
 ![IATI](media/nfp-iati_v2.png)
 
 ### Model-driven apps
 
-New with Version 2.0 are model-driven apps for Constituents, Fundraising, Awards, Delivery Frameworks, Volunteer Management, and Administration.
+Version 2.0 introduces model-driven apps for managing constituents, fundraising, awards, delivery frameworks, volunteers, and administration.
 
 ![Model Driven Apps](media/nfp-model-driven-apps_v2.png)
 
