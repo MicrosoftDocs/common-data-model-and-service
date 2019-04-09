@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 3/11/2019
+ms.date: 4/8/2019
 ms.author: nebanfic
 ---
 
@@ -25,10 +25,10 @@ ms.author: nebanfic
 
 |Name|Description|
 |---|---|
-|[Account](Account.md)|Business that represents a customer or potential customer. The company that is billed in business transactions.  |
+|[Account](Account.md)|Business that represents a customer or a potential customer. The company that's billed in business transactions.  |
 |[Activity](Activity.md)|Task performed, or to be performed, by a user. An activity is any action for which an entry can be made on a calendar.  |
 |[ActivityParty](ActivityParty.md)|Person or group associated with an activity. An activity can have multiple activity parties.  |
-|[Address](Address.md)|Address and shipping information. Used to store additional addresses for an account or contact.  |
+|[Address](Address.md)|Address and shipping information. Used to store additional addresses for an account or a contact.  |
 |[Appointment](Appointment.md)|Commitment representing a time interval with start/end times and duration.  |
 |[Article](Article.md)|Structured content that is part of the knowledge base.  |
 |[ArticleComment](ArticleComment.md)|Comment on a knowledge base article.  |
@@ -36,7 +36,7 @@ ms.author: nebanfic
 |[BusinessUnit](BusinessUnit.md)|Business, division, or department in the Microsoft Dynamics 365 database.  |
 |[Connection](Connection.md)|Relationship between two entities.  |
 |[ConnectionRole](ConnectionRole.md)|Role describing a relationship between a two records.  |
-|[Contact](Contact.md)|Person with whom a business unit has a relationship, such as customer, supplier, and colleague.  |
+|[Contact](Contact.md)|Person with whom a business unit has a relationship, such as a customer, a supplier, or a colleague.  |
 |[Currency](Currency.md)|Currency in which a financial transaction is carried out.  |
 |[CustomerRelationship](CustomerRelationship.md)|Relationship between a customer and a partner in which either can be an account or contact.  |
 |[Email](Email.md)|Activity that is delivered using email protocols.  |
@@ -63,7 +63,7 @@ ms.author: nebanfic
 |[SLAKPIInstance](SLAKPIInstance.md)|Service level agreement (SLA) key performance indicator (KPI) instance that is tracked for an individual case  |
 |[SocialActivity](SocialActivity.md)|For internal use only.  |
 |[SocialProfile](SocialProfile.md)|This entity is used to store social profile information of its associated account and contacts on different social channels.  |
-|[Task](Task.md)|Generic activity representing work needed to be done.  |
+|[Task](Task.md)|Generic activity that represents work to be done.  |
 |[Team](Team.md)|Collection of system users that routinely collaborate. Teams can be used to simplify record sharing and provide team members with common access to organization data when team members belong to different Business Units.  |
 |[Territory](Territory.md)|Territory represents sales regions.  |
 |[User](User.md)|Person with access to the Microsoft CRM system and who owns objects in the Microsoft CRM database.  |

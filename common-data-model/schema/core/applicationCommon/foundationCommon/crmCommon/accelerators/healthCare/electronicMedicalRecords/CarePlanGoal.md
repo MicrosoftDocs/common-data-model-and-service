@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 3/11/2019
+ms.date: 4/8/2019
 ms.author: nebanfic
 ---
 
@@ -36,7 +36,7 @@ Instances of this entity are listed below.
 |[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="CarePlanGoal.md" target="_blank">electronicMedicalRecords/CarePlanGoal</a>|
 |[ownerId](#ownerId)|Owner Id|<a href="CarePlanGoal.md" target="_blank">electronicMedicalRecords/CarePlanGoal</a>|
 |[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="CarePlanGoal.md" target="_blank">electronicMedicalRecords/CarePlanGoal</a>|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="CarePlanGoal.md" target="_blank">electronicMedicalRecords/CarePlanGoal</a>|
+|[owningUser](#owningUser)|Unique identifier for the user that owns the record.|<a href="CarePlanGoal.md" target="_blank">electronicMedicalRecords/CarePlanGoal</a>|
 |[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="CarePlanGoal.md" target="_blank">electronicMedicalRecords/CarePlanGoal</a>|
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="CarePlanGoal.md" target="_blank">electronicMedicalRecords/CarePlanGoal</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="CarePlanGoal.md" target="_blank">electronicMedicalRecords/CarePlanGoal</a>|
@@ -47,7 +47,7 @@ Instances of this entity are listed below.
 |[statusCode](#statusCode)|Reason for the status of the Care Plan Goal|<a href="CarePlanGoal.md" target="_blank">electronicMedicalRecords/CarePlanGoal</a>|
 |[statusCode_display](#statusCode_display)||<a href="CarePlanGoal.md" target="_blank">electronicMedicalRecords/CarePlanGoal</a>|
 |[name](#name)|The name of the custom entity.|<a href="CarePlanGoal.md" target="_blank">electronicMedicalRecords/CarePlanGoal</a>|
-|[carePlan](#carePlan)|Describes the intention of how one or more practitioners intend to deliver care for a particular patient, group or community for a period of time, possibly limited to care for a specific condition.|<a href="CarePlanGoal.md" target="_blank">electronicMedicalRecords/CarePlanGoal</a>|
+|[carePlan](#carePlan)|Intention of how one or more practitioners intend to deliver care for a particular patient, group, or community for a period of time, possibly limited to care for a specific condition.|<a href="CarePlanGoal.md" target="_blank">electronicMedicalRecords/CarePlanGoal</a>|
 |[goal](#goal)|Describes the intended objective(s) of carrying out the care plan. Goal can be achieving a particular change or merely maintaining a current state or even slowing a decline.|<a href="CarePlanGoal.md" target="_blank">electronicMedicalRecords/CarePlanGoal</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
@@ -151,12 +151,12 @@ First included in: electronicMedicalRecords/CarePlanGoal (this entity)
 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
-Unique identifier of the user that owns the activity.  
+Unique identifier for the user that owns the record.  
 First included in: electronicMedicalRecords/CarePlanGoal (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier of the user that owns the activity.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier for the user that owns the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
@@ -248,12 +248,12 @@ First included in: electronicMedicalRecords/CarePlanGoal (this entity)
 
 ### <a href=#carePlan name="carePlan">carePlan</a>
 
-Describes the intention of how one or more practitioners intend to deliver care for a particular patient, group or community for a period of time, possibly limited to care for a specific condition.  
+Intention of how one or more practitioners intend to deliver care for a particular patient, group, or community for a period of time, possibly limited to care for a specific condition.  
 First included in: electronicMedicalRecords/CarePlanGoal (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Care Plan</td></tr><tr><td>description</td><td>Describes the intention of how one or more practitioners intend to deliver care for a particular patient, group or community for a period of time, possibly limited to care for a specific condition.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_careplan</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Care Plan</td></tr><tr><td>description</td><td>Intention of how one or more practitioners intend to deliver care for a particular patient, group, or community for a period of time, possibly limited to care for a specific condition.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_careplan</td></tr></table>
 
 ### <a href=#goal name="goal">goal</a>
 

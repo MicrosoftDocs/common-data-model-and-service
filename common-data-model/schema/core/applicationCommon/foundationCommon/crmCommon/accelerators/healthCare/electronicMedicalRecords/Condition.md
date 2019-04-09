@@ -5,13 +5,13 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 3/11/2019
+ms.date: 4/8/2019
 ms.author: nebanfic
 ---
 
 # Condition
 
-A clinical condition, problem, diagnosis, or other event, situation, issue, or clinical concept that has risen to a level of concern.  
+A clinical condition, a problem, a diagnosis, or some other event, situation, issue, or clinical concept that has risen to a level of concern.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json" target="_blank">GitHub</a>.  
 
@@ -36,7 +36,7 @@ Instances of this entity are listed below.
 |[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
 |[ownerId](#ownerId)|Owner Id|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
 |[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[owningUser](#owningUser)|Unique identifier for the user that owns the record.|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
 |[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
@@ -56,10 +56,10 @@ Instances of this entity are listed below.
 |[abatementString](#abatementString)|The date or estimated date that the condition resolved or went into remission. This is called "abatement" because of the many overloaded connotations associated with "remission" or "resolution"|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
 |[abatementType](#abatementType)|Type of: The date or estimated date that the condition resolved or went into remission. This is called "abatement" because of the many overloaded connotations associated with "remission"/resolution.|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
 |[abatementType_display](#abatementType_display)||<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
-|[appointment](#appointment)|A booking of a healthcare event among patient(s), practitioner(s), related person(s) and/or device(s) for a specific date/time. This may result in one or more Encounter(s).|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[appointment](#appointment)|A booking of a healthcare event among patient(s), practitioner(s), related person(s), and/or device(s) for a specific date/time. This may result in one or more encounter(s).|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
 |[assertedDate](#assertedDate)|The date on which the existence of the Condition was first asserted or acknowledged.|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
 |[asserter](#asserter)|Person who asserts this condition|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
-|[carePlan](#carePlan)|Describes the intention of how one or more practitioners intend to deliver care for a particular patient, group or community for a period of time, possibly limited to care for a specific condition.|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[carePlan](#carePlan)|Intention of how one or more practitioners intend to deliver care for a particular patient, group, or community for a period of time, possibly limited to care for a specific condition.|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
 |[category](#category)|Categorization of the condition recorded by health care practitioner.|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
 |[clinicalStatus](#clinicalStatus)|The clinical status of the condition.|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
 |[clinicalStatus_display](#clinicalStatus_display)||<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
@@ -191,12 +191,12 @@ First included in: electronicMedicalRecords/Condition (this entity)
 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
-Unique identifier of the user that owns the activity.  
+Unique identifier for the user that owns the record.  
 First included in: electronicMedicalRecords/Condition (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier of the user that owns the activity.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier for the user that owns the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
@@ -368,12 +368,12 @@ First included in: electronicMedicalRecords/Condition (this entity)
 
 ### <a href=#appointment name="appointment">appointment</a>
 
-A booking of a healthcare event among patient(s), practitioner(s), related person(s) and/or device(s) for a specific date/time. This may result in one or more Encounter(s).  
+A booking of a healthcare event among patient(s), practitioner(s), related person(s), and/or device(s) for a specific date/time. This may result in one or more encounter(s).  
 First included in: electronicMedicalRecords/Condition (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Appointment</td></tr><tr><td>description</td><td>A booking of a healthcare event among patient(s), practitioner(s), related person(s) and/or device(s) for a specific date/time. This may result in one or more Encounter(s).</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_appointment</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Appointment</td></tr><tr><td>description</td><td>A booking of a healthcare event among patient(s), practitioner(s), related person(s), and/or device(s) for a specific date/time. This may result in one or more encounter(s).</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_appointment</td></tr></table>
 
 ### <a href=#assertedDate name="assertedDate">assertedDate</a>
 
@@ -395,12 +395,12 @@ First included in: electronicMedicalRecords/Condition (this entity)
 
 ### <a href=#carePlan name="carePlan">carePlan</a>
 
-Describes the intention of how one or more practitioners intend to deliver care for a particular patient, group or community for a period of time, possibly limited to care for a specific condition.  
+Intention of how one or more practitioners intend to deliver care for a particular patient, group, or community for a period of time, possibly limited to care for a specific condition.  
 First included in: electronicMedicalRecords/Condition (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Care Plan</td></tr><tr><td>description</td><td>Describes the intention of how one or more practitioners intend to deliver care for a particular patient, group or community for a period of time, possibly limited to care for a specific condition.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_careplan</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Care Plan</td></tr><tr><td>description</td><td>Intention of how one or more practitioners intend to deliver care for a particular patient, group, or community for a period of time, possibly limited to care for a specific condition.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_careplan</td></tr></table>
 
 ### <a href=#category name="category">category</a>
 

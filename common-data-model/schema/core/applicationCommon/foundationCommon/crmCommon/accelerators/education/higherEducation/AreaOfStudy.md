@@ -5,13 +5,13 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 3/11/2019
+ms.date: 4/8/2019
 ms.author: nebanfic
 ---
 
 # Area of Study
 
-The master list of all area of studies offered by an institution.  Areas of studies are more specific program offerings, such as Master's of Public Administration - Emergency Management.  
+The master list of all areas of studies that an institution offers. Areas of studies are more specific program offerings, such as Master's of Public Administration - Emergency Management.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/AreaOfStudy.cdm.json" target="_blank">GitHub</a>.  
 
@@ -36,7 +36,7 @@ Instances of this entity are listed below.
 |[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="AreaOfStudy.md" target="_blank">higherEducation/AreaOfStudy</a>|
 |[ownerId](#ownerId)|Owner Id|<a href="AreaOfStudy.md" target="_blank">higherEducation/AreaOfStudy</a>|
 |[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="AreaOfStudy.md" target="_blank">higherEducation/AreaOfStudy</a>|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="AreaOfStudy.md" target="_blank">higherEducation/AreaOfStudy</a>|
+|[owningUser](#owningUser)|Unique identifier for the user that owns the record.|<a href="AreaOfStudy.md" target="_blank">higherEducation/AreaOfStudy</a>|
 |[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="AreaOfStudy.md" target="_blank">higherEducation/AreaOfStudy</a>|
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="AreaOfStudy.md" target="_blank">higherEducation/AreaOfStudy</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="AreaOfStudy.md" target="_blank">higherEducation/AreaOfStudy</a>|
@@ -156,12 +156,12 @@ First included in: higherEducation/AreaOfStudy (this entity)
 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
-Unique identifier of the user that owns the activity.  
+Unique identifier for the user that owns the record.  
 First included in: higherEducation/AreaOfStudy (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier of the user that owns the activity.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier for the user that owns the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 

@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 3/11/2019
+ms.date: 4/8/2019
 ms.author: nebanfic
 ---
 
@@ -37,5 +37,5 @@ ms.author: nebanfic
 |[ServiceContractContact](ServiceContractContact.md)|Item in a Service contract.  |
 |[Site](Site.md)|Location or branch office where an organization does business. An organization can have multiple sites.  |
 |[SLAKPIInstance](SLAKPIInstance.md)|Service level agreement (SLA) key performance indicator (KPI) instance that is tracked for an individual case  |
-|[Task](Task.md)|Generic activity representing work needed to be done.  |
+|[Task](Task.md)|Generic activity that represents work to be done.  |
 |[User](User.md)|Person with access to the Microsoft CRM system and who owns objects in the Microsoft CRM database.  |

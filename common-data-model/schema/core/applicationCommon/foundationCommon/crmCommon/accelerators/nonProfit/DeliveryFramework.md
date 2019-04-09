@@ -1,17 +1,17 @@
 ---
 title: DeliveryFramework - Common Data Model | Microsoft Docs
-description: A Delivery Framework is a Management Unit of work defined by the organization or entity doing the work.
+description: A management unit of work that the organization or entity doing the work defines.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 3/11/2019
+ms.date: 4/8/2019
 ms.author: nebanfic
 ---
 
 # Delivery Framework
 
-A Delivery Framework is a Management Unit of work defined by the organization or entity doing the work.  
+A management unit of work that the organization or entity doing the work defines.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/DeliveryFramework.cdm.json" target="_blank">GitHub</a>.  
 
@@ -36,7 +36,7 @@ Instances of this entity are listed below.
 |[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="DeliveryFramework.md" target="_blank">nonProfit/DeliveryFramework</a>|
 |[ownerId](#ownerId)|Owner Id|<a href="DeliveryFramework.md" target="_blank">nonProfit/DeliveryFramework</a>|
 |[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="DeliveryFramework.md" target="_blank">nonProfit/DeliveryFramework</a>|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="DeliveryFramework.md" target="_blank">nonProfit/DeliveryFramework</a>|
+|[owningUser](#owningUser)|Unique identifier for the user that owns the record.|<a href="DeliveryFramework.md" target="_blank">nonProfit/DeliveryFramework</a>|
 |[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="DeliveryFramework.md" target="_blank">nonProfit/DeliveryFramework</a>|
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="DeliveryFramework.md" target="_blank">nonProfit/DeliveryFramework</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="DeliveryFramework.md" target="_blank">nonProfit/DeliveryFramework</a>|
@@ -162,12 +162,12 @@ First included in: nonProfit/DeliveryFramework (this entity)
 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
-Unique identifier of the user that owns the activity.  
+Unique identifier for the user that owns the record.  
 First included in: nonProfit/DeliveryFramework (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier of the user that owns the activity.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier for the user that owns the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 

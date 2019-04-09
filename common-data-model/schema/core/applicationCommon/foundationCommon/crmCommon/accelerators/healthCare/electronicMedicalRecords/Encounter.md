@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 3/11/2019
+ms.date: 4/8/2019
 ms.author: nebanfic
 ---
 
@@ -36,7 +36,7 @@ Instances of this entity are listed below.
 |[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
 |[ownerId](#ownerId)|Owner Id|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
 |[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
+|[owningUser](#owningUser)|Unique identifier for the user that owns the record.|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
 |[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
@@ -47,7 +47,7 @@ Instances of this entity are listed below.
 |[statusCode](#statusCode)|Reason for the status of the Encounter|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
 |[statusCode_display](#statusCode_display)||<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
 |[name](#name)|The name of the custom entity.|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
-|[emrAppointment](#emrAppointment)|A booking of a healthcare event among patient(s), practitioner(s), related person(s) and/or device(s) for a specific date/time. This may result in one or more Encounter(s).|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
+|[emrAppointment](#emrAppointment)|A booking of a healthcare event among patient(s), practitioner(s), related person(s), and/or device(s) for a specific date/time. This may result in one or more encounter(s).|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
 |[class](#class)|Type of: inpatient | outpatient | ambulatory | emergency +.|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
 |[class_display](#class_display)||<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
 |[contextEncounter](#contextEncounter)||<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
@@ -179,12 +179,12 @@ First included in: electronicMedicalRecords/Encounter (this entity)
 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
-Unique identifier of the user that owns the activity.  
+Unique identifier for the user that owns the record.  
 First included in: electronicMedicalRecords/Encounter (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier of the user that owns the activity.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier for the user that owns the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
@@ -276,12 +276,12 @@ First included in: electronicMedicalRecords/Encounter (this entity)
 
 ### <a href=#emrAppointment name="emrAppointment">emrAppointment</a>
 
-A booking of a healthcare event among patient(s), practitioner(s), related person(s) and/or device(s) for a specific date/time. This may result in one or more Encounter(s).  
+A booking of a healthcare event among patient(s), practitioner(s), related person(s), and/or device(s) for a specific date/time. This may result in one or more encounter(s).  
 First included in: electronicMedicalRecords/Encounter (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Appointment (EMR)</td></tr><tr><td>description</td><td>A booking of a healthcare event among patient(s), practitioner(s), related person(s) and/or device(s) for a specific date/time. This may result in one or more Encounter(s).</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_appointmentemr</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Appointment (EMR)</td></tr><tr><td>description</td><td>A booking of a healthcare event among patient(s), practitioner(s), related person(s), and/or device(s) for a specific date/time. This may result in one or more encounter(s).</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_appointmentemr</td></tr></table>
 
 ### <a href=#class name="class">class</a>
 
