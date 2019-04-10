@@ -5,13 +5,13 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 3/11/2019
+ms.date: 4/8/2019
 ms.author: nebanfic
 ---
 
 # Credit Plan
 
-Credit Plans control who will be credited with hard or soft credits after a payment clears. A credit plan could "counted" for membership or other benefit prior to a payment actually being cleared. A Credit Plan shows up as a A line item attached to a Pledge, Payment Schedule, or Account .  The goal of a credit plan is to avoid the double counting of hard, soft and split crediting.  The most elegant way to manage Credit Plan is by ensuring there are business rules in place like an "auto" soft credit rule attached to Accounts, Contacts, Opportunities or Donor Commitments depending on the conditions met.  Credit Plans can be countable toward fulfilling a benefit even if they are never fully realized as a hard or soft credit.  
+Information about who will be credited with hard or soft credits after a payment clears. A credit plan could "count" for membership or other benefit before a payment actually clears. A credit plan appears as a line item that's attached to a pledge, a payment schedule, or an account. The goal of a credit plan is to avoid the double counting of hard, soft, and split crediting. The most elegant way to manage a credit plan is by ensuring that business rules are in place, such as an "auto" soft credit rule that's attached to an account, a contact, an opportunity, or a donor commitment depending on the conditions met. Credit plans can count toward fulfilling a benefit even if they are never fully realized as a hard or soft credit.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/CreditPlan.cdm.json" target="_blank">GitHub</a>.  
 
@@ -36,7 +36,7 @@ Instances of this entity are listed below.
 |[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="CreditPlan.md" target="_blank">nonProfit/CreditPlan</a>|
 |[ownerId](#ownerId)|Owner Id|<a href="CreditPlan.md" target="_blank">nonProfit/CreditPlan</a>|
 |[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="CreditPlan.md" target="_blank">nonProfit/CreditPlan</a>|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="CreditPlan.md" target="_blank">nonProfit/CreditPlan</a>|
+|[owningUser](#owningUser)|Unique identifier for the user that owns the record.|<a href="CreditPlan.md" target="_blank">nonProfit/CreditPlan</a>|
 |[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="CreditPlan.md" target="_blank">nonProfit/CreditPlan</a>|
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="CreditPlan.md" target="_blank">nonProfit/CreditPlan</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="CreditPlan.md" target="_blank">nonProfit/CreditPlan</a>|
@@ -155,12 +155,12 @@ First included in: nonProfit/CreditPlan (this entity)
 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
-Unique identifier of the user that owns the activity.  
+Unique identifier for the user that owns the record.  
 First included in: nonProfit/CreditPlan (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier of the user that owns the activity.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier for the user that owns the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 

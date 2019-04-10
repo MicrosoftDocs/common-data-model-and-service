@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 3/11/2019
+ms.date: 4/8/2019
 ms.author: nebanfic
 ---
 
@@ -26,7 +26,7 @@ ms.author: nebanfic
 
 |Name|Description|
 |---|---|
-|[Account](Account.md)|Business that represents a customer or potential customer. The company that is billed in business transactions.  |
+|[Account](Account.md)|Business that represents a customer or a potential customer. The company that's billed in business transactions.  |
 |[BookableResource](BookableResource.md)|Resource that has capacity which can be allocated to work.  |
 |[BookableResourceBooking](BookableResourceBooking.md)|Represents the line details of a resource booking.  |
 |[BookableResourceBookingHeader](BookableResourceBookingHeader.md)|Reservation entity representing the summary of the associated resource bookings.  |
@@ -37,12 +37,12 @@ ms.author: nebanfic
 |[BookingStatus](BookingStatus.md)|Allows creation of multiple sub statuses mapped to a booking status option.  |
 |[Characteristic](Characteristic.md)|Skills, education and certifications of resources.  |
 |[Company](Company.md)|Uniquely identifies a Company by name and type  |
-|[Contact](Contact.md)|Person with whom a business unit has a relationship, such as customer, supplier, and colleague.  |
+|[Contact](Contact.md)|Person with whom a business unit has a relationship, such as a customer, a supplier, or a colleague.  |
 |[KnowledgeArticle](KnowledgeArticle.md)|Organizational knowledge for internal and external use.  |
 |[Organization](Organization.md)|Top level of the Microsoft Dynamics 365 business hierarchy. The organization can be a specific business, holding company, or corporation.  |
 |[PriceList](PriceList.md)|Entity that defines pricing levels.  |
 |[PriceListItem](PriceListItem.md)|Information about how to price a product in the specified price level, including pricing method, rounding option, and discount type based on a specified product unit.  |
-|[Product](Product.md)|Information about products and their pricing information.  |
+|[Product](Product.md)|Information about products and their prices.  |
 |[ProductAssociation](ProductAssociation.md)|Instance of a product added to a bundle or kit.  |
 |[ProductRelationship](ProductRelationship.md)|Information about the selling relationship between two products, including the relationship type, such as up-sell, cross-sell, substitute, or accessory.  |
 |[Property](Property.md)|Information about a product property.  |

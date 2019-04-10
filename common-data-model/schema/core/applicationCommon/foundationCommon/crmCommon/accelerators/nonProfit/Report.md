@@ -5,13 +5,13 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 3/11/2019
+ms.date: 4/8/2019
 ms.author: nebanfic
 ---
 
 # Report
 
-A status report submitted by an awardee to the granting entity (i.e., a Foundation) to report on what impact has been accomplished to date through the funds awarded to them.  
+A status report that an awardee submits to the granting entity (that is, a foundation) to report on what impact has been accomplished to date through the funds that were awarded.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Report.cdm.json" target="_blank">GitHub</a>.  
 
@@ -36,7 +36,7 @@ Instances of this entity are listed below.
 |[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Report.md" target="_blank">nonProfit/Report</a>|
 |[ownerId](#ownerId)|Owner Id|<a href="Report.md" target="_blank">nonProfit/Report</a>|
 |[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Report.md" target="_blank">nonProfit/Report</a>|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Report.md" target="_blank">nonProfit/Report</a>|
+|[owningUser](#owningUser)|Unique identifier for the user that owns the record.|<a href="Report.md" target="_blank">nonProfit/Report</a>|
 |[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Report.md" target="_blank">nonProfit/Report</a>|
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Report.md" target="_blank">nonProfit/Report</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Report.md" target="_blank">nonProfit/Report</a>|
@@ -163,12 +163,12 @@ First included in: nonProfit/Report (this entity)
 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
-Unique identifier of the user that owns the activity.  
+Unique identifier for the user that owns the record.  
 First included in: nonProfit/Report (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier of the user that owns the activity.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier for the user that owns the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 

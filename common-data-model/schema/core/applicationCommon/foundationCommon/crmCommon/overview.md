@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 3/11/2019
+ms.date: 4/8/2019
 ms.author: nebanfic
 ---
 
@@ -28,7 +28,7 @@ ms.author: nebanfic
 
 |Name|Description|
 |---|---|
-|[Account](Account.md)|Business that represents a customer or potential customer. The company that is billed in business transactions.  |
+|[Account](Account.md)|Business that represents a customer or a potential customer. The company that's billed in business transactions.  |
 |[AccountLeads](AccountLeads.md)|description.  |
 |[Activity](Activity.md)|Task performed, or to be performed, by a user. An activity is any action for which an entry can be made on a calendar.  |
 |[Appointment](Appointment.md)|Commitment representing a time interval with start/end times and duration.  |
@@ -37,11 +37,11 @@ ms.author: nebanfic
 |[CampaignActivityItem](CampaignActivityItem.md)|Work item of a campaign activity, such as a list or sales literature.  |
 |[CampaignItem](CampaignItem.md)|Work item in a campaign, a list or sales literature.  |
 |[CampaignResponse](CampaignResponse.md)|Response from an existing or a potential new customer for a campaign.  |
-|[Contact](Contact.md)|Person with whom a business unit has a relationship, such as customer, supplier, and colleague.  |
+|[Contact](Contact.md)|Person with whom a business unit has a relationship, such as a customer, a supplier, or a colleague.  |
 |[ContactLeads](ContactLeads.md)|  |
 |[Email](Email.md)|Activity that is delivered using email protocols.  |
 |[Fax](Fax.md)|Activity that tracks call outcome and number of pages for a fax and optionally stores an electronic copy of the document.  |
-|[Lead](Lead.md)|Prospect or potential sales opportunity. Leads are converted into accounts, contacts, or opportunities when they are qualified. Otherwise, they are deleted or archived.  |
+|[Lead](Lead.md)|A prospect or a potential sales opportunity. Leads are converted into accounts, contacts, or opportunities when they're qualified. Otherwise, they're deleted or archived.  |
 |[LeadAddress](LeadAddress.md)|Address information for a lead.  |
 |[Letter](Letter.md)|Activity that tracks the delivery of a letter. The activity can contain the electronic copy of the letter.  |
 |[MarketingList](MarketingList.md)|Group of existing or potential customers created for a marketing campaign or other sales purposes.  |

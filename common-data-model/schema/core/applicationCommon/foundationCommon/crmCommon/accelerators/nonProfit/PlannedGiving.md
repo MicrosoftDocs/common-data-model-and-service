@@ -5,13 +5,13 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 3/11/2019
+ms.date: 4/8/2019
 ms.author: nebanfic
 ---
 
 # Planned Giving
 
-A planned gift is a major gift made during a donor's lifetime or at the time of their death that involves their estate and tax planning.  There are many forms of planned giving, but the three most common vehicles are CRTs (Charitable Remainder Trusts), Bequests and Annuities, which all have different tax benefits and financial reconciliation guidelines for the nonprofit organization. Planned gifts are in contrast to annual gifts, which are made through a donor's discretionary income and not tied to an estate.  
+A planned gift is a major gift that's made during a donor's lifetime or at the time of their death and that involves their estate and tax planning.  There are many forms of planned giving, but the three most common vehicles are CRTs (Charitable Remainder Trusts), bequests, and annuities, which all have different tax benefits and financial-reconciliation guidelines for the nonprofit organization. Planned gifts are in contrast to annual gifts, which are made through a donor's discretionary income and not tied to an estate.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/PlannedGiving.cdm.json" target="_blank">GitHub</a>.  
 
@@ -36,7 +36,7 @@ Instances of this entity are listed below.
 |[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
 |[ownerId](#ownerId)|Owner Id|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
 |[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[owningUser](#owningUser)|Unique identifier for the user that owns the record.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
 |[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
@@ -264,12 +264,12 @@ First included in: nonProfit/PlannedGiving (this entity)
 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
-Unique identifier of the user that owns the activity.  
+Unique identifier for the user that owns the record.  
 First included in: nonProfit/PlannedGiving (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier of the user that owns the activity.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier for the user that owns the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 

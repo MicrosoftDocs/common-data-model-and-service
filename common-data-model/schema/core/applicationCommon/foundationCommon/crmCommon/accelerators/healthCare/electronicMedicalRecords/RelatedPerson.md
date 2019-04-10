@@ -5,13 +5,13 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 3/11/2019
+ms.date: 4/8/2019
 ms.author: nebanfic
 ---
 
 # Related Person
 
-Information about a person that is involved in the care for a patient, but who is not the target of healthcare, nor has a formal responsibility in the care process.  
+Information about a person who is involved in the care for a patient but who isn't the target of healthcare and has no formal responsibility in the care process.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/RelatedPerson.cdm.json" target="_blank">GitHub</a>.  
 
@@ -36,7 +36,7 @@ Instances of this entity are listed below.
 |[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="RelatedPerson.md" target="_blank">electronicMedicalRecords/RelatedPerson</a>|
 |[ownerId](#ownerId)|Owner Id|<a href="RelatedPerson.md" target="_blank">electronicMedicalRecords/RelatedPerson</a>|
 |[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="RelatedPerson.md" target="_blank">electronicMedicalRecords/RelatedPerson</a>|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="RelatedPerson.md" target="_blank">electronicMedicalRecords/RelatedPerson</a>|
+|[owningUser](#owningUser)|Unique identifier for the user that owns the record.|<a href="RelatedPerson.md" target="_blank">electronicMedicalRecords/RelatedPerson</a>|
 |[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="RelatedPerson.md" target="_blank">electronicMedicalRecords/RelatedPerson</a>|
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="RelatedPerson.md" target="_blank">electronicMedicalRecords/RelatedPerson</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="RelatedPerson.md" target="_blank">electronicMedicalRecords/RelatedPerson</a>|
@@ -49,7 +49,7 @@ Instances of this entity are listed below.
 |[name](#name)|The name of the custom entity.|<a href="RelatedPerson.md" target="_blank">electronicMedicalRecords/RelatedPerson</a>|
 |[active](#active)|Whether this related person record is in active use.|<a href="RelatedPerson.md" target="_blank">electronicMedicalRecords/RelatedPerson</a>|
 |[patient](#patient)|The patient this person is related to.|<a href="RelatedPerson.md" target="_blank">electronicMedicalRecords/RelatedPerson</a>|
-|[relatedPerson](#relatedPerson)|Information about a person that is involved in the care for a patient, but who is not the target of healthcare, nor has a formal responsibility in the care process.|<a href="RelatedPerson.md" target="_blank">electronicMedicalRecords/RelatedPerson</a>|
+|[relatedPerson](#relatedPerson)|Information about a person who is involved in the care for a patient but who isn't the target of healthcare and has no formal responsibility in the care process.|<a href="RelatedPerson.md" target="_blank">electronicMedicalRecords/RelatedPerson</a>|
 |[relatedPersonPeriodEndDate](#relatedPersonPeriodEndDate)|The period of time that this relationship is considered to be valid. If there are no dates defined, then the interval is unknown.|<a href="RelatedPerson.md" target="_blank">electronicMedicalRecords/RelatedPerson</a>|
 |[relatedPersonPeriodStartDate](#relatedPersonPeriodStartDate)|The period of time that this relationship is considered to be valid. If there are no dates defined, then the interval is unknown.|<a href="RelatedPerson.md" target="_blank">electronicMedicalRecords/RelatedPerson</a>|
 |[relationship](#relationship)|The nature of the relationship between a patient and the related person.|<a href="RelatedPerson.md" target="_blank">electronicMedicalRecords/RelatedPerson</a>|
@@ -155,12 +155,12 @@ First included in: electronicMedicalRecords/RelatedPerson (this entity)
 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
-Unique identifier of the user that owns the activity.  
+Unique identifier for the user that owns the record.  
 First included in: electronicMedicalRecords/RelatedPerson (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier of the user that owns the activity.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier for the user that owns the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
@@ -270,12 +270,12 @@ First included in: electronicMedicalRecords/RelatedPerson (this entity)
 
 ### <a href=#relatedPerson name="relatedPerson">relatedPerson</a>
 
-Information about a person that is involved in the care for a patient, but who is not the target of healthcare, nor has a formal responsibility in the care process.  
+Information about a person who is involved in the care for a patient but who isn't the target of healthcare and has no formal responsibility in the care process.  
 First included in: electronicMedicalRecords/RelatedPerson (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Related Person</td></tr><tr><td>description</td><td>Information about a person that is involved in the care for a patient, but who is not the target of healthcare, nor has a formal responsibility in the care process.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_relatedperson</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Related Person</td></tr><tr><td>description</td><td>Information about a person who is involved in the care for a patient but who isn't the target of healthcare and has no formal responsibility in the care process.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_relatedperson</td></tr></table>
 
 ### <a href=#relatedPersonPeriodEndDate name="relatedPersonPeriodEndDate">relatedPersonPeriodEndDate</a>
 

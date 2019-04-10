@@ -5,13 +5,13 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 3/11/2019
+ms.date: 4/8/2019
 ms.author: nebanfic
 ---
 
 # Credit Plan Recipient
 
-The contact, donor or constitiuent who receives "credit" for the hard or soft cleared payment.  A credit plan is always tied to a recipient in order to ensure full reconciliation and accounting of donations.  All nonprofits have business rules in place to govern how hard and soft credits are applied, but these rules are notoriously inconsistent from organization to organization.  For example, 6 of 12 enterprise nonprofits we recently surveyed about how they handle third party (corporate) giving crediting soft credit the corporation and hard credit the individual donors, whereas the other 6 surveyed nonprofits hard credit the third party providing the matching gift payments (i.e., Benevity is an example of a third party gift management company).  Still other organizations hard credit the corporation themselves.  For example, if Jane Smith donates $50 through her company Microsoft, and Microsoft matches the gift dollar for dollar, but Benevity collects and distributes the gift to Oxfam International, where is hard and soft credit applied?  Some organizations hard credit Jane Smith $100 ($50 donated plus the $50 match).  Some organizations hard credit Jane Smith $50 and Microsoft $50.  Some orgs hard credit Microsoft $100. And still more orgs hard credit Benevity some or all of the $100 donation.  
+The contact, donor, or constituent who receives "credit" for the hard or soft cleared payment. A credit plan is always tied to a recipient in order to ensure full reconciliation and accounting of donations. All nonprofits have business rules that govern how hard and soft credits are applied, but these rules are notoriously inconsistent from organization to organization. For example, we recently surveyed 12 enterprise nonprofits about how they handle third-party (corporate) giving crediting. Of those organizations, half of them soft credit the corporation and hard credit the individual donors, and the other half hard credit the third-party organization that provides the matching gift payments. (For example, Benevity is a third-party gift-management company.) Still other organizations hard credit the corporations themselves. For example, Jane Smith works at Microsoft and donates $50 through that company. Microsoft matches the gift dollar for dollar, but Benevity collects and distributes the gift to Oxfam International. Where is hard and soft credit applied? Some organizations hard credit Jane Smith $100 ($50 donated plus the $50 match). Other organizations hard credit Jane Smith $50 and Microsoft $50. Some organizations hard credit Microsoft $100. Still more organizations hard credit Benevity some or all of the $100 donation.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/CreditRecipient.cdm.json" target="_blank">GitHub</a>.  
 
@@ -36,7 +36,7 @@ Instances of this entity are listed below.
 |[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="CreditRecipient.md" target="_blank">nonProfit/CreditRecipient</a>|
 |[ownerId](#ownerId)|Owner Id|<a href="CreditRecipient.md" target="_blank">nonProfit/CreditRecipient</a>|
 |[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="CreditRecipient.md" target="_blank">nonProfit/CreditRecipient</a>|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="CreditRecipient.md" target="_blank">nonProfit/CreditRecipient</a>|
+|[owningUser](#owningUser)|Unique identifier for the user that owns the record.|<a href="CreditRecipient.md" target="_blank">nonProfit/CreditRecipient</a>|
 |[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="CreditRecipient.md" target="_blank">nonProfit/CreditRecipient</a>|
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="CreditRecipient.md" target="_blank">nonProfit/CreditRecipient</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="CreditRecipient.md" target="_blank">nonProfit/CreditRecipient</a>|
@@ -154,12 +154,12 @@ First included in: nonProfit/CreditRecipient (this entity)
 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
-Unique identifier of the user that owns the activity.  
+Unique identifier for the user that owns the record.  
 First included in: nonProfit/CreditRecipient (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier of the user that owns the activity.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier for the user that owns the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
