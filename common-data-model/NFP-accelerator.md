@@ -5,7 +5,7 @@ author: smithy7
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 1/08/2019
+ms.date: 4/08/2019
 ms.author: smithc
 ---
 
@@ -40,30 +40,39 @@ With the Nonprofit Accelerator plugged in to the Dynamics 365 platform, you can 
 This accelerator adds a nonprofit layer to the rich feature set of the base Dynamics 365 functionality by adding nonprofit entities to record detailed constituent profiles for individuals, households, and organizations. The current data model supports end-to-end fundraising, grants/awards lifecycles, standards-based program delivery, and impact tracking based on the [IATI
 standard](https://iatistandard.org/en/).
 
-![](media/NFP-SitemapV1.png)
+![](media/nfp-sitemapA.png)
+![](media/nfp-sitemapB.png)
 
 ## Entities and workflows
 
-These entities are built in to the Nonprofit Accelerator:
+These entities are built in to the Nonprofit Accelerator (\*New with version 2.0 - released March 2019):
 
-| **Constituent**  | **Fundraising**   | **Grants/Awards**         | **Program Delivery & Impact Tracking** |
-|------------------|-------------------|---------------------------|----------------------------------------|
-| Account          | Lead              | Lead                      | Objective                              |
-| Contact          | Opportunity       | Opportunity               | Delivery Framework                     |
-| Address          | Campaign          | Campaign                  | Budget                                 |
-| Connection       | Designation       | OFAC Match                | Result                                 |
-| Salutation       | Designation Plan  | Docket                    | Indicator                              |
-| Employment       | Credit Plan       | Recommendation            | Indicator Value                        |
-| Education        | Credit Recipient  | Request                   |                                        |
-| Preference       | Designated Credit | Report                    |                                        |
-|                  | Donor Commitment  | Award                     |                                        |
-|                  | Planned Giving    | Award Version             |                                        |
-|                  | Payment Schedule  | Review                    |                                        |
-|                  | Payment Asset     | Disbursement              |                                        |
-|                  | Transaction       | Objective                 |                                        |
-|                  | Payment Method    | Delivery Framework        |                                        |
-|                  | Payment Processor | Budget                    |                                        |
-|                  |                   | Disbursement Distribution |                                        |
+| **Constituent**  | **Fundraising**   | **Grants/Awards**         | **Program Delivery & Impact Tracking** | **Optional IATI Add-On**         |
+|------------------|-------------------|---------------------------|----------------------------------------|----------------------------------|
+| Account          | Lead              | Lead                      | Objective                              | Condition                        |
+| Contact          | Opportunity       | Opportunity               | Delivery Framework                     | Participating Org                |
+| Address          | Campaign          | Campaign                  | Budget                                 | Location                         |
+| Connection       | Designation       | OFAC Match                | Result                                 | Delivery Framework Contact       |
+| Salutation       | Designation Plan  | Docket                    | Indicator                              | Identifier                       |
+| Employment       | Credit Plan       | Recommendation            | Indicator Value                        | Delivery Framework Description   |
+| Education        | Credit Recipient  | Request                   |                                        | Recipient Country                |
+| Preference       | Designated Credit | Report                    |                                        | Recipient Region                 |
+| Volunteers*      | Donor Commitment  | Award                     |                                        | Sector                           |
+| Membership*      | Planned Giving    | Award Version             |                                        | Expenditure                      |
+| Connection*      | Payment Schedule  | Review                    |                                        | Humanitarian Scope               |
+| Connection Role* | Payment Asset     | Disbursement              |                                        | Policy Marker                    |
+|                  | Transaction       | Objective                 |                                        | Result Reference                 |
+|                  | Payment Method    | Delivery Framework        |                                        | Indicator Reference              |
+|                  | Payment Processor | Budget                    |                                        | Indicator Value Location         |
+|                  |                   | Disbursement Distribution |                                        | Dimension                        |
+|                  |                   |                           |                                        | Narrative Translation            |
+|                  |                   |                           |                                        | Non-Embedded Codelist            |
+|                  |                   |                           |                                        | Non-Embedded Codelist Vocabulary |
+|                  |                   |                           |                                        | Document Link                    |
+|                  |                   |                           |                                        | Document Category                |
+|                  |                   |                           |                                        | Document Language                |
+|                  |                   |                           |                                        | Document Country                 |
+|                  |                   |                           |                                        | Tag                              |
 
 ## Forms and dashboards
 
@@ -73,19 +82,43 @@ The Nonprofit Accelerator combines standard Dynamics 365 entities with entities 
 
 Complete constituent profiles for individuals, households, and organizations, including biographical details, communication methods, preferences, relationships, salutations, employment and education history, donations, and grants/awards.
 
-![Donor](media/NFP-ConstituentMgmt4.png)
+![Donor](media/nfp-constituent-mgmt4.png)
 
 ### Donation management
 
 The sample dashboard for donations includes gift acknowledgement, tracking of individual and organizational pledges and gifts, one-time and recurring gifts, gifts in kind, and grant disbursements.
 
-![Household Commitments](media/NFP-HouseholdsDashboard4.png)
+![Household Commitments](media/nfp-households-dashboard4.png)
 
 ### Indicators and indicator values
 
 Program Delivery & Results entity that details what will be measured to track evidence of impact and qualitative or quantitative measurements of evidence of impact.
 
-![Indicators](media/NFP-Indicators4.png)
+![Indicators](media/nfp-indicators_4.png)
+
+### Volunteer preferences, skills, and availability
+
+Track volunteer preferences, skills, and availability, and establish Volunteer Projects that leverage Dynamics 365 Project Service Automation.
+
+![Volunteers](media/nfp-volunteers_v2.png)
+
+### Membership
+
+Establish membership levels in the Membership Category entity, and link constituents to those categories in the Membership entity so that your organization can create and track membership over time.
+
+![Membership](media/nfp-membership_v2.png)
+
+### IATI (optional add-on)
+
+[IATI](https://iatistandard.org/en/) is a global campaign to more transparently track how aid money is spent. The initiative is designed to ensure that aid money reaches its intended recipients, reduce poverty, and improve standards of living worldwide. Nonprofit organizations can record their fundraising and program-based activities according to the IATI Organizational and Activity Standards.
+
+![IATI](media/nfp-iati_v2.png)
+
+### Model-driven apps
+
+Version 2.0 introduces model-driven apps for managing constituents, fundraising, awards, delivery frameworks, volunteers, and administration.
+
+![Model Driven Apps](media/nfp-model-driven-apps_v2.png)
 
 ## More resources
 
@@ -95,7 +128,7 @@ Program Delivery & Results entity that details what will be measured to track ev
 - The nonprofit Common Data Model, solutions, data samples, Power BI examples,
     SDK extensions, and more are provided as part of the open-source creative
     license available on
-    [GitHub](https://github.com/Microsoft/Dynamics-365-Industry-Accelerators/tree/master/nfp).
+    [GitHub](https://github.com/Microsoft/Industry-Accelerator-Nonprofit).
 
 - First look at the [Nonprofit
     Accelerator](https://community.dynamics.com/365/b/dynamics365isvsuccess/archive/2018/11/08/a-first-look-at-the-dynamics-365-nonprofit-accelerator).
