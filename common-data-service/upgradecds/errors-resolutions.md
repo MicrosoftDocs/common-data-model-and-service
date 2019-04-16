@@ -50,3 +50,56 @@ If you go to the [PowerApps admin center](https://admin.powerapps.com/) as descr
 > You are not required to purchase a PowerApps Plan 2 license. A trial license will be sufficient for you to complete the upgrade process.
 
 Go to [https://powerapps.microsoft.com/pricing/](https://powerapps.microsoft.com/pricing/) and request a PowerApps Plan 2 license. A free trial should be enough to provide the privileges you will need to complete the upgrade steps. 
+
+## Enable Application
+
+The upgrade cannot proceed when Azure Active Directory tenant is configured to disable the Dynamics CRM Online application. Common Data Service for Apps is the same application as Dynamics CRM Online. Both applications have the same Application ID: `00000007-0000-0000-c000-000000000000`.
+
+You can enable the Dynamics CRM Online application using the Azure Portal or using PowerShell
+
+### Using Azure Portal
+
+1. Navigate to https://portal.azure.com and log-in using an account with administrator privileges.
+1. Select **Azure Active Directory** and navigate to **Enterprise applications - All applications**.
+1. Search for `Dynamics CRM Online` and open the application.
+1. Select **Properties**.
+1. If the Enabled for users to sign-in? option is set to **No**, change it to **Yes**.
+
+   ![foo](media/enable-application-azure-portal.png)
+
+### Using PowerShell
+
+1. Open a PowerShell command window (as administrator)
+
+    1. Press the **Windows** key or click **Start**.
+    1. Type `Windows PowerShell`
+    
+        ![Opening powershell as an administrator](media/open-windows-powershell-as-administrator.png)
+
+    1. Select the **Run as Administrator** option.
+    1. Click **Yes** in the **User Account Control** dialog.
+
+        A PowerShell window will open.
+
+1. Install the administration PowerShell module
+    1. Type this command: `Install-Module AzureAD`
+    1. If you get the following `Untrusted respository` notification, enter `y` to accept.
+
+      ```
+      Untrusted repository
+      You are installing the modules from an untrusted repository. If you trust this repository, change its
+      InstallationPolicy value by running the Set-PSRepository cmdlet. Are you sure you want to install the modules from
+      'PSGallery'?
+      [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"):
+      ```
+
+ 1. Type this command: `Connect-AzureAD` and you will be prompted for credentials to connect.
+ 1. Copy and paste this command: `$sp = Get-AzureADServicePrincipal -Filter "AppId eq '00000007-0000-0000-c000-000000000000'"`
+ 1. Copy and paste this command: `Set-AzureADServicePrincipal -ObjectId $sp.ObjectId -AccountEnabled $True`
+ 1. Now you can re-try the upgrade. If this doesn't work, you can also completely re-set the principal to make sure it is in the proper state. Copy and paste this command:
+
+    ```
+    $appId = "00000007-0000-0000-c000-000000000000"
+    Get-AzureADServicePrincipal -Filter "AppId eq '00000007-0000-0000-c000-000000000000'" | Remove-AzureADServicePrincipal
+    New-AzureADServicePrincipal -AppId $appId
+    ```
