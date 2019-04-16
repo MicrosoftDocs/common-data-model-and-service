@@ -3,7 +3,7 @@ title: "Errors and resolutions when upgrading previous version of Common Data Se
 description: "Provides known errors and resolutions when upgrading from previous version of Common Data Service to CDS for Apps"
 author: "JimDaly"
 manager: "ryjones"
-ms.date: "03/03/2019"
+ms.date: "04/16/2019"
 ms.topic: "article"
 ms.custom: ""
 ms.service: CommonDataService
