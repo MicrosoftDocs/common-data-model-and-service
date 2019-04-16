@@ -3,7 +3,7 @@ title: "Overview of the upgrade process | Microsoft Docs"
 description: "Provides an overview of the upgrade process to CDS for Apps."
 author: "JimDaly"
 manager: "ryjones"
-ms.date: "03/08/2019"
+ms.date: "03/20/2019"
 ms.topic: "article"
 ms.custom: ""
 ms.service: CommonDataService
@@ -100,7 +100,7 @@ final step; the process is irreversible at this point.  
 
 -   Apps and flows will now work with the latest version of the database.
 
--   The test database is deleted. 
+-   The environment that contains the test database will be deleted around 48 hours after the successful completion of the upgrade. More information: [Deleting test databases](errors-resolutions.md#deleting-test-databases)
 
 More information: [Step 3: Complete the upgrade process for your existing database to CDS for Apps](complete-upgrade-process.md)
 
