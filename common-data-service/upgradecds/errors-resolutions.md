@@ -85,7 +85,7 @@ You can enable the Dynamics CRM Online application using the Azure Portal or usi
     1. Type this command: `Install-Module AzureAD`
     1. If you get the following `Untrusted respository` notification, enter `y` to accept.
 
-      ```
+      ```powershell
       Untrusted repository
       You are installing the modules from an untrusted repository. If you trust this repository, change its
       InstallationPolicy value by running the Set-PSRepository cmdlet. Are you sure you want to install the modules from
@@ -98,7 +98,7 @@ You can enable the Dynamics CRM Online application using the Azure Portal or usi
  1. Copy and paste this command: `Set-AzureADServicePrincipal -ObjectId $sp.ObjectId -AccountEnabled $True`
  1. Now you can re-try the upgrade. If this doesn't work, you can also completely re-set the principal to make sure it is in the proper state. Copy and paste this command:
 
-    ```
+    ```powershell
     $appId = "00000007-0000-0000-c000-000000000000"
     Get-AzureADServicePrincipal -Filter "AppId eq '00000007-0000-0000-c000-000000000000'" | Remove-AzureADServicePrincipal
     New-AzureADServicePrincipal -AppId $appId
