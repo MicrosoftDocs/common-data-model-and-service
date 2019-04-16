@@ -3,7 +3,7 @@ title: "Upgrade to Common Data Service for Apps | Microsoft Docs"
 description: "Provides instructions on how to upgrade from previous version of Common Data Service to CDS for Apps"
 author: "JimDaly"
 manager: "ryjones"
-ms.date: "03/17/2019"
+ms.date: "03/20/2019"
 ms.topic: "article"
 ms.custom: ""
 ms.service: CommonDataService
@@ -195,7 +195,7 @@ The whole upgrade is a 3 step process. Step 2 depends on the apps and flows that
 > [!NOTE]
 > Steps 1 & 3 are automated and will require *at least* 4 hours each. The more data you have, the longer it will take.
 
-The first step creates a test database and should provide some indication of how long the final upgrade in the 3rd step will require. There is no visual indicator of the progress during either step. You should note the duration of step 1 as an indicator of the amount of downtime in step 3.
+The first step creates a test database and should provide some indication of how long the final upgrade in the 3rd step will require. There is no visual indicator of the progress during either step. You should note the duration of step 1 as an indicator of the amount of downtime in step 3. Under some circumstances Step 3 can be considerably longer than Step 1.
 
 ### Can I cancel the upgrade process once it’s initiated? 
 
@@ -218,7 +218,7 @@ to it. We encourage admins to communicate to users when step 3 is planned to be
 > [!TIP]
 > You can get an approximate duration of the downtime in step 3 by capturing the amount of time for step 1.
 > 
-> Note the time when you start step 1. When step 1 completes it will provide the time it completed. Compare the difference. This represents a minimum amount of downtime you can expect in step 3. Step 3 may be slightly longer under some circumstances.
+> Note the time when you start step 1. When step 1 completes it will provide the time it completed. Compare the difference. This represents a minimum amount of downtime you can expect in step 3. Step 3 can be significantly longer under certain circumstances.
 
 ### Are there any steps I should take before I start the upgrade?
 

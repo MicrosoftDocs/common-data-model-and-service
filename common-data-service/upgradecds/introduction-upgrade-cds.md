@@ -3,7 +3,7 @@ title: "Upgrade to Common Data Service for Apps | Microsoft Docs"
 description: "Provides instructions on how to upgrade from previous version of Common Data Service to CDS for Apps"
 author: "JimDaly"
 manager: "ryjones"
-ms.date: "03/17/2019"
+ms.date: "04/16/2019"
 ms.topic: "article"
 ms.custom: ""
 ms.service: CommonDataService
@@ -20,18 +20,11 @@ The previous version of Common Data Service (CDS) was enhanced and released as *
 
 ## Is it too late to start an upgrade?
 
-Our goal is that everyone who wants to upgrade is able to upgrade. 
+It is too late to start an upgrade. The deadline to start upgrades ended on March 15.
 
-The deadline to start an upgrade ended on March 15, 2019. We have started the process of disconnecting databases for everyone who did not start their upgrade before March 15, but the process will take several weeks.
+> [!NOTE]
+> We are still working with customers who started the upgrade but were not able to complete due to issues with the tools. The service will be shut down in a few weeks, so if you started an upgrade but didn't complete it, it is important that you keep trying.
 
-If you are still able to start an upgrade as described in [Start the database upgrade process](start-upgrade-process.md#start-the-database-upgrade-process), there is a very good chance you can proceed. Before we disconnect any database we will double-check to make sure no one has started an upgrade. *As we approach the end of March, the chance you can start an upgrade by yourself will decrease as more databases are disconnected.*
-
-If you cannot successfully start the upgrade process, we have probably already disconnected your database. If you wish to upgrade, please contact support and we can re-connect you so that you can start the upgrade.
-
-> [!IMPORTANT]
->  We intend to discontinue the service on April 15, 2019.
->
->  After a database is disconnected, we will keep the data for 30 days. If you want to request a copy of your data please contact support.
 
 ## Options
 
