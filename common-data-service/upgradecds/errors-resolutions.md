@@ -184,6 +184,9 @@ To open a support ticket:
 
     ![Create a support request](media/create-support-request-link.png)
 
+    > [!NOTE]
+    > If you don't see the option to create a support request, you may need to request that your tenant administrator create the request.
+
 1. Click **Create a support request**. This will display the following form:
 
     ![new support request details](media/new-support-request-details.png)
