@@ -144,3 +144,61 @@ To change this setting you need to use PowerShell.
     > The `AllowAdHocSubscriptions` flag is used to control several user capabilities in your organization, including the ability for users to sign up for the Azure Rights Management Service. Changing this flag affects all of these capabilities.
 
 1. After the upgrade is completed, you should change this setting back using the same steps and the following command: `Set-MsolCompanySettings -AllowAdHocSubscriptions $false`.
+
+## Open a support ticket
+
+Use the following procedure to create a support ticket related to the upgrade to CDS for Apps
+
+You will need to have the `environmentid` value for the environment where the database exists (or existed). This is included in the URL when you view the environment in your browser.
+
+The `environmentid` is found in the URL here: `https://admin.powerapps.com/environments/<environmentid>/details` when you are viewing the environment:
+
+![example environment](media/environment-example.png)
+
+> [!NOTE]
+> If you can download any error log files, please download them and be prepared to upload them with your support ticket.
+
+To open a support ticket:
+
+1. Go to [https://admin.powerplatform.microsoft.com](https://admin.powerplatform.microsoft.com) and select **Help + support**.
+    > [!NOTE]
+    > Your environments with CDS 1.0 databases will not appear in the environments list here.
+1. Click  **New support request**.
+
+1. Use the following values to complete the form
+
+
+    |Field  |Value  |
+    |---------|---------|
+    |Product |PowerApps|
+    |Problem type|Common Data Service (CDS)|
+    |Category|Other|
+    |Topic|Upgrade CDS 1.0 database|
+
+    ![New support request](media/new-support-request.png)
+
+1. Click **See solutions**.
+    > [!NOTE]
+    > Don't expect to find links to content that will help you with upgrade here.
+1. Below the links to content, at the bottom of the form, look for this:
+
+    ![Create a support request](media/create-support-request-link.png)
+
+    > [!NOTE]
+    > If you don't see the option to create a support request, you may need to request that your tenant administrator create the request.
+
+1. Click **Create a support request**. This will display the following form:
+
+    ![new support request details](media/new-support-request-details.png)
+
+    - Make sure the Issue title is *Upgrade CDS 1.0 database*.
+    - Enter the details about your upgrade in the **Issue description**.
+    - It is not important to include **App ID** or **Session ID** values for issues related to upgrades.
+    - Set the severity as **Critical**
+    - Attach any error logs you have downloaded.
+
+    > [!IMPORTANT]
+    > Make sure you include the `environmentid` value within the issue description
+
+1. Click **Next** and enter information about how to contact you.
+1. Click **Submit** to create the support ticket.
