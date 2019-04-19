@@ -194,7 +194,7 @@ To open a support ticket:
     - Make sure the Issue title is *Upgrade CDS 1.0 database*.
     - Enter the details about your upgrade in the **Issue description**.
     - It is not important to include **App ID** or **Session ID** values for issues related to upgrades.
-    - Set the severity as **Critical**
+    - Set the severity as **Standard**
     - Attach any error logs you have downloaded.
 
     > [!IMPORTANT]
