@@ -181,7 +181,9 @@ To open a support ticket:
     > [!NOTE]
     > Don't expect to find links to content that will help you with upgrade here.
 1. Below the links to content, at the bottom of the form, look for this:
+
     ![Create a support request](media/create-support-request-link.png)
+
 1. Click **Create a support request**. This will display the following form:
 
     ![new support request details](media/new-support-request-details.png)
