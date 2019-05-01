@@ -3,7 +3,7 @@ title: "Upgrade to Common Data Service for Apps | Microsoft Docs"
 description: "Provides instructions on how to upgrade from previous version of Common Data Service to CDS for Apps"
 author: "JimDaly"
 manager: "ryjones"
-ms.date: "04/16/2019"
+ms.date: "05/01/2019"
 ms.topic: "article"
 ms.custom: ""
 ms.service: CommonDataService
@@ -17,6 +17,13 @@ ms.author: jdaly
 # Upgrade to Common Data Service for Apps
 
 The previous version of Common Data Service (CDS) was enhanced and released as **Common Data Service (CDS) for Apps** in March 2018 to offer significant new capabilities such as server-side logic, improved app-building experience, and a solid extensibility platform (based on the proven Dynamics 365 Customer Engagement platform) for developers and ISVs. More information: [New features in the Common Data Service for Apps and PowerApps Spring Update](https://powerapps.microsoft.com/en-us/blog/cds-for-apps-march/).
+
+> [!IMPORTANT]
+> If you need to view CDS 1.0 data you may not be able to view it using the [web.powerapps.com](https://web.powerapps.com) portal.
+>
+> A new portal is being released soon. You cannot view CDS 1.0 data using the new portal. You will automatically be redirected to this new portal unless you use this this URL [https://web.powerapps.com?overrideShellRedirection=true](https://web.powerapps.com?overrideShellRedirection=true).
+>
+> The [admin.powerapps.com](https://admin.powerapps.com) portal is not impacted by this change.
 
 ## Is it too late to start an upgrade?
 

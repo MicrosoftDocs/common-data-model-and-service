@@ -3,7 +3,7 @@ title: "Errors and resolutions when upgrading previous version of Common Data Se
 description: "Provides known errors and resolutions when upgrading from previous version of Common Data Service to CDS for Apps"
 author: "JimDaly"
 manager: "ryjones"
-ms.date: "04/16/2019"
+ms.date: "05/01/2019"
 ms.topic: "article"
 ms.custom: ""
 ms.service: CommonDataService
@@ -202,3 +202,9 @@ To open a support ticket:
 
 1. Click **Next** and enter information about how to contact you.
 1. Click **Submit** to create the support ticket.
+
+## I can't view my CDS 1.0 database in the portal
+
+A new portal is being released soon. You cannot view CDS 1.0 data using the new portal. You will automatically be redirected to this new portal unless you use this this URL [https://web.powerapps.com?overrideShellRedirection=true](https://web.powerapps.com?overrideShellRedirection=true).
+
+The [admin.powerapps.com](https://admin.powerapps.com) portal is not impacted by this change.
