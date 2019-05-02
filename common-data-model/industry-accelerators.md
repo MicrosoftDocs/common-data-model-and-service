@@ -1,7 +1,7 @@
 ---
 title: Industry Accelerators
 description: As foundational components within the Microsoft Power Platform and Dynamics 365, the Industry Accelerators enable ISVs and other solution providers to quickly build industry vertical solutions.
-author: SmithCodio
+author: Smithy7
 ms.service: common-data-model
 ms.topic: article
 ms.date: 05/06/2019
