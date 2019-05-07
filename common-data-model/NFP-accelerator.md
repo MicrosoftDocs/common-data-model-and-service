@@ -133,5 +133,7 @@ Version 2.0 introduces model-driven apps for managing constituents, fundraising,
 - First look at the [Nonprofit
     Accelerator](https://community.dynamics.com/365/b/dynamics365isvsuccess/archive/2018/11/08/a-first-look-at-the-dynamics-365-nonprofit-accelerator).
 
+- Dynamics 365 Nonprofit Accelerator: [a community solution to drive social impact](https://cloudblogs.microsoft.com/dynamics365/bdm/2019/04/04/dynamics-365-nonprofit-accelerator-a-community-solution-to-drive-social-impact/).
+
 - [Additional
     topics](https://community.dynamics.com/365/b/dynamics365isvsuccess/archive/2018/08/01/dynamics-365-brings-industry-focus-through-the-microsoft-power-platform-and-solution-accelerators) about the accelerators.
