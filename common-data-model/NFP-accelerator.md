@@ -36,6 +36,7 @@ at the [NetHope Global Summit](https://youtu.be/eV4N0mK0-so?t=2169). The initial
 ## Latest news
 - Dynamics 365 Nonprofit Accelerator: [a community solution to drive social impact](https://cloudblogs.microsoft.com/dynamics365/bdm/2019/04/04/dynamics-365-nonprofit-accelerator-a-community-solution-to-drive-social-impact/).
 
+
 ## Sitemap extensions
 
 With the Nonprofit Accelerator plugged in to the Dynamics 365 platform, you can optimize individual aspects of nonprofit business processes, including raising funds, managing grants and awards, program delivery, and tracking impact. You can also leverage the entire constituent-engagement solution within Dynamics 365.
