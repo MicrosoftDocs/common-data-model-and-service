@@ -256,6 +256,7 @@ The file-format settings provide metadata related to the data files in the parti
 |$type | string (enum) | Defines the type of the file-format setting. As of this writing, only  “CsvFormatSettings” is supported.| Yes |
 |columnHeaders | boolean | Indicates whether the .csv file has headers. This attribute should be set to “true” or “false”. If not specified, this can be interpreted as false. | No |
 |delimiter | string | The delimiter type in the .csv file. If not specified, this can be interpreted as “,” | No |
+|encoding | string | The string encoding in the .csv file. If not specified, this can be interpreted as “UTF-8” | No |
 |quoteStyle | string (enum) | The CSV quote style. This attribute should be set to “QuoteStyle.Csv” or “QuoteStyle.None”. If not specified, this can be interpreted as “QuoteStyle.Csv”. | No |
 |csvStyle | string (enum) | The CSV style, values: This attribute should be set to “CsvStyle.QuoteAlways” or “CsvStyle.QuoteAfterDelimiter”. By default, this is set to “CsvStyle.QuoteAlways”  | No |
 
