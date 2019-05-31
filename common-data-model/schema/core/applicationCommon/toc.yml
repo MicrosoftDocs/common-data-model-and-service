@@ -1,18 +1,26 @@
+
+- name: Summary
+  href: overview.md
 - name: foundationCommon
-  href:  foundationCommon/overview.md
   items: 
+  - name: Summary
+    href: foundationCommon/overview.md
   - name: crmCommon
-    href:  foundationCommon/crmCommon/overview.md
     items: 
+    - name: Summary
+      href: foundationCommon/crmCommon/overview.md
     - name: accelerators
-      href:  foundationCommon/crmCommon/accelerators/overview.md
       items: 
+      - name: Summary
+        href: foundationCommon/crmCommon/accelerators/overview.md
       - name: education
-        href:  foundationCommon/crmCommon/accelerators/education/overview.md
         items: 
+        - name: Summary
+          href: foundationCommon/crmCommon/accelerators/education/overview.md
         - name: higherEducation
-          href:  foundationCommon/crmCommon/accelerators/education/higherEducation/overview.md
           items: 
+          - name: Summary
+            href: foundationCommon/crmCommon/accelerators/education/higherEducation/overview.md
           - name: AcademicPeriod 
             href: foundationCommon/crmCommon/accelerators/education/higherEducation/AcademicPeriod.md
           - name: AcademicPeriodDetail 
@@ -60,11 +68,13 @@
           - name: TestType 
             href: foundationCommon/crmCommon/accelerators/education/higherEducation/TestType.md
       - name: healthCare
-        href:  foundationCommon/crmCommon/accelerators/healthCare/overview.md
         items: 
+        - name: Summary
+          href: foundationCommon/crmCommon/accelerators/healthCare/overview.md
         - name: electronicMedicalRecords
-          href:  foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/overview.md
           items: 
+          - name: Summary
+            href: foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/overview.md
           - name: Account 
             href: foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Account.md
           - name: Address 
@@ -120,8 +130,9 @@
           - name: Task 
             href: foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.md
       - name: nonProfit
-        href:  foundationCommon/crmCommon/accelerators/nonProfit/overview.md
         items: 
+        - name: Summary
+          href: foundationCommon/crmCommon/accelerators/nonProfit/overview.md
         - name: Account 
           href: foundationCommon/crmCommon/accelerators/nonProfit/Account.md
         - name: Address 
@@ -199,8 +210,9 @@
         - name: Transaction 
           href: foundationCommon/crmCommon/accelerators/nonProfit/Transaction.md
     - name: sales
-      href:  foundationCommon/crmCommon/sales/overview.md
       items: 
+      - name: Summary
+        href: foundationCommon/crmCommon/sales/overview.md
       - name: Competitor 
         href: foundationCommon/crmCommon/sales/Competitor.md
       - name: CompetitorAddress 
@@ -260,8 +272,9 @@
       - name: SalesLiterature 
         href: foundationCommon/crmCommon/sales/SalesLiterature.md
     - name: service
-      href:  foundationCommon/crmCommon/service/overview.md
       items: 
+      - name: Summary
+        href: foundationCommon/crmCommon/service/overview.md
       - name: ActivityParty 
         href: foundationCommon/crmCommon/service/ActivityParty.md
       - name: Case 
@@ -309,14 +322,17 @@
       - name: User 
         href: foundationCommon/crmCommon/service/User.md
     - name: solutions
-      href:  foundationCommon/crmCommon/solutions/overview.md
       items: 
+      - name: Summary
+        href: foundationCommon/crmCommon/solutions/overview.md
       - name: marketing
-        href:  foundationCommon/crmCommon/solutions/marketing/overview.md
         items: 
+        - name: Summary
+          href: foundationCommon/crmCommon/solutions/marketing/overview.md
         - name: eventManagement
-          href:  foundationCommon/crmCommon/solutions/marketing/eventManagement/overview.md
           items: 
+          - name: Summary
+            href: foundationCommon/crmCommon/solutions/marketing/eventManagement/overview.md
           - name: Account 
             href: foundationCommon/crmCommon/solutions/marketing/eventManagement/Account.md
           - name: AttendeePass 
@@ -372,8 +388,9 @@
           - name: WaitlistItem 
             href: foundationCommon/crmCommon/solutions/marketing/eventManagement/WaitlistItem.md
         - name: interactions
-          href:  foundationCommon/crmCommon/solutions/marketing/interactions/overview.md
           items: 
+          - name: Summary
+            href: foundationCommon/crmCommon/solutions/marketing/interactions/overview.md
           - name: ActivityContactDispatched 
             href: foundationCommon/crmCommon/solutions/marketing/interactions/ActivityContactDispatched.md
           - name: ActivityContactProcessingFailed 
@@ -453,8 +470,9 @@
           - name: WebsiteVisited 
             href: foundationCommon/crmCommon/solutions/marketing/interactions/WebsiteVisited.md
         - name: LinkedInLeads
-          href:  foundationCommon/crmCommon/solutions/marketing/LinkedInLeads/overview.md
           items: 
+          - name: Summary
+            href: foundationCommon/crmCommon/solutions/marketing/LinkedInLeads/overview.md
           - name: LinkedInAccount 
             href: foundationCommon/crmCommon/solutions/marketing/LinkedInLeads/LinkedInAccount.md
           - name: LinkedInCampaign 
@@ -468,8 +486,9 @@
           - name: LinkedInLeadGenFormSubmission 
             href: foundationCommon/crmCommon/solutions/marketing/LinkedInLeads/LinkedInLeadGenFormSubmission.md
         - name: marketingLeads
-          href:  foundationCommon/crmCommon/solutions/marketing/marketingLeads/overview.md
           items: 
+          - name: Summary
+            href: foundationCommon/crmCommon/solutions/marketing/marketingLeads/overview.md
           - name: LeadScoringModel 
             href: foundationCommon/crmCommon/solutions/marketing/marketingLeads/LeadScoringModel.md
         - name: Appointment 
@@ -509,8 +528,9 @@
         - name: Website 
           href: foundationCommon/crmCommon/solutions/marketing/Website.md
       - name: portals
-        href:  foundationCommon/crmCommon/solutions/portals/overview.md
         items: 
+        - name: Summary
+          href: foundationCommon/crmCommon/solutions/portals/overview.md
         - name: Account 
           href: foundationCommon/crmCommon/solutions/portals/Account.md
         - name: Ad 
@@ -634,8 +654,9 @@
     - name: SocialActivity 
       href: foundationCommon/crmCommon/SocialActivity.md
   - name: financialCommon
-    href:  foundationCommon/financialCommon/overview.md
     items: 
+    - name: Summary
+      href: foundationCommon/financialCommon/overview.md
     - name: FinancialActivity 
       href: foundationCommon/financialCommon/FinancialActivity.md
     - name: FiscalCalendarPeriod 
