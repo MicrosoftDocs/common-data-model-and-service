@@ -327,8 +327,9 @@
         - name: Summary
           href: foundationCommon/crmCommon/solutions/marketing/overview.md
         - name: eventManagement
-          href:  foundationCommon/crmCommon/solutions/marketing/eventManagement/overview.md
           items: 
+          - name: Summary
+            href: foundationCommon/crmCommon/solutions/marketing/eventManagement/overview.md
           - name: Account 
             href: foundationCommon/crmCommon/solutions/marketing/eventManagement/Account.md
           - name: AttendeePass 
@@ -384,8 +385,9 @@
           - name: WaitlistItem 
             href: foundationCommon/crmCommon/solutions/marketing/eventManagement/WaitlistItem.md
         - name: interactions
-          href:  foundationCommon/crmCommon/solutions/marketing/interactions/overview.md
           items: 
+          - name: Summary
+            href: foundationCommon/crmCommon/solutions/marketing/interactions/overview.md
           - name: ActivityContactDispatched 
             href: foundationCommon/crmCommon/solutions/marketing/interactions/ActivityContactDispatched.md
           - name: ActivityContactProcessingFailed 
@@ -465,8 +467,9 @@
           - name: WebsiteVisited 
             href: foundationCommon/crmCommon/solutions/marketing/interactions/WebsiteVisited.md
         - name: LinkedInLeads
-          href:  foundationCommon/crmCommon/solutions/marketing/LinkedInLeads/overview.md
           items: 
+          - name: Summary
+            href:  foundationCommon/crmCommon/solutions/marketing/LinkedInLeads/overview.md
           - name: LinkedInAccount 
             href: foundationCommon/crmCommon/solutions/marketing/LinkedInLeads/LinkedInAccount.md
           - name: LinkedInCampaign 
@@ -480,8 +483,9 @@
           - name: LinkedInLeadGenFormSubmission 
             href: foundationCommon/crmCommon/solutions/marketing/LinkedInLeads/LinkedInLeadGenFormSubmission.md
         - name: marketingLeads
-          href:  foundationCommon/crmCommon/solutions/marketing/marketingLeads/overview.md
           items: 
+          - name: Summary
+            href:   foundationCommon/crmCommon/solutions/marketing/marketingLeads/overview.md
           - name: LeadScoringModel 
             href: foundationCommon/crmCommon/solutions/marketing/marketingLeads/LeadScoringModel.md
         - name: Appointment 
@@ -521,8 +525,9 @@
         - name: Website 
           href: foundationCommon/crmCommon/solutions/marketing/Website.md
       - name: portals
-        href:  foundationCommon/crmCommon/solutions/portals/overview.md
         items: 
+        - name: Summary
+          href:   foundationCommon/crmCommon/solutions/portals/overview.md
         - name: Account 
           href: foundationCommon/crmCommon/solutions/portals/Account.md
         - name: Ad 
@@ -646,8 +651,9 @@
     - name: SocialActivity 
       href: foundationCommon/crmCommon/SocialActivity.md
   - name: financialCommon
-    href:  foundationCommon/financialCommon/overview.md
     items: 
+    - name: Summary
+      href:   foundationCommon/financialCommon/overview.md
     - name: FinancialActivity 
       href: foundationCommon/financialCommon/FinancialActivity.md
     - name: FiscalCalendarPeriod 
