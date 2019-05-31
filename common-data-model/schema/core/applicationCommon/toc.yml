@@ -1,6 +1,6 @@
 
 - name: Summary
-  href: schema/core/applicationCommon/overview.md
+  href: overview.md
 - name: foundationCommon
   items: 
   - name: Summary
