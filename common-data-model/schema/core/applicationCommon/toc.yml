@@ -65,11 +65,13 @@
           - name: TestType 
             href: foundationCommon/crmCommon/accelerators/education/higherEducation/TestType.md
       - name: healthCare
-        href:  foundationCommon/crmCommon/accelerators/healthCare/overview.md
         items: 
+        - name: Summary
+          href:  foundationCommon/crmCommon/accelerators/healthCare/overview.md
         - name: electronicMedicalRecords
-          href:  foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/overview.md
           items: 
+          - name: Summary
+            href:  foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/overview.md
           - name: Account 
             href: foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Account.md
           - name: Address 
@@ -125,8 +127,9 @@
           - name: Task 
             href: foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.md
       - name: nonProfit
-        href:  foundationCommon/crmCommon/accelerators/nonProfit/overview.md
         items: 
+        - name: Summary
+          href:  foundationCommon/crmCommon/accelerators/nonProfit/overview.md
         - name: Account 
           href: foundationCommon/crmCommon/accelerators/nonProfit/Account.md
         - name: Address 
@@ -204,8 +207,9 @@
         - name: Transaction 
           href: foundationCommon/crmCommon/accelerators/nonProfit/Transaction.md
     - name: sales
-      href:  foundationCommon/crmCommon/sales/overview.md
       items: 
+      - name: Summary
+        href: foundationCommon/crmCommon/sales/overview.md
       - name: Competitor 
         href: foundationCommon/crmCommon/sales/Competitor.md
       - name: CompetitorAddress 
@@ -265,8 +269,9 @@
       - name: SalesLiterature 
         href: foundationCommon/crmCommon/sales/SalesLiterature.md
     - name: service
-      href:  foundationCommon/crmCommon/service/overview.md
       items: 
+      - name: Summary
+        href: foundationCommon/crmCommon/service/overview.md
       - name: ActivityParty 
         href: foundationCommon/crmCommon/service/ActivityParty.md
       - name: Case 
@@ -314,11 +319,13 @@
       - name: User 
         href: foundationCommon/crmCommon/service/User.md
     - name: solutions
-      href:  foundationCommon/crmCommon/solutions/overview.md
       items: 
+      - name: Summary
+        href: foundationCommon/crmCommon/solutions/overview.md
       - name: marketing
-        href:  foundationCommon/crmCommon/solutions/marketing/overview.md
         items: 
+        - name: Summary
+          href: foundationCommon/crmCommon/solutions/marketing/overview.md
         - name: eventManagement
           href:  foundationCommon/crmCommon/solutions/marketing/eventManagement/overview.md
           items: 
