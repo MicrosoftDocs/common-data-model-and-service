@@ -3,17 +3,21 @@
   - name: Summary
     href:  foundationCommon/overview.md
   - name: crmCommon
-    href:  foundationCommon/crmCommon/overview.md
     items: 
+    - name: Summary
+      href:  foundationCommon/crmCommon/overview.md
     - name: accelerators
-      href:  foundationCommon/crmCommon/accelerators/overview.md
       items: 
+      - name: Summary
+        href:  foundationCommon/crmCommon/accelerators/overview.md
       - name: education
-        href:  foundationCommon/crmCommon/accelerators/education/overview.md
         items: 
+        - name: Summary
+          href:  foundationCommon/crmCommon/accelerators/education/overview.md
         - name: higherEducation
-          href:  foundationCommon/crmCommon/accelerators/education/higherEducation/overview.md
           items: 
+          - name: Summary
+            href:  foundationCommon/crmCommon/accelerators/education/higherEducation/overview.md
           - name: AcademicPeriod 
             href: foundationCommon/crmCommon/accelerators/education/higherEducation/AcademicPeriod.md
           - name: AcademicPeriodDetail 
