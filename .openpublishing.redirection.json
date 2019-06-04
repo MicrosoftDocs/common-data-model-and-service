@@ -1,6 +1,26 @@
 {
   "redirections": [
     {
+      "source_path": "common-data-service/index.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "common-data-model-pr/blob/remove-legacy-cds/entity-reference/common-data-model.md",
+      "redirect_url": "https://docs.microsoft.com/common-data-model/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "common-data-service/*.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "common-data-service/upgradecds/*.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "entity-reference/powerapps/data-platform-intro.md",
       "redirect_url": "https://docs.microsoft.com/powerapps",
       "redirect_document_id": "false"
