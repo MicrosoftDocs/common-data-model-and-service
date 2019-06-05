@@ -6,6 +6,8 @@
   - name: Industry Accelerators
     href: industry-accelerators.md
     items:
+      - name: Banking Accelerator
+        href: banking-accelerator.md
       - name: Healthcare Accelerator
         href: health-accelerator.md
       - name: Higher-Education Accelerator
