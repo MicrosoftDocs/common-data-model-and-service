@@ -12,4 +12,3 @@ ms.author: jgalvin
 
 # The Microsoft 365 Banking Accelerator (preview)
 
-markdown copy here
