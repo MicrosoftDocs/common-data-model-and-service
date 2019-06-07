@@ -1,6 +1,66 @@
 {
   "redirections": [
     {
+      "source_path": "entity-reference/common-data-model.md",
+      "redirect_url": "https://docs.microsoft.com/common-data-model/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "entity-reference/introduction.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "common-data-service/index.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "common-data-service/upgradecds/index.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "common-data-service/upgradecds/complete-upgrade-process.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "common-data-service/upgradecds/delete-legacy-cds-database.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "common-data-service/upgradecds/errors-resolutions.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "common-data-service/upgradecds/introduction-upgrade-cds.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "common-data-service/upgradecds/start-upgrade-process.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "common-data-service/upgradecds/upgrade-overview.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "common-data-service/upgradecds/upgrade-verify-apps-flows.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "common-data-service/upgradecds/what-to-expect.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "entity-reference/powerapps/data-platform-intro.md",
       "redirect_url": "https://docs.microsoft.com/powerapps",
       "redirect_document_id": "false"
