@@ -36,14 +36,14 @@ Banks, ISVs, and others in Financial Services can build their solutions and busi
 
 This accelerator provides support for the following and more to support the needs of banks and others in Financial Services:
 
-| | | | |
-| Customers | Financial Products | Banking |
-|Companies |Financial Products |Banks |
+| | | |
+| ------- | -----------------|------------------|
+|Accounts |Course |Previous Education |
 |Contacts |Course History |Program |
 |Academic Period |Course Section |Program Level |
 |Academic Period Detail |Education Level |Program Version |
 |Area of Interest |Extra Curricular Activity| Program version Detail |
-|Extra Curricular Participant |Registration Status |Commercial Deals |
+|Extra Curricular Participant |Registration Status | Program version Detail |
 
 ## Forms and dashboards
 
