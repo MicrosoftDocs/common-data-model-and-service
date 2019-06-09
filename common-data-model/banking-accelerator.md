@@ -12,36 +12,38 @@ ms.author: jgalvin
 
 # The Microsoft 365 Banking Accelerator (preview)
 
-With the [Dynamics 365 Higher-Education Accelerator](https://appsource.microsoft.com/product/dynamics-365/mshied.highereducationcommondatamodel?tab=Overview), you can develop solutions that are based on entities and attributes that higher-education institutions use. These entities include students, faculty, courses, test scores, and more. The accelerator includes entities, fields, forms, views, and dashboards.
+With the [Dynamics 365 Banking Accelerator](https://https://appsource.microsoft.com/en-us/product/dynamics-crm/msfsi.bankingcommondatamodel?tab=Overview), you can develop solutions based on entities and attributes that banks commonly leverage for customer experience and other business processes. These entities include banks, branches, financial products, loans, referrals, limits, facilities, and more. The accelerator includes a banking data model, sample apps, dashboards, and connected experiences for both Retail Banking and Commercial Banking.
 
-This [accelerator was announced](https://educationblog.microsoft.com/2018/10/transforming-higher-education-to-address-the-skills-gap/) in October 2018 at EDUCAUSE, and the initial release provides:
+This Banking Accelerator provides the following to both partners and customers:
 
-- extensions to the Common Data Model (CDM) to include concepts for higher education, including entity definitions and relationships
-- system views that provide easy access to entities such as students, faculty, extracurricular activities, previous education, test scores, courses, academic periods, programs, test types, registration status, and areas of interest
-- student, faculty, course history, and other customer-engagement forms, which you can enhance or use out of the box
-- a sample app to show some possibilities of the Unified Interface
-- example Dynamics 365 dashboards and a Power BI dashboard that provides analytics for completed courses and allows drilling into details about student performance, instructor effectiveness, and course feedback
-- support for building additional canvas and model-driven apps in PowerApps
-- a solution that you can deploy and install from AppSource or GitHub
+- extensions to the Common Data Model (CDM) to include a data model to support banking, including entity definitions and relationships
+-	sample model-driven apps to show some possibilities of how Dynamics 365 and the banking data model can be used including customer engagement, know your customer, referral sharing, and onboarding
+-	sample canvas apps for the Relationship Manger to quickly see appointments and create referrals to show how anyone can quickly develop new apps with the Power Platform using the Banking Accelerator
+-	example Power BI dashboards which provide analytics around loans, applications, referrals, and its customers, with drill downs into Retail, Commercial, or see unified visuals and dashboard spanning both lines of business
+-	sample file to implement the banking data model in Azure Data Lake Storage for analytics, AI, and Machine Learning
+-	individual solutions for retail and commercial banking and a package that you can deploy and install including sample data 
+-	Test Drive experience through AppSource with walk-throughs, reference guides, ERDs, and metadata documentation on the data model
 
-## Site-map extensions
 
-With the Dynamics 365 Higher-Education Accelerator, institutions can optimize student and faculty engagement, improve institutional effectiveness, and predict outcomes and gain insights from analytics. When the accelerator is installed into Dynamics 365, the experience is transformed into one specifically built for higher education and allows institutions to quickly build PowerApps and Power BI visualizations.
+## Sitemap extensions
 
-Higher-education institutions can build their business processes on top of the entities in the accelerator. The ribbon customizations contain entities to record student, faculty, and alumni interactions, appointments, events, and outreach.
+With the Dynamics 365 Banking Accelerator, you can optimize the customer experience, improve collaboration within the bank, and gain insights from analytics. When the accelerator is installed into Dynamics 365, the experience is transformed into one specifically built for banks and allows institutions to quickly build PowerApps and Power BI visualizations.
+
+Banks, ISVs, and others in Financial Services can build their solutions and business processes on top of the new entities in the Banking Accelerator. The current data model supports common banking activities but has been designed to allow flexibility for other use cases in Financial Services. The data model was developed in collaboration with [BIAN](https://www.bian.org/) and Open Banking to ensure interoperability to help unlock new Open Banking initiatives.
+
 
 ## Entities and workflows
 
-This accelerator provides these entities to support the needs of higher-education institutions:
+This accelerator provides support for the following and more to support the needs of banks and others in Financial Services:
 
 | | | | |
-| ------- | -----------------|------------------| ------------|
-|Accounts |Course |Previous Education |Student Program Type|
-|Contacts |Course History |Program |Student Status|
-|Academic Period |Course Section |Program Level |Test Score|
-|Academic Period Detail |Education Level |Program Version |Test Type|
-|Area of Interest |Extra Curricular Activity| Program version Detail |Area of Study|
-|Extra Curricular Participant |Registration Status |
+| Customers | Financial Products | Banking |
+|Companies |Financial Products |Banks |
+|Contacts |Course History |Program |
+|Academic Period |Course Section |Program Level |
+|Academic Period Detail |Education Level |Program Version |
+|Area of Interest |Extra Curricular Activity| Program version Detail |
+|Extra Curricular Participant |Registration Status |Commercial Deals |
 
 ## Forms and dashboards
 
