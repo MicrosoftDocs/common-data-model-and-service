@@ -34,7 +34,7 @@ Banks, ISVs, and others in Financial Services can build their solutions and busi
 
 ## Entities and workflows
 
-This accelerator provides support for the following and more to support the needs of banks and others in Financial Services:
+This accelerator provides the following entities and more to support the needs of banks and others in Financial Services:
 
 | | | |
 | ------- | -----------------|------------------|
