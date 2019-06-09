@@ -38,12 +38,12 @@ This accelerator provides support for the following and more to support the need
 
 | | | |
 | ------- | -----------------|------------------|
-|Accounts |Course |Previous Education |
-|Contacts |Course History |Program |
-|Academic Period |Course Section |Program Level |
-|Academic Period Detail |Education Level |Program Version |
-|Area of Interest |Extra Curricular Activity| Program version Detail |
-|Extra Curricular Participant |Registration Status | Program version Detail |
+|Companies |Financial Products |Banks |
+|People |Commercial Loans |Branches |
+|Prospects |Mortgages |Syndicates |
+|Referrals |Home Equity  |Collateral |
+|KYC |Checking Accounts | Limits |
+|Opportunities |Deposit Accounts | Commercial Deals |
 
 ## Forms and dashboards
 
