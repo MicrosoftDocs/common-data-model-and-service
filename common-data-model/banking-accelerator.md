@@ -53,19 +53,19 @@ The Dynamics 365 Banking Accelerator can be used on the Power Platform or combin
 
 This banking Customer 360 view shows everything about the person from their profit tier (segmentation), to interaction and activities, to KYC, what financial products they have, and who is within their household. The person (or company) record becomes the source of truth and engagement to deliver the best customer experience.
 
-![Student form](media/hied-student.png)
+![Customer 360 form](media/banking-contact.png)
 
 ### Opportunity and deal form
 
 The opportunity and deal forms show the details of the opportunity included products, requested facilities, limits, and the stages of the overall proposal.
 
-![Course history form](media/hied-coursehistory.png)
+![Opportunity form](media/banking-opp-scoring.png)
 
 ### Branch manager dashboard
 
 Example dashboards both in Dynamics 365 and Power BI are included in the Banking Accelerator. With the example bank branch office dashboard, the bank branch manager gains analytics and insights into account applications, onboarding stage, referrals and prospects, and which products are most popular.
 
-![Institutional dashboards](media/hied-dashboard.png)
+![Branch Manager dashboards](media/banking-branch.png)
 
 ## Additional resources
 
