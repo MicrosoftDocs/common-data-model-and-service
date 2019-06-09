@@ -59,7 +59,7 @@ This banking Customer 360 view shows everything about the person from their prof
 
 The opportunity and deal forms show the details of the opportunity included products, requested facilities, limits, and the stages of the overall proposal.
 
-![Opportunity form](media/banking-opp-scoring.png)
+![Opportunity form](media/banking-opp.png)
 
 ### Branch manager dashboard
 
