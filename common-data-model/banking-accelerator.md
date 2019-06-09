@@ -12,7 +12,7 @@ ms.author: jgalvin
 
 # The Microsoft 365 Banking Accelerator (preview)
 
-With the [Dynamics 365 Banking Accelerator](https://https://appsource.microsoft.com/en-us/product/dynamics-crm/msfsi.bankingcommondatamodel?tab=Overview), you can develop solutions based on entities and attributes that banks commonly leverage for customer experience and other business processes. These entities include banks, branches, financial products, loans, referrals, limits, facilities, and more. The accelerator includes a banking data model, sample apps, dashboards, and connected experiences for both Retail Banking and Commercial Banking.
+With the [Dynamics 365 Banking Accelerator](https://appsource.microsoft.com/en-us/product/dynamics-crm/msfsi.bankingcommondatamodel?tab=Overview), you can develop solutions based on entities and attributes that banks commonly leverage for customer experience and other business processes. These entities include banks, branches, financial products, loans, referrals, limits, facilities, and more. The accelerator includes a banking data model, sample apps, dashboards, and connected experiences for both Retail Banking and Commercial Banking.
 
 This Banking Accelerator provides the following to both partners and customers:
 
@@ -47,32 +47,32 @@ This accelerator provides support for the following and more to support the need
 
 ## Forms and dashboards
 
-The Dynamics 365 Higher-Education Accelerator combines standard Dynamics 365 entities with customized entities to make it easier to build solutions. This section describes some of the forms, views, and dashboards that demonstrate the new entities and the data model.
+The Dynamics 365 Banking Accelerator can be used on the Power Platform or combined with standard Dynamics 365 entities to make it easier to build solutions. This section describes just a few of the forms, views, and dashboards that demonstrate how the Banking Accelerator extends CDM, the Power Platform, and Dynamics 365.
 
-### Student form
+### Customer 360 form
 
-This Dynamics 365 form shows student information (such as contact information, course load, areas of study, degree, course history, test scores) in the context of the app and the interface. The student record becomes the source of truth and engagement to deliver the best support throughout the student lifecycle.
+This banking Customer 360 view shows everything about the person from their profit tier (segmentation), to interaction and activities, to KYC, what financial products they have, and who is within their household. The person (or company) record becomes the source of truth and engagement to deliver the best customer experience.
 
 ![Student form](media/hied-student.png)
 
-### Course-history form
+### Opportunity and deal form
 
-The course-history form shows the course name, the course section, the instructor, the credit, the grade, and more.
+The opportunity and deal forms show the details of the opportunity included products, requested facilities, limits, and the stages of the overall proposal.
 
 ![Course history form](media/hied-coursehistory.png)
 
-### Institutional dashboard
+### Branch manager dashboard
 
-This accelerator includes a student dashboard in Dynamics 365 and an institutional dashboard in Power BI. With the institutional dashboard, you gain analytics and insights into students, classes, and key metrics such as students by program and demographics.
+Example dashboards both in Dynamics 365 and Power BI are included in the Banking Accelerator. With the example bank branch office dashboard, the bank branch manager gains analytics and insights into account applications, onboarding stage, referrals and prospects, and which products are most popular.
 
 ![Institutional dashboards](media/hied-dashboard.png)
 
 ## Additional resources
 
-- Download the Dynamics 365 Higher-Education Accelerator from [AppSource](https://appsource.microsoft.com/product/dynamics-365/mshied.highereducationcommondatamodel?tab=Overview)
+- Find the Banking Accelerator on [Microsoft AppSource](https://appsource.microsoft.com/en-us/product/dynamics-crm/msfsi.bankingcommondatamodel?tab=Overview)
 
-- The higher-education data model, solutions, data samples, Power BI examples, SDK extensions, and more are provided as part of the open-source creative license and available on [GitHub](https://github.com/microsoft/Industry-Accelerator-Education/tree/master/samplecode/analytics).
+- The Banking Accelerator is provided as part of the open-source creative license and available on [GitHub](https://github.com/microsoft/Industry-Accelerator-FinancialServices).
 
-- [Additional topics](https://community.dynamics.com/365/b/dynamics365isvsuccess/archive/2018/08/01/dynamics-365-brings-industry-focus-through-the-microsoft-power-platform-and-solution-accelerators) about the accelerators
+- This [blog post](https://community.dynamics.com/365/b/dynamics365isvsuccess/archive/2019/05/06/microsoft-dynamics-365-banking-accelerator-is-now-in-private-preview) shows some examples of ISVs building solutions on the Banking Accelerator.
 
-- This [blog post](https://community.dynamics.com/365/b/dynamics365isvsuccess/archive/2018/10/30/early-isvs-building-on-the-new-higher-education-accelerator-and-the-microsoft-power-platform) shows some examples of ISVs building solutions on the Dynamics 365 Higher-Education Accelerator.
+- [Additional topics](https://community.dynamics.com/365/b/dynamics365isvsuccess/archive/2018/08/01/dynamics-365-brings-industry-focus-through-the-microsoft-power-platform-and-solution-accelerators) about the accelerators.
