@@ -4,8 +4,9 @@
   - name: How to use the Common Data Model
     href: use.md
   - name: Industry Accelerators
-    href: industry-accelerators.md
     items:
+      - name: Overview
+        href: industry-accelerators.md
       - name: Banking Accelerator
         href: banking-accelerator.md
       - name: Healthcare Accelerator

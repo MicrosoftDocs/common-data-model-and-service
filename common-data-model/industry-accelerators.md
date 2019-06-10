@@ -8,7 +8,7 @@ ms.date: 05/06/2019
 ms.author: smithc
 ---
 
-# Industry Accelerators
+# Overview of Industry Accelerators
 
 The Common Data Model enables horizontal consistency for customers' business data. making it far easier for them to create value from that data. However, many customers and partners want solutions and platforms that are tailored for their industry. Microsoft is working closely with a set of prioritized industries to make the Common Data Model more relevant to them, through Industry Accelerators.
 
