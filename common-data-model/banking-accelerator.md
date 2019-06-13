@@ -76,5 +76,7 @@ Example dashboards both in Dynamics 365 and Power BI are included in the Banking
 
 - Find the Banking Accelerator on [Microsoft AppSource](https://appsource.microsoft.com/en-us/product/dynamics-crm/msfsi.bankingcommondatamodel?tab=Overview)
 
-- The Banking Accelerator is provided as part of the open-source creative license and available on [GitHub](https://github.com/microsoft/Industry-Accelerator-FinancialServices).
+- The Banking Accelerator is provided as part of the open-source creative license and available on [GitHub](https://github.com/microsoft/Industry-Accelerator-FinancialServices)
+
+- Refer to this [blog post](https://cloudblogs.microsoft.com/industry-blog/financial-services/2019/06/10/how-banks-can-take-their-customer-engagement-to-new-levels/) to read more about the value of the Banking Accelerator to ISVs, banks, and other financial services institutions
 
