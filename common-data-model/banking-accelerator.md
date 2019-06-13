@@ -5,7 +5,7 @@ author: JamesGalvin
 ms.service: common-data-model
 ms.reviewer: kvivek
 ms.topic: article
-ms.date: 06/10/2019
+ms.date: 06/13/2019
 ms.author: jgalvin
 ---
 
