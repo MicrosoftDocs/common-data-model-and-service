@@ -206,7 +206,7 @@ folio.Entities.Add(localEDef);
 
 Update all of the file status times in the folio.
 
-```charp
+```csharp
 await folio.RefreshFileStatus();
 
 ```
