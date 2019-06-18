@@ -25,8 +25,14 @@
   - name: 0.9 CDM Object Model
     items:
     - name: Getting Started
-      href: 0.9om/gettingstarted.md
+      href: 0.9om/getting-started.md
     - name: Submitting Requests
-      href: 0.9om/submittingrequests.md
+      href: 0.9om/submitting-requests.md
+    - name: SDK Sample Code
+      href: 0.9om/sdk-sample-code.md
+    - name: API Reference
+      href: 0.9om/api-reference.md
+    - name: OM Reference
+      href: 0.9om/om-reference.md
   - name: Frequently asked questions
     href: faq.md
