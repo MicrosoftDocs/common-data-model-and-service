@@ -1,23 +1,25 @@
 ---
-title: overview - Common Data Model | Microsoft Docs
-description: core is a folder that contains standard entities related to the Common Data Model.
+title: Getting Started - Common Data Model | Microsoft Docs
+description: A page that gets you started on 0.9 OM.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 4/8/2019
+ms.date: 6/18/2019
 ms.author: nebanfic
 ---
 
-# Preferred way to get OM library
+# Getting Started
 
 
-## Nuget
+## Preferred Way to Get OM Library
+
+### Nuget
 
 1. Connect to CDM feed - <a href ="https://commondatamodel.pkgs.visualstudio.com/_packaging/CDM/nuget/v3/index.json">https://commondatamodel.pkgs.visualstudio.com/_packaging/CDM/nuget/v3/index.json</a>
 2. OM library is available in package  **Microsoft.CommonDataModel.ObjectModel**
 
-## NPM
+### NPM
 
 1. Add this feed to your project's .npmrc.
 
@@ -28,7 +30,7 @@ always-auth=true
 
 2. OM library is available in package cdm.objectmodel 
 
-# Repos
+# # Repos
 
 - <a href = "https://commondatamodel.visualstudio.com/CDM/_git/CDM.SchemaDocuments?version=GBfeatures%2Fcdm0.9">CDM.SchemaDocuments</a> – foundational types and Standard Entity Schema 
 
