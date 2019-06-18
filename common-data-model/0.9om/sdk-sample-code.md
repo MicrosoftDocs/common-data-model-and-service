@@ -62,7 +62,13 @@ cdmCorpus.RegisterStorageAdapter("cdm", cdmAdapter);
 In this sample, you learn how to read the CDM Folio with all entity definitions, examine an entity, its attributes and partitions.
 - Open read-folio.sln in code-cs directory.
 - Run the project. You should see a console with the list of entities and corresponding schema locations.
+
+![Read Folio Picture 1](readfolio1.png)
+
 - Type a number for a chosen entity and see the list of attributes and traits.
+
+![Read Folio Picture 2](readfolio2.png)
+
 
 How it works:
 The OM reads the content of **default.folio.cdm.json** file located at the root of the project directory. The relative path points at it from the location of the exe. For example, the location of the read folio executable is *E:\cdm_sdk_test\CDM SDK 0.9\1-read-folio\code-cs\read-folio\bin\Debug\netcoreapp2.1*, the way the path to the folder with entities is specified.
@@ -87,12 +93,11 @@ In this example, you learn how to create a folio with select number of entities 
 
 This is what you get in the zip file:
 
-![Read Folio Picture 1](0.9om/readfolio1.png)
+![Create Folio Picture 1](createfolio1.png)
 
 Delete all items except for code-cs (you can also keep code-ts for consistency). This is what you should have been left with:
 
-![Read Folio Picture 2](0.9om/readfolio2.png)
-
+![Create Folio Picture 2](createfolio2.png)
 
 - Run the project. Monitor messages in the console as they are informative to what is going on. Look into your directory, it should have all  files and folders generated again. 
 - There are few code fragments here. After configuring adapters, same as in the first sample, we create temp folio object, add specific entities of your choice. Note that you need to point at definitions for those entities.
