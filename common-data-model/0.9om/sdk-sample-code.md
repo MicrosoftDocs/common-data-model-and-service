@@ -77,7 +77,7 @@ How it works:
 
 The OM reads the content of default.folio.cdm.json file located at the root of the project directory. The relative path points at it from the location of the exe. For example, the location of the read folio executable is *E:\cdm_sdk_test\CDM SDK 0.9\1-read-folio\code-cs\read-folio\bin\Debug\netcoreapp2.1*, the way the path to the folder with entities is specified.
 
-```
+```typescript
 string pathFromExeToExampleRoot = "../../../../../../";
 ```
 
