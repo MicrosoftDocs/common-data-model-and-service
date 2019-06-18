@@ -30,7 +30,7 @@ Every time we interact with CDM we interact with some persistent form of CDM and
  
 Sample code which sets up a config to use the local storage system where we need to provide paths to the schema documents on a local file system (some commonly used schema documents can be provided by using CDN/GitHub storage adapters):
 
-```
+```typescript
  ICdmCorpusDef cdmCorpus = new CorpusImpl();
 
 // Path to the example root.
@@ -121,7 +121,7 @@ This sample will load an existing folio and to it a new entity that is a customi
 
 We will add the CareTeam entity, but first we will add the 'currentCity' attribute and give the new entity a new name 'MobileCareTeam'. This new definition becomes a local abstract description of an entity that is resolved and flattened before being added to the folio.
 
-```
+```typescript
 // This method turns relative corpus paths into absolute ones in case we are in some sub-folders and don't know it.
 
 string folioPath = cdmCorpus.MakeAbsoluteCorpusPath("default.folio.cdm.json");
@@ -133,7 +133,7 @@ ICdmDocumentDef docAbs = cdmCorpus.MakeObject< ICdmDocumentDef>(CdmObjectType.Do
 
 Import the CDM description of the original so the symbols will resolve.
 
-```
+```typescript
 docAbs.AddImport("cdm:/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CareTeam.cdm.json", null);
 
 // We will make a new trait to identify things that are known to be temporary, used later. In theory this would be defined somewhere central so it can be shared.
@@ -177,14 +177,14 @@ entAbs.AddAttributeDef(attNew);
 
 The entity abstract definition is done, add the document to the corpus in the root folder and then save the doc.
 
-```
+```typescript
 cdmCorpus.GetRootFolder("local").AddDocument("MobileCareTeam.cdm.json", docAbs);
 
 ```
 
 The next step is to remove all of the guesswork out of decoding the entity shape by 'resolving' it to a relational by reference shape.
 
-```
+```typescript
 var resOpt = new ResolveOptions
 
 {
@@ -227,7 +227,7 @@ This sample reads the content of a model document, converts it to folio and list
  
 Code with explanation:
 
-```
+```typescript
 // This method turns relative corpus paths into absolute ones in case we are in some sub-folders and don't know it.
 
 // We could also list here a file with '.folio.cdm.json' extension.
@@ -276,7 +276,7 @@ foreach (ICdmEntityDeclarationDef entDec in folio.Entities)
 
 The following sample reads default.folio.cdm.json file and corresponding entities in the definitions array and converts it to the 0.1 OM file. It executes some logic by using the old 0.1 OM library and in the end it saves the model as both folio (0.9 OM) and model (0.1 OM).
 
-```
+```typescript
 // Read folio and all the referenced files from folio and convert it to a model.(internally calls model.json persistence).
 var model = await Model.ImportFromFolio(GetLocalCorpus(), "default.folio.cdm.json");
 
