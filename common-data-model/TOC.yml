@@ -23,6 +23,10 @@
   - name: Entity reference
     href: schema/core/applicationCommon/toc.yml
   - name: 0.9 CDM Object Model
-  - href: 0.9om/toc.yml
+      items:
+	  - name: Getting Started
+	    href: 0.9om/gettingstarted
+	  - name: Submitting Requests
+	    href: 0.9/submittingrequests
   - name: Frequently asked questions
     href: faq.md
