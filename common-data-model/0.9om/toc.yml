@@ -2,11 +2,11 @@
   href: overview.md
 - name: Getting Started
   href: getting-started.md
- - name: Submitting Requests
+- name: Submitting Requests
   href: submitting-requests.md
- - name: SDK Sample COde
+- name: SDK Sample COde
   href: sdk-sample-code.md
- - name: API Reference
+- name: API Reference
   href: api-reference.md
- - name: OM Reference
+- name: OM Reference
   href: om-reference.md
