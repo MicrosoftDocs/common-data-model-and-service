@@ -370,11 +370,9 @@ await newFolio.SaveAs("model..json", null, true);
 
     }
 
-   }
+    }
 
   }  
 
-]
-
-}
+]}
 ```
