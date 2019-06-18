@@ -24,5 +24,7 @@
         href: model-json.md
   - name: Entity reference
     href: schema/core/applicationCommon/toc.yml
+  - name: 0.9 CDM Object Model
+  - href: 0.9om/toc.yml
   - name: Frequently asked questions
     href: faq.md
