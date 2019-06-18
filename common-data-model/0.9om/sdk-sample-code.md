@@ -102,7 +102,7 @@ Delete all items except for code-cs (you can also keep code-ts for consistency).
 - Run the project. Monitor messages in the console as they are informative to what is going on. Look into your directory, it should have all  files and folders generated again. 
 - There are few code fragments here. After configuring adapters, same as in the first sample, we create temp folio object, add specific entities of your choice. Note that you need to point at definitions for those entities.
 
-```
+```csharp
 // Add each declaration, this example is about medical appointments and care plans
 ICdmLocalEntityDeclarationDef entDec = cdmCorpus.MakeObject<ICdmLocalEntityDeclarationDef>(CdmObjectType.LocalEntityDeclarationDef, "Account");
  entDec.EntitySchema ="cdm:/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Account.cdm.json/Account";
@@ -206,14 +206,14 @@ folio.Entities.Add(localEDef);
 
 Update all of the file status times in the folio.
 
-```
+```charp
 await folio.RefreshFileStatus();
 
 ```
 
 And save the folio along with linked definition files.
 
-```
+```csharp
 await folio.SaveAs($"default.folio.cdm.json", new CopyOptions(), true);
 ```
 
