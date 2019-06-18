@@ -24,11 +24,10 @@ ms.author: nebanfic
 1. Add this feed to your project's .npmrc.
 
 ```
-registry=https://commondatamodel.pkgs.visualstudio.com/_packaging/CDM/npm/registry/
-always-auth=true
+registry=https://commondatamodel.pkgs.visualstudio.com/_packaging/CDM/npm/registry/always-auth=true
 ```
 
-2. OM library is available in package **cdm.objectmodel** 
+2. OM library is available in package **cdm.objectmodel**.
 
 ## Repos
 
