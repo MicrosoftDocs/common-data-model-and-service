@@ -16,8 +16,8 @@ ms.author: nebanfic
 
 ### Nuget
 
-1. Connect to CDM feed - <a href ="https://commondatamodel.pkgs.visualstudio.com/_packaging/CDM/nuget/v3/index.json">https://commondatamodel.pkgs.visualstudio.com/_packaging/CDM/nuget/v3/index.json</a>
-2. OM library is available in package  **Microsoft.CommonDataModel.ObjectModel**
+1. Connect to CDM feed - <a href ="https://commondatamodel.pkgs.visualstudio.com/_packaging/CDM/nuget/v3/index.json">https://commondatamodel.pkgs.visualstudio.com/_packaging/CDM/nuget/v3/index.json</a>.
+2. OM library is available in package  **Microsoft.CommonDataModel.ObjectModel**.
 
 ### NPM
 
@@ -28,9 +28,9 @@ registry=https://commondatamodel.pkgs.visualstudio.com/_packaging/CDM/npm/regist
 always-auth=true
 ```
 
-2. OM library is available in package cdm.objectmodel 
+2. OM library is available in package **cdm.objectmodel** 
 
-# # Repos
+## Repos
 
 - <a href = "https://commondatamodel.visualstudio.com/CDM/_git/CDM.SchemaDocuments?version=GBfeatures%2Fcdm0.9">CDM.SchemaDocuments</a> – foundational types and Standard Entity Schema 
 
