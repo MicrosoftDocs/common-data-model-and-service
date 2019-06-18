@@ -11,7 +11,7 @@ ms.author: nebanfic
 
 # SDK Sample Code
 
-### Sample Location and Structure
+## Sample Location and Structure
 
 Sample code that demonstrate concepts and their use  are available for C# implementation is available <a href  = "https://commondatamodel.visualstudio.com/CDM/_git/CDM.Tools.Public?path=%2FSDK-examples&version=GBfeatures%2Fcdm0.9">here</a>.
 
@@ -24,7 +24,7 @@ Within each project, files are organized in following manner:
 - Set of folders for each entity containing empty sample data partition file (CSV)
 
 
-### Every Sample Prerequisite
+## Every Sample Prerequisite
 
 Every time we interact with CDM we interact with some persistent form of CDM and we need to provide storage adapter(s).
  
@@ -55,9 +55,9 @@ IStorageAdapter cdmAdapter = cdmCorpus.CreateStorageAdapter(cdmConfig);
 cdmCorpus.RegisterStorageAdapter("cdm", cdmAdapter);
 ```
 
-### Explanation of C# sample code in files for the new OM
+## Explanation of C# sample code in files for the new OM
 
-#### Read Folio (1-read-folio)
+### Read Folio (1-read-folio)
 
 In this sample, you learn how to read the CDM Folio with all entity definitions, examine an entity, its attributes and partitions.
 - Open read-folio.sln in code-cs directory.
@@ -84,7 +84,7 @@ string pathFromExeToExampleRoot = "../../../../../../";
 Once it lists entities, it can be pointed at a specific entity and will parse JSON for that specific entity to get the entity attributes and traits.
 Follow comments in the Program.cs for each specific fragment.
 
-#### Create Folio (2-create-folio)
+### Create Folio (2-create-folio)
 
 In this example, you learn how to create a folio with select number of entities as well as corresponding partitions.
 
@@ -112,7 +112,7 @@ folioAbstract.Entities.Add(entDec);
 The following fragment implements Resolving entities (basically creating instances of specific entities using their abstract definitions as well as foundation definitions). After that, each entity is saved to the directory in corresponding JSON file along with the eponymous folder with empty CSV partition file.
 Follow comments in the Program.cs for each specific fragment.
 
-#### Customize Entities (3-customize-entities)
+### Customize Entities (3-customize-entities)
 
 Steps to do:
 - Open 3-customize-entities and inside code-cs open 3-customize-entities.sln.
@@ -218,7 +218,7 @@ await folio.SaveAs($"default.folio.cdm.json", new CopyOptions(), true);
 ```
 
 
-#### Read Model.Json (0.1 OM library) or read 0.9 OM library and work with 0.9 OM library (4-validate-folio)
+### Read Model.Json (0.1 OM library) or read 0.9 OM library and work with 0.9 OM library (4-validate-folio)
 
 Steps to do:
 - Open 4-validate-folio and inside code-cs open 4-validate-folio.sln project
@@ -270,9 +270,9 @@ foreach (ICdmEntityDeclarationDef entDec in folio.Entities)
 }
 ```
 
-### Explanation of in-documentation sample code
+## Explanation of in-documentation sample code
 
-#### Read 0.9 OM file(s) and work with 0.1 OM library
+### Read 0.9 OM file(s) and work with 0.1 OM library
 
 The following sample reads default.folio.cdm.json file and corresponding entities in the definitions array and converts it to the 0.1 OM file. It executes some logic by using the old 0.1 OM library and in the end it saves the model as both folio (0.9 OM) and model (0.1 OM).
 
@@ -299,7 +299,7 @@ await newFolio.SaveAs("folioFromModel.folio.cdm.json", null, true);
 await newFolio.SaveAs("model..json", null, true);
 ```
 
-#### Representation of 0.1 OM extensions in 0.9 OM Folio
+### Representation of 0.1 OM extensions in 0.9 OM Folio
 
 0.1 OM has a support for extensions which can give partners different and additional set of properties they may want to use. 0.9 OM will continue to support extensions by creating a trait reference (see ICdmTraitRef) with the is.extension prefix. Example of the extensions in 0.1OM vs 0.9OM:
 
