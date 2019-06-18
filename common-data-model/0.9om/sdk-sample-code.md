@@ -93,7 +93,7 @@ Delete all items except for code-cs (you can also keep code-ts for consistency).
 
 ![Read Folio Picture 2](0.9om/readfolio2.png)
 
-```
+
 - Run the project. Monitor messages in the console as they are informative to what is going on. Look into your directory, it should have all  files and folders generated again. 
 - There are few code fragments here. After configuring adapters, same as in the first sample, we create temp folio object, add specific entities of your choice. Note that you need to point at definitions for those entities.
 
