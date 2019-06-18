@@ -1,6 +1,6 @@
 ---
-title: overview - Common Data Model | Microsoft Docs
-description: core is a folder that contains standard entities related to the Common Data Model.
+title: API Reference - Common Data Model | Microsoft Docs
+description: API reference for 0.9 OM.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: anneta
@@ -9,14 +9,5 @@ ms.date: 4/8/2019
 ms.author: nebanfic
 ---
 
-# core
-
-
-## Sub-folders
-
-|Name|
-|---|
-|[applicationCommon](applicationCommon/overview.md)|
-
-
+# API Reference
 

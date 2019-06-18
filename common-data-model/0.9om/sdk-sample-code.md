@@ -86,11 +86,12 @@ In this example, you learn how to create a folio with select number of entities 
 - Examine the root directory for the project. The zip file contains files and folders that have already been created. To fully test the code, you will need to delete certain files and folder.
 
 This is what you get in the zip file:
-[insert pic]
+
+![Read Folio Picture 1](0.9om/readfolio1.png)
 
 Delete all items except for code-cs (you can also keep code-ts for consistency). This is what you should have been left with:
 
-[insert pic]
+![Read Folio Picture 2](0.9om/readfolio2.png)
 
 ```
 - Run the project. Monitor messages in the console as they are informative to what is going on. Look into your directory, it should have all  files and folders generated again. 
