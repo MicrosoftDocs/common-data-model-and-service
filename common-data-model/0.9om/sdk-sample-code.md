@@ -366,13 +366,5 @@ await newFolio.SaveAs("model..json", null, true);
 
   "queryName": "Orders",
 
-  "loadEnabled": true
-
-    }
-
-    }
-
-  }  
-
-]}
+  "loadEnabled": true }}}]}
 ```
