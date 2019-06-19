@@ -181,3 +181,35 @@ Type attribute is a concept which defines data type attributes alongside with su
 |SourceOrdering? *(getter/setter)*|An integer which denotes in which order do attributes exist in some underlying source system.|
 |ValueConstrainedToList? *(getter/setter)*|Whether the type attribute's value is constrained to a list, the values can only be from enums.|
 |MinimumValue *(getter/setter)*|The type attribute's minimum value (for data types that makes sense like integers).|
+
+### Attribute Context (ICdmAttributeContext extends ICdmObjectDef)
+
+The attribute context is a concept in the OM that provides more insight into attribute's relationship (child/parent). It is heavily used during the entity's attribute resolution and can contain history of all changes that lead to an attribute's resolution. Resolved concept's such as resolved attributes can contain attribute context to provide more insights into original non-resolved hierarchic attributes.
+
+|Property|Description|
+|---|---|
+|Contents *(getter/setter)*|The attribute context content list.|
+|Definition *(getter/setter)*|A reference to the object from which this attribute context was defined.|
+|Name *(getter/setter)*|The attribute context name.|
+|Parent *(getter/setter)*|The attribute context parent.|
+|Type *(getter/setter)*|The attribute context type (can be *Entity, EntityReferenceExtends, AttributeDefinion, EntityReferenceAsAttribute, AttributeGroup, AddedAttributeSupporting, AddedAttributeIdentity* or *PassThrough*.|
+
+### CDM Collection (ICdmCollection extends IEnumarable)
+
+CDM collection is a concept that holds and provides easier handling of a set of CDM (see ICdmObject) objects.
+
+|Property|Description|
+|---|---|
+|Count *(getter)*|Get the number of items in the CDM collection.|
+|AllItems *(getter)*|The property that returns the list of all items.|
+
+### Constant Entity (ICdmConstantEntityDef extends ICdmObjectDef)
+
+Constant entity is a concept that provides a way of making an entity with records of data in it and an associated schema in a JSON file. We use these whenever we want to store some table of information inside a parameter of a trait. They show up in the enum definitions, in the localized display text, etc.
+
+|Property|Description|
+|---|---|
+|ConstantEntityName *(getter/setter)*|The constant entity name.|
+|ConstantValues *(getter/setter)*|The list of constant string values.|
+|EntityShape *(getter/setter)*|The entity shape (See *ICdmEntityRef*).|
+
