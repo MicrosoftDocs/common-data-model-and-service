@@ -118,3 +118,13 @@ Please refer to the OM Reference section for information about the references in
 |**Remove(...):(...):**<br/>*currObject*: The CDM object.|Removes the specified CDM object from the list.|boolean|
 |**Item(...):**<br />*name*: The name of a CDM object.|Fetches a CDM object with the specified name.|T|
 |**this(...):**<br/>*index*: The index of an element we want to fetch.|Fetches a CDM object from the collection in the specified index.|T|
+
+### ICdmDocumentDef extends ICdmContainerDef
+
+|Name|Description|Return type|
+|---|---|---|
+|**AddDefinition(...)<T>:**<br/>*ofType*: The type of an object that gets created. <br/>*name*: The name of the object that gets created.|Adds a definition of an object of a specific type and name (after creating it) and returns back the object of that type.	|T|
+|**AddImport(...):**<br />*corpusPath*: The corpus path.<br/>*moniker*: The moniker, it is a nickname used for imports to specify which document to import in the case of duplicate symbols (e.g. we might have multiple Account documents, but by specifying a moniker 'base_Account', we can pinpoint the exact document).|Creates and adds an import object created from corpus path and moniker to the document.|void|
+|**Refresh(...):**<br />resOpt: The resolution options.|Updates the indexes in the document. The method is supposed to be called after modifying the objects inside definitions.|Task|
+|**SaveAs(...)::**<br />*newName*: The new document's name.<br/>*options*: The copy options.<br/>*saveReferenced*: A boolean which denotes whether we want to save all the references files (linked schema definitions) as well (folio can reference different entity documents).|Saves the document back through the adapter in the requested format. Format is specified via document name/extension based on conventions: '.model.json' for back-compatibility model, '.folio.cdm.json' for folio and '.cdm.json' for CDM definitions. 	|Task|
+
