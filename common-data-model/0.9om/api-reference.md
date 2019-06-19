@@ -22,4 +22,4 @@ The persistence folder contains code which enables persistence of the OM and it 
 
 |Function name|Function description|Function return type|
 |---|---|---|
-|**ToData<T, U>(...):**|Converts the object from a CDM object type T to the persistent type U.|U|
+|**ToData<T, U>(...):**<br />instance (T): The CDM object instance.<br/>resOpt: The resolve options.<br/>copyOpt: The copy options.<br/>persistenceTypeName: The persistence type name which needs to be called.|Converts the object from a CDM object type T to the persistent type U.|U|
