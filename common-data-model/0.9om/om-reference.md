@@ -365,3 +365,38 @@ ICdmObject is a base interface for all other CDM interfaces.
 |ObjectType *(getter/setter)*|The object's type.|
 |Owner *(getter/setter)*|The object that owns or contains this object.|
 
+## References
+
+### CDM Object Reference (ICdmObjectRef extends ICdmObject)
+
+Most references provide a capability to point and reference CDM object definitions. CDM Object Reference is the base interface and provides common capability for most of these interfaces.
+
+|Property|Description|
+|---|---|
+|AppliedTraits *(getter)*|The list of references to the applied traits references.|
+|ExplicitReference *(getter/setter)*|The object definition that the reference is referencing.|
+|NamedReference *(getter/setter)*|A string used to simple reference different concepts just by name without having to include any other extra data.|
+|SimpleNamedReference *(getter/setter)*|A boolean denoting whether the reference is simple named or not. If true, it is going to use named reference, otherwise it is going to use explicit reference.|
+
+### CDM Trait Reference (ICdmTraitRef extens ICdmObjectRef)
+
+Most references provide a capability to point and reference CDM object definitions. CDM Object Reference is the base interface and provides common capability for most of these interfaces.
+
+|Property|Description|
+|---|---|
+|Arguments *(getter)*|The trait reference arguments. Arguments give life to traits by enabling them to actually contain some specific data.|
+|IsFromProperty *(getter/setter)*|A boolean which denotes whether the trait was generated from a property or false if it was directly loaded. Some properties in some concepts might be persisted into traits, so it is useful to know how each trait got generated.|
+
+Other references are just empty intefaces extending from ICdmObjectRef and examples include *ICmdAttributeContextRef, ICdmAttributeRef, ICdmDataTypeRef, ICdmEntityRef* and *ICdmPurposeRef*.
+
+## Commonly Used Utilities
+
+### Resolve Options
+
+|WrtDoc *(getters/setter)*|The document to use as a point of reference when resolving relative paths and symbol names.|
+|Directives *(getter/setter)*|A set of string flags that direct how attribute resolving traits behave (e.g. *normalized*, *structured*, ...).|
+
+### Copy Options
+
+|StringRefs? *(getter/setter)*|A boolean that denotes whether to turn simple named string object references into objects with a relative path.|
+|RemoveSingleRowLocalizedTableTraits  *(getter/setter)*|A boolean that, if true, keeps us from serializing the displayText and descriptions traits as stand-alone traits with just one record in them and it makes JSON look better.|
