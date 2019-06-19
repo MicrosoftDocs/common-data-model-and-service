@@ -213,3 +213,155 @@ Constant entity is a concept that provides a way of making an entity with record
 |ConstantValues *(getter/setter)*|The list of constant string values.|
 |EntityShape *(getter/setter)*|The entity shape (See *ICdmEntityRef*).|
 
+### Container (ICdmContainerDef extends ICdmObject)
+
+Container is a concept which describes the placement of the CDM object. Both folders and documents, alongside with corpus are extending the container interface in order to encapsulate namespace and folder path.
+
+|Property|Description|
+|---|---|
+|Namespace *(getter/setter)*|The namespace where this object can be found.|
+|FolderPath *(getter/setter)*|The path to a folder where this object exists.|
+
+### Entity Attribute (ICdmEntityAttributeDef extends ICdmAttributeDef)
+
+Entity attribute is an attribute which also points to an entity (See *ICdmEntityRef*).
+
+|Property|Description|
+|---|---|
+|Entity *(getter/setter)*|The entity attribute's entity reference.|
+
+### Entity Declaration (ICdmEntityDeclarationDef extends ICdmObjectDef, ICdmFileStatus)
+
+Entity declaration is a concept which provides a simple functionality which is extended by local entity declaration (see *ICdmLocalEntityDeclaration*) and reference entity declaration (see *ICdmReferenceEntityDeclaration*).
+
+|Property|Description|
+|---|---|
+|EntityName *(getter/setter)*|The entity's name.|
+
+### File Status (ICdmFileStatus extends ICdmObject)
+
+CDM file status is a concept which describes the status of file based concepts such as data partitions since they reside in files (See ICdmDataPartitionDef).
+
+|Property|Description|
+|---|---|
+|LastFileStatusCheckTime? *(getter/setter)*|The last time the modified time was checked for the file.|
+|LastFileModifiedTime? *(getter/setter)*|The last time the file was modified according to the OM.|
+
+### File Status Extended (ICdmFileStatusExtended extends ICdmFileStatus)
+
+CDM file status extended extends the functionality of CDM file status by providing the last time when children files have been modified. That is used by folio (see *ICdmFolioDef*).
+
+|Property|Description|
+|---|---|
+|LastChildFileModifiedTime? *(getter/setter)*|The last time the children files have been modified.|
+
+### Local Entity Declaration (ICdmLocalEntityDeclarationDef extends ICdmEntityDeclarationDef, ICdmFileStatusExtended)
+
+Local entity declaration is a declaration for an entity that resides locally and has associated data partitions.
+
+|Property|Description|
+|---|---|
+|EntitySchema *(getter/setter)*|The local entity's schema.|
+|PrefixPath *(getter/setter)*|The part of the path that makes entity schema an absolute path.|
+|DataPartitions *(getter)*|The list of data partitions for the entity. (See *Data Partition*)|
+|DataPartitionPatterns *(getter)*|The list of data partition patterns for the entity (See *Data Partition Pattern*)|
+
+### Reference Entity Declaration (ICdmReferencedEntityDeclarationDef extends ICdmEntityDeclarationDef)
+
+Reference entity declaration is a declaration for an entity that resides on a remote location.
+
+|Property|Description|
+|---|---|
+|EntityDeclaration *(getter/setter)*|The corpus path pointing to an external document.|
+|PrefixPath *(getter/setter)*|The part of the path that makes entity declaration an absolute path.|
+
+### Folio Declaration (FolioDeclaration extends FileStatusExtended)
+
+Folio declaration is a declaration for CDM folio format.
+
+|Property|Description|
+|---|---|
+|Explanation *(getter/setter)*|The folio explanation.|
+|FolioName *(getter/setter)*|The folio name.|
+|Definition *(getter/setter)*|The corpus path to the definition of the sub folio.|
+|LastFileStatusCheckTime *(getter/setter)*|The last time when the last file modified time has been checked by the *FileStatusCheck* method.|
+|LastFileModifiedTime *(getter/setter)*|The last time the folio document has been modified.|
+|LastChildFileModifiedTime *(getter/setter)*|The last time a child document has been modified.|
+
+### E2E Relationship (ICdmE2ERelationship extends ICdmObjectDef)
+
+E2E relationship is a relationship between two entity's attributes.
+
+|Property|Description|
+|---|---|
+|Name *(getter/setter)*|The relationship's name.|
+|FromEntity *(getter/setter)*|The entity the relationship is pointing from.|
+|FromEntityAttribute *(getter/setter)*|The entity's attribute the relationship is pointing from.|
+|ToEntity *(getter/setter)*|The entity the relationship is pointing to.|
+|ToEntityAttribute *(getter/setter)*|The entity's attribute the relationship is pointing to.|
+
+### Data Partition (ICdmDataPartitionDef extends ICdmObjectDef, ICdmFileStatus)
+
+Data partition is an object pointing to a location of entity-related data.
+
+|Property|Description|
+|---|---|
+|Name *(getter/setter)*|The partition's name.|
+|Location *(getter/setter)*|The partition's location.|
+|Inferred *(getter/setter)*|A boolean denoting whether the partition was created from a data partition pattern.|
+|Arguments *(getter/setter)*|The list of key-value pairs to give names for the replacement values from the regex.|
+|SpecializedSchema *(getter/setter)*|The path of specialized schema to use specifically for the partitions generated (e.g. *CSV*).|
+|Description *(getter/setter)*|The partition's description.|
+|RefreshTime *(getter/setter)*|The partition's refresh time.|
+
+### Data Partition Pattern (ICdmDataPartitionPatternDef extends ICdmObjectDef, ICdmFileStatus)
+
+Data partition pattern is a concept that provides a way of selecting/generating a set of partitions based on requirements specified as a regular expression.
+
+|Property|Description|
+|---|---|
+|Name *(getter/setter)*|The partition pattern's name.|
+|RootLocation *(getter/setter)*|The starting location corpus path for searching for inferred data partitions.|
+|RegularExpression *(getter/setter)*|The regular expression string to use for searching partitions.|
+|Parameters *(getter/setter)*|The names for replacement values from regular expression.|
+|SpecializedSchema *(getter/setter)*|TThe corpus path for specialized schema to use for matched pattern partitions (e.g. *CSV*).|
+
+### Argument (ICdmArgumentDef extends ICdmObject)
+
+Argument is a concept that exists inside trait references and provides name/value pairs for a specific trait reference. Arguments give life to traits by enabling them to actually contain some specific data.
+
+|Property|Description|
+|---|---|
+|Explanation *(getter/setter)*|The argument's explanation.|
+|Name *(getter/setter)*|The argument's name.|
+|Value *(getter/setter)*|The argument's value.|
+
+### Resolution Guidance (ICdmAttributeResolutionGuidanceDef extends ICdmObject)
+
+Resolution guidance is a concept that provides properties that help in resolution process of entities, attributes and other resolvable CDM concepts.
+
+|Property|Description|
+|---|---|
+|removeAttribute? *(getter/setter)*| A boolean, if true, this attribute definition will be removed from the final resolved attribute list of an entity.|
+|imposedDirectives *(getter/setter)*|A list of strings, one for each 'directive' that should be always imposed at this attribute definition.|
+|addSupportingAttribute *(getter/setter)*|The supplied attribute definition that will be added to the an entity.|
+|cardinality *(getter/setter)*|If 'one' then there is a single instance of the attribute or entity used. 'many' indicates multiple instances and the 'expansion' properties will describe array enumeration to use when needed.|
+|renameFormat *(getter/setter)*|The format specifier for generated attribute names. May contain a single occurence of ('{a} or 'A'), ('{m}' or '{M}') and '{o}' for the base (a/A)ttribute name, any (m/M)ember attributes from entities and array (o)rdinal. examples: '{a}{o}.{m}' could produce 'address2.city', '{a}{o}' gives 'city1'. Using '{A}' or '{M}' will uppercase the first letter of the name portions.|
+|expansion *(getter/setter)*|The parameters that control array expansion if inline repeating of attributes is needed.|
+|entityByReference *(getter/setter)*|The parameters that control the use of foreign keys to reference entity instances instead of embedding the entity in a nested way.|
+|selectsSubAttribute *(getter/setter)*|It is used to indicate that this attribute select either 'one' or 'all' of the sub-attributes from an entity. If the 'structured' directive is set, this trait causes resolved attributes to end up in groups rather than a flattened list.|
+|imposedDirectives   *(getter/setter)*|A list of strings, one for each 'directive' that should be always imposed at this attribute definition.|
+
+### ICdmObject
+
+ICdmObject is a base interface for all other CDM interfaces.
+
+|Property|Description|
+|---|---|
+|Id *(getter/setter)*|The object's ID.|
+|Ctx *(getter/setter)*|The object's CDM corpus context.|
+|InDocument *(getter/setter)*|The declaration document of the object.|
+|AtCorpusPath *(getter/setter)*|The object's declared corpus path.|
+|ObjectType *(getter/setter)*|The object's type.|
+|Owner *(getter/setter)*|The object that owns or contains this object.|
+
