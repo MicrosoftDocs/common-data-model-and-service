@@ -119,3 +119,44 @@ Purpose is a concept that provides to an attribute what it does for an entity (e
 |---|---|
 |ExtendsPurpose *(getter/setter)*|The reference to the purpose extended by this purpose.|
 |PurposeName *(getter/setter)*|The purpose name.|
+
+### Parameter (ICdmParameterDef extends ICdmObject)
+
+Parameter is a concept that provides ability to specify parameters that should a trait contain. By providing name, default values and supported data types, trait references are being restricted in which arguments they can contain. Parameters are defined for traits in the *CDM.SchemaDocuments* repository.
+
+|Property|Description|
+|---|---|
+|Explanation *(getter/setter)*|The parameter's explanation.|
+|Name *(getter/setter)*|The parameter's name.|
+|DefaultValue  *(getter/setter)*|The parameter's default value.|
+|Required *(getter/setter)*|Whether the parameter is required.|
+|DataTypeRef *(getter/setter)*|The data type's reference.|
+
+### Attribute (ICdmAttributeDef extends ICdmAttributeItem)
+
+Attribute definition is a definition that only happens inside other definitions and unlike references it has applied traits instead of exhibit traits. Attributes can either be entity attributes or data type attributes. Entity attributes have references to another entity while data type attributes represent a specific data type (See *ICdmDataTypeDef*).
+
+|Property|Description|
+|---|---|
+|Explanation *(getter/setter)*|The attribute's explanation.|
+|Name *(getter/setter)*|The attribute's name.|
+|Purpose  *(getter/setter)*|See *Purpose*.|
+|Resolution Guidance *(getter/setter)*|The properties that guide the resolution of this attribute and interact with directives (see *ICdmAttributeResolutionGuidanceDef*).|
+
+### Attribute Group (ICdmAttributeGroupDef extends ICdmObjectDef, ICdmReferencesEntities)
+
+Attribute group is a concept which represents a group of attribute items (See ICdmAttributeItem) that provide similar role. 
+
+|Property|Description|
+|---|---|
+|AttributeContext *(getter/setter)*|The attribute group context.|
+|AttributeGroupName *(getter/setter)*|The attribute group name.
+|Members  *(getter/setter)*|The list of attribute group items for the attribute group.|
+
+### Attribute Item (ICdmAttributeItem extends ICdmObjectDef, ICdmReferencesEntities)
+
+Attribute item is a concept which represents the base class for the attribute.
+
+|Property|Description|
+|---|---|
+|AppliedTraits *(getter/setter)*|The attribute's applied traits.|
