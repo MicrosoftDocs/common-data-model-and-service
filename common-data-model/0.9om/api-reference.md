@@ -128,3 +128,34 @@ Please refer to the OM Reference section for information about the references in
 |**Refresh(...):**<br />resOpt: The resolution options.|Updates the indexes in the document. The method is supposed to be called after modifying the objects inside definitions.|Task|
 |**SaveAs(...)::**<br />*newName*: The new document's name.<br/>*options*: The copy options.<br/>*saveReferenced*: A boolean which denotes whether we want to save all the references files (linked schema definitions) as well (folio can reference different entity documents).|Saves the document back through the adapter in the requested format. Format is specified via document name/extension based on conventions: '.model.json' for back-compatibility model, '.folio.cdm.json' for folio and '.cdm.json' for CDM definitions. 	|Task|
 
+### ICdmFileStatus extends ICdmObject
+
+|Name|Description|Return type|
+|---|---|---|
+|**FileStatusCheck()**|Updates the object and any children with the current time. 	|Task|
+|**ReportMostRecentTime(...):**<br />*childTime (DateTimeOffet) [optional]*: The biggest child time. This parameter will get updated as a result of the function.|Reports the most recent modified time of the object (or children) to the parent object. It also modified the childTime parameter with the biggest child time.	|Task|
+
+### ICdmFolio extends ICdmObjectDef, ICdmDocumentDef, ICdmFileStatusExtended
+
+|Name|Description|Return type|
+|---|---|---|
+|**PopulateEntityRelationships()**|Populates the relationships that the entities in the current folio are involved in. This function is used to pre-calculate relationships what leads to optimizations during resolution process.|Task|
+|**CreateResolvedFolio(...):**<br />*newFolioName*: The new folio name. <br/>*newEntityDocumentNameFormat*:  Specifies a pattern to use when creating documents for resolved entities. The default is "resolved/{n}.cdm.json" to avoid a document name conflict with documents in the same folder as the folio.|Creates a resolved copy of folio. Every instance of the string {n} from the argument is replaced with the entity name from the source folio and any sub-folders described by the pattern should exist in the corpus prior to calling this function. A folio with all the entities resolved is returned.|Task<ICdmFolioDef>|
+|**QueryOnTraits(...):**<br/>*querySpec*: A JSON object (or a string that can be parsed into one) of the form *{"entityName":"", "attributes":[{see QueryOnTraits for ICdmEntityDef for details}]}*|Query the folio for a set of entities that match an input query. Returns null for 0 results or an array of JSON objects, each matching the shape of the input query, with entity and attribute names filled in.	|Task<List<JToken>>|
+
+### ICdmTypeAttributeDef extends ICdmAttributeDef
+
+|Name|Description|Return type|
+|---|---|---|
+|**GetProperty(...):**<br/>*propertyName*: The property name.|Returns the value directly assigned to a property (ignore value from traits).	|dynamic|
+
+### ICdmCorpusDef extends ICdmFolderDef
+
+|Name|Description|Return type|
+|---|---|---|
+|**CreateStorageAdapter(...):**<br/>*config (JToken)*: The configuration.|Creates a storage adapter from configuration (Please refer to samples to find out more about how to specify configuration).	|IStorageAdapter|
+|**RegisterStorageAdapter(...):**<br/>*namespace*: The namespace<br/>*adapter*: The storage adapter|Registers the storage adapter with the specified namespace.|void|
+|**GetStorageAdapter(...):**<br/>*namespace*: The namespace|Retrieves the storage adapter with the specified namespace.	|IStorageAdapter|
+|**GetRootFolder(...):**<br/>*namespace*: The namespace|Given the namespace and a registered storage adapter, returns the root folder containing the sub-folders and documents.	|ICdmFolderDef|
+|**CreateRootFolio(...):**<br/>*corpusPath*: The corpus path|Creates a folio from the corpus path that points to a specific document.	|Task<ICdmFolioDef>|
+|**MakeRef<T>(...):**<br/>*ofType*: Of what type. <br/>*refObj [optional]*: The reference object. <br/> *simpleNameRef [optional]*: Whether is it a simple name reference.	| Instantiates an OM class reference based on the object type passed as the first parameter.|T|
