@@ -55,5 +55,26 @@ Please refer to the OM Reference section for information about the references in
 
 |Name|Description|Return type|
 |---|---|---|
-|**CopyNode(...):**<br/>resOpt: The resolve options.|Returns a copy of only the current attribute context node.|ICdmObject|
-|**CopyAttributeContextTree(...):**<br/>resOpt: The resolve options.<br/>newNode: The new root node of the attribute context tree.<br/>ras: The resolved attribute set.<br/>attCtxSet [optional]: The set of attribute context.|Returns a copy of the attribute context tree.|AttributeContextImpl|
+|**CopyNode(...):**<br/>*resOpt*: The resolve options.|Returns a copy of only the current attribute context node.|ICdmObject|
+|**CopyAttributeContextTree(...):**<br/>*resOpt*: The resolve options.<br/>newNode: The new root node of the attribute context tree.<br/>*ras*: The resolved attribute set.<br/>*attCtxSet [optional]*: The set of attribute context.|Returns a copy of the attribute context tree.|AttributeContextImpl|
+
+### ICdmAttributeDef extends ICdmAttributeItem
+
+|Name|Description|Return type|
+|---|---|---|
+|**AddAppliedTraits(...):**<br />*traitDef*: The trait definition, either string representing the name or ICdmTraitRef object.<br/>*implicitRef [optional]*: The boolean that denotes is the trait is implicit trait, it is used only if the name is provided as a trait definition.|Adds the specified trait definition to the list of applied traits.|CdmObject|
+|**RemoveAppliedTrait(...):**<br />*traitDef*: The trait definition, either string representing the name or ICdmTraitRef object.|Adds a trait to the applied trait list. |ICdmTraitRef|
+
+### ICdmAttributeGroupDef extends ICdmObjectDef, ICdmReferencesEntities
+
+|Name|Description|Return type|
+|---|---|---|
+|**AddAppliedTraits(...):**<br />*traitDef*: The trait definition, either string representing the name or ICdmTraitRef object.<br/>*implicitRef [optional]*: The boolean that denotes is the trait is implicit trait, it is used only if the name is provided as a trait definition.|Adds the specified trait definition to the list of applied traits.|CdmObject|
+
+### ICdmEntityDef extends ICdmObjectDef, ICdmReferencesEntities
+
+|Name|Description|Return type|
+|---|---|---|
+|**CountInheritedAttributes(...):**<br />*resOpt*: The resolve options.|Returns the count of attributes inherited by the entity.|int|
+|**CreateResolvedEntity(...):**<br />*resOpt*: The resolve options.<br/>newDocName: The new document name.<br/>folder [optional]: The folder which will be used as a target corpus path, uses in-document folder (property on the entity) if not specified.|Creates a resolved copy of the entity.|Task<ICdmEntityDef>|
+
