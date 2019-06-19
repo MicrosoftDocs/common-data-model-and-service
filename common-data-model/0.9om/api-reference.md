@@ -20,4 +20,6 @@ Examples of resolved classes include ResolvedAttribute, ResolvedAttributeSet, Re
 
 The persistence folder contains code which enables persistence of the OM and it contains two main folders: CdmFolders and ModelJson. CdmFolders code can persist code in CDM format as '.folio.json' or 'cdm.json', while ModelJson persists CDM OM into Model.json OM with the '.model.json' extension. The main class that deals with persistence is the static *PersistenceLayer* class:
 
-|ToData<T, U>(...): |Date and time when the record was created.|Converts the object from a CDM object type T to the persistent type U.|U|
+|Function name|Function description|Function return type|
+|---|---|---|
+|**ToData<T, U>(...):**|Converts the object from a CDM object type T to the persistent type U.|U|
