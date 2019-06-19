@@ -91,3 +91,31 @@ Trait is a concept that helps in expressing semantic meaning and structural guid
 |HasParameters *(getter)*|The trait's parameters.|
 |TraitName *(getter/setter)*|The trait's name.|
 |Ugly *(getter/setter)*|False if the trait is user facing, true otherwise.|
+
+### Import (ICdmImportDef extends ICdmObject)
+
+Import is a concept used by documents to provide files/documents which need to be imported first.
+
+|Property|Description|
+|---|---|
+|CorpusPath *(getter/setter)*|The import's corpus path.|
+|Moniker *(getter/setter)*| A nickname used for imports to specify which document to import in the case of duplicate symbols (e.g. we might have multiple Account documents, but by specifying a moniker 'base_Account', we can pinpoint the exact document).|
+|ResolvedDocument *(getter)*|The document that has been resolved for this import.|
+
+### Data Type (ICdmDataTypeDef extends ICdmObjectDef)
+
+Data type is a concept to provides ability to assign different data types to attributes such as string, boolean, etc.
+
+|Property|Description|
+|---|---|
+|DataTypeName *(getter/setter)*|The data type's name.|
+|ExtendsDataType *(getter/setter)*|The data type extended by this data type.|
+
+### Purpose (ICdmPurposeDef extends ICdmObjectDef)
+
+Purpose is a concept that provides to an attribute what it does for an entity (e.g. *SortedBy*, *NamedBy*). 
+
+|Property|Description|
+|---|---|
+|ExtendsPurpose *(getter/setter)*|The reference to the purpose extended by this purpose.|
+|PurposeName *(getter/setter)*|The purpose name.|
