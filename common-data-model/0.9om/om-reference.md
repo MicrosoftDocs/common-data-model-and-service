@@ -393,10 +393,14 @@ Other references are just empty intefaces extending from ICdmObjectRef and examp
 
 ### Resolve Options
 
+|Property|Description|
+|---|---|
 |WrtDoc *(getters/setter)*|The document to use as a point of reference when resolving relative paths and symbol names.|
 |Directives *(getter/setter)*|A set of string flags that direct how attribute resolving traits behave (e.g. *normalized*, *structured*, ...).|
 
 ### Copy Options
 
+|Property|Description|
+|---|---|
 |StringRefs? *(getter/setter)*|A boolean that denotes whether to turn simple named string object references into objects with a relative path.|
 |RemoveSingleRowLocalizedTableTraits  *(getter/setter)*|A boolean that, if true, keeps us from serializing the displayText and descriptions traits as stand-alone traits with just one record in them and it makes JSON look better.|
