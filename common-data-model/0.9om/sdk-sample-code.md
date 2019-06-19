@@ -179,14 +179,12 @@ The entity abstract definition is done, add the document to the corpus in the ro
 
 ```csharp
 cdmCorpus.GetRootFolder("local").AddDocument("MobileCareTeam.cdm.json", docAbs);
-
 ```
 
 The next step is to remove all of the guesswork out of decoding the entity shape by 'resolving' it to a relational by reference shape.
 
 ```csharp
 var resOpt = new ResolveOptions
-
 {
 
 WrtDoc = docAbs, // This value is important, it sets a point of view for resolving symbolic references, usually you want to use 'this' document.
@@ -208,7 +206,6 @@ Update all of the file status times in the folio.
 
 ```csharp
 await folio.RefreshFileStatus();
-
 ```
 
 And save the folio along with linked definition files.
@@ -260,11 +257,10 @@ foreach (ICdmEntityDeclarationDef entDec in folio.Entities)
               {
                 // Do something with the trait.
               }
-             }
+            }
                   // Stop the loop since we executed a local entity.
                   break;
            }
-
           iEnt++;
         }
 }
@@ -307,25 +303,15 @@ await newFolio.SaveAs("model..json", null, true);
 
 ```
 "pbi:mashup": {
-
   "fastCombine": true,
-
   "document": "sample document query",
-
   "queriesMetadata": {
-
     "Orders": {
-
     "queryId": "88bc570c-047d-460f-8eed-c0ef17649afd",
-
     "queryName": "Orders",
-
     "loadEnabled": true
-
     }
-
   }
-
 }
 ```
 
@@ -333,38 +319,21 @@ await newFolio.SaveAs("model..json", null, true);
 
 ```
 {
-
 "traitReference": "is.extension.pbi:mashup",
-
 "arguments": [
-
   {
-
   "name": "fastCombine",
-
   "value": "True"
-
   },
-
   {
-
   "name": "document",
-
   "value": "sample document query"
-
   },
-
   {
-
   "name": "queriesMetadata",
-
   "value": {
-
   "Orders": {
-
   "queryId": "88bc570c-047d-460f-8eed-c0ef17649afd",
-
   "queryName": "Orders",
-
   "loadEnabled": true }}}]}
 ```
