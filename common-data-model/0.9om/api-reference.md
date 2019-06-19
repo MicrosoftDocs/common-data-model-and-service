@@ -24,20 +24,36 @@ The persistence folder contains code which enables persistence of the OM and it 
 |---|---|---|
 |**ToData<T, U>(...):**<br />*instance (T)*: The CDM object instance.<br/>*resOpt*: The resolve options.<br/>*copyOpt*: The copy options.<br/>*persistenceTypeName*: The persistence type name which needs to be called.|Converts the object from a CDM object type T to the persistent type U.|U|
 
-# References
+## References
 
 Please refer to the OM Reference section for information about the references in the OM. All reference objects extend from ICdmObjectRef, and this section will have a list of all references which implement some API.
 
-## ICdmObjectRef extends ICdmObject
+### ICdmObjectRef extends ICdmObject
 
 |Name|Description|Return type|
 |---|---|---|
 |**AddAppliedTraits(...):**<br />*traitDef*: The trait definition, either string representing the name or ICdmTraitRef object.<br/>*implicitRef [optional]*: The boolean that denotes is the trait is implicit trait, it is used only if the name is provided as a trait definition.|Adds a trait to the applied trait list. |ICdmTraitRef|
 |**RemoveAppliedTrait(...):**<br />*traitDef*: The trait definition, either string representing the name or ICdmTraitRef object.|Adds a trait to the applied trait list. |ICdmTraitRef|
 
-## ICdmTraitRef extends ICdmObjectRef
+### ICdmTraitRef extends ICdmObjectRef
+
 |Name|Description|Return type|
 |---|---|---|
 |**AddArgument(...):**<br />name: The name of the argument.<br/>value: The value of the argument.|Adds an argument with the specified name and value to the Arguments list. Arguments have to match the parameters format specified in the schema documents.|ICdmArgumentDef|
 |**GetArgumentValue(...):**<br />name: The name of the argument.|Retrieves the argument value from the arguments list for the specified name.|dynamic|
 |**SetArgumentValue(...):**<br /><br />name: The name of the argument.<br/>value: The value of the argument.|Sets the specified value to the argument with the specified name.|void|
+
+## Definitions
+
+### ICdmArgumentDef extends ICdmObject
+
+|Name|Description|Return type|
+|---|---|---|
+|**GetParamterDef():**|Returns the resolved parameter (the property on the instance of ICdmArgumentDef). Parameters are bound to arguments in a sense that trait references have arguments which need to match trait definition parameters.|ICdmParameterDef|
+
+### ICdmAttributeContext extends ICdmObjectDef
+
+|Name|Description|Return type|
+|---|---|---|
+|**CopyNode(...):**<br/>resOpt: The resolve options.|Returns a copy of only the current attribute context node.|ICdmObject|
+|**CopyAttributeContextTree(...):**<br/>resOpt: The resolve options.<br/>newNode: The new root node of the attribute context tree.<br/>ras: The resolved attribute set.<br/>attCtxSet [optional]: The set of attribute context.|Returns a copy of the attribute context tree.|AttributeContextImpl|
