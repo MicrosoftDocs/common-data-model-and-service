@@ -92,7 +92,7 @@ Please refer to the OM Reference section for information about the references in
 
 |Name|Description|Return type|
 |---|---|---|
-|**Validate():**|Validates the CDM object. Each object that implements an interface inheriting from ICdmObject implements this method in their own way to ensure that each CDM object is in the right form.|bool|
+|**Validate()**|Validates the CDM object. Each object that implements an interface inheriting from ICdmObject implements this method in their own way to ensure that each CDM object is in the right form.|bool|
 |**GetObjectDef<T>(...):**<br />*resOpt*: The resolve options.|Returns the resolved object definition when called on a reference.|T|
 |**GetObjectDefName()**|Fetches the object definition's name.|string|
 |**Copy(...):**<br />*resOpt*: The resolve options.|Returns a copy of the CDM object.|ICdmObject|
@@ -108,3 +108,13 @@ Please refer to the OM Reference section for information about the references in
 |**RemoveDocument(...):**<br/>*name*: The name of the document.|Removes a document with the specified name from the folder.|void|
 |**GetChildFolderFromPath(...):**<br />*path*: The path.<br/>*adapter*: The storage adapter where the folder can be found.<br/>*makeFolder [optional]*: Whether to create a folder if it doesn't exist.<br/>|Fetches the child folder from the specified corpus path.	|Task<ICdmFolderDef>|
 |**GetDocumentFromFolderPath(...):**<br/>*path*: The path.<br/>*adapter*: The storage adapter where the folder can be found.<br/>*forceReload [optional]*: Whether to reload the object from file and replace the current object with it.|Fetches the document from the specified folder path.|Task<ICdmDocumentDef>|
+
+### ICdmCollection<T> extends IEnumarable<T>, T extends from ICdmObject
+
+|Name|Description|Return type|
+|---|---|---|
+|**Add(...):**<br/>*name*: The name of the ICdmObject that is being added to the collection.<br/>*simpleRef*: If we are adding a reference, whether we want that reference to be a simple reference.|Adds an ICdmObject of a default type (default type can be set in the property) with a given name to the collection.|void|
+|**Add(...):**<br />*currObject*: The CDM object.|Add an ICdmObject specified in the parameter to the collection.	|void|
+|**Remove(...):(...):**<br/>*currObject*: The CDM object.|Removes the specified CDM object from the list.|boolean|
+|**Item(...):**<br />*name*: The name of a CDM object.|Fetches a CDM object with the specified name.|T|
+|**this(...):**<br/>*index*: The index of an element we want to fetch.|Fetches a CDM object from the collection in the specified index.|T|
