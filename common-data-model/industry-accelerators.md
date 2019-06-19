@@ -17,7 +17,7 @@ The Common Data Model enables horizontal consistency for customers' business dat
 - [Healthcare](health-accelerator.md)
 -	Education including [Higher Ed](hied-accelerator.md) and K-12
 -	[Nonprofit](NFP-accelerator.md)
--	[Automotive (Private Preview)](https://aka.ms/CDMEngage)
+-	[Automotive (Preview)](automotive-accelerator.md)
 -	Media
 
 
