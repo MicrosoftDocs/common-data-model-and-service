@@ -160,3 +160,24 @@ Attribute item is a concept which represents the base class for the attribute.
 |Property|Description|
 |---|---|
 |AppliedTraits *(getter/setter)*|The attribute's applied traits.|
+
+### Type Attribute (ICdmTypeAttributeDef extends ICdmAttributeDef)
+
+Type attribute is a concept which defines data type attributes alongside with supported functionality such as custom default values and description. Model.JSON attributes are converted into CDM type attributes.
+
+|Property|Description|
+|---|---|
+|AttributeContext *(getter/setter)*|The attribute context of the attribute.|
+|DataFormat *(getter/setter)*|The attribute's data format in a string format derived from traits (string, int, etc).|
+|DataType *(getter/setter)*|The attributes' data type, a CDM reference object (See *ICdmDataTypeRef*).|
+|DefaultValue *(getter/setter)*|The type attribute's default value.|
+|Description *(getter/setter)*|The type attribute's description.|
+|DisplayName *(getter/setter)*|The type attribute's display name.|
+|IsNullable? *(getter/setter)*|Whether the type attribute can be null or not.|
+|IsPrimaryKey? *(getter/setter)*|Whether the type attribute is the primary key.|
+|MaximumLength *(getter/setter)*|The type attribute's maximum length.|
+|MaximumValue *(getter/setter)*|The type attribute's maximum value (for data types that makes sense like integers).|
+|SourceName *(getter/setter)*|The type attribute's source name.|
+|SourceOrdering? *(getter/setter)*|An integer which denotes in which order do attributes exist in some underlying source system.|
+|ValueConstrainedToList? *(getter/setter)*|Whether the type attribute's value is constrained to a list, the values can only be from enums.|
+|MinimumValue *(getter/setter)*|The type attribute's minimum value (for data types that makes sense like integers).|
