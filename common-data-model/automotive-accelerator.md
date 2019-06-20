@@ -33,11 +33,11 @@ The automotive accelerator provides the following to both partners and customers
 
 With the Dynamics 365 Automotive Accelerator, you can optimize the customer experience, streamline OEM-to-dealer integration, and gain insights from analytics. When the accelerator is installed into Dynamics 365, the experience is transformed into one specifically built for automotive and it allows partners and customers to quickly build PowerApps and Power BI visualizations.
 - [**Marketing**: Test Drives - Customer Segmentation]
-- [Sales: Deals - Trade Ins - Quotes - Activities]
-- [After Sales: Service Appointments - Service Contracts - Sales Contracts - Device Warranties]
-- [Vehicles: Vehicles - Fleet]
-- [Setup Branding: Device Brand - Device Class - Device Models - Device Model Codes - Device Variant - Device Type]
-- [Setup Business: Business - Business Facility - Business Operation]
+- [**Sales**: Deals - Trade Ins - Quotes - Activities]
+- [**After Sales**: Service Appointments - Service Contracts - Sales Contracts - Device Warranties]
+- [**Vehicles**: Vehicles - Fleet]
+- [**Setup Branding**: Device Brand - Device Class - Device Models - Device Model Codes - Device Variant - Device Type]
+- [**Setup Business**: Business - Business Facility - Business Operation]
 
 Our approach includes:
 
