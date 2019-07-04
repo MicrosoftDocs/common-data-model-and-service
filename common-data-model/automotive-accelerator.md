@@ -39,14 +39,34 @@ With the Dynamics 365 Automotive Accelerator, you can optimize the customer expe
 - [**Setup Branding**: Device Brand - Device Class - Device Models - Device Model Codes - Device Variant - Device Type]
 - [**Setup Business**: Business - Business Facility - Business Operation]
 
-Our approach includes:
-
-- Create enabling technology that lowers the barrier to entry for vehicle OEMs, mobility providers, dealer groups, and importers, and to introduce standards that make for a richer customer experience.
-- Microsoft partnering with leading thought leaders in the automotive industry as well as a Steering Team comprised of global customers and partners to create an automotive common data model (CDM) that reflects the common automotive scenarios.
-- Learning from data model challenges of the past and design a streamlined, open foundation for customers and partners to rapidly build applications and connectors.
-- Incorporating data standards into the model against widely adopted data standards like STAR.
-- Harnessing the power of our partner solutions, along with the Microsoft technology stack - Azure, Office 365, Power Platform, Dynamics 365, Power BI, Microsoft Connected Vehicle Platform (MCVP), Virtual Assistance, – focused on delivering omnichannel customer experience and streamlining back office operations.
-
-
 
 ## Entities and workflows
+
+These entities are built in to the Automotive Accelerator:
+
+| **Marketing**  | **Sales**   | **customers**         | **Devices (Vehicles/Components)** | **Foundation**         |
+|------------------|-------------------|---------------------------|----------------------------------------|----------------------------------|
+| Account          | Lead              | Lead                      | Objective                              | Condition                        |
+| Contact          | Opportunity       | Opportunity               | Delivery Framework                     | Participating Org                |
+| Address          | Campaign          | Campaign                  | Budget                                 | Location                         |
+| Connection       | Designation       | OFAC Match                | Result                                 | Delivery Framework Contact       |
+| Salutation       | Designation Plan  | Docket                    | Indicator                              | Identifier                       |
+| Employment       | Credit Plan       | Recommendation            | Indicator Value                        | Delivery Framework Description   |
+| Education        | Credit Recipient  | Request                   |                                        | Recipient Country                |
+| Preference       | Designated Credit | Report                    |                                        | Recipient Region                 |
+| Volunteers*      | Donor Commitment  | Award                     |                                        | Sector                           |
+| Membership*      | Planned Giving    | Award Version             |                                        | Expenditure                      |
+| Connection*      | Payment Schedule  | Review                    |                                        | Humanitarian Scope               |
+| Connection Role* | Payment Asset     | Disbursement              |                                        | Policy Marker                    |
+|                  | Transaction       | Objective                 |                                        | Result Reference                 |
+|                  | Payment Method    | Delivery Framework        |                                        | Indicator Reference              |
+|                  | Payment Processor | Budget                    |                                        | Indicator Value Location         |
+|                  |                   | Disbursement Distribution |                                        | Dimension                        |
+|                  |                   |                           |                                        | Narrative Translation            |
+|                  |                   |                           |                                        | Non-Embedded Codelist            |
+|                  |                   |                           |                                        | Non-Embedded Codelist Vocabulary |
+|                  |                   |                           |                                        | Document Link                    |
+|                  |                   |                           |                                        | Document Category                |
+|                  |                   |                           |                                        | Document Language                |
+|                  |                   |                           |                                        | Document Country                 |
+|                  |                   |                           |                                        | Tag                              |
