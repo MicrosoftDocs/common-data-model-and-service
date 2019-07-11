@@ -44,30 +44,45 @@ With the Dynamics 365 Automotive Accelerator, you can optimize the customer expe
 
 These entities are built in to the Automotive Accelerator:
 
-| **Marketing** | **Sales**   | **customers**         | **Devices (Vehicles/Components)** | **Foundation**         |
-|------------------|-------------------|---------------------------|----------------------------------------|----------------------------------|
-| Account          | Lead              | Lead                      | Objective                              | Condition                        |
-| Contact          | Opportunity       | Opportunity               | Delivery Framework                     | Participating Org                |
-| Address          | Campaign          | Campaign                  | Budget                                 | Location                         |
-| Connection       | Designation       | OFAC Match                | Result                                 | Delivery Framework Contact       |
-| Salutation       | Designation Plan | Docket                    | Indicator                              | Identifier                       |
-| Employment       | Credit Plan       | Recommendation            | Indicator Value                        | Delivery Framework Description   |
-| Education        | Credit Recipient | Request                   |                                        | Recipient Country                |
-| Preference       | Designated Credit | Report                    |                                        | Recipient Region                 |
-| Volunteers*      | Donor Commitment | Award                     |                                        | Sector                           |
-| Membership*      | Planned Giving    | Award Version             |                                        | Expenditure                      |
-| Connection*      | Payment Schedule | Review                    |                                        | Humanitarian Scope               |
-| Connection Role* | Payment Asset     | Disbursement              |                                        | Policy Marker                    |
-|                  | Transaction       | Objective                 |                                        | Result Reference                 |
-|                  | Payment Method    | Delivery Framework        |                                        | Indicator Reference              |
-|                  | Payment Processor | Budget                    |                                        | Indicator Value Location         |
-|                  |                   | Disbursement Distribution |                                        | Dimension                        |
-|                  |                   |                           |                                        | Narrative Translation            |
-|                  |                   |                           |                                        | Non-Embedded Codelist            |
-|                  |                   |                           |                                        | Non-Embedded Codelist Vocabulary |
-|                  |                   |                           |                                        | Document Link                    |
-|                  |                   |                           |                                        | Document Category                |
-|                  |                   |                           |                                        | Document Language                |
-|                  |                   |                           |                                        | Document Country                 |
-|                  |                   |                           |                                        | Tag                              |
+| **Business Management**                | **Sales and Marketing**      | **Customers**            | **Service and After-Sales** | **Vehicle and Equipment Management** |
+|----------------------------------------|------------------------------|--------------------------|-----------------------------|--------------------------------------|
+| Aggregate KPI                          | Deal                         | Account                  | Account                     | Attribute Group                      |
+| Aggregate KPI Context                  | Deal Customer                | Contact                  | Contact                     | Attribute Option                     |
+| Aggregate KPI Measurement              | Deal Device                  | Customer Attachment      | Service Appointment         | Attribute Type                       |
+| Business                               | Deal Device Add On           | Customer Identifier      | Service Appointment Type    | Configuration Code                   |
+| Business Facility                      | Deal File                    | Customer Identifier Type | Service Contract            | Configuration Option                 |
+| Business Operation                     | Deal Terms                   | Lead                     | Service Contract Detail     | Dealer Plate                         |
+| Business Operation Customer Preference | Deal Type                    |                          | Service Contract Terms      | Dealer Plate Device Assignment       |
+| Business Type                          | Financing Opportunity        |                          | Service Contract Type       | Device                               |
+| Dealer Plate                           | Financing Opportunity Detail |                          | Service Order               | Device Brand                         |
+| Dealer Plate Device Assignment         | Lead                         |                          | Service Order Group         | Device Class                         |
+| Operation Code                         | Lead Device                  |                          | Service Order Job           | Device Component                     |
+| Operation Type                         | Lead Device Specification    |                          | Service Order Job Detail    | Device Generation                    |
+| Lead                                   | Lead Disposition             |                          | Service Order Job Type      | Device Inspection                    |
+|                                        | Lead Disposition Activity    |                          | Service Order Type          | Device Inspection Checklist          |
+|                                        | Lead Price Type              |                          | Warranty                    | Device Inspection Checklist Type     |
+|                                        | Lead Prospect                |                          | Warranty Limit              | Device License Plate                 |
+|                                        | Lead Specification Type      |                          |                             | Device Measure                       |
+|                                        | Opportunity                  |                          |                             | Device Measurement                   |
+|                                        | Sales Contract               |                          |                             | Device Meter                         |
+|                                        | Sales Contract Device        |                          |                             | Device Model                         |
+|                                        | Sales Contract Payment       |                          |                             | Device Model Code                    |
+|                                        | Sales Contract Terms         |                          |                             | Device Observation                   |
+|                                        | Sales Contract Type          |                          |                             | Device Observation Type              |
+|                                        | Test Drive                   |                          |                             | Device Registration                  |
+|                                        | Trade In                     |                          |                             | Device Sensor                        |
+|                                        |                              |                          |                             | Device State                         |
+|                                        |                              |                          |                             | Device Style                         |
+|                                        |                              |                          |                             | Device Type                          |
+|                                        |                              |                          |                             | Device Variant                       |
+|                                        |                              |                          |                             | Device Warranty                      |
+|                                        |                              |                          |                             | Device Warranty Limit                |
+|                                        |                              |                          |                             | Fleet                                |
+|                                        |                              |                          |                             | Fleet Device                         |
+|                                        |                              |                          |                             | Lead Device                          |
+|                                        |                              |                          |                             | Specification                        |
+|                                        |                              |                          |                             | Specification Accessory              |
+|                                        |                              |                          |                             | Specification Attribute              |
+|                                        |                              |                          |                             | Unit                                 |
+
 
