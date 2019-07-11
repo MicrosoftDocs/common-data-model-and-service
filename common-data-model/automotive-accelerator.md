@@ -86,7 +86,18 @@ These entities are built in to the Automotive Accelerator:
 
 The Dynamics 365 Automotive Accelerator can be used with Power Platform or combined with standard Dynamics 365 entities to make it easier to build solutions. This section describes just a few of the forms, views, and dashboards that demonstrate how the Automotive Accelerator extends the Microsoft Common Data Model, the Power Platform, and Dynamics 365.
 
-### Lead disposition
+### Lead disposition form
 The Automotive CDM supports inbound lead data based on the STAR guidelines. The form below showcases a sample lead disposition process based on a consistent set of activities while highlighting native Dynamics 365 AI and Insight capabilities for Predictive Lead Scoring and Relationship Analytics.
 
 ![Lead form](media/auto-lead.png)
+
+### Opportunity form
+The opportunity form shows key details, provides deep insights based Dynamics 365 Relationship Analytics, and presents users with relevant data associated with the opportunity (Test Drive activities, Deal Files, Product line items).
+
+![Opportunity form](media/auto-opportunity.png)
+
+### Vehicle inventory dashboard
+Example of Power BI dashboards embedded within Dynamics 365 in the Automotive Accelerator sample application. With the example vehicle inventiry dashboard, the inventory manager can quickly gain insights into total inventory/assets cost, number of available units, aged inventory value percentage  by model year, list price by model year or drill down into inventory breakdown by month received.
+
+![Vehicle inventory dashboard](media/auto-vehicleInventory.png)
+
