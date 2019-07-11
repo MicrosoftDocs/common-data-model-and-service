@@ -92,7 +92,7 @@ The Automotive CDM supports inbound lead data based on the [STAR](https://www.st
 ![Lead form](media/auto-lead.png)
 
 ### Opportunity form
-The opportunity form shows key details, provides deep insights based Dynamics 365 Relationship Analytics, and presents users with relevant data associated with the opportunity (Test Drive activities, Deal Files, Product line items).
+The opportunity form shows key details, provides deep insights based Dynamics 365 Relationship Analytics, Opportunity Scoring and presents users with relevant data associated with the opportunity (Test Drive activities, Deal Files, Product line items).
 
 ![Opportunity form](media/auto-opportunity.png)
 
