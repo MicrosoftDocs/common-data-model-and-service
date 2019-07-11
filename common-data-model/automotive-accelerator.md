@@ -101,3 +101,19 @@ Example of Power BI dashboards embedded within Dynamics 365 in the Automotive Ac
 
 ![Vehicle inventory dashboard](media/auto-vehicleInventory.png)
 
+
+## Supported SKUs
+
+| **-**                  | **Core CDM as CDM Folder**  | **Core CDM without Apps on CDS**                                                                                                                            | **Dynamics Sales**                | **Dynamics Service app**          | **Field Service**                 | **Project Service**               | **PowerApps & Office**                                                                                                                                                                |
+|------------------------|------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                        | Azure Data lake Storage Gen2 | [PowerApps standalone Plan 1 and Plan 2](https://docs.microsoft.com/en-us/power-platform/admin/pricing-billing-skus#powerapps-standalone-plan-1-and-plan-2) | Dynamics Sales OR                 | Dynamics Service OR               | Dynamics Field Service OR         | Dynamics Project Service OR       | [PowerApps for Office 365/ PowerApps for Office 365 Enterprise F1](https://docs.microsoft.com/en-us/power-platform/admin/pricing-billing-skus#powerapps-for-office-365-enterprise-f1) |
+|                        |                              |                                                                                                                                                             | Dynamics Customer Engagement plan | Dynamics Customer Engagement plan | Dynamics Customer Engagement plan | Dynamics Customer Engagement plan |                                                                                                                                                                                       |
+| Automotive Accelerator | Yes                          | Yes                                                                                                                                                         | Yes                               | Yes                               | No                                | No                                | Yes - CDM Folder with Office Integration                                                                                                                                              |
+
+
+## Additional resources
+
+- Find the Automotive Accelerator here on [Microsoft AppSource](https://appsource.microsoft.com/en-us/product/dynamics-365/msauto.msftautomotivecommondatamodel?tab=Overview).
+
+- The Automotive Accelerator is provided as part of the open-source creative license and available on [GitHub](https://github.com/microsoft/Industry-Accelerator-Automotive).
+
