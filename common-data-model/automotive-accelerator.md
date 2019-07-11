@@ -82,3 +82,8 @@ These entities are built in to the Automotive Accelerator:
 |                                        |                              |                          |                             | Unit                                 |
 
 
+## Forms and dashboards
+
+The Dynamics 365 Automotive Accelerator can be used with Power Platform or combined with standard Dynamics 365 entities to make it easier to build solutions. This section describes just a few of the forms, views, and dashboards that demonstrate how the Automotive Accelerator extends the Microsoft Common Data Model, the Power Platform, and Dynamics 365.
+
+# Customer 360 form
