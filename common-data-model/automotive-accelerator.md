@@ -115,7 +115,7 @@ Example of Power BI dashboards embedded within Dynamics 365 in the Automotive Ac
 
 ## Additional resources
 
-- Find the Automotive Accelerator here on [Microsoft AppSource](https://appsource.microsoft.com/en-us/product/dynamics-365/msauto.msftautomotivecommondatamodel?tab=Overview).
+- Find the Automotive Accelerator on [Microsoft AppSource](https://appsource.microsoft.com/en-us/product/dynamics-365/msauto.msftautomotivecommondatamodel?tab=Overview).
 
-- The Automotive Accelerator is provided as part of the open-source creative license and available on [GitHub](https://github.com/microsoft/Industry-Accelerator-Automotive).
+- The Automotive Accelerator is provided as part of the open-source Creative Commons license and available on [GitHub](https://github.com/microsoft/Industry-Accelerator-Automotive).
 
