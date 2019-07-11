@@ -7,6 +7,8 @@
     items:
       - name: Overview
         href: industry-accelerators.md
+      - name: Automotive Accelerator
+        href: automotive-accelerator.md
       - name: Banking Accelerator
         href: banking-accelerator.md
       - name: Healthcare Accelerator
