@@ -11,12 +11,8 @@ ms.author: smithc
 
 # The Dynamics 365 Automotive Accelerator
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 With the [Dynamics 365 Automotive Accelerator](https://appsource.microsoft.com/product/dynamics-365/msauto.msftautomotivecommondatamodel?tab=Overview), you can develop solutions based on entities and attributes that dealerships and OEMs commonly leverage for customer experience and other business processes. These entities include deals, sales contracts, specifications, fleet, warranties, inspection, test drives, branding, business, customer-vehicle relationship, vehicle and equipment, lead, service and after-sales management, and more. The accelerator includes an automotive data model, PowerBI apps, canvas and model-driven sample apps based on connected experiences.
 
-> [!IMPORTANT]
-> The Automotive Accelerator is a preview feature.
 
 The automotive accelerator provides the following to partners and customers:
 
