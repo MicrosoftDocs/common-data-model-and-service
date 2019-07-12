@@ -12,12 +12,7 @@ ms.author: jgalvin
 
 # The Dynamics 365 Banking Accelerator
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 With the [Dynamics 365 Banking Accelerator](https://appsource.microsoft.com/product/dynamics-crm/msfsi.bankingcommondatamodel?tab=Overview), you can develop solutions based on entities and attributes that banks commonly leverage for customer experience and other business processes. These entities include banks, branches, financial products, loans, referrals, limits, requested facilities, and more. The accelerator includes a banking data model, sample apps, dashboards, and connected experiences for both Retail Banking and Commercial Banking.
-
-> [!IMPORTANT]
-> The Banking Accelerator is a preview feature.
 
 The banking accelerator provides the following to both partners and customers:
 
