@@ -120,3 +120,5 @@ Example of Power BI dashboards embedded within Dynamics 365 in the Automotive Ac
 
 - [Microsoft Dynamics 365 Automotive Accelerator First Look - Industry Trends and Value Propositions](https://github.com/MicrosoftDocs/common-data-model-pr/blob/AutoAccelerator_WhitePaperLink/common-data-model/media/Microsoft%20Dynamics%20365%20Automotive%20Accelerator%20First%20Look%20-%20Industry%20Trends%20and%20Value%20Propositions%20Whitepaper.pdf)
 
+- [Microsoft Inspire blog about the new ISV Connect program and Accelerators: Accelerating opportunities for ISVs with new programs and technology](https://cloudblogs.microsoft.com/dynamics365/bdm/2019/07/11/accelerating-opportunities-for-isvs-with-new-programs-and-technology/)
+
