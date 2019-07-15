@@ -118,3 +118,5 @@ Example of Power BI dashboards embedded within Dynamics 365 in the Automotive Ac
 
 - The Automotive Accelerator is provided as part of the open-source Creative Commons license and available on [GitHub](https://github.com/microsoft/Industry-Accelerator-Automotive).
 
+- [Microsoft Inspire blog about the new ISV Connect program and Accelerators: Accelerating opportunities for ISVs with new programs and technology](https://cloudblogs.microsoft.com/dynamics365/bdm/2019/07/11/accelerating-opportunities-for-isvs-with-new-programs-and-technology/)
+
