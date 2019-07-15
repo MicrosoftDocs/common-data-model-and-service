@@ -5,7 +5,7 @@ author: smithy7
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 07/10/2019
+ms.date: 07/15/2019
 ms.author: smithc
 ---
 
