@@ -3,9 +3,9 @@ title: Contact - Common Data Model | Microsoft Docs
 description: Person with whom a business unit has a relationship, such as a customer, a supplier, or a colleague.
 author: nenad1002
 ms.service: common-data-model
-ms.reviewer: anneta
+ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/8/2019
+ms.date: 8/14/2019
 ms.author: nebanfic
 ---
 
@@ -23,8 +23,10 @@ Instances of this entity are listed below.
 - [/foundationCommon/Contact](../../../Contact.md "/core/applicationCommon/foundationCommon/Contact.cdm.json/Contact")  
 - [/foundationCommon/crmCommon/Contact](../../Contact.md "/core/applicationCommon/foundationCommon/crmCommon/Contact.cdm.json/Contact")  
 - [/foundationCommon/crmCommon/accelerators/education/higherEducation/Contact](../../accelerators/education/higherEducation/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Contact.cdm.json/Contact")  
+- [/foundationCommon/crmCommon/accelerators/financialServices/banking/Contact](../../accelerators/financialServices/banking/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/Contact.cdm.json/Contact")  
 - [/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Contact](../../accelerators/healthCare/electronicMedicalRecords/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Contact.cdm.json/Contact")  
 - [/foundationCommon/crmCommon/accelerators/nonProfit/Contact](../../accelerators/nonProfit/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Contact.cdm.json/Contact")  
+- [/foundationCommon/crmCommon/projectCommon/Contact](../../projectCommon/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/projectCommon/Contact.cdm.json/Contact")  
 - [/foundationCommon/crmCommon/solutions/marketing/Contact](../marketing/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Contact.cdm.json/Contact")  
 - /foundationCommon/crmCommon/solutions/portals/Contact  
 
@@ -33,17 +35,17 @@ Instances of this entity are listed below.
 |Name|Description|First Included in Instance|
 |---|---|---|
 |[createdOn](#createdOn)|Date and time when the record was created.|<a href="../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[createdBy](#createdBy)|Shows who created the record.|<a href="../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[createdBy](#createdBy)|Unique identifier of the user who created the record.|<a href="../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
 |[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[modifiedBy](#modifiedBy)|Unique identifier of the user who modified the record.|<a href="../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the record.|<a href="../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who modified the record.|<a href="../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
 |[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[ownerId](#ownerId)|Owner Id|<a href="../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[ownerIdType](#ownerIdType)||<a href="../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[ownerId](#ownerId)||<a href="../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
 |[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[owningUser](#owningUser)|Unique identifier for the user that owns the record.|<a href="../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
 |[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
@@ -293,12 +295,12 @@ First included in: <a href="../../../../Contact.md" target="_blank">applicationC
 
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
-Shows who created the record.  
+Unique identifier of the user who created the record.  
 First included in: <a href="../../../../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By</td></tr><tr><td>description</td><td>Shows who created the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By</td></tr><tr><td>description</td><td>Unique identifier of the user who created the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdby</td></tr></table>
 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
@@ -311,30 +313,30 @@ First included in: <a href="../../../../Contact.md" target="_blank">applicationC
 
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
-Shows who last updated the record.  
+Unique identifier of the user who modified the record.  
 First included in: <a href="../../../../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By</td></tr><tr><td>description</td><td>Shows who last updated the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By</td></tr><tr><td>description</td><td>Unique identifier of the user who modified the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedby</td></tr></table>
 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
-Shows who created the record on behalf of another user.  
+Unique identifier of the delegate user who created the record.  
 First included in: <a href="../../../../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By (Delegate)</td></tr><tr><td>description</td><td>Shows who created the record on behalf of another user.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdonbehalfby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By (Delegate)</td></tr><tr><td>description</td><td>Unique identifier of the delegate user who created the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdonbehalfby</td></tr></table>
 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
-Shows who last updated the record on behalf of another user.  
+Unique identifier of the delegate user who modified the record.  
 First included in: <a href="../../../../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By (Delegate)</td></tr><tr><td>description</td><td>Shows who last updated the record on behalf of another user.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedonbehalfby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By (Delegate)</td></tr><tr><td>description</td><td>Unique identifier of the delegate user who modified the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedonbehalfby</td></tr></table>
 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
@@ -356,21 +358,19 @@ First included in: <a href="../../../../Contact.md" target="_blank">applicationC
 
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
-The type of owner, either User or Team.  
 First included in: <a href="../../../../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owner Type</td></tr><tr><td>description</td><td>The type of owner, either User or Team.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>sourceName</td><td>owneridtype</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
-Owner Id  
 First included in: <a href="../../../../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owner</td></tr><tr><td>description</td><td>Owner Id</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>sourceName</td><td>ownerid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>Guid</td></tr></table>
 
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
@@ -383,12 +383,12 @@ First included in: <a href="../../../../Contact.md" target="_blank">applicationC
 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
-Unique identifier for the user that owns the record.  
+Unique identifier of the user that owns the activity.  
 First included in: <a href="../../../../Contact.md" target="_blank">applicationCommon/Contact</a>  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier for the user that owns the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier of the user that owns the activity.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 

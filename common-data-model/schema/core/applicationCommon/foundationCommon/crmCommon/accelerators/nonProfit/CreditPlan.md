@@ -1,17 +1,17 @@
 ---
 title: CreditPlan - Common Data Model | Microsoft Docs
-description: This describes the CreditPlan entitity.
+description: Credit Plans control who will be credited with hard or soft credits after a payment clears.
 author: nenad1002
 ms.service: common-data-model
-ms.reviewer: anneta
+ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/8/2019
+ms.date: 8/14/2019
 ms.author: nebanfic
 ---
 
 # Credit Plan
 
-Information about who will be credited with hard or soft credits after a payment clears. A credit plan could "count" for membership or other benefit before a payment actually clears. A credit plan appears as a line item that's attached to a pledge, a payment schedule, or an account. The goal of a credit plan is to avoid the double counting of hard, soft, and split crediting. The most elegant way to manage a credit plan is by ensuring that business rules are in place, such as an "auto" soft credit rule that's attached to an account, a contact, an opportunity, or a donor commitment depending on the conditions met. Credit plans can count toward fulfilling a benefit even if they are never fully realized as a hard or soft credit.  
+Credit Plans control who will be credited with hard or soft credits after a payment clears.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/CreditPlan.cdm.json" target="_blank">GitHub</a>.  
 
@@ -26,17 +26,17 @@ Instances of this entity are listed below.
 |Name|Description|First Included in Instance|
 |---|---|---|
 |[createdOn](#createdOn)|Date and time when the record was created.|<a href="CreditPlan.md" target="_blank">nonProfit/CreditPlan</a>|
-|[createdBy](#createdBy)|Shows who created the record.|<a href="CreditPlan.md" target="_blank">nonProfit/CreditPlan</a>|
+|[createdBy](#createdBy)|Unique identifier of the user who created the record.|<a href="CreditPlan.md" target="_blank">nonProfit/CreditPlan</a>|
 |[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="CreditPlan.md" target="_blank">nonProfit/CreditPlan</a>|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="CreditPlan.md" target="_blank">nonProfit/CreditPlan</a>|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="CreditPlan.md" target="_blank">nonProfit/CreditPlan</a>|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="CreditPlan.md" target="_blank">nonProfit/CreditPlan</a>|
+|[modifiedBy](#modifiedBy)|Unique identifier of the user who modified the record.|<a href="CreditPlan.md" target="_blank">nonProfit/CreditPlan</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the record.|<a href="CreditPlan.md" target="_blank">nonProfit/CreditPlan</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who modified the record.|<a href="CreditPlan.md" target="_blank">nonProfit/CreditPlan</a>|
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="CreditPlan.md" target="_blank">nonProfit/CreditPlan</a>|
 |[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="CreditPlan.md" target="_blank">nonProfit/CreditPlan</a>|
 |[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="CreditPlan.md" target="_blank">nonProfit/CreditPlan</a>|
 |[ownerId](#ownerId)|Owner Id|<a href="CreditPlan.md" target="_blank">nonProfit/CreditPlan</a>|
 |[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="CreditPlan.md" target="_blank">nonProfit/CreditPlan</a>|
-|[owningUser](#owningUser)|Unique identifier for the user that owns the record.|<a href="CreditPlan.md" target="_blank">nonProfit/CreditPlan</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="CreditPlan.md" target="_blank">nonProfit/CreditPlan</a>|
 |[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="CreditPlan.md" target="_blank">nonProfit/CreditPlan</a>|
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="CreditPlan.md" target="_blank">nonProfit/CreditPlan</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="CreditPlan.md" target="_blank">nonProfit/CreditPlan</a>|
@@ -65,12 +65,12 @@ First included in: nonProfit/CreditPlan (this entity)
 
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
-Shows who created the record.  
+Unique identifier of the user who created the record.  
 First included in: nonProfit/CreditPlan (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By</td></tr><tr><td>description</td><td>Shows who created the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By</td></tr><tr><td>description</td><td>Unique identifier of the user who created the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdby</td></tr></table>
 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
@@ -83,30 +83,30 @@ First included in: nonProfit/CreditPlan (this entity)
 
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
-Shows who last updated the record.  
+Unique identifier of the user who modified the record.  
 First included in: nonProfit/CreditPlan (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By</td></tr><tr><td>description</td><td>Shows who last updated the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By</td></tr><tr><td>description</td><td>Unique identifier of the user who modified the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedby</td></tr></table>
 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
-Shows who created the record on behalf of another user.  
+Unique identifier of the delegate user who created the record.  
 First included in: nonProfit/CreditPlan (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By (Delegate)</td></tr><tr><td>description</td><td>Shows who created the record on behalf of another user.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdonbehalfby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By (Delegate)</td></tr><tr><td>description</td><td>Unique identifier of the delegate user who created the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdonbehalfby</td></tr></table>
 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
-Shows who last updated the record on behalf of another user.  
+Unique identifier of the delegate user who modified the record.  
 First included in: nonProfit/CreditPlan (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By (Delegate)</td></tr><tr><td>description</td><td>Shows who last updated the record on behalf of another user.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedonbehalfby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By (Delegate)</td></tr><tr><td>description</td><td>Unique identifier of the delegate user who modified the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedonbehalfby</td></tr></table>
 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
@@ -155,12 +155,12 @@ First included in: nonProfit/CreditPlan (this entity)
 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
-Unique identifier for the user that owns the record.  
+Unique identifier of the user that owns the activity.  
 First included in: nonProfit/CreditPlan (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier for the user that owns the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier of the user that owns the activity.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 

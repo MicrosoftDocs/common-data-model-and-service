@@ -3,9 +3,9 @@ title: BusinessUnit - Common Data Model | Microsoft Docs
 description: Business, division, or department in the Microsoft Dynamics 365 database.
 author: nenad1002
 ms.service: common-data-model
-ms.reviewer: anneta
+ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/8/2019
+ms.date: 8/14/2019
 ms.author: nebanfic
 ---
 

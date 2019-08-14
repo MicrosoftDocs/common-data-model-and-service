@@ -1,4 +1,3 @@
-
 - name: Summary
   href: overview.md
 - name: foundationCommon
@@ -13,6 +12,190 @@
       items: 
       - name: Summary
         href: foundationCommon/crmCommon/accelerators/overview.md
+      - name: automotive
+        items: 
+        - name: Summary
+          href: foundationCommon/crmCommon/accelerators/automotive/overview.md
+        - name: AggregateKPI 
+          href: foundationCommon/crmCommon/accelerators/automotive/AggregateKPI.md
+        - name: AggregateKPIContext 
+          href: foundationCommon/crmCommon/accelerators/automotive/AggregateKPIContext.md
+        - name: AggregateKPIMeasurement 
+          href: foundationCommon/crmCommon/accelerators/automotive/AggregateKPIMeasurement.md
+        - name: AttributeGroup 
+          href: foundationCommon/crmCommon/accelerators/automotive/AttributeGroup.md
+        - name: AttributeOption 
+          href: foundationCommon/crmCommon/accelerators/automotive/AttributeOption.md
+        - name: AttributeType 
+          href: foundationCommon/crmCommon/accelerators/automotive/AttributeType.md
+        - name: AutoLeadToOpportunitySalesProcess 
+          href: foundationCommon/crmCommon/accelerators/automotive/AutoLeadToOpportunitySalesProcess.md
+        - name: Business 
+          href: foundationCommon/crmCommon/accelerators/automotive/Business.md
+        - name: BusinessFacility 
+          href: foundationCommon/crmCommon/accelerators/automotive/BusinessFacility.md
+        - name: BusinessOperation 
+          href: foundationCommon/crmCommon/accelerators/automotive/BusinessOperation.md
+        - name: BusinessOperationCustomerPreference 
+          href: foundationCommon/crmCommon/accelerators/automotive/BusinessOperationCustomerPreference.md
+        - name: BusinessType 
+          href: foundationCommon/crmCommon/accelerators/automotive/BusinessType.md
+        - name: ConfigurationCode 
+          href: foundationCommon/crmCommon/accelerators/automotive/ConfigurationCode.md
+        - name: ConfigurationOption 
+          href: foundationCommon/crmCommon/accelerators/automotive/ConfigurationOption.md
+        - name: CustomerAttachment 
+          href: foundationCommon/crmCommon/accelerators/automotive/CustomerAttachment.md
+        - name: CustomerIdentifier 
+          href: foundationCommon/crmCommon/accelerators/automotive/CustomerIdentifier.md
+        - name: CustomerIdentifierType 
+          href: foundationCommon/crmCommon/accelerators/automotive/CustomerIdentifierType.md
+        - name: Deal 
+          href: foundationCommon/crmCommon/accelerators/automotive/Deal.md
+        - name: DealCustomer 
+          href: foundationCommon/crmCommon/accelerators/automotive/DealCustomer.md
+        - name: DealDevice 
+          href: foundationCommon/crmCommon/accelerators/automotive/DealDevice.md
+        - name: DealDeviceAddOn 
+          href: foundationCommon/crmCommon/accelerators/automotive/DealDeviceAddOn.md
+        - name: DealerPlate 
+          href: foundationCommon/crmCommon/accelerators/automotive/DealerPlate.md
+        - name: DealerPlateDeviceAssignment 
+          href: foundationCommon/crmCommon/accelerators/automotive/DealerPlateDeviceAssignment.md
+        - name: DealFile 
+          href: foundationCommon/crmCommon/accelerators/automotive/DealFile.md
+        - name: DealTerm 
+          href: foundationCommon/crmCommon/accelerators/automotive/DealTerm.md
+        - name: DealType 
+          href: foundationCommon/crmCommon/accelerators/automotive/DealType.md
+        - name: Device 
+          href: foundationCommon/crmCommon/accelerators/automotive/Device.md
+        - name: DeviceBrand 
+          href: foundationCommon/crmCommon/accelerators/automotive/DeviceBrand.md
+        - name: DeviceClass 
+          href: foundationCommon/crmCommon/accelerators/automotive/DeviceClass.md
+        - name: DeviceComponent 
+          href: foundationCommon/crmCommon/accelerators/automotive/DeviceComponent.md
+        - name: DeviceGeneration 
+          href: foundationCommon/crmCommon/accelerators/automotive/DeviceGeneration.md
+        - name: DeviceInspection 
+          href: foundationCommon/crmCommon/accelerators/automotive/DeviceInspection.md
+        - name: DeviceInspectionChecklist 
+          href: foundationCommon/crmCommon/accelerators/automotive/DeviceInspectionChecklist.md
+        - name: DeviceInspectionChecklistType 
+          href: foundationCommon/crmCommon/accelerators/automotive/DeviceInspectionChecklistType.md
+        - name: DeviceLicensePlate 
+          href: foundationCommon/crmCommon/accelerators/automotive/DeviceLicensePlate.md
+        - name: DeviceMeasure 
+          href: foundationCommon/crmCommon/accelerators/automotive/DeviceMeasure.md
+        - name: DeviceMeasurement 
+          href: foundationCommon/crmCommon/accelerators/automotive/DeviceMeasurement.md
+        - name: DeviceMeter 
+          href: foundationCommon/crmCommon/accelerators/automotive/DeviceMeter.md
+        - name: DeviceModel 
+          href: foundationCommon/crmCommon/accelerators/automotive/DeviceModel.md
+        - name: DeviceModelCode 
+          href: foundationCommon/crmCommon/accelerators/automotive/DeviceModelCode.md
+        - name: DeviceObservation 
+          href: foundationCommon/crmCommon/accelerators/automotive/DeviceObservation.md
+        - name: DeviceObservationType 
+          href: foundationCommon/crmCommon/accelerators/automotive/DeviceObservationType.md
+        - name: DeviceRegistration 
+          href: foundationCommon/crmCommon/accelerators/automotive/DeviceRegistration.md
+        - name: DeviceSensor 
+          href: foundationCommon/crmCommon/accelerators/automotive/DeviceSensor.md
+        - name: DeviceState 
+          href: foundationCommon/crmCommon/accelerators/automotive/DeviceState.md
+        - name: DeviceStyle 
+          href: foundationCommon/crmCommon/accelerators/automotive/DeviceStyle.md
+        - name: DeviceType 
+          href: foundationCommon/crmCommon/accelerators/automotive/DeviceType.md
+        - name: DeviceVariant 
+          href: foundationCommon/crmCommon/accelerators/automotive/DeviceVariant.md
+        - name: DeviceWarranty 
+          href: foundationCommon/crmCommon/accelerators/automotive/DeviceWarranty.md
+        - name: DeviceWarrantyLimit 
+          href: foundationCommon/crmCommon/accelerators/automotive/DeviceWarrantyLimit.md
+        - name: FinancingOpportunity 
+          href: foundationCommon/crmCommon/accelerators/automotive/FinancingOpportunity.md
+        - name: FinancingOpportunityDetail 
+          href: foundationCommon/crmCommon/accelerators/automotive/FinancingOpportunityDetail.md
+        - name: Fleet 
+          href: foundationCommon/crmCommon/accelerators/automotive/Fleet.md
+        - name: FleetDevice 
+          href: foundationCommon/crmCommon/accelerators/automotive/FleetDevice.md
+        - name: Lead 
+          href: foundationCommon/crmCommon/accelerators/automotive/Lead.md
+        - name: LeadDevice 
+          href: foundationCommon/crmCommon/accelerators/automotive/LeadDevice.md
+        - name: LeadDeviceSpecification 
+          href: foundationCommon/crmCommon/accelerators/automotive/LeadDeviceSpecification.md
+        - name: LeadDisposition 
+          href: foundationCommon/crmCommon/accelerators/automotive/LeadDisposition.md
+        - name: LeadDispositionActivity 
+          href: foundationCommon/crmCommon/accelerators/automotive/LeadDispositionActivity.md
+        - name: LeadPriceType 
+          href: foundationCommon/crmCommon/accelerators/automotive/LeadPriceType.md
+        - name: LeadProspect 
+          href: foundationCommon/crmCommon/accelerators/automotive/LeadProspect.md
+        - name: LeadSpecificationType 
+          href: foundationCommon/crmCommon/accelerators/automotive/LeadSpecificationType.md
+        - name: OperationCode 
+          href: foundationCommon/crmCommon/accelerators/automotive/OperationCode.md
+        - name: OperationType 
+          href: foundationCommon/crmCommon/accelerators/automotive/OperationType.md
+        - name: SalesContract 
+          href: foundationCommon/crmCommon/accelerators/automotive/SalesContract.md
+        - name: SalesContractDetail 
+          href: foundationCommon/crmCommon/accelerators/automotive/SalesContractDetail.md
+        - name: SalesContractPayment 
+          href: foundationCommon/crmCommon/accelerators/automotive/SalesContractPayment.md
+        - name: SalesContractTerm 
+          href: foundationCommon/crmCommon/accelerators/automotive/SalesContractTerm.md
+        - name: SalesContractType 
+          href: foundationCommon/crmCommon/accelerators/automotive/SalesContractType.md
+        - name: ServiceAppointment 
+          href: foundationCommon/crmCommon/accelerators/automotive/ServiceAppointment.md
+        - name: ServiceAppointmentType 
+          href: foundationCommon/crmCommon/accelerators/automotive/ServiceAppointmentType.md
+        - name: ServiceContract 
+          href: foundationCommon/crmCommon/accelerators/automotive/ServiceContract.md
+        - name: ServiceContractDetail 
+          href: foundationCommon/crmCommon/accelerators/automotive/ServiceContractDetail.md
+        - name: ServiceContractTerm 
+          href: foundationCommon/crmCommon/accelerators/automotive/ServiceContractTerm.md
+        - name: ServiceContractType 
+          href: foundationCommon/crmCommon/accelerators/automotive/ServiceContractType.md
+        - name: ServiceOrder 
+          href: foundationCommon/crmCommon/accelerators/automotive/ServiceOrder.md
+        - name: ServiceOrderGroup 
+          href: foundationCommon/crmCommon/accelerators/automotive/ServiceOrderGroup.md
+        - name: ServiceOrderJob 
+          href: foundationCommon/crmCommon/accelerators/automotive/ServiceOrderJob.md
+        - name: ServiceOrderJobDetail 
+          href: foundationCommon/crmCommon/accelerators/automotive/ServiceOrderJobDetail.md
+        - name: ServiceOrderJobType 
+          href: foundationCommon/crmCommon/accelerators/automotive/ServiceOrderJobType.md
+        - name: ServiceOrderType 
+          href: foundationCommon/crmCommon/accelerators/automotive/ServiceOrderType.md
+        - name: Specification 
+          href: foundationCommon/crmCommon/accelerators/automotive/Specification.md
+        - name: SpecificationAccessory 
+          href: foundationCommon/crmCommon/accelerators/automotive/SpecificationAccessory.md
+        - name: SpecificationAttribute 
+          href: foundationCommon/crmCommon/accelerators/automotive/SpecificationAttribute.md
+        - name: TestDrive 
+          href: foundationCommon/crmCommon/accelerators/automotive/TestDrive.md
+        - name: TradeIn 
+          href: foundationCommon/crmCommon/accelerators/automotive/TradeIn.md
+        - name: Unit 
+          href: foundationCommon/crmCommon/accelerators/automotive/Unit.md
+        - name: Warranty 
+          href: foundationCommon/crmCommon/accelerators/automotive/Warranty.md
+        - name: WarrantyLimit 
+          href: foundationCommon/crmCommon/accelerators/automotive/WarrantyLimit.md
+        - name: WarrantyType 
+          href: foundationCommon/crmCommon/accelerators/automotive/WarrantyType.md
       - name: education
         items: 
         - name: Summary
@@ -67,6 +250,62 @@
             href: foundationCommon/crmCommon/accelerators/education/higherEducation/TestScore.md
           - name: TestType 
             href: foundationCommon/crmCommon/accelerators/education/higherEducation/TestType.md
+      - name: financialServices
+        items: 
+        - name: Summary
+          href: foundationCommon/crmCommon/accelerators/financialServices/overview.md
+        - name: banking
+          items: 
+          - name: Summary
+            href: foundationCommon/crmCommon/accelerators/financialServices/banking/overview.md
+          - name: Account 
+            href: foundationCommon/crmCommon/accelerators/financialServices/banking/Account.md
+          - name: Bank 
+            href: foundationCommon/crmCommon/accelerators/financialServices/banking/Bank.md
+          - name: Branch 
+            href: foundationCommon/crmCommon/accelerators/financialServices/banking/Branch.md
+          - name: BusinessCheckingAccount 
+            href: foundationCommon/crmCommon/accelerators/financialServices/banking/BusinessCheckingAccount.md
+          - name: CertificateOfDeposit 
+            href: foundationCommon/crmCommon/accelerators/financialServices/banking/CertificateOfDeposit.md
+          - name: Collateral 
+            href: foundationCommon/crmCommon/accelerators/financialServices/banking/Collateral.md
+          - name: CommercialDeposit 
+            href: foundationCommon/crmCommon/accelerators/financialServices/banking/CommercialDeposit.md
+          - name: CommercialLoan 
+            href: foundationCommon/crmCommon/accelerators/financialServices/banking/CommercialLoan.md
+          - name: Company360 
+            href: foundationCommon/crmCommon/accelerators/financialServices/banking/Company360.md
+          - name: CompanyOnboarding 
+            href: foundationCommon/crmCommon/accelerators/financialServices/banking/CompanyOnboarding.md
+          - name: Contact 
+            href: foundationCommon/crmCommon/accelerators/financialServices/banking/Contact.md
+          - name: ContactOnboardingFromProspect 
+            href: foundationCommon/crmCommon/accelerators/financialServices/banking/ContactOnboardingFromProspect.md
+          - name: Customer360Person 
+            href: foundationCommon/crmCommon/accelerators/financialServices/banking/Customer360Person.md
+          - name: CustomerJourney 
+            href: foundationCommon/crmCommon/accelerators/financialServices/banking/CustomerJourney.md
+          - name: FinancialProduct 
+            href: foundationCommon/crmCommon/accelerators/financialServices/banking/FinancialProduct.md
+          - name: KYC 
+            href: foundationCommon/crmCommon/accelerators/financialServices/banking/KYC.md
+          - name: Lead 
+            href: foundationCommon/crmCommon/accelerators/financialServices/banking/Lead.md
+          - name: LeadToOpportunitySalesProcess 
+            href: foundationCommon/crmCommon/accelerators/financialServices/banking/LeadToOpportunitySalesProcess.md
+          - name: Limit 
+            href: foundationCommon/crmCommon/accelerators/financialServices/banking/Limit.md
+          - name: MortgageApplication 
+            href: foundationCommon/crmCommon/accelerators/financialServices/banking/MortgageApplication.md
+          - name: Opportunity 
+            href: foundationCommon/crmCommon/accelerators/financialServices/banking/Opportunity.md
+          - name: Product 
+            href: foundationCommon/crmCommon/accelerators/financialServices/banking/Product.md
+          - name: RequestedFacility 
+            href: foundationCommon/crmCommon/accelerators/financialServices/banking/RequestedFacility.md
+          - name: Syndicates 
+            href: foundationCommon/crmCommon/accelerators/financialServices/banking/Syndicates.md
       - name: healthCare
         items: 
         - name: Summary
@@ -145,44 +384,86 @@
           href: foundationCommon/crmCommon/accelerators/nonProfit/Budget.md
         - name: Campaign 
           href: foundationCommon/crmCommon/accelerators/nonProfit/Campaign.md
+        - name: Condition 
+          href: foundationCommon/crmCommon/accelerators/nonProfit/Condition.md
         - name: Contact 
           href: foundationCommon/crmCommon/accelerators/nonProfit/Contact.md
         - name: CreditPlan 
           href: foundationCommon/crmCommon/accelerators/nonProfit/CreditPlan.md
+        - name: CreditPlanRecipient 
+          href: foundationCommon/crmCommon/accelerators/nonProfit/CreditPlanRecipient.md
         - name: CreditRecipient 
           href: foundationCommon/crmCommon/accelerators/nonProfit/CreditRecipient.md
         - name: DeliveryFramework 
           href: foundationCommon/crmCommon/accelerators/nonProfit/DeliveryFramework.md
+        - name: DeliveryFrameworkContact 
+          href: foundationCommon/crmCommon/accelerators/nonProfit/DeliveryFrameworkContact.md
+        - name: DeliveryFrameworkDescription 
+          href: foundationCommon/crmCommon/accelerators/nonProfit/DeliveryFrameworkDescription.md
         - name: DesignatedCredit 
           href: foundationCommon/crmCommon/accelerators/nonProfit/DesignatedCredit.md
         - name: Designation 
           href: foundationCommon/crmCommon/accelerators/nonProfit/Designation.md
         - name: DesignationPlan 
           href: foundationCommon/crmCommon/accelerators/nonProfit/DesignationPlan.md
+        - name: Dimension 
+          href: foundationCommon/crmCommon/accelerators/nonProfit/Dimension.md
         - name: Disbursement 
           href: foundationCommon/crmCommon/accelerators/nonProfit/Disbursement.md
         - name: DisbursementDistribution 
           href: foundationCommon/crmCommon/accelerators/nonProfit/DisbursementDistribution.md
         - name: Docket 
           href: foundationCommon/crmCommon/accelerators/nonProfit/Docket.md
+        - name: DocumentCategory 
+          href: foundationCommon/crmCommon/accelerators/nonProfit/DocumentCategory.md
+        - name: DocumentCountry 
+          href: foundationCommon/crmCommon/accelerators/nonProfit/DocumentCountry.md
+        - name: DocumentLanguage 
+          href: foundationCommon/crmCommon/accelerators/nonProfit/DocumentLanguage.md
+        - name: DocumentLink 
+          href: foundationCommon/crmCommon/accelerators/nonProfit/DocumentLink.md
         - name: DonorCommitment 
           href: foundationCommon/crmCommon/accelerators/nonProfit/DonorCommitment.md
         - name: Education 
           href: foundationCommon/crmCommon/accelerators/nonProfit/Education.md
         - name: EmploymentHistory 
           href: foundationCommon/crmCommon/accelerators/nonProfit/EmploymentHistory.md
+        - name: Expenditure 
+          href: foundationCommon/crmCommon/accelerators/nonProfit/Expenditure.md
+        - name: HumanitarianScope 
+          href: foundationCommon/crmCommon/accelerators/nonProfit/HumanitarianScope.md
+        - name: Identifier 
+          href: foundationCommon/crmCommon/accelerators/nonProfit/Identifier.md
         - name: Indicator 
           href: foundationCommon/crmCommon/accelerators/nonProfit/Indicator.md
+        - name: IndicatorReference 
+          href: foundationCommon/crmCommon/accelerators/nonProfit/IndicatorReference.md
         - name: IndicatorValue 
           href: foundationCommon/crmCommon/accelerators/nonProfit/IndicatorValue.md
+        - name: IndicatorValueLocation 
+          href: foundationCommon/crmCommon/accelerators/nonProfit/IndicatorValueLocation.md
         - name: Lead 
           href: foundationCommon/crmCommon/accelerators/nonProfit/Lead.md
+        - name: Location 
+          href: foundationCommon/crmCommon/accelerators/nonProfit/Location.md
+        - name: Membership 
+          href: foundationCommon/crmCommon/accelerators/nonProfit/Membership.md
+        - name: MembershipCategory 
+          href: foundationCommon/crmCommon/accelerators/nonProfit/MembershipCategory.md
+        - name: NarrativeTranslation 
+          href: foundationCommon/crmCommon/accelerators/nonProfit/NarrativeTranslation.md
+        - name: NonEmbeddedCodelist 
+          href: foundationCommon/crmCommon/accelerators/nonProfit/NonEmbeddedCodelist.md
+        - name: NonEmbeddedCodelistVocabulary 
+          href: foundationCommon/crmCommon/accelerators/nonProfit/NonEmbeddedCodelistVocabulary.md
         - name: Objective 
           href: foundationCommon/crmCommon/accelerators/nonProfit/Objective.md
         - name: OfacMatch 
           href: foundationCommon/crmCommon/accelerators/nonProfit/OfacMatch.md
         - name: Opportunity 
           href: foundationCommon/crmCommon/accelerators/nonProfit/Opportunity.md
+        - name: ParticipatingOrganization 
+          href: foundationCommon/crmCommon/accelerators/nonProfit/ParticipatingOrganization.md
         - name: PaymentAsset 
           href: foundationCommon/crmCommon/accelerators/nonProfit/PaymentAsset.md
         - name: PaymentMethod 
@@ -193,8 +474,16 @@
           href: foundationCommon/crmCommon/accelerators/nonProfit/PaymentSchedule.md
         - name: PlannedGiving 
           href: foundationCommon/crmCommon/accelerators/nonProfit/PlannedGiving.md
+        - name: PolicyMaker 
+          href: foundationCommon/crmCommon/accelerators/nonProfit/PolicyMaker.md
+        - name: PolicyMarker 
+          href: foundationCommon/crmCommon/accelerators/nonProfit/PolicyMarker.md
         - name: Preference 
           href: foundationCommon/crmCommon/accelerators/nonProfit/Preference.md
+        - name: RecipientCountry 
+          href: foundationCommon/crmCommon/accelerators/nonProfit/RecipientCountry.md
+        - name: RecipientRegion 
+          href: foundationCommon/crmCommon/accelerators/nonProfit/RecipientRegion.md
         - name: Recommendation 
           href: foundationCommon/crmCommon/accelerators/nonProfit/Recommendation.md
         - name: Report 
@@ -203,12 +492,286 @@
           href: foundationCommon/crmCommon/accelerators/nonProfit/Request.md
         - name: Result 
           href: foundationCommon/crmCommon/accelerators/nonProfit/Result.md
+        - name: ResultReference 
+          href: foundationCommon/crmCommon/accelerators/nonProfit/ResultReference.md
         - name: Review 
           href: foundationCommon/crmCommon/accelerators/nonProfit/Review.md
         - name: Salutation 
           href: foundationCommon/crmCommon/accelerators/nonProfit/Salutation.md
+        - name: Sector 
+          href: foundationCommon/crmCommon/accelerators/nonProfit/Sector.md
+        - name: Tag 
+          href: foundationCommon/crmCommon/accelerators/nonProfit/Tag.md
         - name: Transaction 
           href: foundationCommon/crmCommon/accelerators/nonProfit/Transaction.md
+        - name: Website 
+          href: foundationCommon/crmCommon/accelerators/nonProfit/Website.md
+    - name: projectCommon
+      items: 
+      - name: Summary
+        href: foundationCommon/crmCommon/projectCommon/overview.md
+      - name: projectServiceAutomation
+        items: 
+        - name: Summary
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/overview.md
+        - name: Account 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/Account.md
+        - name: AccountPriceList 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/AccountPriceList.md
+        - name: ActualDataExport 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/ActualDataExport.md
+        - name: BatchJob 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/BatchJob.md
+        - name: BookableResourceCategory 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/BookableResourceCategory.md
+        - name: BookableResourceCategoryAssn 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/BookableResourceCategoryAssn.md
+        - name: BookableResourceCharacteristic 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/BookableResourceCharacteristic.md
+        - name: Characteristic 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/Characteristic.md
+        - name: ContactPriceList 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/ContactPriceList.md
+        - name: ContractLineInvoiceSchedule 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/ContractLineInvoiceSchedule.md
+        - name: ContractLineScheduleOfValue 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/ContractLineScheduleOfValue.md
+        - name: Delegation 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/Delegation.md
+        - name: Estimate 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/Estimate.md
+        - name: EstimateLine 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/EstimateLine.md
+        - name: Expense 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/Expense.md
+        - name: ExpenseCategory 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/ExpenseCategory.md
+        - name: ExpenseReceipt 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/ExpenseReceipt.md
+        - name: Fact 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/Fact.md
+        - name: FieldComputation 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/FieldComputation.md
+        - name: FindWorkEvent 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/FindWorkEvent.md
+        - name: IntegrationJob 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/IntegrationJob.md
+        - name: IntegrationJobDetail 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/IntegrationJobDetail.md
+        - name: Invoice 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/Invoice.md
+        - name: InvoiceFrequency 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/InvoiceFrequency.md
+        - name: InvoiceFrequencyDetail 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/InvoiceFrequencyDetail.md
+        - name: InvoiceLineTransaction 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/InvoiceLineTransaction.md
+        - name: InvoiceProduct 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/InvoiceProduct.md
+        - name: Journal 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/Journal.md
+        - name: JournalLine 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/JournalLine.md
+        - name: Opportunity 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/Opportunity.md
+        - name: OpportunityLineResourceCategory 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/OpportunityLineResourceCategory.md
+        - name: OpportunityLineTransaction 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/OpportunityLineTransaction.md
+        - name: OpportunityLineTransactionCategory 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/OpportunityLineTransactionCategory.md
+        - name: OpportunityLineTransactionClassification 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/OpportunityLineTransactionClassification.md
+        - name: OpportunityPriceList 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/OpportunityPriceList.md
+        - name: OpportunityProduct 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/OpportunityProduct.md
+        - name: Order 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/Order.md
+        - name: OrderLineResourceCategory 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/OrderLineResourceCategory.md
+        - name: OrderLineTransaction 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/OrderLineTransaction.md
+        - name: OrderLineTransactionCategory 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/OrderLineTransactionCategory.md
+        - name: OrderLineTransactionClassification 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/OrderLineTransactionClassification.md
+        - name: OrderPriceList 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/OrderPriceList.md
+        - name: OrderProduct 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/OrderProduct.md
+        - name: PriceList 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/PriceList.md
+        - name: PricingDimension 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/PricingDimension.md
+        - name: PricingDimensionFieldName 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/PricingDimensionFieldName.md
+        - name: ProcessNotes 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/ProcessNotes.md
+        - name: Product 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/Product.md
+        - name: Project 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/Project.md
+        - name: ProjectApproval 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/ProjectApproval.md
+        - name: ProjectParameter 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/ProjectParameter.md
+        - name: ProjectParameterPriceList 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/ProjectParameterPriceList.md
+        - name: ProjectPriceList 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/ProjectPriceList.md
+        - name: ProjectServiceApproval 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/ProjectServiceApproval.md
+        - name: ProjectTask 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/ProjectTask.md
+        - name: ProjectTaskDependency 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/ProjectTaskDependency.md
+        - name: ProjectTaskStatusUser 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/ProjectTaskStatusUser.md
+        - name: ProjectTeam 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/ProjectTeam.md
+        - name: ProjectTeamMemberSignUp 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/ProjectTeamMemberSignUp.md
+        - name: ProjectTransactionCategory 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/ProjectTransactionCategory.md
+        - name: Quote 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/Quote.md
+        - name: QuoteLineAnalyticsBreakdown 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/QuoteLineAnalyticsBreakdown.md
+        - name: QuoteLineInvoiceSchedule 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/QuoteLineInvoiceSchedule.md
+        - name: QuoteLineResourceCategory 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/QuoteLineResourceCategory.md
+        - name: QuoteLineScheduleOfValue 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/QuoteLineScheduleOfValue.md
+        - name: QuoteLineTransaction 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/QuoteLineTransaction.md
+        - name: QuoteLineTransactionCategory 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/QuoteLineTransactionCategory.md
+        - name: QuoteLineTransactionClassification 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/QuoteLineTransactionClassification.md
+        - name: QuotePriceList 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/QuotePriceList.md
+        - name: QuoteProduct 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/QuoteProduct.md
+        - name: RatingModel 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/RatingModel.md
+        - name: ResourceAssignment 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/ResourceAssignment.md
+        - name: ResourceAssignmentDetail 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/ResourceAssignmentDetail.md
+        - name: ResourceCategoryPriceLevel 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/ResourceCategoryPriceLevel.md
+        - name: ResourceRequest 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/ResourceRequest.md
+        - name: ResultCache 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/ResultCache.md
+        - name: RoleCompetencyRequirement 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/RoleCompetencyRequirement.md
+        - name: RolePriceMarkup 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/RolePriceMarkup.md
+        - name: RoleUtilization 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/RoleUtilization.md
+        - name: TimeEntry 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/TimeEntry.md
+        - name: TimeOffCalendar 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/TimeOffCalendar.md
+        - name: TransactionCategory 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/TransactionCategory.md
+        - name: TransactionCategoryClassification 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/TransactionCategoryClassification.md
+        - name: TransactionCategoryHierarchyElement 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/TransactionCategoryHierarchyElement.md
+        - name: TransactionCategoryPriceLevel 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/TransactionCategoryPriceLevel.md
+        - name: TransactionConnection 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/TransactionConnection.md
+        - name: TransactionType 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/TransactionType.md
+        - name: UserWorkHistory 
+          href: foundationCommon/crmCommon/projectCommon/projectServiceAutomation/UserWorkHistory.md
+      - name: scheduling
+        items: 
+        - name: Summary
+          href: foundationCommon/crmCommon/projectCommon/scheduling/overview.md
+        - name: Actual 
+          href: foundationCommon/crmCommon/projectCommon/scheduling/Actual.md
+        - name: BookableResourceAssociation 
+          href: foundationCommon/crmCommon/projectCommon/scheduling/BookableResourceAssociation.md
+        - name: BookingAlert 
+          href: foundationCommon/crmCommon/projectCommon/scheduling/BookingAlert.md
+        - name: BookingAlertStatus 
+          href: foundationCommon/crmCommon/projectCommon/scheduling/BookingAlertStatus.md
+        - name: BookingChange 
+          href: foundationCommon/crmCommon/projectCommon/scheduling/BookingChange.md
+        - name: BookingRule 
+          href: foundationCommon/crmCommon/projectCommon/scheduling/BookingRule.md
+        - name: BookingSetupMetadata 
+          href: foundationCommon/crmCommon/projectCommon/scheduling/BookingSetupMetadata.md
+        - name: BusinessClosure 
+          href: foundationCommon/crmCommon/projectCommon/scheduling/BusinessClosure.md
+        - name: ClientExtension 
+          href: foundationCommon/crmCommon/projectCommon/scheduling/ClientExtension.md
+        - name: Configuration 
+          href: foundationCommon/crmCommon/projectCommon/scheduling/Configuration.md
+        - name: Organization 
+          href: foundationCommon/crmCommon/projectCommon/scheduling/Organization.md
+        - name: OrganizationalUnit 
+          href: foundationCommon/crmCommon/projectCommon/scheduling/OrganizationalUnit.md
+        - name: Priority 
+          href: foundationCommon/crmCommon/projectCommon/scheduling/Priority.md
+        - name: RequirementCharacteristic 
+          href: foundationCommon/crmCommon/projectCommon/scheduling/RequirementCharacteristic.md
+        - name: RequirementGroup 
+          href: foundationCommon/crmCommon/projectCommon/scheduling/RequirementGroup.md
+        - name: RequirementOrganizationUnit 
+          href: foundationCommon/crmCommon/projectCommon/scheduling/RequirementOrganizationUnit.md
+        - name: RequirementRelationship 
+          href: foundationCommon/crmCommon/projectCommon/scheduling/RequirementRelationship.md
+        - name: RequirementResourceCategory 
+          href: foundationCommon/crmCommon/projectCommon/scheduling/RequirementResourceCategory.md
+        - name: RequirementResourcePreference 
+          href: foundationCommon/crmCommon/projectCommon/scheduling/RequirementResourcePreference.md
+        - name: RequirementStatus 
+          href: foundationCommon/crmCommon/projectCommon/scheduling/RequirementStatus.md
+        - name: ResourceRequirement 
+          href: foundationCommon/crmCommon/projectCommon/scheduling/ResourceRequirement.md
+        - name: ResourceRequirementDetail 
+          href: foundationCommon/crmCommon/projectCommon/scheduling/ResourceRequirementDetail.md
+        - name: ResourceTerritory 
+          href: foundationCommon/crmCommon/projectCommon/scheduling/ResourceTerritory.md
+        - name: ScheduleBoardSetting 
+          href: foundationCommon/crmCommon/projectCommon/scheduling/ScheduleBoardSetting.md
+        - name: SchedulingParameter 
+          href: foundationCommon/crmCommon/projectCommon/scheduling/SchedulingParameter.md
+        - name: TimeGroup 
+          href: foundationCommon/crmCommon/projectCommon/scheduling/TimeGroup.md
+        - name: TimeGroupDetail 
+          href: foundationCommon/crmCommon/projectCommon/scheduling/TimeGroupDetail.md
+        - name: TransactionOrigin 
+          href: foundationCommon/crmCommon/projectCommon/scheduling/TransactionOrigin.md
+        - name: WorkHourTemplate 
+          href: foundationCommon/crmCommon/projectCommon/scheduling/WorkHourTemplate.md
+      - name: BookableResource 
+        href: foundationCommon/crmCommon/projectCommon/BookableResource.md
+      - name: BookableResourceBooking 
+        href: foundationCommon/crmCommon/projectCommon/BookableResourceBooking.md
+      - name: BookableResourceBookingHeader 
+        href: foundationCommon/crmCommon/projectCommon/BookableResourceBookingHeader.md
+      - name: BookingStatus 
+        href: foundationCommon/crmCommon/projectCommon/BookingStatus.md
+      - name: Contact 
+        href: foundationCommon/crmCommon/projectCommon/Contact.md
+      - name: Lead 
+        href: foundationCommon/crmCommon/projectCommon/Lead.md
+      - name: RatingValue 
+        href: foundationCommon/crmCommon/projectCommon/RatingValue.md
+      - name: RelationshipInsightsUnifiedConfig 
+        href: foundationCommon/crmCommon/projectCommon/RelationshipInsightsUnifiedConfig.md
+      - name: Siconfig 
+        href: foundationCommon/crmCommon/projectCommon/Siconfig.md
+      - name: User 
+        href: foundationCommon/crmCommon/projectCommon/User.md
     - name: sales
       items: 
       - name: Summary
@@ -325,6 +888,20 @@
       items: 
       - name: Summary
         href: foundationCommon/crmCommon/solutions/overview.md
+      - name: customerInsights
+        items: 
+        - name: Summary
+          href: foundationCommon/crmCommon/solutions/customerInsights/overview.md
+        - name: CustomerActivity 
+          href: foundationCommon/crmCommon/solutions/customerInsights/CustomerActivity.md
+        - name: CustomerProfile 
+          href: foundationCommon/crmCommon/solutions/customerInsights/CustomerProfile.md
+        - name: MeasureDefinition 
+          href: foundationCommon/crmCommon/solutions/customerInsights/MeasureDefinition.md
+        - name: Segment 
+          href: foundationCommon/crmCommon/solutions/customerInsights/Segment.md
+        - name: SegmentMembership 
+          href: foundationCommon/crmCommon/solutions/customerInsights/SegmentMembership.md
       - name: marketing
         items: 
         - name: Summary

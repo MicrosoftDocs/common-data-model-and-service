@@ -3,9 +3,9 @@ title: Opportunity - Common Data Model | Microsoft Docs
 description: This describes the Opportunity entitity.
 author: nenad1002
 ms.service: common-data-model
-ms.reviewer: anneta
+ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/8/2019
+ms.date: 8/14/2019
 ms.author: nebanfic
 ---
 
@@ -19,8 +19,10 @@ Potential revenue-generating event or a sale to an account, which must be tracke
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/crmCommon/accelerators/nonProfit/Opportunity  
+- [/foundationCommon/crmCommon/accelerators/financialServices/banking/Opportunity](../financialServices/banking/Opportunity.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/Opportunity.cdm.json/Opportunity")  
 - [/foundationCommon/crmCommon/sales/Opportunity](../../sales/Opportunity.md "/core/applicationCommon/foundationCommon/crmCommon/sales/Opportunity.cdm.json/Opportunity")  
+- /foundationCommon/crmCommon/accelerators/nonProfit/Opportunity  
+- [/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/Opportunity](../../projectCommon/projectServiceAutomation/Opportunity.md "/core/applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/Opportunity.cdm.json/Opportunity")  
 - [/foundationCommon/crmCommon/solutions/portals/Opportunity](../../solutions/portals/Opportunity.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Opportunity.cdm.json/Opportunity")  
 
 ## Attributes
@@ -28,17 +30,17 @@ Instances of this entity are listed below.
 |Name|Description|First Included in Instance|
 |---|---|---|
 |[createdOn](#createdOn)|Date and time when the record was created.|<a href="../../sales/Opportunity.md" target="_blank">sales/Opportunity</a>|
-|[createdBy](#createdBy)|Shows who created the record.|<a href="../../sales/Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[createdBy](#createdBy)|Unique identifier of the user who created the record.|<a href="../../sales/Opportunity.md" target="_blank">sales/Opportunity</a>|
 |[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="../../sales/Opportunity.md" target="_blank">sales/Opportunity</a>|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="../../sales/Opportunity.md" target="_blank">sales/Opportunity</a>|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="../../sales/Opportunity.md" target="_blank">sales/Opportunity</a>|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="../../sales/Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[modifiedBy](#modifiedBy)|Unique identifier of the user who modified the record.|<a href="../../sales/Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the record.|<a href="../../sales/Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who modified the record.|<a href="../../sales/Opportunity.md" target="_blank">sales/Opportunity</a>|
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="../../sales/Opportunity.md" target="_blank">sales/Opportunity</a>|
 |[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="../../sales/Opportunity.md" target="_blank">sales/Opportunity</a>|
 |[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="../../sales/Opportunity.md" target="_blank">sales/Opportunity</a>|
 |[ownerId](#ownerId)|Owner Id|<a href="../../sales/Opportunity.md" target="_blank">sales/Opportunity</a>|
 |[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="../../sales/Opportunity.md" target="_blank">sales/Opportunity</a>|
-|[owningUser](#owningUser)|Unique identifier for the user that owns the record.|<a href="../../sales/Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="../../sales/Opportunity.md" target="_blank">sales/Opportunity</a>|
 |[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="../../sales/Opportunity.md" target="_blank">sales/Opportunity</a>|
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="../../sales/Opportunity.md" target="_blank">sales/Opportunity</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="../../sales/Opportunity.md" target="_blank">sales/Opportunity</a>|
@@ -148,10 +150,14 @@ Instances of this entity are listed below.
 |[accountId](#accountId)|Unique identifier of the account with which the opportunity is associated.|<a href="../../sales/Opportunity.md" target="_blank">sales/Opportunity</a>|
 |[contactId](#contactId)|Unique identifier of the contact associated with the opportunity.|<a href="../../sales/Opportunity.md" target="_blank">sales/Opportunity</a>|
 |[campaignId](#campaignId)|Shows the campaign that the opportunity was created from. The ID is used for tracking the success of the campaign.|<a href="../../sales/Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[accountManagerId](#accountManagerId)|The account manager responsible for the opportunity.|<a href="../../projectCommon/projectServiceAutomation/Opportunity.md" target="_blank">projectServiceAutomation/Opportunity</a>|
+|[contractOrganizationalUnitId](#contractOrganizationalUnitId)|The organizational unit in charge of the opportunity.|<a href="../../projectCommon/projectServiceAutomation/Opportunity.md" target="_blank">projectServiceAutomation/Opportunity</a>|
+|[orderType](#orderType)|Whether the Opportunity is for an Item- based or a Work-based sale|<a href="../../projectCommon/projectServiceAutomation/Opportunity.md" target="_blank">projectServiceAutomation/Opportunity</a>|
+|[orderType_display](#orderType_display)||<a href="../../projectCommon/projectServiceAutomation/Opportunity.md" target="_blank">projectServiceAutomation/Opportunity</a>|
 |[askReadiness](#askReadiness)|Disposition of constituent toward committing to determined Pledge ask amount.|<a href="Opportunity.md" target="_blank">nonProfit/Opportunity</a>|
 |[askReadiness_display](#askReadiness_display)||<a href="Opportunity.md" target="_blank">nonProfit/Opportunity</a>|
 |[expectedGivingAmount](#expectedGivingAmount)|Populated by trigger, displays the sum of all Expected Giving Amounts.|<a href="Opportunity.md" target="_blank">nonProfit/Opportunity</a>|
-|[expectedgivingamountBase](#expectedgivingamountBase)|Value of the Expected Giving Amount in base currency.|<a href="Opportunity.md" target="_blank">nonProfit/Opportunity</a>|
+|[expectedGivingAmountBase](#expectedGivingAmountBase)|Value of the Expected Giving Amount in base currency.|<a href="Opportunity.md" target="_blank">nonProfit/Opportunity</a>|
 |[opportunityDefaultDesignationId](#opportunityDefaultDesignationId)|Default Designation|<a href="Opportunity.md" target="_blank">nonProfit/Opportunity</a>|
 |[primaryProposalId](#primaryProposalId)|Primary Proposal|<a href="Opportunity.md" target="_blank">nonProfit/Opportunity</a>|
 |[prospectiveGiftType](#prospectiveGiftType)||<a href="Opportunity.md" target="_blank">nonProfit/Opportunity</a>|
@@ -171,12 +177,12 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
-Shows who created the record.  
+Unique identifier of the user who created the record.  
 First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Opportunity</a>  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By</td></tr><tr><td>description</td><td>Shows who created the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By</td></tr><tr><td>description</td><td>Unique identifier of the user who created the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdby</td></tr></table>
 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
@@ -189,30 +195,30 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
-Shows who last updated the record.  
+Unique identifier of the user who modified the record.  
 First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Opportunity</a>  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By</td></tr><tr><td>description</td><td>Shows who last updated the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By</td></tr><tr><td>description</td><td>Unique identifier of the user who modified the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedby</td></tr></table>
 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
-Shows who created the record on behalf of another user.  
+Unique identifier of the delegate user who created the record.  
 First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Opportunity</a>  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By (Delegate)</td></tr><tr><td>description</td><td>Shows who created the record on behalf of another user.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdonbehalfby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By (Delegate)</td></tr><tr><td>description</td><td>Unique identifier of the delegate user who created the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdonbehalfby</td></tr></table>
 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
-Shows who last updated the record on behalf of another user.  
+Unique identifier of the delegate user who modified the record.  
 First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Opportunity</a>  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By (Delegate)</td></tr><tr><td>description</td><td>Shows who last updated the record on behalf of another user.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedonbehalfby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By (Delegate)</td></tr><tr><td>description</td><td>Unique identifier of the delegate user who modified the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedonbehalfby</td></tr></table>
 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
@@ -261,12 +267,12 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
-Unique identifier for the user that owns the record.  
+Unique identifier of the user that owns the activity.  
 First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Opportunity</a>  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier for the user that owns the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier of the user that owns the activity.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
@@ -1236,6 +1242,41 @@ First included in: <a href="../../sales/Opportunity.md" target="_blank">sales/Op
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Source Campaign</td></tr><tr><td>description</td><td>Shows the campaign that the opportunity was created from. The ID is used for tracking the success of the campaign.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>campaignid</td></tr></table>
 
+### <a href=#accountManagerId name="accountManagerId">accountManagerId</a>
+
+The account manager responsible for the opportunity.  
+First included in: <a href="../../projectCommon/projectServiceAutomation/Opportunity.md" target="_blank">projectServiceAutomation/Opportunity</a>  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Account Manager</td></tr><tr><td>description</td><td>The account manager responsible for the opportunity.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_accountmanagerid</td></tr></table>
+
+### <a href=#contractOrganizationalUnitId name="contractOrganizationalUnitId">contractOrganizationalUnitId</a>
+
+The organizational unit in charge of the opportunity.  
+First included in: <a href="../../projectCommon/projectServiceAutomation/Opportunity.md" target="_blank">projectServiceAutomation/Opportunity</a>  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Contracting Unit</td></tr><tr><td>description</td><td>The organizational unit in charge of the opportunity.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_contractorganizationalunitid</td></tr></table>
+
+### <a href=#orderType name="orderType">orderType</a>
+
+Whether the Opportunity is for an Item- based or a Work-based sale  
+First included in: <a href="../../projectCommon/projectServiceAutomation/Opportunity.md" target="_blank">projectServiceAutomation/Opportunity</a>  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Type</td></tr><tr><td>description</td><td>Whether the Opportunity is for an Item- based or a Work-based sale</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_ordertype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Item based</td><td>192350000</td></tr><tr><td>en</td><td>Work based</td><td>192350001</td></tr></table></td></tr></table>
+
+### <a href=#orderType_display name="orderType_display">orderType_display</a>
+
+First included in: <a href="../../projectCommon/projectServiceAutomation/Opportunity.md" target="_blank">projectServiceAutomation/Opportunity</a>  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+
 ### <a href=#askReadiness name="askReadiness">askReadiness</a>
 
 Disposition of constituent toward committing to determined Pledge ask amount.  
@@ -1262,7 +1303,7 @@ First included in: nonProfit/Opportunity (this entity)
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Expected Giving Amount</td></tr><tr><td>description</td><td>Populated by trigger, displays the sum of all Expected Giving Amounts.</td></tr><tr><td>dataFormat</td><td>Decimal</td></tr><tr><td>maximumValue</td><td>1000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_expectedgivingamount</td></tr></table>
 
-### <a href=#expectedgivingamountBase name="expectedgivingamountBase">expectedgivingamountBase</a>
+### <a href=#expectedGivingAmountBase name="expectedGivingAmountBase">expectedGivingAmountBase</a>
 
 Value of the Expected Giving Amount in base currency.  
 First included in: nonProfit/Opportunity (this entity)  

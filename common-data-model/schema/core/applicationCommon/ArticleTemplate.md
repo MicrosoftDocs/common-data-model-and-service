@@ -3,9 +3,9 @@ title: ArticleTemplate - Common Data Model | Microsoft Docs
 description: Template for a knowledge base article that contains the standard attributes of an article.
 author: nenad1002
 ms.service: common-data-model
-ms.reviewer: anneta
+ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/8/2019
+ms.date: 8/14/2019
 ms.author: nebanfic
 ---
 

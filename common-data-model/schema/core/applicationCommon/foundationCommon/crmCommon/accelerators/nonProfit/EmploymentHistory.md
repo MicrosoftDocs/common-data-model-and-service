@@ -3,15 +3,15 @@ title: EmploymentHistory - Common Data Model | Microsoft Docs
 description: This describes the EmploymentHistory entitity.
 author: nenad1002
 ms.service: common-data-model
-ms.reviewer: anneta
+ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/8/2019
+ms.date: 8/14/2019
 ms.author: nebanfic
 ---
 
 # Employment History
 
-Historical and/or current information about where a contact works, volunteers, or serves in some capacity at an organization.  Nonprofit organizations track employer information to understand whether the employee is part of an eligible matching-gift program, to gain visibility into an employee's "network" to visualize the degrees of separation between an employee and other prospective donors that the organization wants to solicit, and other reasons.  
+Employment History represents historical and/or current information about where a contact works, volunteers or serves in some capacity at an organization.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/EmploymentHistory.cdm.json" target="_blank">GitHub</a>.  
 
@@ -26,17 +26,17 @@ Instances of this entity are listed below.
 |Name|Description|First Included in Instance|
 |---|---|---|
 |[createdOn](#createdOn)|Date and time when the record was created.|<a href="EmploymentHistory.md" target="_blank">nonProfit/EmploymentHistory</a>|
-|[createdBy](#createdBy)|Shows who created the record.|<a href="EmploymentHistory.md" target="_blank">nonProfit/EmploymentHistory</a>|
+|[createdBy](#createdBy)|Unique identifier of the user who created the record.|<a href="EmploymentHistory.md" target="_blank">nonProfit/EmploymentHistory</a>|
 |[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="EmploymentHistory.md" target="_blank">nonProfit/EmploymentHistory</a>|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="EmploymentHistory.md" target="_blank">nonProfit/EmploymentHistory</a>|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="EmploymentHistory.md" target="_blank">nonProfit/EmploymentHistory</a>|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="EmploymentHistory.md" target="_blank">nonProfit/EmploymentHistory</a>|
+|[modifiedBy](#modifiedBy)|Unique identifier of the user who modified the record.|<a href="EmploymentHistory.md" target="_blank">nonProfit/EmploymentHistory</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the record.|<a href="EmploymentHistory.md" target="_blank">nonProfit/EmploymentHistory</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who modified the record.|<a href="EmploymentHistory.md" target="_blank">nonProfit/EmploymentHistory</a>|
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="EmploymentHistory.md" target="_blank">nonProfit/EmploymentHistory</a>|
 |[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="EmploymentHistory.md" target="_blank">nonProfit/EmploymentHistory</a>|
 |[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="EmploymentHistory.md" target="_blank">nonProfit/EmploymentHistory</a>|
 |[ownerId](#ownerId)|Owner Id|<a href="EmploymentHistory.md" target="_blank">nonProfit/EmploymentHistory</a>|
 |[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="EmploymentHistory.md" target="_blank">nonProfit/EmploymentHistory</a>|
-|[owningUser](#owningUser)|Unique identifier for the user that owns the record.|<a href="EmploymentHistory.md" target="_blank">nonProfit/EmploymentHistory</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="EmploymentHistory.md" target="_blank">nonProfit/EmploymentHistory</a>|
 |[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="EmploymentHistory.md" target="_blank">nonProfit/EmploymentHistory</a>|
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="EmploymentHistory.md" target="_blank">nonProfit/EmploymentHistory</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="EmploymentHistory.md" target="_blank">nonProfit/EmploymentHistory</a>|
@@ -47,6 +47,7 @@ Instances of this entity are listed below.
 |[statusCode](#statusCode)|Reason for the status of the Employment History|<a href="EmploymentHistory.md" target="_blank">nonProfit/EmploymentHistory</a>|
 |[statusCode_display](#statusCode_display)||<a href="EmploymentHistory.md" target="_blank">nonProfit/EmploymentHistory</a>|
 |[name](#name)||<a href="EmploymentHistory.md" target="_blank">nonProfit/EmploymentHistory</a>|
+|[contactId](#contactId)||<a href="EmploymentHistory.md" target="_blank">nonProfit/EmploymentHistory</a>|
 |[currentEmployment](#currentEmployment)|Is this record a presumed current position?|<a href="EmploymentHistory.md" target="_blank">nonProfit/EmploymentHistory</a>|
 |[employerId](#employerId)|Employer|<a href="EmploymentHistory.md" target="_blank">nonProfit/EmploymentHistory</a>|
 |[employerName](#employerName)|Employer Name|<a href="EmploymentHistory.md" target="_blank">nonProfit/EmploymentHistory</a>|
@@ -69,12 +70,12 @@ First included in: nonProfit/EmploymentHistory (this entity)
 
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
-Shows who created the record.  
+Unique identifier of the user who created the record.  
 First included in: nonProfit/EmploymentHistory (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By</td></tr><tr><td>description</td><td>Shows who created the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By</td></tr><tr><td>description</td><td>Unique identifier of the user who created the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdby</td></tr></table>
 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
@@ -87,30 +88,30 @@ First included in: nonProfit/EmploymentHistory (this entity)
 
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
-Shows who last updated the record.  
+Unique identifier of the user who modified the record.  
 First included in: nonProfit/EmploymentHistory (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By</td></tr><tr><td>description</td><td>Shows who last updated the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By</td></tr><tr><td>description</td><td>Unique identifier of the user who modified the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedby</td></tr></table>
 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
-Shows who created the record on behalf of another user.  
+Unique identifier of the delegate user who created the record.  
 First included in: nonProfit/EmploymentHistory (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By (Delegate)</td></tr><tr><td>description</td><td>Shows who created the record on behalf of another user.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdonbehalfby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By (Delegate)</td></tr><tr><td>description</td><td>Unique identifier of the delegate user who created the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdonbehalfby</td></tr></table>
 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
-Shows who last updated the record on behalf of another user.  
+Unique identifier of the delegate user who modified the record.  
 First included in: nonProfit/EmploymentHistory (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By (Delegate)</td></tr><tr><td>description</td><td>Shows who last updated the record on behalf of another user.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedonbehalfby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By (Delegate)</td></tr><tr><td>description</td><td>Unique identifier of the delegate user who modified the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedonbehalfby</td></tr></table>
 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
@@ -159,12 +160,12 @@ First included in: nonProfit/EmploymentHistory (this entity)
 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
-Unique identifier for the user that owns the record.  
+Unique identifier of the user that owns the activity.  
 First included in: nonProfit/EmploymentHistory (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier for the user that owns the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier of the user that owns the activity.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
@@ -252,6 +253,14 @@ First included in: nonProfit/EmploymentHistory (this entity)
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>160</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_name</td></tr></table>
+
+### <a href=#contactId name="contactId">contactId</a>
+
+First included in: nonProfit/EmploymentHistory (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Contact</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_contactid</td></tr></table>
 
 ### <a href=#currentEmployment name="currentEmployment">currentEmployment</a>
 

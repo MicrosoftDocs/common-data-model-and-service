@@ -3,9 +3,9 @@ title: Owner - Common Data Model | Microsoft Docs
 description: Group of undeleted system users and undeleted teams. Owners can be used to control access to specific objects.
 author: nenad1002
 ms.service: common-data-model
-ms.reviewer: anneta
+ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/8/2019
+ms.date: 8/14/2019
 ms.author: nebanfic
 ---
 

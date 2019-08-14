@@ -3,9 +3,9 @@ title: CustomerRelationship - Common Data Model | Microsoft Docs
 description: Relationship between a customer and a partner in which either can be an account or contact.
 author: nenad1002
 ms.service: common-data-model
-ms.reviewer: anneta
+ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/8/2019
+ms.date: 8/14/2019
 ms.author: nebanfic
 ---
 
