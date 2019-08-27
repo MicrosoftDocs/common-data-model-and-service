@@ -3,9 +3,9 @@ title: Product - Common Data Model | Microsoft Docs
 description: Information about products and their prices.
 author: nenad1002
 ms.service: common-data-model
-ms.reviewer: anneta
+ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/8/2019
+ms.date: 8/14/2019
 ms.author: nebanfic
 ---
 
@@ -20,7 +20,9 @@ Information about products and their prices.
 Instances of this entity are listed below.  
 
 - /foundationCommon/Product  
+- [/foundationCommon/crmCommon/accelerators/financialServices/banking/Product](crmCommon/accelerators/financialServices/banking/Product.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/Product.cdm.json/Product")  
 - [/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Product](crmCommon/accelerators/healthCare/electronicMedicalRecords/Product.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Product.cdm.json/Product")  
+- [/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/Product](crmCommon/projectCommon/projectServiceAutomation/Product.md "/core/applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/Product.cdm.json/Product")  
 
 ## Attributes
 

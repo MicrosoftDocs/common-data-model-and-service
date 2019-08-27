@@ -3,9 +3,9 @@ title: Organization - Common Data Model | Microsoft Docs
 description: This describes the Organization entitity.
 author: nenad1002
 ms.service: common-data-model
-ms.reviewer: anneta
+ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/8/2019
+ms.date: 8/14/2019
 ms.author: nebanfic
 ---
 
@@ -21,6 +21,7 @@ Instances of this entity are listed below.
 
 - /Organization  
 - [/foundationCommon/Organization](foundationCommon/Organization.md "/core/applicationCommon/foundationCommon/Organization.cdm.json/Organization")  
+- [/foundationCommon/crmCommon/projectCommon/scheduling/Organization](foundationCommon/crmCommon/projectCommon/scheduling/Organization.md "/core/applicationCommon/foundationCommon/crmCommon/projectCommon/scheduling/Organization.cdm.json/Organization")  
 
 ## Attributes
 

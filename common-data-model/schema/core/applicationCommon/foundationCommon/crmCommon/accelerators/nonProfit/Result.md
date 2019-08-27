@@ -1,17 +1,17 @@
 ---
 title: Result - Common Data Model | Microsoft Docs
-description: This describes the Result entitity.
+description: A Result is a container that represents the changes in the context in which an organization operates.
 author: nenad1002
 ms.service: common-data-model
-ms.reviewer: anneta
+ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/8/2019
+ms.date: 8/14/2019
 ms.author: nebanfic
 ---
 
 # Result
 
-A result is a container that represents the changes in the context in which an organization operates delivery frameworks (that is, programs and projects).  
+A Result is a container that represents the changes in the context in which an organization operates.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Result.cdm.json" target="_blank">GitHub</a>.  
 
@@ -26,17 +26,17 @@ Instances of this entity are listed below.
 |Name|Description|First Included in Instance|
 |---|---|---|
 |[createdOn](#createdOn)|Date and time when the record was created.|<a href="Result.md" target="_blank">nonProfit/Result</a>|
-|[createdBy](#createdBy)|Shows who created the record.|<a href="Result.md" target="_blank">nonProfit/Result</a>|
+|[createdBy](#createdBy)|Unique identifier of the user who created the record.|<a href="Result.md" target="_blank">nonProfit/Result</a>|
 |[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Result.md" target="_blank">nonProfit/Result</a>|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="Result.md" target="_blank">nonProfit/Result</a>|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="Result.md" target="_blank">nonProfit/Result</a>|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="Result.md" target="_blank">nonProfit/Result</a>|
+|[modifiedBy](#modifiedBy)|Unique identifier of the user who modified the record.|<a href="Result.md" target="_blank">nonProfit/Result</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the record.|<a href="Result.md" target="_blank">nonProfit/Result</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who modified the record.|<a href="Result.md" target="_blank">nonProfit/Result</a>|
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Result.md" target="_blank">nonProfit/Result</a>|
 |[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Result.md" target="_blank">nonProfit/Result</a>|
 |[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Result.md" target="_blank">nonProfit/Result</a>|
 |[ownerId](#ownerId)|Owner Id|<a href="Result.md" target="_blank">nonProfit/Result</a>|
 |[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Result.md" target="_blank">nonProfit/Result</a>|
-|[owningUser](#owningUser)|Unique identifier for the user that owns the record.|<a href="Result.md" target="_blank">nonProfit/Result</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Result.md" target="_blank">nonProfit/Result</a>|
 |[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Result.md" target="_blank">nonProfit/Result</a>|
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Result.md" target="_blank">nonProfit/Result</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Result.md" target="_blank">nonProfit/Result</a>|
@@ -48,12 +48,13 @@ Instances of this entity are listed below.
 |[statusCode_display](#statusCode_display)||<a href="Result.md" target="_blank">nonProfit/Result</a>|
 |[name](#name)|The name of the custom entity.|<a href="Result.md" target="_blank">nonProfit/Result</a>|
 |[aggregationStatus](#aggregationStatus)|Indicates whether the data in the result set are suitable for aggregation|<a href="Result.md" target="_blank">nonProfit/Result</a>|
-|[deliveryFramework](#deliveryFramework)||<a href="Result.md" target="_blank">nonProfit/Result</a>|
+|[deliveryFrameworkId](#deliveryFrameworkId)||<a href="Result.md" target="_blank">nonProfit/Result</a>|
 |[description](#description)|Description|<a href="Result.md" target="_blank">nonProfit/Result</a>|
 |[endDate](#endDate)|End Date of the result|<a href="Result.md" target="_blank">nonProfit/Result</a>|
 |[resultType](#resultType)|An IATI code for the type of result being reported.|<a href="Result.md" target="_blank">nonProfit/Result</a>|
 |[resultType_display](#resultType_display)||<a href="Result.md" target="_blank">nonProfit/Result</a>|
 |[startDate](#startDate)|Start Date of the result|<a href="Result.md" target="_blank">nonProfit/Result</a>|
+|[resultTypeId](#resultTypeId)|The type of result being recorded.|<a href="Result.md" target="_blank">nonProfit/Result</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
@@ -66,12 +67,12 @@ First included in: nonProfit/Result (this entity)
 
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
-Shows who created the record.  
+Unique identifier of the user who created the record.  
 First included in: nonProfit/Result (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By</td></tr><tr><td>description</td><td>Shows who created the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By</td></tr><tr><td>description</td><td>Unique identifier of the user who created the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdby</td></tr></table>
 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
@@ -84,30 +85,30 @@ First included in: nonProfit/Result (this entity)
 
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
-Shows who last updated the record.  
+Unique identifier of the user who modified the record.  
 First included in: nonProfit/Result (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By</td></tr><tr><td>description</td><td>Shows who last updated the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By</td></tr><tr><td>description</td><td>Unique identifier of the user who modified the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedby</td></tr></table>
 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
-Shows who created the record on behalf of another user.  
+Unique identifier of the delegate user who created the record.  
 First included in: nonProfit/Result (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By (Delegate)</td></tr><tr><td>description</td><td>Shows who created the record on behalf of another user.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdonbehalfby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By (Delegate)</td></tr><tr><td>description</td><td>Unique identifier of the delegate user who created the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdonbehalfby</td></tr></table>
 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
-Shows who last updated the record on behalf of another user.  
+Unique identifier of the delegate user who modified the record.  
 First included in: nonProfit/Result (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By (Delegate)</td></tr><tr><td>description</td><td>Shows who last updated the record on behalf of another user.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedonbehalfby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By (Delegate)</td></tr><tr><td>description</td><td>Unique identifier of the delegate user who modified the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedonbehalfby</td></tr></table>
 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
@@ -156,12 +157,12 @@ First included in: nonProfit/Result (this entity)
 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
-Unique identifier for the user that owns the record.  
+Unique identifier of the user that owns the activity.  
 First included in: nonProfit/Result (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier for the user that owns the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier of the user that owns the activity.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
@@ -260,7 +261,7 @@ First included in: nonProfit/Result (this entity)
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Aggregation Status</td></tr><tr><td>description</td><td>Indicates whether the data in the result set are suitable for aggregation</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_aggregationstatus</td></tr></table>
 
-### <a href=#deliveryFramework name="deliveryFramework">deliveryFramework</a>
+### <a href=#deliveryFrameworkId name="deliveryFrameworkId">deliveryFrameworkId</a>
 
 First included in: nonProfit/Result (this entity)  
 
@@ -311,3 +312,12 @@ First included in: nonProfit/Result (this entity)
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Start Date</td></tr><tr><td>description</td><td>Start Date of the result</td></tr><tr><td>dataFormat</td><td>DateTimeOffset</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_startdate</td></tr></table>
+
+### <a href=#resultTypeId name="resultTypeId">resultTypeId</a>
+
+The type of result being recorded.  
+First included in: nonProfit/Result (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Result Type</td></tr><tr><td>description</td><td>The type of result being recorded.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msiati_resulttypeid</td></tr></table>

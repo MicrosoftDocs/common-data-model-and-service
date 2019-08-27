@@ -3,15 +3,15 @@ title: Request - Common Data Model | Microsoft Docs
 description: This describes the Request entitity.
 author: nenad1002
 ms.service: common-data-model
-ms.reviewer: anneta
+ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/8/2019
+ms.date: 8/14/2019
 ms.author: nebanfic
 ---
 
 # Request
 
-A request from an individual or institution for funding or support. A request is more formal than an inquiry (LOI) and typically happens after an inquiry has already occurred.  
+Requests represent a request from an individual or institution for funding or support. A request is more formal than an inquiry (LOI) and typically happens after an inquiry has already occurred.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Request.cdm.json" target="_blank">GitHub</a>.  
 
@@ -26,17 +26,17 @@ Instances of this entity are listed below.
 |Name|Description|First Included in Instance|
 |---|---|---|
 |[createdOn](#createdOn)|Date and time when the record was created.|<a href="Request.md" target="_blank">nonProfit/Request</a>|
-|[createdBy](#createdBy)|Shows who created the record.|<a href="Request.md" target="_blank">nonProfit/Request</a>|
+|[createdBy](#createdBy)|Unique identifier of the user who created the record.|<a href="Request.md" target="_blank">nonProfit/Request</a>|
 |[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Request.md" target="_blank">nonProfit/Request</a>|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="Request.md" target="_blank">nonProfit/Request</a>|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="Request.md" target="_blank">nonProfit/Request</a>|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="Request.md" target="_blank">nonProfit/Request</a>|
+|[modifiedBy](#modifiedBy)|Unique identifier of the user who modified the record.|<a href="Request.md" target="_blank">nonProfit/Request</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the record.|<a href="Request.md" target="_blank">nonProfit/Request</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who modified the record.|<a href="Request.md" target="_blank">nonProfit/Request</a>|
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Request.md" target="_blank">nonProfit/Request</a>|
 |[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Request.md" target="_blank">nonProfit/Request</a>|
 |[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Request.md" target="_blank">nonProfit/Request</a>|
 |[ownerId](#ownerId)|Owner Id|<a href="Request.md" target="_blank">nonProfit/Request</a>|
 |[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Request.md" target="_blank">nonProfit/Request</a>|
-|[owningUser](#owningUser)|Unique identifier for the user that owns the record.|<a href="Request.md" target="_blank">nonProfit/Request</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Request.md" target="_blank">nonProfit/Request</a>|
 |[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Request.md" target="_blank">nonProfit/Request</a>|
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Request.md" target="_blank">nonProfit/Request</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Request.md" target="_blank">nonProfit/Request</a>|
@@ -50,11 +50,11 @@ Instances of this entity are listed below.
 |[amountProjected](#amountProjected)|Projected amount to be received from awarding entity (as contrasted to amount requested and amount received).|<a href="Request.md" target="_blank">nonProfit/Request</a>|
 |[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the entity.|<a href="Request.md" target="_blank">nonProfit/Request</a>|
 |[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the entity with respect to the base currency.|<a href="Request.md" target="_blank">nonProfit/Request</a>|
-|[amountprojectedBase](#amountprojectedBase)|Value of the Amount Projected in base currency.|<a href="Request.md" target="_blank">nonProfit/Request</a>|
+|[amountProjectedBase](#amountProjectedBase)|Value of the Amount Projected in base currency.|<a href="Request.md" target="_blank">nonProfit/Request</a>|
 |[amountRecommended](#amountRecommended)|Recommended Award amount.|<a href="Request.md" target="_blank">nonProfit/Request</a>|
-|[amountrecommendedBase](#amountrecommendedBase)|Value of the Amount Recommended in base currency.|<a href="Request.md" target="_blank">nonProfit/Request</a>|
+|[amountRecommendedBase](#amountRecommendedBase)|Value of the Amount Recommended in base currency.|<a href="Request.md" target="_blank">nonProfit/Request</a>|
 |[amountRequested](#amountRequested)|Amount requested in proposal (as contrasted to amount expected and amount received).|<a href="Request.md" target="_blank">nonProfit/Request</a>|
-|[amountrequestedBase](#amountrequestedBase)|Value of the Amount Requested in base currency.|<a href="Request.md" target="_blank">nonProfit/Request</a>|
+|[amountRequestedBase](#amountRequestedBase)|Value of the Amount Requested in base currency.|<a href="Request.md" target="_blank">nonProfit/Request</a>|
 |[applicationID](#applicationID)|Internal ID for the Application.|<a href="Request.md" target="_blank">nonProfit/Request</a>|
 |[conflictofInterestDetail](#conflictofInterestDetail)|Description of a conflict of interest, if any.|<a href="Request.md" target="_blank">nonProfit/Request</a>|
 |[conflictofInterestStatus](#conflictofInterestStatus)|Indicates the type of conflict of interest, if any.|<a href="Request.md" target="_blank">nonProfit/Request</a>|
@@ -77,7 +77,7 @@ Instances of this entity are listed below.
 |[submittedById](#submittedById)|Submitted By|<a href="Request.md" target="_blank">nonProfit/Request</a>|
 |[submittedDate](#submittedDate)|Date the Request was received by the awarding organization|<a href="Request.md" target="_blank">nonProfit/Request</a>|
 |[totalProjectBudget](#totalProjectBudget)|Total Project Budget, which may be in excess of a requested or awarded amount|<a href="Request.md" target="_blank">nonProfit/Request</a>|
-|[totalprojectbudgetBase](#totalprojectbudgetBase)|Value of the Total Project Budget in base currency.|<a href="Request.md" target="_blank">nonProfit/Request</a>|
+|[totalProjectBudgetBase](#totalProjectBudgetBase)|Value of the Total Project Budget in base currency.|<a href="Request.md" target="_blank">nonProfit/Request</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
@@ -90,12 +90,12 @@ First included in: nonProfit/Request (this entity)
 
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
-Shows who created the record.  
+Unique identifier of the user who created the record.  
 First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By</td></tr><tr><td>description</td><td>Shows who created the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By</td></tr><tr><td>description</td><td>Unique identifier of the user who created the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdby</td></tr></table>
 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
@@ -108,30 +108,30 @@ First included in: nonProfit/Request (this entity)
 
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
-Shows who last updated the record.  
+Unique identifier of the user who modified the record.  
 First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By</td></tr><tr><td>description</td><td>Shows who last updated the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By</td></tr><tr><td>description</td><td>Unique identifier of the user who modified the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedby</td></tr></table>
 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
-Shows who created the record on behalf of another user.  
+Unique identifier of the delegate user who created the record.  
 First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By (Delegate)</td></tr><tr><td>description</td><td>Shows who created the record on behalf of another user.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdonbehalfby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By (Delegate)</td></tr><tr><td>description</td><td>Unique identifier of the delegate user who created the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdonbehalfby</td></tr></table>
 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
-Shows who last updated the record on behalf of another user.  
+Unique identifier of the delegate user who modified the record.  
 First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By (Delegate)</td></tr><tr><td>description</td><td>Shows who last updated the record on behalf of another user.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedonbehalfby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By (Delegate)</td></tr><tr><td>description</td><td>Unique identifier of the delegate user who modified the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedonbehalfby</td></tr></table>
 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
@@ -180,12 +180,12 @@ First included in: nonProfit/Request (this entity)
 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
-Unique identifier for the user that owns the record.  
+Unique identifier of the user that owns the activity.  
 First included in: nonProfit/Request (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier for the user that owns the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier of the user that owns the activity.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
@@ -302,7 +302,7 @@ First included in: nonProfit/Request (this entity)
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Exchange Rate</td></tr><tr><td>description</td><td>Exchange rate for the currency associated with the entity with respect to the base currency.</td></tr><tr><td>dataFormat</td><td>Decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>1E-10</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>exchangerate</td></tr></table>
 
-### <a href=#amountprojectedBase name="amountprojectedBase">amountprojectedBase</a>
+### <a href=#amountProjectedBase name="amountProjectedBase">amountProjectedBase</a>
 
 Value of the Amount Projected in base currency.  
 First included in: nonProfit/Request (this entity)  
@@ -320,7 +320,7 @@ First included in: nonProfit/Request (this entity)
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Amount Recommended</td></tr><tr><td>description</td><td>Recommended Award amount.</td></tr><tr><td>dataFormat</td><td>Decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_amountrecommended</td></tr></table>
 
-### <a href=#amountrecommendedBase name="amountrecommendedBase">amountrecommendedBase</a>
+### <a href=#amountRecommendedBase name="amountRecommendedBase">amountRecommendedBase</a>
 
 Value of the Amount Recommended in base currency.  
 First included in: nonProfit/Request (this entity)  
@@ -338,7 +338,7 @@ First included in: nonProfit/Request (this entity)
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Amount Requested</td></tr><tr><td>description</td><td>Amount requested in proposal (as contrasted to amount expected and amount received).</td></tr><tr><td>dataFormat</td><td>Decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_amountrequested</td></tr></table>
 
-### <a href=#amountrequestedBase name="amountrequestedBase">amountrequestedBase</a>
+### <a href=#amountRequestedBase name="amountRequestedBase">amountRequestedBase</a>
 
 Value of the Amount Requested in base currency.  
 First included in: nonProfit/Request (this entity)  
@@ -540,7 +540,7 @@ First included in: nonProfit/Request (this entity)
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Total Project Budget</td></tr><tr><td>description</td><td>Total Project Budget, which may be in excess of a requested or awarded amount</td></tr><tr><td>dataFormat</td><td>Decimal</td></tr><tr><td>maximumValue</td><td>1000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_totalprojectbudget</td></tr></table>
 
-### <a href=#totalprojectbudgetBase name="totalprojectbudgetBase">totalprojectbudgetBase</a>
+### <a href=#totalProjectBudgetBase name="totalProjectBudgetBase">totalProjectBudgetBase</a>
 
 Value of the Total Project Budget in base currency.  
 First included in: nonProfit/Request (this entity)  

@@ -3,15 +3,15 @@ title: DesignatedCredit - Common Data Model | Microsoft Docs
 description: This describes the DesignatedCredit entitity.
 author: nenad1002
 ms.service: common-data-model
-ms.reviewer: anneta
+ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/8/2019
+ms.date: 8/14/2019
 ms.author: nebanfic
 ---
 
 # Designated Credit
 
-A segment of a donation payment or an in-kind gift that indicates the partial amount that's hard-credited or soft-credited to a customer and allocated to one designation.  
+A segment of a donation payment or in-kind gift that indicates the partial amount that is hard- or soft-credited to a Customer and allocated to one Designation.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/DesignatedCredit.cdm.json" target="_blank">GitHub</a>.  
 
@@ -26,17 +26,17 @@ Instances of this entity are listed below.
 |Name|Description|First Included in Instance|
 |---|---|---|
 |[createdOn](#createdOn)|Date and time when the record was created.|<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
-|[createdBy](#createdBy)|Shows who created the record.|<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
+|[createdBy](#createdBy)|Unique identifier of the user who created the record.|<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
 |[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
+|[modifiedBy](#modifiedBy)|Unique identifier of the user who modified the record.|<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the record.|<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who modified the record.|<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
 |[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
 |[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
 |[ownerId](#ownerId)|Owner Id|<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
 |[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
-|[owningUser](#owningUser)|Unique identifier for the user that owns the record.|<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
 |[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
@@ -65,10 +65,12 @@ Instances of this entity are listed below.
 |[dataEntryReference](#dataEntryReference)|Tracks data origin of payment transactions. References may be channel-specific.|<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
 |[dataEntrySource](#dataEntrySource)||<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
 |[dataEntrySource_display](#dataEntrySource_display)||<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
+|[msnfpDesignatiedcreditDesignationId](#msnfpDesignatiedcreditDesignationId)|Unique identifier for Designation associated with Designated Credit.|<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
 |[exchangeRateDate](#exchangeRateDate)|The date and time at which the currency exchange rate was determined|<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
 |[isAdjusted](#isAdjusted)|Indicates that this DesignatedCredit has been adjusted by a later DesignatedCredit|<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
 |[postedDate](#postedDate)||<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
 |[receivedDate](#receivedDate)||<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
+|[transactionId](#transactionId)|Unique identifier for Transaction associated with Designated Credit.|<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
@@ -81,12 +83,12 @@ First included in: nonProfit/DesignatedCredit (this entity)
 
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
-Shows who created the record.  
+Unique identifier of the user who created the record.  
 First included in: nonProfit/DesignatedCredit (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By</td></tr><tr><td>description</td><td>Shows who created the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By</td></tr><tr><td>description</td><td>Unique identifier of the user who created the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdby</td></tr></table>
 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
@@ -99,30 +101,30 @@ First included in: nonProfit/DesignatedCredit (this entity)
 
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
-Shows who last updated the record.  
+Unique identifier of the user who modified the record.  
 First included in: nonProfit/DesignatedCredit (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By</td></tr><tr><td>description</td><td>Shows who last updated the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By</td></tr><tr><td>description</td><td>Unique identifier of the user who modified the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedby</td></tr></table>
 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
-Shows who created the record on behalf of another user.  
+Unique identifier of the delegate user who created the record.  
 First included in: nonProfit/DesignatedCredit (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By (Delegate)</td></tr><tr><td>description</td><td>Shows who created the record on behalf of another user.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdonbehalfby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By (Delegate)</td></tr><tr><td>description</td><td>Unique identifier of the delegate user who created the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdonbehalfby</td></tr></table>
 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
-Shows who last updated the record on behalf of another user.  
+Unique identifier of the delegate user who modified the record.  
 First included in: nonProfit/DesignatedCredit (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By (Delegate)</td></tr><tr><td>description</td><td>Shows who last updated the record on behalf of another user.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedonbehalfby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By (Delegate)</td></tr><tr><td>description</td><td>Unique identifier of the delegate user who modified the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedonbehalfby</td></tr></table>
 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
@@ -171,12 +173,12 @@ First included in: nonProfit/DesignatedCredit (this entity)
 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
-Unique identifier for the user that owns the record.  
+Unique identifier of the user that owns the activity.  
 First included in: nonProfit/DesignatedCredit (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier for the user that owns the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier of the user that owns the activity.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
@@ -418,6 +420,15 @@ First included in: nonProfit/DesignatedCredit (this entity)
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
+### <a href=#msnfpDesignatiedcreditDesignationId name="msnfpDesignatiedcreditDesignationId">msnfpDesignatiedcreditDesignationId</a>
+
+Unique identifier for Designation associated with Designated Credit.  
+First included in: nonProfit/DesignatedCredit (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Designation</td></tr><tr><td>description</td><td>Unique identifier for Designation associated with Designated Credit.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_designatiedcredit_designationid</td></tr></table>
+
 ### <a href=#exchangeRateDate name="exchangeRateDate">exchangeRateDate</a>
 
 The date and time at which the currency exchange rate was determined  
@@ -451,3 +462,12 @@ First included in: nonProfit/DesignatedCredit (this entity)
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Received Date</td></tr><tr><td>dataFormat</td><td>DateTimeOffset</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_receiveddate</td></tr></table>
+
+### <a href=#transactionId name="transactionId">transactionId</a>
+
+Unique identifier for Transaction associated with Designated Credit.  
+First included in: nonProfit/DesignatedCredit (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Transaction</td></tr><tr><td>description</td><td>Unique identifier for Transaction associated with Designated Credit.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_transactionid</td></tr></table>

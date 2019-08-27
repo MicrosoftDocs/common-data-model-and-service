@@ -3,9 +3,9 @@ title: Address - Common Data Model | Microsoft Docs
 description: Address and shipping information. Used to store additional addresses for an account or a contact.
 author: nenad1002
 ms.service: common-data-model
-ms.reviewer: anneta
+ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/8/2019
+ms.date: 8/14/2019
 ms.author: nebanfic
 ---
 
@@ -79,7 +79,7 @@ Instances of this entity are listed below.
 |[composite](#composite)|Shows the complete address.|<a href="../../../../Address.md" target="_blank">applicationCommon/Address</a>|
 |[endDate](#endDate)|Effective end date of the address and related contact info|<a href="Address.md" target="_blank">nonProfit/Address</a>|
 |[isUspsValidated](#isUspsValidated)||<a href="Address.md" target="_blank">nonProfit/Address</a>|
-|[isvalidated](#isvalidated)||<a href="Address.md" target="_blank">nonProfit/Address</a>|
+|[isvalidated](#isvalidated)|Indicates the address has been validated.|<a href="Address.md" target="_blank">nonProfit/Address</a>|
 |[region](#region)|Indicates the region of the world that the address is located.|<a href="Address.md" target="_blank">nonProfit/Address</a>|
 |[region_display](#region_display)||<a href="Address.md" target="_blank">nonProfit/Address</a>|
 |[seasonalEndDay](#seasonalEndDay)|Annual end day (of month) of the address and related contact info|<a href="Address.md" target="_blank">nonProfit/Address</a>|
@@ -554,11 +554,12 @@ First included in: nonProfit/Address (this entity)
 
 ### <a href=#isvalidated name="isvalidated">isvalidated</a>
 
+Indicates the address has been validated.  
 First included in: nonProfit/Address (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Validated</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_isvalidated</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Validated</td></tr><tr><td>description</td><td>Indicates the address has been validated.</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_isvalidated</td></tr></table>
 
 ### <a href=#region name="region">region</a>
 

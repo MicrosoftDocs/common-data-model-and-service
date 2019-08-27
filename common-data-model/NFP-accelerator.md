@@ -5,14 +5,14 @@ author: smithy7
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 4/08/2019
-ms.author: smithc
+ms.date: 8/12/2019
+ms.author: rbhaiya
 ---
 
 # The Dynamics 365 Nonprofit Accelerator
 
 This accelerator was announced at the initial Microsoft CXO Summit in [April 2018](https://blogs.microsoft.com/on-the-issues/2018/04/20/new-solutions-to-help-nonprofits-drive-impact) and released in [November 2018](https://blogs.microsoft.com/on-the-issues/2018/11/08/new-dynamics-365-nonprofit-accelerator-supports-organizations-with-end-to-end-solutions)
-at the [NetHope Global Summit](https://youtu.be/eV4N0mK0-so?t=2169). The initial release includes these features:
+at the [NetHope Global Summit](https://youtu.be/eV4N0mK0-so?t=2169). The initial release included these features:
 
 - Extension of the Common Data Model (CDM) to include concepts for managing constituents, raising funds, grants/awards, program delivery, and tracking impact, including entity definitions and relationships.
 
@@ -29,27 +29,22 @@ at the [NetHope Global Summit](https://youtu.be/eV4N0mK0-so?t=2169). The initial
 
 - Support for analytics.
 
-- A solution that's based on Common Data Service and that you can install from AppSource.
+- A solution that's based on Common Data Service (CDS) for Apps and that you can install from AppSource.
 
 - Documentation that helps you adopt the accelerator.
 
-## Latest news
-- Dynamics 365 Nonprofit Accelerator: [a community solution to drive social impact](https://cloudblogs.microsoft.com/dynamics365/bdm/2019/04/04/dynamics-365-nonprofit-accelerator-a-community-solution-to-drive-social-impact/).
-
-
 ## Sitemap extensions
 
-With the Nonprofit Accelerator plugged in to the Dynamics 365 platform, you can optimize individual aspects of nonprofit business processes, including raising funds, managing grants and awards, program delivery, and tracking impact. You can also leverage the entire constituent-engagement solution within Dynamics 365.
+With the Nonprofit Accelerator plugged in to the Dynamics 365 platform, you can optimize individual aspects of nonprofit organizational processes, including raising funds, managing grants and awards, program delivery, and tracking impact. You can also leverage the entire constituent-engagement solution within Dynamics 365.
 
-This accelerator adds a nonprofit layer to the rich feature set of the base Dynamics 365 functionality by adding nonprofit entities to record detailed constituent profiles for individuals, households, and organizations. The current data model supports end-to-end fundraising, grants/awards lifecycles, standards-based program delivery, and impact tracking based on the [IATI
+This accelerator adds a nonprofit layer to the rich feature set of the base Dynamics 365 functionality by adding nonprofit entities to record detailed constituent profiles for individuals, households, organizations and beneficiaries. The current data model supports end-to-end fundraising, grants/awards lifecycles, standards-based program delivery, and impact tracking based on the [IATI
 standard](https://iatistandard.org/en/).
 
-![](media/nfp-sitemapA.png)
-![](media/nfp-sitemapB.png)
+![](media/NFP-SitemapV1.png)
 
 ## Entities and workflows
 
-These entities are built in to the Nonprofit Accelerator (\*New with version 2.0 - released March 2019):
+These entities are built in to the Nonprofit Accelerator (*New with version 2.0 - released March 2019):
 
 | **Constituent**  | **Fundraising**   | **Grants/Awards**         | **Program Delivery & Impact Tracking** | **Optional IATI Add-On**         |
 |------------------|-------------------|---------------------------|----------------------------------------|----------------------------------|
@@ -78,6 +73,7 @@ These entities are built in to the Nonprofit Accelerator (\*New with version 2.0
 |                  |                   |                           |                                        | Document Country                 |
 |                  |                   |                           |                                        | Tag                              |
 
+
 ## Forms and dashboards
 
 The Nonprofit Accelerator combines standard Dynamics 365 entities with entities that are customized specifically for nonprofit use cases to help you build nonprofit industry solutions. This section provides examples of the forms and dashboards that demonstrate the entities in the Dynamics 365 Nonprofit Common Data Model.
@@ -100,29 +96,29 @@ Program Delivery & Results entity that details what will be measured to track ev
 
 ![Indicators](media/nfp-indicators_4.png)
 
-### Volunteer preferences, skills, and availability
+### Volunteer Preferences, Skills & Availability
 
-Track volunteer preferences, skills, and availability, and establish Volunteer Projects that leverage Dynamics 365 Project Service Automation.
+Track volunteer preferences, skills and availability and establish Volunteer Projects leveraging Dynamics 365 Project Service Automation
 
-![Volunteers](media/nfp-volunteers_v2.png)
+![Volunteers](media/NFP-Volunteers.png)
 
 ### Membership
 
-Establish membership levels in the Membership Category entity, and link constituents to those categories in the Membership entity so that your organization can create and track membership over time.
+Membership Category entity that establishes membership levels and Membership entity that links Constituents to Membership Category, enabling the creation and tracking of membership over time. 
 
-![Membership](media/nfp-membership_v2.png)
+![Membership](media/NFP-Membership.png)
 
-### IATI (optional add-on)
+### IATI (Optional Add-On)
 
-[IATI](https://iatistandard.org/en/) is a global campaign to more transparently track how aid money is spent. The initiative is designed to ensure that aid money reaches its intended recipients, reduce poverty, and improve standards of living worldwide. Nonprofit organizations can record their fundraising and program-based activities according to the IATI Organizational and Activity Standards.
+[IATI](https://iatistandard.org/en/) is a global campaign to create transparency in the records of how aid money is spent. The initiative hopes to ensure that aid money reaches its intended recipients with the goal of improving standards of living worldwide and globally reduce poverty.  Nonprofits can now record their fundraising and programmatic activities according to the IATI Organizational and Activity Standards.    
 
-![IATI](media/nfp-iati_v2.png)
+![IATI](media/NFP-IATI.png)
 
-### Model-driven apps
+### Model Driven Apps
 
-Version 2.0 introduces model-driven apps for managing constituents, fundraising, awards, delivery frameworks, volunteers, and administration.
+New with Version 2.0 are model driven apps for Constituents, Fundraising, Awards, Delivery Frameworks, Volunteer Management and Administration    
 
-![Model Driven Apps](media/nfp-model-driven-apps_v2.png)
+![Model Driven Apps](media/nfp-ModelDrivenApps.png)
 
 ## More resources
 
