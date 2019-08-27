@@ -3,15 +3,15 @@ title: Salutation - Common Data Model | Microsoft Docs
 description: This describes the Salutation entitity.
 author: nenad1002
 ms.service: common-data-model
-ms.reviewer: anneta
+ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/8/2019
+ms.date: 8/14/2019
 ms.author: nebanfic
 ---
 
 # Salutation
 
-The way a donor or prospect is commonly addressed via written communication, such as hard-copy letters and email messages.  Nonprofits and foundations typically address major donors by different salutations depending on the scenario.  A medical doctor could be addressed as "Doctor Smith" when the organization reaches out regarding in-country field volunteerism that the person performs.  On the other hand, the same individual might be referred to as "Mrs. Smith" as part of her household being solicited for a major gift.  
+A Salutation represents the way a constituent wishes to be addressed, depending on the source, purpose and content of a of communication.  Salutations may or may not be auto-created by workflow.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Salutation.cdm.json" target="_blank">GitHub</a>.  
 
@@ -26,17 +26,17 @@ Instances of this entity are listed below.
 |Name|Description|First Included in Instance|
 |---|---|---|
 |[createdOn](#createdOn)|Date and time when the record was created.|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
-|[createdBy](#createdBy)|Shows who created the record.|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
+|[createdBy](#createdBy)|Unique identifier of the user who created the record.|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
 |[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
+|[modifiedBy](#modifiedBy)|Unique identifier of the user who modified the record.|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the record.|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who modified the record.|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
 |[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
 |[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
 |[ownerId](#ownerId)|Owner Id|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
 |[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
-|[owningUser](#owningUser)|Unique identifier for the user that owns the record.|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
 |[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
@@ -92,12 +92,12 @@ First included in: nonProfit/Salutation (this entity)
 
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
-Shows who created the record.  
+Unique identifier of the user who created the record.  
 First included in: nonProfit/Salutation (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By</td></tr><tr><td>description</td><td>Shows who created the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By</td></tr><tr><td>description</td><td>Unique identifier of the user who created the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdby</td></tr></table>
 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
@@ -110,30 +110,30 @@ First included in: nonProfit/Salutation (this entity)
 
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
-Shows who last updated the record.  
+Unique identifier of the user who modified the record.  
 First included in: nonProfit/Salutation (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By</td></tr><tr><td>description</td><td>Shows who last updated the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By</td></tr><tr><td>description</td><td>Unique identifier of the user who modified the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedby</td></tr></table>
 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
-Shows who created the record on behalf of another user.  
+Unique identifier of the delegate user who created the record.  
 First included in: nonProfit/Salutation (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By (Delegate)</td></tr><tr><td>description</td><td>Shows who created the record on behalf of another user.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdonbehalfby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By (Delegate)</td></tr><tr><td>description</td><td>Unique identifier of the delegate user who created the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdonbehalfby</td></tr></table>
 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
-Shows who last updated the record on behalf of another user.  
+Unique identifier of the delegate user who modified the record.  
 First included in: nonProfit/Salutation (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By (Delegate)</td></tr><tr><td>description</td><td>Shows who last updated the record on behalf of another user.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedonbehalfby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By (Delegate)</td></tr><tr><td>description</td><td>Unique identifier of the delegate user who modified the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedonbehalfby</td></tr></table>
 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
@@ -182,12 +182,12 @@ First included in: nonProfit/Salutation (this entity)
 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
-Unique identifier for the user that owns the record.  
+Unique identifier of the user that owns the activity.  
 First included in: nonProfit/Salutation (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier for the user that owns the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier of the user that owns the activity.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
@@ -439,8 +439,7 @@ First included in: nonProfit/Salutation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Suffix</td></tr><tr><td>description</td><td>Suffix</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_suffix</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Jr.
-Sr.</td><td>100000000</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Suffix</td></tr><tr><td>description</td><td>Suffix</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_suffix</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Jr.</td><td>100000000</td></tr><tr><td>en</td><td>Sr.</td><td>844060000</td></tr></table></td></tr></table>
 
 ### <a href=#suffix_display name="suffix_display">suffix_display</a>
 
@@ -457,11 +456,7 @@ First included in: nonProfit/Salutation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Title</td></tr><tr><td>description</td><td>Prefix</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_title</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Mr.
-Mrs.
-Dr.
-Prof.
-Ms.</td><td>100000000</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Title</td></tr><tr><td>description</td><td>Prefix</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_title</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Mr.</td><td>100000000</td></tr><tr><td>en</td><td>Mrs.</td><td>844060000</td></tr><tr><td>en</td><td>Dr.</td><td>844060001</td></tr><tr><td>en</td><td>Prof.</td><td>844060002</td></tr><tr><td>en</td><td>Ms.</td><td>844060003</td></tr></table></td></tr></table>
 
 ### <a href=#title_display name="title_display">title_display</a>
 

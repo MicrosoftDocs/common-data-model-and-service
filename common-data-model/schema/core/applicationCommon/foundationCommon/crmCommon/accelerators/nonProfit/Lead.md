@@ -3,9 +3,9 @@ title: Lead - Common Data Model | Microsoft Docs
 description: This describes the Lead entitity.
 author: nenad1002
 ms.service: common-data-model
-ms.reviewer: anneta
+ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/8/2019
+ms.date: 8/14/2019
 ms.author: nebanfic
 ---
 
@@ -20,7 +20,10 @@ A prospect or a potential sales opportunity. Leads are converted into accounts, 
 Instances of this entity are listed below.  
 
 - [/foundationCommon/crmCommon/Lead](../../Lead.md "/core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.json/Lead")  
+- [/foundationCommon/crmCommon/accelerators/automotive/Lead](../automotive/Lead.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/automotive/Lead.cdm.json/Lead")  
+- [/foundationCommon/crmCommon/accelerators/financialServices/banking/Lead](../financialServices/banking/Lead.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/Lead.cdm.json/Lead")  
 - /foundationCommon/crmCommon/accelerators/nonProfit/Lead  
+- [/foundationCommon/crmCommon/projectCommon/Lead](../../projectCommon/Lead.md "/core/applicationCommon/foundationCommon/crmCommon/projectCommon/Lead.cdm.json/Lead")  
 - [/foundationCommon/crmCommon/solutions/marketing/Lead](../../solutions/marketing/Lead.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Lead.cdm.json/Lead")  
 
 ## Attributes
@@ -28,17 +31,17 @@ Instances of this entity are listed below.
 |Name|Description|First Included in Instance|
 |---|---|---|
 |[createdOn](#createdOn)|Date and time when the record was created.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
-|[createdBy](#createdBy)|Shows who created the record.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[createdBy](#createdBy)|Unique identifier of the user who created the record.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
 |[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[modifiedBy](#modifiedBy)|Unique identifier of the user who modified the record.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the record.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who modified the record.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
 |[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
 |[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
 |[ownerId](#ownerId)|Owner Id|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
 |[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
-|[owningUser](#owningUser)|Unique identifier for the user that owns the record.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
 |[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
@@ -192,8 +195,11 @@ Instances of this entity are listed below.
 |[relatedObjectId](#relatedObjectId)|Related Campaign Response.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
 |[originatingCaseId](#originatingCaseId)|This attribute is used for Sample Service Business Processes.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
 |[qualifyingOpportunityId](#qualifyingOpportunityId)|Choose the opportunity that the lead was qualified on and then converted to.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[GDPROptOut](#GDPROptOut)|Describes whether lead is opted out or not|<a href="../../projectCommon/Lead.md" target="_blank">projectCommon/Lead</a>|
+|[orderType](#orderType)|Whether the Opportunity created when qualifying this Lead is for an Item- based or a Work-based sale|<a href="../../projectCommon/Lead.md" target="_blank">projectCommon/Lead</a>|
+|[orderType_display](#orderType_display)||<a href="../../projectCommon/Lead.md" target="_blank">projectCommon/Lead</a>|
 |[applicationDeadline](#applicationDeadline)|Deadline to submit application.|<a href="Lead.md" target="_blank">nonProfit/Lead</a>|
-|[deliveryFramework](#deliveryFramework)||<a href="Lead.md" target="_blank">nonProfit/Lead</a>|
+|[deliveryFrameworkId](#deliveryFrameworkId)||<a href="Lead.md" target="_blank">nonProfit/Lead</a>|
 |[expectedAmountRequested](#expectedAmountRequested)|Amount requested by the Grant Seeker.|<a href="Lead.md" target="_blank">nonProfit/Lead</a>|
 |[expectedamountrequestedBase](#expectedamountrequestedBase)|Value of the Expected Amount Requested in base currency.|<a href="Lead.md" target="_blank">nonProfit/Lead</a>|
 |[expectedDuration](#expectedDuration)|Expected duration of the Grant in months.|<a href="Lead.md" target="_blank">nonProfit/Lead</a>|
@@ -202,13 +208,13 @@ Instances of this entity are listed below.
 |[leadDocketId](#leadDocketId)|Docket|<a href="Lead.md" target="_blank">nonProfit/Lead</a>|
 |[letterofIntentDeadline](#letterofIntentDeadline)|Deadline to submit notification to donor that organization will be competing for this grant.|<a href="Lead.md" target="_blank">nonProfit/Lead</a>|
 |[organizationalBudget](#organizationalBudget)|Total budget of the Organization.|<a href="Lead.md" target="_blank">nonProfit/Lead</a>|
-|[organizationalbudgetBase](#organizationalbudgetBase)|Value of the Organization Budget in base currency.|<a href="Lead.md" target="_blank">nonProfit/Lead</a>|
+|[organizationalBudgetBase](#organizationalBudgetBase)|Value of the Organization Budget in base currency.|<a href="Lead.md" target="_blank">nonProfit/Lead</a>|
 |[organizationType](#organizationType)|Type of Account.|<a href="Lead.md" target="_blank">nonProfit/Lead</a>|
 |[organizationType_display](#organizationType_display)||<a href="Lead.md" target="_blank">nonProfit/Lead</a>|
 |[requestType](#requestType)|Indicates the type of Inquiry/LOI/Lead.|<a href="Lead.md" target="_blank">nonProfit/Lead</a>|
 |[requestType_display](#requestType_display)||<a href="Lead.md" target="_blank">nonProfit/Lead</a>|
 |[totalProjectBudget](#totalProjectBudget)|Budget defined by the Grant Seeker.|<a href="Lead.md" target="_blank">nonProfit/Lead</a>|
-|[totalprojectbudgetBase](#totalprojectbudgetBase)|Value of the Total Project Budget in base currency.|<a href="Lead.md" target="_blank">nonProfit/Lead</a>|
+|[totalProjectBudgetBase](#totalProjectBudgetBase)|Value of the Total Project Budget in base currency.|<a href="Lead.md" target="_blank">nonProfit/Lead</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
@@ -221,12 +227,12 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
-Shows who created the record.  
+Unique identifier of the user who created the record.  
 First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By</td></tr><tr><td>description</td><td>Shows who created the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By</td></tr><tr><td>description</td><td>Unique identifier of the user who created the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdby</td></tr></table>
 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
@@ -239,30 +245,30 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
-Shows who last updated the record.  
+Unique identifier of the user who modified the record.  
 First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By</td></tr><tr><td>description</td><td>Shows who last updated the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By</td></tr><tr><td>description</td><td>Unique identifier of the user who modified the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedby</td></tr></table>
 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
-Shows who created the record on behalf of another user.  
+Unique identifier of the delegate user who created the record.  
 First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By (Delegate)</td></tr><tr><td>description</td><td>Shows who created the record on behalf of another user.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdonbehalfby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By (Delegate)</td></tr><tr><td>description</td><td>Unique identifier of the delegate user who created the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdonbehalfby</td></tr></table>
 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
-Shows who last updated the record on behalf of another user.  
+Unique identifier of the delegate user who modified the record.  
 First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By (Delegate)</td></tr><tr><td>description</td><td>Shows who last updated the record on behalf of another user.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedonbehalfby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By (Delegate)</td></tr><tr><td>description</td><td>Unique identifier of the delegate user who modified the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedonbehalfby</td></tr></table>
 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
@@ -311,12 +317,12 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
-Unique identifier for the user that owns the record.  
+Unique identifier of the user that owns the activity.  
 First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier for the user that owns the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier of the user that owns the activity.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
@@ -361,7 +367,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Lead</td></tr><tr><td>description</td><td>Unique identifier of the lead.</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>sourceName</td><td>msdyncrm_leadid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Lead</td></tr><tr><td>description</td><td>Unique identifier of the lead.</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>sourceName</td><td>leadid</td></tr></table>
 
 ### <a href=#fullName name="fullName">fullName</a>
 
@@ -1593,7 +1599,7 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Contact</td></tr><tr><td>description</td><td>Unique identifier of the contact with which the lead is associated.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_contactid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Contact</td></tr><tr><td>description</td><td>Unique identifier of the contact with which the lead is associated.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>contactid</td></tr></table>
 
 ### <a href=#yomiCompanyName name="yomiCompanyName">yomiCompanyName</a>
 
@@ -1676,6 +1682,32 @@ First included in: <a href="../../Lead.md" target="_blank">crmCommon/Lead</a>
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Qualifying Opportunity</td></tr><tr><td>description</td><td>Choose the opportunity that the lead was qualified on and then converted to.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>qualifyingopportunityid</td></tr></table>
 
+### <a href=#GDPROptOut name="GDPROptOut">GDPROptOut</a>
+
+Describes whether lead is opted out or not  
+First included in: <a href="../../projectCommon/Lead.md" target="_blank">projectCommon/Lead</a>  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>GDPR Optout</td></tr><tr><td>description</td><td>Describes whether lead is opted out or not</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_gdproptout</td></tr></table>
+
+### <a href=#orderType name="orderType">orderType</a>
+
+Whether the Opportunity created when qualifying this Lead is for an Item- based or a Work-based sale  
+First included in: <a href="../../projectCommon/Lead.md" target="_blank">projectCommon/Lead</a>  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Type</td></tr><tr><td>description</td><td>Whether the Opportunity created when qualifying this Lead is for an Item- based or a Work-based sale</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_ordertype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Item based</td><td>192350000</td></tr><tr><td>en</td><td>Work based</td><td>192350001</td></tr></table></td></tr></table>
+
+### <a href=#orderType_display name="orderType_display">orderType_display</a>
+
+First included in: <a href="../../projectCommon/Lead.md" target="_blank">projectCommon/Lead</a>  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+
 ### <a href=#applicationDeadline name="applicationDeadline">applicationDeadline</a>
 
 Deadline to submit application.  
@@ -1685,7 +1717,7 @@ First included in: nonProfit/Lead (this entity)
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Application Deadline</td></tr><tr><td>description</td><td>Deadline to submit application.</td></tr><tr><td>dataFormat</td><td>DateTimeOffset</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_applicationdeadline</td></tr></table>
 
-### <a href=#deliveryFramework name="deliveryFramework">deliveryFramework</a>
+### <a href=#deliveryFrameworkId name="deliveryFrameworkId">deliveryFrameworkId</a>
 
 First included in: nonProfit/Lead (this entity)  
 
@@ -1765,7 +1797,7 @@ First included in: nonProfit/Lead (this entity)
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Organization Budget</td></tr><tr><td>description</td><td>Total budget of the Organization.</td></tr><tr><td>dataFormat</td><td>Decimal</td></tr><tr><td>maximumValue</td><td>1000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_organizationalbudget</td></tr></table>
 
-### <a href=#organizationalbudgetBase name="organizationalbudgetBase">organizationalbudgetBase</a>
+### <a href=#organizationalBudgetBase name="organizationalBudgetBase">organizationalBudgetBase</a>
 
 Value of the Organization Budget in base currency.  
 First included in: nonProfit/Lead (this entity)  
@@ -1817,7 +1849,7 @@ First included in: nonProfit/Lead (this entity)
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Total Project Budget</td></tr><tr><td>description</td><td>Budget defined by the Grant Seeker.</td></tr><tr><td>dataFormat</td><td>Decimal</td></tr><tr><td>maximumValue</td><td>1000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_totalprojectbudget</td></tr></table>
 
-### <a href=#totalprojectbudgetBase name="totalprojectbudgetBase">totalprojectbudgetBase</a>
+### <a href=#totalProjectBudgetBase name="totalProjectBudgetBase">totalProjectBudgetBase</a>
 
 Value of the Total Project Budget in base currency.  
 First included in: nonProfit/Lead (this entity)  

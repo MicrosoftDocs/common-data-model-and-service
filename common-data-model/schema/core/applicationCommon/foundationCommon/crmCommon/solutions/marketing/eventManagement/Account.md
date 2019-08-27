@@ -3,9 +3,9 @@ title: Account - Common Data Model | Microsoft Docs
 description: This describes the Account entitity.
 author: nenad1002
 ms.service: common-data-model
-ms.reviewer: anneta
+ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/8/2019
+ms.date: 8/14/2019
 ms.author: nebanfic
 ---
 
@@ -23,8 +23,10 @@ Instances of this entity are listed below.
 - [/foundationCommon/Account](../../../../Account.md "/core/applicationCommon/foundationCommon/Account.cdm.json/Account")  
 - [/foundationCommon/crmCommon/Account](../../../Account.md "/core/applicationCommon/foundationCommon/crmCommon/Account.cdm.json/Account")  
 - [/foundationCommon/crmCommon/accelerators/education/higherEducation/Account](../../../accelerators/education/higherEducation/Account.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Account.cdm.json/Account")  
+- [/foundationCommon/crmCommon/accelerators/financialServices/banking/Account](../../../accelerators/financialServices/banking/Account.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/Account.cdm.json/Account")  
 - [/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Account](../../../accelerators/healthCare/electronicMedicalRecords/Account.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Account.cdm.json/Account")  
 - [/foundationCommon/crmCommon/accelerators/nonProfit/Account](../../../accelerators/nonProfit/Account.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Account.cdm.json/Account")  
+- [/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/Account](../../../projectCommon/projectServiceAutomation/Account.md "/core/applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/Account.cdm.json/Account")  
 - /foundationCommon/crmCommon/solutions/marketing/eventManagement/Account  
 - [/foundationCommon/crmCommon/solutions/portals/Account](../../portals/Account.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Account.cdm.json/Account")  
 
@@ -33,17 +35,17 @@ Instances of this entity are listed below.
 |Name|Description|First Included in Instance|
 |---|---|---|
 |[createdOn](#createdOn)|Date and time when the record was created.|<a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>|
-|[createdBy](#createdBy)|Shows who created the record.|<a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[createdBy](#createdBy)|Unique identifier of the user who created the record.|<a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>|
 |[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[modifiedBy](#modifiedBy)|Unique identifier of the user who modified the record.|<a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the record.|<a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who modified the record.|<a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>|
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>|
 |[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>|
-|[ownerId](#ownerId)|Owner Id|<a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[ownerIdType](#ownerIdType)||<a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[ownerId](#ownerId)||<a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>|
 |[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>|
-|[owningUser](#owningUser)|Unique identifier for the user that owns the record.|<a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>|
 |[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>|
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>|
@@ -230,12 +232,12 @@ First included in: <a href="../../../../../Account.md" target="_blank">applicati
 
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
-Shows who created the record.  
+Unique identifier of the user who created the record.  
 First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By</td></tr><tr><td>description</td><td>Shows who created the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By</td></tr><tr><td>description</td><td>Unique identifier of the user who created the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdby</td></tr></table>
 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
@@ -248,30 +250,30 @@ First included in: <a href="../../../../../Account.md" target="_blank">applicati
 
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
-Shows who last updated the record.  
+Unique identifier of the user who modified the record.  
 First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By</td></tr><tr><td>description</td><td>Shows who last updated the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By</td></tr><tr><td>description</td><td>Unique identifier of the user who modified the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedby</td></tr></table>
 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
-Shows who created the record on behalf of another user.  
+Unique identifier of the delegate user who created the record.  
 First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By (Delegate)</td></tr><tr><td>description</td><td>Shows who created the record on behalf of another user.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdonbehalfby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By (Delegate)</td></tr><tr><td>description</td><td>Unique identifier of the delegate user who created the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdonbehalfby</td></tr></table>
 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
-Shows who last updated the record on behalf of another user.  
+Unique identifier of the delegate user who modified the record.  
 First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By (Delegate)</td></tr><tr><td>description</td><td>Shows who last updated the record on behalf of another user.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedonbehalfby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By (Delegate)</td></tr><tr><td>description</td><td>Unique identifier of the delegate user who modified the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedonbehalfby</td></tr></table>
 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
@@ -293,21 +295,19 @@ First included in: <a href="../../../../../Account.md" target="_blank">applicati
 
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
-The type of owner, either User or Team.  
 First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owner Type</td></tr><tr><td>description</td><td>The type of owner, either User or Team.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>sourceName</td><td>owneridtype</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
-Owner Id  
 First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owner</td></tr><tr><td>description</td><td>Owner Id</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>sourceName</td><td>ownerid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>Guid</td></tr></table>
 
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
@@ -320,12 +320,12 @@ First included in: <a href="../../../../../Account.md" target="_blank">applicati
 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
-Unique identifier for the user that owns the record.  
+Unique identifier of the user that owns the activity.  
 First included in: <a href="../../../../../Account.md" target="_blank">applicationCommon/Account</a>  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier for the user that owns the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier of the user that owns the activity.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 

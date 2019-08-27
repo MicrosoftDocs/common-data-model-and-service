@@ -3,9 +3,9 @@ title: Unit - Common Data Model | Microsoft Docs
 description: Unit of measure.
 author: nenad1002
 ms.service: common-data-model
-ms.reviewer: anneta
+ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/8/2019
+ms.date: 8/14/2019
 ms.author: nebanfic
 ---
 
@@ -20,6 +20,7 @@ Unit of measure.
 Instances of this entity are listed below.  
 
 - /foundationCommon/Unit  
+- [/foundationCommon/crmCommon/accelerators/automotive/Unit](crmCommon/accelerators/automotive/Unit.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/automotive/Unit.cdm.json/Unit")  
 
 ## Attributes
 

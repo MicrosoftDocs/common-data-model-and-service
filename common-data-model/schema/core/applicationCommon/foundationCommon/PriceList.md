@@ -3,9 +3,9 @@ title: PriceList - Common Data Model | Microsoft Docs
 description: Entity that defines pricing levels.
 author: nenad1002
 ms.service: common-data-model
-ms.reviewer: anneta
+ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/8/2019
+ms.date: 8/14/2019
 ms.author: nebanfic
 ---
 
@@ -20,6 +20,7 @@ Entity that defines pricing levels.
 Instances of this entity are listed below.  
 
 - /foundationCommon/PriceList  
+- [/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/PriceList](crmCommon/projectCommon/projectServiceAutomation/PriceList.md "/core/applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/PriceList.cdm.json/PriceList")  
 
 ## Attributes
 

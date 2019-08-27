@@ -1,17 +1,17 @@
 ---
 title: PaymentMethod - Common Data Model | Microsoft Docs
-description: This describes the PaymentMethod entitity.
+description: Payment Method is a placeholder entity for customizations that may be supported by an application.
 author: nenad1002
 ms.service: common-data-model
-ms.reviewer: anneta
+ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/8/2019
+ms.date: 8/14/2019
 ms.author: nebanfic
 ---
 
 # Payment Method
 
-A parent entity for payment-method customizations that an application may support.  Extensions could support credit cards, EFT, cryptocurrency, mobile payments, or rewards points.  
+Payment Method is a placeholder entity for customizations that may be supported by an application.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/PaymentMethod.cdm.json" target="_blank">GitHub</a>.  
 
@@ -26,17 +26,17 @@ Instances of this entity are listed below.
 |Name|Description|First Included in Instance|
 |---|---|---|
 |[createdOn](#createdOn)|Date and time when the record was created.|<a href="PaymentMethod.md" target="_blank">nonProfit/PaymentMethod</a>|
-|[createdBy](#createdBy)|Shows who created the record.|<a href="PaymentMethod.md" target="_blank">nonProfit/PaymentMethod</a>|
+|[createdBy](#createdBy)|Unique identifier of the user who created the record.|<a href="PaymentMethod.md" target="_blank">nonProfit/PaymentMethod</a>|
 |[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="PaymentMethod.md" target="_blank">nonProfit/PaymentMethod</a>|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="PaymentMethod.md" target="_blank">nonProfit/PaymentMethod</a>|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="PaymentMethod.md" target="_blank">nonProfit/PaymentMethod</a>|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="PaymentMethod.md" target="_blank">nonProfit/PaymentMethod</a>|
+|[modifiedBy](#modifiedBy)|Unique identifier of the user who modified the record.|<a href="PaymentMethod.md" target="_blank">nonProfit/PaymentMethod</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the record.|<a href="PaymentMethod.md" target="_blank">nonProfit/PaymentMethod</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who modified the record.|<a href="PaymentMethod.md" target="_blank">nonProfit/PaymentMethod</a>|
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="PaymentMethod.md" target="_blank">nonProfit/PaymentMethod</a>|
 |[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="PaymentMethod.md" target="_blank">nonProfit/PaymentMethod</a>|
 |[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="PaymentMethod.md" target="_blank">nonProfit/PaymentMethod</a>|
 |[ownerId](#ownerId)|Owner Id|<a href="PaymentMethod.md" target="_blank">nonProfit/PaymentMethod</a>|
 |[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="PaymentMethod.md" target="_blank">nonProfit/PaymentMethod</a>|
-|[owningUser](#owningUser)|Unique identifier for the user that owns the record.|<a href="PaymentMethod.md" target="_blank">nonProfit/PaymentMethod</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="PaymentMethod.md" target="_blank">nonProfit/PaymentMethod</a>|
 |[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="PaymentMethod.md" target="_blank">nonProfit/PaymentMethod</a>|
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="PaymentMethod.md" target="_blank">nonProfit/PaymentMethod</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="PaymentMethod.md" target="_blank">nonProfit/PaymentMethod</a>|
@@ -48,13 +48,16 @@ Instances of this entity are listed below.
 |[statusCode_display](#statusCode_display)||<a href="PaymentMethod.md" target="_blank">nonProfit/PaymentMethod</a>|
 |[name](#name)||<a href="PaymentMethod.md" target="_blank">nonProfit/PaymentMethod</a>|
 |[comments](#comments)||<a href="PaymentMethod.md" target="_blank">nonProfit/PaymentMethod</a>|
+|[contactId](#contactId)|Unique identifier for Contact associated with Payment Method.|<a href="PaymentMethod.md" target="_blank">nonProfit/PaymentMethod</a>|
 |[isDefault](#isDefault)||<a href="PaymentMethod.md" target="_blank">nonProfit/PaymentMethod</a>|
 |[lastAuthenticationStatus](#lastAuthenticationStatus)||<a href="PaymentMethod.md" target="_blank">nonProfit/PaymentMethod</a>|
 |[lastAuthenticationStatus_display](#lastAuthenticationStatus_display)||<a href="PaymentMethod.md" target="_blank">nonProfit/PaymentMethod</a>|
 |[lastAuthenticationStatusDate](#lastAuthenticationStatusDate)||<a href="PaymentMethod.md" target="_blank">nonProfit/PaymentMethod</a>|
 |[lastAuthenticationStatusDetail](#lastAuthenticationStatusDetail)||<a href="PaymentMethod.md" target="_blank">nonProfit/PaymentMethod</a>|
 |[lastAuthenticationStatusTechnicalDetail](#lastAuthenticationStatusTechnicalDetail)||<a href="PaymentMethod.md" target="_blank">nonProfit/PaymentMethod</a>|
+|[paymentScheduleId](#paymentScheduleId)|Unique identifier for Payment Schedule associated with Payment Method.|<a href="PaymentMethod.md" target="_blank">nonProfit/PaymentMethod</a>|
 |[payorId](#payorId)|Payor Account|<a href="PaymentMethod.md" target="_blank">nonProfit/PaymentMethod</a>|
+|[transactionId](#transactionId)|Unique identifier for Transaction associated with Payment Method.|<a href="PaymentMethod.md" target="_blank">nonProfit/PaymentMethod</a>|
 |[type](#type)||<a href="PaymentMethod.md" target="_blank">nonProfit/PaymentMethod</a>|
 |[type_display](#type_display)||<a href="PaymentMethod.md" target="_blank">nonProfit/PaymentMethod</a>|
 
@@ -69,12 +72,12 @@ First included in: nonProfit/PaymentMethod (this entity)
 
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
-Shows who created the record.  
+Unique identifier of the user who created the record.  
 First included in: nonProfit/PaymentMethod (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By</td></tr><tr><td>description</td><td>Shows who created the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By</td></tr><tr><td>description</td><td>Unique identifier of the user who created the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdby</td></tr></table>
 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
@@ -87,30 +90,30 @@ First included in: nonProfit/PaymentMethod (this entity)
 
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
-Shows who last updated the record.  
+Unique identifier of the user who modified the record.  
 First included in: nonProfit/PaymentMethod (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By</td></tr><tr><td>description</td><td>Shows who last updated the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By</td></tr><tr><td>description</td><td>Unique identifier of the user who modified the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedby</td></tr></table>
 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
-Shows who created the record on behalf of another user.  
+Unique identifier of the delegate user who created the record.  
 First included in: nonProfit/PaymentMethod (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By (Delegate)</td></tr><tr><td>description</td><td>Shows who created the record on behalf of another user.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdonbehalfby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By (Delegate)</td></tr><tr><td>description</td><td>Unique identifier of the delegate user who created the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdonbehalfby</td></tr></table>
 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
-Shows who last updated the record on behalf of another user.  
+Unique identifier of the delegate user who modified the record.  
 First included in: nonProfit/PaymentMethod (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By (Delegate)</td></tr><tr><td>description</td><td>Shows who last updated the record on behalf of another user.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedonbehalfby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By (Delegate)</td></tr><tr><td>description</td><td>Unique identifier of the delegate user who modified the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedonbehalfby</td></tr></table>
 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
@@ -159,12 +162,12 @@ First included in: nonProfit/PaymentMethod (this entity)
 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
-Unique identifier for the user that owns the record.  
+Unique identifier of the user that owns the activity.  
 First included in: nonProfit/PaymentMethod (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier for the user that owns the record.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier of the user that owns the activity.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
@@ -261,6 +264,15 @@ First included in: nonProfit/PaymentMethod (this entity)
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Comments</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>1000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_comments</td></tr></table>
 
+### <a href=#contactId name="contactId">contactId</a>
+
+Unique identifier for Contact associated with Payment Method.  
+First included in: nonProfit/PaymentMethod (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Contact</td></tr><tr><td>description</td><td>Unique identifier for Contact associated with Payment Method.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_contactid</td></tr></table>
+
 ### <a href=#isDefault name="isDefault">isDefault</a>
 
 First included in: nonProfit/PaymentMethod (this entity)  
@@ -309,6 +321,15 @@ First included in: nonProfit/PaymentMethod (this entity)
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Last Authentication Status Technical Detail</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>500</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_lastauthenticationstatustechnicaldetail</td></tr></table>
 
+### <a href=#paymentScheduleId name="paymentScheduleId">paymentScheduleId</a>
+
+Unique identifier for Payment Schedule associated with Payment Method.  
+First included in: nonProfit/PaymentMethod (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Payment Schedule</td></tr><tr><td>description</td><td>Unique identifier for Payment Schedule associated with Payment Method.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_paymentscheduleid</td></tr></table>
+
 ### <a href=#payorId name="payorId">payorId</a>
 
 Payor Account  
@@ -317,6 +338,15 @@ First included in: nonProfit/PaymentMethod (this entity)
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Payor Account</td></tr><tr><td>description</td><td>Payor Account</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_payorid</td></tr></table>
+
+### <a href=#transactionId name="transactionId">transactionId</a>
+
+Unique identifier for Transaction associated with Payment Method.  
+First included in: nonProfit/PaymentMethod (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Transaction</td></tr><tr><td>description</td><td>Unique identifier for Transaction associated with Payment Method.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_transactionid</td></tr></table>
 
 ### <a href=#type name="type">type</a>
 
