@@ -1,16 +1,17 @@
 ---
 title: FinancialProduct - Common Data Model | Microsoft Docs
-description: 
+description: The record of the different products that the customer holds with the bank.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 8/14/2019
+ms.date: 8/28/2019
 ms.author: nebanfic
 ---
 
 # Financial Product
 
+The record of the different products that the customer holds with the bank.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/FinancialProduct.cdm.json" target="_blank">GitHub</a>.  
 

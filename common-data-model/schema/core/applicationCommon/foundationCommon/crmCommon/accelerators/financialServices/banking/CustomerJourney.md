@@ -1,17 +1,17 @@
 ---
 title: CustomerJourney - Common Data Model | Microsoft Docs
-description: Base entity for process Customer Journey
+description: Process entity for a Customer Journey.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 8/14/2019
+ms.date: 8/28/2019
 ms.author: nebanfic
 ---
 
 # Customer Journey
 
-Base entity for process Customer Journey  
+Process entity for a Customer Journey.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/CustomerJourney.cdm.json" target="_blank">GitHub</a>.  
 
@@ -65,14 +65,12 @@ Instances of this entity are listed below.
 |[validationResults](#validationResults)||<a href="../../../solutions/marketing/CustomerJourney.md" target="_blank">marketing/CustomerJourney</a>|
 |[workflowDefinition](#workflowDefinition)|The customer journey design definition.|<a href="../../../solutions/marketing/CustomerJourney.md" target="_blank">marketing/CustomerJourney</a>|
 |[linkedInCampaign](#linkedInCampaign)|Link to LinkedIn Campaign|<a href="../../../solutions/marketing/CustomerJourney.md" target="_blank">marketing/CustomerJourney</a>|
-|[activeStageId](#activeStageId)|Unique identifier of the active stage for the Business Process Flow instance.|<a href="CustomerJourney.md" target="_blank">banking/CustomerJourney</a>|
 |[activeStageStartedOn](#activeStageStartedOn)|Date and time when current active stage is started|<a href="CustomerJourney.md" target="_blank">banking/CustomerJourney</a>|
 |[contactId](#contactId)||<a href="CustomerJourney.md" target="_blank">banking/CustomerJourney</a>|
 |[bpfDuration](#bpfDuration)|Duration of Business Process Flow|<a href="CustomerJourney.md" target="_blank">banking/CustomerJourney</a>|
 |[businessProcessFlowInstanceId](#businessProcessFlowInstanceId)|Unique identifier for entity instances|<a href="CustomerJourney.md" target="_blank">banking/CustomerJourney</a>|
 |[completedOn](#completedOn)|Date and time when Business Process Flow instance is completed.|<a href="CustomerJourney.md" target="_blank">banking/CustomerJourney</a>|
 |[organizationId](#organizationId)|Unique identifier for the organization|<a href="CustomerJourney.md" target="_blank">banking/CustomerJourney</a>|
-|[processId](#processId)|Unique identifier of the workflow associated to the Business Process Flow instance.|<a href="CustomerJourney.md" target="_blank">banking/CustomerJourney</a>|
 |[traversedPath](#traversedPath)|Comma delimited string of process stage ids that represent visited stages of the Business Process Flow instance.|<a href="CustomerJourney.md" target="_blank">banking/CustomerJourney</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
@@ -419,15 +417,6 @@ First included in: <a href="../../../solutions/marketing/CustomerJourney.md" tar
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>LinkedIn Campaign</td></tr><tr><td>description</td><td>Link to LinkedIn Campaign</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncr2_linkedincampaign</td></tr></table>
 
-### <a href=#activeStageId name="activeStageId">activeStageId</a>
-
-Unique identifier of the active stage for the Business Process Flow instance.  
-First included in: banking/CustomerJourney (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Active Stage</td></tr><tr><td>description</td><td>Unique identifier of the active stage for the Business Process Flow instance.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>sourceName</td><td>activestageid</td></tr></table>
-
 ### <a href=#activeStageStartedOn name="activeStageStartedOn">activeStageStartedOn</a>
 
 Date and time when current active stage is started  
@@ -480,15 +469,6 @@ First included in: banking/CustomerJourney (this entity)
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Organization Id</td></tr><tr><td>description</td><td>Unique identifier for the organization</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>sourceName</td><td>organizationid</td></tr></table>
-
-### <a href=#processId name="processId">processId</a>
-
-Unique identifier of the workflow associated to the Business Process Flow instance.  
-First included in: banking/CustomerJourney (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Process</td></tr><tr><td>description</td><td>Unique identifier of the workflow associated to the Business Process Flow instance.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>sourceName</td><td>processid</td></tr></table>
 
 ### <a href=#traversedPath name="traversedPath">traversedPath</a>
 

@@ -5,13 +5,13 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 8/14/2019
+ms.date: 8/28/2019
 ms.author: nebanfic
 ---
 
 # Syndicates
 
-Syndicates entity represents the syndicates information related to a commercial loan product that the customer holds with the bank.  
+A syndicate represents the information related to a commercial loan product that the customer holds with the bank. The syndicate will reference a specific loan, the contribution percentage, the amount and the specific bank that holds the syndicate.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/Syndicates.cdm.json" target="_blank">GitHub</a>.  
 

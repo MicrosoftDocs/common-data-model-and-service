@@ -1,17 +1,17 @@
 ---
 title: Branch - Common Data Model | Microsoft Docs
-description: Branch entity represents the branch information and location.
+description: A branch is used to represent the location of a bank branch.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 8/14/2019
+ms.date: 8/28/2019
 ms.author: nebanfic
 ---
 
 # Branch
 
-Branch entity represents the branch information and location.  
+A branch is used to represent the location of a bank branch.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/Branch.cdm.json" target="_blank">GitHub</a>.  
 

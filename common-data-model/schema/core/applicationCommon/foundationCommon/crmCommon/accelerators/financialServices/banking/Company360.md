@@ -1,17 +1,17 @@
 ---
 title: Company360 - Common Data Model | Microsoft Docs
-description: Base entity for process Company 360
+description: Process entity for Company 360.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 8/14/2019
+ms.date: 8/28/2019
 ms.author: nebanfic
 ---
 
 # Company 360
 
-Base entity for process Company 360  
+Process entity for Company 360.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/Company360.cdm.json" target="_blank">GitHub</a>.  
 
@@ -25,7 +25,6 @@ Instances of this entity are listed below.
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[activeStageId](#activeStageId)|Unique identifier of the active stage for the Business Process Flow instance.|<a href="Company360.md" target="_blank">banking/Company360</a>|
 |[activeStageStartedOn](#activeStageStartedOn)|Date and time when current active stage is started|<a href="Company360.md" target="_blank">banking/Company360</a>|
 |[accountId](#accountId)||<a href="Company360.md" target="_blank">banking/Company360</a>|
 |[bpfDuration](#bpfDuration)|Duration of Business Process Flow|<a href="Company360.md" target="_blank">banking/Company360</a>|
@@ -41,7 +40,6 @@ Instances of this entity are listed below.
 |[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who modified the record.|<a href="Company360.md" target="_blank">banking/Company360</a>|
 |[organizationId](#organizationId)|Unique identifier for the organization|<a href="Company360.md" target="_blank">banking/Company360</a>|
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Company360.md" target="_blank">banking/Company360</a>|
-|[processId](#processId)|Unique identifier of the workflow associated to the Business Process Flow instance.|<a href="Company360.md" target="_blank">banking/Company360</a>|
 |[stateCode](#stateCode)|Status of the Company 360|<a href="Company360.md" target="_blank">banking/Company360</a>|
 |[stateCode_display](#stateCode_display)||<a href="Company360.md" target="_blank">banking/Company360</a>|
 |[statusCode](#statusCode)|Reason for the status of the Company 360|<a href="Company360.md" target="_blank">banking/Company360</a>|
@@ -49,15 +47,6 @@ Instances of this entity are listed below.
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Company360.md" target="_blank">banking/Company360</a>|
 |[traversedPath](#traversedPath)|Comma delimited string of process stage ids that represent visited stages of the Business Process Flow instance.|<a href="Company360.md" target="_blank">banking/Company360</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Company360.md" target="_blank">banking/Company360</a>|
-
-### <a href=#activeStageId name="activeStageId">activeStageId</a>
-
-Unique identifier of the active stage for the Business Process Flow instance.  
-First included in: banking/Company360 (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Active Stage</td></tr><tr><td>description</td><td>Unique identifier of the active stage for the Business Process Flow instance.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>sourceName</td><td>activestageid</td></tr></table>
 
 ### <a href=#activeStageStartedOn name="activeStageStartedOn">activeStageStartedOn</a>
 
@@ -192,15 +181,6 @@ First included in: banking/Company360 (this entity)
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Record Created On</td></tr><tr><td>description</td><td>Date and time that the record was migrated.</td></tr><tr><td>dataFormat</td><td>DateTimeOffset</td></tr><tr><td>sourceName</td><td>overriddencreatedon</td></tr></table>
-
-### <a href=#processId name="processId">processId</a>
-
-Unique identifier of the workflow associated to the Business Process Flow instance.  
-First included in: banking/Company360 (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Process</td></tr><tr><td>description</td><td>Unique identifier of the workflow associated to the Business Process Flow instance.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>sourceName</td><td>processid</td></tr></table>
 
 ### <a href=#stateCode name="stateCode">stateCode</a>
 

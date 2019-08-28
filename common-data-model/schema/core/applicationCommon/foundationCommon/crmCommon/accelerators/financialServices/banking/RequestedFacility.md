@@ -5,13 +5,13 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 8/14/2019
+ms.date: 8/28/2019
 ms.author: nebanfic
 ---
 
 # Requested Facility
 
-Req. Facility is a custom entity that represents a facility that is requested by a corporate customer applying for line of credit. Multiple deal facilities can be associated with an opportunity for  
+A requested facility represents a facility that is requested by a corporate customer applying for line of credit.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/RequestedFacility.cdm.json" target="_blank">GitHub</a>.  
 
