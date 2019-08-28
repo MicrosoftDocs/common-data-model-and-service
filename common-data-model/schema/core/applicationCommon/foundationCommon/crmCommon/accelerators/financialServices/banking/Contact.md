@@ -1,6 +1,6 @@
 ---
 title: Contact - Common Data Model | Microsoft Docs
-description: Person with whom a business unit has a relationship, such as a customer, a supplier, or a colleague.
+description: A person record is one associated with a patron of the bank.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
@@ -11,7 +11,7 @@ ms.author: nebanfic
 
 # Contact
 
-Person with whom a business unit has a relationship, such as a customer, a supplier, or a colleague.  
+A person record is one associated with a patron of the bank.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/Contact.cdm.json" target="_blank">GitHub</a>.  
 

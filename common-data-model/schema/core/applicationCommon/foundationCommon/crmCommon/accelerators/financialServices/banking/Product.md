@@ -1,6 +1,6 @@
 ---
 title: Product - Common Data Model | Microsoft Docs
-description: Information about products and their prices.
+description: The products of the bank that the prospect or referral is interested in.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
@@ -11,7 +11,7 @@ ms.author: nebanfic
 
 # Product
 
-Information about products and their prices.  
+The products of the bank that the prospect or referral is interested in.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/Product.cdm.json" target="_blank">GitHub</a>.  
 
