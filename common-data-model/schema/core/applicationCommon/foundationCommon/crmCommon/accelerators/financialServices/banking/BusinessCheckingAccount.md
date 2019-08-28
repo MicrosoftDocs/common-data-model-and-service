@@ -1,17 +1,17 @@
 ---
 title: BusinessCheckingAccount - Common Data Model | Microsoft Docs
-description: Base entity for process Business Checking Account
+description: Process entity for a Business Checking Account.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 8/14/2019
+ms.date: 8/28/2019
 ms.author: nebanfic
 ---
 
 # Business Checking Account
 
-Base entity for process Business Checking Account  
+Process entity for a Business Checking Account.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/BusinessCheckingAccount.cdm.json" target="_blank">GitHub</a>.  
 
@@ -25,7 +25,6 @@ Instances of this entity are listed below.
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[activeStageId](#activeStageId)|Unique identifier of the active stage for the Business Process Flow instance.|<a href="BusinessCheckingAccount.md" target="_blank">banking/BusinessCheckingAccount</a>|
 |[activeStageStartedOn](#activeStageStartedOn)|Date and time when current active stage is started|<a href="BusinessCheckingAccount.md" target="_blank">banking/BusinessCheckingAccount</a>|
 |[accountId](#accountId)||<a href="BusinessCheckingAccount.md" target="_blank">banking/BusinessCheckingAccount</a>|
 |[bpfDuration](#bpfDuration)|Duration of Business Process Flow|<a href="BusinessCheckingAccount.md" target="_blank">banking/BusinessCheckingAccount</a>|
@@ -42,7 +41,6 @@ Instances of this entity are listed below.
 |[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who modified the record.|<a href="BusinessCheckingAccount.md" target="_blank">banking/BusinessCheckingAccount</a>|
 |[organizationId](#organizationId)|Unique identifier for the organization|<a href="BusinessCheckingAccount.md" target="_blank">banking/BusinessCheckingAccount</a>|
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="BusinessCheckingAccount.md" target="_blank">banking/BusinessCheckingAccount</a>|
-|[processId](#processId)|Unique identifier of the workflow associated to the Business Process Flow instance.|<a href="BusinessCheckingAccount.md" target="_blank">banking/BusinessCheckingAccount</a>|
 |[stateCode](#stateCode)|Status of the Business Checking Account|<a href="BusinessCheckingAccount.md" target="_blank">banking/BusinessCheckingAccount</a>|
 |[stateCode_display](#stateCode_display)||<a href="BusinessCheckingAccount.md" target="_blank">banking/BusinessCheckingAccount</a>|
 |[statusCode](#statusCode)|Reason for the status of the Business Checking Account|<a href="BusinessCheckingAccount.md" target="_blank">banking/BusinessCheckingAccount</a>|
@@ -50,15 +48,6 @@ Instances of this entity are listed below.
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="BusinessCheckingAccount.md" target="_blank">banking/BusinessCheckingAccount</a>|
 |[traversedPath](#traversedPath)|Comma delimited string of process stage ids that represent visited stages of the Business Process Flow instance.|<a href="BusinessCheckingAccount.md" target="_blank">banking/BusinessCheckingAccount</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="BusinessCheckingAccount.md" target="_blank">banking/BusinessCheckingAccount</a>|
-
-### <a href=#activeStageId name="activeStageId">activeStageId</a>
-
-Unique identifier of the active stage for the Business Process Flow instance.  
-First included in: banking/BusinessCheckingAccount (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Active Stage</td></tr><tr><td>description</td><td>Unique identifier of the active stage for the Business Process Flow instance.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>sourceName</td><td>activestageid</td></tr></table>
 
 ### <a href=#activeStageStartedOn name="activeStageStartedOn">activeStageStartedOn</a>
 
@@ -201,15 +190,6 @@ First included in: banking/BusinessCheckingAccount (this entity)
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Record Created On</td></tr><tr><td>description</td><td>Date and time that the record was migrated.</td></tr><tr><td>dataFormat</td><td>DateTimeOffset</td></tr><tr><td>sourceName</td><td>overriddencreatedon</td></tr></table>
-
-### <a href=#processId name="processId">processId</a>
-
-Unique identifier of the workflow associated to the Business Process Flow instance.  
-First included in: banking/BusinessCheckingAccount (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Process</td></tr><tr><td>description</td><td>Unique identifier of the workflow associated to the Business Process Flow instance.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>sourceName</td><td>processid</td></tr></table>
 
 ### <a href=#stateCode name="stateCode">stateCode</a>
 

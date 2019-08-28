@@ -5,13 +5,13 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 8/14/2019
+ms.date: 8/28/2019
 ms.author: nebanfic
 ---
 
 # Opportunity
 
-Potential revenue-generating event or a sale to an account, which must be tracked through a sales process to completion.  
+An opportunity represents a qualified prospect or an existing customer’s interest in a product of the bank.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/Opportunity.cdm.json" target="_blank">GitHub</a>.  
 

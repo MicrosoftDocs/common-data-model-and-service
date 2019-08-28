@@ -1,16 +1,17 @@
 ---
 title: Bank - Common Data Model | Microsoft Docs
-description: 
+description: The physical bank location which contains information such as the name and location of the bank.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 8/14/2019
+ms.date: 8/28/2019
 ms.author: nebanfic
 ---
 
 # Bank
 
+The physical bank location which contains information such as the name and location of the bank.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/Bank.cdm.json" target="_blank">GitHub</a>.  
 
