@@ -1,17 +1,17 @@
 ---
 title: LeadToOpportunitySalesProcess - Common Data Model | Microsoft Docs
-description: Lead To Opportunity Sales Process Business Process Flow
+description: Process entity for Lead to Opportunity  Sales Process.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 8/14/2019
+ms.date: 8/28/2019
 ms.author: nebanfic
 ---
 
 # Lead To Opportunity Sales Process
 
-Lead To Opportunity Sales Process Business Process Flow  
+Process entity for Lead to Opportunity  Sales Process.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/LeadToOpportunitySalesProcess.cdm.json" target="_blank">GitHub</a>.  
 
