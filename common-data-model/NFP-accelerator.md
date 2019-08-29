@@ -14,7 +14,7 @@ ms.author: rbhaiya
 This accelerator was announced at the initial Microsoft CXO Summit in [April 2018](https://blogs.microsoft.com/on-the-issues/2018/04/20/new-solutions-to-help-nonprofits-drive-impact) and released in [November 2018](https://blogs.microsoft.com/on-the-issues/2018/11/08/new-dynamics-365-nonprofit-accelerator-supports-organizations-with-end-to-end-solutions)
 at the [NetHope Global Summit](https://youtu.be/eV4N0mK0-so?t=2169). The initial release included these features:
 
-- Extension of the Common Data Model (CDM) to include concepts for managing constituents, raising funds, grants/awards, program delivery, and tracking impact, including entity definitions and relationships.
+- Extension of the Common Data Model to include concepts for managing constituents, raising funds, grants/awards, program delivery, and tracking impact, including entity definitions and relationships.
 
 - Individual, Household and Organization customer-engagement forms that you
     can enhance or use out of the box.
@@ -29,7 +29,7 @@ at the [NetHope Global Summit](https://youtu.be/eV4N0mK0-so?t=2169). The initial
 
 - Support for analytics.
 
-- A solution that's based on Common Data Service (CDS) for Apps and that you can install from AppSource.
+- A solution that's based on Common Data Service and that you can install from AppSource.
 
 - Documentation that helps you adopt the accelerator.
 
