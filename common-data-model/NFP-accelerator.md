@@ -269,7 +269,7 @@ The table below shows the data entities available in each solution package:
 
 ![Data entities and packages in each solution](media/data-entities-packages.png "Data entities and packages in each solution")
 
-**More resources**
+## Additional resources
 
 -   Download and test the Dynamics 365 Nonprofit Accelerator from
     [AppSource](https://appsource.microsoft.com/product/dynamics-365/msnfp.msftnonprofitcommondatamodel?src=office&tab=Overview).
