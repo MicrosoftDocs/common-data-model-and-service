@@ -215,7 +215,7 @@ Template data integrator tasks to connect Customer Engagement/Nonprofit
 Accelerator Constituents, Donations, Awards and Programs to Finance and
 Operations.
 
-![](media/nfp-PADonation.png "")\
+![](media/nfp-PADonation.png "")
 
 ## Solution options
 
