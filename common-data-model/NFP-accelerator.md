@@ -164,7 +164,7 @@ gifts in kind, and grant disbursements.
 ![Nonprofit donation management](media/nfp-households-dashboard4.png "Nonprofit donation management")
 
 
-**Award management**
+### Award management
 
 End-to-end Award management data model and sample application including dockets,
 inquiries, requests, awards recommendations, reviews, reports, budgets and
@@ -174,7 +174,7 @@ disbursements.
 
 ### Indicators and indicator values
 
-Program Delivery & Results entities that detail what will be measured to track
+Program Delivery and Results entities that detail what will be measured to track
 evidence of output-outcome-impact and qualitative or quantitative point-in-time
 measurements of evidence of output-outcome-impact.
 
@@ -183,7 +183,7 @@ measurements of evidence of output-outcome-impact.
 ### Volunteer Preferences, Skills and Availability
 
 Track volunteer preferences, skills and availability and establish Volunteer
-Projects leveraging Dynamics 365 Project Service Automation
+Projects leveraging Dynamics 365 Project Service Automation.
 
 ![Nonprofit volunteers](media/nfp-volunteers.png "Nonprofit volunteers")
 
@@ -209,7 +209,7 @@ Nonprofit Accelerator.  
 ![IATI](media/nfp-iatifile.png "IATI")
 
 
-## Nonprofit Accelerator for Finance and Operations and PowerApps Data Integrator (Optional Add-On)
+### Nonprofit Accelerator for Finance and Operations and PowerApps Data Integrator (Optional Add-On)
 
 Template data integrator tasks to connect Customer Engagement/Nonprofit
 Accelerator Constituents, Donations, Awards and Programs to Finance and
