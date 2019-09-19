@@ -1,17 +1,17 @@
 ---
 title: Contact - Common Data Model | Microsoft Docs
-description: A person record is one associated with a patron of the bank.
+description: Person with whom a business unit has a relationship, such as a customer, a supplier, or a colleague.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 8/28/2019
+ms.date: 9/19/2019
 ms.author: nebanfic
 ---
 
 # Contact
 
-A person record is one associated with a patron of the bank.  
+Person with whom a business unit has a relationship, such as a customer, a supplier, or a colleague.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/Contact.cdm.json" target="_blank">GitHub</a>.  
 

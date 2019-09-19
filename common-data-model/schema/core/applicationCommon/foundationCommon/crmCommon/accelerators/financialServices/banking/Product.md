@@ -1,17 +1,17 @@
 ---
 title: Product - Common Data Model | Microsoft Docs
-description: The products of the bank that the prospect or referral is interested in.
+description: Information about products and their prices.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 8/28/2019
+ms.date: 9/19/2019
 ms.author: nebanfic
 ---
 
 # Product
 
-The products of the bank that the prospect or referral is interested in.  
+Information about products and their prices.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/Product.cdm.json" target="_blank">GitHub</a>.  
 
