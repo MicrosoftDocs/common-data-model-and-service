@@ -214,7 +214,7 @@ Instances of this entity are listed below.
 |[externalID](#externalID)|External Account ID from other systems.|<a href="../../projectCommon/projectServiceAutomation/Account.md" target="_blank">projectServiceAutomation/Account</a>|
 |[accountType](#accountType)||<a href="Account.md" target="_blank">nonProfit/Account</a>|
 |[accountType_display](#accountType_display)||<a href="Account.md" target="_blank">nonProfit/Account</a>|
-|[acquisitionDate](#acquisitionDate)|Manually populated date indicating when the Account was aquired.|<a href="Account.md" target="_blank">nonProfit/Account</a>|
+|[acquisitionDate](#acquisitionDate)|Manually populated date indicating when the Account was acquired.|<a href="Account.md" target="_blank">nonProfit/Account</a>|
 |[acquisitionSource](#acquisitionSource)|Manually populated field Indicating the lead source for acquiring this Account.|<a href="Account.md" target="_blank">nonProfit/Account</a>|
 |[acquisitionSource_display](#acquisitionSource_display)||<a href="Account.md" target="_blank">nonProfit/Account</a>|
 |[primaryConstituentType](#primaryConstituentType)|Subcategory of primary Constituency type rolls up to this field.|<a href="Account.md" target="_blank">nonProfit/Account</a>|
@@ -1819,12 +1819,12 @@ First included in: nonProfit/Account (this entity)
 
 ### <a href=#acquisitionDate name="acquisitionDate">acquisitionDate</a>
 
-Manually populated date indicating when the Account was aquired.  
+Manually populated date indicating when the Account was acquired.  
 First included in: nonProfit/Account (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Acquisition Date</td></tr><tr><td>description</td><td>Manually populated date indicating when the Account was aquired.</td></tr><tr><td>dataFormat</td><td>DateTimeOffset</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_acquisitiondate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Acquisition Date</td></tr><tr><td>description</td><td>Manually populated date indicating when the Account was acquired.</td></tr><tr><td>dataFormat</td><td>DateTimeOffset</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_acquisitiondate</td></tr></table>
 
 ### <a href=#acquisitionSource name="acquisitionSource">acquisitionSource</a>
 
