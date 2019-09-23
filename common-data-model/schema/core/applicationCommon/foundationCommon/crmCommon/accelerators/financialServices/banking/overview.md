@@ -26,7 +26,7 @@ ms.author: nebanfic
 |[CommercialLoan](CommercialLoan.md)|Process entity for a Commercial Loan.  |
 |[Company360](Company360.md)|Process entity for Company 360.  |
 |[CompanyOnboarding](CompanyOnboarding.md)|Process entity for Company Onboarding.  |
-|[Contact](Contact.md)|Person with whom a business unit has a relationship, such as a customer, a supplier, or a colleague.  |
+|[Contact](Contact.md)|A person with whom a business unit has a relationship, such as a customer, a supplier, or a colleague.  |
 |[ContactOnboardingFromProspect](ContactOnboardingFromProspect.md)|Process entity for Contact Onboarding from Prospect.  |
 |[Customer360Person](Customer360Person.md)|Process entity for Customer 360 Person.  |
 |[CustomerJourney](CustomerJourney.md)|Process entity for a Customer Journey.  |
