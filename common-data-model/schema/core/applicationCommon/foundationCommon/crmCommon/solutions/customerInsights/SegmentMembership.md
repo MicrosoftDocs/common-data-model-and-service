@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 8/28/2019
+ms.date: 9/19/2019
 ms.author: nebanfic
 ---
 
@@ -41,10 +41,10 @@ Instances of this entity are listed below.
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="SegmentMembership.md" target="_blank">customerInsights/SegmentMembership</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="SegmentMembership.md" target="_blank">customerInsights/SegmentMembership</a>|
 |[versionNumber](#versionNumber)|Version Number|<a href="SegmentMembership.md" target="_blank">customerInsights/SegmentMembership</a>|
-|[customerProfileId](#customerProfileId)||<a href="SegmentMembership.md" target="_blank">customerInsights/SegmentMembership</a>|
+|[customerProfileId](#customerProfileId)|Customer Profile Id|<a href="SegmentMembership.md" target="_blank">customerInsights/SegmentMembership</a>|
 |[lastEvaluationDate](#lastEvaluationDate)|Latest date when a segment memberships is evaluated/refreshed.|<a href="SegmentMembership.md" target="_blank">customerInsights/SegmentMembership</a>|
 |[name](#name)|Required name field to be used as the primary name for the customer segment membership.|<a href="SegmentMembership.md" target="_blank">customerInsights/SegmentMembership</a>|
-|[segmentId](#segmentId)||<a href="SegmentMembership.md" target="_blank">customerInsights/SegmentMembership</a>|
+|[segmentId](#segmentId)|Segment identifiers customers are associated with.|<a href="SegmentMembership.md" target="_blank">customerInsights/SegmentMembership</a>|
 |[segmentMembershipId](#segmentMembershipId)|Unique identifier for entity instances|<a href="SegmentMembership.md" target="_blank">customerInsights/SegmentMembership</a>|
 |[version](#version)|Denotes latest version of the customer segment membership for manual tracking.|<a href="SegmentMembership.md" target="_blank">customerInsights/SegmentMembership</a>|
 |[stateCode](#stateCode)|Status of the Segment Membership|<a href="SegmentMembership.md" target="_blank">customerInsights/SegmentMembership</a>|
@@ -198,11 +198,12 @@ First included in: customerInsights/SegmentMembership (this entity)
 
 ### <a href=#customerProfileId name="customerProfileId">customerProfileId</a>
 
+Customer Profile Id  
 First included in: customerInsights/SegmentMembership (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Customer Profile Id</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>sourceName</td><td>msdynci_CustomerProfileId</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Customer Profile Id</td></tr><tr><td>description</td><td>Customer Profile Id</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>sourceName</td><td>msdynci_customerprofileid</td></tr></table>
 
 ### <a href=#lastEvaluationDate name="lastEvaluationDate">lastEvaluationDate</a>
 
@@ -211,7 +212,7 @@ First included in: customerInsights/SegmentMembership (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Last Evaluation Date</td></tr><tr><td>description</td><td>Latest date when a segment memberships is evaluated/refreshed.</td></tr><tr><td>dataFormat</td><td>DateTimeOffset</td></tr><tr><td>sourceName</td><td>msdynci_LastEvaluationDate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Last Evaluation Date</td></tr><tr><td>description</td><td>Latest date when a segment memberships is evaluated/refreshed.</td></tr><tr><td>dataFormat</td><td>DateTimeOffset</td></tr><tr><td>sourceName</td><td>msdynci_lastevaluationdate</td></tr></table>
 
 ### <a href=#name name="name">name</a>
 
@@ -220,15 +221,16 @@ First included in: customerInsights/SegmentMembership (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>description</td><td>Required name field to be used as the primary name for the customer segment membership.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_Name</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>description</td><td>Required name field to be used as the primary name for the customer segment membership.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_name</td></tr></table>
 
 ### <a href=#segmentId name="segmentId">segmentId</a>
 
+Segment identifiers customers are associated with.  
 First included in: customerInsights/SegmentMembership (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Segment Id</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>sourceName</td><td>msdynci_SegmentId</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Segment Id</td></tr><tr><td>description</td><td>Segment identifiers customers are associated with.</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>sourceName</td><td>msdynci_segmentid</td></tr></table>
 
 ### <a href=#segmentMembershipId name="segmentMembershipId">segmentMembershipId</a>
 
@@ -237,7 +239,7 @@ First included in: customerInsights/SegmentMembership (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Segment Membership</td></tr><tr><td>description</td><td>Unique identifier for entity instances</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>sourceName</td><td>msdynci_SegmentMembershipId</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Segment Membership</td></tr><tr><td>description</td><td>Unique identifier for entity instances</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>sourceName</td><td>msdynci_segmentmembershipid</td></tr></table>
 
 ### <a href=#version name="version">version</a>
 
@@ -246,7 +248,7 @@ First included in: customerInsights/SegmentMembership (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Version</td></tr><tr><td>description</td><td>Denotes latest version of the customer segment membership for manual tracking.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>sourceName</td><td>msdynci_Version</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Version</td></tr><tr><td>description</td><td>Denotes latest version of the customer segment membership for manual tracking.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>msdynci_version</td></tr></table>
 
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
@@ -255,7 +257,7 @@ First included in: customerInsights/SegmentMembership (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the Segment Membership</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>stateCode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr></tr><tr></tr><tr></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the Segment Membership</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
@@ -272,7 +274,7 @@ First included in: customerInsights/SegmentMembership (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Segment Membership</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statusCode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr></tr><tr></tr><tr></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Segment Membership</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td></tr></table>
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 

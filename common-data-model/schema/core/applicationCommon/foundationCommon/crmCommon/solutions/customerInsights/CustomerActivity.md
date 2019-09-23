@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 8/28/2019
+ms.date: 9/19/2019
 ms.author: nebanfic
 ---
 
@@ -52,7 +52,7 @@ Instances of this entity are listed below.
 |[description](#description)|Description of the activity.|<a href="CustomerActivity.md" target="_blank">customerInsights/CustomerActivity</a>|
 |[mentions](#mentions)|Activity mentions.|<a href="CustomerActivity.md" target="_blank">customerInsights/CustomerActivity</a>|
 |[message](#message)|Message.|<a href="CustomerActivity.md" target="_blank">customerInsights/CustomerActivity</a>|
-|[numberofLikes](#numberofLikes)|Number of likes for an activity.|<a href="CustomerActivity.md" target="_blank">customerInsights/CustomerActivity</a>|
+|[numberOfResponses](#numberOfResponses)|Number of responses for/on an activity, like, number of emails on a thread, number of likes on a LinkedIn, Facebook post etc.|<a href="CustomerActivity.md" target="_blank">customerInsights/CustomerActivity</a>|
 |[sentiment](#sentiment)|Activity sentiment.|<a href="CustomerActivity.md" target="_blank">customerInsights/CustomerActivity</a>|
 |[subject](#subject)|Activity subject.|<a href="CustomerActivity.md" target="_blank">customerInsights/CustomerActivity</a>|
 |[url](#url)||<a href="CustomerActivity.md" target="_blank">customerInsights/CustomerActivity</a>|
@@ -214,7 +214,7 @@ First included in: customerInsights/CustomerActivity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Activity Name</td></tr><tr><td>description</td><td>Specific fields that includes data on customer's activity.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_ActivityName</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Activity Name</td></tr><tr><td>description</td><td>Specific fields that includes data on customer's activity.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_activityname</td></tr></table>
 
 ### <a href=#activityType name="activityType">activityType</a>
 
@@ -222,7 +222,7 @@ First included in: customerInsights/CustomerActivity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Activity Type</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_ActivityType</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Activity Type</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_activitytype</td></tr></table>
 
 ### <a href=#actualEndDate name="actualEndDate">actualEndDate</a>
 
@@ -231,7 +231,7 @@ First included in: customerInsights/CustomerActivity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Actual End Date</td></tr><tr><td>description</td><td>End time of an activity.</td></tr><tr><td>dataFormat</td><td>DateTimeOffset</td></tr><tr><td>sourceName</td><td>msdynci_ActualEndDate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Actual End Date</td></tr><tr><td>description</td><td>End time of an activity.</td></tr><tr><td>dataFormat</td><td>DateTimeOffset</td></tr><tr><td>sourceName</td><td>msdynci_actualenddate</td></tr></table>
 
 ### <a href=#actualStartDate name="actualStartDate">actualStartDate</a>
 
@@ -240,7 +240,7 @@ First included in: customerInsights/CustomerActivity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Actual Start Date</td></tr><tr><td>description</td><td>Start time of an activity.</td></tr><tr><td>dataFormat</td><td>DateTimeOffset</td></tr><tr><td>sourceName</td><td>msdynci_ActualStartDate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Actual Start Date</td></tr><tr><td>description</td><td>Start time of an activity.</td></tr><tr><td>dataFormat</td><td>DateTimeOffset</td></tr><tr><td>sourceName</td><td>msdynci_actualstartdate</td></tr></table>
 
 ### <a href=#attachmentReferences name="attachmentReferences">attachmentReferences</a>
 
@@ -249,7 +249,7 @@ First included in: customerInsights/CustomerActivity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>AttachmentReferences</td></tr><tr><td>description</td><td>References to any attachment(s) for an activity.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_AttachmentReferences</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>AttachmentReferences</td></tr><tr><td>description</td><td>References to any attachment(s) for an activity.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_attachmentreferences</td></tr></table>
 
 ### <a href=#community name="community">community</a>
 
@@ -258,7 +258,7 @@ First included in: customerInsights/CustomerActivity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Community</td></tr><tr><td>description</td><td>Activity community.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_Community</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Community</td></tr><tr><td>description</td><td>Activity community.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_community</td></tr></table>
 
 ### <a href=#customerActivityId name="customerActivityId">customerActivityId</a>
 
@@ -267,7 +267,7 @@ First included in: customerInsights/CustomerActivity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>CustomerActivity</td></tr><tr><td>description</td><td>Unique identifier for entity instances</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>sourceName</td><td>msdynci_CustomerActivityId</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>CustomerActivity</td></tr><tr><td>description</td><td>Unique identifier for entity instances</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>sourceName</td><td>msdynci_customeractivityid</td></tr></table>
 
 ### <a href=#customerProfileId name="customerProfileId">customerProfileId</a>
 
@@ -275,7 +275,7 @@ First included in: customerInsights/CustomerActivity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Customer Profile Id</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>sourceName</td><td>customerProfileId</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Customer Profile Id</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>sourceName</td><td>msdynci_customerprofileid</td></tr></table>
 
 ### <a href=#description name="description">description</a>
 
@@ -284,7 +284,7 @@ First included in: customerInsights/CustomerActivity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>Description of the activity.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>sourceName</td><td>msdynci_Description</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>Description of the activity.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>sourceName</td><td>msdynci_description</td></tr></table>
 
 ### <a href=#mentions name="mentions">mentions</a>
 
@@ -293,7 +293,7 @@ First included in: customerInsights/CustomerActivity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Mentions</td></tr><tr><td>description</td><td>Activity mentions.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>sourceName</td><td>msdynci_Mentions</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Mentions</td></tr><tr><td>description</td><td>Activity mentions.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>sourceName</td><td>msdynci_mentions</td></tr></table>
 
 ### <a href=#message name="message">message</a>
 
@@ -302,16 +302,16 @@ First included in: customerInsights/CustomerActivity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Message</td></tr><tr><td>description</td><td>Message.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>sourceName</td><td>msdynci_Message</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Message</td></tr><tr><td>description</td><td>Message.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>sourceName</td><td>msdynci_message</td></tr></table>
 
-### <a href=#numberofLikes name="numberofLikes">numberofLikes</a>
+### <a href=#numberOfResponses name="numberOfResponses">numberOfResponses</a>
 
-Number of likes for an activity.  
+Number of responses for/on an activity, like, number of emails on a thread, number of likes on a LinkedIn, Facebook post etc.  
 First included in: customerInsights/CustomerActivity (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Number of Likes</td></tr><tr><td>description</td><td>Number of likes for an activity.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>sourceName</td><td>msdynci_NumberofLikes</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Number of Responses</td></tr><tr><td>description</td><td>Number of responses for/on an activity, like, number of emails on a thread, number of likes on a LinkedIn, Facebook post etc.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>msdynci_numberofresponses</td></tr></table>
 
 ### <a href=#sentiment name="sentiment">sentiment</a>
 
@@ -320,7 +320,7 @@ First included in: customerInsights/CustomerActivity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Sentiment</td></tr><tr><td>description</td><td>Activity sentiment.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_Sentiment</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Sentiment</td></tr><tr><td>description</td><td>Activity sentiment.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_sentiment</td></tr></table>
 
 ### <a href=#subject name="subject">subject</a>
 
@@ -329,7 +329,7 @@ First included in: customerInsights/CustomerActivity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Subject</td></tr><tr><td>description</td><td>Activity subject.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_Subject</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Subject</td></tr><tr><td>description</td><td>Activity subject.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_subject</td></tr></table>
 
 ### <a href=#url name="url">url</a>
 
@@ -337,7 +337,7 @@ First included in: customerInsights/CustomerActivity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Url</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_Url</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Url</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_url</td></tr></table>
 
 ### <a href=#version name="version">version</a>
 
@@ -346,7 +346,7 @@ First included in: customerInsights/CustomerActivity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Version</td></tr><tr><td>description</td><td>Denotes latest version of an activity for manual tracking.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>sourceName</td><td>msdynci_Version</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Version</td></tr><tr><td>description</td><td>Denotes latest version of an activity for manual tracking.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>msdynci_version</td></tr></table>
 
 ### <a href=#viralityScore name="viralityScore">viralityScore</a>
 
@@ -355,7 +355,7 @@ First included in: customerInsights/CustomerActivity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Virality Score</td></tr><tr><td>description</td><td>Virality score for an activity.</td></tr><tr><td>dataFormat</td><td>Decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>-100000000000</td></tr><tr><td>sourceName</td><td>msdynci_ViralityScore</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Virality Score</td></tr><tr><td>description</td><td>Virality score for an activity.</td></tr><tr><td>dataFormat</td><td>Decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>msdynci_viralityscore</td></tr></table>
 
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
@@ -364,7 +364,7 @@ First included in: customerInsights/CustomerActivity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the CustomerActivity</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>stateCode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr></tr><tr></tr><tr></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the CustomerActivity</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
@@ -381,7 +381,7 @@ First included in: customerInsights/CustomerActivity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the CustomerActivity</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statusCode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr></tr><tr></tr><tr></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the CustomerActivity</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td></tr></table>
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
