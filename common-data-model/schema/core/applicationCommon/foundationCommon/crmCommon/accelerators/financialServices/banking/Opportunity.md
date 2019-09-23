@@ -11,7 +11,7 @@ ms.author: nebanfic
 
 # Opportunity
 
-Potential revenue-generating event or a sale to an account, which must be tracked through a sales process to completion.  
+A potential revenue-generating event or a sale to an account, which must be tracked through a sales process to completion.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/Opportunity.cdm.json" target="_blank">GitHub</a>.  
 
