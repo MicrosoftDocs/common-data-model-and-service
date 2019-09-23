@@ -11,7 +11,7 @@ ms.author: nebanfic
 
 # Contact
 
-Person with whom a business unit has a relationship, such as a customer, a supplier, or a colleague.  
+A person with whom a business unit has a relationship, such as a customer, a supplier, or a colleague.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/Contact.cdm.json" target="_blank">GitHub</a>.  
 
