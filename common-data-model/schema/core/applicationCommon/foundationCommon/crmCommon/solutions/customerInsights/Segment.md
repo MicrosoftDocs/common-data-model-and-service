@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 8/28/2019
+ms.date: 9/19/2019
 ms.author: nebanfic
 ---
 
@@ -47,7 +47,6 @@ Instances of this entity are listed below.
 |[memberCount](#memberCount)|Count of customers/members associated with a segment.|<a href="Segment.md" target="_blank">customerInsights/Segment</a>|
 |[name](#name)|Required name field|<a href="Segment.md" target="_blank">customerInsights/Segment</a>|
 |[queryDefinition](#queryDefinition)|Segment definition including groups, filters, conditions etc.|<a href="Segment.md" target="_blank">customerInsights/Segment</a>|
-|[schedule](#schedule)|A recurring schedule when a segment is refreshed.|<a href="Segment.md" target="_blank">customerInsights/Segment</a>|
 |[segmentId](#segmentId)|Unique identifier for entity instances|<a href="Segment.md" target="_blank">customerInsights/Segment</a>|
 |[segmentType](#segmentType)|Segment type.|<a href="Segment.md" target="_blank">customerInsights/Segment</a>|
 |[segmentType_display](#segmentType_display)||<a href="Segment.md" target="_blank">customerInsights/Segment</a>|
@@ -208,7 +207,7 @@ First included in: customerInsights/Segment (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>Segment description.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>sourceName</td><td>msdynci_Description</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>Segment description.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>sourceName</td><td>msdynci_description</td></tr></table>
 
 ### <a href=#lastEvaluationDate name="lastEvaluationDate">lastEvaluationDate</a>
 
@@ -217,7 +216,7 @@ First included in: customerInsights/Segment (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Last Evaluation Date</td></tr><tr><td>description</td><td>Latest date when segments are evaluated/refreshed.</td></tr><tr><td>dataFormat</td><td>DateTimeOffset</td></tr><tr><td>sourceName</td><td>msdynci_LastEvaluationDate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Last Evaluation Date</td></tr><tr><td>description</td><td>Latest date when segments are evaluated/refreshed.</td></tr><tr><td>dataFormat</td><td>DateTimeOffset</td></tr><tr><td>sourceName</td><td>msdynci_lastevaluationdate</td></tr></table>
 
 ### <a href=#memberCount name="memberCount">memberCount</a>
 
@@ -226,7 +225,7 @@ First included in: customerInsights/Segment (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Member Count</td></tr><tr><td>description</td><td>Count of customers/members associated with a segment.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>sourceName</td><td>msdynci_MemberCount</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Member Count</td></tr><tr><td>description</td><td>Count of customers/members associated with a segment.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>msdynci_membercount</td></tr></table>
 
 ### <a href=#name name="name">name</a>
 
@@ -235,7 +234,7 @@ First included in: customerInsights/Segment (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>description</td><td>Required name field</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_Name</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>description</td><td>Required name field</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_name</td></tr></table>
 
 ### <a href=#queryDefinition name="queryDefinition">queryDefinition</a>
 
@@ -244,16 +243,7 @@ First included in: customerInsights/Segment (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Query Definition</td></tr><tr><td>description</td><td>Segment definition including groups, filters, conditions etc.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>sourceName</td><td>msdynci_QueryDefinition</td></tr></table>
-
-### <a href=#schedule name="schedule">schedule</a>
-
-A recurring schedule when a segment is refreshed.  
-First included in: customerInsights/Segment (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Schedule</td></tr><tr><td>description</td><td>A recurring schedule when a segment is refreshed.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_Schedule</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Query Definition</td></tr><tr><td>description</td><td>Segment definition including groups, filters, conditions etc.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>sourceName</td><td>msdynci_querydefinition</td></tr></table>
 
 ### <a href=#segmentId name="segmentId">segmentId</a>
 
@@ -262,7 +252,7 @@ First included in: customerInsights/Segment (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Segment</td></tr><tr><td>description</td><td>Unique identifier for entity instances</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>sourceName</td><td>msdynci_SegmentId</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Segment</td></tr><tr><td>description</td><td>Unique identifier for entity instances</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>sourceName</td><td>msdynci_segmentid</td></tr></table>
 
 ### <a href=#segmentType name="segmentType">segmentType</a>
 
@@ -271,7 +261,7 @@ First included in: customerInsights/Segment (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Segment Type</td></tr><tr><td>description</td><td>Segment type.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>msdynci_SegmentType</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr></tr><tr></tr><tr></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Segment Type</td></tr><tr><td>description</td><td>Segment type.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>msdynci_segmenttype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr></tr><tr></tr><tr></tr></table></td></tr></table>
 
 ### <a href=#segmentType_display name="segmentType_display">segmentType_display</a>
 
@@ -288,7 +278,7 @@ First included in: customerInsights/Segment (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Version</td></tr><tr><td>description</td><td>Denotes latest version of a segment for manual tracking.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>sourceName</td><td>msdynci_Version</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Version</td></tr><tr><td>description</td><td>Denotes latest version of a segment for manual tracking.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>msdynci_version</td></tr></table>
 
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
@@ -297,7 +287,7 @@ First included in: customerInsights/Segment (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the Segment</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>stateCode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr></tr><tr></tr><tr></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the Segment</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
@@ -314,7 +304,7 @@ First included in: customerInsights/Segment (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Segment</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statusCode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr></tr><tr></tr><tr></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Segment</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td></tr></table>
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 

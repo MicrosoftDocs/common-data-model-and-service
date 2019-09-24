@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 8/28/2019
+ms.date: 9/19/2019
 ms.author: nebanfic
 ---
 
@@ -51,6 +51,7 @@ Instances of this entity are listed below.
 |[measureType](#measureType)|Type of the measure.
 |<a href="MeasureDefinition.md" target="_blank">customerInsights/MeasureDefinition</a>|
 |[measureType_display](#measureType_display)||<a href="MeasureDefinition.md" target="_blank">customerInsights/MeasureDefinition</a>|
+|[version](#version)|Denotes latest version of a segment for manual tracking.|<a href="MeasureDefinition.md" target="_blank">customerInsights/MeasureDefinition</a>|
 |[stateCode](#stateCode)|Status of the Measure Definition|<a href="MeasureDefinition.md" target="_blank">customerInsights/MeasureDefinition</a>|
 |[stateCode_display](#stateCode_display)||<a href="MeasureDefinition.md" target="_blank">customerInsights/MeasureDefinition</a>|
 |[statusCode](#statusCode)|Reason for the status of the Measure Definition|<a href="MeasureDefinition.md" target="_blank">customerInsights/MeasureDefinition</a>|
@@ -207,7 +208,7 @@ First included in: customerInsights/MeasureDefinition (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Last Evaluation Date</td></tr><tr><td>description</td><td>Latest date when a measure is evaluated/refreshed.</td></tr><tr><td>dataFormat</td><td>DateTimeOffset</td></tr><tr><td>sourceName</td><td>msdynci_LastEvaluationDate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Last Evaluation Date</td></tr><tr><td>description</td><td>Latest date when a measure is evaluated/refreshed.</td></tr><tr><td>dataFormat</td><td>DateTimeOffset</td></tr><tr><td>sourceName</td><td>msdynci_lastevaluationdate</td></tr></table>
 
 ### <a href=#measureDefinitionId name="measureDefinitionId">measureDefinitionId</a>
 
@@ -216,7 +217,7 @@ First included in: customerInsights/MeasureDefinition (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Measure Definition</td></tr><tr><td>description</td><td>Unique identifier for entity instances</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>sourceName</td><td>msdynci_MeasureDefinitionId</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Measure Definition</td></tr><tr><td>description</td><td>Unique identifier for entity instances</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>sourceName</td><td>msdynci_measuredefinitionid</td></tr></table>
 
 ### <a href=#measureName name="measureName">measureName</a>
 
@@ -225,7 +226,7 @@ First included in: customerInsights/MeasureDefinition (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Measure Name</td></tr><tr><td>description</td><td>Required name field. Name of the measure.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_MeasureName</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Measure Name</td></tr><tr><td>description</td><td>Required name field. Name of the measure.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_measurename</td></tr></table>
 
 ### <a href=#measureQuery name="measureQuery">measureQuery</a>
 
@@ -234,7 +235,7 @@ First included in: customerInsights/MeasureDefinition (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Measure Query</td></tr><tr><td>description</td><td>Measure definition including entities, variables, definition, calculations, dimensions etc.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>sourceName</td><td>msdynci_MeasureQuery</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Measure Query</td></tr><tr><td>description</td><td>Measure definition including entities, variables, definition, calculations, dimensions etc.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>sourceName</td><td>msdynci_measurequery</td></tr></table>
 
 ### <a href=#measureSubType name="measureSubType">measureSubType</a>
 
@@ -245,7 +246,7 @@ First included in: customerInsights/MeasureDefinition (this entity)
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Measure SubType</td></tr><tr><td>description</td><td>Subtype of the measure.
-</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>msdynci_MeasureSubType</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr></tr><tr></tr><tr></tr><tr></tr></table></td></tr></table>
+</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>msdynci_measuresubtype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr></tr><tr></tr><tr></tr><tr></tr></table></td></tr></table>
 
 ### <a href=#measureSubType_display name="measureSubType_display">measureSubType_display</a>
 
@@ -264,7 +265,7 @@ First included in: customerInsights/MeasureDefinition (this entity)
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Measure Type</td></tr><tr><td>description</td><td>Type of the measure.
-</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>msdynci_MeasureType</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr></tr><tr></tr><tr></tr></table></td></tr></table>
+</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>msdynci_measuretype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr></tr><tr></tr><tr></tr><tr></tr></table></td></tr></table>
 
 ### <a href=#measureType_display name="measureType_display">measureType_display</a>
 
@@ -274,6 +275,15 @@ First included in: customerInsights/MeasureDefinition (this entity)
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
+### <a href=#version name="version">version</a>
+
+Denotes latest version of a segment for manual tracking.  
+First included in: customerInsights/MeasureDefinition (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Version</td></tr><tr><td>description</td><td>Denotes latest version of a segment for manual tracking.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>msdynci_version</td></tr></table>
+
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Status of the Measure Definition  
@@ -281,7 +291,7 @@ First included in: customerInsights/MeasureDefinition (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the Measure Definition</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>stateCode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr></tr><tr></tr><tr></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the Measure Definition</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
@@ -298,7 +308,7 @@ First included in: customerInsights/MeasureDefinition (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Measure Definition</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statusCode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr></tr><tr></tr><tr></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Measure Definition</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td></tr></table>
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
