@@ -55,7 +55,7 @@ The Nonprofit Accelerator provides the following to partners and customers:
     the data model.
 
 -   Optional data integrator templates and mappings for integrating data from
-    the Nonprofit Accelerator in Customer Engagement to Finance & Operations
+    the Nonprofit Accelerator in Dynamics 365
 
 -   Optional volunteer management and IATI add-on common data models, sample
     model-driven apps, sample data, flows and documentation
@@ -211,7 +211,7 @@ Nonprofit Accelerator.  
 
 ### Nonprofit Accelerator for Finance and Operations and PowerApps Data Integrator (Optional Add-On)
 
-Template data integrator tasks to connect Customer Engagement/Nonprofit
+Template data integrator tasks to connect Nonprofit
 Accelerator Constituents, Donations, Awards and Programs to Finance and
 Operations.
 
