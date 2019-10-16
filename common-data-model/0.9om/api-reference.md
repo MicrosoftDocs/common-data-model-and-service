@@ -24,57 +24,77 @@ TODO: Description
 
 An argument exists inside trait references and provides name/value pairs for a specific trait reference. Arguments give life to traits by enabling them to actually contain some specific data.
 
+#### Constructors
+|Name|Description|
+|---|---|
+|**CdmArgumentDefinition(CdmCorpusContext)**<br />*ctx*: The corpus context.|Initializes a new instance of the CdmArgumentDefinition class.|
+
 #### Properties
 |Name|Description|
 |---|---|
-|Explanation|The argument's explanation.|
 |Name|The argument's name.|
-|Value|The argument's value.|  
-
+|Value|The argument's value.| 
+|Explanation|The argument's explanation.|
+ 
 ### Attribute (CdmAttribute extends CdmObjectDefinitionBase, CdmAttributeItem)  
 
 An attribute is a definition that only occurs inside other definitions. Unlike references, it has applied traits instead of exhibited traits. Attributes can either be entity attributes or data type attributes. Entity attributes have references to another entities, while data type attributes represent a specific data type (see *CdmDataTypeDefinition*).
+
+#### Constructors
+|Name|Description|
+|---|---|
+|**CdmAttribute(CdmCorpusContext, string, bool)**<br />*ctx*: The corpus context.<br />*name*: The attribute's name.<br />*appliedTraits*: TODO|Initializes a new instance of the CdmAttribute class.|
 
 #### Properties
 |Name|Description|
 |---|---|
 |Name|The attribute's name.|
-|Purpose|See *Purpose*.|
+|Purpose|See *CdmPurposeDefinition*.|
 |ResolutionGuidance|The properties that guide the resolution of this attribute and interact with directives (see *CdmAttributeResolutionGuidance*).|
 
 #### Methods
 |Name|Description|Return type|
 |---|---|---|
-|**AddAppliedTrait(...):**<br />*traitDef*: The trait definition, either a string representing the name or a CdmTraitReference object.<br/>*implicitRef [optional]*: The boolean that denotes whether the trait is an implicit trait. It is used only if the name is provided as a trait definition. The default value is false.|Adds the specified trait definition to the list of applied traits. Returns the added trait.|CdmTraitReference|
-|**RemoveAppliedTrait(...):**<br />*traitDef*: The trait definition, either a string representing the name or a CdmTraitReference object.<br />*onlyFromProperty [optional]*: TODO |Removes the trait definition from the list of applied traits.|void|
+|**AddAppliedTrait(...)**<br />*traitDef*: The trait definition, either a string representing the name or a CdmTraitReference object.<br/>*implicitRef [optional]*: The boolean that denotes whether the trait is an implicit trait. It is used only if the name is provided as a trait definition. The default value is false.|Adds the specified trait definition to the list of applied traits. Returns the added trait.|CdmTraitReference|
+|**RemoveAppliedTrait(...)**<br />*traitDef*: The trait definition, either a string representing the name or a CdmTraitReference object.<br />*onlyFromProperty [optional]*: TODO |Removes the trait definition from the list of applied traits.|void|
 
 ### Attribute Context (CdmAttributeContext extends CdmObjectDefinitionBase)
 
 An attribute context provides more insight into an attribute's relationship (child/parent). It is heavily used during the entity's attribute resolution and can contain the history of all changes that lead to an attribute's resolution. Resolved concepts, such as resolved attributes, can contain attribute contexts to provide more insights into the original, non-resolved hierarchic attributes.
 
+#### Constructors
+|Name|Description|
+|---|---|
+|**CdmAttributeContext(CdmCorpusContext, string)**<br/>*ctx*: The corpus context.<br/>*name*: The attribute context's name.|Initializes a new instance of the CdmAttributeContext class.|
+
 #### Properties
 |Name|Description|
 |---|---|
+|Name|The attribute context's name.|
 |Contents|The attribute context's content list.|
 |Definition|The reference to the object this attribute context was defined from.|
-|Name|The attribute context's name.|
 |Parent|The attribute context's parent.|
 |Type?|The attribute context's type (can be *Entity, EntityReferenceExtends, AttributeDefinition, EntityReferenceAsAttribute, AttributeGroup, AddedAttributeSupporting, AddedAttributeIdentity,* or *PassThrough*).|
 
 #### Methods
 |Name|Description|Return type|
 |---|---|---|
-|**CopyNode(...):**<br/>*resOpt*: The resolve options.|Returns a copy of the current attribute context node.|CdmObject|
+|**CopyNode(...)**<br/>*resOpt*: The resolve options.|Returns a copy of the current attribute context node.|CdmObject|
 
 ### Attribute Group (CdmAttributeGroupDefinition extends CdmObjectDefinitionBase, CdmReferencesEntities)
 
 An attribute group represents a group of attribute items (see *CdmAttributeItem*) that provide a similar role. 
 
+#### Constructors
+|Name|Description|
+|---|---|
+|**CdmAttributeGroupDefinition(CdmCorpusContext, string)**<br/>*ctx*: The corpus context.<br/>*attributeGroupName*: The attribute group's name.|Initializes a new instance of the CdmAttributeGroupDefinition class.|
+
 #### Properties
 |Name|Description|
 |---|---|
-|AttributeContext|The attribute group context.|
 |AttributeGroupName|The attribute group's name.
+|AttributeContext|The attribute group context.|
 |Members|The list of attribute items for the attribute group.|
 
 ### Attribute Item (CdmAttributeItem extends CdmObject, CdmReferencesEntities)
@@ -89,6 +109,11 @@ An attribute item is a concept that represents the base class for an attribute.
 ### Attribute Resolution Guidance (CdmAttributeResolutionGuidance extends CdmObjectSimple)
 
 An attribute resolution guidance provides properties that help with the resolution process of entities, attributes, and other resolvable CDM concepts.
+
+#### Constructors
+|Name|Description|
+|---|---|
+|**CdmAttributeResolutionGuidance(CdmCorpusContext)**<br/>*ctx*: The corpus context.|Initializes a new instance of the CdmAttributeResolutionGuidance class.|
 
 #### Properties
 |Name|Description|
@@ -107,6 +132,11 @@ An attribute resolution guidance provides properties that help with the resoluti
 
 A collection holds a set of CDM objects (see *CdmObject*) and provides easier handling of them.
 
+#### Constructors
+|Name|Description|
+|---|---|
+|**CdmCollection(CdmCorpusContext, CdmObject, CdmObjectType)**<br/>*ctx*: The corpus context.<br/>*owner*: The CdmObject that contains this collection.<br/>*defaultType*: The default CdmObjectType of this collection.|Initializes a new instance of the CdmCollection class.|
+
 #### Properties
 |Name|Description|
 |---|---|
@@ -116,15 +146,20 @@ A collection holds a set of CDM objects (see *CdmObject*) and provides easier ha
 #### Methods
 |Name|Description|Return type|
 |---|---|---|
-|**Add(...):**<br/>*name*: The name of the CdmObject that is being added to the collection.<br/>*simpleRef [optional]*: A boolean that denotes whether we want a reference to be a simple reference, if we are adding one. The default value is false.|Adds a CdmObject of a default type (default type can be set in the property) with the given name to the collection.|void|
-|**Add(...):**<br />*currObject*: The CDM object.|Add the CdmObject specified in the parameter to the collection.	|void|
-|**Remove(...):**<br/>*currObject*: The CDM object.|Removes the specified CDM object from the collection.|boolean|
-|**Item(...):**<br />*name*: The name of a CDM object.|Fetches the CDM object with the specified name.|T|
+|**Add(...)**<br/>*name*: The name of the CdmObject that is being added to the collection.<br/>*simpleRef [optional]*: A boolean that denotes whether we want a reference to be a simple reference, if we are adding one. The default value is false.|Adds a CdmObject of a default type (default type can be set in the property) with the given name to the collection.|void|
+|**Add(...)**<br />*currObject*: The CDM object.|Add the CdmObject specified in the parameter to the collection.	|void|
+|**Remove(...)**<br/>*currObject*: The CDM object.|Removes the specified CDM object from the collection.|boolean|
+|**Item(...)**<br />*name*: The name of a CDM object.|Fetches the CDM object with the specified name.|T|
 |**this[...]:**<br/>*index*: The index of the element we want to fetch.|Fetches the CDM object from the collection in the specified index.|T|
 
 ### Constant Entity (CdmConstantEntityDefinition extends CdmObjectDefinitionBase)
 
 A constant entity provides a way of making an entity with records of data in it and an associated schema in a JSON file. We use these whenever we want to store some table of information inside a parameter of a trait. They show up in the enum definitions, in the localized display text, etc.
+
+#### Constructors
+|Name|Description|
+|---|---|
+|**CdmConstantEntityDefinition(CdmCorpusContext)**<br/>*ctx*: The corpus context.|Initializes a new instance of the CdmConstantEntityDefinition class.|
 
 #### Properties
 |Name|Description|
@@ -147,6 +182,11 @@ A container describes the placement of the CDM object. Both folders and document
 
 The corpus is a top-level folder that provides the most important basic functionality to deal with the object model. There will usually be only one corpus when dealing with the OM.
 
+#### Constructors
+|Name|Description|
+|---|---|
+|**CdmCorpusDefinition()**|Initializes a new instance of the CdmCorpusDefinition class.|
+
 #### Properties
 |Name|Description|
 |---|---|
@@ -156,47 +196,62 @@ The corpus is a top-level folder that provides the most important basic function
 #### Methods
 |Name|Description|Return type|
 |---|---|---|
-|**MakeRef\<T>(...):**<br/>*ofType*: The CDM object type. <br/>*refObj*: The reference object. <br/> *simpleNameRef*: The boolean that denotes whether it is a simple name reference.	| Instantiates an OM class reference based on the object type passed as the first parameter.|T, where T : CdmObjectReference|
-|**MakeObject\<T>(...):**<br/>*ofType*: The CDM object type. <br/>*nameOrRef [optional]*: The name or reference.<br/>*simpleNameRef [optional]*: The boolean that denotes whether it is a simple name reference. The default value is false.	| Instantiates an OM class based on the object type passed as the first parameter.	|T, where T : CdmObject|
-|**FetchObjectAsync\<T>(...):**<br/>*objectPath*: The object path of a folder or document.<br/>*obj [optional]*: TODO | Fetches an object from the corpus path.	|Task\<T>|
-|**SetEventCallback(...):**<br/>*status*: The callback. <br/>*reportAtLevel*: At which status level to report.| Sets the status and error callback that is getting called for status/warning/error purposes.|void|
-|**GenerateWarningsAsync():**|Generates warnings into the status report.|Task|
+|**MakeRef\<T>(...)**<br/>*ofType*: The CDM object type. <br/>*refObj*: The reference object. <br/> *simpleNameRef*: The boolean that denotes whether it is a simple name reference.	| Instantiates an OM class reference based on the object type passed as the first parameter.|T, where T : CdmObjectReference|
+|**MakeObject\<T>(...)**<br/>*ofType*: The CDM object type. <br/>*nameOrRef [optional]*: The name or reference.<br/>*simpleNameRef [optional]*: The boolean that denotes whether it is a simple name reference. The default value is false.	| Instantiates an OM class based on the object type passed as the first parameter.	|T, where T : CdmObject|
+|**FetchObjectAsync\<T>(...)**<br/>*objectPath*: The object path of a folder or document.<br/>*obj [optional]*: TODO | Fetches an object from the corpus path.	|Task\<T>|
+|**SetEventCallback(...)**<br/>*status*: The callback. <br/>*reportAtLevel*: At which status level to report.| Sets the status and error callback that is getting called for status/warning/error purposes.|void|
+|**GenerateWarningsAsync()**|Generates warnings into the status report.|Task|
 |**ResolveReferencesAndValidateAsync(...)**:<br/>*stage*: TODO<br/>*stageThrough*: TODO<br/>*resOpt*: The resolve options.|Resolve the references and validate if all documents are ready.|Task\<CdmValidationStep>|
-|**CalculateEntityGraphAsync(...):**<br/>*currManifest*: The manifest (and any sub-manifests it contains) that we want to calculate relationships for.|Calculates the entity to entity relationships for all the entities present in the manifest and its sub-manifests.|Task|
-|**FetchIncomingRelationships(...):**<br/>*entity*: The entity that we want to get relationships for.|Returns a list of relationships where the input entity is the incoming entity.|List\<CdmE2ERelationship>|
-|**FetchOutgoingRelationships(...):**<br/>*entity*: The entity that we want to get relationships for.|Returns a list of relationships where the input entity is the outgoing entity.|List\<CdmE2ERelationship>|
+|**CalculateEntityGraphAsync(...)**<br/>*currManifest*: The manifest (and any sub-manifests it contains) that we want to calculate relationships for.|Calculates the entity to entity relationships for all the entities present in the manifest and its sub-manifests.|Task|
+|**FetchIncomingRelationships(...)**<br/>*entity*: The entity that we want to get relationships for.|Returns a list of relationships where the input entity is the incoming entity.|List\<CdmE2ERelationship>|
+|**FetchOutgoingRelationships(...)**<br/>*entity*: The entity that we want to get relationships for.|Returns a list of relationships where the input entity is the outgoing entity.|List\<CdmE2ERelationship>|
 
 ### Data Partition (CdmDataPartitionDefinition extends CdmObjectDefinitionBase, CdmFileStatus)
 
 A data partition is an object pointing to a location of entity-related data.
 
+#### Constructors
+|Name|Description|
+|---|---|
+|**CdmDataPartitionDefinition(CdmCorpusContext, string)**<br/>*ctx*: The corpus context.<br/>*name*: The data partition's name.|Initializes a new instance of the CdmDataPartitionDefinition class.|
+
 #### Properties
 |Name|Description|
 |---|---|
-|Name|The partition's name.|
-|Location|The partition's location.|
-|Inferred|A boolean denoting whether the partition was created from a data partition pattern.|
+|Name|The data partition's name.|
+|Description|The data partition's description.|
+|Location|The data partition's location.|
+|Inferred|Denotes whether the data partition was created from a data partition pattern.|
 |Arguments|The list of key-value pairs to give names for the replacement values from the regex.|
-|SpecializedSchema|The path for the specialized schema to use specifically for the partitions generated (e.g. *CSV*).|
-|Description|The partition's description.|
-|RefreshTime?|The partition's refresh time.|
+|SpecializedSchema|The path for the specialized schema to use specifically for the data partitions generated (e.g. *CSV*).|
+|RefreshTime?|The data partition's refresh time.|
 
 ### Data Partition Pattern (CdmDataPartitionPatternDefinition extends CdmObjectDefinitionBase, CdmFileStatus)
 
 A data partition pattern is a concept that provides a way of selecting/generating a set of partitions based on requirements specified as a regular expression.
 
+#### Constructors
+|Name|Description|
+|---|---|
+|**CdmDataPartitionPatternDefinition(CdmCorpusContext, string)**<br/>*ctx*: The corpus context.<br/>*name*: The data partition pattern's name.|Initializes a new instance of the CdmDataPartitionPatternDefinition class.|
+
 #### Properties
 |Name|Description|
 |---|---|
-|Name|The partition pattern's name.|
+|Name|The data partition pattern's name.|
 |RootLocation|The starting location's corpus path for searching inferred data partitions.|
-|RegularExpression|The regular expression string to use for searching partitions.|
+|RegularExpression|The regular expression string to use for searching data partitions.|
 |Parameters|The names for replacement values from the regular expression.|
-|SpecializedSchema|The corpus path for the specialized schema to use for matched pattern partitions (e.g. *CSV*).|
+|SpecializedSchema|The corpus path for the specialized schema to use for the matched data partitions (e.g. *CSV*).|
 
 ### Data Type (CdmDataTypeDefinition extends CdmObjectDefinitionBase)
 
 A data type provides the ability to assign different data types to attributes, such as string, boolean, etc.
+
+#### Constructors
+|Name|Description|
+|---|---|
+|**CdmDataTypeDefinition(CdmCorpusContext, string, CdmDataTypeReference, bool)**<br/>*ctx*: The corpus context.<br/>*dataTypeName*: The data type's name.<br/>*extendsDataType*: The data type that this data type extends.<br/>*exhibitsTraits [optional]*: TODO|Initializes a new instance of the CdmDataTypeDefinition class.|
 
 #### Properties
 |Name|Description|
@@ -208,27 +263,37 @@ A data type provides the ability to assign different data types to attributes, s
 
 A document enables the OM to have a persisted state. Every document can contain different CDM definitions, such as entities, data partitions, or attributes.
 
+#### Constructors
+|Name|Description|
+|---|---|
+|**CdmDocumentDefinition(CdmCorpusContext, string, bool)**<br/>*ctx*: The corpus context.<br/>*name*: The document's name.<br/>*hasImports [optional]*: A boolean that denotes whether this document has imports.|Initializes a new instance of the CdmDocumentDefinition class.|
+
 #### Properties
 |Name|Description|
 |---|---|
-|Definitions|The document's definitions - can be any object that implements *CdmObjectDefinition*.|
-|Folder|The document's folder. This property will eventually be replaced by *CdmObject*'s *Owner* property.|
-|Imports|The list of corpus paths/monikers that denote the CDM objects that need to be imported in order to use the document.|
 |Name|The document's name.|
 |Schema|The schema link that points to a validating schema.|
 |JsonSchemaSemanticVersion|Identifies the version of the OM that supports this file shape.|
+|Definitions|The document's definitions - can be any object that implements *CdmObjectDefinition*.|
+|Folder|The document's folder. This property will eventually be replaced by *CdmObject*'s *Owner* property.|
+|Imports|The list of corpus paths/monikers that denote the CDM objects that need to be imported in order to use the document.|
 
 #### Methods
 |Name|Description|Return type|
 |---|---|---|
-|**AddDefinition\<T>(...):**<br/>*ofType*: The type of the object to create. <br/>*name*: The name of the object to create.|Adds a definition of an object of the given type and name (after creating it) to the document and returns back the newly created object. |T|
-|**AddImport(...):**<br />*corpusPath*: The corpus path.<br/>*moniker*: The nickname used for imports to specify which document to import in the case of duplicate symbols (e.g. we might have multiple Account documents, but by specifying a moniker 'base_Account', we can pinpoint the exact document).|Creates an import object from the corpus path and moniker and adds it to the document.|void|
-|**RefreshAsync(...):**<br />*resOpt*: The resolution options.|Updates the indexes in the document. The method is supposed to be called after modifying the objects in the document.|Task\<bool>|
-|**SaveAsAsync(...):**<br />*newName*: The new document's name.<br/>*saveReferenced [optional]*: A boolean that denotes whether we want to save all the references files (schema definition documents that are linked from the source document that have been modified) as well since the manifest can reference different entity documents. The default value is false.<br/>*options [optional]*: The copy options.|Saves the document back through the adapter in the requested format. The format is specified via the document name/extension based on conventions: '.model.json' for the backwards-compatible model, 'manifest.cdm.json' for manifest, '.folio.cdm.json' for folio, and '.cdm.json' for CDM definitions. Returns false on any failure.|Task\<bool>|
+|**AddDefinition\<T>(...)**<br/>*ofType*: The type of the object to create. <br/>*name*: The name of the object to create.|Adds a definition of an object of the given type and name (after creating it) to the document and returns back the newly created object. |T|
+|**AddImport(...)**<br />*corpusPath*: The corpus path.<br/>*moniker*: The nickname used for imports to specify which document to import in the case of duplicate symbols (e.g. we might have multiple Account documents, but by specifying a moniker 'base_Account', we can pinpoint the exact document).|Creates an import object from the corpus path and moniker and adds it to the document.|void|
+|**RefreshAsync(...)**<br />*resOpt*: The resolution options.|Updates the indexes in the document. The method is supposed to be called after modifying the objects in the document.|Task\<bool>|
+|**SaveAsAsync(...)**<br />*newName*: The new document's name.<br/>*saveReferenced [optional]*: A boolean that denotes whether we want to save all the references files (schema definition documents that are linked from the source document that have been modified) as well since the manifest can reference different entity documents. The default value is false.<br/>*options [optional]*: The copy options.|Saves the document back through the adapter in the requested format. The format is specified via the document name/extension based on conventions: '.model.json' for the backwards-compatible model, 'manifest.cdm.json' for manifest, '.folio.cdm.json' for folio, and '.cdm.json' for CDM definitions. Returns false on any failure.|Task\<bool>|
 
 ### E2E Relationship (CdmE2ERelationship extends CdmObjectDefinitionBase)
 
 An E2E relationship is a relationship between two entities' attributes.
+
+#### Constructors
+|Name|Description|
+|---|---|
+|**CdmE2ERelationship(CdmCorpusContext, string, bool)**<br/>*ctx*: The corpus context.<br/>*name*: The relationship's name.<br/>*exhibitsTraits*: TODO|Initializes a new instance of the CdmE2ERelationship class.|
 
 #### Properties
 |Name|Description|
@@ -242,6 +307,11 @@ An E2E relationship is a relationship between two entities' attributes.
 ### Entity Attribute (CdmEntityAttributeDefinition extends CdmAttribute)
 
 An entity attribute is an attribute that also points to an entity (see *CdmEntityReference*).
+
+#### Constructors
+|Name|Description|
+|---|---|
+|**CdmEntityAttributeDefinition(CdmCorpusContext, string, bool)**<br/>*ctx*: The corpus context.<br/>*name*: The entity attribute's name.<br/>*appliedTraits*: TODO|Initializes a new instance of the CdmEntityAttributeDefinition class.|
 
 #### Properties
 |Name|Description|
@@ -261,24 +331,29 @@ An entity declaration provides a simple functionality that is extended by a loca
 
 An entity is the basic building block of the OM. It provides a concrete placeholder for a user to attach certain information to a concept. It is a collection of attributes that creates some semantic meaning of why these attributes exist together. Since entities can inherit from other entities, it is possible for entities to represent a hierarchical structure. The hierarchical structure can be removed from the entities by resolving them.
 
+#### Constructors
+|Name|Description|
+|---|---|
+|**CdmEntityDefinition(CdmCorpusContext, string, CdmEntityReference, bool, bool)**<br/>*ctx*: The corpus context.<br/>*name*: The entity's name.<br/>*extendsEntity*: The entity that this entity extends.<br/>*exhibitsTraits [optional]*: TODO<br/>*hasAttributes [optional]*: A boolean that denotes whether this entity has attributes. The default value is false.|Initializes a new instance of the CdmEntityDefinition class.|
+
 #### Properties
 |Name|Description|
 |---|---|
-|AttributeContext|The entity's attribute context (see *AttributeContext*).|
-|CdmSchemas|The list of CDM entities that the entity "contains" or implements (a set of contracts or interfaces).|
-|Description|The entity's description.|
-|DisplayName|The entity's display name.|
 |EntityName|The entity's name.|
 |ExtendsEntity|The entity extended by this entity.|
 |Attributes|The list of attributes for this entity.|
+|AttributeContext|The entity's attribute context (see *AttributeContext*).|
+|DisplayName|The entity's display name.|
 |SourceName|The entity's source name - the original entity name from another source system (e.g. *Dynamics*).|
+|Description|The entity's description.|
+|CdmSchemas|The list of CDM entities that the entity "contains" or implements (a set of contracts or interfaces).|
 |Version|The entity's version.|
 
 #### Methods
 |Name|Description|Return type|
 |---|---|---|
-|**CreateResolvedEntityAsync(...):**<br />*resOpt*: The resolve options.<br/>*newEntName*: The new entity name.<br/>*folder [optional]*: The folder that will be used as a target corpus path. If not specified, in-document folder (a property on the entity) is used.<br/>*newDocName [optional]*: The new document name.|Creates a resolved copy of the entity.|Task\<CdmEntityDefinition>|
-|**GetProperty(...):**<br />*propertyName*: The property name.|Returns the value directly assigned to the property name (ignores values from traits).|dynamic|
+|**CreateResolvedEntityAsync(...)**<br />*resOpt*: The resolve options.<br/>*newEntName*: The new entity name.<br/>*folder [optional]*: The folder that will be used as a target corpus path. If not specified, in-document folder (a property on the entity) is used.<br/>*newDocName [optional]*: The new document name.|Creates a resolved copy of the entity.|Task\<CdmEntityDefinition>|
+|**GetProperty(...)**<br />*propertyName*: The property name.|Returns the value directly assigned to the property name (ignores values from traits).|dynamic|
 
 ### File Status (CdmFileStatus extends CdmObject)
 
@@ -294,36 +369,46 @@ A file status describes concepts based on the status of a file, such as data par
 |Name|Description|Return type|
 |---|---|---|
 |**FileStatusCheckAsync()**|Updates the object and any children with the current time. |Task|
-|**ReportMostRecentTimeAsync(...):**<br />*childTime (DateTimeOffset) [optional]*: The biggest child time. This parameter will get updated as a result of the function.|Reports the most recent modified time of the object (or children objects) to the parent object. Also modifies the childTime parameter with the biggest child time. |Task|
+|**ReportMostRecentTimeAsync(...)**<br />*childTime (DateTimeOffset) [optional]*: The biggest child time. This parameter will get updated as a result of the function.|Reports the most recent modified time of the object (or children objects) to the parent object. Also modifies the childTime parameter with the biggest child time. |Task|
 
 ### Folder (CdmFolderDefinition extends CdmObjectDefinitionBase, CdmContainerDefinition)
 
-A folder  provides a hierarchical structure of the OM for organizing documents. Folders can contain other folders or documents.
+A folder provides a hierarchical structure of the OM for organizing documents. Folders can contain other folders or documents.
+
+#### Constructors
+|Name|Description|
+|---|---|
+|**CdmFolderDefinition(CdmCorpusContext, string)**<br/>*ctx*: The corpus context.<br/>*name*: The folder's name.|Initializes a new instance of the CdmFolderDefinition class.|
 
 #### Properties
 |Name|Description|
 |---|---|
+|Name|The name of the folder.|
 |Schema|The schema link that points to a validating schema.|
 |JsonSchemaSemanticVersion|Identifies the version of the OM that supports the file shape.|
-|LastModifiedTime|An ISO date-time-offset value to indicate the last time the folder's content was modified and persisted.|
-|Name|The name of the folder.|
-|Imports|The list of imports (see *Imports*).|
+|Documents|The child documents for the directory folder.|
 |FolderPath|The corpus path for the folder.|
 |ChildFolders|The direct children for the directory folder.|
-|Documents|The child documents for the directory folder.|
+|Imports|The list of imports (see *CdmImport*).|
+|LastModifiedTime|An ISO date-time-offset value to indicate the last time the folder's content was modified and persisted.|
 
 #### Methods
 |Name|Description|Return type|
 |---|---|---|
-|**AddChildFolder(...):**<br/>*name*: The name of the folder.|Adds a child folder to the current folder and returns the newly added folder.|CdmFolderDefinition|
-|**AddDocument(...):**<br />*name*: The name of the document.<br/>*doc*: The document to add.|Adds a child document to the current folder and returns the newly created document.|CdmDocumentDefinition|
-|**RemoveDocument(...):**<br/>*name*: The name of the document.|Removes a document with the specified name from the folder.|void|
-|**FetchChildFolderFromPathAsync(...):**<br />*path*: The corpus path.<br/>*makeFolder [optional]*: The boolean that denotes whether to create a folder if it doesn't exist. The default value is false.<br/>|Retrieves the child folder from the specified corpus path.	|Task\<CdmFolderDefinition>|
-|**FetchDocumentFromFolderPathAsync(...):**<br/>*objectPath*: The folder path.<br/>*adapter*: The storage adapter where the folder can be found.<br/>*forceReload [optional]*: The boolean that denotes whether to reload the object from file and replace the current object with it. The default value is false.|Retrieves the document from the specified folder path.|Task\<CdmDocumentDefinition>|
+|**AddChildFolder(...)**<br/>*name*: The name of the folder.|Adds a child folder to the current folder and returns the newly added folder.|CdmFolderDefinition|
+|**AddDocument(...)**<br />*name*: The name of the document.<br/>*doc*: The document to add.|Adds a child document to the current folder and returns the newly created document.|CdmDocumentDefinition|
+|**RemoveDocument(...)**<br/>*name*: The name of the document.|Removes a document with the specified name from the folder.|void|
+|**FetchChildFolderFromPathAsync(...)**<br />*path*: The corpus path.<br/>*makeFolder [optional]*: The boolean that denotes whether to create a folder if it doesn't exist. The default value is false.<br/>|Retrieves the child folder from the specified corpus path.	|Task\<CdmFolderDefinition>|
+|**FetchDocumentFromFolderPathAsync(...)**<br/>*objectPath*: The folder path.<br/>*adapter*: The storage adapter where the folder can be found.<br/>*forceReload [optional]*: The boolean that denotes whether to reload the object from file and replace the current object with it. The default value is false.|Retrieves the document from the specified folder path.|Task\<CdmDocumentDefinition>|
 
 ### Import (CdmImport extends CdmObjectSimple)
 
 An import is used by documents to provide files/documents that need to be imported first.
+
+#### Constructors
+|Name|Description|
+|---|---|
+|**CdmImport(CdmCorpusContext, string, string)**<br/>*ctx*: The corpus context.<br/>*corpusPath*: The import path.<br/>*moniker*: The import moniker.|Initializes a new instance of the CdmImport class.|
 
 #### Properties
 |Name|Description|
@@ -336,6 +421,11 @@ An import is used by documents to provide files/documents that need to be import
 
 A local entity declaration is a declaration for an entity that resides locally and has associated data partitions.
 
+#### Constructors
+|Name|Description|
+|---|---|
+|**CdmLocalEntityDeclarationDefinition(CdmCorpusContext, string)**<br/>*ctx*: The corpus context.<br/>*entityName*: The entity's name.|Initializes a new instance of the CdmLocalEntityDeclarationDefinition class.|
+
 #### Properties
 |Name|Description|
 |---|---|
@@ -346,15 +436,25 @@ A local entity declaration is a declaration for an entity that resides locally a
 
 A manifest declaration is a declaration for the CDM manifest format.
 
+#### Constructors
+|Name|Description|
+|---|---|
+|**CdmManifestDeclarationDefinition(CdmCorpusContext, string)**<br/>*ctx*: The corpus context.<br/>*name*: The name of the manifest declared.|Initializes a new instance of the CdmManifestDeclarationDefinition class.|
+
 #### Properties
 |Name|Description|
 |---|---|
-|ManifestName|The manifest's name.|
+|ManifestName|The declared manifest's name.|
 |Definition|The corpus path to the definition of the sub-folder.|
 
 ### Manifest (CdmManifestDefinition extends CdmDocumentDefinition, CdmObjectDefinition, CdmFileStatus)
 
 A manifest is a top-level document with the new extension '.manifest.cdm.json'. A manifest can reference different documents (e.g. reference documents with the extension '.cdm.json' that contain entities).
+
+#### Constructors
+|Name|Description|
+|---|---|
+|**CdmManifestDefinition(CdmCorpusContext, string, bool)**<br/>*ctx*: The corpus context.<br/>*name*: The manifest's name.<br/>*hasImports*: A boolean that denotes whether this manifest has imports.|Initializes a new instance of the CdmManifestDefinition class.|
 
 #### Properties
 |Name|Description|
@@ -364,8 +464,8 @@ A manifest is a top-level document with the new extension '.manifest.cdm.json'. 
 #### Methods
 |Name|Description|Return type|
 |---|---|---|
-|**PopulateManifestRelationshipsAsync(...):**<br/>*option*: TODO|Populates the relationships that the entities in the current manifest are involved in. This function is used to pre-calculate relationships that lead to optimizations during the resolution process.|Task|
-|**CreateResolvedManifestAsync(...):**<br />*newManifestName*: The new manifest name. <br/>*newEntityDocumentNameFormat*:  Specifies a pattern to use when creating documents for resolved entities. The default is "\{f}resolved/\{n}.cdm.json" to avoid a document name conflict with documents in the same folder as the manifest.<br/>|Creates a resolved copy of the manifest. Every instance of the string \{n} from the argument is replaced with the entity name from the source manifest. Every instance of the string \{f} is replaced with the folder path from the source manifest to the source entity (if there is one that is possible as a relative location, else nothing). A manifest with all the entities resolved is returned.|Task\<CdmManifestDefinition>
+|**PopulateManifestRelationshipsAsync(...)**<br/>*option*: TODO|Populates the relationships that the entities in the current manifest are involved in. This function is used to pre-calculate relationships that lead to optimizations during the resolution process.|Task|
+|**CreateResolvedManifestAsync(...)**<br />*newManifestName*: The new manifest name. <br/>*newEntityDocumentNameFormat*:  Specifies a pattern to use when creating documents for resolved entities. The default is "\{f}resolved/\{n}.cdm.json" to avoid a document name conflict with documents in the same folder as the manifest.<br/>|Creates a resolved copy of the manifest. Every instance of the string \{n} from the argument is replaced with the entity name from the source manifest. Every instance of the string \{f} is replaced with the folder path from the source manifest to the source entity (if there is one that is possible as a relative location, else nothing). A manifest with all the entities resolved is returned.|Task\<CdmManifestDefinition>
 
 ### CdmObject
 
@@ -384,9 +484,9 @@ This is the base interface for all other CDM interfaces.
 #### Methods
 |Name|Description|Return type|
 |---|---|---|
-|**FetchObjectDefinition\<T>(...):**<br />*resOpt [optional]*: The resolve options.|Returns the resolved object reference.|T, where T : CdmObjectDefinition|
-|**FetchObjectDefinitionName():**|Retrieves the name of the object if this is an object definition, or the name of the referenced object if this is an object reference.|string|
-|**IsDerivedFrom(...):**<br />*baseDef*: The base definition name.<br />*resOpt*: The resolve options.|Returns true if the object (or the referenced object) is an extension of the specified symbol name in some way.|bool|
+|**FetchObjectDefinition\<T>(...)**<br />*resOpt [optional]*: The resolve options.|Returns the resolved object reference.|T, where T : CdmObjectDefinition|
+|**FetchObjectDefinitionName()**|Retrieves the name of the object if this is an object definition, or the name of the referenced object if this is an object reference.|string|
+|**IsDerivedFrom(...)**<br />*baseDef*: The base definition name.<br />*resOpt*: The resolve options.|Returns true if the object (or the referenced object) is an extension of the specified symbol name in some way.|bool|
 
 ### CdmObjectDefinition extends CdmObject
 
@@ -395,13 +495,18 @@ This is the base interface for all CDM object definitions.
 #### Methods
 |Name|Description|Return type|
 |---|---|---|
-|**AddExhibitedTrait(...):**<br />*traitDef*: The trait definition, either a string representing the name or a CdmTraitReference object.<br/>*implicitRef [optional]*: The boolean that denotes whether the trait is an implicit trait. It is used only if the name is provided as a trait definition. The default value is false.|Adds the specified trait definition to the list of exhibited traits. Returns the added trait.|CdmTraitReference|
-|**RemoveExhibitedTrait(...):**<br />*traitDef*: The trait definition, either a string representing the name or a CdmTraitReference object.<br />*onlyFromProperty [optional]*: TODO|Removes the trait definition from the exhibited trait list.|void|
-|**GetName():**|All object definitions have some kind of name, so this method returns the name independent of the name from the name property.|string|
+|**AddExhibitedTrait(...)**<br />*traitDef*: The trait definition, either a string representing the name or a CdmTraitReference object.<br/>*implicitRef [optional]*: The boolean that denotes whether the trait is an implicit trait. It is used only if the name is provided as a trait definition. The default value is false.|Adds the specified trait definition to the list of exhibited traits. Returns the added trait.|CdmTraitReference|
+|**RemoveExhibitedTrait(...)**<br />*traitDef*: The trait definition, either a string representing the name or a CdmTraitReference object.<br />*onlyFromProperty [optional]*: TODO|Removes the trait definition from the exhibited trait list.|void|
+|**GetName()**|All object definitions have some kind of name, so this method returns the name independent of the name from the name property.|string|
 
 ### Parameter (CdmParameterDefinition extends CdmObjectDefinitionBase)
 
 A parameter provides the ability to specify parameters that a trait should contain. By providing a name, default values, and supported data types, trait references become restricted by which arguments they can contain. Parameters are defined for traits in the *CDM.SchemaDocuments* repository.
+
+#### Constructors
+|Name|Description|
+|---|---|
+|**CdmParameterDefinition(CdmCorpusContext, string)**<br/>*ctx*: The corpus context.<br/>*name*: The parameter's name.|Initializes a new instance of the CdmParameterDefinition class.|
 
 #### Properties
 |Name|Description|
@@ -416,15 +521,25 @@ A parameter provides the ability to specify parameters that a trait should conta
 
 A purpose provides an attribute of what it does for an entity (e.g. *SortedBy*, *NamedBy*). 
 
+#### Constructors
+|Name|Description|
+|---|---|
+|**CdmPurposeDefinition(CdmCorpusContext, string, CdmPurposeReference, bool)**<br/>*ctx*: The corpus context.<br/>*name*: The purpose's name.<br/>*extendsPurpose*: The reference to the purpose that this purpose extends.<br/>*exhibitsTraits [optional]*: TODO|Initializes a new instance of the CdmPurposeDefinition class.|
+
 #### Properties
 |Name|Description|
 |---|---|
-|ExtendsPurpose|The reference to the purpose extended by this purpose.|
 |PurposeName|The purpose's name.|
+|ExtendsPurpose|The reference to the purpose extended by this purpose.|
 
 ### Reference Entity Declaration (CdmReferencedEntityDeclarationDefinition extends CdmObjectDefinitionBase, CdmEntityDeclarationDefinition)
 
 A reference entity declaration is a declaration for an entity that resides in a remote location.
+
+#### Constructors
+|Name|Description|
+|---|---|
+|**CdmReferencedEntityDeclarationDefinition(CdmCorpusContext, string)**<br/>*ctx*: The corpus context.<br/>*entityName*: The entity's name.|Initializes a new instance of the CdmReferencedEntityDeclarationDefinition class.|
 
 #### Properties
 |Name|Description|
@@ -434,44 +549,54 @@ A reference entity declaration is a declaration for an entity that resides in a 
 
 A trait helps express semantic meaning and structural guidance. Traits are essentially a metadata's metadata. Traits can extend other traits and have a format that is easy to understand and follow. (E.g. The trait *is.partition.format.CSV* describes a data partition in CSV format and has parameters that can provide additional information, such as which character to use as a delimiter). 
 
+#### Constructors
+|Name|Description|
+|---|---|
+|**CdmTraitDefinition(CdmCorpusContext, string, CdmTraitReference, bool)**<br/>*ctx*: The corpus context.<br/>*name*: The trait's name.<br/>*extendsTrait*: The reference to the trait that this trait extends.<br/>*hasParameters*: A boolean that denotes whether this trait has parameters.|Initializes a new instance of the CdmTraitDefinition class.|
+
 #### Properties
 |Name|Description|
 |---|---|
-|AssociatedProperties|The properties for the entity or attribute that the trait contributes to (using trait2propertyMap).|
-|Elevated?|Denotes whether a trait is elevated (e.g. if an attribute has an elevated trait, then that trait should also be applied to the outer entity).|
+|TraitName|The trait's name.|
 |ExtendsTrait|The trait extended by this trait.|
 |Parameters|The trait's parameters.|
+|Elevated?|Denotes whether a trait is elevated (e.g. if an attribute has an elevated trait, then that trait should also be applied to the outer entity).|
 |ModifiesAttributes?|Denotes whether a trait modifies attributes.|
-|TraitName|The trait's name.|
 |Ugly?|Denotes whether the trait is user facing (false if it is user facing, true otherwise).|
+|AssociatedProperties|The properties for the entity or attribute that the trait contributes to (using trait2propertyMap).|
 
 ### Type Attribute (CdmTypeAttributeDefinition extends CdmAttribute)
 
 A type attribute defines data type attributes along with supported functionality, such as custom default values and descriptions. Model.JSON attributes are converted into CDM type attributes.
 
+#### Constructors
+|Name|Description|
+|---|---|
+|**CdmTypeAttributeDefinition(CdmCorpusContext, string, bool, bool)**<br/>*ctx*: The corpus context.<br/>*name*: The type attribute's name.<br/>*appliedTraits*: TODO|Initializes a new instance of the CdmTypeAttributeDefinition class.|
+
 #### Properties
 |Name|Description|
 |---|---|
-|AttributeContext|The attribute context of the attribute.|
-|DataFormat|The type attribute's data format, in a string format derived from traits (string, int, etc).|
 |DataType|The type attribute's data type, a CDM reference object (see *CdmDataTypeReference*).|
+|DataFormat|The type attribute's data format, in a string format derived from traits (string, int, etc).|
+|AttributeContext|The attribute context of the attribute.|
 |DefaultValue|The type attribute's default value.|
 |Description|The type attribute's description.|
 |DisplayName|The type attribute's display name.|
+|SourceName|The type attribute's source name.|
 |IsNullable?|Denotes whether the type attribute can be null or not.|
 |IsPrimaryKey?|Denotes whether the type attribute is the primary key.|
 |IsReadOnly?|Denotes whether the type attribute is read only.|
 |MaximumLength?|The type attribute's maximum length.|
 |MaximumValue|The type attribute's maximum value (for data types that this can apply to, like integers).|
 |MinimumValue|The type attribute's minimum value (for data types that this can apply to, like integers).|
-|SourceName|The type attribute's source name.|
 |SourceOrdering?|Denotes the order attributes exist in some underlying source system.|
 |ValueConstrainedToList?|Denotes whether the type attribute's value is constrained to a list. The values can only be from enums.|
 
 #### Methods
 |Name|Description|Return type|
 |---|---|---|
-|**GetProperty(...):**<br/>*propertyName*: The property name.|Returns the value directly assigned to a property (ignores value from traits).	|dynamic|
+|**GetProperty(...)**<br/>*propertyName*: The property name.|Returns the value directly assigned to a property (ignores value from traits).	|dynamic|
 
 ## CDM References
 
@@ -483,16 +608,16 @@ This is the base interface for all CDM object references.
 
 |Name|Description|Return type|
 |---|---|---|
-|**AddAppliedTrait(...):**<br />*traitDef*: The trait definition, either a string representing the name or a CdmTraitReference object.<br/>*implicitRef [optional]*: The boolean that denotes whether the trait is an implicit trait. It is used only if the name is provided as a trait definition. The default value is false.|Adds the specified trait definition to the list of applied traits. Returns the added trait.|CdmTraitReference|
-|**RemoveAppliedTrait(...):**<br />*traitDef*: The trait definition, either a string representing the name or a CdmTraitReference object.<br/>*onlyFromProperty [optional]*: TODO |Removes the trait definition from the list of applied traits. |void|
+|**AddAppliedTrait(...)**<br />*traitDef*: The trait definition, either a string representing the name or a CdmTraitReference object.<br/>*implicitRef [optional]*: The boolean that denotes whether the trait is an implicit trait. It is used only if the name is provided as a trait definition. The default value is false.|Adds the specified trait definition to the list of applied traits. Returns the added trait.|CdmTraitReference|
+|**RemoveAppliedTrait(...)**<br />*traitDef*: The trait definition, either a string representing the name or a CdmTraitReference object.<br/>*onlyFromProperty [optional]*: TODO |Removes the trait definition from the list of applied traits. |void|
 
 ### CdmTraitReference extends CdmObjectReferenceBase
 
 |Name|Description|Return type|
 |---|---|---|
-|**AddArgument(...):**<br />*name*: The name of the argument.<br/>*value*: The value of the argument.|Adds an argument with the specified name and value to the Arguments list. Arguments have to match the parameters format specified in the schema documents.|CdmArgumentDefinition|
-|**FetchArgumentValue(...):**<br />*name*: The name of the argument.|Retrieves the value for the specified argument name from the arguments list.|dynamic|
-|**UpdateArgumentValue(...):**<br />*name*: The name of the argument.<br/>*value*: The value of the argument.|Sets the specified value to the argument with the specified name.|void|
+|**AddArgument(...)**<br />*name*: The name of the argument.<br/>*value*: The value of the argument.|Adds an argument with the specified name and value to the Arguments list. Arguments have to match the parameters format specified in the schema documents.|CdmArgumentDefinition|
+|**FetchArgumentValue(...)**<br />*name*: The name of the argument.|Retrieves the value for the specified argument name from the arguments list.|dynamic|
+|**UpdateArgumentValue(...)**<br />*name*: The name of the argument.<br/>*value*: The value of the argument.|Sets the specified value to the argument with the specified name.|void|
 
 ## Storage
 
@@ -509,16 +634,16 @@ TODO: Description
 #### Methods
 |Name|Description|Return type|
 |---|---|---| 
-|**Mount(...):**<br/>*nameSpace*: The namespace.<br/>*adapter*: The storage adapter.|Mounts a namespace to the specified adapter.|void|
+|**Mount(...)**<br/>*nameSpace*: The namespace.<br/>*adapter*: The storage adapter.|Mounts a namespace to the specified adapter.|void|
 |**Unmount(...)**<br/>*nameSpace*: The namespace.|Unmounts a namespace. Returns true if the unmount is successful, false otherwise.|boolean|
-|**SetAdapter(...):**<br/>*nameSpace*: The namespace.<br/>*adapter*: The storage adapter to set.|Allows the replacement of a storage adapter with another one for testing, leaving folders intact.|void|
-|**FetchAdapter(...):**<br/>*nameSpace*: The namespace.|Retrieves the adapter for the specified namespace.|StorageAdapter|
-|**SplitNamespacePath(...):**<br/>*objectPath*: The corpus path.|Splits the corpus path into the namespace and object path. Returns the namespace and the object path.|Tuple\<string, string>|
-|**FetchRootFolder(...):**<br/>*nameSpace*: The namespace.|Given the namespace of a registered stoarge adapter, returns the root folder containing the sub-folders and documents.|CdmFolderDefinition|
-|**AdapterPathToCorpusPath(...):**<br/>*adapterPath*: The path.|Takes the specified storage adapter domain path, figures out the right adapter to use, and then returns a corpus path.|string|
-|**CorpusPathToAdapterPath(...):**<br/>*adapterPath*: The path.|Takes the specified corpus path, figures out the right adapter to use, and then returns a storage adapter domain path.|string|
-|**CreateAbsoluteCorpusPath(...):**<br/>*objectPath*: The corpus path.<br/>*obj [optional]*: TODO|Takes the specified corpus path (relative or absolute) and creates a valid absolute path with the namespace. Returns the created path.|string|
-|**CreateRelativeCorpusPath(...):**<br/>*objectPath*: The corpus path.<br/>*relativeTo [optional]*: The object that the path should be made relative to.|Takes the specified corpus path (relative or absolute) and creates a valid relative corpus path with the namespace. Returns the created path.|string|
+|**SetAdapter(...)**<br/>*nameSpace*: The namespace.<br/>*adapter*: The storage adapter to set.|Allows the replacement of a storage adapter with another one for testing, leaving folders intact.|void|
+|**FetchAdapter(...)**<br/>*nameSpace*: The namespace.|Retrieves the adapter for the specified namespace.|StorageAdapter|
+|**SplitNamespacePath(...)**<br/>*objectPath*: The corpus path.|Splits the corpus path into the namespace and object path. Returns the namespace and the object path.|Tuple\<string, string>|
+|**FetchRootFolder(...)**<br/>*nameSpace*: The namespace.|Given the namespace of a registered stoarge adapter, returns the root folder containing the sub-folders and documents.|CdmFolderDefinition|
+|**AdapterPathToCorpusPath(...)**<br/>*adapterPath*: The path.|Takes the specified storage adapter domain path, figures out the right adapter to use, and then returns a corpus path.|string|
+|**CorpusPathToAdapterPath(...)**<br/>*adapterPath*: The path.|Takes the specified corpus path, figures out the right adapter to use, and then returns a storage adapter domain path.|string|
+|**CreateAbsoluteCorpusPath(...)**<br/>*objectPath*: The corpus path.<br/>*obj [optional]*: TODO|Takes the specified corpus path (relative or absolute) and creates a valid absolute path with the namespace. Returns the created path.|string|
+|**CreateRelativeCorpusPath(...)**<br/>*objectPath*: The corpus path.<br/>*relativeTo [optional]*: The object that the path should be made relative to.|Takes the specified corpus path (relative or absolute) and creates a valid relative corpus path with the namespace. Returns the created path.|string|
 
 ### StorageAdapter
 
@@ -531,15 +656,15 @@ TODO: Description
 #### Methods
 |Name|Description|Return type|
 |---|---|---| 
-|**CanRead():**|Returns true if the adapter can read data, false otherwise.|boolean|
-|**CanWrite():**|Returns true if the adapter can write data to its source, false otherwise.|boolean|
-|**ReadAsync(...):**<br/>*corpusPath*: The corpus path.|Returns the object data that exists at the specified path as a string.|Task\<string>|
-|**WriteAsync(...):**<br/>*corpusPath*: The corpus path.<br/>*data*: The object data.|Writes the object data to the specified document path.|Task|
-|**CreateAdapterPath(...):**<br/>*corpusPath*: The corpus path.|Converts the specified corpus path into a path in the domain of this adapter. Returns the adapter path.|string|
-|**CreateCorpusPath(...):**<br/>*adapterPath*: The adapter path.|Converts the specified path in the domain of this adapter into a corpus path. Returns the corpus path.|string|
-|**ClearCache():**|Empties the cache of files and folders if the storage adapter uses a cache.|void|
-|**ComputeLastModifiedTimeAsync(...):**<br/>*adapterPath*: The adapter path to a document.|Returns the last modified time of the specified document.|Task\<DateTimeOffset?>|
-|**FetchAllFilesAsync(...):**<br/>*folderCorpusPath*: The corpus path to a folder.|Returns a list of corpus paths to all files and folders at or under the specified corpus path to a folder.|Task\<List\<string>>|
+|**CanRead()**|Returns true if the adapter can read data, false otherwise.|boolean|
+|**CanWrite()**|Returns true if the adapter can write data to its source, false otherwise.|boolean|
+|**ReadAsync(...)**<br/>*corpusPath*: The corpus path.|Returns the object data that exists at the specified path as a string.|Task\<string>|
+|**WriteAsync(...)**<br/>*corpusPath*: The corpus path.<br/>*data*: The object data.|Writes the object data to the specified document path.|Task|
+|**CreateAdapterPath(...)**<br/>*corpusPath*: The corpus path.|Converts the specified corpus path into a path in the domain of this adapter. Returns the adapter path.|string|
+|**CreateCorpusPath(...)**<br/>*adapterPath*: The adapter path.|Converts the specified path in the domain of this adapter into a corpus path. Returns the corpus path.|string|
+|**ClearCache()**|Empties the cache of files and folders if the storage adapter uses a cache.|void|
+|**ComputeLastModifiedTimeAsync(...)**<br/>*adapterPath*: The adapter path to a document.|Returns the last modified time of the specified document.|Task\<DateTimeOffset?>|
+|**FetchAllFilesAsync(...)**<br/>*folderCorpusPath*: The corpus path to a folder.|Returns a list of corpus paths to all files and folders at or under the specified corpus path to a folder.|Task\<List\<string>>|
 
 ### NetworkAdapter extends IDisposable
 
@@ -552,7 +677,7 @@ TODO: Description
 #### Methods
 |Name|Description|Return type|
 |---|---|---| 
-|**ExecuteRequest(...):**<br/>*httpRequest*: The HTTP request to execute.|Executes an HTTP request and returns the response of the request.|Task\<CdmHttpResponse>|
+|**ExecuteRequest(...)**<br/>*httpRequest*: The HTTP request to execute.|Executes an HTTP request and returns the response of the request.|Task\<CdmHttpResponse>|
 
 ### LocalAdapter extends StorageAdapter
 
@@ -565,15 +690,15 @@ TODO: Description
 #### Methods
 |Name|Description|Return type|
 |---|---|---|
-|**CanRead():**|Returns true, since the LocalAdapter can read data.|boolean|
-|**CanWrite():**|Returns true, since the LocalAdapter can write data to its source.|boolean|
-|**ReadAsync(...):**<br/>*corpusPath*: The corpus path.|See *StorageAdapter.ReadAsync(...)*.|Task\<string>|
-|**WriteAsync(...):**<br/>*corpusPath*: The corpus path.<br/>*data*: The object data.|See *StorageAdapter.WriteAsync(...)*.|Task|
-|**CreateAdapterPath(...):**<br/>*corpusPath*: The corpus path.|See *StorageAdapter.CreateAdapterPath(...)*.|string|
-|**CreateCorpusPath(...):**<br/>*adapterPath*: The adapter path.|See *StorageAdapter.CreateCorpusPath(...)*.|string|
-|**ClearCache():**|See *StorageAdapter.ClearCache()*.|void|
-|**ComputeLastModifiedTimeAsync(...):**<br/>*adapterPath*: The adapter path to a document.|See *StorageAdapter.ComputeLastModifiedTimeAsync(...)*.|Task\<DateTimeOffset?>|
-|**FetchAllFilesAsync(...):**<br/>*folderCorpusPath*: The corpus path to a folder.|See *StorageAdapter.FetchAllFilesAsync(...)*.|Task\<List\<string>>|
+|**CanRead()**|Returns true, since the LocalAdapter can read data.|boolean|
+|**CanWrite()**|Returns true, since the LocalAdapter can write data to its source.|boolean|
+|**ReadAsync(...)**<br/>*corpusPath*: The corpus path.|See *StorageAdapter.ReadAsync(...)*.|Task\<string>|
+|**WriteAsync(...)**<br/>*corpusPath*: The corpus path.<br/>*data*: The object data.|See *StorageAdapter.WriteAsync(...)*.|Task|
+|**CreateAdapterPath(...)**<br/>*corpusPath*: The corpus path.|See *StorageAdapter.CreateAdapterPath(...)*.|string|
+|**CreateCorpusPath(...)**<br/>*adapterPath*: The adapter path.|See *StorageAdapter.CreateCorpusPath(...)*.|string|
+|**ClearCache()**|See *StorageAdapter.ClearCache()*.|void|
+|**ComputeLastModifiedTimeAsync(...)**<br/>*adapterPath*: The adapter path to a document.|See *StorageAdapter.ComputeLastModifiedTimeAsync(...)*.|Task\<DateTimeOffset?>|
+|**FetchAllFilesAsync(...)**<br/>*folderCorpusPath*: The corpus path to a folder.|See *StorageAdapter.FetchAllFilesAsync(...)*.|Task\<List\<string>>|
 
 ### GithubAdapter extends NetworkAdapter, StorageAdapter
 
@@ -586,12 +711,12 @@ TODO: Description
 #### Methods
 |Name|Description|Return type|
 |---|---|---| 
-|**CanRead():**|Returns true, since the GithubAdapter can read data.|boolean|
-|**CanWrite():**|Returns false, since the GithubAdapter cannot write data to its source.|boolean|
-|**ReadAsync(...):**<br/>*corpusPath*: The corpus path.|See *StorageAdapter.ReadAsync(...)*.|Task\<string>|
-|**ClearCache():**|See *StorageAdapter.ClearCache()*.|void|
-|**ComputeLastModifiedTimeAsync(...):**<br/>*adapterPath*: The adapter path to a document.|See *StorageAdapter.ComputeLastModifiedTimeAsync(...)*.|Task\<DateTimeOffset?>|
-|**FetchAllFilesAsync(...):**<br/>*folderCorpusPath*: The corpus path to a folder.|See *StorageAdapter.FetchAllFilesAsync(...)*.|Task\<List\<string>>|
+|**CanRead()**|Returns true, since the GithubAdapter can read data.|boolean|
+|**CanWrite()**|Returns false, since the GithubAdapter cannot write data to its source.|boolean|
+|**ReadAsync(...)**<br/>*corpusPath*: The corpus path.|See *StorageAdapter.ReadAsync(...)*.|Task\<string>|
+|**ClearCache()**|See *StorageAdapter.ClearCache()*.|void|
+|**ComputeLastModifiedTimeAsync(...)**<br/>*adapterPath*: The adapter path to a document.|See *StorageAdapter.ComputeLastModifiedTimeAsync(...)*.|Task\<DateTimeOffset?>|
+|**FetchAllFilesAsync(...)**<br/>*folderCorpusPath*: The corpus path to a folder.|See *StorageAdapter.FetchAllFilesAsync(...)*.|Task\<List\<string>>|
 
 ### ADLSAdapter extends NetworkAdapter, StorageAdapter
 
@@ -604,15 +729,15 @@ TODO: Description
 #### Methods
 |Name|Description|Return type|
 |---|---|---| 
-|**CanRead():**|Returns true, since the ADLSAdapter can read data.|boolean|
-|**CanWrite():**|Returns true, since the ADLSAdapter can write data to its source.|boolean|
-|**ReadAsync(...):**<br/>*corpusPath*: The corpus path.|See *StorageAdapter.ReadAsync(...)*.|Task\<string>|
-|**WriteAsync(...):**<br/>*corpusPath*: The corpus path.<br/>*data*: The object data.|See *StorageAdapter.WriteAsync(...)*.|Task|
-|**CreateAdapterPath(...):**<br/>*corpusPath*: The corpus path.|See *StorageAdapter.CreateAdapterPath(...)*.|string|
-|**CreateCorpusPath(...):**<br/>*adapterPath*: The adapter path.|See *StorageAdapter.CreateCorpusPath(...)*.|string|
-|**ClearCache():**|See *StorageAdapter.ClearCache()*.|void|
-|**ComputeLastModifiedTimeAsync(...):**<br/>*adapterPath*: The adapter path to a document.|See *StorageAdapter.ComputeLastModifiedTimeAsync(...)*.|Task\<DateTimeOffset?>|
-|**FetchAllFilesAsync(...):**<br/>*folderCorpusPath*: The corpus path to a folder.|See *StorageAdapter.FetchAllFilesAsync(...)*.|Task\<List\<string>>|
+|**CanRead()**|Returns true, since the ADLSAdapter can read data.|boolean|
+|**CanWrite()**|Returns true, since the ADLSAdapter can write data to its source.|boolean|
+|**ReadAsync(...)**<br/>*corpusPath*: The corpus path.|See *StorageAdapter.ReadAsync(...)*.|Task\<string>|
+|**WriteAsync(...)**<br/>*corpusPath*: The corpus path.<br/>*data*: The object data.|See *StorageAdapter.WriteAsync(...)*.|Task|
+|**CreateAdapterPath(...)**<br/>*corpusPath*: The corpus path.|See *StorageAdapter.CreateAdapterPath(...)*.|string|
+|**CreateCorpusPath(...)**<br/>*adapterPath*: The adapter path.|See *StorageAdapter.CreateCorpusPath(...)*.|string|
+|**ClearCache()**|See *StorageAdapter.ClearCache()*.|void|
+|**ComputeLastModifiedTimeAsync(...)**<br/>*adapterPath*: The adapter path to a document.|See *StorageAdapter.ComputeLastModifiedTimeAsync(...)*.|Task\<DateTimeOffset?>|
+|**FetchAllFilesAsync(...)**<br/>*folderCorpusPath*: The corpus path to a folder.|See *StorageAdapter.FetchAllFilesAsync(...)*.|Task\<List\<string>>|
 
 ### RemoteAdapter extends NetworkAdapter, StorageAdapter 
 
@@ -625,14 +750,14 @@ TODO: Description
 #### Methods
 |Name|Description|Return type|
 |---|---|---| 
-|**CanRead():**|Returns true, since the RemoteAdapter can read data.|boolean|
-|**CanWrite():**|Returns false, since the RemoteAdapter cannot write data to its source.|boolean|
-|**ReadAsync(...):**<br/>*corpusPath*: The corpus path.|See *StorageAdapter.ReadAsync(...)*.|Task\<string>|
-|**CreateAdapterPath(...):**<br/>*corpusPath*: The corpus path.|See *StorageAdapter.CreateAdapterPath(...)*.|string|
-|**CreateCorpusPath(...):**<br/>*adapterPath*: The adapter path.|See *StorageAdapter.CreateCorpusPath(...)*.|string|
-|**ClearCache():**|See *StorageAdapter.ClearCache()*.|void|
-|**ComputeLastModifiedTimeAsync(...):**<br/>*adapterPath*: The adapter path to a document.|See *StorageAdapter.ComputeLastModifiedTimeAsync(...)*.|Task\<DateTimeOffset?>|
-|**FetchAllFilesAsync(...):**<br/>*folderCorpusPath*: The corpus path to a folder.|See *StorageAdapter.FetchAllFilesAsync(...)*.|Task\<List\<string>>|
+|**CanRead()**|Returns true, since the RemoteAdapter can read data.|boolean|
+|**CanWrite()**|Returns false, since the RemoteAdapter cannot write data to its source.|boolean|
+|**ReadAsync(...)**<br/>*corpusPath*: The corpus path.|See *StorageAdapter.ReadAsync(...)*.|Task\<string>|
+|**CreateAdapterPath(...)**<br/>*corpusPath*: The corpus path.|See *StorageAdapter.CreateAdapterPath(...)*.|string|
+|**CreateCorpusPath(...)**<br/>*adapterPath*: The adapter path.|See *StorageAdapter.CreateCorpusPath(...)*.|string|
+|**ClearCache()**|See *StorageAdapter.ClearCache()*.|void|
+|**ComputeLastModifiedTimeAsync(...)**<br/>*adapterPath*: The adapter path to a document.|See *StorageAdapter.ComputeLastModifiedTimeAsync(...)*.|Task\<DateTimeOffset?>|
+|**FetchAllFilesAsync(...)**<br/>*folderCorpusPath*: The corpus path to a folder.|See *StorageAdapter.FetchAllFilesAsync(...)*.|Task\<List\<string>>|
 
 ## Utilities
 TODO: Description
