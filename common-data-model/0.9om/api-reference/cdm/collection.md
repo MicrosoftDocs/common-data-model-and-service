@@ -1,5 +1,5 @@
 ---
-title: Collection - Common Data Model | Microsoft Docs
+title: Collection Class - Common Data Model | Microsoft Docs
 description: Reference for CdmCollection.
 author: jinichu
 ms.service: common-data-model
@@ -9,9 +9,13 @@ ms.date: 10/18/2019
 ms.author: jinichu
 ---
 
-# Collection (CdmCollection<T> extends IList<T> where T : CdmObject)
+# Collection Class
 
 A collection holds a set of [CDM objects](cdmobject.md) and provides easier handling of them.
+
+```
+public class CdmCollection<T> extends IList<T> where T : CdmObject
+```
 
 ## Constructors
 |Name|Description|

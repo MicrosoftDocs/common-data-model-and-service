@@ -1,5 +1,5 @@
 ---
-title: Attribute Resolution Guidance - Common Data Model | Microsoft Docs
+title: Attribute Resolution Guidance Class - Common Data Model | Microsoft Docs
 description: Reference for CdmAttributeResolutionGuidance.
 author: jinichu
 ms.service: common-data-model
@@ -9,10 +9,13 @@ ms.date: 10/18/2019
 ms.author: jinichu
 ---
 
-# Attribute Resolution Guidance (CdmAttributeResolutionGuidance extends CdmObjectSimple)
+# Attribute Resolution Guidance Class 
 
 Provides properties that help with the resolution process of [entities](entity.md), attributes, and other resolvable CDM concepts.
 
+```
+public class CdmAttributeResolutionGuidance extends CdmObjectSimple
+```
 ## Constructors
 |Name|Description|
 |---|---|
