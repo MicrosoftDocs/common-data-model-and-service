@@ -1,5 +1,5 @@
 ---
-title: Argument - Common Data Model | Microsoft Docs
+title: Argument Class - Common Data Model | Microsoft Docs
 description: Reference for CdmArgumentDefinition.
 author: jinichu
 ms.service: common-data-model

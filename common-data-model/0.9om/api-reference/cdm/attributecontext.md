@@ -1,5 +1,5 @@
 ---
-title: Attribute Context - Common Data Model | Microsoft Docs
+title: Attribute Context Class - Common Data Model | Microsoft Docs
 description: Reference for CdmAttributeContext.
 author: jinichu
 ms.service: common-data-model
