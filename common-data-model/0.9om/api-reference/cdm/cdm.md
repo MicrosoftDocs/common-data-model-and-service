@@ -17,7 +17,7 @@ The hierarchical structure of the CDM object model:
 
 ![OM Hierarchy](omhierarchy.png)
 
-The CDM object model (OM) provides two types of classes: definition classes and reference classes. Since the OM is heavily interconnected and different concepts have different interactions among each other, the OM introduces the reference classes in order to be able to easily reference different concepts without actually encapsulating them. Every reference class has its own corresponding definition class, and they are closely correlated. 
+The CDM object model (OM) provides two types of classes: definition classes and reference classes. It also contains some interfaces. Since the OM is heavily interconnected and different concepts have different interactions amongst each other, the OM introduces reference classes in order to be able to easily reference different concepts without actually encapsulating them. Every reference class has its own corresponding definition class, and they are closely correlated. 
 
 ## Definition Classes
 
@@ -31,7 +31,7 @@ The CDM object model (OM) provides two types of classes: definition classes and 
 |[Constant Entity](constantentity.md)|Provides a way of making an [entity](entity.md) with records of data in it and an associated schema in a JSON file. We use these whenever we want to store some table of information inside a parameter of a [trait](trait.md). They show up in the enum definitions, in the localized display text, etc.|
 
  
- 
+
 ## Reference Classes
 
 |Name|Description|
