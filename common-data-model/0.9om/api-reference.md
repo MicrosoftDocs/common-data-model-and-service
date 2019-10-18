@@ -99,7 +99,7 @@ An attribute group represents a group of attribute items (see *Attribute Item*) 
 
 ### Attribute Item (CdmAttributeItem extends CdmObject, CdmReferencesEntities)
 
-An attribute item represents the base interface for a generic attribute that could be a type, entity, a group attribute. 
+An attribute item represents the base interface for a generic attribute that could be a type, entity, or a group attribute. 
 
 #### Properties
 |Name|Description|
@@ -140,7 +140,7 @@ A collection holds a set of CDM objects (see *CdmObject*) and provides easier ha
 #### Properties
 |Name|Description|
 |---|---|
-|Count|The number of items in the CDM collection.|
+|Count<br/>(*Length* in Java and Python)|The number of items in the CDM collection.|
 |AllItems|The list of all items.|
 
 #### Methods
@@ -150,7 +150,7 @@ A collection holds a set of CDM objects (see *CdmObject*) and provides easier ha
 |**Add(T)**<br />*currObject*: The CDM object to add to the collection.|Adds the specified CDM object to the collection.	|void|
 |**Remove(T)**<br/>*currObject*: The CDM object to remove from the collection.|Removes the specified CDM object from the collection.|boolean|
 |**Item(string)**<br />*name*: The name of the CDM object to fetch.|Retrieves the CDM object with the specified name.|T|
-|**this[int]:**<br/>*index*: The index of the element to fetch.|Retrieves the CDM object from the collection in the specified index.|T|
+|**this[int]**<br/>*index*: The index of the element to fetch.|Retrieves the CDM object from the collection in the specified index.|T|
 
 ### Constant Entity (CdmConstantEntityDefinition extends CdmObjectDefinitionBase)
 
