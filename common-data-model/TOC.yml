@@ -34,15 +34,17 @@
       href: 0.9om/sdk-sample-code.md
     - name: API Reference
       items:
-        - name: API Reference
-          href: 0.9om/api-reference.md
-        - name: Common Data Model
+        - name: CDM Object Model
           items:
+            - name: CDM Object Model
+            href: 0.9om/api-reference/cdm/cdm.md
         - name: Storage
           items:
+            - name: Storage
+            href: 0.9om/api-reference/storage/storage.md
         - name: Utilities
           items:
-    - name: OM Reference
-      href: 0.9om/om-reference.md
+            - name: Utilities
+            href: 0.9om/api-reference/utilities/utilities.md
   - name: Frequently asked questions
     href: faq.md
