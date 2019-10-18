@@ -33,7 +33,15 @@
     - name: SDK Sample Code
       href: 0.9om/sdk-sample-code.md
     - name: API Reference
-      href: 0.9om/api-reference.md
+      items:
+        - name: API Reference
+          href: 0.9om/api-reference.md
+        - name: Common Data Model
+          items:
+        - name: Storage
+          items:
+        - name: Utilities
+          items:
     - name: OM Reference
       href: 0.9om/om-reference.md
   - name: Frequently asked questions
