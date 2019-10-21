@@ -1,0 +1,41 @@
+---
+title: E2E Relationship Class - Common Data Model | Microsoft Docs
+description: Reference for CdmE2ERelationship.
+author: jinichu
+ms.service: common-data-model
+ms.reviewer: 
+ms.topic: article
+ms.date: 10/18/2019
+ms.author: jinichu
+---
+
+# E2E Relationship Class
+
+An E2E relationship is a relationship between two entities' attributes.
+
+```
+public class CdmE2ERelationship extends CdmObjectDefinitionBase
+```
+
+## Constructors
+|Name|Description|
+|---|---|
+|TODO: Update once exhibitsTraits is removed<br/>**CdmE2ERelationship(CdmCorpusContext, string, bool)**<br/>*ctx*: The corpus context.<br/>*name*: The relationship's name.<br/>*exhibitsTraits*: TODO|Initializes a new instance of the CdmE2ERelationship class.|
+
+## Properties
+|Name|Type|Description|
+|---|---|---|
+|Name|string|The relationship's name.|
+|FromEntity|string|The entity the relationship is pointing from.|
+|FromEntityAttribute|string|The entity attribute the relationship is pointing from.|
+|ToEntity|string|The entity the relationship is pointing to.|
+|ToEntityAttribute|string|The entity attribute the relationship is pointing to.|
+
+## Methods
+|Name|Description|Return Type|
+|---|---|---|
+|**GetName()**|See *CdmObjectDefinition.GetName()*.|string|
+|**IsDerivedFrom(string, ResolveOptions)**|See *CdmObject.IsDerivedFrom(...)*.|bool|
+|**Copy(ResolveOptions)**|See *CdmObject.Copy(...)*.|CdmObject|
+|**Validate()**|See *CdmObject.Validate()*.|bool|
+
