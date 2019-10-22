@@ -33,7 +33,7 @@ The CDM object model (OM) provides two types of classes: definition classes and 
 |[Data Partition](datapartition.md)|Points to a location of entity-related data.|
 |[Data Partition Pattern](datapartitionpattern.md)|Provides a way of selecting/generating a set of partitions based on the requirements specified as a regular expression.|
 |[Data Type](datatype.md)|Provides the ability to assign different data types to attributes (such as string, boolean, etc).|
-|[Document](document.md)|Enables the OM to have a persisted state. Every document can contain different CDM definitions, such as entities, data partitions, or attributes.|
+|[Document](document.md)|Enables the OM to have a persisted state. Every document can contain different CDM definitions, such as [entities](entity.md), [data partitions](datapartition.md), or attributes.|
 |[E2E Relationship](e2erelationship.md)|A relationship between two entities' attributes.|
 |[Entity Attribute](entityattribute.md)|An attribute that also points to an [entity](entity.md).|
 |[Entity Collection](entitycollection.md)|Extends [Collection](collection.md) and adds additional behaviors specific to entity collections.|

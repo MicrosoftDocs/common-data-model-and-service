@@ -39,6 +39,6 @@ public class StorageManager
 |**FetchRootFolder(string)**<br/>*nameSpace*: The namespace.|Given the namespace of a registered stoarge adapter, returns the root folder containing the sub-folders and documents.|[CdmFolderDefinition](../cdm/folder.md)|
 |**AdapterPathToCorpusPath(string)**<br/>*adapterPath*: The path.|Takes the specified storage adapter domain path, figures out the right adapter to use, and then returns a corpus path.|string|
 |**CorpusPathToAdapterPath(string)**<br/>*adapterPath*: The path.|Takes the specified corpus path, figures out the right adapter to use, and then returns a storage adapter domain path.|string|
-|**CreateAbsoluteCorpusPath(string, CdmObject)**<br/>*objectPath*: The corpus path.<br/>*obj [optional]*: TODO|Takes the specified corpus path (relative or absolute) and creates a valid absolute path with the namespace. Returns the created path.|string|
+|**CreateAbsoluteCorpusPath(string, [CdmObject](../cdm/cdmobject.md))**<br/>*objectPath*: The corpus path.<br/>*obj [optional]*: TODO|Takes the specified corpus path (relative or absolute) and creates a valid absolute path with the namespace. Returns the created path.|string|
 |**CreateRelativeCorpusPath(string, CdmContainerDefinition)**<br/>*objectPath*: The corpus path.<br/>*relativeTo [optional]*: The object that the path should be made relative to.|Takes the specified corpus path (relative or absolute) and creates a valid relative corpus path with the namespace. Returns the created path.|string|
 

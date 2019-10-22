@@ -11,7 +11,7 @@ ms.author: jinichu
 
 # CdmObject Definition
 
-This is the base interface for all CDM object definitions.
+This is the base interface for all CDM object definitions. It is extended by *CdmObjectDefinitionBase*.
 
 ```
 public interface CdmObjectDefinition extends CdmObject

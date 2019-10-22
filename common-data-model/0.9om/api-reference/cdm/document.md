@@ -11,7 +11,7 @@ ms.author: jinichu
 
 # Document
 
-A document enables the OM to have a persisted state. Every document can contain different CDM definitions, such as entities, data partitions, or attributes.
+A document enables the OM to have a persisted state. Every document can contain different CDM definitions, such as [entities](entity.md), [data partitions](datapartition.md), or attributes.
 
 ```
 public class CdmDocumentDefinition extends CdmObjectSimple, CdmContainerDefinition

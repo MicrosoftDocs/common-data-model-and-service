@@ -34,7 +34,7 @@ public class CdmTypeAttributeDefinition extends CdmAttribute
 |SourceName|string|The type attribute's source name.|
 |IsNullable|bool?|Denotes whether the type attribute can be null or not.|
 |IsPrimaryKey|bool?|Denotes whether the type attribute is the primary key.|
-|IsReadOnly|bool||Denotes whether the type attribute is read only.|
+|IsReadOnly|bool|Denotes whether the type attribute is read only.|
 |MaximumLength|int?|The type attribute's maximum length.|
 |MaximumValue|string|The type attribute's maximum value (for data types that this can apply to, like integers).|
 |MinimumValue|string|The type attribute's minimum value (for data types that this can apply to, like integers).|
