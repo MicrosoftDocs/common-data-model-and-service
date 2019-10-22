@@ -28,12 +28,12 @@ public class CdmAttributeGroupDefinition extends CdmObjectDefinitionBase, CdmRef
 |---|---|---|
 |AttributeGroupName|string|The attribute group's name.|
 |AttributeContext|CdmAttributeContextReference|The attribute group context.|
-|Members|CdmCollection\<CdmAttributeItem>|The list of attribute items for the attribute group.|
+|Members|[CdmCollection](collection.md)\<[CdmAttributeItem](attributeitem.md)>|The list of attribute items for the attribute group.|
 
 ## Methods
 |Name|Description|Return Type|
 |---|---|---|
 |**GetName()**|See *CdmObjectDefinition.GetName()*.|string|
 |**IsDerivedFrom(string, ResolveOptions)**|See *CdmObject.IsDerivedFrom(...)*.|bool|
-|**Copy(ResolveOptions)**|See *CdmObject.Copy(...)*.|CdmObject|
+|**Copy(ResolveOptions)**|See *CdmObject.Copy(...)*.|[CdmObject](cdmobject.md)|
 |**Validate()**|See *CdmObject.Validate()*.|bool|

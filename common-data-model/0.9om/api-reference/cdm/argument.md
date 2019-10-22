@@ -32,5 +32,5 @@ public class CdmArgumentDefinition extends CdmObjectSimple
 ## Methods
 |Name|Description|Return Type|
 |---|---|---|
-|**Copy(ResolveOptions)**|See *CdmObject.Copy(...)*.|CdmObject|
+|**Copy(ResolveOptions)**|See *CdmObject.Copy(...)*.|[CdmObject](cdmobject.md)|
 |**Validate()**|See *CdmObject.Validate()*.|bool|

@@ -20,7 +20,7 @@ public class CdmCollection<CdmObject> extends IList<CdmObject>
 ## Constructors
 |Name|Description|
 |---|---|
-|**CdmCollection(CdmCorpusContext, CdmObject, CdmObjectType)**<br/>*ctx*: The corpus context.<br/>*owner*: The CDM object that contains this collection.<br/>*defaultType*: The default CDM object type of this collection.|Initializes a new instance of the CdmCollection class.|
+|**CdmCollection(CdmCorpusContext, [CdmObject](cdmobject.md), [CdmObjectType](objecttype.md))**<br/>*ctx*: The corpus context.<br/>*owner*: The CDM object that contains this collection.<br/>*defaultType*: The default CDM object type of this collection.|Initializes a new instance of the CdmCollection class.|
 
 ## Properties
 |Name|Type|Description|
@@ -28,7 +28,7 @@ public class CdmCollection<CdmObject> extends IList<CdmObject>
 |Count<br/>(*Length* in Java and Python)|int|The number of items in the CDM collection.|
 
 ## Methods
-There are additional methods and properties in this class that just extend IList\<T> methods/properties. These are *this[...], AddRange(...), IndexOf(...), Insert(...), RemoveAt(...), Clear(), Contains(...), CopyTo(...), GetEnumerator(...),* and *IsReadOnly*. 
+There are additional methods and properties in this class that just extend IList\<T> methods/properties. These are: *this[...], AddRange(...), IndexOf(...), Insert(...), RemoveAt(...), Clear(), Contains(...), CopyTo(...), GetEnumerator(...),* and *IsReadOnly*. 
 |Name|Description|Return Type|
 |---|---|---|
 |**Add(string, bool)**<br/>*name*: The name of the CDM object that is being added to the collection.<br/>*simpleRef [optional]*: A boolean that denotes whether we want a reference to be a simple reference, if we are adding one. The default value is false.|Adds a CDM object of a default type (the default type can be set in the property) with the given name to the collection.|void|

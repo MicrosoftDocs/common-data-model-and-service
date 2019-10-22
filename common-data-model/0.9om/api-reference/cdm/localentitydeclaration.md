@@ -27,8 +27,8 @@ public class CdmLocalEntityDeclarationDefinition extends CdmObjectDefinitionBase
 |---|---|---|
 |EntityName|string|The entity's name.|
 |EntityPath|string|The entity's path.|
-|DataPartitions|CdmCollection\<CdmDataPartitionDefinition>|The data partitions.|
-|DataPartitionPatterns|CdmCollection\<CdmDataPartitionPatternDefinition>|The data partition patterns.|
+|DataPartitions|[CdmCollection](collection.md)\<[CdmDataPartitionDefinition](datapartition.md)>|The data partitions.|
+|DataPartitionPatterns|[CdmCollection](collection.md)\<[CdmDataPartitionPatternDefinition](datapartitionpattern.md)>|The data partition patterns.|
 |LastFileStatusCheckTime|DateTimeOffset?|The last time the modified time was checked for this file.|
 |LastFileModifiedTime|DateTimeOffset?|The last time this file was modified according to the OM.|
 |LastChildFileModifiedTime|DateTimeOffset?|The last time a child file was modified according to the OM.|
@@ -40,6 +40,6 @@ public class CdmLocalEntityDeclarationDefinition extends CdmObjectDefinitionBase
 |**FileStatusCheckAsync()**|Updates the object and its children, if any, with the current time.|Task|
 |**GetName()**|See *CdmObjectDefinition.GetName()*.|string|
 |**IsDerivedFrom(string, ResolveOptions)**|See *CdmObject.IsDerivedFrom(...)*.|bool|
-|**Copy(ResolveOptions)**|See *CdmObject.Copy(...)*.|CdmObject|
+|**Copy(ResolveOptions)**|See *CdmObject.Copy(...)*.|[CdmObject](cdmobject.md)|
 |**Validate()**|See *CdmObject.Validate()*.|bool|
 

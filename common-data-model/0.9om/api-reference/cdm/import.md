@@ -27,11 +27,11 @@ public class CdmImport extends CdmObjectSimple
 |---|---|---|
 |CorpusPath|string|The import path.|
 |Moniker|string|A nickname used for imports to specify which document to import in the case of duplicate symbols (e.g. we might have multiple Account documents, but by specifying a moniker 'base_Account', we can pinpoint the exact document).|
-|Doc|CdmDocumentDefinition|The document that has been resolved for this import.|
+|Doc|[CdmDocumentDefinition](document.md)|The document that has been resolved for this import.|
 
 ## Methods
 |Name|Description|Return Type|
 |---|---|---|
-|**Copy(ResolveOptions)**|See *CdmObject.Copy(...)*.|CdmObject|
+|**Copy(ResolveOptions)**|See *CdmObject.Copy(...)*.|[CdmObject](cdmobject.md)|
 |**Validate()**|See *CdmObject.Validate()*.|bool|
 

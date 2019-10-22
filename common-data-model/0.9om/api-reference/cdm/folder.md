@@ -27,18 +27,18 @@ public class CdmFolderDefinition extends CdmObjectDefinitionBase, CdmContainerDe
 |Name|Type|Description|
 |---|---|---|
 |Name|string|The name of the folder.|
-|TODO: Update once CdmDocumentCollection is created<br/>Documents|CdmCollection\<CdmDocumentDefinition>|The child documents of the folder.|
-|TODO: Update once CdmFolderCollection is created<br/>ChildFolders|CdmCollection\<CdmFolderDefinition>|The direct children of the folder.|
+|TODO: Update once CdmDocumentCollection is created<br/>Documents|[CdmCollection](collection.md)\<[CdmDocumentDefinition](document.md)>|The child documents of the folder.|
+|TODO: Update once CdmFolderCollection is created<br/>ChildFolders|[CdmCollection](collection.md)\<CdmFolderDefinition>|The direct children of the folder.|
 
 ## Methods
 |Name|Description|Return Type|
 |---|---|---|
 |TODO: Remove after CdmFolderCollection is created<br/>**AddChildFolder(string)**<br/>*name*: The name of the folder.|Adds a child folder to the current folder and returns the newly added folder.|CdmFolderDefinition|
-|TODO: Remove after CdmDocumentCollection is created<br/>**AddDocument(string, CdmDocumentDefinition)**<br />*name*: The name of the document.<br/>*doc*: The document to add.|Adds a child document to the current folder and returns the newly added document.|CdmDocumentDefinition|
+|TODO: Remove after CdmDocumentCollection is created<br/>**AddDocument(string, [CdmDocumentDefinition](document.md))**<br />*name*: The name of the document.<br/>*doc*: The document to add.|Adds a child document to the current folder and returns the newly added document.|[CdmDocumentDefinition](document.md)|
 |TODO: Remove after CdmDocumentCollection is created<br/>**RemoveDocument(string)**<br/>*name*: The name of the document.|Removes the document with the specified name from the folder.|void|
 |**FetchObjectDefinition\<T>(ResolveOptions)**|See *CdmObject.FetchObjectDefinition\<T>(...)*.|T|
 |**GetName()**|See *CdmObjectDefinition.GetName()*.|string|
 |**IsDerivedFrom(string, ResolveOptions)**|See *CdmObject.IsDerivedFrom(...)*.|bool|
-|**Copy(ResolveOptions)**|See *CdmObject.Copy(...)*.|CdmObject|
+|**Copy(ResolveOptions)**|See *CdmObject.Copy(...)*.|[CdmObject](cdmobject.md)|
 |**Validate()**|See *CdmObject.Validate()*.|bool|
 

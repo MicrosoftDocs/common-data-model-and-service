@@ -36,6 +36,6 @@ public class CdmE2ERelationship extends CdmObjectDefinitionBase
 |---|---|---|
 |**GetName()**|See *CdmObjectDefinition.GetName()*.|string|
 |**IsDerivedFrom(string, ResolveOptions)**|See *CdmObject.IsDerivedFrom(...)*.|bool|
-|**Copy(ResolveOptions)**|See *CdmObject.Copy(...)*.|CdmObject|
+|**Copy(ResolveOptions)**|See *CdmObject.Copy(...)*.|[CdmObject](cdmobject.md)|
 |**Validate()**|See *CdmObject.Validate()*.|bool|
 

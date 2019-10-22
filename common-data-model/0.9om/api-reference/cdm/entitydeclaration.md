@@ -21,9 +21,9 @@ public interface CdmEntityDeclarationDefinition extends CdmObjectDefinition, Cdm
 |Name|Type|Description|
 |---|---|---|
 |EntityName|string|The entity's name.|
-|EntityPath|string|The entity's path, implemented only by LocalEntityDeclaration.|
-|DataPartitions|CdmCollection\<CdmDataPartitionDefinition>|The data partitions, implemented only by LocalEntityDeclaration.|
-|DataPartitionPatterns|CdmCollection\<CdmDataPartitionPatternDefinition>|The data partition patterns, implemented only by LocalEntityDeclaration.|
+|EntityPath|string|The entity's path, implemented only by [LocalEntityDeclaration](localentitydeclaration.md).|
+|DataPartitions|[CdmCollection](collection.md)\<[CdmDataPartitionDefinition](datapartition.md)>|The data partitions, implemented only by [LocalEntityDeclaration](localentitydeclaration.md).|
+|DataPartitionPatterns|[CdmCollection](collection.md)\<[CdmDataPartitionPatternDefinition](datapartitionpattern.md)>|The data partition patterns, implemented only by [LocalEntityDeclaration](localentitydeclaration.md).|
 |TODO: Update after LastFileStatusCheckTime, LastFileModifiedTime, LastChildFileModifiedTime are moved here|
 
 

@@ -1,0 +1,27 @@
+---
+title: Relationship Discovery Style Class - Common Data Model | Microsoft Docs
+description: Reference for CdmRelationshipDiscoveryStyle.
+author: jinichu
+ms.service: common-data-model
+ms.reviewer: 
+ms.topic: article
+ms.date: 10/18/2019
+ms.author: jinichu
+---
+
+# Relationship Discovery Style Class
+
+An enum class containing the types of relationships we want populated in a manifest.
+
+```
+public enum CdmRelationshipDiscoveryStyle
+{
+    None,       
+    Exclusive,       
+    All         
+}               
+```
+
+*None*: Don't add any relationships to the manifest.<br/>
+*Exclusive*: Only include relationships where the toEntity and fromEntity are entities found in the manifest.<br/>
+*All*: Include all relationships including any relationships where the toEntity or the fromEntity point to entities not found in the manifest.

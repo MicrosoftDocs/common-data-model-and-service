@@ -22,15 +22,15 @@ An attribute context provides more insight into an attribute's relationship (chi
 |Name|Type|Description|
 |---|---|---|
 |Name|string|The attribute context's name.|
-|Contents|CdmCollection\<CdmObject>|The attribute context's content list.|
-|Definition|CdmObjectReference|The reference to the object this attribute context was defined from.|
-|Parent|CdmObjectReference|The attribute context's parent.|
-|Type?|CdmAttributeContextType?|The attribute context's type (can be *Entity, EntityReferenceExtends, AttributeDefinition, EntityReferenceAsAttribute, AttributeGroup, GeneratedSet, GeneratedRound, AddedAttributeSupporting, AddedAttributeIdentity, AddedAttributeSelectedType AddedAttributeExpansionTotal,* or *PassThrough*).|
+|Contents|[CdmCollection](collection.md)\<[CdmObject](cdmobject.md)>|The attribute context's content list.|
+|Definition|[CdmObjectReference](cdmobjectreference.md)|The reference to the object this attribute context was defined from.|
+|Parent|[CdmObjectReference](cdmobjectreference.md)|The attribute context's parent.|
+|Type|[CdmAttributeContextType?](attributecontexttype.md)|The attribute context's type.|
 
 ## Methods
 |Name|Description|Return Type|
 |---|---|---|
 |**GetName()**|See *CdmObjectDefinition.GetName()*.|string|
 |**IsDerivedFrom(string, ResolveOptions)**|See *CdmObject.IsDerivedFrom(...)*.|bool|
-|**Copy(ResolveOptions)**|See *CdmObject.Copy(...)*.|CdmObject|
+|**Copy(ResolveOptions)**|See *CdmObject.Copy(...)*.|[CdmObject](cdmobject.md)|
 |**Validate()**|See *CdmObject.Validate()*.|bool|

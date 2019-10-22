@@ -20,14 +20,14 @@ public class CdmTraitDefinition extends CdmObjectDefinitionBase
 ## Constructors
 |Name|Description|
 |---|---|
-|TODO: Update once extendsTraits is optional<br/>**CdmTraitDefinition(CdmCorpusContext, string, CdmTraitReference, bool)**<br/>*ctx*: The corpus context.<br/>*name*: The trait's name.<br/>*extendsTrait*: The reference to the trait extended by this trait.<br/>*hasParameters*: A boolean that denotes whether this trait has parameters.|Initializes a new instance of the CdmTraitDefinition class.|
+|TODO: Update once extendsTraits is optional<br/>**CdmTraitDefinition(CdmCorpusContext, string, [CdmTraitReference](traitreference.md), bool)**<br/>*ctx*: The corpus context.<br/>*name*: The trait's name.<br/>*extendsTrait*: The reference to the trait extended by this trait.<br/>*hasParameters*: A boolean that denotes whether this trait has parameters.|Initializes a new instance of the CdmTraitDefinition class.|
 
 ## Properties
 |Name|Type|Description|
 |---|---|---|
 |TraitName|string|The trait's name.|
-|ExtendsTrait|CdmTraitReference|The trait extended by this trait.|
-|Parameters|CdmCollection\<CdmParameterDefinition>|The trait's parameters.|
+|ExtendsTrait|[CdmTraitReference](traitreference.md)|The trait extended by this trait.|
+|Parameters|[CdmCollection](collection.md)\<[CdmParameterDefinition](parameter.md)>|The trait's parameters.|
 |Elevated|bool?|Denotes whether this trait is elevated (e.g. if an attribute has an elevated trait, then that trait should also be applied to the outer entity).|
 |Ugly|bool?|Denotes whether the trait is user facing (false if it is user facing, true otherwise).|
 |AssociatedProperties|List\<string>|The properties for the entity or attribute that this trait contributes to (using trait2propertyMap).|
@@ -37,6 +37,6 @@ public class CdmTraitDefinition extends CdmObjectDefinitionBase
 |---|---|---|
 |**GetName()**|See *CdmObjectDefinition.GetName()*.|string|
 |**IsDerivedFrom(string, ResolveOptions)**|See *CdmObject.IsDerivedFrom(...)*.|bool|
-|**Copy(ResolveOptions)**|See *CdmObject.Copy(...)*.|CdmObject|
+|**Copy(ResolveOptions)**|See *CdmObject.Copy(...)*.|[CdmObject](cdmobject.md)|
 |**Validate()**|See *CdmObject.Validate()*.|bool|
 
