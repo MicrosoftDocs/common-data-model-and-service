@@ -36,7 +36,7 @@ public class LocalAdapter extends StorageAdapter
 |**WriteAsync(string, dynamic)**|See *StorageAdapter.WriteAsync(...)*.|Task|
 |**CreateAdapterPath(string)**|See *StorageAdapter.CreateAdapterPath(...)*.|string|
 |**CreateCorpusPath(string)**|See *StorageAdapter.CreateCorpusPath(...)*.|string|
-|**ClearCache()**|See *StorageAdapter.ClearCache()*. This method doesn't do anything because the LocalAdapter doesn't maintain a cache.|void|
+|**ClearCache()**|See *StorageAdapter.ClearCache()*. This method does not do anything because the LocalAdapter does not maintain a cache.|void|
 |**ComputeLastModifiedTimeAsync(string)**|See *StorageAdapter.ComputeLastModifiedTimeAsync(...)*.|Task\<DateTimeOffset?>|
 |**FetchAllFilesAsync(string)**|See *StorageAdapter.FetchAllFilesAsync(...)*.|Task\<List\<string>>|
 

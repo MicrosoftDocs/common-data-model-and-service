@@ -35,4 +35,4 @@ There are additional methods and properties in this class that just extend IList
 |**Add(T)**<br />*currObject*: The CDM object to add to the collection.|Adds the specified CDM object to the collection.	|void|
 |**Remove(T)**<br/>*currObject*: The CDM object to remove from the collection.|Removes the specified CDM object from the collection.|boolean|
 |**Item(string)**<br />*name*: The name of the CDM object to fetch.|Retrieves the CDM object with the specified name.|T|
-|**Copy(ResolveOptions)**<br/>*resOpt*: The resolve options.|Creates a copy of the current CdmCollection.|CdmCollection\<T>|
+|**Copy([ResolveOptions](../utilities/resolveoptions.md))**<br/>*resOpt*: The resolve options.|Creates a copy of the current CdmCollection.|CdmCollection\<T>|

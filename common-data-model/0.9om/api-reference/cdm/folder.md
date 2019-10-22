@@ -36,9 +36,9 @@ public class CdmFolderDefinition extends CdmObjectDefinitionBase, CdmContainerDe
 |TODO: Remove after CdmFolderCollection is created<br/>**AddChildFolder(string)**<br/>*name*: The name of the folder.|Adds a child folder to the current folder and returns the newly added folder.|CdmFolderDefinition|
 |TODO: Remove after CdmDocumentCollection is created<br/>**AddDocument(string, [CdmDocumentDefinition](document.md))**<br />*name*: The name of the document.<br/>*doc*: The document to add.|Adds a child document to the current folder and returns the newly added document.|[CdmDocumentDefinition](document.md)|
 |TODO: Remove after CdmDocumentCollection is created<br/>**RemoveDocument(string)**<br/>*name*: The name of the document.|Removes the document with the specified name from the folder.|void|
-|**FetchObjectDefinition\<T>(ResolveOptions)**|See *CdmObject.FetchObjectDefinition\<T>(...)*.|T|
+|**FetchObjectDefinition\<T>([ResolveOptions](../utilities/resolveoptions.md))**|See *CdmObject.FetchObjectDefinition\<T>(...)*.|T|
 |**GetName()**|See *CdmObjectDefinition.GetName()*.|string|
-|**IsDerivedFrom(string, ResolveOptions)**|See *CdmObject.IsDerivedFrom(...)*.|bool|
-|**Copy(ResolveOptions)**|See *CdmObject.Copy(...)*.|[CdmObject](cdmobject.md)|
+|**IsDerivedFrom(string, [ResolveOptions](../utilities/resolveoptions.md))**|See *CdmObject.IsDerivedFrom(...)*.|bool|
+|**Copy([ResolveOptions](../utilities/resolveoptions.md))**|See *CdmObject.Copy(...)*.|[CdmObject](cdmobject.md)|
 |**Validate()**|See *CdmObject.Validate()*.|bool|
 

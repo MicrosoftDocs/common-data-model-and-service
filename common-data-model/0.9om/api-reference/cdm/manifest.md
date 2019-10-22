@@ -45,5 +45,5 @@ public class CdmManifestDefinition extends CdmDocumentDefinition, CdmObjectDefin
 |TODO: Remove after CdmTraitCollection is created<br/>**RemoveExhibitedTrait(dynamic, bool)**<br/>*traitDef*: The trait definition, either a string representing the name or a [CdmTraitReference](traitreference.md) object.<br/>*onlyFromProperty*: TODO|Removes the trait definition from the exhibited trait list.|void|
 |**FileStatusCheckAsync()**|Updates the object and its children, if any, with the current time.|Task|
 |**GetName()**|See *CdmObjectDefinition.GetName()*.|string|
-|**IsDerivedFrom(string, ResolveOptions)**|See *CdmObject.IsDerivedFrom(...)*.|bool|
+|**IsDerivedFrom(string, [ResolveOptions](../utilities/resolveoptions.md))**|See *CdmObject.IsDerivedFrom(...)*.|bool|
 

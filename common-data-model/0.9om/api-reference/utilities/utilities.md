@@ -12,3 +12,14 @@ ms.author: jinichu
 # Utilities
 
 ## Overview
+
+This section contains the commonly used utility classes. 
+
+## Classes
+|Name|Description|
+|---|---|
+|[Copy Options](copyoptions.md)|TODO|
+|[Event Callback](callback.md)|Represents the callback object used in *CdmCorpusDefinition.SetEventCallback(...)*.|
+|[Logger](logger.md)|TODO| 
+|[Resolve Options](resolveoptions.md)|TODO|
+

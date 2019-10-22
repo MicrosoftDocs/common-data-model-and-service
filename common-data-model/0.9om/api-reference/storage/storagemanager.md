@@ -11,7 +11,7 @@ ms.author: jinichu
 
 # Storage Manager
 
-The storage manager acts like a storage for the [corpus](corpus.md) and is used to interact with [storage adapters](storageadapter.md).
+The storage manager acts like a storage for the [corpus](../cdm/corpus.md) and is used to interact with [storage adapters](storageadapter.md).
 
 ```
 public class StorageManager
@@ -32,7 +32,7 @@ public class StorageManager
 ## Methods
 |Name|Description|Return Type|
 |---|---|---|
-|**Mount(string, [StorageAdapter](storageadapter.mde))**<br/>*nameSpace*: The namespace.<br/>*adapter*: The storage adapter.|Mounts a namespace to the specified adapter.|void|
+|**Mount(string, [StorageAdapter](storageadapter.md))**<br/>*nameSpace*: The namespace.<br/>*adapter*: The storage adapter.|Mounts a namespace to the specified adapter.|void|
 |**Unmount(string)**<br/>*nameSpace*: The namespace.|Unmounts a namespace. Returns true if the unmount is successful, false otherwise.|boolean|
 |TODO: Update after this method gets removed<br/>**SetAdapter(string, [StorageAdapter](storageadapter.md))**<br/>*nameSpace*: The namespace.<br/>*adapter*: The storage adapter to set.|Allows the replacement of a storage adapter with another one for testing, leaving folders intact.|void|
 |**FetchAdapter(string)**<br/>*nameSpace*: The namespace.|Retrieves the adapter for the specified namespace.|[StorageAdapter](storageadapter.md)|

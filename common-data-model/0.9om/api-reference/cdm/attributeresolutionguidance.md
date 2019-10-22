@@ -39,7 +39,7 @@ public class CdmAttributeResolutionGuidance extends CdmObjectSimple
 |---|---|---|
 |**makeEntityByReference()**|Returns a new [CdmAttributeResolutionGuidance_EntityByReference](attributeresolutionguidance.md#cdmattributeresolutionguidance_entitybyreference) object.|[CdmAttributeResolutionGuidance_EntityByReference](attributeresolutionguidance.md#cdmattributeresolutionguidance_entitybyreference)|
 |**makeSelectsSubAttribute()**|Returns a new [CdmAttributeResolutionGuidance_SelectsSubAttribute](attributeresolutionguidance.md#cdmattributeresolutionguidance_selectssubattribute) object.|[CdmAttributeResolutionGuidance_SelectsSubAttribute](attributeresolutionguidance.md#cdmattributeresolutionguidance_selectssubattribute)|
-|**Copy(ResolveOptions)**|See *CdmObject.Copy(...)*.|[CdmObject](cdmobject.md)|
+|**Copy([ResolveOptions](../utilities/resolveoptions.md))**|See *CdmObject.Copy(...)*.|[CdmObject](cdmobject.md)|
 |**Validate()**|See *CdmObject.Validate()*.|bool|
  
 ## Nested Classes

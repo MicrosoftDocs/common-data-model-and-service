@@ -124,5 +124,13 @@
         items:
           - name: Utilities
             href: 0.9om/api-reference/utilities/utilities.md  
+          - name: Copy Options
+            href: 0.9om/api-reference/utilities/copyoptions.md  
+          - name: Event Callback
+            href: 0.9om/api-reference/utilities/callback.md  
+          - name: Logger
+            href: 0.9om/api-reference/utilities/logger.md  
+          - name: Resolve Options
+            href: 0.9om/api-reference/utilities/resolveoptions.md  
   - name: Frequently asked questions
     href: faq.md
