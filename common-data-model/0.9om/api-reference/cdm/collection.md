@@ -1,5 +1,5 @@
 ---
-title: Collection Class - Common Data Model | Microsoft Docs
+title: Collection - Common Data Model | Microsoft Docs
 description: Reference for CdmCollection.
 author: jinichu
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 10/18/2019
 ms.author: jinichu
 ---
 
-# Collection Class
+# Collection
 
 A collection holds a set of [CDM objects](cdmobject.md) and provides easier handling of them.
 

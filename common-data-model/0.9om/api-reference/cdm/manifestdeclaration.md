@@ -1,5 +1,5 @@
 ---
-title: Manifest Declaration Class - Common Data Model | Microsoft Docs
+title: Manifest Declaration - Common Data Model | Microsoft Docs
 description: Reference for CdmManifestDeclarationDefinition.
 author: jinichu
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 10/18/2019
 ms.author: jinichu
 ---
 
-# Manifest Declaration Class
+# Manifest Declaration
 
 A manifest declaration is a declaration for the CDM manifest format.
 

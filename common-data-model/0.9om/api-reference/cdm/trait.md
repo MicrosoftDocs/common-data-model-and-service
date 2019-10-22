@@ -1,5 +1,5 @@
 ---
-title: Trait Class - Common Data Model | Microsoft Docs
+title: Trait - Common Data Model | Microsoft Docs
 description: Reference for CdmTraitDefinition.
 author: jinichu
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 10/18/2019
 ms.author: jinichu
 ---
 
-# Trait Class
+# Trait 
 
 A trait helps express semantic meaning and structural guidance. Traits are essentially a metadata's metadata. Traits can extend other traits and have a format that is easy to understand and follow. (E.g. The trait is.partition.format.CSV describes a data partition in CSV format and has parameters that can provide additional information, such as which character to use as a delimiter).
 

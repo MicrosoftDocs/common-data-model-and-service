@@ -1,5 +1,5 @@
 ---
-title: Referenced Entity Declaration Class - Common Data Model | Microsoft Docs
+title: Referenced Entity Declaration - Common Data Model | Microsoft Docs
 description: Reference for CdmReferencedEntityDeclarationDefinition .
 author: jinichu
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 10/18/2019
 ms.author: jinichu
 ---
 
-# Referenced Entity Declaration Class
+# Referenced Entity Declaration
 
 A referenced entity declaration is a declaration of an entity that resides in a remote location.
 

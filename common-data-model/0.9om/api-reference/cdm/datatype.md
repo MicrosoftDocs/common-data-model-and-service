@@ -1,5 +1,5 @@
 ---
-title: Data Type Class - Common Data Model | Microsoft Docs
+title: Data Type - Common Data Model | Microsoft Docs
 description: Reference for CdmDataTypeDefinition.
 author: jinichu
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 10/18/2019
 ms.author: jinichu
 ---
 
-# Data Type Class
+# Data Type
 
 A data type provides the ability to assign different data types to attributes (such as string, boolean, etc).
 

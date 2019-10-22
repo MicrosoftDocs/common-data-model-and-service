@@ -1,5 +1,5 @@
 ---
-title: Status Level Class - Common Data Model | Microsoft Docs
+title: Status Level - Common Data Model | Microsoft Docs
 description: Reference for CdmStatusLevel.
 author: jinichu
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 10/18/2019
 ms.author: jinichu
 ---
 
-# Status Level Class
+# Status Level
 
 An enum class containing the status levels that could be reported at. 
 

@@ -1,5 +1,5 @@
 ---
-title: Corpus Class - Common Data Model | Microsoft Docs
+title: Corpus - Common Data Model | Microsoft Docs
 description: Reference for CdmCorpusDefinition.
 author: jinichu
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 10/18/2019
 ms.author: jinichu
 ---
 
-# Corpus Class
+# Corpus
 
 The corpus is a top-level folder that the most important basic functionalities to deal with the object model. There will usually only be one corpus when dealing with the OM.
 

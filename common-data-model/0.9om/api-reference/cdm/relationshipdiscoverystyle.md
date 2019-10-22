@@ -1,5 +1,5 @@
 ---
-title: Relationship Discovery Style Class - Common Data Model | Microsoft Docs
+title: Relationship Discovery Style - Common Data Model | Microsoft Docs
 description: Reference for CdmRelationshipDiscoveryStyle.
 author: jinichu
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 10/18/2019
 ms.author: jinichu
 ---
 
-# Relationship Discovery Style Class
+# Relationship Discovery Style
 
 An enum class containing the types of relationships we want populated in a manifest.
 

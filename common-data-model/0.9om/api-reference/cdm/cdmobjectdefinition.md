@@ -1,5 +1,5 @@
 ---
-title: CdmObject Definition Interface - Common Data Model | Microsoft Docs
+title: CdmObject Definition - Common Data Model | Microsoft Docs
 description: Reference for CdmObjectDefinition.
 author: jinichu
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 10/18/2019
 ms.author: jinichu
 ---
 
-# CdmObject Definition Interface
+# CdmObject Definition
 
 This is the base interface for all CDM object definitions.
 

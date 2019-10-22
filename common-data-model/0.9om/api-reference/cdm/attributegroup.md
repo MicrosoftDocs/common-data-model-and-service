@@ -1,5 +1,5 @@
 ---
-title: Attribute Group Class - Common Data Model | Microsoft Docs
+title: Attribute Group - Common Data Model | Microsoft Docs
 description: Reference for CdmAttributeGroupDefinition.
 author: jinichu
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 10/18/2019
 ms.author: jinichu
 ---
 
-# Attribute Group Class 
+# Attribute Group
 
 An attribute group represents a group of [attribute items](attributeitem.md) that provide a similar role.
 

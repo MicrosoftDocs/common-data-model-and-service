@@ -1,5 +1,5 @@
 ---
-title: Entity Declaration Interface - Common Data Model | Microsoft Docs
+title: Entity Declaration - Common Data Model | Microsoft Docs
 description: Reference for CdmEntityDeclarationDefinition.
 author: jinichu
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 10/18/2019
 ms.author: jinichu
 ---
 
-# Entity Declaration Interface
+# Entity Declaration
 
 An entity declaration is an interface that provides a simple functionality that is extended by a [local entity declaration](localentitydeclaration.md) and a [referenced entity declaration](referencedentitydeclaration.md).
 

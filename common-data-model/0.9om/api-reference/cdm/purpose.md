@@ -1,5 +1,5 @@
 ---
-title: Purpose Class - Common Data Model | Microsoft Docs
+title: Purpose - Common Data Model | Microsoft Docs
 description: Reference for CdmPurposeDefinition.
 author: jinichu
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 10/18/2019
 ms.author: jinichu
 ---
 
-# Purpose Class
+# Purpose
 
 A purpose provides an attribute with what it does for an entity *(e.g. SortedBy, NamedBy)*.
 

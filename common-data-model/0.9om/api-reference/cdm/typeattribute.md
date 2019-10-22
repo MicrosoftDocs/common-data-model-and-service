@@ -1,5 +1,5 @@
 ---
-title: Type Attribute Class - Common Data Model | Microsoft Docs
+title: Type Attribute - Common Data Model | Microsoft Docs
 description: Reference for CdmTypeAttributeDefinition.
 author: jinichu
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 10/18/2019
 ms.author: jinichu
 ---
 
-# Type Attribute Class
+# Type Attribute
 
 A type attribute defines data type attributes along with supported functionalities, such as custom default values and descriptions. Model.json attributes are converted into CDM type attributes.
 

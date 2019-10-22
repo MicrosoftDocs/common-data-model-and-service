@@ -1,5 +1,5 @@
 ---
-title: Attribute Context Type Class - Common Data Model | Microsoft Docs
+title: Attribute Context Type - Common Data Model | Microsoft Docs
 description: Reference for CdmAttributeContextType.
 author: jinichu
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 10/18/2019
 ms.author: jinichu
 ---
 
-# Attribute Context Type Class
+# Attribute Context Type
 
 An enum class containing the attribute context types. 
 

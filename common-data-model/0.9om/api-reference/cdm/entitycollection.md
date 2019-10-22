@@ -1,5 +1,5 @@
 ---
-title: Entity Collection Class - Common Data Model | Microsoft Docs
+title: Entity Collection - Common Data Model | Microsoft Docs
 description: Reference for CdmEntityCollection.
 author: jinichu
 ms.service: common-data-model
@@ -9,8 +9,7 @@ ms.date: 10/18/2019
 ms.author: jinichu
 ---
 
-# Entity Collection Class
-
+# Entity Collection
 An entity collection extends [Collection](collection.md) and adds additional behaviors specific to entity collections.
 
 ```

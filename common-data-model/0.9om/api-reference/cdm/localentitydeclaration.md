@@ -1,5 +1,5 @@
 ---
-title: Local Entity Declaration Class - Common Data Model | Microsoft Docs
+title: Local Entity Declaration - Common Data Model | Microsoft Docs
 description: Reference for CdmLocalEntityDeclarationDefinition.
 author: jinichu
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 10/18/2019
 ms.author: jinichu
 ---
 
-# Local Entity Declaration Class
+# Local Entity Declaration 
 
 A local entity declaration is a declaration of an entity that resides locally and has associated data partitions.
 

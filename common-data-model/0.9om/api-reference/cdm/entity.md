@@ -1,5 +1,5 @@
 ---
-title: Entity Class - Common Data Model | Microsoft Docs
+title: Entity - Common Data Model | Microsoft Docs
 description: Reference for CdmEntityDefinition.
 author: jinichu
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 10/18/2019
 ms.author: jinichu
 ---
 
-# Entity Class
+# Entity 
 
 An entity is the basic building block of the OM. It provides a concrete placeholder for a user to attach certain information to a concept. It is a collection of attributes that creates some semantic meaning of why these attributes exist together. Since entities can inherit from other entities, it is possible for them to represent a hierarchical structure. The hierarchical structure can also be removed from the entities by resolving them.
 

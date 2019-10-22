@@ -1,5 +1,5 @@
 ---
-title: Import Class - Common Data Model | Microsoft Docs
+title: Import - Common Data Model | Microsoft Docs
 description: Reference for CdmImport.
 author: jinichu
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 10/18/2019
 ms.author: jinichu
 ---
 
-# Import Class
+# Import
 
 An import is used by documents to provide the files and documents that need to be imported first.
 

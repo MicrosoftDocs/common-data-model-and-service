@@ -9,9 +9,13 @@ ms.date: 10/18/2019
 ms.author: jinichu
 ---
 
-# Attribute Context (CdmAttributeContext extends CdmObjectDefinitionBase)
+# Attribute Context
 
 An attribute context provides more insight into an attribute's relationship (child/parent). It is heavily used during the entity's attribute resolution and can contain the history of all changes that lead to an attribute's resolution. Resolved concepts, such as resolved attributes, can contain attribute contexts to provide more insights into the original, non-resolved hierarchic attributes.
+
+```
+public class CdmAttributeContext extends CdmObjectDefinitionBase
+```
 
 ## Constructors
 |Name|Description|

@@ -1,5 +1,5 @@
 ---
-title: Trait Reference Class - Common Data Model | Microsoft Docs
+title: Trait Reference - Common Data Model | Microsoft Docs
 description: Reference for CdmTraitReference.
 author: jinichu
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 10/18/2019
 ms.author: jinichu
 ---
 
-# Trait Reference Class
+# Trait Reference
 
 This is the reference class for [traits](trait.md).
 

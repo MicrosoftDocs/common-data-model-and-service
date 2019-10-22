@@ -1,5 +1,5 @@
 ---
-title: Entity Attribute Class - Common Data Model | Microsoft Docs
+title: Entity Attribute - Common Data Model | Microsoft Docs
 description: Reference for CdmEntityAttributeDefinition.
 author: jinichu
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 10/18/2019
 ms.author: jinichu
 ---
 
-# Entity Attribute Class
+# Entity Attribute
 
 An entity attribute is an attribute that also points to an [entity](entity.md).
 

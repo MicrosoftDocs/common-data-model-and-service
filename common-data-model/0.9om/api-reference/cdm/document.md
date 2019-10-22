@@ -1,5 +1,5 @@
 ---
-title: Document Class - Common Data Model | Microsoft Docs
+title: Document - Common Data Model | Microsoft Docs
 description: Reference for CdmDocumentDefinition.
 author: jinichu
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 10/18/2019
 ms.author: jinichu
 ---
 
-# Document Class
+# Document
 
 A document enables the OM to have a persisted state. Every document can contain different CDM definitions, such as entities, data partitions, or attributes.
 

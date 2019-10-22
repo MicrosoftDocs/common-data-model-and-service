@@ -1,5 +1,5 @@
 ---
-title: E2E Relationship Class - Common Data Model | Microsoft Docs
+title: E2E Relationship - Common Data Model | Microsoft Docs
 description: Reference for CdmE2ERelationship.
 author: jinichu
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 10/18/2019
 ms.author: jinichu
 ---
 
-# E2E Relationship Class
+# E2E Relationship
 
 An E2E relationship is a relationship between two entities' attributes.
 

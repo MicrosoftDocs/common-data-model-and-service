@@ -1,5 +1,5 @@
 ---
-title: CdmObject Type Class - Common Data Model | Microsoft Docs
+title: CdmObject Type - Common Data Model | Microsoft Docs
 description: Reference for CdmObjectType.
 author: jinichu
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 10/18/2019
 ms.author: jinichu
 ---
 
-# CdmObject Type Class
+# CdmObject Type
 
 An enum class containing the CDM object types. 
 

@@ -1,5 +1,5 @@
 ---
-title: Folder Class - Common Data Model | Microsoft Docs
+title: Folder - Common Data Model | Microsoft Docs
 description: Reference for CdmFolderDefinition.
 author: jinichu
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 10/18/2019
 ms.author: jinichu
 ---
 
-# Folder Class
+# Folder
 
 A folder provides a hierarchical structure of the OM for organizing documents. Folders can contain other folders or documents.
 

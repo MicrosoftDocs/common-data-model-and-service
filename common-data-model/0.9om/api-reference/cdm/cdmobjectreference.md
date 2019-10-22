@@ -1,5 +1,5 @@
 ---
-title: CdmObject Reference Interface - Common Data Model | Microsoft Docs
+title: CdmObject Reference - Common Data Model | Microsoft Docs
 description: Reference for CdmObjectReference.
 author: jinichu
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 10/18/2019
 ms.author: jinichu
 ---
 
-# CdmObject Reference Interface
+# CdmObject Reference
 
 This is the base interface for all CDM object references. It is extended by *CdmObjectReferenceBase, CdmAttributeContextReference, CdmAttributeGroupReference, CdmAttributeReference, CdmDataTypeReference, CdmEntityReference*, and *CdmPurposeReference*.
 

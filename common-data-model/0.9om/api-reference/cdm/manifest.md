@@ -1,5 +1,5 @@
 ---
-title: Manifest Class - Common Data Model | Microsoft Docs
+title: Manifest - Common Data Model | Microsoft Docs
 description: Reference for CdmManifestDefinition.
 author: jinichu
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 10/18/2019
 ms.author: jinichu
 ---
 
-# Manifest Class
+# Manifest
 
 A manifest is a top-level document with the extension '.manifest.cdm.json'. A manifest can reference different documents (e.g. reference documents with the extension '.cdm.json' that contain entities).
 
