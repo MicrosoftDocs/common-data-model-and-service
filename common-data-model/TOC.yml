@@ -106,6 +106,20 @@
         items:
           - name: Storage
             href: 0.9om/api-reference/storage/storage.md
+          - name: ADLS Adapter
+            href: 0.9om/api-reference/storage/adlsadapter.md
+          - name: Github Adapter
+            href: 0.9om/api-reference/storage/githubadapter.md
+          - name: Local Adapter
+            href: 0.9om/api-reference/storage/localadapter.md
+          - name: Network Adapter
+            href: 0.9om/api-reference/storage/networkadapter.md
+          - name: Remote Adapter
+            href: 0.9om/api-reference/storage/remoteadapter.md
+          - name: Storage Adapter
+            href: 0.9om/api-reference/storage/storageadapter.md
+          - name: Storage Manager
+            href: 0.9om/api-reference/storage/storagemanager.md
       - name: Utilities
         items:
           - name: Utilities
