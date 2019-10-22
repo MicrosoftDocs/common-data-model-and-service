@@ -24,15 +24,7 @@
         href: model-json.md
   - name: Entity reference
     href: schema/core/applicationCommon/toc.yml
-  - name: 0.9 CDM Object Model
-    items:
-    - name: Getting Started
-      href: 0.9om/getting-started.md
-    - name: Submitting Requests
-      href: 0.9om/submitting-requests.md
-    - name: SDK Sample Code
-      href: 0.9om/sdk-sample-code.md
-    - name: API Reference
+  - name: API Reference
       items:
         - name: CDM Object Model
           items:
@@ -93,7 +85,7 @@
             - name: CdmObject Reference
               href: 0.9om/api-reference/cdm/cdmobjectreference.md
             - name: CdmObject Type
-              href: 0.9om/api-reference/cdm/cdmobjecttype.md
+              href: 0.9om/api-reference/cdm/objecttype.md
             - name: Parameter
               href: 0.9om/api-reference/cdm/parameter.md
             - name: Purpose
@@ -117,6 +109,6 @@
         - name: Utilities
           items:
             - name: Utilities
-              href: 0.9om/api-reference/utilities/utilities.md
+              href: 0.9om/api-reference/utilities/utilities.md  
   - name: Frequently asked questions
     href: faq.md
