@@ -21,6 +21,6 @@ public class RptCallback
 ## Properties
 |Name|Type|Description|
 |---|---|---|
-|Invoke|Action\<CdmStatusLevel, string>|TODO|
+|Invoke|Action\<[CdmStatusLevel](../cdm/statuslevel.md), string>|TODO|
 
 

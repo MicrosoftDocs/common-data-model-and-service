@@ -29,6 +29,7 @@ public class CdmCollection<CdmObject> extends IList<CdmObject>
 
 ## Methods
 There are additional methods and properties in this class that just extend IList\<T> methods/properties. These are: *this[...], AddRange(...), IndexOf(...), Insert(...), RemoveAt(...), Clear(), Contains(...), CopyTo(...), GetEnumerator(...),* and *IsReadOnly*. 
+
 |Name|Description|Return Type|
 |---|---|---|
 |**Add(string, bool)**<br/>*name*: The name of the CDM object that is being added to the collection.<br/>*simpleRef [optional]*: A boolean that denotes whether we want a reference to be a simple reference, if we are adding one. The default value is false.|Adds a CDM object of a default type (the default type can be set in the property) with the given name to the collection.|void|
