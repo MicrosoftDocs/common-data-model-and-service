@@ -11,7 +11,7 @@ ms.author: jinichu
 
 # Github Adapter
 
-TODO: Description <br/>
+The Github adapter is the storage adapter that points to the CDM public standards schema documents on Github.<br/>
 
 **Note**: This class is on the deprecation path. 
 
@@ -29,8 +29,11 @@ public class GithubAdapter extends NetworkAdapter, StorageAdapter
 |---|---|---|
 |**CanRead()**|Returns true, since the GithubAdapter can read data.|boolean|
 |**CanWrite()**|Returns false, since the GithubAdapter cannot write data to its source.|boolean|
-|**ReadAsync(string)**|See *StorageAdapter.ReadAsync(...)*.|Task\<string>|
-|**ClearCache()**|See *StorageAdapter.ClearCache()*.|void|
-|**ComputeLastModifiedTimeAsync(string)**|See *StorageAdapter.ComputeLastModifiedTimeAsync(...)*. Currently just returns Time.Now()|Task\<DateTimeOffset?>|
-|**FetchAllFilesAsync(string)**|See *StorageAdapter.FetchAllFilesAsync(...)*. Currently just returns null.|Task\<List\<string>>|
+|**ReadAsync(string)**|See [StorageAdapter.ReadAsync(...)](storageadapter.md#methods).|Task\<string>|
+|**WriteAsync(string, dynamic)**|See [StorageAdapter.WriteAsync(...)](storageadapter.md#methods). Throws a *NotImplementedException* because the GithubAdapter cannot write to its source.|Task|
+|**CreateAdapterPath(string)**|See [StorageAdapter.CreateAdapterPath(...)](storageadapter.md#methods).|string|
+|**CreateCorpusPath(string)**|See [StorageAdapter.CreateCorpusPath(...)](storageadapter.md#methods).|string|
+|**ClearCache()**|See [StorageAdapter.ClearCache()](storageadapter.md#methods).|void|
+|**ComputeLastModifiedTimeAsync(string)**|See [StorageAdapter.ComputeLastModifiedTimeAsync(...)](storageadapter.md#methods). Currently just returns Time.Now()|Task\<DateTimeOffset?>|
+|**FetchAllFilesAsync(string)**|See [StorageAdapter.FetchAllFilesAsync(...)](storageadapter.md#methods). Currently just returns null.|Task\<List\<string>>|
 

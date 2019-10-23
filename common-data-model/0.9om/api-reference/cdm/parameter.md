@@ -33,8 +33,8 @@ public class CdmParameterDefinition extends CdmObjectDefinitionBase
 ## Methods
 |Name|Description|Return Type|
 |---|---|---|
-|**GetName()**|See *CdmObjectDefinition.GetName()*.|string|
-|**IsDerivedFrom(string, [ResolveOptions](../utilities/resolveoptions.md))**|See *CdmObject.IsDerivedFrom(...)*.|bool|
-|**Copy([ResolveOptions](../utilities/resolveoptions.md))**|See *CdmObject.Copy(...)*.|[CdmObject](cdmobject.md)|
-|**Validate()**|See *CdmObject.Validate()*.|bool|
+|**GetName()**|See [CdmObjectDefinition.GetName()](cdmobjectdefinition.md#methods).|string|
+|**IsDerivedFrom(string, [ResolveOptions](../utilities/resolveoptions.md))**|See [CdmObject.IsDerivedFrom(...)](cdmobject.md#methods).|bool|
+|**Copy([ResolveOptions](../utilities/resolveoptions.md))**|See [CdmObject.Copy(...)](cdmobject.md#methods).|[CdmObject](cdmobject.md)|
+|**Validate()**|See [CdmObject.Validate()](cdmobject.md#methods).|bool|
 

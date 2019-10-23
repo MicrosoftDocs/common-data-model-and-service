@@ -32,6 +32,6 @@ public class CdmImport extends CdmObjectSimple
 ## Methods
 |Name|Description|Return Type|
 |---|---|---|
-|**Copy([ResolveOptions](../utilities/resolveoptions.md))**|See *CdmObject.Copy(...)*.|[CdmObject](cdmobject.md)|
-|**Validate()**|See *CdmObject.Validate()*.|bool|
+|**Copy([ResolveOptions](../utilities/resolveoptions.md))**|See [CdmObject.Copy(...)](cdmobject.md#methods).|[CdmObject](cdmobject.md)|
+|**Validate()**|See [CdmObject.Validate()](cdmobject.md#methods).|bool|
 

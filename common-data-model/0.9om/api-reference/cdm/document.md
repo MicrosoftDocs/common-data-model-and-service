@@ -38,7 +38,7 @@ public class CdmDocumentDefinition extends CdmObjectSimple, CdmContainerDefiniti
 |---|---|---|
 |**RefreshAsync([ResolveOptions](../utilities/resolveoptions.md))**<br />*resOpt*: The resolution options.|Updates the indexes in the document. The method is supposed to be called after modifying the objects in the document.|Task\<bool>|
 |**SaveAsAsync(string, bool, [CopyOptions](../utilities/copyoptions.md))**<br />*newName*: The new document's name.<br/>*saveReferenced [optional]*: A boolean that denotes whether we want to save all the references files (schema definition documents that are linked from the source document that have been modified) as well since the manifest can reference different entity documents. The default value is false.<br/>*options [optional]*: The copy options.|Saves the document back through the adapter in the requested format. The format is specified via the document name/extension based on conventions: '.model.json' for the backwards-compatible model, '.manifest.cdm.json' for manifest, '.folio.cdm.json' for folio, and '.cdm.json' for CDM definitions. Returns false on any failure.|Task\<bool>|
-|**FetchObjectDefinition\<T>([ResolveOptions](../utilities/resolveoptions.md))**|See *CdmObject.FetchObjectDefinition\<T>(...)*.|T|
-|**Copy([ResolveOptions](../utilities/resolveoptions.md))**|See *CdmObject.Copy(...)*.|[CdmObject](cdmobject.md)|
-|**Validate()**|See *CdmObject.Validate()*.|bool|
+|**FetchObjectDefinition\<T>([ResolveOptions](../utilities/resolveoptions.md))**|See [CdmObject.FetchObjectDefinition\<T>(...)](cdmobject.md#methods).|T|
+|**Copy([ResolveOptions](../utilities/resolveoptions.md))**|See [CdmObject.Copy(...)](cdmobject.md#methods).|[CdmObject](cdmobject.md)|
+|**Validate()**|See [CdmObject.Validate()](cdmobject.md#methods).|bool|
 

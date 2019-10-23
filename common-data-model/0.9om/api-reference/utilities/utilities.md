@@ -19,7 +19,7 @@ This section contains the commonly used utility classes.
 |Name|Description|
 |---|---|
 |[Copy Options](copyoptions.md)|TODO|
-|[Event Callback](callback.md)|Represents the callback object used in *CdmCorpusDefinition.SetEventCallback(...)*.|
+|[Event Callback](callback.md)|Represents the callback object used in [CdmCorpusDefinition.SetEventCallback(...)](../cdm/corpus.md#methods).|
 |[Logger](logger.md)|TODO| 
 |[Resolve Options](resolveoptions.md)|TODO|
 

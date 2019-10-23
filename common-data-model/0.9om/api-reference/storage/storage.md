@@ -19,7 +19,7 @@ TODO: Description
 |---|---|
 |[Storage Manager](storagemanager.md)|Acts like a storage for the [corpus](../cdm/corpus.md) and is used to interact with [storage adapters](storageadapter.md).|
 |[ADLSAdapter](adlsadapter.md)|Used to interact with data on Azure Data Lake Storage Gen2.|
-|[GithubAdapter](githubadapter.md)|TODO|
+|[GithubAdapter](githubadapter.md)|Points to the CDM public standards schema documents on Github.|
 |[LocalAdapter](localadapter.md)|Used to interact with data on the local file system.|
 |[NetworkAdapter](networkadapter.md)|Contains logic for adapters that deal with data across a network.|
 |[RemoteAdapter](remoteadapter.md)|Used to interact with data on a remote file system.|

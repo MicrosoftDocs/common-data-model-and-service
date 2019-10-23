@@ -27,4 +27,4 @@ public class CdmEntityCollection extends CdmCollection<CdmEntityDeclarationDefin
 |TODO: Update once simpleRef is removed<br/>**Add([CdmEntityDefinition](entity.md), bool)**<br/>*entity*: The entity definition to use to create the entity declaration.<br/>*simpleRef [optional]*: TODO|Creates an entity declaration based on an entity definition and adds it to the collection.|[CdmEntityDeclarationDefinition](entitydeclaration.md)|
 |TODO: Update once simpleRef is removed<br/>**Add(string, string, bool)**<br/>*name*: The entity's name.<br/>*entityPath*: The entity's path.<br/>*simpleRef [optional]*: TODO|Adds a new entity to the collection with the specified name and entity path.|[CdmEntityDeclarationDefinition](entitydeclaration.md)|
 |**AddRange(IEnumerable\<[CdmEntityDefinition](entity.md)>)**<br/>*entityList*: The list of entities.|Adds the elements of the specified list of entities to the collection.|void|
-
+|TODO: Add Remove()||

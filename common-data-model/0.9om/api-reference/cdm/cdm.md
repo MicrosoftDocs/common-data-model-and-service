@@ -27,6 +27,7 @@ The CDM object model (OM) provides two types of classes: definition classes and 
 |[Attribute Context](attributecontext.md)|Provides more insight into an attribute's (child/parent) relationship. It is heavily used during an entity's attribute resolution and can contain the history of all changes that lead to an attribute's resolution. Resolved concepts, such as resolved attributes, can contain attribute contexts to provide more insights into the original, non-resolved hierarchic attributes.|
 |[Attribute Group](attributegroup.md)|Represents a group of [attribute items](attributeitem.md) that provide a similar role.|
 |[Attribute Resolution Guidance](attributeresolutionguidance.md)|Provides properties that help with the resolution process of [entities](entity.md), attributes, and other resolvable CDM concepts.|
+|[Child Folder Collection](childfoldercollection.md)|Extends [Collection](collection.md) and adds additional behaviors specific to folder collections. It is used only for the *ChildFolders* property in [Folder](folder.md) and not for any other folder collections.|
 |[Collection](collection.md)|Holds a set of [CDM objects](cdmobject.md) and provides easier handling of them.|
 |[Constant Entity](constantentity.md)|Provides a way of making an [entity](entity.md) with records of data in it and an associated schema in a JSON file. We use these whenever we want to store some table of information inside a parameter of a [trait](trait.md). They show up in the enum definitions, in the localized display text, etc.|
 |[Corpus](corpus.md)|Provides the most important basic functionalities to deal with the object model. There will usually only be one corpus when dealing with the OM.|
@@ -34,6 +35,7 @@ The CDM object model (OM) provides two types of classes: definition classes and 
 |[Data Partition Pattern](datapartitionpattern.md)|Provides a way of selecting/generating a set of partitions based on the requirements specified as a regular expression.|
 |[Data Type](datatype.md)|Provides the ability to assign different data types to attributes (such as string, boolean, etc).|
 |[Document](document.md)|Enables the OM to have a persisted state. Every document can contain different CDM definitions, such as [entities](entity.md), [data partitions](datapartition.md), or attributes.|
+|[Document Collection](documentcollection.md)|Extends [Collection](collection.md) and adds additional behaviors specific to document collections.|
 |[E2E Relationship](e2erelationship.md)|A relationship between two entities' attributes.|
 |[Entity Attribute](entityattribute.md)|An attribute that also points to an [entity](entity.md).|
 |[Entity Collection](entitycollection.md)|Extends [Collection](collection.md) and adds additional behaviors specific to entity collections.|
@@ -47,6 +49,7 @@ The CDM object model (OM) provides two types of classes: definition classes and 
 |[Purpose](purpose.md)|Provides an attribute with what it does for an entity *(e.g. SortedBy, NamedBy)*.|
 |[Referenced Entity Declaration](referencedentitydeclaration.md)|A declaration of an entity that resides in a remote location.|
 |[Trait](trait.md)|Helps express semantic meaning and structural guidance. Traits are essentially a metadata's metadata. Traits can extend other traits and have a format that is easy to understand and follow.|
+|[Trait Collection](traitcollection.md)|Extends [Collection](collection.md) and adds additional behaviors specific to trait collections.|
 |[Type Attribute](typeattribute.md)|Defines data type attributes along with supported functionalities, such as custom default values and descriptions. Model.json attributes are converted into CDM type attributes.|
  
 
