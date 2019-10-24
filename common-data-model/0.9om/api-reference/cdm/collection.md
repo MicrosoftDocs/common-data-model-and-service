@@ -20,7 +20,7 @@ public class CdmCollection<CdmObject> extends IList<CdmObject>
 ## Constructors
 |Name|Description|
 |---|---|
-|**CdmCollection(CdmCorpusContext, [CdmObject](cdmobject.md), [CdmObjectType](objecttype.md))**<br/>*ctx*: The corpus context.<br/>*owner*: The CDM object that contains this collection.<br/>*defaultType*: The default CDM object type of this collection.|Initializes a new instance of the CdmCollection class.|
+|**CdmCollection(CdmCorpusContext, [CdmObject](cdmobject.md), [CdmObjectType](objecttype.md))**<br/>*ctx*: The corpus context.<br/>*owner*: The CDM object that contains this collection.<br/>*defaultType*: The default CDM object type of this collection.|Initializes a new instance of the [CdmCollection](collection.md) class.|
 
 ## Properties
 |Name|Type|Description|
@@ -36,4 +36,4 @@ There are additional methods and properties in this class that just extend IList
 |**Add(T)**<br />*currObject*: The CDM object to add to the collection.|Adds the specified CDM object to the collection.	|void|
 |**Remove(T)**<br/>*currObject*: The CDM object to remove from the collection.|Removes the specified CDM object from the collection.|boolean|
 |**Item(string)**<br />*name*: The name of the CDM object to fetch.|Retrieves the CDM object with the specified name.|T|
-|**Copy([ResolveOptions](../utilities/resolveoptions.md))**<br/>*resOpt*: The resolve options.|Creates a copy of the current CdmCollection.|CdmCollection\<T>|
+|**Copy([ResolveOptions](../utilities/resolveoptions.md))**<br/>*resOpt*: The resolve options.|Creates a copy of the current CDM collection.|[CdmCollection\<T>](collection.md)|

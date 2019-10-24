@@ -20,7 +20,7 @@ public class CdmManifestDeclarationDefinition extends CdmObjectDefinitionBase, C
 ## Constructors
 |Name|Description|
 |---|---|
-|**CdmManifestDeclarationDefinition(CdmCorpusContext, string)**<br/>*ctx*: The corpus context.<br/>*name*: The name of the manifest declared.|Initializes a new instance of the CdmManifestDeclarationDefinition class.|
+|**CdmManifestDeclarationDefinition(CdmCorpusContext, string)**<br/>*ctx*: The corpus context.<br/>*name*: The name of the manifest declared.|Initializes a new instance of the [CdmManifestDeclarationDefinition](manifestdeclaration.md) class.|
 
 ## Properties
 |Name|Type|Description|

@@ -20,7 +20,7 @@ CdmDataPartitionPatternDefinition extends CdmObjectDefinitionBase, CdmFileStatus
 ## Constructors
 |Name|Description|
 |---|---|
-|**CdmDataPartitionPatternDefinition(CdmCorpusContext, string)**<br/>*ctx*: The corpus context.<br/>*name*: The data partition pattern's name.|Initializes a new instance of the CdmDataPartitionPatternDefinition class.|
+|**CdmDataPartitionPatternDefinition(CdmCorpusContext, string)**<br/>*ctx*: The corpus context.<br/>*name*: The data partition pattern's name.|Initializes a new instance of the [CdmDataPartitionPatternDefinition](datapartitionpattern.md) class.|
 
 ## Properties
 |Name|Type|Description|

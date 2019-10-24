@@ -21,7 +21,7 @@ public class CdmEntityDefinition extends CdmObjectDefinitionBase, CdmReferencesE
 ## Constructors
 |Name|Description|
 |---|---|
-|TODO: Update once exhibitsTraits is removed and extends entity is optional<br/>**CdmEntityDefinition(CdmCorpusContext, string, CdmEntityReference, bool, bool)**<br/>*ctx*: The corpus context.<br/>*entityName*: The entity's name.<br/>*extendsEntity*: The entity extended by this entity.<br/>*exhibitsTraits [optional]*: TODO. The default value is false.<br/>*hasAttributes [optional]*: A boolean that denotes whether this entity has attributes. The default value is false.|Initializes a new instance of the CdmEntityDefinition class.|
+|TODO: Update once exhibitsTraits is removed and extends entity is optional<br/>**CdmEntityDefinition(CdmCorpusContext, string, CdmEntityReference, bool, bool)**<br/>*ctx*: The corpus context.<br/>*entityName*: The entity's name.<br/>*extendsEntity*: The entity extended by this entity.<br/>*exhibitsTraits [optional]*: TODO. The default value is false.<br/>*hasAttributes [optional]*: A boolean that denotes whether this entity has attributes. The default value is false.|Initializes a new instance of the [CdmEntityDefinition](entity.md) class.|
 
 ## Properties
 |Name|Type|Description|
@@ -33,7 +33,7 @@ public class CdmEntityDefinition extends CdmObjectDefinitionBase, CdmReferencesE
 |DisplayName|string|The entity's display name.|
 |SourceName|string|The entity's source name - the original entity name from another source system (e.g. *Dynamics*).|
 |Description|string|The entity's description.|
-|CdmSchemas|string|The list of CDM entities that the entity "contains" or implements (a set of contracts or interfaces).|
+|CdmSchemas|List\<string>|The list of CDM entities that the entity "contains" or implements (a set of contracts or interfaces).|
 |Version|string|The entity's version.|
 |ExtendsEntityResolutionGuidance|[CdmAttributeResolutionGuidance](attributeresolutionguidance.md)|The resolution guidance for the attributes taken from the entity extended by this entity.|
 |PrimaryKey|string|TODO|
@@ -41,7 +41,7 @@ public class CdmEntityDefinition extends CdmObjectDefinitionBase, CdmReferencesE
 ## Methods
 |Name|Description|Return Type|
 |---|---|---|
-|**CreateResolvedEntityAsync(string, [ResolveOptions](../utilities/resolveoptions.md), [CdmFolderDefinition](folder.md), string)**<br />*newEntName*: The new entity name.<br/>*resOpt [optional]*: The resolve options.<br/>*folder [optional]*: The folder that will be used as a target corpus path. If not specified, in-document folder (a property on the entity) is used.<br/>*newDocName [optional]*: The new document name.|Creates a resolved copy of the entity.|Task\<CdmEntityDefinition>|
+|**CreateResolvedEntityAsync(string, [ResolveOptions](../utilities/resolveoptions.md), [CdmFolderDefinition](folder.md), string)**<br />*newEntName*: The new entity name.<br/>*resOpt [optional]*: The resolve options.<br/>*folder [optional]*: The folder that will be used as a target corpus path. If not specified, in-document folder (a property on the entity) is used.<br/>*newDocName [optional]*: The new document name.|Creates a resolved copy of the entity.|Task\<[CdmEntityDefinition](entity.md)>|
 |**GetName()**|See [CdmObjectDefinition.GetName()](cdmobjectdefinition.md#methods).|string|
 |**IsDerivedFrom(string, [ResolveOptions](../utilities/resolveoptions.md))**|See [CdmObject.IsDerivedFrom(...)](cdmobject.md#methods).|bool|
 |**Copy([ResolveOptions](../utilities/resolveoptions.md))**|See [CdmObject.Copy(...)](cdmobject.md#methods).|[CdmObject](cdmobject.md)|

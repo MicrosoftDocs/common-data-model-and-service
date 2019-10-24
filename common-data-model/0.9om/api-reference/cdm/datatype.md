@@ -20,7 +20,7 @@ public class CdmDataTypeDefinition extends CdmObjectDefinitionBase
 ## Constructors
 |Name|Description|
 |---|---|
-|TODO: Update once exhibitsTraits removed and extendsDataType is optional <br/>**CdmDataTypeDefinition(CdmCorpusContext, string, CdmDataTypeReference, bool)**<br/>*ctx*: The corpus context.<br/>*dataTypeName*: The data type's name.<br/>*extendsDataType*: The data type extended by this data type.<br/>*exhibitsTraits [optional]*: TODO. The default value is false.|Initializes a new instance of the CdmDataTypeDefinition class.|
+|TODO: Update once exhibitsTraits removed and extendsDataType is optional <br/>**CdmDataTypeDefinition(CdmCorpusContext, string, CdmDataTypeReference, bool)**<br/>*ctx*: The corpus context.<br/>*dataTypeName*: The data type's name.<br/>*extendsDataType*: The data type extended by this data type.<br/>*exhibitsTraits [optional]*: TODO. The default value is false.|Initializes a new instance of the [CdmDataTypeDefinition](datatype.md) class.|
 
 ## Properties
 |Name|Type|Description|

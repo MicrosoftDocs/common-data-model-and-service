@@ -21,19 +21,19 @@ public class CdmFolderDefinition extends CdmObjectDefinitionBase, CdmContainerDe
 ## Constructors
 |Name|Description|
 |---|---|
-|**CdmFolderDefinition(CdmCorpusContext, string)**<br/>*ctx*: The corpus context.<br/>*name*: The folder's name.|Initializes a new instance of the CdmFolderDefinition class.|
+|**CdmFolderDefinition(CdmCorpusContext, string)**<br/>*ctx*: The corpus context.<br/>*name*: The folder's name.|Initializes a new instance of the [CdmFolderDefinition](folder.md) class.|
 
 ## Properties
 |Name|Type|Description|
 |---|---|---|
 |Name|string|The name of the folder.|
 |TODO: Update once CdmDocumentCollection is created<br/>Documents|[CdmCollection](collection.md)\<[CdmDocumentDefinition](document.md)>|The child documents of the folder.|
-|TODO: Update once CdmFolderCollection is created<br/>ChildFolders|[CdmCollection](collection.md)\<CdmFolderDefinition>|The direct children of the folder.|
+|TODO: Update once CdmFolderCollection is created<br/>ChildFolders|[CdmCollection](collection.md)\<[CdmFolderDefinition](folder.md)>|The direct children of the folder.|
 
 ## Methods
 |Name|Description|Return Type|
 |---|---|---|
-|TODO: Remove after CdmFolderCollection is created<br/>**AddChildFolder(string)**<br/>*name*: The name of the folder.|Adds a child folder to the current folder and returns the newly added folder.|CdmFolderDefinition|
+|TODO: Remove after CdmFolderCollection is created<br/>**AddChildFolder(string)**<br/>*name*: The name of the folder.|Adds a child folder to the current folder and returns the newly added folder.|[CdmFolderDefinition](folder.md)|
 |TODO: Remove after CdmDocumentCollection is created<br/>**AddDocument(string, [CdmDocumentDefinition](document.md))**<br />*name*: The name of the document.<br/>*doc*: The document to add.|Adds a child document to the current folder and returns the newly added document.|[CdmDocumentDefinition](document.md)|
 |TODO: Remove after CdmDocumentCollection is created<br/>**RemoveDocument(string)**<br/>*name*: The name of the document.|Removes the document with the specified name from the folder.|void|
 |**FetchObjectDefinition\<T>([ResolveOptions](../utilities/resolveoptions.md))**|See [CdmObject.FetchObjectDefinition\<T>(...)](cdmobject.md#methods).|T|

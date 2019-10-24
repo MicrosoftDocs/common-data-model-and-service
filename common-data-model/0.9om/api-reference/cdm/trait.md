@@ -20,7 +20,7 @@ public class CdmTraitDefinition extends CdmObjectDefinitionBase
 ## Constructors
 |Name|Description|
 |---|---|
-|TODO: Update once extendsTraits is optional<br/>**CdmTraitDefinition(CdmCorpusContext, string, [CdmTraitReference](traitreference.md), bool)**<br/>*ctx*: The corpus context.<br/>*name*: The trait's name.<br/>*extendsTrait*: The reference to the trait extended by this trait.<br/>*hasParameters*: A boolean that denotes whether this trait has parameters.|Initializes a new instance of the CdmTraitDefinition class.|
+|TODO: Update once extendsTraits is optional<br/>**CdmTraitDefinition(CdmCorpusContext, string, [CdmTraitReference](traitreference.md), bool)**<br/>*ctx*: The corpus context.<br/>*name*: The trait's name.<br/>*extendsTrait*: The reference to the trait extended by this trait.<br/>*hasParameters*: A boolean that denotes whether this trait has parameters.|Initializes a new instance of the [CdmTraitDefinition](trait.md) class.|
 
 ## Properties
 |Name|Type|Description|

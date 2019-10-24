@@ -20,7 +20,7 @@ public class CdmDocumentCollection extends CdmCollection<CdmDocumentDefinition>
 ## Constructors
 |Name|Description|
 |---|---|
-|**CdmDocumentCollection(CdmCorpusContext, [CdmFolderDefinition](folder.md))**<br/>*ctx*: The corpus context.<br/>*owner*: The folder that contains this collection.|Initializes a new instance of the CdmDocumentCollection class.|
+|**CdmDocumentCollection(CdmCorpusContext, [CdmFolderDefinition](folder.md))**<br/>*ctx*: The corpus context.<br/>*owner*: The folder that contains this collection.|Initializes a new instance of the [CdmDocumentCollection](documentcollection.md) class.|
 
 ## Methods
 |Name|Description|Return Type|

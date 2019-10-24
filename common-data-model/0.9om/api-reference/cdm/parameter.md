@@ -20,7 +20,7 @@ public class CdmParameterDefinition extends CdmObjectDefinitionBase
 ## Constructors
 |Name|Description|
 |---|---|
-|**CdmParameterDefinition(CdmCorpusContext, string)**<br/>*ctx*: The corpus context.<br/>*name*: The parameter's name.|Initializes a new instance of the CdmParameterDefinition class.|
+|**CdmParameterDefinition(CdmCorpusContext, string)**<br/>*ctx*: The corpus context.<br/>*name*: The parameter's name.|Initializes a new instance of the [CdmParameterDefinition](parameter.md) class.|
 
 ## Properties
 |Name|Type|Description|

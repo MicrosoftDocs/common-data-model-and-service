@@ -20,7 +20,7 @@ public class CdmDataPartitionDefinition extends CdmObjectDefinitionBase, CdmFile
 ## Constructors
 |Name|Description|
 |---|---|
-|**CdmDataPartitionDefinition(CdmCorpusContext, string)**<br/>*ctx*: The corpus context.<br/>*name*: The data partition's name.|Initializes a new instance of the CdmDataPartitionDefinition class.|
+|**CdmDataPartitionDefinition(CdmCorpusContext, string)**<br/>*ctx*: The corpus context.<br/>*name*: The data partition's name.|Initializes a new instance of the [CdmDataPartitionDefinition](datapartition.md) class.|
 
 ## Properties
 |Name|Type|Description|

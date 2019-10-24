@@ -20,7 +20,7 @@ public class CdmTraitReference extends CdmObjectReferenceBase
 ## Constructors
 |Name|Description|
 |---|---|
-|TODO: Update once simpleReference is removed<br/>**CdmTraitReference(CdmCorpusContext, dynamic, bool, bool)**<br/>*ctx*: The corpus context.<br/>*trait*: The trait that this trait reference is referencing.<br/>*simpleReference*: TODO<br/>*hasArguments*: A boolean that denotes whether this trait reference has arguments.|Initializes a new instance of the CdmTraitReference class.|
+|TODO: Update once simpleReference is removed<br/>**CdmTraitReference(CdmCorpusContext, dynamic, bool, bool)**<br/>*ctx*: The corpus context.<br/>*trait*: The trait that this trait reference is referencing.<br/>*simpleReference*: TODO<br/>*hasArguments*: A boolean that denotes whether this trait reference has arguments.|Initializes a new instance of the [CdmTraitReference](traitreference.md) class.|
 
 ## Properties
 |Name|Type|Description|

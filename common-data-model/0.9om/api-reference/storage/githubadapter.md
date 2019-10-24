@@ -22,15 +22,15 @@ public class GithubAdapter extends NetworkAdapter, StorageAdapter
 ## Constructors
 |Name|Description|
 |---|---|
-|**GithubAdapter()**|Initializes a new instance of the GithubAdapter class.|
+|**GithubAdapter()**|Initializes a new instance of the [GithubAdapter](githubadapter.md) class.|
 
 ## Methods
 |Name|Description|Return Type|
 |---|---|---|
-|**CanRead()**|Returns true, since the GithubAdapter can read data.|boolean|
-|**CanWrite()**|Returns false, since the GithubAdapter cannot write data to its source.|boolean|
+|**CanRead()**|Returns true, since the Github adapter can read data.|boolean|
+|**CanWrite()**|Returns false, since the Github adapter cannot write data to its source.|boolean|
 |**ReadAsync(string)**|See [StorageAdapter.ReadAsync(...)](storageadapter.md#methods).|Task\<string>|
-|**WriteAsync(string, dynamic)**|See [StorageAdapter.WriteAsync(...)](storageadapter.md#methods). Throws a *NotImplementedException* because the GithubAdapter cannot write to its source.|Task|
+|**WriteAsync(string, dynamic)**|See [StorageAdapter.WriteAsync(...)](storageadapter.md#methods). Throws a *NotImplementedException* because the Github adapter cannot write to its source.|Task|
 |**CreateAdapterPath(string)**|See [StorageAdapter.CreateAdapterPath(...)](storageadapter.md#methods).|string|
 |**CreateCorpusPath(string)**|See [StorageAdapter.CreateCorpusPath(...)](storageadapter.md#methods).|string|
 |**ClearCache()**|See [StorageAdapter.ClearCache()](storageadapter.md#methods).|void|

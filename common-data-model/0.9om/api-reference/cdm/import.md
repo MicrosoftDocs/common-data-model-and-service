@@ -20,7 +20,7 @@ public class CdmImport extends CdmObjectSimple
 ## Constructors
 |Name|Description|
 |---|---|
-|**CdmImport(CdmCorpusContext, string, string)**<br/>*ctx*: The corpus context.<br/>*corpusPath*: The import path.<br/>*moniker*: The import moniker.|Initializes a new instance of the CdmImport class.|
+|**CdmImport(CdmCorpusContext, string, string)**<br/>*ctx*: The corpus context.<br/>*corpusPath*: The import path.<br/>*moniker*: The import moniker.|Initializes a new instance of the [CdmImport](import.md) class.|
 
 ## Properties
 |Name|Type|Description|

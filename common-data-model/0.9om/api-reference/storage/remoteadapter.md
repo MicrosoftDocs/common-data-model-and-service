@@ -20,7 +20,7 @@ public class RemoteAdapter extends NetworkAdapter, StorageAdapter
 ## Constructors
 |Name|Description|
 |---|---|
-|**RemoteAdapter()**|Initializes a new instance of the RemoteAdapter class.|
+|**RemoteAdapter()**|Initializes a new instance of the [RemoteAdapter](remoteadapter.md) class.|
 
 ## Properties
 |Name|Type|Description|
@@ -30,10 +30,10 @@ public class RemoteAdapter extends NetworkAdapter, StorageAdapter
 ## Methods
 |Name|Description|Return Type|
 |---|---|---|
-|**CanRead()**|Returns true, since the RemoteAdapter can read data.|boolean|
-|**CanWrite()**|Returns false, since the RemoteAdapter cannot write data to its source.|boolean|
+|**CanRead()**|Returns true, since the remote adapter can read data.|boolean|
+|**CanWrite()**|Returns false, since the remote adapter cannot write data to its source.|boolean|
 |**ReadAsync(string)**|See [StorageAdapter.ReadAsync(...)](storageadapter.md#methods).|Task\<string>|
-|**WriteAsync(string, dynamic)**|See [StorageAdapter.WriteAsync(...)](storageadapter.md#methods). Throws a *NotImplementedException* because the RemoteAdapter cannot write to its source.|Task|
+|**WriteAsync(string, dynamic)**|See [StorageAdapter.WriteAsync(...)](storageadapter.md#methods). Throws a *NotImplementedException* because the remote adapter cannot write to its source.|Task|
 |**CreateAdapterPath(string)**|See [StorageAdapter.CreateAdapterPath(...)](storageadapter.md#methods).|string|
 |**CreateCorpusPath(string)**|See [StorageAdapter.CreateCorpusPath(...)](storageadapter.md#methods).|string|
 |**ClearCache()**|See [StorageAdapter.ClearCache()](storageadapter.md#methods).|void|

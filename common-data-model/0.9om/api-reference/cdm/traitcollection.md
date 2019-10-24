@@ -20,7 +20,7 @@ public class CdmTraitCollection extends CdmCollection<CdmTraitReference>
 ## Constructors
 |Name|Description|
 |---|---|
-|**CdmTraitCollection(CdmCorpusContext, [CdmObject](cdmobject.md), [CdmObjectType](objecttype.md))**<br/>*ctx*: The corpus context.<br/>*owner*: The CDM object that contains this collection.<br/>*defaultType*: The default CDM object type of this collection.|Initializes a new instance of the CdmTraitCollection class.|
+|**CdmTraitCollection(CdmCorpusContext, [CdmObject](cdmobject.md))**<br/>*ctx*: The corpus context.<br/>*owner*: The CDM object that contains this collection.|Initializes a new instance of the [CdmTraitCollection](traitcollection.md) class.|
 
 ## Methods
 |Name|Description|Return Type|

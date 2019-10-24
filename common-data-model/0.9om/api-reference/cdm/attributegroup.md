@@ -21,7 +21,7 @@ public class CdmAttributeGroupDefinition extends CdmObjectDefinitionBase, CdmRef
 ## Constructors
 |Name|Description|
 |---|---|
-|**CdmAttributeGroupDefinition(CdmCorpusContext, string)**<br/>*ctx*: The corpus context.<br/>*attributeGroupName*: The attribute group's name.|Initializes a new instance of the CdmAttributeGroupDefinition class.|
+|**CdmAttributeGroupDefinition(CdmCorpusContext, string)**<br/>*ctx*: The corpus context.<br/>*attributeGroupName*: The attribute group's name.|Initializes a new instance of the [CdmAttributeGroupDefinition](attributegroup.md) class.|
 
 ## Properties
 |Name|Type|Description|

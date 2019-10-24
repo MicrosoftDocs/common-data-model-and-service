@@ -20,8 +20,8 @@ public class ADLSAdapter extends NetworkAdapter, StorageAdapter
 ## Constructors
 |Name|Description|
 |---|---|
-|**ADLSAdapter(string, string, string, string, string)**<br/>*hostname*: The hostname of ADLS.<br/>*root*: The root path of the schema documents.<br/>*tenant*: The tenant.<br/>*clientId*: The client ID of the application accessing ADLS.<br/>*secret*: The secret for the application accessing ADLS.|Initializes a new instance of the ADLSAdapter class with client ID/secret authentication.|
-|**ADLSAdapter(string, string, string)**<br/>*hostname*: The hostname of ADLS.<br/>*root*: The root path of the schema documents.<br/>*sharedKey*: The account/shared key.|Initializes a new instance of the ADLSAdapter class with shared key authentication.|
+|**ADLSAdapter(string, string, string, string, string)**<br/>*hostname*: The hostname of ADLS.<br/>*root*: The root path of the schema documents.<br/>*tenant*: The tenant.<br/>*clientId*: The client ID of the application accessing ADLS.<br/>*secret*: The secret for the application accessing ADLS.|Initializes a new instance of the [ADLSAdapter](adlsadapter.md) class with client ID/secret authentication.|
+|**ADLSAdapter(string, string, string)**<br/>*hostname*: The hostname of ADLS.<br/>*root*: The root path of the schema documents.<br/>*sharedKey*: The account/shared key.|Initializes a new instance of the [ADLSAdapter](adlsadapter.md) class with shared key authentication.|
 
 ## Properties
 |Name|Type|Description|
@@ -36,12 +36,12 @@ public class ADLSAdapter extends NetworkAdapter, StorageAdapter
 ## Methods
 |Name|Description|Return Type|
 |---|---|---|
-|**CanRead()**|Returns true, since the ADLSAdapter can read data.|boolean|
-|**CanWrite()**|Returns true, since the ADLSAdapter can write data to its source.|boolean|
+|**CanRead()**|Returns true, since the ADLS adapter can read data.|boolean|
+|**CanWrite()**|Returns true, since the ADLS adapter can write data to its source.|boolean|
 |**ReadAsync(string)**|See [StorageAdapter.ReadAsync(...)](storageadapter.md#methods).|Task\<string>|
 |**WriteAsync(string, dynamic)**|See [StorageAdapter.WriteAsync(...)](storageadapter.md#methods).|Task|
 |**CreateAdapterPath(string)**|See [StorageAdapter.CreateAdapterPath(...)](storageadapter.md#methods).|string|
 |**CreateCorpusPath(string)**|See [StorageAdapter.CreateCorpusPath(...)](storageadapter.md#methods).|string|
-|**ClearCache()**|See [StorageAdapter.ClearCache()](storageadapter.md#methods). This method does not do anything because the ADLSAdapter does not maintain a cache.|void|
+|**ClearCache()**|See [StorageAdapter.ClearCache()](storageadapter.md#methods). This method does not do anything because the ADLS adapter does not maintain a cache.|void|
 |**ComputeLastModifiedTimeAsync(string)**|See [StorageAdapter.ComputeLastModifiedTimeAsync(...)](storageadapter.md#methods).|Task\<DateTimeOffset?>|
 |**FetchAllFilesAsync(string)**|See [StorageAdapter.FetchAllFilesAsync(...)](storageadapter.md#methods).|Task\<List\<string>>|

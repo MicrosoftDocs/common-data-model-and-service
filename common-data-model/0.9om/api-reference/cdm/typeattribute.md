@@ -20,7 +20,7 @@ public class CdmTypeAttributeDefinition extends CdmAttribute
 ## Constructors
 |Name|Description|
 |---|---|
-|TODO: Update once appliedTraits is removed<br/>**CdmTypeAttributeDefinition(CdmCorpusContext, string, bool)**<br/>*ctx*: The corpus context.<br/>*name*: The type attribute's name.<br/>*appliedTraits*: TODO|Initializes a new instance of the CdmTypeAttributeDefinition class.|
+|TODO: Update once appliedTraits is removed<br/>**CdmTypeAttributeDefinition(CdmCorpusContext, string, bool)**<br/>*ctx*: The corpus context.<br/>*name*: The type attribute's name.<br/>*appliedTraits*: TODO|Initializes a new instance of the [CdmTypeAttributeDefinition](typeattribute.md) class.|
 
 ## Properties
 |Name|Type|Description|

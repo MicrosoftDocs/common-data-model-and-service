@@ -20,7 +20,7 @@ public class CdmReferencedEntityDeclarationDefinition extends CdmObjectDefinitio
 ## Constructors
 |Name|Description|
 |---|---|
-|**CdmReferencedEntityDeclarationDefinition(CdmCorpusContext, string)**<br/>*ctx*: The corpus context.<br/>*entityName*: The entity's name.|Initializes a new instance of the CdmReferencedEntityDeclarationDefinition class.|
+|**CdmReferencedEntityDeclarationDefinition(CdmCorpusContext, string)**<br/>*ctx*: The corpus context.<br/>*entityName*: The entity's name.|Initializes a new instance of the [CdmReferencedEntityDeclarationDefinition](referencedentitydeclaration.md) class.|
 
 ## Properties
 |Name|Type|Description|

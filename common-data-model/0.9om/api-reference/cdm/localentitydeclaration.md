@@ -11,7 +11,7 @@ ms.author: jinichu
 
 # Local Entity Declaration 
 
-A local entity declaration is a declaration of an entity that resides locally and has associated data partitions.
+A local entity declaration is a declaration of an entity that resides locally and has associated [data partitions](datapartition.md).
 
 ```
 public class CdmLocalEntityDeclarationDefinition extends CdmObjectDefinitionBase, CdmEntityDeclarationDefinition
@@ -20,7 +20,7 @@ public class CdmLocalEntityDeclarationDefinition extends CdmObjectDefinitionBase
 ## Constructors
 |Name|Description|
 |---|---|
-|**CdmLocalEntityDeclarationDefinition(CdmCorpusContext, string)**<br/>*ctx*: The corpus context.<br/>*entityName*: The entity's name.|Initializes a new instance of the CdmLocalEntityDeclarationDefinition class.|
+|**CdmLocalEntityDeclarationDefinition(CdmCorpusContext, string)**<br/>*ctx*: The corpus context.<br/>*entityName*: The entity's name.|Initializes a new instance of the [CdmLocalEntityDeclarationDefinition](localentitydeclaration.md) class.|
 
 ## Properties
 |Name|Type|Description|

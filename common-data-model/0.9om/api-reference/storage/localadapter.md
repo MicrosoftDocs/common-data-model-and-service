@@ -20,7 +20,7 @@ public class LocalAdapter extends StorageAdapter
 ## Constructors
 |Name|Description|
 |---|---|
-|**LocalAdapter(string)**<br/>*root*: The root path of the schema documents.|Initializes a new instance of the LocalAdapter class.|
+|**LocalAdapter(string)**<br/>*root*: The root path of the schema documents.|Initializes a new instance of the [LocalAdapter](localadapter.md) class.|
 
 ## Properties
 |Name|Type|Description|
@@ -30,13 +30,13 @@ public class LocalAdapter extends StorageAdapter
 ## Methods
 |Name|Description|Return Type|
 |---|---|---|
-|**CanRead()**|Returns true, since the LocalAdapter can read data.|boolean|
-|**CanWrite()**|Returns true, since the LocalAdapter can write data to its source.|boolean|
+|**CanRead()**|Returns true, since the local adapter can read data.|boolean|
+|**CanWrite()**|Returns true, since the local adapter can write data to its source.|boolean|
 |**ReadAsync(string)**|See [StorageAdapter.ReadAsync(...)](storageadapter.md#methods).|Task\<string>|
 |**WriteAsync(string, dynamic)**|See [StorageAdapter.WriteAsync(...)](storageadapter.md#methods).|Task|
 |**CreateAdapterPath(string)**|See [StorageAdapter.CreateAdapterPath(...)](storageadapter.md#methods).|string|
 |**CreateCorpusPath(string)**|See [StorageAdapter.CreateCorpusPath(...)](storageadapter.md#methods).|string|
-|**ClearCache()**|See [StorageAdapter.ClearCache()](storageadapter.md#methods). This method does not do anything because the LocalAdapter does not maintain a cache.|void|
+|**ClearCache()**|See [StorageAdapter.ClearCache()](storageadapter.md#methods). This method does not do anything because the local adapter does not maintain a cache.|void|
 |**ComputeLastModifiedTimeAsync(string)**|See [StorageAdapter.ComputeLastModifiedTimeAsync(...)](storageadapter.md#methods).|Task\<DateTimeOffset?>|
 |**FetchAllFilesAsync(string)**|See [StorageAdapter.FetchAllFilesAsync(...)](storageadapter.md#methods).|Task\<List\<string>>|
 

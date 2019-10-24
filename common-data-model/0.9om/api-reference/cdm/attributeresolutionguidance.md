@@ -19,7 +19,7 @@ public class CdmAttributeResolutionGuidance extends CdmObjectSimple
 ## Constructors
 |Name|Description|
 |---|---|
-|**CdmAttributeResolutionGuidance(CdmCorpusContext)**<br/>*ctx*: The corpus context.|Initializes a new instance of the CdmAttributeResolutionGuidance class.|
+|**CdmAttributeResolutionGuidance(CdmCorpusContext)**<br/>*ctx*: The corpus context.|Initializes a new instance of the [CdmAttributeResolutionGuidance](attributeresolutionguidance.md) class.|
 
 ## Properties
 |Name|Type|Description|
@@ -76,6 +76,6 @@ Indicates that this attribute selects either 'one' or 'all' of the sub-attribute
 |---|---|---|
 |selects|string|Indicates how many sub-attributes are selected (either 'one' or 'all').|
 |selectedTypeAttribute|[CdmTypeAttributeDefinition](typeattribute.md)|This attribute definition is added to the entity to hold a description of the single attribute that was selected from the sub-entity when selects is set to 'one'.|
-|selectsSomeTakeNames|List\<string>|The list of sub-attributes from an entity that we want added.|
-|selectsSomeAvoidNames|List\<string>|The list of sub-attributes from an entity that we do not want added.|
+|selectsSomeTakeNames|List\<string>|The list of sub-attributes from an entity that should be added.|
+|selectsSomeAvoidNames|List\<string>|The list of sub-attributes from an entity that should not be added.|
 

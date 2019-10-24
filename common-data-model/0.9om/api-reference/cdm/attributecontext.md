@@ -20,7 +20,7 @@ public class CdmAttributeContext extends CdmObjectDefinitionBase
 ## Constructors
 |Name|Description|
 |---|---|
-|**CdmAttributeContext(CdmCorpusContext, string)**<br/>*ctx*: The corpus context.<br/>*name*: The attribute context's name.|Initializes a new instance of the CdmAttributeContext class.|
+|**CdmAttributeContext(CdmCorpusContext, string)**<br/>*ctx*: The corpus context.<br/>*name*: The attribute context's name.|Initializes a new instance of the [CdmAttributeContext](attributecontext.md) class.|
 
 ## Properties
 |Name|Type|Description|

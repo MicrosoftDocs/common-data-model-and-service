@@ -20,7 +20,7 @@ public class CdmConstantEntityDefinition extends CdmObjectDefinitionBase
 ## Constructors
 |Name|Description|
 |---|---|
-|**CdmConstantEntityDefinition(CdmCorpusContext)**<br/>*ctx*: The corpus context.|Initializes a new instance of the CdmConstantEntityDefinition class.|
+|**CdmConstantEntityDefinition(CdmCorpusContext)**<br/>*ctx*: The corpus context.|Initializes a new instance of the [CdmConstantEntityDefinition](constantentity.md) class.|
 
 ## Properties
 |Name|Type|Description|

@@ -20,7 +20,7 @@ public class CopyOptions
 ## Constructors
 |Name|Description|
 |---|---|
-|**CopyOptions()**|Initializes a new instance of the CopyOptions class.|
+|**CopyOptions()**|Initializes a new instance of the [CopyOptions](copyoptions.md) class.|
 
 ## Properties
 |Name|Type|Description|
