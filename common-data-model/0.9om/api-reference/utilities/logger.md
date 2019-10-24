@@ -12,6 +12,7 @@ ms.author: jinichu
 # Logger
 
 TODO: Description
+This class only exists in C#.
 
 ```
 public class Logger

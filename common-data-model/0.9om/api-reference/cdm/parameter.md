@@ -16,6 +16,7 @@ A parameter provides the ability to specify the parameters that a trait should c
 ```
 public class CdmParameterDefinition extends CdmObjectDefinitionBase
 ```
+*CdmParameterDefinition extends CdmObjectSimple in Python.*
 
 ## Constructors
 |Name|Description|

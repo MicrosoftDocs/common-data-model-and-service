@@ -11,7 +11,7 @@ ms.author: jinichu
 
 # Status Level
 
-An enum class containing the status levels that could be reported at. 
+An enum class containing the status levels that could be reported at. This class only exists in C#.
 
 ```
 public enum CdmStatusLevel

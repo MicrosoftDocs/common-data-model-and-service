@@ -17,6 +17,7 @@ TODO: Delete CdmReferencesEntities once removed
 ```
 public class CdmAttributeGroupDefinition extends CdmObjectDefinitionBase, CdmReferencesEntities
 ```
+*CdmAttributeGroupDefinition extends CdmObjectDefinition, CdmReferencesEntities in Python.*
 
 ## Constructors
 |Name|Description|

@@ -11,12 +11,13 @@ ms.author: jinichu
 
 # Attribute Item
 
-An attribute item represents the base interface for a generic attribute that could be a [type attribute](typeattribute.md) or an [entity attribute](entityattribute.md).
+An attribute item represents the base interface/class for a generic attribute that could be a [type attribute](typeattribute.md) or an [entity attribute](entityattribute.md).
 
 TODO: Delete CdmReferencesEntities once removed
 ```
 public interface CdmAttributeItem extends CdmObject, CdmReferencesEntities
 ```
+*CdmAttributeItem is a class in Python.*
 
 ## Properties
 |Name|Type|Description|

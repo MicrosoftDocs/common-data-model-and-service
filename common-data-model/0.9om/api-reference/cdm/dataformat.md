@@ -13,6 +13,7 @@ ms.author: jinichu
 
 An enum class containing the data formats. 
 
+C#, Python:
 ```
 public enum CdmDataFormat
 {
@@ -34,6 +35,27 @@ public enum CdmDataFormat
     Boolean,
     Decimal,
     Json
+}
+```
+
+Java:
+```
+public enum CdmDataFormat {
+    INTEGER("is.dataFormat.integer"),
+    NUMERIC_SHAPED("is.dataFormat.numeric.shaped"),
+    BOOLEAN("is.dataFormat.boolean"),
+    SMALL("is.dataFormat.small"),
+    BIG("is.dataFormat.big"),
+    FLOATING_POINT("is.dataFormat.floatingPoint"),
+    CHARACTER("is.dataFormat.character"),
+    ARRAY("is.dataFormat.array"),
+    GUID("is.dataFormat.guid"),
+    BYTE("is.dataFormat.byte"),
+    TIME("is.dataFormat.time"),
+    DATE("is.dataFormat.date"),
+    DATETIME_OFFSET("is.dataFormat.timeOffset"),
+    JSON("means.content.text.JSON"),
+    DEFAULT("default");
 }
 ```
 

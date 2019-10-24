@@ -17,6 +17,7 @@ TODO: Remove CdmReferencesEntities inheritence once CdmReferencesEntities is del
 ```
 public class CdmEntityDefinition extends CdmObjectDefinitionBase, CdmReferencesEntities
 ```
+*CdmEntityDefinition extends CdmObjectDefinition, CdmReferencesEntities in Python.*
 
 ## Constructors
 |Name|Description|

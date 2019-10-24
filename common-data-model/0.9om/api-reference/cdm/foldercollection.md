@@ -14,7 +14,7 @@ ms.author: jinichu
 A folder collection extends [Collection](collection.md) and adds additional behaviors specific to folder collections. It is used only for the *ChildFolders* property in [Folder](folder.md) and not for any other folder collections.
 
 ```
-public class CdmFolderCollection : CdmCollection<CdmFolderDefinition>
+public class CdmFolderCollection extends CdmCollection<CdmFolderDefinition>
 ```
 
 ## Constructors

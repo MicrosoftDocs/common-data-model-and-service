@@ -58,6 +58,8 @@
             href: 0.9om/api-reference/cdm/datatype.md
           - name: Document
             href: 0.9om/api-reference/cdm/document.md
+          - name: Document Collection
+            href: 0.9om/api-reference/cdm/documentcollection.md
           - name: E2E Relationship
             href: 0.9om/api-reference/cdm/e2erelationship.md
           - name: Entity Attribute
@@ -70,6 +72,8 @@
             href: 0.9om/api-reference/cdm/entity.md
           - name: Folder
             href: 0.9om/api-reference/cdm/folder.md
+          - name: Folder Collection
+            href: 0.9om/api-reference/cdm/foldercollection.md
           - name: Import
             href: 0.9om/api-reference/cdm/import.md
           - name: Local Entity Declaration
@@ -98,6 +102,8 @@
             href: 0.9om/api-reference/cdm/statuslevel.md
           - name: Trait 
             href: 0.9om/api-reference/cdm/trait.md
+          - name: Trait Collection 
+            href: 0.9om/api-reference/cdm/traitcollection.md
           - name: Trait Reference
             href: 0.9om/api-reference/cdm/traitreference.md
           - name: Type Attribute

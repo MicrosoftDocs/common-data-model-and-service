@@ -16,6 +16,7 @@ A data partition pattern provides a way of selecting/generating a set of partiti
 ```
 CdmDataPartitionPatternDefinition extends CdmObjectDefinitionBase, CdmFileStatus
 ```
+*CdmDataPartitionPatternDefinition extends CdmObjectDefinition, CdmFileStatus in Python.*
 
 ## Constructors
 |Name|Description|

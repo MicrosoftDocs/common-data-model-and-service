@@ -16,6 +16,7 @@ A data partition is an object pointing to a location of entity-related data.
 ```
 public class CdmDataPartitionDefinition extends CdmObjectDefinitionBase, CdmFileStatus
 ```
+*CdmDataPartitionDefinition extends CdmObjectDefinition, CdmFileStatus in Python.*
 
 ## Constructors
 |Name|Description|
@@ -30,7 +31,7 @@ public class CdmDataPartitionDefinition extends CdmObjectDefinitionBase, CdmFile
 |Location|string|The data partition's location.|
 |Inferred|bool|Denotes whether the data partition was created from a data partition pattern.|
 |Arguments|Dictionary\<string, List\<string>>|The list of key-value pairs to give names for the replacement values from the regex.|
-|SpecializedSchema|string|The path for the specialized schema to use specifically for the data partitions generated (e.g. *CSV*).|
+|SpecializedSchema|string|The path of the specialized schema to use specifically for the data partitions generated (e.g. *CSV*).|
 |RefreshTime|DateTime?|The data partition's refresh time.|
 |LastFileStatusCheckTime|DateTimeOffset?|The last time the modified time was checked for this file.|
 |LastFileModifiedTime|DateTimeOffset?|The last time this file was modified according to the OM.|

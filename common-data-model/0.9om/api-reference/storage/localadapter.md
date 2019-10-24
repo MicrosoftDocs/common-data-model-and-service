@@ -16,6 +16,7 @@ The local adapter is the storage adapter that is used to interact with data on t
 ```
 public class LocalAdapter extends StorageAdapter
 ```
+*LocalAdapter extends StorageAdapterBase in Python.*
 
 ## Constructors
 |Name|Description|

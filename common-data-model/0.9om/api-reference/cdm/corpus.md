@@ -11,7 +11,7 @@ ms.author: jinichu
 
 # Corpus
 
-The corpus is a top-level folder that the most important basic functionalities to deal with the object model. There will usually only be one corpus when dealing with the OM.
+The corpus is a top-level folder that provides the most important basic functionalities to deal with the object model. There will usually only be one corpus when dealing with the OM.
 
 ```
 public class CdmCorpusDefinition extends CdmFolderDefinition

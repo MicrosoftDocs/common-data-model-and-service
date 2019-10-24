@@ -11,7 +11,7 @@ ms.author: jinichu
 
 # Event Callback
 
-The event callback represents the callback object used in *CdmCorpusDefinition.SetEventCallback(...)*.
+The event callback represents the callback object used in [CdmCorpusDefinition.SetEventCallback(...)](../cdm/corpus.md#methods). This class only exists in C#.
 
 TODO: Update once class is renamed to EventCallback
 ```

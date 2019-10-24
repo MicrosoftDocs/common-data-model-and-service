@@ -11,11 +11,12 @@ ms.author: jinichu
 
 # Entity Declaration
 
-An entity declaration is an interface that provides a simple functionality that is extended by a [local entity declaration](localentitydeclaration.md) and a [referenced entity declaration](referencedentitydeclaration.md).
+An entity declaration is an interface/class that provides a simple functionality that is extended by a [local entity declaration](localentitydeclaration.md) and a [referenced entity declaration](referencedentitydeclaration.md).
 
 ```
 public interface CdmEntityDeclarationDefinition extends CdmObjectDefinition, CdmFileStatus
 ```
+*CdmEntityDeclarationDefinition is a class in Python.*
 
 ## Properties
 |Name|Type|Description|

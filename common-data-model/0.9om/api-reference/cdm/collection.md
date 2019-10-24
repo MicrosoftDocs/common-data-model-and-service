@@ -14,7 +14,7 @@ ms.author: jinichu
 A collection holds a set of [CDM objects](cdmobject.md) and provides easier handling of them.
 
 ```
-public class CdmCollection<CdmObject> extends IList<CdmObject> 
+public class CdmCollection<CdmObject> extends List<CdmObject> 
 ```
 
 ## Constructors

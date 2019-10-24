@@ -18,6 +18,7 @@ The Github adapter is the storage adapter that points to the CDM public standard
 ```
 public class GithubAdapter extends NetworkAdapter, StorageAdapter
 ```
+*GithubAdapter extends NetworkAdapter, StorageAdapterBase in Python.*
 
 ## Constructors
 |Name|Description|

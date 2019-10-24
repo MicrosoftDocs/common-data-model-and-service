@@ -16,6 +16,7 @@ The ADLS adapter is the storage adapter that is used to interact with data on Az
 ```
 public class ADLSAdapter extends NetworkAdapter, StorageAdapter
 ```
+*ADLSAdapter extends NetworkAdapter, StorageAdapterBase in Python.*
 
 ## Constructors
 |Name|Description|

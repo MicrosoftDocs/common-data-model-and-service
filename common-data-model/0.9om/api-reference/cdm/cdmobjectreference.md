@@ -11,11 +11,12 @@ ms.author: jinichu
 
 # CdmObject Reference
 
-This is the base interface for all CDM object references. It is extended by *CdmObjectReferenceBase, CdmAttributeContextReference, CdmAttributeGroupReference, CdmAttributeReference, CdmDataTypeReference, CdmEntityReference*, and *CdmPurposeReference*.
+This is the base interface/class for all CDM object references. It is extended by *CdmObjectReferenceBase* (in C# and Java), *CdmAttributeContextReference, CdmAttributeGroupReference, CdmAttributeReference, CdmDataTypeReference, CdmEntityReference*, and *CdmPurposeReference*.
 
 ```
 public interface CdmObjectReference extends CdmObject
 ```
+*CdmObjectReference is a class in Python.*
 
 ## Properties
 |Name|Type|Description|

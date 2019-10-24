@@ -11,11 +11,12 @@ ms.author: jinichu
 
 # CdmObject
 
-This is the base interface for all CDM interfaces. It is extended by *CdmObjectBase* and *CdmObjectDefinitionBase*.
+This is the base interface/class for all CDM interfaces. It is extended by *CdmObjectBase* and *CdmObjectDefinitionBase* in C# and Java.
 
 ```
 public interface CdmObject
 ```
+*CdmObject is a class in Python.*
 
 ## Properties
 |Name|Type|Description|

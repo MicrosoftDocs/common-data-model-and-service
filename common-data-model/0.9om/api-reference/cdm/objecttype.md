@@ -49,4 +49,5 @@ public enum CdmObjectType
 }
 ```
 
+*Python does not include ManifestDeclarationDef.*
 

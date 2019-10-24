@@ -17,6 +17,7 @@ TODO: Update after CdmContainerDefinition is replaced by some intermediate base 
 ```
 public class CdmFolderDefinition extends CdmObjectDefinitionBase, CdmContainerDefinition
 ```
+*CdmFolderDefinition extends CdmObjectDefinition, CdmContainerDefinition in Python.*
 
 ## Constructors
 |Name|Description|
@@ -35,7 +36,7 @@ public class CdmFolderDefinition extends CdmObjectDefinitionBase, CdmContainerDe
 |---|---|---|
 |TODO: Remove after CdmFolderCollection is created<br/>**AddChildFolder(string)**<br/>*name*: The name of the folder.|Adds a child folder to the current folder and returns the newly added folder.|[CdmFolderDefinition](folder.md)|
 |TODO: Remove after CdmDocumentCollection is created<br/>**AddDocument(string, [CdmDocumentDefinition](document.md))**<br />*name*: The name of the document.<br/>*doc*: The document to add.|Adds a child document to the current folder and returns the newly added document.|[CdmDocumentDefinition](document.md)|
-|TODO: Remove after CdmDocumentCollection is created<br/>**RemoveDocument(string)**<br/>*name*: The name of the document.|Removes the document with the specified name from the folder.|void|
+|TODO: Remove after CdmDocumentCollection is created<br/>**RemoveDocument(string)**<br/>*name*: The name of the document.|Removes the document with the specified name from the current folder.|void|
 |**FetchObjectDefinition\<T>([ResolveOptions](../utilities/resolveoptions.md))**|See [CdmObject.FetchObjectDefinition\<T>(...)](cdmobject.md#methods).|T|
 |**GetName()**|See [CdmObjectDefinition.GetName()](cdmobjectdefinition.md#methods).|string|
 |**IsDerivedFrom(string, [ResolveOptions](../utilities/resolveoptions.md))**|See [CdmObject.IsDerivedFrom(...)](cdmobject.md#methods).|bool|

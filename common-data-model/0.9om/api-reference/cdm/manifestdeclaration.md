@@ -16,6 +16,7 @@ A manifest declaration is a declaration for the CDM manifest format.
 ```
 public class CdmManifestDeclarationDefinition extends CdmObjectDefinitionBase, CdmFileStatus
 ```
+*CdmManifestDeclarationDefinition extends CdmObjectDefinition, CdmFileStatus in Python.*
 
 ## Constructors
 |Name|Description|

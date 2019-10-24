@@ -16,6 +16,7 @@ An attribute context provides more insight into an attribute's relationship (chi
 ```
 public class CdmAttributeContext extends CdmObjectDefinitionBase
 ```
+*CdmAttributeContext extends CdmObjectDefinition in Python.*
 
 ## Constructors
 |Name|Description|

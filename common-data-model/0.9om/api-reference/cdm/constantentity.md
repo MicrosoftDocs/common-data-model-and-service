@@ -16,6 +16,7 @@ A constant entity provides a way of making an [entity](entity.md) with records o
 ```
 public class CdmConstantEntityDefinition extends CdmObjectDefinitionBase
 ```
+*CdmConstantEntityDefinition extends CdmObjectDefinition in Python.*
 
 ## Constructors
 |Name|Description|
