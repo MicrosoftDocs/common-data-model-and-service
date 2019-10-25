@@ -11,7 +11,7 @@ ms.author: jinichu
 
 # StorageAdapter
 
-This is the base interface/class for an adapter object that can read and write documents to and from a data source. It allows a user to interact with data from multiple data sources without having to manually copy data to the location where the CDM object model is running. This interface also allows users to create their own adapter, if needed.
+This is the base for an adapter object that can read and write documents to and from a data source. It allows a user to interact with data from multiple data sources without having to manually copy data to the location where the CDM object model is running. This interface also allows users to create their own adapter, if needed.
 
 ```
 public interface StorageAdapter
@@ -21,8 +21,8 @@ public interface StorageAdapter
 ## Methods
 |Name|Description|Return Type|
 |---|---|---|
-|**CanRead()**|Returns true if the adapter can read data, false otherwise.|boolean|
-|**CanWrite()**|Returns true if the adapter can write data to its source, false otherwise.|boolean|
+|**CanRead()**|Returns true if the adapter can read data, false otherwise.|bool|
+|**CanWrite()**|Returns true if the adapter can write data to its source, false otherwise.|bool|
 |**ReadAsync(string)**<br/>*corpusPath*: The corpus path.|Returns the object data that exists at the specified path as a string.|Task\<string>|
 |**WriteAsync(string, dynamic)**<br/>*corpusPath*: The corpus path.<br/>*data*: The object data.|Writes the object data to the specified document path.|Task|
 |**CreateAdapterPath(string)**<br/>*corpusPath*: The corpus path.|Converts the specified corpus path into a path in the domain of this adapter. Returns the adapter path.|string|

@@ -28,12 +28,12 @@ public class CdmCollection<CdmObject> extends List<CdmObject>
 |Count<br/>(*Length* in Java and Python)|int|The number of items in the CDM collection.|
 
 ## Methods
-There are additional methods and properties in this class that just extend IList\<T> methods/properties. These are: *this[...], AddRange(...), IndexOf(...), Insert(...), RemoveAt(...), Clear(), Contains(...), CopyTo(...), GetEnumerator(...),* and *IsReadOnly*. 
+There are additional methods and properties in this class that just extend List\<T> methods/properties. These are: *this[...], AddRange(...), IndexOf(...), Insert(...), RemoveAt(...), Clear(), Contains(...), CopyTo(...), GetEnumerator(...),* and *IsReadOnly*. 
 
 |Name|Description|Return Type|
 |---|---|---|
-|**Add(string, bool)**<br/>*name*: The name of the CDM object that is being added to the collection.<br/>*simpleRef [optional]*: A boolean that denotes whether we want a reference to be a simple reference, if we are adding one. The default value is false.|Adds a CDM object of a default type (the default type can be set in the property) with the given name to the collection.|void|
+|**Add(string, bool)**<br/>*name*: The name of the CDM object that is being added to the collection.<br/>*simpleRef [optional]*: A boolean that denotes whether we want a reference to be a simple reference, if we are adding one. The default value is false.|Adds a CDM object of a default type (the default type can be set in the property) with the given name to the collection. Returns the CDM object that was added to the collection.|T|
 |**Add(T)**<br />*currObject*: The CDM object to add to the collection.|Adds the specified CDM object to the collection.	|void|
-|**Remove(T)**<br/>*currObject*: The CDM object to remove from the collection.|Removes the specified CDM object from the collection.|boolean|
+|**Remove(T)**<br/>*currObject*: The CDM object to remove from the collection.|Removes the specified CDM object from the collection. Returns true if the operation is successful, false otherwise.|bool|
 |**Item(string)**<br />*name*: The name of the CDM object to fetch.|Retrieves the CDM object with the specified name.|T|
 |**Copy([ResolveOptions](../utilities/resolveoptions.md))**<br/>*resOpt*: The resolve options.|Creates a copy of the current CDM collection.|[CdmCollection\<T>](collection.md)|

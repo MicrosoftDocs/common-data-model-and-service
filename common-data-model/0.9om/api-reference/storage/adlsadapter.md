@@ -37,8 +37,8 @@ public class ADLSAdapter extends NetworkAdapter, StorageAdapter
 ## Methods
 |Name|Description|Return Type|
 |---|---|---|
-|**CanRead()**|Returns true, since the ADLS adapter can read data.|boolean|
-|**CanWrite()**|Returns true, since the ADLS adapter can write data to its source.|boolean|
+|**CanRead()**|Returns true, since the ADLS adapter can read data.|bool|
+|**CanWrite()**|Returns true, since the ADLS adapter can write data to its source.|bool|
 |**ReadAsync(string)**|See [StorageAdapter.ReadAsync(...)](storageadapter.md#methods).|Task\<string>|
 |**WriteAsync(string, dynamic)**|See [StorageAdapter.WriteAsync(...)](storageadapter.md#methods).|Task|
 |**CreateAdapterPath(string)**|See [StorageAdapter.CreateAdapterPath(...)](storageadapter.md#methods).|string|

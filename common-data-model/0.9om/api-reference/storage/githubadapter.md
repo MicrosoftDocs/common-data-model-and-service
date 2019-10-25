@@ -28,8 +28,8 @@ public class GithubAdapter extends NetworkAdapter, StorageAdapter
 ## Methods
 |Name|Description|Return Type|
 |---|---|---|
-|**CanRead()**|Returns true, since the Github adapter can read data.|boolean|
-|**CanWrite()**|Returns false, since the Github adapter cannot write data to its source.|boolean|
+|**CanRead()**|Returns true, since the Github adapter can read data.|bool|
+|**CanWrite()**|Returns false, since the Github adapter cannot write data to its source.|bool|
 |**ReadAsync(string)**|See [StorageAdapter.ReadAsync(...)](storageadapter.md#methods).|Task\<string>|
 |**WriteAsync(string, dynamic)**|See [StorageAdapter.WriteAsync(...)](storageadapter.md#methods). Throws a *NotImplementedException* because the Github adapter cannot write to its source.|Task|
 |**CreateAdapterPath(string)**|See [StorageAdapter.CreateAdapterPath(...)](storageadapter.md#methods).|string|

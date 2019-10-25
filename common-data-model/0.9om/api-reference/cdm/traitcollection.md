@@ -26,4 +26,3 @@ public class CdmTraitCollection extends CdmCollection<CdmTraitReference>
 |Name|Description|Return Type|
 |---|---|---|
 |TODO|
-

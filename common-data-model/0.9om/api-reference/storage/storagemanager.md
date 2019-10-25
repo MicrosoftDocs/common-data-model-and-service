@@ -25,16 +25,16 @@ public class StorageManager
 ## Properties
 |Name|Type|Description|
 |---|---|---|
+|DefaultNamespace|string|The namespace that will be used when one is not explicitly provided.|
 |DefaultGithubAdapter|[GithubAdapter](githubadapter.md)|The default Github adapter.|
 |DefaultLocalAdapter|[LocalAdapter](localadapter.md)|The default local adapter.|
-|TODO: Update once NamespaceAdapter and DefaultNamespace get added.||
+|NamespaceAdapters|IDictionary\<string, [StorageAdapter](storageadapter.md)>|The dictionary of registered namespaces to storage adapters.|
 
 ## Methods
 |Name|Description|Return Type|
 |---|---|---|
 |**Mount(string, [StorageAdapter](storageadapter.md))**<br/>*nameSpace*: The namespace.<br/>*adapter*: The storage adapter.|Mounts a namespace to the specified adapter.|void|
-|**Unmount(string)**<br/>*nameSpace*: The namespace.|Unmounts a namespace. Returns true if the unmount is successful, false otherwise.|boolean|
-|TODO: Update after this method gets removed<br/>**SetAdapter(string, [StorageAdapter](storageadapter.md))**<br/>*nameSpace*: The namespace.<br/>*adapter*: The storage adapter to set.|Allows the replacement of a storage adapter with another one for testing, leaving folders intact.|void|
+|**Unmount(string)**<br/>*nameSpace*: The namespace.|Unmounts a namespace. Returns true if the unmount is successful, false otherwise.|bool|
 |**FetchAdapter(string)**<br/>*nameSpace*: The namespace.|Retrieves the adapter for the specified namespace.|[StorageAdapter](storageadapter.md)|
 |**FetchRootFolder(string)**<br/>*nameSpace*: The namespace.|Given the namespace of a registered stoarge adapter, returns the root folder containing the sub-folders and documents.|[CdmFolderDefinition](../cdm/folder.md)|
 |**AdapterPathToCorpusPath(string)**<br/>*adapterPath*: The path.|Takes the specified storage adapter domain path, figures out the right adapter to use, and then returns a corpus path.|string|

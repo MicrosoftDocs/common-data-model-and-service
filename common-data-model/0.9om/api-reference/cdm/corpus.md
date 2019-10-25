@@ -25,7 +25,7 @@ public class CdmCorpusDefinition extends CdmFolderDefinition
 ## Properties
 |Name|Type|Description|
 |---|---|---|
-|TODO: Update once DefaultNamespace gets moved to StorageManger<br/>DefaultNamespace|string|The namespace that will be used when one is not explicitly provided.|
+|RootPath|string|The root path of the corpus.|
 |Storage|[StorageManager](../storage/storagemanager.md)|The storage for the corpus. Used for interacting with storage adapters.|
 
 ## Methods

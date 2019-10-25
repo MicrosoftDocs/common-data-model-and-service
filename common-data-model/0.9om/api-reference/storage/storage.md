@@ -27,4 +27,4 @@ TODO: Description
 ## Interfaces
 |Name|Description|
 |---|---|
-|[Storage Adapter](storageadapter.md)|The base interface for an adapter object that can read and write documents to and from a data source. It allows a user to interact with data from multiple data sources without having to manually copy data to the location where the CDM object model is running. This interface also allows users to create their own adapter, if needed.|
+|[Storage Adapter](storageadapter.md)|The base for an adapter object that can read and write documents to and from a data source. It allows a user to interact with data from multiple data sources without having to manually copy data to the location where the CDM object model is running. This interface also allows users to create their own adapter, if needed.|
