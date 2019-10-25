@@ -42,6 +42,14 @@
             href: 0.9om/api-reference/cdm/attributeitem.md
           - name: Attribute Resolution Guidance
             href: 0.9om/api-reference/cdm/attributeresolutionguidance.md
+          - name: CdmObject
+            href: 0.9om/api-reference/cdm/cdmobject.md
+          - name: CdmObject Definition
+            href: 0.9om/api-reference/cdm/cdmobjectdefinition.md
+          - name: CdmObject Reference
+            href: 0.9om/api-reference/cdm/cdmobjectreference.md
+          - name: CdmObject Type
+            href: 0.9om/api-reference/cdm/objecttype.md
           - name: Collection
             href: 0.9om/api-reference/cdm/collection.md
           - name: Constant Entity
@@ -62,14 +70,14 @@
             href: 0.9om/api-reference/cdm/documentcollection.md
           - name: E2E Relationship
             href: 0.9om/api-reference/cdm/e2erelationship.md
+          - name: Entity
+            href: 0.9om/api-reference/cdm/entity.md
           - name: Entity Attribute
             href: 0.9om/api-reference/cdm/entityattribute.md
           - name: Entity Collection
             href: 0.9om/api-reference/cdm/entitycollection.md
           - name: Entity Declaration
             href: 0.9om/api-reference/cdm/entitydeclaration.md
-          - name: Entity
-            href: 0.9om/api-reference/cdm/entity.md
           - name: Folder
             href: 0.9om/api-reference/cdm/folder.md
           - name: Folder Collection
@@ -78,18 +86,10 @@
             href: 0.9om/api-reference/cdm/import.md
           - name: Local Entity Declaration
             href: 0.9om/api-reference/cdm/localentitydeclaration.md
-          - name: Manifest Declaration
-            href: 0.9om/api-reference/cdm/manifestdeclaration.md
           - name: Manifest
             href: 0.9om/api-reference/cdm/manifest.md
-          - name: CdmObject
-            href: 0.9om/api-reference/cdm/cdmobject.md
-          - name: CdmObject Definition
-            href: 0.9om/api-reference/cdm/cdmobjectdefinition.md
-          - name: CdmObject Reference
-            href: 0.9om/api-reference/cdm/cdmobjectreference.md
-          - name: CdmObject Type
-            href: 0.9om/api-reference/cdm/objecttype.md
+          - name: Manifest Declaration
+            href: 0.9om/api-reference/cdm/manifestdeclaration.md
           - name: Parameter
             href: 0.9om/api-reference/cdm/parameter.md
           - name: Purpose

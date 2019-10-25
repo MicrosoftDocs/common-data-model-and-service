@@ -29,7 +29,7 @@ public class CdmEntityDefinition extends CdmObjectDefinitionBase, CdmReferencesE
 |---|---|---|
 |EntityName|string|The entity's name.|
 |ExtendsEntity|CdmEntityReference|The entity extended by this entity.|
-|Attributes|[CdmCollection](collection.md)\<[CdmAttributeItem](attributeitem.md)>|The list of attributes for this entity.|
+|Attributes|[CdmCollection](collection.md)\<[CdmAttributeItem](attributeitem.md)>|The collection of attributes for this entity.|
 |AttributeContext|[CdmAttributeContext](attributecontext.md)|The entity's attribute context.|
 |DisplayName|string|The entity's display name.|
 |SourceName|string|The entity's source name - the original entity name from another source system (e.g. *Dynamics*).|

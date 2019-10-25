@@ -29,7 +29,7 @@ public class CdmAttributeGroupDefinition extends CdmObjectDefinitionBase, CdmRef
 |---|---|---|
 |AttributeGroupName|string|The attribute group's name.|
 |AttributeContext|CdmAttributeContextReference|The attribute group context.|
-|Members|[CdmCollection](collection.md)\<[CdmAttributeItem](attributeitem.md)>|The list of attribute items for the attribute group.|
+|Members|[CdmCollection](collection.md)\<[CdmAttributeItem](attributeitem.md)>|The collection of attribute items for the attribute group.|
 
 ## Methods
 |Name|Description|Return Type|

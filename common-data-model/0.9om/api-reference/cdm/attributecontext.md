@@ -27,7 +27,7 @@ public class CdmAttributeContext extends CdmObjectDefinitionBase
 |Name|Type|Description|
 |---|---|---|
 |Name|string|The attribute context's name.|
-|Contents|[CdmCollection](collection.md)\<[CdmObject](cdmobject.md)>|The attribute context's content list.|
+|Contents|[CdmCollection](collection.md)\<[CdmObject](cdmobject.md)>|The attribute context's content collection.|
 |Definition|[CdmObjectReference](cdmobjectreference.md)|The reference to the object this attribute context was defined from.|
 |Parent|[CdmObjectReference](cdmobjectreference.md)|The attribute context's parent.|
 |Type|[CdmAttributeContextType?](attributecontexttype.md)|The attribute context's type.|

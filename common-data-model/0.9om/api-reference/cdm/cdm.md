@@ -17,7 +17,7 @@ The hierarchical structure of the CDM object model:
 
 ![OM Hierarchy](omhierarchy.png)
 
-The CDM object model (OM) provides two types of classes: definition classes and reference classes. It also contains some interfaces. Since the OM is heavily interconnected and different concepts have different interactions amongst each other, the OM introduces reference classes in order to be able to easily reference different concepts without actually encapsulating them. Every reference class has its own corresponding definition class, and they are closely correlated. 
+The CDM object model (OM) provides two types of classes: definition classes and reference classes. Since the OM is heavily interconnected and different concepts have different interactions amongst each other, the OM introduces reference classes in order to be able to easily reference different concepts without actually encapsulating them. Every reference class has its own corresponding definition class, and they are closely correlated. 
 
 ## Definition Classes
 
@@ -26,7 +26,10 @@ The CDM object model (OM) provides two types of classes: definition classes and 
 |[Argument](argument.md)|Exists inside [trait references](traitreference.md) and provides name/value pairs for a specific trait reference. Arguments give life to traits by enabling them to actually contain some specific data.|
 |[Attribute Context](attributecontext.md)|Provides more insight into an attribute's (child/parent) relationship. It is heavily used during an entity's attribute resolution and can contain the history of all changes that lead to an attribute's resolution. Resolved concepts, such as resolved attributes, can contain attribute contexts to provide more insights into the original, non-resolved hierarchic attributes.|
 |[Attribute Group](attributegroup.md)|Represents a group of [attribute items](attributeitem.md) that provide a similar role.|
+|[Attribute Item](attributeitem.md)|Represents the base for a generic attribute that could be a [type attribute](typeattribute.md) or an [entity attribute](entityattribute.md).|
 |[Attribute Resolution Guidance](attributeresolutionguidance.md)|Provides properties that help with the resolution process of [entities](entity.md), attributes, and other resolvable CDM concepts.|
+|[CdmObject](cdmobject.md)|Represents the base for all CDM objects.|
+|[CdmObject Definition](cdmobjectdefinition.md)|Represents the base for all CDM object definitions.|
 |[Collection](collection.md)|Holds a set of [CDM objects](cdmobject.md) and provides easier handling of them.|
 |[Constant Entity](constantentity.md)|Provides a way of making an [entity](entity.md) with records of data in it and an associated schema in a JSON file. We use these whenever we want to store some table of information inside a parameter of a [trait](trait.md). They show up in the enum definitions, in the localized display text, etc.|
 |[Corpus](corpus.md)|Provides the most important basic functionalities to deal with the object model. There will usually only be one corpus when dealing with the OM.|
@@ -36,15 +39,16 @@ The CDM object model (OM) provides two types of classes: definition classes and 
 |[Document](document.md)|Enables the OM to have a persisted state. Every document can contain different CDM definitions, such as [entities](entity.md), [data partitions](datapartition.md), or attributes.|
 |[Document Collection](documentcollection.md)|Extends [Collection](collection.md) and adds additional behaviors specific to document collections.|
 |[E2E Relationship](e2erelationship.md)|A relationship between two entities' attributes.|
+|[Entity](entity.md)|Provides a concrete placeholder for a user to attach certain information to a concept. It is a collection of attributes that creates some semantic meaning of why these attributes exist together. Since entities can inherit from other entities, it is possible for them to represent a hierarchical structure. The hierarchical structure can also be removed from the entities by resolving them.|
 |[Entity Attribute](entityattribute.md)|An attribute that also points to an [entity](entity.md).|
 |[Entity Collection](entitycollection.md)|Extends [Collection](collection.md) and adds additional behaviors specific to entity collections.|
-|[Entity](entity.md)|Provides a concrete placeholder for a user to attach certain information to a concept. It is a collection of attributes that creates some semantic meaning of why these attributes exist together. Since entities can inherit from other entities, it is possible for them to represent a hierarchical structure. The hierarchical structure can also be removed from the entities by resolving them.|
+|[Entity Declaration](entitydeclaration.md)|Provides a simple functionality that is extended by a [local entity declaration](localentitydeclaration.md) and a [referenced entity declaration](referencedentitydeclaration.md).|
 |[Folder](folder.md)|Provides a hierarchical structure of the OM for organizing documents. Folders can contain other folders or documents.|
 |[Folder Collection](foldercollection.md)|Extends [Collection](collection.md) and adds additional behaviors specific to folder collections. It is used only for the *ChildFolders* property in [Folder](folder.md) and not for any other folder collections.|
 |[Import](import.md)|Used by documents to provide the files and documents that need to be imported first.|
 |[Local Entity Declaration](localentitydeclaration.md)|A declaration of an entity that resides locally and has associated [data partitions](datapartition.md).|
-|[Manifest Declaration](manifestdeclaration.md)|A declaration for the CDM manifest format.|
 |[Manifest](manifest.md)|A top-level document with the extension '.manifest.cdm.json'. A manifest can reference different documents (e.g. reference documents with the extension '.cdm.json' that contain entities).|
+|[Manifest Declaration](manifestdeclaration.md)|A declaration for the CDM manifest format.|
 |[Parameter](parameter.md)|Provides the ability to specify the parameters that a trait should contain. By providing a name, default values, and supported data types, trait references become restricted by which arguments they can contain. Parameters are defined for traits in the *CDM.SchemaDocuments* repository.|
 |[Purpose](purpose.md)|Provides an attribute with what it does for an entity *(e.g. SortedBy, NamedBy)*.|
 |[Referenced Entity Declaration](referencedentitydeclaration.md)|A declaration of an entity that resides in a remote location.|
@@ -59,23 +63,17 @@ All reference objects extend from the [CdmObject Reference](cdmobjectreference.m
 
 |Name|Description|
 |---|---|
+|[CdmObject Reference](cdmobjectreference.md)|Represents the base for all CDM object references.|
 |[Trait Reference](traitreference.md)|The reference class for [traits](trait.md).|
 
-
-## Interfaces
-|Name|Description|
-|---|---|
-|[Attribute Item](attributeitem.md)|Represents the base interface for a generic attribute that could be a [type attribute](typeattribute.md) or an [entity attribute](entityattribute.md).|
-|[Entity Declaration](entitydeclaration.md)|Provides a simple functionality that is extended by a [local entity declaration](localentitydeclaration.md) and a [referenced entity declaration](referencedentitydeclaration.md).|
-|[CdmObject](cdmobject.md)|Represents the base interface for all CDM interfaces.|
-|[CdmObject Definition](cdmobjectdefinition.md)|Represents the base interface for all CDM object definitions.|
-|[CdmObject Reference](cdmobjectreference.md)|Represents the base interface for all CDM object references.|
 
 ## Enum Classes
 |Name|Description|
 |---|---|
-|[Status Level](statuslevel.md)|The status levels that could be reported at.|
-|[Data Format](dataformat.md)|The data formats.|
+|[Attribute Context Type](attributecontexttype.md)|The attribute context types.| 
 |[CdmObject Type](objecttype.md)|The CDM object types.|
-|[Attribute Context Type](attributecontexttype.md)|The attribute context types.|
+|[Data Format](dataformat.md)|The data formats.|
 |[Relationship Discovery Style](relationshipdiscoverystyle.md)|The types of relationships we want populated in a manifest.|
+|[Status Level](statuslevel.md)|The status levels that could be reported at.|
+
+

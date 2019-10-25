@@ -11,7 +11,7 @@ ms.author: jinichu
 
 # CdmObject
 
-This is the base interface/class for all CDM interfaces. It is extended by *CdmObjectBase* and *CdmObjectDefinitionBase* in C# and Java.
+This is the base for all CDM objects. It is extended by *CdmObjectBase* and *CdmObjectDefinitionBase* in C# and Java.
 
 ```
 public interface CdmObject

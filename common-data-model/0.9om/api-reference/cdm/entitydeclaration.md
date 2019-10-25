@@ -11,7 +11,7 @@ ms.author: jinichu
 
 # Entity Declaration
 
-An entity declaration is an interface/class that provides a simple functionality that is extended by a [local entity declaration](localentitydeclaration.md) and a [referenced entity declaration](referencedentitydeclaration.md).
+An entity declaration provides a simple functionality that is extended by a [local entity declaration](localentitydeclaration.md) and a [referenced entity declaration](referencedentitydeclaration.md).
 
 ```
 public interface CdmEntityDeclarationDefinition extends CdmObjectDefinition, CdmFileStatus
