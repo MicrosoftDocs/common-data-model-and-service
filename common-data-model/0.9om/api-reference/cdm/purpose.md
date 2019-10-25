@@ -22,7 +22,7 @@ public class CdmPurposeDefinition extends CdmObjectDefinitionBase
 ## Constructors
 |Name|Description|
 |---|---|
-|TODO: Update once exhibitsTraits is removed and extendsPurpose is optional<br/>**CdmPurposeDefinition(CdmCorpusContext, string, CdmPurposeReference, bool)**<br/>*ctx*: The corpus context.<br/>*purposeName*: The purpose's name.<br/>*extendsPurpose*: The reference to the purpose extended by this purpose.<br/>*exhibitsTraits [optional]*: TODO. The default value is false.|Initializes a new instance of the [CdmPurposeDefinition](purpose.md) class.|
+|**CdmPurposeDefinition(CdmCorpusContext, string, CdmPurposeReference)**<br/>*ctx*: The corpus context.<br/>*purposeName*: The purpose's name.<br/>*extendsPurpose [optional]*: The reference to the purpose extended by this purpose.|Initializes a new instance of the [CdmPurposeDefinition](purpose.md) class.|
 
 ## Properties
 |Name|Type|Description|

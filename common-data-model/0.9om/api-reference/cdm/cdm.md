@@ -24,6 +24,7 @@ The CDM object model (OM) provides two types of classes: definition classes and 
 |Name|Description|
 |---|---|
 |[Argument](argument.md)|Exists inside [trait references](traitreference.md) and provides name/value pairs for a specific trait reference. Arguments give life to traits by enabling them to actually contain some specific data.|
+|[Argument Collection](argumentcollection.md)|Extends [Collection](collection.md) and adds additional behaviors specific to argument collections.|
 |[Attribute Context](attributecontext.md)|Provides more insight into an attribute's (child/parent) relationship. It is heavily used during an entity's attribute resolution and can contain the history of all changes that lead to an attribute's resolution. Resolved concepts, such as resolved attributes, can contain attribute contexts to provide more insights into the original, non-resolved hierarchic attributes.|
 |[Attribute Group](attributegroup.md)|Represents a group of [attribute items](attributeitem.md) that provide a similar role.|
 |[Attribute Item](attributeitem.md)|Represents the base for a generic attribute that could be a [type attribute](typeattribute.md) or an [entity attribute](entityattribute.md).|

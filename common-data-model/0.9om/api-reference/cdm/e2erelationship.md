@@ -21,7 +21,7 @@ public class CdmE2ERelationship extends CdmObjectDefinitionBase
 ## Constructors
 |Name|Description|
 |---|---|
-|TODO: Update once exhibitsTraits is removed<br/>**CdmE2ERelationship(CdmCorpusContext, string, bool)**<br/>*ctx*: The corpus context.<br/>*name*: The relationship's name.<br/>*exhibitsTraits*: TODO|Initializes a new instance of the [CdmE2ERelationship](e2erelationship.md) class.|
+|**CdmE2ERelationship(CdmCorpusContext, string)**<br/>*ctx*: The corpus context.<br/>*name*: The relationship's name.|Initializes a new instance of the [CdmE2ERelationship](e2erelationship.md) class.|
 
 ## Properties
 |Name|Type|Description|

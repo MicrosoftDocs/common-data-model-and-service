@@ -13,7 +13,6 @@ ms.author: jinichu
 
 An attribute item represents the base for a generic attribute that could be a [type attribute](typeattribute.md) or an [entity attribute](entityattribute.md).
 
-TODO: Delete CdmReferencesEntities once removed
 ```
 public interface CdmAttributeItem extends CdmObject, CdmReferencesEntities
 ```

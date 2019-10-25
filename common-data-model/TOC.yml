@@ -32,6 +32,8 @@
             href: 0.9om/api-reference/cdm/cdm.md
           - name: Argument
             href: 0.9om/api-reference/cdm/argument.md
+          - name: Argument Collection
+            href: 0.9om/api-reference/cdm/argumentcollection.md
           - name: Attribute Context
             href: 0.9om/api-reference/cdm/attributecontext.md
           - name: Attribute Context Type

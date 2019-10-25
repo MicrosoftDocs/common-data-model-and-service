@@ -20,7 +20,7 @@ public class CdmManifestDefinition extends CdmDocumentDefinition, CdmObjectDefin
 ## Constructors
 |Name|Description|
 |---|---|
-|TODO: Update after hasImports is removed<br/>**CdmManifestDefinition(CdmCorpusContext, string, bool)**<br/>*ctx*: The corpus context.<br/>*name*: The manifest's name.<br/>*hasImports*: A boolean that denotes whether this manifest has imports.|Initializes a new instance of the [CdmManifestDefinition](manifest.md) class.|
+|**CdmManifestDefinition(CdmCorpusContext, string)**<br/>*ctx*: The corpus context.<br/>*name*: The manifest's name.<br/>|Initializes a new instance of the [CdmManifestDefinition](manifest.md) class.|
 
 ## Properties
 |Name|Type|Description|

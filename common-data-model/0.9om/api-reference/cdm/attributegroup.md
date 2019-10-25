@@ -13,7 +13,6 @@ ms.author: jinichu
 
 An attribute group represents a group of [attribute items](attributeitem.md) that provide a similar role.
 
-TODO: Delete CdmReferencesEntities once removed
 ```
 public class CdmAttributeGroupDefinition extends CdmObjectDefinitionBase, CdmReferencesEntities
 ```

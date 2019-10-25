@@ -20,7 +20,7 @@ public class CdmDocumentDefinition extends CdmObjectSimple, CdmContainerDefiniti
 ## Constructors
 |Name|Description|
 |---|---|
-|TODO: Update once hasImports is removed<br/>**CdmDocumentDefinition(CdmCorpusContext, string, bool)**<br/>*ctx*: The corpus context.<br/>*name*: The document's name.<br/>*hasImports [optional]*: A boolean that denotes whether this document has imports.|Initializes a new instance of the [CdmDocumentDefinition](document.md) class.|
+|**CdmDocumentDefinition(CdmCorpusContext, string)**<br/>*ctx*: The corpus context.<br/>*name*: The document's name.|Initializes a new instance of the [CdmDocumentDefinition](document.md) class.|
 
 ## Properties
 |Name|Type|Description|
@@ -29,7 +29,6 @@ public class CdmDocumentDefinition extends CdmObjectSimple, CdmContainerDefiniti
 |Schema|string|The schema link that points to a validating schema.|
 |JsonSchemaSemanticVersion|string|Identifies the version of the OM that supports this file shape.|
 |Definitions|[CdmCollection](collection.md)\<[CdmObjectDefinition](cdmobjectdefinition.md)>|The document's definitions - can be any object that implements [CdmObjectDefinition](cdmobjectdefinition.md).|
-|TODO: Update once Folder is replaced by Owner<br/>Folder|[CdmFolderDefinition](folder.md)|The document's folder. This property will eventually be replaced by [CdmObject's](cdmobject.md) *Owner* property.|
 |Imports|[CdmCollection](collection.md)\<[CdmImport](import.md)>|The collection of corpus paths/monikers that denote the CDM objects that need to be imported in order to use the document.|
 |AtCorpusPath|string|The corpus path of the object declaration.|
 

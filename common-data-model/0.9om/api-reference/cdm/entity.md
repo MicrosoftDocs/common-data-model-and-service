@@ -13,7 +13,6 @@ ms.author: jinichu
 
 An entity is the basic building block of the OM. It provides a concrete placeholder for a user to attach certain information to a concept. It is a collection of attributes that creates some semantic meaning of why these attributes exist together. Since entities can inherit from other entities, it is possible for them to represent a hierarchical structure. The hierarchical structure can also be removed from the entities by resolving them.
 
-TODO: Remove CdmReferencesEntities inheritence once CdmReferencesEntities is deleted
 ```
 public class CdmEntityDefinition extends CdmObjectDefinitionBase, CdmReferencesEntities
 ```
@@ -22,7 +21,7 @@ public class CdmEntityDefinition extends CdmObjectDefinitionBase, CdmReferencesE
 ## Constructors
 |Name|Description|
 |---|---|
-|TODO: Update once exhibitsTraits is removed and extends entity is optional<br/>**CdmEntityDefinition(CdmCorpusContext, string, CdmEntityReference, bool, bool)**<br/>*ctx*: The corpus context.<br/>*entityName*: The entity's name.<br/>*extendsEntity*: The entity extended by this entity.<br/>*exhibitsTraits [optional]*: TODO. The default value is false.<br/>*hasAttributes [optional]*: A boolean that denotes whether this entity has attributes. The default value is false.|Initializes a new instance of the [CdmEntityDefinition](entity.md) class.|
+|**CdmEntityDefinition(CdmCorpusContext, string, CdmEntityReference)**<br/>*ctx*: The corpus context.<br/>*entityName*: The entity's name.<br/>*extendsEntity [optional]*: The entity extended by this entity.|Initializes a new instance of the [CdmEntityDefinition](entity.md) class.|
 
 ## Properties
 |Name|Type|Description|

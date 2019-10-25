@@ -20,7 +20,7 @@ public class CdmEntityAttributeDefinition extends CdmAttribute
 ## Constructors
 |Name|Description|
 |---|---|
-|TODO: Update once appliedTraits is removed<br/>**CdmEntityAttributeDefinition(CdmCorpusContext, string, bool)**<br/>*ctx*: The corpus context.<br/>*name*: The entity attribute's name.<br/>*appliedTraits*: TODO|Initializes a new instance of the [CdmEntityAttributeDefinition](entityattribute.md) class.|
+|**CdmEntityAttributeDefinition(CdmCorpusContext, string)**<br/>*ctx*: The corpus context.<br/>*name*: The entity attribute's name.|Initializes a new instance of the [CdmEntityAttributeDefinition](entityattribute.md) class.|
 
 ## Properties
 |Name|Type|Description|

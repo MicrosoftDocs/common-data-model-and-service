@@ -13,9 +13,8 @@ ms.author: jinichu
 
 The event callback represents the callback object used in [CdmCorpusDefinition.SetEventCallback(...)](../cdm/corpus.md#methods). This class only exists in C#.
 
-TODO: Update once class is renamed to EventCallback
 ```
-public class RptCallback
+public class EventCallback
 ```
 
 ## Properties
