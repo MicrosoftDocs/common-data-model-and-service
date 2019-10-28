@@ -20,7 +20,7 @@ public class StorageManager
 ## Constructors
 |Name|Description|
 |---|---|
-|**StorageManager([CdmCorpusDefinition](../cdm/corpus.md))**<br/>*corpus*: The corpus that this storage manager is in.|Initializes a new instance of the [StorageManager](storagemanager.md) class.|
+|**StorageManager([CdmCorpusDefinition](../cdm/corpus.md))**<br/>*corpus*: The corpus that contains this storage manager.|Initializes a new instance of the [StorageManager](storagemanager.md) class.|
 
 ## Properties
 |Name|Type|Description|
@@ -33,8 +33,8 @@ public class StorageManager
 ## Methods
 |Name|Description|Return Type|
 |---|---|---|
-|**Mount(string, [StorageAdapter](storageadapter.md))**<br/>*nameSpace*: The namespace.<br/>*adapter*: The storage adapter.|Mounts a namespace to the specified adapter.|void|
-|**Unmount(string)**<br/>*nameSpace*: The namespace.|Unmounts a namespace. Returns true if the unmount is successful, false otherwise.|bool|
+|**Mount(string, [StorageAdapter](storageadapter.md))**<br/>*nameSpace*: The namespace to mount.<br/>*adapter*: The storage adapter.|Mounts a namespace to the specified adapter.|void|
+|**Unmount(string)**<br/>*nameSpace*: The namespace to unmount.|Unmounts a namespace. Returns true if the unmount is successful, false otherwise.|bool|
 |**FetchAdapter(string)**<br/>*nameSpace*: The namespace.|Retrieves the adapter for the specified namespace.|[StorageAdapter](storageadapter.md)|
 |**FetchRootFolder(string)**<br/>*nameSpace*: The namespace.|Given the namespace of a registered stoarge adapter, returns the root folder containing the sub-folders and documents.|[CdmFolderDefinition](../cdm/folder.md)|
 |**AdapterPathToCorpusPath(string)**<br/>*adapterPath*: The path.|Takes the specified storage adapter domain path, figures out the right adapter to use, and then returns a corpus path.|string|

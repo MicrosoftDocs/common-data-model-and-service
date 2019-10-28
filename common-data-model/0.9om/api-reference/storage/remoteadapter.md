@@ -26,7 +26,7 @@ public class RemoteAdapter extends NetworkAdapter, StorageAdapter
 ## Properties
 |Name|Type|Description|
 |---|---|---|
-|Hosts|Dictionary\<string, string>|The list of hosts.|
+|Hosts|Dictionary\<string, string>|The list of hosts. The mapping is key to remote path.|
 
 ## Methods
 |Name|Description|Return Type|

@@ -24,8 +24,8 @@ The CDM object model (OM) provides two types of classes: definition classes and 
 |Name|Description|
 |---|---|
 |[Argument](argument.md)|Exists inside [trait references](traitreference.md) and provides name/value pairs for a specific trait reference. Arguments give life to traits by enabling them to actually contain some specific data.|
-|[Argument Collection](argumentcollection.md)|Extends [Collection](collection.md) and adds additional behaviors specific to argument collections.|
-|[Attribute Context](attributecontext.md)|Provides more insight into an attribute's (child/parent) relationship. It is heavily used during an entity's attribute resolution and can contain the history of all changes that lead to an attribute's resolution. Resolved concepts, such as resolved attributes, can contain attribute contexts to provide more insights into the original, non-resolved hierarchic attributes.|
+|[Argument Collection](argumentcollection.md)|Extends [Collection](collection.md) and adds additional behaviors specific to argument collections. It is used only for the *Arguments* property in [trait references](traitreference.md) and not for any other argument collections, as this collection is optimized to handle adjustments to the trait when adding an argument.|
+|[Attribute Context](attributecontext.md)|Provides more insight into an attribute's (child/parent) relationship. It is heavily used during an entity's attribute resolution and can contain the history of all changes that lead to an attribute's resolution. Resolved concepts, such as resolved attributes, can contain attribute contexts to provide more insight into the original, non-resolved hierarchic attributes.|
 |[Attribute Group](attributegroup.md)|Represents a group of [attribute items](attributeitem.md) that provide a similar role.|
 |[Attribute Item](attributeitem.md)|Represents the base for a generic attribute that could be a [type attribute](typeattribute.md) or an [entity attribute](entityattribute.md).|
 |[Attribute Resolution Guidance](attributeresolutionguidance.md)|Provides properties that help with the resolution process of [entities](entity.md), attributes, and other resolvable CDM concepts.|
@@ -45,7 +45,7 @@ The CDM object model (OM) provides two types of classes: definition classes and 
 |[Entity Collection](entitycollection.md)|Extends [Collection](collection.md) and adds additional behaviors specific to entity collections.|
 |[Entity Declaration](entitydeclaration.md)|Provides a simple functionality that is extended by a [local entity declaration](localentitydeclaration.md) and a [referenced entity declaration](referencedentitydeclaration.md).|
 |[Folder](folder.md)|Provides a hierarchical structure of the OM for organizing documents. Folders can contain other folders or documents.|
-|[Folder Collection](foldercollection.md)|Extends [Collection](collection.md) and adds additional behaviors specific to folder collections. It is used only for the *ChildFolders* property in [Folder](folder.md) and not for any other folder collections.|
+|[Folder Collection](foldercollection.md)|Extends [Collection](collection.md) and adds additional behaviors specific to folder collections. It is used only for the *ChildFolders* property in [Folder](folder.md) and not for any other folder collections, as this collection copies fields from the parent folder to the children.|
 |[Import](import.md)|Used by documents to provide the files and documents that need to be imported first.|
 |[Local Entity Declaration](localentitydeclaration.md)|A declaration of an entity that resides locally and has associated [data partitions](datapartition.md).|
 |[Manifest](manifest.md)|A top-level document with the extension '.manifest.cdm.json'. A manifest can reference different documents (e.g. reference documents with the extension '.cdm.json' that contain entities).|

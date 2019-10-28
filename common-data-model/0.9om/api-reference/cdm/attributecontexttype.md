@@ -30,6 +30,3 @@ public enum CdmAttributeContextType
     PassThrough
 }
 ```
-
-*Python does not include: GeneratedSet, GeneratedRound, AddedAttributeSelectedType,* and *AddedAttributeExpansionTotal.*
-

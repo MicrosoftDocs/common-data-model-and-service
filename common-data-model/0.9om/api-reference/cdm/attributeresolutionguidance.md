@@ -27,7 +27,7 @@ public class CdmAttributeResolutionGuidance extends CdmObjectSimple
 |removeAttribute|bool?|If true, this attribute definition will be removed from the entity's final resolved attribute list.|
 |imposedDirectives|List\<string>|A list of strings, one for each 'directive' that should always be imposed at this attribute definition.|
 |removedDirectives|List\<string>|A list of strings, one for each 'directive' that should be removed if previously imposed.|
-|addSupportingAttribute|[CdmTypeAttributeDefinition](typeattribute.md)|The supplied attribute definition that will be added to the entity.|
+|addSupportingAttribute|[CdmTypeAttributeDefinition](typeattribute.md)|TODO|
 |cardinality|string|If set to 'one', then there is a single instance of the attribute or entity used. If set to 'many', then there are multiple instances of the attribute/entity used, in which case the 'expansion' properties will describe the array enumeration to use if needed.|
 |renameFormat|string|The format specifier for generated attribute names. May contain a single occurence of ('\{a} or 'A'), ('\{m}' or '\{M}') and '\{o}' for the base (a/A)ttribute name, any (m/M)ember attributes from entities, and array (o)rdinal. For example, '\{a}\{o}.\{m}' could produce 'address2.city', and '\{a}\{o}' gives 'city1'. Using '\{A}' or '\{M}' will uppercase the first letter of the name portion.|
 |expansion|[Expansion](attributeresolutionguidance.md#expansion)|The parameters that control array expansion if inline repeating of attributes is needed.|
@@ -37,6 +37,7 @@ public class CdmAttributeResolutionGuidance extends CdmObjectSimple
 ## Methods
 |Name|Description|Return Type|
 |---|---|---|
+|**makeExpansion()**|Returns a new [Expansion](attributeresolutionguidance.md#expansion) object.|[Expansion](attributeresolutionguidance.md#expansion)|
 |**makeEntityByReference()**|Returns a new [CdmAttributeResolutionGuidance_EntityByReference](attributeresolutionguidance.md#cdmattributeresolutionguidance_entitybyreference) object.|[CdmAttributeResolutionGuidance_EntityByReference](attributeresolutionguidance.md#cdmattributeresolutionguidance_entitybyreference)|
 |**makeSelectsSubAttribute()**|Returns a new [CdmAttributeResolutionGuidance_SelectsSubAttribute](attributeresolutionguidance.md#cdmattributeresolutionguidance_selectssubattribute) object.|[CdmAttributeResolutionGuidance_SelectsSubAttribute](attributeresolutionguidance.md#cdmattributeresolutionguidance_selectssubattribute)|
 |**Copy([ResolveOptions](../utilities/resolveoptions.md))**|See [CdmObject.Copy(...)](cdmobject.md#methods).|[CdmObject](cdmobject.md)|

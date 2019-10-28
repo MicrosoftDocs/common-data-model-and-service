@@ -21,5 +21,5 @@ public interface CdmAttributeItem extends CdmObject, CdmReferencesEntities
 ## Properties
 |Name|Type|Description|
 |---|---|---|
-|AppliedTraits|[CdmCollection](collection.md)\<[CdmTraitReference](traitreference.md)>|The attribute's applied traits.|
+|AppliedTraits|[CdmTraitCollection](traitcollection.md)|The attribute's applied traits.|
 

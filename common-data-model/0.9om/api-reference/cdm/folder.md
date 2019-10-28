@@ -13,7 +13,6 @@ ms.author: jinichu
 
 A folder provides a hierarchical structure of the OM for organizing documents. Folders can contain other folders or documents.
 
-TODO: Update after CdmContainerDefinition is replaced by some intermediate base class
 ```
 public class CdmFolderDefinition extends CdmObjectDefinitionBase, CdmContainerDefinition
 ```
@@ -28,14 +27,13 @@ public class CdmFolderDefinition extends CdmObjectDefinitionBase, CdmContainerDe
 |Name|Type|Description|
 |---|---|---|
 |Name|string|The name of the folder.|
-|TODO: Update once CdmDocumentCollection is created<br/>Documents|[CdmCollection](collection.md)\<[CdmDocumentDefinition](document.md)>|The child documents of the folder.|
-|TODO: Update once CdmFolderCollection is created<br/>ChildFolders|[CdmFolderCollection](foldercollection.md)|The direct children of the folder.|
+|Documents|[CdmDocumentCollection](documentcollection.md)|The child documents of the folder.|
+|ChildFolders|[CdmFolderCollection](foldercollection.md)|The direct children of the folder.|
+|AtCorpusPath|string|The corpus path of the folder.|
 
 ## Methods
 |Name|Description|Return Type|
 |---|---|---|
-|TODO: Remove after CdmDocumentCollection is created<br/>**AddDocument(string, [CdmDocumentDefinition](document.md))**<br />*name*: The name of the document.<br/>*doc*: The document to add.|Adds a child document to the current folder and returns the newly added document.|[CdmDocumentDefinition](document.md)|
-|TODO: Remove after CdmDocumentCollection is created<br/>**RemoveDocument(string)**<br/>*name*: The name of the document.|Removes the document with the specified name from the current folder.|void|
 |**FetchObjectDefinition\<T>([ResolveOptions](../utilities/resolveoptions.md))**|See [CdmObject.FetchObjectDefinition\<T>(...)](cdmobject.md#methods).|T|
 |**GetName()**|See [CdmObjectDefinition.GetName()](cdmobjectdefinition.md#methods).|string|
 |**IsDerivedFrom(string, [ResolveOptions](../utilities/resolveoptions.md))**|See [CdmObject.IsDerivedFrom(...)](cdmobject.md#methods).|bool|

@@ -11,7 +11,7 @@ ms.author: jinichu
 
 # Trait 
 
-A trait helps express semantic meaning and structural guidance. Traits are essentially a metadata's metadata. Traits can extend other traits and have a format that is easy to understand and follow. (E.g. The trait is.partition.format.CSV describes a data partition in CSV format and has parameters that can provide additional information, such as which character to use as a delimiter).
+A trait helps express semantic meaning and structural guidance. Traits are essentially a metadata's metadata. Traits can extend other traits and have a format that is easy to understand and follow. (E.g. The trait *is.partition.format.CSV* describes a data partition in CSV format and has parameters that can provide additional information, such as which character to use as a delimiter).
 
 ```
 public class CdmTraitDefinition extends CdmObjectDefinitionBase

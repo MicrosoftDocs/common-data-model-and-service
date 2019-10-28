@@ -11,7 +11,7 @@ ms.author: jinichu
 
 # Folder Collection
 
-A folder collection extends [Collection](collection.md) and adds additional behaviors specific to folder collections. It is used only for the *ChildFolders* property in [Folder](folder.md) and not for any other folder collections.
+A folder collection extends [Collection](collection.md) and adds additional behaviors specific to folder collections. It is used only for the *ChildFolders* property in [Folder](folder.md) and not for any other folder collections, as this collection copies fields from the parent folder to the children.
 
 ```
 public class CdmFolderCollection extends CdmCollection<CdmFolderDefinition>
@@ -20,7 +20,7 @@ public class CdmFolderCollection extends CdmCollection<CdmFolderDefinition>
 ## Constructors
 |Name|Description|
 |---|---|
-|**CdmFolderCollection(CdmCorpusContext, [CdmFolderDefinition](folder.md))**<br/>*ctx*: The corpus context.<br/>*parentFolder*: The folder that contains this collection.|Initializes a new instance of the [CdmFolderCollection](foldercollection.md) class.|
+|**CdmFolderCollection(CdmCorpusContext, [CdmFolderDefinition](folder.md))**<br/>*ctx*: The corpus context.<br/>*parentFolder*: The folder that contains this collection. Must be the parent folder.|Initializes a new instance of the [CdmFolderCollection](foldercollection.md) class.|
 
 ## Methods
 |Name|Description|Return Type|

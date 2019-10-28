@@ -27,8 +27,8 @@ public class CdmConstantEntityDefinition extends CdmObjectDefinitionBase
 |Name|Type|Description|
 |---|---|---|
 |ConstantEntityName|string|The constant entity's name.|
-|ConstantValues|List\<List\<string>>|The list of constant string values.|
-|EntityShape|CdmEntityReference|The entity shape.|
+|ConstantValues|List\<List\<string>>|The constant entity's constant values.|
+|EntityShape|CdmEntityReference|The constant entity shape.|
 
 ## Methods
 |Name|Description|Return Type|
