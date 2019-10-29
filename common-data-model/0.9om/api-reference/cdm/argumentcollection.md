@@ -1,17 +1,17 @@
 ---
 title: Argument Collection - Common Data Model | Microsoft Docs
-description: Reference for CdmArgumentCollection.
+description: API reference for CdmArgumentCollection.
 author: jinichu
 ms.service: common-data-model
-ms.reviewer: 
+ms.reviewer: deonhe 
 ms.topic: article
 ms.date: 10/18/2019
-ms.author: jinichu
+ms.author: jibyun
 ---
 
 # Argument Collection
 
-An argument collection extends [Collection](collection.md) and adds additional behaviors specific to argument collections. It is used only for the *Arguments* property in [trait references](traitreference.md) and not for any other argument collections, as this collection is optimized to handle adjustments to the trait when adding an argument.
+An argument collection extends [Collection](collection.md) and adds additional behaviors specific to argument collections. It is used only for the *Arguments* property in [trait references](traitreference.md) and not for any other argument collections because this collection is optimized to handle adjustments to the trait when adding an argument.
 
 ```
 public class CdmArgumentCollection extends CdmCollection<CdmArgumentDefinition>

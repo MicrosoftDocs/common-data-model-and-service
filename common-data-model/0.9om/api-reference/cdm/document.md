@@ -1,17 +1,17 @@
 ---
 title: Document - Common Data Model | Microsoft Docs
-description: Reference for CdmDocumentDefinition.
+description: API reference for CdmDocumentDefinition.
 author: jinichu
 ms.service: common-data-model
-ms.reviewer: 
+ms.reviewer: deonhe 
 ms.topic: article
 ms.date: 10/18/2019
-ms.author: jinichu
+ms.author: jibyun
 ---
 
 # Document
 
-A document enables the OM to have a persisted state. Every document can contain different CDM definitions, such as [entities](entity.md), [data partitions](datapartition.md), or attributes.
+A document enables the OM to have a persisted state. Every document can contain different Common Data Model definitions, such as [entities](entity.md), [data partitions](datapartition.md), or attributes.
 
 ```
 public class CdmDocumentDefinition extends CdmObjectSimple, CdmContainerDefinition

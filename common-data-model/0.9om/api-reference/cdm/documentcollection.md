@@ -1,12 +1,12 @@
 ---
 title: Document Collection - Common Data Model | Microsoft Docs
-description: Reference for CdmDocumentCollection.
+description: API reference for CdmDocumentCollection.
 author: jinichu
 ms.service: common-data-model
-ms.reviewer: 
+ms.reviewer: deonhe 
 ms.topic: article
 ms.date: 10/18/2019
-ms.author: jinichu
+ms.author: jibyun
 ---
 
 # Document Collection
@@ -32,7 +32,7 @@ public class CdmDocumentCollection extends CdmCollection<CdmDocumentDefinition>
 |---|---|---|
 |**Add([CdmDocumentDefinition](document.md))**<br/>*document*: The document to add to the collection.|Adds the specified document to the collection.|void|
 |**Add([CdmDocumentDefinition](document.md), string)**<br/>*document*: The document to add to the collection.<br/>*documentName*: The name of the document.|Adds the specified document to the collection and sets its name to be the specified name.|void|
-|**Add(string, bool)**<br/>*name*: The name of the document to add to the collection.<br/>*simpleRef [optional]*: TODO. The default value is false.|Creates a document with the specified name and adds it to the collection. Returns the document that was added to the collection.|[CdmDocumentDefinition](document.md)|
+|**Add(string, bool)**<br/>*name*: The name of the document to add to the collection.<br/>*simpleRef [optional]*: This parameter is unused. It is kept just for consistency with other CDM collections.|Creates a document with the specified name and adds it to the collection. Returns the document that was added to the collection.|[CdmDocumentDefinition](document.md)|
 |**AddRange(IEnumerable\<[CdmDocumentDefinition](document.md)>)**<br/>*documents*: The list of documents to add.|Adds the elements of the specified list of documents to the collection.|void|
 |**Remove([CdmDocumentDefinition](document.md))**<br/>*document*: The document to remove from the collection.|Removes the specified document from the collection. Returns true if the operation is successful, false otherwise.|bool|
 |**Remove(string)**<br/>*name*: The name of the document to remove from the collection.|Removes the document with the specified name from the collection. Returns true if the operation is successful, false otherwise.|bool|

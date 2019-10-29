@@ -1,17 +1,17 @@
 ---
 title: CdmObject - Common Data Model | Microsoft Docs
-description: Reference for CdmObject.
+description: API reference for CdmObject.
 author: jinichu
 ms.service: common-data-model
-ms.reviewer: 
+ms.reviewer: deonhe 
 ms.topic: article
 ms.date: 10/18/2019
-ms.author: jinichu
+ms.author: jibyun
 ---
 
 # CdmObject
 
-This is the base for all CDM objects. It is extended by *CdmObjectBase* and *CdmObjectDefinitionBase* in C# and Java.
+This is the base for all Common Data Model objects. It is extended by *CdmObjectBase* and *CdmObjectDefinitionBase* in C# and Java.
 
 ```
 public interface CdmObject
@@ -22,7 +22,7 @@ public interface CdmObject
 |Name|Type|Description|
 |---|---|---|
 |Id|int|The object's ID.|
-|InDocument|[CdmDocumentDefinition](document.md)|The document object where this object is defined inside of.|
+|InDocument|[CdmDocumentDefinition](document.md)|The document where this object is defined inside of.|
 |AtCorpusPath|string|The corpus path to the specific object.|
 |ObjectType|[CdmObjectType](objecttype.md)|The object's type.|
 |Owner|[CdmObject](cdmobject.md)|The object that owns or contains this object.|

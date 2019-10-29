@@ -1,17 +1,17 @@
 ---
 title: Data Partition Pattern - Common Data Model | Microsoft Docs
-description: Reference for CdmDataPartitionPatternDefinition.
+description: API reference for CdmDataPartitionPatternDefinition.
 author: jinichu
 ms.service: common-data-model
-ms.reviewer: 
+ms.reviewer: deonhe 
 ms.topic: article
 ms.date: 10/18/2019
-ms.author: jinichu
+ms.author: jibyun
 ---
 
 # Data Partition Pattern
 
-A data partition pattern provides a way of selecting/generating a set of partitions based on the requirements specified as a regular expression.
+A data partition pattern provides a way of selecting or generating a set of partitions based on the requirements specified as a regular expression.
 
 ```
 CdmDataPartitionPatternDefinition extends CdmObjectDefinitionBase, CdmFileStatus

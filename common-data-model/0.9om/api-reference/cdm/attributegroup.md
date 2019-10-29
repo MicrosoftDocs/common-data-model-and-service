@@ -1,12 +1,12 @@
 ---
 title: Attribute Group - Common Data Model | Microsoft Docs
-description: Reference for CdmAttributeGroupDefinition.
+description: API reference for CdmAttributeGroupDefinition.
 author: jinichu
 ms.service: common-data-model
-ms.reviewer: 
+ms.reviewer: deonhe 
 ms.topic: article
 ms.date: 10/18/2019
-ms.author: jinichu
+ms.author: jibyun
 ---
 
 # Attribute Group

@@ -1,12 +1,12 @@
 ---
 title: Data Partition - Common Data Model | Microsoft Docs
-description: Reference for CdmDataPartitionDefinition.
+description: API reference for CdmDataPartitionDefinition.
 author: jinichu
 ms.service: common-data-model
-ms.reviewer: 
+ms.reviewer: deonhe 
 ms.topic: article
 ms.date: 10/18/2019
-ms.author: jinichu
+ms.author: jibyun
 ---
 
 # Data Partition
@@ -35,7 +35,7 @@ public class CdmDataPartitionDefinition extends CdmObjectDefinitionBase, CdmFile
 |RefreshTime|DateTime?|The data partition's refresh time.|
 |LastFileStatusCheckTime|DateTimeOffset?|The last time the modified time was checked for this file.|
 |LastFileModifiedTime|DateTimeOffset?|The last time this file was modified according to the OM.|
-|LastChildFileModifiedTime|DateTimeOffset?|The last time a child file was modified according to the OM.|
+|LastChildFileModifiedTime|DateTimeOffset?|The greatest last time reported by any of the chlidren objects about their file status check times.|
 
 ## Methods
 |Name|Description|Return Type|

@@ -1,17 +1,17 @@
 ---
 title: CdmObject Reference - Common Data Model | Microsoft Docs
-description: Reference for CdmObjectReference.
+description: API reference for CdmObjectReference.
 author: jinichu
 ms.service: common-data-model
-ms.reviewer: 
+ms.reviewer: deonhe 
 ms.topic: article
 ms.date: 10/18/2019
-ms.author: jinichu
+ms.author: jibyun
 ---
 
 # CdmObject Reference
 
-This is the base for all CDM object references. It is extended by *CdmObjectReferenceBase* (in C# and Java), *CdmAttributeContextReference, CdmAttributeGroupReference, CdmAttributeReference, CdmDataTypeReference, CdmEntityReference*, and *CdmPurposeReference*.
+This is the base for all Common Data Model object references. It is extended by *CdmObjectReferenceBase* (in C# and Java), *CdmAttributeContextReference, CdmAttributeGroupReference, CdmAttributeReference, CdmDataTypeReference, CdmEntityReference*, and *CdmPurposeReference*.
 
 ```
 public interface CdmObjectReference extends CdmObject

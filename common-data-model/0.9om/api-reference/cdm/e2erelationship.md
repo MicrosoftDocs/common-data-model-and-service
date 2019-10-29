@@ -1,17 +1,17 @@
 ---
 title: E2E Relationship - Common Data Model | Microsoft Docs
-description: Reference for CdmE2ERelationship.
+description: API reference for CdmE2ERelationship.
 author: jinichu
 ms.service: common-data-model
-ms.reviewer: 
+ms.reviewer: deonhe 
 ms.topic: article
 ms.date: 10/18/2019
-ms.author: jinichu
+ms.author: jibyun
 ---
 
 # E2E Relationship
 
-An E2E relationship is a relationship between two entities' attributes.
+An E2E relationship is a relationship between two entity's attributes.
 
 ```
 public class CdmE2ERelationship extends CdmObjectDefinitionBase

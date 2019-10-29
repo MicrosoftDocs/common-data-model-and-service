@@ -1,17 +1,17 @@
 ---
 title: Attribute Context - Common Data Model | Microsoft Docs
-description: Reference for CdmAttributeContext.
+description: API reference for CdmAttributeContext.
 author: jinichu
 ms.service: common-data-model
-ms.reviewer: 
+ms.reviewer: deonhe 
 ms.topic: article
 ms.date: 10/18/2019
-ms.author: jinichu
+ms.author: jibyun
 ---
 
 # Attribute Context
 
-An attribute context provides more insight into an attribute's relationship (child/parent). It is heavily used during an entity's attribute resolution and can contain the history of all changes that lead to an attribute's resolution. Resolved concepts, such as resolved attributes, can contain attribute contexts to provide more insight into the original, non-resolved hierarchic attributes.
+An attribute context provides more insight into an attribute's (parent/child) relationship. It is heavily used during an entity's attribute resolution and can contain the history of all changes that led to an attribute's resolution. Resolved concepts, such as resolved attributes, can contain attribute contexts to provide more insight into the original, non-resolved hierarchical attributes.
 
 ```
 public class CdmAttributeContext extends CdmObjectDefinitionBase

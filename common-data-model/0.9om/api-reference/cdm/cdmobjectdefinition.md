@@ -1,17 +1,17 @@
 ---
 title: CdmObject Definition - Common Data Model | Microsoft Docs
-description: Reference for CdmObjectDefinition.
+description: API reference for CdmObjectDefinition.
 author: jinichu
 ms.service: common-data-model
-ms.reviewer: 
+ms.reviewer: deonhe 
 ms.topic: article
 ms.date: 10/18/2019
-ms.author: jinichu
+ms.author: jibyun
 ---
 
 # CdmObject Definition
 
-This is the base for all CDM object definitions. It is extended by *CdmObjectDefinitionBase* in C# and Java.
+This is the base for all Common Data Model object definitions. It is extended by *CdmObjectDefinitionBase* in C# and Java.
 
 ```
 public interface CdmObjectDefinition extends CdmObject

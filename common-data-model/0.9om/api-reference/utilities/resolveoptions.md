@@ -1,17 +1,17 @@
 ---
 title: Resolve Options - Common Data Model | Microsoft Docs
-description: Reference for ResolveOptions.
+description: API reference for ResolveOptions.
 author: jinichu
 ms.service: common-data-model
-ms.reviewer: 
+ms.reviewer: deonhe 
 ms.topic: article
 ms.date: 10/18/2019
-ms.author: jinichu
+ms.author: jibyun
 ---
 
 # Resolve Options
 
-TODO: Description
+Resolve options are options to be used for resolution. If it is an optional argument to a method, it is safe to leave it null. Default resolve options would just be created and used instead. 
 
 ```
 public class ResolveOptions

@@ -1,12 +1,12 @@
 ---
 title: Trait Reference - Common Data Model | Microsoft Docs
-description: Reference for CdmTraitReference.
+description: API reference for CdmTraitReference.
 author: jinichu
 ms.service: common-data-model
-ms.reviewer: 
+ms.reviewer: deonhe 
 ms.topic: article
 ms.date: 10/18/2019
-ms.author: jinichu
+ms.author: jibyun
 ---
 
 # Trait Reference
@@ -21,7 +21,7 @@ public class CdmTraitReference extends CdmObjectReferenceBase
 ## Constructors
 |Name|Description|
 |---|---|
-|**CdmTraitReference(CdmCorpusContext, dynamic, bool, bool)**<br/>*ctx*: The corpus context.<br/>*trait*: The trait that this trait reference is referencing.<br/>*simpleReference*: TODO<br/>*hasArguments*: A boolean that denotes whether this trait reference has arguments.|Initializes a new instance of the [CdmTraitReference](traitreference.md) class.|
+|**CdmTraitReference(CdmCorpusContext, dynamic, bool, bool)**<br/>*ctx*: The corpus context.<br/>*trait*: The trait that this trait reference is referencing.<br/>*simpleReference*: A boolean that denotes whether the trait reference is simple named or not. The default value is false.<br/>*hasArguments*: A boolean that denotes whether this trait reference has arguments.|Initializes a new instance of the [CdmTraitReference](traitreference.md) class.|
 
 ## Properties
 |Name|Type|Description|

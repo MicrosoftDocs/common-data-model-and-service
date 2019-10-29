@@ -22,13 +22,13 @@
     items:
       - name: Model metadata
         href: model-json.md
-  - name: Entity reference
+  - name: Entity Reference
     href: schema/core/applicationCommon/toc.yml
   - name: API Reference
     items:
-      - name: CDM Object Model
+      - name: Common Data Model Object Model
         items:
-          - name: CDM Object Model
+          - name: Overview
             href: 0.9om/api-reference/cdm/cdm.md
           - name: Argument
             href: 0.9om/api-reference/cdm/argument.md
@@ -112,7 +112,7 @@
             href: 0.9om/api-reference/cdm/typeattribute.md
       - name: Storage
         items:
-          - name: Storage
+          - name: Overview
             href: 0.9om/api-reference/storage/storage.md
           - name: ADLS Adapter
             href: 0.9om/api-reference/storage/adlsadapter.md
@@ -130,7 +130,7 @@
             href: 0.9om/api-reference/storage/storagemanager.md
       - name: Utilities
         items:
-          - name: Utilities
+          - name: Overview
             href: 0.9om/api-reference/utilities/utilities.md  
           - name: Copy Options
             href: 0.9om/api-reference/utilities/copyoptions.md  

@@ -1,17 +1,17 @@
 ---
 title: Constant Entity - Common Data Model | Microsoft Docs
-description: Reference for CdmConstantEntityDefinition.
+description: API reference for CdmConstantEntityDefinition.
 author: jinichu
 ms.service: common-data-model
-ms.reviewer: 
+ms.reviewer: deonhe 
 ms.topic: article
 ms.date: 10/18/2019
-ms.author: jinichu
+ms.author: jibyun
 ---
 
 # Constant Entity
 
-A constant entity provides a way of making an [entity](entity.md) with records of data in it and an associated schema in a JSON file. We use these whenever we want to store some table of information inside a parameter of a [trait](trait.md). They show up in the enum definitions, in the localized display text, etc.
+A constant entity provides a way of making an [entity](entity.md) with records and an associated schema in a JSON file. We use these whenever we want to store a table of information inside a parameter of a [trait](trait.md). They are used in the enum definitions, in the localized display text, etc.
 
 ```
 public class CdmConstantEntityDefinition extends CdmObjectDefinitionBase
