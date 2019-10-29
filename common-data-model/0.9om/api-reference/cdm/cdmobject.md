@@ -22,8 +22,8 @@ public interface CdmObject
 |Name|Type|Description|
 |---|---|---|
 |Id|int|The object's ID.|
-|InDocument|[CdmDocumentDefinition](document.md)|The declaration document of the object.|
-|AtCorpusPath|string|The corpus path of the object declaration.|
+|InDocument|[CdmDocumentDefinition](document.md)|The document object where this object is defined inside of.|
+|AtCorpusPath|string|The corpus path to the specific object.|
 |ObjectType|[CdmObjectType](objecttype.md)|The object's type.|
 |Owner|[CdmObject](cdmobject.md)|The object that owns or contains this object.|
 

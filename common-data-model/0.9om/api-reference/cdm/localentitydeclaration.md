@@ -27,12 +27,12 @@ public class CdmLocalEntityDeclarationDefinition extends CdmObjectDefinitionBase
 |Name|Type|Description|
 |---|---|---|
 |EntityName|string|The entity's name.|
-|EntityPath|string|The entity's path.|
+|EntityPath|string|The corpus path to the entity definition.|
 |DataPartitions|[CdmCollection](collection.md)\<[CdmDataPartitionDefinition](datapartition.md)>|The data partitions.|
 |DataPartitionPatterns|[CdmCollection](collection.md)\<[CdmDataPartitionPatternDefinition](datapartitionpattern.md)>|The data partition patterns.|
 |LastFileStatusCheckTime|DateTimeOffset?|The last time the modified time was checked for this file.|
 |LastFileModifiedTime|DateTimeOffset?|The last time this file was modified according to the OM.|
-|LastChildFileModifiedTime|DateTimeOffset?|The last time a child file was modified according to the OM.|
+|LastChildFileModifiedTime|DateTimeOffset?|The greatest last time reported by any of the chlidren objects about their file status check times.|
 
 
 ## Methods

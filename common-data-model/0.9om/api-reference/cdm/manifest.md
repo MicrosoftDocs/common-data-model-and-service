@@ -27,13 +27,13 @@ public class CdmManifestDefinition extends CdmDocumentDefinition, CdmObjectDefin
 |---|---|---|
 |ManifestName|string|The manifest's name.|
 |Explanation|string|The manifest's explanation.|
-|ExhibitsTraits|[CdmTraitCollection](traitcollection.md)|The collection of exhibited traits.|
+|ExhibitsTraits|[CdmTraitCollection](traitcollection.md)|The collection of trait references that provide detailed meanings, semantics, usage parameters, or other application specific metadata.|
 |SubManifests|[CdmCollection](collection.md)\<[CdmManifestDeclarationDefinition](manifestdeclaration.md)>|The collection of sub-manifests.|
 |Entities|[CdmEntityCollection](entitycollection.md)|The entities declared in the manifest (can only be [LocalEntityDeclaration](localentitydeclaration.md) or [ReferencedEntityDeclaration](referencedentitydeclaration.md)).|
 |Relationships|[CdmCollection](collection.md)\<[CdmE2ERelationship](e2erelationship.md)>|The collection of references that exist where either the from entity or the to entity is defined in this folder.|
 |LastFileStatusCheckTime|DateTimeOffset?|The last time the modified time was checked for this file.|
 |LastFileModifiedTime|DateTimeOffset?|The last time this file was modified according to the OM.|
-|LastChildFileModifiedTime|DateTimeOffset?|The last time a child file was modified according to the OM.|
+|LastChildFileModifiedTime|DateTimeOffset?|The greatest last time reported by any of the chlidren objects about their file status check times.|
 
 
 ## Methods

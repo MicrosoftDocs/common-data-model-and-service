@@ -22,7 +22,7 @@ public interface CdmObjectDefinition extends CdmObject
 |Name|Type|Description|
 |---|---|---|
 |Explanation|string|The object's explanation.|
-|ExhibitsTraits|[CdmTraitCollection](traitcollection.md)|The collection of  traits that this object exhibits.|
+|ExhibitsTraits|[CdmTraitCollection](traitcollection.md)|The collection of traits that this object exhibits by default.|
 
 ## Methods
 |Name|Description|Return Type|

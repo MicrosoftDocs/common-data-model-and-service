@@ -27,10 +27,10 @@ public class CdmE2ERelationship extends CdmObjectDefinitionBase
 |Name|Type|Description|
 |---|---|---|
 |Name|string|The relationship's name.|
-|FromEntity|string|The entity the relationship is pointing from.|
-|FromEntityAttribute|string|The entity attribute the relationship is pointing from.|
-|ToEntity|string|The entity the relationship is pointing to.|
-|ToEntityAttribute|string|The entity attribute the relationship is pointing to.|
+|FromEntity|string|The corpus path to the entity the relationship is pointing from.|
+|FromEntityAttribute|string|The entity attribute the relationship is pointing from (foreign key).|
+|ToEntity|string|The corpus path to entity the relationship is pointing to.|
+|ToEntityAttribute|string|The entity attribute the relationship is pointing to (often the entity's primary key).|
 
 ## Methods
 |Name|Description|Return Type|

@@ -26,10 +26,10 @@ public class CdmParameterDefinition extends CdmObjectDefinitionBase
 ## Properties
 |Name|Type|Description|
 |---|---|---|
-|Name|string|The parameter's name.|
-|DefaultValue|dynamic|The parameter's default value.|
-|Required|bool|Denotes whether this parameter is required.|
-|DataTypeRef|CdmDataTypeReference|The parameter's data type reference.|
+|Name|string|The parameter's name. This can be used to set argument values when referencing traits.|
+|DefaultValue|dynamic|The parameter's default value to use if no corresponding arguments are set.|
+|Required|bool|If true, an error will be reported if a trait being referenced has no value set as an argument.|
+|DataTypeRef|CdmDataTypeReference|The data type that describes the meaning and shape of the values that can be represented by this parameter.|
 
 ## Methods
 |Name|Description|Return Type|

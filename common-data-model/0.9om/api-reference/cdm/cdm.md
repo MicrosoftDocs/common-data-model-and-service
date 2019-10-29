@@ -13,10 +13,6 @@ ms.author: jinichu
 
 ## Overview
 
-The hierarchical structure of the CDM object model:
-
-![OM Hierarchy](omhierarchy.png)
-
 The CDM object model (OM) provides two types of classes: definition classes and reference classes. Since the OM is heavily interconnected and different concepts have different interactions amongst each other, the OM introduces reference classes in order to be able to easily reference different concepts without actually encapsulating them. Every reference class has its own corresponding definition class, and they are closely correlated. 
 
 ## Definition Classes
