@@ -71,7 +71,7 @@ All reference objects extend from the [CdmObject Reference](cdmobjectreference.m
 |[CdmObject Type](objecttype.md)|The Common Data Model object types.|
 |[Data Format](dataformat.md)|The data formats.|
 |[Relationship Discovery Style](relationshipdiscoverystyle.md)|The types of relationships we want populated in a manifest.|
-|[Status Level](statuslevel.md)|The status levels that could be reported at.|
+|[Status Level](statuslevel.md)|The status levels that could be reported.|
 
 
 
