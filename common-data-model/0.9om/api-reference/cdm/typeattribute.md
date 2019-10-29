@@ -25,8 +25,8 @@ public class CdmTypeAttributeDefinition extends CdmAttribute
 ## Properties
 |Name|Type|Description|
 |---|---|---|
-|DataType|CdmDataTypeReference|The type attribute's data type, a CDM reference object (see *Data Type*).|
-|DataFormat|[CdmDataFormat](dataformat.md)|The type attribute's data format, in a string format derived from traits (string, int, etc).|
+|DataType|CdmDataTypeReference|The type attribute's data type, a CDM reference object.|
+|DataFormat|[CdmDataFormat](dataformat.md)|The type attribute's data format (string, int, etc.).|
 |AttributeContext|CdmAttributeContextReference |The attribute context of the type attribute.|
 |DefaultValue|dynamic|The type attribute's default value.|
 |Description|string|The type attribute's description.|

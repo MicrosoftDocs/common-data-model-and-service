@@ -28,6 +28,7 @@ public abstract class NetworkAdapter extends IDisposable
 ## Methods
 |Name|Description|Return Type|
 |---|---|---|
+|TODO|
 |**Dispose()**|Disposes the CDM HTTP client (only in C#).|void|
 
 

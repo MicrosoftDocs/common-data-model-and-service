@@ -27,7 +27,7 @@ public interface CdmObjectDefinition extends CdmObject
 ## Methods
 |Name|Description|Return Type|
 |---|---|---|
-|**GetName()**|All object definitions have some kind of name, so this method returns the name independent of the name from the *name* property.|string|
+|**GetName()**|All object definitions have some kind of name, so this method returns the name independent from the *name* property.|string|
 |**IsDerivedFrom(string, [ResolveOptions](../utilities/resolveoptions.md))**<br/>*baseDef*: The name of the object that we want to check whether this object is derived from it.<br/>*resOpt [optional]*: The resolve options.|Returns true if the object (or the referenced object) is an extension of the specified symbol name in some way.|bool|
 
 

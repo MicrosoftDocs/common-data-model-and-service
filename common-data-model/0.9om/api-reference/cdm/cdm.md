@@ -44,7 +44,7 @@ The Common Data Model object model (OM) provides two types of classes: definitio
 |[Folder Collection](foldercollection.md)|Extends [Collection](collection.md) and adds additional behaviors specific to folder collections. It is used only for the *ChildFolders* property in [Folder](folder.md) and not for any other folder collections, as this collection copies fields from the parent folder to the children.|
 |[Import](import.md)|Used by documents to provide the files and documents that need to be imported first.|
 |[Local Entity Declaration](localentitydeclaration.md)|A declaration of an entity that resides locally and has associated [data partitions](datapartition.md).|
-|[Manifest](manifest.md)|A top-level document with the extension '.manifest.cdm.json'. A manifest can reference different documents, including documents with the extension '.cdm.json' that contain entities).|
+|[Manifest](manifest.md)|A top-level document with the extension '.manifest.cdm.json'. A manifest can reference different documents, including documents with the extension '.cdm.json' that contain entities.|
 |[Manifest Declaration](manifestdeclaration.md)|A declaration for the Common Data Model manifest format.|
 |[Parameter](parameter.md)|Provides the ability to specify the parameters that a trait should contain. By providing a name, default values, and supported data types, trait references become restricted by which arguments they can contain. Parameters are defined for traits in the *CDM.SchemaDocuments* repository.|
 |[Purpose](purpose.md)|Provides an attribute with what it does for an entity, for example *SortedBy* or *NamedBy*.|

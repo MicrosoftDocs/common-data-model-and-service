@@ -26,7 +26,7 @@ public class RemoteAdapter extends NetworkAdapter, StorageAdapter
 ## Properties
 |Name|Type|Description|
 |---|---|---|
-|Hosts|Dictionary\<string, string>|The dictionary of hosts. The mapping is from a key  to a host (e.g. *{ "contoso": "http://contoso.com" }*). <br/><br/>The key is used as a shorthand for the host. For example, if a remote adapter is configured with { "contoso": "http://contoso.com" }, given the url "http://contoso.com/example.cdm.json", the converted corpus path would then be "remote:/contoso/example.cdm.json" (assuming the remote adapter is mounted under the "remote" namespace).|
+|Hosts|Dictionary\<string, string>|The dictionary of hosts. The mapping is from a key  to a host. For example, { "contoso": "http://contoso.com" }. <br/><br/>The key is used as a shorthand for the host. For example, if a remote adapter is configured with { "contoso": "http://contoso.com" }, given the url "http://contoso.com/example.cdm.json", the converted corpus path would then be "remote:/contoso/example.cdm.json" (assuming the remote adapter is mounted under the "remote" namespace).|
 
 ## Methods
 |Name|Description|Return Type|

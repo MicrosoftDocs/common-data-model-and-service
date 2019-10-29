@@ -36,7 +36,7 @@ public class StorageManager
 |**Mount(string, [StorageAdapter](storageadapter.md))**<br/>*nameSpace*: The namespace to mount.<br/>*adapter*: The storage adapter.|Mounts a namespace to the specified adapter.|void|
 |**Unmount(string)**<br/>*nameSpace*: The namespace to unmount.|Unmounts a namespace. Returns true if the unmount is successful, false otherwise.|bool|
 |**FetchAdapter(string)**<br/>*nameSpace*: The namespace.|Retrieves the adapter for the specified namespace.|[StorageAdapter](storageadapter.md)|
-|**FetchRootFolder(string)**<br/>*nameSpace*: The namespace.|Given the namespace of a registered stoarge adapter, returns the root folder containing the sub-folders and documents.|[CdmFolderDefinition](../cdm/folder.md)|
+|**FetchRootFolder(string)**<br/>*nameSpace*: The namespace.|Given the namespace of a registered storage adapter, returns the root folder containing the sub-folders and documents.|[CdmFolderDefinition](../cdm/folder.md)|
 |**AdapterPathToCorpusPath(string)**<br/>*adapterPath*: The path.|Takes the specified storage adapter domain path, figures out the right adapter to use, and then returns a corpus path.|string|
 |**CorpusPathToAdapterPath(string)**<br/>*corpusPath*: The path.|Takes the specified corpus path, figures out the right adapter to use, and then returns a storage adapter domain path.|string|
 |**CreateAbsoluteCorpusPath(string, [CdmObject](../cdm/cdmobject.md))**<br/>*objectPath*: The corpus path.<br/>*obj [optional]*: TODO|Takes the specified corpus path (relative or absolute) and creates a valid absolute path with the namespace. Returns the created path.|string|

@@ -25,11 +25,11 @@ public class CdmAttributeResolutionGuidance extends CdmObjectSimple
 |Name|Type|Description|
 |---|---|---|
 |removeAttribute|bool?|If true, this attribute definition will be removed from the entity's final resolved attribute list.|
-|imposedDirectives|List\<string>|A list of strings, one for each 'directive' that should always be imposed at this attribute definition.|
+|imposedDirectives|List\<string>|A list of strings, one for each 'directive' that should always be imposed for this attribute definition.|
 |removedDirectives|List\<string>|A list of strings, one for each 'directive' that should be removed if previously imposed.|
 |addSupportingAttribute|[CdmTypeAttributeDefinition](typeattribute.md)|TODO|
 |cardinality|string|If set to 'one', then there is a single instance of the attribute or entity used. If set to 'many', then there are multiple instances of the attribute/entity used, in which case the 'expansion' properties will describe the array enumeration to use if needed.|
-|renameFormat|string|The format specifier for generated attribute names. May contain a single occurence of ('\{a} or 'A'), ('\{m}' or '\{M}') and '\{o}' for the base (a/A)ttribute name, any (m/M)ember attributes from entities, and array (o)rdinal. For example, '\{a}\{o}.\{m}' could produce 'address2.city', and '\{a}\{o}' gives 'city1'. Using '\{A}' or '\{M}' will uppercase the first letter of the name portion.|
+|renameFormat|string|The format specifier for generated attribute names. May contain a single occurence of ('\{a}' or '\{A}'), ('\{m}' or '\{M}') and '\{o}' for the base (a/A)ttribute name, any (m/M)ember attributes from entities, and array (o)rdinal. For example, '\{a}\{o}.\{m}' could produce 'address2.city', and '\{a}\{o}' gives 'city1'. Using '\{A}' or '\{M}' will uppercase the first letter of the name portion.|
 |expansion|[Expansion](attributeresolutionguidance.md#expansion)|The parameters that control array expansion if inline repeating of attributes is needed.|
 |entityByReference|[CdmAttributeResolutionGuidance_EntityByReference](attributeresolutionguidance.md#cdmattributeresolutionguidance_entitybyreference)|The parameters that control the use of foreign keys to reference entity instances instead of embedding the entity in a nested way.|
 |selectsSubAttribute|[CdmAttributeResolutionGuidance_SelectsSubAttribute](attributeresolutionguidance.md#cdmattributeresolutionguidance_selectssubattribute)|Indicates that this attribute selects either 'one' or 'all' of the sub-attributes from an entity. If the 'structured' directive is set, this trait causes resolved attributes to end up in groups rather than a flattened list.|

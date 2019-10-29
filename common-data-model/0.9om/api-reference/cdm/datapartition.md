@@ -35,7 +35,7 @@ public class CdmDataPartitionDefinition extends CdmObjectDefinitionBase, CdmFile
 |RefreshTime|DateTime?|The data partition's refresh time.|
 |LastFileStatusCheckTime|DateTimeOffset?|The last time the modified time was checked for this file.|
 |LastFileModifiedTime|DateTimeOffset?|The last time this file was modified according to the OM.|
-|LastChildFileModifiedTime|DateTimeOffset?|The greatest last time reported by any of the chlidren objects about their file status check times.|
+|LastChildFileModifiedTime|DateTimeOffset?|The greatest last time reported by any of the children objects about their file status check times.|
 
 ## Methods
 |Name|Description|Return Type|

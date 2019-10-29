@@ -28,4 +28,4 @@ public class ResolveOptions
 |Name|Type|Description|
 |---|---|---|
 |WrtDoc|[CdmDocumentDefinition](../cdm/document.md)|The document to use as the point of reference when resolving relative paths and symbol names.|
-|Directives|AttributeResolutionDirectiveSet|The set of string flags that direct how attribute resolving traits should behave (e.g. *normalized*, *structured*, etc).|
+|Directives|AttributeResolutionDirectiveSet|The set of string flags that direct how attribute resolving traits should behave (e.g. *normalized*, *structured*, etc.).|

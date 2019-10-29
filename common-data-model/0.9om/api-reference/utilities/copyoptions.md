@@ -11,7 +11,7 @@ ms.author: jibyun
 
 # Copy Options
 
-TODO: Description
+Copy options are options to be used when copying a [CdmObject](../cdm/cdmobject.md) or when converting a manifest to a persisted type.
 
 ```
 public class CopyOptions
