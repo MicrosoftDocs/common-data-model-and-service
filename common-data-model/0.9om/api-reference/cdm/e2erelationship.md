@@ -1,5 +1,5 @@
 ---
-title: E2E Relationship - Common Data Model | Microsoft Docs
+title: E2E Relationship | Microsoft Docs
 description: API reference for CdmE2ERelationship.
 author: jinichu
 ms.service: common-data-model

@@ -1,5 +1,5 @@
 ---
-title: Event Callback - Common Data Model | Microsoft Docs
+title: Event Callback | Microsoft Docs
 description: API reference for RptCallback.
 author: jinichu
 ms.service: common-data-model

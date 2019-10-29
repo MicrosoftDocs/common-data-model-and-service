@@ -1,5 +1,5 @@
 ---
-title: Class - Common Data Model | Microsoft Docs
+title: Class | Microsoft Docs
 description: Reference for .
 author: jinichu
 ms.service: common-data-model

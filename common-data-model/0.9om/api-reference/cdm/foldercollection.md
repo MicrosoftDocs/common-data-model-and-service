@@ -1,5 +1,5 @@
 ---
-title: Folder Collection - Common Data Model | Microsoft Docs
+title: Folder Collection | Microsoft Docs
 description: API reference for CdmFolderCollection.
 author: jinichu
 ms.service: common-data-model

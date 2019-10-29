@@ -1,5 +1,5 @@
 ---
-title: Status Level - Common Data Model | Microsoft Docs
+title: Status Level | Microsoft Docs
 description: API reference for CdmStatusLevel.
 author: jinichu
 ms.service: common-data-model

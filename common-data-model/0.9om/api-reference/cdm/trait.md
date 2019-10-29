@@ -1,5 +1,5 @@
 ---
-title: Trait - Common Data Model | Microsoft Docs
+title: Trait | Microsoft Docs
 description: API reference for CdmTraitDefinition.
 author: jinichu
 ms.service: common-data-model

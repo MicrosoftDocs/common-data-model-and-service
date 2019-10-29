@@ -1,5 +1,5 @@
 ---
-title: Import - Common Data Model | Microsoft Docs
+title: Import | Microsoft Docs
 description: API reference for CdmImport.
 author: jinichu
 ms.service: common-data-model
@@ -26,7 +26,7 @@ public class CdmImport extends CdmObjectSimple
 |Name|Type|Description|
 |---|---|---|
 |CorpusPath|string|The import path.|
-|Moniker|string|A nickname used for imports to specify which document to import in the case of duplicate symbols (e.g. we might have multiple Account documents, but by specifying a moniker 'base_Account', we can pinpoint the exact document).|
+|Moniker|string|A nickname used for imports to specify which document to import in the case of duplicate symbols. For example, we might have multiple Account documents, but by specifying a moniker 'base_Account', we can pinpoint the exact document.|
 |Doc|[CdmDocumentDefinition](document.md)|The document that has been resolved for this import.|
 
 ## Methods

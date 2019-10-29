@@ -1,5 +1,5 @@
 ---
-title: Local Entity Declaration - Common Data Model | Microsoft Docs
+title: Local Entity Declaration | Microsoft Docs
 description: API reference for CdmLocalEntityDeclarationDefinition.
 author: jinichu
 ms.service: common-data-model

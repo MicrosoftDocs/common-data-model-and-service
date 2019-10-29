@@ -1,5 +1,5 @@
 ---
-title: Storage Adapter - Common Data Model | Microsoft Docs
+title: Storage Adapter | Microsoft Docs
 description: API reference for StorageAdapter.
 author: jinichu
 ms.service: common-data-model

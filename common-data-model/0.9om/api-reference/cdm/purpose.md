@@ -1,5 +1,5 @@
 ---
-title: Purpose - Common Data Model | Microsoft Docs
+title: Purpose | Microsoft Docs
 description: API reference for CdmPurposeDefinition.
 author: jinichu
 ms.service: common-data-model

@@ -1,5 +1,5 @@
 ---
-title: Folder - Common Data Model | Microsoft Docs
+title: Folder | Microsoft Docs
 description: API reference for CdmFolderDefinition.
 author: jinichu
 ms.service: common-data-model

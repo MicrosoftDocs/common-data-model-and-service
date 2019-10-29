@@ -1,5 +1,5 @@
 ---
-title: Entity Collection - Common Data Model | Microsoft Docs
+title: Entity Collection | Microsoft Docs
 description: API reference for CdmEntityCollection.
 author: jinichu
 ms.service: common-data-model

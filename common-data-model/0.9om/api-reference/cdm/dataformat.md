@@ -1,5 +1,5 @@
 ---
-title: Data Format - Common Data Model | Microsoft Docs
+title: Data Format | Microsoft Docs
 description: API reference for CdmDataFormat.
 author: jinichu
 ms.service: common-data-model

@@ -1,5 +1,5 @@
 ---
-title: Manifest Declaration - Common Data Model | Microsoft Docs
+title: Manifest Declaration | Microsoft Docs
 description: API reference for CdmManifestDeclarationDefinition.
 author: jinichu
 ms.service: common-data-model

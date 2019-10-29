@@ -1,5 +1,5 @@
 ---
-title: Constant Entity - Common Data Model | Microsoft Docs
+title: Constant Entity | Microsoft Docs
 description: API reference for CdmConstantEntityDefinition.
 author: jinichu
 ms.service: common-data-model

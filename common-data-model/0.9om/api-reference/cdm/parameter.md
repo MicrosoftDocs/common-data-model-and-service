@@ -1,5 +1,5 @@
 ---
-title: Parameter - Common Data Model | Microsoft Docs
+title: Parameter | Microsoft Docs
 description: API reference for CdmParameterDefinition.
 author: jinichu
 ms.service: common-data-model

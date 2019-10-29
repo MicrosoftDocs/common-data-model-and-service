@@ -1,5 +1,5 @@
 ---
-title: CdmObject - Common Data Model | Microsoft Docs
+title: CdmObject | Microsoft Docs
 description: API reference for CdmObject.
 author: jinichu
 ms.service: common-data-model

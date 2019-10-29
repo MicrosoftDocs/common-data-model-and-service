@@ -1,5 +1,5 @@
 ---
-title: Type Attribute - Common Data Model | Microsoft Docs
+title: Type Attribute | Microsoft Docs
 description: API reference for CdmTypeAttributeDefinition.
 author: jinichu
 ms.service: common-data-model

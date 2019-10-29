@@ -1,5 +1,5 @@
 ---
-title: Collection - Common Data Model | Microsoft Docs
+title: Collection | Microsoft Docs
 description: API reference for CdmCollection.
 author: jinichu
 ms.service: common-data-model

@@ -1,5 +1,5 @@
 ---
-title: Attribute Item - Common Data Model | Microsoft Docs
+title: Attribute Item | Microsoft Docs
 description: API reference for CdmAttributeItem.
 author: jinichu
 ms.service: common-data-model

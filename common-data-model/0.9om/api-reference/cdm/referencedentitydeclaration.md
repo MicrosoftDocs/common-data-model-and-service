@@ -1,5 +1,5 @@
 ---
-title: Referenced Entity Declaration - Common Data Model | Microsoft Docs
+title: Referenced Entity Declaration | Microsoft Docs
 description: API reference for CdmReferencedEntityDeclarationDefinition .
 author: jinichu
 ms.service: common-data-model

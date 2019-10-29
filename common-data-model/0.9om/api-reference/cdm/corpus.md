@@ -1,5 +1,5 @@
 ---
-title: Corpus - Common Data Model | Microsoft Docs
+title: Corpus | Microsoft Docs
 description: API reference for CdmCorpusDefinition.
 author: jinichu
 ms.service: common-data-model

@@ -1,5 +1,5 @@
 ---
-title: Data Partition - Common Data Model | Microsoft Docs
+title: Data Partition | Microsoft Docs
 description: API reference for CdmDataPartitionDefinition.
 author: jinichu
 ms.service: common-data-model

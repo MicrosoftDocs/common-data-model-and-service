@@ -1,5 +1,5 @@
 ---
-title: Entity - Common Data Model | Microsoft Docs
+title: Entity | Microsoft Docs
 description: API reference for CdmEntityDefinition.
 author: jinichu
 ms.service: common-data-model

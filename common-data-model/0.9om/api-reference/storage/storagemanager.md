@@ -1,5 +1,5 @@
 ---
-title: Storage Manager - Common Data Model | Microsoft Docs
+title: Storage Manager | Microsoft Docs
 description: API reference for StorageManager.
 author: jinichu
 ms.service: common-data-model

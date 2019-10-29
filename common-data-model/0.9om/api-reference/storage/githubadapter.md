@@ -1,5 +1,5 @@
 ---
-title: Github Adapter - Common Data Model | Microsoft Docs
+title: Github Adapter | Microsoft Docs
 description: API reference for GithubAdapter.
 author: jinichu
 ms.service: common-data-model

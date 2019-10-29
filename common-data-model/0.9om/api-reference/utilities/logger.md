@@ -1,5 +1,5 @@
 ---
-title: Logger - Common Data Model | Microsoft Docs
+title: Logger | Microsoft Docs
 description: API reference for Logger.
 author: jinichu
 ms.service: common-data-model

@@ -1,5 +1,5 @@
 ---
-title: Attribute Context Type - Common Data Model | Microsoft Docs
+title: Attribute Context Type | Microsoft Docs
 description: API reference for CdmAttributeContextType.
 author: jinichu
 ms.service: common-data-model

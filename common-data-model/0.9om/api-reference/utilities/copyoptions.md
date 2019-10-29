@@ -1,5 +1,5 @@
 ---
-title: Copy Options - Common Data Model | Microsoft Docs
+title: Copy Options | Microsoft Docs
 description: API reference for CopyOptions.
 author: jinichu
 ms.service: common-data-model

@@ -1,5 +1,5 @@
 ---
-title: Relationship Discovery Style - Common Data Model | Microsoft Docs
+title: Relationship Discovery Style | Microsoft Docs
 description: API reference for CdmRelationshipDiscoveryStyle.
 author: jinichu
 ms.service: common-data-model

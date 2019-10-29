@@ -1,5 +1,5 @@
 ---
-title: Resolve Options - Common Data Model | Microsoft Docs
+title: Resolve Options | Microsoft Docs
 description: API reference for ResolveOptions.
 author: jinichu
 ms.service: common-data-model

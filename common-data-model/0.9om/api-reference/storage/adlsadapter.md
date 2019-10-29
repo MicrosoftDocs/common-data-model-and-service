@@ -1,5 +1,5 @@
 ---
-title: ADLS Adapter - Common Data Model | Microsoft Docs
+title: ADLS Adapter | Microsoft Docs
 description: API reference for ADLSAdapter.
 author: jinichu
 ms.service: common-data-model

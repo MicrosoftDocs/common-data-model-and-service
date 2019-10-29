@@ -1,5 +1,5 @@
 ---
-title: Document - Common Data Model | Microsoft Docs
+title: Document | Microsoft Docs
 description: API reference for CdmDocumentDefinition.
 author: jinichu
 ms.service: common-data-model

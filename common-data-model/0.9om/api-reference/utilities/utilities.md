@@ -1,5 +1,5 @@
 ---
-title: Utilities - Common Data Model | Microsoft Docs
+title: Utilities | Microsoft Docs
 description: API reference for 0.9 OM.
 author: jinichu
 ms.service: common-data-model

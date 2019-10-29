@@ -1,5 +1,5 @@
 ---
-title: Data Type - Common Data Model | Microsoft Docs
+title: Data Type | Microsoft Docs
 description: API reference for CdmDataTypeDefinition.
 author: jinichu
 ms.service: common-data-model

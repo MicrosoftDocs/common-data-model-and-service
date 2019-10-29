@@ -1,5 +1,5 @@
 ---
-title: Storage - Common Data Model | Microsoft Docs
+title: Storage | Microsoft Docs
 description: API reference for Storage.
 author: jinichu
 ms.service: common-data-model
