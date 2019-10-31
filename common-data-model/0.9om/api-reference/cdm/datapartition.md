@@ -16,7 +16,7 @@ A data partition is an object pointing to a location of entity-related data.
 ```
 public class CdmDataPartitionDefinition extends CdmObjectDefinitionBase, CdmFileStatus
 ```
-*CdmDataPartitionDefinition extends CdmObjectDefinition, CdmFileStatus in Python.*
+*CdmObjectDefinitionBase is called CdmObjectDefinition in Python.*
 
 ## Constructors
 |Name|Description|

@@ -11,12 +11,12 @@ ms.author: jibyun
 
 # Parameter
 
-A parameter provides the ability to specify the parameters that a trait should contain. By providing a name, default values, and supported data types, trait references become restricted by which arguments they can contain. Parameters are defined for traits in the *CDM.SchemaDocuments* repository.
+A parameter provides the ability to specify the parameters that a [trait](trait.md) should contain. By providing a name, default values, and supported data types, trait references become restricted by which arguments they can contain. Parameters are defined for traits in the *CDM.SchemaDocuments* repository.
 
 ```
 public class CdmParameterDefinition extends CdmObjectDefinitionBase
 ```
-*CdmParameterDefinition extends CdmObjectSimple in Python.*
+*CdmParameterDefinition extends CdmObjectSimple in Python and TypeScript.*
 
 ## Constructors
 |Name|Description|

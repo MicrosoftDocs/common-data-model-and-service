@@ -26,7 +26,6 @@ public class CopyOptions
 |Name|Type|Description|
 |---|---|---|
 |StringRefs|bool?|Denotes whether to turn simple named string object references into objects with a relative path.|
-|RemoveSingleRowLocalizedTableTraits|bool?|TODO|
 
 
 

@@ -25,7 +25,7 @@ public class CdmArgumentCollection extends CdmCollection<CdmArgumentDefinition>
 ## Methods
 |Name|Description|Return Type|
 |---|---|---|
-|**Add([CdmArgumentDefinition](argument.md))**<br/>*arg*: The argument to add to the collection.|Adds the specified argument to the collection.|void|
+|**Add([CdmArgumentDefinition](argument.md))**<br/>*arg*: The argument to add to the collection.|Adds the specified argument to the collection. Returns the argument that was added to the collection.|[CdmArgumentDefinition](argument.md)|
 |**Add(string, dynamic)**<br/>*name*: The name of the argument to add to the collection.<br/>*value*: The value of the argument to add to the collection.|Creates an argument with the specified name and value and adds it to the collection. Returns the argument that was added to the collection.|[CdmArgumentDefinition](argument.md)|
 |**AddRange(IEnumerable\<[CdmArgumentDefinition](argument.md)>)**<br/>*argumentList*: The list of arguments to add.|Adds the elements of the specified list of arguments to the collection.|void|
 |**FetchValue(string)**<br/>*name*: The name of the argument to fetch the value of.|Returns the value of the argument with the specified name.|dynamic|

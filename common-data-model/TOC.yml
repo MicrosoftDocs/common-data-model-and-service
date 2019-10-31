@@ -48,6 +48,8 @@
             href: 0.9om/api-reference/cdm/cdmobject.md
           - name: CdmObject Definition
             href: 0.9om/api-reference/cdm/cdmobjectdefinition.md
+          - name: CdmObject Definition Collection
+            href: 0.9om/api-reference/cdm/definitioncollection.md
           - name: CdmObject Reference
             href: 0.9om/api-reference/cdm/cdmobjectreference.md
           - name: CdmObject Type
@@ -86,6 +88,8 @@
             href: 0.9om/api-reference/cdm/foldercollection.md
           - name: Import
             href: 0.9om/api-reference/cdm/import.md
+          - name: Import Collection
+            href: 0.9om/api-reference/cdm/importcollection.md
           - name: Local Entity Declaration
             href: 0.9om/api-reference/cdm/localentitydeclaration.md
           - name: Manifest

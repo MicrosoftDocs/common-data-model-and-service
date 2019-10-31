@@ -16,7 +16,7 @@ A trait helps express the semantic meaning and structural guidance. Traits are e
 ```
 public class CdmTraitDefinition extends CdmObjectDefinitionBase
 ```
-*CdmTraitDefinition extends CdmObjectDefinition in Python.*
+*CdmObjectDefinitionBase is called CdmObjectDefinition in Python.*
 
 ## Constructors
 |Name|Description|
@@ -31,7 +31,7 @@ public class CdmTraitDefinition extends CdmObjectDefinitionBase
 |Parameters|[CdmCollection](collection.md)\<[CdmParameterDefinition](parameter.md)>|The trait's parameters, for holding values or settings with the trait.|
 |Elevated|bool?|Denotes whether this trait is elevated. If an attribute has an elevated trait, then that trait should also be applied to the outer entity.|
 |Ugly|bool?|Denotes whether the trait is user facing (false if it is user facing, true otherwise).|
-|AssociatedProperties|List\<string>|The properties for the entity or attribute that this trait contributes to (using trait2propertyMap).|
+|AssociatedProperties|List\<string>|The trait's associated properties.|
 
 ## Methods
 |Name|Description|Return Type|

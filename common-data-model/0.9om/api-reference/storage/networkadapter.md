@@ -14,7 +14,7 @@ ms.author: jibyun
 This is an abstract class that contains logic for adapters that deal with data across a network. See [GithubAdapter](githubadapter.md), [ADLSAdapter](adlsadapter.md), or [RemoteAdapter](remoteadapter.md) for usage of this class. When extending this class, a CdmHttpClient has to be defined with the specified endpoint and callback function in the constructor. Then the class helper methods can be used to set up CDM HTTP requests and read data. If *Timeout*, *MaxmimumTimeout*, or *NumberOfRetries* are not specified, the default values for those properties that are specified in this class will be used. 
 
 ```
-public abstract class NetworkAdapter extends IDisposable
+public abstract class NetworkAdapter
 ```
 
 ## Properties
@@ -28,7 +28,7 @@ public abstract class NetworkAdapter extends IDisposable
 ## Methods
 |Name|Description|Return Type|
 |---|---|---|
-|TODO|
-|**Dispose()**|Disposes the CDM HTTP client (only in C#).|void|
+|**ExecuteRequest(CdmHttpRequest)**<br/>*httpRequest*: The HTTP request to execute.|Executes an HTTP request and returns the response of the request.|Task\<CdmHttpResponse>|
+|**Dispose()**|Disposes the CDM HTTP client. Exists only in C#.|void|
 
 

@@ -27,12 +27,13 @@ The Common Data Model object model (OM) provides two types of classes: definitio
 |[Attribute Resolution Guidance](attributeresolutionguidance.md)|Provides properties that help with the resolution process of [entities](entity.md), attributes, and other resolvable Common Data Model concepts.|
 |[CdmObject](cdmobject.md)|Represents the base for all Common Data Model objects.|
 |[CdmObject Definition](cdmobjectdefinition.md)|Represents the base for all Common Data Model object definitions.|
+|[CdmObject Definition Collection](definitioncollection.md)|Extends [Collection](collection.md) and adds additional behaviors specific to CdmObject definition collections. It is used only for the *Definitions* property in [Document](document.md) and not for any other CdmObject definition collections.|
 |[Collection](collection.md)|Holds a set of [Common Data Model objects](cdmobject.md) and provides easy handling of them.|
 |[Constant Entity](constantentity.md)|Provides a way of making an [entity](entity.md) with records and an associated schema in a JSON file. We use these whenever we want to store a table of information inside a parameter of a [trait](trait.md). They are used in the enum definitions, in the localized display text, etc.|
 |[Corpus](corpus.md)|Provides the most important basic functionalities to deal with the object model. There will usually only be one corpus when dealing with the OM.|
 |[Data Partition](datapartition.md)|Points to a location of entity-related data.|
 |[Data Partition Pattern](datapartitionpattern.md)|Provides a way of selecting or generating a set of partitions based on the requirements specified as a regular expression.|
-|[Data Type](datatype.md)|Provides the ability to assign different data types to attributes (such as string, Boolean, etc.).|
+|[Data Type](datatype.md)|Provides the ability to assign different data types to attributes (such as string, boolean, etc.).|
 |[Document](document.md)|Enables the OM to have a persisted state. Every document can contain different Common Data Model definitions, such as [entities](entity.md), [data partitions](datapartition.md), or attributes.|
 |[Document Collection](documentcollection.md)|Extends [Collection](collection.md) and adds additional behaviors specific to document collections.|
 |[E2E Relationship](e2erelationship.md)|A relationship between two entity's attributes.|
@@ -40,13 +41,14 @@ The Common Data Model object model (OM) provides two types of classes: definitio
 |[Entity Attribute](entityattribute.md)|An attribute that also points to an [entity](entity.md).|
 |[Entity Collection](entitycollection.md)|Extends [Collection](collection.md) and adds behaviors specific to entity collections.|
 |[Entity Declaration](entitydeclaration.md)|Provides a simple functionality that is extended by a [local entity declaration](localentitydeclaration.md) and a [referenced entity declaration](referencedentitydeclaration.md).|
-|[Folder](folder.md)|Provides a hierarchical structure of the OM for organizing documents. Folders can contain other folders or documents.|
+|[Folder](folder.md)|Provides a hierarchical structure of the OM for organizing [documents](document.md). Folders can contain other folders or documents.|
 |[Folder Collection](foldercollection.md)|Extends [Collection](collection.md) and adds additional behaviors specific to folder collections. It is used only for the *ChildFolders* property in [Folder](folder.md) and not for any other folder collections, as this collection copies fields from the parent folder to the children.|
-|[Import](import.md)|Used by documents to provide the files and documents that need to be imported first.|
+|[Import](import.md)|Used by [documents](document.md) to provide the files and documents that need to be imported first.|
+|[Import Collection](importcollection.md)|Extends [Collection](collection.md) and adds additional behaviors specific to import collections. It is used only for the *Imports* property in [Document](document.md) and not for any other import collections.|
 |[Local Entity Declaration](localentitydeclaration.md)|A declaration of an entity that resides locally and has associated [data partitions](datapartition.md).|
 |[Manifest](manifest.md)|A top-level document with the extension '.manifest.cdm.json'. A manifest can reference different documents, including documents with the extension '.cdm.json' that contain entities.|
 |[Manifest Declaration](manifestdeclaration.md)|A declaration for the Common Data Model manifest format.|
-|[Parameter](parameter.md)|Provides the ability to specify the parameters that a trait should contain. By providing a name, default values, and supported data types, trait references become restricted by which arguments they can contain. Parameters are defined for traits in the *CDM.SchemaDocuments* repository.|
+|[Parameter](parameter.md)|Provides the ability to specify the parameters that a [trait](trait.md) should contain. By providing a name, default values, and supported data types, trait references become restricted by which arguments they can contain. Parameters are defined for traits in the *CDM.SchemaDocuments* repository.|
 |[Purpose](purpose.md)|Provides an attribute with what it does for an entity, for example *SortedBy* or *NamedBy*.|
 |[Referenced Entity Declaration](referencedentitydeclaration.md)|A declaration of an entity that resides in a remote location.|
 |[Trait](trait.md)|Helps express the semantic meaning and structural guidance. Traits are essentially a metadata's metadata. Traits can extend other traits and have a format that is easy to understand and follow.|

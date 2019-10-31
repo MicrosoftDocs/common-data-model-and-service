@@ -11,7 +11,7 @@ ms.author: jibyun
 
 # CdmObject Definition
 
-This is the base for all Common Data Model object definitions. It is extended by *CdmObjectDefinitionBase* in C# and Java.
+This is the base for all Common Data Model object definitions. It is extended by *CdmObjectDefinitionBase* in C#, Java, and TypeScript.
 
 ```
 public interface CdmObjectDefinition extends CdmObject

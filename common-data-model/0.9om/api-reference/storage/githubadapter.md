@@ -11,14 +11,14 @@ ms.author: jibyun
 
 # Github Adapter
 
-The Github adapter is the storage adapter that points to the CDM public standards schema documents on Github.<br/>
+The Github adapter is the storage adapter that points to the Common Data Model public standards schema documents on Github.<br/>
 
 **Note**: This class is on the deprecation path. 
 
 ```
 public class GithubAdapter extends NetworkAdapter, StorageAdapter
 ```
-*GithubAdapter extends NetworkAdapter, StorageAdapterBase in Python.*
+*StorageAdapter is called StorageAdapterBase in Python.*
 
 ## Constructors
 |Name|Description|

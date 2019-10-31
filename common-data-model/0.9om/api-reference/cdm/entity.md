@@ -16,7 +16,7 @@ An entity is the basic building block of the OM. It provides a concrete placehol
 ```
 public class CdmEntityDefinition extends CdmObjectDefinitionBase, CdmReferencesEntities
 ```
-*CdmEntityDefinition extends CdmObjectDefinition, CdmReferencesEntities in Python.*
+*CdmObjectDefinitionBase is called CdmObjectDefinition in Python.*
 
 ## Constructors
 |Name|Description|
@@ -36,7 +36,7 @@ public class CdmEntityDefinition extends CdmObjectDefinitionBase, CdmReferencesE
 |CdmSchemas|List\<string>|The list of CDM entities that the entity "contains" or implements (a set of contracts or interfaces).|
 |Version|string|The entity's version.|
 |ExtendsEntityResolutionGuidance|[CdmAttributeResolutionGuidance](attributeresolutionguidance.md)|The resolution guidance for the attributes taken from the entity extended by this entity.|
-|PrimaryKey|string|TODO|
+|PrimaryKey|string|The attribute that identifies itself as the primary key.|
 
 ## Methods
 |Name|Description|Return Type|

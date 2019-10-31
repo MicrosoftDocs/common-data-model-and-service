@@ -1,0 +1,34 @@
+---
+title: Import Collection | Microsoft Docs
+description: API reference for CdmImportCollection.
+author: jinichu
+ms.service: common-data-model
+ms.reviewer: deonhe 
+ms.topic: article
+ms.date: 10/18/2019
+ms.author: jibyun
+---
+
+# Import Collection
+
+An import collection extends [Collection](collection.md) and adds additional behaviors specific to import collections. It is used only for the *Imports* property in [Document](document.md) and not for any other import collections.
+
+```
+public class CdmImportCollection extends CdmCollection<CdmImport>
+```
+
+## Constructors
+|Name|Description|
+|---|---|
+|**CdmImportCollection(CdmCorpusContext, [CdmDocumentDefinition](document.md))**<br/>*ctx*: The corpus context.<br/>*owner*: The document that contains this collection.|Initializes a new instance of the [CdmImportCollection](importcollection.md) class.|
+
+## Methods
+|Name|Description|Return Type|
+|---|---|---|
+|**Add([CdmImport](import.md))**<br/>*import*: The import to add to the collection.|Adds the specified import to the collection. Returns the import that was added to the collection.|[CdmImport](import.md)|
+|**Add(string, bool)**<br/>*corpusPath*: The corpus path to be set for the import.<br/>*simpleRef [optional]*: This parameter is unused. It is kept just for consistency with other CDM collections.|Creates an import with the specified corpus path and adds it to the collection. Returns the import that was added to the collection.|[CdmImport](import.md)|
+|**Add(string, string)**<br/>*corpusPath*: The corpus path to be set for the import.<br/>*moniker*: The moniker to be set for the import.|Creates an import with the specified corpus path and moniker and adds it to the collection. Returns the import that was added to the collection.|[CdmImport](import.md)| 
+|**AddRange(IEnumerable\<[CdmImport](import.md)>)**<br/>*importList*: The list of imports to add.|Adds the elements of the specified list of imports to the collection.|void|
+
+
+

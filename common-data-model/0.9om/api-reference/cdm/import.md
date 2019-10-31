@@ -11,7 +11,7 @@ ms.author: jibyun
 
 # Import
 
-An import is used by documents to provide the files and documents that need to be imported first.
+An import is used by [documents](document.md) to provide the files and documents that need to be imported first.
 
 ```
 public class CdmImport extends CdmObjectSimple
@@ -27,7 +27,6 @@ public class CdmImport extends CdmObjectSimple
 |---|---|---|
 |CorpusPath|string|The import path.|
 |Moniker|string|A nickname used for imports to specify which document to import in the case of duplicate symbols. For example, we might have multiple Account documents, but by specifying a moniker 'base_Account', we can pinpoint the exact document.|
-|Doc|[CdmDocumentDefinition](document.md)|The document that has been resolved for this import.|
 
 ## Methods
 |Name|Description|Return Type|

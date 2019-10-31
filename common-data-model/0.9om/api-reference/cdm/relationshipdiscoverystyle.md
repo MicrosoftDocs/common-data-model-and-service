@@ -11,7 +11,7 @@ ms.author: jibyun
 
 # Relationship Discovery Style
 
-An enum class containing the types of relationships we want populated in a manifest. This class only exists in C# and Java.
+An enum class containing the types of relationships we want populated in a manifest. This class only exists in C#, Java, and TypeScript.
 
 ```
 public enum CdmRelationshipDiscoveryStyle

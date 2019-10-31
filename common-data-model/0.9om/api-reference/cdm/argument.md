@@ -20,7 +20,7 @@ public class CdmArgumentDefinition extends CdmObjectSimple
 ## Constructors
 |Name|Description|
 |---|---|
-|**CdmArgumentDefinition(CdmCorpusContext)**<br />*ctx*: The corpus context.|Initializes a new instance of the [CdmArgumentDefinition](argument.md) class.|
+|**CdmArgumentDefinition(CdmCorpusContext, string)**<br />*ctx*: The corpus context.<br/>*name*: The argument's name.|Initializes a new instance of the [CdmArgumentDefinition](argument.md) class.|
 
 ## Properties
 |Name|Type|Description|

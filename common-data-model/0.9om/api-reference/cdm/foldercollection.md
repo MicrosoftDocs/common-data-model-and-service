@@ -25,7 +25,7 @@ public class CdmFolderCollection extends CdmCollection<CdmFolderDefinition>
 ## Methods
 |Name|Description|Return Type|
 |---|---|---|
-|**Add([CdmFolderDefinition](folder.md))**<br/>*childFolder*: The folder to add to the collection.|Adds the specified child folder to the collection.|void|
+|**Add([CdmFolderDefinition](folder.md))**<br/>*childFolder*: The folder to add to the collection.|Adds the specified child folder to the collection. Returns the folder that was added to the collection.|[CdmFolderDefinition](folder.md)|
 |**Add(string, bool)**<br/>*name*: The name of the folder to add to the collection.<br/>*simpleRef [optional]*: This parameter is unused. It is kept just for consistency with other CDM collections.|Creates a folder with the specified name and adds it to the collection. Returns the folder that was added to the collection.|[CdmFolderDefinition](folder.md)|
 |**AddRange(IEnumerable\<[CdmFolderDefinition](folder.md)>)**<br/>*childFolderList*: The list of folders to add.|Adds the elements of the specified list of folders to the collection.|void|
 

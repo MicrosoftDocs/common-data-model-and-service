@@ -17,7 +17,7 @@ A purpose provides an attribute with what it does for an entity, for example *So
 ```
 public class CdmPurposeDefinition extends CdmObjectDefinitionBase
 ```
-*CdmPurposeDefinition extends CdmObjectDefinition in Python.*
+*CdmObjectDefinitionBase is called CdmObjectDefinition in Python.*
 
 ## Constructors
 |Name|Description|

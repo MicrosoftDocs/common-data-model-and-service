@@ -1,6 +1,6 @@
 ---
 title: Event Callback | Microsoft Docs
-description: API reference for RptCallback.
+description: API reference for EventCallback.
 author: jinichu
 ms.service: common-data-model
 ms.reviewer: deonhe 
@@ -11,7 +11,7 @@ ms.author: jibyun
 
 # Event Callback
 
-The event callback represents the callback object used in [CdmCorpusDefinition.SetEventCallback(...)](../cdm/corpus.md#methods). This class only exists in C#.
+The event callback represents the callback object used in [CdmCorpusDefinition.SetEventCallback(...)](../cdm/corpus.md#methods). This class only exists in C# and TypeScript.
 
 ```
 public class EventCallback
@@ -20,6 +20,6 @@ public class EventCallback
 ## Properties
 |Name|Type|Description|
 |---|---|---|
-|Invoke|Action\<[CdmStatusLevel](../cdm/statuslevel.md), string>|TODO|
+|Invoke|Action\<[CdmStatusLevel](../cdm/statuslevel.md), string>|Invokes a log message with the status level.|
 
 
