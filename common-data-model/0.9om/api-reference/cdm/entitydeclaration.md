@@ -22,7 +22,7 @@ public interface CdmEntityDeclarationDefinition extends CdmObjectDefinition, Cdm
 |Name|Type|Description|
 |---|---|---|
 |EntityName|string|The entity's name.|
-|EntityPath|string|The entity's path, implemented only by [LocalEntityDeclaration](localentitydeclaration.md).|
+|EntityPath|string|The entity's path.|
 |DataPartitions|[CdmCollection](collection.md)\<[CdmDataPartitionDefinition](datapartition.md)>|The data partitions, implemented only by [LocalEntityDeclaration](localentitydeclaration.md).|
 |DataPartitionPatterns|[CdmCollection](collection.md)\<[CdmDataPartitionPatternDefinition](datapartitionpattern.md)>|The data partition patterns, implemented only by [LocalEntityDeclaration](localentitydeclaration.md).|
 

@@ -18,13 +18,12 @@ The Github adapter is the storage adapter that points to the Common Data Model p
 ```
 public class GithubAdapter extends NetworkAdapter, StorageAdapter
 ```
-*StorageAdapter is called StorageAdapterBase in Python.*
+*GithubAdapter extends NetworkAdapter, StorageAdapterBase in Python.*
 
 ## Constructors
 |Name|Description|
 |---|---|
 |**GithubAdapter()**|Initializes a new instance of the [GithubAdapter](githubadapter.md) class.|
-|**GithubAdapter(string)**<br/>*configs*: A JSON string representing the configuration for the adapter.|Initializes a new instance of the [GithubAdapter](githubadapter.md) class using the specified configuration.|
 
 ## Properties
 |Name|Type|Description|
@@ -37,11 +36,12 @@ public class GithubAdapter extends NetworkAdapter, StorageAdapter
 |**CanRead()**|Returns true, since the Github adapter can read data.|bool|
 |**CanWrite()**|Returns false, since the Github adapter cannot write data to its source.|bool|
 |**ReadAsync(string)**|See [StorageAdapter.ReadAsync(...)](storageadapter.md#methods).|Task\<string>|
-|**WriteAsync(string, dynamic)**|See [StorageAdapter.WriteAsync(...)](storageadapter.md#methods). Throws a *NotImplementedException* because the Github adapter cannot write to its source.|Task|
+|**WriteAsync(string, string)**|See [StorageAdapter.WriteAsync(...)](storageadapter.md#methods). Throws a *NotImplementedException* because the Github adapter cannot write to its source.|Task|
 |**CreateAdapterPath(string)**|See [StorageAdapter.CreateAdapterPath(...)](storageadapter.md#methods).|string|
 |**CreateCorpusPath(string)**|See [StorageAdapter.CreateCorpusPath(...)](storageadapter.md#methods).|string|
 |**ClearCache()**|See [StorageAdapter.ClearCache()](storageadapter.md#methods).|void|
-|**ComputeLastModifiedTimeAsync(string)**|See [StorageAdapter.ComputeLastModifiedTimeAsync(...)](storageadapter.md#methods). Currently just returns Time.Now()|Task\<DateTimeOffset?>|
+|**ComputeLastModifiedTimeAsync(string)**<br/><br/>*fetchLastModifiedTimeAsync(...) in Java and Python.*|See [StorageAdapter.ComputeLastModifiedTimeAsync(...)](storageadapter.md#methods). Currently just returns Time.Now()|Task\<DateTimeOffset?>|
 |**FetchAllFilesAsync(string)**|See [StorageAdapter.FetchAllFilesAsync(...)](storageadapter.md#methods). Currently just returns null.|Task\<List\<string>>|
 |**ConstructConfig()**|See [StorageAdapter.ConstructConfig()](storageadapter.md#methods).|string|
+|**ApplyConfig(string)**|See [StorageAdapter.ApplyConfig(...)](storageadapter.md#methods).|void|
 

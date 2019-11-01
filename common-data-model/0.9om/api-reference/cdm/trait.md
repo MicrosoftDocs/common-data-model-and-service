@@ -16,7 +16,7 @@ A trait helps express the semantic meaning and structural guidance. Traits are e
 ```
 public class CdmTraitDefinition extends CdmObjectDefinitionBase
 ```
-*CdmObjectDefinitionBase is called CdmObjectDefinition in Python.*
+*CdmTraitDefinition extends CdmObjectDefinition in Python.*
 
 ## Constructors
 |Name|Description|

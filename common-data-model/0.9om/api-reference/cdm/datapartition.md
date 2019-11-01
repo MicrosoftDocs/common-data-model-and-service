@@ -16,7 +16,7 @@ A data partition is an object pointing to a location of entity-related data.
 ```
 public class CdmDataPartitionDefinition extends CdmObjectDefinitionBase, CdmFileStatus
 ```
-*CdmObjectDefinitionBase is called CdmObjectDefinition in Python.*
+*CdmDataPartitionDefinition extends CdmObjectDefinition, CdmFileStatus in Python.*
 
 ## Constructors
 |Name|Description|
@@ -35,7 +35,7 @@ public class CdmDataPartitionDefinition extends CdmObjectDefinitionBase, CdmFile
 |RefreshTime|DateTime?|The data partition's refresh time.|
 |LastFileStatusCheckTime|DateTimeOffset?|The last time the modified time was checked for this file.|
 |LastFileModifiedTime|DateTimeOffset?|The last time this file was modified according to the OM.|
-|LastChildFileModifiedTime|DateTimeOffset?|The greatest last time reported by any of the children objects about their file status check times.|
+|LastChildFileModifiedTime<br/><br/>*Only in C#, Java, and Python.*|DateTimeOffset?|The greatest last time reported by any of the children objects about their file status check times.|
 
 ## Methods
 |Name|Description|Return Type|

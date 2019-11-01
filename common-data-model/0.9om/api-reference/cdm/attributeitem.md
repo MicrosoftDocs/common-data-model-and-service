@@ -11,7 +11,7 @@ ms.author: jibyun
 
 # Attribute Item
 
-An attribute item represents the base for a generic attribute that could be a [type attribute](typeattribute.md) or an [entity attribute](entityattribute.md).
+An attribute item represents the base interface for a generic attribute that could be a [type attribute](typeattribute.md) or an [entity attribute](entityattribute.md).
 
 ```
 public interface CdmAttributeItem extends CdmObject, CdmReferencesEntities

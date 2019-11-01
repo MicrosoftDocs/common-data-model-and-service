@@ -23,10 +23,10 @@ The Common Data Model object model (OM) provides two types of classes: definitio
 |[Argument Collection](argumentcollection.md)|Extends [Collection](collection.md) and adds additional behaviors specific to argument collections.|
 |[Attribute Context](attributecontext.md)|Provides more insight into an attribute's (parent/child) relationship. It is heavily used during an entity's attribute resolution and can contain the history of all changes that led to an attribute's resolution. Resolved concepts, such as resolved attributes, can contain attribute contexts to provide more insight into the original, non-resolved hierarchical attributes.|
 |[Attribute Group](attributegroup.md)|Represents a group of [attribute items](attributeitem.md) that provide a similar role.|
-|[Attribute Item](attributeitem.md)|Represents the base for a generic attribute that could be a [type attribute](typeattribute.md) or an [entity attribute](entityattribute.md).|
+|[Attribute Item](attributeitem.md)|Represents the base interface for a generic attribute that could be a [type attribute](typeattribute.md) or an [entity attribute](entityattribute.md).|
 |[Attribute Resolution Guidance](attributeresolutionguidance.md)|Provides properties that help with the resolution process of [entities](entity.md), attributes, and other resolvable Common Data Model concepts.|
-|[CdmObject](cdmobject.md)|Represents the base for all Common Data Model objects.|
-|[CdmObject Definition](cdmobjectdefinition.md)|Represents the base for all Common Data Model object definitions.|
+|[CdmObject](cdmobject.md)|Represents the base interface for all Common Data Model objects.|
+|[CdmObject Definition](cdmobjectdefinition.md)|Represents the base interface for all Common Data Model object definitions.|
 |[CdmObject Definition Collection](definitioncollection.md)|Extends [Collection](collection.md) and adds additional behaviors specific to CdmObject definition collections.|
 |[Collection](collection.md)|Holds a set of [Common Data Model objects](cdmobject.md) and provides easy handling of them.|
 |[Constant Entity](constantentity.md)|Provides a way of making an [entity](entity.md) with records and an associated schema in a JSON file. We use these whenever we want to store a table of information inside a parameter of a [trait](trait.md). They are used in the enum definitions, in the localized display text, etc.|
@@ -62,7 +62,7 @@ All reference objects extend from the [CdmObject Reference](cdmobjectreference.m
 
 |Name|Description|
 |---|---|
-|[CdmObject Reference](cdmobjectreference.md)|Represents the base for all Common Data Model object references.|
+|[CdmObject Reference](cdmobjectreference.md)|Represents the base interface for all Common Data Model object references.|
 |[Trait Reference](traitreference.md)|The reference class for [traits](trait.md).|
 
 

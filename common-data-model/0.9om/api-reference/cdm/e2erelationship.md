@@ -16,7 +16,7 @@ An E2E relationship is a relationship between two entity's attributes.
 ```
 public class CdmE2ERelationship extends CdmObjectDefinitionBase
 ```
-*CdmObjectDefinitionBase is called CdmObjectDefinition in Python.*
+*CdmE2ERelationship extends CdmObjectDefinition in Python.*
 
 ## Constructors
 |Name|Description|
@@ -26,7 +26,7 @@ public class CdmE2ERelationship extends CdmObjectDefinitionBase
 ## Properties
 |Name|Type|Description|
 |---|---|---|
-|Name|string|The relationship's name.|
+|Name<br/><br/>*RelationshipName in TypeScript and Python.*|string|The relationship's name.|
 |FromEntity|string|The corpus path to the entity the relationship is pointing from.|
 |FromEntityAttribute|string|The entity attribute the relationship is pointing from (foreign key).|
 |ToEntity|string|The corpus path to entity the relationship is pointing to.|

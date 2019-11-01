@@ -16,7 +16,7 @@ This is the reference class for [traits](trait.md).
 ```
 public class CdmTraitReference extends CdmObjectReferenceBase
 ```
-*CdmObjectReferenceBase is called CdmObjectReference in Python.*
+*CdmTraitReference extends CdmObjectReference in Python.*
 
 ## Constructors
 |Name|Description|

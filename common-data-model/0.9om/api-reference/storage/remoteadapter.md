@@ -16,13 +16,12 @@ The remote adapter is the storage adapter that is used to interact with data on 
 ```
 public class RemoteAdapter extends NetworkAdapter, StorageAdapter
 ```
-*StorageAdapter is called StorageAdapterBase in Python.*
+*RemoteAdapter extends NetworkAdapter, StorageAdapterBase in Python.*
 
 ## Constructors
 |Name|Description|
 |---|---|
-|**RemoteAdapter()**|Initializes a new instance of the [RemoteAdapter](remoteadapter.md) class.|
-|**RemoteAdapter(string)**<br/>*configs*: A JSON string representing the configuration for the adapter.|Initializes a new instance of the [RemoteAdapter](remoteadapter.md) class using the specified configuration.|
+|**RemoteAdapter()**|Initializes a new instance of the [RemoteAdapter](remoteadapter.md) class. The user must apply an adapter configuration (see *ApplyConfig(...)*) or add hosts if this constructor is used.|
 
 ## Properties
 |Name|Type|Description|
@@ -36,11 +35,12 @@ public class RemoteAdapter extends NetworkAdapter, StorageAdapter
 |**CanRead()**|Returns true, since the remote adapter can read data.|bool|
 |**CanWrite()**|Returns false, since the remote adapter cannot write data to its source.|bool|
 |**ReadAsync(string)**|See [StorageAdapter.ReadAsync(...)](storageadapter.md#methods).|Task\<string>|
-|**WriteAsync(string, dynamic)**|See [StorageAdapter.WriteAsync(...)](storageadapter.md#methods). Throws a *NotImplementedException* because the remote adapter cannot write to its source.|Task|
+|**WriteAsync(string, string)**|See [StorageAdapter.WriteAsync(...)](storageadapter.md#methods). Throws a *NotImplementedException* because the remote adapter cannot write to its source.|Task|
 |**CreateAdapterPath(string)**|See [StorageAdapter.CreateAdapterPath(...)](storageadapter.md#methods).|string|
 |**CreateCorpusPath(string)**|See [StorageAdapter.CreateCorpusPath(...)](storageadapter.md#methods).|string|
 |**ClearCache()**|See [StorageAdapter.ClearCache()](storageadapter.md#methods).|void|
-|**ComputeLastModifiedTimeAsync(string)**|See [StorageAdapter.ComputeLastModifiedTimeAsync(...)](storageadapter.md#methods). Currently just returns Time.Now()|Task\<DateTimeOffset?>|
+|**ComputeLastModifiedTimeAsync(string)**<br/><br/>*fetchLastModifiedTimeAsync(...) in Java and Python.*|See [StorageAdapter.ComputeLastModifiedTimeAsync(...)](storageadapter.md#methods). Currently just returns Time.Now()|Task\<DateTimeOffset?>|
 |**FetchAllFilesAsync(string)**|See [StorageAdapter.FetchAllFilesAsync(...)](storageadapter.md#methods). Currently just returns null.|Task\<List\<string>>|
 |**ConstructConfig()**|See [StorageAdapter.ConstructConfig()](storageadapter.md#methods).|string|
+|**ApplyConfig(string)**|See [StorageAdapter.ApplyConfig(...)](storageadapter.md#methods).|void|
 

@@ -16,7 +16,7 @@ A manifest declaration is a declaration for the Common Data Model manifest forma
 ```
 public class CdmManifestDeclarationDefinition extends CdmObjectDefinitionBase, CdmFileStatus
 ```
-*CdmObjectDefinitionBase is called CdmObjectDefinition in Python.*
+*CdmManifestDeclarationDefinition extends CdmObjectDefinition, CdmFileStatus in Python.*
 
 ## Constructors
 |Name|Description|
@@ -30,7 +30,7 @@ public class CdmManifestDeclarationDefinition extends CdmObjectDefinitionBase, C
 |Definition|string|The corpus path to the definition of the sub-folder.|
 |LastFileStatusCheckTime|DateTimeOffset?|The last time the modified time was checked for this file.|
 |LastFileModifiedTime|DateTimeOffset?|The last time this file was modified according to the OM.|
-|LastChildFileModifiedTime|DateTimeOffset?|The last time a child file was modified according to the OM.|
+|LastChildFileModifiedTime<br/><br/>*Only in C# and Java.*|DateTimeOffset?|The last time a child file was modified according to the OM.|
 
 ## Methods
 |Name|Description|Return Type|

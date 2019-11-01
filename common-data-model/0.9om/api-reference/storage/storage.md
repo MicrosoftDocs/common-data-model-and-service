@@ -23,5 +23,5 @@ The Storage classes provide a way to interact with Common Data Model files. The 
 |[LocalAdapter](localadapter.md)|Used to interact with data on the local file system.|
 |[NetworkAdapter](networkadapter.md)|Contains logic for adapters that deal with data across a network.|
 |[RemoteAdapter](remoteadapter.md)|Used to interact with data on a remote file system.|
-|[Storage Adapter](storageadapter.md)|The base for an adapter object that can read and write documents to and from a data source. It allows a user to interact with data from multiple data sources without having to manually copy data to the location where the Common Data Model object model is running. This interface also allows users to create their own adapter, if needed.|
+|[Storage Adapter](storageadapter.md)|The base interface for an adapter object that can read and write documents to and from a data source. It allows a user to interact with data from multiple data sources without having to manually copy data to the location where the Common Data Model object model is running. This interface also allows users to create their own adapter, if needed.|
 |[Storage Manager](storagemanager.md)|Acts like a storage for the [Corpus](../cdm/corpus.md) and is used to interact with [storage adapters](storageadapter.md).|

@@ -16,7 +16,8 @@ An attribute group represents a group of [attribute items](attributeitem.md) tha
 ```
 public class CdmAttributeGroupDefinition extends CdmObjectDefinitionBase, CdmReferencesEntities
 ```
-*CdmObjectDefinitionBase is called CdmObjectDefinition in Python.*
+*CdmAttributeGroupDefinition extends CdmObjectDefinition, CdmReferencesEntities in Python.*<br/>
+*CdmAttributeGroupDefinition extends CdmObjectDefinitionBase in TypeScript.*
 
 ## Constructors
 |Name|Description|

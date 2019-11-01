@@ -16,7 +16,8 @@ A local entity declaration is a declaration of an entity that resides locally an
 ```
 public class CdmLocalEntityDeclarationDefinition extends CdmObjectDefinitionBase, CdmEntityDeclarationDefinition
 ```
-*CdmLocalEntityDeclarationDefinition extends CdmEntityDeclarationDefinition in Python.*
+*CdmLocalEntityDeclarationDefinition extends CdmEntityDeclarationDefinition in Python.*<br/>
+*CdmLocalEntityDeclarationDefinition extends CdmObjectDefinitionBase, CdmFileStatus in TypeScript.*
 
 ## Constructors
 |Name|Description|

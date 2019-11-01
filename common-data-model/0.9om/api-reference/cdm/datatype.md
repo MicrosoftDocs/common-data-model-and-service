@@ -16,7 +16,7 @@ A data type provides the ability to assign different data types to attributes (s
 ```
 public class CdmDataTypeDefinition extends CdmObjectDefinitionBase
 ```
-*CdmObjectDefinitionBase is called CdmObjectDefinition in Python.*
+*CdmDataTypeDefinition extends CdmObjectDefinition in Python.*
 
 ## Constructors
 |Name|Description|

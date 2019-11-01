@@ -11,7 +11,7 @@ ms.author: jibyun
 
 # CdmObject Reference
 
-This is the base for all Common Data Model object references. It is extended by *CdmObjectReferenceBase* (in C#, Java, and TypeScript), *CdmAttributeContextReference, CdmAttributeGroupReference, CdmAttributeReference, CdmDataTypeReference, CdmEntityReference*, and *CdmPurposeReference*.
+This is the base interface for all Common Data Model object references. It is extended by *CdmObjectReferenceBase* (in C#, Java, and TypeScript), *CdmAttributeContextReference, CdmAttributeGroupReference, CdmAttributeReference, CdmDataTypeReference, CdmEntityReference*, and *CdmPurposeReference*.
 
 ```
 public interface CdmObjectReference extends CdmObject

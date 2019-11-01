@@ -37,6 +37,5 @@ public enum CdmDataFormat
 }
 ```
 
-*This class is called CdmBaseType in Java and includes an extra type, JsonChar.*
 
 

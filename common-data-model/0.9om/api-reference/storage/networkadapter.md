@@ -28,7 +28,7 @@ public abstract class NetworkAdapter
 ## Methods
 |Name|Description|Return Type|
 |---|---|---|
-|**ExecuteRequest(CdmHttpRequest)**<br/>*httpRequest*: The HTTP request to execute.|Executes an HTTP request and returns the response of the request.|Task\<CdmHttpResponse>|
-|**Dispose()**|Disposes the CDM HTTP client. Exists only in C#.|void|
+|**ExecuteRequest(CdmHttpRequest)**<br/>*httpRequest*: The HTTP request to execute.<br/><br/>*Only in C# and TypeScript.*|Executes an HTTP request and returns the response of the request.|Task\<CdmHttpResponse>|
+|**Dispose()**<br/><br/>*Only in C#.*|Disposes the CDM HTTP client. Exists only in C#.|void|
 
 

@@ -37,9 +37,9 @@ public class CdmAttributeResolutionGuidance extends CdmObjectSimple
 ## Methods
 |Name|Description|Return Type|
 |---|---|---|
-|**makeExpansion()**|Returns a new [Expansion](attributeresolutionguidance.md#expansion) object.|[Expansion](attributeresolutionguidance.md#expansion)|
-|**makeEntityByReference()**|Returns a new [EntityByReference](attributeresolutionguidance.md#entitybyreference) object.|[EntityByReference](attributeresolutionguidance.md#entitybyreference)|
-|**makeSelectsSubAttribute()**|Returns a new [SelectsSubAttribute](attributeresolutionguidance.md#selectssubattribute) object.|[SelectsSubAttribute](attributeresolutionguidance.md#selectssubattribute)|
+|**makeExpansion()**<br/><br/>*Only in C# and Java.*|Returns a new [Expansion](attributeresolutionguidance.md#expansion) object.|[Expansion](attributeresolutionguidance.md#expansion)|
+|**makeEntityByReference()**<br/><br/>*Only in C# and Java.*|Returns a new [EntityByReference](attributeresolutionguidance.md#entitybyreference) object.|[EntityByReference](attributeresolutionguidance.md#entitybyreference)|
+|**makeSelectsSubAttribute()**<br/><br/>*Only in C# and Java.*|Returns a new [SelectsSubAttribute](attributeresolutionguidance.md#selectssubattribute) object.|[SelectsSubAttribute](attributeresolutionguidance.md#selectssubattribute)|
 |**Copy([ResolveOptions](../utilities/resolveoptions.md))**|See [CdmObject.Copy(...)](cdmobject.md#methods).|[CdmObject](cdmobject.md)|
 |**Validate()**|See [CdmObject.Validate()](cdmobject.md#methods).|bool|
  

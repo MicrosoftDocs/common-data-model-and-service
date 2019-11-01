@@ -16,13 +16,13 @@ The local adapter is the storage adapter that is used to interact with data on t
 ```
 public class LocalAdapter extends StorageAdapter
 ```
-*StorageAdapter is called StorageAdapterBase in Python.*
+*LocalAdapter extends StorageAdapterBase in Python.*
 
 ## Constructors
 |Name|Description|
 |---|---|
+|**LocalAdapter()**|Initializes a new instance of the [LocalAdapter](localadapter.md) class. The user must apply an adapter configuration if this constructor is used. See *ApplyConfig(...)*.|
 |**LocalAdapter(string)**<br/>*root*: The root path of the schema documents.|Initializes a new instance of the [LocalAdapter](localadapter.md) class.|
-|**LocalAdapter(string)**<br/>*configs*: A JSON string representing the configuration for the adapter.|Initializes a new instance of the [LocalAdapter](localadapter.md) class using the specified configuration.|
 
 ## Properties
 |Name|Type|Description|
@@ -36,11 +36,12 @@ public class LocalAdapter extends StorageAdapter
 |**CanRead()**|Returns true, since the local adapter can read data.|bool|
 |**CanWrite()**|Returns true, since the local adapter can write data to its source.|bool|
 |**ReadAsync(string)**|See [StorageAdapter.ReadAsync(...)](storageadapter.md#methods).|Task\<string>|
-|**WriteAsync(string, dynamic)**|See [StorageAdapter.WriteAsync(...)](storageadapter.md#methods).|Task|
+|**WriteAsync(string, string)**|See [StorageAdapter.WriteAsync(...)](storageadapter.md#methods).|Task|
 |**CreateAdapterPath(string)**|See [StorageAdapter.CreateAdapterPath(...)](storageadapter.md#methods).|string|
 |**CreateCorpusPath(string)**|See [StorageAdapter.CreateCorpusPath(...)](storageadapter.md#methods).|string|
 |**ClearCache()**|See [StorageAdapter.ClearCache()](storageadapter.md#methods). This method does not do anything because the local adapter does not maintain a cache.|void|
-|**ComputeLastModifiedTimeAsync(string)**|See [StorageAdapter.ComputeLastModifiedTimeAsync(...)](storageadapter.md#methods).|Task\<DateTimeOffset?>|
+|**ComputeLastModifiedTimeAsync(string)**<br/><br/>*fetchLastModifiedTimeAsync(...) in Java and Python.*|See [StorageAdapter.ComputeLastModifiedTimeAsync(...)](storageadapter.md#methods).|Task\<DateTimeOffset?>|
 |**FetchAllFilesAsync(string)**|See [StorageAdapter.FetchAllFilesAsync(...)](storageadapter.md#methods).|Task\<List\<string>>|
 |**ConstructConfig()**|See [StorageAdapter.ConstructConfig()](storageadapter.md#methods).|string|
+|**ApplyConfig(string)**|See [StorageAdapter.ApplyConfig(...)](storageadapter.md#methods).|void|
 
