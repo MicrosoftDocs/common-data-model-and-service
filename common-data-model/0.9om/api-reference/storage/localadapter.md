@@ -22,11 +22,13 @@ public class LocalAdapter extends StorageAdapter
 |Name|Description|
 |---|---|
 |**LocalAdapter(string)**<br/>*root*: The root path of the schema documents.|Initializes a new instance of the [LocalAdapter](localadapter.md) class.|
+|**LocalAdapter(string)**<br/>*configs*: A JSON string representing the configuration for the adapter.|Initializes a new instance of the [LocalAdapter](localadapter.md) class using the specified configuration.|
 
 ## Properties
 |Name|Type|Description|
 |---|---|---|
 |Root|string|The root path of the schema documents.|
+|LocationHint|string|The hint given to the reader application about where the adapter implementation can be obtained (Nuget, NPM, etc.).|
 
 ## Methods
 |Name|Description|Return Type|
@@ -40,4 +42,5 @@ public class LocalAdapter extends StorageAdapter
 |**ClearCache()**|See [StorageAdapter.ClearCache()](storageadapter.md#methods). This method does not do anything because the local adapter does not maintain a cache.|void|
 |**ComputeLastModifiedTimeAsync(string)**|See [StorageAdapter.ComputeLastModifiedTimeAsync(...)](storageadapter.md#methods).|Task\<DateTimeOffset?>|
 |**FetchAllFilesAsync(string)**|See [StorageAdapter.FetchAllFilesAsync(...)](storageadapter.md#methods).|Task\<List\<string>>|
+|**ConstructConfig()**|See [StorageAdapter.ConstructConfig()](storageadapter.md#methods).|string|
 

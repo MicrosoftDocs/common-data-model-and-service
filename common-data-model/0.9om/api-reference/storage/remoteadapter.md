@@ -22,11 +22,13 @@ public class RemoteAdapter extends NetworkAdapter, StorageAdapter
 |Name|Description|
 |---|---|
 |**RemoteAdapter()**|Initializes a new instance of the [RemoteAdapter](remoteadapter.md) class.|
+|**RemoteAdapter(string)**<br/>*configs*: A JSON string representing the configuration for the adapter.|Initializes a new instance of the [RemoteAdapter](remoteadapter.md) class using the specified configuration.|
 
 ## Properties
 |Name|Type|Description|
 |---|---|---|
 |Hosts|Dictionary\<string, string>|The dictionary of hosts. The mapping is from a key  to a host. For example, { "contoso": "http://contoso.com" }. <br/><br/>The key is used as a shorthand for the host. For example, if a remote adapter is configured with { "contoso": "http://contoso.com" }, given the url "http://contoso.com/example.cdm.json", the converted corpus path would then be "remote:/contoso/example.cdm.json" (assuming the remote adapter is mounted under the "remote" namespace).|
+|LocationHint|string|The hint given to the reader application about where the adapter implementation can be obtained (Nuget, NPM, etc.).|
 
 ## Methods
 |Name|Description|Return Type|
@@ -40,4 +42,5 @@ public class RemoteAdapter extends NetworkAdapter, StorageAdapter
 |**ClearCache()**|See [StorageAdapter.ClearCache()](storageadapter.md#methods).|void|
 |**ComputeLastModifiedTimeAsync(string)**|See [StorageAdapter.ComputeLastModifiedTimeAsync(...)](storageadapter.md#methods). Currently just returns Time.Now()|Task\<DateTimeOffset?>|
 |**FetchAllFilesAsync(string)**|See [StorageAdapter.FetchAllFilesAsync(...)](storageadapter.md#methods). Currently just returns null.|Task\<List\<string>>|
+|**ConstructConfig()**|See [StorageAdapter.ConstructConfig()](storageadapter.md#methods).|string|
 

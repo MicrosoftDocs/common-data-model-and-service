@@ -27,6 +27,7 @@ public class CdmCorpusDefinition extends CdmFolderDefinition
 |---|---|---|
 |RootPath|string|The root path of the corpus.|
 |Storage|[StorageManager](../storage/storagemanager.md)|The storage for the corpus. Used for interacting with storage adapters.|
+|AppId|string|The ID of the application using the OM. This is an optional property.|
 
 ## Methods
 |Name|Description|Return Type|

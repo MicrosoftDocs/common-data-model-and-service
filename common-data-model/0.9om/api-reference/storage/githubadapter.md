@@ -24,6 +24,12 @@ public class GithubAdapter extends NetworkAdapter, StorageAdapter
 |Name|Description|
 |---|---|
 |**GithubAdapter()**|Initializes a new instance of the [GithubAdapter](githubadapter.md) class.|
+|**GithubAdapter(string)**<br/>*configs*: A JSON string representing the configuration for the adapter.|Initializes a new instance of the [GithubAdapter](githubadapter.md) class using the specified configuration.|
+
+## Properties
+|Name|Type|Description|
+|---|---|---|
+|LocationHint|string|The hint given to the reader application about where the adapter implementation can be obtained (Nuget, NPM, etc.).|
 
 ## Methods
 |Name|Description|Return Type|
@@ -37,4 +43,5 @@ public class GithubAdapter extends NetworkAdapter, StorageAdapter
 |**ClearCache()**|See [StorageAdapter.ClearCache()](storageadapter.md#methods).|void|
 |**ComputeLastModifiedTimeAsync(string)**|See [StorageAdapter.ComputeLastModifiedTimeAsync(...)](storageadapter.md#methods). Currently just returns Time.Now()|Task\<DateTimeOffset?>|
 |**FetchAllFilesAsync(string)**|See [StorageAdapter.FetchAllFilesAsync(...)](storageadapter.md#methods). Currently just returns null.|Task\<List\<string>>|
+|**ConstructConfig()**|See [StorageAdapter.ConstructConfig()](storageadapter.md#methods).|string|
 

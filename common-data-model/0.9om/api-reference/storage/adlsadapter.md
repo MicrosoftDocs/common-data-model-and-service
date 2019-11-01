@@ -23,6 +23,8 @@ public class ADLSAdapter extends NetworkAdapter, StorageAdapter
 |---|---|
 |**ADLSAdapter(string, string, string, string, string)**<br/>*hostname*: The hostname of ADLS.<br/>*root*: The root path of the schema documents.<br/>*tenant*: The tenant.<br/>*clientId*: The client ID of the application accessing ADLS.<br/>*secret*: The secret for the application accessing ADLS.|Initializes a new instance of the [ADLSAdapter](adlsadapter.md) class with client ID/secret authentication.|
 |**ADLSAdapter(string, string, string)**<br/>*hostname*: The hostname of ADLS.<br/>*root*: The root path of the schema documents.<br/>*sharedKey*: The account/shared key.|Initializes a new instance of the [ADLSAdapter](adlsadapter.md) class with shared key authentication.|
+|**ADLSAdapter(string)**<br/>*configs*: A JSON string representing the configuration for the adapter.|Initializes a new instance of the [ADLSAdapter](adlsadapter.md) class using the specified configuration.|
+
 
 ## Properties
 |Name|Type|Description|
@@ -33,6 +35,7 @@ public class ADLSAdapter extends NetworkAdapter, StorageAdapter
 |ClientId|string|The client ID of the application accessing ADLS.|
 |Secret|string|The secret for the application accessing ADLS.|
 |SharedKey|string|The account/shared key.|
+|LocationHint|string|The hint given to the reader application about where the adapter implementation can be obtained (Nuget, NPM, etc.).|
 
 ## Methods
 |Name|Description|Return Type|
@@ -46,3 +49,4 @@ public class ADLSAdapter extends NetworkAdapter, StorageAdapter
 |**ClearCache()**|See [StorageAdapter.ClearCache()](storageadapter.md#methods). This method does not do anything because the ADLS adapter does not maintain a cache.|void|
 |**ComputeLastModifiedTimeAsync(string)**|See [StorageAdapter.ComputeLastModifiedTimeAsync(...)](storageadapter.md#methods).|Task\<DateTimeOffset?>|
 |**FetchAllFilesAsync(string)**|See [StorageAdapter.FetchAllFilesAsync(...)](storageadapter.md#methods).|Task\<List\<string>>|
+|**ConstructConfig()**|See [StorageAdapter.ConstructConfig()](storageadapter.md#methods).|string|
