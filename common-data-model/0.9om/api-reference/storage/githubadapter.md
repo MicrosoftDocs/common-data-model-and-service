@@ -42,6 +42,6 @@ public class GithubAdapter extends NetworkAdapter, StorageAdapter
 |**ClearCache()**|See [StorageAdapter.ClearCache()](storageadapter.md#methods).|void|
 |**ComputeLastModifiedTimeAsync(string)**<br/><br/>*fetchLastModifiedTimeAsync(...) in Java and Python.*|See [StorageAdapter.ComputeLastModifiedTimeAsync(...)](storageadapter.md#methods). Currently just returns Time.Now()|Task\<DateTimeOffset?>|
 |**FetchAllFilesAsync(string)**|See [StorageAdapter.FetchAllFilesAsync(...)](storageadapter.md#methods). Currently just returns null.|Task\<List\<string>>|
-|**ConstructConfig()**|See [StorageAdapter.ConstructConfig()](storageadapter.md#methods).|string|
-|**ApplyConfig(string)**|See [StorageAdapter.ApplyConfig(...)](storageadapter.md#methods).|void|
+|**FetchConfig()**|See [StorageAdapter.FetchConfig()](storageadapter.md#methods).|string|
+|**UpdateConfig(string)**|See [StorageAdapter.UpdateConfig(...)](storageadapter.md#methods).|void|
 
