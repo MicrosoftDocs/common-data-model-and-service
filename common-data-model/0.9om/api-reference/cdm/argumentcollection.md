@@ -11,7 +11,7 @@ ms.author: jibyun
 
 # Argument Collection
 
-An argument collection extends [Collection](collection.md) and adds additional behaviors specific to argument collections. It is used only for the *Arguments* property in [trait references](traitreference.md) and not for any other argument collections because this collection is optimized to handle adjustments to the trait when adding an argument.
+An argument collection extends [Collection](collection.md) and adds additional behaviors specific to argument collections. 
 
 ```
 public class CdmArgumentCollection extends CdmCollection<CdmArgumentDefinition>
@@ -20,7 +20,7 @@ public class CdmArgumentCollection extends CdmCollection<CdmArgumentDefinition>
 ## Constructors
 |Name|Description|
 |---|---|
-**CdmArgumentCollection(CdmCorpusContext, [CdmTraitReference](traitreference.md))**<br/>*ctx*: The corpus context.<br/>*owner*: The trait reference that contains this collection.|Initializes a new instance of the [CdmArgumentCollection](argumentcollection.md) class.|
+**CdmArgumentCollection(CdmCorpusContext, [CdmTraitReference](traitreference.md))**<br/>*ctx*: The corpus context.<br/>*owner*: The trait reference that contains this collection. The owner must be a trait reference because this collection is optimized to handle adjustments to the trait when adding an argument.|Initializes a new instance of the [CdmArgumentCollection](argumentcollection.md) class.|
 
 ## Methods
 |Name|Description|Return Type|

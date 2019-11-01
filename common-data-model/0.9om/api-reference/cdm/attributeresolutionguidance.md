@@ -76,7 +76,7 @@ Indicates that this attribute selects either 'one' or 'all' of the sub-attribute
 |Name|Type|Description|
 |---|---|---|
 |selects|string|Indicates how many sub-attributes are selected (either 'one' or 'all').|
-|selectedTypeAttribute|[CdmTypeAttributeDefinition](typeattribute.md)|This attribute definition is added to the entity to hold a description of the single attribute that was selected from the sub-entity when selects is set to 'one'.|
+|selectedTypeAttribute|[CdmTypeAttributeDefinition](typeattribute.md)|This attribute definition is added to the entity to hold a description of the single attribute that was selected from the sub-entity when *selects* is set to 'one'.|
 |selectsSomeTakeNames|List\<string>|The list of sub-attributes from an entity that should be added.|
 |selectsSomeAvoidNames|List\<string>|The list of sub-attributes from an entity that should not be added.|
 

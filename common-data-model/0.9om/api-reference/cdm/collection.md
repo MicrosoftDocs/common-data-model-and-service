@@ -26,7 +26,7 @@ public class CdmCollection<CdmObject> extends IEnumerable<CdmObject>
 |Name|Type|Description|
 |---|---|---|
 |DefaultType|[CdmObjectType](objecttype.md)|The default CDM object type of this collection.|
-|Count<br/>(*Length* in Java and Python)|int|The number of items in the CDM collection.|
+|Count<br/>(*Length* in TypeScript and Python)|int|The number of items in the CDM collection.|
 
 ## Methods
 There are additional methods and properties in this class that just extend IEnumerable\<T> methods/properties. These are: *this[...], IndexOf(...), Insert(...), RemoveAt(...), Clear(), Contains(...), CopyTo(...), GetEnumerator(...),* and *IsReadOnly*. 

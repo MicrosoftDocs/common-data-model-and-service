@@ -11,7 +11,7 @@ ms.author: jibyun
 
 # Import Collection
 
-An import collection extends [Collection](collection.md) and adds additional behaviors specific to import collections. It is used only for the *Imports* property in [Document](document.md) and not for any other import collections.
+An import collection extends [Collection](collection.md) and adds additional behaviors specific to import collections. 
 
 ```
 public class CdmImportCollection extends CdmCollection<CdmImport>
@@ -20,7 +20,7 @@ public class CdmImportCollection extends CdmCollection<CdmImport>
 ## Constructors
 |Name|Description|
 |---|---|
-|**CdmImportCollection(CdmCorpusContext, [CdmDocumentDefinition](document.md))**<br/>*ctx*: The corpus context.<br/>*owner*: The document that contains this collection.|Initializes a new instance of the [CdmImportCollection](importcollection.md) class.|
+|**CdmImportCollection(CdmCorpusContext, [CdmDocumentDefinition](document.md))**<br/>*ctx*: The corpus context.<br/>*owner*: The document that contains this collection. The owner must be a document.|Initializes a new instance of the [CdmImportCollection](importcollection.md) class.|
 
 ## Methods
 |Name|Description|Return Type|
