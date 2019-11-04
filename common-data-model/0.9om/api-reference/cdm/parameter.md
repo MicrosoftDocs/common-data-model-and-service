@@ -34,8 +34,8 @@ public class CdmParameterDefinition extends CdmObjectDefinitionBase
 ## Methods
 |Name|Description|Return Type|
 |---|---|---|
-|**GetName()**<br/><br/>*Only in C#, Java, and TypeScript.*|See [CdmObjectDefinition.GetName()](cdmobjectdefinition.md#methods).|string|
-|**IsDerivedFrom(string, [ResolveOptions](../utilities/resolveoptions.md))**<br/><br/>*Only in C#, Java, and TypeScript.*|See [CdmObject.IsDerivedFrom(...)](cdmobject.md#methods).|bool|
+|**GetName()**|See [CdmObjectDefinition.GetName()](cdmobjectdefinition.md#methods).|string|
+|**IsDerivedFrom(string, [ResolveOptions](../utilities/resolveoptions.md))**|See [CdmObject.IsDerivedFrom(...)](cdmobject.md#methods).|bool|
 |**Copy([ResolveOptions](../utilities/resolveoptions.md))**|See [CdmObject.Copy(...)](cdmobject.md#methods).|[CdmObject](cdmobject.md)|
 |**Validate()**|See [CdmObject.Validate()](cdmobject.md#methods).|bool|
 

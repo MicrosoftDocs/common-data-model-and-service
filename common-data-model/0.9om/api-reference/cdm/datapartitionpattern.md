@@ -33,7 +33,7 @@ CdmDataPartitionPatternDefinition extends CdmObjectDefinitionBase, CdmFileStatus
 |SpecializedSchema|string|The corpus path of the specialized schema to use for the matched data partitions (e.g. *CSV*).|
 |LastFileStatusCheckTime|DateTimeOffset?|The last time the modified time was checked for this file.|
 |LastFileModifiedTime|DateTimeOffset?|The last time this file was modified according to the OM.|
-|LastChildFileModifiedTime<br/><br/>*Only in C# and Java.*|DateTimeOffset?|The greatest last time reported by any of the children objects about their file status check times. This property only exists because this class extends CdmFileStatus and will throw a *NotImplementedException* because a data partition pattern object does not contain any children.|
+|LastChildFileModifiedTime|DateTimeOffset?|The greatest last time reported by any of the children objects about their file status check times. This property only exists because this class extends CdmFileStatus and will throw a *NotImplementedException* because a data partition pattern object does not contain any children.|
 
 ## Methods
 |Name|Description|Return Type|

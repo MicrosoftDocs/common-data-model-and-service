@@ -35,7 +35,7 @@ public class CdmFolderDefinition extends CdmObjectDefinitionBase, CdmContainerDe
 ## Methods
 |Name|Description|Return Type|
 |---|---|---|
-|**FetchObjectDefinition\<T>([ResolveOptions](../utilities/resolveoptions.md))**<br/><br/>*Only in C# and Java.*|See [CdmObject.FetchObjectDefinition\<T>(...)](cdmobject.md#methods).|T|
+|**FetchObjectDefinition\<T>([ResolveOptions](../utilities/resolveoptions.md))**|See [CdmObject.FetchObjectDefinition\<T>(...)](cdmobject.md#methods).|T|
 |**GetName()**|See [CdmObjectDefinition.GetName()](cdmobjectdefinition.md#methods).|string|
 |**IsDerivedFrom(string, [ResolveOptions](../utilities/resolveoptions.md))**|See [CdmObject.IsDerivedFrom(...)](cdmobject.md#methods).|bool|
 |**Copy([ResolveOptions](../utilities/resolveoptions.md))**|See [CdmObject.Copy(...)](cdmobject.md#methods).|[CdmObject](cdmobject.md)|

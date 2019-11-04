@@ -11,7 +11,7 @@ ms.author: jibyun
 
 # Status Level
 
-An enum class containing the status levels that could be reported. This class only exists in C# and TypeScript.
+An enum class containing the status levels that could be reported. This class only exists in C#, Java, and TypeScript.
 
 ```
 public enum CdmStatusLevel

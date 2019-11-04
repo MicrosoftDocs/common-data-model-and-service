@@ -36,7 +36,7 @@ public class CdmEntityDefinition extends CdmObjectDefinitionBase, CdmReferencesE
 |Description|string|The entity's description.|
 |CdmSchemas|List\<string>|The list of CDM entities that the entity "contains" or implements (a set of contracts or interfaces).|
 |Version|string|The entity's version.|
-|ExtendsEntityResolutionGuidance<br/><br/>*Only in C# and TypeScript.*|[CdmAttributeResolutionGuidance](attributeresolutionguidance.md)|The resolution guidance for the attributes taken from the entity extended by this entity.|
+|ExtendsEntityResolutionGuidance|[CdmAttributeResolutionGuidance](attributeresolutionguidance.md)|The resolution guidance for the attributes taken from the entity extended by this entity.|
 |PrimaryKey|string|The attribute that identifies itself as the primary key.|
 
 ## Methods

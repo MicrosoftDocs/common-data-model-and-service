@@ -25,10 +25,10 @@ public class CdmImportCollection extends CdmCollection<CdmImport>
 ## Methods
 |Name|Description|Return Type|
 |---|---|---|
-|**Add([CdmImport](import.md))**<br/>*import*: The import to add to the collection.|Adds the specified import to the collection. Returns the import that was added to the collection.|[CdmImport](import.md)|
-|**Add(string, bool)**<br/>*corpusPath*: The corpus path to be set for the import.<br/>*simpleRef [optional]*: This parameter is unused. It is kept just for consistency with other CDM collections.|Creates an import with the specified corpus path and adds it to the collection. Returns the import that was added to the collection.|[CdmImport](import.md)|
-|**Add(string, string)**<br/>*corpusPath*: The corpus path to be set for the import.<br/>*moniker*: The moniker to be set for the import.|Creates an import with the specified corpus path and moniker and adds it to the collection. Returns the import that was added to the collection.|[CdmImport](import.md)| 
-|**AddRange(IEnumerable\<[CdmImport](import.md)>)**<br/>*importList*: The list of imports to add.<br/><br/>*addAll(...) in Java TODO*|Adds the elements of the specified list of imports to the collection.|void|
+|**Add([CdmImport](import.md))**<br/>*import*: The import to add to the collection.<br/><br/>*append(...) in Python, push(...) in TypeScript.*|Adds the specified import to the collection. Returns the import that was added to the collection.|[CdmImport](import.md)|
+|**Add(string, bool)**<br/>*corpusPath*: The corpus path to be set for the import.<br/>*simpleRef [optional]*: This parameter is unused. It is kept just for consistency with other CDM collections.<br/><br/>*append(...) in Python, push(...) in TypeScript.*|Creates an import with the specified corpus path and adds it to the collection. Returns the import that was added to the collection.|[CdmImport](import.md)|
+|**Add(string, string)**<br/>*corpusPath*: The corpus path to be set for the import.<br/>*moniker*: The moniker to be set for the import.<br/><br/>*append(...) in Python, push(...) in TypeScript.*|Creates an import with the specified corpus path and moniker and adds it to the collection. Returns the import that was added to the collection.|[CdmImport](import.md)| 
+|**AddRange(IEnumerable\<[CdmImport](import.md)>)**<br/>*importList*: The list of imports to add.<br/><br/>*addAll(...) in Java, extend(...) in Python, concat(...) in TypeScript.*|Adds the elements of the specified list of imports to the collection.|void|
 
 
 

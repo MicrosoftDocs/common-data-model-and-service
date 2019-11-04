@@ -30,8 +30,5 @@ ms.author: jibyun
 ## Methods
 |Name|Description|Return Type|
 |---|---|---|
-|**GetName()**|See *CdmObjectDefinition.GetName()*.|string|
-|**IsDerivedFrom(string, ResolveOptions)**|See *CdmObject.IsDerivedFrom(...)*.|bool|
-|**Copy(ResolveOptions)**|See *CdmObject.Copy(...)*.|CdmObject|
-|**Validate()**|See *CdmObject.Validate()*.|bool|
+
 
