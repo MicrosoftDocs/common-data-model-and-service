@@ -21,7 +21,7 @@ public class ADLSAdapter extends NetworkAdapter, StorageAdapter
 ## Constructors
 |Name|Description|
 |---|---|
-|**ADLSAdapter()**|Initializes a new instance of the [ADLSAdapter](adlsadapter.md) class. The user must apply an adapter configuration if this constructor is used. See *ApplyConfig(...)*.|
+|**ADLSAdapter()**|Initializes a new instance of the [ADLSAdapter](adlsadapter.md) class. The user must apply an adapter configuration if this constructor is used. See *UpdateConfig(...)*.|
 |**ADLSAdapter(string, string, string, string, string)**<br/>*hostname*: The hostname of ADLS.<br/>*root*: The root path of the schema documents.<br/>*tenant*: The tenant.<br/>*clientId*: The client ID of the application accessing ADLS.<br/>*secret*: The secret for the application accessing ADLS.|Initializes a new instance of the [ADLSAdapter](adlsadapter.md) class with client ID/secret authentication.|
 |**ADLSAdapter(string, string, string)**<br/>*hostname*: The hostname of ADLS.<br/>*root*: The root path of the schema documents.<br/>*sharedKey*: The account/shared key.|Initializes a new instance of the [ADLSAdapter](adlsadapter.md) class with shared key authentication.|
 

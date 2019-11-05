@@ -21,7 +21,7 @@ public class LocalAdapter extends StorageAdapter
 ## Constructors
 |Name|Description|
 |---|---|
-|**LocalAdapter()**|Initializes a new instance of the [LocalAdapter](localadapter.md) class. The user must apply an adapter configuration if this constructor is used. See *ApplyConfig(...)*.|
+|**LocalAdapter()**|Initializes a new instance of the [LocalAdapter](localadapter.md) class. The user must apply an adapter configuration if this constructor is used. See *UpdateConfig(...)*.|
 |**LocalAdapter(string)**<br/>*root*: The root path of the schema documents.|Initializes a new instance of the [LocalAdapter](localadapter.md) class.|
 
 ## Properties

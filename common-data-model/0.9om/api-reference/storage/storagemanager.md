@@ -20,7 +20,7 @@ public class StorageManager
 ## Constructors
 |Name|Description|
 |---|---|
-|**StorageManager([CdmCorpusDefinition](../cdm/corpus.md))**<br/>*corpus*: The corpus that contains this storage manager.|Initializes a new instance of the [StorageManager](storagemanager.md) class.|
+|**StorageManager([CdmCorpusDefinition](../cdm/corpus.md))**<br/>*corpus*: The corpus that owns this storage manager.|Initializes a new instance of the [StorageManager](storagemanager.md) class.|
 
 ## Properties
 |Name|Type|Description|

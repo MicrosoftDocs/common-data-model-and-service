@@ -21,7 +21,7 @@ public class RemoteAdapter extends NetworkAdapter, StorageAdapter
 ## Constructors
 |Name|Description|
 |---|---|
-|**RemoteAdapter()**|Initializes a new instance of the [RemoteAdapter](remoteadapter.md) class. The user must apply an adapter configuration (see *ApplyConfig(...)*) or add hosts if this constructor is used.|
+|**RemoteAdapter()**|Initializes a new instance of the [RemoteAdapter](remoteadapter.md) class. The user must apply an adapter configuration (see *UpdateConfig(...)*) or add hosts if this constructor is used.|
 
 ## Properties
 |Name|Type|Description|
@@ -39,7 +39,7 @@ public class RemoteAdapter extends NetworkAdapter, StorageAdapter
 |**CreateAdapterPath(string)**|See [StorageAdapter.CreateAdapterPath(...)](storageadapter.md#methods).|string|
 |**CreateCorpusPath(string)**|See [StorageAdapter.CreateCorpusPath(...)](storageadapter.md#methods).|string|
 |**ClearCache()**|See [StorageAdapter.ClearCache()](storageadapter.md#methods).|void|
-|**ComputeLastModifiedTimeAsync(string)**|See [StorageAdapter.ComputeLastModifiedTimeAsync(...)](storageadapter.md#methods). Currently just returns Time.Now()|Task\<DateTimeOffset?>|
+|**ComputeLastModifiedTimeAsync(string)**|See [StorageAdapter.ComputeLastModifiedTimeAsync(...)](storageadapter.md#methods). Currently just returns Time.Now().|Task\<DateTimeOffset?>|
 |**FetchAllFilesAsync(string)**|See [StorageAdapter.FetchAllFilesAsync(...)](storageadapter.md#methods). Currently just returns null.|Task\<List\<string>>|
 |**FetchConfig()**|See [StorageAdapter.FetchConfig()](storageadapter.md#methods).|string|
 |**UpdateConfig(string)**|See [StorageAdapter.UpdateConfig(...)](storageadapter.md#methods).|void|

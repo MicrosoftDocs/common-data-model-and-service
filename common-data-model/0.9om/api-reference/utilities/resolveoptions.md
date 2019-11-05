@@ -11,7 +11,7 @@ ms.author: jibyun
 
 # Resolve Options
 
-Resolve options are options to be used for resolution. If it is an optional argument to a method, it is safe to leave it null. Default resolve options would just be created and used instead. 
+Resolve options are options to be used for resolution. If it is an optional argument to a method, it is safe to leave it null because default resolve options would just be created and used instead. 
 
 ```
 public class ResolveOptions
