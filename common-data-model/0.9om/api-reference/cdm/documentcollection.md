@@ -33,3 +33,4 @@ public class CdmDocumentCollection extends CdmCollection<CdmDocumentDefinition>
 |**Remove([CdmDocumentDefinition](document.md))**<br/>*document*: The document to remove from the collection.|Removes the specified document from the collection. Returns true if the operation is successful, false otherwise.|bool|
 |**Remove(string)**<br/>*name*: The name of the document to remove from the collection.|Removes the document with the specified name from the collection. Returns true if the operation is successful, false otherwise.|bool|
 |**RemoveAt(int)**<br/>*index*: The index of the document to remove.|Removes the document at the specified index from the collection.|void|
+|**Clear()**|Empties the collection.|void|
