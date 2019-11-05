@@ -29,7 +29,7 @@ public class CdmCollection<CdmObject> extends List<CdmObject>
 |Count<br/><br/>*Length in TypeScript.*|int|The number of items in the CDM collection.|
 
 ## Methods
-There are additional methods and properties in this class that just extend standard list methods. For example, *Insert(...), RemoveAt(...), Clear(), Contains(...), CopyTo(...),* and *GetEnumerator(...)*. 
+There are additional methods and properties in this class that just extend standard list methods (*Insert(...), RemoveAt(...), Clear(), Contains(...), CopyTo(...), GetEnumerator(...)*, etc.). 
 
 |Name|Description|Return Type|
 |---|---|---|
