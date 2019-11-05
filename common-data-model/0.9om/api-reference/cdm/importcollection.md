@@ -20,7 +20,7 @@ public class CdmImportCollection extends CdmCollection<CdmImport>
 ## Constructors
 |Name|Description|
 |---|---|
-|**CdmImportCollection(CdmCorpusContext, [CdmDocumentDefinition](document.md))**<br/>*ctx*: The corpus context.<br/>*owner*: The document that contains this collection. The owner must be a document.|Initializes a new instance of the [CdmImportCollection](importcollection.md) class.|
+|**CdmImportCollection(CdmCorpusContext, [CdmDocumentDefinition](document.md))**<br/>*ctx*: The corpus context.<br/>*owner*: The owner of this collection. Must be a document.|Initializes a new instance of the [CdmImportCollection](importcollection.md) class.|
 
 ## Methods
 |Name|Description|Return Type|
