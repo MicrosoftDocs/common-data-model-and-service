@@ -30,7 +30,7 @@ public abstract class NetworkAdapter
 |---|---|---|
 |**UpdateNetworkConfig(string)**<br/>*config*: A JSON string representing the configuration for the network adapter.|Updates the network specific properties on the network adapter using the specified configuration.|void|
 |**FetchNetworkConfig()**|Constructs the network adapter's configuration. Returns a list of JProperty objects containing the network specific properties.|List\<JProperty>|
-|**ExecuteRequest(CdmHttpRequest)**<br/>*httpRequest*: The HTTP request to execute.<br/><br/>*Only in C# and TypeScript.*|Executes an HTTP request and returns the response of the request.|Task\<CdmHttpResponse>|
+|**ExecuteRequest(CdmHttpRequest)**<br/>*httpRequest*: The HTTP request to execute.<br/><br/>*readOrWrite(...) in Java, read(...) in Python.*|Executes an HTTP request and returns the response of the request.|Task\<CdmHttpResponse>|
 |**Dispose()**<br/><br/>*Only in C#.*|Disposes the CDM HTTP client. Exists only in C#.|void|
 
 

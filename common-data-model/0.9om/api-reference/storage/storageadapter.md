@@ -33,7 +33,7 @@ public interface StorageAdapter
 |**CreateAdapterPath(string)**<br/>*corpusPath*: The corpus path.|Converts the specified corpus path into a path in the domain of this adapter. Returns the adapter path.|string|
 |**CreateCorpusPath(string)**<br/>*adapterPath*: The adapter path.|Converts the specified path in the domain of this adapter into a corpus path. Returns the corpus path.|string|
 |**ClearCache()**|Empties the cache of files and folders if the storage adapter uses a cache.|void|
-|**ComputeLastModifiedTimeAsync(string)**<br/>*corpusPath*: The corpus path to a document.<br/><br/>*fetchLastModifiedTimeAsync(...) in Java and Python.*|Returns the last modified time of the specified document.|Task\<DateTimeOffset?>|
+|**ComputeLastModifiedTimeAsync(string)**<br/>*corpusPath*: The corpus path to a document.|Returns the last modified time of the specified document.|Task\<DateTimeOffset?>|
 |**FetchAllFilesAsync(string)**<br/>*folderCorpusPath*: The corpus path to a folder.|Returns a list of corpus paths to all files and folders at or under the specified corpus path to a folder.|Task\<List\<string>>|
 |**FetchConfig()**|Constructs the adapter's configuration. Returns a JSON string representing the configuration.|string|
 |**UpdateConfig(string)**<br/>*string*: A JSON string representing the configuration for the adapter.|Applies the specified configuration to the adapter. This method must be called after using the default constructor.|void|
