@@ -22,7 +22,7 @@ The model file enables:
 
 ![Model.json in Common Data Model folder structure](media/cdm-folder.png)
 
-[Download](https://aka.ms/AA39f6l) the schema of the model.json file.
+[Download](https://github.com/Microsoft/CDM/tree/master/docs/schema) the schema of the model.json file.
 
 ## Model-file contents
 
