@@ -35,6 +35,15 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
+      "contributors_to_exclude": [
+        "buck1ey",
+        "bishalgoswami",
+        "kathleenmcgrath",
+        "marycc",
+        "tinaburden",
+        "almostdunh",
+        "AshleyWoodruff"
+      ],
       "breadcrumb_path": "/common-data-model/breadcrumb/toc.json",
       "extendBreadcrumb": true,
       "feedback_system": "GitHub",
