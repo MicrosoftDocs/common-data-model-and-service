@@ -57,6 +57,15 @@
     "externalReference": [],
 
     "globalMetadata": {
+      "contributors_to_exclude": [
+        "buck1ey",
+        "bishalgoswami",
+        "kathleenmcgrath",
+        "marycc",
+        "tinaburden",
+        "almostdunh",
+        "AshleyWoodruff"
+      ],
       "breadcrumb_path": "/entity-reference/breadcrumb/toc.json",
       "extendBreadcrumb": true,
       "feedback_system": "GitHub",

@@ -31,7 +31,16 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-    "feedback_system": "GitHub",
+      "contributors_to_exclude": [
+        "buck1ey",
+        "bishalgoswami",
+        "kathleenmcgrath",
+        "marycc",
+        "tinaburden",
+        "almostdunh",
+        "AshleyWoodruff"
+      ],
+      "feedback_system": "GitHub",
     "feedback_github_repo": "MicrosoftDocs/common-data-model-and-service",
      "feedback_product_url": "https://powerusers.microsoft.com/t5/PowerApps-Ideas/idb-p/PowerAppsIdeas"
     },
