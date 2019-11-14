@@ -15,6 +15,8 @@ ms.author: jibyun
 
 The Storage classes provide a way to interact with Common Data Model files. The role of a Storage Adapter is to provide an abstraction of the underlying file system where Common Data Model files are stored. Whether data is stored locally or remotely, such as on Azure Data Lake Storage Gen 2, Storage Adapters can be used to simplify the reading and writing of documents without the Object Model having to understand the underlying mechanism of interacting with different file systems. There are various existing Storage Adapter implementation classes to help interact with different types of file systems. Users can also implement their own adapters by extending the [Storage Adapter interface](storageadapter.md). The Storage Manager's role is to be the "storage" for the [Corpus](../cdm/corpus.md), by allowing and managing interactions with the storage adapters.
 
+The code can be found [here](https://github.com/microsoft/CDM/tree/master/objectModel/CSharp/Microsoft.CommonDataModel.ObjectModel/Storage) (C#).
+
 ## Classes
 |Name|Description|
 |---|---|
