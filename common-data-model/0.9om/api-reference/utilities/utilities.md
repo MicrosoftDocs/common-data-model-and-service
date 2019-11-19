@@ -15,6 +15,8 @@ ms.author: jibyun
 
 This section contains the commonly used utility classes. 
 
+The code can be found [here](https://github.com/microsoft/CDM/tree/master/objectModel/CSharp/Microsoft.CommonDataModel.ObjectModel/Utilities) (C#).
+
 ## Classes
 |Name|Description|
 |---|---|
