@@ -5,30 +5,24 @@ author: lponti
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 9/6/2019
+ms.date: 11/18/2019
 ms.author: lponti
 ---
 
 # The Dynamics 365 Nonprofit Accelerator
 
-With the Dynamics 365 Nonprofit Accelerator, you can develop nonprofit solutions
-based on entities and attributes that nonprofits commonly leverage for
-constituent management, fundraising, awards, program delivery and impact
-tracking. These entities include but are not limited to donor commitments,
-designations, transactions, awards, disbursements, delivery frameworks, results,
-indicators, benefit recipients and more. The Accelerator includes the Common
-Data Model for Nonprofits, sample apps, sample data, dashboards and
+With the Dynamics 365 Nonprofit Accelerator and Common Data Model for Nonprofits, 
+you can develop nonprofit solutions based on entities and attributes that 
+nonprofits commonly leverage for constituent management, fundraising, awards, 
+program delivery and impact tracking. These entities include but are not limited 
+to donor commitments, designations, transactions, awards, disbursements, delivery 
+frameworks, results, indicators, benefit recipients and more. The Accelerator 
+includes the Common Data Model for Nonprofits, sample apps, sample data, dashboards and
 documentation.
 
-This accelerator was announced at the initial Microsoft CXO Summit in [April
-2018](https://blogs.microsoft.com/on-the-issues/2018/04/20/new-solutions-to-help-nonprofits-drive-impact)
-and initially released in [November
-2018](https://blogs.microsoft.com/on-the-issues/2018/11/08/new-dynamics-365-nonprofit-accelerator-supports-organizations-with-end-to-end-solutions)
-at the [NetHope Global Summit](https://youtu.be/eV4N0mK0-so?t=2169). Version 2.0
-of the Accelerator was announced at the Microsoft CXO Summit in [April
-2019.](https://cloudblogs.microsoft.com/dynamics365/bdm/2019/04/04/dynamics-365-nonprofit-accelerator-a-community-solution-to-drive-social-impact/)
-and v2.1 in [July
-2019](https://cloudblogs.microsoft.com/dynamics365/bdm/2019/07/11/accelerating-opportunities-for-isvs-with-new-programs-and-technology/).
+The initial release of the Nonprofit Accelerator was announced in [November 2018](https://blogs.microsoft.com/on-the-issues/2018/11/08/new-dynamics-365-nonprofit-accelerator-supports-organizations-with-end-to-end-solutions)
+at the [NetHope Global Summit](https://youtu.be/eV4N0mK0-so?t=2169) and there have been continued enhancements with these versions - v2.0 in [April 2018](https://blogs.microsoft.com/on-the-issues/2018/04/20/new-solutions-to-help-nonprofits-drive-impact), 
+and v2.1 in [July 2019](https://cloudblogs.microsoft.com/dynamics365/bdm/2019/07/11/accelerating-opportunities-for-isvs-with-new-programs-and-technology/), and v2.2 in November 2019.  
 
 The Nonprofit Accelerator provides the following to partners and customers:
 
@@ -62,6 +56,11 @@ The Nonprofit Accelerator provides the following to partners and customers:
 
 ## Sitemap extensions
 
+The Nonprofit Accelerator can be used with Microsoft Dynamics 365 or independently 
+with the core solution layer that is not dependent on Microsoft Dynamics 365. 
+This independent solution layer can be leveraged to build Model driven and Canvas 
+based Power Apps applications. 
+
 When the Nonprofit Accelerator is installed into Dynamics 365, the experience is
 transformed into one specifically built for nonprofits. It enables you to
 optimize nonprofit operational processes including constituent management,
@@ -83,25 +82,24 @@ to ensure interoperability and accelerate nonprofit impact.
 
 ## Entities and workflows
 
-These entities are built into the Nonprofit Accelerator (\*New with version 2.1
-General Availability - released August 2019):
+These entities are built into the Nonprofit Accelerator (*New with version 2.2 General Availability - released November 2019):  
 
 | **Constituent** | **Fundraising**   | **Awards**                | **Program Delivery & Impact Tracking** | **Optional IATI Add-On**         |
 |-----------------|-------------------|---------------------------|----------------------------------------|----------------------------------|
-| Account         | Campaign          | Award                     | Benefit Recipient\*                    | Aid Type\*                       |
+| Account         | Campaign          | Award                     | Benefit Recipient                      | Aid Type                       |
 | Address         | Credit Plan       | Award Version             | Budget                                 | Condition                        |
-| Connection      | Credit Recipient  | Budget                    | Delivery Framework                     | CRS Other Flag\*                 |
+| Connection      | Credit Recipient  | Budget                    | Delivery Framework                     | CRS Other Flag                 |
 | Connection Role | Designated Credit | Campaign                  | Indicator                              | Delivery Framework Contact       |
 | Contact         | Designation       | Delivery Framework        | Indicator Value                        | Delivery Framework Description   |
-| Education       | Designation Plan  | Disbursement              | Objective                              | Dimension                        |
-| Employment      | Donor Commitment  | Disbursement Distribution | Resource Catalog\*                     | Document Category                |
-| Membership      | Lead              | Docket                    | Result                                 | Document Country                 |
-| Preference      | Opportunity       | Lead                      |                                        | Document Language                |
-| Salutation      | Payment Asset     | Objective                 |                                        | Document Link                    |
-| Volunteer       | Payment Method    | Opportunity               |                                        | Expenditure                      |
-|                 | Payment Processor | Recommendation            |                                        | FSS Forecast\*                   |
+| Education       | Designation Plan  | Disbursement              | Measurement Item\*                     | Dimension                        |
+| Employment      | Donor Commitment  | Disbursement Distribution | Measurement Item Relationship\*        | Document Category                |
+| Membership      | Lead              | Docket                    | Measurement Item Usage\*               | Document Country                 |
+| Preference      | Opportunity       | Lead                      | Objective                              | Document Language               
+| Salutation      | Payment Asset     | Objective                 | Resource Catalog                       | Document Link                    |
+| Volunteer       | Payment Method    | Opportunity               | Result                                 | Expenditure                      |
+|                 | Payment Processor | Recommendation            |                                        | FSS Forecast                  |
 |                 | Payment Schedule  | Report                    |                                        | Humanitarian Scope               |
-|                 | Planned Giving    | Request                   |                                        | IATI File Generation\*           |
+|                 | Planned Giving    | Request                   |                                        | IATI File Generation           |
 |                 | Transaction       | Review                    |                                        | Identifier                       |
 |                 |                   | Award                     |                                        | Indicator Reference              |
 |                 |                   |                           |                                        | Indicator Value Location         |
@@ -209,7 +207,7 @@ Nonprofit Accelerator.  
 ![IATI](media/nfp-iatifile.png "IATI")
 
 
-### Nonprofit Accelerator for Finance and Operations and PowerApps Data Integrator (Optional Add-On)
+### Dynamics 365 Finance and PowerApps Data Integrator (Optional Add-On)
 
 Template data integrator tasks to connect Nonprofit
 Accelerator Constituents, Donations, Awards and Programs to Finance and
@@ -249,15 +247,22 @@ lead, opportunity and product. This solution depends on:
     -   **Dynamics 365 modules** – Dynamics Sales and Microsoft Dynamics 365 Project
     Service Automation (PSA)
 
--   **MicrosoftDynamics365IATI** – This solution additions to the NonprofitCore
-    and NonprofitSales solutions to improve the IATI compliance, including: IATI
-    xml file export and the non-embedded sync process features. This solution
-    depends on:
+-   **MicrosoftDynamics365IATI** – This solution contains additions to the 
+    NonprofitCore and NonprofitSales solutions to improve the IATI compliance, 
+    including: IATI xml file export and the non-embedded sync process features. This 
+    solution depends on:
 
     -   **Nonprofit Accelerator** – NonprofitCore and NonprofitSales solution
         packages
 
     -   **Dynamics 365 modules** – Dynamics Sales
+
+-   **Nonprofit Measurement** – This solution adds to the NonprofitCore to
+    improve the way way of measuring nonprofit programs.  This solution
+    has no dependency on Microsoft Dynamics 365 and depends on:
+
+    -   **Nonprofit Accelerator** – NonprofitCore  
+
 
 This illustration visually explains the solution components and dependencies:
 
