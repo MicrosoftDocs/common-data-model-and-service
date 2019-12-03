@@ -332,7 +332,7 @@ Instances of this entity are listed below.
 |[unresolveEmailAddressIfMultipleMatch](#unresolveEmailAddressIfMultipleMatch)|Indicates whether email address should be unresolved if multiple matches are found|<a href="../../../../Organization.md" target="_blank">applicationCommon/Organization</a>|
 |[riErrorStatus](#riErrorStatus)|Error status of Relationship Insights provisioning.|<a href="../../../../Organization.md" target="_blank">applicationCommon/Organization</a>|
 |[widgetProperties](#widgetProperties)|For Internal use only.|<a href="../../../../Organization.md" target="_blank">applicationCommon/Organization</a>|
-|[enableMicrosoftFlowIntegration](#enableMicrosoftFlowIntegration)|Enable Integration with Microsoft Flow|<a href="../../../../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[enableMicrosoftFlowIntegration](#enableMicrosoftFlowIntegration)|Enable Integration with Power Automate|<a href="../../../../Organization.md" target="_blank">applicationCommon/Organization</a>|
 |[isEnabledForAllRoles](#isEnabledForAllRoles)|Indicates whether appmodule is enabled for all roles|<a href="../../../../Organization.md" target="_blank">applicationCommon/Organization</a>|
 |[isPreviewForAutoCaptureEnabled](#isPreviewForAutoCaptureEnabled)|Indicates whether the feature Auto Capture should be enabled for the organization at Preview Settings.|<a href="../../../../Organization.md" target="_blank">applicationCommon/Organization</a>|
 |[defaultCrmCustomName](#defaultCrmCustomName)|Name of the default crm custom.|<a href="../../../../Organization.md" target="_blank">applicationCommon/Organization</a>|
@@ -347,7 +347,7 @@ Instances of this entity are listed below.
 |[sessionTimeoutEnabled](#sessionTimeoutEnabled)|Information that specifies whether session timeout is enabled|<a href="../../../../Organization.md" target="_blank">applicationCommon/Organization</a>|
 |[sessionTimeoutInMins](#sessionTimeoutInMins)|Session timeout in minutes|<a href="../../../../Organization.md" target="_blank">applicationCommon/Organization</a>|
 |[sessionTimeoutReminderInMins](#sessionTimeoutReminderInMins)|Session timeout reminder in minutes|<a href="../../../../Organization.md" target="_blank">applicationCommon/Organization</a>|
-|[microsoftFlowEnvironment](#microsoftFlowEnvironment)|Environment selected for Integration with Microsoft Flow|<a href="../../../../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[microsoftFlowEnvironment](#microsoftFlowEnvironment)|Environment selected for Integration with Power Automate|<a href="../../../../Organization.md" target="_blank">applicationCommon/Organization</a>|
 |[inactivityTimeoutEnabled](#inactivityTimeoutEnabled)|Information that specifies whether Inactivity timeout is enabled|<a href="../../../../Organization.md" target="_blank">applicationCommon/Organization</a>|
 |[inactivityTimeoutInMins](#inactivityTimeoutInMins)|Inactivity timeout in minutes|<a href="../../../../Organization.md" target="_blank">applicationCommon/Organization</a>|
 |[inactivityTimeoutReminderInMins](#inactivityTimeoutReminderInMins)|Inactivity timeout reminder in minutes|<a href="../../../../Organization.md" target="_blank">applicationCommon/Organization</a>|
@@ -3094,12 +3094,12 @@ First included in: <a href="../../../../Organization.md" target="_blank">applica
 
 ### <a href=#enableMicrosoftFlowIntegration name="enableMicrosoftFlowIntegration">enableMicrosoftFlowIntegration</a>
 
-Enable Integration with Microsoft Flow  
+Enable Integration with Power Automate  
 First included in: <a href="../../../../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Enable Integration with Microsoft Flow</td></tr><tr><td>description</td><td>Enable Integration with Microsoft Flow</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>enablemicrosoftflowintegration</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Enable Integration with Power Automate</td></tr><tr><td>description</td><td>Enable Integration with Power Automate</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>sourceName</td><td>enablemicrosoftflowintegration</td></tr></table>
 
 ### <a href=#isEnabledForAllRoles name="isEnabledForAllRoles">isEnabledForAllRoles</a>
 
@@ -3229,12 +3229,12 @@ First included in: <a href="../../../../Organization.md" target="_blank">applica
 
 ### <a href=#microsoftFlowEnvironment name="microsoftFlowEnvironment">microsoftFlowEnvironment</a>
 
-Environment selected for Integration with Microsoft Flow  
+Environment selected for Integration with Power Automate  
 First included in: <a href="../../../../Organization.md" target="_blank">applicationCommon/Organization</a>  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Environment selected for Integration with Microsoft Flow</td></tr><tr><td>description</td><td>Environment selected for Integration with Microsoft Flow</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>1024</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>microsoftflowenvironment</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Environment selected for Integration with Power Automate</td></tr><tr><td>description</td><td>Environment selected for Integration with Power Automate</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>1024</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>microsoftflowenvironment</td></tr></table>
 
 ### <a href=#inactivityTimeoutEnabled name="inactivityTimeoutEnabled">inactivityTimeoutEnabled</a>
 

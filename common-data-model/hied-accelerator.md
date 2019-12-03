@@ -20,12 +20,12 @@ This [accelerator was announced](https://educationblog.microsoft.com/2018/10/tra
 - student, faculty, course history, and other customer-engagement forms, which you can enhance or use out of the box
 - a sample app to show some possibilities of the Unified Interface
 - example Dynamics 365 dashboards and a Power BI dashboard that provides analytics for completed courses and allows drilling into details about student performance, instructor effectiveness, and course feedback
-- support for building additional canvas and model-driven apps in PowerApps
+- support for building additional canvas and model-driven apps in Power Apps
 - a solution that you can deploy and install from AppSource or GitHub
 
 ## Site-map extensions
 
-With the Dynamics 365 Higher-Education Accelerator, institutions can optimize student and faculty engagement, improve institutional effectiveness, and predict outcomes and gain insights from analytics. When the accelerator is installed into Dynamics 365, the experience is transformed into one specifically built for higher education and allows institutions to quickly build PowerApps and Power BI visualizations.
+With the Dynamics 365 Higher-Education Accelerator, institutions can optimize student and faculty engagement, improve institutional effectiveness, and predict outcomes and gain insights from analytics. When the accelerator is installed into Dynamics 365, the experience is transformed into one specifically built for higher education and allows institutions to quickly build Power Apps and Power BI visualizations.
 
 Higher-education institutions can build their business processes on top of the entities in the accelerator. The ribbon customizations contain entities to record student, faculty, and alumni interactions, appointments, events, and outreach.
 

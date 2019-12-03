@@ -27,7 +27,7 @@ The banking accelerator provides the following to both partners and customers:
 
 ## Sitemap extensions
 
-With the Dynamics 365 Banking Accelerator, you can optimize the customer experience, improve collaboration within the bank, and gain insights from analytics. When the accelerator is installed into Dynamics 365, the experience is transformed into one specifically built for banks and it allows institutions to quickly build PowerApps and Power BI visualizations.
+With the Dynamics 365 Banking Accelerator, you can optimize the customer experience, improve collaboration within the bank, and gain insights from analytics. When the accelerator is installed into Dynamics 365, the experience is transformed into one specifically built for banks and it allows institutions to quickly build Power Apps and Power BI visualizations.
 
 Banks, ISVs, and others in Financial Services can build their solutions and business processes on top of the new entities found within the Banking Accelerator. The current data model supports common banking activities but has been designed to allow flexibility for other use cases in Financial Services. The data model was developed in collaboration with [BIAN](https://www.bian.org/) and other open API initiatives to ensure interoperability to help unlock new Open Banking opportunities.
 

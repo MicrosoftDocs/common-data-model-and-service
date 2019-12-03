@@ -13,7 +13,7 @@ ms.author: tpalmer
 
 If you’ve ever had to use data from multiple systems and applications together, you know that common data elements can save effort, streamline development, and enable faster analytics. Without being able to share and understand the same data easily, each application or data integration project requires a custom implementation, which can consume a lot of time, cost a lot of money, and require repeated effort.
 
-The Common Data Model simplifies this process by providing a shared data language for business and analytical applications to use. The Common Data Model metadata system enables consistency of data and its meaning across applications and business processes (such as PowerApps, Power BI, Dynamics 365, and Azure), which store data in conformance with the Common Data Model.
+The Common Data Model simplifies this process by providing a shared data language for business and analytical applications to use. The Common Data Model metadata system enables consistency of data and its meaning across applications and business processes (such as Power Apps, Power BI, Dynamics 365, and Azure), which store data in conformance with the Common Data Model.
 
 In addition to the metadata system, the Common Data Model includes a set of standardized, extensible data schemas that Microsoft and its partners have published. This collection of predefined schemas includes entities, attributes, semantic metadata, and relationships. The schemas represent commonly used concepts and activities, such as **Account** and **Campaign**, to simplify the creation, aggregation, and analysis of data. This graphic shows some elements of the standard entities. More information: [Common Data Model repository on GitHub](https://aka.ms/cdmrepo)
 
@@ -45,7 +45,7 @@ You can use the Common Data Model to create data repositories that use the Commo
 
 A variety of customers, partners, and products use the Common Data Model, and all have the same goal of unifying data in a well-known form with semantic meaning.
 
-- **App makers/developers**: Whether these users leverage code-based platforms or a low-code/no-code platform such as PowerApps or Power BI, they need to store and manage data for their apps.
+- **App makers/developers**: Whether these users leverage code-based platforms or a low-code/no-code platform such as Power Apps or Power BI, they need to store and manage data for their apps.
 
 - **Data integrators**: These users are responsible for bringing data from a variety of systems to make it accessible for apps to use.
 
@@ -56,7 +56,7 @@ Historically, the work to build an app has been tightly tied with data integrati
 Microsoft and its partners use the Common Data Model for their own apps and offerings and are building additional services and offerings
 based on Common Data Model schemas. These examples show how organizations use the Common Data Model:
 
-- **Common Data Service**, which supports Dynamics and PowerApps, stores data in conformance with the Common Data Model definition. In fact, many of the original business entities in the Common Data Model came from Dynamics offerings, such as Dynamics 365 for Sales and Dynamics 365 for Marketing.
+- **Common Data Service**, which supports Dynamics and Power Apps, stores data in conformance with the Common Data Model definition. In fact, many of the original business entities in the Common Data Model came from Dynamics offerings, such as Dynamics 365 for Sales and Dynamics 365 for Marketing.
 
 - **Industries** such as healthcare are working closely with Microsoft to extend the Common Data Model to their specific business concepts, such as **Patient** and **Care Plan** through [Industry Accelerators](industry-accelerators.md). This extends the benefit of the Common Data Model standard entities to these verticals so that industry solutions interoperate more easily. 
 
