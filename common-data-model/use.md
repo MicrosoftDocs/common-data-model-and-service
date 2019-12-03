@@ -13,13 +13,13 @@ ms.author: tpalmer
 
 With the Common Data Model, you can put your data into formats that represent concepts and activities that are commonly used and well understood. That way, you can query that data, reuse it, and interoperate with other businesses and apps that use the same format. This strategy matches that of, for example, manufacturers who produce AA batteries that fit in most remote controls. The Common Data Model defines the size and shape of a **Contact**, for example, so that your app developers and business partners can parse that data and build your apps (or interoperate) with agility and confidence. The Common Data Model is an open-source definition of standard entities and a metadata system that enable consistency of data and its meaning across apps and business processes.
 
-Today, the Common Data Model is used within Common Data Service, which supports Dynamics 365, PowerApps, and the data-preparation capabilities in Power BI dataflows to create schematized files in Azure Data Lake. The Common Data Model definitions are open and available to any service or application that wants to use them.
+Today, the Common Data Model is used within Common Data Service, which supports Dynamics 365, Power Apps, and the data-preparation capabilities in Power BI dataflows to create schematized files in Azure Data Lake. The Common Data Model definitions are open and available to any service or application that wants to use them.
 
 ![Common Data Model with Common Data Service](media/cdm-with-cds.png "Common Data Model with Common Data Service")
 
 You can use the Common Data Model in multiple applications and platforms:
 
-- **Bring your data together in Common Data Service**: You can use Common Data Service to bring your data together in the standardized format of the Common Data Model and quickly create powerful apps. The data can then be managed in Microsoft apps and services such as Dynamics 365, PowerApps, Microsoft Flow, Power BI, or your own custom apps.
+- **Bring your data together in Common Data Service**: You can use Common Data Service to bring your data together in the standardized format of the Common Data Model and quickly create powerful apps. The data can then be managed in Microsoft apps and services such as Dynamics 365, Power Apps, Power Automate, Power BI, or your own custom apps.
 
 - **Extend Common Data Model standard entities**: The Common Data Model is extensible, so you can extend existing entities or create entities that are specific to your organization. These entities can relate back to the Common Data Model standard entities so that your app can more easily leverage the full power of the platform.
 
