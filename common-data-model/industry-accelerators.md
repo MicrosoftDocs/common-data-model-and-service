@@ -52,7 +52,7 @@ Sixth Layer (Available on AppSource)
 Seventh Layer (SI Support)
 - SIs provide expertise for Customer, ISV and  Industry ISV solutions that were built on top of the Microsoft Industry Accelerators. This enables SIs to create industry vertical solution support and practices that can help customers directly, build their own solutions/tools or support ISV deliveries
 
-As you move up the stack, ISVs have multiple opportunities to deliver industry-focused apps and solutions. These opportunities exist whether you're building directly on PowerApps (Common Data Service) or Dynamics 365 apps. As you can see, each level further extends the next level's opportunities. The accelerators provide opportunities to rapidly build vertical, industry-focused apps, as well as enabling SIs who can help scale and support these new apps and solutions.
+As you move up the stack, ISVs have multiple opportunities to deliver industry-focused apps and solutions. These opportunities exist whether you're building directly on Power Apps (Common Data Service) or Dynamics 365 apps. As you can see, each level further extends the next level's opportunities. The accelerators provide opportunities to rapidly build vertical, industry-focused apps, as well as enabling SIs who can help scale and support these new apps and solutions.
 
 ## Additional accelerators
 We continue to release new and updated accelerators for the industries identified earlier. Check our release plans for the most recent releases!

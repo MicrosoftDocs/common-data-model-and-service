@@ -37,7 +37,7 @@ The Nonprofit Accelerator provides the following to partners and customers:
 -   Support for extending the model with custom entities, forms, and
     relationships that meet your nonprofit needs.
 
--   Support for building canvas apps in PowerApps.
+-   Support for building canvas apps in Power Apps.
 
 -   Sample dashboards that provide analytics around fundraising and program
     delivery.
@@ -207,7 +207,7 @@ Nonprofit Accelerator.  
 ![IATI](media/nfp-iatifile.png "IATI")
 
 
-### Dynamics 365 Finance and PowerApps Data Integrator (Optional Add-On)
+### Dynamics 365 Finance and Power Apps Data Integrator (Optional Add-On)
 
 Template data integrator tasks to connect Nonprofit
 Accelerator Constituents, Donations, Awards and Programs to Finance and
