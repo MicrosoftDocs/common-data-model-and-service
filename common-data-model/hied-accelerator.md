@@ -3,7 +3,7 @@ title: Higher-Education Accelerator -Dynamics 365 | Microsoft Docs
 description: Develop higher-education solutions with the extensions to the Common Data Model and the built-in forms, views, and dashboards of the Dynamics 365 Higher-Education Accelerator.
 author: MeenooRami
 ms.service: common-data-model
-ms.reviewer: anneta
+ms.reviewer: Deonhe
 ms.topic: article
 ms.date: 12/16/2019
 ms.author: merami
@@ -99,20 +99,20 @@ university for events, hackathons, internships, scholarships, and grants. With
 the native dashboard and PowerBI dashboards, business partners gain insights on
 student interest in opportunities and applications for grants and scholarships.
 
-common-data-model/media/businesspartnerdashboard.png
+![](common-data-model/media/businesspartnerdashboard.png "")
 
 **Student Internship Application Status**
 
 This form tracks the status of student’s internship application.
 
-common-data-model/media/studentintershipapplication.png
+![](common-data-model/media/studentintershipapplication.png)
 
 **Grants Phone App**
 
 Research faculty can keep track of grant applications submitted by their
 students, see example below:
 
-common-data-model/media/grantsphoneapp.png
+![](common-data-model/media/grantsphoneapp.png)
 
 **Student form**
 
@@ -121,7 +121,7 @@ course load, areas of study, degree, course history, test scores) in the context
 of the app and the interface. The student record becomes the source of truth and
 engagement to deliver the best support throughout the student lifecycle.
 
-common-data-model/media/hied-student.png
+![](common-data-model/media/hied-student.png)
 
 **Institutional dashboard**
 
@@ -130,7 +130,7 @@ institutional dashboard in Power BI. With the institutional dashboard, you gain
 analytics and insights into students, classes, and key metrics such as students
 by program and demographics.
 
-common-data-model/media/hied-dashboard.png
+![](common-data-model/media/hied-dashboard.png)
 
 **Additional resources**
 
