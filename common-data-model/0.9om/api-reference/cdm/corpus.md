@@ -14,7 +14,7 @@ ms.author: jibyun
 The corpus is a top-level folder that provides the most important basic functionalities to deal with the object model. There will usually only be one corpus when dealing with the OM.
 
 ```
-public class CdmCorpusDefinition extends CdmFolderDefinition
+public class CdmCorpusDefinition
 ```
 
 ## Constructors
@@ -34,9 +34,9 @@ public class CdmCorpusDefinition extends CdmFolderDefinition
 |---|---|---|
 |**MakeRef\<T>([CdmObjectType](objecttype.md), dynamic, bool)**<br/>*ofType*: The type of the CDM object we want to make. <br/>*refObj*: The reference object. <br/> *simpleNameRef*: A boolean that denotes whether it is a simple name reference.|Instantiates an OM class reference based on the object type passed as the first parameter.|T, where T extends [CdmObjectReference](cdmobjectreference.md)|
 |**MakeObject\<T>([CdmObjectType](objecttype.md), string, bool)**<br/>*ofType*: The type of the CDM object we want to make. <br/>*nameOrRef [optional]*: The name or reference.<br/>*simpleNameRef [optional]*: A boolean that denotes whether the reference is simple named or not. The default value is false.|Instantiates an OM class based on the object type passed as the first parameter.|T, where T extends [CdmObject](cdmobject.md)|
-|**FetchObjectAsync\<T>(string, [CdmObject](cdmobject.md))**<br/>*objectPath*: The object path of a folder or document.<br/>*obj [optional]*: The object that the *objectPath* parameter should be relative to. If not set, *objectPath* will be assumed to be relative to the root folder in the default namespace.|Fetches the object in the specified path from the corpus.|Task\<T>|
+|**FetchObjectAsync\<T>(string, [CdmObject](cdmobject.md))**<br/>*objectPath*: The object path of a folder or document. Can be absolute or relative.<br/>*obj [optional]*: When provided, it is used to obtain the *FolderPath* and *Namespace* needed to create the absolute path from a relative path.|Fetches the object in the specified path from the corpus.|Task\<T>|
 |**SetEventCallback([EventCallback](../utilities/callback.md), [CdmStatusLevel](statuslevel.md))**<br/>*status*: The callback. <br/>*reportAtLevel*: At which status level to report.<br/><br/>*Only in C# and TypeScript.*| Sets the status and error callback that gets called for status/warning/error purposes.|void|
 |**CalculateEntityGraphAsync([CdmManifestDefinition](manifest.md))**<br/>*currManifest*: The manifest (and any sub-manifests it contains) that we want to calculate relationships for.|Calculates the entity-to-entity relationships for all the entities present in the manifest and its sub-manifests.|Task|
 |**FetchIncomingRelationships([CdmEntityDefinition](entity.md))**<br/>*entity*: The entity that we want to get relationships for.|Returns a list of relationships where the input entity is the incoming entity.|List\<[CdmE2ERelationship](e2erelationship.md)>|
 |**FetchOutgoingRelationships([CdmEntityDefinition](entity.md))**<br/>*entity*: The entity that we want to get relationships for.|Returns a list of relationships where the input entity is the outgoing entity.|List\<[CdmE2ERelationship](e2erelationship.md)>|
-|**ComputeLastModifiedTimeAsync(string)**<br>*corpusPath*: The corpus path of the object.<br/><br/>*fetch_last_modified_time_async(...) in Python.*|Returns the last modified time of the object found at the specified corpus path.|Task\<DateTimeOffset?>|
+

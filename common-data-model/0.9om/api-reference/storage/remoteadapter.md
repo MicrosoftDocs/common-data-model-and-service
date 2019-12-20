@@ -21,7 +21,7 @@ public class RemoteAdapter extends NetworkAdapter, StorageAdapter
 ## Constructors
 |Name|Description|
 |---|---|
-|**RemoteAdapter()**|Initializes a new instance of the [RemoteAdapter](remoteadapter.md) class. The user must apply an adapter configuration (see *UpdateConfig(...)*) or add hosts if this constructor is used.|
+|**RemoteAdapter()**<br/>*hosts [optional]*: The dictionary of hosts.|Initializes a new instance of the [RemoteAdapter](remoteadapter.md) class. The user must apply an adapter configuration (see *UpdateConfig(...)*) or provide hosts.|
 
 ## Properties
 |Name|Type|Description|

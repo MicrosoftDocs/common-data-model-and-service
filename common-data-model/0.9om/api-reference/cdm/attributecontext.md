@@ -31,6 +31,7 @@ public class CdmAttributeContext extends CdmObjectDefinitionBase
 |Definition|[CdmObjectReference](cdmobjectreference.md)|The reference to the object this attribute context was defined from.|
 |Parent|[CdmObjectReference](cdmobjectreference.md)|The attribute context's parent.|
 |Type|[CdmAttributeContextType?](attributecontexttype.md)|The attribute context's type.|
+|AtCorpusPath|string|The path to the object declaration, relative to the declaration of the resolved entity. For an attribute context, we do not follow the standard path calculation behavior.|
 
 ## Methods
 |Name|Description|Return Type|
