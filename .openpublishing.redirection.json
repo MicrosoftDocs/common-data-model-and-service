@@ -329,6 +329,11 @@
       "source_path": "entity-reference/record-level-security.md",
       "redirect_url": "introduction",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "entity-reference/index.md",
+      "redirect_url": "/common-data-service/entity-reference/introduction",
+      "redirect_document_id": false
     }
   ]
 }
