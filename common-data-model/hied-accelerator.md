@@ -20,9 +20,7 @@ ms.author: merami
 
 # The Dynamics 365 Higher Education Accelerator
 
-With the [Dynamics 365 Higher Education
-
-Accelerator](https://appsource.microsoft.com/product/dynamics-365/mshied.highereducationcommondatamodel?tab=Overview),
+With the [Dynamics 365 Higher Education Accelerator](https://appsource.microsoft.com/product/dynamics-365/mshied.highereducationcommondatamodel?tab=Overview),
 
 you can develop solutions that are based on entities and attributes that higher-education institutions use. The accelerator includes entities around student engagement and additional entities around internships, scholarships, grants, and accomplishments. The accelerator includes entities, fields, forms, views, and dashboards.
 
@@ -66,10 +64,8 @@ This accelerator provides these entities to support the needs of higher educatio
 | Contacts | Course History | Program | Student Status |
 | Academic Period | Course Section | Program Level | Test Score |
 | Academic Period Detail | Education Level | Program Version | Test Type |
-| Area of Interest | Extra Curricular Activity | Program version Detail |
-Area of Study |
-| Extra Curricular Participant | Registration Status | Internship |
-Internship Applicant |
+| Area of Interest | Extra Curricular Activity | Program version Detail | Area of Study |
+| Extra Curricular Participant | Registration Status | Internship | Internship Applicant |
 | Scholarship | Scholarship Applicant | Grant | Grant Applicant |
 | Accomplishments | | | |
 
