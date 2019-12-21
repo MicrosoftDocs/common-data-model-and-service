@@ -62,24 +62,17 @@ Higher education institutions can build their business processes on top of the e
 This accelerator provides these entities to support the needs of higher education institutions:
 
 | Accounts | Course | Previous Education | Student Program Type |
-
 |------------------------------|---------------------------|------------------------|----------------------|
-
 | Contacts | Course History | Program | Student Status |
-
 | Academic Period | Course Section | Program Level | Test Score |
-
 | Academic Period Detail | Education Level | Program Version | Test Type |
-
 | Area of Interest | Extra Curricular Activity | Program version Detail |
 Area of Study |
-
 | Extra Curricular Participant | Registration Status | Internship |
 Internship Applicant |
-
 | Scholarship | Scholarship Applicant | Grant | Grant Applicant |
-
 | Accomplishments | | | |
+
 
 ## Forms and dashboards
 
@@ -122,7 +115,7 @@ This accelerator includes a student dashboard in Dynamics 365 and an institution
 
 - The higher education data model, solutions, data samples, Power BI examples, SDK extensions, and more are provided as part of the open-source creative license and available on [GitHub](https://github.com/microsoft/Industry-Accelerator-Education/releases).
 
-- [Additional topics](https://community.dynamics.com/365/b/dynamics365isvsuccess/archive/2018/08/01/dynamics-365-brings-industry-focus-through-the-microsoft-power-platform-and-solution-accelerators) about the accelerators 
+- [Additional topics](https://community.dynamics.com/365/b/dynamics365isvsuccess/archive/2018/08/01/dynamics-365-brings-industry-focus-through-the-microsoft-power-platform-and-solution-accelerators) about the accelerators. 
 
 - This [blog post](https://community.dynamics.com/365/b/dynamics365isvsuccess/archive/2018/10/30/early-isvs-building-on-the-new-higher-education-accelerator-and-the-microsoft-power-platform) shows
 some examples of ISVs building solutions on the Dynamics 365 Higher Education Accelerator.
