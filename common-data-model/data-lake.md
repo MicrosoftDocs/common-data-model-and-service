@@ -10,7 +10,7 @@ ms.author: tpalmer
 ---
 
 # The Common Data Model and Azure Data Lake Storage Gen2
-<!--This is a very nice topic (though it has some outdated branding in text and in the graphic named cmd-filesystems.png that needs attention). One thing that troubles me is that there's no verb in the title, so I'm not sure whether Data Lake Storage Gen2 the only data service that works with the Common Data Model, or the only one that lets people use Common Data Service, or...? I'm just not sure how it fits into the Common Data Model story.-->
+<!--This is a very nice topic (though it has some outdated branding in text and in the graphic named cmd-filesystems.png that needs attention). One thing that troubles me is that there's no verb in the title, so I'm not sure what the action step is here. Could it be something like "Use the Common Data Model to optimize Azure Data Lake Storage Gen2"? -->
 Data stored in accordance with the Common Data Model provides semantic consistency across apps and deployments. With the evolution of the Common Data Model metadata system, the model brings the same structural consistency and semantic meaning to the data stored in Microsoft Azure Data Lake Storage Gen2 with hierarchical namespaces and folders that contain schematized data in standard Common Data Model format. The standardized metadata and self-describing data in an Azure data lake facilitates metadata discovery and interoperability between data producers and data consumers such as Power BI, Azure Data Factory, Azure Databricks, and Azure Machine Learning.
 
 ![Common Data Model data producers and consumers in Data Lake Storage Gen2](media/cdm-data-lake.png "Common Data Model data producers and data consumers in Data Lake Storage Gen2")

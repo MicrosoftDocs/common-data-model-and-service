@@ -109,9 +109,7 @@ Start by creating an instance of Data Lake Storage Gen2 that has hierarchical na
 
 ### What are the correct authorization levels for Common Data Model folders?
 
-In general, the best practice is to set the least required privilege to complete the action.
-
-For data producers, this strategy means they're given full create, read, update, and delete (CRUD) permissions to content within their file systems. For data consumers, this strategy means they're given read-access permissions only. When data producers provide access to their file systems, the best practice is to create and manage groups in Azure Active Directory and set access control lists for those groups. This approach makes adding consumers easier going forward.<br>[More information: ](data-lake.md#authorization)
+In general, the best practice is to set the least required privilege to complete the action. For data producers, this strategy gives full create, read, update, and delete (CRUD) permissions to content within their file systems. For data consumers, this strategy gives read-access permissions only. When data producers provide access to their file systems, the best practice is to create and manage groups in Azure Active Directory and set access control lists for those groups. This approach makes adding consumers easier going forward.<br>More information: [Authorization for Common Data Model folders](data-lake.md#authorization)
 
 <a name="what-are-the-expectations-of-a-common-data-model-data-producer"></a>
 
@@ -153,4 +151,4 @@ When entities in a dataflow are mapped to a Common Data Model standard entity, s
 
 ## More questions?
 
-If you have more questions or comments about the Common Data Model and related topics, we recommend that you [submit an issue in GitHub](https://github.com/microsoft/cdm/issues).
+If you have more questions or comments about the Common Data Model or related topics, please [submit an issue in GitHub](https://github.com/microsoft/cdm/issues).
