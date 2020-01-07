@@ -5,7 +5,7 @@ author: theresapalmer
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 07/24/2018
+ms.date: 01/07/2020
 ms.author: tpalmer
 ---
 
@@ -15,7 +15,7 @@ With the Common Data Model, you can structure your data to represent concepts an
 
 
 The Common Data Model is used within Common Data Service, which supports Dynamics 365, Power Apps, and the data-preparation capabilities in Power BI dataflows to create schematized files in Azure Data Lake. The Common Data Model definitions are open and available to any service or application that wants to use them.
-<!--note from editor: This graphic has quite a few branding issues. Also, I'm not sure what those arrows are saying.-->
+
 ![Common Data Model with Common Data Service](media/cdm-with-cds.png "Common Data Model with Common Data Service and Power BI dataflows")
 
 You can use the Common Data Model in multiple applications and platforms to:
@@ -32,9 +32,7 @@ Microsoft continues to extend the Common Data Model in concert with many partner
 Both platforms <!--note from editor: What are both platforms? Common Data Service and Power BI dataflows?-->that currently support the Common Data Model also offer data-integration experiences through Power Query Online, which lets users bring in data from a variety of sources, transform it if necessary, and then map it to standard entities in the Common Data Model or create custom entities. Power Query Online leverages the same visual, self-service data-prep experience as Power Query within Excel and Power BI Desktop, so existing users can ramp up quickly.
 
 ![Map data with entities in the Common Data Model](media/cdm-map-entities.png "Map data with entities in the Common Data Model")
-<!--note from editor: Does this section merit a list of additional resources, or will this be enough information?-->
 
-<!--note from editor: Task-oriented, but maybe not accurate?-->
 ## Jump-start Common Data Service app development
 
 By using Common Data Service, you can jump-start app development <!--note from editor: Is this what "jump-start apps" means?--> by using the Common Data Model with business logic, security, and integration already built in. The platform provides these benefits:
