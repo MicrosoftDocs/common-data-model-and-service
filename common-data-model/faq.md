@@ -11,7 +11,7 @@ ms.author: tpalmer
 
 # Frequently asked questions about the Common Data Model
 
-This topic contains frequently asked questions and best practices around a variety of areas related to the Common Data Model (CDM), including general topics, Common Data Service, and Azure Data Lake Storage Gen2. If you have more questions or comments on the Common Data Model and related topics, we recommend that you [submit an issue in Git](https://github.com/microsoft/cdm/issues).
+This topic contains frequently asked questions and best practices around a variety of areas related to the Common Data Model, including general topics, Common Data Service, and Azure Data Lake Storage Gen2. If you have more questions or comments on the Common Data Model and related topics, we recommend that you [submit an issue in Git](https://github.com/microsoft/cdm/issues).
 
 - General
   - [What is the Common Data Model?](#what-is-the-common-data-model)
@@ -42,7 +42,7 @@ This topic contains frequently asked questions and best practices around a varie
 
 ### What is the Common Data Model
 
-The Common Data Model (CDM) comprises a standardized metadata system and data schemas that help applications and services interoperate and help you get more value from your data. The Common Data Model simplifies data integration and application-development scenarios, allowing independent development while maintaining shared meaning of data.<br>[More information](index.md)
+The Common Data Model comprises a standardized metadata system and data schemas that help applications and services interoperate and help you get more value from your data. The Common Data Model simplifies data integration and application-development scenarios, allowing independent development while maintaining shared meaning of data.<br>[More information](index.md)
 
 ### How does the Common Data Model relate to the Open Data Initiative
 
@@ -62,7 +62,7 @@ There’s a major/minor versioning system in the standard-entity definitions, as
 
 ### Where can I find libraries to help read and write Common Data Model metadata
 
-You can find sample libraries to read Common Data Model schema documents in [TypeScript](https://github.com/Microsoft/CDM/tree/master/src) as well as sample libraries in [.NET](https://aka.ms/AA39f6f) and [Python](https://aka.ms/AA39n1b) to read/write model.json files. More libraries are coming; please add your requests/comments at the library location in the GitHub repository.
+You can find libraries to read Common Data Model schema documents in [TypeScript](https://aka.ms/cdmsdkts) as well as sample libraries in [.NET](https://aka.ms/AA39f6f), [Java] (https://aka.ms/cdmsdkjava) and [Python](https://aka.ms/AA39n1b) to read/write Common Data Model metadata files. Please add your requests/comments at the library location in the GitHub repository.
 
 ## Common Data Service
 
