@@ -5,7 +5,7 @@ author: theresapalmer
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 11/21/2018
+ms.date: 11/21/2019
 ms.author: tpalmer
 ---
 
@@ -46,7 +46,7 @@ The Common Data Model comprises a standardized metadata system and data schemas 
 
 ### How does the Common Data Model relate to the Open Data Initiative
 
-The Open Data Initiative, announced in September 2018 at Ignite, is a vision that was jointly developed by Adobe, Microsoft, and SAP. The Common Data Model, including the Common Data Model metadata format and standard entities, will continue to evolve and directly accrue value toward the Open Data Initiative.<br>[More information](https://aka.ms/opendatainitiative)
+The Open Data Initiative, announced in September 2018 at Ignite, is a vision that was jointly developed by Adobe, Microsoft, and SAP. The Common Data Model, including the Common Data Model metadata format and standard entities, will continue to evolve and directly accrue value toward the Open Data Initiative. More information: (https://aka.ms/opendatainitiative)
 
 ### How does the Common Data Model relate to other standard definitions
 
@@ -62,7 +62,7 @@ There’s a major/minor versioning system in the standard-entity definitions, as
 
 ### Where can I find libraries to help read and write Common Data Model metadata
 
-You can find libraries to read Common Data Model schema documents in [TypeScript](https://aka.ms/cdmsdkts) as well as sample libraries in [.NET](https://aka.ms/AA39f6f), [Java] (https://aka.ms/cdmsdkjava) and [Python](https://aka.ms/AA39n1b) to read/write Common Data Model metadata files. Please add your requests/comments at the library location in the GitHub repository.
+You can find libraries to read Common Data Model schema documents in [TypeScript](https://aka.ms/cdmsdkts) as well as sample libraries in [.NET](https://aka.ms/AA39f6f), [Java](https://aka.ms/cdmsdkjava), and [Python](https://aka.ms/AA39n1b) to read/write Common Data Model metadata files. Please add your requests/comments at the library location in the GitHub repository.
 
 ## Common Data Service
 
@@ -104,7 +104,7 @@ Today Common Data Model folders and data files are treated the same as any other
 
 ### How do I access Common Data Model artifacts
 
-You can create, read, update, or delete Common Data Model folders, model.json files, and data files through APIs for Azure Data Lake Storage Gen2.<br>[More information](https://docs.microsoft.com/rest/api/storageservices/data-lake-storage-gen2)
+You can create, read, update, or delete Common Data Model folders, model.json files, and data files through APIs for Azure Data Lake Storage Gen2. [Learn more](https://docs.microsoft.com/rest/api/storageservices/data-lake-storage-gen2)
 
 ## Power BI dataflows
 
