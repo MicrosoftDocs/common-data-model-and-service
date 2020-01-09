@@ -62,7 +62,7 @@ There’s a major/minor versioning system in the standard-entity definitions, as
 
 ### Where can I find libraries to help read and write Common Data Model metadata
 
-You can find libraries to read Common Data Model schema documents in [TypeScript](https://aka.ms/cdmsdkts) as well as sample libraries in [.NET](https://aka.ms/AA39f6f) and [Python](https://aka.ms/AA39n1b) to read/write Common Data Model metadata files. Please add your requests/comments at the library location in the GitHub repository.
+You can find libraries to read Common Data Model schema documents in [TypeScript](https://aka.ms/cdmsdkts) as well as sample libraries in [.NET](https://aka.ms/AA39f6f), [Java] (https://aka.ms/cdmsdkjava) and [Python](https://aka.ms/AA39n1b) to read/write Common Data Model metadata files. Please add your requests/comments at the library location in the GitHub repository.
 
 ## Common Data Service
 
