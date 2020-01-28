@@ -176,7 +176,9 @@ disbursements.
 
 Workflows build on Program Delivery and Results entities that allow a program officer to build, edit, or delete a logframe (logical framework), associate it with an internal, external, or standard indicator set like the United Nations Sustainable Development Goals (SDGs), browse the logframe library, collaborate on logframe development through Microsoft Teams, Outlook, and Word, and track the status and delivery milestones of the logframe.
 
-![Nonprofit indicators](media/nfp-indicators4.png "Nonprofit indicators")
+![Logframes](media/Logframes.png "Logframes")
+
+![SDG Indicators](media/SDGIndicators.png "SDG Indiators")
 
 ### Volunteer Preferences, Skills and Availability
 
