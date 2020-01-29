@@ -269,7 +269,7 @@ Here, we use attributes from **UserAgent** twice, but the prefix differs slightl
 
 ![Schema for Entity Attributes with Different Names](media/creating-schemas-differentprefixentityattributes.png)
 
-Remember, since **UserAgent** is a *logical* entity that we have created, the attribute names in the entity schema does not have to match up exactly with the field names in its original entity definition. What matters is that the attribute names for the physical entities match their entity definitions (and our data). 
+Remember, since **UserAgent** is a *logical* entity that we have created, the attribute names in the entity schema do not have to match up exactly with the field names in its original entity definition. What matters is that the attribute names for the physical entities match their entity definitions (and our data). 
 
 <br/>We cannot do this when there is no common prefix in the attribute names. For instance, almost all the attributes taken from **ReverseIp** have the common prefix “rip”, but since the attribute “isBot” does not have it, we cannot use this. Instead, we named the attributes in **ReverseIp** as they appear in the entity definition, if you recall our *ReverseIp.cdm.json* document:
 
