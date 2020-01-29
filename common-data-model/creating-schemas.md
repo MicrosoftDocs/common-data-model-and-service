@@ -15,7 +15,7 @@ You have some data and want to start using the Common Data Model. To do so, you 
 
 In this example, we will be creating entity schemas for our physical entities as well as logical entities. What is the difference between the two? Our physical entities are the entities that exist in our data, often as tables in a database. This means that the entity schemas that we will create for our physical entities will represent our data in the Common Data Model format. For instance, the attributes described in a Common Data Model entity schema are derived from the fields (or columns) of the corresponding physical entity. Purely logical entities, on the other hand, are not trying to describe an existing physical entity. Instead, they are used to encapsulate commonly used attributes (fields that appear across our physical entities) into meaningful groups. Logical entities allow us to define common attributes once and reuse these definitions, rather than re-defining the same attribute every time it is used in an entity definition. Therefore, the entity schemas for our logical entities will represent our logical entity definitions in the Common Data Model format, rather than our actual data. We will also be creating the manifest document and demonstrating two different ways to explore our schema documents at the end.
 
-The documents mentioned in this example can be found [here]().
+The documents mentioned in this example can be found [here](https://github.com/microsoft/CDM/tree/master/docs/guides/creating-schema-documents).
 
 ## Gathering Entity Definitions
 
@@ -84,7 +84,7 @@ The data type for this attribute is “string”, since we have established that
 
 How do we know what data types are available to use to describe an attribute? The complete list of all the data types we can use can be found under *primitives.cdm.json* and the various *meanings.cdm.json* files (ex. *meanings.identity.cdm.json*).
 
-<br/>We will then create uaBrowserVersion, which is also a string type: 
+<br/>We will then create "uaBrowserVersion", which is also a string type: 
 
 ![uaBrowserVersion Attribute Definition](media/creating-schemas-uabrowserversion.png)
 
@@ -244,13 +244,13 @@ This entity attribute object will take all the attributes defined in **UserAgent
 
 ### Attribute Resolution Guidance
 
-Attribute resolution guidance is a guidance on the process of resolving entities and attributes, compressing logical entity schemas into their physical forms. 
+Attribute resolution guidance is a guidance on the process of resolving entities and attributes, compressing entity schemas into their physical forms. 
 
 We have not specified attribute resolution guidance properties in this entity attribute object, so default resolution guidance will be used. By default, resolution guidance takes all the attributes defined in the referenced entity and applies them to the current entity. In our case, **Session** will take all 7 attributes defined inside **UserAgent**. When attributes are taken from **UserAgent**, the final resolved attribute names in **Session** will be in the format of “[name of entity attribute][name of attribute]”.
 
 If you recall, we used “browserName” rather than “uaBrowserName” when defining the attribute in **UserAgent**. This is because all the attributes in **UserAgent** starts with “ua”. When using default resolution guidance, if we notice a common prefix, we can use that as the name of the entity attribute. Since we used “ua” as the name of the entity attribute in **Session**, the attribute “browserName” that we took from **UserAgent** becomes:
 
-    “ua” + “BrowserName” = “uaBrowserName”
+    “ua” + “browserName” = “uaBrowserName”
 
 *Note: The first letter of the original attribute name becomes capitalized during this process (browserName -> BrowserName).*
 
@@ -488,11 +488,11 @@ Here is our *clickstream.manifest.cdm.json*, under the *clickstream* folder:
 
 ![Clickstream Manifest Document](media/creating-schemas-manifest.png)
 
-Most of the properties listed above are fairly self-explanatory. We will take a look at entities, which is a list of entity declaration objects. This is where we reference all our entity schemas (**ReverseIp**, **Session**, and **UserAgent**).
+Most of the properties listed above are fairly self-explanatory. We will take a look at **entities**, which is a list of entity declaration objects. This is where we reference all our entity schemas (**ReverseIp**, **Session**, and **UserAgent**).
 
 * **type** refers to the type of the entity declaration (local or referenced). Since our entity declarations reside locally, rather than at a remote location, we use “LocalEntity” as the type. 
 * **entityName** is the name of the entity.
-* **entityPath** is the corpus path to the entity definition in the entity schema. It is in the format of “[entity schema name][entity name]”. 
+* **entityPath** is the corpus path to the entity definition in the entity schema. It is in the format of “[entity schema name]/[entity name]”. 
 
 <br/>The manifest can reference sub-manifests as well. For example, if we had a sub-folder under *clickstream* called aggregations (that contained entity schemas relating to aggregated data), we could create an *aggregrations.manifest.cdm.json* document in that folder: 
 
