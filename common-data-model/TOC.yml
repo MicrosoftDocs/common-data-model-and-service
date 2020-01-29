@@ -25,6 +25,7 @@
   - name: Entity Reference
     href: schema/core/applicationCommon/toc.yml
   - name: API Reference
+    href: 0.9om/api-reference/api-reference.md
     items:
       - name: Common Data Model Object Model
         items:
