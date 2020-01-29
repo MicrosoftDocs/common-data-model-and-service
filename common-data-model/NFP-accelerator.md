@@ -5,7 +5,7 @@ author: lponti
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 11/18/2019
+ms.date: 01/28/2020
 ms.author: lponti
 ---
 
@@ -22,13 +22,15 @@ documentation.
 
 The initial release of the Nonprofit Accelerator was announced in [November 2018](https://blogs.microsoft.com/on-the-issues/2018/11/08/new-dynamics-365-nonprofit-accelerator-supports-organizations-with-end-to-end-solutions)
 at the [NetHope Global Summit](https://youtu.be/eV4N0mK0-so?t=2169) and there have been continued enhancements with these versions - v2.0 in [April 2018](https://blogs.microsoft.com/on-the-issues/2018/04/20/new-solutions-to-help-nonprofits-drive-impact), 
-and v2.1 in [July 2019](https://cloudblogs.microsoft.com/dynamics365/bdm/2019/07/11/accelerating-opportunities-for-isvs-with-new-programs-and-technology/), and v2.2 in November 2019.  
+and v2.1 in [July 2019](https://cloudblogs.microsoft.com/dynamics365/bdm/2019/07/11/accelerating-opportunities-for-isvs-with-new-programs-and-technology/), and v2.2 in [November 2019](https://linkedin.com/pulse/announcing-general-availability-dynamics-365-nonprofit-erik-arnold/).   
 
 The Nonprofit Accelerator provides the following to partners and customers:
 
 -   Extension of the Common Data Model including concepts for constituent
     management, fundraising, awards, program delivery and impact tracking,
     including entity definitions and relationships.
+    
+-   A Program Design template application that nonprofit program and country managers use to create and browse logframes (logical frameworks, the building blocks of effective program design) and conect those logframes to internal, external and standard indicators like the United Nations Sustainable Development Goals (SDGs) in order improve program measurement and outcome tracking.    
 
 -   Sample model-driven apps that show how Dynamics 365 and the nonprofit data
     model can be used including constituent management, fundraising, awards and
@@ -170,13 +172,13 @@ disbursements.
 
 ![Nonprofit award management](media/nfp-award-mgmt4.png "Nonprofit award management")
 
-### Indicators and indicator values
+### Program Design
 
-Program Delivery and Results entities that detail what will be measured to track
-evidence of output-outcome-impact and qualitative or quantitative point-in-time
-measurements of evidence of output-outcome-impact.
+Workflows build on Program Delivery and Results entities that allow a program officer to build, edit, or delete a logframe (logical framework), associate it with an internal, external, or standard indicator set like the United Nations Sustainable Development Goals (SDGs), browse the logframe library, collaborate on logframe development through Microsoft Teams, Outlook, and Word, and track the status and delivery milestones of the logframe.
 
-![Nonprofit indicators](media/nfp-indicators4.png "Nonprofit indicators")
+![Logframes](media/Logframes.png "Logframes")
+
+![SDG Indicators](media/SDGIndicators.png "SDG Indiators")
 
 ### Volunteer Preferences, Skills and Availability
 
