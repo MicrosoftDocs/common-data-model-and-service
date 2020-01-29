@@ -30,7 +30,7 @@ You will notice that **Session** has fields, such as “uaBrowserName” and “
 
 ![UserAgent Entity Definition](media/creating-schemas-useragententitydefinition.png)
 
-<br/><br/>As another example, here is the entity definition for the physical entity, **AggPageViewDetail**, that also uses some fields from **UserAgent** and **ReverseIp** (as well as **Page**): 
+<br/>As another example, here is the entity definition for the physical entity, **AggPageViewDetail**, that also uses some fields from **UserAgent** and **ReverseIp** (as well as **Page**): 
 
 ![AggPageViewDetail](media/creating-schemas-aggpageviewdetail.png)
 
@@ -76,7 +76,7 @@ The first attribute we will create is "uaBrowserName", which is a string type. A
 
 ![uaBrowserName Attribute Definition](media/creating-schemas-uabrowsername.png)
 
-You will notice that we used the name “browserName” rather than “uaBrowserName” here. We will go into why we did this in the [Attribute Resolution Guidance](creating-schemas.md###attribute-resolution-guidance) section.
+You will notice that we used the name “browserName” rather than “uaBrowserName” here. We will go into why we did this in the [Attribute Resolution Guidance](creating-schemas.md#attribute-resolution-guidance) section.
 
 The data type for this attribute is “string”, since we have established that “uaBrowserName” is a string. Alternatively, we could have used the “name” data type, which describes a string that also has the trait "means.identity.name<no-link>". Traits are useful because they help express further semantic meaning. Using the “name” data type lets us know that this attribute is a name of some kind, which is more meaningful than just knowing that it is a string. 
 
@@ -90,7 +90,7 @@ Here, we have applied the trait “means.measurement.version” to this attribut
 
 The complete list of all the traits that are available to use can be found under the various *meanings.cdm.json* files. For instance, the trait “means.measurement.version” is defined under the *meanings.measurement.cdm.json* document. 
 
-<br/><br/>After creating attribute objects for each of our fields in our **UserAgent** entity definition, we end up with the following entity schema:
+<br/>After creating attribute objects for each of our fields in our **UserAgent** entity definition, we end up with the following entity schema:
 
 ```
 {
@@ -154,7 +154,7 @@ The complete list of all the traits that are available to use can be found under
 }
 ```
 
-<br/><br/>As another example, here is the entity definition for our other logical entity, **ReverseIp**:
+<br/>As another example, here is the entity definition for our other logical entity, **ReverseIp**:
 
 ![ReverseIp Entity Definition](media/creating-schemas-reverseipentitydefinition.png)
 
@@ -205,15 +205,15 @@ The complete list of all the traits that are available to use can be found under
 }
 ```
 
-<br/>You will notice that we used data types such as “continent” that are more specific than just “string”. These data types are defined in *meanings.location.cdm.json*. You will also notice that, unlike **UserAgent**, we named the attributes for **ReverseIp** exactly as they are in the entity definition. We will go into why we did this in the [Attribute Resolution Guidance](creating-schemas.md###attribute-resolution-guidance) section. 
+You will notice that we used data types such as “continent” that are more specific than just “string”. These data types are defined in *meanings.location.cdm.json*. You will also notice that, unlike **UserAgent**, we named the attributes for **ReverseIp** exactly as they are in the entity definition. We will go into why we did this in the [Attribute Resolution Guidance](creating-schemas.md#attribute-resolution-guidance) section. 
 
 ### _allImports.cdm.json
 
-Before we create entity schemas for our physical entities, we will create an *_allImports.cdm.json* document. This document contains a list of central imports that are needed for our other schema documents. Attribute groups, which we will go over in the [Attribute Groups](creating-schemas.md###attribute-groups) section, can also be defined in this document. Having an allImports document means that our schema documents can just import this file to import all the central documents and attribute group definitions, rather than having to import the individual schema documents directly.
+Before we create entity schemas for our physical entities, we will create an *_allImports.cdm.json* document. This document contains a list of central imports that are needed for our other schema documents. Attribute groups, which we will go over in the [Attribute Groups](creating-schemas.md#attribute-groups) section, can also be defined in this document. Having an allImports document means that our schema documents can just import this file to import all the central documents and attribute group definitions, rather than having to import the individual schema documents directly.
 
 For instance, since our physical entities use attributes defined in our logical entities, we will need to import the schemas for our logical entities to use in the schemas for our physical entities. We will put all the logical entities’ schemas in our allImports document and then have our physical entities’ schemas just import this document. 
 
-<br/>Here is our *_allImports.cdm.json*: 
+Here is our *_allImports.cdm.json*: 
 
 ![allImports Document](media/creating-schemas-allimportsincomplete.png)
 
@@ -221,7 +221,7 @@ For instance, since our physical entities use attributes defined in our logical 
 
 Creating the schemas for our physical entities will be similar to how we created the schemas for our logical entities.  
 
-<br/>Here is the entity definition for our physical entity, **Session**, again:
+Here is the entity definition for our physical entity, **Session**, again:
 
 ![Session Entity Definition](media/creating-schemas-sessionentitydefinition.png)
 
@@ -235,7 +235,7 @@ Creating the schemas for our physical entities will be similar to how we created
 
 ![Session UserAgent Entity Attribute](media/creating-schemas-sessionuseragent.png)
 
-* **name** is the name of the entity attribute. We will go over why we use “ua” as the name in the [Attribute Resolution Guidance](creating-schemas.md###attribute-resolution-guidance) section.
+* **name** is the name of the entity attribute. We will go over why we use “ua” as the name in the [Attribute Resolution Guidance](creating-schemas.md#attribute-resolution-guidance) section.
 * **entity** is a reference to the entity we are using as an attribute.
 
 This entity attribute object will take all the attributes defined in **UserAgent**.
@@ -316,7 +316,7 @@ Remember, since **UserAgent** is a *logical* entity that we have created, the at
 }
 ```
 
-<br/><br/>Going back to **Session**. Since we want to use attributes in **ReverseIp**, we will create another entity attribute object, like we did for the attributes in **UserAgent**:
+<br/>Going back to **Session**. Since we want to use attributes in **ReverseIp**, we will create another entity attribute object, like we did for the attributes in **UserAgent**:
 
 ![Session ReverseIp Entity Attribute](media/creating-schemas-sessionreverseip.png)
 
@@ -363,9 +363,9 @@ On the other hand, "pageViewCount" is used in **Session**, **AggPageView**, **Ag
 
 Lastly, we see that "sessionCount" is only used in **AggSession**. In this case, we will not create an attribute group and just define "sessionCount" as an attribute inside **AggSession**. 
 
-<br/><br/>Going back to our original example. After we have identified our attribute groups, we will define them inside our allImports document, since the attribute groups will be used in a lot of the schemas for our physical entities. 
+<br/>Going back to our original example. After we have identified our attribute groups, we will define them inside our allImports document, since the attribute groups will be used in a lot of the schemas for our physical entities. 
 
-<br/>Here is our *_allImports.cdm.json* with a couple of attribute group objects under **definitions**: 
+Here is our *_allImports.cdm.json* with a couple of attribute group objects under **definitions**: 
 
 ![allImports Document](media/creating-schemas-allimports.png)
 
@@ -382,7 +382,7 @@ Lastly, we see that "sessionCount" is only used in **AggSession**. In this case,
 
 ![Session totalEventCount Attribute](media/creating-schemas-sessiontotaleventcount.png)
 
-<br/><br/>Our final entity schema for **Session** looks like this:
+<br/>Our final entity schema for **Session** looks like this:
 
 *Note: The order of the attribute objects has been shifted around so that this entity schema matches the order of the fields in the actual data.*
 
@@ -482,7 +482,7 @@ Lastly, we see that "sessionCount" is only used in **AggSession**. In this case,
 
 Now that we are done with our entity schemas, we are going to create our manifest document. The manifest will reference our entity schemas and act as the entry point to our entities. Do note that the manifest file should end with the *.manifest.cdm.json* extension.
 
-<br/>Here is our *clickstream.manifest.cdm.json*, in the *clickstream* folder:
+Here is our *clickstream.manifest.cdm.json*, in the *clickstream* folder:
 
 ![Clickstream Manifest Document](media/creating-schemas-manifest.png)
 
