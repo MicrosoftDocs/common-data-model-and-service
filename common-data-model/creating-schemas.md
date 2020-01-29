@@ -207,7 +207,7 @@ The complete list of all the traits that are available to use can be found under
 }
 ```
 
-You will notice that we used data types such as “continent” that are more specific than just “string”. These data types are defined in *meanings.location.cdm.json*. You will also notice that, unlike **UserAgent**, we named the attributes for **ReverseIp** exactly as they are in the entity definition. We will go into why we did this in the [Attribute Resolution Guidance](creating-schemas.md#attribute-resolution-guidance) section. 
+You will notice that we used data types such as “country” that are more specific than just “string”. These data types are defined in *meanings.location.cdm.json*. You will also notice that, unlike **UserAgent**, we named the attributes for **ReverseIp** exactly as they are in the entity definition. We will go into why we did this in the [Attribute Resolution Guidance](creating-schemas.md#attribute-resolution-guidance) section. 
 
 ### _allImports.cdm.json
 
@@ -347,7 +347,7 @@ Once again, here is the entity definition for **Session**:
 
 ![Session Entity Definition](media/creating-schemas-sessionentitydefinition.png)
 
-Now, while we *could* define all the fields listed in gray (such as dateId, environmentId, sessionRevenue, etc.) as attributes inside of **Session**, many of these fields are also used in other physical entities. It would be useful to define these fields once somewhere and just reuse the attribute definitions, like we did with the attributes from our logical entities. 
+Now, while we *could* define all the fields listed in gray (such as "dateId", "environmentId", "sessionRevenue", etc.) as attributes inside of **Session**, many of these fields are also used in other physical entities. It would be useful to define these fields once somewhere and just reuse the attribute definitions, like we did with the attributes from our logical entities. 
 
 However, instead of grouping these fields into logical entities, we can also use attribute groups. An attribute group is simply a group of attributes that provide a similar role. If we notice a grouping of attributes that always appear together across our physical entities, we can put them in an attribute group. We can have attribute groups that only contain a single attribute as well, if that attribute is used often in our entities but does not have other attributes it always appears with. It should make sense why the attributes in an attribute group are grouped together, rather than the grouping just being a mere coincidence. 
 
