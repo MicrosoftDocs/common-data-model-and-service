@@ -42,7 +42,7 @@ Now that we have our entity definitions laid out, we can dive into creating the 
 
 ## Creating the Entity Schemas
 
-For the purpose of this example, we will be writing all of our schema documents right under the *CDM.SchemaDocuments* folder, in a sub-folder called *clickstream*:
+For the purpose of this example, we will be writing all of our schema documents right under the *[schemaDocuments](https://github.com/microsoft/CDM/tree/master/schemaDocuments)* folder, in a sub-folder called *clickstream*:
 
 ![clickstream Folder](media/creating-schemas-clickstreamfolder.png)
 
@@ -215,7 +215,7 @@ Before we create entity schemas for our physical entities, we will create an *_a
 
 For instance, since our physical entities use attributes defined in our logical entities, we will need to import the schemas for our logical entities to use in the schemas for our physical entities. We will put all the logical entities’ schemas in our allImports document and then have our physical entities’ schemas just import this document. 
 
-Here is our *_allImports.cdm.json*: 
+Here is our *_allImports.cdm.json*, under the *clickstream* folder.: 
 
 ![allImports Document](media/creating-schemas-allimportsincomplete.png)
 
@@ -484,7 +484,7 @@ Here is our *_allImports.cdm.json* with a couple of attribute group objects unde
 
 Now that we are done with our entity schemas, we are going to create our manifest document. The manifest will reference our entity schemas and act as the entry point to our entities. Do note that the manifest file should end with the *.manifest.cdm.json* extension.
 
-Here is our *clickstream.manifest.cdm.json*, in the *clickstream* folder:
+Here is our *clickstream.manifest.cdm.json*, under the *clickstream* folder:
 
 ![Clickstream Manifest Document](media/creating-schemas-manifest.png)
 
@@ -543,7 +543,7 @@ To wrap up, we will explore our created Common Data Model schema documents. We w
 
 We can use the [Entity Navigator](https://microsoft.github.io/CDM/) to view our created schema documents. 
 
-We will need to load our manifest to explore our entities. First, we will click on “Load from files…”, upload the root *CDM.SchemaDocuments* folder, and then select *clickstream/clickstream.manifest.cdm.json* as the manifest:
+We will need to load our manifest to explore our entities. First, we will click on “Load from files…”, upload the root *schemaDocuments* folder, and then select *clickstream/clickstream.manifest.cdm.json* as the manifest:
 
 ![Load From Files](media/creating-schemas-navigatorloadfromfiles.png)
 
@@ -565,7 +565,7 @@ We can see all three entities that we created schemas for, under “clickstream�
 
 We can also use the code sample, [1-read-manifest](https://github.com/microsoft/CDM/tree/master/samples/1-read-manifest), to explore our entities. This sample reads a manifest document and lists all the entities referenced in the manifest. You can then select an entity to list all its attributes, traits, properties, data partition file locations, and relationships. 
 
-<br/>The sample originally points to a manifest called *default.manifest.cdm.json* in the *1-read-manifest* folder:
+<br/>The sample originally points to a manifest called *default.manifest.cdm.json* under the *1-read-manifest* folder:
 
 ![Read Manifest Code](media/creating-schemas-samplecodeoriginal.png)
 
