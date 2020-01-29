@@ -15,6 +15,8 @@ You have some data and want to start using the Common Data Model. To do so, you 
 
 In this example, we will be creating entity schemas for our physical entities as well as logical entities. What is the difference between the two? Our physical entities are the entities that exist in our data, often as tables in a database. This means that the entity schemas that we will create for our physical entities will represent our data in the Common Data Model format. For instance, the attributes described in a Common Data Model entity schema are derived from the fields (or columns) of the corresponding physical entity. Purely logical entities, on the other hand, are not trying to describe an existing physical entity. Instead, they are used to encapsulate commonly used attributes (fields that appear across our physical entities) into meaningful groups. Logical entities allow us to define common attributes once and reuse these definitions, rather than re-defining the same attribute every time it is used in an entity definition. Therefore, the entity schemas for our logical entities will represent our logical entity definitions in the Common Data Model format, rather than our actual data. We will also be creating the manifest document and demonstrating two different ways to explore our schema documents at the end.
 
+The documents mentioned in this example can be found [here]().
+
 ## Gathering Entity Definitions
 
 To get started, we will need the entity definitions for our physical entities as well as logical entities, if we have created some. We will be converting these definitions into entity schemas.
@@ -30,9 +32,9 @@ You will notice that **Session** has fields, such as “uaBrowserName” and “
 
 ![UserAgent Entity Definition](media/creating-schemas-useragententitydefinition.png)
 
-<br/>As another example, here is the entity definition for the physical entity, **AggPageViewDetail**, that also uses some fields from **UserAgent** and **ReverseIp** (as well as **Page**): 
+<br/>As another example, here is the entity definition for the physical entity, **AggPageViewDetailDaily**, that also uses some fields from **UserAgent** and **ReverseIp** (as well as **Page**): 
 
-![AggPageViewDetail](media/creating-schemas-aggpageviewdetail.png)
+![AggPageViewDetailDaily](media/creating-schemas-aggpageviewdetail.png)
 
 *Note: There are more physical and logical entity definitions than what is mentioned above that will be used throughout this guide.*
 
@@ -359,7 +361,7 @@ From this table, we can see that there are several groups of attributes that alw
 
 For instance, the attributes "orderId", "cartId", and "cartVersion" always appear together in **PageView**, **PageAction**, and **Event**. These can be put into an attribute group.
 
-On the other hand, "pageViewCount" is used in **Session**, **AggPageView**, **AggPageViewDaily**, **AggPageViewDetail**, and **AggSession** but does not have other attributes it always appears with. We can create an attribute group containing "pageViewCount" only. 
+On the other hand, "pageViewCount" is used in **Session**, **AggPageView**, **AggPageViewDaily**, **AggPageViewDetailDaily**, and **AggSession** but does not have other attributes it always appears with. We can create an attribute group containing "pageViewCount" only. 
 
 Lastly, we see that "sessionCount" is only used in **AggSession**. In this case, we will not create an attribute group and just define "sessionCount" as an attribute inside **AggSession**. 
 
