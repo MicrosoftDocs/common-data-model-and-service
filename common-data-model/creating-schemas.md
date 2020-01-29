@@ -543,7 +543,7 @@ To wrap up, we will explore our created Common Data Model schema documents. We w
 
 We can use the [Entity Navigator](https://microsoft.github.io/CDM/) to view our created schema documents. 
 
-We will need to load our manifest to explore our entities. First, we will click on “Load from files…”, upload the *clickstream* folder, and then select *clickstream.manifest.cdm.json* as the manifest:
+We will need to load our manifest to explore our entities. First, we will click on “Load from files…”, upload the root *CDM.SchemaDocuments* folder, and then select *clickstream/clickstream.manifest.cdm.json* as the manifest:
 
 ![Load From Files](media/creating-schemas-navigatorloadfromfiles.png)
 
@@ -569,7 +569,7 @@ We can also use the code sample, [1-read-manifest](https://github.com/microsoft/
 
 ![Read Manifest Code](media/creating-schemas-samplecodeoriginal.png)
 
-<br/>We will edit the sample so that it points to our clickstream.manifest.cdm.json document instead:
+<br/>We will edit the sample so that it points to our *clickstream.manifest.cdm.json* document instead:
 
 ![Read Manifest Code Edited](media/creating-schemas-samplecodeedited.png)
 
