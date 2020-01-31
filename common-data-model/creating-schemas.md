@@ -80,7 +80,7 @@ The first attribute we will create is "uaBrowserName", which is a string type. A
 
 You will notice that we used the name “browserName” rather than “uaBrowserName” here. We will go into why we did this in the [Attribute Resolution Guidance](creating-schemas.md#attribute-resolution-guidance) section.
 
-The data type for this attribute is “string”, since we have established that “uaBrowserName” is a string. Alternatively, we could have used the “name” data type, which describes a string that also has the trait "means.identity.name<no-link>". Traits are useful because they help express further semantic meaning. Using the “name” data type lets us know that this attribute is a name of some kind, which is more meaningful than just knowing that it is a string. 
+The data type for this attribute is “string”, since we have established that “uaBrowserName” is a string. Alternatively, we could have used the “name” data type, which describes a string that also has the trait "means.identity.name<no-link>". Traits are useful because they help express further semantic meaning. Using the “name” data type lets us know that this attribute is a name of some kind, which is more meaningful than just knowing that it is a string.
 
 How do we know what data types are available to use to describe an attribute? The complete list of all the data types we can use can be found under *primitives.cdm.json* and the various *meanings.cdm.json* files (ex. *meanings.identity.cdm.json*).
 
