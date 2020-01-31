@@ -1,5 +1,5 @@
 ---
-title: API reference for the Common Data Model object model | Microsoft Docs
+title: Object Model | Microsoft Docs
 description: API reference for the Common Data Model object model.
 author: jinichu
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 10/18/2019
 ms.author: jibyun
 ---
 
-# Common Data Model object model
+# Object Model
 
 ## Overview
 

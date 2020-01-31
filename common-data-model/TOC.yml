@@ -25,9 +25,10 @@
   - name: Entity Reference
     href: schema/core/applicationCommon/toc.yml
   - name: API Reference
-    href: 0.9om/api-reference/api-reference.md
     items:
-      - name: Common Data Model Object Model
+      - name: Overview
+        href: 0.9om/api-reference/api-reference.md
+      - name: Object Model
         items:
           - name: Overview
             href: 0.9om/api-reference/cdm/cdm.md
