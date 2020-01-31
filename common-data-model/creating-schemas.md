@@ -55,7 +55,7 @@ We will start off by creating an entity schema for our *logical* entity, **UserA
 ![UserAgent Schema](media/creating-schemas-useragentschema.png)
 
 * **$schema** points to the *schema.cdm.json* file in the root *schemaDocuments folder*. If you are using Visual Studio Code, doing this enables IntelliSense which is helpful when writing schema documents by hand. 
-* **jsonSchemaSemanticVersion** identifies the version of the Common Data Model object model that supports this file shape. We are using version 0.9.0.
+* **jsonSchemaSemanticVersion** identifies the version of the Common Data Model object model that supports this file shape. We are using version 1.0.0.
 * **imports** imports other schema documents that are needed for the current document. Here we have imported the *foundations.cdm.json* file, which itself imports *primitives.cdm.json* (containing fundamental data types, traits, and entities) and *meanings.cdm.json* (containing trait definitions and other convenient data types). Importing this *foundations.cdm.json* document will be enough to create our schema documents.
 <br/><br/>*Note: The corpusPath is an absolute path to the document.* 
 
@@ -97,7 +97,7 @@ The complete list of all the traits that are available to use can be found under
 ```
 {
     "$schema": "../schema.cdm.json",
-    "jsonSchemaSemanticVersion": "0.9.0",
+    "jsonSchemaSemanticVersion": "1.0.0",
     "imports": [
         {
             "corpusPath": "/foundations.cdm.json"
@@ -165,7 +165,7 @@ The complete list of all the traits that are available to use can be found under
 ```
 {
     "$schema": "../schema.cdm.json",
-    "jsonSchemaSemanticVersion": "0.9.0",
+    "jsonSchemaSemanticVersion": "1.0.0",
     "imports": [
         {
             "corpusPath": "/foundations.cdm.json"
@@ -276,7 +276,7 @@ Remember, since **UserAgent** is a *logical* entity that we have created, the at
 ```
 {
     "$schema": "../schema.cdm.json",
-    "jsonSchemaSemanticVersion": "0.9.0",
+    "jsonSchemaSemanticVersion": "1.0.0",
     "imports": [
         {
             "corpusPath": "/foundations.cdm.json"
@@ -391,7 +391,7 @@ Here is our *_allImports.cdm.json* with a couple of attribute group objects unde
 ```
 {
     "$schema": "../schema.cdm.json",
-    "jsonSchemaSemanticVersion": "0.9.0",
+    "jsonSchemaSemanticVersion": "1.0.0",
     "imports": [
         {
             "corpusPath": "_allImports.cdm.json"
@@ -503,7 +503,7 @@ Most of the properties listed above are fairly self-explanatory. We will take a 
 ```
 {
     "$schema": "CdmManifest.cdm.json",
-    "jsonSchemaSemanticVersion": "0.9.0",
+    "jsonSchemaSemanticVersion": "1.0.0",
     "imports": [],
     "manifestName": "clickstream",
     "explanation": "CDM standard entities",
