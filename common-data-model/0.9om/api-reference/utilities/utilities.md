@@ -1,6 +1,6 @@
 ---
-title: Utilities | Microsoft Docs
-description: API reference for Utilities.
+title: API reference for utilities | Microsoft Docs
+description: API reference for utilities.
 author: jinichu
 ms.service: common-data-model
 ms.reviewer: deonhe 
