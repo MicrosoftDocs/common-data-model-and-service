@@ -1,5 +1,5 @@
 ---
-title: Object Model | Microsoft Docs
+title: Common Data Model object model API reference | Microsoft Docs
 description: API reference for the Common Data Model object model.
 author: jinichu
 ms.service: common-data-model
@@ -13,9 +13,9 @@ ms.author: jibyun
 
 ## Overview
 
-The Common Data Model object model (OM) provides two types of classes: definition classes and reference classes. Since the OM is heavily interconnected and the concepts have different interactions amongst each other, the OM introduces reference classes in order to be able to easily reference different concepts without actually encapsulating them. Every reference class has its own corresponding definition class, and they are closely related. 
+The Common Data Model object model (OM) provides two types of classes: definition classes and reference classes. Since the OM is heavily interconnected and the concepts have different interactions amongst each other, the OM introduces reference classes to easily reference different concepts without actually encapsulating them. Every reference class has its own corresponding definition class, and they are closely related. 
 
-The code can be found [here](https://github.com/microsoft/CDM/tree/master/objectModel/CSharp/Microsoft.CommonDataModel.ObjectModel/Cdm) (C#).
+The C# code can be found [here](https://github.com/microsoft/CDM/tree/master/objectModel/CSharp/Microsoft.CommonDataModel.ObjectModel/Cdm).
 
 ## Definition classes
 
