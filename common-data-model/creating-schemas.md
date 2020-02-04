@@ -1,6 +1,6 @@
 ---
-title: Creating Schema Documents for the Common Data Model | Microsoft Docs
-description: How to create schema documents for the Common Data Model.
+title: Creating schema documents for Common Data Model | Microsoft Docs
+description: How to create schema documents for Common Data Model.
 author: jinichu
 ms.service: common-data-model
 ms.reviewer: 
@@ -9,15 +9,31 @@ ms.date: 1/28/2020
 ms.author: jibyun
 ---
 
-# How to create schema documents for the Common Data Model
+# Create schema documents for Common Data Model
 
-You have some data and want to start using the Common Data Model. To do so, you will need to create Common Data Model schema documents. As part of these schema documents, you will need to create entity schemas, which can either be logical representations of your existing physical entities or purely logical entity definitions. You will also need to create the manifest document, which is a collection of all your schema documents and acts as the “entry point” to your Common Data Model entities.
+You have some data and want to start using Common Data Model. To do so, you will need to create the Common Data Model schema documents. As part of these schema documents, you will need to create the following:
 
-In this example, we will be creating entity schemas for our physical entities as well as logical entities. What is the difference between the two? Our physical entities are the entities that exist in our data, often as tables in a database. This means that the entity schemas that we will create for our physical entities will represent our data in the Common Data Model format. For instance, the attributes described in a Common Data Model entity schema are derived from the fields (or columns) of the corresponding physical entity. Purely logical entities, on the other hand, are not trying to describe an existing physical entity. Instead, they are used to encapsulate commonly used attributes (fields that appear across our physical entities) into meaningful groups. Logical entities allow us to define common attributes once and reuse these definitions, rather than re-defining the same attribute every time it is used in an entity definition. Therefore, the entity schemas for our logical entities will represent our logical entity definitions in the Common Data Model format, rather than our actual data. We will also be creating the manifest document and demonstrating two different ways to explore our schema documents at the end.
+fdfdf | dfdfd | 
+------|--------
+Entity schemas | Either be logical representations of your existing physical entities or purely logical entity definitions
+manifest document | A collection of all your schema documents and acts as the *entry point* to your Common Data Model entities
 
-The documents mentioned in this example can be found [here](https://github.com/microsoft/CDM/tree/master/docs/guides/creating-schema-documents).
+In this article, we'll create entity schemas for physical and logical entities. What is the difference between the two? 
 
-## Gathering Entity Definitions
+Entity type | Description
+-----|---------
+Physical | The entities that exist in our data, often as tables in a database. <br>This means that the entity schemas that we will create for our physical entities will represent our data in Common Data Model format. For instance, the attributes described in a Common Data Model entity schema are derived from the fields (or columns) of the corresponding physical entity.
+Logical | Purely logical entities, on the other hand, are not trying to describe an existing physical entity. Instead, they are used to encapsulate commonly used attributes (fields that appear across our physical entities) into meaningful groups. Logical entities allow us to define common attributes once and reuse these definitions, rather than re-defining the same attribute every time it is used in an entity definition.
+
+<!-- Our physical entities are the entities that exist in our data, often as tables in a database. This means that the entity schemas that we will create for our physical entities will represent our data in Common Data Model format. For instance, the attributes described in a Common Data Model entity schema are derived from the fields (or columns) of the corresponding physical entity. Purely logical entities, on the other hand, are not trying to describe an existing physical entity. Instead, they are used to encapsulate commonly used attributes (fields that appear across our physical entities) into meaningful groups. Logical entities allow us to define common attributes once and reuse these definitions, rather than re-defining the same attribute every time it is used in an entity definition. -->
+
+ The entity schemas for logical entities represent the logical entity definitions in Common Data Model format, rather than actual data. 
+ 
+ We will also create the manifest document and demonstrate two different ways to explore schema documents at the end.
+
+The documents mentioned in this article can be found [here](https://github.com/microsoft/CDM/tree/master/docs/guides/creating-schema-documents).
+
+## Gather entity definitions
 
 To get started, we will need the entity definitions for our physical entities as well as logical entities, if we have created some. We will be converting these definitions into entity schemas.
 Here is an entity definition for one of our existing physical entities, **Session**: 
@@ -40,7 +56,7 @@ You will notice that **Session** has fields, such as “uaBrowserName” and “
 
 Now that we have our entity definitions laid out, we can dive into creating the actual schema documents. 
 
-## Creating the Entity Schemas
+## Create the entity schemas
 
 For the purpose of this example, we will be writing all of our schema documents right under the *[schemaDocuments](https://github.com/microsoft/CDM/tree/master/schemaDocuments)* folder, in a sub-folder called *clickstream*:
 
@@ -48,7 +64,7 @@ For the purpose of this example, we will be writing all of our schema documents 
 
 We will be using some of the fundamental Common Data Model documents in this root folder (ex. *foundations.cdm.json*, *schema.cdm.json*) by importing them to our schema documents. Do note that all Common Data Model schema documents (including the ones we will write) end with the *.cdm.json* extension.
 
-### Entity Schemas for Logical Entities
+### Entity schemas for logical entities
 
 We will start off by creating an entity schema for our *logical* entity, **UserAgent**. We first create a file called *UserAgent.cdm.json* under the *clickstream* folder with the following content:
 
@@ -219,7 +235,7 @@ Here is our *_allImports.cdm.json*, under the *clickstream* folder.:
 
 ![allImports Document](media/creating-schemas-allimportsincomplete.png)
 
-### Entity Schemas for Physical Entities
+### Entity schemas for physical entities
 
 Creating the schemas for our physical entities will be similar to how we created the schemas for our logical entities.  
 
@@ -242,7 +258,7 @@ Here is the entity definition for our physical entity, **Session**, again:
 
 This entity attribute object will take all the attributes defined in **UserAgent**.
 
-### Attribute Resolution Guidance
+### Attribute resolution guidance
 
 Attribute resolution guidance is a guidance on the process of resolving entities and attributes, compressing entity schemas into their physical forms. 
 
@@ -341,7 +357,7 @@ If we had a “renameFormat” as well, we would use the attribute names after t
 
 ![selectsSubAttributes with renameFormat](media/creating-schemas-selectsubattributesrenameformat.png)
 
-### Attribute Groups
+### Attribute groups
 
 Once again, here is the entity definition for **Session**:
 
@@ -480,7 +496,7 @@ Here is our *_allImports.cdm.json* with a couple of attribute group objects unde
 }
 ```
 
-## Creating the Manifest
+## Create the manifest
 
 Now that we are done with our entity schemas, we are going to create our manifest document. The manifest will reference our entity schemas and act as the entry point to our entities. Do note that the manifest file should end with the *.manifest.cdm.json* extension.
 
@@ -535,11 +551,11 @@ Most of the properties listed above are fairly self-explanatory. We will take a 
 
 Doing this will maintain our original folder structure in our schema documents. 
 
-## Exploring Our Entities
+## Explore the entities
 
 To wrap up, we will explore our created Common Data Model schema documents. We will go over the two different tools we can use.
 
-### Entity Navigator
+### Entity navigator
 
 We can use the [Entity Navigator](https://microsoft.github.io/CDM/) to view our created schema documents. 
 
@@ -561,7 +577,7 @@ We can see all three entities that we created schemas for, under “clickstream�
 
 ![Session Entity Definition](media/creating-schemas-sessionentitydefinition.png)
 
-### Read Manifest Sample
+### Read the manifest sample
 
 We can also use the code sample, [1-read-manifest](https://github.com/microsoft/CDM/tree/master/samples/1-read-manifest), to explore our entities. This sample reads a manifest document and lists all the entities referenced in the manifest. You can then select an entity to list all its attributes, traits, properties, data partition file locations, and relationships. 
 
