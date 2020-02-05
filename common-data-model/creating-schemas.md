@@ -62,13 +62,13 @@ You'll notice that **Session** has fields, such as *uaBrowserName* and *uaBrowse
 >[!NOTE]
 >There are more physical and logical entity definitions than what's mentioned above that will be used throughout this guide.
 
-Now that you've laid out the entity definitions, let's dive into creating the actual schema documents. 
+Now that the entity definitions have been laid out, let's dive into creating the actual schema documents. 
 
 ## Create the entity schemas
 
 <!-- is the intent of this section to show how to create entity schemas? If yes, I don't think it does-->
 
-For the purposes of this example, you'll be writing all schema documents under the *[schemaDocuments](https://github.com/microsoft/CDM/tree/master/schemaDocuments)* folder, in a sub-folder called *clickstream*:
+For the purpose of this example, all schema documents will be created under the *[schemaDocuments](https://github.com/microsoft/CDM/tree/master/schemaDocuments)* folder, in a sub-folder called *clickstream*:
 
 ![clickstream Folder](media/creating-schemas-clickstreamfolder.png)
 
@@ -83,19 +83,14 @@ You'll start by creating an entity schema for the *logical* entity, **UserAgent*
 
 ```json
 {
-    "$schema": "..,schema.cdm.json",
-    "jsonSchemaSemanticVersion": "1.0.0.0",
-    "imports": [
-        {
-            "corpusPath": "/foundations.cdm.json"
-        }
-    ],
-    "definitions": []
+	"$schema": "../schema.cdm.json",
+	"jsonSchemaSemanticVersion": "1.0.0.0",
+	"imports": [{
+		"corpusPath": "/foundations.cdm.json"
+	}],
+	"definitions": []
 }
 ```
-
-<!-- why is this code in an image? Any special reason?
-![UserAgent Schema](media/creating-schemas-useragentschema.png) -->
 
 * **$schema** points to the *schema.cdm.json* file in the root *schemaDocuments folder*. If you're using Visual Studio Code, doing this enables IntelliSense which is helpful when writing schema documents by manually. 
 * **jsonSchemaSemanticVersion** identifies the version of the Common Data Model object model that supports this file shape. You are using version 1.0.0.
@@ -109,14 +104,12 @@ You'll start by creating an entity schema for the *logical* entity, **UserAgent*
 <br/>You'll add an object under **definitions** to define the **UserAgent** logical entity:
 
 ```json
-"definitions": [
-    {
-        "entityName": "UserAgent",
-        "extendsEntity": "cdmEntity",
-        "description": "The user agent.",
-        "hasAttributes": []
-    }
-]
+"definitions": [{
+	"entityName": "UserAgent",
+	"extendsEntity": "CdmEntity",
+	"description": "The user agent.",
+	"hasAttributes": []
+}]
 ```
 
 * **entityName** is the name of the current entity.
@@ -131,13 +124,11 @@ You'll start by creating an entity schema for the *logical* entity, **UserAgent*
 <br/>The first attribute you'll create is *uaBrowserName*, which is a string type. An attribute object can be defined as follows, under **hasAttributes**:
 
 ``` json
-"hasAttributes": [
-    {
-        "name": "browserName",
-        "dataType": "string",
-        "description": "Browser name.",
-    }
-]
+"hasAttributes": [{
+	"name": "browserName",
+	"dataType": "string",
+	"description": "Browser name.",
+}]
 ```
 
 You'll notice the use of the name *browserName*, rather than *uaBrowserName*. You'll learn why this is done in the [Attribute Resolution Guidance](creating-schemas.md#attribute-resolution-guidance) section.
@@ -150,20 +141,19 @@ The data type for this attribute is a string. Alternatively, you could have used
 <br/>You'll then create *uaBrowserVersion*, which is also a string type: 
 
 ``` json
-"hasAttributes": [
-    {
-        "name": "browserName",
-        "dataType": "string",
-        "description": "Browser name.",
-    },
-    {
-        "name": "browserName",
-        "dataType": "string",
-        "appliedTraits": [
-            "means.measurement.version"
-        ],
-        "description": "Browser version."
-    }
+"hasAttributes": [{
+		"name": "browserName",
+		"dataType": "string",
+		"description": "Browser name.",
+	},
+	{
+		"name": "browserName",
+		"dataType": "string",
+		"appliedTraits": [
+			"means.measurement.version"
+		],
+		"description": "Browser version."
+	}
 ]
 ```
 
@@ -176,63 +166,58 @@ Here, you've applied the trait “means.measurement.version” to this attribute
 
 ``` json
 {
-    "$schema": "../schema.cdm.json",
-    "jsonSchemaSemanticVersion": "1.0.0",
-    "imports": [
-        {
-            "corpusPath": "/foundations.cdm.json"
-        }
-    ],
-    "definitions": [
-        {
-            "entityName": "UserAgent",
-            "extendsEntity": "CdmEntity",
-            "description": "The user agent.",
-            "hasAttributes": [
-                {
-                    "name": "browserName",
-                    "dataType": "string",
-                    "description": "Browser name."
-                },
-                {
-                    "name": "browserVersion",
-                    "dataType": "string",
-                    "appliedTraits": [
-                        "means.measurement.version"
-                    ],
-                    "description": "Browser version."
-                },
-                {
-                    "name": "osName",
-                    "dataType": "string",
-                    "description": "Operating system name."
-                },
-                {
-                    "name": "osVersion",
-                    "dataType": "string",
-                    "appliedTraits": [
-                        "means.measurement.version"
-                    ],
-                    "description": "Operating system version."
-                },
-                {
-                    "name": "manufacturer",
-                    "dataType": "string",
-                    "description": "Device manufacturer."
-                },
-                {
-                    "name": "device",
-                    "dataType": "string",
-                    "description": "Device."
-                },
-                {
-                    "name": "platform",
-                    "dataType": "string",
-                    "description": "Platform."
-                }
-            ]
-        }
-    ]
+	"$schema": "../schema.cdm.json",
+	"jsonSchemaSemanticVersion": "1.0.0",
+	"imports": [{
+		"corpusPath": "/foundations.cdm.json"
+	}],
+	"definitions": [{
+		"entityName": "UserAgent",
+		"extendsEntity": "CdmEntity",
+		"description": "The user agent.",
+		"hasAttributes": [{
+				"name": "browserName",
+				"dataType": "string",
+				"description": "Browser name."
+			},
+			{
+				"name": "browserVersion",
+				"dataType": "string",
+				"appliedTraits": [
+					"means.measurement.version"
+				],
+				"description": "Browser version."
+			},
+			{
+				"name": "osName",
+				"dataType": "string",
+				"description": "Operating system name."
+			},
+			{
+				"name": "osVersion",
+				"dataType": "string",
+				"appliedTraits": [
+					"means.measurement.version"
+				],
+				"description": "Operating system version."
+			},
+			{
+				"name": "manufacturer",
+				"dataType": "string",
+				"description": "Device manufacturer."
+			},
+			{
+				"name": "device",
+				"dataType": "string",
+				"description": "Device."
+			},
+			{
+				"name": "platform",
+				"dataType": "string",
+				"description": "Platform."
+			}
+		]
+	}]
 }
 ```
 
@@ -244,46 +229,41 @@ Here, you've applied the trait “means.measurement.version” to this attribute
 
 ``` json
 {
-    "$schema": "../schema.cdm.json",
-    "jsonSchemaSemanticVersion": "1.0.0",
-    "imports": [
-        {
-            "corpusPath": "/foundations.cdm.json"
-        }
-    ],
-    "definitions": [
-        {
-            "entityName": "ReverseIp",
-            "extendsEntity": "CdmEntity",
-            "description": "Reverse IP.",
-            "hasAttributes": [
-                {
-                    "name": "ripContinent",
-                    "dataType": "continent"
-                },
-                {
-                    "name": "ripCountry",
-                    "dataType": "country"
-                },
-                {
-                    "name": "ripRegion",
-                    "dataType": "region"
-                },
-                {
-                    "name": "ripStateProvince",
-                    "dataType": "stateOrProvince"
-                },
-                {
-                    "name": "ripCity",
-                    "dataType": "city"
-                },
-                {
-                    "name": "isBot",
-                    "dataType": "boolean"
-                }
-            ]
-        }
-    ]
+	"$schema": "../schema.cdm.json",
+	"jsonSchemaSemanticVersion": "1.0.0",
+	"imports": [{
+		"corpusPath": "/foundations.cdm.json"
+	}],
+	"definitions": [{
+		"entityName": "ReverseIp",
+		"extendsEntity": "CdmEntity",
+		"description": "Reverse IP.",
+		"hasAttributes": [{
+				"name": "ripContinent",
+				"dataType": "continent"
+			},
+			{
+				"name": "ripCountry",
+				"dataType": "country"
+			},
+			{
+				"name": "ripRegion",
+				"dataType": "region"
+			},
+			{
+				"name": "ripStateProvince",
+				"dataType": "stateOrProvince"
+			},
+			{
+				"name": "ripCity",
+				"dataType": "city"
+			},
+			{
+				"name": "isBot",
+				"dataType": "boolean"
+			}
+		]
+	}]
 }
 ```
 
@@ -301,15 +281,14 @@ Here is the *_allImports.cdm.json*, under the *clickstream* folder:
 
 ``` json
 {
-    "jsonSchemaSemanticVersion": "1.0.0",
-    "imports": [
-        {
-            "corpusPath": "ReverseIp.cdm.json"
-        }, 
-        {
-            "corpusPath": "UserAgent.cdm.json"
-        }
-    ]
+	"jsonSchemaSemanticVersion": "1.0.0",
+	"imports": [{
+			"corpusPath": "ReverseIp.cdm.json"
+		},
+		{
+			"corpusPath": "UserAgent.cdm.json"
+		}
+	]
 }
 ```
 
@@ -327,33 +306,27 @@ Here's the *Session.cdm.json* document, without any attributes:
 
 ``` json
 {
-    "$schema": "../schema.cdm.json",
-    "jsonSchemaSemanticVersion": "1.0.0",
-    "imports": [
-        {
-            "corpusPath": "_allImports.cdm.json"
-        }
-    ],
-    "definitions": [
-        {
-            "entityName": "Session",
-            "extendsEntity": "CdmEntity",
-            "description": "The session.",
-            "hasAttributes": []
-        }
-    ]
+	"$schema": "../schema.cdm.json",
+	"jsonSchemaSemanticVersion": "1.0.0",
+	"imports": [{
+		"corpusPath": "_allImports.cdm.json"
+	}],
+	"definitions": [{
+		"entityName": "Session",
+		"extendsEntity": "CdmEntity",
+		"description": "The session.",
+		"hasAttributes": []
+	}]
 }
 ```
 
 <br/>To use attributes that are defined in another entity schema (that you've imported), you'll create an entity attribute object (an attribute that points to an entity) under **hasAttributes**:
 
 ``` json
-"hasAttributes": [
-    {
-        "name": "ua",
-        "entity": "UserAgent"
-    }
-]
+"hasAttributes": [{
+	"name": "ua",
+	"entity": "UserAgent"
+}]
 ```
 
 * **name** is the name of the entity attribute. You'll learn why *ua* is used as the name in the [Attribute Resolution Guidance](creating-schemas.md#attribute-resolution-guidance) section.
@@ -369,7 +342,7 @@ You haven't provided any attribute resolution guidance properties in this entity
 
 Earlier, you used *browserName* rather than *uaBrowserName* when defining the attribute in **UserAgent**. This is because all the attributes in **UserAgent** starts with *ua*. When using default resolution guidance, if you notice a common prefix, you can use that as the name of the entity attribute. Since you used *ua* as the name of the entity attribute in **Session**, the attribute *browserName* from **UserAgent** becomes:
 
-    *ua* + *browserName* = *uaBrowserName*
+    ua + browserName = uaBrowserName
 
 >[!NOTE]
 >The first letter of the original attribute name becomes capitalized during this process, for example, **browserName** becomes **BrowserName**.
@@ -385,18 +358,17 @@ This is done to all attributes taken from **UserAgent**, so in **Session** you'l
 
 ![Definition for Entity Attributes with Different Names](media/creating-schemas-differentprefix.png)
 
-Here, you use attributes from **UserAgent** twice, but the prefix differs slightly (machine1UserAgent vs. machine2UserAgent). Since you've defined the attributes in **UserAgent** without a prefix, you can do the following to generate resolved attribute names that match the entity definition above:
+Here, you use attributes from **UserAgent** twice, but the prefix differs slightly (*machine1UserAgent* vs. *machine2UserAgent*). Since the attributes in **UserAgent** were defined without a prefix, you can do the following to generate resolved attribute names that match the entity definition above:
 
 ``` json
-"hasAttributes": [
-    {
-        "name": "machine1UserAgent",
-        "entity": "UserAgent"
-    }, 
-    {
-        "name": "machine2UserAgent",
-        "entity": "UserAgent"
-    }
+"hasAttributes": [{
+		"name": "machine1UserAgent",
+		"entity": "UserAgent"
+	},
+	{
+		"name": "machine2UserAgent",
+		"entity": "UserAgent"
+	}
 ]
 ```
 
@@ -406,64 +378,58 @@ Since **UserAgent** is a *logical* entity, the attribute names in the entity sch
 
 ``` json
 {
-    "$schema": "../schema.cdm.json",
-    "jsonSchemaSemanticVersion": "1.0.0",
-    "imports": [
-        {
-            "corpusPath": "/foundations.cdm.json"
-        }
-    ],
-    "definitions": [
-        {
-            "entityName": "ReverseIp",
-            "extendsEntity": "CdmEntity",
-            "description": "Reverse IP.",
-            "hasAttributes": [
-                {
-                    "name": "ripContinent",
-                    "dataType": "continent"
-                },
-                {
-                    "name": "ripCountry",
-                    "dataType": "country"
-                },
-                {
-                    "name": "ripRegion",
-                    "dataType": "region"
-                },
-                {
-                    "name": "ripStateProvince",
-                    "dataType": "stateOrProvince"
-                },
-                {
-                    "name": "ripCity",
-                    "dataType": "city"
-                },
-                {
-                    "name": "isBot",
-                    "dataType": "boolean"
-                }
-            ]
-        }
-    ]
+	"$schema": "../schema.cdm.json",
+	"jsonSchemaSemanticVersion": "1.0.0",
+	"imports": [{
+		"corpusPath": "/foundations.cdm.json"
+	}],
+	"definitions": [{
+		"entityName": "ReverseIp",
+		"extendsEntity": "CdmEntity",
+		"description": "Reverse IP.",
+		"hasAttributes": [{
+				"name": "ripContinent",
+				"dataType": "continent"
+			},
+			{
+				"name": "ripCountry",
+				"dataType": "country"
+			},
+			{
+				"name": "ripRegion",
+				"dataType": "region"
+			},
+			{
+				"name": "ripStateProvince",
+				"dataType": "stateOrProvince"
+			},
+			{
+				"name": "ripCity",
+				"dataType": "city"
+			},
+			{
+				"name": "isBot",
+				"dataType": "boolean"
+			}
+		]
+	}]
 }
 ```
 
 <br/>Referring back to **Session**, since you want to use attributes in **ReverseIp**, you'll create another entity attribute object, like you did for the attributes in **UserAgent**:
 
 ``` json
-"hasAttributes": [
-    {
-        "name": "ua",
-        "entity": "UserAgent"
-    }, 
-    {
-        "name": "reverseIp",
-        "entity": "ReverseIp",
-        "resolutionGuidance": {
-            "renameFormat": "{m}"
-        }
-    }
+"hasAttributes": [{
+		"name": "ua",
+		"entity": "UserAgent"
+	},
+	{
+		"name": "reverseIp",
+		"entity": "ReverseIp",
+		"resolutionGuidance": {
+			"renameFormat": "{m}"
+		}
+	}
 ]
 ```
 
@@ -479,21 +445,19 @@ If you didn't specify a resolution guidance here, then the final attribute names
 <br/>What if you only want to take a few attributes from an entity, rather than all the attributes? You can specify which attributes you want by using the *selectsSubAttribute* property in resolution guidance:
 
 ```` json
-"hasAttributes": [
-    {
-        "name": "ua",
-        "entity": "UserAgent",
-        "resolutionGuidance": {
-            "selectSubAttribute": {
-                "selects": "some",
-                "selectsSomeTakeNames": [
-                    "uaBrowserName",
-                    "uaBrowserVersion"
-                ]
-            }
-        }
-    }
-]
+"hasAttributes": [{
+	"name": "ua",
+	"entity": "UserAgent",
+	"resolutionGuidance": {
+		"selectSubAttribute": {
+			"selects": "some",
+			"selectsSomeTakeNames": [
+				"uaBrowserName",
+				"uaBrowserVersion"
+			]
+		}
+	}
+}]
 ````
 
 *selectsSomeTakeNames* is a list of attributes from the referenced entity that should be added to your entity. There's also *selectsSomeAvoidNames*, which is a list of attributes that should not be added. Here, you only want to take *uaBrowserName* and *uaBrowserVersion* as attributes from **UserAgent**. You'll notice that the expected resolved attribute names were used to populate this list. 
@@ -501,22 +465,20 @@ If you didn't specify a resolution guidance here, then the final attribute names
 If you had a *renameFormat* as well, you would use the attribute names after the rename format specifier has been applied: 
 
 ```` json
-"hasAttributes": [
-    {
-        "name": "ua",
-        "entity": "UserAgent",
-        "resolutionGuidance": {
-            "renameFormat": "{m}",
-            "selectSubAttribute": {
-                "selects": "some",
-                "selectsSomeTakeNames": [
-                    "browserName",
-                    "browserVersion"
-                ]
-            }
-        }
-    }
-]
+"hasAttributes": [{
+	"name": "ua",
+	"entity": "UserAgent",
+	"resolutionGuidance": {
+		"renameFormat": "{m}",
+		"selectSubAttribute": {
+			"selects": "some",
+			"selectsSomeTakeNames": [
+				"browserName",
+				"browserVersion"
+			]
+		}
+	}
+}]
 ````
 
 ### Attribute groups
@@ -547,7 +509,46 @@ Lastly, you see that *sessionCount* is only used in **AggSession**. In this case
 
 Here's the *_allImports.cdm.json* with a couple of attribute group objects under **definitions**: 
 
-![allImports Document](media/creating-schemas-allimports.png)
+``` json
+{
+	"jsonSchemaSemanticVersion": "1.0.0",
+	"imports": [{
+			"corpusPath": "ReverseIp.cdm.json"
+		},
+		{
+			"corpusPath": "UserAgent.cdm.json"
+		}
+	],
+	"definitions": [{
+			"attributeGroupName": "dateId",
+			"members": [{
+				"name": "dateId",
+				"dataType": "integer"
+			}]
+		},
+		{
+			"attributeGroupName": "sessionUserInfo",
+			"members": [{
+					"name": "userId",
+					"dataType": "string"
+				},
+				{
+					"name": "anonymousUserId",
+					"dataType": "string"
+				},
+				{
+					"name": "ipAddress",
+					"dataType": "string"
+				},
+				{
+					"name": "sessionId",
+					"dataType": "string"
+				}
+			]
+		}
+	]
+}
+```
 
 * **attributeGroupName** is the name of the attribute group.
 * **members** is a list of attribute definitions for the attribute group.
@@ -555,21 +556,20 @@ Here's the *_allImports.cdm.json* with a couple of attribute group objects under
 <br/>Now that you've your attribute groups defined in your allImports document, you can use them in **Session** by creating an attribute group reference object under **hasAttributes**:
 
 ``` json
-"hasAttributes": [
-    {
-        "name": "ua",
-        "entity": "UserAgent"
-    }, 
-    {
-        "name": "reverseIp",
-        "entity": "ReverseIp",
-        "resolutionGuidance": {
-            "renameFormat": "{m}"
-        }
-    }, 
-    {
-        "attributeGroupReference": "dateId"
-    }
+"hasAttributes": [{
+		"name": "ua",
+		"entity": "UserAgent"
+	},
+	{
+		"name": "reverseIp",
+		"entity": "ReverseIp",
+		"resolutionGuidance": {
+			"renameFormat": "{m}"
+		}
+	},
+	{
+		"attributeGroupReference": "dateId"
+	}
 ]
 ```
 
@@ -578,29 +578,28 @@ Here's the *_allImports.cdm.json* with a couple of attribute group objects under
 <br/>You can also define attributes that are only used in **Session** right in its entity schema:
 
 ``` json
-"hasAttributes": [
-    {
-        "name": "ua",
-        "entity": "UserAgent"
-    }, 
-    {
-        "name": "reverseIp",
-        "entity": "ReverseIp",
-        "resolutionGuidance": {
-            "renameFormat": "{m}"
-        }
-    }, 
-    {
-        "attributeGroupReference": "dateId"
-    },
-    {
-        "name": "totalEventCount",
-        "dataType": "integer",
-        "appliedTraits": [
-            "means.measurement.count"
-        ]
-    }
-]
+"hasAttributes": [{
+			"name": "ua",
+			"entity": "UserAgent"
+		},
+		{
+			"name": "reverseIp",
+			"entity": "ReverseIp",
+			"resolutionGuidance": {
+				"renameFormat": "{m}"
+			}
+		},
+		{
+			"attributeGroupReference": "dateId"
+		},
+		{
+			"name": "totalEventCount",
+			"dataType": "integer",
+			"appliedTraits": [
+				"means.measurement.count"
+			]
+		}
+	]
 ```
 
 <br/>Our final entity schema for **Session** looks like this:
@@ -610,93 +609,88 @@ Here's the *_allImports.cdm.json* with a couple of attribute group objects under
 
 ``` json
 {
-    "$schema": "../schema.cdm.json",
-    "jsonSchemaSemanticVersion": "1.0.0",
-    "imports": [
-        {
-            "corpusPath": "_allImports.cdm.json"
-        }
-    ],
-    "definitions": [
-        {
-            "entityName": "Session",
-            "extendsEntity": "CdmEntity",
-            "description": "The session.",
-            "hasAttributes": [
-                {
-                    "attributeGroupReference": "dateId"
-                },
-                {
-                    "attributeGroupReference": "serverUtcDate"
-                },
-                {
-                    "attributeGroupReference": "clientUtcDate"
-                },
-                {
-                    "attributeGroupReference": "environmentId"
-                },
-                {
-                    "attributeGroupReference": "sessionUserInfo"
-                },
-                {
-                    "attributeGroupReference": "userSessionAuthInfo"
-                },
-                {
-                    "attributeGroupReference": "browserSettings"
-                },
-                {
-                    "attributeGroupReference": "sessionDuration"
-                },
-                {
-                    "name": "totalEventCount",
-                    "dataType": "integer",
-                    "appliedTraits": [
-                        "means.measurement.count"
-                    ]
-                },
-                {
-                    "attributeGroupReference": "pageViewCount"
-                },
-                {
-                    "name": "pageContentUpdateCount",
-                    "dataType": "integer",
-                    "appliedTraits": [
-                        "means.measurement.count"
-                    ]
-                },
-                {
-                    "attributeGroupReference": "pageActionCount"
-                },
-                {
-                    "name": "purchaseEventCount",
-                    "dataType": "integer",
-                    "appliedTraits": [
-                        "means.measurement.count"
-                    ]
-                },
-                {
-                    "attributeGroupReference": "customEventCount"
-                },
-                {
-                    "attributeGroupReference": "orderCount"
-                },
-                {
-                    "attributeGroupReference": "sessionRevenue"
-                },
-                {
-                    "name": "ua",
-                    "entity": "UserAgent"
-                },
-                {
-                    "name": "reverseIp",
-                    "entity": "ReverseIp",
-                    "resolutionGuidance": {
-                        "renameFormat": "{m}"
-                    }
-                }
-            ]
-        }
-    ]
+	"$schema": "../schema.cdm.json",
+	"jsonSchemaSemanticVersion": "1.0.0",
+	"imports": [{
+		"corpusPath": "_allImports.cdm.json"
+	}],
+	"definitions": [{
+		"entityName": "Session",
+		"extendsEntity": "CdmEntity",
+		"description": "The session.",
+		"hasAttributes": [{
+				"attributeGroupReference": "dateId"
+			},
+			{
+				"attributeGroupReference": "serverUtcDate"
+			},
+			{
+				"attributeGroupReference": "clientUtcDate"
+			},
+			{
+				"attributeGroupReference": "environmentId"
+			},
+			{
+				"attributeGroupReference": "sessionUserInfo"
+			},
+			{
+				"attributeGroupReference": "userSessionAuthInfo"
+			},
+			{
+				"attributeGroupReference": "browserSettings"
+			},
+			{
+				"attributeGroupReference": "sessionDuration"
+			},
+			{
+				"name": "totalEventCount",
+				"dataType": "integer",
+				"appliedTraits": [
+					"means.measurement.count"
+				]
+			},
+			{
+				"attributeGroupReference": "pageViewCount"
+			},
+			{
+				"name": "pageContentUpdateCount",
+				"dataType": "integer",
+				"appliedTraits": [
+					"means.measurement.count"
+				]
+			},
+			{
+				"attributeGroupReference": "pageActionCount"
+			},
+			{
+				"name": "purchaseEventCount",
+				"dataType": "integer",
+				"appliedTraits": [
+					"means.measurement.count"
+				]
+			},
+			{
+				"attributeGroupReference": "customEventCount"
+			},
+			{
+				"attributeGroupReference": "orderCount"
+			},
+			{
+				"attributeGroupReference": "sessionRevenue"
+			},
+			{
+				"name": "ua",
+				"entity": "UserAgent"
+			},
+			{
+				"name": "reverseIp",
+				"entity": "ReverseIp",
+				"resolutionGuidance": {
+					"renameFormat": "{m}"
+				}
+			}
+		]
+	}]
 }
 ```
 
@@ -706,7 +700,31 @@ Now that you're done with your entity schemas, you're going to create your manif
 
 Here's the *clickstream.manifest.cdm.json*, under the *clickstream* folder:
 
-![Clickstream Manifest Document](media/creating-schemas-manifest.png)
+``` json
+{
+	"$schema": "CdmManifest.cdm.json",
+	"jsonSchemaSemanticVersion": "1.0.0",
+	"imports": [],
+	"manifestName": "clickstream",
+	"explanation": "CDM standard entities",
+	"entities": [{
+			"type": "LocalEntity",
+			"entityName": "ReverseIp",
+			"entityPath": "ReverseIp.cdm.json/ReverseIp"
+		},
+		{
+			"type": "LocalEntity",
+			"entityName": "Session",
+			"entityPath": "Session.cdm.json/Session"
+		},
+		{
+			"type": "LocalEntity",
+			"entityName": "UserAgent",
+			"entityPath": "UserAgent.cdm.json/UserAgent"
+		}
+	]
+}
+```
 
 Most of the properties listed above are fairly self-explanatory. Take a look at **entities**, which is a list of entity declaration objects. This is where you reference all your entity schemas (**ReverseIp**, **Session**, and **UserAgent**).
 
@@ -722,34 +740,31 @@ Most of the properties listed above are fairly self-explanatory. Take a look at 
 
 ``` json
 {
-    "$schema": "CdmManifest.cdm.json",
-    "jsonSchemaSemanticVersion": "1.0.0",
-    "imports": [],
-    "manifestName": "clickstream",
-    "explanation": "CDM standard entities",
-    "entities": [
-        {
-            "type": "LocalEntity",
-            "entityName": "ReverseIp",
-            "entityPath": "ReverseIp.cdm.json/ReverseIp"
-        },
-        {
-            "type": "LocalEntity",
-            "entityName": "Session",
-            "entityPath": "Session.cdm.json/Session"
-        },
-        {
-            "type": "LocalEntity",
-            "entityName": "UserAgent",
-            "entityPath": "UserAgent.cdm.json/UserAgent"
-        }
-    ],
-    "subManifests": [
-        {
-            "manifestName": "aggregations",
-            "definition": "aggregations/aggregations.manifest.cdm.json"
-        }
-    ]
+	"$schema": "CdmManifest.cdm.json",
+	"jsonSchemaSemanticVersion": "1.0.0",
+	"imports": [],
+	"manifestName": "clickstream",
+	"explanation": "CDM standard entities",
+	"entities": [{
+			"type": "LocalEntity",
+			"entityName": "ReverseIp",
+			"entityPath": "ReverseIp.cdm.json/ReverseIp"
+		},
+		{
+			"type": "LocalEntity",
+			"entityName": "Session",
+			"entityPath": "Session.cdm.json/Session"
+		},
+		{
+			"type": "LocalEntity",
+			"entityName": "UserAgent",
+			"entityPath": "UserAgent.cdm.json/UserAgent"
+		}
+	],
+	"subManifests": [{
+		"manifestName": "aggregations",
+		"definition": "aggregations/aggregations.manifest.cdm.json"
+	}]
 }
 ```
 
