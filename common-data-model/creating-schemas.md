@@ -286,67 +286,114 @@ And here's the entity schema, *ReverseIp.cdm.json*:
 }
 ```
 
-You'll notice that we used data types such as “country” that are more specific than just “string”. These data types are defined in *meanings.location.cdm.json*. You'll also notice that, unlike **UserAgent**, we named the attributes for **ReverseIp** exactly as they are in the entity definition. We will go into why we did this in the [Attribute Resolution Guidance](creating-schemas.md#attribute-resolution-guidance) section. 
+You'll notice that we used data types such as *country* that are more specific than just *string*. These data types are defined in *meanings.location.cdm.json*. You'll also notice that, unlike **UserAgent**, we named the attributes for **ReverseIp** exactly as they are in the entity definition. You'll see why we did this in the [Attribute Resolution Guidance](creating-schemas.md#attribute-resolution-guidance) section. 
 
 ### _allImports.cdm.json
 
-Before we create entity schemas for our physical entities, you'll create an *_allImports.cdm.json* document. This document contains a list of central imports that are needed for our other schema documents. Attribute groups, which you'll go over in the [Attribute Groups](creating-schemas.md#attribute-groups) section, can also be defined in this document. Having an allImports document means that our schema documents can just import this file to import all the central documents and attribute group definitions, rather than having to import the individual schema documents directly.
+Before you create entity schemas for the physical entities, you'll create an *_allImports.cdm.json* document. This document contains a list of central imports that are needed for the other schema documents. 
 
-For instance, since our physical entities use attributes defined in our logical entities, you'll need to import the schemas for our logical entities to use in the schemas for our physical entities. You'll put all the logical entities’ schemas in our allImports document and then have our physical entities’ schemas just import this document. 
+Attribute groups, which you'll learn about in the [Attribute Groups](creating-schemas.md#attribute-groups) section, can also be defined in this document. Having an allImports document means that the schema documents can just import this file to import all the central documents and attribute group definitions, rather than having to import the individual schema documents directly.
 
-Here is our *_allImports.cdm.json*, under the *clickstream* folder.: 
+For instance, since the physical entities use the attributes defined in the logical entities, you'll need to import the schemas for the logical entities to use in the schemas for the physical entities. You'll put all the logical entities’ schemas in the allImports document and then have the physical entities’ schemas import this document. 
 
-![allImports Document](media/creating-schemas-allimportsincomplete.png)
+Here is the *_allImports.cdm.json*, under the *clickstream* folder: 
+
+``` json
+{
+    "jsonSchemaSemanticVersion": "1.0.0",
+    "imports": [{
+        "corpusPath": "ReverseIp.cdm.json"
+    }, {
+        "corpusPath": "UserAgent.cdm.json"
+    }]
+}
+```
+
+<!-- ![allImports Document](media/creating-schemas-allimportsincomplete.png) -->
 
 ### Entity schemas for physical entities
 
-Creating the schemas for our physical entities will be similar to how we created the schemas for our logical entities.  
+Creating the schemas for the physical entities is similar to how you created the schemas for the logical entities.  
 
-Here is the entity definition for our physical entity, **Session**, again:
+Here's the entity definition for the physical entity, **Session**, again:
 
 ![Session Entity Definition](media/creating-schemas-sessionentitydefinition.png)
 
-**Session** uses attributes from **UserAgent** and **ReverseIp**, so you'll need to import these entity schemas. Since we added **UserAgent** and **ReverseIp** to our allImports document, we can just import that instead.
+**Session** uses attributes from **UserAgent** and **ReverseIp**, so you'll need to import these entity schemas. Since you added **UserAgent** and **ReverseIp** to the allImports document, import that file instead.
 
-<br/>Our *Session.cdm.json* document (without any attributes yet):
+Here's the *Session.cdm.json* document, without any attributes:
 
-![Session Entity Schema](media/creating-schemas-sessionschemaincomplete.png)
+``` json
+{
+    "$schema": "../schema.cdm.json",
+    "jsonSchemaSemanticVersion": "1.0.0",
+    "imports": [{
+        "corpusPath": "_allImports.cdm.json"
+    }],
+    "definitions": [{
+        "entityName": "Session",
+        "extendsEntity": "CdmEntity",
+        "description": "The session.",
+        "hasAttributes": []
+    }]
+}
+```
 
-<br/>To use attributes defined in another entity schema (that we've imported), you'll create an entity attribute object (an attribute that points to an entity) under **hasAttributes**:
+<!-- ![Session Entity Schema](media/creating-schemas-sessionschemaincomplete.png) -->
 
-![Session UserAgent Entity Attribute](media/creating-schemas-sessionuseragent.png)
+To use attributes that are defined in another entity schema (that we've imported), you'll create an entity attribute object (an attribute that points to an entity) under **hasAttributes**:
 
-* **name** is the name of the entity attribute. you'll go over why we use “ua” as the name in the [Attribute Resolution Guidance](creating-schemas.md#attribute-resolution-guidance) section.
-* **entity** is a reference to the entity we are using as an attribute.
+``` json
+"hasAttributes": [{
+    "name": "ua",
+    "entity": "UserAgent"
+}]
+```
 
-This entity attribute object will take all the attributes defined in **UserAgent**.
+<!-- ![Session UserAgent Entity Attribute](media/creating-schemas-sessionuseragent.png) -->
+
+* **name** is the name of the entity attribute. You'll learn why we use *ua* as the name in the [Attribute Resolution Guidance](creating-schemas.md#attribute-resolution-guidance).
+* **entity** is a reference to the entity being used as an attribute.
+
+This entity attribute object takes all attributes defined in **UserAgent**.
 
 ### Attribute resolution guidance
 
-Attribute resolution guidance is a guidance on the process of resolving entities and attributes, compressing entity schemas into their physical forms. 
+Attribute resolution guidance provides pointers on the process of resolving entities and attributes, compressing entity schemas into their physical forms. 
 
-We've not specified attribute resolution guidance properties in this entity attribute object, so default resolution guidance will be used. By default, resolution guidance takes all the attributes defined in the referenced entity and applies them to the current entity. In our case, **Session** will take all 7 attributes defined inside **UserAgent**. When attributes are taken from **UserAgent**, the final resolved attribute names in **Session** will be in the format of “[name of entity attribute][name of attribute]”.
+We haven't provided any attribute resolution guidance properties in this entity attribute object, so the default resolution guidance is used. By default, resolution guidance takes all the attributes defined in the referenced entity and apply them to the current entity. Here, **Session** takes all seven attributes defined in **UserAgent**. When attributes come from **UserAgent**, the final resolved attribute names in **Session** are in the format of *[name of entity attribute][name of attribute]*.
 
-If you recall, we used “browserName” rather than “uaBrowserName” when defining the attribute in **UserAgent**. This is because all the attributes in **UserAgent** starts with “ua”. When using default resolution guidance, if we notice a common prefix, we can use that as the name of the entity attribute. Since we used “ua” as the name of the entity attribute in **Session**, the attribute “browserName” that we took from **UserAgent** becomes:
+Earlier, we used *browserName* rather than *uaBrowserName* when defining the attribute in **UserAgent**. This is because all the attributes in **UserAgent** starts with *ua*. When using default resolution guidance, if we notice a common prefix, we can use that as the name of the entity attribute. Since we used *ua* as the name of the entity attribute in **Session**, the attribute *browserName* from **UserAgent** becomes:
 
-    “ua” + “browserName” = “uaBrowserName”
+    *ua* + *browserName* = *uaBrowserName*
 
-*Note: The first letter of the original attribute name becomes capitalized during this process (browserName -> BrowserName).*
+>[!NOTE]
+>The first letter of the original attribute name becomes capitalized during this process, for example, **browserName** becomes **BrowserName**.
 
-<br/>This is done to all the attributes taken from **UserAgent**, so in **Session** you'll have:
+This is done to all attributes taken from **UserAgent**, so in **Session** you'll have:
 
     uaBrowserName
 	uaBrowserVersion
 	…
 	uaPlatform
 
-<br/>Why does this matter? This becomes particularly useful when we want to use the same entity attributes from the same entity, but with slightly different attribute names:
+This becomes particularly useful when you want to use the same entity attributes from the same entity, but with slightly different attribute names:
 
 ![Definition for Entity Attributes with Different Names](media/creating-schemas-differentprefix.png)
 
-Here, we use attributes from **UserAgent** twice, but the prefix differs slightly (“machine1UserAgent” vs. “machine2UserAgent”). Since we've defined our attributes in **UserAgent** without a prefix, we can do the following to generate resolved attribute names that match the entity definition above:
+Here, we use attributes from **UserAgent** twice, but the prefix differs slightly (machine1UserAgent vs. machine2UserAgent). Since we've defined the attributes in **UserAgent** without a prefix, you can do the following to generate resolved attribute names that match the entity definition above:
 
-![Schema for Entity Attributes with Different Names](media/creating-schemas-differentprefixentityattributes.png)
+``` json
+"hasAttributes": [{
+    "name": "machine1UserAgent",
+    "entity": "UserAgent"
+}, {
+    "name": "machine2UserAgent",
+    "": "UserAgent"
+}]
+```
+
+<!-- ![Schema for Entity Attributes with Different Names](media/creating-schemas-differentprefixentityattributes.png) -->
 
 Remember, since **UserAgent** is a *logical* entity that we've created, the attribute names in the entity schema do not have to match up exactly with the field names in its original entity definition. What matters is that the attribute names for the physical entities match their entity definitions (and our data). 
 
