@@ -13,7 +13,7 @@ ms.author: jibyun
 
 ## Overview
 
-The Common Data Model object model (OM) provides two types of classes: definition classes and reference classes. Since the OM is heavily interconnected and the concepts have different interactions amongst each other, the OM introduces reference classes in order to be able to easily reference different concepts without actually encapsulating them. Every reference class has its own corresponding definition class, and they are closely related. 
+The Common Data Model object model (OM) provides two main types of classes: definition classes and reference classes. Since the OM is heavily interconnected and the concepts have different interactions amongst each other, the OM introduces reference classes in order to be able to easily reference different concepts without actually encapsulating them. Every reference class has its own corresponding definition class, and they are closely related. There are also various enum classes, which are listed at the bottom of this article.
 
 The code can be found [here](https://github.com/microsoft/CDM/tree/master/objectModel/CSharp/Microsoft.CommonDataModel.ObjectModel/Cdm) (C#).
 
