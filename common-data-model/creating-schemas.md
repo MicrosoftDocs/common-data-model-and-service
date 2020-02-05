@@ -579,27 +579,27 @@ Here's the *_allImports.cdm.json* with a couple of attribute group objects under
 
 ``` json
 "hasAttributes": [{
-			"name": "ua",
-			"entity": "UserAgent"
-		},
-		{
-			"name": "reverseIp",
-			"entity": "ReverseIp",
-			"resolutionGuidance": {
-				"renameFormat": "{m}"
-			}
-		},
-		{
-			"attributeGroupReference": "dateId"
-		},
-		{
-			"name": "totalEventCount",
-			"dataType": "integer",
-			"appliedTraits": [
-				"means.measurement.count"
-			]
+		"name": "ua",
+		"entity": "UserAgent"
+	},
+	{
+		"name": "reverseIp",
+		"entity": "ReverseIp",
+		"resolutionGuidance": {
+			"renameFormat": "{m}"
 		}
-	]
+	},
+	{
+		"attributeGroupReference": "dateId"
+	},
+	{
+		"name": "totalEventCount",
+		"dataType": "integer",
+		"appliedTraits": [
+			"means.measurement.count"
+		]
+	}
+]
 ```
 
 <br/>Our final entity schema for **Session** looks like this:
