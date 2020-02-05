@@ -15,15 +15,15 @@ You have some data and want to start using the Common Data Model. To do so, you'
 
 Document | Description | 
 ------|--------
-Entity schemas | Either be logical representations of your existing physical entities or purely logical entity definitions
-Manifest | A collection of all your schema documents and acts as the *entry point* to your Common Data Model entities
+Entity schemas | Either logical representations of your existing physical entities or purely logical entity definitions.
+Manifest | A collection of all your schema documents that acts as the *entry point* to your Common Data Model entities.
 
 In this article, we'll create entity schemas for physical and logical entities. What's the difference between the two? 
 
 Entity type | Description
 -----|---------
 Physical | The entities that exist in our data, often as tables in a database. <br>This means that the entity schemas that you'll create for our physical entities will represent our data in the Common Data Model format. For instance, the attributes described in a Common Data Model entity schema are derived from the fields (or columns) of the corresponding physical entity.
-Logical | Purely logical entities, on the other hand, are not trying to describe an existing physical entity. Instead, they are used to encapsulate commonly used attributes (fields that appear across our physical entities) into meaningful groups. Logical entities allow us to define common attributes once and reuse these definitions, rather than re-defining the same attribute every time it is used in an entity definition.
+Logical | Purely logical entities, on the other hand, are not trying to describe an existing physical entity. Instead, they are used to encapsulate commonly used attributes (fields that appear across our physical entities) into meaningful groups. Logical entities allow us to define common attributes once and reuse these definitions, rather than re-defining the same attribute every time it is used in an entity definition. The entity schemas for logical entities represent the logical entity definitions in the Common Data Model format, rather than actual data. 
 
 <!-- Our physical entities are the entities that exist in our data, often as tables in a database. This means that the entity schemas that we will create for our physical entities will represent our data in Common Data Model format. For instance, the attributes described in a Common Data Model entity schema are derived from the fields (or columns) of the corresponding physical entity. Purely logical entities, on the other hand, are not trying to describe an existing physical entity. Instead, they are used to encapsulate commonly used attributes (fields that appear across our physical entities) into meaningful groups. Logical entities allow us to define common attributes once and reuse these definitions, rather than re-defining the same attribute every time it is used in an entity definition. -->
 
@@ -31,6 +31,8 @@ Logical | Purely logical entities, on the other hand, are not trying to describe
  The entity schemas for logical entities represent the logical entity definitions in the Common Data Model format, rather than actual data. 
  
  You'll also create the manifest document and demonstrate two different ways to explore schema documents at the end. -->
+
+ We'll also create the manifest document and demonstrate two different ways to explore schema documents at the end. 
 
 The documents mentioned in this article can be found [here](https://github.com/microsoft/CDM/tree/master/docs/guides/creating-schema-documents).
 
@@ -45,7 +47,7 @@ When you create the entity schema for **Session**, we'll be creating a logical r
 
 You'll notice that **Session** has fields, such as *uaBrowserName* and *uaBrowserVersion*, that have a link to a logical entity (for example, **UserAgent**). These fields appear in many of the entity definitions. To avoid defining these fields as entity attributes repeatedly, we've grouped them into two logical entities, **UserAgent** and **ReverseIp**. This way, **Session** just takes fields from **UserAgent** and **ReverseIp**. Other entities that have fields like *uaBrowserName* and *ripContinent* can do the same. 
 
->[!TIP.
+>[!TIP]
 >Since **UserAgent** and **ReverseIp** are logical entities, they do not exist in the actual data, meaning that there is no physical entity in the data called *UserAgent*.
 
 The logical entity, **UserAgent**, is defined this way:
@@ -97,7 +99,7 @@ You'll start by creating an entity schema for our *logical* entity, **UserAgent*
 * **jsonSchemaSemanticVersion** identifies the version of the Common Data Model object model that supports this file shape. We are using version 1.0.0.
 * **imports** imports other schema documents that are needed for the current document. Here, we've imported the *foundations.cdm.json* file, which itself imports *primitives.cdm.json* (containing fundamental data types, traits, and entities) and *meanings.cdm.json* (containing trait definitions and other convenient data types). Importing this *foundations.cdm.json* document is enough to create the schema documents.
 
-*  >[!IMPORTANT]
+   >[!IMPORTANT]
    >The **corpusPath** is an absolute path to the document. 
 
 * **definitions** contains a list of the current document’s Common Data Model object definitions. This is where you describe the entity. 
