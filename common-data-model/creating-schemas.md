@@ -395,9 +395,9 @@ Here, we use attributes from **UserAgent** twice, but the prefix differs slightl
 
 <!-- ![Schema for Entity Attributes with Different Names](media/creating-schemas-differentprefixentityattributes.png) -->
 
-Remember, since **UserAgent** is a *logical* entity that we've created, the attribute names in the entity schema do not have to match up exactly with the field names in its original entity definition. What matters is that the attribute names for the physical entities match their entity definitions (and our data). 
+Since **UserAgent** is a *logical* entity that we've created, the attribute names in the entity schema do not have to match exactly with the field names in its original entity definition. What matters is that the attribute names for the physical entities match their entity definitions (and the data). 
 
-<br/>We cannot do this when there is no common prefix in the attribute names. For instance, almost all the attributes taken from **ReverseIp** have the common prefix “rip”, but since the attribute “isBot” does not have it, we cannot use this. Instead, we named the attributes in **ReverseIp** as they appear in the entity definition, if you recall our *ReverseIp.cdm.json* document:
+We cannot do this when there is no common prefix in the attribute names. For instance, almost all the attributes taken from **ReverseIp** have the common prefix *rip*, but since the attribute *isBot* doesn't have it, we cannot use this. Instead, we named the attributes in **ReverseIp** as they appear in the entity definition document, *ReverseIp.cdm.json*:
 
 ``` json
 {
@@ -444,26 +444,55 @@ Remember, since **UserAgent** is a *logical* entity that we've created, the attr
 }
 ```
 
-<br/>Going back to **Session**. Since we want to use attributes in **ReverseIp**, you'll create another entity attribute object, like we did for the attributes in **UserAgent**:
+Referring to **Session**, since we want to use attributes in **ReverseIp**, you'll create another entity attribute object, like you did for the attributes in **UserAgent**:
 
-![Session ReverseIp Entity Attribute](media/creating-schemas-sessionreverseip.png)
+``` json
+"hasAttributes": [{
+    "name": "ua",
+    "entity": "UserAgent"
+}, {
+    "name": "reverseIp",
+    "entity": "ReverseIp",
+    "resolutionGuidance": {
+        "renameFormat": "{m}"
+    }
+}]
+```
 
-You'll notice that this time we've specified a resolution guidance with a “renameFormat” property. This property is a format specifier for the final resolved attribute names. Here, we use “renameFormat”: “{m}” to specify that we want to use the attribute names exactly as they are named in the referenced entity. This means that in **Session**, the attributes that are taken from **ReverseIp** will look like:
+<!-- ![Session ReverseIp Entity Attribute](media/creating-schemas-sessionreverseip.png) -->
+
+You'll notice that this time we've specified a resolution guidance with a *renameFormat* property. This property is a format specifier for the final resolved attribute names. Here, we use *renameFormat*: *{m}* to specify that we want to use the attribute names exactly as they are named in the referenced entity. This means that in **Session**, the attributes that are taken from **ReverseIp** will look like:
 
 	ripContinent
 	ripCountry
 	…
 	isBot
 
-If we did not specify a resolution guidance here, then the final attribute names in **Session** would have had the default format of “[entity attribute name][original attribute name]” (ex. “reverseIpContinent”).  
+If we did not specify a resolution guidance here, then the final attribute names in **Session** would have had the default format of *[entity attribute name][original attribute name]*, for example, *reverseIpContinent*.  
 
-<br/>What if we only want to take a few attributes from an entity, rather than all the attributes? We can specify which attributes we want to use by using the “selectsSubAttribute” property in resolution guidance: 
+What if you only want to take a few attributes from an entity, rather than all the attributes? You can specify which attributes you want by using the *selectsSubAttribute* property in resolution guidance:
 
-![selectsSubAttributes](media/creating-schemas-selectsubattributes.png)
+```` json
+"hasAttributes": [{
+    "name": "ua",
+    "entity": "UserAgent",
+    "resolutionGuidance": {
+        "selectSubAttribute": {
+            "selects": "some",
+            "selectsSomeTakeNames": [
+                "uaBrowserName",
+                "uaBrowserVersion"
+            ]
+        }
+    }
+}]
+````
 
-“selectsSomeTakeNames” is a list of attributes from the referenced entity that should be added our entity. There is also “selectsSomeAvoidNames”, which is a list of attributes that should not be added. Here, we only want to take “uaBrowserName” and “uaBrowserVersion” as attributes from **UserAgent**. You'll notice that we used the expected resolved attribute names to populate this list. 
+<!-- ![selectsSubAttributes](media/creating-schemas-selectsubattributes.png) -->
 
-If we had a “renameFormat” as well, we would use the attribute names after the rename format specifier has been applied: 
+*selectsSomeTakeNames* is a list of attributes from the referenced entity that should be added to your entity. There is also *selectsSomeAvoidNames*, which is a list of attributes that should not be added. Here, we only want to take *uaBrowserName* and *uaBrowserVersion* as attributes from **UserAgent**. You'll notice that we used the expected resolved attribute names to populate this list. 
+
+If we had a *renameFormat* as well, we would use the attribute names after the rename format specifier has been applied: 
 
 ![selectsSubAttributes with renameFormat](media/creating-schemas-selectsubattributesrenameformat.png)
 
@@ -475,7 +504,7 @@ Once again, here is the entity definition for **Session**:
 
 Now, while we *could* define all the fields listed in gray (such as "dateId", "environmentId", "sessionRevenue", etc.) as attributes inside of **Session**, many of these fields are also used in other physical entities. It would be useful to define these fields once somewhere and just reuse the attribute definitions, like we did with the attributes from our logical entities. 
 
-However, instead of grouping these fields into logical entities, we can also use attribute groups. An attribute group is simply a group of attributes that provide a similar role. If we notice a grouping of attributes that always appear together across our physical entities, we can put them in an attribute group. We can have attribute groups that only contain a single attribute as well, if that attribute is used often in our entities but does not have other attributes it always appears with. It should make sense why the attributes in an attribute group are grouped together, rather than the grouping just being a mere coincidence. 
+However, instead of grouping these fields into logical entities, we can also use attribute groups. An attribute group is simply a group of attributes that provide a similar role. If we notice a grouping of attributes that always appear together across our physical entities, we can put them in an attribute group. We can have attribute groups that only contain a single attribute as well, if that attribute is used often in our entities but doesn't have other attributes it always appears with. It should make sense why the attributes in an attribute group are grouped together, rather than the grouping just being a mere coincidence. 
 
 <br/>A helpful way to determine attribute groups is to lay out all the fields used in our entity definitions in a table with the entities on one axis and fields on the other:
 
@@ -487,7 +516,7 @@ From this table, we can see that there are several groups of attributes that alw
 
 For instance, the attributes "orderId", "cartId", and "cartVersion" always appear together in **PageView**, **PageAction**, and **Event**. These can be put into an attribute group.
 
-On the other hand, "pageViewCount" is used in **Session**, **AggPageView**, **AggPageViewDaily**, **AggPageViewDetailDaily**, and **AggSession** but does not have other attributes it always appears with. We can create an attribute group containing "pageViewCount" only. 
+On the other hand, "pageViewCount" is used in **Session**, **AggPageView**, **AggPageViewDaily**, **AggPageViewDetailDaily**, and **AggSession** but doesn't have other attributes it always appears with. We can create an attribute group containing "pageViewCount" only. 
 
 Lastly, we see that "sessionCount" is only used in **AggSession**. In this case, you'll not create an attribute group and just define "sessionCount" as an attribute inside **AggSession**. 
 
