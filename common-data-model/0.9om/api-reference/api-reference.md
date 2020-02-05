@@ -5,7 +5,7 @@ author: jinichu
 ms.service: common-data-model
 ms.reviewer: deonhe 
 ms.topic: article
-ms.date: 1/29/2019
+ms.date: 1/29/2020
 ms.author: jibyun
 ---
 
@@ -13,15 +13,16 @@ ms.author: jibyun
 
 ## Overview
 
-In this section, you will find the specifications for the Common Data Model APIs that are public. There are three sub-sections to this API reference:
+In this section, you will find the specifications for the public Common Data Model APIs. There are three sections to this API reference:
 
 * [Object Model](cdm/cdm.md) contains the specifications for the core Common Data Model object model APIs.
 
-* [Storage](storage/storage.md) contains the specifications for the file-system abstraction layer through which the Common Data Model metadata files can be read or written to.
+* [Storage](storage/storage.md) contains the specifications for the file-system abstraction layer through which Common Data Model metadata files can be read or written.
 
 * [Utilities](utilities/utilities.md) contains the specifications for the utility APIs that are commonly used.
 
-Please note that this API reference only contains the specifications for public APIs. Internal APIs are not meant to be used. These APIs are marked with the `internal` access modifier in C#, the `@Deprecated` tag in Java, a leading underscore in Python, and the `@internal` tag in TypeScript.
+>[!NOTE]
+>This API reference only contains the specifications for public APIs. Do not use the Internal APIs. Internal APIs are marked with the `internal` access modifier in C#, the `@Deprecated` tag in Java, a leading underscore in Python, and the `@internal` tag in TypeScript.
 
 
 
