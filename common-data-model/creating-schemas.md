@@ -18,50 +18,51 @@ Document | Description |
 Entity schemas | Either logical representations of your existing physical entities or purely logical entity definitions.
 Manifest | A collection of all your schema documents that acts as the *entry point* to your Common Data Model entities.
 
-In this article, we'll create entity schemas for physical and logical entities. What's the difference between the two? 
+<br/>In this article, you'll create entity schemas for physical and logical entities. What's the difference between the two? 
 
 Entity type | Description
 -----|---------
-Physical | The entities that exist in our data, often as tables in a database. <br>This means that the entity schemas that you'll create for our physical entities will represent our data in the Common Data Model format. For instance, the attributes described in a Common Data Model entity schema are derived from the fields (or columns) of the corresponding physical entity.
-Logical | Purely logical entities, on the other hand, are not trying to describe an existing physical entity. Instead, they are used to encapsulate commonly used attributes (fields that appear across our physical entities) into meaningful groups. Logical entities allow us to define common attributes once and reuse these definitions, rather than re-defining the same attribute every time it is used in an entity definition. The entity schemas for logical entities represent the logical entity definitions in the Common Data Model format, rather than actual data. 
+Physical | The entities that exist in your data, often as tables in a database. <br>This means that the entity schemas that you'll create for your physical entities will represent your data in the Common Data Model format. For instance, the attributes described in a Common Data Model entity schema are derived from the fields (or columns) of the corresponding physical entity.
+Logical | Purely logical entities, on the other hand, aren't trying to describe an existing physical entity. Instead, they're used to encapsulate commonly used attributes (fields that appear across your physical entities) into meaningful groups. Logical entities allow us to define common attributes once and reuse these definitions, rather than re-defining the same attribute every time it's used in an entity definition. The entity schemas for logical entities represent the logical entity definitions in the Common Data Model format, rather than actual data. 
 
-<!-- Our physical entities are the entities that exist in our data, often as tables in a database. This means that the entity schemas that we will create for our physical entities will represent our data in Common Data Model format. For instance, the attributes described in a Common Data Model entity schema are derived from the fields (or columns) of the corresponding physical entity. Purely logical entities, on the other hand, are not trying to describe an existing physical entity. Instead, they are used to encapsulate commonly used attributes (fields that appear across our physical entities) into meaningful groups. Logical entities allow us to define common attributes once and reuse these definitions, rather than re-defining the same attribute every time it is used in an entity definition. -->
+<!-- Our physical entities are the entities that exist in your data, often as tables in a database. This means that the entity schemas that you will create for your physical entities will represent your data in Common Data Model format. For instance, the attributes described in a Common Data Model entity schema are derived from the fields (or columns) of the corresponding physical entity. Purely logical entities, on the other hand, are not trying to describe an existing physical entity. Instead, they are used to encapsulate commonly used attributes (fields that appear across your physical entities) into meaningful groups. Logical entities allow us to define common attributes once and reuse these definitions, rather than re-defining the same attribute every time it is used in an entity definition. -->
 
  <!-- todo: seems repititious 
  The entity schemas for logical entities represent the logical entity definitions in the Common Data Model format, rather than actual data. 
  
  You'll also create the manifest document and demonstrate two different ways to explore schema documents at the end. -->
 
- We'll also create the manifest document and demonstrate two different ways to explore schema documents at the end. 
+ You'll also create the manifest document and see two different ways to explore schema documents at the end. 
 
 The documents mentioned in this article can be found [here](https://github.com/microsoft/CDM/tree/master/docs/guides/creating-schema-documents).
 
 ## Gather entity definitions
 
 To get started, you'll need the entity definitions for your physical entities and your logical entities, if you have any. You'll convert these definitions into entity schemas.
-Here's an entity definition sample for your **Session** physical entities: 
+
+Here's an entity definition sample for the **Session** physical entity: 
 
 ![Session Entity Definition](media/creating-schemas-sessionentitydefinition.png)
 
-When you create the entity schema for **Session**, we'll be creating a logical representation of this physical entity. You'll describe all the fields in **Session** using entity attributes in the schema. 
+When you create the entity schema for **Session**, you'll be creating a logical representation of this physical entity. You'll describe all the fields in **Session** using entity attributes in the schema. 
 
-You'll notice that **Session** has fields, such as *uaBrowserName* and *uaBrowserVersion*, that have a link to a logical entity (for example, **UserAgent**). These fields appear in many of the entity definitions. To avoid defining these fields as entity attributes repeatedly, we've grouped them into two logical entities, **UserAgent** and **ReverseIp**. This way, **Session** just takes fields from **UserAgent** and **ReverseIp**. Other entities that have fields like *uaBrowserName* and *ripContinent* can do the same. 
+You'll notice that **Session** has fields, such as *uaBrowserName* and *uaBrowserVersion*, that have a link to a logical entity (for example, **UserAgent**). These fields appear in many of the entity definitions. To avoid defining these fields as entity attributes repeatedly, they've been grouped into two logical entities, **UserAgent** and **ReverseIp**. This way, **Session** just takes fields from **UserAgent** and **ReverseIp**. Other entities that have fields like *uaBrowserName* and *ripContinent* can do the same. 
 
 >[!TIP]
->Since **UserAgent** and **ReverseIp** are logical entities, they do not exist in the actual data, meaning that there is no physical entity in the data called *UserAgent*.
+>Since **UserAgent** and **ReverseIp** are logical entities, they don't exist in the actual data, meaning that there is no physical entity in the data called *UserAgent*.
 
-The logical entity, **UserAgent**, is defined this way:
+<br>The logical entity, **UserAgent**, is defined this way:
 
 ![UserAgent Entity Definition](media/creating-schemas-useragententitydefinition.png)
 
-In this other example, the entity definition for the physical entity, **AggPageViewDetailDaily**, also uses some fields from **UserAgent**, **ReverseIp** and **Page**: 
+<br>In this other example, the entity definition for the physical entity, **AggPageViewDetailDaily**, also uses some fields from **UserAgent**, **ReverseIp** and **Page**: 
 
 ![AggPageViewDetailDaily](media/creating-schemas-aggpageviewdetail.png)
 
 >[!NOTE]
->There are more physical and logical entity definitions than what's mentioned above that will be used throughout this guide.*
+>There are more physical and logical entity definitions than what's mentioned above that will be used throughout this guide.
 
-Now that we've laid out the entity definitions, let's dive into creating the actual schema documents. 
+Now that you've laid out the entity definitions, let's dive into creating the actual schema documents. 
 
 ## Create the entity schemas
 
@@ -78,33 +79,34 @@ You'll be using some of the fundamental Common Data Model documents in this root
 
 ### Create entity schemas for logical entities
 
-You'll start by creating an entity schema for our *logical* entity, **UserAgent**. First, create a file called *UserAgent.cdm.json* under the *clickstream* folder with the following content:
+You'll start by creating an entity schema for the *logical* entity, **UserAgent**. First, create a file called *UserAgent.cdm.json* under the *clickstream* folder with the following content:
 
 ```json
 {
     "$schema": "..,schema.cdm.json",
     "jsonSchemaSemanticVersion": "1.0.0.0",
-    "imports": [{
-        "corpusPath": "/foundations.cdm.json"
-    }],
+    "imports": [
+        {
+            "corpusPath": "/foundations.cdm.json"
+        }
+    ],
     "definitions": []
 }
 ```
-
 
 <!-- why is this code in an image? Any special reason?
 ![UserAgent Schema](media/creating-schemas-useragentschema.png) -->
 
 * **$schema** points to the *schema.cdm.json* file in the root *schemaDocuments folder*. If you're using Visual Studio Code, doing this enables IntelliSense which is helpful when writing schema documents by manually. 
-* **jsonSchemaSemanticVersion** identifies the version of the Common Data Model object model that supports this file shape. We are using version 1.0.0.
-* **imports** imports other schema documents that are needed for the current document. Here, we've imported the *foundations.cdm.json* file, which itself imports *primitives.cdm.json* (containing fundamental data types, traits, and entities) and *meanings.cdm.json* (containing trait definitions and other convenient data types). Importing this *foundations.cdm.json* document is enough to create the schema documents.
+* **jsonSchemaSemanticVersion** identifies the version of the Common Data Model object model that supports this file shape. You are using version 1.0.0.
+* **imports** imports other schema documents that are needed for the current document. Here, you've imported the *foundations.cdm.json* file, which itself imports *primitives.cdm.json* (containing fundamental data types, traits, and entities) and *meanings.cdm.json* (containing trait definitions and other convenient data types). Importing this *foundations.cdm.json* document is enough to create the schema documents.
 
    >[!IMPORTANT]
    >The **corpusPath** is an absolute path to the document. 
 
 * **definitions** contains a list of the current document’s Common Data Model object definitions. This is where you describe the entity. 
 
-You'll add an object under **definitions** to define the **UserAgent** logical entity:
+<br/>You'll add an object under **definitions** to define the **UserAgent** logical entity:
 
 ```json
 "definitions": [
@@ -117,63 +119,60 @@ You'll add an object under **definitions** to define the **UserAgent** logical e
 ]
 ```
 
-<!-- why is this an image? 
-![UserAgent Entity Definition Object](media/creating-schemas-useragententitydefinitionobject.png) -->
-
 * **entityName** is the name of the current entity.
-* **extendsEntity** denotes the entity from which the current entity extends. Here, we extend from *CdmEntity*, which is the base Common Data Model entity. If we had a different entity that we wanted **UserAgent** to extend from, we would put that entity name instead. 
+* **extendsEntity** denotes the entity from which the current entity extends. Here, it extends from *CdmEntity*, which is the base Common Data Model entity. If you had a different entity that you wanted **UserAgent** to extend from, you would put that entity name instead. 
 * **description** describes the current entity.
 * **hasAttributes** contains the list of all the attributes that this entity has. This is where you'll be defining the fields from the entity definitions as entity attributes. 
 
-Going back to the entity definition for **UserAgent**, you see that there are seven fields:
+<br/>Going back to the entity definition for **UserAgent**, you see that there are seven fields:
 
 ![UserAgent Entity Definition](media/creating-schemas-useragententitydefinition.png)
 
-The first attribute you'll create is *uaBrowserName*, which is a string type. An attribute object can be defined as follows, under **hasAttributes**:
+<br/>The first attribute you'll create is *uaBrowserName*, which is a string type. An attribute object can be defined as follows, under **hasAttributes**:
 
 ``` json
-"hasAttributes": [{
-    "name": "browserName",
-    "dataType": "string",
-    "description": "Browser name.",
-}]
+"hasAttributes": [
+    {
+        "name": "browserName",
+        "dataType": "string",
+        "description": "Browser name.",
+    }
+]
 ```
 
-<!-- todo: 
-![uaBrowserName Attribute Definition](media/creating-schemas-uabrowsername.png) -->
+You'll notice the use of the name *browserName*, rather than *uaBrowserName*. You'll learn why this is done in the [Attribute Resolution Guidance](creating-schemas.md#attribute-resolution-guidance) section.
 
-You'll notice the use of the name *browserName*, rather than *uaBrowserName*. You'll learn why we did this in the [Attribute Resolution Guidance](creating-schemas.md#attribute-resolution-guidance) section.
-
-The data type for this attribute is string. Alternatively, you could have used the *name* data type, which describes a string that also has the trait "means.identity.name<no-link>". Traits are useful because they help express further semantic meaning. Using the *name* data type shows that this attribute is a name of some kind, which is more meaningful than just knowing that it's a string.
+The data type for this attribute is a string. Alternatively, you could have used the *name* data type, which describes a string that also has the trait "means.identity.name<no-link>". Traits are useful because they help express further semantic meaning. Using the *name* data type shows that this attribute is a name of some kind, which is more meaningful than just knowing that it's a string.
 
 >[!TIP]
->The complete list of all the data types is listed in *primitives.cdm.json* and the various *meanings.cdm.json* files, for example *meanings.identity.cdm.json*.
+>The complete list of all the data types is listed in *primitives.cdm.json* and the various *meanings.cdm.json* files (for example, *meanings.identity.cdm.json*).
 
-You'll then create *uaBrowserVersion*, which is also a string type: 
+<br/>You'll then create *uaBrowserVersion*, which is also a string type: 
 
 ``` json
-"hasAttributes": [{
-    "name": "browserName",
-    "dataType": "string",
-    "description": "Browser name.",
-},
-{
-    "name": "browserName",
-    "dataType": "string",
-    "appliedTraits": ["means.measurement.version"],
-    "description": "Browswer version."
-}]
+"hasAttributes": [
+    {
+        "name": "browserName",
+        "dataType": "string",
+        "description": "Browser name.",
+    },
+    {
+        "name": "browserName",
+        "dataType": "string",
+        "appliedTraits": [
+            "means.measurement.version"
+        ],
+        "description": "Browser version."
+    }
+]
 ```
 
-<!-- todo: delete
-![uaBrowserVersion Attribute Definition](media/creating-schemas-uabrowserversion.png) -->
-
-Here, we've applied the trait “means.measurement.version” to this attribute, which showss that *uaBrowserVersion* measures a version of some kind. Again, having traits provides more insight to what an attribute is than just describing *uaBrowserVersion* as a string. 
+Here, you've applied the trait “means.measurement.version” to this attribute, which shows that *uaBrowserVersion* measures a version of some kind. Again, having traits provides more insight to what an attribute is than just describing *uaBrowserVersion* as a string. 
 
 >[!TIP]
->The list of all the traits that are available is listed in the various *meanings.cdm.json* files. For instance, the trait *means.measurement.version* is defined under the *meanings.measurement.cdm.json* document. 
+>The list of all the traits that are available is listed in the various *meanings.cdm.json* files. For instance, the trait "means.measurement.version" is defined under the *meanings.measurement.cdm.json* document. 
 
-After creating attribute objects for each of the fields in the **UserAgent** entity definition, you have this entity schema:
+<br/>After creating attribute objects for each of the fields in the **UserAgent** entity definition, you have this entity schema:
 
 ``` json
 {
@@ -237,11 +236,11 @@ After creating attribute objects for each of the fields in the **UserAgent** ent
 }
 ```
 
-Here's another example entity definition for the other logical entity, **ReverseIp**:
+<br/>Here's another example entity definition for the other logical entity, **ReverseIp**:
 
 ![ReverseIp Entity Definition](media/creating-schemas-reverseipentitydefinition.png)
 
-And here's the entity schema, *ReverseIp.cdm.json*:
+<br/>And here's the entity schema, *ReverseIp.cdm.json*:
 
 ``` json
 {
@@ -288,7 +287,7 @@ And here's the entity schema, *ReverseIp.cdm.json*:
 }
 ```
 
-You'll notice that we used data types such as *country* that are more specific than just *string*. These data types are defined in *meanings.location.cdm.json*. You'll also notice that, unlike **UserAgent**, we named the attributes for **ReverseIp** exactly as they are in the entity definition. You'll see why we did this in the [Attribute Resolution Guidance](creating-schemas.md#attribute-resolution-guidance) section. 
+You'll notice that data types, such as *country*, that are more specific than just *string* were used. These data types are defined in *meanings.location.cdm.json*. You'll also notice that, unlike **UserAgent**, the attributes for **ReverseIp** are named exactly as they are in the entity definition. You'll see why this was done in the [Attribute Resolution Guidance](creating-schemas.md#attribute-resolution-guidance) section. 
 
 ### _allImports.cdm.json
 
@@ -303,15 +302,16 @@ Here is the *_allImports.cdm.json*, under the *clickstream* folder:
 ``` json
 {
     "jsonSchemaSemanticVersion": "1.0.0",
-    "imports": [{
-        "corpusPath": "ReverseIp.cdm.json"
-    }, {
-        "corpusPath": "UserAgent.cdm.json"
-    }]
+    "imports": [
+        {
+            "corpusPath": "ReverseIp.cdm.json"
+        }, 
+        {
+            "corpusPath": "UserAgent.cdm.json"
+        }
+    ]
 }
 ```
-
-<!-- ![allImports Document](media/creating-schemas-allimportsincomplete.png) -->
 
 ### Entity schemas for physical entities
 
@@ -321,7 +321,7 @@ Here's the entity definition for the physical entity, **Session**, again:
 
 ![Session Entity Definition](media/creating-schemas-sessionentitydefinition.png)
 
-**Session** uses attributes from **UserAgent** and **ReverseIp**, so you'll need to import these entity schemas. Since you added **UserAgent** and **ReverseIp** to the allImports document, import that file instead.
+**Session** uses attributes from **UserAgent** and **ReverseIp**, so you'll need to import these entity schemas. Since you added **UserAgent** and **ReverseIp** to the allImports document, you can import that file instead.
 
 Here's the *Session.cdm.json* document, without any attributes:
 
@@ -329,32 +329,34 @@ Here's the *Session.cdm.json* document, without any attributes:
 {
     "$schema": "../schema.cdm.json",
     "jsonSchemaSemanticVersion": "1.0.0",
-    "imports": [{
-        "corpusPath": "_allImports.cdm.json"
-    }],
-    "definitions": [{
-        "entityName": "Session",
-        "extendsEntity": "CdmEntity",
-        "description": "The session.",
-        "hasAttributes": []
-    }]
+    "imports": [
+        {
+            "corpusPath": "_allImports.cdm.json"
+        }
+    ],
+    "definitions": [
+        {
+            "entityName": "Session",
+            "extendsEntity": "CdmEntity",
+            "description": "The session.",
+            "hasAttributes": []
+        }
+    ]
 }
 ```
 
-<!-- ![Session Entity Schema](media/creating-schemas-sessionschemaincomplete.png) -->
-
-To use attributes that are defined in another entity schema (that we've imported), you'll create an entity attribute object (an attribute that points to an entity) under **hasAttributes**:
+<br/>To use attributes that are defined in another entity schema (that you've imported), you'll create an entity attribute object (an attribute that points to an entity) under **hasAttributes**:
 
 ``` json
-"hasAttributes": [{
-    "name": "ua",
-    "entity": "UserAgent"
-}]
+"hasAttributes": [
+    {
+        "name": "ua",
+        "entity": "UserAgent"
+    }
+]
 ```
 
-<!-- ![Session UserAgent Entity Attribute](media/creating-schemas-sessionuseragent.png) -->
-
-* **name** is the name of the entity attribute. You'll learn why we use *ua* as the name in the [Attribute Resolution Guidance](creating-schemas.md#attribute-resolution-guidance).
+* **name** is the name of the entity attribute. You'll learn why *ua* is used as the name in the [Attribute Resolution Guidance](creating-schemas.md#attribute-resolution-guidance) section.
 * **entity** is a reference to the entity being used as an attribute.
 
 This entity attribute object takes all attributes defined in **UserAgent**.
@@ -363,9 +365,9 @@ This entity attribute object takes all attributes defined in **UserAgent**.
 
 Attribute resolution guidance provides pointers on the process of resolving entities and attributes, compressing entity schemas into their physical forms. 
 
-We haven't provided any attribute resolution guidance properties in this entity attribute object, so the default resolution guidance is used. By default, resolution guidance takes all the attributes defined in the referenced entity and apply them to the current entity. Here, **Session** takes all seven attributes defined in **UserAgent**. When attributes come from **UserAgent**, the final resolved attribute names in **Session** are in the format of *[name of entity attribute][name of attribute]*.
+You haven't provided any attribute resolution guidance properties in this entity attribute object, so the default resolution guidance is used. By default, resolution guidance takes all the attributes defined in the referenced entity and apply them to the current entity. Here, **Session** takes all seven attributes defined in **UserAgent**. When attributes come from **UserAgent**, the final resolved attribute names in **Session** are in the format of *[name of entity attribute][name of attribute]*.
 
-Earlier, we used *browserName* rather than *uaBrowserName* when defining the attribute in **UserAgent**. This is because all the attributes in **UserAgent** starts with *ua*. When using default resolution guidance, if we notice a common prefix, we can use that as the name of the entity attribute. Since we used *ua* as the name of the entity attribute in **Session**, the attribute *browserName* from **UserAgent** becomes:
+Earlier, you used *browserName* rather than *uaBrowserName* when defining the attribute in **UserAgent**. This is because all the attributes in **UserAgent** starts with *ua*. When using default resolution guidance, if you notice a common prefix, you can use that as the name of the entity attribute. Since you used *ua* as the name of the entity attribute in **Session**, the attribute *browserName* from **UserAgent** becomes:
 
     *ua* + *browserName* = *uaBrowserName*
 
@@ -379,27 +381,28 @@ This is done to all attributes taken from **UserAgent**, so in **Session** you'l
 	…
 	uaPlatform
 
-This becomes particularly useful when you want to use the same entity attributes from the same entity, but with slightly different attribute names:
+<br/>This becomes particularly useful when you want to use the same entity attributes from the same entity, but with slightly different attribute names:
 
 ![Definition for Entity Attributes with Different Names](media/creating-schemas-differentprefix.png)
 
-Here, we use attributes from **UserAgent** twice, but the prefix differs slightly (machine1UserAgent vs. machine2UserAgent). Since we've defined the attributes in **UserAgent** without a prefix, you can do the following to generate resolved attribute names that match the entity definition above:
+Here, you use attributes from **UserAgent** twice, but the prefix differs slightly (machine1UserAgent vs. machine2UserAgent). Since you've defined the attributes in **UserAgent** without a prefix, you can do the following to generate resolved attribute names that match the entity definition above:
 
 ``` json
-"hasAttributes": [{
-    "name": "machine1UserAgent",
-    "entity": "UserAgent"
-}, {
-    "name": "machine2UserAgent",
-    "": "UserAgent"
-}]
+"hasAttributes": [
+    {
+        "name": "machine1UserAgent",
+        "entity": "UserAgent"
+    }, 
+    {
+        "name": "machine2UserAgent",
+        "entity": "UserAgent"
+    }
+]
 ```
 
-<!-- ![Schema for Entity Attributes with Different Names](media/creating-schemas-differentprefixentityattributes.png) -->
+Since **UserAgent** is a *logical* entity, the attribute names in the entity schema don't have to match exactly with the field names in its original entity definition. What matters is that the attribute names for the physical entities match their entity definitions (and the data). 
 
-Since **UserAgent** is a *logical* entity that we've created, the attribute names in the entity schema do not have to match exactly with the field names in its original entity definition. What matters is that the attribute names for the physical entities match their entity definitions (and the data). 
-
-We cannot do this when there is no common prefix in the attribute names. For instance, almost all the attributes taken from **ReverseIp** have the common prefix *rip*, but since the attribute *isBot* doesn't have it, we cannot use this. Instead, we named the attributes in **ReverseIp** as they appear in the entity definition document, *ReverseIp.cdm.json*:
+<br/>You can't do this when there is no common prefix in the attribute names. For instance, almost all the attributes taken from **ReverseIp** have the common prefix *rip*, but since the attribute *isBot* doesn't have it, you can't use this. Instead, the attributes in **ReverseIp** are named as they appear in the entity definition document, *ReverseIp.cdm.json*:
 
 ``` json
 {
@@ -446,104 +449,164 @@ We cannot do this when there is no common prefix in the attribute names. For ins
 }
 ```
 
-Referring to **Session**, since we want to use attributes in **ReverseIp**, you'll create another entity attribute object, like you did for the attributes in **UserAgent**:
+<br/>Referring back to **Session**, since you want to use attributes in **ReverseIp**, you'll create another entity attribute object, like you did for the attributes in **UserAgent**:
 
 ``` json
-"hasAttributes": [{
-    "name": "ua",
-    "entity": "UserAgent"
-}, {
-    "name": "reverseIp",
-    "entity": "ReverseIp",
-    "resolutionGuidance": {
-        "renameFormat": "{m}"
+"hasAttributes": [
+    {
+        "name": "ua",
+        "entity": "UserAgent"
+    }, 
+    {
+        "name": "reverseIp",
+        "entity": "ReverseIp",
+        "resolutionGuidance": {
+            "renameFormat": "{m}"
+        }
     }
-}]
+]
 ```
 
-<!-- ![Session ReverseIp Entity Attribute](media/creating-schemas-sessionreverseip.png) -->
-
-You'll notice that this time we've specified a resolution guidance with a *renameFormat* property. This property is a format specifier for the final resolved attribute names. Here, we use *renameFormat*: *{m}* to specify that we want to use the attribute names exactly as they are named in the referenced entity. This means that in **Session**, the attributes that are taken from **ReverseIp** will look like:
+You'll notice that this time a resolution guidance is specified with a *renameFormat* property. This property is a format specifier for the final resolved attribute names. Here, you use *renameFormat*: *{m}* to specify that you want to use the attribute names exactly as they are named in the referenced entity. This means that in **Session**, the attributes that are taken from **ReverseIp** will look like:
 
 	ripContinent
 	ripCountry
 	…
 	isBot
 
-If we did not specify a resolution guidance here, then the final attribute names in **Session** would have had the default format of *[entity attribute name][original attribute name]*, for example, *reverseIpContinent*.  
+If you didn't specify a resolution guidance here, then the final attribute names in **Session** would have had the default format of *[entity attribute name][original attribute name]*, for example, *reverseIpContinent*.  
 
-What if you only want to take a few attributes from an entity, rather than all the attributes? You can specify which attributes you want by using the *selectsSubAttribute* property in resolution guidance:
+<br/>What if you only want to take a few attributes from an entity, rather than all the attributes? You can specify which attributes you want by using the *selectsSubAttribute* property in resolution guidance:
 
 ```` json
-"hasAttributes": [{
-    "name": "ua",
-    "entity": "UserAgent",
-    "resolutionGuidance": {
-        "selectSubAttribute": {
-            "selects": "some",
-            "selectsSomeTakeNames": [
-                "uaBrowserName",
-                "uaBrowserVersion"
-            ]
+"hasAttributes": [
+    {
+        "name": "ua",
+        "entity": "UserAgent",
+        "resolutionGuidance": {
+            "selectSubAttribute": {
+                "selects": "some",
+                "selectsSomeTakeNames": [
+                    "uaBrowserName",
+                    "uaBrowserVersion"
+                ]
+            }
         }
     }
-}]
+]
 ````
 
-<!-- ![selectsSubAttributes](media/creating-schemas-selectsubattributes.png) -->
+*selectsSomeTakeNames* is a list of attributes from the referenced entity that should be added to your entity. There's also *selectsSomeAvoidNames*, which is a list of attributes that should not be added. Here, you only want to take *uaBrowserName* and *uaBrowserVersion* as attributes from **UserAgent**. You'll notice that the expected resolved attribute names were used to populate this list. 
 
-*selectsSomeTakeNames* is a list of attributes from the referenced entity that should be added to your entity. There is also *selectsSomeAvoidNames*, which is a list of attributes that should not be added. Here, we only want to take *uaBrowserName* and *uaBrowserVersion* as attributes from **UserAgent**. You'll notice that we used the expected resolved attribute names to populate this list. 
+If you had a *renameFormat* as well, you would use the attribute names after the rename format specifier has been applied: 
 
-If we had a *renameFormat* as well, we would use the attribute names after the rename format specifier has been applied: 
-
-![selectsSubAttributes with renameFormat](media/creating-schemas-selectsubattributesrenameformat.png)
+```` json
+"hasAttributes": [
+    {
+        "name": "ua",
+        "entity": "UserAgent",
+        "resolutionGuidance": {
+            "renameFormat": "{m}",
+            "selectSubAttribute": {
+                "selects": "some",
+                "selectsSomeTakeNames": [
+                    "browserName",
+                    "browserVersion"
+                ]
+            }
+        }
+    }
+]
+````
 
 ### Attribute groups
 
-Once again, here is the entity definition for **Session**:
+Once again, here's the entity definition for **Session**:
 
 ![Session Entity Definition](media/creating-schemas-sessionentitydefinition.png)
 
-Now, while we *could* define all the fields listed in gray (such as "dateId", "environmentId", "sessionRevenue", etc.) as attributes inside of **Session**, many of these fields are also used in other physical entities. It would be useful to define these fields once somewhere and just reuse the attribute definitions, like we did with the attributes from our logical entities. 
+Now, while you *could* define all the fields listed in gray (such as *dateId*, *environmentId*, *sessionRevenue*, etc.) as attributes inside of **Session**, many of these fields are also used in other physical entities. It would be useful to define these fields once somewhere and just reuse the attribute definitions, like you did with the attributes from the logical entities. 
 
-However, instead of grouping these fields into logical entities, we can also use attribute groups. An attribute group is simply a group of attributes that provide a similar role. If we notice a grouping of attributes that always appear together across our physical entities, we can put them in an attribute group. We can have attribute groups that only contain a single attribute as well, if that attribute is used often in our entities but doesn't have other attributes it always appears with. It should make sense why the attributes in an attribute group are grouped together, rather than the grouping just being a mere coincidence. 
+However, instead of grouping these fields into logical entities, you can also use attribute groups. An attribute group is simply a group of attributes that provide a similar role. If you notice a grouping of attributes that always appear together across your physical entities, you can put them in an attribute group. You can have attribute groups that only contain a single attribute as well, if that attribute is used often in your entities but doesn't have other attributes it always appears with. It should make sense why the attributes in an attribute group are grouped together, rather than the grouping just being a mere coincidence. 
 
-<br/>A helpful way to determine attribute groups is to lay out all the fields used in our entity definitions in a table with the entities on one axis and fields on the other:
+<br/>A helpful way to determine attribute groups is to lay out all the fields used in your entity definitions in a table with the entities on one axis and fields on the other:
 
 ![Attribute Group Table](media/creating-schemas-attributegrouptable.png)
 
-From this table, we can see that there are several groups of attributes that always appear together. You'll highlight a few notable attributes in red.
+From this table, you can see that there are several groups of attributes that always appear together. A few notable attributes are highlighted in red.
 
 ![Highlighted Attribute Group Table](media/creating-schemas-attributegrouptablehighlighted.png)
 
-For instance, the attributes "orderId", "cartId", and "cartVersion" always appear together in **PageView**, **PageAction**, and **Event**. These can be put into an attribute group.
+For instance, the attributes *orderId*, *cartId*, and *cartVersion* always appear together in **PageView**, **PageAction**, and **Event**. These can be put into an attribute group.
 
-On the other hand, "pageViewCount" is used in **Session**, **AggPageView**, **AggPageViewDaily**, **AggPageViewDetailDaily**, and **AggSession** but doesn't have other attributes it always appears with. We can create an attribute group containing "pageViewCount" only. 
+On the other hand, *pageViewCount* is used in **Session**, **AggPageView**, **AggPageViewDaily**, **AggPageViewDetailDaily**, and **AggSession** but doesn't have other attributes it always appears with. You can create an attribute group containing *pageViewCount* only. 
 
-Lastly, we see that "sessionCount" is only used in **AggSession**. In this case, you'll not create an attribute group and just define "sessionCount" as an attribute inside **AggSession**. 
+Lastly, you see that *sessionCount* is only used in **AggSession**. In this case, you'll not create an attribute group and just define *sessionCount* as an attribute inside **AggSession**. 
 
-<br/>Going back to our original example. After we've identified our attribute groups, you'll define them inside our allImports document, since the attribute groups will be used in a lot of the schemas for our physical entities. 
+<br/>Going back to the original example. After you've identified your attribute groups, you'll define them inside your allImports document, since the attribute groups will be used in a lot of the schemas for your physical entities. 
 
-Here is our *_allImports.cdm.json* with a couple of attribute group objects under **definitions**: 
+Here's the *_allImports.cdm.json* with a couple of attribute group objects under **definitions**: 
 
 ![allImports Document](media/creating-schemas-allimports.png)
 
 * **attributeGroupName** is the name of the attribute group.
 * **members** is a list of attribute definitions for the attribute group.
 
-<br/>Now that we've our attribute groups defined in our allImports document, we can use them in **Session** by creating an attribute group reference object under **hasAttributes**:
+<br/>Now that you've your attribute groups defined in your allImports document, you can use them in **Session** by creating an attribute group reference object under **hasAttributes**:
 
-![Session dateId Attribute](media/creating-schemas-sessiondateid.png)
+``` json
+"hasAttributes": [
+    {
+        "name": "ua",
+        "entity": "UserAgent"
+    }, 
+    {
+        "name": "reverseIp",
+        "entity": "ReverseIp",
+        "resolutionGuidance": {
+            "renameFormat": "{m}"
+        }
+    }, 
+    {
+        "attributeGroupReference": "dateId"
+    }
+]
+```
 
-* **attributeGroupReference** points to the name of the attribute group that we want to use. 
+* **attributeGroupReference** points to the name of the attribute group that you want to use. 
 
-<br/>We can also define attributes that are only used in **Session** right in its entity schema:
+<br/>You can also define attributes that are only used in **Session** right in its entity schema:
 
-![Session totalEventCount Attribute](media/creating-schemas-sessiontotaleventcount.png)
+``` json
+"hasAttributes": [
+    {
+        "name": "ua",
+        "entity": "UserAgent"
+    }, 
+    {
+        "name": "reverseIp",
+        "entity": "ReverseIp",
+        "resolutionGuidance": {
+            "renameFormat": "{m}"
+        }
+    }, 
+    {
+        "attributeGroupReference": "dateId"
+    },
+    {
+        "name": "totalEventCount",
+        "dataType": "integer",
+        "appliedTraits": [
+            "means.measurement.count"
+        ]
+    }
+]
+```
 
 <br/>Our final entity schema for **Session** looks like this:
 
-*Note: The order of the attribute objects has been shifted around so that this entity schema matches the order of the fields in the actual data.*
+>[!NOTE]
+>The order of the attribute objects has been shifted around so that this entity schema matches the order of the fields in the actual data.
 
 ``` json
 {
@@ -639,23 +702,23 @@ Here is our *_allImports.cdm.json* with a couple of attribute group objects unde
 
 ## Create the manifest
 
-Now that we are done with our entity schemas, we are going to create our manifest document. The manifest will reference our entity schemas and act as the entry point to our entities. Do note that the manifest file should end with the *.manifest.cdm.json* extension.
+Now that you're done with your entity schemas, you're going to create your manifest document. The manifest will reference your entity schemas and act as the entry point to your entities. Do note that the manifest file should end with the *.manifest.cdm.json* extension.
 
-Here is our *clickstream.manifest.cdm.json*, under the *clickstream* folder:
+Here's the *clickstream.manifest.cdm.json*, under the *clickstream* folder:
 
 ![Clickstream Manifest Document](media/creating-schemas-manifest.png)
 
-Most of the properties listed above are fairly self-explanatory. You'll take a look at **entities**, which is a list of entity declaration objects. This is where we reference all our entity schemas (**ReverseIp**, **Session**, and **UserAgent**).
+Most of the properties listed above are fairly self-explanatory. Take a look at **entities**, which is a list of entity declaration objects. This is where you reference all your entity schemas (**ReverseIp**, **Session**, and **UserAgent**).
 
-* **type** refers to the type of the entity declaration (local or referenced). Since our entity declarations reside locally, rather than at a remote location, we use “LocalEntity” as the type. 
+* **type** refers to the type of the entity declaration (local or referenced). Since your entity declarations reside locally, rather than at a remote location, “LocalEntity” is used as the type. 
 * **entityName** is the name of the entity.
-* **entityPath** is the corpus path to the entity definition in the entity schema. It is in the format of “[entity schema name]/[entity name]”. 
+* **entityPath** is the corpus path to the entity definition in the entity schema. It's in the format of “[entity schema name]/[entity name]”. 
 
-<br/>The manifest can reference sub-manifests as well. For example, if we had a sub-folder under *clickstream* called aggregations (that contained entity schemas relating to aggregated data), we could create an *aggregrations.manifest.cdm.json* document in that folder: 
+<br/>The manifest can reference sub-manifests as well. For example, if you had a sub-folder under *clickstream* called aggregations (that contained entity schemas relating to aggregated data), you could create an *aggregrations.manifest.cdm.json* document in that folder: 
 
 ![aggregations Folder Structure](media/creating-schemas-aggregationsfolder.png)
 
-<br/>We would then add the manifest declaration for *aggregrations.manifest.cdm.json* in *clickstream.manifest.cdm.json* under **subManifests**:
+<br/>You would then add the manifest declaration for *aggregrations.manifest.cdm.json* in *clickstream.manifest.cdm.json* under **subManifests**:
 
 ``` json
 {
@@ -690,17 +753,17 @@ Most of the properties listed above are fairly self-explanatory. You'll take a l
 }
 ```
 
-Doing this will maintain our original folder structure in our schema documents. 
+Doing this will maintain your original folder structure in your schema documents. 
 
 ## Explore the entities
 
-To wrap up, you'll explore our created Common Data Model schema documents. You'll go over the two different tools we can use.
+To wrap up, you can explore your created Common Data Model schema documents. Let's go over the two different tools you can use.
 
 ### Entity navigator
 
-We can use the [Entity Navigator](https://microsoft.github.io/CDM/) to view our created schema documents. 
+You can use the [Entity Navigator](https://microsoft.github.io/CDM/) to view your created schema documents. 
 
-You'll need to load our manifest to explore our entities. First, you'll click on “Load from files…”, upload the root *schemaDocuments* folder, and then select *clickstream/clickstream.manifest.cdm.json* as the manifest:
+You'll need to load your manifest to explore your entities. First, you'll click on “Load from files…”, upload the root *schemaDocuments* folder, and then select *clickstream/clickstream.manifest.cdm.json* as the manifest:
 
 ![Load From Files](media/creating-schemas-navigatorloadfromfiles.png)
 
@@ -710,9 +773,9 @@ You'll need to load our manifest to explore our entities. First, you'll click on
 
 ![Loaded Manifest](media/creating-schemas-navigatorloadmanifest.png)
 
-We can see all three entities that we created schemas for, under “clickstream”. We can also see all the entities that are referenced by the sub-manifest *aggregations.manifest.cdm.json*, under “aggregations”. Notice that the original folder structure of all these files is maintained. 
+You can see all three entities that you created schemas for, under “clickstream”. You can also see all the entities that are referenced by the sub-manifest *aggregations.manifest.cdm.json*, under “aggregations”. Notice that the original folder structure of all these files is maintained. 
 
-<br/>Lastly, you'll click on the **Session** entity and compare the resolved entity to our original entity definition:
+<br/>Lastly, you'll click on the **Session** entity and compare the resolved entity to your original entity definition:
 
 ![Session Entity](media/creating-schemas-navigatorsession.png)
 
@@ -720,34 +783,35 @@ We can see all three entities that we created schemas for, under “clickstream�
 
 ### Read the manifest sample
 
-We can also use the code sample, [1-read-manifest](https://github.com/microsoft/CDM/tree/master/samples/1-read-manifest), to explore our entities. This sample reads a manifest document and lists all the entities referenced in the manifest. You can then select an entity to list all its attributes, traits, properties, data partition file locations, and relationships. 
+You can also use the code sample, [1-read-manifest](https://github.com/microsoft/CDM/tree/master/samples/1-read-manifest), to explore your entities. This sample reads a manifest document and lists all the entities referenced in the manifest. You can then select an entity to list all its attributes, traits, properties, data partition file locations, and relationships. 
 
 <br/>The sample originally points to a manifest called *default.manifest.cdm.json* under the *1-read-manifest* folder:
 
 ![Read Manifest Code](media/creating-schemas-samplecodeoriginal.png)
 
-<br/>You'll edit the sample so that it points to our *clickstream.manifest.cdm.json* document instead:
+<br/>Edit the sample so that it points to your *clickstream.manifest.cdm.json* document instead:
 
 ![Read Manifest Code Edited](media/creating-schemas-samplecodeedited.png)
 
-<br/>This sample works with resolved documents, so we need to resolve our manifest and entities. We can do this by adding the following line of code under `ExploreManifest(…)`:
+<br/>This sample works with resolved documents, so you need to resolve your manifest and entities. You can do this by adding the following line of code under `ExploreManifest(…)`:
 
 ![Read Manifest Code Edited](media/creating-schemas-samplecoderesolve.png)
 
-<br/>Now we can run the sample:
+<br/>Now you can run the sample:
 
 ![Run Read Manifest Sample](media/creating-schemas-runsample.png)
 
-We can see that the program has read the manifest and listed all our entities.
+You can see that the program has read the manifest and listed all your entities.
 
-<br/>You'll explore our **Session** entity by entering ‘2’:
+<br/>Explore the **Session** entity by entering ‘2’:
 
 ![Explore Session](media/creating-schemas-runsampleexploresession.png)
 
-We can see that our **Session** entity schema has been read.
+You can see that the **Session** entity schema has been read.
 
 <br/>Lastly, you'll explore the attributes in **Session** by entering '1':
 
 ![Explore Attributes](media/creating-schemas-runsampleexploreattributes.png)
 
-*Note: There are more attributes listed by the program than what's shown in this image.*
+>[!NOTE]
+>There are more attributes listed by the program than what's shown in this image.*
