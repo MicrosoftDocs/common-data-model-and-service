@@ -483,15 +483,15 @@ If you had a *renameFormat* as well, you would use the attribute names after the
 
 ### Attribute groups
 
-Once again, here's the entity definition for **Session**:
+Here's the entity definition for **Session**:
 
 ![Session Entity Definition](media/creating-schemas-sessionentitydefinition.png)
 
-Now, while you *could* define all the fields listed in gray (such as *dateId*, *environmentId*, *sessionRevenue*, etc.) as attributes inside of **Session**, many of these fields are also used in other physical entities. It would be useful to define these fields once somewhere and just reuse the attribute definitions, like you did with the attributes from the logical entities. 
+While you *could* define all the fields listed in gray (such as *dateId*, *environmentId*, *sessionRevenue*, etc.) as attributes in **Session**, many of these fields are also used in other physical entities. It would be useful to define these fields once and just reuse the attribute definitions, like you did with the attributes from the logical entities. 
 
-However, instead of grouping these fields into logical entities, you can also use attribute groups. An attribute group is simply a group of attributes that provide a similar role. If you notice a grouping of attributes that always appear together across your physical entities, you can put them in an attribute group. You can have attribute groups that only contain a single attribute as well, if that attribute is used often in your entities but doesn't have other attributes it always appears with. It should make sense why the attributes in an attribute group are grouped together, rather than the grouping just being a mere coincidence. 
+Instead of grouping these fields into logical entities, you can also use attribute groups. An attribute group is a group of attributes that provides a similar role. If you notice a grouping of attributes that always appears together across your physical entities, you can put them in an attribute group. You can have attribute groups that only contain a single attribute as well, if that attribute is used often in your entities but doesn't have other attributes it always appears with. It should make sense why the attributes in an attribute group are grouped together, rather than the grouping just being a mere coincidence. 
 
-<br/>A helpful way to determine attribute groups is to lay out all the fields used in your entity definitions in a table with the entities on one axis and fields on the other:
+A helpful way to determine attribute groups is to lay out all the fields used in your entity definitions in a table with the entities on one axis and fields on the other:
 
 ![Attribute Group Table](media/creating-schemas-attributegrouptable.png)
 
@@ -501,13 +501,13 @@ From this table, you can see that there are several groups of attributes that al
 
 For instance, the attributes *orderId*, *cartId*, and *cartVersion* always appear together in **PageView**, **PageAction**, and **Event**. These can be put into an attribute group.
 
-On the other hand, *pageViewCount* is used in **Session**, **AggPageView**, **AggPageViewDaily**, **AggPageViewDetailDaily**, and **AggSession** but doesn't have other attributes it always appears with. You can create an attribute group containing *pageViewCount* only. 
+On the other hand, *pageViewCount* is used in **Session**, **AggPageView**, **AggPageViewDaily**, **AggPageViewDetailDaily**, and **AggSession** but doesn't have other attributes with which it always appears. In this case, you can create an attribute group containing *pageViewCount* only. 
 
 Lastly, you see that *sessionCount* is only used in **AggSession**. In this case, you'll not create an attribute group and just define *sessionCount* as an attribute inside **AggSession**. 
 
-<br/>Going back to the original example. After you've identified your attribute groups, you'll define them inside your allImports document, since the attribute groups will be used in a lot of the schemas for your physical entities. 
+Thinking about the original example, after you've identified your attribute groups, you'll define them inside your *allImports* document, since the attribute groups are used in several schemas for your physical entities. 
 
-Here's the *_allImports.cdm.json* with a couple of attribute group objects under **definitions**: 
+Here's the *_allImports.cdm.json* with twp attribute group objects under **definitions**: 
 
 ``` json
 {
@@ -553,7 +553,7 @@ Here's the *_allImports.cdm.json* with a couple of attribute group objects under
 * **attributeGroupName** is the name of the attribute group.
 * **members** is a list of attribute definitions for the attribute group.
 
-<br/>Now that you've your attribute groups defined in your allImports document, you can use them in **Session** by creating an attribute group reference object under **hasAttributes**:
+Now that you have the attribute groups defined in your *allImports* document, you can use them in **Session** by creating an attribute group reference object under **hasAttributes**:
 
 ``` json
 "hasAttributes": [{
@@ -575,7 +575,7 @@ Here's the *_allImports.cdm.json* with a couple of attribute group objects under
 
 * **attributeGroupReference** points to the name of the attribute group that you want to use. 
 
-<br/>You can also define attributes that are only used in **Session** right in its entity schema:
+You can also define attributes that are only used in **Session** directly in its entity schema:
 
 ``` json
 "hasAttributes": [{
@@ -602,10 +602,10 @@ Here's the *_allImports.cdm.json* with a couple of attribute group objects under
 	]
 ```
 
-<br/>Our final entity schema for **Session** looks like this:
+Our final entity schema for **Session** looks like this:
 
 >[!NOTE]
->The order of the attribute objects has been shifted around so that this entity schema matches the order of the fields in the actual data.
+>The order of the attribute objects shifted so that this entity schema matches the order of the fields in the actual data.
 
 ``` json
 {
@@ -696,7 +696,7 @@ Here's the *_allImports.cdm.json* with a couple of attribute group objects under
 
 ## Create the manifest
 
-Now that you're done with your entity schemas, you're going to create your manifest document. The manifest will reference your entity schemas and act as the entry point to your entities. Do note that the manifest file should end with the *.manifest.cdm.json* extension.
+Now that you're done with your entity schemas, you're going to create the manifest document. The manifest references your entity schemas and acts as the entry point to your entities. Do note that the manifest file should end with the *.manifest.cdm.json* extension.
 
 Here's the *clickstream.manifest.cdm.json*, under the *clickstream* folder:
 
@@ -726,17 +726,17 @@ Here's the *clickstream.manifest.cdm.json*, under the *clickstream* folder:
 }
 ```
 
-Most of the properties listed above are fairly self-explanatory. Take a look at **entities**, which is a list of entity declaration objects. This is where you reference all your entity schemas (**ReverseIp**, **Session**, and **UserAgent**).
+Most of the properties in the previous code block are fairly self-explanatory. Take a look at **entities**, which is a list of entity declaration objects. This is where you reference all your entity schemas (**ReverseIp**, **Session**, and **UserAgent**).
 
-* **type** refers to the type of the entity declaration (local or referenced). Since your entity declarations reside locally, rather than at a remote location, “LocalEntity” is used as the type. 
+* **type** refers to the type of the entity declaration (local or referenced). Since your entity declarations reside locally, *LocalEntity* is used as the type. 
 * **entityName** is the name of the entity.
-* **entityPath** is the corpus path to the entity definition in the entity schema. It's in the format of “[entity schema name]/[entity name]”. 
+* **entityPath** is the corpus path to the entity definition in the entity schema. It's in the format of *[entity schema name]/[entity name]*. 
 
-<br/>The manifest can reference sub-manifests as well. For example, if you had a sub-folder under *clickstream* called aggregations (that contained entity schemas relating to aggregated data), you could create an *aggregrations.manifest.cdm.json* document in that folder: 
+The manifest can reference sub-manifests as well. For example, if you had a sub-folder under *clickstream* called aggregations (that contained entity schemas relating to aggregated data), you could create an *aggregrations.manifest.cdm.json* document in that folder: 
 
 ![aggregations Folder Structure](media/creating-schemas-aggregationsfolder.png)
 
-<br/>You would then add the manifest declaration for *aggregrations.manifest.cdm.json* in *clickstream.manifest.cdm.json* under **subManifests**:
+You would then add the manifest declaration for *aggregrations.manifest.cdm.json* in *clickstream.manifest.cdm.json* under **subManifests**:
 
 ``` json
 {
@@ -768,7 +768,7 @@ Most of the properties listed above are fairly self-explanatory. Take a look at 
 }
 ```
 
-Doing this will maintain your original folder structure in your schema documents. 
+Doing this maintains your original folder structure in your schema documents. 
 
 ## Explore the entities
 
@@ -776,57 +776,57 @@ To wrap up, you can explore your created Common Data Model schema documents. Let
 
 ### Entity navigator
 
-You can use the [Entity Navigator](https://microsoft.github.io/CDM/) to view your created schema documents. 
+You can use the [Entity navigator](https://microsoft.github.io/CDM/) to view your created schema documents. 
 
-You'll need to load your manifest to explore your entities. First, you'll click on “Load from files…”, upload the root *schemaDocuments* folder, and then select *clickstream/clickstream.manifest.cdm.json* as the manifest:
+You'll need to load your manifest to explore your entities. First, you'll select *Load from files…*, upload the root *schemaDocuments* folder, and then select *clickstream/clickstream.manifest.cdm.json* as the manifest:
 
-![Load From Files](media/creating-schemas-navigatorloadfromfiles.png)
+![Load from files](media/creating-schemas-navigatorloadfromfiles.png)
 
-![Select Manifest](media/creating-schemas-navigatorselectmanifest.png)
+![Select manifest](media/creating-schemas-navigatorselectmanifest.png)
 
-<br/>The navigator will display the following after loading the manifest:
+The navigator displays the following after loading the manifest:
 
-![Loaded Manifest](media/creating-schemas-navigatorloadmanifest.png)
+![Loaded manifest](media/creating-schemas-navigatorloadmanifest.png)
 
-You can see all three entities that you created schemas for, under “clickstream”. You can also see all the entities that are referenced by the sub-manifest *aggregations.manifest.cdm.json*, under “aggregations”. Notice that the original folder structure of all these files is maintained. 
+You can see all three entities for which you created schemas under *clickstream*. You can also see all the entities that are referenced by the sub-manifest *aggregations.manifest.cdm.json*, under “aggregations”. Notice that the original folder structure of all these files is maintained. 
 
-<br/>Lastly, you'll click on the **Session** entity and compare the resolved entity to your original entity definition:
+Lastly, you'll select the **Session** entity and compare the resolved entity to your original entity definition:
 
-![Session Entity](media/creating-schemas-navigatorsession.png)
+![Session entity](media/creating-schemas-navigatorsession.png)
 
-![Session Entity Definition](media/creating-schemas-sessionentitydefinition.png)
+![Session entity definition](media/creating-schemas-sessionentitydefinition.png)
 
 ### Read the manifest sample
 
-You can also use the code sample, [1-read-manifest](https://github.com/microsoft/CDM/tree/master/samples/1-read-manifest), to explore your entities. This sample reads a manifest document and lists all the entities referenced in the manifest. You can then select an entity to list all its attributes, traits, properties, data partition file locations, and relationships. 
+You can also use the code sample, [1-read-manifest](https://github.com/microsoft/CDM/tree/master/samples/1-read-manifest), to explore your entities. This sample reads a manifest document and lists all the entities referenced therein. You can then select an entity to list all its attributes, traits, properties, data partition file locations, and relationships. 
 
-<br/>The sample originally points to a manifest called *default.manifest.cdm.json* under the *1-read-manifest* folder:
+The sample originally points to a manifest called *default.manifest.cdm.json* under the *1-read-manifest* folder:
 
-![Read Manifest Code](media/creating-schemas-samplecodeoriginal.png)
+![Read manifest code](media/creating-schemas-samplecodeoriginal.png)
 
-<br/>Edit the sample so that it points to your *clickstream.manifest.cdm.json* document instead:
+Edit the sample so that it points to your *clickstream.manifest.cdm.json* document:
 
-![Read Manifest Code Edited](media/creating-schemas-samplecodeedited.png)
+![Read manifest code edited](media/creating-schemas-samplecodeedited.png)
 
-<br/>This sample works with resolved documents, so you need to resolve your manifest and entities. You can do this by adding the following line of code under `ExploreManifest(…)`:
+This sample works with resolved documents, so you need to resolve your manifest and entities. You do this by adding the following line of code under `ExploreManifest(…)`:
 
-![Read Manifest Code Edited](media/creating-schemas-samplecoderesolve.png)
+![Read manifest code edited](media/creating-schemas-samplecoderesolve.png)
 
-<br/>Now you can run the sample:
+Now you can run the sample:
 
-![Run Read Manifest Sample](media/creating-schemas-runsample.png)
+![Run read manifest sample](media/creating-schemas-runsample.png)
 
 You can see that the program has read the manifest and listed all your entities.
 
-<br/>Explore the **Session** entity by entering ‘2’:
+Explore the **Session** entity by entering **2**:
 
-![Explore Session](media/creating-schemas-runsampleexploresession.png)
+![Explore session](media/creating-schemas-runsampleexploresession.png)
 
-You can see that the **Session** entity schema has been read.
+You can see that the **Session** entity schema was read.
 
-<br/>Lastly, you'll explore the attributes in **Session** by entering '1':
+Lastly, explore the attributes in **Session** by entering **1**:
 
-![Explore Attributes](media/creating-schemas-runsampleexploreattributes.png)
+![Explore attributes](media/creating-schemas-runsampleexploreattributes.png)
 
 >[!NOTE]
->There are more attributes listed by the program than what's shown in this image.*
+>There are more attributes listed by the program than what's shown in this image.
