@@ -426,7 +426,7 @@ Since **UserAgent** is a *logical* entity, the attribute names in the entity sch
 ]
 ```
 
-You'll notice that this time a resolution guidance is specified with a *renameFormat* property. This property is a format specifier for the final resolved attribute names. Here, you use *renameFormat*: *{m}* to specify that you want to use the attribute names exactly as they're named in the referenced entity. This means that in **Session**, the attributes that are taken from **ReverseIp** will look like:
+Notice that this time a resolution guidance is specified with a *renameFormat* property. This property is a format specifier for the final resolved attribute names. Here, you use *renameFormat*: *{m}* to specify that you want to use the attribute names exactly as they're named in the referenced entity. This means that in **Session**, the attributes that are taken from **ReverseIp** will look like:
 
 	ripContinent
 	ripCountry
@@ -453,7 +453,7 @@ If you didn't specify a resolution guidance here, then the final attribute names
 }]
 ````
 
-*selectsSomeTakeNames* is a list of attributes from the referenced entity that should be added to your entity. There's also *selectsSomeAvoidNames*, which is a list of attributes that shouldn't be added. Here, you only want to take *uaBrowserName* and *uaBrowserVersion* as attributes from **UserAgent**. You'll notice that the expected resolved attribute names were used to populate this list. 
+*selectsSomeTakeNames* is a list of attributes from the referenced entity that should be added to your entity. There's also *selectsSomeAvoidNames*, which is a list of attributes that shouldn't be added. Here, you only want to take *uaBrowserName* and *uaBrowserVersion* as attributes from **UserAgent**. Notice that the expected resolved attribute names were used to populate this list. 
 
 If you had a *renameFormat* as well, you would use the attribute names after the rename format specifier has been applied: 
 
