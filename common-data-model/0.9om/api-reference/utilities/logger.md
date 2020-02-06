@@ -11,7 +11,7 @@ ms.author: jibyun
 
 # Logger
 
-The logger formats log messages in a consistent way. This class only exists in C# and TypeScript.
+The logger formats log messages in a consistent way. This class only exists in C#, Python, and TypeScript.
 
 ```
 public class Logger

@@ -39,4 +39,4 @@ There are additional methods and properties in this class that just extend stand
 |**Remove(T)**<br/>*currObject*: The CDM object to remove from the collection.|Removes the specified CDM object from the collection. Returns true if the operation is successful, false otherwise.|bool|
 |**RemoveAt(int)**<br/>*index*: The index of the object to remove.<br/><br/>*pop(...) in Python.*|Removes the object at the specified index from the collection.|void|
 |**Item(string)**<br />*name*: The name of the CDM object to fetch.|Returns the CDM object with the specified name.|T|
-|**Copy([ResolveOptions](../utilities/resolveoptions.md))**<br/>*resOpt*: The resolve options.<br/><br/>*Only in C#.*|Creates a copy of the current CDM collection.|[CdmCollection\<T>](collection.md)|
+|**Copy([ResolveOptions](../utilities/resolveoptions.md), [CdmObject](cdmobject.md))**<br/>*resOpt*: The resolve options.<br/><br/>*Only in C# and Java.*|Creates a copy of the current CDM collection.|[CdmCollection\<T>](collection.md)|

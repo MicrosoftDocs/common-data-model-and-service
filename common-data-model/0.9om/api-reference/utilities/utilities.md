@@ -1,6 +1,6 @@
 ---
-title: Utilities | Microsoft Docs
-description: API reference for 0.9 OM.
+title: API reference for utilities | Microsoft Docs
+description: API reference for utilities.
 author: jinichu
 ms.service: common-data-model
 ms.reviewer: deonhe 
@@ -15,7 +15,7 @@ ms.author: jibyun
 
 This section contains the commonly used utility classes. 
 
-The code can be found [here](https://github.com/microsoft/CDM/tree/master/objectModel/CSharp/Microsoft.CommonDataModel.ObjectModel/Utilities) (C#).
+The C# code can be found [here](https://github.com/microsoft/CDM/tree/master/objectModel/CSharp/Microsoft.CommonDataModel.ObjectModel/Utilities).
 
 ## Classes
 |Name|Description|

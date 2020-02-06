@@ -45,6 +45,6 @@ public class CdmEntityDefinition extends CdmObjectDefinitionBase, CdmReferencesE
 |**CreateResolvedEntityAsync(string, [ResolveOptions](../utilities/resolveoptions.md), [CdmFolderDefinition](folder.md), string)**<br />*newEntName*: The new entity name.<br/>*resOpt [optional]*: The resolve options.<br/>*folder [optional]*: The folder that will be used as a target corpus path. If not specified, *InDocument's* folder (a property on the entity) is used instead.<br/>*newDocName [optional]*: The new document name.|Creates a resolved copy of the entity.|Task\<[CdmEntityDefinition](entity.md)>|
 |**GetName()**|See [CdmObjectDefinition.GetName()](cdmobjectdefinition.md#methods).|string|
 |**IsDerivedFrom(string, [ResolveOptions](../utilities/resolveoptions.md))**|See [CdmObject.IsDerivedFrom(...)](cdmobject.md#methods).|bool|
-|**Copy([ResolveOptions](../utilities/resolveoptions.md))**|See [CdmObject.Copy(...)](cdmobject.md#methods).|[CdmObject](cdmobject.md)|
+|**Copy([ResolveOptions](../utilities/resolveoptions.md), [CdmObject](cdmobject.md))**|See [CdmObject.Copy(...)](cdmobject.md#methods).|[CdmObject](cdmobject.md)|
 |**Validate()**|See [CdmObject.Validate()](cdmobject.md#methods).|bool|
 
