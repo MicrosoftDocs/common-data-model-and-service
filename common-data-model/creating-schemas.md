@@ -802,15 +802,106 @@ You can also use the code sample, [1-read-manifest](https://github.com/microsoft
 
 The sample originally points to a manifest called *default.manifest.cdm.json* under the *1-read-manifest* folder:
 
-![Read manifest code](media/creating-schemas-samplecodeoriginal.png)
+``` C#
+// ------------------------------------------------------------------------------------------------------------
+// Instantiate a corpus. The corpus is the collection of all documents and folders created or discovered 
+// while navigating objects and paths.
+
+var cdmCorpus = new CdmCorpusDefinition();
+
+// ------------------------------------------------------------------------------------------------------------
+// Configure storage adapters and mount them to the corpus. 
+
+// We want our storage adapters to point at the local manifest location and at the example public standards.
+string pathFromExeToExampleRoot = "../../../../../../";
+
+// Storage adapter pointing to the target local manifest location. 
+cdmCorpus.Storage.Mount("local", new LocalAdapter(pathFromExeToExampleRoot + "1-read-manifest"));
+
+// 'local' is our default namespace. 
+// Any paths that start navigating without a device tag (ex. 'cdm') will just default to the 'local' namepace.
+cdmCorpus.Storage.DefaultNamespace = "local";
+
+// Storage adapter pointing to the example public standards.
+// This is a fake 'cdm'; normally the Github adapter would be used to point at the real public standards.
+// Mount it as the 'cdm' device, not the default, so that we must use "cdm:<folder-path>" to get there.
+cdmCorpus.Storage.Mount("cdm", new LocalAdapter(pathFromExeToExampleRoot + "example-public-standards"));
+
+// Example how to mount to the ADLS:
+// cdmCorpus.Storage.Mount("adls",
+//    new ADLSAdapter(
+//      "<ACCOUNT-NAME>.dfs.core.windows.net", // Hostname.
+//      "/<FILESYSTEM-NAME>", // Root.
+//      "72f988bf-86f1-41af-91ab-2d7cd011db47",  // Tenant ID.
+//      "<CLIENT-ID>",  // Client ID.
+//      "<CLIENT-SECRET>" // Client secret.
+//    )
+// );
+
+// ------------------------------------------------------------------------------------------------------------
+// Open the default manifest file at the root.
+
+await ExploreManifest(cdmCorpus, "default.manifest.cdm.json");
+```
 
 Edit the sample so that it points to your *clickstream.manifest.cdm.json* document:
 
-![Read manifest code edited](media/creating-schemas-samplecodeedited.png)
+``` C#
+// ------------------------------------------------------------------------------------------------------------
+// Instantiate a corpus. The corpus is the collection of all documents and folders created or discovered 
+// while navigating objects and paths.
+
+var cdmCorpus = new CdmCorpusDefinition();
+
+// ------------------------------------------------------------------------------------------------------------
+// Configure storage adapters and mount them to the corpus. 
+
+// We want our storage adapters to point at the local manifest location and at the example public standards.
+string pathFromExeToExampleRoot = "../../../../../../";
+
+// Storage adapter pointing to the target local manifest location. 
+cdmCorpus.Storage.Mount("local", new LocalAdapter(@"C:\path\to\CDM\schemaDocuments"));
+
+// 'local' is our default namespace. 
+// Any paths that start navigating without a device tag (ex. 'cdm') will just default to the 'local' namepace.
+cdmCorpus.Storage.DefaultNamespace = "local";
+
+// Storage adapter pointing to the example public standards.
+// This is a fake 'cdm'; normally the Github adapter would be used to point at the real public standards.
+// Mount it as the 'cdm' device, not the default, so that we must use "cdm:<folder-path>" to get there.
+cdmCorpus.Storage.Mount("cdm", new LocalAdapter(@"C:\path\to\CDM\schemaDocuments"));
+
+// Example how to mount to the ADLS:
+// cdmCorpus.Storage.Mount("adls",
+//    new ADLSAdapter(
+//      "<ACCOUNT-NAME>.dfs.core.windows.net", // Hostname.
+//      "/<FILESYSTEM-NAME>", // Root.
+//      "72f988bf-86f1-41af-91ab-2d7cd011db47",  // Tenant ID.
+//      "<CLIENT-ID>",  // Client ID.
+//      "<CLIENT-SECRET>" // Client secret.
+//    )
+// );
+
+// ------------------------------------------------------------------------------------------------------------
+// Open the default manifest file at the root.
+
+await ExploreManifest(cdmCorpus, "clickstream/clickstream.manifest.cdm.json");
+```
 
 This sample works with resolved documents, so you need to resolve your manifest and entities. You do this by adding the following line of code under `ExploreManifest(…)`:
 
-![Read manifest code edited](media/creating-schemas-samplecoderesolve.png)
+``` C#
+static async Task ExploreManifest(CdmCorpusDefinition cdmCorpus, string manifestPath)
+{
+	Console.WriteLine($"\nLoading manifest {manifestPath} ...");
+
+    CdmManifestDefinition originalManifest = await cdmCorpus.FetchObjectAsync<CdmManifestDefinition>(manifestPath);
+    CdmManifestDefinition manifest = await originalManifest.CreateResolvedManifestAsync("resolved", null);
+
+    // ------------------------------------------------------------------------------------------------------------
+    // List all the entities found in the manifest and allow the user to choose which entity to explore.
+		
+```
 
 Now you can run the sample:
 
