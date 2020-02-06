@@ -579,27 +579,27 @@ You can also define attributes that are only used in **Session** directly in its
 
 ``` json
 "hasAttributes": [{
-			"name": "ua",
-			"entity": "UserAgent"
-		},
-		{
-			"name": "reverseIp",
-			"entity": "ReverseIp",
-			"resolutionGuidance": {
-				"renameFormat": "{m}"
-			}
-		},
-		{
-			"attributeGroupReference": "dateId"
-		},
-		{
-			"name": "totalEventCount",
-			"dataType": "integer",
-			"appliedTraits": [
-				"means.measurement.count"
-			]
+		"name": "ua",
+		"entity": "UserAgent"
+	},
+	{
+		"name": "reverseIp",
+		"entity": "ReverseIp",
+		"resolutionGuidance": {
+			"renameFormat": "{m}"
 		}
-	]
+	},
+	{
+		"attributeGroupReference": "dateId"
+	},
+	{
+		"name": "totalEventCount",
+		"dataType": "integer",
+		"appliedTraits": [
+			"means.measurement.count"
+		]
+	}
+]
 ```
 
 Our final entity schema for **Session** looks like this:
