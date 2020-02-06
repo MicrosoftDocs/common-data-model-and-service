@@ -11,7 +11,7 @@ ms.author: jibyun
 
 # Event Callback
 
-The event callback represents the callback object used in [CdmCorpusDefinition.SetEventCallback(...)](../cdm/corpus.md#methods). This class only exists in C# and TypeScript.
+The event callback represents the callback object used in [CdmCorpusDefinition.SetEventCallback(...)](../cdm/corpus.md#methods). This class only exists in C#, Python, and TypeScript.
 
 ```
 public class EventCallback
