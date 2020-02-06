@@ -507,7 +507,7 @@ Lastly, you see that *sessionCount* is only used in **AggSession**. In this case
 
 Thinking about the original example, after you've identified your attribute groups, you'll define them inside your *allImports* document, since the attribute groups are used in several schemas for your physical entities. 
 
-Here's the *_allImports.cdm.json* with twp attribute group objects under **definitions**: 
+Here's the *_allImports.cdm.json* with two attribute group objects under **definitions**: 
 
 ``` json
 {
