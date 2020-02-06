@@ -5,7 +5,7 @@ author: jinichu
 ms.service: common-data-model
 ms.reviewer: deonhe 
 ms.topic: article
-ms.date: 10/18/2019
+ms.date: 02/05/2020
 ms.author: jibyun
 ---
 
@@ -13,7 +13,7 @@ ms.author: jibyun
 
 ## Overview
 
-The Common Data Model object model (OM) provides two main types of classes: definition classes and reference classes. Since the OM is heavily interconnected and the concepts have different interactions amongst each other, the OM introduces reference classes in order to be able to easily reference different concepts without actually encapsulating them. Every reference class has its own corresponding definition class, and they are closely related. There are also various enum classes, which are listed at the bottom of this article.
+The Common Data Model object model provides two main types of classes: definition classes and reference classes. Since the object model is heavily interconnected and the concepts have different interactions amongst each other, the object model introduces reference classes to be able to easily reference different concepts without encapsulating them. Every reference class has its own corresponding definition class, and they are closely related. There are also various enum classes, which you'll find at the end of this article.
 
 The C# code can be found [here](https://github.com/microsoft/CDM/tree/master/objectModel/CSharp/Microsoft.CommonDataModel.ObjectModel/Cdm).
 
@@ -36,14 +36,14 @@ The C# code can be found [here](https://github.com/microsoft/CDM/tree/master/obj
 |[Data Partition](datapartition.md)|Points to a location of entity-related data.|
 |[Data Partition Pattern](datapartitionpattern.md)|Provides a way of selecting or generating a set of partitions based on the requirements specified as a regular expression.|
 |[Data Type](datatype.md)|Provides the ability to assign different data types to attributes (such as string, boolean, etc.).|
-|[Document](document.md)|Enables the OM to have a persisted state. Every document can contain different Common Data Model definitions, such as [entities](entity.md), [data partitions](datapartition.md), or attributes.|
+|[Document](document.md)|Enables the object model to have a persisted state. Every document can contain different Common Data Model definitions, such as [entities](entity.md), [data partitions](datapartition.md), or attributes.|
 |[Document Collection](documentcollection.md)|Extends [Collection](collection.md) and adds additional behaviors specific to document collections.|
 |[E2E Relationship](e2erelationship.md)|A relationship between two entity's attributes.|
 |[Entity](entity.md)|Provides a concrete placeholder for a user to attach certain information to a concept. It is a collection of attributes that creates a semantic meaning of why these attributes coexist. Since entities can inherit from other entities, it is possible for them to represent a hierarchical structure. The hierarchical structure can also be removed from the entities by resolving them.|
 |[Entity Attribute](entityattribute.md)|An attribute that also points to an [entity](entity.md).|
 |[Entity Collection](entitycollection.md)|Extends [Collection](collection.md) and adds behaviors specific to entity collections.|
 |[Entity Declaration](entitydeclaration.md)|Provides a simple functionality that is extended by a [local entity declaration](localentitydeclaration.md) and a [referenced entity declaration](referencedentitydeclaration.md).|
-|[Folder](folder.md)|Provides a hierarchical structure of the OM for organizing [documents](document.md). Folders can contain other folders or documents.|
+|[Folder](folder.md)|Provides a hierarchical structure of the object model for organizing [documents](document.md). Folders can contain other folders or documents.|
 |[Folder Collection](foldercollection.md)|Extends [Collection](collection.md) and adds additional behaviors specific to folder collections. It is used only for the *ChildFolders* property in [Folder](folder.md) and not for any other folder collections, as this collection copies fields from the parent folder to the children.|
 |[Import](import.md)|Used by [documents](document.md) to provide the files and documents that need to be imported first.|
 |[Import Collection](importcollection.md)|Extends [Collection](collection.md) and adds additional behaviors specific to import collections.|
