@@ -1,6 +1,6 @@
 ---
 title: CrsOtherFlag - Common Data Model | Microsoft Docs
-description: This covers the four CRS++ columns titled: “Free standing technical cooperation”; “Programme-based approach”; “Investment project”; “Associated financing”
+description: This covers the four CRS++ columns titled: "Free standing technical cooperation"; "Programme-based approach"; "Investment project"; "Associated financing"
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
