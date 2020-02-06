@@ -144,5 +144,7 @@
             href: 0.9om/api-reference/utilities/logger.md  
           - name: Resolve Options
             href: 0.9om/api-reference/utilities/resolveoptions.md  
+  - name: How to create schema documents 
+    href: creating-schemas.md
   - name: Frequently asked questions
     href: faq.md
