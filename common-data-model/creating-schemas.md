@@ -55,7 +55,7 @@ You'll notice that **Session** has fields, such as *uaBrowserName* and *uaBrowse
 
 ![UserAgent Entity Definition](media/creating-schemas-useragententitydefinition.png)
 
-<br>In this other example, the entity definition for the physical entity, **AggPageViewDetailDaily**, also uses some fields from **UserAgent**, **ReverseIp** and **Page**: 
+<br>In this other example, the entity definition for the physical entity, **AggPageViewDetailDaily**, also uses some fields from **UserAgent**, **ReverseIp**, and **Page**: 
 
 ![AggPageViewDetailDaily](media/creating-schemas-aggpageviewdetail.png)
 
@@ -131,7 +131,7 @@ You'll start by creating an entity schema for the *logical* entity, **UserAgent*
 }]
 ```
 
-You'll notice the use of the name *browserName*, rather than *uaBrowserName*. You'll learn why this is done in the [Attribute Resolution Guidance](creating-schemas.md#attribute-resolution-guidance) section.
+You'll notice the use of the name *browserName*, rather than *uaBrowserName*. You'll learn why this is done in the [Attribute resolution guidance](creating-schemas.md#attribute-resolution-guidance) section.
 
 The data type for this attribute is a string. Alternatively, you could have used the *name* data type, which describes a string that also has the trait "means.identity.name<no-link>". Traits are useful because they help express further semantic meaning. Using the *name* data type shows that this attribute is a name of some kind, which is more meaningful than just knowing that it's a string.
 
@@ -267,13 +267,13 @@ Here, you've applied the trait “means.measurement.version” to this attribute
 }
 ```
 
-You'll notice that data types, such as *country*, that are more specific than just *string* were used. These data types are defined in *meanings.location.cdm.json*. You'll also notice that, unlike **UserAgent**, the attributes for **ReverseIp** are named exactly as they are in the entity definition. You'll see why this was done in the [Attribute Resolution Guidance](creating-schemas.md#attribute-resolution-guidance) section. 
+You'll notice that data types, such as *country*, that are more specific than just *string* were used. These data types are defined in *meanings.location.cdm.json*. You'll also notice that, unlike **UserAgent**, the attributes for **ReverseIp** are named exactly as they are in the entity definition. You'll see why this was done in the [Attribute resolution guidance](creating-schemas.md#attribute-resolution-guidance) section. 
 
 ### _allImports.cdm.json
 
 Before you create entity schemas for the physical entities, you'll create an *_allImports.cdm.json* document. This document contains a list of central imports that are needed for the other schema documents. 
 
-Attribute groups, which you'll learn about in the [Attribute Groups](creating-schemas.md#attribute-groups) section, can also be defined in this document. Having an allImports document means that the schema documents can just import this file to import all the central documents and attribute group definitions, rather than having to import the individual schema documents directly.
+Attribute groups, which you'll learn about in the [Attribute groups](creating-schemas.md#attribute-groups) section, can also be defined in this document. Having an allImports document means that the schema documents can just import this file to import all the central documents and attribute group definitions, rather than having to import the individual schema documents directly.
 
 For instance, since the physical entities use the attributes defined in the logical entities, you'll need to import the schemas for the logical entities to use in the schemas for the physical entities. You'll put all the logical entities’ schemas in the allImports document and then have the physical entities’ schemas import this document. 
 
@@ -329,7 +329,7 @@ Here's the *Session.cdm.json* document, without any attributes:
 }]
 ```
 
-* **name** is the name of the entity attribute. You'll learn why *ua* is used as the name in the [Attribute Resolution Guidance](creating-schemas.md#attribute-resolution-guidance) section.
+* **name** is the name of the entity attribute. You'll learn why *ua* is used as the name in the [Attribute resolution guidance](creating-schemas.md#attribute-resolution-guidance) section.
 * **entity** is a reference to the entity being used as an attribute.
 
 This entity attribute object takes all attributes defined in **UserAgent**.
@@ -416,7 +416,7 @@ Since **UserAgent** is a *logical* entity, the attribute names in the entity sch
 }
 ```
 
-<br/>Referring back to **Session**, since you want to use attributes in **ReverseIp**, you'll create another entity attribute object, like you did for the attributes in **UserAgent**:
+<br/>Referring to **Session** from earlier in this article, since you want to use attributes in **ReverseIp**, you'll create another entity attribute object, like you did for the attributes in **UserAgent**:
 
 ``` json
 "hasAttributes": [{
@@ -602,7 +602,7 @@ You can also define attributes that are only used in **Session** directly in its
 ]
 ```
 
-Our final entity schema for **Session** looks like this:
+The final entity schema for **Session** looks like this:
 
 >[!NOTE]
 >The order of the attribute objects shifted so that this entity schema matches the order of the fields in the actual data.
@@ -830,3 +830,4 @@ Lastly, explore the attributes in **Session** by entering **1**:
 
 >[!NOTE]
 >There are more attributes listed by the program than what's shown in this image.
+
