@@ -1,6 +1,6 @@
 ---
 title: CrsOtherFlag - Common Data Model | Microsoft Docs
-description: This covers the four CRS++ columns titled: "Free standing technical cooperation"; "Programme-based approach"; "Investment project"; "Associated financing"
+description: This covers the four CRS++ columns titled&#58; "Free standing technical cooperation"; "Programme-based approach"; "Investment project"; "Associated financing"
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
@@ -11,7 +11,7 @@ ms.author: nebanfic
 
 # CRS Other Flag
 
-This covers the four CRS++ columns titled: “Free standing technical cooperation”; “Programme-based approach”; “Investment project”; “Associated financing”  
+This covers the four CRS++ columns titled: "Free standing technical cooperation"; "Programme-based approach"; "Investment project"; "Associated financing"  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/CrsOtherFlag.cdm.json" target="_blank">GitHub</a>.  
 
