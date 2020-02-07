@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 9/19/2019
+ms.date: 2/6/2020
 ms.author: nebanfic
 ---
 
@@ -19,7 +19,30 @@ Represents the period in which financial activity occurred, as defined by a fisc
 
 Instances of this entity are listed below.  
 
-- /foundationCommon/financialCommon/FiscalCalendarPeriod  
+- /financialCommon/FiscalCalendarPeriod  
+
+## Traits
+
+<details>
+<summary>Traits for this entity are listed below.  
+</summary>
+
+**is.CDM.entityVersion**  
+  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"0.9"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
+
+**is.identifiedBy**  
+  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[FiscalCalendarPeriod/(resolvedAttributes)/fiscalCalendarPeriodId](#fiscalCalendarPeriodId)</td><td>attribute</td><td></td></tr></table>
+
+**is.CDM.attributeGroup**  
+  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/applicationCommon/foundationCommon<br>/financeCommon/FiscalCalendarPeriod.cdm.json<br>/FiscalCalendarPeriod/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
+
+**is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Fiscal Calendar Period</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Represents the period in which financial activity occurred, as defined by a fiscal calendar.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+</details>
 
 ## Attributes
 
@@ -42,7 +65,29 @@ First included in: financialCommon/FiscalCalendarPeriod (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Fiscal Calendar Period ID</td></tr><tr><td>description</td><td>The surrogate key of the record</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>String</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Fiscal Calendar Period ID</td></tr><tr><td>description</td><td>The surrogate key of the record</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the fiscalCalendarPeriodId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.identifiedBy**  
+names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[FiscalCalendarPeriod/(resolvedAttributes)/fiscalCalendarPeriodId](#fiscalCalendarPeriodId)</td><td>attribute</td><td></td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Fiscal Calendar Period ID</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The surrogate key of the record</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+</details>
 
 ### <a href=#fiscalCalendarName name="fiscalCalendarName">fiscalCalendarName</a>
 
@@ -51,7 +96,26 @@ First included in: financialCommon/FiscalCalendarPeriod (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Fiscal Calendar Name</td></tr><tr><td>description</td><td>The name of the calendar containing this period</td></tr><tr><td>dataFormat</td><td>String</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Fiscal Calendar Name</td></tr><tr><td>description</td><td>The name of the calendar containing this period</td></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the fiscalCalendarName attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Fiscal Calendar Name</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The name of the calendar containing this period</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+</details>
 
 ### <a href=#periodName name="periodName">periodName</a>
 
@@ -60,7 +124,26 @@ First included in: financialCommon/FiscalCalendarPeriod (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Period Name</td></tr><tr><td>description</td><td>The name of the period</td></tr><tr><td>dataFormat</td><td>String</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Period Name</td></tr><tr><td>description</td><td>The name of the period</td></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the periodName attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Period Name</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The name of the period</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+</details>
 
 ### <a href=#periodOffset name="periodOffset">periodOffset</a>
 
@@ -69,7 +152,23 @@ First included in: financialCommon/FiscalCalendarPeriod (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Period Offset</td></tr><tr><td>description</td><td>The number of periods this period is offset from the current period for use in computations such as previous period</td></tr><tr><td>dataFormat</td><td>Int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Period Offset</td></tr><tr><td>description</td><td>The number of periods this period is offset from the current period for use in computations such as previous period</td></tr><tr><td>dataFormat</td><td>2</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the periodOffset attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Period Offset</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The number of periods this period is offset from the current period for use in computations such as previous period</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.dataFormat.integer**  
+**is.dataFormat.small**  
+</details>
 
 ### <a href=#yearName name="yearName">yearName</a>
 
@@ -78,7 +177,27 @@ First included in: financialCommon/FiscalCalendarPeriod (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Year Name</td></tr><tr><td>description</td><td>The name of the year containing the period</td></tr><tr><td>dataFormat</td><td>String</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Year Name</td></tr><tr><td>description</td><td>The name of the year containing the period</td></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the yearName attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**means.calendar.year**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Year Name</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The name of the year containing the period</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+</details>
 
 ### <a href=#yearOffset name="yearOffset">yearOffset</a>
 
@@ -87,7 +206,23 @@ First included in: financialCommon/FiscalCalendarPeriod (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Year Offset</td></tr><tr><td>description</td><td>The number of years this year is offset from the current year for use in computations such as prior year</td></tr><tr><td>dataFormat</td><td>Int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Year Offset</td></tr><tr><td>description</td><td>The number of years this year is offset from the current year for use in computations such as prior year</td></tr><tr><td>dataFormat</td><td>2</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the yearOffset attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Year Offset</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The number of years this year is offset from the current year for use in computations such as prior year</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.dataFormat.integer**  
+**is.dataFormat.small**  
+</details>
 
 ### <a href=#quarter name="quarter">quarter</a>
 
@@ -96,7 +231,27 @@ First included in: financialCommon/FiscalCalendarPeriod (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Quarter</td></tr><tr><td>description</td><td>The name of the quarter containing the period</td></tr><tr><td>dataFormat</td><td>String</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Quarter</td></tr><tr><td>description</td><td>The name of the quarter containing the period</td></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the quarter attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**means.calendar.quarter**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Quarter</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The name of the quarter containing the period</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+</details>
 
 ### <a href=#quarterOffset name="quarterOffset">quarterOffset</a>
 
@@ -105,7 +260,23 @@ First included in: financialCommon/FiscalCalendarPeriod (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Quarter Offset</td></tr><tr><td>description</td><td>The number of quarters this quarter is offset from the current quarter for use in computations such as same quarter previous year</td></tr><tr><td>dataFormat</td><td>Int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Quarter Offset</td></tr><tr><td>description</td><td>The number of quarters this quarter is offset from the current quarter for use in computations such as same quarter previous year</td></tr><tr><td>dataFormat</td><td>2</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the quarterOffset attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Quarter Offset</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The number of quarters this quarter is offset from the current quarter for use in computations such as same quarter previous year</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.dataFormat.integer**  
+**is.dataFormat.small**  
+</details>
 
 ### <a href=#month name="month">month</a>
 
@@ -114,4 +285,22 @@ First included in: financialCommon/FiscalCalendarPeriod (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Month</td></tr><tr><td>description</td><td>The month containing the period.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Month</td></tr><tr><td>description</td><td>The month containing the period.</td></tr><tr><td>dataFormat</td><td>2</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the month attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**means.calendar**  
+**means.calendar.month**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Month</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The month containing the period.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.dataFormat.integer**  
+**is.dataFormat.small**  
+</details>
