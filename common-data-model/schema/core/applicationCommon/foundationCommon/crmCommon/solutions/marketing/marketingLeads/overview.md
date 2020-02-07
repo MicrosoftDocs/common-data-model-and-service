@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 9/19/2019
+ms.date: 2/6/2020
 ms.author: nebanfic
 ---
 
@@ -16,4 +16,4 @@ ms.author: nebanfic
 
 |Name|Description|
 |---|---|
-|[LeadScoringModel](LeadScoringModel.md)|  |
+|[LeadScoringModel](LeadScoringModel.md)||
