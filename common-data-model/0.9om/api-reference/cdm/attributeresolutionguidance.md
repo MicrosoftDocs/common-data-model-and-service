@@ -11,7 +11,7 @@ ms.author: jibyun
 
 # Attribute Resolution Guidance
 
-An attribute resolution guidance properties that help with the resolution process of [entities](entity.md), attributes, and other resolvable Common Data Model concepts.
+An attribute resolution guidance provides properties that help with the resolution process of [entities](entity.md), attributes, and other resolvable Common Data Model concepts.
 
 ```
 public class CdmAttributeResolutionGuidance extends CdmObjectSimple
@@ -32,7 +32,7 @@ public class CdmAttributeResolutionGuidance extends CdmObjectSimple
 |renameFormat|string|The format specifier for generated attribute names. May contain a single occurence of ('\{a}' or '\{A}'), ('\{m}' or '\{M}'), and '\{o}', for the base (a/A)ttribute name, any (m/M)ember attributes from entities, and array (o)rdinal.<br/><br/>For example, '\{a}\{o}.\{m}' could produce 'address2.city', and '\{a}\{o}' gives 'city1'. Using '\{A}' or '\{M}' will uppercase the first letter of the name portion.|
 |expansion|[Expansion](attributeresolutionguidance.md#expansion)|The parameters that control array expansion if inline repeating of attributes is needed.|
 |entityByReference|[EntityByReference](attributeresolutionguidance.md#entitybyreference)|The parameters that control the use of foreign keys to reference entity instances instead of embedding the entity in a nested way.|
-|selectsSubAttribute|[SelectsSubAttribute](attributeresolutionguidance.md#selectssubattribute)|Indicates that this attribute selects either 'one' or 'all' of the sub-attributes from an entity. If the 'structured' directive is set, this trait causes resolved attributes to end up in groups rather than a flattened list.|
+|selectsSubAttribute|[SelectsSubAttribute](attributeresolutionguidance.md#selectssubattribute)|Indicates that this attribute selects 'one', 'some', or 'all' of the sub-attributes from an entity. If the 'structured' directive is set, this trait causes resolved attributes to end up in groups rather than a flattened list.|
 
 ## Methods
 |Name|Description|Return Type|
@@ -40,7 +40,7 @@ public class CdmAttributeResolutionGuidance extends CdmObjectSimple
 |**makeExpansion()**<br/><br/>*Only in C# and Java.*|Returns a new [Expansion](attributeresolutionguidance.md#expansion) object.|[Expansion](attributeresolutionguidance.md#expansion)|
 |**makeEntityByReference()**<br/><br/>*Only in C# and Java.*|Returns a new [EntityByReference](attributeresolutionguidance.md#entitybyreference) object.|[EntityByReference](attributeresolutionguidance.md#entitybyreference)|
 |**makeSelectsSubAttribute()**<br/><br/>*Only in C# and Java.*|Returns a new [SelectsSubAttribute](attributeresolutionguidance.md#selectssubattribute) object.|[SelectsSubAttribute](attributeresolutionguidance.md#selectssubattribute)|
-|**Copy([ResolveOptions](../utilities/resolveoptions.md))**|See [CdmObject.Copy(...)](cdmobject.md#methods).|[CdmObject](cdmobject.md)|
+|**Copy([ResolveOptions](../utilities/resolveoptions.md), [CdmObject](cdmobject.md))**|See [CdmObject.Copy(...)](cdmobject.md#methods).|[CdmObject](cdmobject.md)|
 |**Validate()**|See [CdmObject.Validate()](cdmobject.md#methods).|bool|
  
 ## Nested Classes
@@ -70,12 +70,12 @@ The parameters that control the use of foreign keys to reference entity instance
 |foreignKeyAttribute|[CdmTypeAttributeDefinition](typeattribute.md)|This attribute definition is added to the entity to hold a foreign key value for the referenced entity.|
 
 ## SelectsSubAttribute
-Indicates that this attribute selects either 'one' or 'all' of the sub-attributes from an entity. If the 'structured' directive is set, this trait causes resolved attributes to end up in groups rather than a flattened list.
+Indicates that this attribute selects 'one', 'some', or 'all' of the sub-attributes from an entity. If the 'structured' directive is set, this trait causes resolved attributes to end up in groups rather than a flattened list.
 
 ### Properties
 |Name|Type|Description|
 |---|---|---|
-|selects|string|Indicates how many sub-attributes are selected (either 'one' or 'all').|
+|selects|string|Indicates how many sub-attributes are selected ('one', 'some', or 'all'). If 'one', then *selectedTypeAttribute* will hold the name of the selected attribute. If 'some', *selectsSomeTakeNames* or *selectSomeAvoidNames* can be used to hold the attributes to take (or avoid) from the source entity. Attributes are added in the same order as they appear in these lists.|
 |selectedTypeAttribute|[CdmTypeAttributeDefinition](typeattribute.md)|This attribute definition is added to the entity to hold a description of the single attribute that was selected from the sub-entity when *selects* is set to 'one'.|
 |selectsSomeTakeNames|List\<string>|The list of sub-attributes from an entity that should be added.|
 |selectsSomeAvoidNames|List\<string>|The list of sub-attributes from an entity that should not be added.|

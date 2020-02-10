@@ -29,7 +29,7 @@ public class CdmCollection<CdmObject> extends List<CdmObject>
 |Count<br/><br/>*Length in TypeScript.*|int|The number of items in the CDM collection.|
 
 ## Methods
-There are additional methods and properties in this class that just extend standard list methods (*IndexOf(...), Insert(...), RemoveAt(...), Clear(), Contains(...), CopyTo(...), GetEnumerator(...)*, etc.). 
+There are additional methods and properties in this class that just extend standard list methods (*IndexOf(...), Insert(...), Clear(), Contains(...), CopyTo(...), GetEnumerator(...)*, etc.).
 
 |Name|Description|Return Type|
 |---|---|---|
@@ -37,5 +37,6 @@ There are additional methods and properties in this class that just extend stand
 |**Add(T)**<br />*currObject*: The CDM object to add to the collection.<br/><br/>*append(...). in Python, push(...) in TypeScript.*|Adds the specified CDM object to the collection.	Returns the CDM object that was added to the collection.|T|
 |**AddRange(IEnumerable\<T>)**<br/>*list*: The list of objects to add.<br/><br/>*addAll(...) in Java, extend(...) in Python, concat(...) in TypeScript.*|Adds the elements of the specified list of objects to the collection.|void|
 |**Remove(T)**<br/>*currObject*: The CDM object to remove from the collection.|Removes the specified CDM object from the collection. Returns true if the operation is successful, false otherwise.|bool|
+|**RemoveAt(int)**<br/>*index*: The index of the object to remove.<br/><br/>*pop(...) in Python.*|Removes the object at the specified index from the collection.|void|
 |**Item(string)**<br />*name*: The name of the CDM object to fetch.|Returns the CDM object with the specified name.|T|
-|**Copy([ResolveOptions](../utilities/resolveoptions.md))**<br/>*resOpt*: The resolve options.<br/><br/>*Only in C#.*|Creates a copy of the current CDM collection.|[CdmCollection\<T>](collection.md)|
+|**Copy([ResolveOptions](../utilities/resolveoptions.md), [CdmObject](cdmobject.md))**<br/>*resOpt*: The resolve options.<br/><br/>*Only in C# and Java.*|Creates a copy of the current CDM collection.|[CdmCollection\<T>](collection.md)|

@@ -26,7 +26,7 @@ public class CdmDataPartitionDefinition extends CdmObjectDefinitionBase, CdmFile
 ## Properties
 |Name|Type|Description|
 |---|---|---|
-|Name<br/><br/>*data_partition_name in Python.*|string|The data partition's name.|
+|Name|string|The data partition's name.|
 |Description|string|The data partition's description.|
 |Location|string|The corpus path to the data partition's location.|
 |Inferred|bool|Denotes whether the data partition was created from a data partition pattern.|
@@ -43,6 +43,6 @@ public class CdmDataPartitionDefinition extends CdmObjectDefinitionBase, CdmFile
 |**FileStatusCheckAsync()**|Updates the object and its children, if any, with the current time.|Task|
 |**GetName()**|See [CdmObjectDefinition.GetName()](cdmobjectdefinition.md#methods).|string|
 |**IsDerivedFrom(string, [ResolveOptions](../utilities/resolveoptions.md))**|See [CdmObject.IsDerivedFrom(...)](cdmobject.md#methods).|bool|
-|**Copy([ResolveOptions](../utilities/resolveoptions.md))**|See [CdmObject.Copy(...)](cdmobject.md#methods).|[CdmObject](cdmobject.md)|
+|**Copy([ResolveOptions](../utilities/resolveoptions.md), [CdmObject](cdmobject.md))**|See [CdmObject.Copy(...)](cdmobject.md#methods).|[CdmObject](cdmobject.md)|
 |**Validate()**|See [CdmObject.Validate()](cdmobject.md#methods).|bool|
 

@@ -26,7 +26,9 @@
     href: schema/core/applicationCommon/toc.yml
   - name: API Reference
     items:
-      - name: Common Data Model Object Model
+      - name: Overview
+        href: 0.9om/api-reference/api-reference.md
+      - name: Object Model
         items:
           - name: Overview
             href: 0.9om/api-reference/cdm/cdm.md
@@ -144,5 +146,7 @@
             href: 0.9om/api-reference/utilities/logger.md  
           - name: Resolve Options
             href: 0.9om/api-reference/utilities/resolveoptions.md  
+  - name: How to create schema documents 
+    href: creating-schemas.md
   - name: Frequently asked questions
     href: faq.md

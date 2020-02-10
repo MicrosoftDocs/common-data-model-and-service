@@ -11,8 +11,6 @@ ms.author: jibyun
 
 # Class
 
-
-
 ```
 
 ```

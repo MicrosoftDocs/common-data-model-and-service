@@ -5,11 +5,12 @@ author: theresapalmer
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 11/21/2018
+ms.date: 11/21/2019
 ms.author: tpalmer
 ---
 
 # Frequently asked questions about the Common Data Model
+
 <!--I found this extremely helpful. There are some places (lines 65, 71, 100, and 132) that indicate things that are going to change. We should flag these somehow.-->
 This topic contains answers to frequently asked questions and best practices around a variety of areas related to the Common Data Model, including Common Data Service and Microsoft Azure Data Lake Storage Gen2. If you have more questions or comments about the Common Data Model and related topics, we recommend that you [submit an issue in GitHub](https://github.com/microsoft/cdm/issues).
 
@@ -76,6 +77,7 @@ The standard entity definitions, and the schema format itself, use a major/minor
 
 You can find sample libraries to read Common Data Model schema documents in [TypeScript](https://github.com/Microsoft/CDM/tree/master/src), and sample libraries in [.NET](https://aka.ms/AA39f6f) and [Python](https://aka.ms/AA39n1b) to read and write model.json files. More libraries are coming; please add your requests or comments at [the library location in the GitHub repository](https://github.com/microsoft/CDM).<!--Is this what "library location" means?-->
 
+
 ## Common Data Service
 
 <a name="how-does-the-common-data-model-relate-to-common-data-service"></a>
@@ -134,6 +136,7 @@ Today, Common Data Model folders and data files are treated the same as any othe
 ### How do I access Common Data Model artifacts?
 
 You can create, read, update, or delete Common Data Model folders, model.json files, and data files by using APIs for Data Lake Storage Gen2.<br>More information: [Azure Data Lake Store REST API](https://docs.microsoft.com/rest/api/storageservices/data-lake-storage-gen2)
+
 
 ## Power BI dataflows
 

@@ -20,7 +20,7 @@ The Common Data Model simplifies this process by providing a shared data languag
 
 In addition to the metadata system, the Common Data Model includes a set of standardized, extensible data schemas that Microsoft and its partners have published. This collection of predefined schemas includes entities, attributes, semantic metadata, and relationships. The schemas represent commonly used concepts and activities, such as **Account** and **Campaign**, to simplify the creation, aggregation, and analysis of data. This graphic shows some elements of the standard entities. More information: [Common Data Model repository on GitHub](https://aka.ms/cdmrepo) <!--note from editor: In the following graphic, the callout line from "Account" needs to be erased.-->
 
-![Common Data Model](media/cdm-entities.png "The Common Data Model")
+![Common Data Model](media/cdm-entities-v1.png "Common Data Model")
 
 More information: [The Common Data Model poster](https://aka.ms/cdmposter)
 <!--note from editor: This poster needs to spell out "CDM." At the bottom, the phrase "For more details go to aka.ms/cdmposter" needs to be deleted, because it's just pointing back at itself.-->
@@ -85,7 +85,7 @@ Organizations from industries such as healthcare are working closely with Micros
 
 ## Next steps
 
-<!--note from editor: "Next steps" would work better if these were written as action items.-->
-[How to use the Common Data Model](use.md): See use cases for structuring data according to the model or transforming your existing data.  
-[Industry solution accelerators](industry-accelerators.md): Learn about the effort around industry extensions and the solutions that Microsoft has already released.  
-[The Common Data Model and Microsoft Azure Data Lake Storage Gen2](data-lake.md): Learn how putting data in Common Data Model form and storing it in Azure Data Lake Storage Gen2 helps services in the Azure ecosystem to exchange data.
+[How to use the Common Data Model](use.md): Describes the Common Data Model in detail and discusses use cases for creating data in the model or transforming your existing data into the model.  
+[How to create Common Data Model schema documents](creating-schemas.md): Describes how to create custom Common Data Model entity schema documents.   
+[Learn more about Industry Accelerators](industry-accelerators.md): Describes the effort around industry extensions and the solutions that Microsoft has already released.  
+[The Common Data Model and Microsoft Azure Data Lake Storage Gen2](data-lake.md): Describes how putting data in Common Data Model form and storing it in Azure Data Lake Storage Gen2 helps services in the Azure ecosystem to exchange data.

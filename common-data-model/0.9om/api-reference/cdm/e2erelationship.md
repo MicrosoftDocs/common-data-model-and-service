@@ -26,7 +26,7 @@ public class CdmE2ERelationship extends CdmObjectDefinitionBase
 ## Properties
 |Name|Type|Description|
 |---|---|---|
-|Name<br/><br/>*RelationshipName in TypeScript and Python.*|string|The relationship's name.|
+|Name<br/><br/>*relationship_name in Python.*|string|The relationship's name.|
 |FromEntity|string|The corpus path to the entity the relationship is pointing from.|
 |FromEntityAttribute|string|The entity attribute the relationship is pointing from (foreign key).|
 |ToEntity|string|The corpus path to entity the relationship is pointing to.|
@@ -37,6 +37,6 @@ public class CdmE2ERelationship extends CdmObjectDefinitionBase
 |---|---|---|
 |**GetName()**|See [CdmObjectDefinition.GetName()](cdmobjectdefinition.md#methods).|string|
 |**IsDerivedFrom(string, [ResolveOptions](../utilities/resolveoptions.md))**|See [CdmObject.IsDerivedFrom(...)](cdmobject.md#methods).|bool|
-|**Copy([ResolveOptions](../utilities/resolveoptions.md))**|See [CdmObject.Copy(...)](cdmobject.md#methods).|[CdmObject](cdmobject.md)|
+|**Copy([ResolveOptions](../utilities/resolveoptions.md), [CdmObject](cdmobject.md))**|See [CdmObject.Copy(...)](cdmobject.md#methods).|[CdmObject](cdmobject.md)|
 |**Validate()**|See [CdmObject.Validate()](cdmobject.md#methods).|bool|
 
