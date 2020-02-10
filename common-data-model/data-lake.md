@@ -9,8 +9,8 @@ ms.date: 11/21/2018
 ms.author: tpalmer
 ---
 
-# The Common Data Model and Azure Data Lake Storage Gen2
-<!--This is a very nice topic (though it has some outdated branding in text and in the graphic named cmd-filesystems.png that needs attention). One thing that troubles me is that there's no verb in the title, so I'm not sure what the action step is here. Could it be something like "Use the Common Data Model to optimize Azure Data Lake Storage Gen2"? -->
+# Use the Common Data Model to optimize Azure Data Lake Storage Gen2
+
 Data stored in accordance with the Common Data Model provides semantic consistency across apps and deployments. With the evolution of the Common Data Model metadata system, the model brings the same structural consistency and semantic meaning to the data stored in Microsoft Azure Data Lake Storage Gen2 with hierarchical namespaces and folders that contain schematized data in standard Common Data Model format. The standardized metadata and self-describing data in an Azure data lake facilitates metadata discovery and interoperability between data producers and data consumers such as Power BI, Azure Data Factory, Azure Databricks, and Azure Machine Learning.
 
 ![Common Data Model data producers and consumers in Data Lake Storage Gen2](media/cdm-data-lake.png "Common Data Model data producers and data consumers in Data Lake Storage Gen2")
@@ -54,12 +54,10 @@ Each data producer stores its data in isolation from other data producers. The s
 
 ## Folder organization
 
-<!--Please check edit to "directly under the file system."-->
-Data producers can choose how to organize the Common Data Model folders within their own file system. You can create Common Data Model folders directly under the file system level, but for some services you might want to use subfolders for disambiguation or to better organize data as it's presented in your own product. The folder naming and structure should be meaningful for customers who access the data lake directly.
+Data producers can choose how to organize the Common Data Model folders within their file system. You can create Common Data Model folders directly under the file system level, but for some services you might want to use subfolders for disambiguation or to better organize data as it's presented in your own product. The folder naming and structure should be meaningful for customers who access the data lake directly.
 
 The following diagram shows how a data lake that data producers share can be structured. Each service (Dynamics 365, Dynamics 365 Finance, and Power BI) creates and owns its own file system. Depending on the experience in each service, subfolders might be created to better organize Common Data Model folders in the file system.
 
-<!--I changed "Dynamics for Finance and Operations" to the new name, "Dynamics 365 Finance" in the graphic I overwrote this one with. I think it would be better to have a specific product instead of "Dynamics 365" in this graphic, but I don't think it's absolutely wrong to have it.-->
 ![File systems with Common Data Model folders and subfolders](media/cdm-filesystems.png "File systems with Common Data Model folders and subfolders")
 
 ## Data consumers
