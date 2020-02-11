@@ -5,13 +5,12 @@ author: theresapalmer
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 11/21/2019
+ms.date: 02/11/2020
 ms.author: tpalmer
 ---
 
 # Frequently asked questions about the Common Data Model
 
-<!--I found this extremely helpful. There are some places (lines 65, 71, 100, and 132) that indicate things that are going to change. We should flag these somehow.-->
 This topic contains answers to frequently asked questions and best practices around a variety of areas related to the Common Data Model, including Common Data Service and Microsoft Azure Data Lake Storage Gen2. If you have more questions or comments about the Common Data Model and related topics, we recommend that you [submit an issue in GitHub](https://github.com/microsoft/cdm/issues).
 
 - General
@@ -63,19 +62,19 @@ The Common Data Model schema and standard entities are influenced by existing st
 
 ### What type of semantic information can be defined with the Common Data Model?
 
-The Common Data Model schema definitions include a wide variety of semantic information, such as metadata related to geolocation, demographics, measurements, and calendar/dates, in addition to standard data types. You can see examples of these types within the published Common Data Model standard entities and a full catalog of these types will be released soon.<!--Does this refer to anything (Entity Reference or API Reference) that actually is published on the docs.msft.com that we can link to?-->
+The Common Data Model schema definitions include a wide variety of semantic information, such as metadata related to geolocation, demographics, measurements, and calendar/dates, in addition to standard data types. You can see examples of these types within the published Common Data Model [standard entities](https://docs.microsoft.com/common-data-model/schema/core/applicationcommon/overview).
 
 <a name="how-are-schemas-and-other-artifacts-versioned"></a>
 
 ### How are schemas and other artifacts versioned?
 
-The standard entity definitions, and the schema format itself, use a major/minor versioning system. For standard entities, you can find the version in the URI (Account.0.8.cdm.json) and entity definition.  <!--That's not the most recent version, is it? Maybe we should just point them to the page in GitHub - https://github.com/microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon - and tell them to find the latest Account.* version?-->
+The standard entity definitions, and the schema format itself, use a major/minor versioning system. For standard entities, you can find the version informationhttps://github.com/microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon - and tell them to find the latest Account.* version?-->
 
 <a name="where-can-i-find-libraries-to-help-read-and-write-common-data-model-metadata"></a>
 
 ### Where can I find libraries to help read and write Common Data Model metadata?
 
-You can find sample libraries to read Common Data Model schema documents in [TypeScript](https://github.com/Microsoft/CDM/tree/master/src), and sample libraries in [.NET](https://aka.ms/AA39f6f) and [Python](https://aka.ms/AA39n1b) to read and write model.json files. More libraries are coming; please add your requests or comments at [the library location in the GitHub repository](https://github.com/microsoft/CDM).<!--Is this what "library location" means?-->
+You can find sample libraries to read Common Data Model schema documents in [TypeScript](https://github.com/Microsoft/CDM/tree/master/src), and sample libraries in [.NET](https://aka.ms/AA39f6f) and [Python](https://aka.ms/AA39n1b) to read and write model.json files.
 
 
 ## Common Data Service
@@ -98,14 +97,13 @@ Some standard entities in the Common Data Model are built in to each Common Data
 
 ### How do I discover Common Data Model content in the data lake?
 
-<!--Edit okay? This seemed a bit ambiguous when it was cast in passive voice.-->
 Today, you can identify which is a Common Data Model folder in the data lake by whether the folder includes a model.json file that conforms to the Common Data Model model.json specification. We're working to add better discovery mechanisms, so that you can more easily find and consume data and metadata in Common Data Model folders.
 
 <a name="how-do-i-get-started"></a>
 
 ### How do I get started?
 
-Start by creating an instance of Data Lake Storage Gen2 that has hierarchical namespaces enabled. When the instance is available, you can onboard it to a service that produces Common Data Model folders (such as Power BI dataflows) or create your own file system and Common Data Model folder format. Then, you provide access to a service &mdash;or your own application&mdash;that consumes Common Data Model folders.<!--edit okay? The service wouldn't consume the reader's "own applications," would it?-->
+Start by creating an instance of Data Lake Storage Gen2 that has hierarchical namespaces enabled. When the instance is available, you can onboard it to a service that produces Common Data Model folders (such as Power BI dataflows) or create your own file system and Common Data Model folder format. Then, you provide access to a service &mdash;or your own application&mdash;that consumes Common Data Model folders.
 
 <a name="what-are-the-correct-authorization-levels-for-common-data-model-folders"></a>
 

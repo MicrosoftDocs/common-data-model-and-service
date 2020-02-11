@@ -4,7 +4,7 @@ description: As foundational components in Microsoft Power Platform and Dynamics
 author: Smithy7
 ms.service: common-data-model
 ms.topic: article
-ms.date: 07/11/2019
+ms.date: 02/11/2020
 ms.reviewer: deonhe
 ms.author: smithc
 ---

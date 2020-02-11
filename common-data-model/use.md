@@ -5,7 +5,7 @@ author: theresapalmer
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 01/07/2020
+ms.date: 02/11/2020
 ms.author: tpalmer
 ---
 
@@ -29,13 +29,14 @@ Microsoft continues to extend the Common Data Model in concert with many partner
 
 ## Perform quick data integration by using Power Query Online
 
-Both platforms <!--note from editor: What are both platforms? Common Data Service and Power BI dataflows?-->that currently support the Common Data Model also offer data-integration experiences through Power Query Online, which lets users bring in data from a variety of sources, transform it if necessary, and then map it to standard entities in the Common Data Model or create custom entities. Power Query Online leverages the same visual, self-service data-prep experience as Power Query within Excel and Power BI Desktop, so existing users can ramp up quickly.
+
+Both platforms that currently support the Common Data Model also offer data-integration experiences through Power Query Online, which lets users bring in data from a variety of sources, transform it if necessary, and then map it to standard entities in the Common Data Model or create custom entities. Power Query Online leverages the same visual, self-service data-prep experience as Power Query within Excel and Power BI Desktop, so existing users can ramp up quickly.
 
 ![Map data with entities in the Common Data Model](media/cdm-map-entities.png "Map data with entities in the Common Data Model")
 
 ## Jump-start Common Data Service app development
 
-By using Common Data Service, you can jump-start app development <!--note from editor: Is this what "jump-start apps" means?--> by using the Common Data Model with business logic, security, and integration already built in. The platform provides these benefits:
+By using Common Data Service, you can jump-start app development by using the Common Data Model with business logic, security, and integration already built in. The platform provides these benefits:
 
 - **Leverage packaged business applications**: Many Microsoft Dynamics 365 solutions and third-party apps are built on top of (or at least leverage) Common Data Service. When your data is structured according to the Common Data Model, you can take advantage of those packaged applications.
 
