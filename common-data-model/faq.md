@@ -68,13 +68,13 @@ The Common Data Model schema definitions include a wide variety of semantic info
 
 ### How are schemas and other artifacts versioned?
 
-The standard entity definitions, and the schema format itself, use a major/minor versioning system. For standard entities, you can find the version informationhttps://github.com/microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon - and tell them to find the latest Account.* version?-->
+The standard entity definitions, and the schema format itself, use a major/minor versioning system. Learn more about [versions](https://github.com/microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon) for standard entities.
 
 <a name="where-can-i-find-libraries-to-help-read-and-write-common-data-model-metadata"></a>
 
 ### Where can I find libraries to help read and write Common Data Model metadata?
 
-You can find sample libraries to read Common Data Model schema documents in [TypeScript](https://github.com/Microsoft/CDM/tree/master/src), and sample libraries in [.NET](https://aka.ms/AA39f6f) and [Python](https://aka.ms/AA39n1b) to read and write model.json files.
+You can find sample libraries to read and write Common Data Model schema documents in [.NET](https://aka.ms/AA39f6f), [Java](https://github.com/microsoft/CDM/tree/master/objectModel/Java), [Python](https://aka.ms/AA39n1b), and [TypeScript](https://github.com/Microsoft/CDM/tree/master/src).
 
 
 ## Common Data Service
