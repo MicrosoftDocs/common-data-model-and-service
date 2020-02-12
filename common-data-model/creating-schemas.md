@@ -77,7 +77,7 @@ You'll start by creating an entity schema for the *logical* entity, **UserAgent*
 ```json
 {
 	"$schema": "../schema.cdm.json",
-	"jsonSchemaSemanticVersion": "1.0.0.0",
+	"jsonSchemaSemanticVersion": "1.0.0",
 	"imports": [{
 		"corpusPath": "/foundations.cdm.json"
 	}],
