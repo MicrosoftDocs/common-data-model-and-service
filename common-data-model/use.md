@@ -30,7 +30,7 @@ Microsoft continues to extend the Common Data Model in concert with many partner
 ## Perform quick data integration by using Power Query Online
 
 
-Both platforms that currently support the Common Data Model also offer data-integration experiences through Power Query Online, which lets users bring in data from a variety of sources, transform it if necessary, and then map it to standard entities in the Common Data Model or create custom entities. Power Query Online leverages the same visual, self-service data-prep experience as Power Query within Excel and Power BI Desktop, so existing users can ramp up quickly.
+Power Platform and Power BI offer data-integration experiences through Power Query Online, allowing users to bring in data from a variety of sources, transform it if necessary, and then map it to standard entities in the Common Data Model or create custom entities. Power Query Online leverages the same visual, self-service data preparation experience as Power Query within Microsoft Excel and Power BI Desktop, so existing users can begin using it quickly.
 
 ![Map data with entities in the Common Data Model](media/cdm-map-entities.png "Map data with entities in the Common Data Model")
 
