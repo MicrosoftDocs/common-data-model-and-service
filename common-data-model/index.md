@@ -20,9 +20,9 @@ The Common Data Model simplifies this process by providing a shared data languag
 
 In addition to the metadata system, the Common Data Model includes a set of standardized, extensible data schemas that Microsoft and its partners have published. This collection of predefined schemas includes entities, attributes, semantic metadata, and relationships. The schemas represent commonly used concepts and activities, such as **Account** and **Campaign**, to simplify the creation, aggregation, and analysis of data. This graphic shows some elements of the standard entities. More information: [Common Data Model repository on GitHub](https://aka.ms/cdmrepo)
 
-![Common Data Model](media/cdm-entities-v1.png "Common Data Model")
+![Common Data Model poster](media/cdm-entities-v1.png "Common Data Model poster")
 
-More information: [The Common Data Model poster](https://aka.ms/cdmposter)
+More information: [Download the Common Data Model poster](https://aka.ms/cdmposter)
 
 ## Why use the Common Data Model?
 
