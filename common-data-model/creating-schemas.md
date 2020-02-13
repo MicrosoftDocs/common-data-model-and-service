@@ -140,7 +140,7 @@ The data type for this attribute is a string. Alternatively, you could have used
 		"description": "Browser name.",
 	},
 	{
-		"name": "browserName",
+		"name": "browserVersion",
 		"dataType": "string",
 		"appliedTraits": [
 			"means.measurement.version"
@@ -150,7 +150,7 @@ The data type for this attribute is a string. Alternatively, you could have used
 ]
 ```
 
-Here, the trait “means.measurement.version” was applied to this attribute, which shows that *uaBrowserVersion* measures a version of some kind. Again, having traits provides more insight to what an attribute is than just describing *uaBrowserVersion* as a string. 
+Just like *browserName* in the previous step, *browserVersion* was used as the name instead of *uaBrowserVersion*. Also notice that the trait “means.measurement.version” was applied to this attribute, which shows that *browserVersion* measures a version of some kind. Again, having traits provides more insight to what an attribute is than just describing *browserVersion* as a string.
 
 >[!TIP]
 >The list of all the traits that are available is listed in the various *meanings.cdm.json* files. For instance, the trait "means.measurement.version" is defined under the *meanings.measurement.cdm.json* document. 
