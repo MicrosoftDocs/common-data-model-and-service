@@ -22,7 +22,7 @@ In addition to the metadata system, the Common Data Model includes a set of stan
 
 ![Common Data Model poster](media/cdm-entities-v1.png "Common Data Model poster")
 
-More information: [Download the Common Data Model poster](https://aka.ms/cdmposter)
+[Download the Common Data Model poster](https://aka.ms/cdmposter)
 
 ## Why use the Common Data Model?
 
