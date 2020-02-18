@@ -13,7 +13,7 @@ ms.author: jibyun
 
 ## Overview
 
-In this section, you will find the specifications for the public Common Data Model APIs. There are three sections to this API reference:
+In this section, you'll find the specifications for the public Common Data Model APIs. There are three sections to this API reference:
 
 * [Object Model](cdm/cdm.md) contains the specifications for the core Common Data Model object model APIs.
 
