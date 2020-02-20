@@ -87,7 +87,7 @@ These entities are built in to the Automotive Accelerator:
 The Dynamics 365 Automotive Accelerator can be used with Power Platform or combined with standard Dynamics 365 entities to make it easier to build solutions. This section describes just a few of the forms, views, and dashboards that demonstrate how the Automotive Accelerator extends the Microsoft Common Data Model, the Power Platform, and Dynamics 365.
 
 ### Lead disposition form
-The Automotive CDM supports inbound lead data based on the [STAR](https://www.starstandard.org) guidelines. The form below showcases a sample lead disposition process based on a consistent set of activities while highlighting native Dynamics 365 AI and Insight capabilities for Predictive Lead Scoring and Relationship Analytics.
+The Automotive Common Data Model supports inbound lead data based on the [STAR](https://www.starstandard.org) guidelines. The form below showcases a sample lead disposition process based on a consistent set of activities while highlighting native Dynamics 365 AI and Insight capabilities for Predictive Lead Scoring and Relationship Analytics.
 
 ![Lead form](media/auto-lead.png)
 
