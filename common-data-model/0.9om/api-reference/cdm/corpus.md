@@ -28,15 +28,15 @@ public class CdmCorpusDefinition
 |RootPath|string|The root path of the corpus.|
 |Storage|[StorageManager](../storage/storagemanager.md)|The storage for the corpus. Used for interacting with storage adapters.|
 |AppId|string|The ID of the application using the OM. This is an optional property.|
+|DefaultResolutionDirectives|AttributeResolutionDirectiveSet|The set of default resolution directives that will be used by the OM when it is resolving entities and when no per-call set of directives is provided.|
 
 ## Methods
 |Name|Description|Return Type|
 |---|---|---|
 |**MakeRef\<T>([CdmObjectType](objecttype.md), dynamic, bool)**<br/>*ofType*: The type of the CDM object we want to make. <br/>*refObj*: The reference object. <br/> *simpleNameRef*: A boolean that denotes whether it is a simple name reference.|Instantiates an OM class reference based on the object type passed as the first parameter.|T, where T extends [CdmObjectReference](cdmobjectreference.md)|
 |**MakeObject\<T>([CdmObjectType](objecttype.md), string, bool)**<br/>*ofType*: The type of the CDM object we want to make. <br/>*nameOrRef [optional]*: The name or reference.<br/>*simpleNameRef [optional]*: A boolean that denotes whether the reference is simple named or not. The default value is false.|Instantiates an OM class based on the object type passed as the first parameter.|T, where T extends [CdmObject](cdmobject.md)|
-|**FetchObjectAsync\<T>(string, [CdmObject](cdmobject.md))**<br/>*objectPath*: The object path of a folder or document. Can be absolute or relative.<br/>*obj [optional]*: When provided, it is used to obtain the *FolderPath* and *Namespace* needed to create the absolute path from a relative path.|Fetches the object in the specified path from the corpus.|Task\<T>|
+|**FetchObjectAsync\<T>(string, [CdmObject](cdmobject.md), bool)**<br/>*objectPath*: The object path of a folder or document. Can be absolute or relative.<br/>*obj [optional]*: When provided, it is used to obtain the *FolderPath* and *Namespace* needed to create the absolute path from a relative path.<br/>*shallowValidation [optional]*: When provided, shallow validation in [ResolveOptions](../utilities/resolveoptions.md) is enabled, which logs errors regarding loading and resolving object references as warnings instead.|Fetches the object in the specified path from the corpus.|Task\<T>|
 |**SetEventCallback([EventCallback](../utilities/callback.md), [CdmStatusLevel](statuslevel.md))**<br/>*status*: The callback. <br/>*reportAtLevel*: At which status level to report.<br/><br/>*Only in C#, Python, and TypeScript.*| Sets the status and error callback that gets called for status/warning/error purposes.|void|
 |**CalculateEntityGraphAsync([CdmManifestDefinition](manifest.md))**<br/>*currManifest*: The manifest (and any sub-manifests it contains) that we want to calculate relationships for.|Calculates the entity-to-entity relationships for all the entities present in the manifest and its sub-manifests.|Task|
 |**FetchIncomingRelationships([CdmEntityDefinition](entity.md))**<br/>*entity*: The entity that we want to get relationships for.|Returns a list of relationships where the input entity is the incoming entity.|List\<[CdmE2ERelationship](e2erelationship.md)>|
-|**FetchOutgoingRelationships([CdmEntityDefinition](entity.md))**<br/>*entity*: The entity that we want to get relationships for.|Returns a list of relationships where the input entity is the outgoing entity.|List\<[CdmE2ERelationship](e2erelationship.md)>|
-
+|**FetchOutgoingRelationships([CdmEntityDefinition](entity.md))**<br/>*entity*: The entity for which we want to get relationships.|Returns a list of relationships where the input entity is the outgoing entity.|List\<[CdmE2ERelationship](e2erelationship.md)>|
