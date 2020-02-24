@@ -21,7 +21,7 @@ public class ResolveOptions
 |Name|Description|
 |---|---|
 |**ResolveOptions()**|Initializes a new instance of the [ResolveOptions](resolveoptions.md) class.|
-|**ResolveOptions([CdmDocumentDefinition](../cdm/document.md), AttributeResolutionDirectiveSet)**<br/>*cdmDocument*: The document to use as the point of reference when resolving relative paths and symbol names.<br/>*directives [optional]*: The set of string flags that direct how attribute resolving traits should behave.|
+|**ResolveOptions([CdmDocumentDefinition](../cdm/document.md), AttributeResolutionDirectiveSet)**<br/>*cdmDocument*: The document to use as the point of reference when resolving relative paths and symbol names.<br/>*directives [optional]*: The set of string flags that direct how attribute-resolving traits should behave.|
 |**ResolveOptions([CdmObject](../cdm/cdmobject.md), AttributeResolutionDirectiveSet)**<br/>*cdmObject*: The CDM object to use to fetch the document that contains the owner of this object. The fetched document is then used as the point of reference when resolving relative paths and symbol names.<br/>*directives [optional]*: The set of string flags that direct how attribute resolving traits should behave.|Initializes a new instance of the [ResolveOptions](resolveoptions.md) class using the most common parameters.|
 
 ## Properties
