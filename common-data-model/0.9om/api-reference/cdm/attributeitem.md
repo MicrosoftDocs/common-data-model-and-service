@@ -16,7 +16,7 @@ An attribute item represents the base interface for a generic attribute that cou
 ```
 public interface CdmAttributeItem extends CdmObject, CdmReferencesEntities
 ```
-*CdmAttributeItem is a class in Python.*
+*This interface is substituted with a regular class in Python.*
 
 ## Properties
 |Name|Type|Description|

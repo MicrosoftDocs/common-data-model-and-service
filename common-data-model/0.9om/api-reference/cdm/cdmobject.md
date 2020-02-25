@@ -16,7 +16,7 @@ This is the base interface for all Common Data Model objects. It's extended by *
 ```
 public interface CdmObject
 ```
-*CdmObject is a class in Python.*
+*This interface is substituted with a regular class in Python.*
 
 ## Properties
 |Name|Type|Description|

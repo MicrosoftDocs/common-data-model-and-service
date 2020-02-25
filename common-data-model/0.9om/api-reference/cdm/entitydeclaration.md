@@ -16,7 +16,7 @@ An entity declaration provides a simple functionality that's extended by a [loca
 ```
 public interface CdmEntityDeclarationDefinition extends CdmObjectDefinition, CdmFileStatus
 ```
-*CdmEntityDeclarationDefinition is a class in Python.*
+*This interface is substituted with a regular class in Python.*
 
 ## Properties
 |Name|Type|Description|

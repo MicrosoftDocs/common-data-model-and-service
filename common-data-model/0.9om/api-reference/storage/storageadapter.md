@@ -16,7 +16,7 @@ This is the base interface for an adapter object that can read and write documen
 ```
 public interface StorageAdapter
 ```
-*StorageAdapter is a class in Python and is called StorageAdapterBase.*
+*This interface is substituted with a regular class in Python and is called StorageAdapterBase.*
 
 ## Properties
 |Name|Type|Description|

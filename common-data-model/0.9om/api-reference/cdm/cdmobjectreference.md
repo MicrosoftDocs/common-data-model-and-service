@@ -16,7 +16,7 @@ This is the base interface for all Common Data Model object references. It's ext
 ```
 public interface CdmObjectReference extends CdmObject
 ```
-*CdmObjectReference is a class in Python.*
+*This interface is substituted with a regular class in Python.*
 
 ## Properties
 |Name|Type|Description|
