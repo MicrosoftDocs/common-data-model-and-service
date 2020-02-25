@@ -11,7 +11,7 @@ ms.author: jibyun
 
 # Storage Manager
 
-The storage manager acts like a storage for the [Corpus](../cdm/corpus.md) and is used to interact with [storage adapters](storageadapter.md).
+The storage manager acts like a storage for the [corpus](../cdm/corpus.md) and is used to interact with [storage adapters](storageadapter.md).
 
 ```
 public class StorageManager
@@ -25,7 +25,7 @@ public class StorageManager
 ## Properties
 |Name|Type|Description|
 |---|---|---|
-|DefaultNamespace|string|The namespace that will be used when one is not explicitly provided.|
+|DefaultNamespace|string|The namespace that will be used when one isn't explicitly provided.|
 |NamespaceAdapters|IDictionary\<string, [StorageAdapter](storageadapter.md)>|The dictionary of registered namespaces to storage adapters.|
 
 ## Methods

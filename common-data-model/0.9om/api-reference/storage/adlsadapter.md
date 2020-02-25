@@ -11,7 +11,7 @@ ms.author: jibyun
 
 # ADLS Adapter
 
-The ADLS adapter is the storage adapter that is used to interact with data on Azure Data Lake Storage Gen2.
+The ADLS adapter is the storage adapter that's used to interact with data on Azure Data Lake Storage Gen2.
 
 ```
 public class ADLSAdapter extends NetworkAdapter, StorageAdapter
@@ -45,7 +45,7 @@ public class ADLSAdapter extends NetworkAdapter, StorageAdapter
 |**WriteAsync(string, string)**|See [StorageAdapter.WriteAsync(...)](storageadapter.md#methods).|Task|
 |**CreateAdapterPath(string)**|See [StorageAdapter.CreateAdapterPath(...)](storageadapter.md#methods).|string|
 |**CreateCorpusPath(string)**|See [StorageAdapter.CreateCorpusPath(...)](storageadapter.md#methods).|string|
-|**ClearCache()**|See [StorageAdapter.ClearCache()](storageadapter.md#methods). This method does not do anything because the ADLS adapter does not maintain a cache.|void|
+|**ClearCache()**|See [StorageAdapter.ClearCache()](storageadapter.md#methods). This method doesn't do anything because the ADLS adapter doesn't maintain a cache.|void|
 |**ComputeLastModifiedTimeAsync(string)**|See [StorageAdapter.ComputeLastModifiedTimeAsync(...)](storageadapter.md#methods).|Task\<DateTimeOffset?>|
 |**FetchAllFilesAsync(string)**|See [StorageAdapter.FetchAllFilesAsync(...)](storageadapter.md#methods).|Task\<List\<string>>|
 |**FetchConfig()**|See [StorageAdapter.FetchConfig()](storageadapter.md#methods).|string|

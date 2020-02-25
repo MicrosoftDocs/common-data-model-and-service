@@ -11,7 +11,7 @@ ms.author: jibyun
 
 # CdmObject Reference
 
-This is the base interface for all Common Data Model object references. It is extended by *CdmObjectReferenceBase* (in C#, Java, and TypeScript), *CdmAttributeContextReference, CdmAttributeGroupReference, CdmAttributeReference, CdmDataTypeReference, CdmEntityReference*, and *CdmPurposeReference*.
+This is the base interface for all Common Data Model object references. It's extended by *CdmObjectReferenceBase* (in C#, Java, and TypeScript), *CdmAttributeContextReference, CdmAttributeGroupReference, CdmAttributeReference, CdmDataTypeReference, CdmEntityReference*, and *CdmPurposeReference*.
 
 ```
 public interface CdmObjectReference extends CdmObject
@@ -24,4 +24,4 @@ public interface CdmObjectReference extends CdmObject
 |AppliedTraits|[CdmTraitCollection](traitcollection.md)|The collection of applied traits.|
 |ExplicitReference|[CdmObjectDefinition](cdmobjectdefinition.md)|The object definition that this reference is referencing.|
 |NamedReference|string|The string used to simply reference different concepts just by name without having to include any other extra data.|
-|SimpleNamedReference|bool|A boolean that denotes whether the reference is simple named or not. If true, it will use a named reference, otherwise it will use an explicit reference.|
+|SimpleNamedReference|bool|A boolean that denotes whether the reference is simple named or not. If true, it'll use a named reference, otherwise it'll use an explicit reference.|

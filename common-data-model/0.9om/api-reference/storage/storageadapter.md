@@ -11,7 +11,7 @@ ms.author: jibyun
 
 # StorageAdapter
 
-This is the base interface for an adapter object that can read and write documents to and from a data source. It allows a user to interact with data from multiple data sources without having to manually copy data to the location where the Common Data Model object model is running. This interface also allows users to create their own adapter, if needed.
+This is the base interface for an adapter object that can read and write documents to and from a data source. It allows a user to interact with data from multiple data sources without having to manually copy data to the location where the [object model](../cdm/cdm.md) is running. This interface also allows users to create their own adapter, if needed.
 
 ```
 public interface StorageAdapter
