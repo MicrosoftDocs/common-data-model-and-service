@@ -21,4 +21,4 @@ public interface TokenProvider
 ## Methods
 |Name|Description|Return Type|
 |---|---|---|
-|**GetToken()**|Returns the token string with the authentication type included (for example, "Bearer XXXXX"). It is expected that the returned token has been validated for expiration upfront by the implementer of the interface.|string|
+|**GetToken()**|Returns the token string with the authentication type included (for example, "Bearer XXXXX"). It's expected that the returned token has been validated for expiration upfront by the implementer of the interface.|string|
