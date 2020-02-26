@@ -29,8 +29,8 @@ public class CdmManifestDeclarationDefinition extends CdmObjectDefinitionBase, C
 |ManifestName|string|The name of the manifest declared.|
 |Definition|string|The corpus path to the definition of the sub-folder.|
 |LastFileStatusCheckTime|DateTimeOffset?|The last time the modified time was checked for this file.|
-|LastFileModifiedTime|DateTimeOffset?|The last time this file was modified according to the OM.|
-|LastChildFileModifiedTime|DateTimeOffset?|The last time a child file was modified according to the OM.|
+|LastFileModifiedTime|DateTimeOffset?|The last time this file was modified according to the object model.|
+|LastChildFileModifiedTime|DateTimeOffset?|The last time a child file was modified according to the object model.|
 
 ## Methods
 |Name|Description|Return Type|

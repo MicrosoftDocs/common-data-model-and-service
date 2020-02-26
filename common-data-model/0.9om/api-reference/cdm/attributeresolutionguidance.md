@@ -28,7 +28,7 @@ public class CdmAttributeResolutionGuidance extends CdmObjectSimple
 |imposedDirectives|List\<string>|A list of strings, one for each 'directive' that should always be imposed for this attribute definition.|
 |removedDirectives|List\<string>|A list of strings, one for each 'directive' that should be removed if previously imposed.|
 |addSupportingAttribute|[CdmTypeAttributeDefinition](typeattribute.md)|A guidance that this attribute definition should be added to the final set of attributes and should be marked as 'supporting' the attribute that has the guidance set on it.|
-|cardinality|string|If set to 'one', then there is a single instance of the attribute or entity used. If set to 'many', then there are multiple instances of the attribute/entity used, in which case the 'expansion' properties will describe the array enumeration to use if needed.|
+|cardinality|string|If set to 'one', then there's a single instance of the attribute or entity used. If set to 'many', then there are multiple instances of the attribute/entity used, in which case the 'expansion' properties will describe the array enumeration to use if needed.|
 |renameFormat|string|The format specifier for generated attribute names. May contain a single occurence of ('\{a}' or '\{A}'), ('\{m}' or '\{M}'), and '\{o}', for the base (a/A)ttribute name, any (m/M)ember attributes from entities, and array (o)rdinal.<br/><br/>For example, '\{a}\{o}.\{m}' could produce 'address2.city', and '\{a}\{o}' gives 'city1'. Using '\{A}' or '\{M}' will uppercase the first letter of the name portion.|
 |expansion|[Expansion](attributeresolutionguidance.md#expansion)|The parameters that control array expansion if inline repeating of attributes is needed.|
 |entityByReference|[EntityByReference](attributeresolutionguidance.md#entitybyreference)|The parameters that control the use of foreign keys to reference entity instances instead of embedding the entity in a nested way.|
@@ -78,5 +78,5 @@ Indicates that this attribute selects 'one', 'some', or 'all' of the sub-attribu
 |selects|string|Indicates how many sub-attributes are selected ('one', 'some', or 'all'). If 'one', then *selectedTypeAttribute* will hold the name of the selected attribute. If 'some', *selectsSomeTakeNames* or *selectSomeAvoidNames* can be used to hold the attributes to take (or avoid) from the source entity. Attributes are added in the same order as they appear in these lists.|
 |selectedTypeAttribute|[CdmTypeAttributeDefinition](typeattribute.md)|This attribute definition is added to the entity to hold a description of the single attribute that was selected from the sub-entity when *selects* is set to 'one'.|
 |selectsSomeTakeNames|List\<string>|The list of sub-attributes from an entity that should be added.|
-|selectsSomeAvoidNames|List\<string>|The list of sub-attributes from an entity that should not be added.|
+|selectsSomeAvoidNames|List\<string>|The list of sub-attributes from an entity that shouldn't be added.|
 

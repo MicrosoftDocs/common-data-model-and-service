@@ -11,7 +11,7 @@ ms.author: jibyun
 
 # Purpose
 
-A purpose provides an attribute with what it does for an entity, for example *SortedBy* or *NamedBy*.
+A purpose provides an attribute with what it does for an entity (for example, *SortedBy* or *NamedBy*).
 
 
 ```

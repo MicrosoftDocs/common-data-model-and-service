@@ -11,7 +11,7 @@ ms.author: jibyun
 
 # Remote Adapter
 
-The remote adapter is the storage adapter that is used to interact with data on a remote file system.
+The remote adapter is the storage adapter that's used to interact with data on a remote file system.
 
 ```
 public class RemoteAdapter extends NetworkAdapter, StorageAdapter
@@ -33,9 +33,9 @@ public class RemoteAdapter extends NetworkAdapter, StorageAdapter
 |Name|Description|Return Type|
 |---|---|---|
 |**CanRead()**|Returns true, since the remote adapter can read data.|bool|
-|**CanWrite()**|Returns false, since the remote adapter cannot write data to its source.|bool|
+|**CanWrite()**|Returns false, since the remote adapter can't write data to its source.|bool|
 |**ReadAsync(string)**|See [StorageAdapter.ReadAsync(...)](storageadapter.md#methods).|Task\<string>|
-|**WriteAsync(string, string)**|See [StorageAdapter.WriteAsync(...)](storageadapter.md#methods). Throws a *NotImplementedException* because the remote adapter cannot write to its source.|Task|
+|**WriteAsync(string, string)**|See [StorageAdapter.WriteAsync(...)](storageadapter.md#methods). Throws a *NotImplementedException* because the remote adapter can't write to its source.|Task|
 |**CreateAdapterPath(string)**|See [StorageAdapter.CreateAdapterPath(...)](storageadapter.md#methods).|string|
 |**CreateCorpusPath(string)**|See [StorageAdapter.CreateCorpusPath(...)](storageadapter.md#methods).|string|
 |**ClearCache()**|See [StorageAdapter.ClearCache()](storageadapter.md#methods).|void|
