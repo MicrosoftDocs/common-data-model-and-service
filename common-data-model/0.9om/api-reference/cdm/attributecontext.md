@@ -11,7 +11,7 @@ ms.author: jibyun
 
 # Attribute Context
 
-An attribute context provides more insight into an attribute's (parent/child) relationship. It is heavily used during an entity's attribute resolution and can contain the history of all changes that led to an attribute's resolution. Resolved concepts, such as resolved attributes, can contain attribute contexts to provide more insight into the original, non-resolved hierarchical attributes.
+An attribute context provides more insight into an attribute's (parent/child) relationship. It's heavily used during an entity's attribute resolution and can contain the history of all changes that led to an attribute's resolution. Resolved concepts, such as resolved attributes, can contain attribute contexts to provide more insight into the original, non-resolved hierarchical attributes.
 
 ```
 public class CdmAttributeContext extends CdmObjectDefinitionBase
@@ -31,7 +31,7 @@ public class CdmAttributeContext extends CdmObjectDefinitionBase
 |Definition|[CdmObjectReference](cdmobjectreference.md)|The reference to the object this attribute context was defined from.|
 |Parent|[CdmObjectReference](cdmobjectreference.md)|The attribute context's parent.|
 |Type|[CdmAttributeContextType?](attributecontexttype.md)|The attribute context's type.|
-|AtCorpusPath|string|The path to the object declaration, relative to the declaration of the resolved entity. For an attribute context, we do not follow the standard path calculation behavior.|
+|AtCorpusPath|string|The path to the object declaration, relative to the declaration of the resolved entity. For an attribute context, we don't follow the standard path calculation behavior.|
 
 ## Methods
 |Name|Description|Return Type|

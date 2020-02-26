@@ -42,7 +42,7 @@ When you create the entity schema for **Session**, you'll be creating a logical 
 Notice that **Session** has fields, such as *uaBrowserName* and *uaBrowserVersion*, that have a link to a logical entity (for example, **UserAgent**). These fields appear in many of the entity definitions. To avoid defining these fields as entity attributes repeatedly, they've been grouped into two logical entities, **UserAgent** and **ReverseIp**. This way, **Session** just takes fields from **UserAgent** and **ReverseIp**. Other entities that have fields like *uaBrowserName* and *ripContinent* can do the same. 
 
 >[!TIP]
->Since **UserAgent** and **ReverseIp** are logical entities, they don't exist in the actual data, meaning that there is no physical entity in the data called *UserAgent*.
+>Since **UserAgent** and **ReverseIp** are logical entities, they don't exist in the actual data, meaning that there's no physical entity in the data called *UserAgent*.
 
 <br>The logical entity, **UserAgent**, is defined this way:
 
@@ -86,7 +86,7 @@ You'll start by creating an entity schema for the *logical* entity, **UserAgent*
 ```
 
 * **$schema** points to the *schema.cdm.json* file in the root *schemaDocuments folder*. If you're using Visual Studio Code, doing this enables IntelliSense which is helpful when writing schema documents by manually. 
-* **jsonSchemaSemanticVersion** identifies the version of the Common Data Model object model that supports this file shape. You are using version 1.0.0.
+* **jsonSchemaSemanticVersion** identifies the version of the Common Data Model object model that supports this file shape. You're using version 1.0.0.
 * **imports** imports other schema documents that are needed for the current document. Here, you've imported the *foundations.cdm.json* file, which itself imports *primitives.cdm.json* (containing fundamental data types, traits, and entities) and *meanings.cdm.json* (containing trait definitions and other convenient data types). Importing this *foundations.cdm.json* document is enough to create the schema documents.
 
    >[!IMPORTANT]
