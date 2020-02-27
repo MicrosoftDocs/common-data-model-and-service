@@ -11,16 +11,17 @@ ms.author: tpalmer
 
 # How to use the Common Data Model
 
-With the Common Data Model, you can structure your data to represent concepts and activities that are commonly used and well understood. You can query that data, reuse it, and interoperate with other businesses and apps that use the same format. The Common Data Model defines the size and shape of a **Contact**, for example, so that your app developers and business partners can parse that data and build your apps (or interoperate with other people's apps) with agility and confidence.
+With the Common Data Model, you can structure your data to represent concepts and activities that are commonly used and well understood. You can query and analyze that data, reuse it, and interoperate with other businesses and apps that use the same format. The Common Data Model defines the shape of a **Contact**, for example, so that your app developers and business partners can understand that data and build your apps (or interoperate with other people's apps) with agility and confidence.
 
 
-The Common Data Model is used within Common Data Service, which supports Dynamics 365, Power Apps, and the data-preparation capabilities in Power BI dataflows to create schematized files in Azure Data Lake. The Common Data Model definitions are open and available to any service or application that wants to use them.
+The Common Data Model can be used within Common Data Service, which supports Dynamics 365, Power Apps, and the data-preparation capabilities in Power BI dataflows to create data files that follow Common Data Model defintion in Azure Data Lake. The Common Data Model definitions are open and available to any service or application that wants to use them.
 
 ![Common Data Model with Common Data Service](media/cdm-with-cds.png "Common Data Model with Common Data Service and Power BI dataflows")
 
 You can use the Common Data Model in multiple applications and platforms to:
 
 * Perform quick data integration by using Power Query Online.
+* Export data from Dynamics 365 CDS into Azure Data Lake.
 * Jump-start Common Data Service app development.
 * Ingest data by using Power BI dataflows.
 * Optimize data exchange in the Azure Data Lake.
@@ -52,6 +53,7 @@ Whatever your intent, using the Common Data Model structures your data in a comm
 - [Build a model-driven app](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview)
 - [Build a canvas app](https://docs.microsoft.com/powerapps/maker/canvas-apps/getting-started)
 - [Create a flow that uses Common Data Service](https://docs.microsoft.com/flow/common-data-model-intro)
+- [Exporting CDS data to Azure Data Lake](https://powerapps.microsoft.com/en-us/blog/exporting-cds-data-to-azure-data-lake-preview)
 
 ## Ingest data by using Power BI dataflows
 
