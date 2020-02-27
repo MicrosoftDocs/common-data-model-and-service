@@ -29,7 +29,7 @@ public class CdmReferencedEntityDeclarationDefinition extends CdmObjectDefinitio
 |EntityName|string|The entity's name.|
 |EntityPath|string|The corpus path to the entity definition.|
 |LastFileStatusCheckTime|DateTimeOffset?|The last time the modified time was checked for this file.|
-|LastFileModifiedTime|DateTimeOffset?|The last time this file was modified according to the OM.|
+|LastFileModifiedTime|DateTimeOffset?|The last time this file was modified according to the object model.|
 |LastChildFileModifiedTime|DateTimeOffset?|The greatest last time reported by any of the children objects about their file status check times.|
 
 

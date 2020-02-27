@@ -11,7 +11,7 @@ ms.author: jibyun
 
 # Trait 
 
-A trait helps express the semantic meaning and structural guidance. Traits are essentially a metadata's metadata. Traits can extend other traits and have a format that is easy to understand and follow. For example, the trait *is.partition.format.CSV* describes a data partition in CSV format and has parameters that can provide additional information, such as which character to use as a delimiter.
+A trait helps express the semantic meaning and structural guidance. Traits are essentially a metadata's metadata. Traits can extend other traits and have a format that's easy to understand and follow. For example, the trait *is.partition.format.CSV* describes a data partition in CSV format and has parameters that can provide additional information, such as which character to use as a delimiter.
 
 ```
 public class CdmTraitDefinition extends CdmObjectDefinitionBase
@@ -30,7 +30,7 @@ public class CdmTraitDefinition extends CdmObjectDefinitionBase
 |ExtendsTrait|[CdmTraitReference](traitreference.md)|The trait extended by this trait.|
 |Parameters|[CdmCollection](collection.md)\<[CdmParameterDefinition](parameter.md)>|The trait's parameters, for holding values or settings with the trait.|
 |Elevated|bool?|Denotes whether this trait is elevated. If an attribute has an elevated trait, then that trait should also be applied to the outer entity.|
-|Ugly|bool?|Denotes whether the trait is user facing (false if it is user facing, true otherwise).|
+|Ugly|bool?|Denotes whether the trait is user facing (false if it's user facing, true otherwise).|
 |AssociatedProperties|List\<string>|The trait's associated properties.|
 
 ## Methods

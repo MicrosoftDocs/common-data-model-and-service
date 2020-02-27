@@ -11,7 +11,7 @@ ms.author: jibyun
 
 # Entity 
 
-An entity is the basic building block of the OM. It provides a concrete placeholder for a user to attach certain information to a concept. It is a collection of attributes that creates a semantic meaning of why these attributes coexist. Since entities can inherit from other entities, it is possible for them to represent a hierarchical structure. The hierarchical structure can also be removed from the entities by resolving them.
+An entity is the basic building block of the object model. It provides a concrete placeholder for a user to attach certain information to a concept. It's a collection of attributes that creates a semantic meaning of why these attributes coexist. Since entities can inherit from other entities, it's possible for them to represent a hierarchical structure. The hierarchical structure can also be removed from the entities by resolving them.
 
 ```
 public class CdmEntityDefinition extends CdmObjectDefinitionBase, CdmReferencesEntities
@@ -32,9 +32,9 @@ public class CdmEntityDefinition extends CdmObjectDefinitionBase, CdmReferencesE
 |Attributes|[CdmCollection](collection.md)\<[CdmAttributeItem](attributeitem.md)>|The collection of attributes for this entity.|
 |AttributeContext|[CdmAttributeContext](attributecontext.md)|The entity's attribute context.|
 |DisplayName|string|The entity's display name.|
-|SourceName|string|The entity's source name - the original entity name from another source system (e.g. *Dynamics*).|
+|SourceName|string|The entity's source name - the original entity name from another source system (for example, *Dynamics*).|
 |Description|string|The entity's description.|
-|CdmSchemas|List\<string>|The list of CDM entities that the entity "contains" or implements (a set of contracts or interfaces).|
+|CdmSchemas|List\<string>|The list of Common Data Model entities that the entity "contains" or implements (a set of contracts or interfaces).|
 |Version|string|The entity's version.|
 |ExtendsEntityResolutionGuidance|[CdmAttributeResolutionGuidance](attributeresolutionguidance.md)|The resolution guidance for the attributes taken from the entity extended by this entity.|
 |PrimaryKey|string|The attribute that identifies itself as the primary key.|

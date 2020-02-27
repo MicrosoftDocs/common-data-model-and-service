@@ -11,7 +11,7 @@ ms.author: jibyun
 
 # Folder
 
-A folder provides a hierarchical structure of the OM for organizing [documents](document.md). Folders can contain other folders or documents.
+A folder provides a hierarchical structure of the object model for organizing [documents](document.md). Folders can contain other folders or documents.
 
 ```
 public class CdmFolderDefinition extends CdmObjectDefinitionBase, CdmContainerDefinition

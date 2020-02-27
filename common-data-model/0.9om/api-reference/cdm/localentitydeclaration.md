@@ -32,7 +32,7 @@ public class CdmLocalEntityDeclarationDefinition extends CdmObjectDefinitionBase
 |DataPartitions|[CdmCollection](collection.md)\<[CdmDataPartitionDefinition](datapartition.md)>|The data partitions.|
 |DataPartitionPatterns|[CdmCollection](collection.md)\<[CdmDataPartitionPatternDefinition](datapartitionpattern.md)>|The data partition patterns.|
 |LastFileStatusCheckTime|DateTimeOffset?|The last time the modified time was checked for this file.|
-|LastFileModifiedTime|DateTimeOffset?|The last time this file was modified according to the OM.|
+|LastFileModifiedTime|DateTimeOffset?|The last time this file was modified according to the object model.|
 |LastChildFileModifiedTime|DateTimeOffset?|The greatest last time reported by any of the children objects about their file status check times.|
 
 
