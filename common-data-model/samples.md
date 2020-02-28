@@ -70,7 +70,7 @@ the real public standards.
 cdmCorpus.Storage.Mount("cdm", new LocalAdapter(pathFromExeToExampleRoot + "example-public-standards"));
 ```
 
-## Explanation of C# sample code in files for the new OM
+## Explanation of C# sample code in files for the new object model
 
 ### Read Manifest (1-read-manifest)
 
@@ -92,7 +92,7 @@ definitions, examine an entity, it's attributes and partitions.
 
 **How it works:**
 
-The OM reads the content of `default.manifest.cdm.json` file located at the
+The object model reads the content of `default.manifest.cdm.json` file located at the
 root of the project folder. The relative path points at it from the
 location of the .exe file. For example, the location of the read manifest
 executable is:

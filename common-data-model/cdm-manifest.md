@@ -1,7 +1,18 @@
-Common Data Model Metadata – introducing Manifest
-=================================================
+---
+title: Common Data Model Metadata – introducing Manifest | Microsoft Docs
+description: 
+author: oovanesy
+ms.service: common-data-model
+ms.reviewer: deonhe
+ms.topic: article
+ms.date: 02/27/2020
+ms.author: olegov
+---
 
-In a data lake a “Common Data Model Folder” is a collection, spread over
+# Common Data Model Metadata: introducing Manifest
+
+
+In a data lake, a “Common Data Model Folder” is a collection, spread over
 sub-folders or accounts, of the data files and schema description files that
 constitute a set of related entities which have been organized together for some
 purpose such as to back an application or perform analysis. This collection of
@@ -24,7 +35,7 @@ way of sharing standard schemas. In this form (a “Common Data Model Domain”)
 the Manifest will list entities with schema documents, known relationships and
 sub-manifests but will not give partition data file locations for the entities.
 
-One file folder may contain many manifest files. Each of them may be presenting
+A folder might contain many manifest files. Each of them may be presenting
 an alternate view or organization of the entities. These views could be used to
 hide, simplify, or focus the entities of a solution for different personas or to
 show different business perspectives. By convention, when there are multiple
@@ -53,24 +64,19 @@ A manifest document will have this structure:
 
     -   **Sub-manifest list**
 
-Imports
--------
+## Imports
 
-Imports are described in the “Technical Details” upfront section.
+
+Imports are described in the “Technical Details” section upfront.
 
 Because a manifest will use Common Data Model traits (explained later) to
 describe details about data partitions, etc. Most of the time, the single import
-of
+of `Cdm:/foundations.cdm.json` will have the standard definitions for these traits.
 
-“Cdm:/foundations.cdm.json”
-
-Will have the standard definitions for these traits.
-
-Shared concepts inside the manifest
------------------------------------
+## Shared concepts inside the manifest
 
 The Manifest object and the objects it contains all share some properties,
-collections and abilities (methods in the OM).
+collections, and abilities (methods in the object moel).
 
 | Property / Method | Description                                                                                                                                                                     |
 |-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -80,8 +86,7 @@ collections and abilities (methods in the OM).
 | fileStatusCheck   | A method that updates the information about modified times for files referenced in the model.                                                                                   |
 | fileStatus times  | Details at end of Manifest explanation                                                                                                                                          |
 
-Entities
---------
+## Entities
 
 The list of entities in a manifest represent some joint context or purpose, such
 as the entities used for an application or data analysis project. Some of these
@@ -94,7 +99,7 @@ maintain the data for its owned entities but can only act as a reader for the
 borrowed entities. The two types of entity listings are called the
 localEntityDeclaration and the referenceEntityDeclaration.
 
-### Local Entity Declaration
+### Local entity declaration
 
 For an entity that is owned by the manifest, the declaration describes the
 location of the schema document where details about the entity metadata can be
@@ -107,13 +112,13 @@ manifest section.
 |-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | entityName            | The name of the owned entity                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | entityPath            | A corpus path to the entity definition within its containing document. For example, “local:/MyEntity.cdm.json/MyEntity”. By convention, this entity definition should be the ‘resolved’ form of a definition (see section on resolving entity schemas later, but in short a resolved definition has removed any layers of abstraction that would make the definition difficult to interpret.) This is the ‘default’ schema that should be used for any partition file that does not offer a specialized alternate schema. |
-| dataPartitions        | The data partition objects in this collection each describe the location, format and perhaps specific details about of one file that contains data records for the local entity.                                                                                                                                                                                                                                                                                                                                          |
+| dataPartitions        | The data partition objects in this collection each describe the location, format and perhaps specific details about of one file that contains data records for the local entity.                                                                                                                                   |
 | dataPartitionPatterns | A data partition pattern describes a search space over a set of files that can be used to infer or discover and list new data partition files. These patterns are used for situations where many new partition files are being regularly added in some structured way and finding / listing them individually is impractical.                                                                                                                                                                                             |
 
 ### Data Partition Defs in the dataPartitions collection
 
-a Data Partition Definition (Def) object describes and points to one particular
-file of data for the entity. Common Data Model Traits (detail later) on this
+A Data Partition Definition (Def) object describes and points to one particular
+file of data for the entity. Common Data Model Traits (explained later) on this
 object give detailed information about the file format and parsing options. By
 default, the data should be interpreted using the schema description indicated
 by the associated Local Entity Declaration. However, because schemas can change
@@ -241,8 +246,8 @@ name and a location.
 | entityName        | The name of the referenced entity                                                                                                                          |
 | entityPath        | A corpus path to the entity declaration within the referenced manifest document. For example, “remote:/otherSolution/default.manifest.cdm.json/ThatEntity” |
 
-Sub-Manifests
--------------
+## Sub-Manifests
+
 
 When a set of related manifests form some kind of logical hierarchy, the
 hierarchy can be described using sub-manifests. A manifest object can indicate a
@@ -256,8 +261,8 @@ A manifest has a collection, called subManifests, of Manifest Declarations
 |-------------------|---------------------------------------------------------------------|
 | Definition        | The corpus path to the sub-manifest’s \*.manifest.cdm.json document |
 
-Entity Relationships
---------------------
+## Entity relationships
+
 
 A manifest may contain a list of the known entity to entity relationships
 involving entities in the manifest. When data is stored in a lake in a
@@ -289,8 +294,8 @@ to one” relationships.
 | Corpus.CalculateEntityGraph(ICdmManifestDef rootManifest); | Causes the corpus to calculate and cache knowledge about all of the entity to entity relationships found in the logical entity descriptions for the given manifest and all of the sub-manifests that it indicates. |
 | Manifest. PopulateManifestRelationships()                  | The manifest will use the graph of relationships held in the corpus to create the set of relationship descriptions for any entity that is on either the ONE side or the MANY side of a known relationship.         |
 
-File status check and modified times
-------------------------------------
+## File status check and modified times
+
 
 The Manifest object and the objects it contains collect and report information
 about the modification times for files being referenced. These properties are
@@ -314,173 +319,120 @@ the specific object.
 | dataPartiton Pattern | Causes evaluation of the data partition pattern search and creation of new partitions |
 | Sub-manifest         | Checks file of sub-manifest                                                           |
 
-Manifest example document
--------------------------
+## Manifest example document
+
 
 This sample manifest document demonstrates each of the above-mentioned
 capabilities for the manifest object:
 
+```json
 {
+   "manifestName":"MySolution",
+   "jsonSchemaSemanticVersion":"0.9.0",
+   "imports":[
+      {
+         "corpusPath":"cdm:/foundations.cdm.json"
+      }
+   ],
+   "lastFileStatusCheckTime":"2019-10-01T02:09:08Z",
+   "lastFileModifiedTime":"2019-10-01T02:09:08Z",
+   "lastChildFileModifiedTime":"2019-10-01T02:09:08Z",
+   "entities":[
+      {
+         "entityName":"Person",
+         "entitySchema":"PersonData/Person.cdm.json/Person",
+         "dataPartitions":[
+            {
+               "location":"PersonData/all-people.csv",
+               "exhibitsTraits":[
+                  {
+                     "traitReference":"is.partition.format.CSV",
+                     "arguments":[
+                        {
+                           "name":"columnHeaders",
+                           "value":"true"
+                        },
+                        {
+                           "name":"delimiter",
+                           "value":","
+                        }
+                     ]
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "entityName":"EmailMessage",
+         "entityPath":"EmailMessageData/EmailMessage.cdm.json/EmailMessage",
+         "dataPartitions":[
+            {
+               "location":"EmailMessageData/Sep/emails.csv",
+               "exhibitsTraits":[
 
-"manifestName": "MySolution",
+               ],
+               "arguments":[
+                  {
+                     "month":[
+                        "Sep"
+                     ]
+                  }
+               ],
+               "lastFileStatusCheckTime":"2019-10-01T02:09:08Z",
+               "lastFileModifiedTime":"2019-09-01T02:19:06Z"
+            },
+            {
+               "location":"EmailMessageData/Oct/emails.csv",
+               "exhibitsTraits":[
 
-"jsonSchemaSemanticVersion": "0.9.0",
+               ],
+               "arguments":[
+                  {
+                     "month":[
+                        "Oct"
+                     ]
+                  }
+               ],
+               "lastFileStatusCheckTime":"2019-10-01T02:09:08Z",
+               "lastFileModifiedTime":"2019-10-01T02:09:08Z"
+            }
+         ],
+         "dataPartitionPatterns":[
+            {
+               "name":"EmailByMonth",
+               "rootLocation":"EmailMessageData/",
+               //This pattern is what describes the partitions found above               "regularExpression":"(\\\\w{3})/emails.csv)",
+               "parameters":[
+                  "month"
+               ]
+            }
+         ],
+         "lastFileStatusCheckTime":"2019-10-01T02:09:08Z",
+         "lastFileModifiedTime":"2019-09-27T02:09:08.149Z",
+         "lastChildFileModifiedTime":"2019-09-27T02:09:08.149Z"
+      },
+      {
+         // This is a referenced entity declaration. We are just pointing at another
 
-"imports": [ { "corpusPath": "cdm:/foundations.cdm.json" } ],
 
-"lastFileStatusCheckTime": "2019-10-01T02:09:08Z",
-
-"lastFileModifiedTime": "2019-10-01T02:09:08Z",
-
-"lastChildFileModifiedTime": "2019-10-01T02:09:08Z",
-
-"entities": [
-
-{
-
-"entityName": "Person",
-
-"entitySchema": "PersonData/Person.cdm.json/Person",
-
-"dataPartitions": [
-
-{
-
-"location": "PersonData/all-people.csv",
-
-"exhibitsTraits": [
-
-{
-
-"traitReference": "is.partition.format.CSV",
-
-"arguments": [
-
-{ "name": "columnHeaders", "value": "true" },
-
-{ "name": "delimiter", "value": "," }
-
-]
-
+manifest and //entity         "entityName":"FrequentPairs",
+         "explanation":"Borrow the analysis of frequent email pairs from that project",
+         "entityPath":"networkProject/NetworkAnalysis.manifest.cdm.json/FrequentPairs"
+      }
+   ],
+   "relationships":[
+      // A relationship between the entities      {
+         "fromEntity":"EmailMessageData/EmailMessage.cdm.json/EmailMessage",
+         "fromEntityAttribute":"ownerId",
+         "toEntity":"PersonData/Person.cdm.json/Person",
+         "toEntityAttribute":"personId"
+      }
+   ],
+   "subManifests":[
+      // This sub-manifest is independent but described here so we know it is related      {
+         "name":"NetworkAnalysis",
+         "definition":"networkProject/NetworkAnalysis.manifest.cdm.json"
+      }
+   ]
 }
-
-]
-
-}
-
-]
-
-},
-
-{
-
-"entityName": "EmailMessage",
-
-"entityPath": "EmailMessageData/EmailMessage.cdm.json/EmailMessage",
-
-"dataPartitions": [
-
-{
-
-"location": "EmailMessageData/Sep/emails.csv",
-
-"exhibitsTraits": [],
-
-"arguments": [ { "month": [ "Sep" ] } ],
-
-"lastFileStatusCheckTime": "2019-10-01T02:09:08Z",
-
-"lastFileModifiedTime": "2019-09-01T02:19:06Z"
-
-},
-
-{
-
-"location": "EmailMessageData/Oct/emails.csv",
-
-"exhibitsTraits": [],
-
-"arguments": [ { "month": [ "Oct" ] } ],
-
-"lastFileStatusCheckTime": "2019-10-01T02:09:08Z",
-
-"lastFileModifiedTime": "2019-10-01T02:09:08Z"
-
-}
-
-],
-
-"dataPartitionPatterns": [
-
-{
-
-"name": "EmailByMonth",
-
-"rootLocation": "EmailMessageData/",
-
-//This pattern is what describes the partitions found above
-
-"regularExpression": "(\\\\w{3})/emails.csv)",
-
-"parameters": [ "month" ]
-
-}
-
-],
-
-"lastFileStatusCheckTime": "2019-10-01T02:09:08Z",
-
-"lastFileModifiedTime": "2019-09-27T02:09:08.149Z",
-
-"lastChildFileModifiedTime": "2019-09-27T02:09:08.149Z"
-
-},
-
-{
-
-// This is a referenced entity declaration. We are just pointing at another
-manifest and //entity
-
-"entityName": "FrequentPairs",
-
-"explanation": "Borrow the analysis of frequent email pairs from that project",
-
-"entityPath": "networkProject/NetworkAnalysis.manifest.cdm.json/FrequentPairs"
-
-}
-
-],
-
-"relationships": [
-
-// A relationship between the entities
-
-{
-
-"fromEntity": "EmailMessageData/EmailMessage.cdm.json/EmailMessage",
-
-"fromEntityAttribute": "ownerId",
-
-"toEntity": "PersonData/Person.cdm.json/Person",
-
-"toEntityAttribute": "personId"
-
-}
-
-],
-
-"subManifests": [
-
-// This sub-manifest is independent but described here so we know it is related
-
-{
-
-"name": "NetworkAnalysis",
-
-"definition": "networkProject/NetworkAnalysis.manifest.cdm.json"
-
-}
-
-]
-
-}
+```
