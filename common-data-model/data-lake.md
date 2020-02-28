@@ -35,10 +35,10 @@ These terms are used throughout Common Data Model documentation.
 Each Common Data Model folder contains these elements:
 
 - The *.manifest.cdm.json file
-    The *.manifest.cdm.json file contains information about the content of Common Data Model folder, entities comprising the folder, relationships  and links to underlining data files. The advantage of the manifest type of metadata is that the manifest describes the content of the Common Data Model folder including individual entity definition files and how files are organized compared to model.json type that is a single file that contains definitions for everything in the Common Data Model folder.
+    The *.manifest.cdm.json file contains information about the content of Common Data Model folder, entities comprising the folder, relationships and links to underlying data files. The advantage of the manifest type of metadata is that the manifest describes the content of the Common Data Model folder including individual entity definition files and how files are organized compared to model.json type that is a single file that contains definitions for everything in the Common Data Model folder.
 
 - The entity definition file
-The *.cdm.json file contains the definition for individual Common Data Model entity and location for data files for each entity.  
+The *.cdm.json file contains the definition for each Common Data Model entity and location of data files for each entity.  
 
 - The model.json file
 
