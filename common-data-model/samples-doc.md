@@ -1,43 +1,46 @@
-Sample code documentation 
-==========================
+---
+title: Create schema documents for the Common Data Model | Microsoft Docs
+description: How to create schema documents for the Common Data Model.
+author: oovanesy
+ms.service: common-data-model
+ms.reviewer: deonhe
+ms.topic: article
+ms.date: 1/28/2020
+ms.author: olegov
+---
 
-Sample Location and Structure
------------------------------
+# How to use the sample code?
 
-Sample code that demonstrates concepts and their use is available for C\#
-implementation at the following link:
+This topic provides information about how to use the Common Data Model sample code.
 
-<https://github.com/microsoft/CDM/tree/master/samples>
+## Sample location and structure
 
-In this location you will find VS sample projects organized is separate folders.
-There is also the **example-public-standards*** *folder which contains local
-copy of CDM Standard Entities and is referenced by the sample projects.
+Sample code that demonstrates concepts and their use is available for C#
+implementation at <https://github.com/microsoft/CDM/tree/master/samples>
 
-Within each project, files are organized in following manner:
+Here you will find Visual Studio sample projects organized in separate folders.
+There is also the [example-public-standards](https://github.com/microsoft/CDM/tree/master/samples/example-public-standards) folder that contains local
+copy of Common Data Model standard entities and is referenced by the sample projects.
 
--   code-cs - VS solution
+Within each samples folder, the files are organized as follows:
 
--   Set of JSON files with CDM entity definitions
+-   The **code-cs** folder contains teh Visual Studio solution.
 
--   Set of folders for each entity containing empty sample data partition file
-    (CSV)
+-   Set of JSON files with Common Data Model entity definitions
+
+-   Set of folders for each entity containing empty sample data partition file in the CSV format
 
  
 
-Every Sample Prerequisite
--------------------------
+## Prerequisites for all samples
 
-Every time we interact with CDM we interact with some persistent form of CDM and
-we need to provide storage adapter(s).
+Every time we interact with Common Data Model, we interact with some persistent form of Common Data Model and need to provide storage adapters. 
 
- 
-
-Sample code which sets up a config to use the local storage system where we need
+Following is the sample code that sets up a config to use the local storage system where we need
 to provide paths to the schema documents on a local file system (some commonly
 used schema documents can be provided by using CDN/GitHub storage adapters):
 
- 
-
+```csharp
 // Configure storage adapters and mount them to the corpus.
 
 // We want our storage adapters to point at the local manifest location and at
@@ -53,7 +56,7 @@ cdmCorpus.Storage.Mount("local", new LocalAdapter(pathFromExeToExampleRoot +
 // 'local' is our default namespace.
 
 // Any paths that start navigating without a device tag (ex. 'cdm') will just
-default to the 'local' namepace.
+default to the 'local' namespace.
 
 cdmCorpus.Storage.DefaultNamespace = "local";
 
@@ -66,64 +69,57 @@ the real public standards.
 "cdm:\<folder-path\>" to get there.
 
 cdmCorpus.Storage.Mount("cdm", new LocalAdapter(pathFromExeToExampleRoot + "example-public-standards"));
---------------------------------------------------------------------------------------------------------
+```
 
- 
--
+## Explanation of C# sample code in files for the new OM
 
-Explanation of C\# sample code in files for the new OM
-------------------------------------------------------
+### Read Manifest (1-read-manifest)
 
-Read Manifest (1-read-manifest)
--------------------------------
 
-In this sample, you learn how to read the CDM Manifest with all entity
-definitions, examine an entity, its attributes and partitions.
+In this sample, you will learn how to read the Common Data Model manifest with all entity
+definitions, examine an entity, it's attributes and partitions.
 
-1.  Open read-manifest.sln in code-cs directory.
+1.  Open `read-manifest.sln` in the **code-cs** folder.
 
-2.  Run the project. You should see a console with the list of entities and
+1.  Run the project. You should see a console with the list of entities and
     corresponding schema locations.
 
-![folder content](media/console1.png)
-
- 
-
->    
+    ![folder content](media/console1.png)
 
 1.  Type a number for a chosen entity and see the list of attributes and traits.
 
-![folder conent](media/console2.png)
+    ![folder content](media/console2.png)
 
->    
 
->   How it works:
+**How it works:**
 
->   The OM reads the content of *default.manifest.cdm.json* file located at the
->   root of the project directory. The relative path points at it from the
->   location of the exe. For example, the location of the read manifest
->   executable is
+The OM reads the content of `default.manifest.cdm.json` file located at the
+root of the project folder. The relative path points at it from the
+location of the .exe file. For example, the location of the read manifest
+executable is:
 
->   *E:\\cdm_sdk_test\\CDM SDK
->   0.9\\1-read-manifest\\code-cs\\read-manifest\\bin\\Debug\\netcoreapp2.1*,
->   the way the path to the folder with entities is specified
+`E:\\cdm_sdk_test\\CDM SDK
+0.9\\1-read-manifest\\code-cs\\read-manifest\\bin\\Debug\\netcoreapp2.1`
 
->   string pathFromExeToExampleRoot = "../../../../../../";
+The path to the folder with entities is specified as follows:
 
->   Once it lists entities, it can be pointed at a specific entity and will
->   parse JSON for that specific entity to get the entity attributes and traits.
+```csharp
+string pathFromExeToExampleRoot = "../../../../../../";
+```
 
->   Follow comments in the Program.cs for each specific fragment for iterating
->   through Entities, their attributes, traits and data partition locations.
+Once it lists entities, it can be pointed at a specific entity and will parse JSON for that specific entity to get the entity attributes and traits.
 
->    
+Follow comments in the `Program.cs` file for each specific fragment for iterating
+through entities, their attributes, traits and data partition locations.
 
-Create Manifest (2-create-manifest)
------------------------------------
+ 
 
-In this example, you learn how to create a manifest with select number of
-entities as well as corresponding partitions. Open create-manifest.sln in
-*code-cs* (C\#) directory. You should only have directories with code.
+### Create Manifest (2-create-manifest)
+
+
+In this example, you will learn how to create a manifest with select number of
+entities as well as corresponding partitions. Open `create-manifest.sln` in
+**code-cs** folder. You should only have directories with code.
 
 ![](media/sample-folder2.png)
 
@@ -132,77 +128,76 @@ entities as well as corresponding partitions. Open create-manifest.sln in
 
     ![](media/console3.png)
 
-2.  Look into your directory, it should have all files with entity definitions,
+1.  Look into your directory, it should have all files with entity definitions,
     manifest file and folders with empty csv files for data generated for you. 
 
-![](media/sample-folder1.png)
+    ![](media/sample-folder1.png)
 
 1.  There are few code fragments here. After configuring adapters, same as in
     the first sample, we create temp manifest object, add specific entities of
     your choice. Note that you need to point at definitions for those entities.
 
-// Add each declaration, this example is about medical appointments and care
-plans
+    ```csharp
+    // Add each declaration, this example is about medical appointments and care plans
 
-manifestAbstract.Entities.Add("Account",
-"cdm:/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Account.cdm.json/Account");
+    manifestAbstract.Entities.Add("Account",
+    "cdm:/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Account.cdm.json/Account");
 
-manifestAbstract.Entities.Add("Address",
-"cdm:/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Address.cdm.json/Address");
+    manifestAbstract.Entities.Add("Address",
+    "cdm:/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Address.cdm.json/Address");
 
-manifestAbstract.Entities.Add("CarePlan",
-"cdm:/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlan.cdm.json/CarePlan");
+    manifestAbstract.Entities.Add("CarePlan",
+    "cdm:/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlan.cdm.json/CarePlan");
 
-manifestAbstract.Entities.Add("CodeableConcept",
-"cdm:/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CodeableConcept.cdm.json/CodeableConcept");
+    manifestAbstract.Entities.Add("CodeableConcept",
+    "cdm:/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CodeableConcept.cdm.json/CodeableConcept");
 
-manifestAbstract.Entities.Add("Contact",
-"cdm:/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Contact.cdm.json/Contact");
+    manifestAbstract.Entities.Add("Contact",
+    "cdm:/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Contact.cdm.json/Contact");
 
-manifestAbstract.Entities.Add("Device",
-"cdm:/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device.cdm.json/Device");
+    manifestAbstract.Entities.Add("Device",
+    "cdm:/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device.cdm.json/Device");
 
-manifestAbstract.Entities.Add("EmrAppointment",
-"cdm:/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment");
+    manifestAbstract.Entities.Add("EmrAppointment",
+    "cdm:/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json/EmrAppointment");
 
-manifestAbstract.Entities.Add("Encounter",
-"cdm:/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json/Encounter");
+    manifestAbstract.Entities.Add("Encounter",
+    "cdm:/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json/Encounter");
 
-manifestAbstract.Entities.Add("EpisodeOfCare",
-"cdm:/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EpisodeOfCare.cdm.json/EpisodeOfCare");
+    manifestAbstract.Entities.Add("EpisodeOfCare",
+    "cdm:/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EpisodeOfCare.cdm.json/EpisodeOfCare");
 
-manifestAbstract.Entities.Add("Location",
-"cdm:/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Location.cdm.json/Location");
+    manifestAbstract.Entities.Add("Location",
+    "cdm:/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Location.cdm.json/Location");
 
-// Add the temp manifest to the root of the local documents in the corpus.
+    // Add the temp manifest to the root of the local documents in the corpus.
 
-var localRoot = cdmCorpus.Storage.FetchRootFolder("local");
+    var localRoot = cdmCorpus.Storage.FetchRootFolder("local");
 
-localRoot.Documents.Add(manifestAbstract);
+    localRoot.Documents.Add(manifestAbstract);
+    ```
 
-The following fragment implements Resolving entities (creating instances of
+1.  The following fragment implements resolving entities (creating instances of
 specific entities using their abstract definitions as well as foundation
 definitions). After that, each entity is saved to the directory in corresponding
 JSON file along with the eponymous folder with empty CSV partition file.
 
-// Create the resolved version of everything in the root folder too
+    ```csharp
+    // Create the resolved version of everything in the root folder too
 
-Console.WriteLine("Resolve the placeholder");
+    Console.WriteLine("Resolve the placeholder");
 
-var manifestResolved = await
-manifestAbstract.CreateResolvedManifestAsync("default", "");
+    var manifestResolved = await
+    manifestAbstract.CreateResolvedManifestAsync("default", "");
 
-// Add an import to the foundations doc so the traits about partitons will
-resolve nicely
+    // Add an import to the foundations doc so the traits about partitions will resolve nicely
 
-manifestResolved.Imports.Add("cdm:/foundations.cdm.json");
+    manifestResolved.Imports.Add("cdm:/foundations.cdm.json");
+    ```
 
-Follow comments in the Program.cs for each specific fragment.
+1. Follow comments in the `Program.cs` for each specific fragment.
 
- Customize Entities (3-customize-entities)
-------------------------------------------
-
- 
+### Customize Entities (3-customize-entities)
 
 Steps to follow:
 
@@ -571,13 +566,15 @@ Make a 'resolved' version of each entity doc in our local folder. Call
 CreateResolvedManifestAsync on our starting manifest. This will resolve
 everything and find all of the relationships between entities for us. Please
 check out the second example 2-create-manifest for more details. Save the new
-document(s)
+documents.
 
+```csharp
 // Save as manifest.cdm.json
 
 await
 manifestResolved.SaveAsAsync(\$"{manifestResolved.ManifestName}.manifest.cdm.json",
 true);
+```
 
 As the result you should have new entities created wit logical definitions and
 resolved definitions in *resolved* folder
