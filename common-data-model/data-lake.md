@@ -1,12 +1,12 @@
 ---
 title: Common Data Model and Azure Data Lake Storage Gen2
 description: "The Common Data Model provides semantic consistency to data in Azure Data Lake Storage Gen2."
-author: theresapalmer
+author: oovanesy 
 ms.service: common-data-model
-ms.reviewer: anneta
+ms.reviewer: deonhe
 ms.topic: article
 ms.date: 02/11/2020
-ms.author: tpalmer
+ms.author: olegov
 ---
 
 # Use the Common Data Model to optimize Azure Data Lake Storage Gen2
@@ -26,7 +26,7 @@ These terms are used throughout Common Data Model documentation.
 |    Common Data Model folder       |    A folder in a data lake that conforms to specific, well-defined, and standardized metadata structures and self-describing data. These folders facilitate metadata discovery and interoperability between data producers and data consumers.    |
 |   *.manifest.cdm.json |    A metadata file in a folder in a Data Lake Storage Gen2 instance that follows the Common Data Model metadata format and potentially references other sub-Manifest for nested solutions. If this file exists in such a folder, it's a Common Data Model folder.   |
 |   model.json |    A metadata file in a folder in a Data Lake Storage Gen2 instance that follows the Common Data Model metadata format. If this file exists in such a folder, it's a Common Data Model folder.   |
-|    <entity name>.cdm.json    |    A metadata file in the Commmon Data Model folder that contains the metadata about the specific entity, its attributes, semantic meanings of entity and attributes.  |
+|    <entity name>.cdm.json    |    A metadata file in the Common Data Model folder that contains the metadata about the specific entity, its attributes, semantic meanings of entity and attributes.  |
 |    Data producer    |    A service or app that creates data in Common Data Model folders in Data Lake Storage Gen2.  |
 |    Data consumer    |    A service or app that consumes data in Common Data Model folders in Data Lake Storage Gen2.      |
 
@@ -35,10 +35,10 @@ These terms are used throughout Common Data Model documentation.
 Each Common Data Model folder contains these elements:
 
 - The *.manifest.cdm.json file
-    The *.manifest.cdm.json file contains information about the content of Common Data Model folder, entities comprising the folder, relationships  and links to underlining data files. The advantage of the manifest type of metadata is that the manifest describes the content of the Common Data Model folder including idividual entity definition files and how files are organized copmared to model.json type that is a single file that contains defintions for everyghing in the Common Data Model folder. 
+    The *.manifest.cdm.json file contains information about the content of Common Data Model folder, entities comprising the folder, relationships  and links to underlining data files. The advantage of the manifest type of metadata is that the manifest describes the content of the Common Data Model folder including individual entity definition files and how files are organized compared to model.json type that is a single file that contains definitions for everything in the Common Data Model folder.
 
 - The entity definition file
-The *.cdm.json file contains the definition for idividual Common Data Model entity and location for data files for each entity.  
+The *.cdm.json file contains the definition for individual Common Data Model entity and location for data files for each entity.  
 
 - The model.json file
 
