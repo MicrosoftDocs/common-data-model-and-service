@@ -20,7 +20,9 @@
   - name: Azure Data Lake
     href: data-lake.md
     items:
-      - name: Model metadata
+      - name: Model metadata - Manifest
+        href: cdm-manifest.md
+      - name: Model metadata - model.json
         href: model-json.md
   - name: Entity Reference
     href: schema/core/applicationCommon/toc.yml
