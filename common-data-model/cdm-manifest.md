@@ -1,5 +1,5 @@
 ---
-title: Common Data Model Metadata – introducing Manifest | Microsoft Docs
+title: "Common Data Model Metadata – introducing Manifest" | Microsoft Docs
 description: 
 author: oovanesy
 ms.service: common-data-model
