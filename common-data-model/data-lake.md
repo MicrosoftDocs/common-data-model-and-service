@@ -35,7 +35,7 @@ These terms are used throughout Common Data Model documentation.
 Each Common Data Model folder contains these elements:
 
 - The *.manifest.cdm.json file
-    The *.manifest.cdm.json file contains information about the content of Common Data Model folder, entities comprising the folder, relationships  and links to underlining data files. 
+    The *.manifest.cdm.json file contains information about the content of Common Data Model folder, entities comprising the folder, relationships  and links to underlying data files. The *.manifest.cdm.json format allows for multiple manifests stored in the single folder providing an ability to scope data for different data consuming solutions for various personas or business perspectives. Each entity definition is in an individual file making managing, navigation and discoverability of entity metadata easier and more intuitive.  
 
 - The model.json file
 
