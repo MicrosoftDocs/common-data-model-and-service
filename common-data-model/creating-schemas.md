@@ -16,7 +16,7 @@ You have some data and want to start using the Common Data Model. To do so, you'
 Document | Description | 
 ------|--------
 Entity schemas | Either logical representations of your existing physical entities or purely logical entity definitions.
-Manifest | A collection of all your schema documents that acts as the *entry point* to your Common Data Model entities.
+[Manifest](cdm-manifest.md) | A collection of all your schema documents that acts as the *entry point* to your Common Data Model entities.
 
 <br/>In this article, you'll create entity schemas for physical and logical entities. What's the difference between the two? 
 
