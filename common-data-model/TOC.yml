@@ -20,7 +20,9 @@
   - name: Azure Data Lake
     href: data-lake.md
     items:
-      - name: Model metadata
+      - name: Model metadata - Manifest
+        href: cdm-manifest.md
+      - name: Model metadata - model.json
         href: model-json.md
   - name: Entity Reference
     href: schema/core/applicationCommon/toc.yml
@@ -150,5 +152,7 @@
             href: 0.9om/api-reference/utilities/tokenprovider.md  
   - name: How to create schema documents 
     href: creating-schemas.md
+  - name: How to use samples 
+    href: samples.md
   - name: Frequently asked questions
     href: faq.md

@@ -1,12 +1,12 @@
 ---
 title: Common Data Model and Azure Data Lake Storage Gen2
 description: "The Common Data Model provides semantic consistency to data in Azure Data Lake Storage Gen2."
-author: theresapalmer
+author: oovanesy 
 ms.service: common-data-model
-ms.reviewer: anneta
+ms.reviewer: deonhe
 ms.topic: article
 ms.date: 02/11/2020
-ms.author: tpalmer
+ms.author: olegov
 ---
 
 # Use the Common Data Model to optimize Azure Data Lake Storage Gen2
@@ -24,9 +24,9 @@ These terms are used throughout Common Data Model documentation.
 | Concept | Definition |
 |--|--|
 |    Common Data Model folder       |    A folder in a data lake that conforms to specific, well-defined, and standardized metadata structures and self-describing data. These folders facilitate metadata discovery and interoperability between data producers and data consumers.    |
-|   *.manifest.cdm.json |    A metadata file in a folder in a Data Lake Storage Gen2 instance that follows the Common Data Model metadata format and potentially other sub-Manifest objects that are nested solutions. If this file exists in such a folder, it's a Common Data Model folder.   |
+|   *.manifest.cdm.json |    A metadata file in a folder in a Data Lake Storage Gen2 instance that follows the Common Data Model metadata format and potentially references other sub-Manifest for nested solutions. If this file exists in such a folder, it's a Common Data Model folder.   |
 |   model.json |    A metadata file in a folder in a Data Lake Storage Gen2 instance that follows the Common Data Model metadata format. If this file exists in such a folder, it's a Common Data Model folder.   |
-|    <entity name>.cdm.json    |    A metadata file in the Commmon Data Model folder that contains the metadata about the specific entity, its attributes, semantic meanings of entity and attributes.  |
+|    <entity name>.cdm.json    |    A metadata file in the Common Data Model folder that contains the metadata about the specific entity, its attributes, semantic meanings of entity and attributes.  |
 |    Data producer    |    A service or app that creates data in Common Data Model folders in Data Lake Storage Gen2.  |
 |    Data consumer    |    A service or app that consumes data in Common Data Model folders in Data Lake Storage Gen2.      |
 
@@ -35,7 +35,13 @@ These terms are used throughout Common Data Model documentation.
 Each Common Data Model folder contains these elements:
 
 - The *.manifest.cdm.json file
-    The *.manifest.cdm.json file contains information about the content of Common Data Model folder, entities comprising the folder, relationships  and links to underlying data files. The *.manifest.cdm.json format allows for multiple manifests stored in the single folder providing an ability to scope data for different data consuming solutions for various personas or business perspectives. Each entity definition is in an individual file making managing, navigation and discoverability of entity metadata easier and more intuitive.  
+
+    The *.manifest.cdm.json file contains information about the content of Common Data Model folder, entities comprising the folder, relationships  and links to underlying data files. The *.manifest.cdm.json format allows for multiple manifests stored in the single folder providing an ability to scope data for different data consuming solutions for various personas or business perspectives. Each entity definition is in an individual file making managing, navigation and discoverability of entity metadata easier and more intuitive.
+
+- The entity definition file
+
+    The *.cdm.json file contains the definition for each Common Data Model entity and location of data files for each entity.  
+
 
 - The model.json file
 
@@ -43,7 +49,7 @@ Each Common Data Model folder contains these elements:
 
 - Data files
 
-    The data files in a Common Data Model folder have a well-defined structure and format (subfolders are optional, as this topic describes later), and are referenced in the model.json file. These files must be in .csv format, but we're working to support other formats.
+    The data files in a Common Data Model folder have a well-defined structure and format (subfolders are optional, as this topic describes later), and are referenced in *.manifest.cdm.json or in the model.json file. These files must be in .csv format, but we're working to support other formats.
 
 The following diagrams show examples of a Common Data Model folder with *.manifest.cdm.json and model.json. 
 ![Common Data Model folder structure - *.manifest.cdm.json](media/cdm-folder-manf.png "Common Data Model folder structure")
