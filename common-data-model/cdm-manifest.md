@@ -1,6 +1,6 @@
 ---
-title: "Common Data Model Metadata – introducing Manifest" | Microsoft Docs
-description: 
+title: Common Data Model Metadata - introducing Manifest | Microsoft Docs
+description: Common data model manifest.
 author: oovanesy
 ms.service: common-data-model
 ms.reviewer: deonhe
