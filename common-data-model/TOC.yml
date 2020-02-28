@@ -150,5 +150,7 @@
             href: 0.9om/api-reference/utilities/tokenprovider.md  
   - name: How to create schema documents 
     href: creating-schemas.md
+  - name: Sample code description 
+    href: samples-doc.md
   - name: Frequently asked questions
     href: faq.md
