@@ -24,13 +24,18 @@ These terms are used throughout Common Data Model documentation.
 | Concept | Definition |
 |--|--|
 |    Common Data Model folder       |    A folder in a data lake that conforms to specific, well-defined, and standardized metadata structures and self-describing data. These folders facilitate metadata discovery and interoperability between data producers and data consumers.    |
+|   *.manifest.cdm.json |    A metadata file in a folder in a Data Lake Storage Gen2 instance that follows the Common Data Model metadata format and potentially other sub-Manifest objects that are nested solutions. If this file exists in such a folder, it's a Common Data Model folder.   |
 |   model.json |    A metadata file in a folder in a Data Lake Storage Gen2 instance that follows the Common Data Model metadata format. If this file exists in such a folder, it's a Common Data Model folder.   |
+|    <entity name>.cdm.json    |    A metadata file in the Commmon Data Model folder that contains the metadata about the specific entity, its attributes, semantic meanings of entity and attributes.  |
 |    Data producer    |    A service or app that creates data in Common Data Model folders in Data Lake Storage Gen2.  |
 |    Data consumer    |    A service or app that consumes data in Common Data Model folders in Data Lake Storage Gen2.      |
 
 ## Common Data Model folders
 
 Each Common Data Model folder contains these elements:
+
+- The *.manifest.cdm.json file
+    The *.manifest.cdm.json file contains information about the content of Common Data Model folder, entities comprising the folder, relationships  and links to underlining data files. 
 
 - The model.json file
 
@@ -40,9 +45,10 @@ Each Common Data Model folder contains these elements:
 
     The data files in a Common Data Model folder have a well-defined structure and format (subfolders are optional, as this topic describes later), and are referenced in the model.json file. These files must be in .csv format, but we're working to support other formats.
 
-The following diagram shows an example of a Common Data Model folder created by a Power BI dataflow. The folder contains three entities.
+The following diagrams show examples of a Common Data Model folder with *.manifest.cdm.json and model.json. 
+![Common Data Model folder structure - *.manifest.cdm.json](media/cdm-folder-manf.png "Common Data Model folder structure")
 
-![Common Data Model folder structure](media/cdm-folder.png "Common Data Model folder structure")
+![Common Data Model folder structure - model.json type](media/cdm-folder.png "Common Data Model folder structure")
 
 The model.json metadata file provides pointers to the entity data files throughout the Common Data Model folder.
 
