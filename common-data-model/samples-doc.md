@@ -1,11 +1,11 @@
 ---
-title: Create schema documents for the Common Data Model | Microsoft Docs
-description: How to create schema documents for the Common Data Model.
+title: How to use the sample code | Microsoft Docs
+description: How to how to use the Common Data Model sample code.
 author: oovanesy
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 1/28/2020
+ms.date: 02/27/2020
 ms.author: olegov
 ---
 
@@ -30,7 +30,6 @@ Within each samples folder, the files are organized as follows:
 
 -   Set of folders for each entity containing empty sample data partition file in the CSV format
 
- 
 
 ## Prerequisites for all samples
 
@@ -79,7 +78,7 @@ cdmCorpus.Storage.Mount("cdm", new LocalAdapter(pathFromExeToExampleRoot + "exam
 In this sample, you will learn how to read the Common Data Model manifest with all entity
 definitions, examine an entity, it's attributes and partitions.
 
-1.  Open `read-manifest.sln` in the **code-cs** folder.
+1.  Under the **1-read-manifest/code-cs** folder, open the `read-manifest.sln` file.
 
 1.  Run the project. You should see a console with the list of entities and
     corresponding schema locations.
@@ -112,16 +111,15 @@ Once it lists entities, it can be pointed at a specific entity and will parse JS
 Follow comments in the `Program.cs` file for each specific fragment for iterating
 through entities, their attributes, traits and data partition locations.
 
- 
-
 ### Create Manifest (2-create-manifest)
 
 
 In this example, you will learn how to create a manifest with select number of
-entities as well as corresponding partitions. Open `create-manifest.sln` in
-**code-cs** folder. You should only have directories with code.
+entities as well as corresponding partitions. 
 
-![](media/sample-folder2.png)
+1. Under the **2-create-manifest/code-cs** folder, open the `create-manifest.sln` file.
+
+    ![](media/sample-folder2.png)
 
 1.  Run the project. Monitor messages in the console as they are informative to
     what is going on.
@@ -129,7 +127,7 @@ entities as well as corresponding partitions. Open `create-manifest.sln` in
     ![](media/console3.png)
 
 1.  Look into your directory, it should have all files with entity definitions,
-    manifest file and folders with empty csv files for data generated for you. 
+    manifest file and folders with empty csv files for data generated for you.
 
     ![](media/sample-folder1.png)
 
@@ -199,22 +197,18 @@ JSON file along with the eponymous folder with empty CSV partition file.
 
 ### Customize Entities (3-customize-entities)
 
-Steps to follow:
 
-1.  Open 3-customize-entities and inside code-cs open 3-customize-entities.sln.
+1.  Under the **3-customize-entities/code-cs** folder, open the `customize-manifest.sln` file.
 
 2.  Run the project.
 
 This sample will load an existing manifest and add to it a new entity that is a
-customized version of a standard entity
+customized version of a standard entity. 
 
- 
-
-We will add the CareTeam entity, but first we will add the 'currentCity'
-attribute and give the new entity a new name 'MobileCareTeam'. This new
-definition becomes a local abstract description of an entity that is resolved
+We will add the CareTeam entity, but first we will add the 'currentCity' attribute and give the new entity a new name 'MobileCareTeam'. This new definition becomes a local abstract description of an entity that is resolved
 and flattened before being added to the manifest.
 
+```csharp
 // This method turns relative corpus paths into absolute ones in case we are in
 some sub-folders and don't know it
 
@@ -227,10 +221,12 @@ Console.WriteLine("Define new extension");
 
 var docAbs =
 cdmCorpus.MakeObject\<CdmDocumentDefinition\>(CdmObjectType.DocumentDef,MobileCareTeam.cdm.json");
+```
 
- Then import the CDM description of the original so the symbols will resolve.
+Next, import the Common Data Model description of the original so the symbols will resolve.
 
- // Import the cdm description of the original so the symbols will resolve
+```csharp
+// Import the cdm description of the original so the symbols will resolve
 
 docAbs.Imports.Add("cdm:/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CareTeam.cdm.json",
 null);
@@ -308,22 +304,24 @@ attNew.AppliedTraits.Add(tr);
 
 // Add attribute to the entity
 
-entAbs.Attributes.Add(attNew); 
+entAbs.Attributes.Add(attNew);
+```
 
-The entity abstract definition is done, add the document to the corpus in the
-root folder and then save the doc.
+The entity abstract definition is done; add the document to the corpus in the
+root folder and then save the doc. 
 
- 
-
+```csharp
 // The entity abstract definition is done, add the document to the corpus in the
 root folder and then save that doc
 
-cdmCorpus.Storage.FetchRootFolder("local").Documents.Add(docAbs); 
+cdmCorpus.Storage.FetchRootFolder("local").Documents.Add(docAbs);
+```
 
-The next step is to remove all of the guesswork out of decoding the entity shape
-by 'resolving' it to a relational by reference shape.
+The next step is to remove all the guesswork out of decoding the entity shape
+by resolving it to a relational by reference shape.
 
- Console.WriteLine("Make a local 'resolved' copy");
+```csharp
+Console.WriteLine("Make a local 'resolved' copy");
 
 // Now resolve it
 
@@ -345,228 +343,196 @@ manifest.Entities.Add(entFlat);
 // Save the manifest along with linked definition files
 
 ### await manifest.SaveAsAsync("default.manifest.cdm.json", true);
+```
 
 The result is the extended (customized) entity
 
+```json
 {
+    "jsonSchemaSemanticVersion":"0.9.0",
+    "imports":[
+       {
+          "corpusPath":"cdm:/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CareTeam.cdm.json"
+       }
+    ],
+    "definitions":[
+       {
+          "traitName":"means.temporary",
+          "extendsTrait":"means",
+          "hasParameters":[
+             {
+                "name":"estimatedDays",
+                "defaultValue":"30",
+                "dataType":{
+                   "dataTypeReference":"integer"
+                }
+             }
+          ]
+       },
+       {
+          "entityName":"MobileCareTeam",
+          "extendsEntity":"CareTeam",
+          "hasAttributes":[
+             {
+                "name":"currentCity",
+                "dataType":"city",
+                "appliedTraits":[
+                   {
+                      "traitReference":"means.temporary",
+                      "arguments":[
+                         {
+                            "name":"estimatedDays",
+                            "value":"90"
+                         }
+                      ]
+                   }
+                ],
+                "description":"The current city where the mobile care team is working"
+             }
+          ]
+       }
+    ]
+ }
+```
 
-  "jsonSchemaSemanticVersion": "0.9.0",
+Follow comments in the `Program.cs` for each specific fragment.
 
-  "imports": [
+### Create net new Entity (6-create-net-new-entities)
 
-    {
-
-      "corpusPath": "cdm:/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CareTeam.cdm.json"
-
-    }
-
-  ],
-
-  "definitions": [
-
-    {
-
-      "traitName": "means.temporary",
-
-      "extendsTrait": "means",
-
-      "hasParameters": [
-
-        {
-
-          "name": "estimatedDays",
-
-          "defaultValue": "30",
-
-          "dataType": {
-
-            "dataTypeReference": "integer"
-
-          }
-
-        }
-
-      ]
-
-    },
-
-    {
-
-      "entityName": "MobileCareTeam",
-
-      "extendsEntity": "CareTeam",
-
-      "hasAttributes": [
-
-        {
-
-          "name": "currentCity",
-
-          "dataType": "city",
-
-          "appliedTraits": [
-
-            {
-
-              "traitReference": "means.temporary",
-
-              "arguments": [
-
-                {
-
-                  "name": "estimatedDays",
-
-                  "value": "90"
-
-                }
-
-...
-
-          "description": "The current city where the mobile care team is working"
-
-...
-
-Follow comments in the Program.cs for each specific fragment.
-
-Create net new Entity (6-create-net-new-entities)
--------------------------------------------------
-
-This sample is going to simulate the steps a tool would follow in order to
+This sample is going to simulate the steps a tool would follow to
 create a new manifest document in some user storage folder with two types of
-entities - a net new entity and an entity extended from some public standards.
+entities:
+- a net new entity
+- an entity extended from some public standards.
 
-*Note: If we want to create a relationship from a new custom entity to an
-existing entity which is loaded from some public standards, we need to create an
+> [!NOTE]
+> If we want to create a relationship from a new custom entity to an
+existing entity that is loaded from some public standards, we need to create an
 entity extended from the existing entity and add a relationship to the attribute
-of the new entity. Since we can't modify attributes from an 'abstract' schema
-defintion in the public standards.*
+of the new entity because we can't modify attributes from an abstract schema
+definition in the public standards.
 
 This sample also creates a relationship from a net new entity to an existing
 entity, and a relationship between two net new entities.
 
 The steps are:
 
-Configure adapters as will all sample projects
+1. Configure adapters as with all sample projects
 
-// Make a corpus, the corpus is the collection of all documents and folders
-created or discovered while navigating objects and paths
+    ```csharp
+    // Make a corpus, the corpus is the collection of all documents and folders created or discovered while navigating objects and paths
 
-var cdmCorpus = new CdmCorpusDefinition();
+    var cdmCorpus = new CdmCorpusDefinition();
 
-Console.WriteLine("configure storage adapters");
+    Console.WriteLine("configure storage adapters");
 
-// Configure storage adapters to point at the target local manifest location and
-at the fake public standards
+    // Configure storage adapters to point at the target local manifest location and at the fake public standards
 
-var pathFromExeToExampleRoot = "../../../../../../";
+    var pathFromExeToExampleRoot = "../../../../../../";
 
-cdmCorpus.Storage.Mount("local", new LocalAdapter(pathFromExeToExampleRoot +
-"6-create-net-new-entities"));
+    cdmCorpus.Storage.Mount("local", new LocalAdapter(pathFromExeToExampleRoot +
+    "6-create-net-new-entities"));
 
-cdmCorpus.Storage.DefaultNamespace = "local"; // local is our default. so any
-paths that start out navigating without a device tag will assume local
+    cdmCorpus.Storage.DefaultNamespace = "local"; // local is our default. so any
+    paths that start out navigating without a device tag will assume local
 
-// Example cdm, normaly use the github adapter
+    // Example cdm, normally use the github adapter
 
-// Mount it as the 'cdm' device, not the default so must use "cdm:/folder" to
-get there
+    // Mount it as the 'cdm' device, not the default so must use "cdm:/folder" to get there
 
-cdmCorpus.Storage.Mount("cdm", new LocalAdapter(pathFromExeToExampleRoot +
-"example-public-standards"));
+    cdmCorpus.Storage.Mount("cdm", new LocalAdapter(pathFromExeToExampleRoot +
+    "example-public-standards"));
 
-Create a temporary 'manifest' object at the root of the corpus
+1. Create a temporary 'manifest' object at the root of the corpus
 
-// Make the temp manifest and add it to the root of the local documents in the
-corpus
+    ```csharp
+    // Make the temp manifest and add it to the root of the local documents in the corpus
 
-CdmManifestDefinition manifestAbstract =
-cdmCorpus.MakeObject\<CdmManifestDefinition\>(CdmObjectType.ManifestDef,
-"tempAbstract");
+    CdmManifestDefinition manifestAbstract =
+    cdmCorpus.MakeObject\<CdmManifestDefinition\>(CdmObjectType.ManifestDef,
+    "tempAbstract");
 
-// Add the temp manifest to the root of the local documents in the corpus
+    // Add the temp manifest to the root of the local documents in the corpus
 
-var localRoot = cdmCorpus.Storage.FetchRootFolder("local");
+    var localRoot = cdmCorpus.Storage.FetchRootFolder("local");
 
-localRoot.Documents.Add(manifestAbstract, "TempAbstract.manifest.cdm.json");
+    localRoot.Documents.Add(manifestAbstract, "TempAbstract.manifest.cdm.json");
 
-Create two net new entities without extending any existing entity, create a
-relationship from one to the other, and add them to the manifest
+1. Create two net new entities without extending any existing entity, create a relationship from one to the other, and add them to the manifest.
 
-// Create the simplest entity - CustomPerson
+    ```csharp
+    // Create the simplest entity - CustomPerson
 
-// Create the entity definition instance
+    // Create the entity definition instance
 
-var personEntity =
-cdmCorpus.MakeObject\<CdmEntityDefinition\>(CdmObjectType.EntityDef,
-CustomPersonEntityName, false);
+    var personEntity =
+    cdmCorpus.MakeObject\<CdmEntityDefinition\>(CdmObjectType.EntityDef,
+    CustomPersonEntityName, false);
 
-// Add type attributes to the entity instance
+    // Add type attributes to the entity instance
 
-var personAttributeId = CreateEntityAttributeWithPurposeAndDataType(cdmCorpus,
-\$"{CustomPersonEntityName}Id", "identifiedBy", "entityId");
+    var personAttributeId = CreateEntityAttributeWithPurposeAndDataType(cdmCorpus,
+    \$"{CustomPersonEntityName}Id", "identifiedBy", "entityId");
 
-personEntity.Attributes.Add(personAttributeId);
+    personEntity.Attributes.Add(personAttributeId);
 
-var personAttributeName = CreateEntityAttributeWithPurposeAndDataType(cdmCorpus,
-\$"{CustomPersonEntityName}Name", "hasA", "string");
+    var personAttributeName = CreateEntityAttributeWithPurposeAndDataType(cdmCorpus,
+    \$"{CustomPersonEntityName}Name", "hasA", "string");
 
-personEntity.Attributes.Add(personAttributeName);
+    personEntity.Attributes.Add(personAttributeName);
 
-// Add properties to the entity instance
+    // Add properties to the entity instance
 
-personEntity.DisplayName = CustomPersonEntityName;
+    personEntity.DisplayName = CustomPersonEntityName;
 
-personEntity.Version = "0.0.1";
+    personEntity.Version = "0.0.1";
 
-personEntity.Description = "This is a custom entity created for the sample.";
+    personEntity.Description = "This is a custom entity created for the sample.";
 
-// Create the document which contains the entity
+    // Create the document which contains the entity
 
-var personEntityDoc =
-cdmCorpus.MakeObject\<CdmDocumentDefinition\>(CdmObjectType.DocumentDef,
-\$"{CustomPersonEntityName}.cdm.json", false);
+    var personEntityDoc =
+    cdmCorpus.MakeObject\<CdmDocumentDefinition\>(CdmObjectType.DocumentDef,
+    \$"{CustomPersonEntityName}.cdm.json", false);
 
-// Add an import to the foundations doc so the traits about partitons will
-resolve nicely
+    // Add an import to the foundations doc so the traits about partitions will resolve nicely
 
-personEntityDoc.Imports.Add(FoundationJsonPath);
+    personEntityDoc.Imports.Add(FoundationJsonPath);
 
-personEntityDoc.Definitions.Add(personEntity);
+    personEntityDoc.Definitions.Add(personEntity);
 
-// Add the document to the root of the local documents in the corpus
+    // Add the document to the root of the local documents in the corpus
 
-localRoot.Documents.Add(personEntityDoc, personEntityDoc.Name);
+    localRoot.Documents.Add(personEntityDoc, personEntityDoc.Name);
 
-// Add the entity to the manifest
+    // Add the entity to the manifest
 
-manifestAbstract.Entities.Add(personEntity);
+    manifestAbstract.Entities.Add(personEntity);
 
-Please follow the same code path to create another entity
+1. Follow the same code path to create another entity.
 
-Create one entity which extends from the public standards, create a relationship
-from it to a net new entity, and add the entity to the manifest
+1. Create an entity that extends from the public standards, create a relationship
+from it to a net new entity, and add the entity to the manifest.
 
-// Create an entity which extends "Account" from the standard, it contains
-everything that "Account" has
+    ```csharp
+    // Create an entity which extends "Account" from the standard, it contains everything that "Account" has
 
-var extendedStandardAccountEntity =
-cdmCorpus.MakeObject\<CdmEntityDefinition\>(CdmObjectType.EntityDef,
-ExtendedStandardAccount, false);
+    var extendedStandardAccountEntity =
+    cdmCorpus.MakeObject\<CdmEntityDefinition\>(CdmObjectType.EntityDef,
+    ExtendedStandardAccount, false);
 
-// This function with 'true' will make a simple reference to the base
+    // This function with 'true' will make a simple reference to the base
 
-extendedStandardAccountEntity.ExtendsEntity =
-cdmCorpus.MakeObject\<CdmEntityReference\>(CdmObjectType.EntityRef, "Account",
-true);
+    extendedStandardAccountEntity.ExtendsEntity =
+    cdmCorpus.MakeObject\<CdmEntityReference\>(CdmObjectType.EntityRef, "Account",
+    true);
 
-Please follow the code in the sample to fully define the extended entity similar
+1. Follow the code in the sample to fully define the extended entity similar
 to the sample extending the standard entity
 
-Make a 'resolved' version of each entity doc in our local folder. Call
-CreateResolvedManifestAsync on our starting manifest. This will resolve
-everything and find all of the relationships between entities for us. Please
-check out the second example 2-create-manifest for more details. Save the new
-documents.
+1. Make a 'resolved' version of each entity doc in our local folder. Call
+`CreateResolvedManifestAsync` on our starting manifest. This will resolve
+everything and find all of the relationships between entities for us. Check out the second example 2-create-manifest for more details. Save the new documents.
 
 ```csharp
 // Save as manifest.cdm.json
@@ -576,7 +542,6 @@ manifestResolved.SaveAsAsync(\$"{manifestResolved.ManifestName}.manifest.cdm.jso
 true);
 ```
 
-As the result you should have new entities created wit logical definitions and
-resolved definitions in *resolved* folder
+As a result, you should have new entities created with logical definitions and resolved definitions in the **resolved** folder
 
-Follow comments in the Program.cs for each specific fragment.
+Follow comments in the `Program.cs` for each specific fragment.
