@@ -9,7 +9,7 @@ ms.date: 02/27/2020
 ms.author: olegov
 ---
 
-# How to use the sample code?
+# How to use the Common Data Model samples?
 
 This topic provides information about how to use the Common Data Model sample code.
 
