@@ -91,8 +91,7 @@ definitions, examine an entity, it's attributes and partitions.
 The object model reads the content of the `default.manifest.cdm.json` file located at the root of the project folder. The relative path points at it from the location of the .exe file. For example, the location of the read manifest
 executable is:
 
-`E:\cdm_sdk_test\CDM SDK
-0.9\1-read-manifest\code-cs\read-manifest\bin\\Debug\netcoreapp2.1`
+E:\cdm_sdk_test\CDM SDK\1-read-manifest\code-cs\read-manifest\bin\\Debug\netcoreapp2.1
 
 The path to the folder with entities is specified as follows:
 
