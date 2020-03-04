@@ -1,17 +1,17 @@
 ---
 title: CrsOtherFlag - Common Data Model | Microsoft Docs
-description: This covers the four CRS++ columns titled&#58; "Free standing technical cooperation"; "Programme-based approach"; "Investment project"; "Associated financing"
+description: This covers the four CRS++ columns titled&#58 "Free standing technical cooperation"; "Programme-based approach"; "Investment project"; "Associated financing"
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 2/6/2020
+ms.date: 2/28/2020
 ms.author: nebanfic
 ---
 
 # CRS Other Flag
 
-This covers the four CRS++ columns titled: "Free standing technical cooperation"; "Programme-based approach"; "Investment project"; "Associated financing"  
+This covers the four CRS++ columns titled: “Free standing technical cooperation”; “Programme-based approach”; “Investment project”; “Associated financing”  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/CrsOtherFlag.cdm.json" target="_blank">GitHub</a>.  
 
@@ -28,7 +28,7 @@ Instances of this entity are listed below.
 </summary>
 
 **is.CDM.entityVersion**  
-  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"0.9"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
+  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.0"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.CDM.attributeGroup**  
   identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsCreationModificationDatesAndIds</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsOwnershipInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsTimeZoneInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsVersionTracking</td></tr><tr><td>/core/applicationCommon/foundationCommon<br>/crmCommon/accelerators/nonProfit/nonProfitIati<br>/CrsOtherFlag.cdm.json/CrsOtherFlag/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>

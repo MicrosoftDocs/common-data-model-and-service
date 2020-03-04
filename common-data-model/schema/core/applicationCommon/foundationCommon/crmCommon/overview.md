@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 2/6/2020
+ms.date: 2/28/2020
 ms.author: nebanfic
 ---
 
