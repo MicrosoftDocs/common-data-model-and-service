@@ -26,11 +26,11 @@ In addition to the metadata system, Common Data Model includes a set of standard
 
 ## Why use Common Data Model?
 
-Imagine that you have three business apps&mdash;one each for materials, manufacturing, and sales. It's likely that each app was created independently, with different structures to represent an entity, such as **Account**, in nearly (but not quite) the same way. If used Common Data Model, you would have built your data in a standardized format (using the Common Data Model standard entities, attributes, and relationships) and then each app could use the same data. Of course, each app might have its own additional data and schemas, depending on its functionality. But when it comes to development, your apps and reports can pull common data elements quickly, cleanly, and with confidence.
+Imagine that you have three business apps&mdash;one each for materials, manufacturing, and sales. It's likely that each app was created independently, with different structures to represent an entity, such as **Account**, in nearly (but not quite) the same way. If you'd used Common Data Model, you would have built your data in a standardized format (using the Common Data Model standard entities, attributes, and relationships) and then each app could use the same data. Of course, each app might have its own additional data and schemas, depending on its functionality. But when it comes to development, your apps and reports can pull common data elements quickly, cleanly, and with confidence.
 
 And what if you need to create a fourth app? Your data will be ready in Common Data Model schema, so your development efforts can concentrate on business logic rather than data quagmires and sticky transformations.
 
-Historically, the work to build an app has been tightly tied with data integration, but with the Common Data Model and the platforms that support it, the two can happen independently:
+Historically, the work to build an app has been tightly tied with data integration, but with Common Data Model and the platforms that support it, the two can happen independently:
 
 - **App makers and/or developers**: Whether these users leverage code-based platforms or a low-code/no-code platform such as Power Apps or Power BI, they need to store and manage data for their apps.
 
@@ -54,7 +54,7 @@ Organizations from industries such as healthcare are working closely with Micros
 
 ## Next steps
 
-[How to use Common Data Model](use.md): Describes the Common Data Model in detail and discusses use cases for creating data in the model or transforming your existing data into the model.  
+[How to use Common Data Model](use.md): Describes Common Data Model in detail and discusses use cases for creating data in the model or transforming your existing data into the model.  
 [How to create Common Data Model schema documents](creating-schemas.md): Describes how to create custom Common Data Model entity schema documents.   
 [Learn more about Industry Accelerators](industry-accelerators.md): Describes the effort around industry extensions and the solutions that Microsoft has already released.  
 [Common Data Model and Microsoft Azure Data Lake Storage Gen2](data-lake.md): Describes how putting data in Common Data Model form and storing it in Azure Data Lake Storage Gen2 helps services in the Azure ecosystem to exchange data.
