@@ -91,8 +91,7 @@ definitions, examine an entity, it's attributes and partitions.
 The object model reads the content of the `default.manifest.cdm.json` file located at the root of the project folder. The relative path points at it from the location of the .exe file. For example, the location of the read manifest
 executable is:
 
-`E:\\cdm_sdk_test\\CDM SDK
-0.9\\1-read-manifest\\code-cs\\read-manifest\\bin\\Debug\\netcoreapp2.1`
+E:\cdm_sdk_test\CDM SDK\1-read-manifest\code-cs\read-manifest\bin\\Debug\netcoreapp2.1
 
 The path to the folder with entities is specified as follows:
 
@@ -188,7 +187,7 @@ JSON file along with the eponymous folder with empty CSV partition file.
 
 1. Follow comments in the `Program.cs` for each specific fragment.
 
-### Customize Entities (3-customize-entities)
+### Customize Entities
 
 
 1.  Under the **3-customize-entities/code-cs** folder, open the `customize-manifest.sln` file.
@@ -206,14 +205,14 @@ definition per instructions on how to process references and relationships befor
 // some sub-folders and don't know it
 
 var manifest = await
-cdmCorpus.FetchObjectAsync\<CdmManifestDefinition\>("default.folio.cdm.json");
+cdmCorpus.FetchObjectAsync<CdmManifestDefinition>("default.folio.cdm.json");
 
 Console.WriteLine("Define new extension");
 
 // First we will make a new document right in the same folder as the manifest
 
 var docAbs =
-cdmCorpus.MakeObject\<CdmDocumentDefinition\>(CdmObjectType.DocumentDef,MobileCareTeam.cdm.json");
+cdmCorpus.MakeObject<CdmDocumentDefinition>(CdmObjectType.DocumentDef,MobileCareTeam.cdm.json");
 ```
 
 Next, import the Common Data Model description of the original so the symbols will resolve.
@@ -243,7 +242,7 @@ var param = cdmCorpus.MakeObject<CdmParameterDefinition>(CdmObjectType.Parameter
 // in the json. go look at the difference from "means" when this is done
 
 param.DataTypeRef =
-cdmCorpus.MakeObject\<CdmDataTypeReference\>(CdmObjectType.DataTypeRef,
+cdmCorpus.MakeObject<CdmDataTypeReference>(CdmObjectType.DataTypeRef,
 "integer");
 
 param.DefaultValue = "30";
@@ -369,7 +368,7 @@ The result is the extended (customized) entity:
 
 Follow comments in the `Program.cs` for each specific fragment.
 
-### Create net new Entity (6-create-net-new-entities)
+### Create net new entity 
 
 This sample is going to simulate the steps a tool would follow to
 create a new manifest document in some user storage folder with two types of
