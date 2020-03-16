@@ -90,7 +90,7 @@ You'll start by creating an entity schema for the *logical* entity, **UserAgent*
 * **imports** imports other schema documents that are needed for the current document. Here, you've imported the *foundations.cdm.json* file, which itself imports *primitives.cdm.json* (containing fundamental data types, traits, and entities) and *meanings.cdm.json* (containing trait definitions and other convenient data types). Importing this *foundations.cdm.json* document is enough to create the schema documents.
 
    >[!IMPORTANT]
-   >The **corpusPath** is an absolute path to the document. 
+   >The **corpusPath** is an absolute path to the document from the root of the [storage adapter](0.9om/api-reference/storage/storage.md) that was configured to point at the schema documents. For example, if you configured an adapter to point to "C:\path\to\schemaDocuments", this path would be used as the root and the corpus path to a document would be absolute to this root, not the root of the underlying file system.
 
 * **definitions** contains a list of the current document’s Common Data Model object definitions. This is where you describe the entity. 
 

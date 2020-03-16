@@ -368,9 +368,7 @@ capabilities for the manifest object:
          "dataPartitions":[
             {
                "location":"EmailMessageData/Sep/emails.csv",
-               "exhibitsTraits":[
-
-               ],
+               "exhibitsTraits":[],
                "arguments":[
                   {
                      "month":[
@@ -383,9 +381,7 @@ capabilities for the manifest object:
             },
             {
                "location":"EmailMessageData/Oct/emails.csv",
-               "exhibitsTraits":[
-
-               ],
+               "exhibitsTraits":[],
                "arguments":[
                   {
                      "month":[
@@ -401,7 +397,8 @@ capabilities for the manifest object:
             {
                "name":"EmailByMonth",
                "rootLocation":"EmailMessageData/",
-               //This pattern is what describes the partitions found above               "regularExpression":"(\\\\w{3})/emails.csv)",
+               // This pattern is what describes the partitions found above 
+               "regularExpression":"(\\\\w{3})/emails.csv)",
                "parameters":[
                   "month"
                ]
@@ -412,16 +409,16 @@ capabilities for the manifest object:
          "lastChildFileModifiedTime":"2019-09-27T02:09:08.149Z"
       },
       {
-         // This is a referenced entity declaration. We are just pointing at another
-
-
-manifest and //entity         "entityName":"FrequentPairs",
+         // This is a referenced entity declaration. 
+         // We are just pointing at another manifest and entity.
+         "entityName":"FrequentPairs",
          "explanation":"Borrow the analysis of frequent email pairs from that project",
          "entityPath":"networkProject/NetworkAnalysis.manifest.cdm.json/FrequentPairs"
       }
    ],
    "relationships":[
-      // A relationship between the entities      {
+      // A relationship between the entities.
+      {
          "fromEntity":"EmailMessageData/EmailMessage.cdm.json/EmailMessage",
          "fromEntityAttribute":"ownerId",
          "toEntity":"PersonData/Person.cdm.json/Person",
@@ -429,7 +426,8 @@ manifest and //entity         "entityName":"FrequentPairs",
       }
    ],
    "subManifests":[
-      // This sub-manifest is independent but described here so we know it is related      {
+      // This sub-manifest is independent but described here so we know it's related
+      {
          "name":"NetworkAnalysis",
          "definition":"networkProject/NetworkAnalysis.manifest.cdm.json"
       }
