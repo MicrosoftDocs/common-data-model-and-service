@@ -8,13 +8,13 @@
       - name: Overview
         href: sdk/overview.md
       - name: Technical details
-        href: technical-details.md
+        href: sdk/technical-details.md
       - name: Manifest
         href: sdk/manifest.md
       - name: Logical definitions
-        href: logical-definitions.md
+        href: sdk/logical-definitions.md
       - name: Convert logical entities to resolved entities
-        href: convert-logical-entities-resolved-entities.md
+        href: sdk/convert-logical-entities-resolved-entities.md
   - name: Industry Accelerators
     items:
       - name: Overview
