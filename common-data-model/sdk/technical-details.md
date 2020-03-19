@@ -12,8 +12,7 @@ ms.author: Deonhe
 
 # A few technical details to help with the rest
 
-Before digging into the details of the Common Data Model language and object
-model, here are some important up-front notes.
+Before digging into the details of the Common Data Model language and object model, here are some important up-front notes.
 
 ## JSON documents
 

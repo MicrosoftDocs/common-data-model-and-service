@@ -10,7 +10,7 @@ ms.author: Deonhe
 ---
 
 
-# Converting logical entities into resolved entities
+# Convert logical entities into resolved entities
 
 To illustrate the concept of converting logical entities into resolved entities,
 let's return to our Student entity example. Given the new, full definition of

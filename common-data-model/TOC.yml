@@ -3,7 +3,7 @@
   items:
   - name: How to use Common Data Model
     href: use.md
-  - name: Common Data Model SDK
+  - name: Common Data Model Technical Guide
     items:
       - name: Overview
         href: sdk/overview.md
@@ -13,7 +13,7 @@
         href: sdk/manifest.md
       - name: Logical definitions
         href: sdk/logical-definitions.md
-      - name: Convert logical entities to resolved entities
+      - name: Convert logical entities into resolved entities
         href: sdk/convert-logical-entities-resolved-entities.md
   - name: Industry Accelerators
     items:
