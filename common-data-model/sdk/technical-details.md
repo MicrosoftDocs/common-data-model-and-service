@@ -83,7 +83,7 @@ the document, and then any objects within that top-level object.
 ## Version information
 
 
-Both the schema definition files (\*.cdm.json) and the entity manifest files
+Both the schema definition files (\*.cdm.json) and the folder manifest files
 (\*.manifest.cdm.json) start with a reference to the JSON schema document that
 will validate the content of these files and the version number of the object
 model for Common Data Model (and JSON schema) that validates, loads, and
@@ -201,4 +201,4 @@ name, whichever definition of the object was imported last "wins."
 
 ## Learn more
 
-- Common Data Model [logical definitions](logical-definitions.md)
+- Common Data Model [manifest definitions](manifest.md)
