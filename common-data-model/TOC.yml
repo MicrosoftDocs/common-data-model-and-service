@@ -7,7 +7,7 @@
     items:
       - name: Overview
         href: sdk/overview.md
-      - name: Technical details
+      - name: Fundamentals
         href: sdk/technical-details.md
       - name: Manifest
         href: sdk/manifest.md
