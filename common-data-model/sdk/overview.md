@@ -56,5 +56,5 @@ The term *Common Data Model* describes at least five related capabilities or ide
 
 ## Learn more
 
-- Common Data Model [technical details](technical-details.md)
+- Common Data Model [fundamentals](fundamentals.md)
 - Common Data Model [logical definitions](logical-definitions.md)

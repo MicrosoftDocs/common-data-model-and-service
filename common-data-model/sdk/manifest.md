@@ -433,5 +433,5 @@ capabilities for the **Manifest** object.
 
 ## Learn more
 
-- Common Data Model [technical details](technical-details.md)
+- Common Data Model [fundamentals](fundamentals.md)
 - Common Data Model [logical definitions](logical-definitions.md)

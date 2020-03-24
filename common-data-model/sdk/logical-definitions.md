@@ -555,4 +555,4 @@ which they're being used. For example:
 
 ## Learn more
 
-- Common Data Model [technical details](technical-details.md)
+- Common Data Model [fundamentals](fundamentals.md)
