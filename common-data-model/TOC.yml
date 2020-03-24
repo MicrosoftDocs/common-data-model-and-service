@@ -8,7 +8,7 @@
       - name: Overview
         href: sdk/overview.md
       - name: Fundamentals
-        href: sdk/technical-details.md
+        href: sdk/fundamentals.md
       - name: Manifest
         href: sdk/manifest.md
       - name: Logical definitions
