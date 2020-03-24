@@ -66,7 +66,7 @@ A manifest document has this structure:
 ## Imports in a manifest
 
 As described earlier, a manifest can import other file definition documents.
-Because a manifest uses [Common Data Model traits](../sdk/logical-definitions.md/#traits), usually the single import of the document cdm:/foundations.cdm.json is enough to get standard definitions for these traits.
+Because a manifest uses [Common Data Model traits](../sdk/logical-definitions.md#traits), usually the single import of the document cdm:/foundations.cdm.json is enough to get standard definitions for these traits.
 
 ## Shared concepts inside the manifest
 
