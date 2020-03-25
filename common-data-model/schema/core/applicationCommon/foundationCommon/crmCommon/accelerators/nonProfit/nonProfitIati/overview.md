@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 2/28/2020
+ms.date: 3/25/2020
 ms.author: nebanfic
 ---
 
@@ -16,13 +16,13 @@ ms.author: nebanfic
 
 |Name|Description|
 |---|---|
-|[Account](Account.md)||
+|[Account](Account.md)|Business that represents a customer or potential customer. The company that is billed in business transactions.|
 |[AidType](AidType.md)|The type of aid being supplied (project-type intervention, budget support, debt relief, etc.).|
 |[Award](Award.md)|An Award represents the total amount of funding that has been agreed to be awarded to an individual or institution.|
 |[Budget](Budget.md)|A Budget represents the amount of funds that can be awarded for a particular delivery framework (i.e Program, Project, Initiative, Activity) for a defined period of time (i.e. fiscal year).|
 |[Campaign](Campaign.md)|Container for campaign activities and responses, sales literature, products, and lists to create, plan, execute, and track the results of a specific marketing campaign through its life.|
 |[Condition](Condition.md)|Specific terms and conditions attached to the Delivery Framework that, if not met, may influence the delivery of commitments made by participating organizations.|
-|[Contact](Contact.md)||
+|[Contact](Contact.md)|Person with whom a business unit has a relationship, such as customer, supplier, and colleague.|
 |[CrsOtherFlag](CrsOtherFlag.md)|This covers the four CRS++ columns titled: “Free standing technical cooperation”; “Programme-based approach”; “Investment project”; “Associated financing”|
 |[DeliveryFramework](DeliveryFramework.md)|Delivery Framework represents a management unit of work defined by the organization or entity doing the work. In IATI, the Delivery Framework is an “Activity.”|
 |[DeliveryFrameworkContact](DeliveryFrameworkContact.md)|Contact information for the Delivery Framework.|
