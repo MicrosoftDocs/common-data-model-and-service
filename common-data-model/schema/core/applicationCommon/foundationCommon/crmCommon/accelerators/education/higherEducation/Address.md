@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 2/28/2020
+ms.date: 3/25/2020
 ms.author: nebanfic
 ---
 
@@ -31,7 +31,7 @@ Instances of this entity are listed below.
 </summary>
 
 **is.CDM.entityVersion**  
-  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.0"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
+  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.identifiedBy**  
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Address/(resolvedAttributes)/customerAddressId](#customerAddressId)</td><td>attribute</td><td></td></tr></table>
@@ -152,9 +152,8 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"1"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#parentIdTypeCode name="parentIdTypeCode">parentIdTypeCode</a>
@@ -188,9 +187,8 @@ Marks an attribute that contains the entity name or 'class' for the situation wh
 **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"parentidtypecode"</td><td>string</td><td></td></tr></table>
 
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#customerAddressId name="customerAddressId">customerAddressId</a>
@@ -231,9 +229,8 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"2"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#addressNumber name="addressNumber">addressNumber</a>
@@ -337,9 +334,8 @@ First included in: higherEducation/Address (this entity)
 **is.addedInSupportOf**  
 <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>"objectTypeCode"</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
 
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#addressTypeCode name="addressTypeCode">addressTypeCode</a>
@@ -406,9 +402,8 @@ First included in: higherEducation/Address (this entity)
 **is.addedInSupportOf**  
 <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>"addressTypeCode"</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
 
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#name name="name">name</a>
@@ -450,9 +445,8 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"200"</td><td>integer</td><td></td></tr></table>
 
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#primaryContactName name="primaryContactName">primaryContactName</a>
@@ -494,9 +488,8 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"150"</td><td>integer</td><td></td></tr></table>
 
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#line1 name="line1">line1</a>
@@ -538,9 +531,8 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"250"</td><td>integer</td><td></td></tr></table>
 
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#line2 name="line2">line2</a>
@@ -582,9 +574,8 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"250"</td><td>integer</td><td></td></tr></table>
 
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#line3 name="line3">line3</a>
@@ -626,9 +617,8 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"250"</td><td>integer</td><td></td></tr></table>
 
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#city name="city">city</a>
@@ -670,9 +660,8 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"80"</td><td>integer</td><td></td></tr></table>
 
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#stateOrProvince name="stateOrProvince">stateOrProvince</a>
@@ -714,9 +703,8 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"50"</td><td>integer</td><td></td></tr></table>
 
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#county name="county">county</a>
@@ -758,9 +746,8 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"50"</td><td>integer</td><td></td></tr></table>
 
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#country name="country">country</a>
@@ -802,9 +789,8 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"80"</td><td>integer</td><td></td></tr></table>
 
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#postOfficeBox name="postOfficeBox">postOfficeBox</a>
@@ -845,9 +831,8 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"20"</td><td>integer</td><td></td></tr></table>
 
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#postalCode name="postalCode">postalCode</a>
@@ -889,9 +874,8 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"20"</td><td>integer</td><td></td></tr></table>
 
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#UTCOffset name="UTCOffset">UTCOffset</a>
@@ -933,9 +917,8 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-1500"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"1500"</td><td>decimal</td><td></td></tr></table>
 
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#freightTermsCode name="freightTermsCode">freightTermsCode</a>
@@ -1002,9 +985,8 @@ First included in: higherEducation/Address (this entity)
 **is.addedInSupportOf**  
 <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>"freightTermsCode"</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
 
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#UPSZone name="UPSZone">UPSZone</a>
@@ -1045,9 +1027,8 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"4"</td><td>integer</td><td></td></tr></table>
 
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#latitude name="latitude">latitude</a>
@@ -1131,9 +1112,8 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"50"</td><td>integer</td><td></td></tr></table>
 
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#longitude name="longitude">longitude</a>
@@ -1242,9 +1222,8 @@ First included in: higherEducation/Address (this entity)
 **is.addedInSupportOf**  
 <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>"shippingMethodCode"</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
 
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#telephone2 name="telephone2">telephone2</a>
@@ -1286,9 +1265,8 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"50"</td><td>integer</td><td></td></tr></table>
 
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#telephone3 name="telephone3">telephone3</a>
@@ -1330,9 +1308,8 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"50"</td><td>integer</td><td></td></tr></table>
 
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#fax name="fax">fax</a>
@@ -1374,9 +1351,8 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"50"</td><td>integer</td><td></td></tr></table>
 
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
@@ -1461,9 +1437,8 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"28"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
@@ -1551,9 +1526,8 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"30"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
@@ -1638,9 +1612,8 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"41"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#owningUser name="owningUser">owningUser</a>
@@ -1684,9 +1657,8 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"42"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
@@ -1894,9 +1866,8 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 contains a User or Team ID  
 
 **is.dataFormat.guid**  
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
@@ -1936,9 +1907,8 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 **is.CDS.owner**  
 contains a User or Team ID  
 
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
@@ -1985,9 +1955,8 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"52"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
@@ -2034,9 +2003,8 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"56"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
@@ -2083,9 +2051,8 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"60"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
@@ -2170,9 +2137,8 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"1000"</td><td>integer</td><td></td></tr></table>
 
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#endDate name="endDate">endDate</a>
@@ -2253,9 +2219,8 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"255"</td><td>integer</td><td></td></tr></table>
 
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#externalSourceSystem name="externalSourceSystem">externalSourceSystem</a>
@@ -2322,9 +2287,8 @@ First included in: higherEducation/Address (this entity)
 **is.addedInSupportOf**  
 <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>"externalSourceSystem"</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
 
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#mailType name="mailType">mailType</a>
@@ -2391,9 +2355,8 @@ First included in: higherEducation/Address (this entity)
 **is.addedInSupportOf**  
 <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>"mailType"</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
 
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#startDate name="startDate">startDate</a>

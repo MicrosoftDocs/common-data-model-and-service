@@ -1,6 +1,6 @@
 ---
-title: ProgramVersion - Common Data Model | Microsoft Docs
-description: The master list of all program versions defined by the institution.
+title: Grant - Common Data Model | Microsoft Docs
+description: This entity stores the list of grants offered to a school by all business partners
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
@@ -9,17 +9,17 @@ ms.date: 3/25/2020
 ms.author: nebanfic
 ---
 
-# Program Version
+# Grant
 
-The master list of all program versions defined by the institution.  
+This entity stores the list of grants offered to a school by all business partners  
   
- Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/ProgramVersion.cdm.json" target="_blank">GitHub</a>.  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Grant.cdm.json" target="_blank">GitHub</a>.  
 
 ## Instances
 
 Instances of this entity are listed below.  
 
-- /crmCommon/accelerators/education/higherEducation/ProgramVersion  
+- /crmCommon/accelerators/education/higherEducation/Grant  
 
 ## Traits
 
@@ -28,25 +28,25 @@ Instances of this entity are listed below.
 </summary>
 
 **is.CDM.entityVersion**  
-  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
+  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.0"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.CDM.attributeGroup**  
-  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsCreationModificationDatesAndIds</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsOwnershipInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsTimeZoneInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsVersionTracking</td></tr><tr><td>/core/applicationCommon/foundationCommon<br>/crmCommon/accelerators/education/higherEducation<br>/ProgramVersion.cdm.json/ProgramVersion<br>/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
+  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsCreationModificationDatesAndIds</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsOwnershipInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsTimeZoneInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsVersionTracking</td></tr><tr><td>/core/applicationCommon/foundationCommon<br>/crmCommon/accelerators/education/higherEducation<br>/Grant.cdm.json/Grant/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
 
 **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ProgramVersion/(resolvedAttributes)/programVersionId](#programVersionId)</td><td>attribute</td><td></td></tr></table>
+  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Grant/(resolvedAttributes)/grantId](#grantId)</td><td>attribute</td><td></td></tr></table>
 
 **means.entityState**  
-  the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ProgramVersion/(resolvedAttributes)/stateCode](#stateCode)</td><td>attribute</td><td></td></tr></table>
+  the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Grant/(resolvedAttributes)/stateCode](#stateCode)</td><td>attribute</td><td></td></tr></table>
 
 **is.localized.displayedAs**  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Program Version</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Grant</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The master list of all program versions defined by the institution.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>This entity stores the list of grants offered to a school by all business partners</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.CDS.sourceNamed**  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"mshied_programversion"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"mshied_Grant"</td><td>string</td><td></td></tr></table>
 
 </details>
 
@@ -54,39 +54,50 @@ Instances of this entity are listed below.
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="ProgramVersion.md" target="_blank">higherEducation/ProgramVersion</a>|
-|[createdBy](#createdBy)|Shows who created the record.|<a href="ProgramVersion.md" target="_blank">higherEducation/ProgramVersion</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="ProgramVersion.md" target="_blank">higherEducation/ProgramVersion</a>|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="ProgramVersion.md" target="_blank">higherEducation/ProgramVersion</a>|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="ProgramVersion.md" target="_blank">higherEducation/ProgramVersion</a>|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="ProgramVersion.md" target="_blank">higherEducation/ProgramVersion</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="ProgramVersion.md" target="_blank">higherEducation/ProgramVersion</a>|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="ProgramVersion.md" target="_blank">higherEducation/ProgramVersion</a>|
-|[ownerId](#ownerId)|Owner Id|<a href="ProgramVersion.md" target="_blank">higherEducation/ProgramVersion</a>|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="ProgramVersion.md" target="_blank">higherEducation/ProgramVersion</a>|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="ProgramVersion.md" target="_blank">higherEducation/ProgramVersion</a>|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="ProgramVersion.md" target="_blank">higherEducation/ProgramVersion</a>|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="ProgramVersion.md" target="_blank">higherEducation/ProgramVersion</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="ProgramVersion.md" target="_blank">higherEducation/ProgramVersion</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="ProgramVersion.md" target="_blank">higherEducation/ProgramVersion</a>|
-|[versionNumber](#versionNumber)|Version Number|<a href="ProgramVersion.md" target="_blank">higherEducation/ProgramVersion</a>|
-|[programVersionId](#programVersionId)|Unique identifier for entity instances|<a href="ProgramVersion.md" target="_blank">higherEducation/ProgramVersion</a>|
-|[stateCode](#stateCode)|Status of the Program Version|<a href="ProgramVersion.md" target="_blank">higherEducation/ProgramVersion</a>|
-|[stateCode_display](#stateCode_display)||<a href="ProgramVersion.md" target="_blank">higherEducation/ProgramVersion</a>|
-|[statusCode](#statusCode)|Reason for the status of the Program Version|<a href="ProgramVersion.md" target="_blank">higherEducation/ProgramVersion</a>|
-|[statusCode_display](#statusCode_display)||<a href="ProgramVersion.md" target="_blank">higherEducation/ProgramVersion</a>|
-|[name](#name)|Program Version Name|<a href="ProgramVersion.md" target="_blank">higherEducation/ProgramVersion</a>|
-|[code](#code)|Abbreviated code for the program version.|<a href="ProgramVersion.md" target="_blank">higherEducation/ProgramVersion</a>|
-|[externalIdentifier](#externalIdentifier)|External Identifier|<a href="ProgramVersion.md" target="_blank">higherEducation/ProgramVersion</a>|
-|[externalSourceSystem](#externalSourceSystem)|External Source System|<a href="ProgramVersion.md" target="_blank">higherEducation/ProgramVersion</a>|
-|[externalSourceSystem_display](#externalSourceSystem_display)||<a href="ProgramVersion.md" target="_blank">higherEducation/ProgramVersion</a>|
-|[programId](#programId)|Lookup to the program.|<a href="ProgramVersion.md" target="_blank">higherEducation/ProgramVersion</a>|
-|[programLevelId](#programLevelId)|Link to Program Level entity|<a href="ProgramVersion.md" target="_blank">higherEducation/ProgramVersion</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Grant.md" target="_blank">higherEducation/Grant</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="Grant.md" target="_blank">higherEducation/Grant</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Grant.md" target="_blank">higherEducation/Grant</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="Grant.md" target="_blank">higherEducation/Grant</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="Grant.md" target="_blank">higherEducation/Grant</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="Grant.md" target="_blank">higherEducation/Grant</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Grant.md" target="_blank">higherEducation/Grant</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Grant.md" target="_blank">higherEducation/Grant</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="Grant.md" target="_blank">higherEducation/Grant</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Grant.md" target="_blank">higherEducation/Grant</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Grant.md" target="_blank">higherEducation/Grant</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Grant.md" target="_blank">higherEducation/Grant</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Grant.md" target="_blank">higherEducation/Grant</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Grant.md" target="_blank">higherEducation/Grant</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Grant.md" target="_blank">higherEducation/Grant</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Grant.md" target="_blank">higherEducation/Grant</a>|
+|[grantId](#grantId)|Unique identifier for entity instances|<a href="Grant.md" target="_blank">higherEducation/Grant</a>|
+|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the entity with respect to the base currency.|<a href="Grant.md" target="_blank">higherEducation/Grant</a>|
+|[amount](#amount)|Amount offered to perform required research
+|<a href="Grant.md" target="_blank">higherEducation/Grant</a>|
+|[amount_Base](#amount_Base)|Value of the Amount in base currency.|<a href="Grant.md" target="_blank">higherEducation/Grant</a>|
+|[applicationDeadlineDate](#applicationDeadlineDate)|Last date to apply|<a href="Grant.md" target="_blank">higherEducation/Grant</a>|
+|[areaOfStudyId](#areaOfStudyId)|Field in which grant of offered|<a href="Grant.md" target="_blank">higherEducation/Grant</a>|
+|[businessPartnerId](#businessPartnerId)|Business Partner unique identification number|<a href="Grant.md" target="_blank">higherEducation/Grant</a>|
+|[businessPartnerContactId](#businessPartnerContactId)|Grant point of contact|<a href="Grant.md" target="_blank">higherEducation/Grant</a>|
+|[description](#description)|Description about the Grant|<a href="Grant.md" target="_blank">higherEducation/Grant</a>|
+|[name](#name)|Required name field|<a href="Grant.md" target="_blank">higherEducation/Grant</a>|
+|[qualifications](#qualifications)|Qualifications required to be eligible for Grant|<a href="Grant.md" target="_blank">higherEducation/Grant</a>|
+|[responsibleFacultyContactId](#responsibleFacultyContactId)|Name of the professor guiding research|<a href="Grant.md" target="_blank">higherEducation/Grant</a>|
+|[validFrom](#validFrom)|Start Date of Grant|<a href="Grant.md" target="_blank">higherEducation/Grant</a>|
+|[validTo](#validTo)|End Date of Grant
+|<a href="Grant.md" target="_blank">higherEducation/Grant</a>|
+|[websiteURL](#websiteURL)|Grant URL|<a href="Grant.md" target="_blank">higherEducation/Grant</a>|
+|[workDescription](#workDescription)|Description of work to be performed|<a href="Grant.md" target="_blank">higherEducation/Grant</a>|
+|[stateCode](#stateCode)|Status of the Grant|<a href="Grant.md" target="_blank">higherEducation/Grant</a>|
+|[stateCode_display](#stateCode_display)||<a href="Grant.md" target="_blank">higherEducation/Grant</a>|
+|[statusCode](#statusCode)|Reason for the status of the Grant|<a href="Grant.md" target="_blank">higherEducation/Grant</a>|
+|[statusCode_display](#statusCode_display)||<a href="Grant.md" target="_blank">higherEducation/Grant</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the entity.|<a href="Grant.md" target="_blank">higherEducation/Grant</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: higherEducation/ProgramVersion (this entity)  
+First included in: higherEducation/Grant (this entity)  
 
 #### Properties
 
@@ -127,7 +138,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: higherEducation/ProgramVersion (this entity)  
+First included in: higherEducation/Grant (this entity)  
 
 #### Properties
 
@@ -178,7 +189,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: higherEducation/ProgramVersion (this entity)  
+First included in: higherEducation/Grant (this entity)  
 
 #### Properties
 
@@ -219,7 +230,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: higherEducation/ProgramVersion (this entity)  
+First included in: higherEducation/Grant (this entity)  
 
 #### Properties
 
@@ -270,7 +281,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: higherEducation/ProgramVersion (this entity)  
+First included in: higherEducation/Grant (this entity)  
 
 #### Properties
 
@@ -321,7 +332,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: higherEducation/ProgramVersion (this entity)  
+First included in: higherEducation/Grant (this entity)  
 
 #### Properties
 
@@ -372,7 +383,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: higherEducation/ProgramVersion (this entity)  
+First included in: higherEducation/Grant (this entity)  
 
 #### Properties
 
@@ -413,7 +424,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: higherEducation/ProgramVersion (this entity)  
+First included in: higherEducation/Grant (this entity)  
 
 #### Properties
 
@@ -450,7 +461,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: higherEducation/ProgramVersion (this entity)  
+First included in: higherEducation/Grant (this entity)  
 
 #### Properties
 
@@ -498,7 +509,7 @@ contains a User or Team ID
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: higherEducation/ProgramVersion (this entity)  
+First included in: higherEducation/Grant (this entity)  
 
 #### Properties
 
@@ -539,7 +550,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: higherEducation/ProgramVersion (this entity)  
+First included in: higherEducation/Grant (this entity)  
 
 #### Properties
 
@@ -587,7 +598,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: higherEducation/ProgramVersion (this entity)  
+First included in: higherEducation/Grant (this entity)  
 
 #### Properties
 
@@ -638,7 +649,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: higherEducation/ProgramVersion (this entity)  
+First included in: higherEducation/Grant (this entity)  
 
 #### Properties
 
@@ -686,7 +697,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: higherEducation/ProgramVersion (this entity)  
+First included in: higherEducation/Grant (this entity)  
 
 #### Properties
 
@@ -726,7 +737,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: higherEducation/ProgramVersion (this entity)  
+First included in: higherEducation/Grant (this entity)  
 
 #### Properties
 
@@ -766,7 +777,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: higherEducation/ProgramVersion (this entity)  
+First included in: higherEducation/Grant (this entity)  
 
 #### Properties
 
@@ -802,19 +813,19 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 **is.dataFormat.small**  
 </details>
 
-### <a href=#programVersionId name="programVersionId">programVersionId</a>
+### <a href=#grantId name="grantId">grantId</a>
 
 Unique identifier for entity instances  
-First included in: higherEducation/ProgramVersion (this entity)  
+First included in: higherEducation/Grant (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Program Version</td></tr><tr><td>description</td><td>Unique identifier for entity instances</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>sourceName</td><td>mshied_programversionid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Grant</td></tr><tr><td>description</td><td>Unique identifier for entity instances</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>sourceName</td><td>mshied_grantid</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the programVersionId attribute are listed below.</summary>
+<summary>List of traits for the grantId attribute are listed below.</summary>
 
 **is.dataFormat.character**  
 **is.dataFormat.big**  
@@ -822,36 +833,616 @@ First included in: higherEducation/ProgramVersion (this entity)
 **is.dataFormat.guid**  
 **means.identity.entityId**  
 **is.identifiedBy**  
-names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ProgramVersion/(resolvedAttributes)/programVersionId](#programVersionId)</td><td>attribute</td><td></td></tr></table>
+names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Grant/(resolvedAttributes)/grantId](#grantId)</td><td>attribute</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"mshied_grantid"</td><td>string</td><td></td></tr></table>
+
 **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Program Version</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Grant</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.describedAs**  
 Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier for entity instances</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-**is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"mshied_programversionid"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"1"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
 
-### <a href=#stateCode name="stateCode">stateCode</a>
+### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
-Status of the Program Version  
-First included in: higherEducation/ProgramVersion (this entity)  
+Exchange rate for the currency associated with the entity with respect to the base currency.  
+First included in: higherEducation/Grant (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the Program Version</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Exchange Rate</td></tr><tr><td>description</td><td>Exchange rate for the currency associated with the entity with respect to the base currency.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>1E-10</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>exchangerate</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the exchangeRate attribute are listed below.</summary>
+
+**is.dataFormat.numeric.shaped**  
+for setting the exact precision and scale of numeric values  
+
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"exchangerate"</td><td>string</td><td></td></tr></table>
+
+**is.constrained**  
+maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"1E-10"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"100000000000"</td><td>decimal</td><td></td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Exchange Rate</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Exchange rate for the currency associated with the entity with respect to the base currency.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.dataFormat.numeric.shaped**  
+for setting the exact precision and scale of numeric values  
+
+</details>
+
+### <a href=#amount name="amount">amount</a>
+
+Amount offered to perform required research
+  
+First included in: higherEducation/Grant (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Amount</td></tr><tr><td>description</td><td>Amount offered to perform required research
+</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_amount</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the amount attribute are listed below.</summary>
+
+**is.dataFormat.numeric.shaped**  
+for setting the exact precision and scale of numeric values  
+
+**means.measurement.currency**  
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"mshied_amount"</td><td>string</td><td></td></tr></table>
+
+**is.constrained**  
+maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-922337203685477"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"922337203685477"</td><td>decimal</td><td></td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Amount</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Amount offered to perform required research
+</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.dataFormat.numeric.shaped**  
+for setting the exact precision and scale of numeric values  
+
+</details>
+
+### <a href=#amount_Base name="amount_Base">amount_Base</a>
+
+Value of the Amount in base currency.  
+First included in: higherEducation/Grant (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Amount (Base)</td></tr><tr><td>description</td><td>Value of the Amount in base currency.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_amount_base</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the amount_Base attribute are listed below.</summary>
+
+**is.dataFormat.numeric.shaped**  
+for setting the exact precision and scale of numeric values  
+
+**means.measurement.currency**  
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"mshied_amount_base"</td><td>string</td><td></td></tr></table>
+
+**is.constrained**  
+maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-922337203685477"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"922337203685477"</td><td>decimal</td><td></td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Amount (Base)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Value of the Amount in base currency.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.dataFormat.numeric.shaped**  
+for setting the exact precision and scale of numeric values  
+
+</details>
+
+### <a href=#applicationDeadlineDate name="applicationDeadlineDate">applicationDeadlineDate</a>
+
+Last date to apply  
+First included in: higherEducation/Grant (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Application Deadline Date</td></tr><tr><td>description</td><td>Last date to apply</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_applicationdeadlinedate</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the applicationDeadlineDate attribute are listed below.</summary>
+
+**is.dataFormat.date**  
+**means.measurement.date**  
+**is.dataFormat.time**  
+**means.measurement.time**  
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"mshied_applicationdeadlinedate"</td><td>string</td><td></td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Application Deadline Date</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Last date to apply</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.dataFormat.time**  
+**is.dataFormat.date**  
+</details>
+
+### <a href=#areaOfStudyId name="areaOfStudyId">areaOfStudyId</a>
+
+Field in which grant of offered  
+First included in: higherEducation/Grant (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Area of Study</td></tr><tr><td>description</td><td>Field in which grant of offered</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_areaofstudy</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the areaOfStudyId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.guid**  
+**means.identity.entityId**  
+**is.CDS.lookup**  
+The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
+
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Area of Study</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Field in which grant of offered</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="AreaOfStudy.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/AreaOfStudy.cdm.json/AreaOfStudy</a></td><td><a href="AreaOfStudy.md#areaOfStudyId" target="_blank">areaOfStudyId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"mshied_areaofstudy"</td><td>string</td><td></td></tr></table>
+
+**is.dataFormat.guid**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#businessPartnerId name="businessPartnerId">businessPartnerId</a>
+
+Business Partner unique identification number  
+First included in: higherEducation/Grant (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Business Partner</td></tr><tr><td>description</td><td>Business Partner unique identification number</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_businesspartner</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the businessPartnerId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.guid**  
+**means.identity.entityId**  
+**is.CDS.lookup**  
+The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
+
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Business Partner</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Business Partner unique identification number</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="Account.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Account.cdm.json/Account</a></td><td><a href="Account.md#accountId" target="_blank">accountId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"mshied_businesspartner"</td><td>string</td><td></td></tr></table>
+
+**is.dataFormat.guid**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#businessPartnerContactId name="businessPartnerContactId">businessPartnerContactId</a>
+
+Grant point of contact  
+First included in: higherEducation/Grant (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Business Partner Contact</td></tr><tr><td>description</td><td>Grant point of contact</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_businesspartnercontact</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the businessPartnerContactId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.guid**  
+**means.identity.entityId**  
+**is.CDS.lookup**  
+The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
+
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Business Partner Contact</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Grant point of contact</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="Contact.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Contact.cdm.json/Contact</a></td><td><a href="Contact.md#contactId" target="_blank">contactId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"mshied_businesspartnercontact"</td><td>string</td><td></td></tr></table>
+
+**is.dataFormat.guid**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#description name="description">description</a>
+
+Description about the Grant  
+First included in: higherEducation/Grant (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>Description about the Grant</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_description</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the description attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"mshied_description"</td><td>string</td><td></td></tr></table>
+
+**is.constrained**  
+maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"2000"</td><td>integer</td><td></td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Description</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Description about the Grant</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#name name="name">name</a>
+
+Required name field  
+First included in: higherEducation/Grant (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>description</td><td>Required name field</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>mshied_name</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the name attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**means.identity.name**  
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"mshied_name"</td><td>string</td><td></td></tr></table>
+
+**is.constrained**  
+maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
+
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"required"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Name</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Required name field</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#qualifications name="qualifications">qualifications</a>
+
+Qualifications required to be eligible for Grant  
+First included in: higherEducation/Grant (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Qualifications</td></tr><tr><td>description</td><td>Qualifications required to be eligible for Grant</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_qualifications</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the qualifications attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"mshied_qualifications"</td><td>string</td><td></td></tr></table>
+
+**is.constrained**  
+maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"2000"</td><td>integer</td><td></td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Qualifications</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Qualifications required to be eligible for Grant</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#responsibleFacultyContactId name="responsibleFacultyContactId">responsibleFacultyContactId</a>
+
+Name of the professor guiding research  
+First included in: higherEducation/Grant (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Responsible Faculty Contact</td></tr><tr><td>description</td><td>Name of the professor guiding research</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_responsiblefacultycontact</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the responsibleFacultyContactId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.guid**  
+**means.identity.entityId**  
+**is.CDS.lookup**  
+The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
+
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Responsible Faculty Contact</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Name of the professor guiding research</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="Contact.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Contact.cdm.json/Contact</a></td><td><a href="Contact.md#contactId" target="_blank">contactId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"mshied_responsiblefacultycontact"</td><td>string</td><td></td></tr></table>
+
+**is.dataFormat.guid**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#validFrom name="validFrom">validFrom</a>
+
+Start Date of Grant  
+First included in: higherEducation/Grant (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Valid From</td></tr><tr><td>description</td><td>Start Date of Grant</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_validfrom</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the validFrom attribute are listed below.</summary>
+
+**is.dataFormat.date**  
+**means.measurement.date**  
+**is.dataFormat.time**  
+**means.measurement.time**  
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"mshied_validfrom"</td><td>string</td><td></td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Valid From</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Start Date of Grant</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.dataFormat.time**  
+**is.dataFormat.date**  
+</details>
+
+### <a href=#validTo name="validTo">validTo</a>
+
+End Date of Grant
+  
+First included in: higherEducation/Grant (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Valid To</td></tr><tr><td>description</td><td>End Date of Grant
+</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_validto</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the validTo attribute are listed below.</summary>
+
+**is.dataFormat.date**  
+**means.measurement.date**  
+**is.dataFormat.time**  
+**means.measurement.time**  
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"mshied_validto"</td><td>string</td><td></td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Valid To</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>End Date of Grant
+</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.dataFormat.time**  
+**is.dataFormat.date**  
+</details>
+
+### <a href=#websiteURL name="websiteURL">websiteURL</a>
+
+Grant URL  
+First included in: higherEducation/Grant (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Website URL</td></tr><tr><td>description</td><td>Grant URL</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>300</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_websiteurl</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the websiteURL attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**means.reference.URL**  
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"mshied_websiteurl"</td><td>string</td><td></td></tr></table>
+
+**is.constrained**  
+maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"300"</td><td>integer</td><td></td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Website URL</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Grant URL</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#workDescription name="workDescription">workDescription</a>
+
+Description of work to be performed  
+First included in: higherEducation/Grant (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Work Description</td></tr><tr><td>description</td><td>Description of work to be performed</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_workdescription</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the workDescription attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"mshied_workdescription"</td><td>string</td><td></td></tr></table>
+
+**is.constrained**  
+maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"2000"</td><td>integer</td><td></td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Work Description</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Description of work to be performed</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#stateCode name="stateCode">stateCode</a>
+
+Status of the Grant  
+First included in: higherEducation/Grant (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the Grant</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -866,22 +1457,19 @@ An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
 
 **means.entityState**  
-the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ProgramVersion/(resolvedAttributes)/stateCode](#stateCode)</td><td>attribute</td><td></td></tr></table>
+the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Grant/(resolvedAttributes)/stateCode](#stateCode)</td><td>attribute</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"statecode"</td><td>string</td><td></td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status of the Program Version</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-**is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"statecode"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"24"</td><td>integer</td><td></td></tr></table>
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status of the Grant</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.dataFormat.integer**  
 **is.dataFormat.small**  
@@ -889,7 +1477,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: higherEducation/ProgramVersion (this entity)  
+First included in: higherEducation/Grant (this entity)  
 
 #### Properties
 
@@ -914,12 +1502,12 @@ First included in: higherEducation/ProgramVersion (this entity)
 
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
-Reason for the status of the Program Version  
-First included in: higherEducation/ProgramVersion (this entity)  
+Reason for the status of the Grant  
+First included in: higherEducation/Grant (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Program Version</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Grant</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -936,23 +1524,17 @@ the values of an attribute are taken from or looked up from a fixed list of poss
 **is.correlatedWith**  
 the attribute value is correlated with the sourceAttribute  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>sourceAttribute</td><td>"stateCode"</td><td>attributeName</td><td></td></tr></table>
 
-**is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"statuscode"</td><td>string</td><td></td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status Reason</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reason for the status of the Program Version</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reason for the status of the Grant</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.nullable**  
 The attribute value may be set to NULL.  
-
-**is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"statuscode"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"26"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
 **is.dataFormat.small**  
@@ -960,7 +1542,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: higherEducation/ProgramVersion (this entity)  
+First included in: higherEducation/Grant (this entity)  
 
 #### Properties
 
@@ -983,214 +1565,19 @@ First included in: higherEducation/ProgramVersion (this entity)
 **is.dataFormat.array**  
 </details>
 
-### <a href=#name name="name">name</a>
+### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
-Program Version Name  
-First included in: higherEducation/ProgramVersion (this entity)  
+Unique identifier of the currency associated with the entity.  
+First included in: higherEducation/Grant (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Program Version Name</td></tr><tr><td>description</td><td>Program Version Name</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_name</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Currency</td></tr><tr><td>description</td><td>Unique identifier of the currency associated with the entity.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>sourceName</td><td>transactioncurrencyid</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the name attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**means.identity.name**  
-**is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"required"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-**is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Program Version Name</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-**is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Program Version Name</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-**is.nullable**  
-The attribute value may be set to NULL.  
-
-**is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"mshied_name"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"33"</td><td>integer</td><td></td></tr></table>
-
-**is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
-
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
-
-### <a href=#code name="code">code</a>
-
-Abbreviated code for the program version.  
-First included in: higherEducation/ProgramVersion (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Code</td></tr><tr><td>description</td><td>Abbreviated code for the program version.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>20</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_code</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the code attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-**is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Code</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-**is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Abbreviated code for the program version.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-**is.nullable**  
-The attribute value may be set to NULL.  
-
-**is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"mshied_code"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"34"</td><td>integer</td><td></td></tr></table>
-
-**is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"20"</td><td>integer</td><td></td></tr></table>
-
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
-
-### <a href=#externalIdentifier name="externalIdentifier">externalIdentifier</a>
-
-External Identifier  
-First included in: higherEducation/ProgramVersion (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>External Identifier</td></tr><tr><td>description</td><td>External Identifier</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>255</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_externalidentifier</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the externalIdentifier attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-**is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>External Identifier</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-**is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>External Identifier</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-**is.nullable**  
-The attribute value may be set to NULL.  
-
-**is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"mshied_externalidentifier"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"35"</td><td>integer</td><td></td></tr></table>
-
-**is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"255"</td><td>integer</td><td></td></tr></table>
-
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
-
-### <a href=#externalSourceSystem name="externalSourceSystem">externalSourceSystem</a>
-
-External Source System  
-First included in: higherEducation/ProgramVersion (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>External Source System</td></tr><tr><td>description</td><td>External Source System</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_externalsourcesystem</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>System 1</td><td>494280000</td></tr><tr><td>en</td><td>System 2</td><td>494280001</td></tr><tr><td>en</td><td>System 3</td><td>494280002</td></tr></table></td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the externalSourceSystem attribute are listed below.</summary>
-
-**is.dataFormat.integer**  
-**does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>System 1</td><td>494280000</td></tr><tr><td>en</td><td>System 2</td><td>494280001</td></tr><tr><td>en</td><td>System 3</td><td>494280002</td></tr></table></td><td>any</td><td></td></tr></table>
-
-**is.constrainedList**  
-the values of an attribute are taken from or looked up from a fixed list of possibilities  
-
-**is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-**is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>External Source System</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-**is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>External Source System</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-**is.nullable**  
-The attribute value may be set to NULL.  
-
-**is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"mshied_externalsourcesystem"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"36"</td><td>integer</td><td></td></tr></table>
-
-**is.dataFormat.integer**  
-**is.dataFormat.small**  
-</details>
-
-### <a href=#externalSourceSystem_display name="externalSourceSystem_display">externalSourceSystem_display</a>
-
-First included in: higherEducation/ProgramVersion (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the externalSourceSystem_display attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**means.reference.displayText**  
-**is.readOnly**  
-**is.addedInSupportOf**  
-<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>"externalSourceSystem"</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
-
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
-
-### <a href=#programId name="programId">programId</a>
-
-Lookup to the program.  
-First included in: higherEducation/ProgramVersion (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Program</td></tr><tr><td>description</td><td>Lookup to the program.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_programid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the programId attribute are listed below.</summary>
+<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
 
 **is.dataFormat.character**  
 **is.dataFormat.big**  
@@ -1204,70 +1591,16 @@ The attribute represents a style of lookup in CDS for Applications  <table><tr><
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Program</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Currency</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Lookup to the program.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the currency associated with the entity.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="Program.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Program.cdm.json/Program</a></td><td><a href="Program.md#programId" target="_blank">programId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-**is.nullable**  
-The attribute value may be set to NULL.  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../../Currency.md" target="_blank">/core/applicationCommon/Currency.cdm.json/Currency</a></td><td><a href="../../../../../Currency.md#transactionCurrencyId" target="_blank">transactionCurrencyId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"mshied_programid"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"38"</td><td>integer</td><td></td></tr></table>
-
-**is.dataFormat.guid**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
-
-### <a href=#programLevelId name="programLevelId">programLevelId</a>
-
-Link to Program Level entity  
-First included in: higherEducation/ProgramVersion (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Program Level</td></tr><tr><td>description</td><td>Link to Program Level entity</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_programlevelid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the programLevelId attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.guid**  
-**means.identity.entityId**  
-**is.CDS.lookup**  
-The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
-
-**is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-**is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Program Level</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-**is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Link to Program Level entity</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-**is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="ProgramLevel.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/ProgramLevel.cdm.json/ProgramLevel</a></td><td><a href="ProgramLevel.md#programLevelId" target="_blank">programLevelId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-**is.nullable**  
-The attribute value may be set to NULL.  
-
-**is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"mshied_programlevelid"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"39"</td><td>integer</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"transactioncurrencyid"</td><td>string</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  

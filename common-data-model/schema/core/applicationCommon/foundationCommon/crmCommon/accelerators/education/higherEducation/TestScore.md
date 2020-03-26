@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 2/28/2020
+ms.date: 3/25/2020
 ms.author: nebanfic
 ---
 
@@ -28,7 +28,7 @@ Instances of this entity are listed below.
 </summary>
 
 **is.CDM.entityVersion**  
-  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.0"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
+  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.CDM.attributeGroup**  
   identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsCreationModificationDatesAndIds</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsOwnershipInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsTimeZoneInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsVersionTracking</td></tr><tr><td>/core/applicationCommon/foundationCommon<br>/crmCommon/accelerators/education/higherEducation<br>/TestScore.cdm.json/TestScore/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
@@ -209,9 +209,8 @@ The attribute value may be set to NULL.
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"createdby"</td><td>string</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
@@ -302,9 +301,8 @@ The attribute value may be set to NULL.
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"modifiedby"</td><td>string</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
@@ -354,9 +352,8 @@ The attribute value may be set to NULL.
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"createdonbehalfby"</td><td>string</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
@@ -406,9 +403,8 @@ The attribute value may be set to NULL.
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"modifiedonbehalfby"</td><td>string</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
@@ -533,9 +529,8 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 contains a User or Team ID  
 
 **is.dataFormat.guid**  
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
@@ -575,9 +570,8 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 **is.CDS.owner**  
 contains a User or Team ID  
 
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
@@ -624,9 +618,8 @@ The attribute value may be set to NULL.
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"owningbusinessunit"</td><td>string</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#owningUser name="owningUser">owningUser</a>
@@ -676,9 +669,8 @@ The attribute value may be set to NULL.
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"owninguser"</td><td>string</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
@@ -725,9 +717,8 @@ The attribute value may be set to NULL.
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"owningteam"</td><td>string</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
@@ -887,9 +878,8 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"1"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#stateCode name="stateCode">stateCode</a>
@@ -956,9 +946,8 @@ First included in: higherEducation/TestScore (this entity)
 **is.addedInSupportOf**  
 <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>"stateCode"</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
 
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#statusCode name="statusCode">statusCode</a>
@@ -1028,9 +1017,8 @@ First included in: higherEducation/TestScore (this entity)
 **is.addedInSupportOf**  
 <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>"statusCode"</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
 
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#name name="name">name</a>
@@ -1072,9 +1060,8 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
 
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#ACTComposite name="ACTComposite">ACTComposite</a>
@@ -1910,9 +1897,8 @@ First included in: higherEducation/TestScore (this entity)
 **is.addedInSupportOf**  
 <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>"IELTSCEFR"</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
 
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#IELTSListening name="IELTSListening">IELTSListening</a>
@@ -2414,9 +2400,8 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"66"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#testDate name="testDate">testDate</a>
@@ -2497,9 +2482,8 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"400"</td><td>integer</td><td></td></tr></table>
 
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#testScoreValue name="testScoreValue">testScoreValue</a>
@@ -2540,9 +2524,8 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"255"</td><td>integer</td><td></td></tr></table>
 
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#testSource name="testSource">testSource</a>
@@ -2609,9 +2592,8 @@ First included in: higherEducation/TestScore (this entity)
 **is.addedInSupportOf**  
 <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>"testSource"</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
 
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#testTypeId name="testTypeId">testTypeId</a>
@@ -2658,9 +2640,8 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"72"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#TOEFLListeningSection name="TOEFLListeningSection">TOEFLListeningSection</a>
