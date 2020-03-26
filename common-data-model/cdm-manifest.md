@@ -206,6 +206,7 @@ Currently, only single attribute relationships are supported. All relationships 
 |FromEntityAttribute|The name of the referencing entity attribute, a foreign key.|
 |ToEntity|A corpus path to the document or entity on the **one** side of the relationship.|
 |ToEntityAttribute|The name of the referenced entity attribute, often the primary key of that entity.|
+
 <br/>
 
 |Method|Description|
