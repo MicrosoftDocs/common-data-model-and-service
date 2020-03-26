@@ -78,7 +78,7 @@ For an entity that is owned by the manifest, the entity declaration describes th
 
 A data partition object describes and points to one particular data file for the entity. Common Data Model traits on this object give detailed information about the file format and parsing options. By default, the data should be interpreted using the schema description indicated by the associated local entity declaration. However, as schemas can change over time and older files may have different content than newer files, an override of the default entity schema can be used for a specific partition file.
 
-Data partitions may be generated at runtime by the object model using a [data partition pattern](cdm-manifest.md#data-partition-pattern). A property indicates if the partition description was generated in-memory or if the description was explicitly created and stored with the folder.
+Data partitions may be generated at runtime by the object model using a [data partition pattern](cdm-manifest.md#data-partition-patterns). A property indicates if the partition description was generated in-memory or if the description was explicitly created and stored with the folder.
 
 |Property|Description|
 |---|---|
