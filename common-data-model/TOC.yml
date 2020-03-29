@@ -41,127 +41,127 @@
   - name: API Reference
     items:
       - name: Overview
-        href: /api-reference/api-reference.md
+        href: 1.0om/api-reference/api-reference.md
       - name: Object Model
         items:
           - name: Overview
-            href: /api-reference/cdm/cdm.md
+            href: 1.0om/api-reference/cdm/cdm.md
           - name: Argument
-            href: /api-reference/cdm/argument.md
+            href: 1.0om/api-reference/cdm/argument.md
           - name: Argument Collection
-            href: /api-reference/cdm/argumentcollection.md
+            href: 1.0om/api-reference/cdm/argumentcollection.md
           - name: Attribute Context
-            href: /api-reference/cdm/attributecontext.md
+            href: 1.0om/api-reference/cdm/attributecontext.md
           - name: Attribute Context Type
-            href: /api-reference/cdm/attributecontexttype.md
+            href: 1.0om/api-reference/cdm/attributecontexttype.md
           - name: Attribute Group
-            href: /api-reference/cdm/attributegroup.md
+            href: 1.0om/api-reference/cdm/attributegroup.md
           - name: Attribute Item
-            href: /api-reference/cdm/attributeitem.md
+            href: 1.0om/api-reference/cdm/attributeitem.md
           - name: Attribute Resolution Guidance
-            href: /api-reference/cdm/attributeresolutionguidance.md
+            href: 1.0om/api-reference/cdm/attributeresolutionguidance.md
           - name: CdmObject
-            href: /api-reference/cdm/cdmobject.md
+            href: 1.0om/api-reference/cdm/cdmobject.md
           - name: CdmObject Definition
-            href: /api-reference/cdm/cdmobjectdefinition.md
+            href: 1.0om/api-reference/cdm/cdmobjectdefinition.md
           - name: CdmObject Definition Collection
-            href: /api-reference/cdm/definitioncollection.md
+            href: 1.0om/api-reference/cdm/definitioncollection.md
           - name: CdmObject Reference
-            href: /api-reference/cdm/cdmobjectreference.md
+            href: 1.0om/api-reference/cdm/cdmobjectreference.md
           - name: CdmObject Type
-            href: /api-reference/cdm/objecttype.md
+            href: 1.0om/api-reference/cdm/objecttype.md
           - name: Collection
-            href: /api-reference/cdm/collection.md
+            href: 1.0om/api-reference/cdm/collection.md
           - name: Constant Entity
-            href: /api-reference/cdm/constantentity.md
+            href: 1.0om/api-reference/cdm/constantentity.md
           - name: Corpus
-            href: /api-reference/cdm/corpus.md
+            href: 1.0om/api-reference/cdm/corpus.md
           - name: Data Format
-            href: /api-reference/cdm/dataformat.md
+            href: 1.0om/api-reference/cdm/dataformat.md
           - name: Data Partition
-            href: /api-reference/cdm/datapartition.md
+            href: 1.0om/api-reference/cdm/datapartition.md
           - name: Data Partition Pattern
-            href: /api-reference/cdm/datapartitionpattern.md
+            href: 1.0om/api-reference/cdm/datapartitionpattern.md
           - name: Data Type
-            href: /api-reference/cdm/datatype.md
+            href: 1.0om/api-reference/cdm/datatype.md
           - name: Document
-            href: /api-reference/cdm/document.md
+            href: 1.0om/api-reference/cdm/document.md
           - name: Document Collection
-            href: /api-reference/cdm/documentcollection.md
+            href: 1.0om/api-reference/cdm/documentcollection.md
           - name: E2E Relationship
-            href: /api-reference/cdm/e2erelationship.md
+            href: 1.0om/api-reference/cdm/e2erelationship.md
           - name: Entity
-            href: /api-reference/cdm/entity.md
+            href: 1.0om/api-reference/cdm/entity.md
           - name: Entity Attribute
-            href: /api-reference/cdm/entityattribute.md
+            href: 1.0om/api-reference/cdm/entityattribute.md
           - name: Entity Collection
-            href: /api-reference/cdm/entitycollection.md
+            href: 1.0om/api-reference/cdm/entitycollection.md
           - name: Entity Declaration
-            href: /api-reference/cdm/entitydeclaration.md
+            href: 1.0om/api-reference/cdm/entitydeclaration.md
           - name: Folder
-            href: /api-reference/cdm/folder.md
+            href: 1.0om/api-reference/cdm/folder.md
           - name: Folder Collection
-            href: /api-reference/cdm/foldercollection.md
+            href: 1.0om/api-reference/cdm/foldercollection.md
           - name: Import
-            href: /api-reference/cdm/import.md
+            href: 1.0om/api-reference/cdm/import.md
           - name: Import Collection
-            href: /api-reference/cdm/importcollection.md
+            href: 1.0om/api-reference/cdm/importcollection.md
           - name: Local Entity Declaration
-            href: /api-reference/cdm/localentitydeclaration.md
+            href: 1.0om/api-reference/cdm/localentitydeclaration.md
           - name: Manifest
-            href: /api-reference/cdm/manifest.md
+            href: 1.0om/api-reference/cdm/manifest.md
           - name: Manifest Declaration
-            href: /api-reference/cdm/manifestdeclaration.md
+            href: 1.0om/api-reference/cdm/manifestdeclaration.md
           - name: Parameter
-            href: /api-reference/cdm/parameter.md
+            href: 1.0om/api-reference/cdm/parameter.md
           - name: Purpose
-            href: /api-reference/cdm/purpose.md
+            href: 1.0om/api-reference/cdm/purpose.md
           - name: Referenced Entity Declaration
-            href: /api-reference/cdm/referencedentitydeclaration.md
+            href: 1.0om/api-reference/cdm/referencedentitydeclaration.md
           - name: Relationship Discovery Style
-            href: /api-reference/cdm/relationshipdiscoverystyle.md
+            href: 1.0om/api-reference/cdm/relationshipdiscoverystyle.md
           - name: Status Level
-            href: /api-reference/cdm/statuslevel.md
+            href: 1.0om/api-reference/cdm/statuslevel.md
           - name: Trait 
-            href: /api-reference/cdm/trait.md
+            href: 1.0om/api-reference/cdm/trait.md
           - name: Trait Collection 
-            href: /api-reference/cdm/traitcollection.md
+            href: 1.0om/api-reference/cdm/traitcollection.md
           - name: Trait Reference
-            href: /api-reference/cdm/traitreference.md
+            href: 1.0om/api-reference/cdm/traitreference.md
           - name: Type Attribute
-            href: /api-reference/cdm/typeattribute.md
+            href: 1.0om/api-reference/cdm/typeattribute.md
       - name: Storage
         items:
           - name: Overview
-            href: /api-reference/storage/storage.md
+            href: 1.0om/api-reference/storage/storage.md
           - name: ADLS Adapter
-            href: /api-reference/storage/adlsadapter.md
+            href: 1.0om/api-reference/storage/adlsadapter.md
           - name: Github Adapter
-            href: /api-reference/storage/githubadapter.md
+            href: 1.0om/api-reference/storage/githubadapter.md
           - name: Local Adapter
-            href: /api-reference/storage/localadapter.md
+            href: 1.0om/api-reference/storage/localadapter.md
           - name: Network Adapter
-            href: /api-reference/storage/networkadapter.md
+            href: 1.0om/api-reference/storage/networkadapter.md
           - name: Remote Adapter
-            href: /api-reference/storage/remoteadapter.md
+            href: 1.0om/api-reference/storage/remoteadapter.md
           - name: Storage Adapter
-            href: /api-reference/storage/storageadapter.md
+            href: 1.0om/api-reference/storage/storageadapter.md
           - name: Storage Manager
-            href: /api-reference/storage/storagemanager.md
+            href: 1.0om/api-reference/storage/storagemanager.md
       - name: Utilities
         items:
           - name: Overview
-            href: /api-reference/utilities/utilities.md  
+            href: 1.0om/api-reference/utilities/utilities.md  
           - name: Copy Options
-            href: /api-reference/utilities/copyoptions.md  
+            href: 1.0om/api-reference/utilities/copyoptions.md  
           - name: Event Callback
-            href: /api-reference/utilities/callback.md  
+            href: 1.0om/api-reference/utilities/callback.md  
           - name: Logger
-            href: /api-reference/utilities/logger.md  
+            href: 1.0om/api-reference/utilities/logger.md  
           - name: Resolve Options
-            href: /api-reference/utilities/resolveoptions.md  
+            href: 1.0om/api-reference/utilities/resolveoptions.md  
           - name: Token Provider
-            href: /api-reference/utilities/tokenprovider.md  
+            href: 1.0om/api-reference/utilities/tokenprovider.md  
   - name: How to create schema documents 
     href: creating-schemas.md
   - name: How to use samples 
