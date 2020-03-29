@@ -16,30 +16,30 @@ ms.author: Deonhe
 ## Glossary of definable objects
 
 
--   **Trait**—Annotation objects that are an expression of semantic meaning.
+-   **Trait** - Annotation objects that are an expression of semantic meaning.
     Traits can hold a set of named argument values.
 
--   **DataType**—A named collection of traits to represent commonly used
+-   **DataType** - A named collection of traits to represent commonly used
     concepts that combine data format, data value constraints, and semantic
     meanings. Example data types are **integer** and **firstName**.
 
--   **Attribute**—A simple (data type) or complex (entity) typed and named
+-   **Attribute** - A simple (data type) or complex (entity) typed and named
     description of data values being used to represent a specific idea or
     purpose. For example, the data type **firstName** can be used to make an
     attribute called **partnerFirstName**.
 
--   **Entity**—A container that holds together a collection of traits and
+-   **Entity** - A container that holds together a collection of traits and
     attributes so that the collection represents some logical concept, business
     process, event, or other object. Customer, Purchase, and Task are examples.
 
--   **Purpose**—A named collection of traits to represent commonly used reasons
+-   **Purpose** - A named collection of traits to represent commonly used reasons
     or uses that an attribute serves within an entity. The purpose can be a part
     of the entity definition to identify ideas like "default display text,"
     "primary key," or "default sort column."
 
--   **AttributeGroup**—A named collection of attributes that works like a macro.
+-   **AttributeGroup** - A named collection of attributes that works like a macro.
 
--   **ConstantEntity**—An association between an entity schema and a constant
+-   **ConstantEntity** - An association between an entity schema and a constant
     array of data values that exist only within the metadata documents. Used to
     represent tables of values.
 
