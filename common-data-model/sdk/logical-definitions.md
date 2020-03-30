@@ -217,7 +217,7 @@ of the identically named trait that's exhibited by the object. For example, the
 following trait **is.constrained** is extended.
 
 <!-- image8 -->
-![](../media/sdk/logical-definitions/isconstrained-trait.png) 
+![The isconstrained trait](../media/sdk/logical-definitions/isconstrained-trait.png) 
 
 
 This results in a trait called **is.constrained.length** that can be applied to
@@ -231,7 +231,7 @@ When an attribute is defined by using this trait, the attribute-specific maximum
 length can be set.
 
 <!-- image9 -->
-![](../media/sdk/logical-definitions/attribute-max-length.png) 
+![Set the maximum length of an attribute](../media/sdk/logical-definitions/attribute-max-length.png) 
 
 ## Standard traits
 
@@ -269,10 +269,10 @@ traits of the data type. The kinds of traits used to make data types should be
 about the format, meaning, or shape of individual data values.
 
 Data types can extend other data types, in which case they gain (and can
-augment) the traits taken from that base data type. For example, we define:
+augment) the traits taken from the base data type. For example, we define:
 
 <!-- image10 -->
-![](../media/sdk/logical-definitions/data-types-extend-data-types.png) 
+![Extend data types](../media/sdk/logical-definitions/data-types-extend-data-types.png) 
 
 ## Standard data types
 
@@ -327,7 +327,7 @@ has a single name, data format, semantic meaning, and purpose within the entity.
 These attributes are described in the following JSON excerpt:
 
 <!-- image13 -->
-![](../media/sdk/logical-definitions/simple-typed-attributes-2.png) 
+![Simple typed attributes](../media/sdk/logical-definitions/simple-typed-attributes-2.png) 
 
 ## The Purpose object
 
@@ -377,7 +377,7 @@ the Person entity, with a student-specific attribute added to the entity
 definition.
 
 <!-- image14 -->
-![](../media/sdk/logical-definitions/entity-extensions.png) 
+![Entity extensions](../media/sdk/logical-definitions/entity-extensions.png) 
 
 
 ## Traits applied to attributes
@@ -391,13 +391,13 @@ Informally speaking, the full "grammar" for composing a typed attribute can be
 expressed in the following way:
 
 <!-- image15 -->
-![](../media/sdk/logical-definitions/traits-applied-attributes.png) 
+![Traits applied image](../media/sdk/logical-definitions/traits-applied-attributes.png) 
 
 Using shorthand for the full JSON definition, the grammar described above gives
 us:
 
 <!-- image16 -->
-![](../media/sdk/logical-definitions/traits-applied-attributes2.png) 
+![Traits applied in shorthand](../media/sdk/logical-definitions/traits-applied-attributes2.png) 
 
 This attribute will do the following:
 
@@ -467,7 +467,7 @@ is the mechanism in Common Data Model for:
 Adding to our example:
 
 <!-- image17 -->
-![](../media/sdk/logical-definitions/using-entity-type-attribute.png) 
+![Entity type attribute](../media/sdk/logical-definitions/using-entity-type-attribute.png) 
 
 
 The default behavior for Common Data Model is to treat an attribute of an entity
@@ -515,13 +515,13 @@ entity:
 
 
 <!-- image18 -->
-![](../media/sdk/logical-definitions/bookkeeping-attributes.png) 
+![Add bookkeeping attributes to the Person entity](../media/sdk/logical-definitions/bookkeeping-attributes.png) 
 
 
 Or, in JSON form:
 
 <!-- image19 -->
-![](../media/sdk/logical-definitions/bookkeeping-attributes-2.png) 
+![Json to add bookkeeping attributes to the Person entity](../media/sdk/logical-definitions/bookkeeping-attributes-2.png) 
 
 
 ## The ConstantEntity object

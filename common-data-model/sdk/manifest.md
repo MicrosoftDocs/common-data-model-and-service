@@ -308,11 +308,10 @@ the specific object being checked.
 
 ## Manifest example document
 
-The following manifest document demonstrates each of the abovementioned
-capabilities for the **Manifest** object.
+The following manifest document demonstrates each of the abovementioned capabilities for the **Manifest** object.
 
 <!-- image6 -->
-![](../media/sdk/mainfest/manifest-example.png) 
+![Document showing the capabilities of the Manifest object](../media/sdk/mainfest/manifest-example.png) 
 
 ```json
 {
