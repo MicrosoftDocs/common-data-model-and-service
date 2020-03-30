@@ -30,7 +30,7 @@ ms.author: Deonhe
 
 -   **Entity** - A container that holds together a collection of traits and
     attributes so that the collection represents some logical concept, business
-    process, event, or other object. Customer, Purchase, and Task are examples.
+    process, event, or another object. Customer, Purchase, and Task are examples.
 
 -   **Purpose** - A named collection of traits to represent commonly used reasons
     or uses that an attribute serves within an entity. The purpose can be a part
@@ -295,7 +295,7 @@ The following JSON excerpt is an example of how to define a data type:
 
 
 <!-- image11 -->
-![](../media/sdk/logical-definitions/define-data-types.png) 
+![Define data types](../media/sdk/logical-definitions/define-data-types.png) 
 
 ## Entities and their attributes
 
@@ -321,7 +321,7 @@ The first kind of attribute describes an individual, atomic piece of data that
 has a single name, data format, semantic meaning, and purpose within the entity.
 
 <!-- image12 -->
-![](../media/sdk/logical-definitions/simple-typed-attributes-1.png) 
+![Simple typed attributes](../media/sdk/logical-definitions/simple-typed-attributes-1.png) 
 
 
 These attributes are described in the following JSON excerpt:
@@ -550,9 +550,10 @@ which they're being used. For example:
 
 
 <!-- image20 -->
-![](../media/sdk/logical-definitions/constant-entity-object.png) 
+![Constant entity object](../media/sdk/logical-definitions/constant-entity-object.png) 
 
 
 ## Learn more
 
 - Common Data Model [fundamentals](fundamentals.md)
+

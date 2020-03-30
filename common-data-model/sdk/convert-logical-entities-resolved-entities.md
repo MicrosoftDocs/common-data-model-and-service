@@ -25,12 +25,12 @@ By default, the resolved entity for Student will result in:
 
 1. entity: Student
 
-   ![](../media/sdk/convert-logical-entities-resolved-entities/resolved-student-entity.png) 
+   ![Student entity image](../media/sdk/convert-logical-entities-resolved-entities/resolved-student-entity.png) 
 
 1.  In addition to this entity shape, a section of the document contains an
     **attributeContext** graph with the following characteristics:
 
-    1.  This graph gives an explanation of the attributes and traits that were
+    1.  This graph explains the attributes and traits that were
         discovered.
 
     2.  It also lays out the inheritance chains that were followed, and the
@@ -62,7 +62,7 @@ default behavior, let's first look at the default behavior:
 1.  If a newly processed attribute results with a name that is a duplicate of an
     attribute that has already been collected, the attributes are merged. This
     means the traits of the newest attribute are added to the traits of the
-    original attribute (or replaced, if they're the same traits). Through this
+    original attribute (or replaced if they're the same traits). Through this
     behavior, you can alter an attribute taken from a base entity by simply
     re-declaring it by using the same name and then setting new traits.
 
@@ -85,7 +85,7 @@ default behavior, let's first look at the default behavior:
 Informally speaking, there's only one "grammar" for describing entities:
 
 <!-- image22 -->
-![](../media/sdk/convert-logical-entities-resolved-entities/entity-definition-flavors.png) 
+![Entity definition flavors](../media/sdk/convert-logical-entities-resolved-entities/entity-definition-flavors.png) 
 
 By using this same grammar, however, it's possible to describe three
 conceptually different kinds of entity definitions:
@@ -180,14 +180,14 @@ For example, here are three ways to represent a relationship between a small
 business and the one person who's the owner of the business.
 
 <!-- image24 -->
-![](../media/sdk/convert-logical-entities-resolved-entities/relationship-business-owner.png) 
+![Business relationship with owner](../media/sdk/convert-logical-entities-resolved-entities/relationship-business-owner.png) 
 
 
 These three shapes of persisted data are consistent with this one statement of
 the logical model:
 
 <!-- image25 -->
-![](../media/sdk/convert-logical-entities-resolved-entities/persisted-data.png) 
+![Persisted data](../media/sdk/convert-logical-entities-resolved-entities/persisted-data.png) 
 
 The logical definition of these entities states that a SmallBusiness is also a
 Business and it has an Owner who is a Person. This logical model can be
@@ -218,7 +218,7 @@ a type.
 
 | Directive     | Behavior                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| (none)        | The entity type of the attribute is treated like a complex data type. Individual members from the entity are renamed to disambiguate them and are added inline to the outer entity. If the attribute is marked to represent an array of values, the array will be expanded and the sub-attributes will be repeated *n* times.                                                                                                                                                                                                                                        |
+| (none)        | The entity type of the attribute is treated like a complex data type. Individual members from the entity are renamed to disambiguate them and are added inline to the outer entity. If the attribute is marked to represent an array of values, the array will be expanded, and the sub-attributes will be repeated *n* times.                                                                                                                                                                                                                                        |
 | referenceOnly | If the attribute is marked to allow for use by reference , instead of taking all attributes from the other entity, only the identifying attributes are taken and used as a foreign key. The taken attributes are renamed.                                                                                                                                                                                                                                                                                                                                            |
 | Normalized    | Assumes that one-to-many relationships (that is, entity typed attributes that are marked to represent an array of values instead of a single instance) have a reference to the owning entity from the "many" side (the entity used as the type). It also assumes that many-to-many relationships are resolved by using a correlation entity that points toward this entity. Therefore, this directive avoids adding any information to this entity regarding a linked entity (a foreign key from the referenceOnly directive) that is also marked as being an array. |
 | Structured    | Places resolved entity attributes into groups, thus avoiding the need to disambiguate names or repeat attributes in an array expansion. Using a structured directive produces a schema that must be interpreted by the consumer to look for embedded structures and arrays in their data. Because of the structured description (not relational), the normalized behavior of avoiding foreign keys for arrays is skipped.                                                                                                                                            |
@@ -232,13 +232,13 @@ To further clarify and illustrate the process that resolves logical entities
 into a concrete attribute list, consider this example schema:
 
 <!-- image26 -->
-![](../media/sdk/convert-logical-entities-resolved-entities/resolution-guidance.png) 
+![Resolution guidance](../media/sdk/convert-logical-entities-resolved-entities/resolution-guidance.png) 
 
 Holding in mind the **shipTo** entity attribute defined in the Customer entity
 above, consider this pipeline of operations that's performed on the set of
 attributes that result from the Addresses entity. (Note that for explanatory
 purposes, this list describes every possible stage even though, in reality, not
-all of them apply in all situations.)
+all of them apply in all situations.) 
 
 | Stage                         | Does                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | Example                                                                                                                                                                                                                                  |
 |-------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -377,18 +377,17 @@ causes resolved attributes to end up in groups rather than a flattened list.
 Recall this diagram of our simple logical entities:
 
 <!-- image27 -->
-![](../media/sdk/convert-logical-entities-resolved-entities/simple-logical-entities.png) 
+![Simple logical entities](../media/sdk/convert-logical-entities-resolved-entities/simple-logical-entities.png) 
 
-By using the Common Data Model JSON grammar, these logical entities are
-expressed like this:
+By using the Common Data Model JSON grammar, these logical entities are expressed like this:
 
 <!-- image28 -->
-![](../media/sdk/convert-logical-entities-resolved-entities/simple-logical-entities-2.png) 
+![Image showing how logical entities are expressed](../media/sdk/convert-logical-entities-resolved-entities/simple-logical-entities-2.png) 
 
 To resolve the SmallBusiness entity into this shape:
 
 <!-- image29 -->
-![](../media/sdk/convert-logical-entities-resolved-entities/small-business-entity-shape.png) 
+![The smallbusiness entity shape](../media/sdk/convert-logical-entities-resolved-entities/small-business-entity-shape.png) 
 
 
 We can restate the SmallBusiness entity with some attribute guidance. This
@@ -396,24 +395,24 @@ creates a new entity that extends SmallBusiness. For clarity, we'll also give it
 a new name.
 
 <!-- image30 -->
-![](../media/sdk/convert-logical-entities-resolved-entities/small-business-entity-shape-new-name.png) 
+![The smallbusiness entity shape with a new name](../media/sdk/convert-logical-entities-resolved-entities/small-business-entity-shape-new-name.png) 
 
 
 To resolve the SmallBusiness entity into this shape:
 
 <!-- image31 -->
-![](../media/sdk/convert-logical-entities-resolved-entities/small-business-entity-shape-resolved.png) 
+![The resolved SmallBusiness entity shape](../media/sdk/convert-logical-entities-resolved-entities/small-business-entity-shape-resolved.png) 
 
 
 We can restate the SmallBusiness entity with some attribute guidance.
 
  <!-- image32 -->
-![](../media/sdk/convert-logical-entities-resolved-entities/small-business-entity-shape-resolved-2.png) 
+![Image showing how to restate the SmallBusiness entity](../media/sdk/convert-logical-entities-resolved-entities/small-business-entity-shape-resolved-2.png) 
 
 To resolve the SmallBusiness entity into this shape:
 
  <!-- image33 -->
-![](../media/sdk/convert-logical-entities-resolved-entities/small-business-entity-shape-resolved2.png) 
+![Image showing the resolved SmallBusiness entity](../media/sdk/convert-logical-entities-resolved-entities/small-business-entity-shape-resolved2.png) 
 
 
 We can simply resolve the logical entity with no added guidance, and use the
@@ -434,3 +433,4 @@ When the object model is used to get a reference to one of these attribute
 objects, the entity containing the attribute will be resolved by using the
 current set of directives and the attribute will be located in the final
 resolved set.
+
