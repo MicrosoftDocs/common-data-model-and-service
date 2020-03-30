@@ -5,7 +5,7 @@ author: TheresaPalmer
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 11/16/2018
+ms.date: 03/30/2020
 ms.author: tpalmer
 ---
 
@@ -62,13 +62,13 @@ This view shows Electronic Medical Record (EMR) data directly within a patient o
 
 This view provides a sequential look at all activities that have occurred with the patient or provider. The timeline provides the ability to scale, leveraging a slider, and interact with data directly.
 
-![Patient Provider Timeline](media/health-timeline.png)
+![Patient Provider Timeline](media/TimelineNew.PNG)
 
 ### Care Team Viewer
 
 A clear understanding of which member of a patient's care team owns each facet of care is paramount, as this view clearly and and concisely shows.
 
-![Care Team Viewer ](media/health-careteam.png)
+![Care Team Viewer ](media/CareTeamNew.PNG)
 
 ## Additional resources
 
