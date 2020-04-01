@@ -29,6 +29,10 @@
         href: hied-accelerator.md
       - name: Nonprofit Accelerator
         href: NFP-accelerator.md
+      - name: Templates
+        items:
+        - name: Healthcare Accelerator Patient Scheduling and Screening Template
+          href: patient-scheduling-screening-template.md
   - name: Azure Data Lake
     href: data-lake.md
     items:
