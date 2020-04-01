@@ -75,7 +75,7 @@ You can find the URL for your bot by navigating to the bot in Azure and selectin
 
 You can access the Healthcare Bot admin portal here: [Healthcare Bot admin portal](https://admin.healthbot.microsoft.com).
 
-For more information, see [Create your first Healthcare Bot](https://docs.microsoft.com/en-us/healthbot/quickstart-createyourhealthcarebot).
+For more information, see [Create your first Healthcare Bot](https://docs.microsoft.com/healthbot/quickstart-createyourhealthcarebot).
 
 ### Enable Omnichannel for the bot
 
@@ -146,14 +146,14 @@ You shouldn't need to do this unless you want to perform specific testing with t
 
 For more information, see:
 
-- [Embed a health bot instance in your application](https://docs.microsoft.com/en-us/healthbot/integrations/embed)
+- [Embed a health bot instance in your application](https://docs.microsoft.com/healthbot/integrations/embed)
 - [HealthBot Container Sample](https://github.com/Microsoft/HealthBotContainerSample/)
 
 ### How Omnichannel and Healthcare Bot work together
 
 The flow is as follows:
 
-1. You embed the Omnichannel bot (not Healthcare Bot) onto a site. For more information, see [Add a chat widget](https://docs.microsoft.com/en-us/dynamics365/omnichannel/administrator/add-chat-widget).
+1. You embed the Omnichannel bot (not Healthcare Bot) onto a site. For more information, see [Add a chat widget](https://docs.microsoft.com/dynamics365/omnichannel/administrator/add-chat-widget).
 
 2. You set the bot up in Dynamics to route to the Healthcare Bot by default.
 
