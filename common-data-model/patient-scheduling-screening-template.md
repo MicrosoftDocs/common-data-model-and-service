@@ -46,13 +46,13 @@ For more information, see [Licensing overview for Power Platform](https://docs.m
 
 ## Issues and feedback
 
-- To report an issue with the Patient Assessment sample app template, visit this link.
+- To report an issue with the Patient Assessment sample app template, visit this link. **NEED LINK**
 
-- If you would like to engage with us to build on the accelerator, please visit this link.
+- If you would like to engage with us to build on the accelerator, please visit this link. **NEED LINK**
 
 ## Next step
 
-Deploy and configure the [Patient Scheduling and Screening Template].
+Deploy and configure the [Patient Scheduling and Screening Template](patient-scheduling-screening-template-deploy.md).
 
 ## Disclaimer
 
