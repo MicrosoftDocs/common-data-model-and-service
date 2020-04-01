@@ -64,11 +64,17 @@ For steps on how to create your Healthcare Bot in Azure, create a bot user in Dy
 ### Create your Healthcare Bot in Azure
 
 1. Navigate to Azure Marketplace.
+
 2. Sign in, and search for **Microsoft Healthcare Bot**.
+
 3. Select **Create**.
+
 4. Configure the appropriate name, subscription, resource group, and other settings.
+
 5. Select **Subscribe**.
+
 6. When the deployment completes, select **Go to Resource**.
+
 7. Select **Configure Account**. When configuration completes, the bot should be ready.
 
 You can find the URL for your bot by navigating to the bot in Azure and selecting **Browse**.
@@ -80,12 +86,15 @@ For more information, see [Create your first Healthcare Bot](https://docs.micros
 ### Enable Omnichannel for the bot
 
 1. Navigate to [Healthcare Bot admin portal](https://admin.healthbot.microsoft.com).
+
 2. Go to **Configuration > Conversation > Human handoff**.
+
 3. Set **Dynamics 365 OmniChannel Bridge Messages** to **Enabled**, and then select **Save**.
 
 ### Obtain Bot ID
 
 1. To get your Healthcare bot id, which you need later, navigate to the [Healthcare Bot management portal](https://us.healthbot.microsoft.com/account/ia_dev_healthcare-tunapir/scenarios/manage).
+
 2. Go to **Integration > Channels**, and then enable the **Teams** channel if it isn't already enabled. Select **View** and copy the Bot ID. You will need it later.
 
 If you've printed this page or copied it into a file, enter your Bot ID here:
@@ -97,20 +106,30 @@ If you've printed this page or copied it into a file, enter your Bot ID here:
 Before following this procedure, make sure you've installed Omnichannel for the Dynamics org you're using.
 
 1. Navigate to the Dynamics org that contains the portal.
+
 2. Go to **Settings > Security > Users**.
+
 3. Select **New**, and select the **Application User** view for the form.
+
 4. Select an appropriate username.
+
 5. Create an **Application ID**. It must be a valid, non-expired application created in the Azure AD of the same tenant. It's not used by the bot, so it can be any application.
    a. Navigate to **Azure > Azure Active Directory > App Registrations**.
    b. Select **New registration**.
    c. Enter an appropriate name, and set it as **Microsoft only – Single tenant**.
    d. Select **Register**.
    e. Note the **Application (client) ID** and use that for the **Application ID** field.
+
 6. In **Full Name**, enter a name to display on the chat widget.
+
 7. Enter an email address in **Primary email**. It can be a dummy address, because it's not used.
+
 8. Set **User type** to **Bot application user**.
+
 9. In **Bot application ID**, enter the ID you saved earlier.
+
 10. Select **Save**.
+
 11. Go to **Manage roles**, give the user the role **Omnichannel agent**, and then select **OK**.
 
 Fore more information, see the following procedures in [Dynamics 365 Omnichannel Integration](https://docs.microsoft.com/healthbot/omnichannel):
