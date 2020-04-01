@@ -31,7 +31,7 @@ Download the files needed to install the solutions here: **[NEED LOCATION]**
   - CrisisManagementPortalDataPackage.zip
   - SampleDataPackage.zip
   - MarketingDataPackage.zip
-- To import the additional solutions, you’ll need the [Configuration Migration tool](https://docs.microsoft.com/powerapps/developer/common-data-service/download-tools-nuget) and the following data files: 
+- To import the additional solutions, you'll need the [Configuration Migration tool](https://docs.microsoft.com/powerapps/developer/common-data-service/download-tools-nuget) and the following data files: 
   - Configuration Migration tool folder 
   - Crisis Portal - DataPackage.zip 
   - Marketing Data Package - DataPackage.zip 
@@ -40,12 +40,12 @@ Download the files needed to install the solutions here: **[NEED LOCATION]**
 
 To import, follow the steps in [Import additional solutions with the Configuration Migration tool](patient-scheduling-screening-template-deploy.md#import-additional-solutions-with-the-configuration-migration-tool), later. 
 
-1. Crisis Portal 
-   1. Stand up a new portal with **Portal Template** = **Portal from Blank**.
+- Crisis Portal 
+   1. Create a new portal using **Portal from blank** template. More information: [Create a portal](https://docs.microsoft.com/powerapps/maker/portals/create-portal).
    2. Use the Configuration Migration tool to import Crisis Portal: DataPackage.zip.
    3. **Import Outcome**: Successful after clearing all search history/cache.
 
-2. Marketing Data Package 
+- Marketing Data Package 
    1. The data package contains customer journeys, segments, and marketing emails entities.
    2. Use the Configuration Migration tool to import Marketing Data Package: DataPackage.zip.
 
@@ -55,9 +55,9 @@ For steps on how to create your Healthcare Bot in Azure, create a bot user in Dy
 
 ### Dependencies 
 
-1. Omnichannel: Install Omnichannel in an environment following the instructions in [Provision Omnichannel for Customer Service](https://docs.microsoft.com/dynamics365/omnichannel/administrator/omnichannel-provision-license). Provisioning requires using an Admin account. You might need to perform the steps twice if it doesn't work the first time. The whole process takes about two hours.
+- Omnichannel: Install Omnichannel in an environment following the instructions in [Provision Omnichannel for Customer Service](https://docs.microsoft.com/dynamics365/omnichannel/administrator/omnichannel-provision-license). Provisioning requires using an Admin account. You might need to perform the steps twice if it doesn't work the first time. The whole process takes about two hours.
 
-2. Dynamics 365 Productivity Tools: Install Productivity Tools in the environment through [Dynamics 365 Productivity Tools](https://appsource.microsoft.com/product/dynamics-365/mscrm.d365_productivity_tools?tab=Overview) on Appsource. The Productivity Tools require Omnichannel.
+- **Dynamics 365 Productivity Tools**: Install Productivity Tools in the environment through [Dynamics 365 Productivity Tools](https://appsource.microsoft.com/product/dynamics-365/mscrm.d365_productivity_tools?tab=Overview) on Appsource. The Productivity Tools require Omnichannel.
 
 ## Set up Healthcare Bot service
 
@@ -225,7 +225,7 @@ For more information about importing scenarios, see [Scenario Management](https:
    - Regular Expression: /(Agent)/gi
    - Intent Mapping: CrisisTalkToAgent -> crisis_talk_to_agent_entry
 
-6. In Omni Channel, spin up a chat widget. Embed it into the portal. There will be an existing chat widget in the footer web template of the portal website, but you need to replace it with the one you create. For information about configuring a chat widget, see [Quickly configure a chat widget](https://docs.microsoft.com/dynamics365/omnichannel/administrator/configure-live-chat).
+6. In Omnichannel, spin up a chat widget. Embed it into the portal. There will be an existing chat widget in the footer web template of the portal website, but you need to replace it with the one you create. For information about configuring a chat widget, see [Quickly configure a chat widget](https://docs.microsoft.com/dynamics365/omnichannel/administrator/configure-live-chat).
 
 When you create queues and rules, one rule to note is **EscalateQueue**:
 
