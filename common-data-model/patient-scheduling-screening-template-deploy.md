@@ -38,15 +38,15 @@ Download the files needed to install the solutions here: **[NEED LOCATION]**
 
 ## Additional solutions 
 
-To import, follow steps in [Import additional solutions with the Configuration Migration tool](patient-scheduling-screening-template-deploy.md?import-additional-solutions-with-the-configuration-migration-tool), below. 
+To import, follow the steps in [Import additional solutions with the Configuration Migration tool](patient-scheduling-screening-template-deploy.md?import-additional-solutions-with-the-configuration-migration-tool), below. 
 
 1. Crisis Portal 
-   1. Stand up new portal with **Portal Template** = **Portal from Blank**.
+   1. Stand up a new portal with **Portal Template** = **Portal from Blank**.
    2. Use the Configuration Migration tool to import Crisis Portal: DataPackage.zip.
    3. **Import Outcome**: Successful after clearing all search history/cache.
 
 2. Marketing Data Package 
-   1. Data package contains customer journeys, segments, and marketing emails entities.
+   1. The data package contains customer journeys, segments, and marketing emails entities.
    2. Use the Configuration Migration tool to import Marketing Data Package: DataPackage.zip.
 
 ## Omnichannel capabilities
