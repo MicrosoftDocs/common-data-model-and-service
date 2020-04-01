@@ -31,14 +31,14 @@ Download the files needed to install the solutions here: **[NEED LOCATION]**
   - CrisisManagementPortalDataPackage.zip
   - SampleDataPackage.zip
   - MarketingDataPackage.zip
-- To import the additional solutions, you’ll need the Configuration Migration tool and the following data files: 
+- To import the additional solutions, you’ll need the [Configuration Migration tool](https://docs.microsoft.com/powerapps/developer/common-data-service/download-tools-nuget) and the following data files: 
   - Configuration Migration tool folder 
   - Crisis Portal - DataPackage.zip 
   - Marketing Data Package - DataPackage.zip 
 
 ## Additional solutions 
 
-To import, follow the steps in [Import additional solutions with the Configuration Migration tool](patient-scheduling-screening-template-deploy.md?import-additional-solutions-with-the-configuration-migration-tool), below. 
+To import, follow the steps in [Import additional solutions with the Configuration Migration tool](patient-scheduling-screening-template-deploy.md#import-additional-solutions-with-the-configuration-migration-tool), later. 
 
 1. Crisis Portal 
    1. Stand up a new portal with **Portal Template** = **Portal from Blank**.
