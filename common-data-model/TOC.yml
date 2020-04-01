@@ -33,6 +33,8 @@
         items:
         - name: Healthcare Accelerator Patient Scheduling and Screening Template
           href: patient-scheduling-screening-template.md
+        - name: Deploy and configure the Patient Scheduling and Screening Template
+          href: patient-scheduling-screening-template-deploy.md
   - name: Azure Data Lake
     href: data-lake.md
     items:
