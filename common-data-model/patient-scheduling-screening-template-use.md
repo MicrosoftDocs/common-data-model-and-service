@@ -30,7 +30,7 @@ done for users of the solutions within the template:
     access**, **Customer Service Representative** roles. Along with this, the users
     will need **Omnichannel administrator**, **Omnichannel agent** or **Omnichannel supervisor** roles.
 
-    ![Manage security roles](media/security-role1.png "Manage security roles")
+    ![Manage security roles](media/security-role2.png "Manage security roles")
 
 To get started with the **Screening app** included in the solution, you need to
 download the Power Apps Mobile on your device using the device's app store.
@@ -80,10 +80,12 @@ configured to meet the organizations individual needs for patient outreach.
 ## Patient Journeys Email Templates
 
 ![Patient Journeys](media/patient-journeys.jpg "Patient Journeys")
+
 *Patient Journeys*
 
 
 ![Email Templates](media/email-templates.jpg "Email Templates")
+
 *Email Templates*
 
 Also, included with the **Patient Outreach** module is a Crisis Management Journey
