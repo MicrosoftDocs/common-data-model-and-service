@@ -53,7 +53,7 @@ in](https://docs.microsoft.com/powerapps/user/run-app-client#open-power-apps-and
 
 Watch a quick demo on how to use the Patient Screening and Scheduling Template.
 
-**VIDEO**
+> [!VIDEO https://www.youtube.com/embed/iDLWFAlxZOY]
 
 ## Patient Outreach
 
