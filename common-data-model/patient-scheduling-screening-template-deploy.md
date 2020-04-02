@@ -18,7 +18,7 @@ The Patient Scheduling and Screening Template requires some setup to meet your n
 
 Estimated time to complete these steps: 35–40 minutes.
 
-Download the files needed to install the solutions here: **[NEED LOCATION]**
+Download the files needed to install the solutions from [Dynamics 365 Health Accelerator v2.2.3.0](https://github.com/microsoft/Industry-Accelerator-Health/releases) on GitHub.
 
 ## Prerequisite Files 
 
