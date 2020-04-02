@@ -38,7 +38,7 @@ Watch a quick overview of the Patient Scheduling and Screening Template.
 - Core Solution: Power Apps license
 - Patient Outreach: Dynamics Marketing App
 - Patient Triage: Microsoft Healthbot Service
-- Omni-Channel Call Center: Dynamics Customer Service App, Productivity Pack, Omni-Channel for Customer Service
+- Omnichannel Call Center: Dynamics Customer Service App, Productivity Pack, Omnichannel for Customer Service
 
 Contact your local Microsoft account representative for questions related to licensing.
 
