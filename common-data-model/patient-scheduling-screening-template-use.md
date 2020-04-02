@@ -137,6 +137,5 @@ link the observation, patient, and specimen.
     template, visit this
     [link](mailto:dynindaccsupport@microsoft.com?subject=Assistance%20for%20Health%20Care%20Accelerator%20from%20Appsource).
 
--   If you would like to engage with us to build on the accelerator, please,
-    visit this [link](https://aka.ms/cdmengage).
+-   If you would like to engage with us to build on the accelerator, visit this [link](https://aka.ms/cdmengage).
 

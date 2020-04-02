@@ -277,3 +277,11 @@ To import an additional solution using the Configuration Migration tool:
    2. Connect to the org to import the data to. 
    3. Select the appropriate data zip file (should be named **DataPackage.zip**). 
    4. Perform the import.
+
+## Issues and feedback
+
+-   To report an issue with the Patient Scheduling & Screening sample app
+    template, visit this
+    [link](mailto:dynindaccsupport@microsoft.com?subject=Assistance%20for%20Health%20Care%20Accelerator%20from%20Appsource).
+
+-   If you would like to engage with us to build on the accelerator, visit this [link](https://aka.ms/cdmengage).

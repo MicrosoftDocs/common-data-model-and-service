@@ -19,7 +19,7 @@ The solution is easily implemented, allowing quick scale and automation of crisi
 
 The main components of the Patient Scheduling and Screening Template are:
 
-- Clinical data used for segmentation and triage: Leverage patient population’s historical clinical data to perform automated segmentation of high-risk patients.
+- Clinical data used for segmentation and triage: Leverage patient population's historical clinical data to perform automated segmentation of high-risk patients.
 
 - Customer-branded Patient Portal and Self-Assessment tools: The Healthbot COVID-19 Template infused into the portal serves as an intermediary, to automate high-level triage and stratification to determine if a patient is deemed high-risk and should be transferred to the call center agent for test scheduling.
 
@@ -46,9 +46,11 @@ For more information, see [Licensing overview for Power Platform](https://docs.m
 
 ## Issues and feedback
 
-- To report an issue with the Patient Assessment sample app template, visit this link. **NEED LINK**
+-   To report an issue with the Patient Scheduling & Screening sample app
+    template, visit this
+    [link](mailto:dynindaccsupport@microsoft.com?subject=Assistance%20for%20Health%20Care%20Accelerator%20from%20Appsource).
 
-- If you would like to engage with us to build on the accelerator, please visit this link. **NEED LINK**
+-   If you would like to engage with us to build on the accelerator, visit this [link](https://aka.ms/cdmengage).
 
 ## Next step
 
