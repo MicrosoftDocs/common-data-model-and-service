@@ -35,6 +35,8 @@
           href: patient-scheduling-screening-template.md
         - name: Deploy and configure the Patient Scheduling and Screening Template
           href: patient-scheduling-screening-template-deploy.md
+        - name: Use the Patient Scheduling and Screening Template
+          href: patient-scheduling-screening-template-use.md
   - name: Azure Data Lake
     href: data-lake.md
     items:
