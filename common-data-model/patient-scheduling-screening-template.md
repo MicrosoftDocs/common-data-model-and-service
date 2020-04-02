@@ -23,7 +23,7 @@ The main components of the Patient Scheduling and Screening Template are:
 
 - Customer-branded Patient Portal and Self-Assessment tools: The Healthbot COVID-19 Template infused into the portal serves as an intermediary, to automate high-level triage and stratification to determine if a patient is deemed high-risk and should be transferred to the call center agent for test scheduling.
 
-- Omni-Channel tools for call center agents: Leverage Omni-Channel for Customer Service capabilities to provide next steps to high-risk patients, such as viewing previous clinical information, sending knowledge base articles, and booking screening appointments.
+- Omnichannel tools for call center agents: Leverage Omnichannel for Customer Service capabilities to provide next steps to high-risk patients, such as viewing previous clinical information, sending knowledge base articles, and booking screening appointments.
 
 - Automation of appointment booking and check-in with use of QR/Bar Codes: Pre-built automation where patients can receive a notification with details of the appointment and an accompanying QR/Bar Code for entry at the testing center.
 
