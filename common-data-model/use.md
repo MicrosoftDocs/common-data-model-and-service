@@ -3,9 +3,9 @@ title: Usage - Common Data Model | Microsoft Docs
 description: How to use Common Data Model to develop apps and solutions.
 author: theresapalmer
 ms.service: common-data-model
-ms.reviewer: anneta
+ms.reviewer: deonhe
 ms.topic: article
-ms.date: 02/11/2020
+ms.date: 03/03/2020
 ms.author: tpalmer
 ---
 
@@ -14,7 +14,7 @@ ms.author: tpalmer
 With Common Data Model, you can structure your data to represent concepts and activities that are commonly used and well understood. You can query and analyze that data, reuse it, and interoperate with other businesses and apps that use the same format. The Common Data Model defines the shape of a **Contact**, for example, so that your app developers and business partners can understand that data and build your apps (or interoperate with other people's apps) with agility and confidence.
 
 
-Common Data Model can be used within Common Data Service, which supports Dynamics 365 apps, Power Apps, and the data-preparation capabilities in Power BI dataflows to create data files that follow Common Data Model defintion in Azure Data Lake. The Common Data Model definitions are open and available to any service or application that wants to use them.
+Common Data Model can be used within Common Data Service, which supports Dynamics 365 apps, Power Apps, and the data-preparation capabilities in Power BI dataflows to create data files that follow Common Data Model definition in Azure Data Lake. The Common Data Model definitions are open and available to any service or application that wants to use them.
 
 ![Common Data Model with Common Data Service](media/cdm-with-cds.png "Common Data Model with Common Data Service and Power BI dataflows")
 
