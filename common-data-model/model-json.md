@@ -3,9 +3,9 @@ title: Metadata format - Common Data Model| Microsoft Docs
 description: How you can use the Common Data Model to develop apps and solutions.
 author: theresapalmer
 ms.service: common-data-model
-ms.reviewer: anneta
+ms.reviewer: deonhe
 ms.topic: article
-ms.date: 11/21/2018
+ms.date: 04/03/2020
 ms.author: tpalmer
 ---
 
@@ -20,7 +20,7 @@ The model file enables:
 - Indicates compliance with Common Data Model standard entities
 - Information about when entities were most recently updated
 
-![Model.json in Common Data Model folder structure](media/cdm-folder.png)
+![model.json in Common Data Model folder structure](media/cdm-folder.png)
 
 [Download](https://github.com/Microsoft/CDM/tree/master/docs/schema) the schema of the model.json file.
 
@@ -74,17 +74,22 @@ These properties are listed at the root of the model.json file and describe prop
 
 Sample:
 
-```
+``` json
 {
-    "application": "MyApplication",  
-    "name": "OrdersProducts",  
-    "description": "Model containing data for Order and Products.",  
-    "version": "1.0",  
-    "modifiedTime": 2018-01-02T12:00:00+08:00,  
-    "name": "OrdersProducts",  
-    "annotations": [ ],  
-    "entities": [ ],  
-    "referenceModels": [ ]  
+   "application":"MyApplication",
+   "name":"OrdersProducts",
+   "description":"Model containing data for Order and Products.",
+   "version":"1.0",
+   "modifiedTime":"2018-01-02T12:00:00+08:00",
+   "annotations":[
+
+   ],
+   "entities":[
+
+   ],
+   "referenceModels":[
+
+   ]
 }
 ```
 
@@ -101,13 +106,15 @@ Optional, non-essential contextual information (key/value pairs) that can be use
 
 Sample:
 
-```
-    "annotations": [
-        {
-            "name": "MyApp:VersionNum",
-            "value": "3.0.1"
-        }
-    ]
+``` json
+{
+   "annotations":[
+      {
+         "name":"MyApp:VersionNum",
+         "value":"3.0.1"
+      }
+   ]
+}
 ```
 
 ### Reference Models
@@ -123,13 +130,15 @@ Reference models are existing model.json files with entities and datafiles to wh
 
 Sample:
 
-```
-    "referenceModels": [
-        {
-            "id": "f19bbb97-c031-441a-8bd1-61b9181c0b83 ",
-            "location": "https://contosostorageaccount.dfs.core.windows.net/contosoFilesystem/cdmFolder/model.json"
-        }
-    ]
+``` json
+{
+   "referenceModels":[
+      {
+         "id":"f19bbb97-c031-441a-8bd1-61b9181c0b83 ",
+         "location":"https://contosostorageaccount.dfs.core.windows.net/contosoFilesystem/cdmFolder/model.json"
+      }
+   ]
+}
 ```
 
 ### Entities
@@ -174,35 +183,47 @@ In the required columns, “n/a” means the field shouldn’t exist for that ty
 
 LocalEntity sample:
 
-```
-    "entities": [
-        {
-            "$type": "LocalEntity",
-            "name": "Products",
-            "description": "Information about products and their pricing information.",
-            "annotations": [ ]
-            "attributes": [ ],
-            "partitions": [ ],
-            "schemas": [
-"https://raw.githubusercontent.com/Microsoft/CDM/master/schemaDocuments/core/applicationCommon/foundationCommon/Product.0.7.cdm.json"
-            ]
-        }
-    ]
+``` json
+{
+   "entities":[
+      {
+         "$type":"LocalEntity",
+         "name":"Products",
+         "description":"Information about products and their pricing information.",
+         "annotations":[
+
+         ],
+         "attributes":[
+
+         ],
+         "partitions":[
+
+         ],
+         "schemas":[
+            "https://raw.githubusercontent.com/Microsoft/CDM/master/schemaDocuments/core/applicationCommon/foundationCommon/Product.0.7.cdm.json"
+         ]
+      }
+   ]
+}
 ```
 
 ReferencedEntity sample:
 
-```
-    "entities": [
-        {
-            "$type": "ReferenceEntity",
-            "name": "Products",
-            "description": "Information about products and their pricing information.",
-            "source": "Products",
-            "modelId": "f19bbb97-c031-441a-8bd1-61b9181c0b83",
-            "annotations": [ ]
-        },
-    ]
+``` json
+{
+   "entities":[
+      {
+         "$type":"ReferenceEntity",
+         "name":"Products",
+         "description":"Information about products and their pricing information.",
+         "source":"Products",
+         "modelId":"f19bbb97-c031-441a-8bd1-61b9181c0b83",
+         "annotations":[
+
+         ]
+      }
+   ]
+}
 ```
 
 #### Attributes
@@ -220,15 +241,19 @@ Attributes are the fields within an entity that correspond to data values within
 
 Sample:
 
-```
-    "attributes": [
-            {
-                "name": "productId",
-                "description": "The unique identifier of the product.",
-                "dataType": "string",
-                "annotations": [ ]
-            },
-        ]
+``` json
+{
+   "attributes":[
+      {
+         "name":"productId",
+         "description":"The unique identifier of the product.",
+         "dataType":"string",
+         "annotations":[
+
+         ]
+      }
+   ]
+}
 ```
 
 #### Partitions
@@ -281,20 +306,22 @@ Relationships describe how entities are connected, such as an Account that has a
 
 Sample:
 
-```
-    "relationships": [
-        {
-            "$type": "SingleKeyRelationship",
-            "fromAttribute": {
-                "entityName": "Account",
-                "attributeName": "ContactId",
-           },
-            "toAttribute": { 
-                "entityName": "Contact",
-                "attributeName": "Id",
-           }
-        },
-    ]
+``` json
+{
+   "relationships":[
+      {
+         "$type":"SingleKeyRelationship",
+         "fromAttribute":{
+            "entityName":"Account",
+            "attributeName":"ContactId"
+         },
+         "toAttribute":{
+            "entityName":"Contact",
+            "attributeName":"Id"
+         }
+      }
+   ]
+}
 ```
 
 ## Datatype formats
