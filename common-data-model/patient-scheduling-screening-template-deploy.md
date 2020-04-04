@@ -136,7 +136,7 @@ Fore more information, see the following procedures in [Dynamics 365 Omnichannel
 
 - [Add a bot user to the queue(s)](https://docs.microsoft.com/healthbot/omnichannel#add-a-bot-user-to-the-queues)
 - [Set escalation rules](https://docs.microsoft.com/healthbot/omnichannel#set-escalation-rules)
-- [Create a context variable]https://docs.microsoft.com/healthbot/omnichannel#create-a-context-variable)
+- [Create a context variable](https://docs.microsoft.com/healthbot/omnichannel#create-a-context-variable)
 - [Create routing rules](https://docs.microsoft.com/healthbot/omnichannel#create-routing-rules)
 - [Escalate a conversation to a human agent](https://docs.microsoft.com/healthbot/omnichannel#escalate-a-conversation-to-a-human-agent)
 - [End a conversation](https://docs.microsoft.com/healthbot/omnichannel#end-a-conversation)
