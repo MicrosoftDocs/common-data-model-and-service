@@ -44,7 +44,7 @@ Watch a quick overview of the Patient Scheduling and Screening Template.
 
 Contact your local Microsoft account representative for questions related to licensing.
 
-For more information, see [Licensing overview for Power Platform](https://docs.microsoft.com/power-platform/admin/pricing-billing-skus).
+For more information, see [Licensing overview for Power Platform](https://docs.microsoft.com/power-platform/admin/pricing-billing-skus) and [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409).
 
 ## Issues and feedback
 
