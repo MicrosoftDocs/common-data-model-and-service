@@ -174,7 +174,7 @@ In the required columns, “n/a” means the field shouldn’t exist for that ty
 |$type | Constant | Type of entity being defined in this model. This attribute must be set to:  “LocalEntity”. | Yes | Yes |
 |name | String | The entity name | Yes | Yes |
 |description | string | The entity description | No | No |
-|[annotations](#annotations) | Annotation[] | Array of optional model annotations - non essential key/value pairs that contain contextual information that can be used to store additional context | No | No |
+|[annotations](#annotations) | Annotation[] | Array of optional model annotations - non-essential key/value pairs that contain contextual information that can be used to store additional context | No | No |
 |schemas | SchemaURI[] | A collection of URIs to the schema definitions to which the entity conforms. <br> Allowed pattern:<br>https://raw.githubusercontent.com/Microsoft/CDM/master/schemaDocuments/<CDM folder hierarchy>/<entity name>.<entity version>.cdm.json<br>Example: https://raw.githubusercontent.com/Microsoft/CDM/master/schemaDocuments/core/applicationCommon/Account.0.8.cdm.json | No | n/a |
 |[attributes](#attributes) | Attribute[] |  The attributes within the entity. Each entity must have at least one. | Yes | n/a |
 |[partitions](#partitions) | Partition[] | The entity physical partitions (data files) | No | n/a |
@@ -237,7 +237,7 @@ Attributes are the fields within an entity that correspond to data values within
 |name | string | the attribute name | Yes |
 |description | string | the attribute description | No |
 |dataType | enum | This attribute should be set to one of these values:  string, int64, double, dateTime, dateTimeOffset, decimal, boolean, GUID, or JSON. If a culture is specified, it should be used to parse the datatype. [More information](#datatype-formats) | Yes |
-|[annotations](#annotations)  | Annotation[] | Array of optional model annotations - non essential key/value pairs that contain contextual information that can be used to store additional context | No |
+|[annotations](#annotations)  | Annotation[] | Array of optional model annotations - non-essential key/value pairs that contain contextual information that can be used to store additional context | No |
 
 Sample:
 
