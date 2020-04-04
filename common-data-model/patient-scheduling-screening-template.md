@@ -1,12 +1,12 @@
 ---
 title: Healthcare Accelerator Patient Scheduling and Screening Template - Dynamics 365 | Microsoft Docs
 description: Develop healthcare solutions with the extensions to the Common Data Model and built-in forms and views of the Dynamics 365 Healthcare Accelerator.
-author: andreabichsel
+author: edgarwilsonjr2
 ms.service: common-data-model
 ms.reviewer: anbichse
 ms.topic: article
 ms.date: 04/01/2020
-ms.author: anbichse
+ms.author: edwilson
 ---
 
 # Healthcare Accelerator Patient Scheduling and Screening Template
@@ -33,7 +33,7 @@ The main components of the Patient Scheduling and Screening Template are:
 
 Watch a quick overview of the Patient Scheduling and Screening Template.
 
-**VIDEO**
+[!VIDEO https://www.youtube.com/embed/6AkeDQCoX-g]
 
 ## Licensing requirements
 
@@ -60,4 +60,4 @@ Deploy and configure the [Patient Scheduling and Screening Template](patient-sch
 
 ## Disclaimer
 
-This app is a sample and may be used with Microsoft Power Apps for dissemination of reference information only. This app is not intended or made available for use as a medical device, clinical support, diagnostic tool, or other technology intended to be used in the diagnosis, cure, mitigation, treatment, or prevention of disease or other conditions, and no license or right is granted by Microsoft to use this app for such purposes. This app is not designed or intended to be a substitute for professional medical advice, diagnosis, treatment, or judgment and should not be used as such. Customer bears the sole risk and responsibility for any use of this app. Microsoft does not warrant that the app or any materials provided in connection therewith will be sufficient for any medical purposes or meet the health or medical requirements of any person.
+This template is a sample and may be used with Microsoft Dynamics and Microsoft Power Apps only for dissemination of reference information and facilitating communication between individuals and health care providers. This template and related services are not intended or made available for use as a medical device, clinical support, diagnostic tool, or other technology intended to be used in the diagnosis, cure, mitigation, treatment, or prevention of disease or other conditions, and no license or right is granted by Microsoft to use the template and related services for such purposes. This template and related services are not designed or intended to be a substitute for professional medical advice, diagnosis, treatment, or judgement and should not be used as such. This template and related services should not be used for emergencies and does not support emergency communications.   Customer bears the sole risk and responsibility for any use of this template and related services, including incorporation into any product or service intended for medical or clinical use, and for providing end users with appropriate warnings about using your implementation of the template and related services. Microsoft does not warrant that the template or related services or any materials provided in connection therewith will be sufficient for any medical purposes or meet the health or medical requirements of any person.
