@@ -1,12 +1,12 @@
 ---
 title: Use the Healthcare Accelerator Patient Scheduling and Screening Template - Dynamics 365 | Microsoft Docs
 description: Use healthcare solutions with the extensions to the Common Data Model and built-in forms and views of the Dynamics 365 Healthcare Accelerator.
-author: andreabichsel
+author: edgarwilsonjr2
 ms.service: common-data-model
 ms.reviewer: anbichse
 ms.topic: article
-ms.date: 04/01/2020
-ms.author: anbichse
+ms.date: 04/04/2020
+ms.author: edwilson
 ---
 
 # Use the Patient Scheduling and Screening Template
