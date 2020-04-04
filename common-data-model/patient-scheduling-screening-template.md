@@ -33,7 +33,7 @@ The main components of the Patient Scheduling and Screening Template are:
 
 Watch a quick overview of the Patient Scheduling and Screening Template.
 
-[!VIDEO https://www.youtube.com/embed/6AkeDQCoX-g]
+> [!VIDEO https://www.youtube.com/embed/6AkeDQCoX-g]
 
 ## Licensing requirements
 
