@@ -48,4 +48,4 @@ We continue to release new and updated accelerators for the industries identifie
 
 ## Want to help?
 
-If you're interested in talking with Microsoft about the industry solution accelerators, [sign up](https://experienceisv.microsoftcrmportals.com/engage/) to share your feedback, suggestions, and challenges.
+If you're interested in talking with Microsoft about the industry solution accelerators, [sign up](https://aka.ms/cdmengage) to share your feedback, suggestions, and challenges.
