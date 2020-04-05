@@ -141,9 +141,9 @@ In the same folder, a new document named MyEntity.cdm.json defines a simple Comm
 }
 ```
 
-Because it imported MyDefintions.cdm.json, this new document can reference the symbols for **personFullName** *and* any symbols from the foundations.cdm.json document, such as **entityId**.
+Because it imported MyDefinitions.cdm.json, this new document can reference the symbols for **personFullName** *and* any symbols from the foundations.cdm.json document, such as **entityId**.
 
-Sometimes it's necessary to import documents that contain objects with names that conflict directly with names that are being defined in the new document. This occurs when an entity inherits from a base entity to add some new attributes but wants to use the same entity name. To avoid a conflict, a "moniker" can be given to temporarily disambiguate the imported object. Using our example above, if MyDefintions.cdm.json was imported with a moniker of **mine**, the reference **mine/personFullName** would need to be used to reference the data type **personFullName** defined in that document.
+Sometimes it's necessary to import documents that contain objects with names that conflict directly with names that are being defined in the new document. This occurs when an entity inherits from a base entity to add some new attributes but wants to use the same entity name. To avoid a conflict, a "moniker" can be given to temporarily disambiguate the imported object. Using our example above, if MyDefinitions.cdm.json was imported with a moniker of **mine**, the reference **mine/personFullName** would need to be used to reference the data type **personFullName** defined in that document.
 
 In a case where objects are imported from many documents and monikers aren't used, and the documents contain duplicate definitions for the same symbolic name, whichever definition of the object was imported last, "wins".
 
