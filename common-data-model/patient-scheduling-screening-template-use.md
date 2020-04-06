@@ -5,7 +5,7 @@ author: edgarwilsonjr2
 ms.service: common-data-model
 ms.reviewer: anbichse
 ms.topic: article
-ms.date: 04/04/2020
+ms.date: 04/06/2020
 ms.author: edwilson
 ---
 
@@ -120,7 +120,12 @@ slots that are open for booking at the location.
 
 ![Patient 360](media/patient-360.jpg "Patient 360")
 
+*Patient 360 in Omnichannel*
+
+
 ![Test scheduling](media/test-scheduling.png "Test scheduling")
+
+*Test scheduling*
 
 ## Appointment Automation
 
