@@ -5,7 +5,7 @@ author: edgarwilsonjr2
 ms.service: common-data-model
 ms.reviewer: anbichse
 ms.topic: article
-ms.date: 04/04/2020
+ms.date: 04/06/2020
 ms.author: edwilson
 ---
 
@@ -245,6 +245,10 @@ For more information about importing scenarios, see [Scenario Management](https:
     - High or Unknown 
     - ContactGender (string): male, female, or other 
     - ContactAge (number) 
+
+10. To add any of the above fields, see [Create a notification template](https://docs.microsoft.com/dynamics365/omnichannel/administrator/notification-templates#create-a-notification-template)
+
+    When specifying the **Value** field on the new Notification Field record, enclose the above in curly braces. For example, if I wanted to use the value ContactEmail, I would type {ContactEmail}. 
 
 ### Patient segmentation capabilities
 
