@@ -227,11 +227,24 @@ For more information about importing scenarios, see [Scenario Management](https:
 
 6. In Omnichannel, spin up a chat widget. Embed it into the portal. There will be an existing chat widget in the footer web template of the portal website, but you need to replace it with the one you create. For information about configuring a chat widget, see [Quickly configure a chat widget](https://docs.microsoft.com/dynamics365/omnichannel/administrator/configure-live-chat).
 
-When you create queues and rules, one rule to note is **EscalateQueue**:
+7. You will want to associate the **Crisis Agent Script** to the appropriate session for your chat. The default session to associate it to is called **Chat – Default session**. For informatio on how to associate an Agent Script to a session, see [Associate an agent script with a session template](https://docs.microsoft.com/dynamics365/omnichannel/administrator/agent-scripts#step-2-associate-an-agent-script-with-a-session-template). 
 
-- This text field is set to **COVID19AssessmentQueue** when the COVID-19 Assessment scenario determines a person may be at risk of having COVID-19, and it has been determined they need to speak with an agent.
+8. When you create queues and rules, one rule to note is **EscalateQueue**:
 
-- This text field is set to **TalkToAgentQueue** when the user is forcing to talk to an agent that is not related to a scenario.
+    - This text field is set to **COVID19AssessmentQueue** when the COVID-19 Assessment scenario determines a person may be at risk of having COVID-19, and it has been determined they need to speak with an agent.
+
+    - This text field is set to **TalkToAgentQueue** when the user is forcing to talk to an agent that is not related to a scenario.
+
+9. When escalation occurs from the Healthbot chat, there are several parameters that get passed back to Omnichannel. Up to 4 of these can be added to the agent window in the top right corner when a new chat has started (escalated). Below are the following values available: 
+    - comment (string): Gives the agent an indication of why the user started the live chat
+    - EscalateQueue (string): The queue name this user has been assigned to
+    - ContactName (string)
+    - ContactLocation (string)
+    - ContactEmail (string)
+    - ContactRiskFactor (string) 
+    - High or Unknown 
+    - ContactGender (string): male, female, or other 
+    - ContactAge (number) 
 
 ### Patient segmentation capabilities
 
