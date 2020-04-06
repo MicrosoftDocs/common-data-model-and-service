@@ -11,7 +11,7 @@ ms.author: edwilson
 
 # Healthcare Accelerator Patient Scheduling and Screening Template
 
-The Dynamics 365 Healthcare Accelerator Patient Scheduling and Screening Template enables healthcare organizations to address large volumes of anxious patients with higher efficiency. It provides access to a portal with information about COVID-19, an easy-to-use self-assessment tool for patients to find out if they are high-risk, and an automated process for booking and performing COVID-19 screening.
+The Dynamics 365 Healthcare Accelerator Patient Scheduling and Screening Template enables healthcare organizations to address large volumes of anxious patients with higher efficiency. It provides access to a portal with information about COVID-19, an easy-to-use self-assessment tool for patients to determine risk, and an automated process for booking and performing COVID-19 screening.
 
 The solution is easily implemented, allowing quick scale and automation of crisis-specific workloads. The timely availability of this accelerator brings together a seamless workflow for patients, call center agents, clinical technicians, and providers, enabling them to meet the rapidly growing needs of assessment and testing. The Patient Scheduling and Screening Template is an easy-to-integrate solution that sits on top of an existing Patient Platform. 
 
@@ -21,7 +21,7 @@ The main components of the Patient Scheduling and Screening Template are:
 
 - **Clinical data used for segmentation and triage**: Leverage patient population's historical clinical data to perform automated segmentation of high-risk patients.
 
-- **Customer-branded Patient Portal and Self-Assessment tools**: The Healthbot COVID-19 Template infused into the portal serves as an intermediary, to automate high-level triage and stratification to determine if a patient is deemed high-risk and should be transferred to the call center agent for test scheduling.
+- **Customer-branded Patient Portal and Self-Assessment tools**: The Healthbot COVID-19 Template infused into the portal serves as an intermediary, to automate high-level triage and determine if a patient should be transferred to the call center agent for test scheduling.
 
 - **Omnichannel tools for call center agents**: Leverage Omnichannel for Customer Service capabilities to provide next steps to high-risk patients, such as viewing previous clinical information, sending knowledge base articles, and booking screening appointments.
 
