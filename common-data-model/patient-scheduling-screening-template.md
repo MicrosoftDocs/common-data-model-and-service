@@ -5,7 +5,7 @@ author: edgarwilsonjr2
 ms.service: common-data-model
 ms.reviewer: anbichse
 ms.topic: article
-ms.date: 04/04/2020
+ms.date: 04/06/2020
 ms.author: edwilson
 ---
 
