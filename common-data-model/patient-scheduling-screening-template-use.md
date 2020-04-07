@@ -118,7 +118,7 @@ slots that are open for booking at the location.
 
 ## Patient 360 in Omnichannel Test Scheduling
 
-![Patient 360](media/patient-360.jpg "Patient 360")
+![Patient 360](media/patient-360.png "Patient 360")
 
 *Patient 360 in Omnichannel*
 
