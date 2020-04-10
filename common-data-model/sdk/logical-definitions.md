@@ -357,7 +357,7 @@ the following table.
 | hasA                | This is the root, "void" purpose, which adds no traits.                                             |
 | identifiedBy        | Indicates the primary key of an entity.                                                             |
 | namedBy             | The tagged attribute holds the primary name for an entity.                                          |
-| orderedBy           | The records of the entity can be ordered by default by this entity.                                 |
+| orderedBy           | The records of the entity can be ordered by default by this attribute.                                 |
 | locatedAt           | The objects described by the entity can be located physically by using the values of the attribute. |
 | representsStateWith | Indicates the state of the entity records.                                                          |
 | createdOn           | Indicates when the record was created.                                                              |
