@@ -494,9 +494,7 @@ resolves to:
 
 10. **favoriteTeacherDOB**
 
-The section [[xref to \#Converting logical entities into resolved entities]]
-later in this article explains this behavior in depth and explains how to
-override the defaults to get the shaped entities you want.
+The [convert logical entities into resolved entities](./convert-logical-entities-resolved-entities.md) article explains this behavior in depth and explains how to override the defaults to get the shaped entities you want.
 
 ## The AttributeGroup object
 
