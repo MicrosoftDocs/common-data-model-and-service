@@ -47,7 +47,7 @@
       - name: Model metadata - model.json
         href: model-json.md
   - name: Entity Reference
-    href: schema/core/applicationCommon/toc.yml
+    href: schema/core/toc.yml
   - name: API Reference
     items:
       - name: Overview

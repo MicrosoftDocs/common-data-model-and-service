@@ -208,6 +208,8 @@
             href: foundationCommon/crmCommon/accelerators/education/higherEducation/AcademicPeriod.md
           - name: AcademicPeriodDetail 
             href: foundationCommon/crmCommon/accelerators/education/higherEducation/AcademicPeriodDetail.md
+          - name: Accomplishments 
+            href: foundationCommon/crmCommon/accelerators/education/higherEducation/Accomplishments.md
           - name: Account 
             href: foundationCommon/crmCommon/accelerators/education/higherEducation/Account.md
           - name: Address 
@@ -230,6 +232,18 @@
             href: foundationCommon/crmCommon/accelerators/education/higherEducation/ExtraCurricularActivity.md
           - name: ExtraCurricularParticipant 
             href: foundationCommon/crmCommon/accelerators/education/higherEducation/ExtraCurricularParticipant.md
+          - name: Grant 
+            href: foundationCommon/crmCommon/accelerators/education/higherEducation/Grant.md
+          - name: GrantApplicant 
+            href: foundationCommon/crmCommon/accelerators/education/higherEducation/GrantApplicant.md
+          - name: GrantApplicationBusinessProcessFlow 
+            href: foundationCommon/crmCommon/accelerators/education/higherEducation/GrantApplicationBusinessProcessFlow.md
+          - name: Internship 
+            href: foundationCommon/crmCommon/accelerators/education/higherEducation/Internship.md
+          - name: InternshipApplicant 
+            href: foundationCommon/crmCommon/accelerators/education/higherEducation/InternshipApplicant.md
+          - name: InternshipApplicationFlow 
+            href: foundationCommon/crmCommon/accelerators/education/higherEducation/InternshipApplicationFlow.md
           - name: PreviousEducation 
             href: foundationCommon/crmCommon/accelerators/education/higherEducation/PreviousEducation.md
           - name: Program 
@@ -242,6 +256,12 @@
             href: foundationCommon/crmCommon/accelerators/education/higherEducation/ProgramVersionDetail.md
           - name: RegistrationStatus 
             href: foundationCommon/crmCommon/accelerators/education/higherEducation/RegistrationStatus.md
+          - name: Scholarship 
+            href: foundationCommon/crmCommon/accelerators/education/higherEducation/Scholarship.md
+          - name: ScholarshipApplicant 
+            href: foundationCommon/crmCommon/accelerators/education/higherEducation/ScholarshipApplicant.md
+          - name: ScholarshipApplicationBusinessProcessFlow 
+            href: foundationCommon/crmCommon/accelerators/education/higherEducation/ScholarshipApplicationBusinessProcessFlow.md
           - name: StudentProgramType 
             href: foundationCommon/crmCommon/accelerators/education/higherEducation/StudentProgramType.md
           - name: StudentStatus 

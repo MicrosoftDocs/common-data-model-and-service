@@ -5,12 +5,13 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 2/28/2020
+ms.date: 4/15/2020
 ms.author: nebanfic
 ---
 
 # automotive
 
+CDM Solution for the 'AUTOMOTIVE' CDS Solution  
 
 ## Entities
 

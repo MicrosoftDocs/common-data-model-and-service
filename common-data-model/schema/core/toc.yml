@@ -1,0 +1,1812 @@
+- name: Summary
+  href: overview.md
+- name: applicationCommon
+  items:
+  - name: Summary
+    href: applicationCommon/overview.md
+  - name: foundationCommon
+    items:
+    - name: Summary
+      href: applicationCommon/foundationCommon/overview.md
+    - name: crmCommon
+      items:
+      - name: Summary
+        href: applicationCommon/foundationCommon/crmCommon/overview.md
+      - name: accelerators
+        items:
+        - name: Summary
+          href: applicationCommon/foundationCommon/crmCommon/accelerators/overview.md
+        - name: automotive
+          items:
+          - name: Summary
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/overview.md
+          - name: AggregateKPI 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/AggregateKPI.md
+          - name: AggregateKPIContext 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/AggregateKPIContext.md
+          - name: AggregateKPIMeasurement 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/AggregateKPIMeasurement.md
+          - name: AttributeGroup 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/AttributeGroup.md
+          - name: AttributeOption 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/AttributeOption.md
+          - name: AttributeType 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/AttributeType.md
+          - name: AutoLeadToOpportunitySalesProcess 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/AutoLeadToOpportunitySalesProcess.md
+          - name: Business 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/Business.md
+          - name: BusinessFacility 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/BusinessFacility.md
+          - name: BusinessOperation 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/BusinessOperation.md
+          - name: BusinessOperationCustomerPreference 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/BusinessOperationCustomerPreference.md
+          - name: BusinessType 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/BusinessType.md
+          - name: ConfigurationCode 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/ConfigurationCode.md
+          - name: ConfigurationOption 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/ConfigurationOption.md
+          - name: CustomerAttachment 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/CustomerAttachment.md
+          - name: CustomerIdentifier 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/CustomerIdentifier.md
+          - name: CustomerIdentifierType 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/CustomerIdentifierType.md
+          - name: Deal 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/Deal.md
+          - name: DealCustomer 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/DealCustomer.md
+          - name: DealDevice 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/DealDevice.md
+          - name: DealDeviceAddOn 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/DealDeviceAddOn.md
+          - name: DealFile 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/DealFile.md
+          - name: DealTerm 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/DealTerm.md
+          - name: DealType 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/DealType.md
+          - name: DealerPlate 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/DealerPlate.md
+          - name: DealerPlateDeviceAssignment 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/DealerPlateDeviceAssignment.md
+          - name: Device 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/Device.md
+          - name: DeviceBrand 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/DeviceBrand.md
+          - name: DeviceClass 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/DeviceClass.md
+          - name: DeviceComponent 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/DeviceComponent.md
+          - name: DeviceGeneration 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/DeviceGeneration.md
+          - name: DeviceInspection 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/DeviceInspection.md
+          - name: DeviceInspectionChecklist 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/DeviceInspectionChecklist.md
+          - name: DeviceInspectionChecklistType 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/DeviceInspectionChecklistType.md
+          - name: DeviceLicensePlate 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/DeviceLicensePlate.md
+          - name: DeviceMeasure 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/DeviceMeasure.md
+          - name: DeviceMeasurement 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/DeviceMeasurement.md
+          - name: DeviceMeter 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/DeviceMeter.md
+          - name: DeviceModel 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/DeviceModel.md
+          - name: DeviceModelCode 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/DeviceModelCode.md
+          - name: DeviceObservation 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/DeviceObservation.md
+          - name: DeviceObservationType 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/DeviceObservationType.md
+          - name: DeviceRegistration 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/DeviceRegistration.md
+          - name: DeviceSensor 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/DeviceSensor.md
+          - name: DeviceState 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/DeviceState.md
+          - name: DeviceStyle 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/DeviceStyle.md
+          - name: DeviceType 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/DeviceType.md
+          - name: DeviceVariant 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/DeviceVariant.md
+          - name: DeviceWarranty 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/DeviceWarranty.md
+          - name: DeviceWarrantyLimit 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/DeviceWarrantyLimit.md
+          - name: FinancingOpportunity 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/FinancingOpportunity.md
+          - name: FinancingOpportunityDetail 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/FinancingOpportunityDetail.md
+          - name: Fleet 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/Fleet.md
+          - name: FleetDevice 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/FleetDevice.md
+          - name: Lead 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/Lead.md
+          - name: LeadDevice 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/LeadDevice.md
+          - name: LeadDeviceSpecification 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/LeadDeviceSpecification.md
+          - name: LeadDisposition 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/LeadDisposition.md
+          - name: LeadDispositionActivity 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/LeadDispositionActivity.md
+          - name: LeadPriceType 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/LeadPriceType.md
+          - name: LeadProspect 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/LeadProspect.md
+          - name: LeadSpecificationType 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/LeadSpecificationType.md
+          - name: OperationCode 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/OperationCode.md
+          - name: OperationType 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/OperationType.md
+          - name: SalesContract 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/SalesContract.md
+          - name: SalesContractDetail 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/SalesContractDetail.md
+          - name: SalesContractPayment 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/SalesContractPayment.md
+          - name: SalesContractTerm 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/SalesContractTerm.md
+          - name: SalesContractType 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/SalesContractType.md
+          - name: ServiceAppointment 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/ServiceAppointment.md
+          - name: ServiceAppointmentType 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/ServiceAppointmentType.md
+          - name: ServiceContract 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/ServiceContract.md
+          - name: ServiceContractDetail 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/ServiceContractDetail.md
+          - name: ServiceContractTerm 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/ServiceContractTerm.md
+          - name: ServiceContractType 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/ServiceContractType.md
+          - name: ServiceOrder 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/ServiceOrder.md
+          - name: ServiceOrderGroup 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/ServiceOrderGroup.md
+          - name: ServiceOrderJob 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/ServiceOrderJob.md
+          - name: ServiceOrderJobDetail 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/ServiceOrderJobDetail.md
+          - name: ServiceOrderJobType 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/ServiceOrderJobType.md
+          - name: ServiceOrderType 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/ServiceOrderType.md
+          - name: Specification 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/Specification.md
+          - name: SpecificationAccessory 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/SpecificationAccessory.md
+          - name: SpecificationAttribute 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/SpecificationAttribute.md
+          - name: TestDrive 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/TestDrive.md
+          - name: TradeIn 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/TradeIn.md
+          - name: Unit 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/Unit.md
+          - name: Warranty 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/Warranty.md
+          - name: WarrantyLimit 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/WarrantyLimit.md
+          - name: WarrantyType 
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/WarrantyType.md
+        - name: education
+          items:
+          - name: Summary
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/education/overview.md
+          - name: higherEducation
+            items:
+            - name: Summary
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/overview.md
+            - name: AcademicPeriod 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/AcademicPeriod.md
+            - name: AcademicPeriodDetail 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/AcademicPeriodDetail.md
+            - name: Accomplishments 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Accomplishments.md
+            - name: Account 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Account.md
+            - name: Address 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Address.md
+            - name: AreaOfInterest 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/AreaOfInterest.md
+            - name: AreaOfStudy 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/AreaOfStudy.md
+            - name: Contact 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Contact.md
+            - name: Course 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Course.md
+            - name: CourseHistory 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/CourseHistory.md
+            - name: CourseSection 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/CourseSection.md
+            - name: EducationLevel 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/EducationLevel.md
+            - name: ExtraCurricularActivity 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/ExtraCurricularActivity.md
+            - name: ExtraCurricularParticipant 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/ExtraCurricularParticipant.md
+            - name: Grant 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Grant.md
+            - name: GrantApplicant 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/GrantApplicant.md
+            - name: GrantApplicationBusinessProcessFlow 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/GrantApplicationBusinessProcessFlow.md
+            - name: Internship 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Internship.md
+            - name: InternshipApplicant 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/InternshipApplicant.md
+            - name: InternshipApplicationFlow 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/InternshipApplicationFlow.md
+            - name: PreviousEducation 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/PreviousEducation.md
+            - name: Program 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Program.md
+            - name: ProgramLevel 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/ProgramLevel.md
+            - name: ProgramVersion 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/ProgramVersion.md
+            - name: ProgramVersionDetail 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/ProgramVersionDetail.md
+            - name: RegistrationStatus 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/RegistrationStatus.md
+            - name: Scholarship 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Scholarship.md
+            - name: ScholarshipApplicant 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/ScholarshipApplicant.md
+            - name: ScholarshipApplicationBusinessProcessFlow 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/ScholarshipApplicationBusinessProcessFlow.md
+            - name: StudentProgramType 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/StudentProgramType.md
+            - name: StudentStatus 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/StudentStatus.md
+            - name: TestScore 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/TestScore.md
+            - name: TestType 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/TestType.md
+        - name: financialServices
+          items:
+          - name: Summary
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/overview.md
+          - name: banking
+            items:
+            - name: Summary
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/overview.md
+            - name: Account 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/Account.md
+            - name: Bank 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/Bank.md
+            - name: Branch 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/Branch.md
+            - name: BusinessCheckingAccount 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/BusinessCheckingAccount.md
+            - name: CertificateOfDeposit 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/CertificateOfDeposit.md
+            - name: Collateral 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/Collateral.md
+            - name: CommercialDeposit 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/CommercialDeposit.md
+            - name: CommercialLoan 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/CommercialLoan.md
+            - name: Company360 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/Company360.md
+            - name: CompanyOnboarding 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/CompanyOnboarding.md
+            - name: Contact 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/Contact.md
+            - name: ContactOnboardingFromProspect 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/ContactOnboardingFromProspect.md
+            - name: Customer360Person 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/Customer360Person.md
+            - name: CustomerJourney 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/CustomerJourney.md
+            - name: FinancialProduct 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/FinancialProduct.md
+            - name: KYC 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/KYC.md
+            - name: Lead 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/Lead.md
+            - name: LeadToOpportunitySalesProcess 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/LeadToOpportunitySalesProcess.md
+            - name: Limit 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/Limit.md
+            - name: MortgageApplication 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/MortgageApplication.md
+            - name: Opportunity 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/Opportunity.md
+            - name: Product 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/Product.md
+            - name: RequestedFacility 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/RequestedFacility.md
+            - name: Syndicates 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/Syndicates.md
+        - name: healthCare
+          items:
+          - name: Summary
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/overview.md
+          - name: electronicMedicalRecords
+            items:
+            - name: Summary
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/overview.md
+            - name: Account 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Account.md
+            - name: Address 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Address.md
+            - name: AllergyIntolerance 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/AllergyIntolerance.md
+            - name: CarePlan 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlan.md
+            - name: CarePlanGoal 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlanGoal.md
+            - name: CareTeam 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CareTeam.md
+            - name: CareTeamParticipant 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CareTeamParticipant.md
+            - name: CodeableConcept 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CodeableConcept.md
+            - name: Condition 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.md
+            - name: Contact 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Contact.md
+            - name: Device 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device.md
+            - name: EmrAppointment 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.md
+            - name: Encounter 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.md
+            - name: EpisodeOfCare 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EpisodeOfCare.md
+            - name: HealthcareService 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/HealthcareService.md
+            - name: Location 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Location.md
+            - name: MedicationAdministration 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.md
+            - name: MedicationRequest 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.md
+            - name: Observation 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.md
+            - name: PractitionerQualification 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PractitionerQualification.md
+            - name: PractitionerRole 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PractitionerRole.md
+            - name: Procedure 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Procedure.md
+            - name: Product 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Product.md
+            - name: ReferralRequest 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.md
+            - name: RelatedPerson 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/RelatedPerson.md
+            - name: RiskAssessment 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/RiskAssessment.md
+            - name: Task 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.md
+        - name: nonProfit
+          items:
+          - name: Summary
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/overview.md
+          - name: nonProfitCore
+            items:
+            - name: Summary
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/overview.md
+            - name: Account 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Account.md
+            - name: Address 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Address.md
+            - name: Award 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Award.md
+            - name: AwardVersion 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/AwardVersion.md
+            - name: BenefitRecipient 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/BenefitRecipient.md
+            - name: Budget 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Budget.md
+            - name: Contact 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Contact.md
+            - name: CreditPlan 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/CreditPlan.md
+            - name: CreditPlanRecipient 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/CreditPlanRecipient.md
+            - name: DeliveryFramework 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/DeliveryFramework.md
+            - name: DesignatedCredit 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/DesignatedCredit.md
+            - name: Designation 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Designation.md
+            - name: DesignationPlan 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/DesignationPlan.md
+            - name: Disbursement 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Disbursement.md
+            - name: DisbursementDistribution 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/DisbursementDistribution.md
+            - name: Docket 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Docket.md
+            - name: DonorCommitment 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/DonorCommitment.md
+            - name: Education 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Education.md
+            - name: EmploymentHistory 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/EmploymentHistory.md
+            - name: Indicator 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Indicator.md
+            - name: IndicatorValue 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/IndicatorValue.md
+            - name: Membership 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Membership.md
+            - name: MembershipCategory 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/MembershipCategory.md
+            - name: Objective 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Objective.md
+            - name: OfacMatch 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/OfacMatch.md
+            - name: PaymentAsset 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/PaymentAsset.md
+            - name: PaymentMethod 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/PaymentMethod.md
+            - name: PaymentProcessor 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/PaymentProcessor.md
+            - name: PaymentSchedule 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/PaymentSchedule.md
+            - name: PlannedGiving 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/PlannedGiving.md
+            - name: Preference 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Preference.md
+            - name: Recommendation 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Recommendation.md
+            - name: Report 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Report.md
+            - name: Request 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Request.md
+            - name: ResourceCatalog 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/ResourceCatalog.md
+            - name: Result 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Result.md
+            - name: Review 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Review.md
+            - name: Salutation 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Salutation.md
+            - name: Transaction 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Transaction.md
+          - name: nonProfitForSales
+            items:
+            - name: Summary
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/overview.md
+            - name: Campaign 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/Campaign.md
+            - name: CreditPlan 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/CreditPlan.md
+            - name: DesignationPlan 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/DesignationPlan.md
+            - name: DonorCommitment 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/DonorCommitment.md
+            - name: Lead 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/Lead.md
+            - name: OfacMatch 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/OfacMatch.md
+            - name: Opportunity 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/Opportunity.md
+            - name: PlannedGiving 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/PlannedGiving.md
+            - name: Preference 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/Preference.md
+            - name: Recommendation 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/Recommendation.md
+            - name: Report 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/Report.md
+            - name: Request 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/Request.md
+            - name: Review 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/Review.md
+            - name: Transaction 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/Transaction.md
+          - name: nonProfitIati
+            items:
+            - name: Summary
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/overview.md
+            - name: Account 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Account.md
+            - name: AidType 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/AidType.md
+            - name: Award 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Award.md
+            - name: Budget 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Budget.md
+            - name: Campaign 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Campaign.md
+            - name: Condition 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Condition.md
+            - name: Contact 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Contact.md
+            - name: CrsOtherFlag 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/CrsOtherFlag.md
+            - name: DeliveryFramework 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/DeliveryFramework.md
+            - name: DeliveryFrameworkContact 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/DeliveryFrameworkContact.md
+            - name: DeliveryFrameworkDescription 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/DeliveryFrameworkDescription.md
+            - name: Designation 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Designation.md
+            - name: DesignationPlan 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/DesignationPlan.md
+            - name: Dimension 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Dimension.md
+            - name: Disbursement 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Disbursement.md
+            - name: DisbursementDistribution 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/DisbursementDistribution.md
+            - name: Docket 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Docket.md
+            - name: DocumentCategory 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/DocumentCategory.md
+            - name: DocumentCountry 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/DocumentCountry.md
+            - name: DocumentLanguage 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/DocumentLanguage.md
+            - name: DocumentLink 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/DocumentLink.md
+            - name: DonorCommitment 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/DonorCommitment.md
+            - name: Expenditure 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Expenditure.md
+            - name: FssForecast 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/FssForecast.md
+            - name: HumanitarianScope 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/HumanitarianScope.md
+            - name: IatiFileGeneration 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/IatiFileGeneration.md
+            - name: Identifier 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Identifier.md
+            - name: Indicator 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Indicator.md
+            - name: IndicatorReference 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/IndicatorReference.md
+            - name: IndicatorValue 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/IndicatorValue.md
+            - name: IndicatorValueLocation 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/IndicatorValueLocation.md
+            - name: Location 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Location.md
+            - name: Membership 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Membership.md
+            - name: MembershipCategory 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/MembershipCategory.md
+            - name: NarrativeTranslation 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/NarrativeTranslation.md
+            - name: NonEmbeddedCodelist 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/NonEmbeddedCodelist.md
+            - name: NonEmbeddedCodelistVocabulary 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/NonEmbeddedCodelistVocabulary.md
+            - name: Objective 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Objective.md
+            - name: Opportunity 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Opportunity.md
+            - name: ParticipatingOrganization 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/ParticipatingOrganization.md
+            - name: PaymentMethod 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/PaymentMethod.md
+            - name: PaymentSchedule 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/PaymentSchedule.md
+            - name: PlannedGiving 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/PlannedGiving.md
+            - name: PolicyMarker 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/PolicyMarker.md
+            - name: RecipientCountry 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/RecipientCountry.md
+            - name: RecipientRegion 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/RecipientRegion.md
+            - name: Request 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Request.md
+            - name: Result 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Result.md
+            - name: ResultReference 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/ResultReference.md
+            - name: Sector 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Sector.md
+            - name: Tag 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Tag.md
+            - name: Transaction 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Transaction.md
+            - name: Website 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Website.md
+          - name: nonProfitMeasurement
+            items:
+            - name: Summary
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitMeasurement/overview.md
+            - name: DeliveryFramework 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitMeasurement/DeliveryFramework.md
+            - name: Indicator 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitMeasurement/Indicator.md
+            - name: MeasurementItem 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitMeasurement/MeasurementItem.md
+            - name: MeasurementItemRelationship 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitMeasurement/MeasurementItemRelationship.md
+            - name: MeasurementItemUsage 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitMeasurement/MeasurementItemUsage.md
+            - name: Result 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitMeasurement/Result.md
+          - name: nonProfitVolunteers
+            items:
+            - name: Summary
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitVolunteers/overview.md
+            - name: Account 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitVolunteers/Account.md
+            - name: Contact 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitVolunteers/Contact.md
+            - name: Project 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitVolunteers/Project.md
+            - name: Schedule 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitVolunteers/Schedule.md
+      - name: projectCommon
+        items:
+        - name: Summary
+          href: applicationCommon/foundationCommon/crmCommon/projectCommon/overview.md
+        - name: projectServiceAutomation
+          items:
+          - name: Summary
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/overview.md
+          - name: Account 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/Account.md
+          - name: AccountPriceList 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/AccountPriceList.md
+          - name: ActualDataExport 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/ActualDataExport.md
+          - name: BatchJob 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/BatchJob.md
+          - name: BookableResourceCategory 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/BookableResourceCategory.md
+          - name: BookableResourceCategoryAssn 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/BookableResourceCategoryAssn.md
+          - name: BookableResourceCharacteristic 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/BookableResourceCharacteristic.md
+          - name: Characteristic 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/Characteristic.md
+          - name: ContactPriceList 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/ContactPriceList.md
+          - name: ContractLineInvoiceSchedule 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/ContractLineInvoiceSchedule.md
+          - name: ContractLineScheduleOfValue 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/ContractLineScheduleOfValue.md
+          - name: Delegation 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/Delegation.md
+          - name: Estimate 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/Estimate.md
+          - name: EstimateLine 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/EstimateLine.md
+          - name: Expense 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/Expense.md
+          - name: ExpenseCategory 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/ExpenseCategory.md
+          - name: ExpenseReceipt 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/ExpenseReceipt.md
+          - name: Fact 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/Fact.md
+          - name: FieldComputation 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/FieldComputation.md
+          - name: FindWorkEvent 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/FindWorkEvent.md
+          - name: IntegrationJob 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/IntegrationJob.md
+          - name: IntegrationJobDetail 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/IntegrationJobDetail.md
+          - name: Invoice 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/Invoice.md
+          - name: InvoiceFrequency 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/InvoiceFrequency.md
+          - name: InvoiceFrequencyDetail 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/InvoiceFrequencyDetail.md
+          - name: InvoiceLineTransaction 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/InvoiceLineTransaction.md
+          - name: InvoiceProduct 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/InvoiceProduct.md
+          - name: Journal 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/Journal.md
+          - name: JournalLine 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/JournalLine.md
+          - name: Opportunity 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/Opportunity.md
+          - name: OpportunityLineResourceCategory 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/OpportunityLineResourceCategory.md
+          - name: OpportunityLineTransaction 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/OpportunityLineTransaction.md
+          - name: OpportunityLineTransactionCategory 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/OpportunityLineTransactionCategory.md
+          - name: OpportunityLineTransactionClassification 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/OpportunityLineTransactionClassification.md
+          - name: OpportunityPriceList 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/OpportunityPriceList.md
+          - name: OpportunityProduct 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/OpportunityProduct.md
+          - name: Order 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/Order.md
+          - name: OrderLineResourceCategory 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/OrderLineResourceCategory.md
+          - name: OrderLineTransaction 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/OrderLineTransaction.md
+          - name: OrderLineTransactionCategory 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/OrderLineTransactionCategory.md
+          - name: OrderLineTransactionClassification 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/OrderLineTransactionClassification.md
+          - name: OrderPriceList 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/OrderPriceList.md
+          - name: OrderProduct 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/OrderProduct.md
+          - name: PriceList 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/PriceList.md
+          - name: PricingDimension 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/PricingDimension.md
+          - name: PricingDimensionFieldName 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/PricingDimensionFieldName.md
+          - name: ProcessNotes 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/ProcessNotes.md
+          - name: Product 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/Product.md
+          - name: Project 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/Project.md
+          - name: ProjectApproval 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/ProjectApproval.md
+          - name: ProjectParameter 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/ProjectParameter.md
+          - name: ProjectParameterPriceList 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/ProjectParameterPriceList.md
+          - name: ProjectPriceList 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/ProjectPriceList.md
+          - name: ProjectServiceApproval 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/ProjectServiceApproval.md
+          - name: ProjectTask 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/ProjectTask.md
+          - name: ProjectTaskDependency 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/ProjectTaskDependency.md
+          - name: ProjectTaskStatusUser 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/ProjectTaskStatusUser.md
+          - name: ProjectTeam 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/ProjectTeam.md
+          - name: ProjectTeamMemberSignUp 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/ProjectTeamMemberSignUp.md
+          - name: ProjectTransactionCategory 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/ProjectTransactionCategory.md
+          - name: Quote 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/Quote.md
+          - name: QuoteLineAnalyticsBreakdown 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/QuoteLineAnalyticsBreakdown.md
+          - name: QuoteLineInvoiceSchedule 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/QuoteLineInvoiceSchedule.md
+          - name: QuoteLineResourceCategory 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/QuoteLineResourceCategory.md
+          - name: QuoteLineScheduleOfValue 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/QuoteLineScheduleOfValue.md
+          - name: QuoteLineTransaction 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/QuoteLineTransaction.md
+          - name: QuoteLineTransactionCategory 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/QuoteLineTransactionCategory.md
+          - name: QuoteLineTransactionClassification 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/QuoteLineTransactionClassification.md
+          - name: QuotePriceList 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/QuotePriceList.md
+          - name: QuoteProduct 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/QuoteProduct.md
+          - name: RatingModel 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/RatingModel.md
+          - name: ResourceAssignment 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/ResourceAssignment.md
+          - name: ResourceAssignmentDetail 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/ResourceAssignmentDetail.md
+          - name: ResourceCategoryPriceLevel 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/ResourceCategoryPriceLevel.md
+          - name: ResourceRequest 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/ResourceRequest.md
+          - name: ResultCache 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/ResultCache.md
+          - name: RoleCompetencyRequirement 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/RoleCompetencyRequirement.md
+          - name: RolePriceMarkup 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/RolePriceMarkup.md
+          - name: RoleUtilization 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/RoleUtilization.md
+          - name: TimeEntry 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/TimeEntry.md
+          - name: TimeOffCalendar 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/TimeOffCalendar.md
+          - name: TransactionCategory 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/TransactionCategory.md
+          - name: TransactionCategoryClassification 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/TransactionCategoryClassification.md
+          - name: TransactionCategoryHierarchyElement 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/TransactionCategoryHierarchyElement.md
+          - name: TransactionCategoryPriceLevel 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/TransactionCategoryPriceLevel.md
+          - name: TransactionConnection 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/TransactionConnection.md
+          - name: TransactionType 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/TransactionType.md
+          - name: UserWorkHistory 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/UserWorkHistory.md
+        - name: scheduling
+          items:
+          - name: Summary
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/scheduling/overview.md
+          - name: Actual 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/scheduling/Actual.md
+          - name: BookableResourceAssociation 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/scheduling/BookableResourceAssociation.md
+          - name: BookingAlert 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/scheduling/BookingAlert.md
+          - name: BookingAlertStatus 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/scheduling/BookingAlertStatus.md
+          - name: BookingChange 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/scheduling/BookingChange.md
+          - name: BookingRule 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/scheduling/BookingRule.md
+          - name: BookingSetupMetadata 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/scheduling/BookingSetupMetadata.md
+          - name: BusinessClosure 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/scheduling/BusinessClosure.md
+          - name: ClientExtension 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/scheduling/ClientExtension.md
+          - name: Configuration 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/scheduling/Configuration.md
+          - name: Organization 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/scheduling/Organization.md
+          - name: OrganizationalUnit 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/scheduling/OrganizationalUnit.md
+          - name: Priority 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/scheduling/Priority.md
+          - name: RequirementCharacteristic 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/scheduling/RequirementCharacteristic.md
+          - name: RequirementGroup 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/scheduling/RequirementGroup.md
+          - name: RequirementOrganizationUnit 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/scheduling/RequirementOrganizationUnit.md
+          - name: RequirementRelationship 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/scheduling/RequirementRelationship.md
+          - name: RequirementResourceCategory 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/scheduling/RequirementResourceCategory.md
+          - name: RequirementResourcePreference 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/scheduling/RequirementResourcePreference.md
+          - name: RequirementStatus 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/scheduling/RequirementStatus.md
+          - name: ResourceRequirement 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/scheduling/ResourceRequirement.md
+          - name: ResourceRequirementDetail 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/scheduling/ResourceRequirementDetail.md
+          - name: ResourceTerritory 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/scheduling/ResourceTerritory.md
+          - name: ScheduleBoardSetting 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/scheduling/ScheduleBoardSetting.md
+          - name: SchedulingParameter 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/scheduling/SchedulingParameter.md
+          - name: TimeGroup 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/scheduling/TimeGroup.md
+          - name: TimeGroupDetail 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/scheduling/TimeGroupDetail.md
+          - name: TransactionOrigin 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/scheduling/TransactionOrigin.md
+          - name: WorkHourTemplate 
+            href: applicationCommon/foundationCommon/crmCommon/projectCommon/scheduling/WorkHourTemplate.md
+        - name: BookableResource 
+          href: applicationCommon/foundationCommon/crmCommon/projectCommon/BookableResource.md
+        - name: BookableResourceBooking 
+          href: applicationCommon/foundationCommon/crmCommon/projectCommon/BookableResourceBooking.md
+        - name: BookableResourceBookingHeader 
+          href: applicationCommon/foundationCommon/crmCommon/projectCommon/BookableResourceBookingHeader.md
+        - name: BookingStatus 
+          href: applicationCommon/foundationCommon/crmCommon/projectCommon/BookingStatus.md
+        - name: Contact 
+          href: applicationCommon/foundationCommon/crmCommon/projectCommon/Contact.md
+        - name: Lead 
+          href: applicationCommon/foundationCommon/crmCommon/projectCommon/Lead.md
+        - name: RatingValue 
+          href: applicationCommon/foundationCommon/crmCommon/projectCommon/RatingValue.md
+        - name: RelationshipInsightsUnifiedConfig 
+          href: applicationCommon/foundationCommon/crmCommon/projectCommon/RelationshipInsightsUnifiedConfig.md
+        - name: Siconfig 
+          href: applicationCommon/foundationCommon/crmCommon/projectCommon/Siconfig.md
+        - name: User 
+          href: applicationCommon/foundationCommon/crmCommon/projectCommon/User.md
+      - name: sales
+        items:
+        - name: Summary
+          href: applicationCommon/foundationCommon/crmCommon/sales/overview.md
+        - name: Competitor 
+          href: applicationCommon/foundationCommon/crmCommon/sales/Competitor.md
+        - name: CompetitorAddress 
+          href: applicationCommon/foundationCommon/crmCommon/sales/CompetitorAddress.md
+        - name: CompetitorProduct 
+          href: applicationCommon/foundationCommon/crmCommon/sales/CompetitorProduct.md
+        - name: CompetitorSalesLiterature 
+          href: applicationCommon/foundationCommon/crmCommon/sales/CompetitorSalesLiterature.md
+        - name: ContactInvoices 
+          href: applicationCommon/foundationCommon/crmCommon/sales/ContactInvoices.md
+        - name: ContactOrders 
+          href: applicationCommon/foundationCommon/crmCommon/sales/ContactOrders.md
+        - name: ContactQuotes 
+          href: applicationCommon/foundationCommon/crmCommon/sales/ContactQuotes.md
+        - name: Discount 
+          href: applicationCommon/foundationCommon/crmCommon/sales/Discount.md
+        - name: DiscountList 
+          href: applicationCommon/foundationCommon/crmCommon/sales/DiscountList.md
+        - name: Invoice 
+          href: applicationCommon/foundationCommon/crmCommon/sales/Invoice.md
+        - name: InvoiceProduct 
+          href: applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.md
+        - name: LeadCompetitors 
+          href: applicationCommon/foundationCommon/crmCommon/sales/LeadCompetitors.md
+        - name: LeadProduct 
+          href: applicationCommon/foundationCommon/crmCommon/sales/LeadProduct.md
+        - name: Opportunity 
+          href: applicationCommon/foundationCommon/crmCommon/sales/Opportunity.md
+        - name: OpportunityClose 
+          href: applicationCommon/foundationCommon/crmCommon/sales/OpportunityClose.md
+        - name: OpportunityCompetitors 
+          href: applicationCommon/foundationCommon/crmCommon/sales/OpportunityCompetitors.md
+        - name: OpportunityProduct 
+          href: applicationCommon/foundationCommon/crmCommon/sales/OpportunityProduct.md
+        - name: OpportunityRelationship 
+          href: applicationCommon/foundationCommon/crmCommon/sales/OpportunityRelationship.md
+        - name: Order 
+          href: applicationCommon/foundationCommon/crmCommon/sales/Order.md
+        - name: OrderClose 
+          href: applicationCommon/foundationCommon/crmCommon/sales/OrderClose.md
+        - name: OrderProduct 
+          href: applicationCommon/foundationCommon/crmCommon/sales/OrderProduct.md
+        - name: PriceListItem 
+          href: applicationCommon/foundationCommon/crmCommon/sales/PriceListItem.md
+        - name: ProductSalesLiterature 
+          href: applicationCommon/foundationCommon/crmCommon/sales/ProductSalesLiterature.md
+        - name: PropertyInstance 
+          href: applicationCommon/foundationCommon/crmCommon/sales/PropertyInstance.md
+        - name: Quote 
+          href: applicationCommon/foundationCommon/crmCommon/sales/Quote.md
+        - name: QuoteClose 
+          href: applicationCommon/foundationCommon/crmCommon/sales/QuoteClose.md
+        - name: QuoteProduct 
+          href: applicationCommon/foundationCommon/crmCommon/sales/QuoteProduct.md
+        - name: SalesAttachment 
+          href: applicationCommon/foundationCommon/crmCommon/sales/SalesAttachment.md
+        - name: SalesLiterature 
+          href: applicationCommon/foundationCommon/crmCommon/sales/SalesLiterature.md
+      - name: service
+        items:
+        - name: Summary
+          href: applicationCommon/foundationCommon/crmCommon/service/overview.md
+        - name: ActivityParty 
+          href: applicationCommon/foundationCommon/crmCommon/service/ActivityParty.md
+        - name: Case 
+          href: applicationCommon/foundationCommon/crmCommon/service/Case.md
+        - name: CaseResolution 
+          href: applicationCommon/foundationCommon/crmCommon/service/CaseResolution.md
+        - name: ChildIncidentCount 
+          href: applicationCommon/foundationCommon/crmCommon/service/ChildIncidentCount.md
+        - name: Contract 
+          href: applicationCommon/foundationCommon/crmCommon/service/Contract.md
+        - name: ContractLine 
+          href: applicationCommon/foundationCommon/crmCommon/service/ContractLine.md
+        - name: Entitlement 
+          href: applicationCommon/foundationCommon/crmCommon/service/Entitlement.md
+        - name: EntitlementContact 
+          href: applicationCommon/foundationCommon/crmCommon/service/EntitlementContact.md
+        - name: EntitlementProduct 
+          href: applicationCommon/foundationCommon/crmCommon/service/EntitlementProduct.md
+        - name: FacilityEquipment 
+          href: applicationCommon/foundationCommon/crmCommon/service/FacilityEquipment.md
+        - name: IncidentKnowledgeBaseRecord 
+          href: applicationCommon/foundationCommon/crmCommon/service/IncidentKnowledgeBaseRecord.md
+        - name: KnowledgeArticleIncident 
+          href: applicationCommon/foundationCommon/crmCommon/service/KnowledgeArticleIncident.md
+        - name: Resource 
+          href: applicationCommon/foundationCommon/crmCommon/service/Resource.md
+        - name: ResourceExpansion 
+          href: applicationCommon/foundationCommon/crmCommon/service/ResourceExpansion.md
+        - name: ResourceSpecification 
+          href: applicationCommon/foundationCommon/crmCommon/service/ResourceSpecification.md
+        - name: SLAKPIInstance 
+          href: applicationCommon/foundationCommon/crmCommon/service/SLAKPIInstance.md
+        - name: SchedulingGroup 
+          href: applicationCommon/foundationCommon/crmCommon/service/SchedulingGroup.md
+        - name: Service 
+          href: applicationCommon/foundationCommon/crmCommon/service/Service.md
+        - name: ServiceActivity 
+          href: applicationCommon/foundationCommon/crmCommon/service/ServiceActivity.md
+        - name: ServiceContractContact 
+          href: applicationCommon/foundationCommon/crmCommon/service/ServiceContractContact.md
+        - name: Site 
+          href: applicationCommon/foundationCommon/crmCommon/service/Site.md
+        - name: Task 
+          href: applicationCommon/foundationCommon/crmCommon/service/Task.md
+        - name: User 
+          href: applicationCommon/foundationCommon/crmCommon/service/User.md
+      - name: solutions
+        items:
+        - name: Summary
+          href: applicationCommon/foundationCommon/crmCommon/solutions/overview.md
+        - name: customerInsights
+          items:
+          - name: Summary
+            href: applicationCommon/foundationCommon/crmCommon/solutions/customerInsights/overview.md
+          - name: CustomerActivity 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/customerInsights/CustomerActivity.md
+          - name: CustomerProfile 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/customerInsights/CustomerProfile.md
+          - name: MeasureDefinition 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/customerInsights/MeasureDefinition.md
+          - name: Segment 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/customerInsights/Segment.md
+          - name: SegmentMembership 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/customerInsights/SegmentMembership.md
+        - name: marketing
+          items:
+          - name: Summary
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/overview.md
+          - name: LinkedInLeads
+            items:
+            - name: Summary
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/LinkedInLeads/overview.md
+            - name: LinkedInAccount 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/LinkedInLeads/LinkedInAccount.md
+            - name: LinkedInCampaign 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/LinkedInLeads/LinkedInCampaign.md
+            - name: LinkedInFormQuestion 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/LinkedInLeads/LinkedInFormQuestion.md
+            - name: LinkedInFormSubmissionAnswer 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/LinkedInLeads/LinkedInFormSubmissionAnswer.md
+            - name: LinkedInLeadGenForm 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/LinkedInLeads/LinkedInLeadGenForm.md
+            - name: LinkedInLeadGenFormSubmission 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/LinkedInLeads/LinkedInLeadGenFormSubmission.md
+          - name: eventManagement
+            items:
+            - name: Summary
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/overview.md
+            - name: Account 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Account.md
+            - name: AttendeePass 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/AttendeePass.md
+            - name: Building 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Building.md
+            - name: CheckIn 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/CheckIn.md
+            - name: CustomRegistrationField 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/CustomRegistrationField.md
+            - name: Event 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.md
+            - name: EventCustomRegistrationField 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/EventCustomRegistrationField.md
+            - name: EventRegistration 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/EventRegistration.md
+            - name: EventTeamMember 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/EventTeamMember.md
+            - name: EventVendor 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/EventVendor.md
+            - name: Hotel 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Hotel.md
+            - name: HotelRoomAllocation 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomAllocation.md
+            - name: HotelRoomReservation 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomReservation.md
+            - name: Invitation 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Invitation.md
+            - name: Layout 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Layout.md
+            - name: Pass 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Pass.md
+            - name: RegistrationResponse 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/RegistrationResponse.md
+            - name: Room 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Room.md
+            - name: Session 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Session.md
+            - name: SessionRegistration 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/SessionRegistration.md
+            - name: SessionTrack 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/SessionTrack.md
+            - name: Speaker 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Speaker.md
+            - name: SpeakerEngagement 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/SpeakerEngagement.md
+            - name: SponsorableArticle 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/SponsorableArticle.md
+            - name: Sponsorship 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Sponsorship.md
+            - name: Venue 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Venue.md
+            - name: WaitlistItem 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/WaitlistItem.md
+          - name: interactions
+            items:
+            - name: Summary
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/overview.md
+            - name: ActivityContactDispatched 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/ActivityContactDispatched.md
+            - name: ActivityContactProcessingFailed 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/ActivityContactProcessingFailed.md
+            - name: ContactCheckedIntoEvent 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/ContactCheckedIntoEvent.md
+            - name: ContactRegisteredToEvent 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/ContactRegisteredToEvent.md
+            - name: CreateCrmActivityContactProcessed 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/CreateCrmActivityContactProcessed.md
+            - name: CreateCustomChannelActivityContactProcessed 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/CreateCustomChannelActivityContactProcessed.md
+            - name: CustomChannelResponse 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/CustomChannelResponse.md
+            - name: CustomerJourneyContactRecordUpdated 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/CustomerJourneyContactRecordUpdated.md
+            - name: EmailBlockBounced 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/EmailBlockBounced.md
+            - name: EmailBlocked 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/EmailBlocked.md
+            - name: EmailClicked 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/EmailClicked.md
+            - name: EmailContainsBlacklistedLinks 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/EmailContainsBlacklistedLinks.md
+            - name: EmailDelivered 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/EmailDelivered.md
+            - name: EmailFeedbackLoop 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/EmailFeedbackLoop.md
+            - name: EmailForwarded 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/EmailForwarded.md
+            - name: EmailHardBounced 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/EmailHardBounced.md
+            - name: EmailOpened 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/EmailOpened.md
+            - name: EmailSendingFailed 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/EmailSendingFailed.md
+            - name: EmailSent 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/EmailSent.md
+            - name: EmailSoftBounced 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/EmailSoftBounced.md
+            - name: EmailSubscriptionSubmit 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/EmailSubscriptionSubmit.md
+            - name: FormSubmitted 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/FormSubmitted.md
+            - name: FormVisited 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/FormVisited.md
+            - name: InvalidRecipientAddress 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/InvalidRecipientAddress.md
+            - name: InvalidSenderAddress 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/InvalidSenderAddress.md
+            - name: LeadScoreBoost 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/LeadScoreBoost.md
+            - name: OutOfEmailCredits 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/OutOfEmailCredits.md
+            - name: PassThroughActivityContactProcessed 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/PassThroughActivityContactProcessed.md
+            - name: RedirectLinkClicked 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/RedirectLinkClicked.md
+            - name: SchedulerActivityContactProcessed 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/SchedulerActivityContactProcessed.md
+            - name: SegmentRelationshipEdited 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/SegmentRelationshipEdited.md
+            - name: SegmentSubscribed 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/SegmentSubscribed.md
+            - name: SegmentUnsubscribed 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/SegmentUnsubscribed.md
+            - name: SplitterActivityContactProcessed 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/SplitterActivityContactProcessed.md
+            - name: SurveyResponse 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/SurveyResponse.md
+            - name: TriggerActivityContactProcessed 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/TriggerActivityContactProcessed.md
+            - name: TriggerCrmWorkflowActivityContactProcessed 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/TriggerCrmWorkflowActivityContactProcessed.md
+            - name: WebsiteClicked 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/WebsiteClicked.md
+            - name: WebsiteVisited 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/WebsiteVisited.md
+          - name: marketingLeads
+            items:
+            - name: Summary
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/marketingLeads/overview.md
+            - name: LeadScoringModel 
+              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/marketingLeads/LeadScoringModel.md
+          - name: Appointment 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/Appointment.md
+          - name: Connection 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/Connection.md
+          - name: Contact 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/Contact.md
+          - name: ContentSettings 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/ContentSettings.md
+          - name: CustomerJourney 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/CustomerJourney.md
+          - name: FormPage 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/FormPage.md
+          - name: GeoPin 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/GeoPin.md
+          - name: Lead 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/Lead.md
+          - name: ListForm 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/ListForm.md
+          - name: MarketingEmail 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/MarketingEmail.md
+          - name: MarketingForm 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/MarketingForm.md
+          - name: MarketingList 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/MarketingList.md
+          - name: MarketingPage 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/MarketingPage.md
+          - name: MarketingWebsite 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/MarketingWebsite.md
+          - name: PhoneCall 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/PhoneCall.md
+          - name: Segment 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/Segment.md
+          - name: Task 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/Task.md
+          - name: Website 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/Website.md
+        - name: portals
+          items:
+          - name: Summary
+            href: applicationCommon/foundationCommon/crmCommon/solutions/portals/overview.md
+          - name: Account 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/portals/Account.md
+          - name: Ad 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/portals/Ad.md
+          - name: AdPlacement 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/portals/AdPlacement.md
+          - name: Article 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/portals/Article.md
+          - name: Badge 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/portals/Badge.md
+          - name: BadgeType 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/portals/BadgeType.md
+          - name: Blog 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/portals/Blog.md
+          - name: BlogPost 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/portals/BlogPost.md
+          - name: Case 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/portals/Case.md
+          - name: CaseDeflection 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/portals/CaseDeflection.md
+          - name: Contact 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/portals/Contact.md
+          - name: ExternalIdentity 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/portals/ExternalIdentity.md
+          - name: Feedback 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/portals/Feedback.md
+          - name: Forum 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/portals/Forum.md
+          - name: ForumPost 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/portals/ForumPost.md
+          - name: ForumThread 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/portals/ForumThread.md
+          - name: ForumThreadType 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/portals/ForumThreadType.md
+          - name: Idea 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/portals/Idea.md
+          - name: IdeaForum 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/portals/IdeaForum.md
+          - name: Invitation 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/portals/Invitation.md
+          - name: InviteRedemption 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/portals/InviteRedemption.md
+          - name: KnowledgeArticleViews 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/portals/KnowledgeArticleViews.md
+          - name: Opportunity 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/portals/Opportunity.md
+          - name: PageTemplate 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/portals/PageTemplate.md
+          - name: Poll 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/portals/Poll.md
+          - name: PollOption 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/portals/PollOption.md
+          - name: PollPlacement 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/portals/PollPlacement.md
+          - name: PollSubmission 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/portals/PollSubmission.md
+          - name: PortalLanguage 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/portals/PortalLanguage.md
+          - name: PublishingState 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/portals/PublishingState.md
+          - name: Tag 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/portals/Tag.md
+          - name: WebFile 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/portals/WebFile.md
+          - name: WebFileLog 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/portals/WebFileLog.md
+          - name: WebPage 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.md
+          - name: WebPageLog 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPageLog.md
+          - name: WebRole 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/portals/WebRole.md
+          - name: WebTemplate 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/portals/WebTemplate.md
+          - name: Website 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/portals/Website.md
+          - name: WebsiteLanguage 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/portals/WebsiteLanguage.md
+      - name: Account 
+        href: applicationCommon/foundationCommon/crmCommon/Account.md
+      - name: AccountLeads 
+        href: applicationCommon/foundationCommon/crmCommon/AccountLeads.md
+      - name: Activity 
+        href: applicationCommon/foundationCommon/crmCommon/Activity.md
+      - name: Appointment 
+        href: applicationCommon/foundationCommon/crmCommon/Appointment.md
+      - name: Campaign 
+        href: applicationCommon/foundationCommon/crmCommon/Campaign.md
+      - name: CampaignActivity 
+        href: applicationCommon/foundationCommon/crmCommon/CampaignActivity.md
+      - name: CampaignActivityItem 
+        href: applicationCommon/foundationCommon/crmCommon/CampaignActivityItem.md
+      - name: CampaignItem 
+        href: applicationCommon/foundationCommon/crmCommon/CampaignItem.md
+      - name: CampaignResponse 
+        href: applicationCommon/foundationCommon/crmCommon/CampaignResponse.md
+      - name: Contact 
+        href: applicationCommon/foundationCommon/crmCommon/Contact.md
+      - name: ContactLeads 
+        href: applicationCommon/foundationCommon/crmCommon/ContactLeads.md
+      - name: Email 
+        href: applicationCommon/foundationCommon/crmCommon/Email.md
+      - name: Fax 
+        href: applicationCommon/foundationCommon/crmCommon/Fax.md
+      - name: Lead 
+        href: applicationCommon/foundationCommon/crmCommon/Lead.md
+      - name: LeadAddress 
+        href: applicationCommon/foundationCommon/crmCommon/LeadAddress.md
+      - name: Letter 
+        href: applicationCommon/foundationCommon/crmCommon/Letter.md
+      - name: MarketingList 
+        href: applicationCommon/foundationCommon/crmCommon/MarketingList.md
+      - name: MarketingListMember 
+        href: applicationCommon/foundationCommon/crmCommon/MarketingListMember.md
+      - name: PhoneCall 
+        href: applicationCommon/foundationCommon/crmCommon/PhoneCall.md
+      - name: QuickCampaign 
+        href: applicationCommon/foundationCommon/crmCommon/QuickCampaign.md
+      - name: RecurringAppointment 
+        href: applicationCommon/foundationCommon/crmCommon/RecurringAppointment.md
+      - name: SocialActivity 
+        href: applicationCommon/foundationCommon/crmCommon/SocialActivity.md
+    - name: financialCommon
+      items:
+      - name: Summary
+        href: applicationCommon/foundationCommon/financialCommon/overview.md
+      - name: FinancialActivity 
+        href: applicationCommon/foundationCommon/financialCommon/FinancialActivity.md
+      - name: FiscalCalendarPeriod 
+        href: applicationCommon/foundationCommon/financialCommon/FiscalCalendarPeriod.md
+      - name: Ledger 
+        href: applicationCommon/foundationCommon/financialCommon/Ledger.md
+      - name: MainAccount 
+        href: applicationCommon/foundationCommon/financialCommon/MainAccount.md
+      - name: MainAccountCategory 
+        href: applicationCommon/foundationCommon/financialCommon/MainAccountCategory.md
+    - name: productInsights
+      items:
+      - name: Summary
+        href: applicationCommon/foundationCommon/productInsights/overview.md
+      - name: Asset 
+        href: applicationCommon/foundationCommon/productInsights/Asset.md
+      - name: Signal 
+        href: applicationCommon/foundationCommon/productInsights/Signal.md
+    - name: Account 
+      href: applicationCommon/foundationCommon/Account.md
+    - name: BookableResource 
+      href: applicationCommon/foundationCommon/BookableResource.md
+    - name: BookableResourceBooking 
+      href: applicationCommon/foundationCommon/BookableResourceBooking.md
+    - name: BookableResourceBookingHeader 
+      href: applicationCommon/foundationCommon/BookableResourceBookingHeader.md
+    - name: BookableResourceCategory 
+      href: applicationCommon/foundationCommon/BookableResourceCategory.md
+    - name: BookableResourceCategoryAssn 
+      href: applicationCommon/foundationCommon/BookableResourceCategoryAssn.md
+    - name: BookableResourceCharacteristic 
+      href: applicationCommon/foundationCommon/BookableResourceCharacteristic.md
+    - name: BookableResourceGroup 
+      href: applicationCommon/foundationCommon/BookableResourceGroup.md
+    - name: BookingStatus 
+      href: applicationCommon/foundationCommon/BookingStatus.md
+    - name: Characteristic 
+      href: applicationCommon/foundationCommon/Characteristic.md
+    - name: Company 
+      href: applicationCommon/foundationCommon/Company.md
+    - name: Contact 
+      href: applicationCommon/foundationCommon/Contact.md
+    - name: KnowledgeArticle 
+      href: applicationCommon/foundationCommon/KnowledgeArticle.md
+    - name: Organization 
+      href: applicationCommon/foundationCommon/Organization.md
+    - name: PriceList 
+      href: applicationCommon/foundationCommon/PriceList.md
+    - name: PriceListItem 
+      href: applicationCommon/foundationCommon/PriceListItem.md
+    - name: Product 
+      href: applicationCommon/foundationCommon/Product.md
+    - name: ProductAssociation 
+      href: applicationCommon/foundationCommon/ProductAssociation.md
+    - name: ProductRelationship 
+      href: applicationCommon/foundationCommon/ProductRelationship.md
+    - name: Property 
+      href: applicationCommon/foundationCommon/Property.md
+    - name: PropertyAssociation 
+      href: applicationCommon/foundationCommon/PropertyAssociation.md
+    - name: PropertyInstance 
+      href: applicationCommon/foundationCommon/PropertyInstance.md
+    - name: PropertyOptionSetItem 
+      href: applicationCommon/foundationCommon/PropertyOptionSetItem.md
+    - name: RatingModel 
+      href: applicationCommon/foundationCommon/RatingModel.md
+    - name: RatingValue 
+      href: applicationCommon/foundationCommon/RatingValue.md
+    - name: Unit 
+      href: applicationCommon/foundationCommon/Unit.md
+    - name: UnitGroup 
+      href: applicationCommon/foundationCommon/UnitGroup.md
+  - name: Account 
+    href: applicationCommon/Account.md
+  - name: Activity 
+    href: applicationCommon/Activity.md
+  - name: ActivityParty 
+    href: applicationCommon/ActivityParty.md
+  - name: Address 
+    href: applicationCommon/Address.md
+  - name: Appointment 
+    href: applicationCommon/Appointment.md
+  - name: Article 
+    href: applicationCommon/Article.md
+  - name: ArticleComment 
+    href: applicationCommon/ArticleComment.md
+  - name: ArticleTemplate 
+    href: applicationCommon/ArticleTemplate.md
+  - name: BusinessUnit 
+    href: applicationCommon/BusinessUnit.md
+  - name: Connection 
+    href: applicationCommon/Connection.md
+  - name: ConnectionRole 
+    href: applicationCommon/ConnectionRole.md
+  - name: Contact 
+    href: applicationCommon/Contact.md
+  - name: Currency 
+    href: applicationCommon/Currency.md
+  - name: CustomerRelationship 
+    href: applicationCommon/CustomerRelationship.md
+  - name: Email 
+    href: applicationCommon/Email.md
+  - name: EmailSignature 
+    href: applicationCommon/EmailSignature.md
+  - name: Fax 
+    href: applicationCommon/Fax.md
+  - name: Feedback 
+    href: applicationCommon/Feedback.md
+  - name: Goal 
+    href: applicationCommon/Goal.md
+  - name: GoalMetric 
+    href: applicationCommon/GoalMetric.md
+  - name: KnowledgeArticle 
+    href: applicationCommon/KnowledgeArticle.md
+  - name: KnowledgeArticleCategory 
+    href: applicationCommon/KnowledgeArticleCategory.md
+  - name: KnowledgeArticleViews 
+    href: applicationCommon/KnowledgeArticleViews.md
+  - name: KnowledgeBaseRecord 
+    href: applicationCommon/KnowledgeBaseRecord.md
+  - name: Letter 
+    href: applicationCommon/Letter.md
+  - name: Note 
+    href: applicationCommon/Note.md
+  - name: Organization 
+    href: applicationCommon/Organization.md
+  - name: Owner 
+    href: applicationCommon/Owner.md
+  - name: PhoneCall 
+    href: applicationCommon/PhoneCall.md
+  - name: Position 
+    href: applicationCommon/Position.md
+  - name: Queue 
+    href: applicationCommon/Queue.md
+  - name: QueueItem 
+    href: applicationCommon/QueueItem.md
+  - name: RecurringAppointment 
+    href: applicationCommon/RecurringAppointment.md
+  - name: SLA 
+    href: applicationCommon/SLA.md
+  - name: SLAItem 
+    href: applicationCommon/SLAItem.md
+  - name: SLAKPIInstance 
+    href: applicationCommon/SLAKPIInstance.md
+  - name: SocialActivity 
+    href: applicationCommon/SocialActivity.md
+  - name: SocialProfile 
+    href: applicationCommon/SocialProfile.md
+  - name: Task 
+    href: applicationCommon/Task.md
+  - name: Team 
+    href: applicationCommon/Team.md
+  - name: TeamMembership 
+    href: applicationCommon/TeamMembership.md
+  - name: Territory 
+    href: applicationCommon/Territory.md
+  - name: User 
+    href: applicationCommon/User.md
+- name: erp
+  items:
+  - name: Summary
+    href: erp/overview.md
+  - name: Entities
+    items:
+    - name: Summary
+      href: erp/Entities/overview.md
+    - name: System
+      items:
+      - name: Summary
+        href: erp/Entities/System/overview.md
+      - name: OrganizationAdministration
+        items:
+        - name: Summary
+          href: erp/Entities/System/OrganizationAdministration/overview.md
+        - name: EmailTemplateMessageOrganizationEntity 
+          href: erp/Entities/System/OrganizationAdministration/EmailTemplateMessageOrganizationEntity.md
+        - name: EmailTemplateOrganizationEntity 
+          href: erp/Entities/System/OrganizationAdministration/EmailTemplateOrganizationEntity.md
+      - name: SystemAdministration
+        items:
+        - name: Summary
+          href: erp/Entities/System/SystemAdministration/overview.md
+        - name: BIDateGregorianEntity 
+          href: erp/Entities/System/SystemAdministration/BIDateGregorianEntity.md
+        - name: BatchGroupEntity 
+          href: erp/Entities/System/SystemAdministration/BatchGroupEntity.md
+        - name: BatchJobEntity 
+          href: erp/Entities/System/SystemAdministration/BatchJobEntity.md
+        - name: BatchJobHistoryEntity 
+          href: erp/Entities/System/SystemAdministration/BatchJobHistoryEntity.md
+        - name: BatchServerScheduleEntity 
+          href: erp/Entities/System/SystemAdministration/BatchServerScheduleEntity.md
+        - name: BrazilParametersEntity 
+          href: erp/Entities/System/SystemAdministration/BrazilParametersEntity.md
+        - name: BrazilianElectronicReportingParametersEntity 
+          href: erp/Entities/System/SystemAdministration/BrazilianElectronicReportingParametersEntity.md
+        - name: CaseAssociationEntity 
+          href: erp/Entities/System/SystemAdministration/CaseAssociationEntity.md
+        - name: CaseDependencyEntity 
+          href: erp/Entities/System/SystemAdministration/CaseDependencyEntity.md
+        - name: CaseDetailBaseEntity 
+          href: erp/Entities/System/SystemAdministration/CaseDetailBaseEntity.md
+        - name: CityHolidayEntity 
+          href: erp/Entities/System/SystemAdministration/CityHolidayEntity.md
+        - name: ConfiguratorDefinitionGroupEntity 
+          href: erp/Entities/System/SystemAdministration/ConfiguratorDefinitionGroupEntity.md
+        - name: ConfiguratorDefinitionGroupFieldEntity 
+          href: erp/Entities/System/SystemAdministration/ConfiguratorDefinitionGroupFieldEntity.md
+        - name: ConfiguratorDefinitionGroupFieldRangeEntity 
+          href: erp/Entities/System/SystemAdministration/ConfiguratorDefinitionGroupFieldRangeEntity.md
+        - name: ConfiguratorDefinitionGroupSortOrderEntity 
+          href: erp/Entities/System/SystemAdministration/ConfiguratorDefinitionGroupSortOrderEntity.md
+        - name: ConfiguratorDefinitionGroupSummationEntity 
+          href: erp/Entities/System/SystemAdministration/ConfiguratorDefinitionGroupSummationEntity.md
+        - name: ConfiguratorDefinitionGroupTableEntity 
+          href: erp/Entities/System/SystemAdministration/ConfiguratorDefinitionGroupTableEntity.md
+        - name: ConfiguratorDefinitionGroupTableRelationEntity 
+          href: erp/Entities/System/SystemAdministration/ConfiguratorDefinitionGroupTableRelationEntity.md
+        - name: ConfiguratorLayoutFieldEntity 
+          href: erp/Entities/System/SystemAdministration/ConfiguratorLayoutFieldEntity.md
+        - name: ConfiguratorLayoutGroupEntity 
+          href: erp/Entities/System/SystemAdministration/ConfiguratorLayoutGroupEntity.md
+        - name: ConfiguratorLayoutLinesEntity 
+          href: erp/Entities/System/SystemAdministration/ConfiguratorLayoutLinesEntity.md
+        - name: CurrencyEntity 
+          href: erp/Entities/System/SystemAdministration/CurrencyEntity.md
+        - name: CurrencyISOCodeEntity 
+          href: erp/Entities/System/SystemAdministration/CurrencyISOCodeEntity.md
+        - name: CurrencyRevaluationAccountV2Entity 
+          href: erp/Entities/System/SystemAdministration/CurrencyRevaluationAccountV2Entity.md
+        - name: DMFDefinitionGroupTemplateHeaderEntity 
+          href: erp/Entities/System/SystemAdministration/DMFDefinitionGroupTemplateHeaderEntity.md
+        - name: DMFDefinitionGroupTemplateLineEntity 
+          href: erp/Entities/System/SystemAdministration/DMFDefinitionGroupTemplateLineEntity.md
+        - name: DataManagementDefinitionGroupDetailEntity 
+          href: erp/Entities/System/SystemAdministration/DataManagementDefinitionGroupDetailEntity.md
+        - name: DataManagementDefinitionGroupEntity 
+          href: erp/Entities/System/SystemAdministration/DataManagementDefinitionGroupEntity.md
+        - name: DataManagementEntity 
+          href: erp/Entities/System/SystemAdministration/DataManagementEntity.md
+        - name: DataManagementExecutionJobDetailEntity 
+          href: erp/Entities/System/SystemAdministration/DataManagementExecutionJobDetailEntity.md
+        - name: DataManagementExecutionJobEntity 
+          href: erp/Entities/System/SystemAdministration/DataManagementExecutionJobEntity.md
+        - name: DataManagementTargetMapEntity 
+          href: erp/Entities/System/SystemAdministration/DataManagementTargetMapEntity.md
+        - name: DataManagementTemplateDetailEntity 
+          href: erp/Entities/System/SystemAdministration/DataManagementTemplateDetailEntity.md
+        - name: DataManagementTemplateEntity 
+          href: erp/Entities/System/SystemAdministration/DataManagementTemplateEntity.md
+        - name: DataManagementTemplateSourceDependencyEntity 
+          href: erp/Entities/System/SystemAdministration/DataManagementTemplateSourceDependencyEntity.md
+        - name: DataManagementTemplateSourceEntity 
+          href: erp/Entities/System/SystemAdministration/DataManagementTemplateSourceEntity.md
+        - name: DemoDataPostEntity 
+          href: erp/Entities/System/SystemAdministration/DemoDataPostEntity.md
+        - name: DirPartyCDSEntity 
+          href: erp/Entities/System/SystemAdministration/DirPartyCDSEntity.md
+        - name: DocuEnabledTableEntity 
+          href: erp/Entities/System/SystemAdministration/DocuEnabledTableEntity.md
+        - name: DocuFileTypesEntity 
+          href: erp/Entities/System/SystemAdministration/DocuFileTypesEntity.md
+        - name: DocuParametersEntity 
+          href: erp/Entities/System/SystemAdministration/DocuParametersEntity.md
+        - name: DocuRefEntity 
+          href: erp/Entities/System/SystemAdministration/DocuRefEntity.md
+        - name: DocuTypeEntity 
+          href: erp/Entities/System/SystemAdministration/DocuTypeEntity.md
+        - name: DocumentRoutingClientAppEntity 
+          href: erp/Entities/System/SystemAdministration/DocumentRoutingClientAppEntity.md
+        - name: DocumentRoutingJobEntity 
+          href: erp/Entities/System/SystemAdministration/DocumentRoutingJobEntity.md
+        - name: DocumentRoutingPrinterEntity 
+          href: erp/Entities/System/SystemAdministration/DocumentRoutingPrinterEntity.md
+        - name: EFDocEmailAccountConfigurationEntity 
+          href: erp/Entities/System/SystemAdministration/EFDocEmailAccountConfigurationEntity.md
+        - name: EcoResProductCDSCategoryAssignmentV2Entity 
+          href: erp/Entities/System/SystemAdministration/EcoResProductCDSCategoryAssignmentV2Entity.md
+        - name: EmailTemplateMessageSystemEntity 
+          href: erp/Entities/System/SystemAdministration/EmailTemplateMessageSystemEntity.md
+        - name: EmailTemplateSystemEntity 
+          href: erp/Entities/System/SystemAdministration/EmailTemplateSystemEntity.md
+        - name: ExchangeRateEntity 
+          href: erp/Entities/System/SystemAdministration/ExchangeRateEntity.md
+        - name: ExchangeRateTypeEntity 
+          href: erp/Entities/System/SystemAdministration/ExchangeRateTypeEntity.md
+        - name: GBTParametersEntity 
+          href: erp/Entities/System/SystemAdministration/GBTParametersEntity.md
+        - name: MeasurementCategoryEnabledModuleEntity 
+          href: erp/Entities/System/SystemAdministration/MeasurementCategoryEnabledModuleEntity.md
+        - name: MeasurementSourceSystemEntity 
+          href: erp/Entities/System/SystemAdministration/MeasurementSourceSystemEntity.md
+        - name: NumberSequenceDataTypeEntity 
+          href: erp/Entities/System/SystemAdministration/NumberSequenceDataTypeEntity.md
+        - name: NumberSequenceEntity 
+          href: erp/Entities/System/SystemAdministration/NumberSequenceEntity.md
+        - name: NumberSequenceGroupEntity 
+          href: erp/Entities/System/SystemAdministration/NumberSequenceGroupEntity.md
+        - name: NumberSequenceTableEntity 
+          href: erp/Entities/System/SystemAdministration/NumberSequenceTableEntity.md
+        - name: NumberSequenceTableV2Entity 
+          href: erp/Entities/System/SystemAdministration/NumberSequenceTableV2Entity.md
+        - name: NumberSequencesReferenceEntity 
+          href: erp/Entities/System/SystemAdministration/NumberSequencesReferenceEntity.md
+        - name: OfficeAddinLegalEntityEntity 
+          href: erp/Entities/System/SystemAdministration/OfficeAddinLegalEntityEntity.md
+        - name: OfficeAppAppletRegistrationEntity 
+          href: erp/Entities/System/SystemAdministration/OfficeAppAppletRegistrationEntity.md
+        - name: OfficeAppResourceRegistrationEntity 
+          href: erp/Entities/System/SystemAdministration/OfficeAppResourceRegistrationEntity.md
+        - name: OfficialsTableDataEntity 
+          href: erp/Entities/System/SystemAdministration/OfficialsTableDataEntity.md
+        - name: OfficialsTransDataEntity 
+          href: erp/Entities/System/SystemAdministration/OfficialsTransDataEntity.md
+        - name: PowerBIConfigurationEntity 
+          href: erp/Entities/System/SystemAdministration/PowerBIConfigurationEntity.md
+        - name: PowerBIFormControlBindingEntity 
+          href: erp/Entities/System/SystemAdministration/PowerBIFormControlBindingEntity.md
+        - name: RegNumIssuerEntity 
+          href: erp/Entities/System/SystemAdministration/RegNumIssuerEntity.md
+        - name: SysEmailParametersEntity 
+          href: erp/Entities/System/SystemAdministration/SysEmailParametersEntity.md
+        - name: SysPolicyEntity 
+          href: erp/Entities/System/SystemAdministration/SysPolicyEntity.md
+        - name: SysPolicyInternalOrganizationAssignmentEntity 
+          href: erp/Entities/System/SystemAdministration/SysPolicyInternalOrganizationAssignmentEntity.md
+        - name: SysPolicyOrganizationEntity 
+          href: erp/Entities/System/SystemAdministration/SysPolicyOrganizationEntity.md
+        - name: SysPolicyRuleTypeEntity 
+          href: erp/Entities/System/SystemAdministration/SysPolicyRuleTypeEntity.md
+        - name: SysPolicyTypeEntity 
+          href: erp/Entities/System/SystemAdministration/SysPolicyTypeEntity.md
+        - name: SysServerClusterConfigurationEntity 
+          href: erp/Entities/System/SystemAdministration/SysServerClusterConfigurationEntity.md
+        - name: SysServerConfigurationEntity 
+          href: erp/Entities/System/SystemAdministration/SysServerConfigurationEntity.md
+        - name: SystemGlobalConfigurationEntity 
+          href: erp/Entities/System/SystemAdministration/SystemGlobalConfigurationEntity.md
+        - name: SystemGroupEntity 
+          href: erp/Entities/System/SystemAdministration/SystemGroupEntity.md
+        - name: SystemParametersEntity 
+          href: erp/Entities/System/SystemAdministration/SystemParametersEntity.md
+        - name: SystemSecurityDutyCustomizationsEntity 
+          href: erp/Entities/System/SystemAdministration/SystemSecurityDutyCustomizationsEntity.md
+        - name: SystemSecurityDutyEntity 
+          href: erp/Entities/System/SystemAdministration/SystemSecurityDutyEntity.md
+        - name: SystemSecurityDutyV2Entity 
+          href: erp/Entities/System/SystemAdministration/SystemSecurityDutyV2Entity.md
+        - name: SystemSecurityPermissionEntity 
+          href: erp/Entities/System/SystemAdministration/SystemSecurityPermissionEntity.md
+        - name: SystemSecurityPrivilegeCustomizationsEntity 
+          href: erp/Entities/System/SystemAdministration/SystemSecurityPrivilegeCustomizationsEntity.md
+        - name: SystemSecurityPrivilegeEntity 
+          href: erp/Entities/System/SystemAdministration/SystemSecurityPrivilegeEntity.md
+        - name: SystemSecurityRoleCustomizationsEntity 
+          href: erp/Entities/System/SystemAdministration/SystemSecurityRoleCustomizationsEntity.md
+        - name: SystemSecurityRoleDutyEntity 
+          href: erp/Entities/System/SystemAdministration/SystemSecurityRoleDutyEntity.md
+        - name: SystemSecurityRoleEntity 
+          href: erp/Entities/System/SystemAdministration/SystemSecurityRoleEntity.md
+        - name: SystemSecuritySubRoleEntity 
+          href: erp/Entities/System/SystemAdministration/SystemSecuritySubRoleEntity.md
+        - name: SystemSecurityUserRoleAssociationEntity 
+          href: erp/Entities/System/SystemAdministration/SystemSecurityUserRoleAssociationEntity.md
+        - name: SystemSecurityUserRoleEntity 
+          href: erp/Entities/System/SystemAdministration/SystemSecurityUserRoleEntity.md
+        - name: SystemSegregationOfDutiesConflictEntity 
+          href: erp/Entities/System/SystemAdministration/SystemSegregationOfDutiesConflictEntity.md
+        - name: SystemSegregationOfDutiesRuleEntity 
+          href: erp/Entities/System/SystemAdministration/SystemSegregationOfDutiesRuleEntity.md
+        - name: SystemUserEntity 
+          href: erp/Entities/System/SystemAdministration/SystemUserEntity.md
+        - name: SystemUserGroupEntity 
+          href: erp/Entities/System/SystemAdministration/SystemUserGroupEntity.md
+        - name: SystemUserGroupUserListEntity 
+          href: erp/Entities/System/SystemAdministration/SystemUserGroupUserListEntity.md
+      - name: Workflow
+        items:
+        - name: Summary
+          href: erp/Entities/System/Workflow/overview.md
+        - name: ExpressionEntity 
+          href: erp/Entities/System/Workflow/ExpressionEntity.md
+        - name: WorkflowElementActionEntity 
+          href: erp/Entities/System/Workflow/WorkflowElementActionEntity.md
+        - name: WorkflowElementEntity 
+          href: erp/Entities/System/Workflow/WorkflowElementEntity.md
+        - name: WorkflowElementLinkEntity 
+          href: erp/Entities/System/Workflow/WorkflowElementLinkEntity.md
+        - name: WorkflowElementNotificationEntity 
+          href: erp/Entities/System/Workflow/WorkflowElementNotificationEntity.md
+        - name: WorkflowElementNotificationMessageEntity 
+          href: erp/Entities/System/Workflow/WorkflowElementNotificationMessageEntity.md
+        - name: WorkflowElementOutcomeMessageEntity 
+          href: erp/Entities/System/Workflow/WorkflowElementOutcomeMessageEntity.md
+        - name: WorkflowEscalationPathEntity 
+          href: erp/Entities/System/Workflow/WorkflowEscalationPathEntity.md
+        - name: WorkflowLineItemEntity 
+          href: erp/Entities/System/Workflow/WorkflowLineItemEntity.md
+        - name: WorkflowParallelBranchEntity 
+          href: erp/Entities/System/Workflow/WorkflowParallelBranchEntity.md
+        - name: WorkflowParametersOrganizationEntity 
+          href: erp/Entities/System/Workflow/WorkflowParametersOrganizationEntity.md
+        - name: WorkflowParametersSystemEntity 
+          href: erp/Entities/System/Workflow/WorkflowParametersSystemEntity.md
+        - name: WorkflowStepEntity 
+          href: erp/Entities/System/Workflow/WorkflowStepEntity.md
+        - name: WorkflowStepMessageEntity 
+          href: erp/Entities/System/Workflow/WorkflowStepMessageEntity.md
+        - name: WorkflowSubworkflowEntity 
+          href: erp/Entities/System/Workflow/WorkflowSubworkflowEntity.md
+        - name: WorkflowVersionEntity 
+          href: erp/Entities/System/Workflow/WorkflowVersionEntity.md
+        - name: WorkflowVersionNotesEntity 
+          href: erp/Entities/System/Workflow/WorkflowVersionNotesEntity.md
+        - name: WorkflowVersionNotificationEntity 
+          href: erp/Entities/System/Workflow/WorkflowVersionNotificationEntity.md
+        - name: WorkflowVersionNotificationMessageEntity 
+          href: erp/Entities/System/Workflow/WorkflowVersionNotificationMessageEntity.md
+        - name: WorkflowWorkItemQueueAssigneeEntity 
+          href: erp/Entities/System/Workflow/WorkflowWorkItemQueueAssigneeEntity.md
+        - name: WorkflowWorkItemQueueAssignmentEntity 
+          href: erp/Entities/System/Workflow/WorkflowWorkItemQueueAssignmentEntity.md
+        - name: WorkflowWorkItemQueueAssignmentRuleEntity 
+          href: erp/Entities/System/Workflow/WorkflowWorkItemQueueAssignmentRuleEntity.md
+        - name: WorkflowWorkItemQueueEntity 
+          href: erp/Entities/System/Workflow/WorkflowWorkItemQueueEntity.md
+        - name: WorkflowWorkItemQueueGroupEntity 
+          href: erp/Entities/System/Workflow/WorkflowWorkItemQueueGroupEntity.md
+        - name: WorkflowWorkItemQueueGroupRelationEntity 
+          href: erp/Entities/System/Workflow/WorkflowWorkItemQueueGroupRelationEntity.md
+  - name: Common 
+    href: erp/Common.md
+  - name: DataEntityView 
+    href: erp/DataEntityView.md

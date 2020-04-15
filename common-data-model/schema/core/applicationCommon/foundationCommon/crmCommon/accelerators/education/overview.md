@@ -5,12 +5,13 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/25/2020
+ms.date: 4/15/2020
 ms.author: nebanfic
 ---
 
 # education
 
+CDM standard entities  
 
 ## Sub-folders
 

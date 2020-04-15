@@ -1,0 +1,61 @@
+---
+title: Common - Common Data Model | Microsoft Docs
+description: undefined
+author: nenad1002
+ms.service: common-data-model
+ms.reviewer: deonhe
+ms.topic: article
+ms.date: 4/15/2020
+ms.author: nebanfic
+---
+
+# Common
+
+  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/erp/Common.cdm.json" target="_blank">GitHub</a>.  
+
+## Instances
+
+Instances of this entity are listed below.  
+
+- /Common  
+
+## Traits
+
+<details>
+<summary>Traits for this entity are listed below.  
+</summary>
+
+**is.identifiedBy**  
+  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Common/(resolvedAttributes)/RecId](#RecId)</td><td>attribute</td><td></td></tr></table>
+
+</details>
+
+## Attributes
+
+|Name|Description|First Included in Instance|
+|---|---|---|
+|[RecId](#RecId)||<a href="Common.md" target="_blank">erp/Common</a>|
+
+### <a href=#RecId name="RecId">RecId</a>
+
+First included in: erp/Common (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>3</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the RecId attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
+**is.identifiedBy**  
+names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Common/(resolvedAttributes)/RecId](#RecId)</td><td>attribute</td><td></td></tr></table>
+
+**is.readOnly**  
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
+</details>
