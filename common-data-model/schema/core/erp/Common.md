@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/15/2020
+ms.date: 4/16/2020
 ms.author: nebanfic
 ---
 
@@ -13,12 +13,6 @@ ms.author: nebanfic
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/erp/Common.cdm.json" target="_blank">GitHub</a>.  
-
-## Instances
-
-Instances of this entity are listed below.  
-
-- /Common  
 
 ## Traits
 
@@ -29,11 +23,17 @@ Instances of this entity are listed below.
 **is.identifiedBy**  
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Common/(resolvedAttributes)/RecId](#RecId)</td><td>attribute</td><td></td></tr></table>
 
+**is.CDM.entityVersion**  
+  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.0.0"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
+
+**is.Application.releaseVersion**  
+  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>releaseVersion</td><td>"10.0.13.0"</td><td>string</td><td>semantic version number of the application introducing this entity</td></tr></table>
+
 </details>
 
 ## Attributes
 
-|Name|Description|First Included in Instance|
+|Name|Description|First Included in Entity|
 |---|---|---|
 |[RecId](#RecId)||<a href="Common.md" target="_blank">erp/Common</a>|
 

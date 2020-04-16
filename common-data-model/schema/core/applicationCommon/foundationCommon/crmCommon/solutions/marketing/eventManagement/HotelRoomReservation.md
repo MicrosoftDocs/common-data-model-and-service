@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/15/2020
+ms.date: 4/16/2020
 ms.author: nebanfic
 ---
 
@@ -14,12 +14,6 @@ ms.author: nebanfic
 Each record of this type tracks a single request made by an event attendee (through the registration portal) to reserve a hotel room from the available hotel allocations  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomReservation.cdm.json" target="_blank">GitHub</a>.  
-
-## Instances
-
-Instances of this entity are listed below.  
-
-- /crmCommon/solutions/marketing/eventManagement/HotelRoomReservation  
 
 ## Traits
 
@@ -52,7 +46,7 @@ Instances of this entity are listed below.
 
 ## Attributes
 
-|Name|Description|First Included in Instance|
+|Name|Description|First Included in Entity|
 |---|---|---|
 |[createdOn](#createdOn)|Date and time when the record was created.|<a href="HotelRoomReservation.md" target="_blank">eventManagement/HotelRoomReservation</a>|
 |[createdBy](#createdBy)|Shows who created the record.|<a href="HotelRoomReservation.md" target="_blank">eventManagement/HotelRoomReservation</a>|

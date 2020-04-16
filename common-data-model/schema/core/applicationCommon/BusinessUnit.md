@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/15/2020
+ms.date: 4/16/2020
 ms.author: nebanfic
 ---
 
@@ -14,12 +14,6 @@ ms.author: nebanfic
 Business, division, or department in the Microsoft Dynamics 365 database.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/BusinessUnit.cdm.json" target="_blank">GitHub</a>.  
-
-## Instances
-
-Instances of this entity are listed below.  
-
-- /BusinessUnit  
 
 ## Traits
 
@@ -49,7 +43,7 @@ Instances of this entity are listed below.
 
 ## Attributes
 
-|Name|Description|First Included in Instance|
+|Name|Description|First Included in Entity|
 |---|---|---|
 |[businessUnitId](#businessUnitId)|Unique identifier of the business unit.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
 |[organizationId](#organizationId)|Unique identifier of the organization associated with the business unit.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|

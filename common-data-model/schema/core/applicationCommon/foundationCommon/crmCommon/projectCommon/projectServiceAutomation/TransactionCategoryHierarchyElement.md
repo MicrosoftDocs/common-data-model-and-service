@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/15/2020
+ms.date: 4/16/2020
 ms.author: nebanfic
 ---
 
@@ -14,12 +14,6 @@ ms.author: nebanfic
 Hierarchical relationship of the transaction category with a root node.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/TransactionCategoryHierarchyElement.cdm.json" target="_blank">GitHub</a>.  
-
-## Instances
-
-Instances of this entity are listed below.  
-
-- /crmCommon/projectCommon/projectServiceAutomation/TransactionCategoryHierarchyElement  
 
 ## Traits
 
@@ -52,7 +46,7 @@ Instances of this entity are listed below.
 
 ## Attributes
 
-|Name|Description|First Included in Instance|
+|Name|Description|First Included in Entity|
 |---|---|---|
 |[transactionCategoryHierarchyElementId](#transactionCategoryHierarchyElementId)|Unique identifier for entity instances|<a href="TransactionCategoryHierarchyElement.md" target="_blank">projectServiceAutomation/TransactionCategoryHierarchyElement</a>|
 |[createdOn](#createdOn)|Date and time when the record was created.|<a href="TransactionCategoryHierarchyElement.md" target="_blank">projectServiceAutomation/TransactionCategoryHierarchyElement</a>|

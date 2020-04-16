@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/15/2020
+ms.date: 4/16/2020
 ms.author: nebanfic
 ---
 
@@ -14,14 +14,6 @@ ms.author: nebanfic
 Delivery Framework represents a management unit of work defined by the organization or entity doing the work. In IATI, the Delivery Framework is an “Activity.”  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/DeliveryFramework.cdm.json" target="_blank">GitHub</a>.  
-
-## Instances
-
-Instances of this entity are listed below.  
-
-- [/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/DeliveryFramework](../nonProfitCore/DeliveryFramework.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/DeliveryFramework.cdm.json/DeliveryFramework")  
-- [/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitMeasurement/DeliveryFramework](../nonProfitMeasurement/DeliveryFramework.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitMeasurement/DeliveryFramework.cdm.json/DeliveryFramework")  
-- /crmCommon/accelerators/nonProfit/nonProfitIati/DeliveryFramework  
 
 ## Traits
 
@@ -54,7 +46,7 @@ Instances of this entity are listed below.
 
 ## Attributes
 
-|Name|Description|First Included in Instance|
+|Name|Description|First Included in Entity|
 |---|---|---|
 |[createdOn](#createdOn)|Date and time when the record was created.|<a href="DeliveryFramework.md" target="_blank">nonProfitIati/DeliveryFramework</a>|
 |[createdBy](#createdBy)|Unique identifier of the user who created the record.|<a href="DeliveryFramework.md" target="_blank">nonProfitIati/DeliveryFramework</a>|

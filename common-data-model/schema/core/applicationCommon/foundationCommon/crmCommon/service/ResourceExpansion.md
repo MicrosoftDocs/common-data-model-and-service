@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/15/2020
+ms.date: 4/16/2020
 ms.author: nebanfic
 ---
 
@@ -14,12 +14,6 @@ ms.author: nebanfic
 Resource Expansions.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/ResourceExpansion.cdm.json" target="_blank">GitHub</a>.  
-
-## Instances
-
-Instances of this entity are listed below.  
-
-- /crmCommon/service/ResourceExpansion  
 
 ## Traits
 
@@ -49,7 +43,7 @@ Instances of this entity are listed below.
 
 ## Attributes
 
-|Name|Description|First Included in Instance|
+|Name|Description|First Included in Entity|
 |---|---|---|
 |[resourceGroupExpansionId](#resourceGroupExpansionId)|Unique identifier of the resource expansion record.|<a href="ResourceExpansion.md" target="_blank">service/ResourceExpansion</a>|
 |[versionNumber](#versionNumber)|Version Number|<a href="ResourceExpansion.md" target="_blank">service/ResourceExpansion</a>|

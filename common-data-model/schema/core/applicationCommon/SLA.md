@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/15/2020
+ms.date: 4/16/2020
 ms.author: nebanfic
 ---
 
@@ -14,12 +14,6 @@ ms.author: nebanfic
 Contains information about the tracked service-level KPIs for cases that belong to different customers.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/SLA.cdm.json" target="_blank">GitHub</a>.  
-
-## Instances
-
-Instances of this entity are listed below.  
-
-- /SLA  
 
 ## Traits
 
@@ -52,7 +46,7 @@ Instances of this entity are listed below.
 
 ## Attributes
 
-|Name|Description|First Included in Instance|
+|Name|Description|First Included in Entity|
 |---|---|---|
 |[SLAId](#SLAId)|Unique identifier of the SLA.|<a href="SLA.md" target="_blank">applicationCommon/SLA</a>|
 |[name](#name)|Type a descriptive name of the service level agreement (SLA).|<a href="SLA.md" target="_blank">applicationCommon/SLA</a>|

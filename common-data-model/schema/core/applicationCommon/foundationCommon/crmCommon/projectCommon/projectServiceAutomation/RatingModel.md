@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/15/2020
+ms.date: 4/16/2020
 ms.author: nebanfic
 ---
 
@@ -14,13 +14,6 @@ ms.author: nebanfic
 Represents a model to evaluate skills or other related entities.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/RatingModel.cdm.json" target="_blank">GitHub</a>.  
-
-## Instances
-
-Instances of this entity are listed below.  
-
-- [/foundationCommon/RatingModel](../../../RatingModel.md "/core/applicationCommon/foundationCommon/RatingModel.cdm.json/RatingModel")  
-- /crmCommon/projectCommon/projectServiceAutomation/RatingModel  
 
 ## Traits
 
@@ -53,7 +46,7 @@ Instances of this entity are listed below.
 
 ## Attributes
 
-|Name|Description|First Included in Instance|
+|Name|Description|First Included in Entity|
 |---|---|---|
 |[createdOn](#createdOn)|Date and time when the record was created.|<a href="RatingModel.md" target="_blank">projectServiceAutomation/RatingModel</a>|
 |[createdBy](#createdBy)|Unique identifier of the user who created the record.|<a href="RatingModel.md" target="_blank">projectServiceAutomation/RatingModel</a>|

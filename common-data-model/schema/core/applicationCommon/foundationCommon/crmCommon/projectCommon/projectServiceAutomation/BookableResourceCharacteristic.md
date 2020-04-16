@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/15/2020
+ms.date: 4/16/2020
 ms.author: nebanfic
 ---
 
@@ -14,13 +14,6 @@ ms.author: nebanfic
 Associates resources with their characteristics and specifies the proficiency level of a resource for that characteristic.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/BookableResourceCharacteristic.cdm.json" target="_blank">GitHub</a>.  
-
-## Instances
-
-Instances of this entity are listed below.  
-
-- [/foundationCommon/BookableResourceCharacteristic](../../../BookableResourceCharacteristic.md "/core/applicationCommon/foundationCommon/BookableResourceCharacteristic.cdm.json/BookableResourceCharacteristic")  
-- /crmCommon/projectCommon/projectServiceAutomation/BookableResourceCharacteristic  
 
 ## Traits
 
@@ -53,7 +46,7 @@ Instances of this entity are listed below.
 
 ## Attributes
 
-|Name|Description|First Included in Instance|
+|Name|Description|First Included in Entity|
 |---|---|---|
 |[createdOn](#createdOn)|Date and time when the record was created.|<a href="BookableResourceCharacteristic.md" target="_blank">projectServiceAutomation/BookableResourceCharacteristic</a>|
 |[createdBy](#createdBy)|Unique identifier of the user who created the record.|<a href="BookableResourceCharacteristic.md" target="_blank">projectServiceAutomation/BookableResourceCharacteristic</a>|

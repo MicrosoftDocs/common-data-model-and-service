@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/15/2020
+ms.date: 4/16/2020
 ms.author: nebanfic
 ---
 
@@ -15,12 +15,14 @@ Group of existing or potential customers created for a marketing campaign or oth
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/MarketingList.cdm.json" target="_blank">GitHub</a>.  
 
-## Instances
+## Entities inherited from this entity
 
-Instances of this entity are listed below.  
+<details>
+<summary>Entities that inherit from the currently viewed entity are listed below.  
+</summary>
 
-- /crmCommon/MarketingList  
 - [/foundationCommon/crmCommon/solutions/marketing/MarketingList](solutions/marketing/MarketingList.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/MarketingList.cdm.json/MarketingList")  
+</details>
 
 ## Traits
 
@@ -53,7 +55,7 @@ Instances of this entity are listed below.
 
 ## Attributes
 
-|Name|Description|First Included in Instance|
+|Name|Description|First Included in Entity|
 |---|---|---|
 |[createdOn](#createdOn)|Date and time when the record was created.|<a href="MarketingList.md" target="_blank">crmCommon/MarketingList</a>|
 |[createdBy](#createdBy)|Shows who created the record.|<a href="MarketingList.md" target="_blank">crmCommon/MarketingList</a>|

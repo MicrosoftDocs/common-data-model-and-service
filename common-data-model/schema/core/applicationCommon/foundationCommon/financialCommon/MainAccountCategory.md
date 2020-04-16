@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/15/2020
+ms.date: 4/16/2020
 ms.author: nebanfic
 ---
 
@@ -14,12 +14,6 @@ ms.author: nebanfic
 Provides categorization of main accounts  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/financialCommon/MainAccountCategory.cdm.json" target="_blank">GitHub</a>.  
-
-## Instances
-
-Instances of this entity are listed below.  
-
-- /financialCommon/MainAccountCategory  
 
 ## Traits
 
@@ -46,7 +40,7 @@ Instances of this entity are listed below.
 
 ## Attributes
 
-|Name|Description|First Included in Instance|
+|Name|Description|First Included in Entity|
 |---|---|---|
 |[mainAccountCategoryId](#mainAccountCategoryId)|The surrogate key of the main account category record|<a href="MainAccountCategory.md" target="_blank">financialCommon/MainAccountCategory</a>|
 |[name](#name)|The display name of the main account category|<a href="MainAccountCategory.md" target="_blank">financialCommon/MainAccountCategory</a>|

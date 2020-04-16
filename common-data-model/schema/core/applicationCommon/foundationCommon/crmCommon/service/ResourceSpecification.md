@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/15/2020
+ms.date: 4/16/2020
 ms.author: nebanfic
 ---
 
@@ -14,12 +14,6 @@ ms.author: nebanfic
 Selection rule that allows the scheduling engine to select a number of resources from a pool of resources. The rules can be associated with a service.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/ResourceSpecification.cdm.json" target="_blank">GitHub</a>.  
-
-## Instances
-
-Instances of this entity are listed below.  
-
-- /crmCommon/service/ResourceSpecification  
 
 ## Traits
 
@@ -49,7 +43,7 @@ Instances of this entity are listed below.
 
 ## Attributes
 
-|Name|Description|First Included in Instance|
+|Name|Description|First Included in Entity|
 |---|---|---|
 |[resourceSpecId](#resourceSpecId)|Unique identifier of the resource specification.|<a href="ResourceSpecification.md" target="_blank">service/ResourceSpecification</a>|
 |[createdOn](#createdOn)|Date and time when the resource specification was created.|<a href="ResourceSpecification.md" target="_blank">service/ResourceSpecification</a>|

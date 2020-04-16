@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/15/2020
+ms.date: 4/16/2020
 ms.author: nebanfic
 ---
 
@@ -14,15 +14,6 @@ ms.author: nebanfic
 Address and shipping information. Used to store additional addresses for an account or contact.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Address.cdm.json" target="_blank">GitHub</a>.  
-
-## Instances
-
-Instances of this entity are listed below.  
-
-- [/Address.cdm.json/Address](../../../../../Address.md "/core/applicationCommon/Address.cdm.json/Address")  
-- /crmCommon/accelerators/education/higherEducation/Address  
-- [/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Address](../../healthCare/electronicMedicalRecords/Address.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Address.cdm.json/Address")  
-- [/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Address](../../nonProfit/nonProfitCore/Address.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Address.cdm.json/Address")  
 
 ## Traits
 
@@ -52,7 +43,7 @@ Instances of this entity are listed below.
 
 ## Attributes
 
-|Name|Description|First Included in Instance|
+|Name|Description|First Included in Entity|
 |---|---|---|
 |[parentId](#parentId)|Choose the customer's address.|<a href="Address.md" target="_blank">higherEducation/Address</a>|
 |[parentIdTypeCode](#parentIdTypeCode)|The name of the entity linked by parentId|<a href="Address.md" target="_blank">higherEducation/Address</a>|

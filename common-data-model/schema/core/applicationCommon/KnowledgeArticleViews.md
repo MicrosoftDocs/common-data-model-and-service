@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/15/2020
+ms.date: 4/16/2020
 ms.author: nebanfic
 ---
 
@@ -15,12 +15,14 @@ No of times an article is viewed per day
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/KnowledgeArticleViews.cdm.json" target="_blank">GitHub</a>.  
 
-## Instances
+## Entities inherited from this entity
 
-Instances of this entity are listed below.  
+<details>
+<summary>Entities that inherit from the currently viewed entity are listed below.  
+</summary>
 
-- /KnowledgeArticleViews  
 - [/foundationCommon/crmCommon/solutions/portals/KnowledgeArticleViews](foundationCommon/crmCommon/solutions/portals/KnowledgeArticleViews.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/KnowledgeArticleViews.cdm.json/KnowledgeArticleViews")  
+</details>
 
 ## Traits
 
@@ -53,7 +55,7 @@ Instances of this entity are listed below.
 
 ## Attributes
 
-|Name|Description|First Included in Instance|
+|Name|Description|First Included in Entity|
 |---|---|---|
 |[knowledgeArticleViewsId](#knowledgeArticleViewsId)|Unique identifier of the Knowledge Article Views|<a href="KnowledgeArticleViews.md" target="_blank">applicationCommon/KnowledgeArticleViews</a>|
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="KnowledgeArticleViews.md" target="_blank">applicationCommon/KnowledgeArticleViews</a>|

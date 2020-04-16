@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/15/2020
+ms.date: 4/16/2020
 ms.author: nebanfic
 ---
 
@@ -15,16 +15,18 @@ Prospect or potential sales opportunity. Leads are converted into accounts, cont
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.json" target="_blank">GitHub</a>.  
 
-## Instances
+## Entities inherited from this entity
 
-Instances of this entity are listed below.  
+<details>
+<summary>Entities that inherit from the currently viewed entity are listed below.  
+</summary>
 
-- /crmCommon/Lead  
 - [/foundationCommon/crmCommon/accelerators/automotive/Lead](accelerators/automotive/Lead.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/automotive/Lead.cdm.json/Lead")  
 - [/foundationCommon/crmCommon/accelerators/financialServices/banking/Lead](accelerators/financialServices/banking/Lead.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/Lead.cdm.json/Lead")  
 - [/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/Lead](accelerators/nonProfit/nonProfitForSales/Lead.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/Lead.cdm.json/Lead")  
 - [/foundationCommon/crmCommon/projectCommon/Lead](projectCommon/Lead.md "/core/applicationCommon/foundationCommon/crmCommon/projectCommon/Lead.cdm.json/Lead")  
 - [/foundationCommon/crmCommon/solutions/marketing/Lead](solutions/marketing/Lead.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Lead.cdm.json/Lead")  
+</details>
 
 ## Traits
 
@@ -57,7 +59,7 @@ Instances of this entity are listed below.
 
 ## Attributes
 
-|Name|Description|First Included in Instance|
+|Name|Description|First Included in Entity|
 |---|---|---|
 |[createdOn](#createdOn)|Date and time when the record was created.|<a href="Lead.md" target="_blank">crmCommon/Lead</a>|
 |[createdBy](#createdBy)|Shows who created the record.|<a href="Lead.md" target="_blank">crmCommon/Lead</a>|

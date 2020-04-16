@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/15/2020
+ms.date: 4/16/2020
 ms.author: nebanfic
 ---
 
@@ -14,17 +14,6 @@ ms.author: nebanfic
 Prospect or potential sales opportunity. Leads are converted into accounts, contacts, or opportunities when they are qualified. Otherwise, they are deleted or archived.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/Lead.cdm.json" target="_blank">GitHub</a>.  
-
-## Instances
-
-Instances of this entity are listed below.  
-
-- [/foundationCommon/crmCommon/Lead](../../../Lead.md "/core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.json/Lead")  
-- [/foundationCommon/crmCommon/accelerators/automotive/Lead](../../automotive/Lead.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/automotive/Lead.cdm.json/Lead")  
-- [/foundationCommon/crmCommon/accelerators/financialServices/banking/Lead](../../financialServices/banking/Lead.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/Lead.cdm.json/Lead")  
-- /crmCommon/accelerators/nonProfit/nonProfitForSales/Lead  
-- [/foundationCommon/crmCommon/projectCommon/Lead](../../../projectCommon/Lead.md "/core/applicationCommon/foundationCommon/crmCommon/projectCommon/Lead.cdm.json/Lead")  
-- [/foundationCommon/crmCommon/solutions/marketing/Lead](../../../solutions/marketing/Lead.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Lead.cdm.json/Lead")  
 
 ## Traits
 
@@ -57,7 +46,7 @@ Instances of this entity are listed below.
 
 ## Attributes
 
-|Name|Description|First Included in Instance|
+|Name|Description|First Included in Entity|
 |---|---|---|
 |[createdOn](#createdOn)|Date and time when the record was created.|<a href="Lead.md" target="_blank">nonProfitForSales/Lead</a>|
 |[createdBy](#createdBy)|Unique identifier of the user who created the record.|<a href="Lead.md" target="_blank">nonProfitForSales/Lead</a>|

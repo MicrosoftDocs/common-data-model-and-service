@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/15/2020
+ms.date: 4/16/2020
 ms.author: nebanfic
 ---
 
@@ -14,12 +14,6 @@ ms.author: nebanfic
 An account whose balance is displayed in major financial statements  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/financialCommon/MainAccount.cdm.json" target="_blank">GitHub</a>.  
-
-## Instances
-
-Instances of this entity are listed below.  
-
-- /financialCommon/MainAccount  
 
 ## Traits
 
@@ -46,7 +40,7 @@ Instances of this entity are listed below.
 
 ## Attributes
 
-|Name|Description|First Included in Instance|
+|Name|Description|First Included in Entity|
 |---|---|---|
 |[mainAccountId](#mainAccountId)|The surrogate key of the main account record|<a href="MainAccount.md" target="_blank">financialCommon/MainAccount</a>|
 |[name](#name)|The user-readable name of the main account|<a href="MainAccount.md" target="_blank">financialCommon/MainAccount</a>|

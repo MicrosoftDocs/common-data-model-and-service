@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/15/2020
+ms.date: 4/16/2020
 ms.author: nebanfic
 ---
 
@@ -14,14 +14,6 @@ ms.author: nebanfic
 An Indicator describes what will be measured to track evidence of a Result. Indicators can be qualitative or quantitative and may or may not be aggregable.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitMeasurement/Indicator.cdm.json" target="_blank">GitHub</a>.  
-
-## Instances
-
-Instances of this entity are listed below.  
-
-- [/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Indicator](../nonProfitCore/Indicator.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Indicator.cdm.json/Indicator")  
-- /crmCommon/accelerators/nonProfit/nonProfitMeasurement/Indicator  
-- [/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Indicator](../nonProfitIati/Indicator.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Indicator.cdm.json/Indicator")  
 
 ## Traits
 
@@ -54,7 +46,7 @@ Instances of this entity are listed below.
 
 ## Attributes
 
-|Name|Description|First Included in Instance|
+|Name|Description|First Included in Entity|
 |---|---|---|
 |[createdOn](#createdOn)|Date and time when the record was created.|<a href="Indicator.md" target="_blank">nonProfitMeasurement/Indicator</a>|
 |[createdBy](#createdBy)|Unique identifier of the user who created the record.|<a href="Indicator.md" target="_blank">nonProfitMeasurement/Indicator</a>|

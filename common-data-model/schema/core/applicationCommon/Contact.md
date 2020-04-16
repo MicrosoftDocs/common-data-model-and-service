@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/15/2020
+ms.date: 4/16/2020
 ms.author: nebanfic
 ---
 
@@ -15,11 +15,12 @@ Person with whom a business unit has a relationship, such as customer, supplier,
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/Contact.cdm.json" target="_blank">GitHub</a>.  
 
-## Instances
+## Entities inherited from this entity
 
-Instances of this entity are listed below.  
+<details>
+<summary>Entities that inherit from the currently viewed entity are listed below.  
+</summary>
 
-- /Contact  
 - [/foundationCommon/Contact](foundationCommon/Contact.md "/core/applicationCommon/foundationCommon/Contact.cdm.json/Contact")  
 - [/foundationCommon/crmCommon/Contact](foundationCommon/crmCommon/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/Contact.cdm.json/Contact")  
 - [/foundationCommon/crmCommon/accelerators/education/higherEducation/Contact](foundationCommon/crmCommon/accelerators/education/higherEducation/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Contact.cdm.json/Contact")  
@@ -31,6 +32,7 @@ Instances of this entity are listed below.
 - [/foundationCommon/crmCommon/projectCommon/Contact](foundationCommon/crmCommon/projectCommon/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/projectCommon/Contact.cdm.json/Contact")  
 - [/foundationCommon/crmCommon/solutions/marketing/Contact](foundationCommon/crmCommon/solutions/marketing/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Contact.cdm.json/Contact")  
 - [/foundationCommon/crmCommon/solutions/portals/Contact](foundationCommon/crmCommon/solutions/portals/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Contact.cdm.json/Contact")  
+</details>
 
 ## Traits
 
@@ -63,7 +65,7 @@ Instances of this entity are listed below.
 
 ## Attributes
 
-|Name|Description|First Included in Instance|
+|Name|Description|First Included in Entity|
 |---|---|---|
 |[createdOn](#createdOn)|Date and time when the record was created.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
 |[createdBy](#createdBy)|Shows who created the record.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|

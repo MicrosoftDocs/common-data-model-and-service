@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/15/2020
+ms.date: 4/16/2020
 ms.author: nebanfic
 ---
 
@@ -15,13 +15,15 @@ Top level of the Microsoft Dynamics 365 business hierarchy. The organization can
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/Organization.cdm.json" target="_blank">GitHub</a>.  
 
-## Instances
+## Entities inherited from this entity
 
-Instances of this entity are listed below.  
+<details>
+<summary>Entities that inherit from the currently viewed entity are listed below.  
+</summary>
 
-- /Organization  
 - [/foundationCommon/Organization](foundationCommon/Organization.md "/core/applicationCommon/foundationCommon/Organization.cdm.json/Organization")  
 - [/foundationCommon/crmCommon/projectCommon/scheduling/Organization](foundationCommon/crmCommon/projectCommon/scheduling/Organization.md "/core/applicationCommon/foundationCommon/crmCommon/projectCommon/scheduling/Organization.cdm.json/Organization")  
+</details>
 
 ## Traits
 
@@ -51,7 +53,7 @@ Instances of this entity are listed below.
 
 ## Attributes
 
-|Name|Description|First Included in Instance|
+|Name|Description|First Included in Entity|
 |---|---|---|
 |[organizationId](#organizationId)|Unique identifier of the organization.|<a href="Organization.md" target="_blank">applicationCommon/Organization</a>|
 |[name](#name)|Name of the organization. The name is set when Microsoft CRM is installed and should not be changed.|<a href="Organization.md" target="_blank">applicationCommon/Organization</a>|

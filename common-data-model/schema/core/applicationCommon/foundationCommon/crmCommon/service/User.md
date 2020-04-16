@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/15/2020
+ms.date: 4/16/2020
 ms.author: nebanfic
 ---
 
@@ -14,14 +14,6 @@ ms.author: nebanfic
 Person with access to the Microsoft CRM system and who owns objects in the Microsoft CRM database.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json" target="_blank">GitHub</a>.  
-
-## Instances
-
-Instances of this entity are listed below.  
-
-- [/User.cdm.json/User](../../../User.md "/core/applicationCommon/User.cdm.json/User")  
-- [/foundationCommon/crmCommon/projectCommon/User](../projectCommon/User.md "/core/applicationCommon/foundationCommon/crmCommon/projectCommon/User.cdm.json/User")  
-- /crmCommon/service/User  
 
 ## Traits
 
@@ -51,7 +43,7 @@ Instances of this entity are listed below.
 
 ## Attributes
 
-|Name|Description|First Included in Instance|
+|Name|Description|First Included in Entity|
 |---|---|---|
 |[systemUserId](#systemUserId)|Unique identifier for the user.|<a href="User.md" target="_blank">service/User</a>|
 |[organizationId](#organizationId)|Unique identifier of the organization associated with the user.|<a href="User.md" target="_blank">service/User</a>|

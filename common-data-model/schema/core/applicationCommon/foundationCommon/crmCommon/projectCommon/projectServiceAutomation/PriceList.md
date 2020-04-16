@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/15/2020
+ms.date: 4/16/2020
 ms.author: nebanfic
 ---
 
@@ -14,13 +14,6 @@ ms.author: nebanfic
 Entity that defines pricing levels.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/PriceList.cdm.json" target="_blank">GitHub</a>.  
-
-## Instances
-
-Instances of this entity are listed below.  
-
-- [/foundationCommon/PriceList](../../../PriceList.md "/core/applicationCommon/foundationCommon/PriceList.cdm.json/PriceList")  
-- /crmCommon/projectCommon/projectServiceAutomation/PriceList  
 
 ## Traits
 
@@ -53,7 +46,7 @@ Instances of this entity are listed below.
 
 ## Attributes
 
-|Name|Description|First Included in Instance|
+|Name|Description|First Included in Entity|
 |---|---|---|
 |[priceLevelId](#priceLevelId)|Unique identifier of the price list.|<a href="PriceList.md" target="_blank">projectServiceAutomation/PriceList</a>|
 |[createdOn](#createdOn)|Date and time when the record was created.|<a href="PriceList.md" target="_blank">projectServiceAutomation/PriceList</a>|

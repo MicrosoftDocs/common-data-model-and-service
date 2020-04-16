@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/15/2020
+ms.date: 4/16/2020
 ms.author: nebanfic
 ---
 
@@ -15,12 +15,14 @@ Associates resources with their characteristics and specifies the proficiency le
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/BookableResourceCharacteristic.cdm.json" target="_blank">GitHub</a>.  
 
-## Instances
+## Entities inherited from this entity
 
-Instances of this entity are listed below.  
+<details>
+<summary>Entities that inherit from the currently viewed entity are listed below.  
+</summary>
 
-- /BookableResourceCharacteristic.cdm.json/BookableResourceCharacteristic  
 - [/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/BookableResourceCharacteristic](crmCommon/projectCommon/projectServiceAutomation/BookableResourceCharacteristic.md "/core/applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/BookableResourceCharacteristic.cdm.json/BookableResourceCharacteristic")  
+</details>
 
 ## Traits
 
@@ -53,7 +55,7 @@ Instances of this entity are listed below.
 
 ## Attributes
 
-|Name|Description|First Included in Instance|
+|Name|Description|First Included in Entity|
 |---|---|---|
 |[createdOn](#createdOn)|Date and time when the record was created.|<a href="BookableResourceCharacteristic.md" target="_blank">foundationCommon/BookableResourceCharacteristic</a>|
 |[createdBy](#createdBy)|Shows who created the record.|<a href="BookableResourceCharacteristic.md" target="_blank">foundationCommon/BookableResourceCharacteristic</a>|

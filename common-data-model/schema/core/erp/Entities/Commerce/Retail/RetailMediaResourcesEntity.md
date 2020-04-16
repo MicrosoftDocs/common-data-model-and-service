@@ -1,0 +1,547 @@
+---
+title: RetailMediaResourcesEntity - Common Data Model | Microsoft Docs
+description: undefined
+author: nenad1002
+ms.service: common-data-model
+ms.reviewer: deonhe
+ms.topic: article
+ms.date: 4/16/2020
+ms.author: nebanfic
+---
+
+# @Retail:MediaResourcesEntity
+
+  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/erp/Entities/Commerce/Retail/RetailMediaResourcesEntity.cdm.json" target="_blank">GitHub</a>.  
+
+## Traits
+
+<details>
+<summary>Traits for this entity are listed below.  
+</summary>
+
+**is.CDM.entityVersion**  
+  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.0.0"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
+
+**is.Application.releaseVersion**  
+  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>releaseVersion</td><td>"10.0.13.0"</td><td>string</td><td>semantic version number of the application introducing this entity</td></tr></table>
+
+**is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>@Retail:MediaResourcesEntity</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+</details>
+
+## Attributes
+
+|Name|Description|First Included in Entity|
+|---|---|---|
+|[ResourceId](#ResourceId)||<a href="RetailMediaResourcesEntity.md" target="_blank">Retail/RetailMediaResourcesEntity</a>|
+|[ResourceUrl](#ResourceUrl)||<a href="RetailMediaResourcesEntity.md" target="_blank">Retail/RetailMediaResourcesEntity</a>|
+|[isPartialUrl](#isPartialUrl)||<a href="RetailMediaResourcesEntity.md" target="_blank">Retail/RetailMediaResourcesEntity</a>|
+|[FileName](#FileName)||<a href="RetailMediaResourcesEntity.md" target="_blank">Retail/RetailMediaResourcesEntity</a>|
+|[Description](#Description)||<a href="RetailMediaResourcesEntity.md" target="_blank">Retail/RetailMediaResourcesEntity</a>|
+|[SizeInKilobytes](#SizeInKilobytes)||<a href="RetailMediaResourcesEntity.md" target="_blank">Retail/RetailMediaResourcesEntity</a>|
+|[InUse](#InUse)||<a href="RetailMediaResourcesEntity.md" target="_blank">Retail/RetailMediaResourcesEntity</a>|
+|[IsSecuredResource](#IsSecuredResource)||<a href="RetailMediaResourcesEntity.md" target="_blank">Retail/RetailMediaResourcesEntity</a>|
+|[SharedStorageId](#SharedStorageId)||<a href="RetailMediaResourcesEntity.md" target="_blank">Retail/RetailMediaResourcesEntity</a>|
+|[IsExternallyHosted](#IsExternallyHosted)||<a href="RetailMediaResourcesEntity.md" target="_blank">Retail/RetailMediaResourcesEntity</a>|
+|[ThumbnailUrl](#ThumbnailUrl)||<a href="RetailMediaResourcesEntity.md" target="_blank">Retail/RetailMediaResourcesEntity</a>|
+|[ThumbnailSharedStorageId](#ThumbnailSharedStorageId)||<a href="RetailMediaResourcesEntity.md" target="_blank">Retail/RetailMediaResourcesEntity</a>|
+|[SmallImageUrl](#SmallImageUrl)||<a href="RetailMediaResourcesEntity.md" target="_blank">Retail/RetailMediaResourcesEntity</a>|
+|[SmallImageSharedStorageId](#SmallImageSharedStorageId)||<a href="RetailMediaResourcesEntity.md" target="_blank">Retail/RetailMediaResourcesEntity</a>|
+|[Width](#Width)||<a href="RetailMediaResourcesEntity.md" target="_blank">Retail/RetailMediaResourcesEntity</a>|
+|[Height](#Height)||<a href="RetailMediaResourcesEntity.md" target="_blank">Retail/RetailMediaResourcesEntity</a>|
+|[IsCatalog](#IsCatalog)||<a href="RetailMediaResourcesEntity.md" target="_blank">Retail/RetailMediaResourcesEntity</a>|
+|[IsCategory](#IsCategory)||<a href="RetailMediaResourcesEntity.md" target="_blank">Retail/RetailMediaResourcesEntity</a>|
+|[IsCustomer](#IsCustomer)||<a href="RetailMediaResourcesEntity.md" target="_blank">Retail/RetailMediaResourcesEntity</a>|
+|[IsPos](#IsPos)||<a href="RetailMediaResourcesEntity.md" target="_blank">Retail/RetailMediaResourcesEntity</a>|
+|[IsProduct](#IsProduct)||<a href="RetailMediaResourcesEntity.md" target="_blank">Retail/RetailMediaResourcesEntity</a>|
+|[IsWorker](#IsWorker)||<a href="RetailMediaResourcesEntity.md" target="_blank">Retail/RetailMediaResourcesEntity</a>|
+|[InstanceRelationType](#InstanceRelationType)||<a href="RetailMediaResourcesEntity.md" target="_blank">Retail/RetailMediaResourcesEntity</a>|
+|[BackingTable_RetailMediaResourceRelationshipId](#BackingTable_RetailMediaResourceRelationshipId)||<a href="RetailMediaResourcesEntity.md" target="_blank">Retail/RetailMediaResourcesEntity</a>|
+
+### <a href=#ResourceId name="ResourceId">ResourceId</a>
+
+First included in: Retail/RetailMediaResourcesEntity (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the ResourceId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#ResourceUrl name="ResourceUrl">ResourceUrl</a>
+
+First included in: Retail/RetailMediaResourcesEntity (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the ResourceUrl attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#isPartialUrl name="isPartialUrl">isPartialUrl</a>
+
+First included in: Retail/RetailMediaResourcesEntity (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the isPartialUrl attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#FileName name="FileName">FileName</a>
+
+First included in: Retail/RetailMediaResourcesEntity (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the FileName attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#Description name="Description">Description</a>
+
+First included in: Retail/RetailMediaResourcesEntity (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the Description attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#SizeInKilobytes name="SizeInKilobytes">SizeInKilobytes</a>
+
+First included in: Retail/RetailMediaResourcesEntity (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the SizeInKilobytes attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#InUse name="InUse">InUse</a>
+
+First included in: Retail/RetailMediaResourcesEntity (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the InUse attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#IsSecuredResource name="IsSecuredResource">IsSecuredResource</a>
+
+First included in: Retail/RetailMediaResourcesEntity (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the IsSecuredResource attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#SharedStorageId name="SharedStorageId">SharedStorageId</a>
+
+First included in: Retail/RetailMediaResourcesEntity (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the SharedStorageId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#IsExternallyHosted name="IsExternallyHosted">IsExternallyHosted</a>
+
+First included in: Retail/RetailMediaResourcesEntity (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the IsExternallyHosted attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#ThumbnailUrl name="ThumbnailUrl">ThumbnailUrl</a>
+
+First included in: Retail/RetailMediaResourcesEntity (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the ThumbnailUrl attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#ThumbnailSharedStorageId name="ThumbnailSharedStorageId">ThumbnailSharedStorageId</a>
+
+First included in: Retail/RetailMediaResourcesEntity (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the ThumbnailSharedStorageId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#SmallImageUrl name="SmallImageUrl">SmallImageUrl</a>
+
+First included in: Retail/RetailMediaResourcesEntity (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the SmallImageUrl attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#SmallImageSharedStorageId name="SmallImageSharedStorageId">SmallImageSharedStorageId</a>
+
+First included in: Retail/RetailMediaResourcesEntity (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the SmallImageSharedStorageId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#Width name="Width">Width</a>
+
+First included in: Retail/RetailMediaResourcesEntity (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the Width attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#Height name="Height">Height</a>
+
+First included in: Retail/RetailMediaResourcesEntity (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the Height attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#IsCatalog name="IsCatalog">IsCatalog</a>
+
+First included in: Retail/RetailMediaResourcesEntity (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the IsCatalog attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#IsCategory name="IsCategory">IsCategory</a>
+
+First included in: Retail/RetailMediaResourcesEntity (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the IsCategory attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#IsCustomer name="IsCustomer">IsCustomer</a>
+
+First included in: Retail/RetailMediaResourcesEntity (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the IsCustomer attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#IsPos name="IsPos">IsPos</a>
+
+First included in: Retail/RetailMediaResourcesEntity (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the IsPos attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#IsProduct name="IsProduct">IsProduct</a>
+
+First included in: Retail/RetailMediaResourcesEntity (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the IsProduct attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#IsWorker name="IsWorker">IsWorker</a>
+
+First included in: Retail/RetailMediaResourcesEntity (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the IsWorker attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#InstanceRelationType name="InstanceRelationType">InstanceRelationType</a>
+
+First included in: Retail/RetailMediaResourcesEntity (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the InstanceRelationType attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#BackingTable_RetailMediaResourceRelationshipId name="BackingTable_RetailMediaResourceRelationshipId">BackingTable_RetailMediaResourceRelationshipId</a>
+
+First included in: Retail/RetailMediaResourcesEntity (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>6</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the BackingTable_RetailMediaResourceRelationshipId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.guid**  
+**means.identity.entityId**  
+**is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td>empty table</td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+**is.dataFormat.guid**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>

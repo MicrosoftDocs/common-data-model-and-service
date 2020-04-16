@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/15/2020
+ms.date: 4/16/2020
 ms.author: nebanfic
 ---
 
@@ -14,12 +14,6 @@ ms.author: nebanfic
 Sources for non embedded codelists  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/NonEmbeddedCodelistVocabulary.cdm.json" target="_blank">GitHub</a>.  
-
-## Instances
-
-Instances of this entity are listed below.  
-
-- /crmCommon/accelerators/nonProfit/nonProfitIati/NonEmbeddedCodelistVocabulary  
 
 ## Traits
 
@@ -52,7 +46,7 @@ Instances of this entity are listed below.
 
 ## Attributes
 
-|Name|Description|First Included in Instance|
+|Name|Description|First Included in Entity|
 |---|---|---|
 |[createdOn](#createdOn)|Date and time when the record was created.|<a href="NonEmbeddedCodelistVocabulary.md" target="_blank">nonProfitIati/NonEmbeddedCodelistVocabulary</a>|
 |[createdBy](#createdBy)|Unique identifier of the user who created the record.|<a href="NonEmbeddedCodelistVocabulary.md" target="_blank">nonProfitIati/NonEmbeddedCodelistVocabulary</a>|
@@ -850,7 +844,7 @@ First included in: nonProfitIati/NonEmbeddedCodelistVocabulary (this entity)
 
 **is.dataFormat.integer**  
 **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Activity Scope</td><td>453490000</td></tr><tr><td>en</td><td>Tied Status</td><td>453490032</td></tr><tr><td>en</td><td>Budget Identifier</td><td>453490013</td></tr><tr><td>en</td><td>Budget Not Provided</td><td>453490003</td></tr><tr><td>en</td><td>Collaboration Type</td><td>453490004</td></tr><tr><td>en</td><td>Condition Type</td><td>453490005</td></tr><tr><td>en</td><td>Contact Type</td><td>453490006</td></tr><tr><td>en</td><td>Country</td><td>453490007</td></tr><tr><td>en</td><td>CRS Additional Other Flags</td><td>453490002</td></tr><tr><td>en</td><td>CRS Channel</td><td>453490008</td></tr><tr><td>en</td><td>Description Type</td><td>453490009</td></tr><tr><td>en</td><td>Disbursement Channel</td><td>453490010</td></tr><tr><td>en</td><td>File Format</td><td>453490011</td></tr><tr><td>en</td><td>Finance Type</td><td>453490012</td></tr><tr><td>en</td><td>Flow Type</td><td>453490014</td></tr><tr><td>en</td><td>Geographic Exactness</td><td>453490015</td></tr><tr><td>en</td><td>Geographic Location</td><td>453490016</td></tr><tr><td>en</td><td>Geographic Location Class</td><td>453490017</td></tr><tr><td>en</td><td>Aid Type</td><td>453490001</td></tr><tr><td>en</td><td>Humanitarian Scope</td><td>453490019</td></tr><tr><td>en</td><td>Humanitarian Scope Type</td><td>453490020</td></tr><tr><td>en</td><td>Indicator</td><td>453490021</td></tr><tr><td>en</td><td>Indicator Measure</td><td>453490034</td></tr><tr><td>en</td><td>Language</td><td>453490022</td></tr><tr><td>en</td><td>Loan Repayment Period</td><td>453490036</td></tr><tr><td>en</td><td>Loan Repayment Type</td><td>453490035</td></tr><tr><td>en</td><td>Location Type</td><td>453490023</td></tr><tr><td>en</td><td>Organization Type</td><td>453490024</td></tr><tr><td>en</td><td>Other Identifier Type</td><td>453490025</td></tr><tr><td>en</td><td>Policy Marker</td><td>453490026</td></tr><tr><td>en</td><td>Policy Significance</td><td>453490027</td></tr><tr><td>en</td><td>Region</td><td>453490028</td></tr><tr><td>en</td><td>Result</td><td>453490029</td></tr><tr><td>en</td><td>Result Type</td><td>453490033</td></tr><tr><td>en</td><td>Sector</td><td>453490030</td></tr><tr><td>en</td><td>Tag</td><td>453490031</td></tr><tr><td>en</td><td>Geographic Location Reach</td><td>453490018</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Activity Scope</td><td>453490000</td></tr><tr><td>en</td><td>Aid Type</td><td>453490001</td></tr><tr><td>en</td><td>Budget Identifier</td><td>453490013</td></tr><tr><td>en</td><td>Budget Not Provided</td><td>453490003</td></tr><tr><td>en</td><td>Collaboration Type</td><td>453490004</td></tr><tr><td>en</td><td>Condition Type</td><td>453490005</td></tr><tr><td>en</td><td>Contact Type</td><td>453490006</td></tr><tr><td>en</td><td>Country</td><td>453490007</td></tr><tr><td>en</td><td>CRS Additional Other Flags</td><td>453490002</td></tr><tr><td>en</td><td>CRS Channel</td><td>453490008</td></tr><tr><td>en</td><td>Description Type</td><td>453490009</td></tr><tr><td>en</td><td>Disbursement Channel</td><td>453490010</td></tr><tr><td>en</td><td>File Format</td><td>453490011</td></tr><tr><td>en</td><td>Finance Type</td><td>453490012</td></tr><tr><td>en</td><td>Flow Type</td><td>453490014</td></tr><tr><td>en</td><td>Geographic Exactness</td><td>453490015</td></tr><tr><td>en</td><td>Geographic Location</td><td>453490016</td></tr><tr><td>en</td><td>Geographic Location Class</td><td>453490017</td></tr><tr><td>en</td><td>Geographic Location Reach</td><td>453490018</td></tr><tr><td>en</td><td>Humanitarian Scope</td><td>453490019</td></tr><tr><td>en</td><td>Humanitarian Scope Type</td><td>453490020</td></tr><tr><td>en</td><td>Indicator</td><td>453490021</td></tr><tr><td>en</td><td>Indicator Measure</td><td>453490034</td></tr><tr><td>en</td><td>Language</td><td>453490022</td></tr><tr><td>en</td><td>Loan Repayment Period</td><td>453490036</td></tr><tr><td>en</td><td>Loan Repayment Type</td><td>453490035</td></tr><tr><td>en</td><td>Location Type</td><td>453490023</td></tr><tr><td>en</td><td>Organization Type</td><td>453490024</td></tr><tr><td>en</td><td>Other Identifier Type</td><td>453490025</td></tr><tr><td>en</td><td>Policy Marker</td><td>453490026</td></tr><tr><td>en</td><td>Policy Significance</td><td>453490027</td></tr><tr><td>en</td><td>Region</td><td>453490028</td></tr><tr><td>en</td><td>Result</td><td>453490029</td></tr><tr><td>en</td><td>Result Type</td><td>453490033</td></tr><tr><td>en</td><td>Sector</td><td>453490030</td></tr><tr><td>en</td><td>Tag</td><td>453490031</td></tr><tr><td>en</td><td>Tied Status</td><td>453490032</td></tr></table></td><td>any</td><td></td></tr></table>
 
 **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  

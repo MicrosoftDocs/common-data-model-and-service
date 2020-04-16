@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/15/2020
+ms.date: 4/16/2020
 ms.author: nebanfic
 ---
 
@@ -14,12 +14,6 @@ ms.author: nebanfic
 Work item of a campaign activity, such as a list or sales literature.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/CampaignActivityItem.cdm.json" target="_blank">GitHub</a>.  
-
-## Instances
-
-Instances of this entity are listed below.  
-
-- /crmCommon/CampaignActivityItem  
 
 ## Traits
 
@@ -49,7 +43,7 @@ Instances of this entity are listed below.
 
 ## Attributes
 
-|Name|Description|First Included in Instance|
+|Name|Description|First Included in Entity|
 |---|---|---|
 |[campaignActivityItemId](#campaignActivityItemId)|Unique identifier of the campaign activity item.|<a href="CampaignActivityItem.md" target="_blank">crmCommon/CampaignActivityItem</a>|
 |[versionNumber](#versionNumber)|Version Number|<a href="CampaignActivityItem.md" target="_blank">crmCommon/CampaignActivityItem</a>|

@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/15/2020
+ms.date: 4/16/2020
 ms.author: nebanfic
 ---
 
@@ -15,12 +15,14 @@ A Budget represents the amount of funds that can be awarded for a particular del
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Budget.cdm.json" target="_blank">GitHub</a>.  
 
-## Instances
+## Entities inherited from this entity
 
-Instances of this entity are listed below.  
+<details>
+<summary>Entities that inherit from the currently viewed entity are listed below.  
+</summary>
 
-- /crmCommon/accelerators/nonProfit/nonProfitCore/Budget  
 - [/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Budget](../nonProfitIati/Budget.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Budget.cdm.json/Budget")  
+</details>
 
 ## Traits
 
@@ -53,7 +55,7 @@ Instances of this entity are listed below.
 
 ## Attributes
 
-|Name|Description|First Included in Instance|
+|Name|Description|First Included in Entity|
 |---|---|---|
 |[createdOn](#createdOn)|Date and time when the record was created.|<a href="Budget.md" target="_blank">nonProfitCore/Budget</a>|
 |[createdBy](#createdBy)|Unique identifier of the user who created the record.|<a href="Budget.md" target="_blank">nonProfitCore/Budget</a>|

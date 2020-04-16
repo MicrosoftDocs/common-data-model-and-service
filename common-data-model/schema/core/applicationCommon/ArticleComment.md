@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/15/2020
+ms.date: 4/16/2020
 ms.author: nebanfic
 ---
 
@@ -14,12 +14,6 @@ ms.author: nebanfic
 Comment on a knowledge base article.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/ArticleComment.cdm.json" target="_blank">GitHub</a>.  
-
-## Instances
-
-Instances of this entity are listed below.  
-
-- /ArticleComment  
 
 ## Traits
 
@@ -49,7 +43,7 @@ Instances of this entity are listed below.
 
 ## Attributes
 
-|Name|Description|First Included in Instance|
+|Name|Description|First Included in Entity|
 |---|---|---|
 |[kbArticleCommentId](#kbArticleCommentId)|Unique identifier of the knowledge base article comment.|<a href="ArticleComment.md" target="_blank">applicationCommon/ArticleComment</a>|
 |[kbArticleId](#kbArticleId)|Unique identifier of the knowledge base article to which the comment applies.|<a href="ArticleComment.md" target="_blank">applicationCommon/ArticleComment</a>|

@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/15/2020
+ms.date: 4/16/2020
 ms.author: nebanfic
 ---
 
@@ -14,13 +14,6 @@ ms.author: nebanfic
 Container for feedback and ratings for knowledge articles.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Feedback.cdm.json" target="_blank">GitHub</a>.  
-
-## Instances
-
-Instances of this entity are listed below.  
-
-- [/Feedback.cdm.json/Feedback](../../../../Feedback.md "/core/applicationCommon/Feedback.cdm.json/Feedback")  
-- /crmCommon/solutions/portals/Feedback  
 
 ## Traits
 
@@ -53,7 +46,7 @@ Instances of this entity are listed below.
 
 ## Attributes
 
-|Name|Description|First Included in Instance|
+|Name|Description|First Included in Entity|
 |---|---|---|
 |[feedbackId](#feedbackId)|FeedbackId|<a href="Feedback.md" target="_blank">portals/Feedback</a>|
 |[rating](#rating)|Specifies how helpful the related record was.|<a href="Feedback.md" target="_blank">portals/Feedback</a>|

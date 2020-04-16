@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/15/2020
+ms.date: 4/16/2020
 ms.author: nebanfic
 ---
 
@@ -14,12 +14,6 @@ ms.author: nebanfic
 An enriched telemetry signal from a product, service or device.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/productInsights/Signal.cdm.json" target="_blank">GitHub</a>.  
-
-## Instances
-
-Instances of this entity are listed below.  
-
-- /productInsights/Signal  
 
 ## Traits
 
@@ -43,7 +37,7 @@ Instances of this entity are listed below.
 
 ## Attributes
 
-|Name|Description|First Included in Instance|
+|Name|Description|First Included in Entity|
 |---|---|---|
 |[signalTime](#signalTime)|DateTime signal was sent from device. DateTime value stored as UTC. Field is required.|<a href="Signal.md" target="_blank">productInsights/Signal</a>|
 |[timezone](#timezone)|Timezone as captured from signal during ingestion. Server stores timezone as specified on signal.timestamp, unless device directly specifies this value.|<a href="Signal.md" target="_blank">productInsights/Signal</a>|

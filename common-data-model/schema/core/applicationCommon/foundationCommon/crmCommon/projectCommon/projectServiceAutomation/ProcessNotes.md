@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/15/2020
+ms.date: 4/16/2020
 ms.author: nebanfic
 ---
 
@@ -14,12 +14,6 @@ ms.author: nebanfic
 Stores messages or notes relevant to an operation or process executed by an entity.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/ProcessNotes.cdm.json" target="_blank">GitHub</a>.  
-
-## Instances
-
-Instances of this entity are listed below.  
-
-- /crmCommon/projectCommon/projectServiceAutomation/ProcessNotes  
 
 ## Traits
 
@@ -52,7 +46,7 @@ Instances of this entity are listed below.
 
 ## Attributes
 
-|Name|Description|First Included in Instance|
+|Name|Description|First Included in Entity|
 |---|---|---|
 |[processNotesId](#processNotesId)|Unique identifier for entity instances|<a href="ProcessNotes.md" target="_blank">projectServiceAutomation/ProcessNotes</a>|
 |[createdOn](#createdOn)|Date and time when the record was created.|<a href="ProcessNotes.md" target="_blank">projectServiceAutomation/ProcessNotes</a>|

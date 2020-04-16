@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/15/2020
+ms.date: 4/16/2020
 ms.author: nebanfic
 ---
 
@@ -14,17 +14,6 @@ ms.author: nebanfic
 Potential revenue-generating event, or sale to an account, which needs to be tracked through a sales process to completion.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/Opportunity.cdm.json" target="_blank">GitHub</a>.  
-
-## Instances
-
-Instances of this entity are listed below.  
-
-- [/foundationCommon/crmCommon/accelerators/financialServices/banking/Opportunity](../../accelerators/financialServices/banking/Opportunity.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/Opportunity.cdm.json/Opportunity")  
-- [/foundationCommon/crmCommon/sales/Opportunity](../../sales/Opportunity.md "/core/applicationCommon/foundationCommon/crmCommon/sales/Opportunity.cdm.json/Opportunity")  
-- [/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/Opportunity](../../accelerators/nonProfit/nonProfitForSales/Opportunity.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/Opportunity.cdm.json/Opportunity")  
-- [/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Opportunity](../../accelerators/nonProfit/nonProfitIati/Opportunity.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Opportunity.cdm.json/Opportunity")  
-- /crmCommon/projectCommon/projectServiceAutomation/Opportunity  
-- [/foundationCommon/crmCommon/solutions/portals/Opportunity](../../solutions/portals/Opportunity.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Opportunity.cdm.json/Opportunity")  
 
 ## Traits
 
@@ -57,7 +46,7 @@ Instances of this entity are listed below.
 
 ## Attributes
 
-|Name|Description|First Included in Instance|
+|Name|Description|First Included in Entity|
 |---|---|---|
 |[createdOn](#createdOn)|Date and time when the record was created.|<a href="Opportunity.md" target="_blank">projectServiceAutomation/Opportunity</a>|
 |[createdBy](#createdBy)|Unique identifier of the user who created the record.|<a href="Opportunity.md" target="_blank">projectServiceAutomation/Opportunity</a>|

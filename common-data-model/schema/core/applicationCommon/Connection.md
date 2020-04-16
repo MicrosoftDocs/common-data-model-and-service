@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/15/2020
+ms.date: 4/16/2020
 ms.author: nebanfic
 ---
 
@@ -15,12 +15,14 @@ Relationship between two entities.
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/Connection.cdm.json" target="_blank">GitHub</a>.  
 
-## Instances
+## Entities inherited from this entity
 
-Instances of this entity are listed below.  
+<details>
+<summary>Entities that inherit from the currently viewed entity are listed below.  
+</summary>
 
-- /Connection  
 - [/foundationCommon/crmCommon/solutions/marketing/Connection](foundationCommon/crmCommon/solutions/marketing/Connection.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Connection.cdm.json/Connection")  
+</details>
 
 ## Traits
 
@@ -53,7 +55,7 @@ Instances of this entity are listed below.
 
 ## Attributes
 
-|Name|Description|First Included in Instance|
+|Name|Description|First Included in Entity|
 |---|---|---|
 |[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="Connection.md" target="_blank">applicationCommon/Connection</a>|
 |[owningUser](#owningUser)|Unique identifier of the user who owns the connection.|<a href="Connection.md" target="_blank">applicationCommon/Connection</a>|

@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/15/2020
+ms.date: 4/16/2020
 ms.author: nebanfic
 ---
 
@@ -14,12 +14,6 @@ ms.author: nebanfic
 The collection of all accounts making up the central repository of accounting data for a company.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/financialCommon/Ledger.cdm.json" target="_blank">GitHub</a>.  
-
-## Instances
-
-Instances of this entity are listed below.  
-
-- /financialCommon/Ledger  
 
 ## Traits
 
@@ -46,7 +40,7 @@ Instances of this entity are listed below.
 
 ## Attributes
 
-|Name|Description|First Included in Instance|
+|Name|Description|First Included in Entity|
 |---|---|---|
 |[ledgerId](#ledgerId)|The surrogate key of the ledger record|<a href="Ledger.md" target="_blank">financialCommon/Ledger</a>|
 |[name](#name)|The user-readable name of the ledger|<a href="Ledger.md" target="_blank">financialCommon/Ledger</a>|

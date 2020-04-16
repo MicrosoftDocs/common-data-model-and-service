@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/15/2020
+ms.date: 4/16/2020
 ms.author: nebanfic
 ---
 
@@ -15,13 +15,15 @@ A planned gift is a gift made during a donor's lifetime or at the time of their 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/PlannedGiving.cdm.json" target="_blank">GitHub</a>.  
 
-## Instances
+## Entities inherited from this entity
 
-Instances of this entity are listed below.  
+<details>
+<summary>Entities that inherit from the currently viewed entity are listed below.  
+</summary>
 
-- /crmCommon/accelerators/nonProfit/nonProfitCore/PlannedGiving  
 - [/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/PlannedGiving](../nonProfitForSales/PlannedGiving.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/PlannedGiving.cdm.json/PlannedGiving")  
 - [/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/PlannedGiving](../nonProfitIati/PlannedGiving.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/PlannedGiving.cdm.json/PlannedGiving")  
+</details>
 
 ## Traits
 
@@ -54,7 +56,7 @@ Instances of this entity are listed below.
 
 ## Attributes
 
-|Name|Description|First Included in Instance|
+|Name|Description|First Included in Entity|
 |---|---|---|
 |[createdOn](#createdOn)|Date and time when the record was created.|<a href="PlannedGiving.md" target="_blank">nonProfitCore/PlannedGiving</a>|
 |[createdBy](#createdBy)|Unique identifier of the user who created the record.|<a href="PlannedGiving.md" target="_blank">nonProfitCore/PlannedGiving</a>|

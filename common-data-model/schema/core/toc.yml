@@ -1542,270 +1542,704 @@
     items:
     - name: Summary
       href: erp/Entities/overview.md
-    - name: System
+    - name: Commerce
       items:
       - name: Summary
-        href: erp/Entities/System/overview.md
-      - name: OrganizationAdministration
+        href: erp/Entities/Commerce/overview.md
+      - name: Retail
         items:
         - name: Summary
-          href: erp/Entities/System/OrganizationAdministration/overview.md
-        - name: EmailTemplateMessageOrganizationEntity 
-          href: erp/Entities/System/OrganizationAdministration/EmailTemplateMessageOrganizationEntity.md
-        - name: EmailTemplateOrganizationEntity 
-          href: erp/Entities/System/OrganizationAdministration/EmailTemplateOrganizationEntity.md
-      - name: SystemAdministration
-        items:
-        - name: Summary
-          href: erp/Entities/System/SystemAdministration/overview.md
-        - name: BIDateGregorianEntity 
-          href: erp/Entities/System/SystemAdministration/BIDateGregorianEntity.md
-        - name: BatchGroupEntity 
-          href: erp/Entities/System/SystemAdministration/BatchGroupEntity.md
-        - name: BatchJobEntity 
-          href: erp/Entities/System/SystemAdministration/BatchJobEntity.md
-        - name: BatchJobHistoryEntity 
-          href: erp/Entities/System/SystemAdministration/BatchJobHistoryEntity.md
-        - name: BatchServerScheduleEntity 
-          href: erp/Entities/System/SystemAdministration/BatchServerScheduleEntity.md
-        - name: BrazilParametersEntity 
-          href: erp/Entities/System/SystemAdministration/BrazilParametersEntity.md
-        - name: BrazilianElectronicReportingParametersEntity 
-          href: erp/Entities/System/SystemAdministration/BrazilianElectronicReportingParametersEntity.md
-        - name: CaseAssociationEntity 
-          href: erp/Entities/System/SystemAdministration/CaseAssociationEntity.md
-        - name: CaseDependencyEntity 
-          href: erp/Entities/System/SystemAdministration/CaseDependencyEntity.md
-        - name: CaseDetailBaseEntity 
-          href: erp/Entities/System/SystemAdministration/CaseDetailBaseEntity.md
-        - name: CityHolidayEntity 
-          href: erp/Entities/System/SystemAdministration/CityHolidayEntity.md
-        - name: ConfiguratorDefinitionGroupEntity 
-          href: erp/Entities/System/SystemAdministration/ConfiguratorDefinitionGroupEntity.md
-        - name: ConfiguratorDefinitionGroupFieldEntity 
-          href: erp/Entities/System/SystemAdministration/ConfiguratorDefinitionGroupFieldEntity.md
-        - name: ConfiguratorDefinitionGroupFieldRangeEntity 
-          href: erp/Entities/System/SystemAdministration/ConfiguratorDefinitionGroupFieldRangeEntity.md
-        - name: ConfiguratorDefinitionGroupSortOrderEntity 
-          href: erp/Entities/System/SystemAdministration/ConfiguratorDefinitionGroupSortOrderEntity.md
-        - name: ConfiguratorDefinitionGroupSummationEntity 
-          href: erp/Entities/System/SystemAdministration/ConfiguratorDefinitionGroupSummationEntity.md
-        - name: ConfiguratorDefinitionGroupTableEntity 
-          href: erp/Entities/System/SystemAdministration/ConfiguratorDefinitionGroupTableEntity.md
-        - name: ConfiguratorDefinitionGroupTableRelationEntity 
-          href: erp/Entities/System/SystemAdministration/ConfiguratorDefinitionGroupTableRelationEntity.md
-        - name: ConfiguratorLayoutFieldEntity 
-          href: erp/Entities/System/SystemAdministration/ConfiguratorLayoutFieldEntity.md
-        - name: ConfiguratorLayoutGroupEntity 
-          href: erp/Entities/System/SystemAdministration/ConfiguratorLayoutGroupEntity.md
-        - name: ConfiguratorLayoutLinesEntity 
-          href: erp/Entities/System/SystemAdministration/ConfiguratorLayoutLinesEntity.md
-        - name: CurrencyEntity 
-          href: erp/Entities/System/SystemAdministration/CurrencyEntity.md
-        - name: CurrencyISOCodeEntity 
-          href: erp/Entities/System/SystemAdministration/CurrencyISOCodeEntity.md
-        - name: CurrencyRevaluationAccountV2Entity 
-          href: erp/Entities/System/SystemAdministration/CurrencyRevaluationAccountV2Entity.md
-        - name: DMFDefinitionGroupTemplateHeaderEntity 
-          href: erp/Entities/System/SystemAdministration/DMFDefinitionGroupTemplateHeaderEntity.md
-        - name: DMFDefinitionGroupTemplateLineEntity 
-          href: erp/Entities/System/SystemAdministration/DMFDefinitionGroupTemplateLineEntity.md
-        - name: DataManagementDefinitionGroupDetailEntity 
-          href: erp/Entities/System/SystemAdministration/DataManagementDefinitionGroupDetailEntity.md
-        - name: DataManagementDefinitionGroupEntity 
-          href: erp/Entities/System/SystemAdministration/DataManagementDefinitionGroupEntity.md
-        - name: DataManagementEntity 
-          href: erp/Entities/System/SystemAdministration/DataManagementEntity.md
-        - name: DataManagementExecutionJobDetailEntity 
-          href: erp/Entities/System/SystemAdministration/DataManagementExecutionJobDetailEntity.md
-        - name: DataManagementExecutionJobEntity 
-          href: erp/Entities/System/SystemAdministration/DataManagementExecutionJobEntity.md
-        - name: DataManagementTargetMapEntity 
-          href: erp/Entities/System/SystemAdministration/DataManagementTargetMapEntity.md
-        - name: DataManagementTemplateDetailEntity 
-          href: erp/Entities/System/SystemAdministration/DataManagementTemplateDetailEntity.md
-        - name: DataManagementTemplateEntity 
-          href: erp/Entities/System/SystemAdministration/DataManagementTemplateEntity.md
-        - name: DataManagementTemplateSourceDependencyEntity 
-          href: erp/Entities/System/SystemAdministration/DataManagementTemplateSourceDependencyEntity.md
-        - name: DataManagementTemplateSourceEntity 
-          href: erp/Entities/System/SystemAdministration/DataManagementTemplateSourceEntity.md
-        - name: DemoDataPostEntity 
-          href: erp/Entities/System/SystemAdministration/DemoDataPostEntity.md
-        - name: DirPartyCDSEntity 
-          href: erp/Entities/System/SystemAdministration/DirPartyCDSEntity.md
-        - name: DocuEnabledTableEntity 
-          href: erp/Entities/System/SystemAdministration/DocuEnabledTableEntity.md
-        - name: DocuFileTypesEntity 
-          href: erp/Entities/System/SystemAdministration/DocuFileTypesEntity.md
-        - name: DocuParametersEntity 
-          href: erp/Entities/System/SystemAdministration/DocuParametersEntity.md
-        - name: DocuRefEntity 
-          href: erp/Entities/System/SystemAdministration/DocuRefEntity.md
-        - name: DocuTypeEntity 
-          href: erp/Entities/System/SystemAdministration/DocuTypeEntity.md
-        - name: DocumentRoutingClientAppEntity 
-          href: erp/Entities/System/SystemAdministration/DocumentRoutingClientAppEntity.md
-        - name: DocumentRoutingJobEntity 
-          href: erp/Entities/System/SystemAdministration/DocumentRoutingJobEntity.md
-        - name: DocumentRoutingPrinterEntity 
-          href: erp/Entities/System/SystemAdministration/DocumentRoutingPrinterEntity.md
-        - name: EFDocEmailAccountConfigurationEntity 
-          href: erp/Entities/System/SystemAdministration/EFDocEmailAccountConfigurationEntity.md
-        - name: EcoResProductCDSCategoryAssignmentV2Entity 
-          href: erp/Entities/System/SystemAdministration/EcoResProductCDSCategoryAssignmentV2Entity.md
-        - name: EmailTemplateMessageSystemEntity 
-          href: erp/Entities/System/SystemAdministration/EmailTemplateMessageSystemEntity.md
-        - name: EmailTemplateSystemEntity 
-          href: erp/Entities/System/SystemAdministration/EmailTemplateSystemEntity.md
-        - name: ExchangeRateEntity 
-          href: erp/Entities/System/SystemAdministration/ExchangeRateEntity.md
-        - name: ExchangeRateTypeEntity 
-          href: erp/Entities/System/SystemAdministration/ExchangeRateTypeEntity.md
-        - name: GBTParametersEntity 
-          href: erp/Entities/System/SystemAdministration/GBTParametersEntity.md
-        - name: MeasurementCategoryEnabledModuleEntity 
-          href: erp/Entities/System/SystemAdministration/MeasurementCategoryEnabledModuleEntity.md
-        - name: MeasurementSourceSystemEntity 
-          href: erp/Entities/System/SystemAdministration/MeasurementSourceSystemEntity.md
-        - name: NumberSequenceDataTypeEntity 
-          href: erp/Entities/System/SystemAdministration/NumberSequenceDataTypeEntity.md
-        - name: NumberSequenceEntity 
-          href: erp/Entities/System/SystemAdministration/NumberSequenceEntity.md
-        - name: NumberSequenceGroupEntity 
-          href: erp/Entities/System/SystemAdministration/NumberSequenceGroupEntity.md
-        - name: NumberSequenceTableEntity 
-          href: erp/Entities/System/SystemAdministration/NumberSequenceTableEntity.md
-        - name: NumberSequenceTableV2Entity 
-          href: erp/Entities/System/SystemAdministration/NumberSequenceTableV2Entity.md
-        - name: NumberSequencesReferenceEntity 
-          href: erp/Entities/System/SystemAdministration/NumberSequencesReferenceEntity.md
-        - name: OfficeAddinLegalEntityEntity 
-          href: erp/Entities/System/SystemAdministration/OfficeAddinLegalEntityEntity.md
-        - name: OfficeAppAppletRegistrationEntity 
-          href: erp/Entities/System/SystemAdministration/OfficeAppAppletRegistrationEntity.md
-        - name: OfficeAppResourceRegistrationEntity 
-          href: erp/Entities/System/SystemAdministration/OfficeAppResourceRegistrationEntity.md
-        - name: OfficialsTableDataEntity 
-          href: erp/Entities/System/SystemAdministration/OfficialsTableDataEntity.md
-        - name: OfficialsTransDataEntity 
-          href: erp/Entities/System/SystemAdministration/OfficialsTransDataEntity.md
-        - name: PowerBIConfigurationEntity 
-          href: erp/Entities/System/SystemAdministration/PowerBIConfigurationEntity.md
-        - name: PowerBIFormControlBindingEntity 
-          href: erp/Entities/System/SystemAdministration/PowerBIFormControlBindingEntity.md
-        - name: RegNumIssuerEntity 
-          href: erp/Entities/System/SystemAdministration/RegNumIssuerEntity.md
-        - name: SysEmailParametersEntity 
-          href: erp/Entities/System/SystemAdministration/SysEmailParametersEntity.md
-        - name: SysPolicyEntity 
-          href: erp/Entities/System/SystemAdministration/SysPolicyEntity.md
-        - name: SysPolicyInternalOrganizationAssignmentEntity 
-          href: erp/Entities/System/SystemAdministration/SysPolicyInternalOrganizationAssignmentEntity.md
-        - name: SysPolicyOrganizationEntity 
-          href: erp/Entities/System/SystemAdministration/SysPolicyOrganizationEntity.md
-        - name: SysPolicyRuleTypeEntity 
-          href: erp/Entities/System/SystemAdministration/SysPolicyRuleTypeEntity.md
-        - name: SysPolicyTypeEntity 
-          href: erp/Entities/System/SystemAdministration/SysPolicyTypeEntity.md
-        - name: SysServerClusterConfigurationEntity 
-          href: erp/Entities/System/SystemAdministration/SysServerClusterConfigurationEntity.md
-        - name: SysServerConfigurationEntity 
-          href: erp/Entities/System/SystemAdministration/SysServerConfigurationEntity.md
-        - name: SystemGlobalConfigurationEntity 
-          href: erp/Entities/System/SystemAdministration/SystemGlobalConfigurationEntity.md
-        - name: SystemGroupEntity 
-          href: erp/Entities/System/SystemAdministration/SystemGroupEntity.md
-        - name: SystemParametersEntity 
-          href: erp/Entities/System/SystemAdministration/SystemParametersEntity.md
-        - name: SystemSecurityDutyCustomizationsEntity 
-          href: erp/Entities/System/SystemAdministration/SystemSecurityDutyCustomizationsEntity.md
-        - name: SystemSecurityDutyEntity 
-          href: erp/Entities/System/SystemAdministration/SystemSecurityDutyEntity.md
-        - name: SystemSecurityDutyV2Entity 
-          href: erp/Entities/System/SystemAdministration/SystemSecurityDutyV2Entity.md
-        - name: SystemSecurityPermissionEntity 
-          href: erp/Entities/System/SystemAdministration/SystemSecurityPermissionEntity.md
-        - name: SystemSecurityPrivilegeCustomizationsEntity 
-          href: erp/Entities/System/SystemAdministration/SystemSecurityPrivilegeCustomizationsEntity.md
-        - name: SystemSecurityPrivilegeEntity 
-          href: erp/Entities/System/SystemAdministration/SystemSecurityPrivilegeEntity.md
-        - name: SystemSecurityRoleCustomizationsEntity 
-          href: erp/Entities/System/SystemAdministration/SystemSecurityRoleCustomizationsEntity.md
-        - name: SystemSecurityRoleDutyEntity 
-          href: erp/Entities/System/SystemAdministration/SystemSecurityRoleDutyEntity.md
-        - name: SystemSecurityRoleEntity 
-          href: erp/Entities/System/SystemAdministration/SystemSecurityRoleEntity.md
-        - name: SystemSecuritySubRoleEntity 
-          href: erp/Entities/System/SystemAdministration/SystemSecuritySubRoleEntity.md
-        - name: SystemSecurityUserRoleAssociationEntity 
-          href: erp/Entities/System/SystemAdministration/SystemSecurityUserRoleAssociationEntity.md
-        - name: SystemSecurityUserRoleEntity 
-          href: erp/Entities/System/SystemAdministration/SystemSecurityUserRoleEntity.md
-        - name: SystemSegregationOfDutiesConflictEntity 
-          href: erp/Entities/System/SystemAdministration/SystemSegregationOfDutiesConflictEntity.md
-        - name: SystemSegregationOfDutiesRuleEntity 
-          href: erp/Entities/System/SystemAdministration/SystemSegregationOfDutiesRuleEntity.md
-        - name: SystemUserEntity 
-          href: erp/Entities/System/SystemAdministration/SystemUserEntity.md
-        - name: SystemUserGroupEntity 
-          href: erp/Entities/System/SystemAdministration/SystemUserGroupEntity.md
-        - name: SystemUserGroupUserListEntity 
-          href: erp/Entities/System/SystemAdministration/SystemUserGroupUserListEntity.md
-      - name: Workflow
-        items:
-        - name: Summary
-          href: erp/Entities/System/Workflow/overview.md
-        - name: ExpressionEntity 
-          href: erp/Entities/System/Workflow/ExpressionEntity.md
-        - name: WorkflowElementActionEntity 
-          href: erp/Entities/System/Workflow/WorkflowElementActionEntity.md
-        - name: WorkflowElementEntity 
-          href: erp/Entities/System/Workflow/WorkflowElementEntity.md
-        - name: WorkflowElementLinkEntity 
-          href: erp/Entities/System/Workflow/WorkflowElementLinkEntity.md
-        - name: WorkflowElementNotificationEntity 
-          href: erp/Entities/System/Workflow/WorkflowElementNotificationEntity.md
-        - name: WorkflowElementNotificationMessageEntity 
-          href: erp/Entities/System/Workflow/WorkflowElementNotificationMessageEntity.md
-        - name: WorkflowElementOutcomeMessageEntity 
-          href: erp/Entities/System/Workflow/WorkflowElementOutcomeMessageEntity.md
-        - name: WorkflowEscalationPathEntity 
-          href: erp/Entities/System/Workflow/WorkflowEscalationPathEntity.md
-        - name: WorkflowLineItemEntity 
-          href: erp/Entities/System/Workflow/WorkflowLineItemEntity.md
-        - name: WorkflowParallelBranchEntity 
-          href: erp/Entities/System/Workflow/WorkflowParallelBranchEntity.md
-        - name: WorkflowParametersOrganizationEntity 
-          href: erp/Entities/System/Workflow/WorkflowParametersOrganizationEntity.md
-        - name: WorkflowParametersSystemEntity 
-          href: erp/Entities/System/Workflow/WorkflowParametersSystemEntity.md
-        - name: WorkflowStepEntity 
-          href: erp/Entities/System/Workflow/WorkflowStepEntity.md
-        - name: WorkflowStepMessageEntity 
-          href: erp/Entities/System/Workflow/WorkflowStepMessageEntity.md
-        - name: WorkflowSubworkflowEntity 
-          href: erp/Entities/System/Workflow/WorkflowSubworkflowEntity.md
-        - name: WorkflowVersionEntity 
-          href: erp/Entities/System/Workflow/WorkflowVersionEntity.md
-        - name: WorkflowVersionNotesEntity 
-          href: erp/Entities/System/Workflow/WorkflowVersionNotesEntity.md
-        - name: WorkflowVersionNotificationEntity 
-          href: erp/Entities/System/Workflow/WorkflowVersionNotificationEntity.md
-        - name: WorkflowVersionNotificationMessageEntity 
-          href: erp/Entities/System/Workflow/WorkflowVersionNotificationMessageEntity.md
-        - name: WorkflowWorkItemQueueAssigneeEntity 
-          href: erp/Entities/System/Workflow/WorkflowWorkItemQueueAssigneeEntity.md
-        - name: WorkflowWorkItemQueueAssignmentEntity 
-          href: erp/Entities/System/Workflow/WorkflowWorkItemQueueAssignmentEntity.md
-        - name: WorkflowWorkItemQueueAssignmentRuleEntity 
-          href: erp/Entities/System/Workflow/WorkflowWorkItemQueueAssignmentRuleEntity.md
-        - name: WorkflowWorkItemQueueEntity 
-          href: erp/Entities/System/Workflow/WorkflowWorkItemQueueEntity.md
-        - name: WorkflowWorkItemQueueGroupEntity 
-          href: erp/Entities/System/Workflow/WorkflowWorkItemQueueGroupEntity.md
-        - name: WorkflowWorkItemQueueGroupRelationEntity 
-          href: erp/Entities/System/Workflow/WorkflowWorkItemQueueGroupRelationEntity.md
+          href: erp/Entities/Commerce/Retail/overview.md
+        - name: AdvancedLedgerEntryEntity 
+          href: erp/Entities/Commerce/Retail/AdvancedLedgerEntryEntity.md
+        - name: BarcodeSetupEntity 
+          href: erp/Entities/Commerce/Retail/BarcodeSetupEntity.md
+        - name: ChargeOverrideHistoryEntity 
+          href: erp/Entities/Commerce/Retail/ChargeOverrideHistoryEntity.md
+        - name: DimAttributeRetailChannelEntity 
+          href: erp/Entities/Commerce/Retail/DimAttributeRetailChannelEntity.md
+        - name: DimAttributeRetailStoreEntity 
+          href: erp/Entities/Commerce/Retail/DimAttributeRetailStoreEntity.md
+        - name: DimAttributeRetailTerminalEntity 
+          href: erp/Entities/Commerce/Retail/DimAttributeRetailTerminalEntity.md
+        - name: EcoResProductBarcodeEntity 
+          href: erp/Entities/Commerce/Retail/EcoResProductBarcodeEntity.md
+        - name: EcoResProductNumberIdentifiedBarcodeEntity 
+          href: erp/Entities/Commerce/Retail/EcoResProductNumberIdentifiedBarcodeEntity.md
+        - name: MCRCatalogRequestEntity 
+          href: erp/Entities/Commerce/Retail/MCRCatalogRequestEntity.md
+        - name: MCRChannelUserEntity 
+          href: erp/Entities/Commerce/Retail/MCRChannelUserEntity.md
+        - name: MCRCriteriaBasedPickingWorkbenchProfileEntity 
+          href: erp/Entities/Commerce/Retail/MCRCriteriaBasedPickingWorkbenchProfileEntity.md
+        - name: MCRCriteriaEntity 
+          href: erp/Entities/Commerce/Retail/MCRCriteriaEntity.md
+        - name: MCRExpediteCodeEntity 
+          href: erp/Entities/Commerce/Retail/MCRExpediteCodeEntity.md
+        - name: MCRPackagingBoxTypeEntity 
+          href: erp/Entities/Commerce/Retail/MCRPackagingBoxTypeEntity.md
+        - name: MCRProductSearchParametersEntity 
+          href: erp/Entities/Commerce/Retail/MCRProductSearchParametersEntity.md
+        - name: MCRReqPlanContinuityEntity 
+          href: erp/Entities/Commerce/Retail/MCRReqPlanContinuityEntity.md
+        - name: MCRScriptEntity 
+          href: erp/Entities/Commerce/Retail/MCRScriptEntity.md
+        - name: MCRSourceCodeEntity 
+          href: erp/Entities/Commerce/Retail/MCRSourceCodeEntity.md
+        - name: MCRUpSellCrossSellVariableEntity 
+          href: erp/Entities/Commerce/Retail/MCRUpSellCrossSellVariableEntity.md
+        - name: RetailAffiliationEntity 
+          href: erp/Entities/Commerce/Retail/RetailAffiliationEntity.md
+        - name: RetailAffiliationPriceGroupEntity 
+          href: erp/Entities/Commerce/Retail/RetailAffiliationPriceGroupEntity.md
+        - name: RetailAffiliationTranslationEntity 
+          href: erp/Entities/Commerce/Retail/RetailAffiliationTranslationEntity.md
+        - name: RetailAssortmentChannelLineEntity 
+          href: erp/Entities/Commerce/Retail/RetailAssortmentChannelLineEntity.md
+        - name: RetailAssortmentEntity 
+          href: erp/Entities/Commerce/Retail/RetailAssortmentEntity.md
+        - name: RetailAssortmentLookupChannelGroupEntity 
+          href: erp/Entities/Commerce/Retail/RetailAssortmentLookupChannelGroupEntity.md
+        - name: RetailAssortmentProductLineEntity 
+          href: erp/Entities/Commerce/Retail/RetailAssortmentProductLineEntity.md
+        - name: RetailAttributeMetadataEntity 
+          href: erp/Entities/Commerce/Retail/RetailAttributeMetadataEntity.md
+        - name: RetailAttributesGlobalLookupEntity 
+          href: erp/Entities/Commerce/Retail/RetailAttributesGlobalLookupEntity.md
+        - name: RetailAttributesLegalEntityLookupEntity 
+          href: erp/Entities/Commerce/Retail/RetailAttributesLegalEntityLookupEntity.md
+        - name: RetailBarcodeMaskCharacterEntity 
+          href: erp/Entities/Commerce/Retail/RetailBarcodeMaskCharacterEntity.md
+        - name: RetailBarcodeMaskEntity 
+          href: erp/Entities/Commerce/Retail/RetailBarcodeMaskEntity.md
+        - name: RetailBarcodeMaskSegmentEntity 
+          href: erp/Entities/Commerce/Retail/RetailBarcodeMaskSegmentEntity.md
+        - name: RetailButtonGridButtonsEntity 
+          href: erp/Entities/Commerce/Retail/RetailButtonGridButtonsEntity.md
+        - name: RetailButtonGridButtonsImagesDataSet 
+          href: erp/Entities/Commerce/Retail/RetailButtonGridButtonsImagesDataSet.md
+        - name: RetailButtonGridEntity 
+          href: erp/Entities/Commerce/Retail/RetailButtonGridEntity.md
+        - name: RetailButtonGridProductSearchDataSet 
+          href: erp/Entities/Commerce/Retail/RetailButtonGridProductSearchDataSet.md
+        - name: RetailBuyersPushEntity 
+          href: erp/Entities/Commerce/Retail/RetailBuyersPushEntity.md
+        - name: RetailBuyersPushLineEntity 
+          href: erp/Entities/Commerce/Retail/RetailBuyersPushLineEntity.md
+        - name: RetailBuyersPushLineQuantityEntity 
+          href: erp/Entities/Commerce/Retail/RetailBuyersPushLineQuantityEntity.md
+        - name: RetailCDXDataStoreChannelEntity 
+          href: erp/Entities/Commerce/Retail/RetailCDXDataStoreChannelEntity.md
+        - name: RetailCallCenterEntity 
+          href: erp/Entities/Commerce/Retail/RetailCallCenterEntity.md
+        - name: RetailCatalogEntity 
+          href: erp/Entities/Commerce/Retail/RetailCatalogEntity.md
+        - name: RetailCatalogInternalOrganizationEntity 
+          href: erp/Entities/Commerce/Retail/RetailCatalogInternalOrganizationEntity.md
+        - name: RetailCatalogInternalOrganizationProductAttributeValue2Entity 
+          href: erp/Entities/Commerce/Retail/RetailCatalogInternalOrganizationProductAttributeValue2Entity.md
+        - name: RetailCatalogInternalOrganizationProductAttributeValueEntity 
+          href: erp/Entities/Commerce/Retail/RetailCatalogInternalOrganizationProductAttributeValueEntity.md
+        - name: RetailCatalogPriceGroupEntity 
+          href: erp/Entities/Commerce/Retail/RetailCatalogPriceGroupEntity.md
+        - name: RetailCatalogProductAttributeValueEntity 
+          href: erp/Entities/Commerce/Retail/RetailCatalogProductAttributeValueEntity.md
+        - name: RetailCatalogProductCategoryEntity 
+          href: erp/Entities/Commerce/Retail/RetailCatalogProductCategoryEntity.md
+        - name: RetailCatalogProductEntity 
+          href: erp/Entities/Commerce/Retail/RetailCatalogProductEntity.md
+        - name: RetailCatalogTranslationEntity 
+          href: erp/Entities/Commerce/Retail/RetailCatalogTranslationEntity.md
+        - name: RetailCategoryPriceRuleEntity 
+          href: erp/Entities/Commerce/Retail/RetailCategoryPriceRuleEntity.md
+        - name: RetailCategoryPriceRuleGroupEntity 
+          href: erp/Entities/Commerce/Retail/RetailCategoryPriceRuleGroupEntity.md
+        - name: RetailChannelAttributeGroupEntity 
+          href: erp/Entities/Commerce/Retail/RetailChannelAttributeGroupEntity.md
+        - name: RetailChannelAttributeValueEntity 
+          href: erp/Entities/Commerce/Retail/RetailChannelAttributeValueEntity.md
+        - name: RetailChannelCategoryAttributeEntity 
+          href: erp/Entities/Commerce/Retail/RetailChannelCategoryAttributeEntity.md
+        - name: RetailChannelCurrencyEntity 
+          href: erp/Entities/Commerce/Retail/RetailChannelCurrencyEntity.md
+        - name: RetailChannelCustomerAddressBookEntity 
+          href: erp/Entities/Commerce/Retail/RetailChannelCustomerAddressBookEntity.md
+        - name: RetailChannelEmployeeAddressBookEntity 
+          href: erp/Entities/Commerce/Retail/RetailChannelEmployeeAddressBookEntity.md
+        - name: RetailChannelEntity 
+          href: erp/Entities/Commerce/Retail/RetailChannelEntity.md
+        - name: RetailChannelPaymentConnectorLineEntity 
+          href: erp/Entities/Commerce/Retail/RetailChannelPaymentConnectorLineEntity.md
+        - name: RetailChannelPriceGroupEntity 
+          href: erp/Entities/Commerce/Retail/RetailChannelPriceGroupEntity.md
+        - name: RetailChannelReportDefinitionEntity 
+          href: erp/Entities/Commerce/Retail/RetailChannelReportDefinitionEntity.md
+        - name: RetailChannelReportEntity 
+          href: erp/Entities/Commerce/Retail/RetailChannelReportEntity.md
+        - name: RetailChannelReportLocalizedStringEntity 
+          href: erp/Entities/Commerce/Retail/RetailChannelReportLocalizedStringEntity.md
+        - name: RetailChannelReportPermissionGroupEntity 
+          href: erp/Entities/Commerce/Retail/RetailChannelReportPermissionGroupEntity.md
+        - name: RetailChannelWorkerEntity 
+          href: erp/Entities/Commerce/Retail/RetailChannelWorkerEntity.md
+        - name: RetailClientBookCustomerEntity 
+          href: erp/Entities/Commerce/Retail/RetailClientBookCustomerEntity.md
+        - name: RetailClientBookEntity 
+          href: erp/Entities/Commerce/Retail/RetailClientBookEntity.md
+        - name: RetailCouponCodeEntity 
+          href: erp/Entities/Commerce/Retail/RetailCouponCodeEntity.md
+        - name: RetailCouponEntity 
+          href: erp/Entities/Commerce/Retail/RetailCouponEntity.md
+        - name: RetailCouponUsageEntity 
+          href: erp/Entities/Commerce/Retail/RetailCouponUsageEntity.md
+        - name: RetailCreditMemoEntity 
+          href: erp/Entities/Commerce/Retail/RetailCreditMemoEntity.md
+        - name: RetailCrossDockEntity 
+          href: erp/Entities/Commerce/Retail/RetailCrossDockEntity.md
+        - name: RetailCrossDockLineEntity 
+          href: erp/Entities/Commerce/Retail/RetailCrossDockLineEntity.md
+        - name: RetailCrossDockLineQuantityEntity 
+          href: erp/Entities/Commerce/Retail/RetailCrossDockLineQuantityEntity.md
+        - name: RetailCustomerAffiliationEntity 
+          href: erp/Entities/Commerce/Retail/RetailCustomerAffiliationEntity.md
+        - name: RetailCustomerSearchFieldEntity 
+          href: erp/Entities/Commerce/Retail/RetailCustomerSearchFieldEntity.md
+        - name: RetailCustomerSearchFieldTranslationEntity 
+          href: erp/Entities/Commerce/Retail/RetailCustomerSearchFieldTranslationEntity.md
+        - name: RetailDefaultAssortmentOrganizationEntity 
+          href: erp/Entities/Commerce/Retail/RetailDefaultAssortmentOrganizationEntity.md
+        - name: RetailDefaultReportingHierarchyOrganizationEntity 
+          href: erp/Entities/Commerce/Retail/RetailDefaultReportingHierarchyOrganizationEntity.md
+        - name: RetailDeliveryModeAddressLineEntity 
+          href: erp/Entities/Commerce/Retail/RetailDeliveryModeAddressLineEntity.md
+        - name: RetailDeliveryModeChannelLineEntity 
+          href: erp/Entities/Commerce/Retail/RetailDeliveryModeChannelLineEntity.md
+        - name: RetailDeliveryModeEntity 
+          href: erp/Entities/Commerce/Retail/RetailDeliveryModeEntity.md
+        - name: RetailDeliveryModeProductLineEntity 
+          href: erp/Entities/Commerce/Retail/RetailDeliveryModeProductLineEntity.md
+        - name: RetailDesignerCustomerAttributeTranslationEntity 
+          href: erp/Entities/Commerce/Retail/RetailDesignerCustomerAttributeTranslationEntity.md
+        - name: RetailDesignerTillLayoutButtonGridZone 
+          href: erp/Entities/Commerce/Retail/RetailDesignerTillLayoutButtonGridZone.md
+        - name: RetailDesignerTillLayoutImageZone 
+          href: erp/Entities/Commerce/Retail/RetailDesignerTillLayoutImageZone.md
+        - name: RetailDesignerTillLayoutZone 
+          href: erp/Entities/Commerce/Retail/RetailDesignerTillLayoutZone.md
+        - name: RetailDesignerTillLayoutZoneReference 
+          href: erp/Entities/Commerce/Retail/RetailDesignerTillLayoutZoneReference.md
+        - name: RetailDeviceEntity 
+          href: erp/Entities/Commerce/Retail/RetailDeviceEntity.md
+        - name: RetailDeviceTypeEntity 
+          href: erp/Entities/Commerce/Retail/RetailDeviceTypeEntity.md
+        - name: RetailDirAddressBookPartyEntity 
+          href: erp/Entities/Commerce/Retail/RetailDirAddressBookPartyEntity.md
+        - name: RetailDiscountEntity 
+          href: erp/Entities/Commerce/Retail/RetailDiscountEntity.md
+        - name: RetailDiscountFiscalTextEntity 
+          href: erp/Entities/Commerce/Retail/RetailDiscountFiscalTextEntity.md
+        - name: RetailDiscountLineEntity 
+          href: erp/Entities/Commerce/Retail/RetailDiscountLineEntity.md
+        - name: RetailDiscountMultibuyTierEntity 
+          href: erp/Entities/Commerce/Retail/RetailDiscountMultibuyTierEntity.md
+        - name: RetailDiscountPriceGroupEntity 
+          href: erp/Entities/Commerce/Retail/RetailDiscountPriceGroupEntity.md
+        - name: RetailDiscountThresholdTierEntity 
+          href: erp/Entities/Commerce/Retail/RetailDiscountThresholdTierEntity.md
+        - name: RetailDiscountValidationPeriodEntity 
+          href: erp/Entities/Commerce/Retail/RetailDiscountValidationPeriodEntity.md
+        - name: RetailDlvModeChannelExplodedEntity 
+          href: erp/Entities/Commerce/Retail/RetailDlvModeChannelExplodedEntity.md
+        - name: RetailEcoResCategoryEntity 
+          href: erp/Entities/Commerce/Retail/RetailEcoResCategoryEntity.md
+        - name: RetailEcoResCategoryHierarchyEntity 
+          href: erp/Entities/Commerce/Retail/RetailEcoResCategoryHierarchyEntity.md
+        - name: RetailEcoResCategoryHierarchyRoleEntity 
+          href: erp/Entities/Commerce/Retail/RetailEcoResCategoryHierarchyRoleEntity.md
+        - name: RetailEcoResCategoryTranslationEntity 
+          href: erp/Entities/Commerce/Retail/RetailEcoResCategoryTranslationEntity.md
+        - name: RetailEcoResProductEntity 
+          href: erp/Entities/Commerce/Retail/RetailEcoResProductEntity.md
+        - name: RetailEcoResProductTranslationEntity 
+          href: erp/Entities/Commerce/Retail/RetailEcoResProductTranslationEntity.md
+        - name: RetailEventNotificationProfileEntity 
+          href: erp/Entities/Commerce/Retail/RetailEventNotificationProfileEntity.md
+        - name: RetailEventNotificationSettingEntity 
+          href: erp/Entities/Commerce/Retail/RetailEventNotificationSettingEntity.md
+        - name: RetailFiscalIntegrationConnectorTableEntity 
+          href: erp/Entities/Commerce/Retail/RetailFiscalIntegrationConnectorTableEntity.md
+        - name: RetailFiscalIntegrationDocumentProviderTableEntity 
+          href: erp/Entities/Commerce/Retail/RetailFiscalIntegrationDocumentProviderTableEntity.md
+        - name: RetailFiscalIntegrationFunctionalityProfileEntity 
+          href: erp/Entities/Commerce/Retail/RetailFiscalIntegrationFunctionalityProfileEntity.md
+        - name: RetailFiscalIntegrationFunctionalityProfileGroupV2Entity 
+          href: erp/Entities/Commerce/Retail/RetailFiscalIntegrationFunctionalityProfileGroupV2Entity.md
+        - name: RetailFiscalIntegrationProcessDataEntity 
+          href: erp/Entities/Commerce/Retail/RetailFiscalIntegrationProcessDataEntity.md
+        - name: RetailFiscalIntegrationRegistrationProcessEntity 
+          href: erp/Entities/Commerce/Retail/RetailFiscalIntegrationRegistrationProcessEntity.md
+        - name: RetailFiscalIntegrationRegistrationSequenceEntity 
+          href: erp/Entities/Commerce/Retail/RetailFiscalIntegrationRegistrationSequenceEntity.md
+        - name: RetailFiscalIntegrationTechnicalProfileEntity 
+          href: erp/Entities/Commerce/Retail/RetailFiscalIntegrationTechnicalProfileEntity.md
+        - name: RetailFiscalPrinterConfigTableEntity 
+          href: erp/Entities/Commerce/Retail/RetailFiscalPrinterConfigTableEntity.md
+        - name: RetailFiscalTransPaymentLineAdjustmentEntity 
+          href: erp/Entities/Commerce/Retail/RetailFiscalTransPaymentLineAdjustmentEntity.md
+        - name: RetailFiscalTransSalesLineAdjustmentEntity 
+          href: erp/Entities/Commerce/Retail/RetailFiscalTransSalesLineAdjustmentEntity.md
+        - name: RetailFormLayoutEntity 
+          href: erp/Entities/Commerce/Retail/RetailFormLayoutEntity.md
+        - name: RetailFunctionalityProfileEntity 
+          href: erp/Entities/Commerce/Retail/RetailFunctionalityProfileEntity.md
+        - name: RetailFunctionalityProfileFiscalIntegrationTechnicalProfileLineEntity 
+          href: erp/Entities/Commerce/Retail/RetailFunctionalityProfileFiscalIntegrationTechnicalProfileLineEntity.md
+        - name: RetailGiftCardEntity 
+          href: erp/Entities/Commerce/Retail/RetailGiftCardEntity.md
+        - name: RetailGiftCardTransactionsEntity 
+          href: erp/Entities/Commerce/Retail/RetailGiftCardTransactionsEntity.md
+        - name: RetailHardwareProfileEntity 
+          href: erp/Entities/Commerce/Retail/RetailHardwareProfileEntity.md
+        - name: RetailHardwareProfileFiscalIntegrationTechnicalProfileLineEntity 
+          href: erp/Entities/Commerce/Retail/RetailHardwareProfileFiscalIntegrationTechnicalProfileLineEntity.md
+        - name: RetailHardwareProfileMerchantInfoEntity 
+          href: erp/Entities/Commerce/Retail/RetailHardwareProfileMerchantInfoEntity.md
+        - name: RetailHardwareStationEntity 
+          href: erp/Entities/Commerce/Retail/RetailHardwareStationEntity.md
+        - name: RetailImagesEntity 
+          href: erp/Entities/Commerce/Retail/RetailImagesEntity.md
+        - name: RetailIncomeExpenseAccountEntity 
+          href: erp/Entities/Commerce/Retail/RetailIncomeExpenseAccountEntity.md
+        - name: RetailInfocodeAssociationEntity 
+          href: erp/Entities/Commerce/Retail/RetailInfocodeAssociationEntity.md
+        - name: RetailInfocodeCategorySpecificEntity 
+          href: erp/Entities/Commerce/Retail/RetailInfocodeCategorySpecificEntity.md
+        - name: RetailInfocodeEntity 
+          href: erp/Entities/Commerce/Retail/RetailInfocodeEntity.md
+        - name: RetailInfocodeGroupEntity 
+          href: erp/Entities/Commerce/Retail/RetailInfocodeGroupEntity.md
+        - name: RetailInfocodeGroupMemberEntity 
+          href: erp/Entities/Commerce/Retail/RetailInfocodeGroupMemberEntity.md
+        - name: RetailInfocodeLineEntity 
+          href: erp/Entities/Commerce/Retail/RetailInfocodeLineEntity.md
+        - name: RetailInfocodeTranslationEntity 
+          href: erp/Entities/Commerce/Retail/RetailInfocodeTranslationEntity.md
+        - name: RetailInformationSubcodeEntity 
+          href: erp/Entities/Commerce/Retail/RetailInformationSubcodeEntity.md
+        - name: RetailInformationSubcodeTranslationEntity 
+          href: erp/Entities/Commerce/Retail/RetailInformationSubcodeTranslationEntity.md
+        - name: RetailInternalOrgCatHierarchyCollapsedEntity 
+          href: erp/Entities/Commerce/Retail/RetailInternalOrgCatHierarchyCollapsedEntity.md
+        - name: RetailInternalOrganizationAttributeGroupEntity 
+          href: erp/Entities/Commerce/Retail/RetailInternalOrganizationAttributeGroupEntity.md
+        - name: RetailInternalOrganizationEntity 
+          href: erp/Entities/Commerce/Retail/RetailInternalOrganizationEntity.md
+        - name: RetailInternalOrganizationProductAttributeMetadataEntity 
+          href: erp/Entities/Commerce/Retail/RetailInternalOrganizationProductAttributeMetadataEntity.md
+        - name: RetailInternalOrganizationProductAttributeValue2Entity 
+          href: erp/Entities/Commerce/Retail/RetailInternalOrganizationProductAttributeValue2Entity.md
+        - name: RetailInternalOrganizationProductAttributeValueEntity 
+          href: erp/Entities/Commerce/Retail/RetailInternalOrganizationProductAttributeValueEntity.md
+        - name: RetailInternalOrganizationProductEntity 
+          href: erp/Entities/Commerce/Retail/RetailInternalOrganizationProductEntity.md
+        - name: RetailInventItemBarcodeEntity 
+          href: erp/Entities/Commerce/Retail/RetailInventItemBarcodeEntity.md
+        - name: RetailInventItemLabelReportSetupEntity 
+          href: erp/Entities/Commerce/Retail/RetailInventItemLabelReportSetupEntity.md
+        - name: RetailInventTableEntity 
+          href: erp/Entities/Commerce/Retail/RetailInventTableEntity.md
+        - name: RetailInventoryItemSectionLocationEntity 
+          href: erp/Entities/Commerce/Retail/RetailInventoryItemSectionLocationEntity.md
+        - name: RetailInventoryLevelProfileEntity 
+          href: erp/Entities/Commerce/Retail/RetailInventoryLevelProfileEntity.md
+        - name: RetailInventoryLevelProfileRangeEntity 
+          href: erp/Entities/Commerce/Retail/RetailInventoryLevelProfileRangeEntity.md
+        - name: RetailInventoryLinkedItemEntity 
+          href: erp/Entities/Commerce/Retail/RetailInventoryLinkedItemEntity.md
+        - name: RetailItemLabelEntity 
+          href: erp/Entities/Commerce/Retail/RetailItemLabelEntity.md
+        - name: RetailItemLabelSetupEntity 
+          href: erp/Entities/Commerce/Retail/RetailItemLabelSetupEntity.md
+        - name: RetailJobPosPermissionGroupEntity 
+          href: erp/Entities/Commerce/Retail/RetailJobPosPermissionGroupEntity.md
+        - name: RetailKeyboardMappingCodeEntity 
+          href: erp/Entities/Commerce/Retail/RetailKeyboardMappingCodeEntity.md
+        - name: RetailKeyboardMappingGroupEntity 
+          href: erp/Entities/Commerce/Retail/RetailKeyboardMappingGroupEntity.md
+        - name: RetailKitComponentEntity 
+          href: erp/Entities/Commerce/Retail/RetailKitComponentEntity.md
+        - name: RetailKitComponentSubstituteEntity 
+          href: erp/Entities/Commerce/Retail/RetailKitComponentSubstituteEntity.md
+        - name: RetailKitEntity 
+          href: erp/Entities/Commerce/Retail/RetailKitEntity.md
+        - name: RetailKitOrderEntity 
+          href: erp/Entities/Commerce/Retail/RetailKitOrderEntity.md
+        - name: RetailKitOrderJournalEntity 
+          href: erp/Entities/Commerce/Retail/RetailKitOrderJournalEntity.md
+        - name: RetailKitReleasedComponentEntity 
+          href: erp/Entities/Commerce/Retail/RetailKitReleasedComponentEntity.md
+        - name: RetailKitReleasedSubstituteEntity 
+          href: erp/Entities/Commerce/Retail/RetailKitReleasedSubstituteEntity.md
+        - name: RetailKitVariantComponentEntity 
+          href: erp/Entities/Commerce/Retail/RetailKitVariantComponentEntity.md
+        - name: RetailLabelGenerationEntity 
+          href: erp/Entities/Commerce/Retail/RetailLabelGenerationEntity.md
+        - name: RetailLanguageTextEntity 
+          href: erp/Entities/Commerce/Retail/RetailLanguageTextEntity.md
+        - name: RetailLoyaltyCardEntity 
+          href: erp/Entities/Commerce/Retail/RetailLoyaltyCardEntity.md
+        - name: RetailLoyaltyCardRewardPointNonTransactionalActivityEntity 
+          href: erp/Entities/Commerce/Retail/RetailLoyaltyCardRewardPointNonTransactionalActivityEntity.md
+        - name: RetailLoyaltyCardRewardPointTransactionEntity 
+          href: erp/Entities/Commerce/Retail/RetailLoyaltyCardRewardPointTransactionEntity.md
+        - name: RetailLoyaltyCardTierEntity 
+          href: erp/Entities/Commerce/Retail/RetailLoyaltyCardTierEntity.md
+        - name: RetailLoyaltyEarnSchemeLineEntity 
+          href: erp/Entities/Commerce/Retail/RetailLoyaltyEarnSchemeLineEntity.md
+        - name: RetailLoyaltyEntity 
+          href: erp/Entities/Commerce/Retail/RetailLoyaltyEntity.md
+        - name: RetailLoyaltyOtherActivityTypeEntity 
+          href: erp/Entities/Commerce/Retail/RetailLoyaltyOtherActivityTypeEntity.md
+        - name: RetailLoyaltyPriceGroupEntity 
+          href: erp/Entities/Commerce/Retail/RetailLoyaltyPriceGroupEntity.md
+        - name: RetailLoyaltyProgramTranslationEntity 
+          href: erp/Entities/Commerce/Retail/RetailLoyaltyProgramTranslationEntity.md
+        - name: RetailLoyaltyRedeemSchemeLineEntity 
+          href: erp/Entities/Commerce/Retail/RetailLoyaltyRedeemSchemeLineEntity.md
+        - name: RetailLoyaltyRewardPointEntity 
+          href: erp/Entities/Commerce/Retail/RetailLoyaltyRewardPointEntity.md
+        - name: RetailLoyaltyRewardPointTranslationEntity 
+          href: erp/Entities/Commerce/Retail/RetailLoyaltyRewardPointTranslationEntity.md
+        - name: RetailLoyaltySchemeChannelEntity 
+          href: erp/Entities/Commerce/Retail/RetailLoyaltySchemeChannelEntity.md
+        - name: RetailLoyaltySchemeEntity 
+          href: erp/Entities/Commerce/Retail/RetailLoyaltySchemeEntity.md
+        - name: RetailLoyaltySchemeExcludedAffiliationEntity 
+          href: erp/Entities/Commerce/Retail/RetailLoyaltySchemeExcludedAffiliationEntity.md
+        - name: RetailLoyaltyTierEntity 
+          href: erp/Entities/Commerce/Retail/RetailLoyaltyTierEntity.md
+        - name: RetailLoyaltyTierPriceGroupEntity 
+          href: erp/Entities/Commerce/Retail/RetailLoyaltyTierPriceGroupEntity.md
+        - name: RetailLoyaltyTierRuleEntity 
+          href: erp/Entities/Commerce/Retail/RetailLoyaltyTierRuleEntity.md
+        - name: RetailLoyaltyTierTranslationEntity 
+          href: erp/Entities/Commerce/Retail/RetailLoyaltyTierTranslationEntity.md
+        - name: RetailMarkupAutoChannelLineEntity 
+          href: erp/Entities/Commerce/Retail/RetailMarkupAutoChannelLineEntity.md
+        - name: RetailMediaAndMasterRelationEntity 
+          href: erp/Entities/Commerce/Retail/RetailMediaAndMasterRelationEntity.md
+        - name: RetailMediaProductRelationEntity 
+          href: erp/Entities/Commerce/Retail/RetailMediaProductRelationEntity.md
+        - name: RetailMediaResourcesEntity 
+          href: erp/Entities/Commerce/Retail/RetailMediaResourcesEntity.md
+        - name: RetailMixAndMatchLineGroupSetupEntity 
+          href: erp/Entities/Commerce/Retail/RetailMixAndMatchLineGroupSetupEntity.md
+        - name: RetailMixAndMatchLineGroupsEntity 
+          href: erp/Entities/Commerce/Retail/RetailMixAndMatchLineGroupsEntity.md
+        - name: RetailNotificationSubscriptionsEntity 
+          href: erp/Entities/Commerce/Retail/RetailNotificationSubscriptionsEntity.md
+        - name: RetailOfflineProfileEntity 
+          href: erp/Entities/Commerce/Retail/RetailOfflineProfileEntity.md
+        - name: RetailOnlineChannelEntity 
+          href: erp/Entities/Commerce/Retail/RetailOnlineChannelEntity.md
+        - name: RetailOnlineChannelLanguageEntity 
+          href: erp/Entities/Commerce/Retail/RetailOnlineChannelLanguageEntity.md
+        - name: RetailOperationsEntity 
+          href: erp/Entities/Commerce/Retail/RetailOperationsEntity.md
+        - name: RetailPackageEntity 
+          href: erp/Entities/Commerce/Retail/RetailPackageEntity.md
+        - name: RetailPackageLinesEntity 
+          href: erp/Entities/Commerce/Retail/RetailPackageLinesEntity.md
+        - name: RetailPackagePurchaseEntity 
+          href: erp/Entities/Commerce/Retail/RetailPackagePurchaseEntity.md
+        - name: RetailParameterEntity 
+          href: erp/Entities/Commerce/Retail/RetailParameterEntity.md
+        - name: RetailPartitionEntity 
+          href: erp/Entities/Commerce/Retail/RetailPartitionEntity.md
+        - name: RetailPeriodCodeEntity 
+          href: erp/Entities/Commerce/Retail/RetailPeriodCodeEntity.md
+        - name: RetailPermissionEntity 
+          href: erp/Entities/Commerce/Retail/RetailPermissionEntity.md
+        - name: RetailPosBatch2Entity 
+          href: erp/Entities/Commerce/Retail/RetailPosBatch2Entity.md
+        - name: RetailPosBatchEntity 
+          href: erp/Entities/Commerce/Retail/RetailPosBatchEntity.md
+        - name: RetailPosPermissionGroupEntity 
+          href: erp/Entities/Commerce/Retail/RetailPosPermissionGroupEntity.md
+        - name: RetailPosSeedDataEntity 
+          href: erp/Entities/Commerce/Retail/RetailPosSeedDataEntity.md
+        - name: RetailPosThemeEntity 
+          href: erp/Entities/Commerce/Retail/RetailPosThemeEntity.md
+        - name: RetailPositionNotificationSubscriptionsEntity 
+          href: erp/Entities/Commerce/Retail/RetailPositionNotificationSubscriptionsEntity.md
+        - name: RetailPositionPosPermissionEntity 
+          href: erp/Entities/Commerce/Retail/RetailPositionPosPermissionEntity.md
+        - name: RetailPricingPriorityEntity 
+          href: erp/Entities/Commerce/Retail/RetailPricingPriorityEntity.md
+        - name: RetailProdAttribIntOrgMetadataCollapsedEntity 
+          href: erp/Entities/Commerce/Retail/RetailProdAttribIntOrgMetadataCollapsedEntity.md
+        - name: RetailProductHierarchyCategoryEntity 
+          href: erp/Entities/Commerce/Retail/RetailProductHierarchyCategoryEntity.md
+        - name: RetailProductRatingEntity 
+          href: erp/Entities/Commerce/Retail/RetailProductRatingEntity.md
+        - name: RetailRatingsAndReviewsConnectorEntity 
+          href: erp/Entities/Commerce/Retail/RetailRatingsAndReviewsConnectorEntity.md
+        - name: RetailReceiptMaskEntity 
+          href: erp/Entities/Commerce/Retail/RetailReceiptMaskEntity.md
+        - name: RetailReceiptProfileEntity 
+          href: erp/Entities/Commerce/Retail/RetailReceiptProfileEntity.md
+        - name: RetailReceiptProfileLineEntity 
+          href: erp/Entities/Commerce/Retail/RetailReceiptProfileLineEntity.md
+        - name: RetailRecoListEntity 
+          href: erp/Entities/Commerce/Retail/RetailRecoListEntity.md
+        - name: RetailReconcilePaymentEntity 
+          href: erp/Entities/Commerce/Retail/RetailReconcilePaymentEntity.md
+        - name: RetailReplenishmentRuleEntity 
+          href: erp/Entities/Commerce/Retail/RetailReplenishmentRuleEntity.md
+        - name: RetailReplenishmentRuleLineV2Entity 
+          href: erp/Entities/Commerce/Retail/RetailReplenishmentRuleLineV2Entity.md
+        - name: RetailReturnInfocodePolicyLineEntity 
+          href: erp/Entities/Commerce/Retail/RetailReturnInfocodePolicyLineEntity.md
+        - name: RetailReturnPolicyChannelEntity 
+          href: erp/Entities/Commerce/Retail/RetailReturnPolicyChannelEntity.md
+        - name: RetailReturnPolicyChannelPaymentMappingEntity 
+          href: erp/Entities/Commerce/Retail/RetailReturnPolicyChannelPaymentMappingEntity.md
+        - name: RetailReturnPolicyEntity 
+          href: erp/Entities/Commerce/Retail/RetailReturnPolicyEntity.md
+        - name: RetailReturnPolicyLineEntity 
+          href: erp/Entities/Commerce/Retail/RetailReturnPolicyLineEntity.md
+        - name: RetailReturnReasoncodePolicyLineEntity 
+          href: erp/Entities/Commerce/Retail/RetailReturnReasoncodePolicyLineEntity.md
+        - name: RetailRoundingMethodEntity 
+          href: erp/Entities/Commerce/Retail/RetailRoundingMethodEntity.md
+        - name: RetailRoundingMethodGroupEntity 
+          href: erp/Entities/Commerce/Retail/RetailRoundingMethodGroupEntity.md
+        - name: RetailSalesPricePointEntity 
+          href: erp/Entities/Commerce/Retail/RetailSalesPricePointEntity.md
+        - name: RetailSalesPricePointGroupEntity 
+          href: erp/Entities/Commerce/Retail/RetailSalesPricePointGroupEntity.md
+        - name: RetailSalesTaxOverrideEntity 
+          href: erp/Entities/Commerce/Retail/RetailSalesTaxOverrideEntity.md
+        - name: RetailSalesTaxOverrideGroupEntity 
+          href: erp/Entities/Commerce/Retail/RetailSalesTaxOverrideGroupEntity.md
+        - name: RetailSalesTaxOverrideGroupMemberEntity 
+          href: erp/Entities/Commerce/Retail/RetailSalesTaxOverrideGroupMemberEntity.md
+        - name: RetailSeasonEntity 
+          href: erp/Entities/Commerce/Retail/RetailSeasonEntity.md
+        - name: RetailServiceCategoryEntity 
+          href: erp/Entities/Commerce/Retail/RetailServiceCategoryEntity.md
+        - name: RetailSharedBingParameterEntity 
+          href: erp/Entities/Commerce/Retail/RetailSharedBingParameterEntity.md
+        - name: RetailSharedFacebookParameterEntity 
+          href: erp/Entities/Commerce/Retail/RetailSharedFacebookParameterEntity.md
+        - name: RetailSharedParameterEntity 
+          href: erp/Entities/Commerce/Retail/RetailSharedParameterEntity.md
+        - name: RetailSharedTwitterParameterEntity 
+          href: erp/Entities/Commerce/Retail/RetailSharedTwitterParameterEntity.md
+        - name: RetailSmbAccountExportResultEntity 
+          href: erp/Entities/Commerce/Retail/RetailSmbAccountExportResultEntity.md
+        - name: RetailSmbAccountExportResultLineEntity 
+          href: erp/Entities/Commerce/Retail/RetailSmbAccountExportResultLineEntity.md
+        - name: RetailSpecialCategoryMemberEntity 
+          href: erp/Entities/Commerce/Retail/RetailSpecialCategoryMemberEntity.md
+        - name: RetailStaffEntity 
+          href: erp/Entities/Commerce/Retail/RetailStaffEntity.md
+        - name: RetailStaffPermissionGroupEntity 
+          href: erp/Entities/Commerce/Retail/RetailStaffPermissionGroupEntity.md
+        - name: RetailStoreAddressBookEntity 
+          href: erp/Entities/Commerce/Retail/RetailStoreAddressBookEntity.md
+        - name: RetailStoreCashDeclarationEntity 
+          href: erp/Entities/Commerce/Retail/RetailStoreCashDeclarationEntity.md
+        - name: RetailStoreEntity 
+          href: erp/Entities/Commerce/Retail/RetailStoreEntity.md
+        - name: RetailStoreHardwareStationEntity 
+          href: erp/Entities/Commerce/Retail/RetailStoreHardwareStationEntity.md
+        - name: RetailStoreHoursChannelEntity 
+          href: erp/Entities/Commerce/Retail/RetailStoreHoursChannelEntity.md
+        - name: RetailStoreHoursRangeEntity 
+          href: erp/Entities/Commerce/Retail/RetailStoreHoursRangeEntity.md
+        - name: RetailStoreHoursTemplateEntity 
+          href: erp/Entities/Commerce/Retail/RetailStoreHoursTemplateEntity.md
+        - name: RetailStoreLocatorGroupEntity 
+          href: erp/Entities/Commerce/Retail/RetailStoreLocatorGroupEntity.md
+        - name: RetailStoreLocatorGroupMemberEntity 
+          href: erp/Entities/Commerce/Retail/RetailStoreLocatorGroupMemberEntity.md
+        - name: RetailStoreLocatorGroupOwnerEntity 
+          href: erp/Entities/Commerce/Retail/RetailStoreLocatorGroupOwnerEntity.md
+        - name: RetailStoreSafeEntity 
+          href: erp/Entities/Commerce/Retail/RetailStoreSafeEntity.md
+        - name: RetailStoreSection2Entity 
+          href: erp/Entities/Commerce/Retail/RetailStoreSection2Entity.md
+        - name: RetailStoreSectionEntity 
+          href: erp/Entities/Commerce/Retail/RetailStoreSectionEntity.md
+        - name: RetailStoreShelfEntity 
+          href: erp/Entities/Commerce/Retail/RetailStoreShelfEntity.md
+        - name: RetailStoreTenderTypeCardEntity 
+          href: erp/Entities/Commerce/Retail/RetailStoreTenderTypeCardEntity.md
+        - name: RetailStoreTenderTypeEntity 
+          href: erp/Entities/Commerce/Retail/RetailStoreTenderTypeEntity.md
+        - name: RetailStoreTenderTypeTableEntity 
+          href: erp/Entities/Commerce/Retail/RetailStoreTenderTypeTableEntity.md
+        - name: RetailStoreWorkShiftEntity 
+          href: erp/Entities/Commerce/Retail/RetailStoreWorkShiftEntity.md
+        - name: RetailStoreWorkShiftTran2Entity 
+          href: erp/Entities/Commerce/Retail/RetailStoreWorkShiftTran2Entity.md
+        - name: RetailStoreWorkShiftTranEntity 
+          href: erp/Entities/Commerce/Retail/RetailStoreWorkShiftTranEntity.md
+        - name: RetailStoresToDeployEntity 
+          href: erp/Entities/Commerce/Retail/RetailStoresToDeployEntity.md
+        - name: RetailSupportedCountryRegionEntity 
+          href: erp/Entities/Commerce/Retail/RetailSupportedCountryRegionEntity.md
+        - name: RetailTenderDiscountEntity 
+          href: erp/Entities/Commerce/Retail/RetailTenderDiscountEntity.md
+        - name: RetailTenderDiscountPriceGroupEntity 
+          href: erp/Entities/Commerce/Retail/RetailTenderDiscountPriceGroupEntity.md
+        - name: RetailTenderDiscountThresholdTiersEntity 
+          href: erp/Entities/Commerce/Retail/RetailTenderDiscountThresholdTiersEntity.md
+        - name: RetailTenderTypeCardEntity 
+          href: erp/Entities/Commerce/Retail/RetailTenderTypeCardEntity.md
+        - name: RetailTenderTypeCardNumberEntity 
+          href: erp/Entities/Commerce/Retail/RetailTenderTypeCardNumberEntity.md
+        - name: RetailTenderTypeEntity 
+          href: erp/Entities/Commerce/Retail/RetailTenderTypeEntity.md
+        - name: RetailTerminalCounterEntity 
+          href: erp/Entities/Commerce/Retail/RetailTerminalCounterEntity.md
+        - name: RetailTerminalCustomFieldEntity 
+          href: erp/Entities/Commerce/Retail/RetailTerminalCustomFieldEntity.md
+        - name: RetailTerminalEntity 
+          href: erp/Entities/Commerce/Retail/RetailTerminalEntity.md
+        - name: RetailTillLayoutButtonGridZoneEntity 
+          href: erp/Entities/Commerce/Retail/RetailTillLayoutButtonGridZoneEntity.md
+        - name: RetailTillLayoutConfigurationEntity 
+          href: erp/Entities/Commerce/Retail/RetailTillLayoutConfigurationEntity.md
+        - name: RetailTillLayoutEntity 
+          href: erp/Entities/Commerce/Retail/RetailTillLayoutEntity.md
+        - name: RetailTillLayoutImageZoneEntity 
+          href: erp/Entities/Commerce/Retail/RetailTillLayoutImageZoneEntity.md
+        - name: RetailTillLayoutImagesEntity 
+          href: erp/Entities/Commerce/Retail/RetailTillLayoutImagesEntity.md
+        - name: RetailTillLayoutReportZoneEntity 
+          href: erp/Entities/Commerce/Retail/RetailTillLayoutReportZoneEntity.md
+        - name: RetailTillLayoutSizeEntity 
+          href: erp/Entities/Commerce/Retail/RetailTillLayoutSizeEntity.md
+        - name: RetailTillLayoutStaffEntity 
+          href: erp/Entities/Commerce/Retail/RetailTillLayoutStaffEntity.md
+        - name: RetailTillLayoutStoreEntity 
+          href: erp/Entities/Commerce/Retail/RetailTillLayoutStoreEntity.md
+        - name: RetailTillLayoutZoneEntity 
+          href: erp/Entities/Commerce/Retail/RetailTillLayoutZoneEntity.md
+        - name: RetailTmpBulkProductAttributeValueEntity 
+          href: erp/Entities/Commerce/Retail/RetailTmpBulkProductAttributeValueEntity.md
+        - name: RetailTmpCatalogMediaEntity 
+          href: erp/Entities/Commerce/Retail/RetailTmpCatalogMediaEntity.md
+        - name: RetailTmpCatalogProductMediaEntity 
+          href: erp/Entities/Commerce/Retail/RetailTmpCatalogProductMediaEntity.md
+        - name: RetailTmpCategoryMediaEntity 
+          href: erp/Entities/Commerce/Retail/RetailTmpCategoryMediaEntity.md
+        - name: RetailTmpChannelProductMediaEntity 
+          href: erp/Entities/Commerce/Retail/RetailTmpChannelProductMediaEntity.md
+        - name: RetailTmpCustomerMediaEntity 
+          href: erp/Entities/Commerce/Retail/RetailTmpCustomerMediaEntity.md
+        - name: RetailTmpProductMediaEntity 
+          href: erp/Entities/Commerce/Retail/RetailTmpProductMediaEntity.md
+        - name: RetailTmpWorkerMediaEntity 
+          href: erp/Entities/Commerce/Retail/RetailTmpWorkerMediaEntity.md
+        - name: RetailTransactionAddressLineEntity 
+          href: erp/Entities/Commerce/Retail/RetailTransactionAddressLineEntity.md
+        - name: RetailTransactionAffiliationLineEntity 
+          href: erp/Entities/Commerce/Retail/RetailTransactionAffiliationLineEntity.md
+        - name: RetailTransactionAttributeEntity 
+          href: erp/Entities/Commerce/Retail/RetailTransactionAttributeEntity.md
+        - name: RetailTransactionAuditableAddressLineEntity 
+          href: erp/Entities/Commerce/Retail/RetailTransactionAuditableAddressLineEntity.md
+        - name: RetailTransactionAuditableBankDropEntity 
+          href: erp/Entities/Commerce/Retail/RetailTransactionAuditableBankDropEntity.md
+        - name: RetailTransactionAuditableChargeLineEntity 
+          href: erp/Entities/Commerce/Retail/RetailTransactionAuditableChargeLineEntity.md
+        - name: RetailTransactionAuditableDiscountLineEntity 
+          href: erp/Entities/Commerce/Retail/RetailTransactionAuditableDiscountLineEntity.md
+        - name: RetailTransactionAuditableEntity 
+          href: erp/Entities/Commerce/Retail/RetailTransactionAuditableEntity.md
+        - name: RetailTransactionAuditableIncomeExpenseLineEntity 
+          href: erp/Entities/Commerce/Retail/RetailTransactionAuditableIncomeExpenseLineEntity.md
+        - name: RetailTransactionAuditablePaymentLineEntity 
+          href: erp/Entities/Commerce/Retail/RetailTransactionAuditablePaymentLineEntity.md
+        - name: RetailTransactionAuditableSafeDropEntity 
+          href: erp/Entities/Commerce/Retail/RetailTransactionAuditableSafeDropEntity.md
+        - name: RetailTransactionAuditableSalesLineEntity 
+          href: erp/Entities/Commerce/Retail/RetailTransactionAuditableSalesLineEntity.md
+        - name: RetailTransactionAuditableTaxLineEntity 
+          href: erp/Entities/Commerce/Retail/RetailTransactionAuditableTaxLineEntity.md
+        - name: RetailTransactionAuditableTenderDeclarationEntity 
+          href: erp/Entities/Commerce/Retail/RetailTransactionAuditableTenderDeclarationEntity.md
+        - name: RetailTransactionBankedTenderTransEntity 
+          href: erp/Entities/Commerce/Retail/RetailTransactionBankedTenderTransEntity.md
+        - name: RetailTransactionCashManagementTransEntity 
+          href: erp/Entities/Commerce/Retail/RetailTransactionCashManagementTransEntity.md
+        - name: RetailTransactionChargeTaxTransEntity 
+          href: erp/Entities/Commerce/Retail/RetailTransactionChargeTaxTransEntity.md
+        - name: RetailTransactionDisabledValidationRuleEntity 
+          href: erp/Entities/Commerce/Retail/RetailTransactionDisabledValidationRuleEntity.md
+        - name: RetailTransactionDiscountLineEntity 
+          href: erp/Entities/Commerce/Retail/RetailTransactionDiscountLineEntity.md
+        - name: RetailTransactionEntity 
+          href: erp/Entities/Commerce/Retail/RetailTransactionEntity.md
+        - name: RetailTransactionFiscalCustomerEntity 
+          href: erp/Entities/Commerce/Retail/RetailTransactionFiscalCustomerEntity.md
+        - name: RetailTransactionFiscalTransEntity 
+          href: erp/Entities/Commerce/Retail/RetailTransactionFiscalTransEntity.md
+        - name: RetailTransactionFiscalTransExtendedDataEntity 
+          href: erp/Entities/Commerce/Retail/RetailTransactionFiscalTransExtendedDataEntity.md
+        - name: RetailTransactionGTETaxLineEntity 
+          href: erp/Entities/Commerce/Retail/RetailTransactionGTETaxLineEntity.md
+        - name: RetailTransactionIncomeExpenseLineEntity 
+          href: erp/Entities/Commerce/Retail/RetailTransactionIncomeExpenseLineEntity.md
+        - name: RetailTransactionInfoCodeLineEntity 
+          href: erp/Entities/Commerce/Retail/RetailTransactionInfoCodeLineEntity.md
+        - name: RetailTransactionLoyaltyLineEntity 
+          href: erp/Entities/Commerce/Retail/RetailTransactionLoyaltyLineEntity.md
+        - name: RetailTransactionLoyaltyRewardPointsLineEntity 
+          href: erp/Entities/Commerce/Retail/RetailTransactionLoyaltyRewardPointsLineEntity.md
+        - name: RetailTransactionMarkupLineEntity 
+          href: erp/Entities/Commerce/Retail/RetailTransactionMarkupLineEntity.md
+        - name: RetailTransactionPaymentLineEntity 
+          href: erp/Entities/Commerce/Retail/RetailTransactionPaymentLineEntity.md
+        - name: RetailTransactionSafeTenderTransEntity 
+          href: erp/Entities/Commerce/Retail/RetailTransactionSafeTenderTransEntity.md
+        - name: RetailTransactionSalesLineV2Entity 
+          href: erp/Entities/Commerce/Retail/RetailTransactionSalesLineV2Entity.md
+        - name: RetailTransactionServiceProfileEntity 
+          href: erp/Entities/Commerce/Retail/RetailTransactionServiceProfileEntity.md
+        - name: RetailTransactionTaxMeasureEntity 
+          href: erp/Entities/Commerce/Retail/RetailTransactionTaxMeasureEntity.md
+        - name: RetailTrialSystemSecurityUserRoleAssociationEntity 
+          href: erp/Entities/Commerce/Retail/RetailTrialSystemSecurityUserRoleAssociationEntity.md
+        - name: RetailTrialUser 
+          href: erp/Entities/Commerce/Retail/RetailTrialUser.md
+        - name: RetailUserStoreEntity 
+          href: erp/Entities/Commerce/Retail/RetailUserStoreEntity.md
+        - name: RetailVendorSalesPriceMarginSetupEntity 
+          href: erp/Entities/Commerce/Retail/RetailVendorSalesPriceMarginSetupEntity.md
+        - name: RetailVendorSalesPricePointSetupEntity 
+          href: erp/Entities/Commerce/Retail/RetailVendorSalesPricePointSetupEntity.md
+        - name: RetailVisualProfileEntity 
+          href: erp/Entities/Commerce/Retail/RetailVisualProfileEntity.md
+        - name: RetailWarrantyApplicableChannelEntity 
+          href: erp/Entities/Commerce/Retail/RetailWarrantyApplicableChannelEntity.md
+        - name: RetailWorkShiftSetup2Entity 
+          href: erp/Entities/Commerce/Retail/RetailWorkShiftSetup2Entity.md
+        - name: RetailWorkShiftSetupEntity 
+          href: erp/Entities/Commerce/Retail/RetailWorkShiftSetupEntity.md
+        - name: RetailWorkerClientBookEntity 
+          href: erp/Entities/Commerce/Retail/RetailWorkerClientBookEntity.md
+        - name: RetailXZReportEntity 
+          href: erp/Entities/Commerce/Retail/RetailXZReportEntity.md
+        - name: TAMMerchandisingEventCategoryEntity 
+          href: erp/Entities/Commerce/Retail/TAMMerchandisingEventCategoryEntity.md
+        - name: TAMPaymentDeductionTypeEntity 
+          href: erp/Entities/Commerce/Retail/TAMPaymentDeductionTypeEntity.md
+        - name: TAMPaymentDeductionWriteOffReasonCodeEntity 
+          href: erp/Entities/Commerce/Retail/TAMPaymentDeductionWriteOffReasonCodeEntity.md
   - name: Common 
     href: erp/Common.md
   - name: DataEntityView 

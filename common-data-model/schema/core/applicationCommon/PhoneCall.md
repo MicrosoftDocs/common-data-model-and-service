@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/15/2020
+ms.date: 4/16/2020
 ms.author: nebanfic
 ---
 
@@ -15,13 +15,15 @@ Activity to track a telephone call.
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/PhoneCall.cdm.json" target="_blank">GitHub</a>.  
 
-## Instances
+## Entities inherited from this entity
 
-Instances of this entity are listed below.  
+<details>
+<summary>Entities that inherit from the currently viewed entity are listed below.  
+</summary>
 
-- /PhoneCall  
 - [/foundationCommon/crmCommon/PhoneCall](foundationCommon/crmCommon/PhoneCall.md "/core/applicationCommon/foundationCommon/crmCommon/PhoneCall.cdm.json/PhoneCall")  
 - [/foundationCommon/crmCommon/solutions/marketing/PhoneCall](foundationCommon/crmCommon/solutions/marketing/PhoneCall.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/PhoneCall.cdm.json/PhoneCall")  
+</details>
 
 ## Traits
 
@@ -54,7 +56,7 @@ Instances of this entity are listed below.
 
 ## Attributes
 
-|Name|Description|First Included in Instance|
+|Name|Description|First Included in Entity|
 |---|---|---|
 |[createdOn](#createdOn)|Date and time when the record was created.|<a href="PhoneCall.md" target="_blank">applicationCommon/PhoneCall</a>|
 |[createdBy](#createdBy)|Shows who created the record.|<a href="PhoneCall.md" target="_blank">applicationCommon/PhoneCall</a>|

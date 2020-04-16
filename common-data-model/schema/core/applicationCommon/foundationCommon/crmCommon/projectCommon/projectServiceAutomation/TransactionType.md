@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/15/2020
+ms.date: 4/16/2020
 ms.author: nebanfic
 ---
 
@@ -14,12 +14,6 @@ ms.author: nebanfic
 Broad classification, such as time or expense, and the context such cost, unbilled revenue, or billed revenue of a project actual.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/TransactionType.cdm.json" target="_blank">GitHub</a>.  
-
-## Instances
-
-Instances of this entity are listed below.  
-
-- /crmCommon/projectCommon/projectServiceAutomation/TransactionType  
 
 ## Traits
 
@@ -52,7 +46,7 @@ Instances of this entity are listed below.
 
 ## Attributes
 
-|Name|Description|First Included in Instance|
+|Name|Description|First Included in Entity|
 |---|---|---|
 |[transactionTypeId](#transactionTypeId)|Unique identifier for entity instances|<a href="TransactionType.md" target="_blank">projectServiceAutomation/TransactionType</a>|
 |[createdOn](#createdOn)|Date and time when the record was created.|<a href="TransactionType.md" target="_blank">projectServiceAutomation/TransactionType</a>|

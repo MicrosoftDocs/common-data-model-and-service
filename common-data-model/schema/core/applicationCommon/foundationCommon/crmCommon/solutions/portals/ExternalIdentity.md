@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/15/2020
+ms.date: 4/16/2020
 ms.author: nebanfic
 ---
 
@@ -13,12 +13,6 @@ ms.author: nebanfic
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/ExternalIdentity.cdm.json" target="_blank">GitHub</a>.  
-
-## Instances
-
-Instances of this entity are listed below.  
-
-- /crmCommon/solutions/portals/ExternalIdentity  
 
 ## Traits
 
@@ -48,7 +42,7 @@ Instances of this entity are listed below.
 
 ## Attributes
 
-|Name|Description|First Included in Instance|
+|Name|Description|First Included in Entity|
 |---|---|---|
 |[externalIdentityId](#externalIdentityId)|Shows the entity instances.|<a href="ExternalIdentity.md" target="_blank">portals/ExternalIdentity</a>|
 |[createdOn](#createdOn)|Shows the date and time when the record was created.|<a href="ExternalIdentity.md" target="_blank">portals/ExternalIdentity</a>|

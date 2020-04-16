@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/15/2020
+ms.date: 4/16/2020
 ms.author: nebanfic
 ---
 
@@ -14,14 +14,6 @@ ms.author: nebanfic
 Container for campaign activities and responses, sales literature, products, and lists to create, plan, execute, and track the results of a specific marketing campaign through its life.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Campaign.cdm.json" target="_blank">GitHub</a>.  
-
-## Instances
-
-Instances of this entity are listed below.  
-
-- [/foundationCommon/crmCommon/Campaign](../../../Campaign.md "/core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign")  
-- [/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/Campaign](../nonProfitForSales/Campaign.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/Campaign.cdm.json/Campaign")  
-- /crmCommon/accelerators/nonProfit/nonProfitIati/Campaign  
 
 ## Traits
 
@@ -54,7 +46,7 @@ Instances of this entity are listed below.
 
 ## Attributes
 
-|Name|Description|First Included in Instance|
+|Name|Description|First Included in Entity|
 |---|---|---|
 |[createdOn](#createdOn)|Date and time when the record was created.|<a href="Campaign.md" target="_blank">nonProfitIati/Campaign</a>|
 |[createdBy](#createdBy)|Unique identifier of the user who created the record.|<a href="Campaign.md" target="_blank">nonProfitIati/Campaign</a>|

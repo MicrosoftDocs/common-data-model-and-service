@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/15/2020
+ms.date: 4/16/2020
 ms.author: nebanfic
 ---
 
@@ -14,12 +14,6 @@ ms.author: nebanfic
 Role describing a relationship between a two records.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/ConnectionRole.cdm.json" target="_blank">GitHub</a>.  
-
-## Instances
-
-Instances of this entity are listed below.  
-
-- /ConnectionRole  
 
 ## Traits
 
@@ -52,7 +46,7 @@ Instances of this entity are listed below.
 
 ## Attributes
 
-|Name|Description|First Included in Instance|
+|Name|Description|First Included in Entity|
 |---|---|---|
 |[connectionRoleId](#connectionRoleId)|Unique identifier of the connection role.|<a href="ConnectionRole.md" target="_blank">applicationCommon/ConnectionRole</a>|
 |[modifiedBy](#modifiedBy)|Unique identifier of the user who last modified the connection role.|<a href="ConnectionRole.md" target="_blank">applicationCommon/ConnectionRole</a>|

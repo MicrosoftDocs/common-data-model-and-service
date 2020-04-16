@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/15/2020
+ms.date: 4/16/2020
 ms.author: nebanfic
 ---
 
@@ -14,13 +14,6 @@ ms.author: nebanfic
 Person or group associated with an activity. An activity can have multiple activity parties.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/ActivityParty.cdm.json" target="_blank">GitHub</a>.  
-
-## Instances
-
-Instances of this entity are listed below.  
-
-- [/ActivityParty.cdm.json/ActivityParty](../../../ActivityParty.md "/core/applicationCommon/ActivityParty.cdm.json/ActivityParty")  
-- /crmCommon/service/ActivityParty  
 
 ## Traits
 
@@ -50,7 +43,7 @@ Instances of this entity are listed below.
 
 ## Attributes
 
-|Name|Description|First Included in Instance|
+|Name|Description|First Included in Entity|
 |---|---|---|
 |[activityId](#activityId)|Unique identifier of the activity associated with the activity party. (A "party" is any person who is associated with an activity.)|<a href="ActivityParty.md" target="_blank">service/ActivityParty</a>|
 |[activityPartyId](#activityPartyId)|Unique identifier of the activity party.|<a href="ActivityParty.md" target="_blank">service/ActivityParty</a>|

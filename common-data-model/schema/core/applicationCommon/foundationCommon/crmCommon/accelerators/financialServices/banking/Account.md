@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/15/2020
+ms.date: 4/16/2020
 ms.author: nebanfic
 ---
 
@@ -14,23 +14,6 @@ ms.author: nebanfic
 A company that represents a customer or a potential customer.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/Account.cdm.json" target="_blank">GitHub</a>.  
-
-## Instances
-
-Instances of this entity are listed below.  
-
-- [/Account.cdm.json/Account](../../../../../Account.md "/core/applicationCommon/Account.cdm.json/Account")  
-- [/foundationCommon/Account](../../../../Account.md "/core/applicationCommon/foundationCommon/Account.cdm.json/Account")  
-- [/foundationCommon/crmCommon/Account](../../../Account.md "/core/applicationCommon/foundationCommon/crmCommon/Account.cdm.json/Account")  
-- [/foundationCommon/crmCommon/accelerators/education/higherEducation/Account](../../education/higherEducation/Account.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Account.cdm.json/Account")  
-- /crmCommon/accelerators/financialServices/banking/Account  
-- [/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Account](../../healthCare/electronicMedicalRecords/Account.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Account.cdm.json/Account")  
-- [/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Account](../../nonProfit/nonProfitCore/Account.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Account.cdm.json/Account")  
-- [/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Account](../../nonProfit/nonProfitIati/Account.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Account.cdm.json/Account")  
-- [/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitVolunteers/Account](../../nonProfit/nonProfitVolunteers/Account.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitVolunteers/Account.cdm.json/Account")  
-- [/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/Account](../../../projectCommon/projectServiceAutomation/Account.md "/core/applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/Account.cdm.json/Account")  
-- [/foundationCommon/crmCommon/solutions/marketing/eventManagement/Account](../../../solutions/marketing/eventManagement/Account.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Account.cdm.json/Account")  
-- [/foundationCommon/crmCommon/solutions/portals/Account](../../../solutions/portals/Account.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Account.cdm.json/Account")  
 
 ## Traits
 
@@ -63,7 +46,7 @@ Instances of this entity are listed below.
 
 ## Attributes
 
-|Name|Description|First Included in Instance|
+|Name|Description|First Included in Entity|
 |---|---|---|
 |[createdOn](#createdOn)|Date and time when the record was created.|<a href="Account.md" target="_blank">banking/Account</a>|
 |[createdBy](#createdBy)|Shows who created the record.|<a href="Account.md" target="_blank">banking/Account</a>|

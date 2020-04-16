@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/15/2020
+ms.date: 4/16/2020
 ms.author: nebanfic
 ---
 
@@ -15,12 +15,14 @@ Task performed, or to be performed, by a user. An activity is any action for whi
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/Activity.cdm.json" target="_blank">GitHub</a>.  
 
-## Instances
+## Entities inherited from this entity
 
-Instances of this entity are listed below.  
+<details>
+<summary>Entities that inherit from the currently viewed entity are listed below.  
+</summary>
 
-- /Activity  
 - [/foundationCommon/crmCommon/Activity](foundationCommon/crmCommon/Activity.md "/core/applicationCommon/foundationCommon/crmCommon/Activity.cdm.json/Activity")  
+</details>
 
 ## Traits
 
@@ -53,7 +55,7 @@ Instances of this entity are listed below.
 
 ## Attributes
 
-|Name|Description|First Included in Instance|
+|Name|Description|First Included in Entity|
 |---|---|---|
 |[createdOn](#createdOn)|Date and time when the record was created.|<a href="Activity.md" target="_blank">applicationCommon/Activity</a>|
 |[createdBy](#createdBy)|Shows who created the record.|<a href="Activity.md" target="_blank">applicationCommon/Activity</a>|
@@ -809,7 +811,7 @@ First included in: applicationCommon/Activity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Activity Type</td></tr><tr><td>description</td><td>Type of activity.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>sourceName</td><td>activitytypecode</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Fax</td><td>null</td></tr><tr><td>en</td><td>Portal Comment</td><td>null</td></tr><tr><td>en</td><td>Email</td><td>null</td></tr><tr><td>en</td><td>Letter</td><td>null</td></tr><tr><td>en</td><td>Appointment</td><td>null</td></tr><tr><td>en</td><td>Task</td><td>null</td></tr><tr><td>en</td><td>Recurring Appointment</td><td>null</td></tr><tr><td>en</td><td>Quick Campaign</td><td>null</td></tr><tr><td>en</td><td>Campaign Activity</td><td>null</td></tr><tr><td>en</td><td>Phone Call</td><td>null</td></tr><tr><td>en</td><td>Case Resolution</td><td>null</td></tr><tr><td>en</td><td>Service Activity</td><td>null</td></tr><tr><td>en</td><td>Opportunity Close</td><td>null</td></tr><tr><td>en</td><td>Order Close</td><td>null</td></tr><tr><td>en</td><td>Quote Close</td><td>null</td></tr><tr><td>en</td><td>Alert Subscription</td><td>null</td></tr><tr><td>en</td><td>Invite Redemption</td><td>null</td></tr><tr><td>en</td><td>Campaign Response</td><td>null</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Activity Type</td></tr><tr><td>description</td><td>Type of activity.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>sourceName</td><td>activitytypecode</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Fax</td><td>null</td></tr><tr><td>en</td><td>Phone Call</td><td>null</td></tr><tr><td>en</td><td>Email</td><td>null</td></tr><tr><td>en</td><td>Letter</td><td>null</td></tr><tr><td>en</td><td>Appointment</td><td>null</td></tr><tr><td>en</td><td>Task</td><td>null</td></tr><tr><td>en</td><td>Recurring Appointment</td><td>null</td></tr><tr><td>en</td><td>Quick Campaign</td><td>null</td></tr><tr><td>en</td><td>Campaign Activity</td><td>null</td></tr><tr><td>en</td><td>Campaign Response</td><td>null</td></tr><tr><td>en</td><td>Case Resolution</td><td>null</td></tr><tr><td>en</td><td>Service Activity</td><td>null</td></tr><tr><td>en</td><td>Opportunity Close</td><td>null</td></tr><tr><td>en</td><td>Order Close</td><td>null</td></tr><tr><td>en</td><td>Quote Close</td><td>null</td></tr><tr><td>en</td><td>Alert Subscription</td><td>null</td></tr><tr><td>en</td><td>Invite Redemption</td><td>null</td></tr><tr><td>en</td><td>Portal Comment</td><td>null</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -837,7 +839,7 @@ Marks an attribute that contains the entity name or 'class' for the situation wh
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"activitytypecode"</td><td>string</td><td></td></tr></table>
 
 **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Fax</td><td>null</td></tr><tr><td>en</td><td>Portal Comment</td><td>null</td></tr><tr><td>en</td><td>Email</td><td>null</td></tr><tr><td>en</td><td>Letter</td><td>null</td></tr><tr><td>en</td><td>Appointment</td><td>null</td></tr><tr><td>en</td><td>Task</td><td>null</td></tr><tr><td>en</td><td>Recurring Appointment</td><td>null</td></tr><tr><td>en</td><td>Quick Campaign</td><td>null</td></tr><tr><td>en</td><td>Campaign Activity</td><td>null</td></tr><tr><td>en</td><td>Phone Call</td><td>null</td></tr><tr><td>en</td><td>Case Resolution</td><td>null</td></tr><tr><td>en</td><td>Service Activity</td><td>null</td></tr><tr><td>en</td><td>Opportunity Close</td><td>null</td></tr><tr><td>en</td><td>Order Close</td><td>null</td></tr><tr><td>en</td><td>Quote Close</td><td>null</td></tr><tr><td>en</td><td>Alert Subscription</td><td>null</td></tr><tr><td>en</td><td>Invite Redemption</td><td>null</td></tr><tr><td>en</td><td>Campaign Response</td><td>null</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Fax</td><td>null</td></tr><tr><td>en</td><td>Phone Call</td><td>null</td></tr><tr><td>en</td><td>Email</td><td>null</td></tr><tr><td>en</td><td>Letter</td><td>null</td></tr><tr><td>en</td><td>Appointment</td><td>null</td></tr><tr><td>en</td><td>Task</td><td>null</td></tr><tr><td>en</td><td>Recurring Appointment</td><td>null</td></tr><tr><td>en</td><td>Quick Campaign</td><td>null</td></tr><tr><td>en</td><td>Campaign Activity</td><td>null</td></tr><tr><td>en</td><td>Campaign Response</td><td>null</td></tr><tr><td>en</td><td>Case Resolution</td><td>null</td></tr><tr><td>en</td><td>Service Activity</td><td>null</td></tr><tr><td>en</td><td>Opportunity Close</td><td>null</td></tr><tr><td>en</td><td>Order Close</td><td>null</td></tr><tr><td>en</td><td>Quote Close</td><td>null</td></tr><tr><td>en</td><td>Alert Subscription</td><td>null</td></tr><tr><td>en</td><td>Invite Redemption</td><td>null</td></tr><tr><td>en</td><td>Portal Comment</td><td>null</td></tr></table></td><td>any</td><td></td></tr></table>
 
 **is.dataFormat.character**  
 **is.dataFormat.array**  

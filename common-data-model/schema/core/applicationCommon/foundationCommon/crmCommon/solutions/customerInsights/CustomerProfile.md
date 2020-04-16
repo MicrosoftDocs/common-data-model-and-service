@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/15/2020
+ms.date: 4/16/2020
 ms.author: nebanfic
 ---
 
@@ -14,12 +14,6 @@ ms.author: nebanfic
 A person or organization that either performed or has the potential to engage in a business activity.   
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/customerInsights/CustomerProfile.cdm.json" target="_blank">GitHub</a>.  
-
-## Instances
-
-Instances of this entity are listed below.  
-
-- /crmCommon/solutions/customerInsights/CustomerProfile  
 
 ## Traits
 
@@ -52,7 +46,7 @@ Instances of this entity are listed below.
 
 ## Attributes
 
-|Name|Description|First Included in Instance|
+|Name|Description|First Included in Entity|
 |---|---|---|
 |[createdOn](#createdOn)|Date and time when the record was created.|<a href="CustomerProfile.md" target="_blank">customerInsights/CustomerProfile</a>|
 |[createdBy](#createdBy)|Shows who created the record.|<a href="CustomerProfile.md" target="_blank">customerInsights/CustomerProfile</a>|
@@ -2418,7 +2412,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 **is.dataFormat.integer**  
 **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Vehicle Retail</td><td>647430000</td></tr><tr><td>en</td><td>Utility Creation and Distribution</td><td>647430032</td></tr><tr><td>en</td><td>Wholesale</td><td>647430002</td></tr><tr><td>en</td><td>Agriculture and Non-petrol Natural Resource Extraction</td><td>647430003</td></tr><tr><td>en</td><td>Broadcasting Printing and Publishing</td><td>647430004</td></tr><tr><td>en</td><td>Brokers</td><td>647430005</td></tr><tr><td>en</td><td>Building Supply Retail</td><td>647430006</td></tr><tr><td>en</td><td>Business Services</td><td>647430007</td></tr><tr><td>en</td><td>Consulting</td><td>647430008</td></tr><tr><td>en</td><td>Consumer Services</td><td>647430009</td></tr><tr><td>en</td><td>Design, Direction and Creative Management</td><td>647430010</td></tr><tr><td>en</td><td>Distributors, Dispatchers and Processors</td><td>647430011</td></tr><tr><td>en</td><td>Doctor's Offices and Clinics</td><td>647430012</td></tr><tr><td>en</td><td>Durable Manufacturing</td><td>647430013</td></tr><tr><td>en</td><td>Eating and Drinking Places</td><td>647430014</td></tr><tr><td>en</td><td>Entertainment Retail</td><td>647430015</td></tr><tr><td>en</td><td>Accounting</td><td>647430001</td></tr><tr><td>en</td><td>Financial</td><td>647430017</td></tr><tr><td>en</td><td>Food and Tobacco Processing</td><td>647430018</td></tr><tr><td>en</td><td>Inbound Capital Intensive Processing</td><td>647430019</td></tr><tr><td>en</td><td>Inbound Repair and Services</td><td>647430020</td></tr><tr><td>en</td><td>Insurance</td><td>647430021</td></tr><tr><td>en</td><td>Legal Services</td><td>647430022</td></tr><tr><td>en</td><td>Non-Durable Merchandise Retail</td><td>647430023</td></tr><tr><td>en</td><td>Outbound Consumer Service</td><td>647430024</td></tr><tr><td>en</td><td>Petrochemical Extraction and Distribution</td><td>647430025</td></tr><tr><td>en</td><td>Service Retail</td><td>647430026</td></tr><tr><td>en</td><td>SIG Affiliations</td><td>647430027</td></tr><tr><td>en</td><td>Social Services</td><td>647430028</td></tr><tr><td>en</td><td>Special Outbound Trade Contractors</td><td>647430029</td></tr><tr><td>en</td><td>Specialty Realty</td><td>647430030</td></tr><tr><td>en</td><td>Transportation</td><td>647430031</td></tr><tr><td>en</td><td>Equipment Rental and Leasing</td><td>647430016</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Vehicle Retail</td><td>647430000</td></tr><tr><td>en</td><td>Accounting</td><td>647430001</td></tr><tr><td>en</td><td>Wholesale</td><td>647430002</td></tr><tr><td>en</td><td>Agriculture and Non-petrol Natural Resource Extraction</td><td>647430003</td></tr><tr><td>en</td><td>Broadcasting Printing and Publishing</td><td>647430004</td></tr><tr><td>en</td><td>Brokers</td><td>647430005</td></tr><tr><td>en</td><td>Building Supply Retail</td><td>647430006</td></tr><tr><td>en</td><td>Business Services</td><td>647430007</td></tr><tr><td>en</td><td>Consulting</td><td>647430008</td></tr><tr><td>en</td><td>Consumer Services</td><td>647430009</td></tr><tr><td>en</td><td>Design, Direction and Creative Management</td><td>647430010</td></tr><tr><td>en</td><td>Distributors, Dispatchers and Processors</td><td>647430011</td></tr><tr><td>en</td><td>Doctor's Offices and Clinics</td><td>647430012</td></tr><tr><td>en</td><td>Durable Manufacturing</td><td>647430013</td></tr><tr><td>en</td><td>Eating and Drinking Places</td><td>647430014</td></tr><tr><td>en</td><td>Entertainment Retail</td><td>647430015</td></tr><tr><td>en</td><td>Equipment Rental and Leasing</td><td>647430016</td></tr><tr><td>en</td><td>Financial</td><td>647430017</td></tr><tr><td>en</td><td>Food and Tobacco Processing</td><td>647430018</td></tr><tr><td>en</td><td>Inbound Capital Intensive Processing</td><td>647430019</td></tr><tr><td>en</td><td>Inbound Repair and Services</td><td>647430020</td></tr><tr><td>en</td><td>Insurance</td><td>647430021</td></tr><tr><td>en</td><td>Legal Services</td><td>647430022</td></tr><tr><td>en</td><td>Non-Durable Merchandise Retail</td><td>647430023</td></tr><tr><td>en</td><td>Outbound Consumer Service</td><td>647430024</td></tr><tr><td>en</td><td>Petrochemical Extraction and Distribution</td><td>647430025</td></tr><tr><td>en</td><td>Service Retail</td><td>647430026</td></tr><tr><td>en</td><td>SIG Affiliations</td><td>647430027</td></tr><tr><td>en</td><td>Social Services</td><td>647430028</td></tr><tr><td>en</td><td>Special Outbound Trade Contractors</td><td>647430029</td></tr><tr><td>en</td><td>Specialty Realty</td><td>647430030</td></tr><tr><td>en</td><td>Transportation</td><td>647430031</td></tr><tr><td>en</td><td>Utility Creation and Distribution</td><td>647430032</td></tr></table></td><td>any</td><td></td></tr></table>
 
 **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  

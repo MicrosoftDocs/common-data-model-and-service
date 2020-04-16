@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/15/2020
+ms.date: 4/16/2020
 ms.author: nebanfic
 ---
 
@@ -14,15 +14,6 @@ ms.author: nebanfic
 The products of the bank that the prospect or referral is interested in.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/Product.cdm.json" target="_blank">GitHub</a>.  
-
-## Instances
-
-Instances of this entity are listed below.  
-
-- [/foundationCommon/Product](../../../../Product.md "/core/applicationCommon/foundationCommon/Product.cdm.json/Product")  
-- /crmCommon/accelerators/financialServices/banking/Product  
-- [/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Product](../../healthCare/electronicMedicalRecords/Product.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Product.cdm.json/Product")  
-- [/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/Product](../../../projectCommon/projectServiceAutomation/Product.md "/core/applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/Product.cdm.json/Product")  
 
 ## Traits
 
@@ -55,7 +46,7 @@ Instances of this entity are listed below.
 
 ## Attributes
 
-|Name|Description|First Included in Instance|
+|Name|Description|First Included in Entity|
 |---|---|---|
 |[productId](#productId)|Unique identifier of the product.|<a href="Product.md" target="_blank">banking/Product</a>|
 |[createdOn](#createdOn)|Date and time when the record was created.|<a href="Product.md" target="_blank">banking/Product</a>|

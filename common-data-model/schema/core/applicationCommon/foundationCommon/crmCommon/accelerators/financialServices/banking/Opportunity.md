@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/15/2020
+ms.date: 4/16/2020
 ms.author: nebanfic
 ---
 
@@ -14,17 +14,6 @@ ms.author: nebanfic
 An opportunity represents a qualified prospect or an existing customer's interest in a product of the bank.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/Opportunity.cdm.json" target="_blank">GitHub</a>.  
-
-## Instances
-
-Instances of this entity are listed below.  
-
-- /crmCommon/accelerators/financialServices/banking/Opportunity  
-- [/foundationCommon/crmCommon/sales/Opportunity](../../../sales/Opportunity.md "/core/applicationCommon/foundationCommon/crmCommon/sales/Opportunity.cdm.json/Opportunity")  
-- [/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/Opportunity](../../nonProfit/nonProfitForSales/Opportunity.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/Opportunity.cdm.json/Opportunity")  
-- [/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Opportunity](../../nonProfit/nonProfitIati/Opportunity.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Opportunity.cdm.json/Opportunity")  
-- [/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/Opportunity](../../../projectCommon/projectServiceAutomation/Opportunity.md "/core/applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/Opportunity.cdm.json/Opportunity")  
-- [/foundationCommon/crmCommon/solutions/portals/Opportunity](../../../solutions/portals/Opportunity.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Opportunity.cdm.json/Opportunity")  
 
 ## Traits
 
@@ -57,7 +46,7 @@ Instances of this entity are listed below.
 
 ## Attributes
 
-|Name|Description|First Included in Instance|
+|Name|Description|First Included in Entity|
 |---|---|---|
 |[createdOn](#createdOn)|Date and time when the record was created.|<a href="Opportunity.md" target="_blank">banking/Opportunity</a>|
 |[createdBy](#createdBy)|Unique identifier of the user who created the record.|<a href="Opportunity.md" target="_blank">banking/Opportunity</a>|
@@ -5293,7 +5282,7 @@ First included in: banking/Opportunity (this entity)
 
 **is.dataFormat.integer**  
 **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>1</td><td>104800001</td></tr><tr><td>en</td><td>24</td><td>104800024</td></tr><tr><td>en</td><td>3</td><td>104800003</td></tr><tr><td>en</td><td>4</td><td>104800004</td></tr><tr><td>en</td><td>5</td><td>104800005</td></tr><tr><td>en</td><td>6</td><td>104800006</td></tr><tr><td>en</td><td>7</td><td>104800007</td></tr><tr><td>en</td><td>8</td><td>104800008</td></tr><tr><td>en</td><td>9</td><td>104800009</td></tr><tr><td>en</td><td>10</td><td>104800010</td></tr><tr><td>en</td><td>11</td><td>104800011</td></tr><tr><td>en</td><td>12</td><td>104800012</td></tr><tr><td>en</td><td>2</td><td>104800002</td></tr><tr><td>en</td><td>14</td><td>104800014</td></tr><tr><td>en</td><td>15</td><td>104800015</td></tr><tr><td>en</td><td>16</td><td>104800016</td></tr><tr><td>en</td><td>17</td><td>104800017</td></tr><tr><td>en</td><td>18</td><td>104800018</td></tr><tr><td>en</td><td>19</td><td>104800019</td></tr><tr><td>en</td><td>20</td><td>104800020</td></tr><tr><td>en</td><td>21</td><td>104800021</td></tr><tr><td>en</td><td>22</td><td>104800022</td></tr><tr><td>en</td><td>23</td><td>104800023</td></tr><tr><td>en</td><td>13</td><td>104800013</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>1</td><td>104800001</td></tr><tr><td>en</td><td>2</td><td>104800002</td></tr><tr><td>en</td><td>3</td><td>104800003</td></tr><tr><td>en</td><td>4</td><td>104800004</td></tr><tr><td>en</td><td>5</td><td>104800005</td></tr><tr><td>en</td><td>6</td><td>104800006</td></tr><tr><td>en</td><td>7</td><td>104800007</td></tr><tr><td>en</td><td>8</td><td>104800008</td></tr><tr><td>en</td><td>9</td><td>104800009</td></tr><tr><td>en</td><td>10</td><td>104800010</td></tr><tr><td>en</td><td>11</td><td>104800011</td></tr><tr><td>en</td><td>12</td><td>104800012</td></tr><tr><td>en</td><td>13</td><td>104800013</td></tr><tr><td>en</td><td>14</td><td>104800014</td></tr><tr><td>en</td><td>15</td><td>104800015</td></tr><tr><td>en</td><td>16</td><td>104800016</td></tr><tr><td>en</td><td>17</td><td>104800017</td></tr><tr><td>en</td><td>18</td><td>104800018</td></tr><tr><td>en</td><td>19</td><td>104800019</td></tr><tr><td>en</td><td>20</td><td>104800020</td></tr><tr><td>en</td><td>21</td><td>104800021</td></tr><tr><td>en</td><td>22</td><td>104800022</td></tr><tr><td>en</td><td>23</td><td>104800023</td></tr><tr><td>en</td><td>24</td><td>104800024</td></tr></table></td><td>any</td><td></td></tr></table>
 
 **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
