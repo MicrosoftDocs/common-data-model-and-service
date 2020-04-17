@@ -1,0 +1,688 @@
+---
+title: WHSInventTable - Common Data Model | Microsoft Docs
+description: undefined
+author: nenad1002
+ms.service: common-data-model
+ms.reviewer: deonhe
+ms.topic: article
+ms.date: 4/17/2020
+ms.author: nebanfic
+---
+
+# WHSInventTable
+
+  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/erp/Tables/SupplyChain/Inventory/Main/WHSInventTable.cdm.json" target="_blank">GitHub</a>.  
+
+## Traits
+
+<details>
+<summary>Traits for this entity are listed below.  
+</summary>
+
+**is.identifiedBy**  
+  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[WHSInventTable/(resolvedAttributes)/RecId](#RecId)</td><td>attribute</td><td></td></tr></table>
+
+**is.CDM.entityVersion**  
+  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.0.0"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
+
+**is.application.releaseVersion**  
+  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>releaseVersion</td><td>"10.0.13.0"</td><td>string</td><td>semantic version number of the application introducing this entity</td></tr></table>
+
+</details>
+
+## Attributes
+
+|Name|Description|First Included in Instance|
+|---|---|---|
+|[RecId](#RecId)||<a href="WHSInventTable.md" target="_blank">Main/WHSInventTable</a>|
+|[AllowMaterialOverPick](#AllowMaterialOverPick)||<a href="WHSInventTable.md" target="_blank">Main/WHSInventTable</a>|
+|[FilterChanged](#FilterChanged)||<a href="WHSInventTable.md" target="_blank">Main/WHSInventTable</a>|
+|[FilterCode](#FilterCode)||<a href="WHSInventTable.md" target="_blank">Main/WHSInventTable</a>|
+|[FilterGroup](#FilterGroup)||<a href="WHSInventTable.md" target="_blank">Main/WHSInventTable</a>|
+|[ItemId](#ItemId)||<a href="WHSInventTable.md" target="_blank">Main/WHSInventTable</a>|
+|[MaxPickQty](#MaxPickQty)||<a href="WHSInventTable.md" target="_blank">Main/WHSInventTable</a>|
+|[PackageClassId](#PackageClassId)||<a href="WHSInventTable.md" target="_blank">Main/WHSInventTable</a>|
+|[PackSizeCateogryId](#PackSizeCateogryId)||<a href="WHSInventTable.md" target="_blank">Main/WHSInventTable</a>|
+|[PhysDimId](#PhysDimId)||<a href="WHSInventTable.md" target="_blank">Main/WHSInventTable</a>|
+|[PickWCNeg](#PickWCNeg)||<a href="WHSInventTable.md" target="_blank">Main/WHSInventTable</a>|
+|[ProdQty](#ProdQty)||<a href="WHSInventTable.md" target="_blank">Main/WHSInventTable</a>|
+|[RFDescription1](#RFDescription1)||<a href="WHSInventTable.md" target="_blank">Main/WHSInventTable</a>|
+|[RFDescription2](#RFDescription2)||<a href="WHSInventTable.md" target="_blank">Main/WHSInventTable</a>|
+|[UOMSeqGroupId](#UOMSeqGroupId)||<a href="WHSInventTable.md" target="_blank">Main/WHSInventTable</a>|
+|[CatchWeightItemHandlingPolicyName](#CatchWeightItemHandlingPolicyName)||<a href="WHSInventTable.md" target="_blank">Main/WHSInventTable</a>|
+|[DataAreaId](#DataAreaId)||<a href="WHSInventTable.md" target="_blank">Main/WHSInventTable</a>|
+|[Relationship_FilterCode1RelationshipId](#Relationship_FilterCode1RelationshipId)||<a href="WHSInventTable.md" target="_blank">Main/WHSInventTable</a>|
+|[Relationship_FilterCode2RelationshipId](#Relationship_FilterCode2RelationshipId)||<a href="WHSInventTable.md" target="_blank">Main/WHSInventTable</a>|
+|[Relationship_FilterCode3RelationshipId](#Relationship_FilterCode3RelationshipId)||<a href="WHSInventTable.md" target="_blank">Main/WHSInventTable</a>|
+|[Relationship_FilterCode4RelationshipId](#Relationship_FilterCode4RelationshipId)||<a href="WHSInventTable.md" target="_blank">Main/WHSInventTable</a>|
+|[Relationship_InventTableRelationshipId](#Relationship_InventTableRelationshipId)||<a href="WHSInventTable.md" target="_blank">Main/WHSInventTable</a>|
+|[Relationship_WHSPackageClassRelationshipId](#Relationship_WHSPackageClassRelationshipId)||<a href="WHSInventTable.md" target="_blank">Main/WHSInventTable</a>|
+|[Relationship_WHSPackSizeCategoryRelationshipId](#Relationship_WHSPackSizeCategoryRelationshipId)||<a href="WHSInventTable.md" target="_blank">Main/WHSInventTable</a>|
+|[Relationship_WHSPhysDimGroupTableRelationshipId](#Relationship_WHSPhysDimGroupTableRelationshipId)||<a href="WHSInventTable.md" target="_blank">Main/WHSInventTable</a>|
+|[Relationship_WHSUOMSeqGroupTableRelationshipId](#Relationship_WHSUOMSeqGroupTableRelationshipId)||<a href="WHSInventTable.md" target="_blank">Main/WHSInventTable</a>|
+|[Relationship_WHSCatchWeightItemHandlingPolicyRelationshipId](#Relationship_WHSCatchWeightItemHandlingPolicyRelationshipId)||<a href="WHSInventTable.md" target="_blank">Main/WHSInventTable</a>|
+|[Relationship_CompanyRelationshipId](#Relationship_CompanyRelationshipId)||<a href="WHSInventTable.md" target="_blank">Main/WHSInventTable</a>|
+
+### <a href=#RecId name="RecId">RecId</a>
+
+First included in: Main/WHSInventTable (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>int64</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the RecId attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
+**is.identifiedBy**  
+names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[WHSInventTable/(resolvedAttributes)/RecId](#RecId)</td><td>attribute</td><td></td></tr></table>
+
+**is.readOnly**  
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
+</details>
+
+### <a href=#AllowMaterialOverPick name="AllowMaterialOverPick">AllowMaterialOverPick</a>
+
+First included in: Main/WHSInventTable (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the AllowMaterialOverPick attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**is.dataFormat.integer**  
+</details>
+
+### <a href=#FilterChanged name="FilterChanged">FilterChanged</a>
+
+First included in: Main/WHSInventTable (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the FilterChanged attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**is.dataFormat.integer**  
+</details>
+
+### <a href=#FilterCode name="FilterCode">FilterCode</a>
+
+First included in: Main/WHSInventTable (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the FilterCode attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#FilterGroup name="FilterGroup">FilterGroup</a>
+
+First included in: Main/WHSInventTable (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the FilterGroup attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#ItemId name="ItemId">ItemId</a>
+
+First included in: Main/WHSInventTable (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the ItemId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#MaxPickQty name="MaxPickQty">MaxPickQty</a>
+
+First included in: Main/WHSInventTable (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the MaxPickQty attribute are listed below.</summary>
+
+**is.dataFormat.numeric.shaped**  
+for setting the exact precision and scale of numeric values  
+
+**is.dataFormat.numeric.shaped**  
+for setting the exact precision and scale of numeric values  
+
+</details>
+
+### <a href=#PackageClassId name="PackageClassId">PackageClassId</a>
+
+First included in: Main/WHSInventTable (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the PackageClassId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#PackSizeCateogryId name="PackSizeCateogryId">PackSizeCateogryId</a>
+
+First included in: Main/WHSInventTable (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the PackSizeCateogryId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#PhysDimId name="PhysDimId">PhysDimId</a>
+
+First included in: Main/WHSInventTable (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the PhysDimId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#PickWCNeg name="PickWCNeg">PickWCNeg</a>
+
+First included in: Main/WHSInventTable (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the PickWCNeg attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**is.dataFormat.integer**  
+</details>
+
+### <a href=#ProdQty name="ProdQty">ProdQty</a>
+
+First included in: Main/WHSInventTable (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the ProdQty attribute are listed below.</summary>
+
+**is.dataFormat.numeric.shaped**  
+for setting the exact precision and scale of numeric values  
+
+**is.dataFormat.numeric.shaped**  
+for setting the exact precision and scale of numeric values  
+
+</details>
+
+### <a href=#RFDescription1 name="RFDescription1">RFDescription1</a>
+
+First included in: Main/WHSInventTable (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the RFDescription1 attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#RFDescription2 name="RFDescription2">RFDescription2</a>
+
+First included in: Main/WHSInventTable (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the RFDescription2 attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#UOMSeqGroupId name="UOMSeqGroupId">UOMSeqGroupId</a>
+
+First included in: Main/WHSInventTable (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the UOMSeqGroupId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#CatchWeightItemHandlingPolicyName name="CatchWeightItemHandlingPolicyName">CatchWeightItemHandlingPolicyName</a>
+
+First included in: Main/WHSInventTable (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the CatchWeightItemHandlingPolicyName attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#DataAreaId name="DataAreaId">DataAreaId</a>
+
+First included in: Main/WHSInventTable (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the DataAreaId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.readOnly**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#Relationship_FilterCode1RelationshipId name="Relationship_FilterCode1RelationshipId">Relationship_FilterCode1RelationshipId</a>
+
+First included in: Main/WHSInventTable (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the Relationship_FilterCode1RelationshipId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.guid**  
+**means.identity.entityId**  
+**is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../Group/WHSFilters.md" target="_blank">/core/erp/Tables/SupplyChain/Inventory/Group/WHSFilters.cdm.json/WHSFilters</a></td><td><a href="../Group/WHSFilters.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+**is.dataFormat.guid**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#Relationship_FilterCode2RelationshipId name="Relationship_FilterCode2RelationshipId">Relationship_FilterCode2RelationshipId</a>
+
+First included in: Main/WHSInventTable (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the Relationship_FilterCode2RelationshipId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.guid**  
+**means.identity.entityId**  
+**is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../Group/WHSFilters.md" target="_blank">/core/erp/Tables/SupplyChain/Inventory/Group/WHSFilters.cdm.json/WHSFilters</a></td><td><a href="../Group/WHSFilters.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+**is.dataFormat.guid**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#Relationship_FilterCode3RelationshipId name="Relationship_FilterCode3RelationshipId">Relationship_FilterCode3RelationshipId</a>
+
+First included in: Main/WHSInventTable (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the Relationship_FilterCode3RelationshipId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.guid**  
+**means.identity.entityId**  
+**is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../Group/WHSFilters.md" target="_blank">/core/erp/Tables/SupplyChain/Inventory/Group/WHSFilters.cdm.json/WHSFilters</a></td><td><a href="../Group/WHSFilters.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+**is.dataFormat.guid**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#Relationship_FilterCode4RelationshipId name="Relationship_FilterCode4RelationshipId">Relationship_FilterCode4RelationshipId</a>
+
+First included in: Main/WHSInventTable (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the Relationship_FilterCode4RelationshipId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.guid**  
+**means.identity.entityId**  
+**is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../Group/WHSFilters.md" target="_blank">/core/erp/Tables/SupplyChain/Inventory/Group/WHSFilters.cdm.json/WHSFilters</a></td><td><a href="../Group/WHSFilters.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+**is.dataFormat.guid**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#Relationship_InventTableRelationshipId name="Relationship_InventTableRelationshipId">Relationship_InventTableRelationshipId</a>
+
+First included in: Main/WHSInventTable (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the Relationship_InventTableRelationshipId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.guid**  
+**means.identity.entityId**  
+**is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../ProductInformationManagement/Main/InventTable.md" target="_blank">/core/erp/Tables/SupplyChain/ProductInformationManagement/Main/InventTable.cdm.json/InventTable</a></td><td><a href="../../ProductInformationManagement/Main/InventTable.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+**is.dataFormat.guid**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#Relationship_WHSPackageClassRelationshipId name="Relationship_WHSPackageClassRelationshipId">Relationship_WHSPackageClassRelationshipId</a>
+
+First included in: Main/WHSInventTable (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the Relationship_WHSPackageClassRelationshipId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.guid**  
+**means.identity.entityId**  
+**is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../Group/WHSPackageClass.md" target="_blank">/core/erp/Tables/SupplyChain/Inventory/Group/WHSPackageClass.cdm.json/WHSPackageClass</a></td><td><a href="../Group/WHSPackageClass.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+**is.dataFormat.guid**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#Relationship_WHSPackSizeCategoryRelationshipId name="Relationship_WHSPackSizeCategoryRelationshipId">Relationship_WHSPackSizeCategoryRelationshipId</a>
+
+First included in: Main/WHSInventTable (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the Relationship_WHSPackSizeCategoryRelationshipId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.guid**  
+**means.identity.entityId**  
+**is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../Group/WHSPackSizeCategory.md" target="_blank">/core/erp/Tables/SupplyChain/Inventory/Group/WHSPackSizeCategory.cdm.json/WHSPackSizeCategory</a></td><td><a href="../Group/WHSPackSizeCategory.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+**is.dataFormat.guid**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#Relationship_WHSPhysDimGroupTableRelationshipId name="Relationship_WHSPhysDimGroupTableRelationshipId">Relationship_WHSPhysDimGroupTableRelationshipId</a>
+
+First included in: Main/WHSInventTable (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the Relationship_WHSPhysDimGroupTableRelationshipId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.guid**  
+**means.identity.entityId**  
+**is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../Group/WHSPhysDimGroupTable.md" target="_blank">/core/erp/Tables/SupplyChain/Inventory/Group/WHSPhysDimGroupTable.cdm.json/WHSPhysDimGroupTable</a></td><td><a href="../Group/WHSPhysDimGroupTable.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+**is.dataFormat.guid**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#Relationship_WHSUOMSeqGroupTableRelationshipId name="Relationship_WHSUOMSeqGroupTableRelationshipId">Relationship_WHSUOMSeqGroupTableRelationshipId</a>
+
+First included in: Main/WHSInventTable (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the Relationship_WHSUOMSeqGroupTableRelationshipId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.guid**  
+**means.identity.entityId**  
+**is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../Group/WHSUOMSeqGroupTable.md" target="_blank">/core/erp/Tables/SupplyChain/Inventory/Group/WHSUOMSeqGroupTable.cdm.json/WHSUOMSeqGroupTable</a></td><td><a href="../Group/WHSUOMSeqGroupTable.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+**is.dataFormat.guid**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#Relationship_WHSCatchWeightItemHandlingPolicyRelationshipId name="Relationship_WHSCatchWeightItemHandlingPolicyRelationshipId">Relationship_WHSCatchWeightItemHandlingPolicyRelationshipId</a>
+
+First included in: Main/WHSInventTable (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the Relationship_WHSCatchWeightItemHandlingPolicyRelationshipId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.guid**  
+**means.identity.entityId**  
+**is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../Group/WHSCatchWeightItemHandlingPolicy.md" target="_blank">/core/erp/Tables/SupplyChain/Inventory/Group/WHSCatchWeightItemHandlingPolicy.cdm.json/WHSCatchWeightItemHandlingPolicy</a></td><td><a href="../Group/WHSCatchWeightItemHandlingPolicy.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+**is.dataFormat.guid**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#Relationship_CompanyRelationshipId name="Relationship_CompanyRelationshipId">Relationship_CompanyRelationshipId</a>
+
+First included in: Main/WHSInventTable (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the Relationship_CompanyRelationshipId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.guid**  
+**means.identity.entityId**  
+**is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Finance/Ledger/Main/CompanyInfo.md" target="_blank">/core/erp/Tables/Finance/Ledger/Main/CompanyInfo.cdm.json/CompanyInfo</a></td><td><a href="../../../Finance/Ledger/Main/CompanyInfo.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+**is.dataFormat.guid**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>

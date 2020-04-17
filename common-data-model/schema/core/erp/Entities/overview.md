@@ -5,19 +5,26 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/16/2020
+ms.date: 4/17/2020
 ms.author: nebanfic
 ---
 
 # Entities
 
-Common Data Model logical entities from Finance and Operations applications  
+The Common Data Model logical entities for operations applications  
 
 ## Sub-folders
 
 |Name|
 |---|
 |[Commerce](Commerce/overview.md)|
+|[Common](Common/overview.md)|
+|[Finance](Finance/overview.md)|
+|[HumanResources](HumanResources/overview.md)|
+|[ProfessionalServices](ProfessionalServices/overview.md)|
+|[RetailMain](RetailMain/overview.md)|
+|[SupplyChain](SupplyChain/overview.md)|
+|[System](System/overview.md)|
 
 
 

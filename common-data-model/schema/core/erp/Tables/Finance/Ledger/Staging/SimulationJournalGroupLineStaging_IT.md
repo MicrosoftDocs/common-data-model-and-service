@@ -1,0 +1,181 @@
+---
+title: SimulationJournalGroupLineStaging_IT - Common Data Model | Microsoft Docs
+description: undefined
+author: nenad1002
+ms.service: common-data-model
+ms.reviewer: deonhe
+ms.topic: article
+ms.date: 4/17/2020
+ms.author: nebanfic
+---
+
+# SimulationJournalGroupLineStaging_IT
+
+  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/erp/Tables/Finance/Ledger/Staging/SimulationJournalGroupLineStaging_IT.cdm.json" target="_blank">GitHub</a>.  
+
+## Traits
+
+<details>
+<summary>Traits for this entity are listed below.  
+</summary>
+
+**is.identifiedBy**  
+  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[SimulationJournalGroupLineStaging_IT/(resolvedAttributes)/RecId](#RecId)</td><td>attribute</td><td></td></tr></table>
+
+**is.CDM.entityVersion**  
+  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.0.0"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
+
+**is.application.releaseVersion**  
+  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>releaseVersion</td><td>"10.0.13.0"</td><td>string</td><td>semantic version number of the application introducing this entity</td></tr></table>
+
+</details>
+
+## Attributes
+
+|Name|Description|First Included in Instance|
+|---|---|---|
+|[RecId](#RecId)||<a href="SimulationJournalGroupLineStaging_IT.md" target="_blank">Staging/SimulationJournalGroupLineStaging_IT</a>|
+|[DefinitionGroup](#DefinitionGroup)||<a href="SimulationJournalGroupLineStaging_IT.md" target="_blank">Staging/SimulationJournalGroupLineStaging_IT</a>|
+|[ExecutionId](#ExecutionId)||<a href="SimulationJournalGroupLineStaging_IT.md" target="_blank">Staging/SimulationJournalGroupLineStaging_IT</a>|
+|[IsSelected](#IsSelected)||<a href="SimulationJournalGroupLineStaging_IT.md" target="_blank">Staging/SimulationJournalGroupLineStaging_IT</a>|
+|[TransferStatus](#TransferStatus)||<a href="SimulationJournalGroupLineStaging_IT.md" target="_blank">Staging/SimulationJournalGroupLineStaging_IT</a>|
+|[JournalName](#JournalName)||<a href="SimulationJournalGroupLineStaging_IT.md" target="_blank">Staging/SimulationJournalGroupLineStaging_IT</a>|
+|[SimulationJournalGroupId](#SimulationJournalGroupId)||<a href="SimulationJournalGroupLineStaging_IT.md" target="_blank">Staging/SimulationJournalGroupLineStaging_IT</a>|
+
+### <a href=#RecId name="RecId">RecId</a>
+
+First included in: Staging/SimulationJournalGroupLineStaging_IT (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>int64</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the RecId attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
+**is.identifiedBy**  
+names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[SimulationJournalGroupLineStaging_IT/(resolvedAttributes)/RecId](#RecId)</td><td>attribute</td><td></td></tr></table>
+
+**is.readOnly**  
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
+</details>
+
+### <a href=#DefinitionGroup name="DefinitionGroup">DefinitionGroup</a>
+
+First included in: Staging/SimulationJournalGroupLineStaging_IT (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the DefinitionGroup attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#ExecutionId name="ExecutionId">ExecutionId</a>
+
+First included in: Staging/SimulationJournalGroupLineStaging_IT (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the ExecutionId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#IsSelected name="IsSelected">IsSelected</a>
+
+First included in: Staging/SimulationJournalGroupLineStaging_IT (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the IsSelected attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**is.dataFormat.integer**  
+</details>
+
+### <a href=#TransferStatus name="TransferStatus">TransferStatus</a>
+
+First included in: Staging/SimulationJournalGroupLineStaging_IT (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the TransferStatus attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**is.dataFormat.integer**  
+</details>
+
+### <a href=#JournalName name="JournalName">JournalName</a>
+
+First included in: Staging/SimulationJournalGroupLineStaging_IT (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the JournalName attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#SimulationJournalGroupId name="SimulationJournalGroupId">SimulationJournalGroupId</a>
+
+First included in: Staging/SimulationJournalGroupLineStaging_IT (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the SimulationJournalGroupId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>

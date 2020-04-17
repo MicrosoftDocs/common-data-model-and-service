@@ -1,0 +1,217 @@
+---
+title: RetailButtonGrid - Common Data Model | Microsoft Docs
+description: undefined
+author: nenad1002
+ms.service: common-data-model
+ms.reviewer: deonhe
+ms.topic: article
+ms.date: 4/17/2020
+ms.author: nebanfic
+---
+
+# RetailButtonGrid
+
+  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/erp/Tables/Commerce/Retail/Parameter/RetailButtonGrid.cdm.json" target="_blank">GitHub</a>.  
+
+## Traits
+
+<details>
+<summary>Traits for this entity are listed below.  
+</summary>
+
+**is.identifiedBy**  
+  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[RetailButtonGrid/(resolvedAttributes)/RecId](#RecId)</td><td>attribute</td><td></td></tr></table>
+
+**is.CDM.entityVersion**  
+  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.0.0"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
+
+**is.application.releaseVersion**  
+  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>releaseVersion</td><td>"10.0.13.0"</td><td>string</td><td>semantic version number of the application introducing this entity</td></tr></table>
+
+</details>
+
+## Attributes
+
+|Name|Description|First Included in Instance|
+|---|---|---|
+|[RecId](#RecId)||<a href="RetailButtonGrid.md" target="_blank">Parameter/RetailButtonGrid</a>|
+|[ButtonGridId](#ButtonGridId)||<a href="RetailButtonGrid.md" target="_blank">Parameter/RetailButtonGrid</a>|
+|[defaultColor](#defaultColor)||<a href="RetailButtonGrid.md" target="_blank">Parameter/RetailButtonGrid</a>|
+|[defaultFontSize](#defaultFontSize)||<a href="RetailButtonGrid.md" target="_blank">Parameter/RetailButtonGrid</a>|
+|[defaultFontStyle](#defaultFontStyle)||<a href="RetailButtonGrid.md" target="_blank">Parameter/RetailButtonGrid</a>|
+|[Font](#Font)||<a href="RetailButtonGrid.md" target="_blank">Parameter/RetailButtonGrid</a>|
+|[KeyboardUsed](#KeyboardUsed)||<a href="RetailButtonGrid.md" target="_blank">Parameter/RetailButtonGrid</a>|
+|[Name](#Name)||<a href="RetailButtonGrid.md" target="_blank">Parameter/RetailButtonGrid</a>|
+|[SpaceBetweenButtons](#SpaceBetweenButtons)||<a href="RetailButtonGrid.md" target="_blank">Parameter/RetailButtonGrid</a>|
+
+### <a href=#RecId name="RecId">RecId</a>
+
+First included in: Parameter/RetailButtonGrid (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>int64</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the RecId attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
+**is.identifiedBy**  
+names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[RetailButtonGrid/(resolvedAttributes)/RecId](#RecId)</td><td>attribute</td><td></td></tr></table>
+
+**is.readOnly**  
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
+</details>
+
+### <a href=#ButtonGridId name="ButtonGridId">ButtonGridId</a>
+
+First included in: Parameter/RetailButtonGrid (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the ButtonGridId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#defaultColor name="defaultColor">defaultColor</a>
+
+First included in: Parameter/RetailButtonGrid (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the defaultColor attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**is.dataFormat.integer**  
+</details>
+
+### <a href=#defaultFontSize name="defaultFontSize">defaultFontSize</a>
+
+First included in: Parameter/RetailButtonGrid (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the defaultFontSize attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**is.dataFormat.integer**  
+</details>
+
+### <a href=#defaultFontStyle name="defaultFontStyle">defaultFontStyle</a>
+
+First included in: Parameter/RetailButtonGrid (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the defaultFontStyle attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**is.dataFormat.integer**  
+</details>
+
+### <a href=#Font name="Font">Font</a>
+
+First included in: Parameter/RetailButtonGrid (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the Font attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#KeyboardUsed name="KeyboardUsed">KeyboardUsed</a>
+
+First included in: Parameter/RetailButtonGrid (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the KeyboardUsed attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#Name name="Name">Name</a>
+
+First included in: Parameter/RetailButtonGrid (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the Name attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#SpaceBetweenButtons name="SpaceBetweenButtons">SpaceBetweenButtons</a>
+
+First included in: Parameter/RetailButtonGrid (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the SpaceBetweenButtons attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**is.dataFormat.integer**  
+</details>

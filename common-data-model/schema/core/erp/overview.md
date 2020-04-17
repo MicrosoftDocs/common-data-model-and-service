@@ -5,19 +5,20 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/16/2020
+ms.date: 4/17/2020
 ms.author: nebanfic
 ---
 
 # erp
 
-Common Data Model entities from ERP applications  
+The Common Data Model entities from operations applications  
 
 ## Sub-folders
 
 |Name|
 |---|
 |[Entities](Entities/overview.md)|
+|[Tables](Tables/overview.md)|
 
 
 
