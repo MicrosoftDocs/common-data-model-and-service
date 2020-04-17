@@ -28,7 +28,7 @@ Category for a Knowledge Article.
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[KnowledgeArticleCategory/(resolvedAttributes)/knowledgeArticleCategoryId](#knowledgeArticleCategoryId)</td><td>attribute</td><td></td></tr></table>
 
 **is.CDM.attributeGroup**  
-  identifies standard groups of attributes in Common Data Model entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/applicationCommon<br>/KnowledgeArticleCategory.cdm.json<br>/KnowledgeArticleCategory/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
+  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/applicationCommon<br>/KnowledgeArticleCategory.cdm.json<br>/KnowledgeArticleCategory/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
 
 **is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Knowledge Article Category</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -37,7 +37,7 @@ Category for a Knowledge Article.
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Category for a Knowledge Article.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.CDS.sourceNamed**  
-  the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"KnowledgeArticlesCategories"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"KnowledgeArticlesCategories"</td><td>string</td><td></td></tr></table>
 
 </details>
 
@@ -68,16 +68,16 @@ First included in: applicationCommon/KnowledgeArticleCategory (this entity)
 **is.dataFormat.array**  
 **is.dataFormat.guid**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.linkedEntity.identifier**  
 Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="KnowledgeArticle.md" target="_blank">/core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle</a></td><td><a href="KnowledgeArticle.md#knowledgearticleId" target="_blank">knowledgearticleId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"knowledgearticleid"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"knowledgearticleid"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"1"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"1"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  
@@ -102,13 +102,13 @@ First included in: applicationCommon/KnowledgeArticleCategory (this entity)
 **is.dataFormat.array**  
 **is.dataFormat.guid**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"categoryid"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"categoryid"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"2"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"2"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  
@@ -138,16 +138,16 @@ First included in: applicationCommon/KnowledgeArticleCategory (this entity)
 names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[KnowledgeArticleCategory/(resolvedAttributes)/knowledgeArticleCategoryId](#knowledgeArticleCategoryId)</td><td>attribute</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.describedAs**  
 Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the Category for the knowledge article.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"knowledgearticlecategoryid"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"knowledgearticlecategoryid"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"3"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"3"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  
@@ -170,16 +170,16 @@ First included in: applicationCommon/KnowledgeArticleCategory (this entity)
 **is.dataFormat.integer**  
 **is.dataFormat.big**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.nullable**  
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"versionnumber"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"versionnumber"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"4"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"4"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
 **is.dataFormat.big**  

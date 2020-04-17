@@ -11,7 +11,7 @@ ms.author: nebanfic
 
 # nonProfitCore
 
-Common Data Model Solution for the 'NONPROFITCORE' Common Data Service Solution  
+CDM Solution for the 'NONPROFITCORE' CDS Solution  
 
 ## Entities
 

@@ -38,7 +38,7 @@ Prospect or potential sales opportunity. Leads are converted into accounts, cont
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.0"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.CDM.attributeGroup**  
-  identifies standard groups of attributes in Common Data Model entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsCreationModificationDatesAndIds</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsOwnershipInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsTimeZoneInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsVersionTracking</td></tr><tr><td>/core/applicationCommon/foundationCommon<br>/crmCommon/Lead.cdm.json/Lead/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
+  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsCreationModificationDatesAndIds</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsOwnershipInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsTimeZoneInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsVersionTracking</td></tr><tr><td>/core/applicationCommon/foundationCommon<br>/crmCommon/Lead.cdm.json/Lead/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
 
 **is.identifiedBy**  
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Lead/(resolvedAttributes)/leadId](#leadId)</td><td>attribute</td><td></td></tr></table>
@@ -53,7 +53,7 @@ Prospect or potential sales opportunity. Leads are converted into accounts, cont
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Prospect or potential sales opportunity. Leads are converted into accounts, contacts, or opportunities when they are qualified. Otherwise, they are deleted or archived.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.CDS.sourceNamed**  
-  the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"Lead"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"Lead"</td><td>string</td><td></td></tr></table>
 
 </details>
 
@@ -250,7 +250,7 @@ First included in: crmCommon/Lead (this entity)
 identifies attributes that are part of the cdsStandard base set.  
 
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Created On</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -262,7 +262,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"createdon"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"createdon"</td><td>string</td><td></td></tr></table>
 
 **is.dataFormat.time**  
 **is.dataFormat.date**  
@@ -294,10 +294,10 @@ contains a userId
 identifies attributes that are part of the cdsStandard base set.  
 
 **is.CDS.lookup**  
-The attribute represents a style of lookup in Common Data Service for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
+The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Created By</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -312,7 +312,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"createdby"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"createdby"</td><td>string</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  
@@ -342,7 +342,7 @@ First included in: crmCommon/Lead (this entity)
 identifies attributes that are part of the cdsStandard base set.  
 
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Modified On</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -354,7 +354,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"modifiedon"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"modifiedon"</td><td>string</td><td></td></tr></table>
 
 **is.dataFormat.time**  
 **is.dataFormat.date**  
@@ -386,10 +386,10 @@ contains a userId
 identifies attributes that are part of the cdsStandard base set.  
 
 **is.CDS.lookup**  
-The attribute represents a style of lookup in Common Data Service for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
+The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Modified By</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -404,7 +404,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"modifiedby"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"modifiedby"</td><td>string</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  
@@ -437,10 +437,10 @@ contains a userId
 identifies attributes that are part of the cdsStandard base set.  
 
 **is.CDS.lookup**  
-The attribute represents a style of lookup in Common Data Service for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
+The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Created By (Delegate)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -455,7 +455,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"createdonbehalfby"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"createdonbehalfby"</td><td>string</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  
@@ -488,10 +488,10 @@ contains a userId
 identifies attributes that are part of the cdsStandard base set.  
 
 **is.CDS.lookup**  
-The attribute represents a style of lookup in Common Data Service for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
+The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Modified By (Delegate)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -506,7 +506,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"modifiedonbehalfby"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"modifiedonbehalfby"</td><td>string</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  
@@ -536,7 +536,7 @@ First included in: crmCommon/Lead (this entity)
 identifies attributes that are part of the cdsStandard base set.  
 
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Record Created On</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -548,7 +548,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"overriddencreatedon"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"overriddencreatedon"</td><td>string</td><td></td></tr></table>
 
 **is.dataFormat.time**  
 **is.dataFormat.date**  
@@ -570,7 +570,7 @@ First included in: crmCommon/Lead (this entity)
 
 **is.dataFormat.integer**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Import Sequence Number</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -582,7 +582,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"importsequencenumber"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"importsequencenumber"</td><td>string</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-2147483648"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"2147483647"</td><td>decimal</td><td></td></tr></table>
@@ -613,10 +613,10 @@ First included in: crmCommon/Lead (this entity)
 identifies attributes that are part of the cdsStandard base set.  
 
 **is.CDS.lookup**  
-The attribute represents a style of lookup in Common Data Service for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
+The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Owner</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -628,7 +628,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="service/User.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User</a></td><td><a href="service/User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="../../Team.md" target="_blank">/core/applicationCommon/Team.cdm.json/Team</a></td><td><a href="../../Team.md#teamId" target="_blank">teamId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"ownerid"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"ownerid"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.owner**  
 contains a User or Team ID  
@@ -657,7 +657,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.array**  
 **means.entityName**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Owner Type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -670,7 +670,7 @@ Marks an attribute that contains the entity name or 'class' for the situation wh
 
 **is.readOnly**  
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"owneridtype"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"owneridtype"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.owner**  
 contains a User or Team ID  
@@ -702,10 +702,10 @@ First included in: crmCommon/Lead (this entity)
 identifies attributes that are part of the cdsStandard base set.  
 
 **is.CDS.lookup**  
-The attribute represents a style of lookup in Common Data Service for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
+The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Owning Business Unit</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -720,7 +720,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"owningbusinessunit"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"owningbusinessunit"</td><td>string</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  
@@ -753,10 +753,10 @@ contains a userId
 identifies attributes that are part of the cdsStandard base set.  
 
 **is.CDS.lookup**  
-The attribute represents a style of lookup in Common Data Service for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
+The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Owning User</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -771,7 +771,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"owninguser"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"owninguser"</td><td>string</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  
@@ -801,10 +801,10 @@ First included in: crmCommon/Lead (this entity)
 identifies attributes that are part of the cdsStandard base set.  
 
 **is.CDS.lookup**  
-The attribute represents a style of lookup in Common Data Service for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
+The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Owning Team</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -819,7 +819,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"owningteam"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"owningteam"</td><td>string</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  
@@ -845,7 +845,7 @@ First included in: crmCommon/Lead (this entity)
 identifies attributes that are part of the cdsStandard base set.  
 
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Time Zone Rule Version Number</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -857,7 +857,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"timezoneruleversionnumber"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"timezoneruleversionnumber"</td><td>string</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-1"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"2147483647"</td><td>decimal</td><td></td></tr></table>
@@ -884,7 +884,7 @@ First included in: crmCommon/Lead (this entity)
 identifies attributes that are part of the cdsStandard base set.  
 
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>UTC Conversion Time Zone Code</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -896,7 +896,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"utcconversiontimezonecode"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"utcconversiontimezonecode"</td><td>string</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-1"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"2147483647"</td><td>decimal</td><td></td></tr></table>
@@ -925,7 +925,7 @@ First included in: crmCommon/Lead (this entity)
 identifies attributes that are part of the cdsStandard base set.  
 
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Version Number</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -937,7 +937,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"versionnumber"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"versionnumber"</td><td>string</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
 **is.dataFormat.big**  
@@ -966,7 +966,7 @@ First included in: crmCommon/Lead (this entity)
 names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Lead/(resolvedAttributes)/leadId](#leadId)</td><td>attribute</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Lead</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -975,10 +975,10 @@ Holds the list of language specific display text for an object.  <table><tr><th>
 Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the lead.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"leadid"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"leadid"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10000"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10000"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  
@@ -1004,7 +1004,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.array**  
 **means.identity.person.fullName**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Name</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -1016,10 +1016,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"fullname"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"fullname"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10028"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10028"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"160"</td><td>integer</td><td></td></tr></table>
@@ -1047,7 +1047,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.array**  
 **is.dataFormat.guid**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Process Id</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -1059,10 +1059,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"processid"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"processid"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10029"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10029"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  
@@ -1088,7 +1088,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.array**  
 **is.dataFormat.guid**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Stage Id</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -1100,10 +1100,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"stageid"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"stageid"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10030"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10030"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  
@@ -1128,7 +1128,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.big**  
 **is.dataFormat.array**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Traversed Path</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -1140,10 +1140,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"traversedpath"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"traversedpath"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10031"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10031"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"1250"</td><td>integer</td><td></td></tr></table>
@@ -1172,10 +1172,10 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.guid**  
 **means.identity.entityId**  
 **is.CDS.lookup**  
-The attribute represents a style of lookup in Common Data Service for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
+The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Parent Account for lead</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -1190,10 +1190,10 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"parentaccountid"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"parentaccountid"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10032"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10032"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  
@@ -1220,10 +1220,10 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.guid**  
 **means.identity.entityId**  
 **is.CDS.lookup**  
-The attribute represents a style of lookup in Common Data Service for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
+The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Parent Contact for lead</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -1238,10 +1238,10 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"parentcontactid"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"parentcontactid"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10033"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10033"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  
@@ -1268,7 +1268,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.guid**  
 **means.identity.entityId**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Address 1: ID</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -1280,10 +1280,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address1_addressid"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address1_addressid"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10034"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10034"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  
@@ -1312,7 +1312,7 @@ An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
 
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Address 1: Address Type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -1324,10 +1324,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address1_addresstypecode"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address1_addresstypecode"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10035"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10035"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
 </details>
@@ -1376,7 +1376,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.array**  
 **means.location.city**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>City</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -1388,10 +1388,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address1_city"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address1_city"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10037"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10037"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"80"</td><td>integer</td><td></td></tr></table>
@@ -1418,7 +1418,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.big**  
 **is.dataFormat.array**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Address 1</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -1430,10 +1430,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address1_composite"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address1_composite"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10038"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10038"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"1000"</td><td>integer</td><td></td></tr></table>
@@ -1461,7 +1461,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.array**  
 **means.location.country**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Country/Region</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -1473,10 +1473,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address1_country"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address1_country"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10039"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10039"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"80"</td><td>integer</td><td></td></tr></table>
@@ -1504,7 +1504,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.array**  
 **means.location.county**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Address 1: County</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -1516,10 +1516,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address1_county"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address1_county"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10040"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10040"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"50"</td><td>integer</td><td></td></tr></table>
@@ -1546,7 +1546,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.big**  
 **is.dataFormat.array**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Address 1: Fax</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -1558,10 +1558,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address1_fax"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address1_fax"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10041"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10041"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"50"</td><td>integer</td><td></td></tr></table>
@@ -1588,7 +1588,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.big**  
 **means.location.latitude**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Address 1: Latitude</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -1600,10 +1600,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address1_latitude"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address1_latitude"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10042"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10042"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-90"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"90"</td><td>decimal</td><td></td></tr></table>
@@ -1631,7 +1631,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.array**  
 **means.location.address**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Street 1</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -1643,10 +1643,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address1_line1"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address1_line1"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10043"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10043"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"250"</td><td>integer</td><td></td></tr></table>
@@ -1674,7 +1674,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.array**  
 **means.location.address**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Street 2</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -1686,10 +1686,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address1_line2"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address1_line2"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10044"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10044"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"250"</td><td>integer</td><td></td></tr></table>
@@ -1717,7 +1717,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.array**  
 **means.location.address**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Street 3</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -1729,10 +1729,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address1_line3"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address1_line3"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10045"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10045"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"250"</td><td>integer</td><td></td></tr></table>
@@ -1759,7 +1759,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.big**  
 **means.location.longitude**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Address 1: Longitude</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -1771,10 +1771,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address1_longitude"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address1_longitude"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10046"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10046"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-180"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"180"</td><td>decimal</td><td></td></tr></table>
@@ -1802,7 +1802,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.array**  
 **means.identity.name**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Address 1: Name</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -1814,10 +1814,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address1_name"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address1_name"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10047"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10047"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
@@ -1845,7 +1845,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.array**  
 **means.location.postalCode**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>ZIP/Postal Code</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -1857,10 +1857,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address1_postalcode"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address1_postalcode"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10048"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10048"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"20"</td><td>integer</td><td></td></tr></table>
@@ -1887,7 +1887,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.big**  
 **is.dataFormat.array**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Address 1: Post Office Box</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -1899,10 +1899,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address1_postofficebox"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address1_postofficebox"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10049"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10049"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"20"</td><td>integer</td><td></td></tr></table>
@@ -1933,7 +1933,7 @@ An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
 
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Address 1: Shipping Method</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -1945,10 +1945,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address1_shippingmethodcode"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address1_shippingmethodcode"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10050"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10050"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
 </details>
@@ -1997,7 +1997,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.array**  
 **means.location.stateOrProvince**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>State/Province</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -2009,10 +2009,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address1_stateorprovince"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address1_stateorprovince"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10052"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10052"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"50"</td><td>integer</td><td></td></tr></table>
@@ -2040,7 +2040,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.array**  
 **means.identity.service.phone**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Address 1: Telephone 1</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -2052,10 +2052,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address1_telephone1"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address1_telephone1"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10053"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10053"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"50"</td><td>integer</td><td></td></tr></table>
@@ -2083,7 +2083,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.array**  
 **means.identity.service.phone**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Address 1: Telephone 2</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -2095,10 +2095,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address1_telephone2"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address1_telephone2"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10054"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10054"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"50"</td><td>integer</td><td></td></tr></table>
@@ -2126,7 +2126,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.array**  
 **means.identity.service.phone**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Address 1: Telephone 3</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -2138,10 +2138,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address1_telephone3"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address1_telephone3"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10055"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10055"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"50"</td><td>integer</td><td></td></tr></table>
@@ -2168,7 +2168,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.big**  
 **is.dataFormat.array**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Address 1: UPS Zone</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -2180,10 +2180,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address1_upszone"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address1_upszone"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10056"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10056"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"4"</td><td>integer</td><td></td></tr></table>
@@ -2211,7 +2211,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.array**  
 **means.location.timezone**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Address 1: UTC Offset</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -2223,10 +2223,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address1_utcoffset"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address1_utcoffset"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10057"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10057"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-1500"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"1500"</td><td>decimal</td><td></td></tr></table>
@@ -2255,7 +2255,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.guid**  
 **means.identity.entityId**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Address 2: ID</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -2267,10 +2267,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address2_addressid"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address2_addressid"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10058"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10058"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  
@@ -2299,7 +2299,7 @@ An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
 
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Address 2: Address Type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -2311,10 +2311,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address2_addresstypecode"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address2_addresstypecode"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10059"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10059"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
 </details>
@@ -2363,7 +2363,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.array**  
 **means.location.city**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Address 2: City</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -2375,10 +2375,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address2_city"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address2_city"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10061"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10061"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"80"</td><td>integer</td><td></td></tr></table>
@@ -2405,7 +2405,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.big**  
 **is.dataFormat.array**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Address 2</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -2417,10 +2417,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address2_composite"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address2_composite"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10062"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10062"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"1000"</td><td>integer</td><td></td></tr></table>
@@ -2448,7 +2448,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.array**  
 **means.location.country**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Address 2: Country/Region</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -2460,10 +2460,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address2_country"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address2_country"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10063"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10063"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"80"</td><td>integer</td><td></td></tr></table>
@@ -2491,7 +2491,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.array**  
 **means.location.county**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Address 2: County</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -2503,10 +2503,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address2_county"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address2_county"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10064"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10064"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"50"</td><td>integer</td><td></td></tr></table>
@@ -2533,7 +2533,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.big**  
 **is.dataFormat.array**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Address 2: Fax</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -2545,10 +2545,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address2_fax"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address2_fax"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10065"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10065"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"50"</td><td>integer</td><td></td></tr></table>
@@ -2575,7 +2575,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.big**  
 **means.location.latitude**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Address 2: Latitude</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -2587,10 +2587,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address2_latitude"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address2_latitude"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10066"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10066"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-90"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"90"</td><td>decimal</td><td></td></tr></table>
@@ -2618,7 +2618,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.array**  
 **means.location.address**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Address 2: Street 1</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -2630,10 +2630,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address2_line1"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address2_line1"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10067"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10067"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"250"</td><td>integer</td><td></td></tr></table>
@@ -2661,7 +2661,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.array**  
 **means.location.address**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Address 2: Street 2</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -2673,10 +2673,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address2_line2"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address2_line2"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10068"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10068"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"250"</td><td>integer</td><td></td></tr></table>
@@ -2704,7 +2704,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.array**  
 **means.location.address**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Address 2: Street 3</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -2716,10 +2716,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address2_line3"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address2_line3"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10069"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10069"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"250"</td><td>integer</td><td></td></tr></table>
@@ -2746,7 +2746,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.big**  
 **means.location.longitude**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Address 2: Longitude</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -2758,10 +2758,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address2_longitude"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address2_longitude"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10070"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10070"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-180"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"180"</td><td>decimal</td><td></td></tr></table>
@@ -2789,7 +2789,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.array**  
 **means.identity.name**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Address 2: Name</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -2801,10 +2801,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address2_name"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address2_name"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10071"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10071"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
@@ -2832,7 +2832,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.array**  
 **means.location.postalCode**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Address 2: ZIP/Postal Code</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -2844,10 +2844,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address2_postalcode"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address2_postalcode"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10072"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10072"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"20"</td><td>integer</td><td></td></tr></table>
@@ -2874,7 +2874,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.big**  
 **is.dataFormat.array**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Address 2: Post Office Box</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -2886,10 +2886,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address2_postofficebox"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address2_postofficebox"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10073"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10073"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"20"</td><td>integer</td><td></td></tr></table>
@@ -2920,7 +2920,7 @@ An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
 
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Address 2: Shipping Method</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -2932,10 +2932,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address2_shippingmethodcode"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address2_shippingmethodcode"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10074"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10074"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
 </details>
@@ -2984,7 +2984,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.array**  
 **means.location.stateOrProvince**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Address 2: State/Province</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -2996,10 +2996,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address2_stateorprovince"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address2_stateorprovince"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10076"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10076"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"50"</td><td>integer</td><td></td></tr></table>
@@ -3027,7 +3027,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.array**  
 **means.identity.service.phone**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Address 2: Telephone 1</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -3039,10 +3039,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address2_telephone1"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address2_telephone1"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10077"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10077"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"50"</td><td>integer</td><td></td></tr></table>
@@ -3070,7 +3070,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.array**  
 **means.identity.service.phone**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Address 2: Telephone 2</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -3082,10 +3082,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address2_telephone2"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address2_telephone2"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10078"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10078"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"50"</td><td>integer</td><td></td></tr></table>
@@ -3113,7 +3113,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.array**  
 **means.identity.service.phone**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Address 2: Telephone 3</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -3125,10 +3125,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address2_telephone3"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address2_telephone3"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10079"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10079"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"50"</td><td>integer</td><td></td></tr></table>
@@ -3155,7 +3155,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.big**  
 **is.dataFormat.array**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Address 2: UPS Zone</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -3167,10 +3167,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address2_upszone"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address2_upszone"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10080"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10080"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"4"</td><td>integer</td><td></td></tr></table>
@@ -3198,7 +3198,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.array**  
 **means.location.timezone**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Address 2: UTC Offset</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -3210,10 +3210,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address2_utcoffset"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"address2_utcoffset"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10081"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10081"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-1500"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"1500"</td><td>decimal</td><td></td></tr></table>
@@ -3241,7 +3241,7 @@ for setting the exact precision and scale of numeric values
 
 **means.measurement.currency**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Budget Amount</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -3253,10 +3253,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"budgetamount"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"budgetamount"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10082"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10082"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"0"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"1000000000000"</td><td>decimal</td><td></td></tr></table>
@@ -3286,10 +3286,10 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.guid**  
 **means.identity.entityId**  
 **is.CDS.lookup**  
-The attribute represents a style of lookup in Common Data Service for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
+The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Currency</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -3304,10 +3304,10 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"transactioncurrencyid"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"transactioncurrencyid"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10083"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10083"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  
@@ -3332,7 +3332,7 @@ First included in: crmCommon/Lead (this entity)
 for setting the exact precision and scale of numeric values  
 
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Exchange Rate</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -3344,10 +3344,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"exchangerate"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"exchangerate"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10085"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10085"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"1E-10"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"100000000000"</td><td>decimal</td><td></td></tr></table>
@@ -3379,7 +3379,7 @@ for setting the exact precision and scale of numeric values
 the attribute value is the result of a calculation on the sourceAttribute  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>sourceAttribute</td><td>"budgetAmount"</td><td>attributeName</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Budget Amount (Base)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -3391,10 +3391,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"budgetamount_base"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"budgetamount_base"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10086"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10086"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-922337203685477"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"922337203685477"</td><td>decimal</td><td></td></tr></table>
@@ -3426,7 +3426,7 @@ An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
 
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Budget</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -3438,10 +3438,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"budgetstatus"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"budgetstatus"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10087"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10087"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
 </details>
@@ -3490,7 +3490,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.array**  
 **means.identity.name**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"recommended"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"recommended"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Company Name</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -3502,10 +3502,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"companyname"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"companyname"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10089"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10089"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
@@ -3530,7 +3530,7 @@ First included in: crmCommon/Lead (this entity)
 
 **is.dataFormat.boolean**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Confirm Interest</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -3542,10 +3542,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"confirminterest"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"confirminterest"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10090"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10090"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.boolean**  
 </details>
@@ -3570,10 +3570,10 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.guid**  
 **means.identity.entityId**  
 **is.CDS.lookup**  
-The attribute represents a style of lookup in Common Data Service for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
+The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Customer</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -3588,7 +3588,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"customerid"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"customerid"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.customer**  
 contains an Account or Contact ID  
@@ -3627,7 +3627,7 @@ Marks an attribute that contains the entity name or 'class' for the situation wh
 
 **is.readOnly**  
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"customeridtype"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"customeridtype"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.customer**  
 contains an Account or Contact ID  
@@ -3652,7 +3652,7 @@ First included in: crmCommon/Lead (this entity)
 
 **is.dataFormat.boolean**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Decision Maker?</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -3664,10 +3664,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"decisionmaker"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"decisionmaker"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10093"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10093"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.boolean**  
 </details>
@@ -3690,7 +3690,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.big**  
 **is.dataFormat.array**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Description</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -3702,10 +3702,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"description"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"description"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10095"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10095"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"2000"</td><td>integer</td><td></td></tr></table>
@@ -3730,7 +3730,7 @@ First included in: crmCommon/Lead (this entity)
 
 **is.dataFormat.boolean**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Do not allow Bulk Emails</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -3742,10 +3742,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"donotbulkemail"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"donotbulkemail"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10096"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10096"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.boolean**  
 </details>
@@ -3766,7 +3766,7 @@ First included in: crmCommon/Lead (this entity)
 
 **is.dataFormat.boolean**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Do not allow Emails</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -3778,10 +3778,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"donotemail"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"donotemail"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10098"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10098"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.boolean**  
 </details>
@@ -3802,7 +3802,7 @@ First included in: crmCommon/Lead (this entity)
 
 **is.dataFormat.boolean**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Do not allow Faxes</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -3814,10 +3814,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"donotfax"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"donotfax"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10100"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10100"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.boolean**  
 </details>
@@ -3838,7 +3838,7 @@ First included in: crmCommon/Lead (this entity)
 
 **is.dataFormat.boolean**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Do not allow Phone Calls</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -3850,10 +3850,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"donotphone"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"donotphone"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10102"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10102"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.boolean**  
 </details>
@@ -3874,7 +3874,7 @@ First included in: crmCommon/Lead (this entity)
 
 **is.dataFormat.boolean**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Do not allow Mails</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -3886,10 +3886,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"donotpostalmail"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"donotpostalmail"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10104"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10104"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.boolean**  
 </details>
@@ -3910,7 +3910,7 @@ First included in: crmCommon/Lead (this entity)
 
 **is.dataFormat.boolean**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Marketing Material</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -3922,10 +3922,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"donotsendmm"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"donotsendmm"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10106"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10106"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.boolean**  
 </details>
@@ -3949,7 +3949,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.array**  
 **means.identity.service.email**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Email</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -3961,10 +3961,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"emailaddress1"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"emailaddress1"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10108"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10108"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
@@ -3992,7 +3992,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.array**  
 **means.identity.service.email**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Email Address 2</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -4004,10 +4004,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"emailaddress2"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"emailaddress2"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10109"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10109"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
@@ -4035,7 +4035,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.array**  
 **means.identity.service.email**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Email Address 3</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -4047,10 +4047,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"emailaddress3"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"emailaddress3"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10110"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10110"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
@@ -4078,7 +4078,7 @@ for setting the exact precision and scale of numeric values
 
 **means.measurement.currency**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Est. Value</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -4090,10 +4090,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"estimatedamount"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"estimatedamount"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10111"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10111"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"0"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"1000000000000"</td><td>decimal</td><td></td></tr></table>
@@ -4125,7 +4125,7 @@ for setting the exact precision and scale of numeric values
 the attribute value is the result of a calculation on the sourceAttribute  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>sourceAttribute</td><td>"estimatedAmount"</td><td>attributeName</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Est. Value (Base)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -4137,10 +4137,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"estimatedamount_base"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"estimatedamount_base"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10112"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10112"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-922337203685477"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"922337203685477"</td><td>decimal</td><td></td></tr></table>
@@ -4169,7 +4169,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.time**  
 **means.measurement.time**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Est. Close Date</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -4181,10 +4181,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"estimatedclosedate"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"estimatedclosedate"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10113"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10113"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.time**  
 **is.dataFormat.date**  
@@ -4207,7 +4207,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.floatingPoint**  
 **is.dataFormat.big**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Est. Value (deprecated)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -4219,10 +4219,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"estimatedvalue"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"estimatedvalue"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10114"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10114"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"0"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"1000000000"</td><td>decimal</td><td></td></tr></table>
@@ -4247,7 +4247,7 @@ First included in: crmCommon/Lead (this entity)
 
 **is.dataFormat.boolean**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Evaluate Fit</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -4259,10 +4259,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"evaluatefit"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"evaluatefit"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10115"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10115"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.boolean**  
 </details>
@@ -4285,7 +4285,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.big**  
 **is.dataFormat.array**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Fax</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -4297,10 +4297,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"fax"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"fax"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10117"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10117"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"50"</td><td>integer</td><td></td></tr></table>
@@ -4328,7 +4328,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.array**  
 **means.identity.person.firstName**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"recommended"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"recommended"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>First Name</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -4340,10 +4340,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"firstname"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"firstname"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10118"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10118"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"50"</td><td>integer</td><td></td></tr></table>
@@ -4374,7 +4374,7 @@ An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
 
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Industry</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -4386,10 +4386,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"industrycode"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"industrycode"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10119"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10119"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
 </details>
@@ -4441,7 +4441,7 @@ An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
 
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Initial Communication</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -4453,10 +4453,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"initialcommunication"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"initialcommunication"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10121"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10121"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
 </details>
@@ -4504,7 +4504,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.big**  
 **is.dataFormat.array**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Job Title</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -4516,10 +4516,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"jobtitle"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"jobtitle"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10127"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10127"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
@@ -4547,7 +4547,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.array**  
 **means.identity.person.lastName**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"required"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"required"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Last Name</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -4559,10 +4559,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"lastname"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"lastname"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10128"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10128"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"50"</td><td>integer</td><td></td></tr></table>
@@ -4590,7 +4590,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.time**  
 **means.measurement.time**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Last Campaign Date</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -4602,10 +4602,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"lastusedincampaign"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"lastusedincampaign"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10129"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10129"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.time**  
 **is.dataFormat.date**  
@@ -4633,7 +4633,7 @@ An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
 
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Rating</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -4645,10 +4645,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"leadqualitycode"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"leadqualitycode"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10130"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10130"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
 </details>
@@ -4700,7 +4700,7 @@ An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
 
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Lead Source</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -4712,10 +4712,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"leadsourcecode"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"leadsourcecode"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10132"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10132"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
 </details>
@@ -4765,10 +4765,10 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.guid**  
 **means.identity.entityId**  
 **is.CDS.lookup**  
-The attribute represents a style of lookup in Common Data Service for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
+The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Master ID</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -4783,10 +4783,10 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"masterid"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"masterid"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10134"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10134"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  
@@ -4809,7 +4809,7 @@ First included in: crmCommon/Lead (this entity)
 
 **is.dataFormat.boolean**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Merged</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -4821,10 +4821,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"merged"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"merged"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10135"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10135"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.boolean**  
 </details>
@@ -4848,7 +4848,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.array**  
 **means.identity.person.middleName**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Middle Name</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -4860,10 +4860,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"middlename"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"middlename"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10137"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10137"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"50"</td><td>integer</td><td></td></tr></table>
@@ -4891,7 +4891,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.array**  
 **means.identity.service.phone**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Mobile Phone</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -4903,10 +4903,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"mobilephone"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"mobilephone"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10138"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10138"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"20"</td><td>integer</td><td></td></tr></table>
@@ -4937,7 +4937,7 @@ An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
 
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Need</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -4949,10 +4949,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"need"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"need"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10139"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10139"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
 </details>
@@ -4998,7 +4998,7 @@ First included in: crmCommon/Lead (this entity)
 
 **is.dataFormat.integer**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>No. of Employees</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -5010,10 +5010,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"numberofemployees"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"numberofemployees"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10141"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10141"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"0"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"1000000"</td><td>decimal</td><td></td></tr></table>
@@ -5039,7 +5039,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.big**  
 **is.dataFormat.array**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Pager</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -5051,10 +5051,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"pager"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"pager"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10142"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10142"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"20"</td><td>integer</td><td></td></tr></table>
@@ -5079,7 +5079,7 @@ First included in: crmCommon/Lead (this entity)
 
 **is.dataFormat.boolean**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Participates in Workflow</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -5091,10 +5091,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"participatesinworkflow"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"participatesinworkflow"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10143"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10143"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.boolean**  
 </details>
@@ -5121,7 +5121,7 @@ An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
 
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Preferred Method of Contact</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -5133,10 +5133,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"preferredcontactmethodcode"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"preferredcontactmethodcode"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10145"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10145"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
 </details>
@@ -5188,7 +5188,7 @@ An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
 
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Priority</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -5200,10 +5200,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"prioritycode"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"prioritycode"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10147"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10147"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
 </details>
@@ -5255,7 +5255,7 @@ An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
 
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Purchase Process</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -5267,10 +5267,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"purchaseprocess"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"purchaseprocess"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10149"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10149"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
 </details>
@@ -5318,7 +5318,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.big**  
 **is.dataFormat.array**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Qualification Comments</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -5330,10 +5330,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"qualificationcomments"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"qualificationcomments"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10151"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10151"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"2000"</td><td>integer</td><td></td></tr></table>
@@ -5361,7 +5361,7 @@ for setting the exact precision and scale of numeric values
 
 **means.measurement.currency**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Annual Revenue</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -5373,10 +5373,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"revenue"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"revenue"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10152"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10152"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"0"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"100000000000000"</td><td>decimal</td><td></td></tr></table>
@@ -5408,7 +5408,7 @@ for setting the exact precision and scale of numeric values
 the attribute value is the result of a calculation on the sourceAttribute  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>sourceAttribute</td><td>"revenue"</td><td>attributeName</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Annual Revenue (Base)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -5420,10 +5420,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"revenue_base"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"revenue_base"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10153"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10153"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-922337203685477"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"922337203685477"</td><td>decimal</td><td></td></tr></table>
@@ -5455,7 +5455,7 @@ An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
 
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Sales Stage</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -5467,10 +5467,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"salesstage"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"salesstage"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10154"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10154"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
 </details>
@@ -5522,7 +5522,7 @@ An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
 
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Sales Stage Code</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -5534,10 +5534,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"salesstagecode"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"salesstagecode"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10156"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10156"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
 </details>
@@ -5585,7 +5585,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.big**  
 **is.dataFormat.array**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Salutation</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -5597,10 +5597,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"salutation"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"salutation"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10158"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10158"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
@@ -5628,7 +5628,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.time**  
 **means.measurement.time**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Schedule Follow Up (Prospect)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -5640,10 +5640,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"schedulefollowup_prospect"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"schedulefollowup_prospect"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10159"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10159"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.time**  
 **is.dataFormat.date**  
@@ -5668,7 +5668,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.time**  
 **means.measurement.time**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Schedule Follow Up (Qualify)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -5680,10 +5680,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"schedulefollowup_qualify"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"schedulefollowup_qualify"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10160"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10160"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.time**  
 **is.dataFormat.date**  
@@ -5707,7 +5707,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.big**  
 **is.dataFormat.array**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>SIC Code</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -5719,10 +5719,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"sic"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"sic"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10161"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10161"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"20"</td><td>integer</td><td></td></tr></table>
@@ -5756,7 +5756,7 @@ the values of an attribute are taken from or looked up from a fixed list of poss
 the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Lead/(resolvedAttributes)/stateCode](#stateCode)</td><td>attribute</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -5765,10 +5765,10 @@ Holds the list of language specific display text for an object.  <table><tr><th>
 Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows whether the lead is open, qualified, or disqualified. Qualified and disqualified leads are read-only and can't be edited unless they are reactivated.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"statecode"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"statecode"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10162"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10162"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
 </details>
@@ -5823,7 +5823,7 @@ the values of an attribute are taken from or looked up from a fixed list of poss
 the attribute value is correlated with the sourceAttribute  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>sourceAttribute</td><td>"stateCode"</td><td>attributeName</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status Reason</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -5835,10 +5835,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"statuscode"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"statuscode"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10164"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10164"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
 </details>
@@ -5886,7 +5886,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.big**  
 **is.dataFormat.array**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"required"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"required"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Topic</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -5898,10 +5898,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"subject"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"subject"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10166"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10166"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"300"</td><td>integer</td><td></td></tr></table>
@@ -5929,7 +5929,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.array**  
 **means.identity.service.phone**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Business Phone</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -5941,10 +5941,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"telephone1"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"telephone1"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10167"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10167"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"50"</td><td>integer</td><td></td></tr></table>
@@ -5972,7 +5972,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.array**  
 **means.identity.service.phone**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Home Phone</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -5984,10 +5984,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"telephone2"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"telephone2"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10168"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10168"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"50"</td><td>integer</td><td></td></tr></table>
@@ -6015,7 +6015,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.array**  
 **means.identity.service.phone**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Other Phone</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -6027,10 +6027,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"telephone3"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"telephone3"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10169"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10169"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"50"</td><td>integer</td><td></td></tr></table>
@@ -6061,7 +6061,7 @@ An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
 
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Purchase Timeframe</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -6073,10 +6073,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"purchasetimeframe"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"purchasetimeframe"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10170"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10170"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
 </details>
@@ -6125,7 +6125,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.array**  
 **means.reference.URL**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Website</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -6137,10 +6137,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"websiteurl"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"websiteurl"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10172"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10172"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"200"</td><td>integer</td><td></td></tr></table>
@@ -6169,10 +6169,10 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.guid**  
 **means.identity.entityId**  
 **is.CDS.lookup**  
-The attribute represents a style of lookup in Common Data Service for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
+The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>SLA</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -6187,10 +6187,10 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"slaid"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"slaid"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10173"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10173"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  
@@ -6217,10 +6217,10 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.guid**  
 **means.identity.entityId**  
 **is.CDS.lookup**  
-The attribute represents a style of lookup in Common Data Service for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
+The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Last SLA applied</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -6235,10 +6235,10 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"slainvokedid"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"slainvokedid"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10174"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10174"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  
@@ -6261,7 +6261,7 @@ First included in: crmCommon/Lead (this entity)
 
 **is.dataFormat.integer**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>On Hold Time (Minutes)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -6273,10 +6273,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"onholdtime"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"onholdtime"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10175"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10175"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-2147483648"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"2147483647"</td><td>decimal</td><td></td></tr></table>
@@ -6303,7 +6303,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.time**  
 **means.measurement.time**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Last On Hold Time</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -6315,10 +6315,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"lastonholdtime"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"lastonholdtime"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10176"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10176"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.time**  
 **is.dataFormat.date**  
@@ -6340,7 +6340,7 @@ First included in: crmCommon/Lead (this entity)
 
 **is.dataFormat.boolean**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Follow Email Activity</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -6352,10 +6352,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"followemail"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"followemail"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10177"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10177"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.boolean**  
 </details>
@@ -6379,7 +6379,7 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.array**  
 **means.identity.service.email**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Time Spent by me</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -6391,10 +6391,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"timespentbymeonemailandmeetings"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"timespentbymeonemailandmeetings"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10179"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10179"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"1250"</td><td>integer</td><td></td></tr></table>
@@ -6421,16 +6421,16 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.array**  
 **is.dataFormat.guid**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.nullable**  
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"entityimageid"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"entityimageid"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10180"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10180"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  
@@ -6457,10 +6457,10 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.guid**  
 **means.identity.entityId**  
 **is.CDS.lookup**  
-The attribute represents a style of lookup in Common Data Service for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
+The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Account</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -6472,10 +6472,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"accountid"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"accountid"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10184"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10184"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  
@@ -6502,10 +6502,10 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.guid**  
 **means.identity.entityId**  
 **is.CDS.lookup**  
-The attribute represents a style of lookup in Common Data Service for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
+The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Contact</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -6517,10 +6517,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"contactid"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"contactid"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10187"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10187"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  
@@ -6547,7 +6547,7 @@ First included in: crmCommon/Lead (this entity)
 **means.identity.name**  
 **means.reference.phonetic**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Yomi Company Name</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -6559,10 +6559,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"yomicompanyname"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"yomicompanyname"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10193"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10193"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
@@ -6591,7 +6591,7 @@ First included in: crmCommon/Lead (this entity)
 **means.identity.person.firstName**  
 **means.reference.phonetic**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Yomi First Name</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -6603,10 +6603,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"yomifirstname"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"yomifirstname"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10194"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10194"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"150"</td><td>integer</td><td></td></tr></table>
@@ -6635,7 +6635,7 @@ First included in: crmCommon/Lead (this entity)
 **means.identity.person.fullName**  
 **means.reference.phonetic**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Yomi Full Name</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -6647,10 +6647,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"yomifullname"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"yomifullname"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10195"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10195"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"450"</td><td>integer</td><td></td></tr></table>
@@ -6679,7 +6679,7 @@ First included in: crmCommon/Lead (this entity)
 **means.identity.person.lastName**  
 **means.reference.phonetic**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Yomi Last Name</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -6691,10 +6691,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"yomilastname"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"yomilastname"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10196"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10196"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"150"</td><td>integer</td><td></td></tr></table>
@@ -6723,7 +6723,7 @@ First included in: crmCommon/Lead (this entity)
 **means.identity.person.middleName**  
 **means.reference.phonetic**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Yomi Middle Name</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -6735,10 +6735,10 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"yomimiddlename"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"yomimiddlename"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10197"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10197"</td><td>integer</td><td></td></tr></table>
 
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"150"</td><td>integer</td><td></td></tr></table>
@@ -6767,10 +6767,10 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.guid**  
 **means.identity.entityId**  
 **is.CDS.lookup**  
-The attribute represents a style of lookup in Common Data Service for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
+The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Source Campaign</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -6785,10 +6785,10 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"campaignid"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"campaignid"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10206"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10206"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  
@@ -6815,10 +6815,10 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.guid**  
 **means.identity.entityId**  
 **is.CDS.lookup**  
-The attribute represents a style of lookup in Common Data Service for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
+The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Related Campaign Response</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -6833,10 +6833,10 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"relatedobjectid"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"relatedobjectid"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10207"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10207"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  
@@ -6863,10 +6863,10 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.guid**  
 **means.identity.entityId**  
 **is.CDS.lookup**  
-The attribute represents a style of lookup in Common Data Service for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
+The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Originating Case</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -6881,10 +6881,10 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"originatingcaseid"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"originatingcaseid"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10210"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10210"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  
@@ -6911,10 +6911,10 @@ First included in: crmCommon/Lead (this entity)
 **is.dataFormat.guid**  
 **means.identity.entityId**  
 **is.CDS.lookup**  
-The attribute represents a style of lookup in Common Data Service for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
+The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Qualifying Opportunity</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -6929,10 +6929,10 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"qualifyingopportunityid"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"qualifyingopportunityid"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in Common Data Service for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10212"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10212"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  

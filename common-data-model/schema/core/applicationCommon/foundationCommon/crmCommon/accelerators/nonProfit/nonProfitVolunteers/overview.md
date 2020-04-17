@@ -11,7 +11,7 @@ ms.author: nebanfic
 
 # nonProfitVolunteers
 
-Common Data Model Solution for the 'NONPROFITVOLUNTEERS' Common Data Service Solution  
+CDM Solution for the 'NONPROFITVOLUNTEERS' CDS Solution  
 
 ## Entities
 

@@ -11,7 +11,7 @@ ms.author: nebanfic
 
 # solutions
 
-Common Data Model standard entities  
+CDM standard entities  
 
 ## Sub-folders
 

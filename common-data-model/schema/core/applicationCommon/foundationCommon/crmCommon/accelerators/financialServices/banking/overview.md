@@ -11,7 +11,7 @@ ms.author: nebanfic
 
 # banking
 
-Common Data Model Solution for the 'BANKING' Common Data Service Solution  
+CDM Solution for the 'BANKING' CDS Solution  
 
 ## Entities
 

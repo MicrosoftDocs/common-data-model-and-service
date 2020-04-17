@@ -9,7 +9,7 @@ ms.date: 4/17/2020
 ms.author: nebanfic
 ---
 
-# core
+# Entity Reference
 
 TODO: Placeholder for a better description.  
 

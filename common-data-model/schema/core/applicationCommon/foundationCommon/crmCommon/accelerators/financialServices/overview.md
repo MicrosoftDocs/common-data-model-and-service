@@ -11,7 +11,7 @@ ms.author: nebanfic
 
 # financialServices
 
-Common Data Model Solutions for financialServices  
+CDM Solutions for financialServices  
 
 ## Sub-folders
 

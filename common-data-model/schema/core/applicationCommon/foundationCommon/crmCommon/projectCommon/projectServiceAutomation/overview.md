@@ -11,7 +11,7 @@ ms.author: nebanfic
 
 # projectServiceAutomation
 
-Common Data Model standard entities  
+CDM standard entities  
 
 ## Entities
 

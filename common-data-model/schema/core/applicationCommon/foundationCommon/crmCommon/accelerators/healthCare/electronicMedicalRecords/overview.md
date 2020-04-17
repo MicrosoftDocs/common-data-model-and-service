@@ -11,7 +11,7 @@ ms.author: nebanfic
 
 # electronicMedicalRecords
 
-Common Data Model standard entities  
+CDM standard entities  
 
 ## Entities
 

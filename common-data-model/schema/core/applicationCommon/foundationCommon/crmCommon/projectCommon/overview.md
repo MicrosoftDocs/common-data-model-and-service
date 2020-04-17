@@ -11,7 +11,7 @@ ms.author: nebanfic
 
 # projectCommon
 
-Common Data Model standard entities  
+CDM standard entities  
 
 ## Sub-folders
 

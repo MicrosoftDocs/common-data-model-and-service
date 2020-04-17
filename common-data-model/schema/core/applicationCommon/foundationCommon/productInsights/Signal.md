@@ -25,7 +25,7 @@ An enriched telemetry signal from a product, service or device.
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.0"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.CDM.attributeGroup**  
-  identifies standard groups of attributes in Common Data Model entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/applicationCommon/foundationCommon<br>/productInsights/Signal.cdm.json/Signal<br>/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
+  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/applicationCommon/foundationCommon<br>/productInsights/Signal.cdm.json/Signal<br>/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
 
 **is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Product Signal</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -44,11 +44,11 @@ An enriched telemetry signal from a product, service or device.
 |[name](#name)|Name of signal|<a href="Signal.md" target="_blank">productInsights/Signal</a>|
 |[version](#version)|Version of signal, as defined by device|<a href="Signal.md" target="_blank">productInsights/Signal</a>|
 |[serverTime](#serverTime)|DateTime signal was received ingested by server|<a href="Signal.md" target="_blank">productInsights/Signal</a>|
-|[productId](#productId)|Reference to Product entity identifier within Common Data Service.|<a href="Signal.md" target="_blank">productInsights/Signal</a>|
-|[partNumber](#partNumber)|This is the 'friendly' product name as referred to in Common Data Service.|<a href="Signal.md" target="_blank">productInsights/Signal</a>|
-|[deviceId](#deviceId)|Unique device ID as referred to within IoT and Common Data Service platforms|<a href="Signal.md" target="_blank">productInsights/Signal</a>|
+|[productId](#productId)|Reference to Product entity identifier within CDS.|<a href="Signal.md" target="_blank">productInsights/Signal</a>|
+|[partNumber](#partNumber)|This is the 'friendly' product name as referred to in CDS.|<a href="Signal.md" target="_blank">productInsights/Signal</a>|
+|[deviceId](#deviceId)|Unique device ID as referred to within IoT and CDS platforms|<a href="Signal.md" target="_blank">productInsights/Signal</a>|
 |[serialNumber](#serialNumber)|A unique end-user friendly reference ID generally found within most devices.|<a href="Signal.md" target="_blank">productInsights/Signal</a>|
-|[assetId](#assetId)|Reference to Asset entity identifier within Common Data Service.|<a href="Signal.md" target="_blank">productInsights/Signal</a>|
+|[assetId](#assetId)|Reference to Asset entity identifier within CDS.|<a href="Signal.md" target="_blank">productInsights/Signal</a>|
 
 ### <a href=#signalTime name="signalTime">signalTime</a>
 
@@ -70,7 +70,7 @@ First included in: productInsights/Signal (this entity)
 **means.measurement.time**  
 **means.measurement.date.occurrence**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Signal Timestamp</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -129,7 +129,7 @@ First included in: productInsights/Signal (this entity)
 **is.dataFormat.array**  
 **means.identity.name**  
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Common Data Service for Applications or for including this attribute in entities created in Common Data Service for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Signal Name</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -199,12 +199,12 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 
 ### <a href=#productId name="productId">productId</a>
 
-Reference to Product entity identifier within Common Data Service.  
+Reference to Product entity identifier within CDS.  
 First included in: productInsights/Signal (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Product</td></tr><tr><td>description</td><td>Reference to Product entity identifier within Common Data Service.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Product</td></tr><tr><td>description</td><td>Reference to Product entity identifier within CDS.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
@@ -217,7 +217,7 @@ First included in: productInsights/Signal (this entity)
 **is.dataFormat.guid**  
 **means.identity.entityId**  
 **is.CDS.lookup**  
-The attribute represents a style of lookup in Common Data Service for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
+The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Product</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -235,12 +235,12 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 
 ### <a href=#partNumber name="partNumber">partNumber</a>
 
-This is the 'friendly' product name as referred to in Common Data Service.  
+This is the 'friendly' product name as referred to in CDS.  
 First included in: productInsights/Signal (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Part Number</td></tr><tr><td>description</td><td>This is the 'friendly' product name as referred to in Common Data Service.</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Part Number</td></tr><tr><td>description</td><td>This is the 'friendly' product name as referred to in CDS.</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -262,12 +262,12 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 
 ### <a href=#deviceId name="deviceId">deviceId</a>
 
-Unique device ID as referred to within IoT and Common Data Service platforms  
+Unique device ID as referred to within IoT and CDS platforms  
 First included in: productInsights/Signal (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Device Id</td></tr><tr><td>description</td><td>Unique device ID as referred to within IoT and Common Data Service platforms</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Device Id</td></tr><tr><td>description</td><td>Unique device ID as referred to within IoT and CDS platforms</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -316,12 +316,12 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 
 ### <a href=#assetId name="assetId">assetId</a>
 
-Reference to Asset entity identifier within Common Data Service.  
+Reference to Asset entity identifier within CDS.  
 First included in: productInsights/Signal (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Asset</td></tr><tr><td>description</td><td>Reference to Asset entity identifier within Common Data Service.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Asset</td></tr><tr><td>description</td><td>Reference to Asset entity identifier within CDS.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
@@ -334,7 +334,7 @@ First included in: productInsights/Signal (this entity)
 **is.dataFormat.guid**  
 **means.identity.entityId**  
 **is.CDS.lookup**  
-The attribute represents a style of lookup in Common Data Service for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
+The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Asset</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>

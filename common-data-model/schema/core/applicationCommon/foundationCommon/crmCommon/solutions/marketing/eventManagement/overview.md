@@ -11,7 +11,7 @@ ms.author: nebanfic
 
 # eventManagement
 
-Common Data Model standard entities  
+CDM standard entities  
 
 ## Entities
 

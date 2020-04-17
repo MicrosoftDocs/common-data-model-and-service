@@ -11,7 +11,7 @@ ms.author: nebanfic
 
 # higherEducation
 
-Common Data Model Solution for the 'HIGHEREDUCATION' Common Data Service Solution  
+CDM Solution for the 'HIGHEREDUCATION' CDS Solution  
 
 ## Entities
 
