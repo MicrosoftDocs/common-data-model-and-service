@@ -11,7 +11,7 @@ ms.author: nebanfic
 
 # nonProfitIati
 
-CDM Solution for the 'NONPROFITIATI' CDS Solution  
+Common Data Model Solution for the 'NONPROFITIATI' Common Data Service Solution  
 
 ## Entities
 

@@ -11,7 +11,7 @@ ms.author: nebanfic
 
 # customerInsights
 
-CDM Schema for the Customer Insights' Solution  
+Common Data Model Schema for the Customer Insights' Solution  
 
 ## Entities
 

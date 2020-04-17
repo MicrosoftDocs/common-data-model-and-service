@@ -28,7 +28,7 @@ The collection of all accounts making up the central repository of accounting da
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Ledger/(resolvedAttributes)/ledgerId](#ledgerId)</td><td>attribute</td><td></td></tr></table>
 
 **is.CDM.attributeGroup**  
-  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/applicationCommon/foundationCommon<br>/financeCommon/Ledger.cdm.json/Ledger<br>/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
+  identifies standard groups of attributes in Common Data Model entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/applicationCommon/foundationCommon<br>/financeCommon/Ledger.cdm.json/Ledger<br>/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
 
 **is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Ledger</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -40,7 +40,7 @@ The collection of all accounts making up the central repository of accounting da
 
 ## Attributes
 
-|Name|Description|First Included in Entity|
+|Name|Description|First Included in Instance|
 |---|---|---|
 |[ledgerId](#ledgerId)|The surrogate key of the ledger record|<a href="Ledger.md" target="_blank">financialCommon/Ledger</a>|
 |[name](#name)|The user-readable name of the ledger|<a href="Ledger.md" target="_blank">financialCommon/Ledger</a>|
@@ -55,7 +55,7 @@ First included in: financialCommon/Ledger (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>LedgerId</td></tr><tr><td>description</td><td>The surrogate key of the ledger record</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>LedgerId</td></tr><tr><td>description</td><td>The surrogate key of the ledger record</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -85,7 +85,7 @@ First included in: financialCommon/Ledger (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>description</td><td>The user-readable name of the ledger</td></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>description</td><td>The user-readable name of the ledger</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -113,7 +113,7 @@ First included in: financialCommon/Ledger (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>The description of the ledger</td></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>The description of the ledger</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -141,7 +141,7 @@ First included in: financialCommon/Ledger (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Company Key</td></tr><tr><td>description</td><td>The company for which the ledger stores financial information</td></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Company Key</td></tr><tr><td>description</td><td>The company for which the ledger stores financial information</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -171,7 +171,7 @@ First included in: financialCommon/Ledger (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Accounting Currency Key</td></tr><tr><td>description</td><td>The currency in which all amounts in the ledger are expressed</td></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Accounting Currency Key</td></tr><tr><td>description</td><td>The currency in which all amounts in the ledger are expressed</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 

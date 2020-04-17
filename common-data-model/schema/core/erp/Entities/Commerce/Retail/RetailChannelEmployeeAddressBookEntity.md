@@ -33,7 +33,7 @@ ms.author: nebanfic
 
 ## Attributes
 
-|Name|Description|First Included in Entity|
+|Name|Description|First Included in Instance|
 |---|---|---|
 |[AddressBook](#AddressBook)||<a href="RetailChannelEmployeeAddressBookEntity.md" target="_blank">Retail/RetailChannelEmployeeAddressBookEntity</a>|
 |[AddressBookName](#AddressBookName)||<a href="RetailChannelEmployeeAddressBookEntity.md" target="_blank">Retail/RetailChannelEmployeeAddressBookEntity</a>|
@@ -47,7 +47,7 @@ First included in: Retail/RetailChannelEmployeeAddressBookEntity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -67,7 +67,7 @@ First included in: Retail/RetailChannelEmployeeAddressBookEntity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -87,7 +87,7 @@ First included in: Retail/RetailChannelEmployeeAddressBookEntity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -107,7 +107,7 @@ First included in: Retail/RetailChannelEmployeeAddressBookEntity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>6</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
@@ -133,7 +133,7 @@ First included in: Retail/RetailChannelEmployeeAddressBookEntity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>6</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 

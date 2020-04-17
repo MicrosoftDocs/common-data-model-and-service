@@ -11,7 +11,7 @@ ms.author: nebanfic
 
 # nonProfitMeasurement
 
-CDM Solution for the 'NONPROFITMEASUREMENT' CDS Solution  
+Common Data Model Solution for the 'NONPROFITMEASUREMENT' Common Data Service Solution  
 
 ## Entities
 

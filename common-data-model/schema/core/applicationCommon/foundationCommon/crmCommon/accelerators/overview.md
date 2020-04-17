@@ -11,7 +11,7 @@ ms.author: nebanfic
 
 # accelerators
 
-CDM Accelerators  
+Common Data Model Accelerators  
 
 ## Sub-folders
 

@@ -33,7 +33,7 @@ ms.author: nebanfic
 
 ## Attributes
 
-|Name|Description|First Included in Entity|
+|Name|Description|First Included in Instance|
 |---|---|---|
 |[UserId](#UserId)||<a href="RetailTrialSystemSecurityUserRoleAssociationEntity.md" target="_blank">Retail/RetailTrialSystemSecurityUserRoleAssociationEntity</a>|
 |[SecurityRoleIdentifier](#SecurityRoleIdentifier)||<a href="RetailTrialSystemSecurityUserRoleAssociationEntity.md" target="_blank">Retail/RetailTrialSystemSecurityUserRoleAssociationEntity</a>|
@@ -46,7 +46,7 @@ First included in: Retail/RetailTrialSystemSecurityUserRoleAssociationEntity (th
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -66,7 +66,7 @@ First included in: Retail/RetailTrialSystemSecurityUserRoleAssociationEntity (th
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -86,7 +86,7 @@ First included in: Retail/RetailTrialSystemSecurityUserRoleAssociationEntity (th
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -106,7 +106,7 @@ First included in: Retail/RetailTrialSystemSecurityUserRoleAssociationEntity (th
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 

@@ -11,7 +11,7 @@ ms.author: nebanfic
 
 # Entities
 
-CDM logical entities from Finance and Operations applications  
+Common Data Model logical entities from Finance and Operations applications  
 
 ## Sub-folders
 

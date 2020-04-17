@@ -33,7 +33,7 @@ ms.author: nebanfic
 
 ## Attributes
 
-|Name|Description|First Included in Entity|
+|Name|Description|First Included in Instance|
 |---|---|---|
 |[ActualCost](#ActualCost)||<a href="MCRSourceCodeEntity.md" target="_blank">Retail/MCRSourceCodeEntity</a>|
 |[Description](#Description)||<a href="MCRSourceCodeEntity.md" target="_blank">Retail/MCRSourceCodeEntity</a>|
@@ -61,7 +61,7 @@ First included in: Retail/MCRSourceCodeEntity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -81,7 +81,7 @@ First included in: Retail/MCRSourceCodeEntity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -101,7 +101,7 @@ First included in: Retail/MCRSourceCodeEntity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -121,7 +121,7 @@ First included in: Retail/MCRSourceCodeEntity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -141,7 +141,7 @@ First included in: Retail/MCRSourceCodeEntity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -161,7 +161,7 @@ First included in: Retail/MCRSourceCodeEntity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -181,7 +181,7 @@ First included in: Retail/MCRSourceCodeEntity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -201,7 +201,7 @@ First included in: Retail/MCRSourceCodeEntity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -221,7 +221,7 @@ First included in: Retail/MCRSourceCodeEntity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -241,7 +241,7 @@ First included in: Retail/MCRSourceCodeEntity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -261,7 +261,7 @@ First included in: Retail/MCRSourceCodeEntity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -281,7 +281,7 @@ First included in: Retail/MCRSourceCodeEntity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -301,7 +301,7 @@ First included in: Retail/MCRSourceCodeEntity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -321,7 +321,7 @@ First included in: Retail/MCRSourceCodeEntity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -341,7 +341,7 @@ First included in: Retail/MCRSourceCodeEntity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -361,7 +361,7 @@ First included in: Retail/MCRSourceCodeEntity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -381,7 +381,7 @@ First included in: Retail/MCRSourceCodeEntity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>6</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
@@ -407,7 +407,7 @@ First included in: Retail/MCRSourceCodeEntity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>6</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
@@ -433,7 +433,7 @@ First included in: Retail/MCRSourceCodeEntity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>6</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 

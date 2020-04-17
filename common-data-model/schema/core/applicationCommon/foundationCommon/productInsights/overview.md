@@ -11,7 +11,7 @@ ms.author: nebanfic
 
 # productInsights
 
-CDM schema documents for the Product Insights' solution  
+Common Data Model schema documents for the Product Insights' solution  
 
 ## Entities
 

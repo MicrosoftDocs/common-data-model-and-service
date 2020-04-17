@@ -11,7 +11,7 @@ ms.author: nebanfic
 
 # erp
 
-CDM entities from ERP applications  
+Common Data Model entities from ERP applications  
 
 ## Sub-folders
 

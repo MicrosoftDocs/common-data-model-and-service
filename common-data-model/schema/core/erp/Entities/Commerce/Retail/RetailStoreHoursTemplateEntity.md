@@ -30,7 +30,7 @@ ms.author: nebanfic
 
 ## Attributes
 
-|Name|Description|First Included in Entity|
+|Name|Description|First Included in Instance|
 |---|---|---|
 |[Description](#Description)||<a href="RetailStoreHoursTemplateEntity.md" target="_blank">Retail/RetailStoreHoursTemplateEntity</a>|
 |[Id](#Id)||<a href="RetailStoreHoursTemplateEntity.md" target="_blank">Retail/RetailStoreHoursTemplateEntity</a>|
@@ -43,7 +43,7 @@ First included in: Retail/RetailStoreHoursTemplateEntity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -63,7 +63,7 @@ First included in: Retail/RetailStoreHoursTemplateEntity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -83,7 +83,7 @@ First included in: Retail/RetailStoreHoursTemplateEntity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>6</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
@@ -109,7 +109,7 @@ First included in: Retail/RetailStoreHoursTemplateEntity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>6</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 

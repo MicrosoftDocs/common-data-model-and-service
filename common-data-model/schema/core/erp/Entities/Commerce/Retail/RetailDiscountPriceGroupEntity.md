@@ -33,7 +33,7 @@ ms.author: nebanfic
 
 ## Attributes
 
-|Name|Description|First Included in Entity|
+|Name|Description|First Included in Instance|
 |---|---|---|
 |[OfferId](#OfferId)||<a href="RetailDiscountPriceGroupEntity.md" target="_blank">Retail/RetailDiscountPriceGroupEntity</a>|
 |[PriceDiscGroup](#PriceDiscGroup)||<a href="RetailDiscountPriceGroupEntity.md" target="_blank">Retail/RetailDiscountPriceGroupEntity</a>|
@@ -47,7 +47,7 @@ First included in: Retail/RetailDiscountPriceGroupEntity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -67,7 +67,7 @@ First included in: Retail/RetailDiscountPriceGroupEntity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -87,7 +87,7 @@ First included in: Retail/RetailDiscountPriceGroupEntity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -107,7 +107,7 @@ First included in: Retail/RetailDiscountPriceGroupEntity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>6</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
@@ -133,7 +133,7 @@ First included in: Retail/RetailDiscountPriceGroupEntity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>6</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 

@@ -14,7 +14,7 @@ ms.author: nebanfic
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/erp/DataEntityView.cdm.json" target="_blank">GitHub</a>.  
 
-## Entities inherited from this entity
+## Instances
 
 <details>
 <summary>Entities that inherit from the currently viewed entity are listed below.  

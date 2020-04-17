@@ -11,7 +11,7 @@ ms.author: nebanfic
 
 # nonProfit
 
-CDM 'nonProfit' Accelerators  
+Common Data Model 'nonProfit' Accelerators  
 
 ## Sub-folders
 

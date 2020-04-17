@@ -11,7 +11,7 @@ ms.author: nebanfic
 
 # core
 
-CDM standard entities  
+TODO: Placeholder for a better description.  
 
 ## Sub-folders
 

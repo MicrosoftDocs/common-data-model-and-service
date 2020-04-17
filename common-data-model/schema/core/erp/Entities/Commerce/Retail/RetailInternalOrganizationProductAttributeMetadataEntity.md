@@ -33,7 +33,7 @@ ms.author: nebanfic
 
 ## Attributes
 
-|Name|Description|First Included in Entity|
+|Name|Description|First Included in Instance|
 |---|---|---|
 |[PartyNumber](#PartyNumber)||<a href="RetailInternalOrganizationProductAttributeMetadataEntity.md" target="_blank">Retail/RetailInternalOrganizationProductAttributeMetadataEntity</a>|
 |[OrganizationName](#OrganizationName)||<a href="RetailInternalOrganizationProductAttributeMetadataEntity.md" target="_blank">Retail/RetailInternalOrganizationProductAttributeMetadataEntity</a>|
@@ -55,7 +55,7 @@ First included in: Retail/RetailInternalOrganizationProductAttributeMetadataEnti
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -75,7 +75,7 @@ First included in: Retail/RetailInternalOrganizationProductAttributeMetadataEnti
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -95,7 +95,7 @@ First included in: Retail/RetailInternalOrganizationProductAttributeMetadataEnti
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -115,7 +115,7 @@ First included in: Retail/RetailInternalOrganizationProductAttributeMetadataEnti
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -135,7 +135,7 @@ First included in: Retail/RetailInternalOrganizationProductAttributeMetadataEnti
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -155,7 +155,7 @@ First included in: Retail/RetailInternalOrganizationProductAttributeMetadataEnti
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -175,7 +175,7 @@ First included in: Retail/RetailInternalOrganizationProductAttributeMetadataEnti
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -195,7 +195,7 @@ First included in: Retail/RetailInternalOrganizationProductAttributeMetadataEnti
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -215,7 +215,7 @@ First included in: Retail/RetailInternalOrganizationProductAttributeMetadataEnti
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -235,7 +235,7 @@ First included in: Retail/RetailInternalOrganizationProductAttributeMetadataEnti
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>6</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
@@ -261,7 +261,7 @@ First included in: Retail/RetailInternalOrganizationProductAttributeMetadataEnti
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>6</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
@@ -287,7 +287,7 @@ First included in: Retail/RetailInternalOrganizationProductAttributeMetadataEnti
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>6</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
@@ -313,7 +313,7 @@ First included in: Retail/RetailInternalOrganizationProductAttributeMetadataEnti
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>6</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 

@@ -28,7 +28,7 @@ Represents the period in which financial activity occurred, as defined by a fisc
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[FiscalCalendarPeriod/(resolvedAttributes)/fiscalCalendarPeriodId](#fiscalCalendarPeriodId)</td><td>attribute</td><td></td></tr></table>
 
 **is.CDM.attributeGroup**  
-  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/applicationCommon/foundationCommon<br>/financeCommon/FiscalCalendarPeriod.cdm.json<br>/FiscalCalendarPeriod/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
+  identifies standard groups of attributes in Common Data Model entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/applicationCommon/foundationCommon<br>/financeCommon/FiscalCalendarPeriod.cdm.json<br>/FiscalCalendarPeriod/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
 
 **is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Fiscal Calendar Period</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -40,7 +40,7 @@ Represents the period in which financial activity occurred, as defined by a fisc
 
 ## Attributes
 
-|Name|Description|First Included in Entity|
+|Name|Description|First Included in Instance|
 |---|---|---|
 |[fiscalCalendarPeriodId](#fiscalCalendarPeriodId)|The surrogate key of the record|<a href="FiscalCalendarPeriod.md" target="_blank">financialCommon/FiscalCalendarPeriod</a>|
 |[fiscalCalendarName](#fiscalCalendarName)|The name of the calendar containing this period|<a href="FiscalCalendarPeriod.md" target="_blank">financialCommon/FiscalCalendarPeriod</a>|
@@ -59,7 +59,7 @@ First included in: financialCommon/FiscalCalendarPeriod (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Fiscal Calendar Period ID</td></tr><tr><td>description</td><td>The surrogate key of the record</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Fiscal Calendar Period ID</td></tr><tr><td>description</td><td>The surrogate key of the record</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -89,7 +89,7 @@ First included in: financialCommon/FiscalCalendarPeriod (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Fiscal Calendar Name</td></tr><tr><td>description</td><td>The name of the calendar containing this period</td></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Fiscal Calendar Name</td></tr><tr><td>description</td><td>The name of the calendar containing this period</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -116,7 +116,7 @@ First included in: financialCommon/FiscalCalendarPeriod (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Period Name</td></tr><tr><td>description</td><td>The name of the period</td></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Period Name</td></tr><tr><td>description</td><td>The name of the period</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -143,7 +143,7 @@ First included in: financialCommon/FiscalCalendarPeriod (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Period Offset</td></tr><tr><td>description</td><td>The number of periods this period is offset from the current period for use in computations such as previous period</td></tr><tr><td>dataFormat</td><td>2</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Period Offset</td></tr><tr><td>description</td><td>The number of periods this period is offset from the current period for use in computations such as previous period</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -167,7 +167,7 @@ First included in: financialCommon/FiscalCalendarPeriod (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Year Name</td></tr><tr><td>description</td><td>The name of the year containing the period</td></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Year Name</td></tr><tr><td>description</td><td>The name of the year containing the period</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -195,7 +195,7 @@ First included in: financialCommon/FiscalCalendarPeriod (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Year Offset</td></tr><tr><td>description</td><td>The number of years this year is offset from the current year for use in computations such as prior year</td></tr><tr><td>dataFormat</td><td>2</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Year Offset</td></tr><tr><td>description</td><td>The number of years this year is offset from the current year for use in computations such as prior year</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -219,7 +219,7 @@ First included in: financialCommon/FiscalCalendarPeriod (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Quarter</td></tr><tr><td>description</td><td>The name of the quarter containing the period</td></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Quarter</td></tr><tr><td>description</td><td>The name of the quarter containing the period</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -247,7 +247,7 @@ First included in: financialCommon/FiscalCalendarPeriod (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Quarter Offset</td></tr><tr><td>description</td><td>The number of quarters this quarter is offset from the current quarter for use in computations such as same quarter previous year</td></tr><tr><td>dataFormat</td><td>2</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Quarter Offset</td></tr><tr><td>description</td><td>The number of quarters this quarter is offset from the current quarter for use in computations such as same quarter previous year</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -271,7 +271,7 @@ First included in: financialCommon/FiscalCalendarPeriod (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Month</td></tr><tr><td>description</td><td>The month containing the period.</td></tr><tr><td>dataFormat</td><td>2</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Month</td></tr><tr><td>description</td><td>The month containing the period.</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 

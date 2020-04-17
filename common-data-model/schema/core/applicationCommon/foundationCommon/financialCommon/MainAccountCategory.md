@@ -28,7 +28,7 @@ Provides categorization of main accounts
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[MainAccountCategory/(resolvedAttributes)/mainAccountCategoryId](#mainAccountCategoryId)</td><td>attribute</td><td></td></tr></table>
 
 **is.CDM.attributeGroup**  
-  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/applicationCommon/foundationCommon<br>/financeCommon/MainAccountCategory.cdm.json<br>/MainAccountCategory/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
+  identifies standard groups of attributes in Common Data Model entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/applicationCommon/foundationCommon<br>/financeCommon/MainAccountCategory.cdm.json<br>/MainAccountCategory/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
 
 **is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Main Account Category</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -40,7 +40,7 @@ Provides categorization of main accounts
 
 ## Attributes
 
-|Name|Description|First Included in Entity|
+|Name|Description|First Included in Instance|
 |---|---|---|
 |[mainAccountCategoryId](#mainAccountCategoryId)|The surrogate key of the main account category record|<a href="MainAccountCategory.md" target="_blank">financialCommon/MainAccountCategory</a>|
 |[name](#name)|The display name of the main account category|<a href="MainAccountCategory.md" target="_blank">financialCommon/MainAccountCategory</a>|
@@ -56,7 +56,7 @@ First included in: financialCommon/MainAccountCategory (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Main Account Category ID</td></tr><tr><td>description</td><td>The surrogate key of the main account category record</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Main Account Category ID</td></tr><tr><td>description</td><td>The surrogate key of the main account category record</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -86,7 +86,7 @@ First included in: financialCommon/MainAccountCategory (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>description</td><td>The display name of the main account category</td></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>description</td><td>The display name of the main account category</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -113,7 +113,7 @@ First included in: financialCommon/MainAccountCategory (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>The description of the main account category</td></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>The description of the main account category</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -141,7 +141,7 @@ First included in: financialCommon/MainAccountCategory (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Is Closed</td></tr><tr><td>description</td><td>Determines whether accounts of this category are closed for new transactions</td></tr><tr><td>dataFormat</td><td>15</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Is Closed</td></tr><tr><td>description</td><td>Determines whether accounts of this category are closed for new transactions</td></tr><tr><td>dataFormat</td><td>boolean</td></tr></table>
 
 #### Traits
 
@@ -165,7 +165,7 @@ First included in: financialCommon/MainAccountCategory (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Account Type</td></tr><tr><td>description</td><td>The common account type for accounts in this category, such as revenue or liability</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Blank</td><td>50</td></tr><tr><td>en</td><td>ProfitAndLoss</td><td>0</td></tr><tr><td>en</td><td>Revenue</td><td>1</td></tr><tr><td>en</td><td>Expense</td><td>2</td></tr><tr><td>en</td><td>BalanceSheet</td><td>3</td></tr><tr><td>en</td><td>Asset</td><td>4</td></tr><tr><td>en</td><td>Liability</td><td>5</td></tr><tr><td>en</td><td>Equity</td><td>6</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Account Type</td></tr><tr><td>description</td><td>The common account type for accounts in this category, such as revenue or liability</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Blank</td><td>50</td></tr><tr><td>en</td><td>ProfitAndLoss</td><td>0</td></tr><tr><td>en</td><td>Revenue</td><td>1</td></tr><tr><td>en</td><td>Expense</td><td>2</td></tr><tr><td>en</td><td>BalanceSheet</td><td>3</td></tr><tr><td>en</td><td>Asset</td><td>4</td></tr><tr><td>en</td><td>Liability</td><td>5</td></tr><tr><td>en</td><td>Equity</td><td>6</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -194,7 +194,7 @@ First included in: financialCommon/MainAccountCategory (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 

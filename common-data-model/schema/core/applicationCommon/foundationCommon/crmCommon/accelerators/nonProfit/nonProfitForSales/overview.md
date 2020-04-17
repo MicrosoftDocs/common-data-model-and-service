@@ -11,7 +11,7 @@ ms.author: nebanfic
 
 # nonProfitForSales
 
-CDM Solution for the 'NONPROFITFORSALES' CDS Solution  
+Common Data Model Solution for the 'NONPROFITFORSALES' Common Data Service Solution  
 
 ## Entities
 

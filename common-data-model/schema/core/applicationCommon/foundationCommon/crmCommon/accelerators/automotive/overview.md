@@ -11,7 +11,7 @@ ms.author: nebanfic
 
 # automotive
 
-CDM Solution for the 'AUTOMOTIVE' CDS Solution  
+Common Data Model Solution for the 'AUTOMOTIVE' Common Data Service Solution  
 
 ## Entities
 
