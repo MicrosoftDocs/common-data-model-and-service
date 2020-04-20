@@ -1,0 +1,214 @@
+---
+title: BudgetPlanParameterEntity - Common Data Model | Microsoft Docs
+description: undefined
+author: nenad1002
+ms.service: common-data-model
+ms.reviewer: deonhe
+ms.topic: article
+ms.date: 4/20/2020
+ms.author: nebanfic
+---
+
+# BudgetPlanParameterEntity
+
+  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Entities/Finance/Budgeting/BudgetPlanParameterEntity.cdm.json" target="_blank">GitHub</a>.  
+
+## Traits
+
+<details>
+<summary>Traits for this entity are listed below.  
+</summary>
+
+**is.CDM.entityVersion**  
+  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.0.0"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
+
+**is.application.releaseVersion**  
+  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>releaseVersion</td><td>"10.0.13.0"</td><td>string</td><td>semantic version number of the application introducing this entity</td></tr></table>
+
+</details>
+
+## Attributes
+
+|Name|Description|First Included in Instance|
+|---|---|---|
+|[Key](#Key)||<a href="BudgetPlanParameterEntity.md" target="_blank">Budgeting/BudgetPlanParameterEntity</a>|
+|[UseBudgetPlanningUserGroups](#UseBudgetPlanningUserGroups)||<a href="BudgetPlanParameterEntity.md" target="_blank">Budgeting/BudgetPlanParameterEntity</a>|
+|[SecurityModel](#SecurityModel)||<a href="BudgetPlanParameterEntity.md" target="_blank">Budgeting/BudgetPlanParameterEntity</a>|
+|[DimensionHierarchy](#DimensionHierarchy)||<a href="BudgetPlanParameterEntity.md" target="_blank">Budgeting/BudgetPlanParameterEntity</a>|
+|[SkipCurrencyConversion](#SkipCurrencyConversion)||<a href="BudgetPlanParameterEntity.md" target="_blank">Budgeting/BudgetPlanParameterEntity</a>|
+|[DimensionHierarchyName](#DimensionHierarchyName)||<a href="BudgetPlanParameterEntity.md" target="_blank">Budgeting/BudgetPlanParameterEntity</a>|
+|[BackingTable_BudgetPlanningConfigurationRelationshipId](#BackingTable_BudgetPlanningConfigurationRelationshipId)||<a href="BudgetPlanParameterEntity.md" target="_blank">Budgeting/BudgetPlanParameterEntity</a>|
+|[Relationship_PrimaryCompanyContextRelationshipId](#Relationship_PrimaryCompanyContextRelationshipId)||<a href="BudgetPlanParameterEntity.md" target="_blank">Budgeting/BudgetPlanParameterEntity</a>|
+
+### <a href=#Key name="Key">Key</a>
+
+First included in: Budgeting/BudgetPlanParameterEntity (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the Key attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#UseBudgetPlanningUserGroups name="UseBudgetPlanningUserGroups">UseBudgetPlanningUserGroups</a>
+
+First included in: Budgeting/BudgetPlanParameterEntity (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the UseBudgetPlanningUserGroups attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#SecurityModel name="SecurityModel">SecurityModel</a>
+
+First included in: Budgeting/BudgetPlanParameterEntity (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the SecurityModel attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#DimensionHierarchy name="DimensionHierarchy">DimensionHierarchy</a>
+
+First included in: Budgeting/BudgetPlanParameterEntity (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the DimensionHierarchy attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#SkipCurrencyConversion name="SkipCurrencyConversion">SkipCurrencyConversion</a>
+
+First included in: Budgeting/BudgetPlanParameterEntity (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the SkipCurrencyConversion attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#DimensionHierarchyName name="DimensionHierarchyName">DimensionHierarchyName</a>
+
+First included in: Budgeting/BudgetPlanParameterEntity (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the DimensionHierarchyName attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#BackingTable_BudgetPlanningConfigurationRelationshipId name="BackingTable_BudgetPlanningConfigurationRelationshipId">BackingTable_BudgetPlanningConfigurationRelationshipId</a>
+
+First included in: Budgeting/BudgetPlanParameterEntity (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the BackingTable_BudgetPlanningConfigurationRelationshipId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.guid**  
+**means.identity.entityId**  
+**is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Tables/Finance/Budget/Parameter/BudgetPlanningConfiguration.md" target="_blank">/core/operationsCommon/Tables/Finance/Budget/Parameter/BudgetPlanningConfiguration.cdm.json/BudgetPlanningConfiguration</a></td><td><a href="../../../Tables/Finance/Budget/Parameter/BudgetPlanningConfiguration.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+**is.dataFormat.guid**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#Relationship_PrimaryCompanyContextRelationshipId name="Relationship_PrimaryCompanyContextRelationshipId">Relationship_PrimaryCompanyContextRelationshipId</a>
+
+First included in: Budgeting/BudgetPlanParameterEntity (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the Relationship_PrimaryCompanyContextRelationshipId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.guid**  
+**means.identity.entityId**  
+**is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Tables/Finance/Ledger/Main/CompanyInfo.md" target="_blank">/core/operationsCommon/Tables/Finance/Ledger/Main/CompanyInfo.cdm.json/CompanyInfo</a></td><td><a href="../../../Tables/Finance/Ledger/Main/CompanyInfo.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+**is.dataFormat.guid**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>

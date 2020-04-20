@@ -1,0 +1,952 @@
+---
+title: OMTeam - Common Data Model | Microsoft Docs
+description: undefined
+author: nenad1002
+ms.service: common-data-model
+ms.reviewer: deonhe
+ms.topic: article
+ms.date: 4/20/2020
+ms.author: nebanfic
+---
+
+# OMTeam
+
+  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/Common/GAB/Main/OMTeam.cdm.json" target="_blank">GitHub</a>.  
+
+## Traits
+
+<details>
+<summary>Traits for this entity are listed below.  
+</summary>
+
+**is.identifiedBy**  
+  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[OMTeam/(resolvedAttributes)/RecId](#RecId)</td><td>attribute</td><td></td></tr></table>
+
+**is.CDM.entityVersion**  
+  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.0.0"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
+
+**is.application.releaseVersion**  
+  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>releaseVersion</td><td>"10.0.13.0"</td><td>string</td><td>semantic version number of the application introducing this entity</td></tr></table>
+
+</details>
+
+## Attributes
+
+|Name|Description|First Included in Instance|
+|---|---|---|
+|[RecId](#RecId)||<a href="OMTeam.md" target="_blank">Main/OMTeam</a>|
+|[InstanceRelationType](#InstanceRelationType)||<a href="OMTeam.md" target="_blank">Main/OMTeam</a>|
+|[KnownAs](#KnownAs)||<a href="OMTeam.md" target="_blank">Main/OMTeam</a>|
+|[LanguageId](#LanguageId)||<a href="OMTeam.md" target="_blank">Main/OMTeam</a>|
+|[Name](#Name)||<a href="OMTeam.md" target="_blank">Main/OMTeam</a>|
+|[NameAlias](#NameAlias)||<a href="OMTeam.md" target="_blank">Main/OMTeam</a>|
+|[PartyNumber](#PartyNumber)||<a href="OMTeam.md" target="_blank">Main/OMTeam</a>|
+|[PrimaryAddressLocation](#PrimaryAddressLocation)||<a href="OMTeam.md" target="_blank">Main/OMTeam</a>|
+|[PrimaryContactEmail](#PrimaryContactEmail)||<a href="OMTeam.md" target="_blank">Main/OMTeam</a>|
+|[PrimaryContactFax](#PrimaryContactFax)||<a href="OMTeam.md" target="_blank">Main/OMTeam</a>|
+|[PrimaryContactPhone](#PrimaryContactPhone)||<a href="OMTeam.md" target="_blank">Main/OMTeam</a>|
+|[PrimaryContactTelex](#PrimaryContactTelex)||<a href="OMTeam.md" target="_blank">Main/OMTeam</a>|
+|[PrimaryContactURL](#PrimaryContactURL)||<a href="OMTeam.md" target="_blank">Main/OMTeam</a>|
+|[PrimaryContactFacebook](#PrimaryContactFacebook)||<a href="OMTeam.md" target="_blank">Main/OMTeam</a>|
+|[PrimaryContactTwitter](#PrimaryContactTwitter)||<a href="OMTeam.md" target="_blank">Main/OMTeam</a>|
+|[PrimaryContactLinkedIn](#PrimaryContactLinkedIn)||<a href="OMTeam.md" target="_blank">Main/OMTeam</a>|
+|[AddressBookNames](#AddressBookNames)||<a href="OMTeam.md" target="_blank">Main/OMTeam</a>|
+|[LegacyInstanceRelationType](#LegacyInstanceRelationType)||<a href="OMTeam.md" target="_blank">Main/OMTeam</a>|
+|[Relationship_LanguageTableRelationshipId](#Relationship_LanguageTableRelationshipId)||<a href="OMTeam.md" target="_blank">Main/OMTeam</a>|
+|[Relationship_LogisticsElectronicAddress_EmailRelationshipId](#Relationship_LogisticsElectronicAddress_EmailRelationshipId)||<a href="OMTeam.md" target="_blank">Main/OMTeam</a>|
+|[Relationship_LogisticsElectronicAddress_FaxRelationshipId](#Relationship_LogisticsElectronicAddress_FaxRelationshipId)||<a href="OMTeam.md" target="_blank">Main/OMTeam</a>|
+|[Relationship_LogisticsElectronicAddress_PhoneRelationshipId](#Relationship_LogisticsElectronicAddress_PhoneRelationshipId)||<a href="OMTeam.md" target="_blank">Main/OMTeam</a>|
+|[Relationship_LogisticsElectronicAddress_TelexRelationshipId](#Relationship_LogisticsElectronicAddress_TelexRelationshipId)||<a href="OMTeam.md" target="_blank">Main/OMTeam</a>|
+|[Relationship_LogisticsElectronicAddress_URLRelationshipId](#Relationship_LogisticsElectronicAddress_URLRelationshipId)||<a href="OMTeam.md" target="_blank">Main/OMTeam</a>|
+|[Relationship_LogisticsElectronicAddress_FacebookRelationshipId](#Relationship_LogisticsElectronicAddress_FacebookRelationshipId)||<a href="OMTeam.md" target="_blank">Main/OMTeam</a>|
+|[Relationship_LogisticsElectronicAddress_TwitterRelationshipId](#Relationship_LogisticsElectronicAddress_TwitterRelationshipId)||<a href="OMTeam.md" target="_blank">Main/OMTeam</a>|
+|[Relationship_LogisticsElectronicAddress_LinkedInRelationshipId](#Relationship_LogisticsElectronicAddress_LinkedInRelationshipId)||<a href="OMTeam.md" target="_blank">Main/OMTeam</a>|
+|[Relationship_LogisticsLocation_PrimaryAddressRelationshipId](#Relationship_LogisticsLocation_PrimaryAddressRelationshipId)||<a href="OMTeam.md" target="_blank">Main/OMTeam</a>|
+|[Relationship_LogisticsPostalAddressRelationshipId](#Relationship_LogisticsPostalAddressRelationshipId)||<a href="OMTeam.md" target="_blank">Main/OMTeam</a>|
+|[DunsNumberRecId](#DunsNumberRecId)||<a href="OMTeam.md" target="_blank">Main/OMTeam</a>|
+|[PhoneticName](#PhoneticName)||<a href="OMTeam.md" target="_blank">Main/OMTeam</a>|
+|[Relationship_DunsNumber_FKRelationshipId](#Relationship_DunsNumber_FKRelationshipId)||<a href="OMTeam.md" target="_blank">Main/OMTeam</a>|
+|[OrganizationType](#OrganizationType)||<a href="OMTeam.md" target="_blank">Main/OMTeam</a>|
+|[Description](#Description)||<a href="OMTeam.md" target="_blank">Main/OMTeam</a>|
+|[IsActive](#IsActive)||<a href="OMTeam.md" target="_blank">Main/OMTeam</a>|
+|[TeamAdministrator](#TeamAdministrator)||<a href="OMTeam.md" target="_blank">Main/OMTeam</a>|
+|[TeamMembershipCriterion](#TeamMembershipCriterion)||<a href="OMTeam.md" target="_blank">Main/OMTeam</a>|
+|[Relationship_OMTeamMembershipCriterionRelationshipId](#Relationship_OMTeamMembershipCriterionRelationshipId)||<a href="OMTeam.md" target="_blank">Main/OMTeam</a>|
+|[Relationship_SysUserInfoRelationshipId](#Relationship_SysUserInfoRelationshipId)||<a href="OMTeam.md" target="_blank">Main/OMTeam</a>|
+|[Relationship_DirPersonUserRelationshipId](#Relationship_DirPersonUserRelationshipId)||<a href="OMTeam.md" target="_blank">Main/OMTeam</a>|
+
+### <a href=#RecId name="RecId">RecId</a>
+
+First included in: Main/OMTeam (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>int64</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the RecId attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
+**is.identifiedBy**  
+names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[OMTeam/(resolvedAttributes)/RecId](#RecId)</td><td>attribute</td><td></td></tr></table>
+
+**is.readOnly**  
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
+</details>
+
+### <a href=#InstanceRelationType name="InstanceRelationType">InstanceRelationType</a>
+
+First included in: Main/OMTeam (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int64</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the InstanceRelationType attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
+**is.readOnly**  
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
+</details>
+
+### <a href=#KnownAs name="KnownAs">KnownAs</a>
+
+First included in: Main/OMTeam (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the KnownAs attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#LanguageId name="LanguageId">LanguageId</a>
+
+First included in: Main/OMTeam (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the LanguageId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#Name name="Name">Name</a>
+
+First included in: Main/OMTeam (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the Name attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#NameAlias name="NameAlias">NameAlias</a>
+
+First included in: Main/OMTeam (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the NameAlias attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#PartyNumber name="PartyNumber">PartyNumber</a>
+
+First included in: Main/OMTeam (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the PartyNumber attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#PrimaryAddressLocation name="PrimaryAddressLocation">PrimaryAddressLocation</a>
+
+First included in: Main/OMTeam (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int64</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the PrimaryAddressLocation attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
+</details>
+
+### <a href=#PrimaryContactEmail name="PrimaryContactEmail">PrimaryContactEmail</a>
+
+First included in: Main/OMTeam (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int64</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the PrimaryContactEmail attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
+</details>
+
+### <a href=#PrimaryContactFax name="PrimaryContactFax">PrimaryContactFax</a>
+
+First included in: Main/OMTeam (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int64</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the PrimaryContactFax attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
+</details>
+
+### <a href=#PrimaryContactPhone name="PrimaryContactPhone">PrimaryContactPhone</a>
+
+First included in: Main/OMTeam (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int64</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the PrimaryContactPhone attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
+</details>
+
+### <a href=#PrimaryContactTelex name="PrimaryContactTelex">PrimaryContactTelex</a>
+
+First included in: Main/OMTeam (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int64</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the PrimaryContactTelex attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
+</details>
+
+### <a href=#PrimaryContactURL name="PrimaryContactURL">PrimaryContactURL</a>
+
+First included in: Main/OMTeam (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int64</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the PrimaryContactURL attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
+</details>
+
+### <a href=#PrimaryContactFacebook name="PrimaryContactFacebook">PrimaryContactFacebook</a>
+
+First included in: Main/OMTeam (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int64</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the PrimaryContactFacebook attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
+</details>
+
+### <a href=#PrimaryContactTwitter name="PrimaryContactTwitter">PrimaryContactTwitter</a>
+
+First included in: Main/OMTeam (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int64</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the PrimaryContactTwitter attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
+</details>
+
+### <a href=#PrimaryContactLinkedIn name="PrimaryContactLinkedIn">PrimaryContactLinkedIn</a>
+
+First included in: Main/OMTeam (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int64</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the PrimaryContactLinkedIn attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
+</details>
+
+### <a href=#AddressBookNames name="AddressBookNames">AddressBookNames</a>
+
+First included in: Main/OMTeam (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the AddressBookNames attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#LegacyInstanceRelationType name="LegacyInstanceRelationType">LegacyInstanceRelationType</a>
+
+First included in: Main/OMTeam (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int64</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the LegacyInstanceRelationType attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
+</details>
+
+### <a href=#Relationship_LanguageTableRelationshipId name="Relationship_LanguageTableRelationshipId">Relationship_LanguageTableRelationshipId</a>
+
+First included in: Main/OMTeam (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the Relationship_LanguageTableRelationshipId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.guid**  
+**means.identity.entityId**  
+**is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../System/SystemAdministration/Group/LanguageTable.md" target="_blank">/core/operationsCommon/Tables/System/SystemAdministration/Group/LanguageTable.cdm.json/LanguageTable</a></td><td><a href="../../../System/SystemAdministration/Group/LanguageTable.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+**is.dataFormat.guid**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#Relationship_LogisticsElectronicAddress_EmailRelationshipId name="Relationship_LogisticsElectronicAddress_EmailRelationshipId">Relationship_LogisticsElectronicAddress_EmailRelationshipId</a>
+
+First included in: Main/OMTeam (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the Relationship_LogisticsElectronicAddress_EmailRelationshipId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.guid**  
+**means.identity.entityId**  
+**is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="LogisticsElectronicAddress.md" target="_blank">/core/operationsCommon/Tables/Common/GAB/Main/LogisticsElectronicAddress.cdm.json/LogisticsElectronicAddress</a></td><td><a href="LogisticsElectronicAddress.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+**is.dataFormat.guid**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#Relationship_LogisticsElectronicAddress_FaxRelationshipId name="Relationship_LogisticsElectronicAddress_FaxRelationshipId">Relationship_LogisticsElectronicAddress_FaxRelationshipId</a>
+
+First included in: Main/OMTeam (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the Relationship_LogisticsElectronicAddress_FaxRelationshipId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.guid**  
+**means.identity.entityId**  
+**is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="LogisticsElectronicAddress.md" target="_blank">/core/operationsCommon/Tables/Common/GAB/Main/LogisticsElectronicAddress.cdm.json/LogisticsElectronicAddress</a></td><td><a href="LogisticsElectronicAddress.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+**is.dataFormat.guid**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#Relationship_LogisticsElectronicAddress_PhoneRelationshipId name="Relationship_LogisticsElectronicAddress_PhoneRelationshipId">Relationship_LogisticsElectronicAddress_PhoneRelationshipId</a>
+
+First included in: Main/OMTeam (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the Relationship_LogisticsElectronicAddress_PhoneRelationshipId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.guid**  
+**means.identity.entityId**  
+**is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="LogisticsElectronicAddress.md" target="_blank">/core/operationsCommon/Tables/Common/GAB/Main/LogisticsElectronicAddress.cdm.json/LogisticsElectronicAddress</a></td><td><a href="LogisticsElectronicAddress.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+**is.dataFormat.guid**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#Relationship_LogisticsElectronicAddress_TelexRelationshipId name="Relationship_LogisticsElectronicAddress_TelexRelationshipId">Relationship_LogisticsElectronicAddress_TelexRelationshipId</a>
+
+First included in: Main/OMTeam (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the Relationship_LogisticsElectronicAddress_TelexRelationshipId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.guid**  
+**means.identity.entityId**  
+**is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="LogisticsElectronicAddress.md" target="_blank">/core/operationsCommon/Tables/Common/GAB/Main/LogisticsElectronicAddress.cdm.json/LogisticsElectronicAddress</a></td><td><a href="LogisticsElectronicAddress.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+**is.dataFormat.guid**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#Relationship_LogisticsElectronicAddress_URLRelationshipId name="Relationship_LogisticsElectronicAddress_URLRelationshipId">Relationship_LogisticsElectronicAddress_URLRelationshipId</a>
+
+First included in: Main/OMTeam (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the Relationship_LogisticsElectronicAddress_URLRelationshipId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.guid**  
+**means.identity.entityId**  
+**is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="LogisticsElectronicAddress.md" target="_blank">/core/operationsCommon/Tables/Common/GAB/Main/LogisticsElectronicAddress.cdm.json/LogisticsElectronicAddress</a></td><td><a href="LogisticsElectronicAddress.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+**is.dataFormat.guid**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#Relationship_LogisticsElectronicAddress_FacebookRelationshipId name="Relationship_LogisticsElectronicAddress_FacebookRelationshipId">Relationship_LogisticsElectronicAddress_FacebookRelationshipId</a>
+
+First included in: Main/OMTeam (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the Relationship_LogisticsElectronicAddress_FacebookRelationshipId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.guid**  
+**means.identity.entityId**  
+**is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="LogisticsElectronicAddress.md" target="_blank">/core/operationsCommon/Tables/Common/GAB/Main/LogisticsElectronicAddress.cdm.json/LogisticsElectronicAddress</a></td><td><a href="LogisticsElectronicAddress.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+**is.dataFormat.guid**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#Relationship_LogisticsElectronicAddress_TwitterRelationshipId name="Relationship_LogisticsElectronicAddress_TwitterRelationshipId">Relationship_LogisticsElectronicAddress_TwitterRelationshipId</a>
+
+First included in: Main/OMTeam (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the Relationship_LogisticsElectronicAddress_TwitterRelationshipId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.guid**  
+**means.identity.entityId**  
+**is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="LogisticsElectronicAddress.md" target="_blank">/core/operationsCommon/Tables/Common/GAB/Main/LogisticsElectronicAddress.cdm.json/LogisticsElectronicAddress</a></td><td><a href="LogisticsElectronicAddress.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+**is.dataFormat.guid**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#Relationship_LogisticsElectronicAddress_LinkedInRelationshipId name="Relationship_LogisticsElectronicAddress_LinkedInRelationshipId">Relationship_LogisticsElectronicAddress_LinkedInRelationshipId</a>
+
+First included in: Main/OMTeam (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the Relationship_LogisticsElectronicAddress_LinkedInRelationshipId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.guid**  
+**means.identity.entityId**  
+**is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="LogisticsElectronicAddress.md" target="_blank">/core/operationsCommon/Tables/Common/GAB/Main/LogisticsElectronicAddress.cdm.json/LogisticsElectronicAddress</a></td><td><a href="LogisticsElectronicAddress.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+**is.dataFormat.guid**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#Relationship_LogisticsLocation_PrimaryAddressRelationshipId name="Relationship_LogisticsLocation_PrimaryAddressRelationshipId">Relationship_LogisticsLocation_PrimaryAddressRelationshipId</a>
+
+First included in: Main/OMTeam (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the Relationship_LogisticsLocation_PrimaryAddressRelationshipId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.guid**  
+**means.identity.entityId**  
+**is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="LogisticsLocation.md" target="_blank">/core/operationsCommon/Tables/Common/GAB/Main/LogisticsLocation.cdm.json/LogisticsLocation</a></td><td><a href="LogisticsLocation.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+**is.dataFormat.guid**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#Relationship_LogisticsPostalAddressRelationshipId name="Relationship_LogisticsPostalAddressRelationshipId">Relationship_LogisticsPostalAddressRelationshipId</a>
+
+First included in: Main/OMTeam (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the Relationship_LogisticsPostalAddressRelationshipId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.guid**  
+**means.identity.entityId**  
+**is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="LogisticsPostalAddress.md" target="_blank">/core/operationsCommon/Tables/Common/GAB/Main/LogisticsPostalAddress.cdm.json/LogisticsPostalAddress</a></td><td><a href="LogisticsPostalAddress.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+**is.dataFormat.guid**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#DunsNumberRecId name="DunsNumberRecId">DunsNumberRecId</a>
+
+First included in: Main/OMTeam (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int64</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the DunsNumberRecId attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
+</details>
+
+### <a href=#PhoneticName name="PhoneticName">PhoneticName</a>
+
+First included in: Main/OMTeam (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the PhoneticName attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#Relationship_DunsNumber_FKRelationshipId name="Relationship_DunsNumber_FKRelationshipId">Relationship_DunsNumber_FKRelationshipId</a>
+
+First included in: Main/OMTeam (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the Relationship_DunsNumber_FKRelationshipId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.guid**  
+**means.identity.entityId**  
+**is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="DirDunsNumber.md" target="_blank">/core/operationsCommon/Tables/Common/GAB/Main/DirDunsNumber.cdm.json/DirDunsNumber</a></td><td><a href="DirDunsNumber.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+**is.dataFormat.guid**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#OrganizationType name="OrganizationType">OrganizationType</a>
+
+First included in: Main/OMTeam (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the OrganizationType attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**is.dataFormat.integer**  
+</details>
+
+### <a href=#Description name="Description">Description</a>
+
+First included in: Main/OMTeam (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the Description attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#IsActive name="IsActive">IsActive</a>
+
+First included in: Main/OMTeam (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the IsActive attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**is.dataFormat.integer**  
+</details>
+
+### <a href=#TeamAdministrator name="TeamAdministrator">TeamAdministrator</a>
+
+First included in: Main/OMTeam (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the TeamAdministrator attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#TeamMembershipCriterion name="TeamMembershipCriterion">TeamMembershipCriterion</a>
+
+First included in: Main/OMTeam (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int64</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the TeamMembershipCriterion attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
+</details>
+
+### <a href=#Relationship_OMTeamMembershipCriterionRelationshipId name="Relationship_OMTeamMembershipCriterionRelationshipId">Relationship_OMTeamMembershipCriterionRelationshipId</a>
+
+First included in: Main/OMTeam (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the Relationship_OMTeamMembershipCriterionRelationshipId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.guid**  
+**means.identity.entityId**  
+**is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../Reference/OMTeamMembershipCriterion.md" target="_blank">/core/operationsCommon/Tables/Common/GAB/Reference/OMTeamMembershipCriterion.cdm.json/OMTeamMembershipCriterion</a></td><td><a href="../Reference/OMTeamMembershipCriterion.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+**is.dataFormat.guid**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#Relationship_SysUserInfoRelationshipId name="Relationship_SysUserInfoRelationshipId">Relationship_SysUserInfoRelationshipId</a>
+
+First included in: Main/OMTeam (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the Relationship_SysUserInfoRelationshipId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.guid**  
+**means.identity.entityId**  
+**is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../System/SystemAdministration/Main/SysUserInfo.md" target="_blank">/core/operationsCommon/Tables/System/SystemAdministration/Main/SysUserInfo.cdm.json/SysUserInfo</a></td><td><a href="../../../System/SystemAdministration/Main/SysUserInfo.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+**is.dataFormat.guid**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#Relationship_DirPersonUserRelationshipId name="Relationship_DirPersonUserRelationshipId">Relationship_DirPersonUserRelationshipId</a>
+
+First included in: Main/OMTeam (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the Relationship_DirPersonUserRelationshipId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.guid**  
+**means.identity.entityId**  
+**is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="DirPersonUser.md" target="_blank">/core/operationsCommon/Tables/Common/GAB/Main/DirPersonUser.cdm.json/DirPersonUser</a></td><td><a href="DirPersonUser.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+**is.dataFormat.guid**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>

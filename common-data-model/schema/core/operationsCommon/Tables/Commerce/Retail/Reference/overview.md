@@ -1,0 +1,23 @@
+---
+title: overview - Common Data Model | Microsoft Docs
+description: Reference is a folder that contains standard entities related to the Common Data Model.
+author: nenad1002
+ms.service: common-data-model
+ms.reviewer: deonhe
+ms.topic: article
+ms.date: 4/20/2020
+ms.author: nebanfic
+---
+
+# Reference
+
+
+## Entities
+
+|Name|Description|
+|---|---|
+|[MCROrderLine2PriceHistoryRef](MCROrderLine2PriceHistoryRef.md)||
+|[RetailGrandTotalJourTableBatchRelation](RetailGrandTotalJourTableBatchRelation.md)||
+|[RetailInfocodeGroupSpecific](RetailInfocodeGroupSpecific.md)||
+|[RetailMassUpdateProductFastTab](RetailMassUpdateProductFastTab.md)||
+|[RetailMassUpdateProductProperty](RetailMassUpdateProductProperty.md)||
