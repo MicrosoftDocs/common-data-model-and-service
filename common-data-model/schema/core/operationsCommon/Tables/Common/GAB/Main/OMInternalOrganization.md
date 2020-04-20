@@ -98,14 +98,18 @@ First included in: Main/OMInternalOrganization (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>unknown</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int64</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the InstanceRelationType attribute are listed below.</summary>
 
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
 **is.readOnly**  
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
 </details>
 
 ### <a href=#KnownAs name="KnownAs">KnownAs</a>
@@ -114,13 +118,18 @@ First included in: Main/OMInternalOrganization (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>unknown</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the KnownAs attribute are listed below.</summary>
 
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#LanguageId name="LanguageId">LanguageId</a>
@@ -129,13 +138,18 @@ First included in: Main/OMInternalOrganization (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>unknown</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the LanguageId attribute are listed below.</summary>
 
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#Name name="Name">Name</a>
@@ -144,13 +158,18 @@ First included in: Main/OMInternalOrganization (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>unknown</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the Name attribute are listed below.</summary>
 
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#NameAlias name="NameAlias">NameAlias</a>
@@ -159,13 +178,18 @@ First included in: Main/OMInternalOrganization (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>unknown</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the NameAlias attribute are listed below.</summary>
 
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#PartyNumber name="PartyNumber">PartyNumber</a>
@@ -174,13 +198,18 @@ First included in: Main/OMInternalOrganization (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>unknown</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the PartyNumber attribute are listed below.</summary>
 
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#PrimaryAddressLocation name="PrimaryAddressLocation">PrimaryAddressLocation</a>
@@ -208,13 +237,17 @@ First included in: Main/OMInternalOrganization (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>unknown</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int64</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the PrimaryContactEmail attribute are listed below.</summary>
 
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
 </details>
 
 ### <a href=#PrimaryContactFax name="PrimaryContactFax">PrimaryContactFax</a>
@@ -223,13 +256,17 @@ First included in: Main/OMInternalOrganization (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>unknown</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int64</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the PrimaryContactFax attribute are listed below.</summary>
 
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
 </details>
 
 ### <a href=#PrimaryContactPhone name="PrimaryContactPhone">PrimaryContactPhone</a>
@@ -238,13 +275,17 @@ First included in: Main/OMInternalOrganization (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>unknown</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int64</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the PrimaryContactPhone attribute are listed below.</summary>
 
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
 </details>
 
 ### <a href=#PrimaryContactTelex name="PrimaryContactTelex">PrimaryContactTelex</a>
@@ -253,13 +294,17 @@ First included in: Main/OMInternalOrganization (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>unknown</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int64</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the PrimaryContactTelex attribute are listed below.</summary>
 
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
 </details>
 
 ### <a href=#PrimaryContactURL name="PrimaryContactURL">PrimaryContactURL</a>
@@ -268,13 +313,17 @@ First included in: Main/OMInternalOrganization (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>unknown</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int64</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the PrimaryContactURL attribute are listed below.</summary>
 
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
 </details>
 
 ### <a href=#PrimaryContactFacebook name="PrimaryContactFacebook">PrimaryContactFacebook</a>
@@ -283,13 +332,17 @@ First included in: Main/OMInternalOrganization (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>unknown</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int64</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the PrimaryContactFacebook attribute are listed below.</summary>
 
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
 </details>
 
 ### <a href=#PrimaryContactTwitter name="PrimaryContactTwitter">PrimaryContactTwitter</a>
@@ -298,13 +351,17 @@ First included in: Main/OMInternalOrganization (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>unknown</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int64</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the PrimaryContactTwitter attribute are listed below.</summary>
 
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
 </details>
 
 ### <a href=#PrimaryContactLinkedIn name="PrimaryContactLinkedIn">PrimaryContactLinkedIn</a>
@@ -313,13 +370,17 @@ First included in: Main/OMInternalOrganization (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>unknown</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int64</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the PrimaryContactLinkedIn attribute are listed below.</summary>
 
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
 </details>
 
 ### <a href=#AddressBookNames name="AddressBookNames">AddressBookNames</a>
@@ -348,13 +409,17 @@ First included in: Main/OMInternalOrganization (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>unknown</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int64</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the LegacyInstanceRelationType attribute are listed below.</summary>
 
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
 </details>
 
 ### <a href=#Relationship_LanguageTableRelationshipId name="Relationship_LanguageTableRelationshipId">Relationship_LanguageTableRelationshipId</a>
@@ -668,13 +733,18 @@ First included in: Main/OMInternalOrganization (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>unknown</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the PhoneticName attribute are listed below.</summary>
 
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#Relationship_DunsNumber_FKRelationshipId name="Relationship_DunsNumber_FKRelationshipId">Relationship_DunsNumber_FKRelationshipId</a>
