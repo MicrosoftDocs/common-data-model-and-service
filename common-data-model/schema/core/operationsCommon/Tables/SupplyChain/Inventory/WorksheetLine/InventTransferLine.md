@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/20/2020
+ms.date: 4/21/2020
 ms.author: nebanfic
 ---
 
@@ -153,8 +153,6 @@ ms.author: nebanfic
 |[Relationship_OriginCountyRelationshipId](#Relationship_OriginCountyRelationshipId)||<a href="InventTransferLine.md" target="_blank">WorksheetLine/InventTransferLine</a>|
 |[Relationship_OriginStateRelationshipId](#Relationship_OriginStateRelationshipId)||<a href="InventTransferLine.md" target="_blank">WorksheetLine/InventTransferLine</a>|
 |[Relationship_ReceiveInventTransOriginRelationshipId](#Relationship_ReceiveInventTransOriginRelationshipId)||<a href="InventTransferLine.md" target="_blank">WorksheetLine/InventTransferLine</a>|
-|[Relationship_RetailBuyersPushLineQtyRelationshipId](#Relationship_RetailBuyersPushLineQtyRelationshipId)||<a href="InventTransferLine.md" target="_blank">WorksheetLine/InventTransferLine</a>|
-|[Relationship_RetailInfocodeTableRelationshipId](#Relationship_RetailInfocodeTableRelationshipId)||<a href="InventTransferLine.md" target="_blank">WorksheetLine/InventTransferLine</a>|
 |[Relationship_ScrapInventTransOriginRelationshipId](#Relationship_ScrapInventTransOriginRelationshipId)||<a href="InventTransferLine.md" target="_blank">WorksheetLine/InventTransferLine</a>|
 |[Relationship_ShipmentInventTransOriginRelationshipId](#Relationship_ShipmentInventTransOriginRelationshipId)||<a href="InventTransferLine.md" target="_blank">WorksheetLine/InventTransferLine</a>|
 |[Relationship_TransitFromInventTransOriginRelationshipId](#Relationship_TransitFromInventTransOriginRelationshipId)||<a href="InventTransferLine.md" target="_blank">WorksheetLine/InventTransferLine</a>|
@@ -2577,58 +2575,6 @@ First included in: WorksheetLine/InventTransferLine (this entity)
 **means.identity.entityId**  
 **is.linkedEntity.identifier**  
 Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../Transaction/InventTransOrigin.md" target="_blank">/core/operationsCommon/Tables/SupplyChain/Inventory/Transaction/InventTransOrigin.cdm.json/InventTransOrigin</a></td><td><a href="../Transaction/InventTransOrigin.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-**is.dataFormat.guid**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
-
-### <a href=#Relationship_RetailBuyersPushLineQtyRelationshipId name="Relationship_RetailBuyersPushLineQtyRelationshipId">Relationship_RetailBuyersPushLineQtyRelationshipId</a>
-
-First included in: WorksheetLine/InventTransferLine (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the Relationship_RetailBuyersPushLineQtyRelationshipId attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.guid**  
-**means.identity.entityId**  
-**is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Commerce/Retail/WorksheetLine/RetailBuyersPushLineQty.md" target="_blank">/core/operationsCommon/Tables/Commerce/Retail/WorksheetLine/RetailBuyersPushLineQty.cdm.json/RetailBuyersPushLineQty</a></td><td><a href="../../../Commerce/Retail/WorksheetLine/RetailBuyersPushLineQty.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-**is.dataFormat.guid**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
-
-### <a href=#Relationship_RetailInfocodeTableRelationshipId name="Relationship_RetailInfocodeTableRelationshipId">Relationship_RetailInfocodeTableRelationshipId</a>
-
-First included in: WorksheetLine/InventTransferLine (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the Relationship_RetailInfocodeTableRelationshipId attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.guid**  
-**means.identity.entityId**  
-**is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Commerce/Retail/Main/RetailInfocodeTable.md" target="_blank">/core/operationsCommon/Tables/Commerce/Retail/Main/RetailInfocodeTable.cdm.json/RetailInfocodeTable</a></td><td><a href="../../../Commerce/Retail/Main/RetailInfocodeTable.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  

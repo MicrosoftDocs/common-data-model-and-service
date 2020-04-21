@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/20/2020
+ms.date: 4/21/2020
 ms.author: nebanfic
 ---
 
@@ -191,7 +191,6 @@ ms.author: nebanfic
 |[Relationship_InventTableRelationshipId](#Relationship_InventTableRelationshipId)||<a href="SalesQuotationLine.md" target="_blank">WorksheetLine/SalesQuotationLine</a>|
 |[Relationship_InventTransOriginRelationshipId](#Relationship_InventTransOriginRelationshipId)||<a href="SalesQuotationLine.md" target="_blank">WorksheetLine/SalesQuotationLine</a>|
 |[Relationship_LedgerDimensionRelationshipId](#Relationship_LedgerDimensionRelationshipId)||<a href="SalesQuotationLine.md" target="_blank">WorksheetLine/SalesQuotationLine</a>|
-|[Relationship_MCROrderLine2PriceHistoryRefRelationshipId](#Relationship_MCROrderLine2PriceHistoryRefRelationshipId)||<a href="SalesQuotationLine.md" target="_blank">WorksheetLine/SalesQuotationLine</a>|
 |[Relationship_OffsetAssetTableRelationshipId](#Relationship_OffsetAssetTableRelationshipId)||<a href="SalesQuotationLine.md" target="_blank">WorksheetLine/SalesQuotationLine</a>|
 |[Relationship_OffsetBankRelationshipId](#Relationship_OffsetBankRelationshipId)||<a href="SalesQuotationLine.md" target="_blank">WorksheetLine/SalesQuotationLine</a>|
 |[Relationship_OffsetCustTableRelationshipId](#Relationship_OffsetCustTableRelationshipId)||<a href="SalesQuotationLine.md" target="_blank">WorksheetLine/SalesQuotationLine</a>|
@@ -3393,32 +3392,6 @@ First included in: WorksheetLine/SalesQuotationLine (this entity)
 **means.identity.entityId**  
 **is.linkedEntity.identifier**  
 Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Finance/FinancialDimensions/Main/DimensionAttributeValueCombination.md" target="_blank">/core/operationsCommon/Tables/Finance/FinancialDimensions/Main/DimensionAttributeValueCombination.cdm.json/DimensionAttributeValueCombination</a></td><td><a href="../../../Finance/FinancialDimensions/Main/DimensionAttributeValueCombination.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-**is.dataFormat.guid**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
-
-### <a href=#Relationship_MCROrderLine2PriceHistoryRefRelationshipId name="Relationship_MCROrderLine2PriceHistoryRefRelationshipId">Relationship_MCROrderLine2PriceHistoryRefRelationshipId</a>
-
-First included in: WorksheetLine/SalesQuotationLine (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the Relationship_MCROrderLine2PriceHistoryRefRelationshipId attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.guid**  
-**means.identity.entityId**  
-**is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Commerce/Retail/Reference/MCROrderLine2PriceHistoryRef.md" target="_blank">/core/operationsCommon/Tables/Commerce/Retail/Reference/MCROrderLine2PriceHistoryRef.cdm.json/MCROrderLine2PriceHistoryRef</a></td><td><a href="../../../Commerce/Retail/Reference/MCROrderLine2PriceHistoryRef.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  

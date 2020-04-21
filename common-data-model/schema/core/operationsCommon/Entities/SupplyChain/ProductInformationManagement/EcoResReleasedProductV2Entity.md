@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/20/2020
+ms.date: 4/21/2020
 ms.author: nebanfic
 ---
 
@@ -312,9 +312,7 @@ ms.author: nebanfic
 |[Relationship_UnitOfMeasureConversionSequenceGroupRelationshipId](#Relationship_UnitOfMeasureConversionSequenceGroupRelationshipId)||<a href="EcoResReleasedProductV2Entity.md" target="_blank">ProductInformationManagement/EcoResReleasedProductV2Entity</a>|
 |[Relationship_CatchWeightUnitOfMeasureRelationshipId](#Relationship_CatchWeightUnitOfMeasureRelationshipId)||<a href="EcoResReleasedProductV2Entity.md" target="_blank">ProductInformationManagement/EcoResReleasedProductV2Entity</a>|
 |[Relationship_PurchaseRebateProductGroupRelationshipId](#Relationship_PurchaseRebateProductGroupRelationshipId)||<a href="EcoResReleasedProductV2Entity.md" target="_blank">ProductInformationManagement/EcoResReleasedProductV2Entity</a>|
-|[Relationship_BarcodeSetupRelationshipId](#Relationship_BarcodeSetupRelationshipId)||<a href="EcoResReleasedProductV2Entity.md" target="_blank">ProductInformationManagement/EcoResReleasedProductV2Entity</a>|
 |[Relationship_ComparisonPriceBaseUnitOfMeasureRelationshipId](#Relationship_ComparisonPriceBaseUnitOfMeasureRelationshipId)||<a href="EcoResReleasedProductV2Entity.md" target="_blank">ProductInformationManagement/EcoResReleasedProductV2Entity</a>|
-|[Relationship_ProductLifeCycleSeasonRelationshipId](#Relationship_ProductLifeCycleSeasonRelationshipId)||<a href="EcoResReleasedProductV2Entity.md" target="_blank">ProductInformationManagement/EcoResReleasedProductV2Entity</a>|
 |[Relationship_SalesSupplementaryProductProductGroupRelationshipId](#Relationship_SalesSupplementaryProductProductGroupRelationshipId)||<a href="EcoResReleasedProductV2Entity.md" target="_blank">ProductInformationManagement/EcoResReleasedProductV2Entity</a>|
 |[Relationship_SalesChargeProductGroupRelationshipId](#Relationship_SalesChargeProductGroupRelationshipId)||<a href="EcoResReleasedProductV2Entity.md" target="_blank">ProductInformationManagement/EcoResReleasedProductV2Entity</a>|
 |[Relationship_OriginCountryRegionRelationshipId](#Relationship_OriginCountryRegionRelationshipId)||<a href="EcoResReleasedProductV2Entity.md" target="_blank">ProductInformationManagement/EcoResReleasedProductV2Entity</a>|
@@ -6178,32 +6176,6 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 **is.dataFormat.array**  
 </details>
 
-### <a href=#Relationship_BarcodeSetupRelationshipId name="Relationship_BarcodeSetupRelationshipId">Relationship_BarcodeSetupRelationshipId</a>
-
-First included in: ProductInformationManagement/EcoResReleasedProductV2Entity (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the Relationship_BarcodeSetupRelationshipId attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.guid**  
-**means.identity.entityId**  
-**is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td>empty table</td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-**is.dataFormat.guid**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
-
 ### <a href=#Relationship_ComparisonPriceBaseUnitOfMeasureRelationshipId name="Relationship_ComparisonPriceBaseUnitOfMeasureRelationshipId">Relationship_ComparisonPriceBaseUnitOfMeasureRelationshipId</a>
 
 First included in: ProductInformationManagement/EcoResReleasedProductV2Entity (this entity)  
@@ -6216,32 +6188,6 @@ First included in: ProductInformationManagement/EcoResReleasedProductV2Entity (t
 
 <details>
 <summary>List of traits for the Relationship_ComparisonPriceBaseUnitOfMeasureRelationshipId attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.guid**  
-**means.identity.entityId**  
-**is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td>empty table</td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-**is.dataFormat.guid**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
-
-### <a href=#Relationship_ProductLifeCycleSeasonRelationshipId name="Relationship_ProductLifeCycleSeasonRelationshipId">Relationship_ProductLifeCycleSeasonRelationshipId</a>
-
-First included in: ProductInformationManagement/EcoResReleasedProductV2Entity (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the Relationship_ProductLifeCycleSeasonRelationshipId attribute are listed below.</summary>
 
 **is.dataFormat.character**  
 **is.dataFormat.big**  

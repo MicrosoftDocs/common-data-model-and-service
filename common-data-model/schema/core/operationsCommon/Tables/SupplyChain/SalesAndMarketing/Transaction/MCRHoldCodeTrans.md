@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/20/2020
+ms.date: 4/21/2020
 ms.author: nebanfic
 ---
 
@@ -55,7 +55,6 @@ ms.author: nebanfic
 |[DataAreaId](#DataAreaId)||<a href="MCRHoldCodeTrans.md" target="_blank">Transaction/MCRHoldCodeTrans</a>|
 |[Relationship_DocurefRelationshipId](#Relationship_DocurefRelationshipId)||<a href="MCRHoldCodeTrans.md" target="_blank">Transaction/MCRHoldCodeTrans</a>|
 |[Relationship_MCRHoldCodeRelationshipId](#Relationship_MCRHoldCodeRelationshipId)||<a href="MCRHoldCodeTrans.md" target="_blank">Transaction/MCRHoldCodeTrans</a>|
-|[Relationship_ReasonCodeRelationshipId](#Relationship_ReasonCodeRelationshipId)||<a href="MCRHoldCodeTrans.md" target="_blank">Transaction/MCRHoldCodeTrans</a>|
 |[Relationship_SalesTableRelationshipId](#Relationship_SalesTableRelationshipId)||<a href="MCRHoldCodeTrans.md" target="_blank">Transaction/MCRHoldCodeTrans</a>|
 |[Relationship_CompanyRelationshipId](#Relationship_CompanyRelationshipId)||<a href="MCRHoldCodeTrans.md" target="_blank">Transaction/MCRHoldCodeTrans</a>|
 
@@ -461,32 +460,6 @@ First included in: Transaction/MCRHoldCodeTrans (this entity)
 **means.identity.entityId**  
 **is.linkedEntity.identifier**  
 Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../Main/MCRHoldCodeTable.md" target="_blank">/core/operationsCommon/Tables/SupplyChain/SalesAndMarketing/Main/MCRHoldCodeTable.cdm.json/MCRHoldCodeTable</a></td><td><a href="../Main/MCRHoldCodeTable.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-**is.dataFormat.guid**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
-
-### <a href=#Relationship_ReasonCodeRelationshipId name="Relationship_ReasonCodeRelationshipId">Relationship_ReasonCodeRelationshipId</a>
-
-First included in: Transaction/MCRHoldCodeTrans (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the Relationship_ReasonCodeRelationshipId attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.guid**  
-**means.identity.entityId**  
-**is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Commerce/Retail/Main/RetailInformationSubcodeTable.md" target="_blank">/core/operationsCommon/Tables/Commerce/Retail/Main/RetailInformationSubcodeTable.cdm.json/RetailInformationSubcodeTable</a></td><td><a href="../../../Commerce/Retail/Main/RetailInformationSubcodeTable.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  

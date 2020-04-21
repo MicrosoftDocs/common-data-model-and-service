@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/20/2020
+ms.date: 4/21/2020
 ms.author: nebanfic
 ---
 
@@ -98,7 +98,6 @@ ms.author: nebanfic
 |[OutboundSortingLocationTypeId](#OutboundSortingLocationTypeId)||<a href="WHSWarehouseManagementParametersV2Entity.md" target="_blank">WMS/WHSWarehouseManagementParametersV2Entity</a>|
 |[IsPurchaseOrderRegistrationInExternalReviewEnabled](#IsPurchaseOrderRegistrationInExternalReviewEnabled)||<a href="WHSWarehouseManagementParametersV2Entity.md" target="_blank">WMS/WHSWarehouseManagementParametersV2Entity</a>|
 |[TransitWarehouseLicensePlatePolicy](#TransitWarehouseLicensePlatePolicy)||<a href="WHSWarehouseManagementParametersV2Entity.md" target="_blank">WMS/WHSWarehouseManagementParametersV2Entity</a>|
-|[Relationship_DefaultBarcodeSetupRelationshipId](#Relationship_DefaultBarcodeSetupRelationshipId)||<a href="WHSWarehouseManagementParametersV2Entity.md" target="_blank">WMS/WHSWarehouseManagementParametersV2Entity</a>|
 |[Relationship_DefaultBillOfLadingNoteTypeRelationshipId](#Relationship_DefaultBillOfLadingNoteTypeRelationshipId)||<a href="WHSWarehouseManagementParametersV2Entity.md" target="_blank">WMS/WHSWarehouseManagementParametersV2Entity</a>|
 |[Relationship_DefaultLoadReportNoteTypeRelationshipId](#Relationship_DefaultLoadReportNoteTypeRelationshipId)||<a href="WHSWarehouseManagementParametersV2Entity.md" target="_blank">WMS/WHSWarehouseManagementParametersV2Entity</a>|
 |[Relationship_DefaultPackingScreenNoteTypeRelationshipId](#Relationship_DefaultPackingScreenNoteTypeRelationshipId)||<a href="WHSWarehouseManagementParametersV2Entity.md" target="_blank">WMS/WHSWarehouseManagementParametersV2Entity</a>|
@@ -1439,32 +1438,6 @@ First included in: WMS/WHSWarehouseManagementParametersV2Entity (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
-
-### <a href=#Relationship_DefaultBarcodeSetupRelationshipId name="Relationship_DefaultBarcodeSetupRelationshipId">Relationship_DefaultBarcodeSetupRelationshipId</a>
-
-First included in: WMS/WHSWarehouseManagementParametersV2Entity (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the Relationship_DefaultBarcodeSetupRelationshipId attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.guid**  
-**means.identity.entityId**  
-**is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td>empty table</td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-**is.dataFormat.guid**  
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>

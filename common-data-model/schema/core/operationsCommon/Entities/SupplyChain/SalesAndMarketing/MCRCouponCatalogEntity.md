@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/20/2020
+ms.date: 4/21/2020
 ms.author: nebanfic
 ---
 
@@ -35,8 +35,6 @@ ms.author: nebanfic
 |[CatalogCode](#CatalogCode)||<a href="MCRCouponCatalogEntity.md" target="_blank">SalesAndMarketing/MCRCouponCatalogEntity</a>|
 |[CouponId](#CouponId)||<a href="MCRCouponCatalogEntity.md" target="_blank">SalesAndMarketing/MCRCouponCatalogEntity</a>|
 |[CatalogNumber](#CatalogNumber)||<a href="MCRCouponCatalogEntity.md" target="_blank">SalesAndMarketing/MCRCouponCatalogEntity</a>|
-|[Relationship_CatalogNumberRelationshipId](#Relationship_CatalogNumberRelationshipId)||<a href="MCRCouponCatalogEntity.md" target="_blank">SalesAndMarketing/MCRCouponCatalogEntity</a>|
-|[BackingTable_MCRCouponCatalogRelationshipId](#BackingTable_MCRCouponCatalogRelationshipId)||<a href="MCRCouponCatalogEntity.md" target="_blank">SalesAndMarketing/MCRCouponCatalogEntity</a>|
 |[Relationship_PrimaryCompanyContextRelationshipId](#Relationship_PrimaryCompanyContextRelationshipId)||<a href="MCRCouponCatalogEntity.md" target="_blank">SalesAndMarketing/MCRCouponCatalogEntity</a>|
 
 ### <a href=#CatalogCode name="CatalogCode">CatalogCode</a>
@@ -95,58 +93,6 @@ First included in: SalesAndMarketing/MCRCouponCatalogEntity (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
-
-### <a href=#Relationship_CatalogNumberRelationshipId name="Relationship_CatalogNumberRelationshipId">Relationship_CatalogNumberRelationshipId</a>
-
-First included in: SalesAndMarketing/MCRCouponCatalogEntity (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the Relationship_CatalogNumberRelationshipId attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.guid**  
-**means.identity.entityId**  
-**is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td>empty table</td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-**is.dataFormat.guid**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
-
-### <a href=#BackingTable_MCRCouponCatalogRelationshipId name="BackingTable_MCRCouponCatalogRelationshipId">BackingTable_MCRCouponCatalogRelationshipId</a>
-
-First included in: SalesAndMarketing/MCRCouponCatalogEntity (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the BackingTable_MCRCouponCatalogRelationshipId attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.guid**  
-**means.identity.entityId**  
-**is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Tables/Commerce/Retail/Group/MCRCouponCatalog.md" target="_blank">/core/operationsCommon/Tables/Commerce/Retail/Group/MCRCouponCatalog.cdm.json/MCRCouponCatalog</a></td><td><a href="../../../Tables/Commerce/Retail/Group/MCRCouponCatalog.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-**is.dataFormat.guid**  
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>

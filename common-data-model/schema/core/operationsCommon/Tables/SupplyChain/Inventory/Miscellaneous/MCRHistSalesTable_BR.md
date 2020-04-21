@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/20/2020
+ms.date: 4/21/2020
 ms.author: nebanfic
 ---
 
@@ -52,7 +52,6 @@ ms.author: nebanfic
 |[Relationship_CustInterestSetup_BRRelationshipId](#Relationship_CustInterestSetup_BRRelationshipId)||<a href="MCRHistSalesTable_BR.md" target="_blank">Miscellaneous/MCRHistSalesTable_BR</a>|
 |[Relationship_FiscalDocumentType_BRRelationshipId](#Relationship_FiscalDocumentType_BRRelationshipId)||<a href="MCRHistSalesTable_BR.md" target="_blank">Miscellaneous/MCRHistSalesTable_BR</a>|
 |[Relationship_InvoiceRefRecID_BRRelationshipId](#Relationship_InvoiceRefRecID_BRRelationshipId)||<a href="MCRHistSalesTable_BR.md" target="_blank">Miscellaneous/MCRHistSalesTable_BR</a>|
-|[Relationship_MCRHistSalesTableRelationshipId](#Relationship_MCRHistSalesTableRelationshipId)||<a href="MCRHistSalesTable_BR.md" target="_blank">Miscellaneous/MCRHistSalesTable_BR</a>|
 |[Relationship_SalesPurchOperationType_BRRelationshipId](#Relationship_SalesPurchOperationType_BRRelationshipId)||<a href="MCRHistSalesTable_BR.md" target="_blank">Miscellaneous/MCRHistSalesTable_BR</a>|
 |[Relationship_CompanyRelationshipId](#Relationship_CompanyRelationshipId)||<a href="MCRHistSalesTable_BR.md" target="_blank">Miscellaneous/MCRHistSalesTable_BR</a>|
 
@@ -409,32 +408,6 @@ First included in: Miscellaneous/MCRHistSalesTable_BR (this entity)
 **means.identity.entityId**  
 **is.linkedEntity.identifier**  
 Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Finance/AccountsReceivable/Transaction/CustInvoiceJour.md" target="_blank">/core/operationsCommon/Tables/Finance/AccountsReceivable/Transaction/CustInvoiceJour.cdm.json/CustInvoiceJour</a></td><td><a href="../../../Finance/AccountsReceivable/Transaction/CustInvoiceJour.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-**is.dataFormat.guid**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
-
-### <a href=#Relationship_MCRHistSalesTableRelationshipId name="Relationship_MCRHistSalesTableRelationshipId">Relationship_MCRHistSalesTableRelationshipId</a>
-
-First included in: Miscellaneous/MCRHistSalesTable_BR (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the Relationship_MCRHistSalesTableRelationshipId attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.guid**  
-**means.identity.entityId**  
-**is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Commerce/Retail/WorksheetHeader/MCRHistSalesTable.md" target="_blank">/core/operationsCommon/Tables/Commerce/Retail/WorksheetHeader/MCRHistSalesTable.cdm.json/MCRHistSalesTable</a></td><td><a href="../../../Commerce/Retail/WorksheetHeader/MCRHistSalesTable.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  

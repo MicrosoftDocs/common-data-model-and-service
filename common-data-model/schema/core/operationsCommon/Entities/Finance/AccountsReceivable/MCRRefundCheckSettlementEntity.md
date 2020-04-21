@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/20/2020
+ms.date: 4/21/2020
 ms.author: nebanfic
 ---
 
@@ -43,7 +43,6 @@ ms.author: nebanfic
 |[LedgerJournalNumber](#LedgerJournalNumber)||<a href="MCRRefundCheckSettlementEntity.md" target="_blank">AccountsReceivable/MCRRefundCheckSettlementEntity</a>|
 |[LedgerJournalVoucher](#LedgerJournalVoucher)||<a href="MCRRefundCheckSettlementEntity.md" target="_blank">AccountsReceivable/MCRRefundCheckSettlementEntity</a>|
 |[LedgerJournalTransationLineNumber](#LedgerJournalTransationLineNumber)||<a href="MCRRefundCheckSettlementEntity.md" target="_blank">AccountsReceivable/MCRRefundCheckSettlementEntity</a>|
-|[BackingTable_MCRRCSettlementTableRelationshipId](#BackingTable_MCRRCSettlementTableRelationshipId)||<a href="MCRRefundCheckSettlementEntity.md" target="_blank">AccountsReceivable/MCRRefundCheckSettlementEntity</a>|
 |[Relationship_PrimaryCompanyContextRelationshipId](#Relationship_PrimaryCompanyContextRelationshipId)||<a href="MCRRefundCheckSettlementEntity.md" target="_blank">AccountsReceivable/MCRRefundCheckSettlementEntity</a>|
 
 ### <a href=#TransactionBatchId name="TransactionBatchId">TransactionBatchId</a>
@@ -262,32 +261,6 @@ First included in: AccountsReceivable/MCRRefundCheckSettlementEntity (this entit
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
-
-### <a href=#BackingTable_MCRRCSettlementTableRelationshipId name="BackingTable_MCRRCSettlementTableRelationshipId">BackingTable_MCRRCSettlementTableRelationshipId</a>
-
-First included in: AccountsReceivable/MCRRefundCheckSettlementEntity (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the BackingTable_MCRRCSettlementTableRelationshipId attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.guid**  
-**means.identity.entityId**  
-**is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Tables/Commerce/Retail/Transaction/MCRRCSettlementTable.md" target="_blank">/core/operationsCommon/Tables/Commerce/Retail/Transaction/MCRRCSettlementTable.cdm.json/MCRRCSettlementTable</a></td><td><a href="../../../Tables/Commerce/Retail/Transaction/MCRRCSettlementTable.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-**is.dataFormat.guid**  
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>

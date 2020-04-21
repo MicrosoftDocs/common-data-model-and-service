@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/20/2020
+ms.date: 4/21/2020
 ms.author: nebanfic
 ---
 
@@ -111,7 +111,6 @@ ms.author: nebanfic
 |[Relationship_ProjInvoiceJourRelationshipId](#Relationship_ProjInvoiceJourRelationshipId)||<a href="TaxTrans.md" target="_blank">Transaction/TaxTrans</a>|
 |[Relationship_PurchComplInvoice_BRRelationshipId](#Relationship_PurchComplInvoice_BRRelationshipId)||<a href="TaxTrans.md" target="_blank">Transaction/TaxTrans</a>|
 |[Relationship_PurchLineRelationshipId](#Relationship_PurchLineRelationshipId)||<a href="TaxTrans.md" target="_blank">Transaction/TaxTrans</a>|
-|[Relationship_RetailStatementTableRelationshipId](#Relationship_RetailStatementTableRelationshipId)||<a href="TaxTrans.md" target="_blank">Transaction/TaxTrans</a>|
 |[Relationship_SalesComplInvoice_BRRelationshipId](#Relationship_SalesComplInvoice_BRRelationshipId)||<a href="TaxTrans.md" target="_blank">Transaction/TaxTrans</a>|
 |[Relationship_SalesLineRelationshipId](#Relationship_SalesLineRelationshipId)||<a href="TaxTrans.md" target="_blank">Transaction/TaxTrans</a>|
 |[Relationship_SourceDocumentLineRelationshipId](#Relationship_SourceDocumentLineRelationshipId)||<a href="TaxTrans.md" target="_blank">Transaction/TaxTrans</a>|
@@ -1713,32 +1712,6 @@ First included in: Transaction/TaxTrans (this entity)
 **means.identity.entityId**  
 **is.linkedEntity.identifier**  
 Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../SupplyChain/ProcurementAndSourcing/WorksheetLine/PurchLine.md" target="_blank">/core/operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/WorksheetLine/PurchLine.cdm.json/PurchLine</a></td><td><a href="../../../SupplyChain/ProcurementAndSourcing/WorksheetLine/PurchLine.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-**is.dataFormat.guid**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
-
-### <a href=#Relationship_RetailStatementTableRelationshipId name="Relationship_RetailStatementTableRelationshipId">Relationship_RetailStatementTableRelationshipId</a>
-
-First included in: Transaction/TaxTrans (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the Relationship_RetailStatementTableRelationshipId attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.guid**  
-**means.identity.entityId**  
-**is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Commerce/Retail/WorksheetHeader/RetailStatementTable.md" target="_blank">/core/operationsCommon/Tables/Commerce/Retail/WorksheetHeader/RetailStatementTable.cdm.json/RetailStatementTable</a></td><td><a href="../../../Commerce/Retail/WorksheetHeader/RetailStatementTable.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  

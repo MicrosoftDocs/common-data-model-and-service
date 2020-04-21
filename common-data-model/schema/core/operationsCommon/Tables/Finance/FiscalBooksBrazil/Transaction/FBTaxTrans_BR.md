@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/20/2020
+ms.date: 4/21/2020
 ms.author: nebanfic
 ---
 
@@ -74,12 +74,10 @@ ms.author: nebanfic
 |[Relationship_FiscalDocument_BRRelationshipId](#Relationship_FiscalDocument_BRRelationshipId)||<a href="FBTaxTrans_BR.md" target="_blank">Transaction/FBTaxTrans_BR</a>|
 |[Relationship_FiscalDocumentTaxTrans_BRRelationshipId](#Relationship_FiscalDocumentTaxTrans_BRRelationshipId)||<a href="FBTaxTrans_BR.md" target="_blank">Transaction/FBTaxTrans_BR</a>|
 |[Relationship_DimensionAttributeValueCombinationRelationshipId](#Relationship_DimensionAttributeValueCombinationRelationshipId)||<a href="FBTaxTrans_BR.md" target="_blank">Transaction/FBTaxTrans_BR</a>|
-|[Relationship_RetailFiscalReceiptTaxTrans_BRRelationshipId](#Relationship_RetailFiscalReceiptTaxTrans_BRRelationshipId)||<a href="FBTaxTrans_BR.md" target="_blank">Transaction/FBTaxTrans_BR</a>|
 |[Relationship_FBNonFiscalOperation_BRRelationshipId](#Relationship_FBNonFiscalOperation_BRRelationshipId)||<a href="FBTaxTrans_BR.md" target="_blank">Transaction/FBTaxTrans_BR</a>|
 |[Relationship_FBNonFiscalOperationTaxTrans_BRRelationshipId](#Relationship_FBNonFiscalOperationTaxTrans_BRRelationshipId)||<a href="FBTaxTrans_BR.md" target="_blank">Transaction/FBTaxTrans_BR</a>|
 |[Relationship_FBTaxWithholdTrans_BRRelationshipId](#Relationship_FBTaxWithholdTrans_BRRelationshipId)||<a href="FBTaxTrans_BR.md" target="_blank">Transaction/FBTaxTrans_BR</a>|
 |[Relationship_FBTaxWithholdTransCreditDetail_BRRelationshipId](#Relationship_FBTaxWithholdTransCreditDetail_BRRelationshipId)||<a href="FBTaxTrans_BR.md" target="_blank">Transaction/FBTaxTrans_BR</a>|
-|[Relationship_RetailZReportTotalizerTaxTrans_BRRelationshipId](#Relationship_RetailZReportTotalizerTaxTrans_BRRelationshipId)||<a href="FBTaxTrans_BR.md" target="_blank">Transaction/FBTaxTrans_BR</a>|
 |[Relationship_FBContribCreditControlDetail_BRRelationshipId](#Relationship_FBContribCreditControlDetail_BRRelationshipId)||<a href="FBTaxTrans_BR.md" target="_blank">Transaction/FBTaxTrans_BR</a>|
 
 ### <a href=#RecId name="RecId">RecId</a>
@@ -881,32 +879,6 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 **is.dataFormat.array**  
 </details>
 
-### <a href=#Relationship_RetailFiscalReceiptTaxTrans_BRRelationshipId name="Relationship_RetailFiscalReceiptTaxTrans_BRRelationshipId">Relationship_RetailFiscalReceiptTaxTrans_BRRelationshipId</a>
-
-First included in: Transaction/FBTaxTrans_BR (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the Relationship_RetailFiscalReceiptTaxTrans_BRRelationshipId attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.guid**  
-**means.identity.entityId**  
-**is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Commerce/Retail/TransactionLine/RetailFiscalReceiptTaxTrans_BR.md" target="_blank">/core/operationsCommon/Tables/Commerce/Retail/TransactionLine/RetailFiscalReceiptTaxTrans_BR.cdm.json/RetailFiscalReceiptTaxTrans_BR</a></td><td><a href="../../../Commerce/Retail/TransactionLine/RetailFiscalReceiptTaxTrans_BR.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-**is.dataFormat.guid**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
-
 ### <a href=#Relationship_FBNonFiscalOperation_BRRelationshipId name="Relationship_FBNonFiscalOperation_BRRelationshipId">Relationship_FBNonFiscalOperation_BRRelationshipId</a>
 
 First included in: Transaction/FBTaxTrans_BR (this entity)  
@@ -1005,32 +977,6 @@ First included in: Transaction/FBTaxTrans_BR (this entity)
 **means.identity.entityId**  
 **is.linkedEntity.identifier**  
 Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../Miscellaneous/FBTaxWithholdTransCreditDetail_BR.md" target="_blank">/core/operationsCommon/Tables/Finance/FiscalBooksBrazil/Miscellaneous/FBTaxWithholdTransCreditDetail_BR.cdm.json/FBTaxWithholdTransCreditDetail_BR</a></td><td><a href="../Miscellaneous/FBTaxWithholdTransCreditDetail_BR.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-**is.dataFormat.guid**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
-
-### <a href=#Relationship_RetailZReportTotalizerTaxTrans_BRRelationshipId name="Relationship_RetailZReportTotalizerTaxTrans_BRRelationshipId">Relationship_RetailZReportTotalizerTaxTrans_BRRelationshipId</a>
-
-First included in: Transaction/FBTaxTrans_BR (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the Relationship_RetailZReportTotalizerTaxTrans_BRRelationshipId attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.guid**  
-**means.identity.entityId**  
-**is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Commerce/Retail/Transaction/RetailZReportTotalizerTaxTrans_BR.md" target="_blank">/core/operationsCommon/Tables/Commerce/Retail/Transaction/RetailZReportTotalizerTaxTrans_BR.cdm.json/RetailZReportTotalizerTaxTrans_BR</a></td><td><a href="../../../Commerce/Retail/Transaction/RetailZReportTotalizerTaxTrans_BR.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  

@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/20/2020
+ms.date: 4/21/2020
 ms.author: nebanfic
 ---
 
@@ -74,7 +74,6 @@ ms.author: nebanfic
 |[Relationship_TaxItemGroupHeadingRelationshipId](#Relationship_TaxItemGroupHeadingRelationshipId)||<a href="InventTableModule.md" target="_blank">Main/InventTableModule</a>|
 |[Relationship_TaxWithholdItemGroupHeading_THRelationshipId](#Relationship_TaxWithholdItemGroupHeading_THRelationshipId)||<a href="InventTableModule.md" target="_blank">Main/InventTableModule</a>|
 |[Relationship_TaxGSTReliefCategory_MYRelationshipId](#Relationship_TaxGSTReliefCategory_MYRelationshipId)||<a href="InventTableModule.md" target="_blank">Main/InventTableModule</a>|
-|[Relationship_RetailInventoryLevelProfileRelationshipId](#Relationship_RetailInventoryLevelProfileRelationshipId)||<a href="InventTableModule.md" target="_blank">Main/InventTableModule</a>|
 |[Relationship_CompanyRelationshipId](#Relationship_CompanyRelationshipId)||<a href="InventTableModule.md" target="_blank">Main/InventTableModule</a>|
 
 ### <a href=#RecId name="RecId">RecId</a>
@@ -898,32 +897,6 @@ First included in: Main/InventTableModule (this entity)
 **means.identity.entityId**  
 **is.linkedEntity.identifier**  
 Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Finance/Tax/Reference/TaxGSTReliefCategory_MY.md" target="_blank">/core/operationsCommon/Tables/Finance/Tax/Reference/TaxGSTReliefCategory_MY.cdm.json/TaxGSTReliefCategory_MY</a></td><td><a href="../../../Finance/Tax/Reference/TaxGSTReliefCategory_MY.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-**is.dataFormat.guid**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
-
-### <a href=#Relationship_RetailInventoryLevelProfileRelationshipId name="Relationship_RetailInventoryLevelProfileRelationshipId">Relationship_RetailInventoryLevelProfileRelationshipId</a>
-
-First included in: Main/InventTableModule (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the Relationship_RetailInventoryLevelProfileRelationshipId attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.guid**  
-**means.identity.entityId**  
-**is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Commerce/Retail/Miscellaneous/RetailInventoryLevelProfile.md" target="_blank">/core/operationsCommon/Tables/Commerce/Retail/Miscellaneous/RetailInventoryLevelProfile.cdm.json/RetailInventoryLevelProfile</a></td><td><a href="../../../Commerce/Retail/Miscellaneous/RetailInventoryLevelProfile.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  

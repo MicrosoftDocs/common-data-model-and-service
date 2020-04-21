@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/20/2020
+ms.date: 4/21/2020
 ms.author: nebanfic
 ---
 
@@ -60,8 +60,6 @@ ms.author: nebanfic
 |[Relationship_DlvModeRelationshipId](#Relationship_DlvModeRelationshipId)||<a href="MCRPickingWorkbenchProfile.md" target="_blank">Main/MCRPickingWorkbenchProfile</a>|
 |[Relationship_InventLocationRelationshipId](#Relationship_InventLocationRelationshipId)||<a href="MCRPickingWorkbenchProfile.md" target="_blank">Main/MCRPickingWorkbenchProfile</a>|
 |[Relationship_InventSiteRelationshipId](#Relationship_InventSiteRelationshipId)||<a href="MCRPickingWorkbenchProfile.md" target="_blank">Main/MCRPickingWorkbenchProfile</a>|
-|[Relationship_MCRExpediteTableRelationshipId](#Relationship_MCRExpediteTableRelationshipId)||<a href="MCRPickingWorkbenchProfile.md" target="_blank">Main/MCRPickingWorkbenchProfile</a>|
-|[Relationship_RetailTenderTypeTableRelationshipId](#Relationship_RetailTenderTypeTableRelationshipId)||<a href="MCRPickingWorkbenchProfile.md" target="_blank">Main/MCRPickingWorkbenchProfile</a>|
 |[Relationship_CompanyRelationshipId](#Relationship_CompanyRelationshipId)||<a href="MCRPickingWorkbenchProfile.md" target="_blank">Main/MCRPickingWorkbenchProfile</a>|
 
 ### <a href=#RecId name="RecId">RecId</a>
@@ -556,58 +554,6 @@ First included in: Main/MCRPickingWorkbenchProfile (this entity)
 **means.identity.entityId**  
 **is.linkedEntity.identifier**  
 Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../Group/InventSite.md" target="_blank">/core/operationsCommon/Tables/SupplyChain/Inventory/Group/InventSite.cdm.json/InventSite</a></td><td><a href="../Group/InventSite.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-**is.dataFormat.guid**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
-
-### <a href=#Relationship_MCRExpediteTableRelationshipId name="Relationship_MCRExpediteTableRelationshipId">Relationship_MCRExpediteTableRelationshipId</a>
-
-First included in: Main/MCRPickingWorkbenchProfile (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the Relationship_MCRExpediteTableRelationshipId attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.guid**  
-**means.identity.entityId**  
-**is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Commerce/Retail/Group/MCRExpediteTable.md" target="_blank">/core/operationsCommon/Tables/Commerce/Retail/Group/MCRExpediteTable.cdm.json/MCRExpediteTable</a></td><td><a href="../../../Commerce/Retail/Group/MCRExpediteTable.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-**is.dataFormat.guid**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
-
-### <a href=#Relationship_RetailTenderTypeTableRelationshipId name="Relationship_RetailTenderTypeTableRelationshipId">Relationship_RetailTenderTypeTableRelationshipId</a>
-
-First included in: Main/MCRPickingWorkbenchProfile (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the Relationship_RetailTenderTypeTableRelationshipId attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.guid**  
-**means.identity.entityId**  
-**is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Commerce/Retail/Main/RetailTenderTypeTable.md" target="_blank">/core/operationsCommon/Tables/Commerce/Retail/Main/RetailTenderTypeTable.cdm.json/RetailTenderTypeTable</a></td><td><a href="../../../Commerce/Retail/Main/RetailTenderTypeTable.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  

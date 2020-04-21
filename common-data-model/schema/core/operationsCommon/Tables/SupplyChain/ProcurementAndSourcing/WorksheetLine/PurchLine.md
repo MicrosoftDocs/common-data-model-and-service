@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/20/2020
+ms.date: 4/21/2020
 ms.author: nebanfic
 ---
 
@@ -235,7 +235,6 @@ ms.author: nebanfic
 |[Relationship_InventTableRelationshipId](#Relationship_InventTableRelationshipId)||<a href="PurchLine.md" target="_blank">WorksheetLine/PurchLine</a>|
 |[Relationship_InventTransOriginRelationshipId](#Relationship_InventTransOriginRelationshipId)||<a href="PurchLine.md" target="_blank">WorksheetLine/PurchLine</a>|
 |[Relationship_LedgerDimensionRelationshipId](#Relationship_LedgerDimensionRelationshipId)||<a href="PurchLine.md" target="_blank">WorksheetLine/PurchLine</a>|
-|[Relationship_MCROrderLine2PriceHistoryRefRelationshipId](#Relationship_MCROrderLine2PriceHistoryRefRelationshipId)||<a href="PurchLine.md" target="_blank">WorksheetLine/PurchLine</a>|
 |[Relationship_MCRSalesLineRefRelationshipId](#Relationship_MCRSalesLineRefRelationshipId)||<a href="PurchLine.md" target="_blank">WorksheetLine/PurchLine</a>|
 |[Relationship_PlanReferenceRelationshipId](#Relationship_PlanReferenceRelationshipId)||<a href="PurchLine.md" target="_blank">WorksheetLine/PurchLine</a>|
 |[Relationship_PriceDiscChangePolicyRecId1RelationshipId](#Relationship_PriceDiscChangePolicyRecId1RelationshipId)||<a href="PurchLine.md" target="_blank">WorksheetLine/PurchLine</a>|
@@ -257,7 +256,6 @@ ms.author: nebanfic
 |[Relationship_PurchReturnActionDefaultsRelationshipId](#Relationship_PurchReturnActionDefaultsRelationshipId)||<a href="PurchLine.md" target="_blank">WorksheetLine/PurchLine</a>|
 |[Relationship_PurchTableRelationshipId](#Relationship_PurchTableRelationshipId)||<a href="PurchLine.md" target="_blank">WorksheetLine/PurchLine</a>|
 |[Relationship_ReqPlanSchedRelationshipId](#Relationship_ReqPlanSchedRelationshipId)||<a href="PurchLine.md" target="_blank">WorksheetLine/PurchLine</a>|
-|[Relationship_RetailPackageTableRelationshipId](#Relationship_RetailPackageTableRelationshipId)||<a href="PurchLine.md" target="_blank">WorksheetLine/PurchLine</a>|
 |[Relationship_ReturnDispositionCodeRelationshipId](#Relationship_ReturnDispositionCodeRelationshipId)||<a href="PurchLine.md" target="_blank">WorksheetLine/PurchLine</a>|
 |[Relationship_RouteTableRelationshipId](#Relationship_RouteTableRelationshipId)||<a href="PurchLine.md" target="_blank">WorksheetLine/PurchLine</a>|
 |[Relationship_SalesTableRefRelationshipId](#Relationship_SalesTableRefRelationshipId)||<a href="PurchLine.md" target="_blank">WorksheetLine/PurchLine</a>|
@@ -4344,32 +4342,6 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 **is.dataFormat.array**  
 </details>
 
-### <a href=#Relationship_MCROrderLine2PriceHistoryRefRelationshipId name="Relationship_MCROrderLine2PriceHistoryRefRelationshipId">Relationship_MCROrderLine2PriceHistoryRefRelationshipId</a>
-
-First included in: WorksheetLine/PurchLine (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the Relationship_MCROrderLine2PriceHistoryRefRelationshipId attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.guid**  
-**means.identity.entityId**  
-**is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Commerce/Retail/Reference/MCROrderLine2PriceHistoryRef.md" target="_blank">/core/operationsCommon/Tables/Commerce/Retail/Reference/MCROrderLine2PriceHistoryRef.cdm.json/MCROrderLine2PriceHistoryRef</a></td><td><a href="../../../Commerce/Retail/Reference/MCROrderLine2PriceHistoryRef.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-**is.dataFormat.guid**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
-
 ### <a href=#Relationship_MCRSalesLineRefRelationshipId name="Relationship_MCRSalesLineRefRelationshipId">Relationship_MCRSalesLineRefRelationshipId</a>
 
 First included in: WorksheetLine/PurchLine (this entity)  
@@ -4910,32 +4882,6 @@ First included in: WorksheetLine/PurchLine (this entity)
 **means.identity.entityId**  
 **is.linkedEntity.identifier**  
 Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../MasterPlanning/Group/ReqPlanSched.md" target="_blank">/core/operationsCommon/Tables/SupplyChain/MasterPlanning/Group/ReqPlanSched.cdm.json/ReqPlanSched</a></td><td><a href="../../MasterPlanning/Group/ReqPlanSched.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-**is.dataFormat.guid**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
-
-### <a href=#Relationship_RetailPackageTableRelationshipId name="Relationship_RetailPackageTableRelationshipId">Relationship_RetailPackageTableRelationshipId</a>
-
-First included in: WorksheetLine/PurchLine (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the Relationship_RetailPackageTableRelationshipId attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.guid**  
-**means.identity.entityId**  
-**is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Commerce/Retail/WorksheetHeader/RetailPackageTable.md" target="_blank">/core/operationsCommon/Tables/Commerce/Retail/WorksheetHeader/RetailPackageTable.cdm.json/RetailPackageTable</a></td><td><a href="../../../Commerce/Retail/WorksheetHeader/RetailPackageTable.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  

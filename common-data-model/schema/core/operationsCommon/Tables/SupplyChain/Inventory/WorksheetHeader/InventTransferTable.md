@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/20/2020
+ms.date: 4/21/2020
 ms.author: nebanfic
 ---
 
@@ -128,7 +128,6 @@ ms.author: nebanfic
 |[Relationship_PartyVendTable_RURelationshipId](#Relationship_PartyVendTable_RURelationshipId)||<a href="InventTransferTable.md" target="_blank">WorksheetHeader/InventTransferTable</a>|
 |[Relationship_Payer_CustTable_RURelationshipId](#Relationship_Payer_CustTable_RURelationshipId)||<a href="InventTransferTable.md" target="_blank">WorksheetHeader/InventTransferTable</a>|
 |[Relationship_PriceDiscGroupRelationshipId](#Relationship_PriceDiscGroupRelationshipId)||<a href="InventTransferTable.md" target="_blank">WorksheetHeader/InventTransferTable</a>|
-|[Relationship_RetailBuyersPushTableRelationshipId](#Relationship_RetailBuyersPushTableRelationshipId)||<a href="InventTransferTable.md" target="_blank">WorksheetHeader/InventTransferTable</a>|
 |[Relationship_ToInventLocationRelationshipId](#Relationship_ToInventLocationRelationshipId)||<a href="InventTransferTable.md" target="_blank">WorksheetHeader/InventTransferTable</a>|
 |[Relationship_ToPostalAddressRelationshipId](#Relationship_ToPostalAddressRelationshipId)||<a href="InventTransferTable.md" target="_blank">WorksheetHeader/InventTransferTable</a>|
 |[Relationship_TransitInventLocationRelationshipId](#Relationship_TransitInventLocationRelationshipId)||<a href="InventTransferTable.md" target="_blank">WorksheetHeader/InventTransferTable</a>|
@@ -2034,32 +2033,6 @@ First included in: WorksheetHeader/InventTransferTable (this entity)
 **means.identity.entityId**  
 **is.linkedEntity.identifier**  
 Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../SalesAndMarketing/Group/PriceDiscGroup.md" target="_blank">/core/operationsCommon/Tables/SupplyChain/SalesAndMarketing/Group/PriceDiscGroup.cdm.json/PriceDiscGroup</a></td><td><a href="../../SalesAndMarketing/Group/PriceDiscGroup.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-**is.dataFormat.guid**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
-
-### <a href=#Relationship_RetailBuyersPushTableRelationshipId name="Relationship_RetailBuyersPushTableRelationshipId">Relationship_RetailBuyersPushTableRelationshipId</a>
-
-First included in: WorksheetHeader/InventTransferTable (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the Relationship_RetailBuyersPushTableRelationshipId attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.guid**  
-**means.identity.entityId**  
-**is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Commerce/Retail/WorksheetHeader/RetailBuyersPushTable.md" target="_blank">/core/operationsCommon/Tables/Commerce/Retail/WorksheetHeader/RetailBuyersPushTable.cdm.json/RetailBuyersPushTable</a></td><td><a href="../../../Commerce/Retail/WorksheetHeader/RetailBuyersPushTable.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  

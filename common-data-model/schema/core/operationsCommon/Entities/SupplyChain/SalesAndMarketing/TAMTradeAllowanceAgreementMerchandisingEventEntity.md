@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/20/2020
+ms.date: 4/21/2020
 ms.author: nebanfic
 ---
 
@@ -39,7 +39,6 @@ ms.author: nebanfic
 |[MerchandisingEventCategoryName](#MerchandisingEventCategoryName)||<a href="TAMTradeAllowanceAgreementMerchandisingEventEntity.md" target="_blank">SalesAndMarketing/TAMTradeAllowanceAgreementMerchandisingEventEntity</a>|
 |[TradeAllowanceAgreementId](#TradeAllowanceAgreementId)||<a href="TAMTradeAllowanceAgreementMerchandisingEventEntity.md" target="_blank">SalesAndMarketing/TAMTradeAllowanceAgreementMerchandisingEventEntity</a>|
 |[CustomerAccountNumber](#CustomerAccountNumber)||<a href="TAMTradeAllowanceAgreementMerchandisingEventEntity.md" target="_blank">SalesAndMarketing/TAMTradeAllowanceAgreementMerchandisingEventEntity</a>|
-|[Relationship_MerchandisingEventCategoryRelationshipId](#Relationship_MerchandisingEventCategoryRelationshipId)||<a href="TAMTradeAllowanceAgreementMerchandisingEventEntity.md" target="_blank">SalesAndMarketing/TAMTradeAllowanceAgreementMerchandisingEventEntity</a>|
 |[Relationship_TradeAllowanceAgreementHeaderRelationshipId](#Relationship_TradeAllowanceAgreementHeaderRelationshipId)||<a href="TAMTradeAllowanceAgreementMerchandisingEventEntity.md" target="_blank">SalesAndMarketing/TAMTradeAllowanceAgreementMerchandisingEventEntity</a>|
 |[BackingTable_TAMMerchandisingEventRelationshipId](#BackingTable_TAMMerchandisingEventRelationshipId)||<a href="TAMTradeAllowanceAgreementMerchandisingEventEntity.md" target="_blank">SalesAndMarketing/TAMTradeAllowanceAgreementMerchandisingEventEntity</a>|
 |[Relationship_PrimaryCompanyContextRelationshipId](#Relationship_PrimaryCompanyContextRelationshipId)||<a href="TAMTradeAllowanceAgreementMerchandisingEventEntity.md" target="_blank">SalesAndMarketing/TAMTradeAllowanceAgreementMerchandisingEventEntity</a>|
@@ -180,32 +179,6 @@ First included in: SalesAndMarketing/TAMTradeAllowanceAgreementMerchandisingEven
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
-
-### <a href=#Relationship_MerchandisingEventCategoryRelationshipId name="Relationship_MerchandisingEventCategoryRelationshipId">Relationship_MerchandisingEventCategoryRelationshipId</a>
-
-First included in: SalesAndMarketing/TAMTradeAllowanceAgreementMerchandisingEventEntity (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the Relationship_MerchandisingEventCategoryRelationshipId attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.guid**  
-**means.identity.entityId**  
-**is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td>empty table</td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-**is.dataFormat.guid**  
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>

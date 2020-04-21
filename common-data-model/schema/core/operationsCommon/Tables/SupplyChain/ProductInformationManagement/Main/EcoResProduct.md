@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/20/2020
+ms.date: 4/21/2020
 ms.author: nebanfic
 ---
 
@@ -114,15 +114,13 @@ First included in: Main/EcoResProduct (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>unknown</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the PdsCWProduct attribute are listed below.</summary>
 
-**is.dataFormat.integer**  
-**is.dataFormat.integer**  
 </details>
 
 ### <a href=#ProductType name="ProductType">ProductType</a>
@@ -185,18 +183,13 @@ First included in: Main/EcoResProduct (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>unknown</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the EngChgProductOwnerId attribute are listed below.</summary>
 
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
 </details>
 
 ### <a href=#EngChgProductType name="EngChgProductType">EngChgProductType</a>
@@ -205,15 +198,11 @@ First included in: Main/EcoResProduct (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int64</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>unknown</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the EngChgProductType attribute are listed below.</summary>
 
-**is.dataFormat.integer**  
-**is.dataFormat.big**  
-**is.dataFormat.integer**  
-**is.dataFormat.big**  
 </details>

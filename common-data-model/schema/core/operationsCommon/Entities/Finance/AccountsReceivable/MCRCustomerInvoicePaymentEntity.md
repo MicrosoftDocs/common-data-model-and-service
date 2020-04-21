@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/20/2020
+ms.date: 4/21/2020
 ms.author: nebanfic
 ---
 
@@ -54,7 +54,6 @@ ms.author: nebanfic
 |[RetailChannelId](#RetailChannelId)||<a href="MCRCustomerInvoicePaymentEntity.md" target="_blank">AccountsReceivable/MCRCustomerInvoicePaymentEntity</a>|
 |[InvoiceId](#InvoiceId)||<a href="MCRCustomerInvoicePaymentEntity.md" target="_blank">AccountsReceivable/MCRCustomerInvoicePaymentEntity</a>|
 |[LineNumber](#LineNumber)||<a href="MCRCustomerInvoicePaymentEntity.md" target="_blank">AccountsReceivable/MCRCustomerInvoicePaymentEntity</a>|
-|[BackingTable_MCRCustPaymTableRelationshipId](#BackingTable_MCRCustPaymTableRelationshipId)||<a href="MCRCustomerInvoicePaymentEntity.md" target="_blank">AccountsReceivable/MCRCustomerInvoicePaymentEntity</a>|
 |[Relationship_PrimaryCompanyContextRelationshipId](#Relationship_PrimaryCompanyContextRelationshipId)||<a href="MCRCustomerInvoicePaymentEntity.md" target="_blank">AccountsReceivable/MCRCustomerInvoicePaymentEntity</a>|
 
 ### <a href=#Amount name="Amount">Amount</a>
@@ -493,32 +492,6 @@ First included in: AccountsReceivable/MCRCustomerInvoicePaymentEntity (this enti
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
-
-### <a href=#BackingTable_MCRCustPaymTableRelationshipId name="BackingTable_MCRCustPaymTableRelationshipId">BackingTable_MCRCustPaymTableRelationshipId</a>
-
-First included in: AccountsReceivable/MCRCustomerInvoicePaymentEntity (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the BackingTable_MCRCustPaymTableRelationshipId attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.guid**  
-**means.identity.entityId**  
-**is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Tables/Commerce/Retail/Transaction/MCRCustPaymTable.md" target="_blank">/core/operationsCommon/Tables/Commerce/Retail/Transaction/MCRCustPaymTable.cdm.json/MCRCustPaymTable</a></td><td><a href="../../../Tables/Commerce/Retail/Transaction/MCRCustPaymTable.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-**is.dataFormat.guid**  
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>

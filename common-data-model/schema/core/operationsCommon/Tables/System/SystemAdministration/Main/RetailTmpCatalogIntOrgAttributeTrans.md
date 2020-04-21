@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/20/2020
+ms.date: 4/21/2020
 ms.author: nebanfic
 ---
 
@@ -40,8 +40,6 @@ ms.author: nebanfic
 |[Catalog](#Catalog)||<a href="RetailTmpCatalogIntOrgAttributeTrans.md" target="_blank">Main/RetailTmpCatalogIntOrgAttributeTrans</a>|
 |[InternalOrganization](#InternalOrganization)||<a href="RetailTmpCatalogIntOrgAttributeTrans.md" target="_blank">Main/RetailTmpCatalogIntOrgAttributeTrans</a>|
 |[Relationship_AttributeRelationshipId](#Relationship_AttributeRelationshipId)||<a href="RetailTmpCatalogIntOrgAttributeTrans.md" target="_blank">Main/RetailTmpCatalogIntOrgAttributeTrans</a>|
-|[Relationship_CatalogRelationshipId](#Relationship_CatalogRelationshipId)||<a href="RetailTmpCatalogIntOrgAttributeTrans.md" target="_blank">Main/RetailTmpCatalogIntOrgAttributeTrans</a>|
-|[Relationship_InternalOrganizationRelationshipId](#Relationship_InternalOrganizationRelationshipId)||<a href="RetailTmpCatalogIntOrgAttributeTrans.md" target="_blank">Main/RetailTmpCatalogIntOrgAttributeTrans</a>|
 
 ### <a href=#RecId name="RecId">RecId</a>
 
@@ -143,58 +141,6 @@ First included in: Main/RetailTmpCatalogIntOrgAttributeTrans (this entity)
 **means.identity.entityId**  
 **is.linkedEntity.identifier**  
 Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../SupplyChain/ProductInformationManagement/Main/EcoResAttribute.md" target="_blank">/core/operationsCommon/Tables/SupplyChain/ProductInformationManagement/Main/EcoResAttribute.cdm.json/EcoResAttribute</a></td><td><a href="../../../SupplyChain/ProductInformationManagement/Main/EcoResAttribute.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-**is.dataFormat.guid**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
-
-### <a href=#Relationship_CatalogRelationshipId name="Relationship_CatalogRelationshipId">Relationship_CatalogRelationshipId</a>
-
-First included in: Main/RetailTmpCatalogIntOrgAttributeTrans (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the Relationship_CatalogRelationshipId attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.guid**  
-**means.identity.entityId**  
-**is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Commerce/Retail/Main/Catalog.md" target="_blank">/core/operationsCommon/Tables/Commerce/Retail/Main/Catalog.cdm.json/Catalog</a></td><td><a href="../../../Commerce/Retail/Main/Catalog.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-**is.dataFormat.guid**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
-
-### <a href=#Relationship_InternalOrganizationRelationshipId name="Relationship_InternalOrganizationRelationshipId">Relationship_InternalOrganizationRelationshipId</a>
-
-First included in: Main/RetailTmpCatalogIntOrgAttributeTrans (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the Relationship_InternalOrganizationRelationshipId attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.guid**  
-**means.identity.entityId**  
-**is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Commerce/Retail/Main/RetailInternalOrganization.md" target="_blank">/core/operationsCommon/Tables/Commerce/Retail/Main/RetailInternalOrganization.cdm.json/RetailInternalOrganization</a></td><td><a href="../../../Commerce/Retail/Main/RetailInternalOrganization.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  

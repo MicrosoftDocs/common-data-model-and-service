@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/20/2020
+ms.date: 4/21/2020
 ms.author: nebanfic
 ---
 
@@ -274,9 +274,7 @@ ms.author: nebanfic
 |[Relationship_InventTransOriginRelationshipId](#Relationship_InventTransOriginRelationshipId)||<a href="SalesLine.md" target="_blank">WorksheetLine/SalesLine</a>|
 |[Relationship_InventTransOriginReturnRelationshipId](#Relationship_InventTransOriginReturnRelationshipId)||<a href="SalesLine.md" target="_blank">WorksheetLine/SalesLine</a>|
 |[Relationship_LedgerDimensionRelationshipId](#Relationship_LedgerDimensionRelationshipId)||<a href="SalesLine.md" target="_blank">WorksheetLine/SalesLine</a>|
-|[Relationship_MCRContinuityCustLineRelationshipId](#Relationship_MCRContinuityCustLineRelationshipId)||<a href="SalesLine.md" target="_blank">WorksheetLine/SalesLine</a>|
 |[Relationship_MCRCustInvoiceTransRelationshipId](#Relationship_MCRCustInvoiceTransRelationshipId)||<a href="SalesLine.md" target="_blank">WorksheetLine/SalesLine</a>|
-|[Relationship_MCROrderLine2PriceHistoryRefRelationshipId](#Relationship_MCROrderLine2PriceHistoryRefRelationshipId)||<a href="SalesLine.md" target="_blank">WorksheetLine/SalesLine</a>|
 |[Relationship_MCRPurchLineRefRelationshipId](#Relationship_MCRPurchLineRefRelationshipId)||<a href="SalesLine.md" target="_blank">WorksheetLine/SalesLine</a>|
 |[Relationship_PdsItemRebateGroupRelationshipId](#Relationship_PdsItemRebateGroupRelationshipId)||<a href="SalesLine.md" target="_blank">WorksheetLine/SalesLine</a>|
 |[Relationship_PriceDiscChangePolicyRecId1RelationshipId](#Relationship_PriceDiscChangePolicyRecId1RelationshipId)||<a href="SalesLine.md" target="_blank">WorksheetLine/SalesLine</a>|
@@ -5126,32 +5124,6 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 **is.dataFormat.array**  
 </details>
 
-### <a href=#Relationship_MCRContinuityCustLineRelationshipId name="Relationship_MCRContinuityCustLineRelationshipId">Relationship_MCRContinuityCustLineRelationshipId</a>
-
-First included in: WorksheetLine/SalesLine (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the Relationship_MCRContinuityCustLineRelationshipId attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.guid**  
-**means.identity.entityId**  
-**is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Commerce/Retail/WorksheetLine/MCRContinuityCustLine.md" target="_blank">/core/operationsCommon/Tables/Commerce/Retail/WorksheetLine/MCRContinuityCustLine.cdm.json/MCRContinuityCustLine</a></td><td><a href="../../../Commerce/Retail/WorksheetLine/MCRContinuityCustLine.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-**is.dataFormat.guid**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
-
 ### <a href=#Relationship_MCRCustInvoiceTransRelationshipId name="Relationship_MCRCustInvoiceTransRelationshipId">Relationship_MCRCustInvoiceTransRelationshipId</a>
 
 First included in: WorksheetLine/SalesLine (this entity)  
@@ -5172,32 +5144,6 @@ First included in: WorksheetLine/SalesLine (this entity)
 **means.identity.entityId**  
 **is.linkedEntity.identifier**  
 Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Finance/AccountsReceivable/Transaction/CustInvoiceTrans.md" target="_blank">/core/operationsCommon/Tables/Finance/AccountsReceivable/Transaction/CustInvoiceTrans.cdm.json/CustInvoiceTrans</a></td><td><a href="../../../Finance/AccountsReceivable/Transaction/CustInvoiceTrans.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-**is.dataFormat.guid**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
-
-### <a href=#Relationship_MCROrderLine2PriceHistoryRefRelationshipId name="Relationship_MCROrderLine2PriceHistoryRefRelationshipId">Relationship_MCROrderLine2PriceHistoryRefRelationshipId</a>
-
-First included in: WorksheetLine/SalesLine (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the Relationship_MCROrderLine2PriceHistoryRefRelationshipId attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.guid**  
-**means.identity.entityId**  
-**is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Commerce/Retail/Reference/MCROrderLine2PriceHistoryRef.md" target="_blank">/core/operationsCommon/Tables/Commerce/Retail/Reference/MCROrderLine2PriceHistoryRef.cdm.json/MCROrderLine2PriceHistoryRef</a></td><td><a href="../../../Commerce/Retail/Reference/MCROrderLine2PriceHistoryRef.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  

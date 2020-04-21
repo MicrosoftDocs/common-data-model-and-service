@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/20/2020
+ms.date: 4/21/2020
 ms.author: nebanfic
 ---
 
@@ -38,7 +38,6 @@ ms.author: nebanfic
 |[TranslatedSizeDescription](#TranslatedSizeDescription)||<a href="EcoResProductSizeGroupLineTranslationEntity.md" target="_blank">ProductInformationManagement/EcoResProductSizeGroupLineTranslationEntity</a>|
 |[LanguageId](#LanguageId)||<a href="EcoResProductSizeGroupLineTranslationEntity.md" target="_blank">ProductInformationManagement/EcoResProductSizeGroupLineTranslationEntity</a>|
 |[Relationship_ProductSizeGroupLineRelationshipId](#Relationship_ProductSizeGroupLineRelationshipId)||<a href="EcoResProductSizeGroupLineTranslationEntity.md" target="_blank">ProductInformationManagement/EcoResProductSizeGroupLineTranslationEntity</a>|
-|[BackingTable_RetailSizeGroupTransTranslationRelationshipId](#BackingTable_RetailSizeGroupTransTranslationRelationshipId)||<a href="EcoResProductSizeGroupLineTranslationEntity.md" target="_blank">ProductInformationManagement/EcoResProductSizeGroupLineTranslationEntity</a>|
 
 ### <a href=#ProductSizeGroupId name="ProductSizeGroupId">ProductSizeGroupId</a>
 
@@ -160,32 +159,6 @@ First included in: ProductInformationManagement/EcoResProductSizeGroupLineTransl
 **means.identity.entityId**  
 **is.linkedEntity.identifier**  
 Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td>empty table</td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-**is.dataFormat.guid**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
-
-### <a href=#BackingTable_RetailSizeGroupTransTranslationRelationshipId name="BackingTable_RetailSizeGroupTransTranslationRelationshipId">BackingTable_RetailSizeGroupTransTranslationRelationshipId</a>
-
-First included in: ProductInformationManagement/EcoResProductSizeGroupLineTranslationEntity (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the BackingTable_RetailSizeGroupTransTranslationRelationshipId attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.guid**  
-**means.identity.entityId**  
-**is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Tables/Commerce/Retail/Miscellaneous/RetailSizeGroupTransTranslation.md" target="_blank">/core/operationsCommon/Tables/Commerce/Retail/Miscellaneous/RetailSizeGroupTransTranslation.cdm.json/RetailSizeGroupTransTranslation</a></td><td><a href="../../../Tables/Commerce/Retail/Miscellaneous/RetailSizeGroupTransTranslation.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  

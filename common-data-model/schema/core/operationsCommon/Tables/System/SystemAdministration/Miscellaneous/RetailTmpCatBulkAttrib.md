@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/20/2020
+ms.date: 4/21/2020
 ms.author: nebanfic
 ---
 
@@ -79,15 +79,12 @@ ms.author: nebanfic
 |[CatalogProductMaster](#CatalogProductMaster)||<a href="RetailTmpCatBulkAttrib.md" target="_blank">Miscellaneous/RetailTmpCatBulkAttrib</a>|
 |[ParentProduct](#ParentProduct)||<a href="RetailTmpCatBulkAttrib.md" target="_blank">Miscellaneous/RetailTmpCatBulkAttrib</a>|
 |[DataAreaId](#DataAreaId)||<a href="RetailTmpCatBulkAttrib.md" target="_blank">Miscellaneous/RetailTmpCatBulkAttrib</a>|
-|[Relationship_CatalogRelationshipId](#Relationship_CatalogRelationshipId)||<a href="RetailTmpCatBulkAttrib.md" target="_blank">Miscellaneous/RetailTmpCatBulkAttrib</a>|
-|[Relationship_CatalogProductRelationshipId](#Relationship_CatalogProductRelationshipId)||<a href="RetailTmpCatBulkAttrib.md" target="_blank">Miscellaneous/RetailTmpCatBulkAttrib</a>|
 |[Relationship_CurrencyRelationshipId](#Relationship_CurrencyRelationshipId)||<a href="RetailTmpCatBulkAttrib.md" target="_blank">Miscellaneous/RetailTmpCatBulkAttrib</a>|
 |[Relationship_EcoResAttributeRelationshipId](#Relationship_EcoResAttributeRelationshipId)||<a href="RetailTmpCatBulkAttrib.md" target="_blank">Miscellaneous/RetailTmpCatBulkAttrib</a>|
 |[Relationship_EcoResAttributeGroupAttributeRelationshipId](#Relationship_EcoResAttributeGroupAttributeRelationshipId)||<a href="RetailTmpCatBulkAttrib.md" target="_blank">Miscellaneous/RetailTmpCatBulkAttrib</a>|
 |[Relationship_EcoResAttributeTypeRelationshipId](#Relationship_EcoResAttributeTypeRelationshipId)||<a href="RetailTmpCatBulkAttrib.md" target="_blank">Miscellaneous/RetailTmpCatBulkAttrib</a>|
 |[Relationship_EcoResCategoryRelationshipId](#Relationship_EcoResCategoryRelationshipId)||<a href="RetailTmpCatBulkAttrib.md" target="_blank">Miscellaneous/RetailTmpCatBulkAttrib</a>|
 |[Relationship_EcoResProductRelationshipId](#Relationship_EcoResProductRelationshipId)||<a href="RetailTmpCatBulkAttrib.md" target="_blank">Miscellaneous/RetailTmpCatBulkAttrib</a>|
-|[Relationship_InternalOrganizationRelationshipId](#Relationship_InternalOrganizationRelationshipId)||<a href="RetailTmpCatBulkAttrib.md" target="_blank">Miscellaneous/RetailTmpCatBulkAttrib</a>|
 |[Relationship_LanguageTableRelationshipId](#Relationship_LanguageTableRelationshipId)||<a href="RetailTmpCatBulkAttrib.md" target="_blank">Miscellaneous/RetailTmpCatBulkAttrib</a>|
 |[Relationship_CompanyRelationshipId](#Relationship_CompanyRelationshipId)||<a href="RetailTmpCatBulkAttrib.md" target="_blank">Miscellaneous/RetailTmpCatBulkAttrib</a>|
 
@@ -929,58 +926,6 @@ First included in: Miscellaneous/RetailTmpCatBulkAttrib (this entity)
 **is.dataFormat.array**  
 </details>
 
-### <a href=#Relationship_CatalogRelationshipId name="Relationship_CatalogRelationshipId">Relationship_CatalogRelationshipId</a>
-
-First included in: Miscellaneous/RetailTmpCatBulkAttrib (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the Relationship_CatalogRelationshipId attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.guid**  
-**means.identity.entityId**  
-**is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Commerce/Retail/Main/Catalog.md" target="_blank">/core/operationsCommon/Tables/Commerce/Retail/Main/Catalog.cdm.json/Catalog</a></td><td><a href="../../../Commerce/Retail/Main/Catalog.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-**is.dataFormat.guid**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
-
-### <a href=#Relationship_CatalogProductRelationshipId name="Relationship_CatalogProductRelationshipId">Relationship_CatalogProductRelationshipId</a>
-
-First included in: Miscellaneous/RetailTmpCatBulkAttrib (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the Relationship_CatalogProductRelationshipId attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.guid**  
-**means.identity.entityId**  
-**is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Commerce/Retail/Miscellaneous/CatalogProduct.md" target="_blank">/core/operationsCommon/Tables/Commerce/Retail/Miscellaneous/CatalogProduct.cdm.json/CatalogProduct</a></td><td><a href="../../../Commerce/Retail/Miscellaneous/CatalogProduct.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-**is.dataFormat.guid**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
-
 ### <a href=#Relationship_CurrencyRelationshipId name="Relationship_CurrencyRelationshipId">Relationship_CurrencyRelationshipId</a>
 
 First included in: Miscellaneous/RetailTmpCatBulkAttrib (this entity)  
@@ -1131,32 +1076,6 @@ First included in: Miscellaneous/RetailTmpCatBulkAttrib (this entity)
 **means.identity.entityId**  
 **is.linkedEntity.identifier**  
 Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../SupplyChain/ProductInformationManagement/Main/EcoResProduct.md" target="_blank">/core/operationsCommon/Tables/SupplyChain/ProductInformationManagement/Main/EcoResProduct.cdm.json/EcoResProduct</a></td><td><a href="../../../SupplyChain/ProductInformationManagement/Main/EcoResProduct.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-**is.dataFormat.guid**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
-
-### <a href=#Relationship_InternalOrganizationRelationshipId name="Relationship_InternalOrganizationRelationshipId">Relationship_InternalOrganizationRelationshipId</a>
-
-First included in: Miscellaneous/RetailTmpCatBulkAttrib (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the Relationship_InternalOrganizationRelationshipId attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.guid**  
-**means.identity.entityId**  
-**is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Commerce/Retail/Main/RetailInternalOrganization.md" target="_blank">/core/operationsCommon/Tables/Commerce/Retail/Main/RetailInternalOrganization.cdm.json/RetailInternalOrganization</a></td><td><a href="../../../Commerce/Retail/Main/RetailInternalOrganization.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  

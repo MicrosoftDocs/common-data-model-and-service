@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/20/2020
+ms.date: 4/21/2020
 ms.author: nebanfic
 ---
 
@@ -60,7 +60,6 @@ ms.author: nebanfic
 |[Relationship_TaxExemptCodeTableRelationshipId](#Relationship_TaxExemptCodeTableRelationshipId)||<a href="LanguageTxt.md" target="_blank">Group/LanguageTxt</a>|
 |[Relationship_TaxTableRelationshipId](#Relationship_TaxTableRelationshipId)||<a href="LanguageTxt.md" target="_blank">Group/LanguageTxt</a>|
 |[Relationship_TrvParametersRelationshipId](#Relationship_TrvParametersRelationshipId)||<a href="LanguageTxt.md" target="_blank">Group/LanguageTxt</a>|
-|[Relationship_RetailRecoListsTableRelationshipId](#Relationship_RetailRecoListsTableRelationshipId)||<a href="LanguageTxt.md" target="_blank">Group/LanguageTxt</a>|
 |[Relationship_FreeNotesTable_ITRelationshipId](#Relationship_FreeNotesTable_ITRelationshipId)||<a href="LanguageTxt.md" target="_blank">Group/LanguageTxt</a>|
 |[Relationship_CompanyRelationshipId](#Relationship_CompanyRelationshipId)||<a href="LanguageTxt.md" target="_blank">Group/LanguageTxt</a>|
 
@@ -674,32 +673,6 @@ First included in: Group/LanguageTxt (this entity)
 **means.identity.entityId**  
 **is.linkedEntity.identifier**  
 Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../Expense/Parameter/TrvParameters.md" target="_blank">/core/operationsCommon/Tables/Finance/Expense/Parameter/TrvParameters.cdm.json/TrvParameters</a></td><td><a href="../../Expense/Parameter/TrvParameters.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-**is.dataFormat.guid**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
-
-### <a href=#Relationship_RetailRecoListsTableRelationshipId name="Relationship_RetailRecoListsTableRelationshipId">Relationship_RetailRecoListsTableRelationshipId</a>
-
-First included in: Group/LanguageTxt (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the Relationship_RetailRecoListsTableRelationshipId attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.guid**  
-**means.identity.entityId**  
-**is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Commerce/Retail/Miscellaneous/RetailRecoListsTable.md" target="_blank">/core/operationsCommon/Tables/Commerce/Retail/Miscellaneous/RetailRecoListsTable.cdm.json/RetailRecoListsTable</a></td><td><a href="../../../Commerce/Retail/Miscellaneous/RetailRecoListsTable.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  

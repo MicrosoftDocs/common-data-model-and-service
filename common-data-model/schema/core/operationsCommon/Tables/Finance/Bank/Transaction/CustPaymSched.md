@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/20/2020
+ms.date: 4/21/2020
 ms.author: nebanfic
 ---
 
@@ -57,9 +57,6 @@ ms.author: nebanfic
 |[Relationship_BankBillOfExchangeTableRelationshipId](#Relationship_BankBillOfExchangeTableRelationshipId)||<a href="CustPaymSched.md" target="_blank">Transaction/CustPaymSched</a>|
 |[Relationship_CustInvoiceJourRelationshipId](#Relationship_CustInvoiceJourRelationshipId)||<a href="CustPaymSched.md" target="_blank">Transaction/CustPaymSched</a>|
 |[Relationship_CustInvoiceTableRelationshipId](#Relationship_CustInvoiceTableRelationshipId)||<a href="CustPaymSched.md" target="_blank">Transaction/CustPaymSched</a>|
-|[Relationship_MCRContinuityCustHeaderRelationshipId](#Relationship_MCRContinuityCustHeaderRelationshipId)||<a href="CustPaymSched.md" target="_blank">Transaction/CustPaymSched</a>|
-|[Relationship_MCRContinuityCustLineRelationshipId](#Relationship_MCRContinuityCustLineRelationshipId)||<a href="CustPaymSched.md" target="_blank">Transaction/CustPaymSched</a>|
-|[Relationship_MCRInstallmentPlanSalesTableRelationshipId](#Relationship_MCRInstallmentPlanSalesTableRelationshipId)||<a href="CustPaymSched.md" target="_blank">Transaction/CustPaymSched</a>|
 |[Relationship_PaymSchedRelationshipId](#Relationship_PaymSchedRelationshipId)||<a href="CustPaymSched.md" target="_blank">Transaction/CustPaymSched</a>|
 |[Relationship_ProjProposalJourRelationshipId](#Relationship_ProjProposalJourRelationshipId)||<a href="CustPaymSched.md" target="_blank">Transaction/CustPaymSched</a>|
 |[Relationship_SalesComplementaryInvoiceRelationshipId](#Relationship_SalesComplementaryInvoiceRelationshipId)||<a href="CustPaymSched.md" target="_blank">Transaction/CustPaymSched</a>|
@@ -497,84 +494,6 @@ First included in: Transaction/CustPaymSched (this entity)
 **means.identity.entityId**  
 **is.linkedEntity.identifier**  
 Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../AccountsReceivable/WorksheetHeader/CustInvoiceTable.md" target="_blank">/core/operationsCommon/Tables/Finance/AccountsReceivable/WorksheetHeader/CustInvoiceTable.cdm.json/CustInvoiceTable</a></td><td><a href="../../AccountsReceivable/WorksheetHeader/CustInvoiceTable.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-**is.dataFormat.guid**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
-
-### <a href=#Relationship_MCRContinuityCustHeaderRelationshipId name="Relationship_MCRContinuityCustHeaderRelationshipId">Relationship_MCRContinuityCustHeaderRelationshipId</a>
-
-First included in: Transaction/CustPaymSched (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the Relationship_MCRContinuityCustHeaderRelationshipId attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.guid**  
-**means.identity.entityId**  
-**is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Commerce/Retail/WorksheetHeader/MCRContinuityCustHeader.md" target="_blank">/core/operationsCommon/Tables/Commerce/Retail/WorksheetHeader/MCRContinuityCustHeader.cdm.json/MCRContinuityCustHeader</a></td><td><a href="../../../Commerce/Retail/WorksheetHeader/MCRContinuityCustHeader.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-**is.dataFormat.guid**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
-
-### <a href=#Relationship_MCRContinuityCustLineRelationshipId name="Relationship_MCRContinuityCustLineRelationshipId">Relationship_MCRContinuityCustLineRelationshipId</a>
-
-First included in: Transaction/CustPaymSched (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the Relationship_MCRContinuityCustLineRelationshipId attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.guid**  
-**means.identity.entityId**  
-**is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Commerce/Retail/WorksheetLine/MCRContinuityCustLine.md" target="_blank">/core/operationsCommon/Tables/Commerce/Retail/WorksheetLine/MCRContinuityCustLine.cdm.json/MCRContinuityCustLine</a></td><td><a href="../../../Commerce/Retail/WorksheetLine/MCRContinuityCustLine.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-**is.dataFormat.guid**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
-
-### <a href=#Relationship_MCRInstallmentPlanSalesTableRelationshipId name="Relationship_MCRInstallmentPlanSalesTableRelationshipId">Relationship_MCRInstallmentPlanSalesTableRelationshipId</a>
-
-First included in: Transaction/CustPaymSched (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the Relationship_MCRInstallmentPlanSalesTableRelationshipId attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.guid**  
-**means.identity.entityId**  
-**is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Commerce/Retail/Main/MCRInstallmentPlanSalesTable.md" target="_blank">/core/operationsCommon/Tables/Commerce/Retail/Main/MCRInstallmentPlanSalesTable.cdm.json/MCRInstallmentPlanSalesTable</a></td><td><a href="../../../Commerce/Retail/Main/MCRInstallmentPlanSalesTable.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  

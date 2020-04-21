@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/20/2020
+ms.date: 4/21/2020
 ms.author: nebanfic
 ---
 
@@ -79,7 +79,6 @@ ms.author: nebanfic
 |[ReceiptDate](#ReceiptDate)||<a href="MCROrderEventTable.md" target="_blank">Transaction/MCROrderEventTable</a>|
 |[DataAreaId](#DataAreaId)||<a href="MCROrderEventTable.md" target="_blank">Transaction/MCROrderEventTable</a>|
 |[Relationship_CurrencyRelationshipId](#Relationship_CurrencyRelationshipId)||<a href="MCROrderEventTable.md" target="_blank">Transaction/MCROrderEventTable</a>|
-|[Relationship_CustCreditReasonCodeRelationshipId](#Relationship_CustCreditReasonCodeRelationshipId)||<a href="MCROrderEventTable.md" target="_blank">Transaction/MCROrderEventTable</a>|
 |[Relationship_DefaultDimensionRelationshipId](#Relationship_DefaultDimensionRelationshipId)||<a href="MCROrderEventTable.md" target="_blank">Transaction/MCROrderEventTable</a>|
 |[Relationship_InventDimRelationshipId](#Relationship_InventDimRelationshipId)||<a href="MCROrderEventTable.md" target="_blank">Transaction/MCROrderEventTable</a>|
 |[Relationship_InventDimIdofAlternateItemRelationshipId](#Relationship_InventDimIdofAlternateItemRelationshipId)||<a href="MCROrderEventTable.md" target="_blank">Transaction/MCROrderEventTable</a>|
@@ -88,11 +87,8 @@ ms.author: nebanfic
 |[Relationship_ItemIdRelationshipId](#Relationship_ItemIdRelationshipId)||<a href="MCROrderEventTable.md" target="_blank">Transaction/MCROrderEventTable</a>|
 |[Relationship_MarkupTransRelationshipId](#Relationship_MarkupTransRelationshipId)||<a href="MCROrderEventTable.md" target="_blank">Transaction/MCROrderEventTable</a>|
 |[Relationship_MCRHoldCodeTableRelationshipId](#Relationship_MCRHoldCodeTableRelationshipId)||<a href="MCROrderEventTable.md" target="_blank">Transaction/MCROrderEventTable</a>|
-|[Relationship_PriceOverrideMiscChargeReasonCodeRelationshipId](#Relationship_PriceOverrideMiscChargeReasonCodeRelationshipId)||<a href="MCROrderEventTable.md" target="_blank">Transaction/MCROrderEventTable</a>|
-|[Relationship_PriceOverrideReasonCodeRelationshipId](#Relationship_PriceOverrideReasonCodeRelationshipId)||<a href="MCROrderEventTable.md" target="_blank">Transaction/MCROrderEventTable</a>|
 |[Relationship_PurchTableRelationshipId](#Relationship_PurchTableRelationshipId)||<a href="MCROrderEventTable.md" target="_blank">Transaction/MCROrderEventTable</a>|
 |[Relationship_QuotationIdRelationshipId](#Relationship_QuotationIdRelationshipId)||<a href="MCROrderEventTable.md" target="_blank">Transaction/MCROrderEventTable</a>|
-|[Relationship_ReasonCodeRelationshipId](#Relationship_ReasonCodeRelationshipId)||<a href="MCROrderEventTable.md" target="_blank">Transaction/MCROrderEventTable</a>|
 |[Relationship_SalesLineRelationshipId](#Relationship_SalesLineRelationshipId)||<a href="MCROrderEventTable.md" target="_blank">Transaction/MCROrderEventTable</a>|
 |[Relationship_SalesTableRelationshipId](#Relationship_SalesTableRelationshipId)||<a href="MCROrderEventTable.md" target="_blank">Transaction/MCROrderEventTable</a>|
 |[Relationship_CompanyRelationshipId](#Relationship_CompanyRelationshipId)||<a href="MCROrderEventTable.md" target="_blank">Transaction/MCROrderEventTable</a>|
@@ -967,32 +963,6 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 **is.dataFormat.array**  
 </details>
 
-### <a href=#Relationship_CustCreditReasonCodeRelationshipId name="Relationship_CustCreditReasonCodeRelationshipId">Relationship_CustCreditReasonCodeRelationshipId</a>
-
-First included in: Transaction/MCROrderEventTable (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the Relationship_CustCreditReasonCodeRelationshipId attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.guid**  
-**means.identity.entityId**  
-**is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Commerce/Retail/Main/RetailInformationSubcodeTable.md" target="_blank">/core/operationsCommon/Tables/Commerce/Retail/Main/RetailInformationSubcodeTable.cdm.json/RetailInformationSubcodeTable</a></td><td><a href="../../../Commerce/Retail/Main/RetailInformationSubcodeTable.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-**is.dataFormat.guid**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
-
 ### <a href=#Relationship_DefaultDimensionRelationshipId name="Relationship_DefaultDimensionRelationshipId">Relationship_DefaultDimensionRelationshipId</a>
 
 First included in: Transaction/MCROrderEventTable (this entity)  
@@ -1201,58 +1171,6 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 **is.dataFormat.array**  
 </details>
 
-### <a href=#Relationship_PriceOverrideMiscChargeReasonCodeRelationshipId name="Relationship_PriceOverrideMiscChargeReasonCodeRelationshipId">Relationship_PriceOverrideMiscChargeReasonCodeRelationshipId</a>
-
-First included in: Transaction/MCROrderEventTable (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the Relationship_PriceOverrideMiscChargeReasonCodeRelationshipId attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.guid**  
-**means.identity.entityId**  
-**is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Commerce/Retail/Main/RetailInformationSubcodeTable.md" target="_blank">/core/operationsCommon/Tables/Commerce/Retail/Main/RetailInformationSubcodeTable.cdm.json/RetailInformationSubcodeTable</a></td><td><a href="../../../Commerce/Retail/Main/RetailInformationSubcodeTable.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-**is.dataFormat.guid**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
-
-### <a href=#Relationship_PriceOverrideReasonCodeRelationshipId name="Relationship_PriceOverrideReasonCodeRelationshipId">Relationship_PriceOverrideReasonCodeRelationshipId</a>
-
-First included in: Transaction/MCROrderEventTable (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the Relationship_PriceOverrideReasonCodeRelationshipId attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.guid**  
-**means.identity.entityId**  
-**is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Commerce/Retail/Main/RetailInformationSubcodeTable.md" target="_blank">/core/operationsCommon/Tables/Commerce/Retail/Main/RetailInformationSubcodeTable.cdm.json/RetailInformationSubcodeTable</a></td><td><a href="../../../Commerce/Retail/Main/RetailInformationSubcodeTable.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-**is.dataFormat.guid**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
-
 ### <a href=#Relationship_PurchTableRelationshipId name="Relationship_PurchTableRelationshipId">Relationship_PurchTableRelationshipId</a>
 
 First included in: Transaction/MCROrderEventTable (this entity)  
@@ -1299,32 +1217,6 @@ First included in: Transaction/MCROrderEventTable (this entity)
 **means.identity.entityId**  
 **is.linkedEntity.identifier**  
 Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../WorksheetHeader/SalesQuotationTable.md" target="_blank">/core/operationsCommon/Tables/SupplyChain/SalesAndMarketing/WorksheetHeader/SalesQuotationTable.cdm.json/SalesQuotationTable</a></td><td><a href="../WorksheetHeader/SalesQuotationTable.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-**is.dataFormat.guid**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
-
-### <a href=#Relationship_ReasonCodeRelationshipId name="Relationship_ReasonCodeRelationshipId">Relationship_ReasonCodeRelationshipId</a>
-
-First included in: Transaction/MCROrderEventTable (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the Relationship_ReasonCodeRelationshipId attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.guid**  
-**means.identity.entityId**  
-**is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Commerce/Retail/Main/RetailInformationSubcodeTable.md" target="_blank">/core/operationsCommon/Tables/Commerce/Retail/Main/RetailInformationSubcodeTable.cdm.json/RetailInformationSubcodeTable</a></td><td><a href="../../../Commerce/Retail/Main/RetailInformationSubcodeTable.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  

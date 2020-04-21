@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/20/2020
+ms.date: 4/21/2020
 ms.author: nebanfic
 ---
 
@@ -68,7 +68,6 @@ ms.author: nebanfic
 |[Relationship_CreditCardProcessorsRelationshipId](#Relationship_CreditCardProcessorsRelationshipId)||<a href="CreditCardAuthTrans.md" target="_blank">Transaction/CreditCardAuthTrans</a>|
 |[Relationship_CurrencyRelationshipId](#Relationship_CurrencyRelationshipId)||<a href="CreditCardAuthTrans.md" target="_blank">Transaction/CreditCardAuthTrans</a>|
 |[Relationship_MCRCustInvoiceIdRelationshipId](#Relationship_MCRCustInvoiceIdRelationshipId)||<a href="CreditCardAuthTrans.md" target="_blank">Transaction/CreditCardAuthTrans</a>|
-|[Relationship_MCRCustPaymTableRelationshipId](#Relationship_MCRCustPaymTableRelationshipId)||<a href="CreditCardAuthTrans.md" target="_blank">Transaction/CreditCardAuthTrans</a>|
 |[Relationship_MCRLedgerJournalTableRelationshipId](#Relationship_MCRLedgerJournalTableRelationshipId)||<a href="CreditCardAuthTrans.md" target="_blank">Transaction/CreditCardAuthTrans</a>|
 |[Relationship_MCRPaymSchedRelationshipId](#Relationship_MCRPaymSchedRelationshipId)||<a href="CreditCardAuthTrans.md" target="_blank">Transaction/CreditCardAuthTrans</a>|
 |[Relationship_SalesInvoiceRelationshipId](#Relationship_SalesInvoiceRelationshipId)||<a href="CreditCardAuthTrans.md" target="_blank">Transaction/CreditCardAuthTrans</a>|
@@ -724,32 +723,6 @@ First included in: Transaction/CreditCardAuthTrans (this entity)
 **means.identity.entityId**  
 **is.linkedEntity.identifier**  
 Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../WorksheetHeader/CustInvoiceTable.md" target="_blank">/core/operationsCommon/Tables/Finance/AccountsReceivable/WorksheetHeader/CustInvoiceTable.cdm.json/CustInvoiceTable</a></td><td><a href="../WorksheetHeader/CustInvoiceTable.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-**is.dataFormat.guid**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
-
-### <a href=#Relationship_MCRCustPaymTableRelationshipId name="Relationship_MCRCustPaymTableRelationshipId">Relationship_MCRCustPaymTableRelationshipId</a>
-
-First included in: Transaction/CreditCardAuthTrans (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the Relationship_MCRCustPaymTableRelationshipId attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.guid**  
-**means.identity.entityId**  
-**is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Commerce/Retail/Transaction/MCRCustPaymTable.md" target="_blank">/core/operationsCommon/Tables/Commerce/Retail/Transaction/MCRCustPaymTable.cdm.json/MCRCustPaymTable</a></td><td><a href="../../../Commerce/Retail/Transaction/MCRCustPaymTable.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  

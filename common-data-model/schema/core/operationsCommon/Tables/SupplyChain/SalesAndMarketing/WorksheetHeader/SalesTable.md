@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/20/2020
+ms.date: 4/21/2020
 ms.author: nebanfic
 ---
 
@@ -264,7 +264,6 @@ ms.author: nebanfic
 |[Relationship_LanguageTableRelationshipId](#Relationship_LanguageTableRelationshipId)||<a href="SalesTable.md" target="_blank">WorksheetHeader/SalesTable</a>|
 |[Relationship_MarkupGroupRelationshipId](#Relationship_MarkupGroupRelationshipId)||<a href="SalesTable.md" target="_blank">WorksheetHeader/SalesTable</a>|
 |[Relationship_MCRHoldCodeTransRelationshipId](#Relationship_MCRHoldCodeTransRelationshipId)||<a href="SalesTable.md" target="_blank">WorksheetHeader/SalesTable</a>|
-|[Relationship_MCRInstallmentPlanSalesTableRelationshipId](#Relationship_MCRInstallmentPlanSalesTableRelationshipId)||<a href="SalesTable.md" target="_blank">WorksheetHeader/SalesTable</a>|
 |[Relationship_NumberSequenceGroupRelationshipId](#Relationship_NumberSequenceGroupRelationshipId)||<a href="SalesTable.md" target="_blank">WorksheetHeader/SalesTable</a>|
 |[Relationship_OrderCustomerRelationshipId](#Relationship_OrderCustomerRelationshipId)||<a href="SalesTable.md" target="_blank">WorksheetHeader/SalesTable</a>|
 |[Relationship_PaymSchedRelationshipId](#Relationship_PaymSchedRelationshipId)||<a href="SalesTable.md" target="_blank">WorksheetHeader/SalesTable</a>|
@@ -290,7 +289,6 @@ ms.author: nebanfic
 |[Relationship_TaxWithholdGroupHeadingTCS_INRelationshipId](#Relationship_TaxWithholdGroupHeadingTCS_INRelationshipId)||<a href="SalesTable.md" target="_blank">WorksheetHeader/SalesTable</a>|
 |[Relationship_TaxWithholdGroupHeadingTDS_INRelationshipId](#Relationship_TaxWithholdGroupHeadingTDS_INRelationshipId)||<a href="SalesTable.md" target="_blank">WorksheetHeader/SalesTable</a>|
 |[Relationship_TransportationDocumentRelationshipId](#Relationship_TransportationDocumentRelationshipId)||<a href="SalesTable.md" target="_blank">WorksheetHeader/SalesTable</a>|
-|[Relationship_RetailChannelRelationshipId](#Relationship_RetailChannelRelationshipId)||<a href="SalesTable.md" target="_blank">WorksheetHeader/SalesTable</a>|
 |[Relationship_SATPaymMethod_MXRelationshipId](#Relationship_SATPaymMethod_MXRelationshipId)||<a href="SalesTable.md" target="_blank">WorksheetHeader/SalesTable</a>|
 |[Relationship_SATPurpose_MXRelationshipId](#Relationship_SATPurpose_MXRelationshipId)||<a href="SalesTable.md" target="_blank">WorksheetHeader/SalesTable</a>|
 |[Relationship_SATIncotermCode_MXRelationshipId](#Relationship_SATIncotermCode_MXRelationshipId)||<a href="SalesTable.md" target="_blank">WorksheetHeader/SalesTable</a>|
@@ -4913,32 +4911,6 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 **is.dataFormat.array**  
 </details>
 
-### <a href=#Relationship_MCRInstallmentPlanSalesTableRelationshipId name="Relationship_MCRInstallmentPlanSalesTableRelationshipId">Relationship_MCRInstallmentPlanSalesTableRelationshipId</a>
-
-First included in: WorksheetHeader/SalesTable (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the Relationship_MCRInstallmentPlanSalesTableRelationshipId attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.guid**  
-**means.identity.entityId**  
-**is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Commerce/Retail/Main/MCRInstallmentPlanSalesTable.md" target="_blank">/core/operationsCommon/Tables/Commerce/Retail/Main/MCRInstallmentPlanSalesTable.cdm.json/MCRInstallmentPlanSalesTable</a></td><td><a href="../../../Commerce/Retail/Main/MCRInstallmentPlanSalesTable.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-**is.dataFormat.guid**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
-
 ### <a href=#Relationship_NumberSequenceGroupRelationshipId name="Relationship_NumberSequenceGroupRelationshipId">Relationship_NumberSequenceGroupRelationshipId</a>
 
 First included in: WorksheetHeader/SalesTable (this entity)  
@@ -5583,32 +5555,6 @@ First included in: WorksheetHeader/SalesTable (this entity)
 **means.identity.entityId**  
 **is.linkedEntity.identifier**  
 Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Finance/AccountsReceivable/WorksheetHeader/TransportationDocument.md" target="_blank">/core/operationsCommon/Tables/Finance/AccountsReceivable/WorksheetHeader/TransportationDocument.cdm.json/TransportationDocument</a></td><td><a href="../../../Finance/AccountsReceivable/WorksheetHeader/TransportationDocument.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-**is.dataFormat.guid**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
-
-### <a href=#Relationship_RetailChannelRelationshipId name="Relationship_RetailChannelRelationshipId">Relationship_RetailChannelRelationshipId</a>
-
-First included in: WorksheetHeader/SalesTable (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the Relationship_RetailChannelRelationshipId attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.guid**  
-**means.identity.entityId**  
-**is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Commerce/Retail/Main/RetailChannelTable.md" target="_blank">/core/operationsCommon/Tables/Commerce/Retail/Main/RetailChannelTable.cdm.json/RetailChannelTable</a></td><td><a href="../../../Commerce/Retail/Main/RetailChannelTable.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  

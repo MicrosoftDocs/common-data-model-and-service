@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/20/2020
+ms.date: 4/21/2020
 ms.author: nebanfic
 ---
 
@@ -53,8 +53,6 @@ ms.author: nebanfic
 |[CFMPrepayment](#CFMPrepayment)||<a href="CustPaymSchedLine.md" target="_blank">TransactionLine/CustPaymSchedLine</a>|
 |[DataAreaId](#DataAreaId)||<a href="CustPaymSchedLine.md" target="_blank">TransactionLine/CustPaymSchedLine</a>|
 |[Relationship_CustPaymentSchedRelationshipId](#Relationship_CustPaymentSchedRelationshipId)||<a href="CustPaymSchedLine.md" target="_blank">TransactionLine/CustPaymSchedLine</a>|
-|[Relationship_MCRContinuityPaymentRelationshipId](#Relationship_MCRContinuityPaymentRelationshipId)||<a href="CustPaymSchedLine.md" target="_blank">TransactionLine/CustPaymSchedLine</a>|
-|[Relationship_MCRInstallmentPaymentRelationshipId](#Relationship_MCRInstallmentPaymentRelationshipId)||<a href="CustPaymSchedLine.md" target="_blank">TransactionLine/CustPaymSchedLine</a>|
 |[Relationship_CompanyRelationshipId](#Relationship_CompanyRelationshipId)||<a href="CustPaymSchedLine.md" target="_blank">TransactionLine/CustPaymSchedLine</a>|
 
 ### <a href=#RecId name="RecId">RecId</a>
@@ -404,58 +402,6 @@ First included in: TransactionLine/CustPaymSchedLine (this entity)
 **means.identity.entityId**  
 **is.linkedEntity.identifier**  
 Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../Transaction/CustPaymSched.md" target="_blank">/core/operationsCommon/Tables/Finance/Bank/Transaction/CustPaymSched.cdm.json/CustPaymSched</a></td><td><a href="../Transaction/CustPaymSched.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-**is.dataFormat.guid**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
-
-### <a href=#Relationship_MCRContinuityPaymentRelationshipId name="Relationship_MCRContinuityPaymentRelationshipId">Relationship_MCRContinuityPaymentRelationshipId</a>
-
-First included in: TransactionLine/CustPaymSchedLine (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the Relationship_MCRContinuityPaymentRelationshipId attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.guid**  
-**means.identity.entityId**  
-**is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Commerce/Retail/Transaction/MCRContinuityPayment.md" target="_blank">/core/operationsCommon/Tables/Commerce/Retail/Transaction/MCRContinuityPayment.cdm.json/MCRContinuityPayment</a></td><td><a href="../../../Commerce/Retail/Transaction/MCRContinuityPayment.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-**is.dataFormat.guid**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
-
-### <a href=#Relationship_MCRInstallmentPaymentRelationshipId name="Relationship_MCRInstallmentPaymentRelationshipId">Relationship_MCRInstallmentPaymentRelationshipId</a>
-
-First included in: TransactionLine/CustPaymSchedLine (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the Relationship_MCRInstallmentPaymentRelationshipId attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.guid**  
-**means.identity.entityId**  
-**is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Commerce/Retail/Transaction/MCRInstallmentPayment.md" target="_blank">/core/operationsCommon/Tables/Commerce/Retail/Transaction/MCRInstallmentPayment.cdm.json/MCRInstallmentPayment</a></td><td><a href="../../../Commerce/Retail/Transaction/MCRInstallmentPayment.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  

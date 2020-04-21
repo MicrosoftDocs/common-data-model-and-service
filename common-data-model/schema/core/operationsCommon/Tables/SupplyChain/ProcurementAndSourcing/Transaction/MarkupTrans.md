@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/20/2020
+ms.date: 4/21/2020
 ms.author: nebanfic
 ---
 
@@ -139,7 +139,6 @@ ms.author: nebanfic
 |[Relationship_CustQuotationTransRelationshipId](#Relationship_CustQuotationTransRelationshipId)||<a href="MarkupTrans.md" target="_blank">Transaction/MarkupTrans</a>|
 |[Relationship_GoodsInRouteJour_RURelationshipId](#Relationship_GoodsInRouteJour_RURelationshipId)||<a href="MarkupTrans.md" target="_blank">Transaction/MarkupTrans</a>|
 |[Relationship_MarkupTableRelationshipId](#Relationship_MarkupTableRelationshipId)||<a href="MarkupTrans.md" target="_blank">Transaction/MarkupTrans</a>|
-|[Relationship_MCRPriceOverrideReasonRelationshipId](#Relationship_MCRPriceOverrideReasonRelationshipId)||<a href="MarkupTrans.md" target="_blank">Transaction/MarkupTrans</a>|
 |[Relationship_ProjInvoiceItemRelationshipId](#Relationship_ProjInvoiceItemRelationshipId)||<a href="MarkupTrans.md" target="_blank">Transaction/MarkupTrans</a>|
 |[Relationship_PurchLineRelationshipId](#Relationship_PurchLineRelationshipId)||<a href="MarkupTrans.md" target="_blank">Transaction/MarkupTrans</a>|
 |[Relationship_PurchLineOrigRelationshipId](#Relationship_PurchLineOrigRelationshipId)||<a href="MarkupTrans.md" target="_blank">Transaction/MarkupTrans</a>|
@@ -2326,32 +2325,6 @@ First included in: Transaction/MarkupTrans (this entity)
 **means.identity.entityId**  
 **is.linkedEntity.identifier**  
 Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../Group/MarkupTable.md" target="_blank">/core/operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/Group/MarkupTable.cdm.json/MarkupTable</a></td><td><a href="../Group/MarkupTable.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-**is.dataFormat.guid**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
-
-### <a href=#Relationship_MCRPriceOverrideReasonRelationshipId name="Relationship_MCRPriceOverrideReasonRelationshipId">Relationship_MCRPriceOverrideReasonRelationshipId</a>
-
-First included in: Transaction/MarkupTrans (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the Relationship_MCRPriceOverrideReasonRelationshipId attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.guid**  
-**means.identity.entityId**  
-**is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Commerce/Retail/Main/RetailInformationSubcodeTable.md" target="_blank">/core/operationsCommon/Tables/Commerce/Retail/Main/RetailInformationSubcodeTable.cdm.json/RetailInformationSubcodeTable</a></td><td><a href="../../../Commerce/Retail/Main/RetailInformationSubcodeTable.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  

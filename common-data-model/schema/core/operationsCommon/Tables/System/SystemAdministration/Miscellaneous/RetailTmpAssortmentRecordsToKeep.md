@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/20/2020
+ms.date: 4/21/2020
 ms.author: nebanfic
 ---
 
@@ -38,7 +38,6 @@ ms.author: nebanfic
 |[RecId](#RecId)||<a href="RetailTmpAssortmentRecordsToKeep.md" target="_blank">Miscellaneous/RetailTmpAssortmentRecordsToKeep</a>|
 |[AssortmentExplodedRecId](#AssortmentExplodedRecId)||<a href="RetailTmpAssortmentRecordsToKeep.md" target="_blank">Miscellaneous/RetailTmpAssortmentRecordsToKeep</a>|
 |[DataAreaId](#DataAreaId)||<a href="RetailTmpAssortmentRecordsToKeep.md" target="_blank">Miscellaneous/RetailTmpAssortmentRecordsToKeep</a>|
-|[Relationship_RetailAssortmentExplodedRelationshipId](#Relationship_RetailAssortmentExplodedRelationshipId)||<a href="RetailTmpAssortmentRecordsToKeep.md" target="_blank">Miscellaneous/RetailTmpAssortmentRecordsToKeep</a>|
 |[Relationship_CompanyRelationshipId](#Relationship_CompanyRelationshipId)||<a href="RetailTmpAssortmentRecordsToKeep.md" target="_blank">Miscellaneous/RetailTmpAssortmentRecordsToKeep</a>|
 
 ### <a href=#RecId name="RecId">RecId</a>
@@ -100,32 +99,6 @@ First included in: Miscellaneous/RetailTmpAssortmentRecordsToKeep (this entity)
 **is.dataFormat.big**  
 **is.dataFormat.array**  
 **is.readOnly**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
-
-### <a href=#Relationship_RetailAssortmentExplodedRelationshipId name="Relationship_RetailAssortmentExplodedRelationshipId">Relationship_RetailAssortmentExplodedRelationshipId</a>
-
-First included in: Miscellaneous/RetailTmpAssortmentRecordsToKeep (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the Relationship_RetailAssortmentExplodedRelationshipId attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.guid**  
-**means.identity.entityId**  
-**is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Commerce/Retail/Miscellaneous/RetailAssortmentExploded.md" target="_blank">/core/operationsCommon/Tables/Commerce/Retail/Miscellaneous/RetailAssortmentExploded.cdm.json/RetailAssortmentExploded</a></td><td><a href="../../../Commerce/Retail/Miscellaneous/RetailAssortmentExploded.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-**is.dataFormat.guid**  
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
