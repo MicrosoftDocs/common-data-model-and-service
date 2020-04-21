@@ -193,9 +193,9 @@ A manifest has a collection of manifest declarations called SubManifests.
 
 ## Entity relationships
 
-A manifest may contain a list of the known entity-to-entity relationships that involve the entities in the manifest. When data is stored in a lake in relational form, where different entities are stored in separate sets of data partitions, these relationships are expressed in the data through foreign key references in one entity’s partitions that line up with primary key values from another entity.
+A manifest may contain a list of the known entity-to-entity relationships. When you store relational data in a lake, you store the different entities in separate sets of data partitions.  these relationships are expressed in the data through foreign key references in one entity’s partitions. These foreign key references aling with the primary key values from another entity.
 
-These entity-to-entity relationship descriptions can be extracted from some external metadata repository and stored in the manifest through some automation, or simply listed in the document through some other means. As an alternative, the Common Data Model object model offers functionality to analyze the logical metadata of the entities in the corpus and populate the discovered relationships for a manifest.
+These entity-to-entity relationship descriptions can be extracted from an external metadata repository and stored in the manifest through automation, or simply listed in the document through other means. Alternatively, the Common Data Model object model offers functionality to analyze the logical metadata of the entities in the corpus and populate the discovered relationships for a manifest.
 
 Currently, only single attribute relationships are supported. All relationships are modeled from the many side to the one side—that is, from the referencing entity to the one referenced record in another entity. A “many-to-many” relationship is modeled from the intersection entity, which correlates two “many-to-one” relationships.
 
