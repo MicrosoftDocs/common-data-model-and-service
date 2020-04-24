@@ -5,7 +5,7 @@ author: oovanesy
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 04/10/2020
+ms.date: 04/23/2020
 ms.author: olegov
 ---
 
@@ -231,13 +231,12 @@ The meanings of these times and the scope of the [FileStatusCheckAsync()](1.0om/
 |Local entity|Checks the schema documents and all data partitions and patterns for the entity.|
 |Referenced entity|Checks the remote manifest document.|
 |Data partition|Checks the file indicated by the partitions and the optional AlternateSchema document.|
-|Data partiton pattern|Invokes the evaluation of the data partition pattern and creation of new partitions.|
+|Data partition pattern|Invokes the evaluation of the data partition pattern and creation of new partitions.|
 |Sub-manifest|Checks the sub-manifest file.|
 
 ## Example manifest document
 
-This sample manifest document demonstrates each of the above-mentioned
-capabilities for the manifest object:
+This sample manifest document demonstrates each of the above-mentioned capabilities for the manifest object:
 
 ```json
 {
