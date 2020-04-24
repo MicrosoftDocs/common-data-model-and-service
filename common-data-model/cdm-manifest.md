@@ -193,7 +193,7 @@ A manifest has a collection of manifest declarations called SubManifests.
 
 ## Entity relationships
 
-A manifest may contain a list of the known entity-to-entity relationships. When you store relational data in a lake, you store the different entities in separate sets of data partitions.  these relationships are expressed in the data through foreign key references in one entity’s partitions. These foreign key references aling with the primary key values from another entity.
+A manifest may contain a list of the known entity-to-entity relationships. When you store relational data in a lake, you store the different entities in separate sets of data partitions.  these relationships are expressed in the data through foreign key references in one entity’s partitions. These foreign key references align with the primary key values from another entity.
 
 These entity-to-entity relationship descriptions can be extracted from an external metadata repository and stored in the manifest through automation, or simply listed in the document through other means. Alternatively, the Common Data Model object model offers functionality to analyze the logical metadata of the entities in the corpus and populate the discovered relationships for a manifest.
 
@@ -210,20 +210,20 @@ Currently, only single-attribute relationships are supported. All relationships 
 
 |Method|Description|
 |---|---|
-|[CdmCorpusDefinition.CalculateEntityGraphAsync(...)](0.9om/api-reference/cdm/corpus.md#methods)|Causes the corpus to calculate and cache knowledge about all entity-to-entity relationships found in the logical entity descriptions for the given manifest, and all of the sub-manifests that it indicates.|
-|[CdmManifestDefinition.PopulateManifestRelationshipsAsync(...)](0.9om/api-reference/cdm/manifest.md#methods)|The manifest uses the graph of relationships held in the corpus to create the set of relationship descriptions for any entity that is on either the **one** side or the **many** side of a known relationship.|
+|[CdmCorpusDefinition.CalculateEntityGraphAsync(...)](1.0om/api-reference/cdm/corpus.md#methods)|Causes the corpus to calculate and cache knowledge about all entity-to-entity relationships found in the logical entity descriptions for the given manifest, and all of the sub-manifests that it indicates.|
+|[CdmManifestDefinition.PopulateManifestRelationshipsAsync(...)](1.0om/api-reference/cdm/manifest.md#methods)|The manifest uses the graph of relationships held in the corpus to create the set of relationship descriptions for any entity that is on either the **one** side or the **many** side of a known relationship.|
 
 ## File status check and modified times
 
-The manifest object and the objects it contains collect and report information about the modification times for the files being referenced. The following properties are shared:
+The manifest object and the objects it contains, collect and report information about the modification times for the files being referenced. The following properties are shared:
 
 |Property|Description|
 |---|---|
-|LastFileStatusCheckTime|The last time that the status of files and sub-objects was checked. Set directly using application logic or indirectly by the [FileStatusCheckAsync()](0.9om/api-reference/cdm/manifest.md#methods) method.|
+|LastFileStatusCheckTime|The last time that the status of files and sub-objects was checked. Set directly using application logic or indirectly by the [FileStatusCheckAsync()](1.0om/api-reference/cdm/manifest.md#methods) method.|
 |LastFileModifiedTime|The last time reported from the file system about modifications, saving of the files, or objects tracked.|
-|LastChildFileModifiedTime|The greatest last time reported by any of the child objects about their file status check times. Since the [FileStatusCheckAsync()](0.9om/api-reference/cdm/manifest.md#methods) method can be called on individual objects, or individual files can be updated at different times, this property will help locate the latest changed child.|
+|LastChildFileModifiedTime|The greatest last time reported by any of the child objects about their file status check times. Since the [FileStatusCheckAsync()](1.0om/api-reference/cdm/manifest.md#methods) method can be called on individual objects, or individual files can be updated at different times, this property will help locate the latest changed child.|
 
-The meanings of these times and the scope of the [FileStatusCheckAsync()](0.9om/api-reference/cdm/manifest.md#methods) method depend upon the specific object.
+The meanings of these times and the scope of the [FileStatusCheckAsync()](1.0om/api-reference/cdm/manifest.md#methods) method depend upon the specific object.
 
 |Object|FileStatusCheckAsync()|
 |---|---|
@@ -241,110 +241,88 @@ capabilities for the manifest object:
 
 ```json
 {
-   "manifestName":"MySolution",
-   "jsonSchemaSemanticVersion":"0.9.0",
-   "imports":[
-      {
-         "corpusPath":"cdm:/foundations.cdm.json"
-      }
-   ],
-   "lastFileStatusCheckTime":"2019-10-01T02:09:08Z",
-   "lastFileModifiedTime":"2019-10-01T02:09:08Z",
-   "lastChildFileModifiedTime":"2019-10-01T02:09:08Z",
-   "entities":[
-      {
-         "entityName":"Person",
-         "entitySchema":"PersonData/Person.cdm.json/Person",
-         "dataPartitions":[
-            {
-               "location":"PersonData/all-people.csv",
-               "exhibitsTraits":[
-                  {
-                     "traitReference":"is.partition.format.CSV",
-                     "arguments":[
-                        {
-                           "name":"columnHeaders",
-                           "value":"true"
-                        },
-                        {
-                           "name":"delimiter",
-                           "value":","
-                        }
-                     ]
-                  }
-               ]
-            }
-         ]
-      },
-      {
-         "entityName":"EmailMessage",
-         "entityPath":"EmailMessageData/EmailMessage.cdm.json/EmailMessage",
-         "dataPartitions":[
-            {
-               "location":"EmailMessageData/Sep/emails.csv",
-               "exhibitsTraits":[],
-               "arguments":[
-                  {
-                     "month":[
-                        "Sep"
-                     ]
-                  }
-               ],
-               "lastFileStatusCheckTime":"2019-10-01T02:09:08Z",
-               "lastFileModifiedTime":"2019-09-01T02:19:06Z"
-            },
-            {
-               "location":"EmailMessageData/Oct/emails.csv",
-               "exhibitsTraits":[],
-               "arguments":[
-                  {
-                     "month":[
-                        "Oct"
-                     ]
-                  }
-               ],
-               "lastFileStatusCheckTime":"2019-10-01T02:09:08Z",
-               "lastFileModifiedTime":"2019-10-01T02:09:08Z"
-            }
-         ],
-         "dataPartitionPatterns":[
-            {
-               "name":"EmailByMonth",
-               "rootLocation":"EmailMessageData/",
-               // This pattern is what describes the partitions found above 
-               "regularExpression":"(\\\\w{3})/emails.csv)",
-               "parameters":[
-                  "month"
-               ]
-            }
-         ],
-         "lastFileStatusCheckTime":"2019-10-01T02:09:08Z",
-         "lastFileModifiedTime":"2019-09-27T02:09:08.149Z",
-         "lastChildFileModifiedTime":"2019-09-27T02:09:08.149Z"
-      },
-      {
-         // This is a referenced entity declaration. 
-         // We are just pointing at another manifest and entity.
-         "entityName":"FrequentPairs",
-         "explanation":"Borrow the analysis of frequent email pairs from that project",
-         "entityPath":"networkProject/NetworkAnalysis.manifest.cdm.json/FrequentPairs"
-      }
-   ],
-   "relationships":[
-      // A relationship between the entities.
-      {
-         "fromEntity":"EmailMessageData/EmailMessage.cdm.json/EmailMessage",
-         "fromEntityAttribute":"ownerId",
-         "toEntity":"PersonData/Person.cdm.json/Person",
-         "toEntityAttribute":"personId"
-      }
-   ],
-   "submanifests":[
-      // This sub-manifest is independent but described here so we know it's related
-      {
-         "name":"NetworkAnalysis",
-         "definition":"networkProject/NetworkAnalysis.manifest.cdm.json"
-      }
-   ]
+    "manifestName": "MySolution",
+    "jsonSchemaSemanticVersion": "0.9.0",
+    "imports": [{
+        "corpusPath": "cdm:/foundations.cdm.json"
+    }],
+    "lastFileStatusCheckTime": "2019-10-01T02:09:08Z",
+    "lastFileModifiedTime": "2019-10-01T02:09:08Z",
+    "lastChildFileModifiedTime": "2019-10-01T02:09:08Z",
+    "entities": [{
+        "entityName": "Person",
+        "entitySchema": "PersonData/Person.cdm.json/Person",
+        "dataPartitions": [{
+            "location": "PersonData/all-people.csv",
+            "exhibitsTraits": [{
+                "traitReference": "is.partition.format.CSV",
+                "arguments": [{
+                    "name": "columnHeaders",
+                    "value": "true"
+                }, {
+                    "name": "delimiter",
+                    "value": ","
+                }]
+            }]
+        }]
+    }, {
+        "entityName": "EmailMessage",
+        "entityPath": "EmailMessageData/EmailMessage.cdm.json/EmailMessage",
+        "dataPartitions": [{
+            "location": "EmailMessageData/Sep/emails.csv",
+            "exhibitsTraits": [],
+            "arguments": [{
+                "month": [
+                    "Sep"
+                ]
+            }],
+            "lastFileStatusCheckTime": "2019-10-01T02:09:08Z",
+            "lastFileModifiedTime": "2019-09-01T02:19:06Z"
+        }, {
+            "location": "EmailMessageData/Oct/emails.csv",
+            "exhibitsTraits": [],
+            "arguments": [{
+                "month": [
+                    "Oct"
+                ]
+            }],
+            "lastFileStatusCheckTime": "2019-10-01T02:09:08Z",
+            "lastFileModifiedTime": "2019-10-01T02:09:08Z"
+        }],
+        "dataPartitionPatterns": [{
+            "name": "EmailByMonth",
+            "rootLocation": "EmailMessageData/",
+            // This pattern is what describes the partitions found above 
+            "regularExpression": "(\\\\w{3})/emails.csv)",
+            "parameters": [
+                "month"
+            ]
+        }],
+        "lastFileStatusCheckTime": "2019-10-01T02:09:08Z",
+        "lastFileModifiedTime": "2019-09-27T02:09:08.149Z",
+        "lastChildFileModifiedTime": "2019-09-27T02:09:08.149Z"
+    }, {
+        // This is a referenced entity declaration. 
+        // We are just pointing at another manifest and entity.
+        "entityName": "FrequentPairs",
+        "explanation": "Borrow the analysis of frequent email pairs from that project",
+        "entityPath": "networkProject/NetworkAnalysis.manifest.cdm.json/FrequentPairs"
+    }],
+    "relationships": [
+        // A relationship between the entities.
+        {
+            "fromEntity": "EmailMessageData/EmailMessage.cdm.json/EmailMessage",
+            "fromEntityAttribute": "ownerId",
+            "toEntity": "PersonData/Person.cdm.json/Person",
+            "toEntityAttribute": "personId"
+        }
+    ],
+    "submanifests": [
+        // This sub-manifest is independent but described here so we know it's related
+        {
+            "name": "NetworkAnalysis",
+            "definition": "networkProject/NetworkAnalysis.manifest.cdm.json"
+        }
+    ]
 }
 ```
