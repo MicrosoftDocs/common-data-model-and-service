@@ -48,7 +48,9 @@ Common Data Model simplifies data management and app development by unifying dat
 
 ## Common Data Model in action
 
-Microsoft and its partners use Common Data Model for their own apps and offerings, and are building additional services and offerings based on Common Data Model schemas. 
+Common Data Model is influenced by data schemas that are present in Dynamics 365, covering a range of business areas. If you are a customer or a partner using Dynamics 365, you are already using Common Data Model. 
+
+Thousands of independent software vendors (ISVs) and their partners use Common Data Model for their own solutions, and are building services and offerings based on Common Data Model schemas. 
 
 Organizations from industries such as healthcare are working closely with Microsoft to extend the Common Data Model to their specific business concepts&mdash;for example, **Patient** and **Care Plan**&mdash;through [industry solution accelerators](industry-accelerators.md). This extends the benefit of the Common Data Model standard entities to these verticals so that industry solutions can interoperate more easily.
 
