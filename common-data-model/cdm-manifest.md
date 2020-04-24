@@ -56,7 +56,7 @@ The manifest object and the Common Data Model objects it contains, share some pr
 |\*\*\*Name|The name of the object where \*\*\* is the type of the object (for example, ManifestName).|
 |Explanation|A string that documents the use or meaning of the object or reference.|
 |ExhibitsTraits| A collection of Common Data Model trait references that provides detailed meanings, semantics, usage parameters, or other application specific metadata.|
-|[FileStatusCheckAsync()](0.9om/api-reference/cdm/manifest.md#methods)| A method that updates the information about the modified times for the files that the model references.|
+|[FileStatusCheckAsync()](1.0om/api-reference/cdm/manifest.md#methods)| A method that updates the information about the modified times for the files that the model references.|
 |File status times|See [file status check and modified times](cdm-manifest.md#file-status-check-and-modified-times).|
 
 ## Entities
@@ -197,12 +197,12 @@ A manifest may contain a list of the known entity-to-entity relationships. When 
 
 These entity-to-entity relationship descriptions can be extracted from an external metadata repository and stored in the manifest through automation, or simply listed in the document through other means. Alternatively, the Common Data Model object model offers functionality to analyze the logical metadata of the entities in the corpus and populate the discovered relationships for a manifest.
 
-Currently, only single attribute relationships are supported. All relationships are modeled from the many side to the one side—that is, from the referencing entity to the one referenced record in another entity. A “many-to-many” relationship is modeled from the intersection entity, which correlates two “many-to-one” relationships.
+Currently, only single-attribute relationships are supported. All relationships are modeled from the "many side" to the "one side", that is, from the referencing entity to the one referenced record in another entity. A “many-to-many” relationship is modeled from the intersection entity, which correlates two “many-to-one” relationships.
 
 |Property|Description|
 |---|---|
 |FromEntity|A corpus path to the document or entity on the **many** side of the relationship.|
-|FromEntityAttribute|The name of the referencing entity attribute, a foreign key.|
+|FromEntityAttribute|The name of the referencing entity attribute (a foreign key).|
 |ToEntity|A corpus path to the document or entity on the **one** side of the relationship.|
 |ToEntityAttribute|The name of the referenced entity attribute, often the primary key of that entity.|
 
