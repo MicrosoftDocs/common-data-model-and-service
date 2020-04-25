@@ -25,8 +25,12 @@
         href: banking-accelerator.md
       - name: Healthcare Accelerator
         href: health-accelerator.md
-      - name: Higher-Education Accelerator
-        href: hied-accelerator.md
+      - name: Education Accelerators
+        items:
+          - name: Higher-Education Accelerator
+            href: hied-accelerator.md
+          - name: K-12 Education Accelerator
+            href: k-12-accelerator.md
       - name: Nonprofit Accelerator
         href: NFP-accelerator.md
       - name: Templates
