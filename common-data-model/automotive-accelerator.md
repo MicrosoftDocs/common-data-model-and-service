@@ -5,14 +5,13 @@ author: smithy7
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 07/15/2019
+ms.date: 04/25/2020
 ms.author: smithc
 ---
 
 # The Dynamics 365 Automotive Accelerator
 
 With the [Dynamics 365 Automotive Accelerator](https://appsource.microsoft.com/product/dynamics-365/msauto.msftautomotivecommondatamodel?tab=Overview), you can develop solutions based on entities and attributes that dealerships and OEMs commonly leverage for customer experience and other business processes. These entities include deals, sales contracts, specifications, fleet, warranties, inspection, test drives, branding, business, customer-vehicle relationship, vehicle and equipment, lead, service and after-sales management, and more. The accelerator includes an automotive data model, PowerBI apps, canvas and model-driven sample apps based on connected experiences.
-
 
 The automotive accelerator provides the following to partners and customers:
 
@@ -97,7 +96,7 @@ The opportunity form shows key details, provides deep insights based Dynamics 36
 ![Opportunity form](media/auto-opportunity.png)
 
 ### Vehicle inventory dashboard
-Example of Power BI dashboards embedded within Dynamics 365 in the Automotive Accelerator sample application. With the example vehicle inventiry dashboard, the inventory manager can quickly gain insights into total inventory/assets cost, number of available units, aged inventory value percentage  by model year, list price by model year or drill down into inventory breakdown by month received.
+Example of Power BI dashboards embedded within Dynamics 365 in the Automotive Accelerator sample application. With the example vehicle inventory dashboard, the inventory manager can quickly gain insights into total inventory/assets cost, number of available units, aged inventory value percentage  by model year, list price by model year or drill down into inventory breakdown by month received.
 
 ![Vehicle inventory dashboard](media/auto-vehicleInventory.png)
 
