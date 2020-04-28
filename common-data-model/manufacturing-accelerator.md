@@ -75,3 +75,10 @@ This section provides examples of the forms and dashboards that demonstrate the 
 ## New supplier registration
 The supplier management functionality of the Portal will allow new Suppliers to access the site, by clicking on the “Register” button to apply as a new Supplier and to proceed with the approval process.
 
+> [!div class="mx-imgBorder"]
+> ![Supplier management screen](media/mfg-supplier-mgmt-screen.png "Supplier management screen")
+
+After you select **Register**”, the supplier will need to fill out the basic information on a registration form to begin the approval process, as shown here:
+
+> [!div class="mx-imgBorder"]
+> ![Supplier information screen](media/mfg-supplier-info-screen.png "Supplier information screen")
