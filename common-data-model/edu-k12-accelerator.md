@@ -1,6 +1,6 @@
 ---
 
-title: Dynamics 365 Education K-12 Accelerator Overview| Microsoft Docs
+title: Dynamics 365 Education Accelerator – K12 (Preview) | Microsoft Docs
 description:  Dynamics 365 Education Accelerators provide a uniform platform for those who wish to connect, embed, or extend the Dynamics 365 platform and Power Platform.
 author: MeenooRami
 ms.service: common-data-model
@@ -11,13 +11,13 @@ ms.author: merami
 
 ---
 
-# The Dynamics 365 K-12 Accelerator
+# Dynamics 365 Education Accelerator – K12 (Preview)
 
-The K-12 scenario is released to sit on top of an existing Dynamics 365 instance or Power Apps instance to assist with day to day operations or as a standalone data model for developers. The holistic student profile and educator and community engagement scenario contains the data model, installable scenarios (including standard entity attribute extensions, K-12 specific education entities, pre-built dashboard and portals, sample data) and other tools to help customers and partners build and deploy new solutions.
+The K12 scenario is released to sit on top of an existing Dynamics 365 instance or Power Apps instance to assist with day to day operations or as a standalone data model for developers. The holistic student profile and educator and community engagement scenario contains the data model, installable scenarios (including standard entity attribute extensions, K12 specific education entities, pre-built dashboard and portals, sample data) and other tools to help customers and partners build and deploy new solutions.
 
 The accelerator includes the following features:
 
-- K-12 Student and Parent Portal
+- K12 Student and Parent Portal
 - Collect School paperwork and forms
 - Ability to engage donors and raise funds
 - Student Behavior Management Application
@@ -25,13 +25,13 @@ The accelerator includes the following features:
 
 ## Site-map extensions
 
-With the Dynamics 365 K-12 scenario, schools can optimize student success through optimal understanding of data about the student journey. When the accelerator is installed into Dynamics 365, the experience is transformed into one specifically built for K-12 schools and one that allows schools to quickly build Power Apps and Power BI visualizations.
+With the Dynamics 365 K12 scenario, schools can optimize student success through optimal understanding of data about the student journey. When the accelerator is installed into Dynamics 365, the experience is transformed into one specifically built for K12 schools and one that allows schools to quickly build Power Apps and Power BI visualizations.
 
 ## Entities and workflows
 
-This accelerator provides these entities to support the needs of K-12 schools:
+This accelerator provides these entities to support the needs of K12 schools:
 
-### EDUCATIONCORE
+### EDUCATION CORE
 
 - Contact
 - Account
@@ -60,7 +60,7 @@ This accelerator provides these entities to support the needs of K-12 schools:
 - Scholarship
 - Scholarship Applicant
 
-### K-12
+### K12
 
 - Attendance
 - Grading Period

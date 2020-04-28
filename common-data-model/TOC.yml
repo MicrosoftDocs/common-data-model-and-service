@@ -27,9 +27,9 @@
         items: 
           - name: Overview
             href: edu-overview.md
-          - name: Higher-Education Accelerator
+          - name: Higher education 
             href: hied-accelerator.md
-          - name: K-12 Accelerator
+          - name: K-12
             href: edu-k12-accelerator.md
       - name: Healthcare Accelerator
         href: health-accelerator.md

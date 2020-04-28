@@ -1,6 +1,6 @@
 ---
 
-title: Dynamics 365 Higher-Education Accelerator| Microsoft Docs
+title: Dynamics 365 Education Accelerator – Higher Education | Microsoft Docs
 description: Develop higher education solutions with the extensions to Common Data Model and the built-in forms, views, and dashboards of the Dynamics 365 Higher Education Accelerator.
 author: MeenooRami
 ms.service: common-data-model
@@ -11,7 +11,7 @@ ms.author: merami
 
 ---
 
-# The Dynamics 365 Higher-Education Accelerator
+# Dynamics 365 Education Accelerator – Higher Education
 
 With the [Dynamics 365 Higher Education Accelerator](https://appsource.microsoft.com/product/dynamics-365/mshied.highereducationcommondatamodel?tab=Overview), you can develop solutions that are based on entities and attributes that higher-education institutions use. The accelerator includes entities around student engagement and additional entities around internships, scholarships, grants, and accomplishments. The accelerator also provides entities, fields, forms, views, and dashboards.
 
