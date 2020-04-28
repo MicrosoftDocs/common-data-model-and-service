@@ -1,32 +1,25 @@
 ---
 
-title: Dynamics 365 Higher Education Accelerator \| Microsoft Docs
-
+title: Dynamics 365 Higher-Education Accelerator| Microsoft Docs
 description: Develop higher education solutions with the extensions to Common Data Model and the built-in forms, views, and dashboards of the Dynamics 365 Higher Education Accelerator.
-
 author: MeenooRami
-
 ms.service: common-data-model
-
 ms.reviewer: Deonhe
-
 ms.topic: article
-
-ms.date: 12/20/2019
-
+ms.date: 01/05/2020
 ms.author: merami
 
 ---
 
-# The Dynamics 365 Higher Education Accelerator
-
-## What's new?
+# The Dynamics 365 Higher-Education Accelerator
 
 With the [Dynamics 365 Higher Education Accelerator](https://appsource.microsoft.com/product/dynamics-365/mshied.highereducationcommondatamodel?tab=Overview), you can develop solutions that are based on entities and attributes that higher-education institutions use. The accelerator includes entities around student engagement and additional entities around internships, scholarships, grants, and accomplishments. The accelerator also provides entities, fields, forms, views, and dashboards.
 
 The accelerator now includes the following features:
 
-### Extensions to Common Data Model to include concepts for higher education, including entity definitions and relationships.
+## Common Data Model extensions
+
+It contains extensions to Common Data Model to include concepts for higher education, including entity definitions and relationships:
 
 - Student portal where students can view courses events, and see the history of courses and applications.
 - Business partner dashboard to provide any organization that is willing to engage with the university for events, hackathons, internships, scholarships, and grants.
@@ -126,4 +119,4 @@ This accelerator includes a student dashboard in Dynamics 365 and an institution
 
 - [Additional topics](https://community.dynamics.com/365/b/dynamics365isvsuccess/archive/2018/08/01/dynamics-365-brings-industry-focus-through-the-microsoft-power-platform-and-solution-accelerators) about the accelerators. 
 
-- This [blog post](https://community.dynamics.com/365/b/dynamics365isvsuccess/archive/2018/10/30/early-isvs-building-on-the-new-higher-education-accelerator-and-the-microsoft-power-platform) shows some examples of ISVs building solutions on the Dynamics 365 Higher Education Accelerator.
+- This [blog post](https://community.dynamics.com/365/b/dynamics365isvsuccess/archive/2018/10/30/early-isvs-building-on-the-new-higher-education-accelerator-and-the-microsoft-power-platform) shows some examples of ISVs building solutions on the Dynamics 365 Higher-Education Accelerator.

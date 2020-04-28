@@ -1,9 +1,7 @@
 ---
 
 title: Dynamics 365 Manufacturing Accelerator (preview) | Microsoft Docs
-
 description:  Develop manufacturing solutions with extensions to the Common Data Model. Connect to built-in forms and Dynamics 365 Manufacturing Accelerator views.
-
 author: MeenooRami
 ms.service: common-data-model
 ms.reviewer: v-dehaas
@@ -16,8 +14,6 @@ ms.author: merami
 # The Dynamics 365 Manufacturing Accelerator (Preview)
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
-## Overview
 
 The Manufacturing Accelerator preview release enables manufacturers to quickly develop solutions or extend sample applications tailored to business needs.  This accelerator helps facilitate intelligent supplier relationship management and onboarding.
 
@@ -150,4 +146,4 @@ The supplier has a management experience with two dashboards included in the acc
 
 ## Connect and share feedback
 
-Do you have feedback or need support? Connect with us at dynindaccsupport@microsoft.com.
+Do you have feedback or need support? Contact us at [dynindaccsupport@microsoft.com](mailto:dynindaccsupport@microsoft.com).
