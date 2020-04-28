@@ -50,7 +50,7 @@ The manufacturing data model is developed in collaboration with partners, indust
 ## Entities and workflows
 This accelerator includes these entities to support the supplier relationship management scenario:
 
-**Supplier Onboarding**|**Questionnaire Framework**|**Electronic Communication**|**Workflow**|**Process**|**Power automate**
+|**Supplier Onboarding**|**Questionnaire Framework**|**Electronic Communication**|**Workflow**|**Process**|**Power automate**
 :-----:|:-----:|:-----:|:-----:|:-----:|:-----:
 Account|Question|Account Communication Configuration|Assign Supplier Web Role|Approval process|Add External User
 Contact|Questionnaire Question| |Populate decision fields| | 
