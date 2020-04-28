@@ -119,7 +119,7 @@ Now, the new approved supplier can add additional information about their compan
 > [!div class="mx-imgBorder"]
 > ![Supplier detail screen](media/mfg-supplier-detail-screen.png "Supplier detail screen")
 
-## API Onboarding
+## API onboarding
 When you select **API Onboarding** from the drop-down menu on the main screen, the supplier can add their technical team for EDI transactions and setup.
 
 > [!div class="mx-imgBorder"]
